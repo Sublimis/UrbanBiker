@@ -15,7 +15,7 @@ _**When filing a new bug, please include:**_
 - **Steps** to trigger the problem that are specific, and repeatable
 - **What happens** when you follow the steps, and what you expected to happen instead. Include the exact text of any error messages if applicable (or upload screenshots).
 - **Did this work in a previous version?** If so, also provide the version that it worked in.
-- **OS version**
+- **Device model and Android version**
 
 ### Requesting a feature
 
@@ -23,4 +23,4 @@ Feel free to file new feature requests as an issue on GitHub.
 
 We will respond to you as soon as possible, likely within 24 or 48 hours. If we have any further questions, expect a response back.
 
-IMPORTANT: Issues and feature requests here are public. If you have some more private question, you can write to our e-mail: contact@urban-bike-computer.com.
+IMPORTANT: Issues and feature requests here are public. Please write to our e-mail for more private communication: contact@urban-bike-computer.com.
