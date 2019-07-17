@@ -1,0 +1,1272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="locale">en</string>
+
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="buttonUnderstand">I understand</string>
+
+    <string name="buttonResumeTrack">Resume</string>
+    <string name="buttonNewTrack">Finish</string>
+
+    <string name="menuControlPanel">Control Panel</string>
+    <string name="menuSettings">Settings</string>
+    <string name="menuSummary">Summary</string>
+    <string name="menuTracksHistory">History</string>
+    <string name="menuTracksHistoryResume">Resume</string>
+    <string name="menuMeterLock">Lock</string>
+    <string name="menuMeterLockAll">Lock all</string>
+    <string name="menuMeterMode">Meter mode…</string>
+    <string name="menuMeterChooseModes">Choose modes…</string>
+    <string name="menuMeterNewTrack">New track</string>
+    <string name="menuMeterResetMinMax">Reset min/max</string>
+    <string name="menuMeterReset">Finish</string>
+    <string name="menuMeterParameters">Parameters…</string>
+    <string name="menuMeterPowerMode">Toggle power mode</string>
+    <string name="menuFenceguard">FenceGuard</string>
+    <string name="menuExit">Exit</string>
+    <string name="menuMore">More…</string>
+    <string name="menuView">View</string>
+    <string name="menuViewWith">View with</string>
+    <string name="menuProfiles">Profiles</string>
+    <string name="menuSensors">Sensors</string>
+    <string name="menuAbout">About</string>
+    <string name="menuHelp">Help &amp; Support</string>
+    <string name="menuShare">Share</string>
+    <string name="menuUpload">Upload</string>
+    <string name="menuSelectMode">Select</string>
+    <string name="menuSelectAll">Select all</string>
+    <string name="menuExpandAll">Expand all</string>
+    <string name="menuCollapseAll">Collapse all</string>
+    <string name="menuEdit">Edit</string>
+    <string name="menuDelete">Delete</string>
+    <string name="menuClear">Clear</string>
+    <string name="menuCenterOnMap">Center</string>
+    <string name="menuClose">Close</string>
+    <string name="menuInfo">Info</string>
+    <string name="menuFeedback">Send feedback</string>
+    <string name="menuRateAndComment">Rate and comment</string>
+    <string name="menuRefresh">Refresh</string>
+    <string name="menuSwitchProfile">Switch to</string>
+
+    <string name="share_title">Send via</string>
+    <string name="share_subject"><xliff:g>@string/app_name</xliff:g></string>
+
+    <string name="pick_a_color">Pick a color</string>
+
+    <string name="fence_name_default">My Place</string>
+    <string name="profileNameDefault">New Profile</string>
+
+    <string name="featureNotAvailable">Sorry, the feature is not available on this device</string>
+    <string name="farFromHere">Far from here</string>
+
+    <string name="toastRestartRequired">Please restart the app for this to take effect</string>
+    <string name="toastActiveProfile">Profile: <xliff:g>%1$s</xliff:g></string>
+    <string name="toastProfileSavingError">Error saving profile data! Please try again.</string>
+    <string name="toastProfileChangeError">Could not switch the profile! Please try again.</string>
+    <string name="toastGpsEnabled">GPS turned on</string>
+    <string name="toastTrackSaved">Track saved.</string>
+    <string name="toastTrackDiscarded">Track discarded.</string>
+    <string name="toastTrackSavingError">Error saving track! Try resetting again.</string>
+    <string name="toastTrackWritingError">Error writing track data to storage! Try resetting again.</string>
+    <string name="toastTrackZippingError">Error zipping track! Try resetting again.</string>
+    <string name="toastTrackMovingError">Error moving track to USB storage! Try resetting again.</string>
+    <string name="toastPressAgainToExit">Press again to exit</string>
+    <string name="toastTrackingRecording">Recording</string>
+    <string name="toastTrackingRecordingPassive">Passive recording</string>
+    <string name="toastTrackingPaused">Paused</string>
+    <string name="toastTrackingStopped">Stopped</string>
+    <string name="toastFenceGuardFenceAdded">FenceGuard: Fence <xliff:g>%1$s</xliff:g> added</string>
+    <string name="toastFenceGuardFenceAddingError">FenceGuard: Error adding fence</string>
+    <string name="toastFenceGuardFenceUpdated">FenceGuard: Fence <xliff:g>%1$s</xliff:g> updated</string>
+    <string name="toastFenceGuardFenceUpdatingError">FenceGuard: Error updating fence</string>
+    <string name="toastFenceGuardFenceRemoved">FenceGuard: Fence <xliff:g>%1$s</xliff:g> removed</string>
+    <string name="toastFenceGuardFenceRemovingError">FenceGuard: Error removing fence</string>
+    <string name="toastFenceGuardOutsideTheFence">FenceGuard: You are currently not inside the fence</string>
+    <string name="toastFenceGuardLocationUnavailable">FenceGuard: Your location still not available</string>
+    <string name="toastProfilesListNonemptyDelete">Cannot delete — Profile contains some unsaved data! Please finish first.</string>
+    <string name="toastProfilesListProfileCreated">The profile has been created</string>
+    <string name="toastProfilesListProfileDeleted">The profile has been deleted</string>
+    <string name="toastProfilesListProfileDeleteError">Error deleting the profile</string>
+    <string name="toastProfilesListProfileUpdated">Profile updated</string>
+    <string name="toastTrackDeleted">Tracks deleted</string>
+    <string name="toastTrackDeleteError">Error deleting tracks</string>
+    <string name="toastTrackResumed">Track resumed</string>
+    <string name="toastTrackResumeGpsActiveError">Please turn off or pause the GPS first</string>
+    <string name="toastProfileButtonClickInfo">Long-click to switch profile</string>
+    <string name="toastContrastButtonClickInfo">Automatic visual theme is active</string>
+    <string name="toastFlashlightButtonClickInfo">Long-click to toggle the flashlight</string>
+    <string name="toastRoarButtonClickInfo">Long-click to toggle the roar sound</string>
+    <string name="toastMapButtonClickInfo">Long-click to toggle the map</string>
+    <string name="toastMapClickInfo">Long-tap for map settings</string>
+    <string name="toastMapFollowingOn">Follow on</string>
+    <string name="toastMapFollowingAutorotate">Auto-rotate on</string>
+    <string name="toastMapFollowingOff">Follow off</string>
+    <string name="toastMapLayerTrafficOn">Traffic on</string>
+    <string name="toastMapLayerTrafficOff">Traffic off</string>
+    <string name="toastErrorCreatingOfflineMap">Error creating offline map</string>
+    <string name="toastErrorAccessingExternalStorage">Error accessing external storage</string>
+    <string name="toastErrorPowerParametersVoid">Please fill in Power parameters in Settings</string>
+    <string name="toastSharingSuccess">Successfully posted</string>
+    <string name="toastSharingError">Error during sharing actions</string>
+    <string name="toastSharingPermissionsError">Error posting, please check permissions</string>
+    <string name="toastUpdatingSuccess">Successfully updated</string>
+    <string name="toastSoundsEnabled">Sounds enabled</string>
+    <string name="toastSoundsDisabled">Sounds disabled</string>
+    <string name="toastSensorEnabled">Sensor enabled</string>
+    <string name="toastSensorDisabled">Sensor disabled</string>
+    <string name="toastAutoThemeActivated">Automatic visual theme activated</string>
+    <string name="toastCancelled">Canceled</string>
+
+    <string name="notificationTitle"><xliff:g>@string/app_name</xliff:g></string>
+    <string name="notificationTitleAdvanced"><xliff:g>%1$s</xliff:g></string>
+    <string name="notificationTitleAdvancedPaused">Paused: <xliff:g>%1$s</xliff:g></string>
+
+    <string name="licenseSuccessDialogTitle"><xliff:g>@string/app_name</xliff:g></string>
+    <string name="licenseSuccessDialogMessage">The app was licensed successfully. Thank you for your support!</string>
+
+    <string name="ongoingNotificationChannelName">Ongoing notification</string>
+    <string name="ongoingNotificationChannelDescription">Providing control of the foreground service and easy access to the app</string>
+
+    <string name="dialog_default_color_light_title">Light color theme</string>
+    <string name="dialog_default_color_dark_title">Dark color theme</string>
+    <string name="dialog_default_map_track_colors_title">Map track colors</string>
+    <string name="dialog_default_color_text">This will load the default colors. Are you sure?</string>
+    <string name="dialog_defaultConfirmation">Are you sure?</string>
+    <string name="dialog_volume_title"></string>
+    <string name="dialog_volume_bell_text">Bell</string>
+    <string name="dialog_volume_roaring_text">Roar</string>
+    <string name="dialog_volume_effects_text">Effects</string>
+    <string name="dialog_volume_tallies_text">Tallies</string>
+    <string name="dialog_volume_alarms_text">Alarms</string>
+    <string name="dialog_volume_message">Note: Use volume buttons on your device to adjust overall sound volume.</string>
+    <string name="dialog_bell_automatic_sensitivity_title">Auto bell sensitivity</string>
+    <string name="dialog_bell_shake_sensitivity_title">Shake sensitivity</string>
+    <string name="dialog_fenceguard_title"><xliff:g>@string/menuFenceguard</xliff:g></string>
+    <string name="dialog_fenceguard_add_title">Add fence</string>
+    <string name="dialog_fenceguard_add_text">Name a new fence:</string>
+    <string name="dialog_fenceguard_add_text2">Fence will be raised around your current location to protect it from being exposed in recorded tracks.</string>
+    <string name="dialog_fenceguard_update_title">Update fence</string>
+    <string name="dialog_fenceguard_update_text">Fence name:</string>
+    <string name="dialog_fenceguard_update_text2">Fence raised around your location protects it from being exposed in recorded tracks.</string>
+    <string name="dialog_fenceguard_remove_title">Remove fence</string>
+    <string name="dialog_fenceguard_remove_defaultText">Are you sure to remove the fence?</string>
+    <string name="dialog_fenceguard_remove_formatText">Are you sure to remove the fence <xliff:g>%1$s</xliff:g>?</string>
+    <string name="dialog_track_save_text">Distance <xliff:g>%1$.3f %2$s\n</xliff:g>Duration <xliff:g>%3$s\n</xliff:g><xliff:g>(%4$s)\n\n</xliff:g>The track seems very short. Save this track?</string>
+    <string name="dialog_exit_title"><xliff:g>@string/app_name</xliff:g></string>
+    <string name="dialog_exit_msg">Warning: Tracking is active, and will be stopped.</string>
+    <string name="dialogProfileDeleteTitle">Delete profile</string>
+    <string name="dialogProfileDeleteMessage">Warning: This will remove profile settings and totals data. Saved tracks will be left intact.\n\nDelete profile <xliff:g>%1$s</xliff:g>?</string>
+    <string name="dialogProfileAddTitle">New profile</string>
+    <string name="dialogProfileAddInfo">New profile will have its settings copied from the currently active profile</string>
+    <string name="dialogProfileEditTitle">Edit profile</string>
+    <string name="dialogProfileEditTotals">Totals:</string>
+    <string name="dialogProfileTotalsResetMessage">Reset profile totals to zero?</string>
+    <string name="dialogProfileSwitchTitle">Switch profile</string>
+    <string name="dialogProfileSwitchMessage">Tracking is active. Are you sure to switch to profile <xliff:g>%1$s</xliff:g>?</string>
+    <string name="dialogTracksDeleteTitle">Delete tracks</string>
+    <string name="dialogTracksDeleteMessage">Warning: This action cannot be undone.\n\nDelete selected tracks?</string>
+    <string name="dialogTrackDeleteMessage">Warning: This action cannot be undone.\n\nDelete the track <xliff:g>%1$s</xliff:g>?</string>
+    <string name="dialogTrackResumeTitle">Resume track</string>
+    <string name="dialogTrackResumeGpsActiveMessage">Tracking is active. Please turn off or pause the GPS first.</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">Target profile <xliff:g>%1$s</xliff:g> is not blank. Please reset first.</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">Active profile will be switched from <xliff:g>%1$s</xliff:g> to <xliff:g>%2$s</xliff:g>. Continue?</string>
+    <string name="dialogTrackResumeProfileMissingMessage">Profile <xliff:g>%1$s</xliff:g> which created this track does not exist anymore. Resume in current profile <xliff:g>%2$s</xliff:g>?</string>
+    <string name="dialogTrackResumeGeneralPromptMessage">Track will be resumed in profile <xliff:g>%1$s</xliff:g>. Continue?</string>
+    <string name="dialogTrackResumeGeneralErrorMessage">Some error occurred. Please try again.</string>
+    <string name="dialogTrackResumeWaitMessage">Resuming, please wait…</string>
+    <string name="dialogTracksShareTitle">Share tracks</string>
+    <string name="dialogTracksShareGeneralErrorMessage">Some error occurred. Please try again.</string>
+    <string name="dialogTracksShareCountExceeded">Cannot share more than 100 tracks at once.</string>
+    <string name="dialogGpsSettingsPromptTitle">Location is turned off</string>
+    <string name="dialogGpsSettingsPromptMessage">You won\'t be able to use most of the features of this app without Location.<xliff:g>\n\n</xliff:g>Please make sure the Location is enabled and set to \'High accuracy\' mode.<xliff:g>\n\n</xliff:g>Open Location Settings now?</string>
+    <string name="dialogBaroAltitudePromptTitle">Barometric altitude problem</string>
+    <string name="dialogBaroAltitudePromptMessage">Barometric Altitude has been turned off forcibly due to discrepancy with GPS altitude!<xliff:g>\n\n</xliff:g>Please do not use it in closed or air-conditioned spaces!</string>
+    <string name="dialogBaroAltitudeNoticeTitle">Notice</string>
+    <string name="dialogBaroAltitudeNoticeMessage">Barometric Altitude works only outdoors.<xliff:g>\n\n</xliff:g>Please do not use it in closed or air-conditioned spaces like some vehicles and airplanes.</string>
+    <string name="dialogThermoBarometerNoticeTitle">Notice</string>
+    <string name="dialogThermoBarometerNoticeMessage">Thermo Barometer depends on outdoor air temperature for accuracy.<xliff:g>\n\n</xliff:g>Please do not use it in closed or air-conditioned spaces like some vehicles and airplanes.</string>
+    <string name="dialogResetTitle">Finish</string>
+    <string name="dialogResetMessage">Save this track and prepare for a new one?</string>
+    <string name="dialogResetNoTrackMessage">No track was recorded. Reset the meters now?</string>
+    <string name="dialogScreenHudMode">HUD mirror mode</string>
+    <string name="dialogScreenOrientationAuto">Auto orientation</string>
+    <string name="dialogScreenOrientationPortrait">Portrait</string>
+    <string name="dialogScreenOrientationLandscape">Landscape</string>
+    <string name="dialogScreenBrightnessOverride">Override brightness</string>
+    <string name="dialogScreenAutoTheme">Auto theme</string>
+    <string name="dialogScreenPocketMode">Pocket mode</string>
+    <string name="dialogMapsOffline">Offline maps</string>
+    <string name="dialogMapsLayerTraffic">Traffic</string>
+    <string name="dialogMapsShowFences">Fences</string>
+    <string name="dialogMapsShowRoutes">Guide routes</string>
+    <string name="dialogMapsFollowMode">Follow</string>
+    <string name="dialogMapsAutoRotate">Auto rotate</string>
+    <string name="dialogMapsHighResolution">High res map</string>
+    <string name="dialogMapsRenderTerrain">Render terrain</string>
+    <string name="dialogMapsTrackColor">Track hue:</string>
+    <string name="dialogMapsTrackColorAltitude"><xliff:g>@string/infoMeterModeAltitudeTitle</xliff:g></string>
+    <string name="dialogMapsTrackColorSpeed"><xliff:g>@string/infoMeterModeSpeedTitle</xliff:g></string>
+    <string name="dialogMapsTrackColorDuration"><xliff:g>@string/infoMeterModeDurationTitle</xliff:g></string>
+    <string name="dialogMapsTrackColorElapsed"><xliff:g>@string/summaryTotalTime</xliff:g></string>
+    <string name="dialogMapsTrackColorHeartRate"><xliff:g>@string/infoMeterModeHeartRateTitle</xliff:g></string>
+    <string name="dialogMapsTrackColorCadence"><xliff:g>@string/infoMeterModeCadenceTitle</xliff:g></string>
+    <string name="dialogMapsTrackColorTemperature"><xliff:g>@string/infoMeterModeTemperatureTitle</xliff:g></string>
+    <string name="dialogFencesAdd">Add fence here</string>
+    <string name="dialogFencesUpdate">Update fence location</string>
+    <string name="dialogFencesEdit">Edit fence</string>
+    <string name="dialogFencesRemove">Remove fence</string>
+    <string name="dialogFencesShowFences">Show fences</string>
+    <string name="dialogPowerWeightsTitle">Weights</string>
+    <string name="dialogPowerWeightsRotInertiaTitle">Rotational inertia</string>
+    <string name="dialogPowerWeightsWeightRider">Driver</string>
+    <string name="dialogPowerWeightsWeightVehicle">Vehicle</string>
+    <string name="dialogPowerWeightsWeightCargo">Cargo</string>
+    <string name="dialogPowerWeightsWeightPassengers">Passengers</string>
+    <string name="dialogPowerWeightsWeightWheels">Wheels</string>
+    <string name="dialogPowerParamsTitle">Power loss coefficients</string>
+    <string name="dialogPowerParamsDragArea">Air drag area (Cd·A)</string>
+    <string name="dialogPowerParamsRollResist">Rolling resistance coef. (Crr)</string>
+    <string name="dialogEnergyParamsTitle">Energy parameters</string>
+    <string name="dialogEnergyParamsEfficiency">Overall thermal efficiency (η)</string>
+    <string name="dialogEnergyParamsBmr">Basal metabolic rate (BMR)</string>
+    <string name="dialogFileChooseSelectFolder">Select this folder</string>
+    <string name="dialogMapsDownloadTitle">Offline maps download</string>
+    <string name="dialogMapsDownloadText">Open the downloads web page now?</string>
+    <string name="dialogMapsTerrainDownloadTitle">Terrain download</string>
+    <string name="dialogTrackUploadWaitTitle">Please wait</string>
+    <string name="dialogTrackUploadPreparing">Preparing track data…</string>
+    <string name="dialogTrackUploadSending">Sending…</string>
+    <string name="dialogTrackUploadDescriptionHint">Share your thoughts…</string>
+    <string name="dialogTrackUploadShareButton">Share</string>
+    <string name="dialogTrackUploadShareAgainButton">Share again</string>
+    <string name="dialogTrackUploadUpdateButton">Update</string>
+    <string name="dialogTrackUploadActivityType">Activity type</string>
+    <string name="dialogTrackUploadPlatform">Online service</string>
+    <string name="dialogTrackUploadStravaIsCommute">Commute</string>
+    <string name="dialogSvgTitle">SVG graphs</string>
+    <string name="dialogSvgDistanceTitle"><xliff:g>@string/infoMeterModeDistanceTitle</xliff:g></string>
+    <string name="dialogSvgDurationTitle"><xliff:g>@string/infoMeterModeDurationTitle</xliff:g></string>
+    <string name="dialogGpsIntervalTitle">GPS update interval</string>
+    <string name="dialogGpsIntervalValue"><xliff:g>%1$s</xliff:g></string>
+    <string name="dialogGpsIntervalNote">Note: Keep this value below 3 sec to get the most accurate readings and the most consistent behaviour!</string>
+    <string name="dialogGpsIntervalLabelMore"><xliff:g>◀\n</xliff:g>More accuracy, uses more battery</string>
+    <string name="dialogGpsIntervalLabelLess"><xliff:g>▶\n</xliff:g>Less accuracy, uses less battery</string>
+    <string name="dialogHapticIntensityTitle"><xliff:g>@string/pref_haptic_feedback_intensity_title</xliff:g></string>
+    <string name="dialogSliderLess">◀</string>
+    <string name="dialogSliderMore">▶</string>
+    <string name="dialogLocationPermissionRequestTitle">Location permission</string>
+    <string name="dialogLocationPermissionRequest">The app needs to access your location to record your outdoor activities.</string>
+    <string name="dialogLocationPermissionRequestForBt">Location permission is needed to find Bluetooth devices.<xliff:g>\n\n</xliff:g>No Bluetooth devices will be found if the permission is rejected.</string>
+    <string name="dialogStoragePermissionRequestTitle">Storage permission</string>
+    <string name="dialogStoragePermissionRequest">The app needs to access the storage so it can save or restore your tracks and settings.<xliff:g>\n\n</xliff:g>Without giving the permission you won\'t be able to see tracks history or share tracks, and you could loose your data.</string>
+    <string name="dialogCameraPermissionRequestTitle">Camera permission</string>
+    <string name="dialogCameraPermissionRequest">Permission is needed so the app can activate the flashlight.</string>
+    <string name="dialogPermissionProblemMessage">This permission is needed for the app to function properly. It can be granted in the App permissions settings page.<xliff:g>\n\n</xliff:g>Go there now?</string>
+
+	<string-array name="dialog_fenceguard_add_entries">
+	    <item>Add fence</item>
+	</string-array>
+
+	<string-array name="dialog_fenceguard_update_entries">
+	    <item>Update fence</item>
+	    <item>Remove fence</item>
+	</string-array>
+
+	<string-array name="dialogTracksShareChoices">
+	    <item>ZIPs (complete)</item>
+	    <item>GPX only</item>
+	</string-array>
+
+    <string name="mapLayerStreet">Street</string>
+    <string name="mapLayerTerrain">Terrain</string>
+    <string name="mapLayerSatellite">Satellite</string>
+
+	<string name="unitKm">km</string>
+    <string name="unitKmh">km/h</string>
+    <string name="unitMiles">mi</string>
+    <string name="unitMph">mph</string>
+    <string name="unitMinPerKm">min/km</string>
+    <string name="unitMinPerKmShort">/km</string>
+    <string name="unitMinPerMile">min/mi</string>
+    <string name="unitMinPerMileShort">/mi</string>
+    <string name="unitMSxS">m/s²</string>
+    <string name="unitFtSxS">ft/s²</string>
+    <string name="unitMeterPerMin">m/min</string>
+    <string name="unitFeetPerMin">ft/min</string>
+    <string name="unitTimeHrMinSec">h:m:s</string>
+    <string name="unitTimeHour">h</string>
+    <string name="unitTimeMinute">min</string>
+    <string name="unitTimeSecond">s</string>
+    <string name="unitM">m</string>
+    <string name="unitMillimeter">mm</string>
+    <string name="unitMxM">m²</string>
+    <string name="unitIn">in</string>
+    <string name="unitFt">ft</string>
+    <string name="unitFtxFt">ft²</string>
+    <string name="unitKg">kg</string>
+    <string name="unitLb">lb</string>
+    <string name="unitW">W</string>
+    <string name="unitKW">kW</string>
+    <string name="unitHP">HP</string>
+    <string name="unitKWH">kWh</string>
+    <string name="unitMiliW">mW</string>
+    <string name="unitWKg">W/kg</string>
+    <string name="unitWLb">W/lb</string>
+    <string name="unitKj">kJ</string>
+    <string name="unitKjH">kJ/h</string>
+    <string name="unitKjKg">kJ/kg</string>
+    <string name="unitKjLb">kJ/lb</string>
+    <string name="unitKcal">kcal</string>
+    <string name="unitKcalH">kcal/h</string>
+    <string name="unitKcalKG">kcal/kg</string>
+    <string name="unitKcalLb">kcal/lb</string>
+    <string name="unitDegC">°C</string>
+    <string name="unitDegF">°F</string>
+    <string name="unitHPa">hPa</string>
+    <string name="unitPetrolLit">L gas.</string>
+    <string name="unitKmPerLit">km/L</string>
+    <string name="unitMiPerGal">mpg</string>
+    <string name="unitPerHundredKm">/100km</string>
+    <string name="unitPerHundredMi">/100mi</string>
+    <string name="unitPerMinute">/min</string>
+    <string name="unitPerHour">/h</string>
+    <string name="unitPercent">%</string>
+    <string name="unitPerMille">‰</string>
+    <string name="unitMilliseconds">ms</string>
+    <string name="unitDegree">°</string>
+    <string name="unitMegabyte">MB</string>
+
+    <string name="durationHrMin"><xliff:g>%1$d:%2$02d</xliff:g></string>
+
+    <string name="valueTimesCount">×</string>
+
+    <string name="meterGPS">GPS</string>
+    <string name="meterModeSpeed">speed</string>
+    <string name="meterModeSpeedShort">spd</string>
+    <string name="meterModeSpeedVertical">vertical speed</string>
+    <string name="meterModeSpeedVerticalShort">v spd</string>
+    <string name="meterModeSpeedAverage">average speed</string>
+    <string name="meterModeSpeedAverageShort">av spd</string>
+    <string name="meterModePace">pace</string>
+    <string name="meterModePaceShort">pace</string>
+    <string name="meterModeDuration">duration</string>
+    <string name="meterModeDurationShort">dur</string>
+    <string name="meterModeElapsedTime">elapsed</string>
+    <string name="meterModeElapsedTimeShort">elap</string>
+    <string name="meterModeAltitude">altitude</string>
+    <string name="meterModeAltitudeShort">alt</string>
+    <string name="meterModeVerticalPower">vertical power</string>
+    <string name="meterModeVerticalPowerShort">v pwr</string>
+    <string name="meterModePower">power</string>
+    <string name="meterModePowerShort">pwr</string>
+    <string name="meterModePowerAverage">average power</string>
+    <string name="meterModePowerAverageShort">av pwr</string>
+    <string name="meterModeFTP">act pwr</string>
+    <string name="meterModeAcceleration">acceleration</string>
+    <string name="meterModeAccelerationShort">acc</string>
+    <string name="meterModeDistance">distance</string>
+    <string name="meterModeDistanceShort">dst</string>
+    <string name="meterModeOdo">odometer</string>
+    <string name="meterModeOdoShort">odo</string>
+    <string name="meterModeEnergy">energy</string>
+    <string name="meterModeEnergyShort">ene</string>
+    <string name="meterModeEfficacy">efficacy</string>
+    <string name="meterModeEfficacyShort">eff</string>
+    <string name="meterModeTemperature">temperature</string>
+    <string name="meterModeTemperatureShort">temp</string>
+    <string name="meterModePressure">pressure</string>
+    <string name="meterModePressureShort">pres</string>
+    <string name="meterModeClock">clock</string>
+    <string name="meterModeClockShort">clk</string>
+    <string name="meterModeWriggle">wriggle</string>
+    <string name="meterModeWriggleShort">wrig</string>
+    <string name="meterModeAltitudeAscent">ascent</string>
+    <string name="meterModeAltitudeAscentShort">asc</string>
+    <string name="meterModeAltitudeDescent">descent</string>
+    <string name="meterModeAltitudeDescentShort">dsc</string>
+    <string name="meterModeAltitudeSlope">slope</string>
+    <string name="meterModeAltitudeSlopeShort">slop</string>
+    <string name="meterModeCadence">cadence</string>
+    <string name="meterModeCadenceShort">cad</string>
+    <string name="meterModeHeartRate">heart rate</string>
+    <string name="meterModeHeartRateShort">hr</string>
+    <string name="meterModeGearRatio">gear ratio</string>
+    <string name="meterModeGearRatioShort">g rat</string>
+    <string name="bellRingAuto">auto</string>
+    <string name="roarModeConstant">const</string>
+    <string name="meterTextMin">min</string>
+    <string name="meterTextMax">max</string>
+    <string name="meterTextAvg">avg</string>
+    <string name="meterTextTotal">tot</string>
+
+    <string name="controlPanelSoundAutoBell">Automatic bell</string>
+    <string name="controlPanelSoundRoar">Roar</string>
+    <string name="controlPanelSoundEffects">Effects</string>
+    <string name="controlPanelSoundAlarms">Alarms</string>
+    <string name="controlPanelSoundTallies">Tallies</string>
+    <string name="controlPanelSoundVolume">Volumes</string>
+    <string name="controlPanelEnergyParams">Power/Energy parameters</string>
+
+    <string name="profilesListTitle">Profiles</string>
+    <string name="profilesListTitleSelectProfile">Switch Profile</string>
+    <string name="profilesListAddProfile">New profile</string>
+    <string name="profilesListRowLastActivity"><xliff:g>%1$s</xliff:g></string>
+    <string name="profilesListRowTotalsSince">Totals since: <xliff:g>%1$s</xliff:g></string>
+    <string name="profilesListButtonResetTotals">Reset totals</string>
+    <string name="profilesListProfileNotUsed">(unused)</string>
+    <string name="profilesListLoading">Loading…</string>
+
+    <string name="cloudAccountsTitle">Accounts</string>
+    <string name="cloudAccountsInfo">Connecting to a cloud service makes it easier for you to upload and share your tracks with others.<xliff:g>\n\n</xliff:g>We\'ll never post anything without your permission.</string>
+    <string name="accountDisconnect">Disconnect</string>
+    <string name="googleFitConnectButton">Connect with <xliff:g>Google Fit</xliff:g></string>
+    <string name="stravaTrackPrivacyInfo">Track will inherit default privacy you set on <xliff:g>Strava</xliff:g></string>
+    <string name="facebookConnectButton">Connect with <xliff:g>Facebook</xliff:g></string>
+
+    <string name="tracksHistoryListTitle">Tracks history</string>
+    <string name="tracksHistoryListTitleSelect">Select</string>
+    <string name="tracksHistoryListEmpty">No tracks here. Go out and record an activity!</string>
+    <string name="tracksHistoryListLoading">Loading…</string>
+    <string name="tracksHistoryListButtonView">View</string>
+    <string name="tracksHistoryListButtonShare">Share</string>
+    <string name="tracksHistoryListButtonUpload">Upload</string>
+    <string name="tracksHistoryListButtonResume">Resume</string>
+    <string name="tracksHistoryListButtonEdit">Edit</string>
+    <string name="tracksHistoryListButtonDelete">Delete</string>
+    <string name="tracksHistoryListShareTrackDialogTitle">Share track to…</string>
+    <string name="tracksHistoryListViewTrackDialogTitle">View track with…</string>
+
+    <string name="summaryTotalWeight">Total weight</string>
+    <string name="summaryWheelsWeight">Wheels weight</string>
+    <string name="summaryEfficiency">Efficiency</string>
+    <string name="summaryDragArea">Drag area</string>
+    <string name="summaryRollResistCoef">Roll resist coef.</string>
+    <string name="summaryBasalMetabolicRate">Basal metabolic rate</string>
+    <string name="summaryLocationInterval">Location interval</string>
+    <string name="summaryDeviceRestartsCount">Forced restarts</string>
+    <string name="summaryEnergyParams"><xliff:g>@string/controlPanelEnergyParams</xliff:g></string>
+    <string name="summaryStartedDatetime">Started</string>
+    <string name="summaryEndedDatetime">Ended</string>
+    <string name="summaryTotalTime">Total time</string>
+    <string name="summaryStoppedTime">Stopped time</string>
+    <string name="summaryHeartBeats">Heart beats</string>
+    <string name="summaryCadenceStrokes">Pedal strokes</string>
+    <string name="summarySpecific">Specific</string>
+    <string name="summaryMechEnergy">Mech. energy</string>
+
+    <string name="sensorsTitle">Sensors</string>
+    <string name="sensorsTabUsed">Used</string>
+    <string name="sensorsTabFound">Found</string>
+    <string name="sensorsSectionUsedInProfile">Used in the profile</string>
+    <string name="sensorsSectionSupported">Supported</string>
+    <string name="sensorsSectionUnsupported">Unsupported</string>
+    <string name="sensorsEmptyList">Empty list</string>
+    <string name="sensorsMenuScan">Scan</string>
+
+    <string name="sensorMenuAddToProfile">Add to the profile</string>
+    <string name="sensorMenuRemoveFromProfile">Remove from the profile</string>
+    <string name="sensorMenuProperties">Properties</string>
+    <string name="sensorMenuEnable">Enable</string>
+    <string name="sensorMenuDisable">Disable</string>
+    <string name="sensorMenuDelete">Forget</string>
+
+    <string name="sensorRemoveConfirmDialogMsg">Remove from the profile?</string>
+    <string name="sensorDeleteConfirmDialogMsg">Forget this sensor?</string>
+
+    <string name="sensorAddedMsg">Sensor added to the profile</string>
+    <string name="sensorRemovedMsg">Sensor removed from the profile</string>
+    <string name="sensorDeletedMsg">Sensor forgotten</string>
+
+    <string name="sensorPurposeNone">(No purpose)</string>
+    <string name="sensorPurposeCadence">Cadence</string>
+    <string name="sensorPurposeSpeed">Speed</string>
+    <string name="sensorPurposeDistance">Distance</string>
+    <string name="sensorPurposeDuration">Duration</string>
+    <string name="sensorPurposePower">Power</string>
+    <string name="sensorPurposeHeartRate">Heart rate</string>
+
+    <string name="sensorProperitesProfileInfo">Sensor properties are managed per profile. Properties here are managed for the currently active profile only (<xliff:g id="profile_name">%1$s</xliff:g>).</string>
+    <string name="sensorProperitesUseForSpeed">Use for speed</string>
+    <string name="sensorProperitesUseForCadence">Use for cadence</string>
+    <string name="sensorProperitesUseForDistance">Use for distance and duration</string>
+    <string name="sensorProperitesUseForPower">Use for power</string>
+    <string name="sensorProperitesUseForHeartRate">Use for heart rate</string>
+    <string name="sensorProperitesIsInverted">Swap speed and cadence</string>
+    <string name="sensorProperitesIsInvertedInfo">Use cadence sensor to obtain speed readings, or vice versa. Normally disabled.</string>
+    <string name="sensorProperitesWheelPerimeter">Wheel circumference</string>
+    <string name="sensorProperitesIsAutoPerimeter">Automatic</string>
+    <string name="sensorProperitesIsAutoPerimeterInfo">This will perform automatic circumference measurements during a ride.</string>
+    <string name="sensorProperitesWheelPerimeterNotSet">Not set</string>
+    <string name="sensorProperitesStrideLen">Stride length</string>
+    <string name="sensorProperitesIsAutoStrideLen">Automatic</string>
+    <string name="sensorProperitesIsAutoStrideLenInfo">This will perform automatic stride length measurements during a ride.</string>
+    <string name="sensorProperitesStrideLenNotSet">Not set</string>
+    <string name="sensorProperitesSpeedTriggers">Speed triggers</string>
+    <string name="sensorProperitesCadenceTriggers">Cadence triggers</string>
+    <string name="sensorProperitesTriggersCountInfo">Number of triggers (e.g. magnets) used by the sensor. Sensors with no external triggers usually have a single internal trigger.</string>
+
+    <string name="sensorStatusConnected">Connected</string>
+    <string name="sensorStatusConnecting">Connecting…</string>
+    <string name="sensorStatusDisconnected">Disconnected</string>
+
+    <string name="pref_text_off">Off</string>
+    <string name="pref_text_min">Min</string>
+    <string name="pref_text_medium">Medium</string>
+    <string name="pref_text_max">Max</string>
+
+    <string name="settingsTitle">Settings</string>
+    <string name="pref_category1_title">Sound</string>
+    <string name="pref_category2_title">Display</string>
+    <string name="pref_category_general_title">General</string>
+    <string name="pref_category_language_title">Language</string>
+    <string name="pref_category_appearance_title">Appearance</string>
+    <string name="pref_category_background_title"><xliff:g>@string/pref_background_pattern_dialog_title</xliff:g></string>
+    <string name="pref_category_speedo_title">Speedometer</string>
+    <string name="pref_group_powermeter_title">Power and Energy</string>
+    <string name="pref_category_power_mode_title">Power display mode</string>
+    <string name="pref_category_params_title">Parameters</string>
+    <string name="pref_group_units_title">Units</string>
+    <string name="pref_category_units_title">Units of measure</string>
+    <string name="pref_category_colors_title">Colors</string>
+    <string name="pref_category_colors_light_title">Light theme</string>
+    <string name="pref_category_colors_dark_title">Dark theme</string>
+    <string name="pref_category_map_colors_title">Map colors</string>
+    <string name="pref_category_visualThemeAuto">Automatic theme</string>
+    <string name="pref_category4_title">Volume (relative)</string>
+    <string name="pref_category_advanced_title">Advanced</string>
+    <string name="pref_group_advanced_title">Advanced…</string>
+    <string name="pref_category_other_title">Other</string>
+    <string name="pref_category6_title">Help</string>
+    <string name="pref_category7_title">Share</string>
+    <string name="pref_category8_title">About</string>
+    <string name="pref_category_gps_interval_title">GPS update interval</string>
+    <string name="pref_category_stationary_exercise_title">Stationary exercise</string>
+    <string name="pref_category_autopause_title">Auto pause</string>
+    <string name="pref_category_resetPrompt_title">Reset prompt</string>
+    <string name="pref_category_tracking_title">Tracking</string>
+    <string name="pref_category_tracking_gps_title">Tracking / GPS</string>
+    <string name="pref_category_bell_title">Bell</string>
+    <string name="pref_category_roaring_title">Roar</string>
+    <string name="pref_category_roaringConstantMode_title">Constant mode</string>
+    <string name="pref_category_effects_title">Effects</string>
+    <string name="pref_category_alarms_title">Alarms</string>
+    <string name="pref_category_tallies_title">Tallies</string>
+    <string name="pref_category_select_title">Select…</string>
+    <string name="pref_category_fonts_title">Font</string>
+    <string name="pref_category_buttons_title">Buttons</string>
+    <string name="pref_category_meters_title">Meters</string>
+    <string name="pref_group_meters_title">Meters</string>
+    <string name="pref_group_meter_modes_title">Meter modes</string>
+    <string name="pref_category_meter1_title">Meter 1</string>
+    <string name="pref_category_meter2_title">Meter 2</string>
+    <string name="pref_category_meter3_title">Meter 3</string>
+    <string name="pref_category_meter4_title">Meter 4</string>
+    <string name="pref_category_meter5_title">Meter 5</string>
+    <string name="pref_group_maps_title">Maps</string>
+    <string name="pref_category_maps_online_mode_title">Maps source</string>
+    <string name="pref_category_maps_offline_title">Offline maps</string>
+    <string name="pref_group_maps_offline_title">Offline maps settings…</string>
+    <string name="pref_category_maps_offline_terrain_title">Terrain</string>
+    <string name="pref_category_maps_routes_title">Guide routes</string>
+    <string name="pref_category_maps_track_title">Track line</string>
+    <string name="pref_category_hud_title">HUD</string>
+    <string name="pref_category_back_key_title">Back key mode</string>
+    <string name="pref_category_haptic_title">Haptic feedback</string>
+    <string name="pref_category_app_features_title">App features</string>
+    <string name="pref_category_wakelock_title">CPU sleep policy</string>
+    <string name="pref_category_gps_boost_title">GPS updates boost policy</string>
+    <string name="pref_group_flashlight_title">Flashlight</string>
+    <string name="pref_category_flashlightBlinkMode_title">Flickering</string>
+    <string name="pref_category_flashlightAutoPocketMode_title">Pocket mode</string>
+    <string name="pref_category_gpsInaccuracyIndicator_title">Confidence indicator</string>
+    <string name="pref_category_paceIndicator_title">Pace indicator</string>
+    <string name="pref_category_locationProvider_title">GPS provider</string>
+    <string name="pref_category_altitude_adjustments_title">Altitudes</string>
+    <string name="pref_category_temperature_title">Temperature</string>
+    <string name="pref_category_pressure_title">Pressure</string>
+    <string name="pref_category_sensors_title">Sensors</string>
+    <string name="pref_category_cloudAccounts_title">Accounts</string>
+    <string name="pref_category_goto_title">@null</string>
+    <string name="pref_category_mapsQuickZoom">QuickZoom</string>
+    <string name="pref_category_mapsCache">Cache</string>
+    <string name="prefAllProfilesInfoTitle">Note!</string>
+    <string name="prefAllProfilesInfoSummary">Preferences here are applicable to all profiles.</string>
+
+    <string name="pref_app_language_title"></string>
+    <string name="pref_app_language_summary">(All profiles)</string>
+    <string name="pref_app_language_dialog_title">Language</string>
+    <string name="pref_app_language_translate_title">Help translate</string>
+    <string name="pref_app_language_translate_summary">Click here if you would like to help translate this app to another language</string>
+    <string name="pref_back_key_mode_title"></string>
+    <string name="pref_back_key_mode_summary">(All profiles)</string>
+    <string name="pref_back_key_mode_dialog_title">Back key mode</string>
+    <string name="pref_info_title">Info</string>
+    <string name="pref_resetToDefault">Reset to default</string>
+    <string name="pref_units_distance_title">Distance</string>
+    <string name="pref_units_distance_dialog_title">Distance units</string>
+    <string name="pref_units_speed_title">Speed</string>
+    <string name="pref_units_speed_dialog_title">Speed units</string>
+    <string name="pref_units_altitude_title">Altitude</string>
+    <string name="pref_units_altitude_dialog_title">Altitude units</string>
+    <string name="pref_units_weight_title">Weight</string>
+    <string name="pref_units_weight_dialog_title">Weight units</string>
+    <string name="pref_units_other_title">Other</string>
+    <string name="pref_units_other_dialog_title">Units for other quantities</string>
+    <string name="pref_units_energy_title">Energy</string>
+    <string name="pref_units_energy_dialog_title">Energy units</string>
+    <string name="pref_units_power_title">Power (total)</string>
+    <string name="pref_units_power_dialog_title">Total power units</string>
+    <string name="pref_units_slope_title">Slope</string>
+    <string name="pref_units_slope_dialog_title">Slope units</string>
+    <string name="pref_units_summary"></string>
+    <string name="pref_hud_axis_title">HUD mirror axis</string>
+    <string name="pref_hud_axis_summary"></string>
+    <string name="pref_hud_axis_dialog_title">HUD mirror axis</string>
+    <string name="pref_bell_mode_title">Type</string>
+    <string name="pref_bell_mode_summary"></string>
+    <string name="pref_bell_mode_dialog_title">Bell type</string>
+    <string name="pref_bell_automatic_title">Automatic</string>
+    <string name="pref_bell_automatic_summary">Ring the bell on significant slowdown</string>
+    <string name="pref_bell_automatic_sensitivity_title">Auto bell sensitivity</string>
+    <string name="pref_bell_automatic_sensitivity_summary"></string>
+    <string name="pref_bell_shake_title">Shake to ring</string>
+    <string name="pref_bell_shake_summary">Shake the device to ring the bell</string>
+    <string name="pref_bell_shake_sensitivity_title">Shake sensitivity</string>
+    <string name="pref_bell_shake_sensitivity_summary"></string>
+    <string name="pref_roaring_type_title">Type</string>
+    <string name="pref_roaring_type_summary"></string>
+    <string name="pref_roaring_type_dialog_title">Roar type</string>
+    <string name="pref_volume_title"></string>
+    <string name="pref_volume_summary"></string>
+    <string name="pref_volume_summary_text">Bell:<xliff:g>  %1$s</xliff:g>, Roar:<xliff:g>  %2$s\n</xliff:g>Tallies:<xliff:g>  %3$s</xliff:g>, Effects:<xliff:g>  %4$s</xliff:g>, Alarms:<xliff:g>  %5$s</xliff:g></string>
+    <string name="pref_bg_color_title">Background color</string>
+    <string name="pref_bg_color_summary">Pick the desired color for the app background</string>
+    <string name="pref_fg_color_title">Text color</string>
+    <string name="pref_fg_color_summary">Pick the desired color for the text and icons</string>
+    <string name="pref_visualThemeAutoTitle"><xliff:g>@string/pref_category_visualThemeAuto</xliff:g></string>
+    <string name="pref_visualThemeAutoSummary">Apply light or dark theme based on environment illumination</string>
+    <string name="pref_default_color_title"><xliff:g>@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_default_color_summary"></string>
+    <string name="pref_buttons_bg_look_title">Clear buttons</string>
+    <string name="pref_buttons_bg_look_summary">Completely transparent buttons and fields</string>
+    <string name="pref_screen_keep_on_title">Keep screen on</string>
+    <string name="pref_screen_keep_on_summary">Screen will remain turned on while the app is used</string>
+    <string name="pref_screen_allow_off_inactive_title">Allow off when inactive</string>
+    <string name="pref_screen_allow_off_inactive_summary">Allow screen to turn off after several minutes of inactivity</string>
+    <string name="pref_above_lockscreen_title">Keep above lockscreen</string>
+    <string name="pref_above_lockscreen_summary">App will remain visible even if the device is locked</string>
+    <string name="pref_screenAutoPocketMode_title">Pocket mode</string>
+    <string name="pref_screenAutoPocketMode_summary">(All profiles) Use proximity sensor to keep the display off while not needed</string>
+    <string name="pref_ring_on_stop_title">Ring on stop</string>
+    <string name="pref_ring_on_stop_summary">Ring the automatic bell when the speed drops to zero, too</string>
+    <string name="pref_disable_bell_button_title">Disable bell button</string>
+    <string name="pref_disable_bell_button_summary">Disable bell ring on speedometer click</string>
+    <string name="pref_obey_audio_focus_disable_title">Disable audio focus</string>
+    <string name="pref_obey_audio_focus_disable_summary">Continue producing sounds even if audio focus is lost (by system notification or another app)</string>
+    <string name="pref_audio_force_loudspeaker_title">Force loudspeaker</string>
+    <string name="pref_audio_force_loudspeaker_summary">Warning: Experimental, may not work. Try to reroute all sounds through the loudspeaker when headphones are connected, except the voice calls.</string>
+    <string name="pref_duck_roaring_on_bell_title">Duck roaring on bell ring</string>
+    <string name="pref_duck_roaring_on_bell_summary">Lower the volume of roaring sounds when the bell rings</string>
+    <string name="pref_relaunchAfterReboot_title">Relaunch after reboot</string>
+    <string name="pref_relaunchAfterReboot_summary">(All profiles) Resume tracking after a forced device reboot, if battery 10% or more</string>
+    <string name="pref_resetPrompt_title">Reset prompt</string>
+    <string name="pref_resetPrompt_summary">Prompt to start a new track if last active more than 4 hours ago or in distant location</string>
+    <string name="pref_auto_launch_on_gps_title">Auto launch on GPS</string>
+    <string name="pref_auto_launch_on_gps_summary">Launch the App (in Passive mode) when GPS activity is detected</string>
+    <string name="pref_passive_gps_button_title">Passive GPS button mode</string>
+    <string name="pref_passive_gps_button_summary">Enable Passive GPS mode when clicking GPS button</string>
+    <string name="pref_digital_font_title">Digital font</string>
+    <string name="pref_digital_font_summary">(All profiles) Use segmented digital LCD font for cyclometer data display</string>
+    <string name="pref_roaring_state_title">Roar sound</string>
+    <string name="pref_roaring_state_summary">Produce alert sounds as you move</string>
+    <string name="pref_roaring_mode_title">Mode</string>
+    <string name="pref_roaring_mode_dialog_title">Roar mode</string>
+    <string name="pref_roaring_mode_summary"></string>
+    <string name="pref_roaring_constant_mode_title">Constant mode</string>
+    <string name="pref_roaring_constant_mode_summary">Produce constant roar sounds at all times, regardless of your movement or GPS state</string>
+    <string name="pref_roar_threshold_speed_title">Threshold speed</string>
+    <string name="pref_roar_threshold_speed_info">Roar will sound only when going faster than the threshold speed. Useful e.g. for downhills.</string>
+    <string name="pref_roarConstantModeButton_title">Button toggle</string>
+    <string name="pref_roarConstantModeButton_summary">Toggle constant mode with a button click while the roar is turned on</string>
+    <string name="pref_fenceguard_title">FenceGuard</string>
+    <string name="pref_fenceguard_summary">Protect the location of your home, or other important places from being exposed in recorded tracks</string>
+    <string name="pref_gps_update_freq_title"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_gps_update_freq_summary"></string>
+    <string name="pref_gps_boost_title"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_gps_boost_summary"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_gps_boost_dialog_title"><xliff:g>@string/pref_category_gps_boost_title</xliff:g></string>
+    <string name="pref_autopause_mode_title"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_autopause_mode_summary"></string>
+    <string name="pref_autopause_mode_dialog_title">Auto pausing</string>
+    <string name="pref_wakelock_mode_title"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_wakelock_mode_summary"></string>
+    <string name="pref_wakelock_mode_dialog_title"><xliff:g>@string/pref_category_wakelock_title</xliff:g></string>
+    <string name="pref_locationProviderMode_title"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_locationProviderMode_summary"></string>
+    <string name="pref_locationProviderMode_dialog_title"><xliff:g>@string/pref_category_locationProvider_title</xliff:g></string>
+    <string name="pref_speedometer_limit_title">Indicator max</string>
+    <string name="pref_speedometer_limit_dialog_title">Speed indicator max</string>
+    <string name="pref_speed_calculate_mode_title">Recalculate speed</string>
+    <string name="pref_speed_calculate_mode_summary">(All profiles) Recalculate speed from distances, do not use GPS value directly. This may provide more stable speed readings over GPS (Doppler) values.</string>
+    <string name="pref_background_pattern_title"></string>
+    <string name="pref_background_pattern_summary"><xliff:g>@null</xliff:g></string>
+    <string name="pref_background_pattern_dialog_title">Menu background pattern</string>
+    <string name="pref_soundeffects_title">Enable</string>
+    <string name="pref_soundeffects_summary"><xliff:g>@null</xliff:g></string>
+    <string name="pref_soundeffects_fence_enterleave_title">Fence</string>
+    <string name="pref_soundeffects_fence_enterleave_summary">Sound when entering or leaving a fence</string>
+    <string name="pref_soundeffects_gps_signal_title">GPS</string>
+    <string name="pref_soundeffects_gps_signal_summary">Sound on GPS status change (good, bad/standstill)</string>
+    <string name="pref_soundeffects_countdown_title">Countdown</string>
+    <string name="pref_soundeffects_countdown_summary">Sound on countdown before resuming the track (…3, 2, 1, GO!)</string>
+    <string name="pref_soundeffects_tally_title">Enable</string>
+    <string name="pref_soundeffects_tally_summary"><xliff:g>@null</xliff:g></string>
+    <string name="pref_soundeffects_tally_value_summary">Every <xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g></string>
+    <string name="pref_soundeffects_tally_distance_title">Distance</string>
+    <string name="pref_soundeffects_tally_distance_dialog_title">Distance tally</string>
+    <string name="pref_soundeffects_tally_duration_title">Duration</string>
+    <string name="pref_soundeffects_tally_duration_dialog_title">Duration tally</string>
+    <string name="pref_soundeffects_tally_ascent_title">Ascent</string>
+    <string name="pref_soundeffects_tally_ascent_dialog_title">Ascent tally</string>
+    <string name="pref_soundeffects_tally_descent_title">Descent</string>
+    <string name="pref_soundeffects_tally_descent_dialog_title">Descent tally</string>
+    <string name="pref_soundeffects_alarm_title">Enable</string>
+    <string name="pref_soundeffects_alarm_summary"><xliff:g>@null</xliff:g></string>
+    <string name="pref_soundeffects_alarm_gpsPause_title">Forgotten pause</string>
+    <string name="pref_soundeffects_alarm_gpsPause_summary">Alarm will sound when significant movement is detected while tracking is paused</string>
+    <string name="pref_facebook_disable_title">Disable Facebook</string>
+    <string name="pref_facebook_disable_summary"></string>
+    <string name="pref_ads_mode_title">Show adverts</string>
+    <string name="pref_ads_mode_summary"></string>
+    <string name="pref_ads_mode_dialog_title">Adverts type</string>
+    <string name="pref_maps_disable_title">Disable Maps</string>
+    <string name="pref_maps_disable_summary"></string>
+    <string name="pref_maps_track_draw_title">Draw the track</string>
+    <string name="pref_maps_track_draw_summary">Chart your movements over the map</string>
+    <string name="pref_maps_fences_draw_title">Fences</string>
+    <string name="pref_maps_fences_draw_summary">Show FenceGuard protected regions over the map</string>
+    <string name="pref_maps_animate_title">Animation</string>
+    <string name="pref_maps_animate_summary">(All profiles) Turn off to reduce battery usage, especially while the Follow mode is on</string>
+    <string name="pref_maps_online_mode_title"></string>
+    <string name="pref_maps_online_mode_summary">(All profiles)</string>
+    <string name="pref_maps_online_mode_dialog_title">Maps source</string>
+    <string name="pref_maps_offline_file_title">Select file or folder</string>
+    <string name="pref_maps_offline_file_dialog_title">Choose offline maps folder</string>
+    <string name="pref_maps_offline_file_summary">(All profiles) <xliff:g>%1$s</xliff:g></string>
+    <string name="pref_maps_offline_file_noFolderSelected">No folder selected.</string>
+    <string name="pref_maps_offline_info_title">Download now</string>
+    <string name="pref_maps_offline_info_summary">Mapsforge vector (.map) and Rmaps raster (.sqlitedb) maps are supported. Available at download.mapsforge.org</string>
+    <string name="pref_maps_offline_warning_summary">Warning: Some online data may be retrieved even in offline mode. Please disable mobile Internet before using maps, if concerned.</string>
+    <string name="pref_maps_offline_resetToDefault_title"><xliff:g>@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_maps_routes_draw_title">Guide routes</string>
+    <string name="pref_maps_routes_draw_summary">Chart selected GPX routes as dotted lines over the map</string>
+    <string name="pref_maps_routes_info_title">Note!</string>
+    <string name="pref_maps_routes_info_summary">No other visual or audible cues will be given to facilitate the route navigation</string>
+    <string name="pref_maps_routes_files_title">Select file or folder</string>
+    <string name="pref_maps_routes_files_dialog_title">Choose routes folder or file</string>
+    <string name="pref_maps_routes_files_summary"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_maps_routes_files_noFolderSelected">No folder selected.</string>
+    <string name="pref_maps_routes_resetToDefault_title"><xliff:g>@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_maps_quickZoom_title">QuickZoom buttons</string>
+    <string name="pref_maps_quickZoom_summary">(All profiles) Enable invisible quick zoom buttons in the bottom part of the map, improves your orientation</string>
+    <string name="pref_maps_quickZoomInvert_title">Inverted</string>
+    <string name="pref_maps_quickZoomInvert_summary">Exchange zoom in/out button positions</string>
+    <string name="pref_maps_offline_terrain_title">Render terrain</string>
+    <string name="pref_maps_offline_terrain_summary">(All profiles) Render terrain elevation shades. Map will look more realistic, but probably slower. Requires DEM (.hgt) files present in the map folder.</string>
+    <string name="pref_maps_offline_terrain_info_title">Download now</string>
+    <string name="pref_maps_offline_terrain_info_summary">Open up download page at viewfinderpanoramas.org</string>
+    <string name="pref_maps_offline_terrain_note_summary">Usage: Extract .hgt files from the downloaded zip(s) and place them in the same folder where the offline map file resides (do not use separate subfolder).</string>
+    <string name="pref_mapsOfflineLayerButtonActionTitle">Layer button action</string>
+    <string name="pref_mapsOfflineLayerButtonActionSummary">(All profiles) Choose what to do when layer button gets pressed</string>
+    <string name="pref_button_autoring_enable_title">Auto Ring toggle</string>
+    <string name="pref_button_autoring_enable_summary">Enable the Auto Ring mode toggle on speedometer long-click</string>
+    <string name="pref_button_profile_show_title">Profile</string>
+    <string name="pref_button_profile_show_summary">Show the Profile button</string>
+    <string name="pref_button_map_show_title">Map</string>
+    <string name="pref_button_map_show_summary">Show the Map button</string>
+    <string name="pref_button_flashlight_show_title">Flashlight</string>
+    <string name="pref_button_flashlight_show_summary">Show the Flashlight button (if flashlight available)</string>
+    <string name="pref_button_contrast_show_title">Contrast/Map layer</string>
+    <string name="pref_button_contrast_show_summary">Show the Contrast/Map layer toggle button</string>
+    <string name="pref_button_roar_show_title">Roar</string>
+    <string name="pref_button_roar_show_summary">Show the Roar button</string>
+    <string name="pref_button_menu_show_title">Menu</string>
+    <string name="pref_button_menu_show_summary">Show the Menu button</string>
+    <string name="pref_meter_enable_title">Enable</string>
+    <string name="pref_meter_enable_summary">Show or hide this meter</string>
+    <string name="pref_meter_lock_title">Lock mode</string>
+    <string name="pref_meter_lock_summary">Prevents change of mode on click</string>
+    <string name="pref_meter_modes_select_title">Choose available modes…</string>
+    <string name="pref_speedo_display_mode_title">Appearance</string>
+    <string name="pref_speedo_display_mode_summary"></string>
+    <string name="pref_speedo_display_mode_dialog_title">Speedo appearance</string>
+    <string name="pref_speedo_indicator_needle_title">Needle</string>
+    <string name="pref_speedo_indicator_needle_summary">Show the needle in graphic indicator</string>
+    <string name="pref_powermeter_display_mode_title"></string>
+    <string name="pref_powermeter_display_mode_summary"></string>
+    <string name="pref_powermeter_display_mode_dialog_title">Power display mode</string>
+    <string name="pref_powermeter_parameters_info_title">Note!</string>
+    <string name="pref_powermeter_parameters_info_summary">For accurate power and energy readings, please make sure these parameters are correct!</string>
+    <string name="pref_power_weights_title">Weights</string>
+    <string name="pref_power_weights_summary">Driver: <xliff:g>%1$s</xliff:g>, Vehicle: <xliff:g>%2$s</xliff:g>, Cargo: <xliff:g>%3$s</xliff:g>, Passengers: <xliff:g>%4$s</xliff:g>, Wheels: <xliff:g>%5$s</xliff:g></string>
+    <string name="pref_power_coefs_title">Coefficients</string>
+    <string name="pref_power_coefs_summary">Drag area: <xliff:g>%1$s\n</xliff:g>Roll resist: <xliff:g>%2$s</xliff:g></string>
+    <string name="pref_energy_params_title">Energy parameters</string>
+    <string name="pref_energy_params_summary">Efficiency: <xliff:g>%1$s\n</xliff:g>Metabolism: <xliff:g>%2$s</xliff:g></string>
+    <string name="pref_svg_data_enable_title">Generate graphs</string>
+    <string name="pref_svg_data_enable_summary">Generate SVG graph data files for various ride parameters</string>
+    <string name="pref_svg_data_modes_select_title">Choose graph types…</string>
+    <string name="pref_flashlightAutoPocketMode_title">Pocket mode</string>
+    <string name="pref_flashlightAutoPocketMode_summary">Use proximity sensor to keep the flashlight off while not needed</string>
+    <string name="pref_flashlightBlinkMode_title">Mode</string>
+    <string name="pref_flashlightBlinkMode_summary"></string>
+    <string name="pref_flashlightBlinkMode_dialogTitle">Flashlight flickering</string>
+    <string name="pref_flashlightBlinkModeToggleEnable_title">Button toggle</string>
+    <string name="pref_flashlightBlinkModeToggleEnable_summary">Toggle flickering mode with a button click while the flashlight is turned on</string>
+    <string name="pref_gpsInaccuracyIndicator_title">Confidence indicator</string>
+    <string name="pref_gpsInaccuracyIndicator_summary">Indicates aging of the speed value, as it becomes more uncertain with time</string>
+    <string name="pref_paceIndicator_title">Pace indicator</string>
+    <string name="pref_paceIndicator_summary">Shows when you are going faster or slower than the average speed</string>
+    <string name="pref_haptic_feedback_title">Vibrate on touch</string>
+    <string name="pref_haptic_feedback_summary"><xliff:g>@null</xliff:g></string>
+    <string name="pref_haptic_feedback_intensity_title">Vibration intensity</string>
+    <string name="pref_haptic_feedback_intensity_summary"></string>
+    <string name="pref_soundsMasterSwitch_title">All sounds</string>
+    <string name="pref_soundsMasterSwitch_summary"><xliff:g>@null</xliff:g></string>
+    <string name="prefBarometricAltitudeTitle">Barometric altitude</string>
+    <string name="prefBarometricAltitudeSummary">Use inbuilt barometer to enhance altitude accuracy</string>
+    <string name="prefBaroAltitudeUsesTemperatureTitle">Thermo barometer</string>
+    <string name="prefBaroAltitudeUsesTemperatureSummary">Use temperature sensor data for more accurate barometric altitudes</string>
+    <string name="prefBarometricAltitudeNoteTitle">Note!</string>
+    <string name="prefBarometricAltitudeNoteSummary">Use these only in the open atmosphere! Please disable while in pressurized, closed or air-conditioned vehicles like cars or airplanes!</string>
+    <string name="prefTemperatureSensorDerivedTitle">Use derived sensor</string>
+    <string name="prefTemperatureSensorDerivedSummary">This device lacks ambient temperature sensor, but it can be derived using other sensors. Please read more in Help.</string>
+    <string name="prefTemperatureSensorDerivedTypeDialogTitle">Sensor type</string>
+    <string name="prefTemperatureSensorDerivedType1Title">Type A</string>
+    <string name="prefTemperatureSensorDerivedType1Summary">Works best for Samsung, LG, Sony (regular), Xiaomi, and the like</string>
+    <string name="prefTemperatureSensorDerivedType2Title">Type B</string>
+    <string name="prefTemperatureSensorDerivedType2Summary">Works best for Motorola, HTC, Sony (compact), and the like</string>
+    <string name="prefPressureSensorOffsetTitle">Barometer offset</string>
+    <string name="prefPressureSensorOffsetInfo">This constant is added to barometer readouts and can be used to mitigate barometer bias, if present</string>
+    <string name="prefNotificationAlwaysTitle">Persistent notification</string>
+    <string name="prefNotificationAlwaysSummary">Show app notification icon in system status bar at all times, not only when tracking is active.</string>
+    <string name="prefMapDiskCacheSizeTitle">Map cache size limit</string>
+    <string name="prefMapDiskCacheSizeSummary">When viewing a map, both online and offline, parts are being cached locally to reduce the need for repeated download or recreation. This speeds up map loading and saves battery. (All profiles)</string>
+    <string name="prefProhibitLocationTitle">Do not use GPS</string>
+    <string name="prefProhibitLocationSummary">This will acquire data only from wireless sensors (Power, Speed, Cadence, Heart rate) and will not turn on the GPS</string>
+    <string name="prefMapTrackColorTitle">Track color</string>
+    <string name="prefMapGuideRouteColorTitle">Guide route color</string>
+
+    <string name="infoMeterModeDistanceTitle">Distance</string>
+    <string name="infoMeterModeDistanceMsg">Distance traveled.</string>
+    <string name="infoMeterModeDistanceOdoTitle">Odometer</string>
+    <string name="infoMeterModeDistanceOdoMsg">Total distance traveled since first profile use.</string>
+    <string name="infoMeterModeDurationTitle">Duration</string>
+    <string name="infoMeterModeDurationMsg">Duration of the trip, possibly excluding any pauses or stops.</string>
+    <string name="infoMeterModeElapsedTitle">Elapsed time</string>
+    <string name="infoMeterModeElapsedMsg">Elapsed time, including all pauses but excluding stops.</string>
+    <string name="infoMeterModeEnergyTitle">Energy</string>
+    <string name="infoMeterModeEnergyMsg">Energy spent for the trip, taking efficiency and BMR into account.</string>
+    <string name="infoMeterModeEfficacyTitle">Efficacy (cumulative)</string>
+    <string name="infoMeterModeEfficacyMsg">Part of the energy spent that would suffice to make the same trip by moving at a constant speed equal to the average speed. Higher is better.</string>
+    <string name="infoMeterModeAscentTitle">Ascent</string>
+    <string name="infoMeterModeAscentMsg">Cumulative altitude gain (climb).</string>
+    <string name="infoMeterModeDescentTitle">Descent</string>
+    <string name="infoMeterModeDescentMsg">Cumulative altitude loss (drop).</string>
+    <string name="infoMeterModeWriggleTitle">Wriggle</string>
+    <string name="infoMeterModeWriggleMsg">Measure of route deviation from a straight line, i.e. how much it fills the area instead of going straight. Lower is usually better.</string>
+    <string name="infoMeterModeAltitudeTitle">Altitude</string>
+    <string name="infoMeterModeAltitudeMsg">Height above mean sea level (geoid) — Current, Maximum and Minimum.<xliff:g>\n\n</xliff:g>Please note: This can be delayed from the real time, due to inevitable digital filtering delays.</string>
+    <string name="infoMeterModeSlopeTitle">Slope</string>
+    <string name="infoMeterModeSlopeMsg">Slope (gradient), a number describing terrain tilt where zero is horizontal. Higher number means steeper ascent, and negative is for descent.<xliff:g>\n\n</xliff:g>Please note: This can be delayed from the real time by a minute or so, due to inevitable digital filtering delays.</string>
+    <string name="infoMeterModeSpeedTitle">Speed</string>
+    <string name="infoMeterModeSpeedMsg">Speed — Current, Maximum and Average.</string>
+    <string name="infoMeterModeVerticalSpeedTitle">Vertical Speed</string>
+    <string name="infoMeterModeVerticalSpeedMsg">Speed in the up (positive) or down (negative) direction — Current, Maximum and Minimum.<xliff:g>\n\n</xliff:g>Please note: This can be delayed from the real time, due to inevitable digital filtering delays.</string>
+    <string name="infoMeterModePaceTitle">Pace</string>
+    <string name="infoMeterModePaceMsg">Inverse speed — Current, Maximum and Average.</string>
+    <string name="infoMeterModeAccelerationTitle">Acceleration</string>
+    <string name="infoMeterModeAccelerationMsg">Rate of change of speed — Current, Maximum and Minimum.<xliff:g>\n\n</xliff:g>Negative means deceleration.</string>
+    <string name="infoMeterModePowerTitle">Power</string>
+    <string name="infoMeterModePowerMsg">Power exerted due to drag forces, altitude change, etc. — Current, Maximum and Average.<xliff:g>\n\n</xliff:g>Negative means power gain, e.g. when going downhill or braking.<xliff:g>\n\n</xliff:g>When in kcal/h or kJ/h, it also takes efficiency and BMR into account.<xliff:g>\n\n</xliff:g>Please note: This can be delayed from the real time by a minute or so, due to inevitable digital filtering delays.</string>
+    <string name="infoMeterModeAvgActivePowerTitle">Average Active Power</string>
+    <string name="infoMeterModeAvgActivePowerMsg">Average power exerted during activity, not counting intervals where power was absent or really small (downhill, braking, coasting).<xliff:g>\n\n</xliff:g>When doing a strenuous workout, this will basically be your FTP (Functional Threshold Power).</string>
+    <string name="infoMeterModeVerticalPowerTitle">Vertical Power</string>
+    <string name="infoMeterModeVerticalPowerMsg">Power loss or gain while ascending or descending — Current, Maximum and Minimum.<xliff:g>\n\n</xliff:g>Negative means power gain (descending).<xliff:g>\n\n</xliff:g>When in kcal/h or kJ/h, it also takes efficiency into account.<xliff:g>\n\n</xliff:g>Please note: This can be delayed from the real time by a minute or so, due to inevitable digital filtering delays.</string>
+    <string name="infoMeterModeTemperatureTitle">Temperature</string>
+    <string name="infoMeterModeTemperatureMsg">Ambient temperature measured with the device — Current, Maximum and Minimum.</string>
+    <string name="infoMeterModePressureTitle">Pressure</string>
+    <string name="infoMeterModePressureMsg">Ambient pressure measured with the device — Current, Maximum and Minimum.</string>
+    <string name="infoMeterModeClockTitle">Clock</string>
+    <string name="infoMeterModeClockMsg">Current time of the day.</string>
+    <string name="infoMeterModeCadenceTitle">Cadence</string>
+    <string name="infoMeterModeCadenceMsg">Number of revolutions of the crank per minute, i.e. pedalling rate.</string>
+    <string name="infoMeterModeHeartRateTitle">Heart Rate</string>
+    <string name="infoMeterModeHeartRateMsg">Number of heartbeats per minute.</string>
+    <string name="infoMeterModeGearRatioTitle">Gear ratio</string>
+    <string name="infoMeterModeGearRatioMsg">Ratio of wheel revolutions vs. pedal turns per time unit, i.e. ratio of front sprocket and rear sprocket sizes. Higher number means higher gear.</string>
+
+    <string name="infoAutopauseForcedRelaxed">Note: Auto Pause forced to Relaxed</string>
+    <string name="infoAutopauseForcedOff">Note: Auto Pause forced to Off</string>
+
+    <string name="defaultProfileNameBike1">Bike 1</string>
+    <string name="defaultProfileNameBike2">Bike 2</string>
+    <string name="defaultProfileNameWalk">Walk</string>
+    <string name="defaultProfileNameRun">Run</string>
+    <string name="defaultProfileNameCar">Car</string>
+    <string name="defaultProfileNamePlane">Plane</string>
+    <string name="defaultProfileNameIndoor">Indoor</string>
+    <string name="defaultProfileNameOther">Other</string>
+
+
+	<string-array name="meterModes">
+	    <item>Duration</item>
+	    <item>Distance</item>
+	    <item>Speed</item>
+	    <item>Altitude</item>
+	    <item>Ascent</item>
+	    <item>Descent</item>
+        <item>Slope</item>
+	    <item>Energy</item>
+	    <item>Efficacy</item>
+	    <item>Power</item>
+        <item>Active power</item>
+	    <item>Vert. power</item>
+	    <item>Vert. speed</item>
+	    <item>Acceleration</item>
+	    <item>Avg. speed</item>
+        <item>Avg. power</item>
+        <item>Elapsed time</item>
+	    <item>Pace</item>
+        <item>Cadence</item>
+        <item>Heart rate</item>
+        <item>Gear ratio</item>
+	    <item>Clock</item>
+	    <item>Wriggle</item>
+	    <item>Temperature</item>
+	    <item>Pressure</item>
+	   	<item>Odometer</item>
+	</string-array>
+
+
+	<string-array name="pref_gps_update_freq_entries">
+	    <item>Fastest</item>
+	    <item>0.5 sec</item>
+	    <item>Default</item>
+	    <item>1 sec</item>
+	    <item>2 sec</item>
+	    <item>3 sec</item>
+	    <item>4 sec</item>
+	    <item>5 sec</item>
+	    <item>10 sec</item>
+	    <item>15 sec</item>
+	    <item>20 sec</item>
+	   	<item>30 sec</item>
+	   	<item>45 sec</item>
+	   	<item>1 min</item>
+	    <item>2 min</item>
+	    <item>3 min</item>
+	    <item>4 min</item>
+	    <item>5 min</item>
+	    <item>10 min</item>
+	    <item>15 min</item>
+	    <item>20 min</item>
+	    <item>30 min</item>
+	    <item>45 min</item>
+	    <item>1 hour</item>
+	</string-array>
+
+	<string-array name="pref_gps_boost_modes">
+	    <item>Map shown (default)</item>
+	    <item>Screen on</item>
+	    <item>Disabled</item>
+	</string-array>
+
+	<string-array name="pref_gps_boost_modes_explanation">
+	    <item>Force frequent GPS updates while the map is visible</item>
+	    <item>Force frequent GPS updates while the screen is turned on</item>
+	    <item>Never force frequent GPS updates</item>
+	</string-array>
+
+	<string-array name="pref_autopause_modes">
+	    <item>Realtime (default)</item>
+	    <item>Relaxed</item>
+	    <item>Off</item>
+	</string-array>
+
+	<string-array name="pref_autopause_modes_explanation">
+	    <item>Discard all pauses longer than few seconds</item>
+	    <item>Discard only pauses longer than 5 minutes</item>
+	    <item>Keep all pauses (unless paused manually)</item>
+	</string-array>
+
+	<string-array name="pref_wakelock_modes">
+	    <item>Auto (default)</item>
+	    <item>Fully awake</item>
+	    <item>Partial</item>
+	    <item>Off</item>
+	</string-array>
+
+	<string-array name="pref_wakelock_modes_explanation">
+	    <item>Automatically decide based on GPS update interval and other factors</item>
+	    <item>Keep CPU awake during tracking. May use more battery, but ensures no location update is skipped.</item>
+	    <item>Allow CPU to sleep between location updates. May use less battery, but may skip an update on a rare occasion.</item>
+	    <item>Obey behaviour imposed by the system and/or other apps. Warning: May cause highly irregular location updates or even reject them all. Not recommended.</item>
+	</string-array>
+
+	<string-array name="pref_locationProvider_modes">
+	    <item>GPS subsystem (default)</item>
+	    <item>Google Play services</item>
+	</string-array>
+
+	<string-array name="pref_locationProvider_modes_explanation">
+	    <item>(All profiles) Use GPS subsystem directly. Stable, less complex model, no middleman. May also use less resources than the other provider.</item>
+	    <item>(All profiles) Use \"Fused\" provider from Google Play services, if available. In theory this may provide faster and more accurate locations sometimes. Try it out to see if it benefits you.</item>
+	</string-array>
+
+	<string-array name="pref_flashlightBlinkModes">
+	    <item>Slow (default)</item>
+	    <item>Fast</item>
+	    <item>None / Steady</item>
+	</string-array>
+
+	<string-array name="pref_units_distance_entries">
+	    <item>Metric [m, km]</item>
+	    <item>Imperial [ft, mi]</item>
+	</string-array>
+
+	<string-array name="pref_units_speed_entries">
+	    <item>Metric [km/h]</item>
+	    <item>Imperial [mph]</item>
+	</string-array>
+
+	<string-array name="pref_units_altitude_entries">
+	    <item>Metric [m]</item>
+	    <item>Imperial [ft]</item>
+	</string-array>
+
+	<string-array name="pref_units_weight_entries">
+	    <item>Metric [kg]</item>
+	    <item>Imperial [lb]</item>
+	</string-array>
+
+	<string-array name="pref_units_other_entries">
+	    <item>Metric</item>
+	    <item>Imperial</item>
+	</string-array>
+
+	<string-array name="prefUnitsEnergyEntries">
+	    <item>[kcal]</item>
+	    <item>[kJ]</item>
+	    <item>[kWh]</item>
+	    <item>[Liters of petrol]</item>
+	</string-array>
+
+	<string-array name="prefUnitsPowerEntries">
+	    <item>[W]</item>
+	    <item>[HP]</item>
+	    <item>[kcal/h]</item>
+	    <item>[kJ/h]</item>
+	</string-array>
+
+    <string-array name="prefUnitsSlopeEntries">
+        <item>Percent [<xliff:g id="fullwidthPercentSign">\uff05</xliff:g>]</item>
+        <item>Degree [°]</item>
+        <item>Per mille [‰]</item>
+    </string-array>
+
+	<string-array name="pref_hud_axis_entries">
+	    <item>Default — Statusbar at its natural position</item>
+	    <item>Upside down — More practical device handling</item>
+	</string-array>
+
+	<string-array name="pref_bell_mode_entries">
+	    <item>Ding</item>
+	    <item>Ring-ring</item>
+	    <item>Horn</item>
+	    <item>Yoo-hoo</item>
+	</string-array>
+
+	<string-array name="pref_roaring_type_entries">
+	    <item>Freehub</item>
+	    <item>Beep</item>
+	    <item>Chopper</item>
+	</string-array>
+
+	<string-array name="pref_roaring_mode_entries">
+	    <item>Auto rate and volume</item>
+	    <item>Auto rate</item>
+	    <item>Auto volume</item>
+	    <item>Constant while moving</item>
+	    <item>Active above threshold speed</item>
+	</string-array>
+
+	<string-array name="pref_background_pattern_entries">
+	    <item>None</item>
+	    <item><xliff:g>@string/app_name</xliff:g></item>
+	    <item>Zebra</item>
+	    <item>Leopard</item>
+	    <item>Brick</item>
+	   	<item>Cobble</item>
+	    <item>Clouds</item>
+	    <item>Hearts</item>
+	    <item>Honeycomb</item>
+	</string-array>
+
+	<string-array name="pref_tally_distance_entries">
+	    <item>Off</item>
+	    <item>0.1</item>
+	    <item>0.25</item>
+	    <item>0.5</item>
+	    <item>1</item>
+	   	<item>2.5</item>
+	    <item>5</item>
+	    <item>10</item>
+	    <item>25</item>
+	    <item>50</item>
+	    <item>100</item>
+	    <item>250</item>
+	</string-array>
+
+	<string-array name="pref_tally_duration_entries">
+	    <item>Off</item>
+	    <item>1</item>
+	    <item>2</item>
+	    <item>5</item>
+	    <item>10</item>
+	    <item>15</item>
+	    <item>20</item>
+	    <item>30</item>
+	    <item>45</item>
+	    <item>60</item>
+	    <item>90</item>
+	    <item>120</item>
+	    <item>180</item>
+	</string-array>
+
+	<string-array name="pref_tally_ascent_entries">
+	    <item>Off</item>
+	    <item>5</item>
+	    <item>10</item>
+	    <item>25</item>
+	    <item>50</item>
+	    <item>100</item>
+	    <item>250</item>
+	    <item>500</item>
+	    <item>1000</item>
+	    <item>2500</item>
+	    <item>5000</item>
+	</string-array>
+
+	<string-array name="pref_speedo_display_mode_entries">
+	    <item>Graphic &amp; Digital</item>
+	    <item>Graphic</item>
+	    <item>Digital</item>
+	</string-array>
+
+	<string-array name="pref_powermeter_display_mode_entries">
+	    <item>Total power</item>
+	    <item>Watts per kg/lb</item>
+	</string-array>
+
+	<string-array name="prefMapOnlineModeEntries">
+	    <item>Online</item>
+	    <item>Offline</item>
+	</string-array>
+
+	<string-array name="prefBackKeyModeEntries">
+	    <item>Normal</item>
+        <item>None</item>
+	    <item>Double-click exit</item>
+	</string-array>
+
+	<string-array name="mapLayerTypes">
+	    <item><xliff:g>@string/mapLayerStreet</xliff:g></item>
+	    <item><xliff:g>@string/mapLayerTerrain</xliff:g></item>
+	    <item><xliff:g>@string/mapLayerSatellite</xliff:g></item>
+	</string-array>
+
+	<string-array name="derivedTemperatureSensorTypes">
+	    <item><xliff:g>@string/prefTemperatureSensorDerivedType1Title</xliff:g></item>
+	    <item><xliff:g>@string/prefTemperatureSensorDerivedType2Title</xliff:g></item>
+	</string-array>
+
+	<string-array name="derivedTemperatureSensorTypesInfo">
+	    <item><xliff:g>@string/prefTemperatureSensorDerivedType1Summary</xliff:g></item>
+	    <item><xliff:g>@string/prefTemperatureSensorDerivedType2Summary</xliff:g></item>
+	</string-array>
+
+    <string-array name="prefMapOfflineLayerButtonActionEntries">
+        <item>Switch theme</item>
+        <item>Switch file</item>
+        <item>None</item>
+    </string-array>
+
+    <string-array name="prefMapDiskCacheSizeEntries">
+        <item>10 MB</item>
+        <item>50 MB</item>
+        <item>100 MB (default)</item>
+        <item>200 MB</item>
+        <item>300 MB</item>
+        <item>400 MB</item>
+        <item>500 MB</item>
+        <item>1 GB</item>
+        <item>2 GB</item>
+        <item>3 GB</item>
+        <item>4 GB</item>
+        <item>5 GB</item>
+    </string-array>
+
+
+    <string name="svgCopyright">Created with Urban Biker</string>
+
+
+	<string name="fbStoryLiveText">Ongoing!</string>
+    <string name="fbCourseTitle">Powered by Urban Biker</string>
+	<string name="fbTemperatureMin">Temp. min</string>
+	<string name="fbTemperatureMax">Temp. max</string>
+    <string name="trackUploadDescriptionDefault">This activity was tracked using Urban Biker mobile app</string>
+
+	<string-array name="trackUploadActivityTypes">
+	    <item>Bike</item>
+	    <item>Run</item>
+	    <item>Walk</item>
+	</string-array>
+
+	<string-array name="prefAdModes">
+        <item>Any</item>
+	    <item>Google</item>
+	    <item>AppBrain</item>
+	    <item>None</item>
+	</string-array>
+
+
+    <string name="menuLicense">Buy license</string>
+
+    <string name="dialogLicenseBuyTitle">Like this app?</string>
+    <string name="dialogLicenseBuyYesButton">Get it!</string>
+    <string name="dialogLicenseBuyNoButton">Not now</string>
+
+    <string name="dialogReviewNudgeTitle">Like this app?</string>
+    <string name="dialogReviewNudgeMessage">Please write a nice review or rate it 5 stars on the Play Store.</string>
+
+    <string name="dialogAppOptimizedPromptTitle">Battery optimization</string>
+    <string name="dialogAppOptimizedPromptMessage">Urban Biker should be exempt from battery optimizations, otherwise it may not work properly.\n\nOpen Settings now?</string>
+    <string name="batteryOptimizationToast">Select Urban Biker from the list</string>
+
+    <string name="licenseItemAlreadyOwned">License item already owned</string>
+
+    <string name="timePeriod_perWeek">/week</string>
+    <string name="timePeriod_perMonth">/mo</string>
+    <string name="timePeriod_per3Months">/3 mo</string>
+    <string name="timePeriod_per6Months">/6 mo</string>
+    <string name="timePeriod_perYear">/yr</string>
+
+    <string name="generalError">Some error occurred. Please try again.</string>
+    <string name="openSourceLicensesTitle">Open source licenses</string>
+
+</resources>
