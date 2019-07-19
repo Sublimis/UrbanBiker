@@ -1,2 +1,992 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="locale">hr</string>
+
+
+    <string name="app_name">Urban Biker</string>
+
+    <string name="app_description">Visokom preciznošću snimajte i mjerite svoje vožnje. Uvećajte efikasnost i sigurnost vožnji bicikla.</string>
+
+    <string name="widget_1_description">Biker: Zvonce</string>
+    <string name="widget_2_description">Biker: Zvonce + Svjetiljka</string>
+    <string name="widget_3_description">Biker: Cjelovito</string>
+
+    <string name="copyright_part1">&lt;xliff:g&gt;<b>v%1$s</b> (%2$s)&lt;/xliff:g&gt;</string>
+
+    <string name="proLicenseLabel">Pro</string>
+    <string name="proPlusLicenseLabel">Pro+</string>
+    <string name="ultimateLicenseLabel">Ultimate</string>
+
+    <string name="proLicenseTitle">Pro Licenca</string>
+    <string name="proLicenseDescription">Uklonite oglase</string>
+
+    <string name="proPlusLicenseTitle">Pro Plus Licenca</string>
+    <string name="proPlusLicenseDescription">Uklonite oglase i otključajte sve ne-pretplatne značajke koje možemo dodati u budućnosti</string>
+
+    <string name="ultimateLicenseTitle">Ultimate Licenca</string>
+    <string name="ultimateLicenseDescriptionMonthly">Sve značajke i karte otključane (mjesečna pretplata)</string>
+    <string name="ultimateLicenseDescriptionYearly">Sve značajke i karte otključane (godišnja pretplata)</string>
+
+
+    <string name="ok">U redu</string>
+    <string name="yes">Da</string>
+    <string name="no">Ne</string>
+    <string name="cancel">Prekid</string>
+    <string name="buttonUnderstand">Razumijem</string>
+
+    <string name="buttonResumeTrack">Nastavi</string>
+    <string name="buttonNewTrack">Završi</string>
+
+    <string name="menuControlPanel">Upravljačka ploča</string>
+    <string name="menuSettings">Postavke</string>
+    <string name="menuSummary">Rezime</string>
+    <string name="menuTracksHistory">Povijest</string>
+    <string name="menuTracksHistoryResume">Nastavi</string>
+    <string name="menuMeterLock">Zaključaj</string>
+    <string name="menuMeterLockAll">Zaključaj sve</string>
+    <string name="menuMeterMode">Način mjerača…</string>
+    <string name="menuMeterChooseModes">Odaberi načine…</string>
+    <string name="menuMeterNewTrack">Nova staza</string>
+    <string name="menuMeterResetMinMax">Reset min/maks</string>
+    <string name="menuMeterReset">Završi</string>
+    <string name="menuMeterParameters">Parametri…</string>
+    <string name="menuMeterPowerMode">Prebaci način snage</string>
+    <string name="menuFenceguard">ČuvarOgrade</string>
+    <string name="menuExit">Izlaz</string>
+    <string name="menuMore">Više…</string>
+    <string name="menuView">Pregledaj</string>
+    <string name="menuViewWith">Pregledaj s…</string>
+    <string name="menuProfiles">Profili</string>
+    <string name="menuSensors">Senzori</string>
+    <string name="menuAbout">O aplikaciji</string>
+    <string name="menuHelp">Pomoć &amp; Podrška</string>
+    <string name="menuShare">Podijeli</string>
+    <string name="menuUpload">Pošalji</string>
+    <string name="menuSelectMode">Odabir</string>
+    <string name="menuSelectAll">Odaberi sve</string>
+    <string name="menuExpandAll">Proširi sve</string>
+    <string name="menuCollapseAll">Skupi sve</string>
+    <string name="menuEdit">Uredi</string>
+    <string name="menuDelete">Briši</string>
+    <string name="menuClear">Očisti</string>
+    <string name="menuCenterOnMap">Centriraj</string>
+    <string name="menuClose">Zatvori</string>
+    <string name="menuInfo">Info</string>
+    <string name="menuFeedback">Povratne informacije</string>
+    <string name="menuRateAndComment">Ocijeni i komentiraj</string>
+    <string name="menuRefresh">Osvježi</string>
+    <string name="menuSwitchProfile">Prebaci</string>
+
+    <string name="share_title">Podijeli putem</string>
+    <string name="share_subject"><xliff:g>\@string/app_name</xliff:g></string>
+
+    <string name="pick_a_color">Odaberite boju</string>
+
+    <string name="fence_name_default">Moj stan</string>
+    <string name="profileNameDefault">Novi Profil</string>
+
+    <string name="featureNotAvailable">Žao nam je, značajka nije dostupna na ovom uređaju</string>
+    <string name="farFromHere">Daleko odavde</string>
+
+    <string name="toastRestartRequired">Ponovno pokrenite aplikaciju za primjenu</string>
+    <string name="toastActiveProfile">Profil: <xliff:g>%1$s</xliff:g></string>
+    <string name="toastProfileSavingError">Greška pri spremanju podataka profila! Molim pokušajte ponovno.</string>
+    <string name="toastProfileChangeError">Neuspješno prebacivanje profila! Molim pokušajte ponovno.</string>
+    <string name="toastGpsEnabled">GPS uključen</string>
+    <string name="toastTrackSaved">Staza pohranjena.</string>
+    <string name="toastTrackDiscarded">Staza odbačena</string>
+    <string name="toastTrackSavingError">Greška pri pohranjivanju staze! Pokušajte ponovno resetirati.</string>
+    <string name="toastTrackWritingError">Greška pri zapisivanju podataka na pohranu! Pokušajte ponovno resetirati.</string>
+    <string name="toastTrackZippingError">Greška pri zipanju staze! Pokušajte ponovno resetirati.</string>
+    <string name="toastTrackMovingError">Greška pri izmještanju staze na USB pohranu! Pokušajte ponovno resetirati.</string>
+    <string name="toastPressAgainToExit">Pritisnite ponovno za izlaz</string>
+    <string name="toastTrackingRecording">Snimanje</string>
+    <string name="toastTrackingRecordingPassive">Pasivno snimanje</string>
+    <string name="toastTrackingPaused">Pauzirano</string>
+    <string name="toastTrackingStopped">Zaustavljeno</string>
+    <string name="toastFenceGuardFenceAdded">ČuvarOgrade: Ograda <xliff:g>%1$s</xliff:g> dodana</string>
+    <string name="toastFenceGuardFenceAddingError">ČuvarOgrade: Greška pri dodavanju ograde</string>
+    <string name="toastFenceGuardFenceUpdated">ČuvarOgrade: Ograda <xliff:g>%1$s</xliff:g> ažurirana</string>
+    <string name="toastFenceGuardFenceUpdatingError">ČuvarOgrade: Greška pri ažuriranju ograde</string>
+    <string name="toastFenceGuardFenceRemoved">ČuvarOgrade: Ograda <xliff:g>%1$s</xliff:g> uklonjena</string>
+    <string name="toastFenceGuardFenceRemovingError">ČuvarOgrade: Greška pri uklanjanju ograde</string>
+    <string name="toastFenceGuardOutsideTheFence">ČuvarOgrade: Trenutno niste unutar ograde</string>
+    <string name="toastFenceGuardLocationUnavailable">ČuvarOgrade: Vaša lokacija još nije dostupna</string>
+    <string name="toastProfilesListNonemptyDelete">Nije moguće izbrisati — Profil sadrži neke nespremljene podatke! Završite najprije.</string>
+    <string name="toastProfilesListProfileCreated">Profil je kreiran</string>
+    <string name="toastProfilesListProfileDeleted">Profil je obrisan</string>
+    <string name="toastProfilesListProfileDeleteError">Greška pri brisanju profila</string>
+    <string name="toastProfilesListProfileUpdated">Profil ažuriran</string>
+    <string name="toastTrackDeleted">Staze obrisane</string>
+    <string name="toastTrackDeleteError">Greška pri brisanju staza</string>
+    <string name="toastTrackResumed">Staza nastavljena</string>
+    <string name="toastTrackResumeGpsActiveError">Molim najprije ugasite ili pauzirajte GPS</string>
+    <string name="toastProfileButtonClickInfo">Dugim klikom prebacite profil</string>
+    <string name="toastContrastButtonClickInfo">Automatski vizualna tema je aktivna</string>
+    <string name="toastFlashlightButtonClickInfo">Dugim klikom prebacite bljeskalicu</string>
+    <string name="toastRoarButtonClickInfo">Dugim klikom prebacite zvuk huke</string>
+    <string name="toastMapButtonClickInfo">Dugim klikom prebacite mapu</string>
+    <string name="toastMapFollowingOn">Praćenje</string>
+    <string name="toastMapFollowingAutorotate">Auto-rotacija</string>
+    <string name="toastMapFollowingOff">Praćenje isključeno</string>
+    <string name="toastMapLayerTrafficOn">Promet uključen</string>
+    <string name="toastMapLayerTrafficOff">Promet isključen</string>
+    <string name="toastErrorCreatingOfflineMap">Greška pri kreiranju offline mape</string>
+    <string name="toastErrorAccessingExternalStorage">Greška prilikom pristupa vanjskoj pohrani</string>
+    <string name="toastErrorPowerParametersVoid">Molimo unesite parametre Snage u Postavkama</string>
+    <string name="toastSharingSuccess">Uspješno poslano</string>
+    <string name="toastSharingError">Greška tijekom dijeljenja</string>
+    <string name="toastSharingPermissionsError">Greška pri objavljivanju, molimo provjerite odobrenja</string>
+    <string name="toastUpdatingSuccess">Uspješno ažurirano</string>
+    <string name="toastSoundsEnabled">Zvukovi omogućeni</string>
+    <string name="toastSoundsDisabled">Zvukovi zabranjeni</string>
+    <string name="toastSensorEnabled">Senzor omogućen</string>
+    <string name="toastSensorDisabled">Senzor onemogućen</string>
+    <string name="toastAutoThemeActivated">Automatska vizualna tema je aktivna</string>
+    <string name="toastCancelled">Otkazano</string>
+
+    <string name="notificationTitle"><xliff:g>\@string/app_name</xliff:g></string>
+    <string name="notificationTitleAdvanced"><xliff:g>%1$s</xliff:g></string>
+    <string name="notificationTitleAdvancedPaused">Pauzirano: <xliff:g>%1$s</xliff:g></string>
+
+    <string name="licenseSuccessDialogTitle"><xliff:g>\@string/app_name</xliff:g></string>
+    <string name="licenseSuccessDialogMessage">Aplikacija je uspješno licencirana. Hvala na podršci!</string>
+
+    <string name="ongoingNotificationChannelName">Trajna notifikacija</string>
+    <string name="ongoingNotificationChannelDescription">Pruža kontrolu servisa i lak pristup aplikaciji</string>
+
+    <string name="dialog_default_color_light_title">Svijetla tema boja</string>
+    <string name="dialog_default_color_dark_title">Tamna tema boja</string>
+    <string name="dialog_default_map_track_colors_title">Boja staze mape</string>
+    <string name="dialog_default_color_text">Biti će učitane zadane boje. Jeste li sigurni\?</string>
+    <string name="dialog_defaultConfirmation">Jeste li sigurni\?</string>
+    <string name="dialog_volume_bell_text">Zvonce</string>
+    <string name="dialog_volume_roaring_text">Huka</string>
+    <string name="dialog_volume_effects_text">Efekti</string>
+    <string name="dialog_volume_tallies_text">Oznake</string>
+    <string name="dialog_volume_alarms_text">Alarmi</string>
+    <string name="dialog_volume_message">Koristite tipke za glasnoću na uređaju da podesite ukupnu glasnoću zvukova.</string>
+    <string name="dialog_bell_automatic_sensitivity_title">Osjetljivost automatskog zvona</string>
+    <string name="dialog_bell_shake_sensitivity_title">Osjetljivost treskanja</string>
+    <string name="dialog_fenceguard_title"><xliff:g>\@string/menuFenceguard</xliff:g></string>
+    <string name="dialog_fenceguard_add_title">Dodaj ogradu</string>
+    <string name="dialog_fenceguard_add_text">Ime nove ograde:</string>
+    <string name="dialog_fenceguard_add_text2">Ograda će biti podignuta oko vaše trenutne lokacije da je zaštiti od objavljivanja u snimljenim stazama.</string>
+    <string name="dialog_fenceguard_update_title">Ažuriraj ogradu</string>
+    <string name="dialog_fenceguard_update_text">Ime ograde:</string>
+    <string name="dialog_fenceguard_update_text2">Ograda podignuta oko vaše lokacije štiti je od objavljivanja u snimljenim stazama.</string>
+    <string name="dialog_fenceguard_remove_title">Ukloni ogradu</string>
+    <string name="dialog_fenceguard_remove_defaultText">Jeste li sigurni da želite ukloniti ogradu\?</string>
+    <string name="dialog_fenceguard_remove_formatText">Jeste li sigurni da želite ukloniti ogradu <xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialog_track_save_text">Udaljenost <xliff:g>%1$.3f %2$s
+\n</xliff:g>Trajanje <xliff:g>%3$s
+\n</xliff:g><xliff:g>(%4$s)
+\n
+\n</xliff:g>Staza se čini kratkom. Pohraniti\?</string>
+    <string name="dialog_exit_title"><xliff:g>\@string/app_name</xliff:g></string>
+    <string name="dialog_exit_msg">Upozorenje: Praćenje je aktivno, i biti će zaustavljeno.</string>
+    <string name="dialogProfileDeleteTitle">Brisanje profila</string>
+    <string name="dialogProfileDeleteMessage">Upozorenje: Ovo će ukloniti postavke profila i iznose ukupnih suma. Pohranjene staze ostaju nedirnute.
+\n
+\nObrisati profil <xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialogProfileAddTitle">Novi profil</string>
+    <string name="dialogProfileAddInfo">Postavke novog profila biti će preuzete od trenutno aktivnog profila</string>
+    <string name="dialogProfileEditTitle">Izmjena profila</string>
+    <string name="dialogProfileEditTotals">Ukupne sume:</string>
+    <string name="dialogProfileTotalsResetMessage">Resetirati ukupne sume profila na nulu\?</string>
+    <string name="dialogProfileSwitchTitle">Prebaci profil</string>
+    <string name="dialogProfileSwitchMessage">Praćenje je aktivno. Jeste li sigurni da želite prebaciti na profil <xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialogTracksDeleteTitle">Briši staze</string>
+    <string name="dialogTracksDeleteMessage">Upozorenje: Ova akcija ne može se poništiti.
+\n
+\nObrisati odabrane staze\?</string>
+    <string name="dialogTrackDeleteMessage">Upozorenje: Ova akcija ne može se poništiti.
+\n
+\nObrisati stazu <xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialogTrackResumeTitle">Nastavi stazu</string>
+    <string name="dialogTrackResumeGpsActiveMessage">Praćenje je aktivno. Molimo prvo ugasite ili pauzirajte GPS.</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">Ciljni profil <xliff:g>%1$s</xliff:g> nije prazan. Molimo prvo resetirajte.</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">Aktivni profil će biti prebačen s <xliff:g>%1$s</xliff:g> na <xliff:g>%2$s</xliff:g>. Nastaviti\?</string>
+    <string name="dialogTrackResumeProfileMissingMessage">Profil <xliff:g>%1$s</xliff:g> kojim je kreirana ova staza više ne postoji. Nastaviti u trenutnom profilu <xliff:g>%2$s</xliff:g>\?</string>
+    <string name="dialogTrackResumeGeneralPromptMessage">Staza će biti nastavljena u profilu <xliff:g>%1$s</xliff:g>. Nastaviti\?</string>
+    <string name="dialogTrackResumeGeneralErrorMessage">Došlo je do pogreške. Molim pokušajte ponovo.</string>
+    <string name="dialogTrackResumeWaitMessage">Nastavljam, molim pričekajte…</string>
+    <string name="dialogTracksShareTitle">Dijeli staze</string>
+    <string name="dialogTracksShareGeneralErrorMessage">Došlo je do pogreške. Molimo pokušajte ponovo.</string>
+    <string name="dialogTracksShareCountExceeded">Nije moguće dijeliti više od 100 staza odjednom.</string>
+    <string name="dialogGpsSettingsPromptTitle">Lokacija je isključena</string>
+    <string name="dialogGpsSettingsPromptMessage">Bez lokacije nećete moći koristiti većinu značajki ove aplikacije.<xliff:g>
+\n
+\n</xliff:g>Provjerite da je lokacija omogućena i postavljena u način \'Visoka točnost\'.<xliff:g>
+\n
+\n</xliff:g>Želite li otvoriti sistemske Postavke lokacije sada\?</string>
+    <string name="dialogBaroAltitudePromptTitle">Problem s barometarskom visinom</string>
+    <string name="dialogBaroAltitudePromptMessage">Barometarska visina je prisilno isključena zbog neslaganja s GPS visinom!<xliff:g>
+\n
+\n</xliff:g>Molimo ne koristite je u zatvorenim ili klimatiziranim prostorima!</string>
+    <string name="dialogBaroAltitudeNoticeTitle">Obavijest</string>
+    <string name="dialogBaroAltitudeNoticeMessage">Barometarska visina radi samo na otvorenom.<xliff:g>
+\n
+\n</xliff:g>Molimo ne koristite je u zatvorenim ili klimatiziranim prostorima poput nekih vozila ili aviona.</string>
+    <string name="dialogThermoBarometerNoticeTitle">Obavijest</string>
+    <string name="dialogThermoBarometerNoticeMessage">Točnost termo barometra ovisi o temperaturi vanjskog zraka.<xliff:g>
+\n
+\n</xliff:g>Molimo ne koristite u zatvorenim ili klimatiziranim prostorima poput nekih vozila ili aviona.</string>
+    <string name="dialogResetTitle">Završi</string>
+    <string name="dialogResetMessage">Pohraniti ovu stazu i pripremiti se za novu\?</string>
+    <string name="dialogResetNoTrackMessage">Staza nije snimljena. Resetirati mjerače\?</string>
+    <string name="dialogScreenHudMode">Način HUD odraza</string>
+    <string name="dialogScreenOrientationAuto">Automatsko orijentiranje</string>
+    <string name="dialogScreenOrientationPortrait">Portretsko</string>
+    <string name="dialogScreenOrientationLandscape">Pejzažno</string>
+    <string name="dialogScreenBrightnessOverride">Postaviti osvjetljenje</string>
+    <string name="dialogScreenAutoTheme">Autom. tema</string>
+    <string name="dialogScreenPocketMode">Džepni način</string>
+    <string name="dialogMapsOffline">Offline mape</string>
+    <string name="dialogMapsLayerTraffic">Promet</string>
+    <string name="dialogMapsShowFences">Ograde</string>
+    <string name="dialogMapsShowRoutes">Trase navođenja</string>
+    <string name="dialogMapsFollowMode">Praćenje</string>
+    <string name="dialogMapsAutoRotate">Rotiraj</string>
+    <string name="dialogMapsHighResolution">Mapa visoke rez.</string>
+    <string name="dialogMapsRenderTerrain">Prikazuj teren</string>
+    <string name="dialogMapsTrackColor">Bojanje staze:</string>
+    <string name="dialogMapsTrackColorAltitude"><xliff:g>\@string/infoMeterModeAltitudeTitle</xliff:g></string>
+    <string name="dialogMapsTrackColorSpeed"><xliff:g>\@string/infoMeterModeSpeedTitle</xliff:g></string>
+    <string name="dialogMapsTrackColorDuration"><xliff:g>\@string/infoMeterModeDurationTitle</xliff:g></string>
+    <string name="dialogMapsTrackColorElapsed"><xliff:g>\@string/summaryTotalTime</xliff:g></string>
+    <string name="dialogMapsTrackColorHeartRate"><xliff:g>\@string/infoMeterModeHeartRateTitle</xliff:g></string>
+    <string name="dialogMapsTrackColorCadence"><xliff:g>\@string/infoMeterModeCadenceTitle</xliff:g></string>
+    <string name="dialogMapsTrackColorTemperature"><xliff:g>\@string/infoMeterModeTemperatureTitle</xliff:g></string>
+    <string name="dialogFencesAdd">Dodaj ogradu ovdje</string>
+    <string name="dialogFencesUpdate">Ažuriraj lokaciju ograde</string>
+    <string name="dialogFencesEdit">Izmijeni ogradu</string>
+    <string name="dialogFencesRemove">Ukloni ogradu</string>
+    <string name="dialogFencesShowFences">Prikazuj ograde</string>
+    <string name="dialogPowerWeightsTitle">Mase</string>
+    <string name="dialogPowerWeightsRotInertiaTitle">Rotacijska inercija</string>
+    <string name="dialogPowerWeightsWeightRider">Vozač</string>
+    <string name="dialogPowerWeightsWeightVehicle">Vozilo</string>
+    <string name="dialogPowerWeightsWeightCargo">Teret</string>
+    <string name="dialogPowerWeightsWeightPassengers">Putnici</string>
+    <string name="dialogPowerWeightsWeightWheels">Kotači</string>
+    <string name="dialogPowerParamsTitle">Koeficijenti gubitka snage</string>
+    <string name="dialogPowerParamsDragArea">Površina otporu zraka (Cd·A)</string>
+    <string name="dialogPowerParamsRollResist">Koef. otpora kotrljanju (Crr)</string>
+    <string name="dialogEnergyParamsTitle">Parametri energije</string>
+    <string name="dialogEnergyParamsEfficiency">Ukupna termička efikasnost (η)</string>
+    <string name="dialogEnergyParamsBmr">Stopa bazalnog metabolizma (BMR)</string>
+    <string name="dialogFileChooseSelectFolder">Odaberi ovaj folder</string>
+    <string name="dialogMapsDownloadTitle">Preuzimanje offline mapa</string>
+    <string name="dialogMapsDownloadText">Otvoriti web stranicu za preuzimanje sada\?</string>
+    <string name="dialogMapsTerrainDownloadTitle">Preuzimanje terena</string>
+    <string name="dialogTrackUploadWaitTitle">Molim pričekajte</string>
+    <string name="dialogTrackUploadPreparing">Priprema podataka…</string>
+    <string name="dialogTrackUploadSending">Šaljem…</string>
+    <string name="dialogTrackUploadDescriptionHint">Iznesite svoje misli…</string>
+    <string name="dialogTrackUploadShareButton">Podijeli</string>
+    <string name="dialogTrackUploadShareAgainButton">Podijeli opet</string>
+    <string name="dialogTrackUploadUpdateButton">Ažuriraj</string>
+    <string name="dialogTrackUploadActivityType">Vrsta aktivnosti</string>
+    <string name="dialogTrackUploadPlatform">Online servis</string>
+    <string name="dialogTrackUploadStravaIsCommute">Commute-anje</string>
+    <string name="dialogSvgTitle">SVG grafovi</string>
+    <string name="dialogSvgDistanceTitle"><xliff:g>\@string/infoMeterModeDistanceTitle</xliff:g></string>
+    <string name="dialogSvgDurationTitle"><xliff:g>\@string/infoMeterModeDurationTitle</xliff:g></string>
+    <string name="dialogGpsIntervalTitle">GPS interval ažuriranja</string>
+    <string name="dialogGpsIntervalValue"><xliff:g>%1$s</xliff:g></string>
+    <string name="dialogGpsIntervalNote">Molimo držite ovu vrijednost ispod 3 sek kako biste dobili točna mjerenja i dosljedno ponašanje!</string>
+    <string name="dialogGpsIntervalLabelMore"><xliff:g>◀
+\n</xliff:g>Veća točnost, troši više baterije</string>
+    <string name="dialogGpsIntervalLabelLess"><xliff:g>▶
+\n</xliff:g>Manja točnost, troši manje baterije</string>
+    <string name="dialogHapticIntensityTitle"><xliff:g>\@string/pref_haptic_feedback_intensity_title</xliff:g></string>
+    <string name="dialogSliderLess">◀</string>
+    <string name="dialogSliderMore">▶</string>
+    <string name="dialogLocationPermissionRequestTitle">Dozvola za lokaciju</string>
+    <string name="dialogLocationPermissionRequest">Aplikacija treba pristup vašoj lokaciji kako bi mogla snimati vaše aktivnosti na otvorenom.</string>
+    <string name="dialogLocationPermissionRequestForBt">Za pronalaženje Bluetooth uređaja potrebna je lokacijska dozvola.<xliff:g>
+\n
+\n</xliff:g>Bluetooth uređaji se neće pronaći ako je dozvola odbijena.</string>
+    <string name="dialogStoragePermissionRequestTitle">Dozvola za pohranu</string>
+    <string name="dialogStoragePermissionRequest">Aplikacija treba pristup pohrani kako bi mogla spremiti ili vratiti vaše staze i postvke.<xliff:g>
+\n
+\n</xliff:g>Bez davanja dozvole nećete moći vidjeti povijest staza niti podijeliti staze, i mogli bi izgubiti podatke.</string>
+    <string name="dialogCameraPermissionRequestTitle">Dozvola za kameru</string>
+    <string name="dialogCameraPermissionRequest">Potrebna je dozvola kako bi aplikacija mogla aktivirati bljeskalicu.</string>
+    <string name="dialogPermissionProblemMessage">Ova dozvola je potrebna kako bi aplikacija pravilno radila. Može se dodijeliti na stranici Dozvole aplikacija u Postavkama.<xliff:g>
+\n
+\n</xliff:g>Go there now\?</string>
+
+	<string name="mapLayerStreet">Ulice</string>
+    <string name="mapLayerTerrain">Teren</string>
+    <string name="mapLayerSatellite">Satelit</string>
+
+	<string name="unitKm">km</string>
+    <string name="unitKmh">km/h</string>
+    <string name="unitMiles">mi</string>
+    <string name="unitMph">mph</string>
+    <string name="unitMinPerKm">min/km</string>
+    <string name="unitMinPerKmShort">/km</string>
+    <string name="unitMinPerMile">min/mi</string>
+    <string name="unitMinPerMileShort">/mi</string>
+    <string name="unitMSxS">m/s²</string>
+    <string name="unitFtSxS">ft/s²</string>
+    <string name="unitMeterPerMin">m/min</string>
+    <string name="unitFeetPerMin">ft/min</string>
+    <string name="unitTimeHrMinSec">h:m:s</string>
+    <string name="unitTimeHour">h</string>
+    <string name="unitTimeMinute">min</string>
+    <string name="unitTimeSecond">s</string>
+    <string name="unitM">m</string>
+    <string name="unitMillimeter">mm</string>
+    <string name="unitMxM">m²</string>
+    <string name="unitIn">in</string>
+    <string name="unitFt">ft</string>
+    <string name="unitFtxFt">ft²</string>
+    <string name="unitKg">kg</string>
+    <string name="unitLb">lb</string>
+    <string name="unitW">W</string>
+    <string name="unitKW">kW</string>
+    <string name="unitHP">KS</string>
+    <string name="unitKWH">kWh</string>
+    <string name="unitMiliW">mW</string>
+    <string name="unitWKg">W/kg</string>
+    <string name="unitWLb">W/lb</string>
+    <string name="unitKj">kJ</string>
+    <string name="unitKjH">kJ/h</string>
+    <string name="unitKjKg">kJ/kg</string>
+    <string name="unitKjLb">kJ/lb</string>
+    <string name="unitKcal">kcal</string>
+    <string name="unitKcalH">kcal/h</string>
+    <string name="unitKcalKG">kcal/kg</string>
+    <string name="unitKcalLb">kcal/lb</string>
+    <string name="unitDegC">°C</string>
+    <string name="unitDegF">°F</string>
+    <string name="unitHPa">hPa</string>
+    <string name="unitPetrolLit">L benz.</string>
+    <string name="unitKmPerLit">km/L</string>
+    <string name="unitMiPerGal">mpg</string>
+    <string name="unitPerHundredKm">/100km</string>
+    <string name="unitPerHundredMi">/100mi</string>
+    <string name="unitPerMinute">/min</string>
+    <string name="unitPerHour">/h</string>
+    <string name="unitPercent">%</string>
+    <string name="unitPerMille">‰</string>
+    <string name="unitMilliseconds">ms</string>
+    <string name="unitDegree">°</string>
+    <string name="unitMegabyte">MB</string>
+
+    <string name="durationHrMin"><xliff:g>%1$d:%2$02d</xliff:g></string>
+
+    <string name="valueTimesCount">×</string>
+
+    <string name="meterGPS">GPS</string>
+    <string name="meterModeSpeed">brzina</string>
+    <string name="meterModeSpeedShort">brz</string>
+    <string name="meterModeSpeedVertical">vertikalna brzina</string>
+    <string name="meterModeSpeedVerticalShort">v brz</string>
+    <string name="meterModeSpeedAverage">prosječna brzina</string>
+    <string name="meterModeSpeedAverageShort">sr brz</string>
+    <string name="meterModePace">tempo</string>
+    <string name="meterModePaceShort">tempo</string>
+    <string name="meterModeDuration">trajanje</string>
+    <string name="meterModeDurationShort">traj</string>
+    <string name="meterModeElapsedTime">proteklo</string>
+    <string name="meterModeElapsedTimeShort">prot</string>
+    <string name="meterModeAltitude">visina</string>
+    <string name="meterModeAltitudeShort">vis</string>
+    <string name="meterModeVerticalPower">vertikalna snaga</string>
+    <string name="meterModeVerticalPowerShort">v sna</string>
+    <string name="meterModePower">snaga</string>
+    <string name="meterModePowerShort">sna</string>
+    <string name="meterModePowerAverage">srednja snaga</string>
+    <string name="meterModePowerAverageShort">sr sna</string>
+    <string name="meterModeFTP">akt sna</string>
+    <string name="meterModeAcceleration">ubrzanje</string>
+    <string name="meterModeAccelerationShort">akc</string>
+    <string name="meterModeDistance">udaljenost</string>
+    <string name="meterModeDistanceShort">udlj</string>
+    <string name="meterModeOdo">odometar</string>
+    <string name="meterModeOdoShort">odo</string>
+    <string name="meterModeEnergy">energija</string>
+    <string name="meterModeEnergyShort">ene</string>
+    <string name="meterModeEfficacy">efikasnost</string>
+    <string name="meterModeEfficacyShort">efik</string>
+    <string name="meterModeTemperature">temperatura</string>
+    <string name="meterModeTemperatureShort">temp</string>
+    <string name="meterModePressure">tlak</string>
+    <string name="meterModePressureShort">tlak</string>
+    <string name="meterModeClock">sat</string>
+    <string name="meterModeClockShort">sat</string>
+    <string name="meterModeWriggle">vijuganje</string>
+    <string name="meterModeWriggleShort">vij</string>
+    <string name="meterModeAltitudeAscent">uspon</string>
+    <string name="meterModeAltitudeAscentShort">usp</string>
+    <string name="meterModeAltitudeDescent">spust</string>
+    <string name="meterModeAltitudeDescentShort">spus</string>
+    <string name="meterModeAltitudeSlope">nagib</string>
+    <string name="meterModeAltitudeSlopeShort">nag</string>
+    <string name="meterModeCadence">kadenca</string>
+    <string name="meterModeCadenceShort">cad</string>
+    <string name="meterModeHeartRate">otkucaji srca</string>
+    <string name="meterModeHeartRateShort">hr</string>
+    <string name="meterModeGearRatio">omjer prijenosa</string>
+    <string name="meterModeGearRatioShort">o prij</string>
+    <string name="bellRingAuto">auto</string>
+    <string name="roarModeConstant">konst</string>
+    <string name="meterTextMin">min</string>
+    <string name="meterTextMax">maks</string>
+    <string name="meterTextAvg">sred</string>
+    <string name="meterTextTotal">uku</string>
+
+    <string name="controlPanelSoundAutoBell">Automatsko zvono</string>
+    <string name="controlPanelSoundRoar">Huka</string>
+    <string name="controlPanelSoundEffects">Efekti</string>
+    <string name="controlPanelSoundAlarms">Alarmi</string>
+    <string name="controlPanelSoundTallies">Oznake</string>
+    <string name="controlPanelSoundVolume">Glasnoća</string>
+    <string name="controlPanelEnergyParams">Parametri snage/energije</string>
+
+    <string name="profilesListTitle">Profili</string>
+    <string name="profilesListTitleSelectProfile">Prebaci profil</string>
+    <string name="profilesListAddProfile">Novi profil</string>
+    <string name="profilesListRowLastActivity"><xliff:g>%1$s</xliff:g></string>
+    <string name="profilesListRowTotalsSince">Ukupno od: <xliff:g>%1$s</xliff:g></string>
+    <string name="profilesListButtonResetTotals">Resetiraj ukupne sume</string>
+    <string name="profilesListProfileNotUsed">(nekorišten)</string>
+    <string name="profilesListLoading">Učitavam…</string>
+
+    <string name="cloudAccountsTitle">Računi</string>
+    <string name="cloudAccountsInfo">Povezivanje s online servisom olakšava vam slanje i dijeljenje vaših staza s drugima.<xliff:g>
+\n
+\n</xliff:g>Nikada nećemo objavljivati bez vašeg dopuštenja.</string>
+    <string name="accountDisconnect">Odspoji</string>
+    <string name="googleFitConnectButton">Poveži sa <xliff:g>Google Fit</xliff:g></string>
+    <string name="stravaTrackPrivacyInfo">Staza će naslijediti zadanu privatnost koju ste postavili na <xliff:g>Strava</xliff:g></string>
+    <string name="facebookConnectButton">Poveži sa <xliff:g>Facebook</xliff:g></string>
+
+    <string name="tracksHistoryListTitle">Povijest staza</string>
+    <string name="tracksHistoryListTitleSelect">Odabir</string>
+    <string name="tracksHistoryListEmpty">Ovdje nema podataka. Izađite i snimite aktivnost!</string>
+    <string name="tracksHistoryListLoading">Učitavam…</string>
+    <string name="tracksHistoryListButtonView">Pregled</string>
+    <string name="tracksHistoryListButtonShare">Dijeli</string>
+    <string name="tracksHistoryListButtonUpload">Pošalji</string>
+    <string name="tracksHistoryListButtonResume">Nastavi</string>
+    <string name="tracksHistoryListButtonEdit">Izmijeni</string>
+    <string name="tracksHistoryListButtonDelete">Briši</string>
+    <string name="tracksHistoryListShareTrackDialogTitle">Podijeli stazu na…</string>
+    <string name="tracksHistoryListViewTrackDialogTitle">Pregledaj stazu s…</string>
+
+    <string name="summaryTotalWeight">Ukupna težina</string>
+    <string name="summaryWheelsWeight">Težina kotača</string>
+    <string name="summaryEfficiency">Efikasnost</string>
+    <string name="summaryDragArea">Površina otpora</string>
+    <string name="summaryRollResistCoef">Koef. otpora kotrljanju</string>
+    <string name="summaryBasalMetabolicRate">Stopa bazalnog metabolizma</string>
+    <string name="summaryLocationInterval">Interval lokacije</string>
+    <string name="summaryDeviceRestartsCount">Prisilnih pokretanja</string>
+    <string name="summaryEnergyParams"><xliff:g>\@string/controlPanelEnergyParams</xliff:g></string>
+    <string name="summaryStartedDatetime">Početak</string>
+    <string name="summaryEndedDatetime">Završetak</string>
+    <string name="summaryTotalTime">Ukupno vrijeme</string>
+    <string name="summaryStoppedTime">Zaustavljeno</string>
+    <string name="summaryHeartBeats">Otkucaji srca</string>
+    <string name="summaryCadenceStrokes">Okretaji pedala</string>
+    <string name="summarySpecific">Specifično</string>
+    <string name="summaryMechEnergy">Meh. energija</string>
+
+    <string name="sensorsTitle">Senzori</string>
+    <string name="sensorsTabUsed">Korišteni</string>
+    <string name="sensorsTabFound">Pronađeni</string>
+    <string name="sensorsSectionUsedInProfile">Korišteni u profilu</string>
+    <string name="sensorsSectionSupported">Podržani</string>
+    <string name="sensorsSectionUnsupported">Nepodržani</string>
+    <string name="sensorsEmptyList">Prazna lista</string>
+    <string name="sensorsMenuScan">Skeniraj</string>
+
+    <string name="sensorMenuAddToProfile">Dodaj u profil</string>
+    <string name="sensorMenuRemoveFromProfile">Ukloni iz profila</string>
+    <string name="sensorMenuProperties">Svojstva</string>
+    <string name="sensorMenuEnable">Omogući</string>
+    <string name="sensorMenuDisable">Onemogući</string>
+    <string name="sensorMenuDelete">Obriši</string>
+
+    <string name="sensorRemoveConfirmDialogMsg">Ukloniti iz profila\?</string>
+    <string name="sensorDeleteConfirmDialogMsg">Obrisati ovaj senzor\?</string>
+
+    <string name="sensorAddedMsg">Senzor dodan u profil</string>
+    <string name="sensorRemovedMsg">Senzor uklonjen iz profila</string>
+    <string name="sensorDeletedMsg">Senzor obrisan</string>
+
+    <string name="sensorPurposeNone">(Bez namjene)</string>
+    <string name="sensorPurposeCadence">Kadenca</string>
+    <string name="sensorPurposeSpeed">Brzina</string>
+    <string name="sensorPurposeDistance">Udaljenost</string>
+    <string name="sensorPurposeDuration">Trajanje</string>
+    <string name="sensorPurposePower">Snaga</string>
+    <string name="sensorPurposeHeartRate">Otkucaji srca</string>
+
+    <string name="sensorProperitesProfileInfo">Svojstva senzora uređuju se za svaki profil zasebno. Donja svojstva se uređuju samo za trenutno aktivan profil (<xliff:g id="profile_name">%1$s</xliff:g>).</string>
+    <string name="sensorProperitesUseForSpeed">Koristi za brzinu</string>
+    <string name="sensorProperitesUseForCadence">Koristi za kadencu</string>
+    <string name="sensorProperitesUseForDistance">Koristi za udaljenost i trajanje</string>
+    <string name="sensorProperitesUseForPower">Koristi za snagu</string>
+    <string name="sensorProperitesUseForHeartRate">Koristi za otkucaje srca</string>
+    <string name="sensorProperitesIsInverted">Zamijeni brzinu i kadencu</string>
+    <string name="sensorProperitesIsInvertedInfo">Koristi senzor kadence za dobivanje očitanja brzine, ili obrnuto. Uobičajeno je onemogućeno.</string>
+    <string name="sensorProperitesWheelPerimeter">Opseg kotača</string>
+    <string name="sensorProperitesIsAutoPerimeter">Automatsko</string>
+    <string name="sensorProperitesIsAutoPerimeterInfo">Ovo će obavljati automatska mjerenja opsega kotača tijekom vožnje.</string>
+    <string name="sensorProperitesWheelPerimeterNotSet">Nije postavljeno</string>
+    <string name="sensorProperitesStrideLen">Dužina koraka</string>
+    <string name="sensorProperitesIsAutoStrideLen">Automatsko</string>
+    <string name="sensorProperitesIsAutoStrideLenInfo">Ovo će obavljati automatska mjerenja dužine koraka tijekom aktivnosti.</string>
+    <string name="sensorProperitesStrideLenNotSet">Nije postavljeno</string>
+    <string name="sensorProperitesSpeedTriggers">Okidači brzine</string>
+    <string name="sensorProperitesCadenceTriggers">Okidači kadence</string>
+    <string name="sensorProperitesTriggersCountInfo">Broj okidača (npr. magneta) koje senzor koristi. Senzori bez vanjskih okidača obično imaju jedan unutarnji okidač.</string>
+
+    <string name="sensorStatusConnected">Spojen</string>
+    <string name="sensorStatusConnecting">Spajanje…</string>
+    <string name="sensorStatusDisconnected">Odspojen</string>
+
+    <string name="pref_text_off">Isklj.</string>
+    <string name="pref_text_min">Min.</string>
+    <string name="pref_text_medium">Srednje</string>
+    <string name="pref_text_max">Maks.</string>
+
+    <string name="settingsTitle">Postavke</string>
+    <string name="pref_category1_title">Zvuk</string>
+    <string name="pref_category2_title">Ekran</string>
+    <string name="pref_category_general_title">Općenito</string>
+    <string name="pref_category_language_title">Jezik</string>
+    <string name="pref_category_appearance_title">Izgled</string>
+    <string name="pref_category_background_title"><xliff:g>\@string/pref_background_pattern_dialog_title</xliff:g></string>
+    <string name="pref_category_speedo_title">Brzinomjer</string>
+    <string name="pref_group_powermeter_title">Snaga i Energija</string>
+    <string name="pref_category_power_mode_title">Način prikaza snage</string>
+    <string name="pref_category_params_title">Parametri</string>
+    <string name="pref_group_units_title">Jedinice</string>
+    <string name="pref_category_units_title">Jedinice za mjeru</string>
+    <string name="pref_category_colors_title">Boje</string>
+    <string name="pref_category_colors_light_title">Svijetla tema</string>
+    <string name="pref_category_colors_dark_title">Tamna tema</string>
+    <string name="pref_category_map_colors_title">Boje mape</string>
+    <string name="pref_category_visualThemeAuto">Automatska tema</string>
+    <string name="pref_category4_title">Glasnoća (relativna)</string>
+    <string name="pref_category_advanced_title">Napredno</string>
+    <string name="pref_group_advanced_title">Napredno…</string>
+    <string name="pref_category_other_title">Ostalo</string>
+    <string name="pref_category6_title">Pomoć</string>
+    <string name="pref_category7_title">Podijeli</string>
+    <string name="pref_category8_title">O aplikaciji</string>
+    <string name="pref_category_gps_interval_title">GPS interval ažuriranja</string>
+    <string name="pref_category_stationary_exercise_title">Stacionarna vježba</string>
+    <string name="pref_category_autopause_title">Auto pauza</string>
+    <string name="pref_category_resetPrompt_title">Pitaj za reset</string>
+    <string name="pref_category_tracking_title">Praćenje</string>
+    <string name="pref_category_tracking_gps_title">Praćenje / GPS</string>
+    <string name="pref_category_bell_title">Zvonce</string>
+    <string name="pref_category_roaring_title">Huka</string>
+    <string name="pref_category_roaringConstantMode_title">Postojani način</string>
+    <string name="pref_category_effects_title">Efekti</string>
+    <string name="pref_category_alarms_title">Alarmi</string>
+    <string name="pref_category_tallies_title">Oznake</string>
+    <string name="pref_category_select_title">Odaberi…</string>
+    <string name="pref_category_fonts_title">Font</string>
+    <string name="pref_category_buttons_title">Tipke</string>
+    <string name="pref_category_meters_title">Mjerači</string>
+    <string name="pref_group_meters_title">Mjerači</string>
+    <string name="pref_group_meter_modes_title">Modovi mjerača</string>
+    <string name="pref_category_meter1_title">Mjerač 1</string>
+    <string name="pref_category_meter2_title">Mjerač 2</string>
+    <string name="pref_category_meter3_title">Mjerač 3</string>
+    <string name="pref_category_meter4_title">Mjerač 4</string>
+    <string name="pref_category_meter5_title">Mjerač 5</string>
+    <string name="pref_group_maps_title">Mape</string>
+    <string name="pref_category_maps_online_mode_title">Izvor mapa</string>
+    <string name="pref_category_maps_offline_title">Offline mape</string>
+    <string name="pref_group_maps_offline_title">Postavke offline mapa…</string>
+    <string name="pref_category_maps_offline_terrain_title">Teren</string>
+    <string name="pref_category_maps_routes_title">Trase navođenja</string>
+    <string name="pref_category_maps_track_title">Trag staze</string>
+    <string name="pref_category_hud_title">HUD</string>
+    <string name="pref_category_back_key_title">Način tipke Nazad</string>
+    <string name="pref_category_haptic_title">Taktilni osjet</string>
+    <string name="pref_category_app_features_title">Značajke aplikacije</string>
+    <string name="pref_category_wakelock_title">Politika CPU spavanja</string>
+    <string name="pref_category_gps_boost_title">Politika dizanja GPS ažuriranja</string>
+    <string name="pref_group_flashlight_title">Svjetiljka</string>
+    <string name="pref_category_flashlightBlinkMode_title">Bljeskanje</string>
+    <string name="pref_category_flashlightAutoPocketMode_title">Džepni način</string>
+    <string name="pref_category_gpsInaccuracyIndicator_title">Indikator pouzdanosti</string>
+    <string name="pref_category_paceIndicator_title">Indikator tempa</string>
+    <string name="pref_category_locationProvider_title">GPS provider</string>
+    <string name="pref_category_altitude_adjustments_title">Visina</string>
+    <string name="pref_category_temperature_title">Temperatura</string>
+    <string name="pref_category_pressure_title">Tlak</string>
+    <string name="pref_category_sensors_title">Senzori</string>
+    <string name="pref_category_cloudAccounts_title">Računi</string>
+    <string name="pref_category_goto_title">\@null</string>
+    <string name="pref_category_mapsQuickZoom">Brzi zoom</string>
+    <string name="pref_category_mapsCache">Predmemorija</string>
+    <string name="prefAllProfilesInfoTitle">Važno!</string>
+    <string name="prefAllProfilesInfoSummary">Ove postavke se primijenjuju na sve profile.</string>
+
+    <string name="pref_app_language_summary">(Svi profili)</string>
+    <string name="pref_app_language_dialog_title">Jezik</string>
+    <string name="pref_app_language_translate_title">Pomozite prevesti</string>
+    <string name="pref_app_language_translate_summary">Kliknite ovdje ako želite pomoći u prevođenju ove aplikacije na drugi jezik</string>
+    <string name="pref_back_key_mode_summary">(Svi profili)</string>
+    <string name="pref_back_key_mode_dialog_title">Način tipke Nazad</string>
+    <string name="pref_info_title">Info</string>
+    <string name="pref_resetToDefault">Resetiraj na default</string>
+    <string name="pref_units_distance_title">Udaljenost</string>
+    <string name="pref_units_distance_dialog_title">Jedinice za udaljenost</string>
+    <string name="pref_units_speed_title">Brzina</string>
+    <string name="pref_units_speed_dialog_title">Jedinice za brzinu</string>
+    <string name="pref_units_altitude_title">Visina</string>
+    <string name="pref_units_altitude_dialog_title">Jedinice za visinu</string>
+    <string name="pref_units_weight_title">Težina</string>
+    <string name="pref_units_weight_dialog_title">Jedinice za težinu</string>
+    <string name="pref_units_other_title">Ostalo</string>
+    <string name="pref_units_other_dialog_title">Jedinice za ostale veličine</string>
+    <string name="pref_units_energy_title">Energija</string>
+    <string name="pref_units_energy_dialog_title">Jedinice za energiju</string>
+    <string name="pref_units_power_title">Snaga (ukupna)</string>
+    <string name="pref_units_power_dialog_title">Jedinice za ukupnu snagu</string>
+    <string name="pref_units_slope_title">Nagib</string>
+    <string name="pref_units_slope_dialog_title">Jedinice za nagib</string>
+    <string name="pref_hud_axis_title">Os zrcaljenja HUD-a</string>
+    <string name="pref_hud_axis_dialog_title">Os zrcaljenja HUD-a</string>
+    <string name="pref_bell_mode_title">Vrsta</string>
+    <string name="pref_bell_mode_dialog_title">Vrsta zvona</string>
+    <string name="pref_bell_automatic_title">Automatsko</string>
+    <string name="pref_bell_automatic_summary">Pozvoni zvoncem pri znatnijem usporavanju</string>
+    <string name="pref_bell_automatic_sensitivity_title">Osjetljivost automatskog zvona</string>
+    <string name="pref_bell_shake_title">Zatresi za zvonjavu</string>
+    <string name="pref_bell_shake_summary">Zatresite uređaj da pozvonite zvoncem</string>
+    <string name="pref_bell_shake_sensitivity_title">Osjetljivost treskanja</string>
+    <string name="pref_roaring_type_title">Vrsta</string>
+    <string name="pref_roaring_type_dialog_title">Vrsta huke</string>
+    <string name="pref_volume_summary_text">Zvonce:<xliff:g> %1$s</xliff:g>, Huka:<xliff:g> %2$s
+\n</xliff:g>Oznake:<xliff:g> %3$s</xliff:g>, Efekti:<xliff:g> %4$s</xliff:g>, Alarmi:<xliff:g> %5$s</xliff:g></string>
+    <string name="pref_bg_color_title">Boja pozadine</string>
+    <string name="pref_bg_color_summary">Odaberite željenu boju za pozadinu aplikacije</string>
+    <string name="pref_fg_color_title">Boja teksta</string>
+    <string name="pref_fg_color_summary">Odaberite željenu boju za tekst i ikone</string>
+    <string name="pref_visualThemeAutoTitle"><xliff:g>\@string/pref_category_visualThemeAuto</xliff:g></string>
+    <string name="pref_visualThemeAutoSummary">Primijeni svijetlu ili tamnu temu ovisno o osvjetljenju</string>
+    <string name="pref_default_color_title"><xliff:g>\@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_buttons_bg_look_title">Bistre tipke</string>
+    <string name="pref_buttons_bg_look_summary">Potpuno prozirne tipke i polja</string>
+    <string name="pref_screen_keep_on_title">Drži zaslon upaljenim</string>
+    <string name="pref_screen_keep_on_summary">Zaslon će ostati upaljen dok je aplikacija u upotrebi</string>
+    <string name="pref_screen_allow_off_inactive_title">Dozvoli gašenje pri neaktivnosti</string>
+    <string name="pref_screen_allow_off_inactive_summary">Dozvoli gašenje ekrana nakon nekoliko minuta neaktivnosti</string>
+    <string name="pref_above_lockscreen_title">Drži iznad sigurnosnog zaslona</string>
+    <string name="pref_above_lockscreen_summary">Aplikacija će ostati vidljiva i kada je uređaj zaključan</string>
+    <string name="pref_screenAutoPocketMode_title">Džepni način</string>
+    <string name="pref_screenAutoPocketMode_summary">(Svi profili) Koristi senzor blizine kako bi držao ekran ugašenim kad nije potreban</string>
+    <string name="pref_ring_on_stop_title">Pozvoni pri zaustavljanju</string>
+    <string name="pref_ring_on_stop_summary">Pozvoni automatskim zvoncem i kada brzina padne na nulu</string>
+    <string name="pref_disable_bell_button_title">Onemogući tipku zvonca</string>
+    <string name="pref_disable_bell_button_summary">Onemogući zvonjavu zvonca pritiskom na brzinomjer</string>
+    <string name="pref_obey_audio_focus_disable_title">Onemogući audio fokus</string>
+    <string name="pref_obey_audio_focus_disable_summary">Nastavi proizvoditi zvukove i kada se izgubi audio fokus (od strane sistemske obavijesti ili druge aplikacije)</string>
+    <string name="pref_audio_force_loudspeaker_title">Prisili na zvučnik</string>
+    <string name="pref_audio_force_loudspeaker_summary">Upozorenje: Eksperimentalno, moguće je da ne radi. Pokušaj preusmjeriti sve zvukove na zvučnik dok su slušalice priključene, izuzev glasovnih poziva.</string>
+    <string name="pref_duck_roaring_on_bell_title">Stišaj huku dok zvonce zvoni</string>
+    <string name="pref_duck_roaring_on_bell_summary">Stišaj zvukove huke prilikom zvonjave zvonca</string>
+    <string name="pref_relaunchAfterReboot_title">Pokreni nakon reboot-a</string>
+    <string name="pref_relaunchAfterReboot_summary">(Svi profili) Nastavi praćenje nakon prisilnog restarta uređaja, ako je baterija na 10% ili više</string>
+    <string name="pref_resetPrompt_title">Pitaj za reset</string>
+    <string name="pref_resetPrompt_summary">Pitaj za start nove staze ukoliko je zadnja aktivnost prije više od 4 sata ili na udaljenoj lokaciji</string>
+    <string name="pref_auto_launch_on_gps_title">Pokreni kad je GPS aktivan</string>
+    <string name="pref_auto_launch_on_gps_summary">Pokreni aplikaciju (u načinu Pasivno) kada se detektira GPS aktivnost</string>
+    <string name="pref_passive_gps_button_title">Pasivni način GPS tipke</string>
+    <string name="pref_passive_gps_button_summary">Omogući pasivni GPS način klikanjem GPS tipke</string>
+    <string name="pref_digital_font_title">Digitalni font</string>
+    <string name="pref_digital_font_summary">(Svi profili) Koristi segmentirani font digitalnog LCD-a za prikaz podataka</string>
+    <string name="pref_roaring_state_title">Zvuk huke</string>
+    <string name="pref_roaring_state_summary">Proizvodi zvukove upozorenja tijekom kretanja</string>
+    <string name="pref_roaring_mode_title">Način</string>
+    <string name="pref_roaring_mode_dialog_title">Vrsta huke</string>
+    <string name="pref_roaring_constant_mode_title">Postojani način</string>
+    <string name="pref_roaring_constant_mode_summary">Proizvodi postojanu huku cijelo vrijeme, neovisno o kretanju ili stanju GPS-a</string>
+    <string name="pref_roar_threshold_speed_title">Prag brzine</string>
+    <string name="pref_roar_threshold_speed_info">Huka će se oglašavati samo dok je brzina veća od praga. Korisno npr. za downhill.</string>
+    <string name="pref_roarConstantModeButton_title">Odabir gumbom</string>
+    <string name="pref_roarConstantModeButton_summary">Odaberi postojani način pritiskom na gumb dok je huka upaljena</string>
+    <string name="pref_fenceguard_title">ČuvarOgrade</string>
+    <string name="pref_fenceguard_summary">Zaštitite lokaciju vašeg doma ili drugih važnih mjesta od objavljivanja u snimljenim stazama</string>
+    <string name="pref_gps_update_freq_title"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_gps_boost_title"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_gps_boost_summary"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_gps_boost_dialog_title"><xliff:g>\@string/pref_category_gps_boost_title</xliff:g></string>
+    <string name="pref_autopause_mode_title"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_autopause_mode_dialog_title">Auto pauziranje</string>
+    <string name="pref_wakelock_mode_title"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_wakelock_mode_dialog_title"><xliff:g>\@string/pref_category_wakelock_title</xliff:g></string>
+    <string name="pref_locationProviderMode_title"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_locationProviderMode_dialog_title"><xliff:g>\@string/pref_category_locationProvider_title</xliff:g></string>
+    <string name="pref_speedometer_limit_title">Max indikatora</string>
+    <string name="pref_speedometer_limit_dialog_title">Max indikatora brzine</string>
+    <string name="pref_speed_calculate_mode_title">Preračunaj brzinu</string>
+    <string name="pref_speed_calculate_mode_summary">(Svi profili) Preračunaj brzinu pomoću udaljenosti, ne koristi GPS vrijednost izravno. To može pružiti stabilnija očitanja brzine nego preko GPS (Doppler) vrijednosti.</string>
+    <string name="pref_background_pattern_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_background_pattern_dialog_title">Pozadinski uzorak menija</string>
+    <string name="pref_soundeffects_title">Omogući</string>
+    <string name="pref_soundeffects_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_soundeffects_fence_enterleave_title">Ograda</string>
+    <string name="pref_soundeffects_fence_enterleave_summary">Zvuk pri ulasku ili napuštanju ograde</string>
+    <string name="pref_soundeffects_gps_signal_title">GPS</string>
+    <string name="pref_soundeffects_gps_signal_summary">Zvuk pri promjeni GPS statusa (dobar, loš/u mirovanju)</string>
+    <string name="pref_soundeffects_countdown_title">Odbrojavanje</string>
+    <string name="pref_soundeffects_countdown_summary">Zvuk pri odbrojavanju prije nastavka praćenja (…3, 2, 1, START!)</string>
+    <string name="pref_soundeffects_tally_title">Omogući</string>
+    <string name="pref_soundeffects_tally_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_soundeffects_tally_value_summary">Svakih <xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g></string>
+    <string name="pref_soundeffects_tally_distance_title">Udaljenost</string>
+    <string name="pref_soundeffects_tally_distance_dialog_title">Oznaka daljenosti</string>
+    <string name="pref_soundeffects_tally_duration_title">Trajanje</string>
+    <string name="pref_soundeffects_tally_duration_dialog_title">Oznaka trajanja</string>
+    <string name="pref_soundeffects_tally_ascent_title">Uspon</string>
+    <string name="pref_soundeffects_tally_ascent_dialog_title">Oznaka uspona</string>
+    <string name="pref_soundeffects_tally_descent_title">Spust</string>
+    <string name="pref_soundeffects_tally_descent_dialog_title">Oznaka spusta</string>
+    <string name="pref_soundeffects_alarm_title">Omogući</string>
+    <string name="pref_soundeffects_alarm_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_soundeffects_alarm_gpsPause_title">Zaboravljena pauza</string>
+    <string name="pref_soundeffects_alarm_gpsPause_summary">Alarm će se oglasiti kad se detektira značajno kretanje, a praćenje je pauzirano</string>
+    <string name="pref_facebook_disable_title">Onemogući Facebook</string>
+    <string name="pref_ads_mode_title">Prikazuj oglase</string>
+    <string name="pref_ads_mode_dialog_title">Tip oglasa</string>
+    <string name="pref_maps_disable_title">Onemogući mape</string>
+    <string name="pref_maps_track_draw_title">Iscrtavaj stazu</string>
+    <string name="pref_maps_track_draw_summary">Ucrtavanje vaših kretanja na mapu</string>
+    <string name="pref_maps_fences_draw_title">Ograde</string>
+    <string name="pref_maps_fences_draw_summary">Prikazuj područja zaštićena ČuvaromOgrade na mapi</string>
+    <string name="pref_maps_animate_title">Animacija</string>
+    <string name="pref_maps_animate_summary">(Svi profili) Isključiti za smanjenje utroška baterije, pogotovo dok je upaljen način Praćenje</string>
+    <string name="pref_maps_online_mode_summary">(Svi profili)</string>
+    <string name="pref_maps_online_mode_dialog_title">Izvor mape</string>
+    <string name="pref_maps_offline_file_title">Odaberi datoteku ili folder</string>
+    <string name="pref_maps_offline_file_dialog_title">Izaberi folder offline mapa</string>
+    <string name="pref_maps_offline_file_summary">(Svi profili) <xliff:g>%1$s</xliff:g></string>
+    <string name="pref_maps_offline_file_noFolderSelected">Folder nije odabran.</string>
+    <string name="pref_maps_offline_info_title">Preuzmi sada</string>
+    <string name="pref_maps_offline_info_summary">Mapsforge vektorske (.map) i Rmaps rasterske (.sqlitedb) mape su podržane. Dostupne na download.mapsforge.org</string>
+    <string name="pref_maps_offline_warning_summary">Upozorenje: Neki online podaci se mogu dohvaćati čak i u offline načinu. Molimo onemogućite mobilni Internet prije korištenja mapa, ukoliko vas brine.</string>
+    <string name="pref_maps_offline_resetToDefault_title"><xliff:g>\@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_maps_routes_draw_title">Trase navođenja</string>
+    <string name="pref_maps_routes_draw_summary">Iscrtaj odabrane GPX rute kao točkaste crte na karti</string>
+    <string name="pref_maps_routes_info_title">Važno!</string>
+    <string name="pref_maps_routes_info_summary">Nijedan drugi vizualni ili zvučni signal neće biti proizveden da olakša navigaciju</string>
+    <string name="pref_maps_routes_files_title">Odaberi datoteku ili folder</string>
+    <string name="pref_maps_routes_files_dialog_title">Izaberi folder ili datoteku s rutama</string>
+    <string name="pref_maps_routes_files_summary"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_maps_routes_files_noFolderSelected">Folder nije odabran.</string>
+    <string name="pref_maps_routes_resetToDefault_title"><xliff:g>\@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_maps_quickZoom_title">Tipke brzog zuma</string>
+    <string name="pref_maps_quickZoom_summary">(Svi profili) Omogući nevidljive tipke brzog zuma pri dnu mape, poboljšavaju vašu orijentaciju</string>
+    <string name="pref_maps_quickZoomInvert_title">Obrnuto</string>
+    <string name="pref_maps_quickZoomInvert_summary">Zamijeni položaje zumiraj/odzumiraj tipki</string>
+    <string name="pref_maps_offline_terrain_title">Prikazuj teren</string>
+    <string name="pref_maps_offline_terrain_summary">(Svi profili) Prikaz sjena izdizanja terena. Mapa će izgledati realistično, ali vjerojatno biti sporija. Zahtijeva DEM (.hgt) datoteke prisutne u folderu mape.</string>
+    <string name="pref_maps_offline_terrain_info_title">Preuzmi sada</string>
+    <string name="pref_maps_offline_terrain_info_summary">Otvoriti web stranicu za preuzimanje na viewfinderpanoramas.org</string>
+    <string name="pref_maps_offline_terrain_note_summary">Korištenje: Izvadite .hgt datoteke iz preuzetih zipova i stavite ih u isti folder u kojoj se nalazi datoteka offline mape (nemojte koristiti zasebni folder).</string>
+    <string name="pref_mapsOfflineLayerButtonActionTitle">Akcija gumba sloja</string>
+    <string name="pref_mapsOfflineLayerButtonActionSummary">(Svi profili) Odaberite što učiniti kad pritisnete gumb sloja</string>
+    <string name="pref_button_autoring_enable_title">Automatsko zvonce</string>
+    <string name="pref_button_autoring_enable_summary">Omogući prebacivanje automatskog zvonca dugim klikom na brzinomjer</string>
+    <string name="pref_button_profile_show_title">Profil</string>
+    <string name="pref_button_profile_show_summary">Prikaži tipku profila</string>
+    <string name="pref_button_map_show_title">Mapa</string>
+    <string name="pref_button_map_show_summary">Prikaži tipku mape</string>
+    <string name="pref_button_flashlight_show_title">Svjetiljka</string>
+    <string name="pref_button_flashlight_show_summary">Prikaži tipku svjetiljke (ako je svjetiljka dostupna)</string>
+    <string name="pref_button_contrast_show_title">Kontrast/Sloj mape</string>
+    <string name="pref_button_contrast_show_summary">Prikaži tipku za prebacivanje kontrasta/sloja mape</string>
+    <string name="pref_button_roar_show_title">Huka</string>
+    <string name="pref_button_roar_show_summary">Prikaži tipku huke</string>
+    <string name="pref_button_menu_show_title">Meni</string>
+    <string name="pref_button_menu_show_summary">Prikaži tipku menija</string>
+    <string name="pref_meter_enable_title">Omogući</string>
+    <string name="pref_meter_enable_summary">Prikaži ili sakrij ovaj mjerač</string>
+    <string name="pref_meter_lock_title">Zakoči način</string>
+    <string name="pref_meter_lock_summary">Sprečava promjenu načina klikom</string>
+    <string name="pref_meter_modes_select_title">Odaberi dostupne načine…</string>
+    <string name="pref_speedo_display_mode_title">Izgled</string>
+    <string name="pref_speedo_display_mode_dialog_title">Izgled brzinomjera</string>
+    <string name="pref_speedo_indicator_needle_title">Kazaljka</string>
+    <string name="pref_speedo_indicator_needle_summary">Prikaži kazaljku grafičkog indikatora</string>
+    <string name="pref_powermeter_display_mode_dialog_title">Način prikaza snage</string>
+    <string name="pref_powermeter_parameters_info_title">Važno!</string>
+    <string name="pref_powermeter_parameters_info_summary">Za točna mjerenja snage i energije, molimo osigurajte ispravnost ovih parametara!</string>
+    <string name="pref_power_weights_title">Mase</string>
+    <string name="pref_power_weights_summary">Vozač: <xliff:g>%1$s</xliff:g>, Vozilo: <xliff:g>%2$s</xliff:g>, Teret: <xliff:g>%3$s</xliff:g>, Putnici: <xliff:g>%4$s</xliff:g>, Kotači: <xliff:g>%5$s</xliff:g></string>
+    <string name="pref_power_coefs_title">Koeficijenti</string>
+    <string name="pref_power_coefs_summary">Površina otpora zraka: <xliff:g>%1$s
+\n</xliff:g>Otpor kotrljanja: <xliff:g>%2$s</xliff:g></string>
+    <string name="pref_energy_params_title">Parametri energije</string>
+    <string name="pref_energy_params_summary">Efikasnost: <xliff:g>%1$s
+\n</xliff:g>Metabolizam: <xliff:g>%2$s</xliff:g></string>
+    <string name="pref_svg_data_enable_title">Generiraj grafove</string>
+    <string name="pref_svg_data_enable_summary">Generiraj SVG grafove raznih parametara vožnje</string>
+    <string name="pref_svg_data_modes_select_title">Odaberi vrste grafova…</string>
+    <string name="pref_flashlightAutoPocketMode_title">Džepni način</string>
+    <string name="pref_flashlightAutoPocketMode_summary">Koristi senzor blizine kako bi držao svjetiljku ugašenom kad nije potrebna</string>
+    <string name="pref_flashlightBlinkMode_title">Način</string>
+    <string name="pref_flashlightBlinkMode_dialogTitle">Bljeskanje svjetiljke</string>
+    <string name="pref_flashlightBlinkModeToggleEnable_title">Odabir gumbom</string>
+    <string name="pref_flashlightBlinkModeToggleEnable_summary">Odaberi bljeskanje pritiskom na gumb dok je svjetiljka upaljena</string>
+    <string name="pref_gpsInaccuracyIndicator_title">Indikator pouzdanosti</string>
+    <string name="pref_gpsInaccuracyIndicator_summary">Naznačuje starost podatka o brzini, koji postaje nepouzdaniji s protekom vremena</string>
+    <string name="pref_paceIndicator_title">Indikator tempa</string>
+    <string name="pref_paceIndicator_summary">Prikazuje kada idete brže ili sporije od prosječne brzine</string>
+    <string name="pref_haptic_feedback_title">Vibriraj na dodir</string>
+    <string name="pref_haptic_feedback_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_haptic_feedback_intensity_title">Intenzitet vibracije</string>
+    <string name="pref_soundsMasterSwitch_title">Svi zvukovi</string>
+    <string name="pref_soundsMasterSwitch_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="prefBarometricAltitudeTitle">Barometarska visina</string>
+    <string name="prefBarometricAltitudeSummary">Koristi ugrađeni barometar za poboljšanje točnosti visine</string>
+    <string name="prefBaroAltitudeUsesTemperatureTitle">Termo barometar</string>
+    <string name="prefBaroAltitudeUsesTemperatureSummary">Koristi podatke senzora temperature za točniju barometarsku visinu</string>
+    <string name="prefBarometricAltitudeNoteTitle">Važno!</string>
+    <string name="prefBarometricAltitudeNoteSummary">Koristite ovo jedino u otvorenoj atmosferi! Molimo onemogućite u zatvorenim, klimatiziranim ili vozilima pod pritiskom poput aviona ili automobila!</string>
+    <string name="prefTemperatureSensorDerivedTitle">Koristi izvedeni senzor</string>
+    <string name="prefTemperatureSensorDerivedSummary">Ovaj uređaj nema zasebni senzor temperature, ali se on može izvesti upotrebom drugih senzora. Molimo pročitajte više u Pomoći.</string>
+    <string name="prefTemperatureSensorDerivedTypeDialogTitle">Tip senzora</string>
+    <string name="prefTemperatureSensorDerivedType1Title">Tip A</string>
+    <string name="prefTemperatureSensorDerivedType1Summary">Najbolje radi sa Samsung, LG, Sony (pune veličine), Xiaomi, i sličnim uređajima</string>
+    <string name="prefTemperatureSensorDerivedType2Title">Tip B</string>
+    <string name="prefTemperatureSensorDerivedType2Summary">Najbolje radi s Motorola, HTC, Sony (compact), i sličnim uređajima</string>
+    <string name="prefPressureSensorOffsetTitle">Ofset barometra</string>
+    <string name="prefPressureSensorOffsetInfo">Ova konstanta pribraja se očitanjima barometra i koristi se za ublažavanje pristranosti barometra, ukoliko je prisutna</string>
+    <string name="prefNotificationAlwaysTitle">Trajna notifikacija</string>
+    <string name="prefNotificationAlwaysSummary">Uvijek prikazuj notifikacijsku ikonu aplikacije u statusnoj traci sustava, ne samo kada je praćenje aktivno.</string>
+    <string name="prefMapDiskCacheSizeTitle">Veličina predmemorije mape</string>
+    <string name="prefMapDiskCacheSizeSummary">Kada pregledavate kartu, on-line i offline, dijelovi se lokalno pohranjuju kako bi se smanjila potreba za ponovnim preuzimanjem ili rekreacijom. To ubrzava učitavanje karte i štedi bateriju. (Svi profili)</string>
+    <string name="prefProhibitLocationTitle">Ne koristi GPS</string>
+    <string name="prefProhibitLocationSummary">Ovo će uzimati podatke samo od bežičnih senzora (Snaga, Brzina, Kadenca, Otkucaji srca) i neće uključiti GPS</string>
+    <string name="prefMapTrackColorTitle">Boja staze</string>
+    <string name="prefMapGuideRouteColorTitle">Boja ruta navođenja</string>
+
+    <string name="infoMeterModeDistanceTitle">Udaljenost</string>
+    <string name="infoMeterModeDistanceMsg">Proputovana udaljenost.</string>
+    <string name="infoMeterModeDistanceOdoTitle">Odometar</string>
+    <string name="infoMeterModeDistanceOdoMsg">Ukupna prijeđena udaljenost od prvog korištenja profila</string>
+    <string name="infoMeterModeDurationTitle">Trajanje</string>
+    <string name="infoMeterModeDurationMsg">Trajanje putovanja, eventualno isključujući pauze i stajanja.</string>
+    <string name="infoMeterModeElapsedTitle">Proteklo vrijeme</string>
+    <string name="infoMeterModeElapsedMsg">Proteklo vrijeme, uključujući sve pauze, ali ne i zaustavljanja.</string>
+    <string name="infoMeterModeEnergyTitle">Energija</string>
+    <string name="infoMeterModeEnergyMsg">Energija utrošena na putovanje, uzimajući u obzir efikasnost i BMR</string>
+    <string name="infoMeterModeEfficacyTitle">Efikasnost (kumulativna)</string>
+    <string name="infoMeterModeEfficacyMsg">Dio utrošene energije koji bi bio dovoljan za obaviti isto putovanje krećući se konstantnom brzinom jednakom prosječnoj brzini. Više je bolje.</string>
+    <string name="infoMeterModeAscentTitle">Uspon</string>
+    <string name="infoMeterModeAscentMsg">Zbirni dobitak visine (uspon)</string>
+    <string name="infoMeterModeDescentTitle">Spust</string>
+    <string name="infoMeterModeDescentMsg">Zbirni gubitak visine (spust)</string>
+    <string name="infoMeterModeWriggleTitle">Vijuganje</string>
+    <string name="infoMeterModeWriggleMsg">Mjera odstupanja staze od ravne linije, tj. koliko staza ispunjava površinu umjesto da ide ravno. Manje je najčešće bolje.</string>
+    <string name="infoMeterModeAltitudeTitle">Visina</string>
+    <string name="infoMeterModeAltitudeMsg">Nadmorska visina (geoid) — Trenutna, maksimalna i minimalna.<xliff:g>
+\n
+\n</xliff:g>Napomena: Ovo može kasniti u odnosu na stvarno vrijeme, zbog neizbježnih kašnjenja u digitalnom filtriranju.</string>
+    <string name="infoMeterModeSlopeTitle">Nagib</string>
+    <string name="infoMeterModeSlopeMsg">Nagib (gradijent), broj koji opisuje nagnutost terena gdje je nula vodoravno. Veći broj znači strmiju uzbrdicu, a negativno je za nizbrdicu.<xliff:g>
+\n
+\n</xliff:g>Napomena: Ovo može kasniti i do jedne minute u odnosu na stvarno vrijeme, zbog neizbježnih kašnjenja u digitalnom filtriranju.</string>
+    <string name="infoMeterModeSpeedTitle">Brzina</string>
+    <string name="infoMeterModeSpeedMsg">Brzina — Trenutna, maksimalna i minimalna.</string>
+    <string name="infoMeterModeVerticalSpeedTitle">Vertikalna brzina</string>
+    <string name="infoMeterModeVerticalSpeedMsg">Brzina u smjeru gore (pozitivno) ili dolje (negativno) — Trenutna, maksimalna i minimalna.<xliff:g>
+\n
+\n</xliff:g>Napomena: Ovo može kasniti u odnosu na stvarno vrijeme, zbog neizbježnih kašnjenja u digitalnom filtriranju.</string>
+    <string name="infoMeterModePaceTitle">Tempo</string>
+    <string name="infoMeterModePaceMsg">Inverzna brzina — Trenutna, maksimalna i prosječna.</string>
+    <string name="infoMeterModeAccelerationTitle">Ubrzanje</string>
+    <string name="infoMeterModeAccelerationMsg">Stopa promjene brzine — Trenutna, maksimalna i minimalna.<xliff:g>
+\n
+\n</xliff:g>Negativno označava deceleraciju.</string>
+    <string name="infoMeterModePowerTitle">Snaga</string>
+    <string name="infoMeterModePowerMsg">Snaga zbog sila trenja, promjene visine, itd. — Trenutna, maksimalna i prosječna.<xliff:g>
+\n
+\n</xliff:g>Negativno znači dobitak snage, npr. tijekom spusta ili kočenja.<xliff:g>
+\n
+\n</xliff:g>Kad su jedinice kcal/h ili kJ/h, također uzima u obzir efikasnost i BMR.<xliff:g>
+\n
+\n</xliff:g>Napomena: Ovo može kasniti i do jedne minute u odnosu na stvarno vrijeme, zbog neizbježnih kašnjenja u digitalnom filtriranju.</string>
+    <string name="infoMeterModeAvgActivePowerTitle">Srednja aktivna snaga</string>
+    <string name="infoMeterModeAvgActivePowerMsg">Srednja snaga tijekom aktivnosti, ne računajući intervale u kojima je snaga bila odsutna ili jako mala (nizbrdica, kočenje, klizanje).<xliff:g>
+\n
+\n</xliff:g>Kad radite naporan trening, to će u osnovi biti vaš FTP (snaga funkcionalnog praga).</string>
+    <string name="infoMeterModeVerticalPowerTitle">Vertikalna snaga</string>
+    <string name="infoMeterModeVerticalPowerMsg">Gubitak ili dobitak snage tijekom uspona ili spusta — Trenutni, maksimalni i minimalni.<xliff:g>
+\n
+\n</xliff:g>Negativno označava dobitak snage (spuštanje).<xliff:g>
+\n
+\n</xliff:g>Kada su jedinice kcal/h ili kJ/h, također uzima u obzir efikasnost.<xliff:g>
+\n
+\n</xliff:g>Napomena: Ovo može kasniti i do jedne minute u odnosu na stvarno vrijeme, zbog neizbježnih kašnjenja u digitalnom filtriranju.</string>
+    <string name="infoMeterModeTemperatureTitle">Temperatura</string>
+    <string name="infoMeterModeTemperatureMsg">Temperatura okoline izmjerena uređajem — Trenutna, maksimalna i minimalna.</string>
+    <string name="infoMeterModePressureTitle">Tlak</string>
+    <string name="infoMeterModePressureMsg">Atmosferski tlak izmjeren uređajem — Trenutni, maksimalni i minimalni.</string>
+    <string name="infoMeterModeClockTitle">Sat</string>
+    <string name="infoMeterModeClockMsg">Trenutno doba dana.</string>
+    <string name="infoMeterModeCadenceTitle">Kadenca</string>
+    <string name="infoMeterModeCadenceMsg">Broj okretaja poluge pedale u minuti, tj. brzina pedaliranja.</string>
+    <string name="infoMeterModeHeartRateTitle">Otkucaji srca</string>
+    <string name="infoMeterModeHeartRateMsg">Broj otkucaja srca u minuti.</string>
+    <string name="infoMeterModeGearRatioTitle">Omjer prijenosa</string>
+    <string name="infoMeterModeGearRatioMsg">Omjer broja okretaja kotača i okretaja pedala po jedinici vremena, tj. omjer prednjeg i stražnjeg lančanika. Veći broj znači veći stupanj prijenosa.</string>
+
+    <string name="infoAutopauseForcedRelaxed">Napomena: Auto pauza forsirana u Ležerno</string>
+    <string name="infoAutopauseForcedOff">Napomena: Auto pauza forsirana u Isključeno</string>
+
+    <string name="defaultProfileNameBike1">Bicikl 1</string>
+    <string name="defaultProfileNameBike2">Bicikl 2</string>
+    <string name="defaultProfileNameWalk">Hodanje</string>
+    <string name="defaultProfileNameRun">Trčanje</string>
+    <string name="defaultProfileNameCar">Automobil</string>
+    <string name="defaultProfileNamePlane">Zrakoplov</string>
+    <string name="defaultProfileNameIndoor">Unutar</string>
+    <string name="defaultProfileNameOther">Ostalo</string>
+
+
+	<string name="svgCopyright">Napravljeno s Urban Biker-om</string>
+
+
+	<string name="fbStoryLiveText">U tijeku!</string>
+    <string name="fbCourseTitle">Omogućuje Urban Biker</string>
+	<string name="fbTemperatureMin">Temp. min</string>
+	<string name="fbTemperatureMax">Temp. maks</string>
+    <string name="trackUploadDescriptionDefault">Ova aktivnost je zabilježena Urban Biker mobilnom aplikacijom</string>
+
+	<string name="menuLicense">Kupi licencu</string>
+
+    <string name="dialogLicenseBuyTitle">Sviđa vam se aplikacija\?</string>
+    <string name="dialogLicenseBuyYesButton">Uzmi!</string>
+    <string name="dialogLicenseBuyNoButton">Ne sada</string>
+
+    <string name="dialogReviewNudgeTitle">Sviđa vam se aplikacija\?</string>
+    <string name="dialogReviewNudgeMessage">Molimo napišite lijep osvrt ili ocijenite 5 zvjezdica u Trgovini Play.</string>
+
+    <string name="licenseItemAlreadyOwned">Stavka je već u vlasništvu</string>
+
+    <string name="timePeriod_perWeek">/tjedan</string>
+    <string name="timePeriod_perMonth">/mj</string>
+    <string name="timePeriod_per3Months">/3 mj</string>
+    <string name="timePeriod_per6Months">/6 mj</string>
+    <string name="timePeriod_perYear">/god</string>
+
+    <string name="generalError">Došlo je do pogreške. Molimo pokušajte ponovo.</string>
+    <string name="openSourceLicensesTitle">Licence otvorenog koda</string>
+
+</resources>
