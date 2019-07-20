@@ -24,3 +24,16 @@ Feel free to file new feature requests as an issue on GitHub.
 We will respond to you as soon as possible, likely within 24 or 48 hours. If we have any further questions, expect a response back.
 
 IMPORTANT: Issues and feature requests here are public. Please write to our e-mail for more private communication: contact@urban-bike-computer.com.
+
+
+# Translations
+
+### Contribute
+
+[https://translate.urban-bike-computer.com](https://translate.urban-bike-computer.com/projects/urban-biker/strings/)
+
+
+### More info
+
+[http://urban-bike-computer.com/translate/](http://urban-bike-computer.com/translate/)
+
