@@ -2,12 +2,12 @@
 
 ## Translations
 
-#### Contribute
+ - #### Contribute
 
 [https://translate.urban-bike-computer.com](https://translate.urban-bike-computer.com/projects/urban-biker/strings/)
 
 
-#### More info
+ - #### More info
 
 [http://urban-bike-computer.com/translate/](http://urban-bike-computer.com/translate/)
 
@@ -25,11 +25,11 @@ If you've found an issue with Urban Biker, or think a new feature would be usefu
 
 _**When filing a new bug, please include:**_
 
-- **Descriptive title** - use keywords so others can find your bug (avoiding duplicates)
-- **Steps** to trigger the problem that are specific, and repeatable
-- **What happens** when you follow the steps, and what you expected to happen instead. Include the exact text of any error messages if applicable (or upload screenshots).
-- **Did this work in a previous version?** If so, also provide the version that it worked in.
-- **Device model and Android version**
+- [x] **Descriptive title** - use keywords so others can find your bug (avoiding duplicates)
+- [x] **Steps** to trigger the problem that are specific, and repeatable
+- [x] **What happens** when you follow the steps, and what you expected to happen instead. Include the exact text of any error messages if applicable (or upload screenshots).
+- [x] **Did this work in a previous version?** If so, also provide the version that it worked in.
+- [x] **Device model and Android version**
 
 #### Requesting a feature
 
