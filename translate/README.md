@@ -1,11 +1,11 @@
 
 # Urban Biker translations
 
-## Contribute
+### Contribute
 
 [https://translate.urban-bike-computer.com](https://translate.urban-bike-computer.com/projects/urban-biker/strings/)
 
 
-## More info
+### More info
 
 [http://urban-bike-computer.com/translate/](http://urban-bike-computer.com/translate/)
