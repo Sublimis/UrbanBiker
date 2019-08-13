@@ -1,41 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="locale">ro</string>
-
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="locale">ro</string>
     <string name="app_name">Urban Biker</string>
-
     <string name="app_description">Urmăriți și măsurați plimbările cu mare precizie. Creșteți siguranța și eficiența ciclismului.</string>
-
     <string name="widget_1_description">Biciclist: Sonerie Bicicletă</string>
     <string name="widget_2_description">Biciclist: Sonerie + Lanternă</string>
     <string name="widget_3_description">Biciclist: Complet</string>
-
     <string name="copyright_part1">&lt;xliff:g&gt;<b>v%1$s</b> (%2$s)&lt;/xliff:g&gt;</string>
-
     <string name="proLicenseLabel">Pro</string>
     <string name="proPlusLicenseLabel">Pro+</string>
     <string name="ultimateLicenseLabel">Ultimate</string>
-
     <string name="proLicenseTitle">Pro License</string>
     <string name="proLicenseDescription">Remove ads</string>
-
     <string name="proPlusLicenseTitle">Pro Plus License</string>
     <string name="proPlusLicenseDescription">Remove ads and unlock all non-subscription features we may add in the future</string>
-
     <string name="ultimateLicenseTitle">Ultimate License</string>
     <string name="ultimateLicenseDescriptionMonthly">All features and maps unlocked (monthly subscription)</string>
     <string name="ultimateLicenseDescriptionYearly">All features and maps unlocked (yearly subscription)</string>
-
-
     <string name="ok">OK</string>
     <string name="yes">Da</string>
     <string name="no">Nu</string>
     <string name="cancel">Anulare</string>
     <string name="buttonUnderstand">Am înțeles</string>
-
     <string name="buttonResumeTrack">Continuă</string>
     <string name="buttonNewTrack">Finalizare</string>
-
     <string name="menuControlPanel">Panou de control</string>
     <string name="menuSettings">Setări</string>
     <string name="menuSummary">Sumar</string>
@@ -72,23 +60,21 @@
     <string name="menuClose">Închidere</string>
     <string name="menuInfo">Info</string>
     <string name="menuFeedback">Trimite feedback</string>
-    <string name="menuRateAndComment">Evaluează și comentează</string>
+    <string name="menuRateAndComment">Evaluează-ne</string>
     <string name="menuRefresh">Reîmprospătare</string>
     <string name="menuSwitchProfile">Schimbă în</string>
-
     <string name="share_title">Trimitere prin</string>
-    <string name="share_subject"><xliff:g>\@string/app_name</xliff:g></string>
-
+    <string name="share_subject">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
     <string name="pick_a_color">Selectare culoare</string>
-
     <string name="fence_name_default">Locația Mea</string>
     <string name="profileNameDefault">Profil Nou</string>
-
     <string name="featureNotAvailable">Scuze, această funcție nu este disponibilă pe acest tip de echipament</string>
     <string name="farFromHere">Departe de aici</string>
-
     <string name="toastRestartRequired">Reporniți aplicația pentru efectuarea schimbărilor</string>
-    <string name="toastActiveProfile">Profil: <xliff:g>%1$s</xliff:g></string>
+    <string name="toastActiveProfile">Profil: <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="toastProfileSavingError">Eroare salvare date profil! Reîncercați.</string>
     <string name="toastProfileChangeError">Nu se poate schimba profilul! Reincercati.</string>
     <string name="toastGpsEnabled">GPS activat</string>
@@ -143,17 +129,20 @@
     <string name="toastSensorDisabled">Senzor oprit</string>
     <string name="toastAutoThemeActivated">Tema vizuală automată activată</string>
     <string name="toastCancelled">Anulat</string>
-
-    <string name="notificationTitle"><xliff:g>\@string/app_name</xliff:g></string>
-    <string name="notificationTitleAdvanced"><xliff:g>%1$s</xliff:g></string>
-    <string name="notificationTitleAdvancedPaused">Pauză: <xliff:g>%1$s</xliff:g></string>
-
-    <string name="licenseSuccessDialogTitle"><xliff:g>\@string/app_name</xliff:g></string>
+    <string name="notificationTitle">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
+    <string name="notificationTitleAdvanced">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="notificationTitleAdvancedPaused">Pauză: <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="licenseSuccessDialogTitle">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
     <string name="licenseSuccessDialogMessage">Licența a fost aplicată cu succes. Îți mulțumim pentru suport!</string>
-
     <string name="ongoingNotificationChannelName">Notificare continuă</string>
     <string name="ongoingNotificationChannelDescription">Permite controlul serviciului de prim plan si acces ușor la aplicație</string>
-
     <string name="dialog_default_color_light_title">Temă luminoasă culori</string>
     <string name="dialog_default_color_dark_title">Temă întunecată culori</string>
     <string name="dialog_default_map_track_colors_title">Culori trasee hartă</string>
@@ -167,7 +156,9 @@
     <string name="dialog_volume_message">Notă: Folosiți butoanele de volum pentru ajustarea volumului sunetului.</string>
     <string name="dialog_bell_automatic_sensitivity_title">Sensibilitate clinchet automată</string>
     <string name="dialog_bell_shake_sensitivity_title">Sensibilitatea scuturării.</string>
-    <string name="dialog_fenceguard_title"><xliff:g>\@string/menuFenceguard</xliff:g></string>
+    <string name="dialog_fenceguard_title">
+        <xliff:g>\@string/menuFenceguard</xliff:g>
+    </string>
     <string name="dialog_fenceguard_add_title">Adăugare profil</string>
     <string name="dialog_fenceguard_add_text">Denumiți profil:</string>
     <string name="dialog_fenceguard_add_text2">Protecţia va fi ridicată în jurul locaţiei tale actuale pentru a-ţi proteja cursele salvate de expuneri nedorite.</string>
@@ -179,10 +170,13 @@
     <string name="dialog_fenceguard_remove_formatText">Eşti sigur că vrei să elimini protecţia <xliff:g>%1$s</xliff:g>\?</string>
     <string name="dialog_track_save_text">Distanță <xliff:g>%1$.3f %2$s
 \n</xliff:g>Durată <xliff:g>%3$s
-\n</xliff:g><xliff:g>(%4$s)
+\n</xliff:g>
+        <xliff:g>(%4$s)
 \n
 \n</xliff:g> Cursa pare să fie foarte scurtă. Salvezi această cursă\?</string>
-    <string name="dialog_exit_title"><xliff:g>\@string/app_name</xliff:g></string>
+    <string name="dialog_exit_title">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
     <string name="dialog_exit_msg">Atenţie: Înregistrarea este activă, şi va fi oprită.</string>
     <string name="dialogProfileDeleteTitle">Şterge profil</string>
     <string name="dialogProfileDeleteMessage">Atenţie: Setările de profil şi totalurile vor fi şterse. Traseele salvate nu vor fi afectate.
@@ -250,13 +244,27 @@
     <string name="dialogMapsHighResolution">Hartă rezoluție mare</string>
     <string name="dialogMapsRenderTerrain">Rendează terenul</string>
     <string name="dialogMapsTrackColor">Culoare traseu</string>
-    <string name="dialogMapsTrackColorAltitude"><xliff:g>\@string/infoMeterModeAltitudeTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorSpeed"><xliff:g>\@string/infoMeterModeSpeedTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorDuration"><xliff:g>\@string/infoMeterModeDurationTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorElapsed"><xliff:g>\@string/summaryTotalTime</xliff:g></string>
-    <string name="dialogMapsTrackColorHeartRate"><xliff:g>\@string/infoMeterModeHeartRateTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorCadence"><xliff:g>\@string/infoMeterModeCadenceTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorTemperature"><xliff:g>\@string/infoMeterModeTemperatureTitle</xliff:g></string>
+    <string name="dialogMapsTrackColorAltitude">
+        <xliff:g>\@string/infoMeterModeAltitudeTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorSpeed">
+        <xliff:g>\@string/infoMeterModeSpeedTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorDuration">
+        <xliff:g>\@string/infoMeterModeDurationTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorElapsed">
+        <xliff:g>\@string/summaryTotalTime</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorHeartRate">
+        <xliff:g>\@string/infoMeterModeHeartRateTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorCadence">
+        <xliff:g>\@string/infoMeterModeCadenceTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorTemperature">
+        <xliff:g>\@string/infoMeterModeTemperatureTitle</xliff:g>
+    </string>
     <string name="dialogFencesAdd">Adaugă protecţie aici</string>
     <string name="dialogFencesUpdate">Actualizează locaţia protecţiei</string>
     <string name="dialogFencesEdit">Editează protecţia</string>
@@ -290,14 +298,23 @@
     <string name="dialogTrackUploadPlatform">Serviciu online</string>
     <string name="dialogTrackUploadStravaIsCommute">Navetă</string>
     <string name="dialogSvgTitle">Grafice SVG</string>
-    <string name="dialogSvgDistanceTitle"><xliff:g>\@string/infoMeterModeDistanceTitle</xliff:g></string>
-    <string name="dialogSvgDurationTitle"><xliff:g>\@string/infoMeterModeDurationTitle</xliff:g></string>
+    <string name="dialogSvgDistanceTitle">
+        <xliff:g>\@string/infoMeterModeDistanceTitle</xliff:g>
+    </string>
+    <string name="dialogSvgDurationTitle">
+        <xliff:g>\@string/infoMeterModeDurationTitle</xliff:g>
+    </string>
     <string name="dialogGpsIntervalTitle">Interval actualizare GPS</string>
-    <string name="dialogGpsIntervalValue"><xliff:g>%1$s</xliff:g></string>
+    <string name="dialogGpsIntervalValue">
+        <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="dialogGpsIntervalNote">Notă: Păstrează această valoare sub 3sec. pentru a obține date precise și un comportament consecvent!</string>
-    <string name="dialogGpsIntervalLabelMore"><xliff:g>◀
+    <string name="dialogGpsIntervalLabelMore">
+        <xliff:g>◀
 \n</xliff:g>Mai multă acuratețe folosește mai multă baterie</string>
-    <string name="dialogHapticIntensityTitle"><xliff:g>\@string/pref_haptic_feedback_intensity_title</xliff:g></string>
+    <string name="dialogHapticIntensityTitle">
+        <xliff:g>\@string/pref_haptic_feedback_intensity_title</xliff:g>
+    </string>
     <string name="dialogLocationPermissionRequestTitle">Permiterea localizării</string>
     <string name="dialogLocationPermissionRequest">Aplicația necesită acces la localizare pentru a înregistra actiivitățile tale in aer liber.</string>
     <string name="dialogStoragePermissionRequestTitle">Permiterea stocării</string>
@@ -309,12 +326,10 @@
     <string name="dialogPermissionProblemMessage">Această permisiune este necesară pentru ca aplicația să funcționeze corect. Poate fi acordată in pagina de Permisiuni pentru aplicații.<xliff:g>
 \n
 \n</xliff:g>mergi acolo acum\?</string>
-
-	<string name="mapLayerStreet">Stradă</string>
+    <string name="mapLayerStreet">Stradă</string>
     <string name="mapLayerTerrain">Teren</string>
     <string name="mapLayerSatellite">Satelit</string>
-
-	<string name="unitKm">km</string>
+    <string name="unitKm">km</string>
     <string name="unitKmh">km/h</string>
     <string name="unitMiles">mi</string>
     <string name="unitMph">mph</string>
@@ -364,10 +379,10 @@
     <string name="unitPerMille">‰</string>
     <string name="unitMilliseconds">ms</string>
     <string name="unitDegree">°</string>
-    <string name="durationHrMin"><xliff:g>%1$d:%2$02d</xliff:g></string>
-
+    <string name="durationHrMin">
+        <xliff:g>%1$d:%2$02d</xliff:g>
+    </string>
     <string name="valueTimesCount">×</string>
-
     <string name="meterGPS">GPS</string>
     <string name="meterModeSpeed">viteză</string>
     <string name="meterModeSpeedShort">vit</string>
@@ -425,7 +440,6 @@
     <string name="meterTextMax">max</string>
     <string name="meterTextAvg">med</string>
     <string name="meterTextTotal">tot</string>
-
     <string name="controlPanelSoundAutoBell">Claxon automat</string>
     <string name="controlPanelSoundRoar">Răget</string>
     <string name="controlPanelSoundEffects">Efecte</string>
@@ -433,12 +447,14 @@
     <string name="controlPanelSoundTallies">Numărătoare</string>
     <string name="controlPanelSoundVolume">Volume</string>
     <string name="controlPanelEnergyParams">Parametrii Putere/Energie</string>
-
     <string name="profilesListTitle">Profile</string>
     <string name="profilesListTitleSelectProfile">Schimbă profil</string>
     <string name="profilesListAddProfile">Profil Nou</string>
-    <string name="profilesListRowLastActivity"><xliff:g>%1$s</xliff:g></string>
-    <string name="profilesListRowTotalsSince">Totals de la: <xliff:g>%1$s</xliff:g></string>
+    <string name="profilesListRowLastActivity">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="profilesListRowTotalsSince">Totals de la: <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="profilesListButtonResetTotals">Resetează totalurile</string>
     <string name="profilesListProfileNotUsed">(nefolosit)</string>
     <string name="tracksHistoryListTitle">Istoric trasee</string>
@@ -451,7 +467,6 @@
     <string name="tracksHistoryListButtonDelete">Șterge</string>
     <string name="tracksHistoryListShareTrackDialogTitle">Distribuie traseul către...</string>
     <string name="tracksHistoryListViewTrackDialogTitle">Vezi traseul cu...</string>
-
     <string name="summaryTotalWeight">Greutate totală</string>
     <string name="summaryWheelsWeight">Greutate roți</string>
     <string name="summaryEfficiency">Eficiență</string>
@@ -459,7 +474,9 @@
     <string name="summaryRollResistCoef">Coef. de frecare la rulare</string>
     <string name="summaryBasalMetabolicRate">Rate metabolică de bază</string>
     <string name="summaryLocationInterval">Interval de localizare</string>
-    <string name="summaryEnergyParams"><xliff:g>\@string/controlPanelEnergyParams</xliff:g></string>
+    <string name="summaryEnergyParams">
+        <xliff:g>\@string/controlPanelEnergyParams</xliff:g>
+    </string>
     <string name="summaryStartedDatetime">Pornit</string>
     <string name="summaryEndedDatetime">Terminat</string>
     <string name="summaryTotalTime">Timp total</string>
@@ -473,26 +490,21 @@
     <string name="sensorsSectionUnsupported">Nesuportat</string>
     <string name="sensorsEmptyList">Listă goală</string>
     <string name="sensorsMenuScan">Scanează</string>
-
     <string name="sensorMenuAddToProfile">Adaugă la profil</string>
     <string name="sensorMenuRemoveFromProfile">Șterge din profil</string>
     <string name="sensorMenuProperties">Proprietăți</string>
     <string name="sensorMenuEnable">Pornește</string>
     <string name="sensorMenuDisable">Oprește</string>
     <string name="sensorMenuDelete">Șterge</string>
-
     <string name="sensorRemoveConfirmDialogMsg">Șterge din profil\?</string>
     <string name="sensorDeleteConfirmDialogMsg">Șterge acest senzor\?</string>
-
     <string name="sensorAddedMsg">Senzor adăugat la profil</string>
     <string name="sensorRemovedMsg">Senzor șters din profil</string>
     <string name="sensorDeletedMsg">Senzor șters</string>
-
     <string name="sensorPurposeCadence">Cadență</string>
     <string name="sensorPurposeSpeed">Viteză</string>
     <string name="sensorPurposePower">Putere</string>
     <string name="sensorPurposeHeartRate">Ritm cardiac</string>
-
     <string name="sensorProperitesProfileInfo">Proprietățile senzorilor sunt administrate per profil. Proprietățile administrate aici sunt doar pentru profilul activ curent (<xliff:g id="profile_name">%1$s</xliff:g>).</string>
     <string name="sensorProperitesUseForSpeed">Folosit pentru viteză</string>
     <string name="sensorProperitesUseForCadence">Folosit pentru cadență</string>
@@ -507,12 +519,10 @@
     <string name="sensorStatusConnected">Conectat</string>
     <string name="sensorStatusConnecting">Conectare...</string>
     <string name="sensorStatusDisconnected">Deconectat</string>
-
     <string name="pref_text_off">Oprit</string>
     <string name="pref_text_min">Min</string>
     <string name="pref_text_medium">Mediu</string>
     <string name="pref_text_max">Max</string>
-
     <string name="settingsTitle">Setări</string>
     <string name="pref_category1_title">Sunet</string>
     <string name="pref_category2_title">Afișaj</string>
@@ -584,7 +594,6 @@
     <string name="pref_category_mapsQuickZoom">ZoomRapid</string>
     <string name="prefAllProfilesInfoTitle">Notă!</string>
     <string name="prefAllProfilesInfoSummary">Preferințele de aici se aplică tuturor profilelor.</string>
-
     <string name="pref_app_language_summary">(Toate profilele)</string>
     <string name="pref_app_language_dialog_title">Limbă</string>
     <string name="pref_app_language_translate_title">Ajută traducerea</string>
@@ -622,14 +631,19 @@
     <string name="pref_roaring_type_title">Tip</string>
     <string name="pref_roaring_type_dialog_title">Tip claxon</string>
     <string name="pref_volume_summary_text">Clopoțel:<xliff:g> %1$s</xliff:g>, Claxon:<xliff:g> %2$s
-\n</xliff:g>Numărătoare:<xliff:g> %3$s</xliff:g>, Efecte:<xliff:g> %4$s</xliff:g>, Alarme:<xliff:g> %5$s</xliff:g></string>
+\n</xliff:g>Numărătoare:<xliff:g> %3$s</xliff:g>, Efecte:<xliff:g> %4$s</xliff:g>, Alarme:<xliff:g> %5$s</xliff:g>
+    </string>
     <string name="pref_bg_color_title">Culoare fundal</string>
     <string name="pref_bg_color_summary">Alege culoare dorită pentru fundalul aplicației</string>
     <string name="pref_fg_color_title">Culoare text</string>
     <string name="pref_fg_color_summary">Alege culoarea dorită pentru text și simboluri</string>
-    <string name="pref_visualThemeAutoTitle"><xliff:g>\@string/pref_category_visualThemeAuto</xliff:g></string>
+    <string name="pref_visualThemeAutoTitle">
+        <xliff:g>\@string/pref_category_visualThemeAuto</xliff:g>
+    </string>
     <string name="pref_visualThemeAutoSummary">Aplică tema luminoasă sau întunecată în funcție de lumina ambientală</string>
-    <string name="pref_default_color_title"><xliff:g>\@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_default_color_title">
+        <xliff:g>\@string/pref_resetToDefault</xliff:g>
+    </string>
     <string name="pref_buttons_bg_look_title">Șterge butoanele</string>
     <string name="pref_buttons_bg_look_summary">Câmpuri si butoane complet transparente</string>
     <string name="pref_screen_keep_on_title">Menține ecranul pornit</string>
@@ -670,22 +684,42 @@
     <string name="pref_roarConstantModeButton_summary">Comută mod constant cu un click buton cât timp răget este pornit</string>
     <string name="pref_fenceguard_title">FenceGuard</string>
     <string name="pref_fenceguard_summary">Protejați locația casei dumneavoastră, sau alte locuri importante pentru a nu fi expuse in curse înregistrate</string>
-    <string name="pref_gps_update_freq_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_summary"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_dialog_title"><xliff:g>\@string/pref_category_gps_boost_title</xliff:g></string>
-    <string name="pref_autopause_mode_title"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_gps_update_freq_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_gps_boost_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_gps_boost_summary">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_gps_boost_dialog_title">
+        <xliff:g>\@string/pref_category_gps_boost_title</xliff:g>
+    </string>
+    <string name="pref_autopause_mode_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="pref_autopause_mode_dialog_title">Pauză automată</string>
-    <string name="pref_wakelock_mode_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_wakelock_mode_dialog_title"><xliff:g>\@string/pref_category_wakelock_title</xliff:g></string>
-    <string name="pref_locationProviderMode_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_locationProviderMode_dialog_title"><xliff:g>\@string/pref_category_locationProvider_title</xliff:g></string>
+    <string name="pref_wakelock_mode_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_wakelock_mode_dialog_title">
+        <xliff:g>\@string/pref_category_wakelock_title</xliff:g>
+    </string>
+    <string name="pref_locationProviderMode_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_locationProviderMode_dialog_title">
+        <xliff:g>\@string/pref_category_locationProvider_title</xliff:g>
+    </string>
     <string name="pref_speedometer_limit_title">Indicator maxim</string>
     <string name="pref_speedometer_limit_dialog_title">Indicator maxim viteză</string>
     <string name="pref_speed_calculate_mode_title">Recalculați viteza</string>
     <string name="pref_speed_calculate_mode_summary">(Toate profilele) Recalculează viteza din dinstanță, nu folosi valorile GPS direct. Acest lucru poate oferi citiri mai stabile ale vitezei peste valorile GPS (Doppler).</string>
     <string name="pref_soundeffects_title">Pornește</string>
-    <string name="pref_soundeffects_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_soundeffects_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="pref_soundeffects_fence_enterleave_title">Protectie</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Producere sunet când intrați sau ieșiti din zona protejată</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
@@ -693,8 +727,12 @@
     <string name="pref_soundeffects_countdown_title">Numărătoare inversă</string>
     <string name="pref_soundeffects_countdown_summary">Sunet pentru numărătoare inversă înainte să continuăm traseul (…3, 2, 1, START!)</string>
     <string name="pref_soundeffects_tally_title">Pornește</string>
-    <string name="pref_soundeffects_tally_summary"><xliff:g>\@null</xliff:g></string>
-    <string name="pref_soundeffects_tally_value_summary">La fiecare <xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g></string>
+    <string name="pref_soundeffects_tally_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
+    <string name="pref_soundeffects_tally_value_summary">La fiecare <xliff:g>%1$s</xliff:g>
+        <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_soundeffects_tally_distance_title">Distanță</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">Calculare distantă</string>
     <string name="pref_soundeffects_tally_duration_title">Durată</string>
@@ -704,7 +742,9 @@
     <string name="pref_soundeffects_tally_descent_title">Coborâre</string>
     <string name="pref_soundeffects_tally_descent_dialog_title">Calculare coborâre</string>
     <string name="pref_soundeffects_alarm_title">Pornește</string>
-    <string name="pref_soundeffects_alarm_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_soundeffects_alarm_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Pauză uitată</string>
     <string name="pref_soundeffects_alarm_gpsPause_summary">Alarma va suna când se detectează o mișcare semnificativă în timp ce urmărirea este întreruptă</string>
     <string name="pref_facebook_disable_title">Dezactivează Facebook</string>
@@ -721,20 +761,27 @@
     <string name="pref_maps_online_mode_dialog_title">Sursă hărți</string>
     <string name="pref_maps_offline_file_title">Alege fișier sau dosar</string>
     <string name="pref_maps_offline_file_dialog_title">Alege dosar hărți offline</string>
-    <string name="pref_maps_offline_file_summary">(Toate profilele) <xliff:g>%1$s</xliff:g></string>
+    <string name="pref_maps_offline_file_summary">(Toate profilele) <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="pref_maps_offline_file_noFolderSelected">Nici un dosar selectat.</string>
     <string name="pref_maps_offline_info_title">Descarcă acum</string>
     <string name="pref_maps_offline_info_summary">Hărți tip Mapsforge vector (.map) și Rmaps raster (.sqlitedb). Puteți descărca la adresa download.mapsforge.org</string>
     <string name="pref_maps_offline_warning_summary">Avertisment: Unele date online pot fi preluate chiar și în modul offline. Dezactivați Internetul mobil înainte de a utiliza hărțile, dacă este cazul.</string>
-    <string name="pref_maps_offline_resetToDefault_title"><xliff:g>\@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_maps_offline_resetToDefault_title">
+        <xliff:g>\@string/pref_resetToDefault</xliff:g>
+    </string>
     <string name="pref_maps_routes_draw_title">Indicaţii navigare</string>
     <string name="pref_maps_routes_info_title">Notă!</string>
     <string name="pref_maps_routes_info_summary">Nu vor fi date alte indicații vizuale sau sonore care să faciliteze navigarea în traseu</string>
     <string name="pref_maps_routes_files_title">Alege fișier sau dosar</string>
     <string name="pref_maps_routes_files_dialog_title">Alegeți fișier sau dosar rută</string>
-    <string name="pref_maps_routes_files_summary"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_maps_routes_files_summary">
+        <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="pref_maps_routes_files_noFolderSelected">Nici un dosar selectat.</string>
-    <string name="pref_maps_routes_resetToDefault_title"><xliff:g>\@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_maps_routes_resetToDefault_title">
+        <xliff:g>\@string/pref_resetToDefault</xliff:g>
+    </string>
     <string name="pref_maps_quickZoom_title">Butoane ZoomRapid</string>
     <string name="pref_maps_quickZoom_summary">(Toate profilurile) Activați butoanele de QuickZoom rapid invizibile în partea de jos a hărții, îmbunătățește orientarea</string>
     <string name="pref_maps_quickZoomInvert_title">Inversat</string>
@@ -773,13 +820,16 @@
     <string name="pref_powermeter_parameters_info_title">Notă!</string>
     <string name="pref_powermeter_parameters_info_summary">Pentru o citire exactă a puterii și energiei, vă rugăm să vă asigurați că acești parametri sunt corecți!</string>
     <string name="pref_power_weights_title">Greutăţi</string>
-    <string name="pref_power_weights_summary">Conducător: <xliff:g>%1$s</xliff:g>, Vehicul: <xliff:g>%2$s</xliff:g>, Bagaj: <xliff:g>%3$s</xliff:g>, Pasageri: <xliff:g>%4$s</xliff:g>, Roți: <xliff:g>%5$s</xliff:g></string>
+    <string name="pref_power_weights_summary">Conducător: <xliff:g>%1$s</xliff:g>, Vehicul: <xliff:g>%2$s</xliff:g>, Bagaj: <xliff:g>%3$s</xliff:g>, Pasageri: <xliff:g>%4$s</xliff:g>, Roți: <xliff:g>%5$s</xliff:g>
+    </string>
     <string name="pref_power_coefs_title">Coeficienți</string>
     <string name="pref_power_coefs_summary">Zonă rezistență: <xliff:g>%1$s
-\n</xliff:g>Rezistență rulare: <xliff:g>%2$s</xliff:g></string>
+\n</xliff:g>Rezistență rulare: <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_energy_params_title">Parametri energetici</string>
     <string name="pref_energy_params_summary">Eficiență: <xliff:g>%1$s
-\n</xliff:g>Metabolism: <xliff:g>%2$s</xliff:g></string>
+\n</xliff:g>Metabolism: <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_svg_data_enable_title">Generare grafice</string>
     <string name="pref_svg_data_enable_summary">Generează fișiere de tip grafic SVG pentru diferiți parametrii de cursă</string>
     <string name="pref_svg_data_modes_select_title">Alege tip grafice...</string>
@@ -794,10 +844,14 @@
     <string name="pref_paceIndicator_title">Indicator ritm</string>
     <string name="pref_paceIndicator_summary">Afișează când mergi mai repede sau mai încet decat viteza medie</string>
     <string name="pref_haptic_feedback_title">Vibrează la atingere</string>
-    <string name="pref_haptic_feedback_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_haptic_feedback_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="pref_haptic_feedback_intensity_title">Intensitate vibrație</string>
     <string name="pref_soundsMasterSwitch_title">Toate sunetele</string>
-    <string name="pref_soundsMasterSwitch_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_soundsMasterSwitch_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="prefBarometricAltitudeTitle">Altitudine barometrică</string>
     <string name="prefBarometricAltitudeSummary">Folosește barometrul intern pentru a mări acuratețea altitudinii</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Barometru termic</string>
@@ -855,7 +909,6 @@
     <string name="infoMeterModeGearRatioTitle">Raport transmisie</string>
     <string name="infoAutopauseForcedRelaxed">Notă : Pauză automată forțată pe Relaxat</string>
     <string name="infoAutopauseForcedOff">Notă: Pauză automată forțată pe Dezactivat</string>
-
     <string name="defaultProfileNameBike1">Bicicleta 1</string>
     <string name="defaultProfileNameBike2">Bicicleta 2</string>
     <string name="defaultProfileNameWalk">Mers</string>
@@ -863,19 +916,19 @@
     <string name="defaultProfileNameCar">Mașină</string>
     <string name="defaultProfileNamePlane">Avion</string>
     <string name="defaultProfileNameOther">Alta</string>
-
-
-	<string name="svgCopyright">Creat cu Urban Biker</string>
-
-
-	<string name="fbStoryLiveText">Continuu!</string>
+    <string name="svgCopyright">Creat cu Urban Biker</string>
+    <string name="fbStoryLiveText">Continuu!</string>
     <string name="fbCourseTitle">Realizat de Urban Biker</string>
-	<string name="fbTemperatureMin">Temp. min</string>
-	<string name="fbTemperatureMax">Temp. max</string>
+    <string name="fbTemperatureMin">Temp. min</string>
+    <string name="fbTemperatureMax">Temp. max</string>
     <string name="menuLicense">Cumpără licența</string>
-
     <string name="dialogLicenseBuyTitle">Îți place aplicația\?</string>
     <string name="dialogLicenseBuyYesButton">Ia-l!</string>
     <string name="dialogLicenseBuyNoButton">Nu acum</string>
-
-    </resources>
+    <string name="ultimateLicenseTitleYearly">Licență Ultimate (anuală)</string>
+    <string name="toastMapClickInfo">Apasă lung pentru setările hărții</string>
+    <string name="dialog_volume_title">\@null</string>
+    <string name="dialogGpsIntervalLabelLess">
+        <xliff:g>▶
+\n</xliff:g>Mai puțin precisă, utilizează mai puțină baterie</string>
+</resources>
