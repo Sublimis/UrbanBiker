@@ -7,7 +7,7 @@
 
  - #### Contribute
 
-[https://translate.urban-bike-computer.com](https://translate.urban-bike-computer.com/projects/urban-biker/strings/)
+[https://translate.urban-bike-computer.com](https://translate.urban-bike-computer.com/engage/urban-biker/)
 
 
  - #### More info
