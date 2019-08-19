@@ -1,41 +1,31 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="locale">pt</string>
-
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="locale">pt</string>
     <string name="app_name">Urban Biker</string>
-
     <string name="app_description">Acompanhe e meça os seus passeios com grande precisão. Aumente a sua segurança e a eficiência ao praticar ciclismo.</string>
-
     <string name="widget_1_description">Ciclista: Campaínha de bicicleta</string>
     <string name="widget_2_description">Ciclista: Campaínha + Lanterna</string>
     <string name="widget_3_description">Ciclista: Completo</string>
-
-    <string name="copyright_part1">&lt;xliff:g&gt;<b>v%1$s</b> (%2$s)&lt;/xliff:g&gt;</string>
-
+    <string name="copyright_part1">
+        <xliff:g>&lt;b&gt;v%1$s&lt;/b&gt; (%2$s)</xliff:g>
+    </string>
     <string name="proLicenseLabel">Pro</string>
     <string name="proPlusLicenseLabel">Pro+</string>
     <string name="ultimateLicenseLabel">Ultimate</string>
-
     <string name="proLicenseTitle">Licença Pro</string>
     <string name="proLicenseDescription">Remover Publicidade</string>
-
     <string name="proPlusLicenseTitle">Licença Pro Plus</string>
     <string name="proPlusLicenseDescription">Remova a Publicidade e desbloqueie todos os recursos que não sejam de assinatura e que futuramente possam ser adicionados</string>
-
     <string name="ultimateLicenseTitle">Licença Ultimate</string>
     <string name="ultimateLicenseDescriptionMonthly">Todos os recursos e mapas desbloqueados (Assinatura Mensal)</string>
     <string name="ultimateLicenseDescriptionYearly">Todos os recursos e mapas desbloqueados (Assinatura Anual)</string>
-
-
     <string name="ok">OK</string>
     <string name="yes">Sim</string>
     <string name="no">Não</string>
     <string name="cancel">Cancelar</string>
     <string name="buttonUnderstand">Eu compreendi</string>
-
     <string name="buttonResumeTrack">Retomar</string>
     <string name="buttonNewTrack">Terminar</string>
-
     <string name="menuControlPanel">Painel de Controlo</string>
     <string name="menuSettings">Definições</string>
     <string name="menuSummary">Resumo</string>
@@ -44,11 +34,11 @@
     <string name="menuMeterLock">Bloquear</string>
     <string name="menuMeterLockAll">Bloquear tudo</string>
     <string name="menuMeterMode">Modo do medidor…</string>
-    <string name="menuMeterChooseModes">Escolher modos</string>
+    <string name="menuMeterChooseModes">Escolher modos…</string>
     <string name="menuMeterNewTrack">Novo pecurso</string>
     <string name="menuMeterResetMinMax">Repor min/máx</string>
     <string name="menuMeterReset">Terminar</string>
-    <string name="menuMeterParameters">Parâmetros</string>
+    <string name="menuMeterParameters">Parâmetros…</string>
     <string name="menuMeterPowerMode">Alternar modo de exibição de energia</string>
     <string name="menuFenceguard">Zona de Privacidade</string>
     <string name="menuExit">Sair</string>
@@ -72,23 +62,21 @@
     <string name="menuClose">Fechar</string>
     <string name="menuInfo">Info</string>
     <string name="menuFeedback">Enviar Feedback</string>
-    <string name="menuRateAndComment">Avalie e Comente</string>
+    <string name="menuRateAndComment">Avalie-nos</string>
     <string name="menuRefresh">Atualizar</string>
     <string name="menuSwitchProfile">Mudar para</string>
-
     <string name="share_title">Enviar através de</string>
-    <string name="share_subject"><xliff:g>\@string/app_name</xliff:g></string>
-
+    <string name="share_subject">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
     <string name="pick_a_color">Escolha uma cor</string>
-
     <string name="fence_name_default">Meu Lugar</string>
     <string name="profileNameDefault">Novo Perfil</string>
-
     <string name="featureNotAvailable">Desculpe, a opção não está disponível neste aparelho</string>
     <string name="farFromHere">Longe deste ponto</string>
-
     <string name="toastRestartRequired">Por favor, reinicie a aplicação para que isto tenha efeito</string>
-    <string name="toastActiveProfile">Perfil: <xliff:g>%1$s</xliff:g></string>
+    <string name="toastActiveProfile">Perfil: <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="toastProfileSavingError">Erro ao salvar os dados no seu perfil! Por favor, tente novamente.</string>
     <string name="toastProfileChangeError">Não foi possível mudar o perfil! Por favor, tente novamente.</string>
     <string name="toastGpsEnabled">GPS ligado</string>
@@ -143,17 +131,20 @@
     <string name="toastSensorDisabled">Sensor inativo</string>
     <string name="toastAutoThemeActivated">Tema visual automático ativado</string>
     <string name="toastCancelled">Cancelado</string>
-
-    <string name="notificationTitle"><xliff:g>\@string/app_name</xliff:g></string>
-    <string name="notificationTitleAdvanced"><xliff:g>%1$s</xliff:g></string>
-    <string name="notificationTitleAdvancedPaused">Pausado: <xliff:g>%1$s</xliff:g></string>
-
-    <string name="licenseSuccessDialogTitle"><xliff:g>\@string/app_name</xliff:g></string>
+    <string name="notificationTitle">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
+    <string name="notificationTitleAdvanced">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="notificationTitleAdvancedPaused">Pausado: <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="licenseSuccessDialogTitle">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
     <string name="licenseSuccessDialogMessage">A aplicação foi licenciada com sucesso. Obrigado pela sua ajuda!</string>
-
     <string name="ongoingNotificationChannelName">Notificação em progresso</string>
     <string name="ongoingNotificationChannelDescription">Fornecer o controle do serviço de primeiro plano e fácil acesso à aplicação</string>
-
     <string name="dialog_default_color_light_title">Tema de cor claro</string>
     <string name="dialog_default_color_dark_title">Tema de cor escuro</string>
     <string name="dialog_default_map_track_colors_title">Cores do Percurso no Mapa</string>
@@ -167,22 +158,27 @@
     <string name="dialog_volume_message">Nota: use botões de volume no seu dispositivo para ajustar o volume de todos os sons.</string>
     <string name="dialog_bell_automatic_sensitivity_title">Sensibilidade da campaínha Automática</string>
     <string name="dialog_bell_shake_sensitivity_title">Sensibilidade de vibração</string>
-    <string name="dialog_fenceguard_title"><xliff:g>\@string/menuFenceguard</xliff:g></string>
+    <string name="dialog_fenceguard_title">
+        <xliff:g>\@string/menuFenceguard</xliff:g>
+    </string>
     <string name="dialog_fenceguard_add_title">Adicionar Zona Privada</string>
-    <string name="dialog_fenceguard_add_text">Nomear nova Zona Privada</string>
+    <string name="dialog_fenceguard_add_text">Nomear nova Zona Privada:</string>
     <string name="dialog_fenceguard_add_text2">Uma Zona Privada será colocada ao redor da sua atual localização, para a proteger, evitando ser exposta nos percursos gravados.</string>
     <string name="dialog_fenceguard_update_title">Atualizar Zona Privada</string>
-    <string name="dialog_fenceguard_update_text">Nome da Zona Privada</string>
+    <string name="dialog_fenceguard_update_text">Nome da Zona Privada:</string>
     <string name="dialog_fenceguard_update_text2">A proteção levantada ao redor da sua localização protege-a de ser exposta nos percursos gravados.</string>
     <string name="dialog_fenceguard_remove_title">Remover Zona Privada</string>
     <string name="dialog_fenceguard_remove_defaultText">Tem a certeza que quer remover esta Zona Privada\?</string>
     <string name="dialog_fenceguard_remove_formatText">Tem a certeza que quer remover a zona <xliff:g>%1$s</xliff:g>\?</string>
     <string name="dialog_track_save_text">Distância <xliff:g>%1$.3f %2$s
 \n</xliff:g>Duração <xliff:g>%3$s
-\n</xliff:g><xliff:g>(%4$s)
+\n</xliff:g>
+        <xliff:g>(%4$s)
 \n
 \n</xliff:g>O percurso parece ser muito pequeno. Guardar este percurso\?</string>
-    <string name="dialog_exit_title"><xliff:g>\@string/app_name</xliff:g></string>
+    <string name="dialog_exit_title">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
     <string name="dialog_exit_msg">Atenção: Tem um percurso ativo e será terminado.</string>
     <string name="dialogProfileDeleteTitle">Excluír perfil</string>
     <string name="dialogProfileDeleteMessage">Aviso: Isto removerá as definições do perfil e todos os seus dados totais. Os percursos guardados serão mantidos intactos.
@@ -191,7 +187,7 @@
     <string name="dialogProfileAddTitle">Novo Perfil</string>
     <string name="dialogProfileAddInfo">O novo perfil terá as mesmas configurações do perfil que está em uso.</string>
     <string name="dialogProfileEditTitle">Editar perfil</string>
-    <string name="dialogProfileEditTotals">Totais</string>
+    <string name="dialogProfileEditTotals">Totais:</string>
     <string name="dialogProfileTotalsResetMessage">Colocar a zero os totais do perfil\?</string>
     <string name="dialogProfileSwitchTitle">Mudar perfil</string>
     <string name="dialogProfileSwitchMessage">Tem um percurso ativo. Tem a certeza que quer mudar de perfil <xliff:g>%1$s</xliff:g>\?</string>
@@ -249,14 +245,28 @@
     <string name="dialogMapsAutoRotate">Rotação automática</string>
     <string name="dialogMapsHighResolution">Mapa em alta resolução</string>
     <string name="dialogMapsRenderTerrain">Apresentar terreno</string>
-    <string name="dialogMapsTrackColor">Percurso matriz</string>
-    <string name="dialogMapsTrackColorAltitude"><xliff:g>\@string/infoMeterModeAltitudeTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorSpeed"><xliff:g>\@string/infoMeterModeSpeedTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorDuration"><xliff:g>\@string/infoMeterModeDurationTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorElapsed"><xliff:g>\@string/summaryTotalTime</xliff:g></string>
-    <string name="dialogMapsTrackColorHeartRate"><xliff:g>\@string/infoMeterModeHeartRateTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorCadence"><xliff:g>\@string/infoMeterModeCadenceTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorTemperature"><xliff:g>\@string/infoMeterModeTemperatureTitle</xliff:g></string>
+    <string name="dialogMapsTrackColor">Percurso matriz:</string>
+    <string name="dialogMapsTrackColorAltitude">
+        <xliff:g>\@string/infoMeterModeAltitudeTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorSpeed">
+        <xliff:g>\@string/infoMeterModeSpeedTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorDuration">
+        <xliff:g>\@string/infoMeterModeDurationTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorElapsed">
+        <xliff:g>\@string/summaryTotalTime</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorHeartRate">
+        <xliff:g>\@string/infoMeterModeHeartRateTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorCadence">
+        <xliff:g>\@string/infoMeterModeCadenceTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorTemperature">
+        <xliff:g>\@string/infoMeterModeTemperatureTitle</xliff:g>
+    </string>
     <string name="dialogFencesAdd">Adicionar zona privada aqui</string>
     <string name="dialogFencesUpdate">Atualizar localização da zona privada</string>
     <string name="dialogFencesEdit">Editar zona privada</string>
@@ -280,9 +290,9 @@
     <string name="dialogMapsDownloadText">Abrir a página web dos downloads agora\?</string>
     <string name="dialogMapsTerrainDownloadTitle">Terreno download</string>
     <string name="dialogTrackUploadWaitTitle">Por favor, aguarde</string>
-    <string name="dialogTrackUploadPreparing">Preparando os dados do percurso...</string>
-    <string name="dialogTrackUploadSending">A enviar...</string>
-    <string name="dialogTrackUploadDescriptionHint">Partilhe os seus pensamentos...</string>
+    <string name="dialogTrackUploadPreparing">Preparando os dados do percurso…</string>
+    <string name="dialogTrackUploadSending">A enviar…</string>
+    <string name="dialogTrackUploadDescriptionHint">Partilhe os seus pensamentos…</string>
     <string name="dialogTrackUploadShareButton">Partilhar</string>
     <string name="dialogTrackUploadShareAgainButton">Partilhar novamente</string>
     <string name="dialogTrackUploadUpdateButton">Atualizar</string>
@@ -290,16 +300,26 @@
     <string name="dialogTrackUploadPlatform">Serviço online</string>
     <string name="dialogTrackUploadStravaIsCommute">Comutar</string>
     <string name="dialogSvgTitle">Gráficos SVG</string>
-    <string name="dialogSvgDistanceTitle"><xliff:g>\@string/infoMeterModeDistanceTitle</xliff:g></string>
-    <string name="dialogSvgDurationTitle"><xliff:g>\@string/infoMeterModeDurationTitle</xliff:g></string>
+    <string name="dialogSvgDistanceTitle">
+        <xliff:g>\@string/infoMeterModeDistanceTitle</xliff:g>
+    </string>
+    <string name="dialogSvgDurationTitle">
+        <xliff:g>\@string/infoMeterModeDurationTitle</xliff:g>
+    </string>
     <string name="dialogGpsIntervalTitle">Intervalo de atualização do GPS</string>
-    <string name="dialogGpsIntervalValue"><xliff:g>%1$s</xliff:g></string>
-    <string name="dialogGpsIntervalNote">Nota: Mantenha este valor abaixo de 3 seg para obter leituras mais precisas e um comportamento mais consistente.</string>
-    <string name="dialogGpsIntervalLabelMore"><xliff:g>◀
+    <string name="dialogGpsIntervalValue">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="dialogGpsIntervalNote">Nota: Mantenha este valor abaixo de 3 seg para obter leituras mais precisas e um comportamento mais consistente!</string>
+    <string name="dialogGpsIntervalLabelMore">
+        <xliff:g>◀
 \n</xliff:g>Mais precisão, usa mais bateria</string>
-    <string name="dialogGpsIntervalLabelLess"><xliff:g>▶
+    <string name="dialogGpsIntervalLabelLess">
+        <xliff:g>▶
 \n</xliff:g>Menos precisão, usa menos bateria</string>
-    <string name="dialogHapticIntensityTitle"><xliff:g>\@string/pref_haptic_feedback_intensity_title</xliff:g></string>
+    <string name="dialogHapticIntensityTitle">
+        <xliff:g>\@string/pref_haptic_feedback_intensity_title</xliff:g>
+    </string>
     <string name="dialogSliderLess">◀</string>
     <string name="dialogSliderMore">▶</string>
     <string name="dialogLocationPermissionRequestTitle">Permissão de localização</string>
@@ -316,12 +336,10 @@
     <string name="dialogPermissionProblemMessage">Esta permissão é necessária para que a aplicação funcione corretamente. Esta pode ser garantida na página de configurações de permissões da aplicação.<xliff:g>
 \n
 \n</xliff:g>Ir para lá agora\?</string>
-
-	<string name="mapLayerStreet">Rua</string>
+    <string name="mapLayerStreet">Rua</string>
     <string name="mapLayerTerrain">Terreno</string>
     <string name="mapLayerSatellite">Satélite</string>
-
-	<string name="unitKm">Km</string>
+    <string name="unitKm">Km</string>
     <string name="unitKmh">Km/h</string>
     <string name="unitMiles">mi</string>
     <string name="unitMph">mph</string>
@@ -375,11 +393,10 @@
     <string name="unitMilliseconds">ms</string>
     <string name="unitDegree">°</string>
     <string name="unitMegabyte">MB</string>
-
-    <string name="durationHrMin"><xliff:g>%1$d:%2$02d</xliff:g></string>
-
+    <string name="durationHrMin">
+        <xliff:g>%1$d:%2$02d</xliff:g>
+    </string>
     <string name="valueTimesCount">×</string>
-
     <string name="meterGPS">GPS</string>
     <string name="meterModeSpeed">velocidade</string>
     <string name="meterModeSpeedShort">Velocidade</string>
@@ -438,7 +455,6 @@
     <string name="meterTextMax">Máx</string>
     <string name="meterTextAvg">Méd</string>
     <string name="meterTextTotal">Tot</string>
-
     <string name="controlPanelSoundAutoBell">Campaínha automática</string>
     <string name="controlPanelSoundRoar">Ruído</string>
     <string name="controlPanelSoundEffects">Efeitos</string>
@@ -446,25 +462,28 @@
     <string name="controlPanelSoundTallies">Contagens</string>
     <string name="controlPanelSoundVolume">Volumes</string>
     <string name="controlPanelEnergyParams">Parâmetros de Potência/Energia</string>
-
     <string name="profilesListTitle">Perfis</string>
     <string name="profilesListTitleSelectProfile">Mudar Perfil</string>
     <string name="profilesListAddProfile">Novo perfil</string>
-    <string name="profilesListRowLastActivity"><xliff:g>%1$s</xliff:g></string>
-    <string name="profilesListRowTotalsSince">Totais desde: <xliff:g>%1$s</xliff:g></string>
+    <string name="profilesListRowLastActivity">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="profilesListRowTotalsSince">Totais desde: <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="profilesListButtonResetTotals">Reiniciar totais</string>
     <string name="profilesListProfileNotUsed">(não usado)</string>
-    <string name="profilesListLoading">a Carregar...</string>
-
+    <string name="profilesListLoading">a Carregar…</string>
     <string name="cloudAccountsTitle">Contas</string>
     <string name="cloudAccountsInfo">Conectar-se a um serviço de nuvem facilita o upload e a partilha de percursos com outras pessoas.<xliff:g>
 \n
 \n</xliff:g>Nós nunca postaremos nada sem a sua autorização.</string>
     <string name="accountDisconnect">Desligar</string>
-    <string name="googleFitConnectButton">Ligar com <xliff:g>Google Fit</xliff:g></string>
-    <string name="stravaTrackPrivacyInfo">O percurso herdará a privacidade padrão definida por si no <xliff:g>Strava</xliff:g></string>
-    <string name="facebookConnectButton">Ligar com <xliff:g>Facebook</xliff:g></string>
-
+    <string name="googleFitConnectButton">Ligar com <xliff:g>Google Fit</xliff:g>
+    </string>
+    <string name="stravaTrackPrivacyInfo">O percurso herdará a privacidade padrão definida por si no <xliff:g>Strava</xliff:g>
+    </string>
+    <string name="facebookConnectButton">Ligar com <xliff:g>Facebook</xliff:g>
+    </string>
     <string name="tracksHistoryListTitle">Histórico de percursos</string>
     <string name="tracksHistoryListTitleSelect">Selecionar</string>
     <string name="tracksHistoryListEmpty">Nenhum percurso aqui. Saia e grave uma atividade!</string>
@@ -477,7 +496,6 @@
     <string name="tracksHistoryListButtonDelete">Excluír</string>
     <string name="tracksHistoryListShareTrackDialogTitle">Partilhar percurso com…</string>
     <string name="tracksHistoryListViewTrackDialogTitle">Visualizar percurso com…</string>
-
     <string name="summaryTotalWeight">Peso Total</string>
     <string name="summaryWheelsWeight">Peso das Rodas</string>
     <string name="summaryEfficiency">Eficiência (η)</string>
@@ -486,7 +504,9 @@
     <string name="summaryBasalMetabolicRate">Taxa Metabólica Basal</string>
     <string name="summaryLocationInterval">Intervalo de Localização</string>
     <string name="summaryDeviceRestartsCount">Reiniciações forçadas</string>
-    <string name="summaryEnergyParams"><xliff:g>\@string/controlPanelEnergyParams</xliff:g></string>
+    <string name="summaryEnergyParams">
+        <xliff:g>\@string/controlPanelEnergyParams</xliff:g>
+    </string>
     <string name="summaryStartedDatetime">Iniciado</string>
     <string name="summaryEndedDatetime">Terminado</string>
     <string name="summaryTotalTime">Tempo Total</string>
@@ -495,7 +515,6 @@
     <string name="summaryCadenceStrokes">Pedaladas</string>
     <string name="summarySpecific">Específica</string>
     <string name="summaryMechEnergy">Energia Mecânica</string>
-
     <string name="sensorsTitle">Sensores</string>
     <string name="sensorsTabUsed">Em uso</string>
     <string name="sensorsTabFound">Detetados</string>
@@ -504,21 +523,17 @@
     <string name="sensorsSectionUnsupported">Não suportado</string>
     <string name="sensorsEmptyList">Lista vazia</string>
     <string name="sensorsMenuScan">Detectar</string>
-
     <string name="sensorMenuAddToProfile">Adicionar ao perfil</string>
     <string name="sensorMenuRemoveFromProfile">Remover do perfil</string>
     <string name="sensorMenuProperties">Propriedades</string>
     <string name="sensorMenuEnable">Ativo</string>
     <string name="sensorMenuDisable">Inativo</string>
     <string name="sensorMenuDelete">Excluír</string>
-
     <string name="sensorRemoveConfirmDialogMsg">Remover do perfil\?</string>
     <string name="sensorDeleteConfirmDialogMsg">Excluír este sensor\?</string>
-
     <string name="sensorAddedMsg">Sensor adicionado ao perfil</string>
     <string name="sensorRemovedMsg">Sensor removido do perfil</string>
     <string name="sensorDeletedMsg">Sensor excluído</string>
-
     <string name="sensorPurposeNone">(Nenhum Fim)</string>
     <string name="sensorPurposeCadence">Cadência</string>
     <string name="sensorPurposeSpeed">Velocidade</string>
@@ -526,7 +541,6 @@
     <string name="sensorPurposeDuration">Duração</string>
     <string name="sensorPurposePower">Potência</string>
     <string name="sensorPurposeHeartRate">Frequência Cardíaca</string>
-
     <string name="sensorProperitesProfileInfo">As propriedades do sensor são geridas por perfil. As propriedades aqui são geridas apenas para o perfil atualmente ativo (<xliff:g id="profile_name">%1$s</xliff:g>).</string>
     <string name="sensorProperitesUseForSpeed">Usar para velocidade</string>
     <string name="sensorProperitesUseForCadence">Usar para cadência</string>
@@ -545,24 +559,23 @@
     <string name="sensorProperitesStrideLenNotSet">Não configurado</string>
     <string name="sensorProperitesSpeedTriggers">Ativadores de Velocidade</string>
     <string name="sensorProperitesCadenceTriggers">Ativadores de Cadência</string>
-    <string name="sensorProperitesTriggersCountInfo">Número de contactos (por exemplo, ímanes) usados ​​pelo sensor. Sensores sem contactos externos geralmente têm um único contacto interno.</string>
-
+    <string name="sensorProperitesTriggersCountInfo">Número de contactos (por exemplo, ímanes) usados pelo sensor. Sensores sem contactos externos geralmente têm um único contacto interno.</string>
     <string name="sensorStatusConnected">Ligado</string>
     <string name="sensorStatusConnecting">A estabelecer ligação</string>
     <string name="sensorStatusDisconnected">Desligado</string>
-
     <string name="pref_text_off">0</string>
     <string name="pref_text_min">Min</string>
     <string name="pref_text_medium">Médio</string>
     <string name="pref_text_max">Máx</string>
-
     <string name="settingsTitle">Definições</string>
     <string name="pref_category1_title">Som</string>
     <string name="pref_category2_title">Ecrã</string>
     <string name="pref_category_general_title">Geral</string>
     <string name="pref_category_language_title">Idioma</string>
     <string name="pref_category_appearance_title">Aparência</string>
-    <string name="pref_category_background_title"><xliff:g>\@string/pref_background_pattern_dialog_title</xliff:g></string>
+    <string name="pref_category_background_title">
+        <xliff:g>\@string/pref_background_pattern_dialog_title</xliff:g>
+    </string>
     <string name="pref_category_speedo_title">Velocímetro</string>
     <string name="pref_group_powermeter_title">Potência e Energia</string>
     <string name="pref_category_power_mode_title">Modo de exibição de energia</string>
@@ -607,7 +620,7 @@
     <string name="pref_group_maps_title">Mapas</string>
     <string name="pref_category_maps_online_mode_title">Fonte dos mapas</string>
     <string name="pref_category_maps_offline_title">Mapas offline</string>
-    <string name="pref_group_maps_offline_title">Definições de mapas offline...</string>
+    <string name="pref_group_maps_offline_title">Definições de mapas offline…</string>
     <string name="pref_category_maps_offline_terrain_title">Terreno</string>
     <string name="pref_category_maps_routes_title">Guia de rotas</string>
     <string name="pref_category_maps_track_title">Linha do percurso</string>
@@ -632,8 +645,7 @@
     <string name="pref_category_mapsQuickZoom">Zoom Rápido</string>
     <string name="pref_category_mapsCache">Cache</string>
     <string name="prefAllProfilesInfoTitle">Nota!</string>
-    <string name="prefAllProfilesInfoSummary">As preferências deste submenu são aplicáveis ​​a todos os perfis.</string>
-
+    <string name="prefAllProfilesInfoSummary">As preferências deste submenu são aplicáveis a todos os perfis.</string>
     <string name="pref_app_language_summary">(Todos os perfis)</string>
     <string name="pref_app_language_dialog_title">Idioma</string>
     <string name="pref_app_language_translate_title">Ajude a traduzir</string>
@@ -671,14 +683,19 @@
     <string name="pref_roaring_type_title">Tipo</string>
     <string name="pref_roaring_type_dialog_title">Tipo de ruído</string>
     <string name="pref_volume_summary_text">Campaínha:<xliff:g> %1$s</xliff:g>, Ruído:<xliff:g> %2$s
-\n</xliff:g>Contagens:<xliff:g> %3$s</xliff:g>, Efeitos:<xliff:g> %4$s</xliff:g>, Alarmes:<xliff:g> %5$s</xliff:g></string>
+\n</xliff:g>Contagens:<xliff:g> %3$s</xliff:g>, Efeitos:<xliff:g> %4$s</xliff:g>, Alarmes:<xliff:g> %5$s</xliff:g>
+    </string>
     <string name="pref_bg_color_title">Cor de fundo</string>
     <string name="pref_bg_color_summary">Escolha a cor desejada para a cor de fundo da aplicação</string>
     <string name="pref_fg_color_title">Cor do texto</string>
     <string name="pref_fg_color_summary">Escolha a cor desejada para o texto e icones</string>
-    <string name="pref_visualThemeAutoTitle"><xliff:g>\@string/pref_category_visualThemeAuto</xliff:g></string>
+    <string name="pref_visualThemeAutoTitle">
+        <xliff:g>\@string/pref_category_visualThemeAuto</xliff:g>
+    </string>
     <string name="pref_visualThemeAutoSummary">Aplica o tema claro ou escuro baseando-se na iluminação ambiente.</string>
-    <string name="pref_default_color_title"><xliff:g>\@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_default_color_title">
+        <xliff:g>\@string/pref_resetToDefault</xliff:g>
+    </string>
     <string name="pref_buttons_bg_look_title">Clarear botões</string>
     <string name="pref_buttons_bg_look_summary">Botões e campos completamente transparentes</string>
     <string name="pref_screen_keep_on_title">Manter o ecrã ligado</string>
@@ -721,24 +738,46 @@
     <string name="pref_roarConstantModeButton_summary">Alternar modo constante com um clique de botão enquanto o ruído está ligado</string>
     <string name="pref_fenceguard_title">Zona de Privacidade</string>
     <string name="pref_fenceguard_summary">Proteja a localização da sua casa, ou outros locais importantes de serem expostos nos percursos registados</string>
-    <string name="pref_gps_update_freq_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_summary"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_dialog_title"><xliff:g>\@string/pref_category_gps_boost_title</xliff:g></string>
-    <string name="pref_autopause_mode_title"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_gps_update_freq_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_gps_boost_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_gps_boost_summary">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_gps_boost_dialog_title">
+        <xliff:g>\@string/pref_category_gps_boost_title</xliff:g>
+    </string>
+    <string name="pref_autopause_mode_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="pref_autopause_mode_dialog_title">Pausa automática</string>
-    <string name="pref_wakelock_mode_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_wakelock_mode_dialog_title"><xliff:g>\@string/pref_category_wakelock_title</xliff:g></string>
-    <string name="pref_locationProviderMode_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_locationProviderMode_dialog_title"><xliff:g>\@string/pref_category_locationProvider_title</xliff:g></string>
+    <string name="pref_wakelock_mode_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_wakelock_mode_dialog_title">
+        <xliff:g>\@string/pref_category_wakelock_title</xliff:g>
+    </string>
+    <string name="pref_locationProviderMode_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_locationProviderMode_dialog_title">
+        <xliff:g>\@string/pref_category_locationProvider_title</xliff:g>
+    </string>
     <string name="pref_speedometer_limit_title">Indicador máx.</string>
     <string name="pref_speedometer_limit_dialog_title">Indicador de velocidade máx.</string>
     <string name="pref_speed_calculate_mode_title">Recalcular velocidade</string>
     <string name="pref_speed_calculate_mode_summary">(Todos os perfis) Recalcular a velocidade a partir das distâncias, não usa o valor do GPS diretamente. Isso pode fornecer leituras de velocidade mais estáveis sobre os valores de GPS (Doppler).</string>
-    <string name="pref_background_pattern_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_background_pattern_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="pref_background_pattern_dialog_title">Padrão de Fundo do Menu</string>
     <string name="pref_soundeffects_title">Ativo</string>
-    <string name="pref_soundeffects_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_soundeffects_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="pref_soundeffects_fence_enterleave_title">Proteção</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Som quando usar ou abandonar uma proteção</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
@@ -746,8 +785,12 @@
     <string name="pref_soundeffects_countdown_title">Contagem decrescente</string>
     <string name="pref_soundeffects_countdown_summary">Som na contagem decrescente antes de iniciar o registo do percurso (…3, 2, 1, INÍCIO!)</string>
     <string name="pref_soundeffects_tally_title">Ativo</string>
-    <string name="pref_soundeffects_tally_summary"><xliff:g>\@null</xliff:g></string>
-    <string name="pref_soundeffects_tally_value_summary">A cada <xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g></string>
+    <string name="pref_soundeffects_tally_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
+    <string name="pref_soundeffects_tally_value_summary">A cada <xliff:g>%1$s</xliff:g>
+        <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_soundeffects_tally_distance_title">Distância</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">Contagem de distância</string>
     <string name="pref_soundeffects_tally_duration_title">Duração</string>
@@ -757,7 +800,9 @@
     <string name="pref_soundeffects_tally_descent_title">Descida</string>
     <string name="pref_soundeffects_tally_descent_dialog_title">Contagem de descida</string>
     <string name="pref_soundeffects_alarm_title">Ativo</string>
-    <string name="pref_soundeffects_alarm_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_soundeffects_alarm_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Pausa esquecida</string>
     <string name="pref_soundeffects_alarm_gpsPause_summary">Alarme soará quando movimentos significativos são detectados enquanto o percurso está pausado</string>
     <string name="pref_facebook_disable_title">Desactivar Facebook</string>
@@ -774,21 +819,30 @@
     <string name="pref_maps_online_mode_dialog_title">Fonte de mapas</string>
     <string name="pref_maps_offline_file_title">Seleccionar ficheiro ou pasta</string>
     <string name="pref_maps_offline_file_dialog_title">Escolher pasta de mapas offline</string>
-    <string name="pref_maps_offline_file_summary">(Todos os perfis) <xliff:g>%1$s</xliff:g></string>
+    <string name="pref_maps_offline_file_summary">(Todos os perfis) <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="pref_maps_offline_file_noFolderSelected">Pasta não seleccionada.</string>
     <string name="pref_maps_offline_info_title">Descarregar agora</string>
-    <string name="pref_maps_offline_info_summary">Mapas Mapsforge vector (.map) e Rmaps raster (.sqlitedb) são suportados. Disponíveis em download.mapsforge.org</string>
+    <string name="pref_maps_offline_info_summary">Mapas Mapsforge vector (.map) e Rmaps raster (.sqlitedb) são suportados. Disponíveis em download.mapsforge.org
+\n
+\nUtilização: Selecione o ficheiro do mapa descarregado com a opção acima.</string>
     <string name="pref_maps_offline_warning_summary">Aviso: Alguns dados online podem ser recuperados mesmo em modo offline. Por favor desative a internet móvel antes de usar os mapas, se considerado.</string>
-    <string name="pref_maps_offline_resetToDefault_title"><xliff:g>\@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_maps_offline_resetToDefault_title">
+        <xliff:g>\@string/pref_resetToDefault</xliff:g>
+    </string>
     <string name="pref_maps_routes_draw_title">Guia de rotas</string>
     <string name="pref_maps_routes_draw_summary">As rotas GPX são mostradas sobre o mapa num traçado pontilhado</string>
     <string name="pref_maps_routes_info_title">Nota!</string>
     <string name="pref_maps_routes_info_summary">Não serão dados outros sinais visuais ou audíveis para facilitar a navegação na rota</string>
     <string name="pref_maps_routes_files_title">Seleccionar ficheiro ou pasta</string>
     <string name="pref_maps_routes_files_dialog_title">Escolher pasta de rotas ou ficheiro</string>
-    <string name="pref_maps_routes_files_summary"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_maps_routes_files_summary">
+        <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="pref_maps_routes_files_noFolderSelected">Não há pasta selecionada.</string>
-    <string name="pref_maps_routes_resetToDefault_title"><xliff:g>\@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_maps_routes_resetToDefault_title">
+        <xliff:g>\@string/pref_resetToDefault</xliff:g>
+    </string>
     <string name="pref_maps_quickZoom_title">Botões de Zoom Rápido</string>
     <string name="pref_maps_quickZoom_summary">(Todos os perfis) Ative os botões de zoom rápido invisíveis na parte inferior do mapa! Melhora sua orientação</string>
     <string name="pref_maps_quickZoomInvert_title">Invertido</string>
@@ -796,7 +850,9 @@
     <string name="pref_maps_offline_terrain_title">Apresentar terreno</string>
     <string name="pref_maps_offline_terrain_summary">(Todos os perfis) Apresentar sombras de elevação do terreno. O mapa parecerá mais realista, mas provavelmente mais lento. Requer arquivos DEM (.hgt) presentes na pasta do mapa.</string>
     <string name="pref_maps_offline_terrain_info_title">Descarregar agora</string>
-    <string name="pref_maps_offline_terrain_info_summary">Abrir a página de download em viewfinderpanoramas.org</string>
+    <string name="pref_maps_offline_terrain_info_summary">Abrir a página de download em viewfinderpanoramas.org
+\n
+\nUtilização: Extraia os ficheiros .hgt do(s) ZIP(s) descarregados(s) e coloque-os na mesma pasta onde reside o ficheiro de mapa off-line (não use uma subpasta separada).</string>
     <string name="pref_maps_offline_terrain_note_summary">Utilização: Extraia os arquivos .hgt do(s) zip(s) descarregado(s) e coloque-os na mesma pasta em que reside o arquivo de mapeamento offline (não use uma subpasta separada).</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Ação do botão de camada</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Todos os perfis) Escolher o que fazer quando o botão de camada for pressionado</string>
@@ -818,7 +874,7 @@
     <string name="pref_meter_enable_summary">Mostrar ou esconder este medidor</string>
     <string name="pref_meter_lock_title">Modo bloqueado</string>
     <string name="pref_meter_lock_summary">Previne a mudança de modo ao clicar</string>
-    <string name="pref_meter_modes_select_title">Escolha os modos disponíveis</string>
+    <string name="pref_meter_modes_select_title">Escolha os modos disponíveis…</string>
     <string name="pref_speedo_display_mode_title">Aparência</string>
     <string name="pref_speedo_display_mode_dialog_title">Aparência do velocímetro</string>
     <string name="pref_speedo_indicator_needle_title">Agulha</string>
@@ -827,13 +883,16 @@
     <string name="pref_powermeter_parameters_info_title">Nota!</string>
     <string name="pref_powermeter_parameters_info_summary">Para leituras mais precisas de Potência e Energia, por favor certifique-se de que esses parâmetros estão corretos!</string>
     <string name="pref_power_weights_title">Pesos</string>
-    <string name="pref_power_weights_summary">Condutor: <xliff:g>%1$s</xliff:g>, Veículo: <xliff:g>%2$s</xliff:g>, Carga: <xliff:g>%3$s</xliff:g>, Passageiros: <xliff:g>%4$s</xliff:g>, Rodas: <xliff:g>%5$s</xliff:g></string>
+    <string name="pref_power_weights_summary">Condutor: <xliff:g>%1$s</xliff:g>, Veículo: <xliff:g>%2$s</xliff:g>, Carga: <xliff:g>%3$s</xliff:g>, Passageiros: <xliff:g>%4$s</xliff:g>, Rodas: <xliff:g>%5$s</xliff:g>
+    </string>
     <string name="pref_power_coefs_title">Coeficientes</string>
     <string name="pref_power_coefs_summary">Área de arrasto: <xliff:g>%1$s
-\n</xliff:g>Resist. de Rolagem: <xliff:g>%2$s</xliff:g></string>
+\n</xliff:g>Resist. de Rolagem: <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_energy_params_title">Parâmetros de energia</string>
     <string name="pref_energy_params_summary">Eficiência Termodinâmica (η): <xliff:g>%1$s
-\n</xliff:g>Metabolismo: <xliff:g>%2$s</xliff:g></string>
+\n</xliff:g>Metabolismo: <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_svg_data_enable_title">Gerar gráficos</string>
     <string name="pref_svg_data_enable_summary">Gerar gráficos SVG e ficheiros de dados para vários parâmetros do passeio</string>
     <string name="pref_svg_data_modes_select_title">Escolher tipos de gráficos…</string>
@@ -848,10 +907,14 @@
     <string name="pref_paceIndicator_title">Indicador de ritmo</string>
     <string name="pref_paceIndicator_summary">Mostra quando vai mais rápido ou mais lento do que a velocidade média</string>
     <string name="pref_haptic_feedback_title">Vibrar ao tocar</string>
-    <string name="pref_haptic_feedback_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_haptic_feedback_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="pref_haptic_feedback_intensity_title">Intensidade de vibração</string>
     <string name="pref_soundsMasterSwitch_title">Todos os sons</string>
-    <string name="pref_soundsMasterSwitch_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_soundsMasterSwitch_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="prefBarometricAltitudeTitle">Altitude barométrica</string>
     <string name="prefBarometricAltitudeSummary">Usar o barómetro interno para alcançar mais precisão na altitude</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Termobarómetro</string>
@@ -875,7 +938,6 @@
     <string name="prefProhibitLocationSummary">Isto irá adquirir dados apenas de sensores sem fio (Potência, Velocidade, Cadência, Frequência Cardíaca) e não ligará o GPS</string>
     <string name="prefMapTrackColorTitle">Cor do Percurso</string>
     <string name="prefMapGuideRouteColorTitle">Cor da Guia de Rotas</string>
-
     <string name="infoMeterModeDistanceTitle">Distância</string>
     <string name="infoMeterModeDistanceMsg">Distância percorrida.</string>
     <string name="infoMeterModeDistanceOdoTitle">Odómetro</string>
@@ -897,17 +959,18 @@
     <string name="infoMeterModeAltitudeTitle">Altitude</string>
     <string name="infoMeterModeAltitudeMsg">Altura acima do nível médio do mar (Geóide) — Atual, Máximo e Mínimo.<xliff:g>
 \n
-\n</xliff:g>Por favor note: Isto pode ser atrasado em tempo real, devido a inevitáveis ​​atrasos na filtragem digital.</string>
+\n</xliff:g>Por favor note: Isto pode ser atrasado em tempo real, devido a inevitáveis atrasos na filtragem digital.</string>
     <string name="infoMeterModeSlopeTitle">Inclinação</string>
-    <string name="infoMeterModeSlopeMsg">Inclinação (gradiente), um número que descreve a inclinação do terreno, onde zero é horizontal. Um número mais alto significa subida mais acentuada e negativo é para descida.<xliff:g>
+    <string name="infoMeterModeSlopeMsg">Inclinação (gradiente), um número que descreve a inclinação do terreno, onde zero é horizontal. Um número mais alto significa subida mais acentuada e negativo é para descida.<xliff:g> 
 \n
-\n</xliff:g>Por favor note: Isto pode ser atrasado em tempo real em um minuto ou mais, devido a inevitáveis ​​atrasos de filtragem digital.</string>
+\n</xliff:g>Por favor note: Isto pode ser atrasado em tempo real em um minuto ou mais, devido a inevitáveis atrasos de filtragem digital.</string>
     <string name="infoMeterModeSpeedTitle">Velocidade</string>
     <string name="infoMeterModeSpeedMsg">Velocidade — Atual, Máxima e Média.</string>
     <string name="infoMeterModeVerticalSpeedTitle">Velocidade Vertical</string>
     <string name="infoMeterModeVerticalSpeedMsg">Velocidade na direção ascendente (Positiva) ou descendente (Negativa) — Atual, Máxima e Mínima.<xliff:g>
 \n
-\n</xliff:g>Por favor note: Isto pode ser atrasado em tempo real, devido a inevitáveis ​​atrasos de filtragem digital.</string>
+\n
+\n</xliff:g>Por favor note: Isto pode ser atrasado em tempo real, devido a inevitáveis atrasos de filtragem digital.</string>
     <string name="infoMeterModePaceTitle">Ritmo</string>
     <string name="infoMeterModePaceMsg">Velocidade Inversa — Atual, Máxima e Média.</string>
     <string name="infoMeterModeAccelerationTitle">Aceleração</string>
@@ -921,7 +984,7 @@
 \n
 \n</xliff:g>Quando em Kcal/h ou KJ/h, também tem em conta a Eficiência e a TMB.<xliff:g>
 \n
-\n</xliff:g>Por favor note: Isto pode ser atrasado em cerca de um minuto em tempo real, devido a inevitáveis ​​atrasos na filtragem digital.</string>
+\n</xliff:g>Por favor note: Isto pode ser atrasado em cerca de um minuto em tempo real, devido a inevitáveis atrasos na filtragem digital.</string>
     <string name="infoMeterModeAvgActivePowerTitle">Potência Ativa Média</string>
     <string name="infoMeterModeAvgActivePowerMsg">Potência Média exercida durante a atividade, sem contar os intervalos em que a Potência estava ausente ou muito baixa (em descida, travagem ou por inércia).<xliff:g>
 \n
@@ -930,10 +993,10 @@
     <string name="infoMeterModeVerticalPowerMsg">Perda ou ganho de Potência ao subir ou descer — Atual, Máximo e Mínimo.<xliff:g>
 \n
 \n</xliff:g>Negativo significa ganho de Potência (Descida).<xliff:g>
-\n
+\n 
 \n</xliff:g>Quando em Kcal/h ou KJ/h, também tem em conta a Eficiência.<xliff:g>
 \n
-\n</xliff:g>Por favor note: Isto pode ser atrasado em tempo real em um minuto ou mais, devido a inevitáveis ​​atrasos na filtragem digital.</string>
+\n</xliff:g>Por favor note: Isto pode ser atrasado em tempo real em um minuto ou mais, devido a inevitáveis atrasos na filtragem digital.</string>
     <string name="infoMeterModeTemperatureTitle">Temperatura</string>
     <string name="infoMeterModeTemperatureMsg">Temperatura ambiente medida com o dispositivo — Actual, Máxima e Mínima.</string>
     <string name="infoMeterModePressureTitle">Pressão Atmosférica</string>
@@ -946,10 +1009,8 @@
     <string name="infoMeterModeHeartRateMsg">Número de batimentos cardíacos por minuto.</string>
     <string name="infoMeterModeGearRatioTitle">Taxa da Transmissão</string>
     <string name="infoMeterModeGearRatioMsg">Relação entre a rotação das rodas e as rotações dos pedais por unidade de tempo, ou seja, relação entre os tamanhos das mudanças dianteiras e traseiras. Um número mais alto significa uma mudança mais alta.</string>
-
     <string name="infoAutopauseForcedRelaxed">Nota: Pausa automática forçada para Descanso.</string>
     <string name="infoAutopauseForcedOff">Pausa automática forçada para desligar</string>
-
     <string name="defaultProfileNameBike1">Bicicleta 1</string>
     <string name="defaultProfileNameBike2">Bicicleta 2</string>
     <string name="defaultProfileNameWalk">Caminhada</string>
@@ -958,35 +1019,60 @@
     <string name="defaultProfileNamePlane">Avião</string>
     <string name="defaultProfileNameIndoor">Indoor</string>
     <string name="defaultProfileNameOther">Outro</string>
-
-
-	<string name="svgCopyright">Criado com Urban Biker</string>
-
-
-	<string name="fbStoryLiveText">Em progressão!</string>
+    <string name="svgCopyright">Criado com Urban Biker</string>
+    <string name="fbStoryLiveText">Em progressão!</string>
     <string name="fbCourseTitle">Potenciado por Urban Biker</string>
-	<string name="fbTemperatureMin">Temp. Min.</string>
-	<string name="fbTemperatureMax">Temp. Máx.</string>
+    <string name="fbTemperatureMin">Temp. Min.</string>
+    <string name="fbTemperatureMax">Temp. Máx.</string>
     <string name="trackUploadDescriptionDefault">Esta atividade foi registada usando a aplicação de telemóvel Urban Biker</string>
-
-	<string name="menuLicense">Comprar licença</string>
-
+    <string name="menuLicense">Comprar licença</string>
     <string name="dialogLicenseBuyTitle">Gosta desta Aplicação\?</string>
     <string name="dialogLicenseBuyYesButton">Adquira!</string>
     <string name="dialogLicenseBuyNoButton">Agora não</string>
-
     <string name="dialogReviewNudgeTitle">Gosta desta Aplicação\?</string>
-    <string name="dialogReviewNudgeMessage">Por favor, escreva um bom comentário ou classifique-a com 5 estrelas na Play Store.</string>
-
+    <string name="dialogReviewNudgeMessage">Está a gostar de Urban Biker\?</string>
     <string name="licenseItemAlreadyOwned">Já possui item de licença</string>
-
     <string name="timePeriod_perWeek">/Semana</string>
     <string name="timePeriod_perMonth">/Mês</string>
     <string name="timePeriod_per3Months">/3 Meses</string>
     <string name="timePeriod_per6Months">/6 Meses</string>
     <string name="timePeriod_perYear">/Ano</string>
-
     <string name="generalError">Ocorreu algum erro. Por favor tente novamente.</string>
     <string name="openSourceLicensesTitle">Licenças de código aberto</string>
-
+    <string name="ultimateLicenseTitleYearly">Licença Ultimate (Anual)</string>
+    <string name="toastMapClickInfo">Toque longo para as definições do mapa</string>
+    <string name="dialog_volume_title">\@null</string>
+    <string name="pref_app_language_title">\@null</string>
+    <string name="pref_back_key_mode_title">\@null</string>
+    <string name="pref_units_summary">\@null</string>
+    <string name="pref_hud_axis_summary">\@null</string>
+    <string name="pref_bell_mode_summary">\@null</string>
+    <string name="pref_bell_automatic_sensitivity_summary">\@null</string>
+    <string name="pref_bell_shake_sensitivity_summary">\@null</string>
+    <string name="pref_roaring_type_summary">\@null</string>
+    <string name="pref_volume_title">\@null</string>
+    <string name="pref_volume_summary">\@null</string>
+    <string name="pref_default_color_summary">\@null</string>
+    <string name="pref_roaring_mode_summary">\@null</string>
+    <string name="pref_gps_update_freq_summary">\@null</string>
+    <string name="pref_autopause_mode_summary">\@null</string>
+    <string name="pref_wakelock_mode_summary">\@null</string>
+    <string name="pref_locationProviderMode_summary">\@null</string>
+    <string name="pref_background_pattern_title">\@null</string>
+    <string name="pref_facebook_disable_summary">\@null</string>
+    <string name="pref_ads_mode_summary">\@null</string>
+    <string name="pref_maps_disable_summary">\@null</string>
+    <string name="pref_maps_online_mode_title">\@null</string>
+    <string name="pref_speedo_display_mode_summary">\@null</string>
+    <string name="pref_powermeter_display_mode_title">\@null</string>
+    <string name="pref_powermeter_display_mode_summary">\@null</string>
+    <string name="pref_flashlightBlinkMode_summary">\@null</string>
+    <string name="pref_haptic_feedback_intensity_summary">\@null</string>
+    <string name="dialogAppOptimizedPromptTitle">Otimização da bateria</string>
+    <string name="dialogAppOptimizedPromptMessage">Urban Biker deve estar isento de otimizações de bateria, caso contrário, pode não funcionar corretamente.
+\n
+\nAbrir as Definições agora\?</string>
+    <string name="batteryOptimizationToast">Selecione Urban Biker na lista</string>
+    <string name="dialogReviewNudgeMessage2">Obrigado! Por favor, escreva um bom comentário ou avalie-nos com 5 estrelas na Play Store.</string>
+    <string name="dialogButtonRateOnPlayStore">Avaliar na Play Store</string>
 </resources>
