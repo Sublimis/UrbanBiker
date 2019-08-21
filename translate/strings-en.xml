@@ -12,7 +12,7 @@
     <string name="widget_2_description">Biker: Bell + Flashlight</string>
     <string name="widget_3_description">Biker: Complete</string>
 
-    <string name="copyright_part1">
+    <string name="copyright_part1" translatable="false">
         &lt;b&gt;v%1$s&lt;/b&gt; (%2$s)
     </string>
 
@@ -150,7 +150,7 @@
     <string name="toastCancelled">Canceled</string>
 
     <string name="notificationTitle" translatable="false">@string/app_name</string>
-    <string name="notificationTitleAdvanced">%1$s</string>
+    <string name="notificationTitleAdvanced" translatable="false">%1$s</string>
     <string name="notificationTitleAdvancedPaused">Paused: %1$s</string>
 
     <string name="licenseSuccessDialogTitle" translatable="false">@string/app_name</string>
@@ -279,7 +279,7 @@
     <string name="dialogSvgDistanceTitle" translatable="false">@string/infoMeterModeDistanceTitle</string>
     <string name="dialogSvgDurationTitle" translatable="false">@string/infoMeterModeDurationTitle</string>
     <string name="dialogGpsIntervalTitle">GPS update interval</string>
-    <string name="dialogGpsIntervalValue">%1$s</string>
+    <string name="dialogGpsIntervalValue" translatable="false">%1$s</string>
     <string name="dialogGpsIntervalNote">Note: Keep this value below 3 sec to get the most accurate readings and the most consistent behaviour!</string>
     <string name="dialogGpsIntervalLabelMore">◀\nMore accuracy, uses more battery</string>
     <string name="dialogGpsIntervalLabelLess">▶\nLess accuracy, uses less battery</string>
@@ -368,7 +368,7 @@
     <string name="unitDegree">°</string>
     <string name="unitMegabyte">MB</string>
 
-    <string name="durationHrMin">%1$d:%2$02d</string>
+    <string name="durationHrMin" translatable="false">%1$d:%2$02d</string>
 
     <string name="valueTimesCount">×</string>
 
@@ -442,7 +442,7 @@
     <string name="profilesListTitle">Profiles</string>
     <string name="profilesListTitleSelectProfile">Switch Profile</string>
     <string name="profilesListAddProfile">New profile</string>
-    <string name="profilesListRowLastActivity">%1$s</string>
+    <string name="profilesListRowLastActivity" translatable="false">%1$s</string>
     <string name="profilesListRowTotalsSince">Totals since: %1$s</string>
     <string name="profilesListButtonResetTotals">Reset totals</string>
     <string name="profilesListProfileNotUsed">(unused)</string>
@@ -722,18 +722,18 @@
     <string name="pref_roarConstantModeButton_summary">Toggle constant mode with a button click while the roar is turned on</string>
     <string name="pref_fenceguard_title">FenceGuard</string>
     <string name="pref_fenceguard_summary">Protect the location of your home, or other important places from being exposed in recorded tracks</string>
-    <string name="pref_gps_update_freq_title">%1$s</string>
+    <string name="pref_gps_update_freq_title" translatable="false">%1$s</string>
     <string name="pref_gps_update_freq_summary" translatable="false">@null</string>
-    <string name="pref_gps_boost_title">%1$s</string>
-    <string name="pref_gps_boost_summary">%1$s</string>
+    <string name="pref_gps_boost_title" translatable="false">%1$s</string>
+    <string name="pref_gps_boost_summary" translatable="false">%1$s</string>
     <string name="pref_gps_boost_dialog_title" translatable="false">@string/pref_category_gps_boost_title</string>
-    <string name="pref_autopause_mode_title">%1$s</string>
+    <string name="pref_autopause_mode_title" translatable="false">%1$s</string>
     <string name="pref_autopause_mode_summary" translatable="false">@null</string>
     <string name="pref_autopause_mode_dialog_title">Auto pausing</string>
-    <string name="pref_wakelock_mode_title">%1$s</string>
+    <string name="pref_wakelock_mode_title" translatable="false">%1$s</string>
     <string name="pref_wakelock_mode_summary" translatable="false">@null</string>
     <string name="pref_wakelock_mode_dialog_title" translatable="false">@string/pref_category_wakelock_title</string>
-    <string name="pref_locationProviderMode_title">%1$s</string>
+    <string name="pref_locationProviderMode_title" translatable="false">%1$s</string>
     <string name="pref_locationProviderMode_summary" translatable="false">@null</string>
     <string name="pref_locationProviderMode_dialog_title" translatable="false">@string/pref_category_locationProvider_title</string>
     <string name="pref_speedometer_limit_title">Indicator max</string>
@@ -796,7 +796,7 @@
     <string name="pref_maps_routes_info_summary">No other visual or audible cues will be given to facilitate the route navigation</string>
     <string name="pref_maps_routes_files_title">Select file or folder</string>
     <string name="pref_maps_routes_files_dialog_title">Choose routes folder or file</string>
-    <string name="pref_maps_routes_files_summary">%1$s</string>
+    <string name="pref_maps_routes_files_summary" translatable="false">%1$s</string>
     <string name="pref_maps_routes_files_noFolderSelected">No folder selected.</string>
     <string name="pref_maps_routes_resetToDefault_title" translatable="false">@string/pref_resetToDefault</string>
     <string name="pref_maps_quickZoom_title">QuickZoom buttons</string>
