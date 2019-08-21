@@ -6,7 +6,8 @@
     <string name="widget_1_description">Biker: Zvonce</string>
     <string name="widget_2_description">Biker: Zvonce + Svjetiljka</string>
     <string name="widget_3_description">Biker: Cjelovito</string>
-    <string name="copyright_part1">&lt;xliff:g&gt;<b>v%1$s</b> (%2$s)&lt;/xliff:g&gt;</string>
+    <string name="copyright_part1">
+        <b>v%1$s</b> (%2$s)</string>
     <string name="proLicenseLabel">Pro</string>
     <string name="proPlusLicenseLabel">Pro+</string>
     <string name="ultimateLicenseLabel">Ultimate</string>
@@ -71,7 +72,7 @@
     <string name="featureNotAvailable">Žao nam je, značajka nije dostupna na ovom uređaju</string>
     <string name="farFromHere">Daleko odavde</string>
     <string name="toastRestartRequired">Ponovno pokrenite aplikaciju za primjenu</string>
-    <string name="toastActiveProfile">Profil: <xliff:g>%1$s</xliff:g>
+    <string name="toastActiveProfile">Profil: %1$s<xliff:g>%1$s</xliff:g>
     </string>
     <string name="toastProfileSavingError">Greška pri spremanju podataka profila! Molim pokušajte ponovno.</string>
     <string name="toastProfileChangeError">Neuspješno prebacivanje profila! Molim pokušajte ponovno.</string>
@@ -87,11 +88,11 @@
     <string name="toastTrackingRecordingPassive">Pasivno snimanje</string>
     <string name="toastTrackingPaused">Pauzirano</string>
     <string name="toastTrackingStopped">Zaustavljeno</string>
-    <string name="toastFenceGuardFenceAdded">ČuvarOgrade: Ograda <xliff:g>%1$s</xliff:g> dodana</string>
+    <string name="toastFenceGuardFenceAdded">ČuvarOgrade: Ograda %1$s dodana<xliff:g>%1$s</xliff:g> dodana</string>
     <string name="toastFenceGuardFenceAddingError">ČuvarOgrade: Greška pri dodavanju ograde</string>
-    <string name="toastFenceGuardFenceUpdated">ČuvarOgrade: Ograda <xliff:g>%1$s</xliff:g> ažurirana</string>
+    <string name="toastFenceGuardFenceUpdated">ČuvarOgrade: Ograda %1$s ažurirana<xliff:g>%1$s</xliff:g> ažurirana</string>
     <string name="toastFenceGuardFenceUpdatingError">ČuvarOgrade: Greška pri ažuriranju ograde</string>
-    <string name="toastFenceGuardFenceRemoved">ČuvarOgrade: Ograda <xliff:g>%1$s</xliff:g> uklonjena</string>
+    <string name="toastFenceGuardFenceRemoved">ČuvarOgrade: Ograda %1$s uklonjena<xliff:g>%1$s</xliff:g> uklonjena</string>
     <string name="toastFenceGuardFenceRemovingError">ČuvarOgrade: Greška pri uklanjanju ograde</string>
     <string name="toastFenceGuardOutsideTheFence">ČuvarOgrade: Trenutno niste unutar ograde</string>
     <string name="toastFenceGuardLocationUnavailable">ČuvarOgrade: Vaša lokacija još nije dostupna</string>
@@ -130,10 +131,9 @@
     <string name="notificationTitle">
         <xliff:g>\@string/app_name</xliff:g>
     </string>
-    <string name="notificationTitleAdvanced">
-        <xliff:g>%1$s</xliff:g>
+    <string name="notificationTitleAdvanced">%1$s<xliff:g>%1$s</xliff:g>
     </string>
-    <string name="notificationTitleAdvancedPaused">Pauzirano: <xliff:g>%1$s</xliff:g>
+    <string name="notificationTitleAdvancedPaused">Pauzirano: %1$s<xliff:g>%1$s</xliff:g>
     </string>
     <string name="licenseSuccessDialogTitle">
         <xliff:g>\@string/app_name</xliff:g>
@@ -165,8 +165,12 @@
     <string name="dialog_fenceguard_update_text2">Ograda podignuta oko vaše lokacije štiti je od objavljivanja u snimljenim stazama.</string>
     <string name="dialog_fenceguard_remove_title">Ukloni ogradu</string>
     <string name="dialog_fenceguard_remove_defaultText">Jeste li sigurni da želite ukloniti ogradu\?</string>
-    <string name="dialog_fenceguard_remove_formatText">Jeste li sigurni da želite ukloniti ogradu <xliff:g>%1$s</xliff:g>\?</string>
-    <string name="dialog_track_save_text">Udaljenost <xliff:g>%1$.3f %2$s
+    <string name="dialog_fenceguard_remove_formatText">Jeste li sigurni da želite ukloniti ogradu %1$s\?<xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialog_track_save_text">Udaljenost %1$.3f %2$s 
+\nTrajanje %3$s
+\n(%4$s) 
+\n 
+\nStaza se čini kratkom. Pohraniti\?<xliff:g>%1$.3f %2$s
 \n</xliff:g>Trajanje <xliff:g>%3$s
 \n</xliff:g>
         <xliff:g>(%4$s)
@@ -177,27 +181,27 @@
     </string>
     <string name="dialog_exit_msg">Upozorenje: Praćenje je aktivno, i biti će zaustavljeno.</string>
     <string name="dialogProfileDeleteTitle">Brisanje profila</string>
-    <string name="dialogProfileDeleteMessage">Upozorenje: Ovo će ukloniti postavke profila i iznose ukupnih suma. Pohranjene staze ostaju nedirnute.
-\n
-\nObrisati profil <xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialogProfileDeleteMessage">Upozorenje: Ovo će ukloniti postavke profila i iznose ukupnih suma. Pohranjene staze ostaju nedirnute. 
+\n 
+\nObrisati profil %1$s\?<xliff:g>%1$s</xliff:g>\?</string>
     <string name="dialogProfileAddTitle">Novi profil</string>
     <string name="dialogProfileAddInfo">Postavke novog profila biti će preuzete od trenutno aktivnog profila</string>
     <string name="dialogProfileEditTitle">Izmjena profila</string>
     <string name="dialogProfileEditTotals">Ukupne sume:</string>
     <string name="dialogProfileTotalsResetMessage">Resetirati ukupne sume profila na nulu\?</string>
     <string name="dialogProfileSwitchTitle">Prebaci profil</string>
-    <string name="dialogProfileSwitchMessage">Praćenje je aktivno. Jeste li sigurni da želite prebaciti na profil <xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialogProfileSwitchMessage">Praćenje je aktivno. Jeste li sigurni da želite prebaciti na profil %1$s\?<xliff:g>%1$s</xliff:g>\?</string>
     <string name="dialogTracksDeleteTitle">Briši staze</string>
     <string name="dialogTracksDeleteMessage">Upozorenje: Ova akcija ne može se poništiti.
 \n
 \nObrisati odabrane staze\?</string>
-    <string name="dialogTrackDeleteMessage">Upozorenje: Ova akcija ne može se poništiti.
-\n
-\nObrisati stazu <xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialogTrackDeleteMessage">Upozorenje: Ova akcija ne može se poništiti. 
+\n 
+\nObrisati stazu %1$s\?<xliff:g>%1$s</xliff:g>\?</string>
     <string name="dialogTrackResumeTitle">Nastavi stazu</string>
     <string name="dialogTrackResumeGpsActiveMessage">Praćenje je aktivno. Molimo prvo ugasite ili pauzirajte GPS.</string>
-    <string name="dialogTrackResumeProfileNotBlankMessage">Ciljni profil <xliff:g>%1$s</xliff:g> nije prazan. Molimo prvo resetirajte.</string>
-    <string name="dialogTrackResumeProfileSwitchMessage">Aktivni profil će biti prebačen s <xliff:g>%1$s</xliff:g> na <xliff:g>%2$s</xliff:g>. Nastaviti\?</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">Ciljni profil %1$s nije prazan. Molimo prvo resetirajte.<xliff:g>%1$s</xliff:g> nije prazan. Molimo prvo resetirajte.</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">Aktivni profil će biti prebačen s %1$s na %2$s. Nastaviti\?<xliff:g>%1$s</xliff:g> na <xliff:g>%2$s</xliff:g>. Nastaviti\?</string>
     <string name="dialogTrackResumeProfileMissingMessage">Profil <xliff:g>%1$s</xliff:g> kojim je kreirana ova staza više ne postoji. Nastaviti u trenutnom profilu <xliff:g>%2$s</xliff:g>\?</string>
     <string name="dialogTrackResumeGeneralPromptMessage">Staza će biti nastavljena u profilu <xliff:g>%1$s</xliff:g>. Nastaviti\?</string>
     <string name="dialogTrackResumeGeneralErrorMessage">Došlo je do pogreške. Molim pokušajte ponovo.</string>
@@ -303,15 +307,14 @@
         <xliff:g>\@string/infoMeterModeDurationTitle</xliff:g>
     </string>
     <string name="dialogGpsIntervalTitle">GPS interval ažuriranja</string>
-    <string name="dialogGpsIntervalValue">
-        <xliff:g>%1$s</xliff:g>
+    <string name="dialogGpsIntervalValue">%1$s<xliff:g>%1$s</xliff:g>
     </string>
     <string name="dialogGpsIntervalNote">Molimo držite ovu vrijednost ispod 3 sek kako biste dobili točna mjerenja i dosljedno ponašanje!</string>
-    <string name="dialogGpsIntervalLabelMore">
-        <xliff:g>◀
+    <string name="dialogGpsIntervalLabelMore">◀ 
+\nVeća točnost, troši više baterije<xliff:g>◀
 \n</xliff:g>Veća točnost, troši više baterije</string>
-    <string name="dialogGpsIntervalLabelLess">
-        <xliff:g>▶
+    <string name="dialogGpsIntervalLabelLess">▶ 
+\nManja točnost, troši manje baterije<xliff:g>▶
 \n</xliff:g>Manja točnost, troši manje baterije</string>
     <string name="dialogHapticIntensityTitle">
         <xliff:g>\@string/pref_haptic_feedback_intensity_title</xliff:g>
@@ -389,8 +392,7 @@
     <string name="unitMilliseconds">ms</string>
     <string name="unitDegree">°</string>
     <string name="unitMegabyte">MB</string>
-    <string name="durationHrMin">
-        <xliff:g>%1$d:%2$02d</xliff:g>
+    <string name="durationHrMin">%1$d:%2$02d<xliff:g>%1$d:%2$02d</xliff:g>
     </string>
     <string name="valueTimesCount">×</string>
     <string name="meterGPS">GPS</string>
@@ -461,8 +463,7 @@
     <string name="profilesListTitle">Profili</string>
     <string name="profilesListTitleSelectProfile">Prebaci profil</string>
     <string name="profilesListAddProfile">Novi profil</string>
-    <string name="profilesListRowLastActivity">
-        <xliff:g>%1$s</xliff:g>
+    <string name="profilesListRowLastActivity">%1$s<xliff:g>%1$s</xliff:g>
     </string>
     <string name="profilesListRowTotalsSince">Ukupno od: <xliff:g>%1$s</xliff:g>
     </string>
@@ -474,11 +475,11 @@
 \n
 \n</xliff:g>Nikada nećemo objavljivati bez vašeg dopuštenja.</string>
     <string name="accountDisconnect">Odspoji</string>
-    <string name="googleFitConnectButton">Poveži sa <xliff:g>Google Fit</xliff:g>
+    <string name="googleFitConnectButton">Poveži sa Google Fit<xliff:g>Google Fit</xliff:g>
     </string>
     <string name="stravaTrackPrivacyInfo">Staza će naslijediti zadanu privatnost koju ste postavili na <xliff:g>Strava</xliff:g>
     </string>
-    <string name="facebookConnectButton">Poveži sa <xliff:g>Facebook</xliff:g>
+    <string name="facebookConnectButton">Poveži sa Facebook<xliff:g>Facebook</xliff:g>
     </string>
     <string name="tracksHistoryListTitle">Povijest staza</string>
     <string name="tracksHistoryListTitleSelect">Odabir</string>
@@ -734,8 +735,7 @@
     <string name="pref_roarConstantModeButton_summary">Odaberi postojani način pritiskom na gumb dok je huka upaljena</string>
     <string name="pref_fenceguard_title">ČuvarOgrade</string>
     <string name="pref_fenceguard_summary">Zaštitite lokaciju vašeg doma ili drugih važnih mjesta od objavljivanja u snimljenim stazama</string>
-    <string name="pref_gps_update_freq_title">
-        <xliff:g>%1$s</xliff:g>
+    <string name="pref_gps_update_freq_title">%1$s<xliff:g>%1$s</xliff:g>
     </string>
     <string name="pref_gps_boost_title">
         <xliff:g>%1$s</xliff:g>
