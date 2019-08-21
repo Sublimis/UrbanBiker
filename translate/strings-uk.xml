@@ -1,38 +1,27 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="locale">uk</string>
-
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="locale">uk</string>
     <string name="app_name">Urban Biker</string>
-
     <string name="app_description">Відслідковуйте та вимірюйте ваші подорожі з високою точністю. Підвищіть ваш рівень безпеки та продуктивності на велосипеді.</string>
-
     <string name="widget_1_description">Велосипедист: Велодзвінок</string>
     <string name="widget_2_description">Велосипедист: Дзвінок + Ліхтар</string>
     <string name="widget_3_description">Велосипедист: Готово</string>
-
     <string name="copyright_part1">&lt;xliff:g&gt;<b>v%1$s</b> (%2$s)&lt;/xliff:g&gt;</string>
-
     <string name="proLicenseLabel">Pro</string>
     <string name="proPlusLicenseLabel">Pro+</string>
     <string name="ultimateLicenseLabel">Ліцензія Ultimate</string>
-
     <string name="proLicenseTitle">Ліцензія Pro</string>
     <string name="proLicenseDescription">Вимкнути рекламу</string>
-
     <string name="proPlusLicenseTitle">Ліцензія Pro Plus</string>
     <string name="proPlusLicenseDescription">Вимкнути рекламу та підключити всі можливості, які можуть з\'явитися в майбутньому (крім підписок)</string>
-
     <string name="ultimateLicenseTitle">Ліцензія Ultimate</string>
     <string name="ultimateLicenseDescriptionMonthly">Всі можливості та карти увімкнено (помісячна підписка)</string>
     <string name="ultimateLicenseDescriptionYearly">Всі можливості та карти увімкнено (річна підписка)</string>
-
-
     <string name="ok">ОК</string>
     <string name="yes">Так</string>
     <string name="no">Ні</string>
     <string name="cancel">Скасувати</string>
     <string name="buttonUnderstand">Я зрозумів</string>
-
     <string name="buttonResumeTrack">Продовжити</string>
     <string name="menuControlPanel">Панель керування</string>
     <string name="menuSettings">Налаштування</string>
@@ -66,24 +55,21 @@
     <string name="menuCenterOnMap">Центрувати</string>
     <string name="menuClose">Закрити</string>
     <string name="menuInfo">Інформація</string>
-    <string name="menuFeedback">Послати відгук</string>
     <string name="menuRateAndComment">Оцінити і прокоментувати</string>
     <string name="menuRefresh">Оновити</string>
     <string name="menuSwitchProfile">Перемкнути</string>
-
     <string name="share_title">Відправити через</string>
-    <string name="share_subject"><xliff:g>\@string/app_name</xliff:g></string>
-
+    <string name="share_subject">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
     <string name="pick_a_color">Вибрати колір</string>
-
     <string name="fence_name_default">Моє місце</string>
     <string name="profileNameDefault">Новий профіль</string>
-
     <string name="featureNotAvailable">На жаль, ця функція не підтримується цим пристроєм</string>
     <string name="farFromHere">Далеко звідси</string>
-
     <string name="toastRestartRequired">Будь ласка, перезавантажте додаток, щоб зміни вступили в силу</string>
-    <string name="toastActiveProfile">Профіль: <xliff:g>%1$s</xliff:g></string>
+    <string name="toastActiveProfile">Профіль: <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="toastProfileSavingError">Помилка при збережені інформації ! Спробуйте ще раз.</string>
     <string name="toastProfileChangeError">Не вдалося змінити профіль! Спробуйте ще раз.</string>
     <string name="toastGpsEnabled">GPS увімкнено</string>
@@ -131,16 +117,20 @@
     <string name="toastSensorEnabled">Сенсор увімкнено</string>
     <string name="toastSensorDisabled">Сенсор вимкнено</string>
     <string name="toastAutoThemeActivated">Вибрано автоматичну тему</string>
-    <string name="notificationTitle"><xliff:g>\@string/app_name</xliff:g></string>
-    <string name="notificationTitleAdvanced"><xliff:g>%1$s</xliff:g></string>
-    <string name="notificationTitleAdvancedPaused">Призупинено: <xliff:g>%1$s</xliff:g></string>
-
-    <string name="licenseSuccessDialogTitle"><xliff:g>\@string/app_name</xliff:g></string>
+    <string name="notificationTitle">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
+    <string name="notificationTitleAdvanced">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="notificationTitleAdvancedPaused">Призупинено: <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="licenseSuccessDialogTitle">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
     <string name="licenseSuccessDialogMessage">Ліцензію успішно активовано. Дякуємо за підтримку!</string>
-
     <string name="ongoingNotificationChannelName">Поточні повідомлення</string>
     <string name="ongoingNotificationChannelDescription">Забезпечує легкий доступ до застосунку і керування ним</string>
-
     <string name="dialog_default_color_light_title">Світла тема кольорів</string>
     <string name="dialog_default_color_dark_title">Темна тема кольорів</string>
     <string name="dialog_default_color_text">Буде завантажено стандартну схему кольорів. Продовжити\?</string>
@@ -153,7 +143,9 @@
     <string name="dialog_volume_message">Використовуйте кнопки регулювання звуку на вашому пристрої для підлаштування загальної гучності.</string>
     <string name="dialog_bell_automatic_sensitivity_title">Автоматична чутливість дзвінка</string>
     <string name="dialog_bell_shake_sensitivity_title">Чутливість до струшування</string>
-    <string name="dialog_fenceguard_title"><xliff:g>\@string/menuFenceguard</xliff:g></string>
+    <string name="dialog_fenceguard_title">
+        <xliff:g>\@string/menuFenceguard</xliff:g>
+    </string>
     <string name="dialog_fenceguard_add_title">Додати приватну зону</string>
     <string name="dialog_fenceguard_add_text">Назвіть нову приватну зону:</string>
     <string name="dialog_fenceguard_add_text2">Приватну зону буде активовано навколо вашої теперішньої позиції, щоб вона не потрапила у записані треки.</string>
@@ -165,10 +157,13 @@
     <string name="dialog_fenceguard_remove_formatText">Ви дійсно хочете вилучити приватну зону <xliff:g>%1$s</xliff:g>\?</string>
     <string name="dialog_track_save_text">Відстань <xliff:g>%1$.3f %2$s
 \n</xliff:g>Тривалість <xliff:g>%3$s
-\n</xliff:g><xliff:g>(%4$s)
+\n</xliff:g>
+        <xliff:g>(%4$s)
 \n
 \n</xliff:g>Трек щось короткуватий. Зберегти\?</string>
-    <string name="dialog_exit_title"><xliff:g>\@string/app_name</xliff:g></string>
+    <string name="dialog_exit_title">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
     <string name="dialog_exit_msg">Увага: запис треку увімкнутий, і зараз буде припинений</string>
     <string name="dialogProfileDeleteTitle">Вилучити профіль</string>
     <string name="dialogProfileDeleteMessage">Увага: Ця дія вилучить всі дані профілю та статистику. Збережені треки все ж буде збережено.
@@ -228,13 +223,27 @@
     <string name="dialogMapsAutoRotate">Автоматичне обертання</string>
     <string name="dialogMapsRenderTerrain">Підсвічувати рельєф</string>
     <string name="dialogMapsTrackColor">Відтінок трека:</string>
-    <string name="dialogMapsTrackColorAltitude"><xliff:g>\@string/infoMeterModeAltitudeTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorSpeed"><xliff:g>\@string/infoMeterModeSpeedTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorDuration"><xliff:g>\@string/infoMeterModeDurationTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorElapsed"><xliff:g>\@string/summaryTotalTime</xliff:g></string>
-    <string name="dialogMapsTrackColorHeartRate"><xliff:g>\@string/infoMeterModeHeartRateTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorCadence"><xliff:g>\@string/infoMeterModeCadenceTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorTemperature"><xliff:g>\@string/infoMeterModeTemperatureTitle</xliff:g></string>
+    <string name="dialogMapsTrackColorAltitude">
+        <xliff:g>\@string/infoMeterModeAltitudeTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorSpeed">
+        <xliff:g>\@string/infoMeterModeSpeedTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorDuration">
+        <xliff:g>\@string/infoMeterModeDurationTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorElapsed">
+        <xliff:g>\@string/summaryTotalTime</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorHeartRate">
+        <xliff:g>\@string/infoMeterModeHeartRateTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorCadence">
+        <xliff:g>\@string/infoMeterModeCadenceTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorTemperature">
+        <xliff:g>\@string/infoMeterModeTemperatureTitle</xliff:g>
+    </string>
     <string name="dialogFencesAdd">Додати приватну зону тут</string>
     <string name="dialogFencesUpdate">Оновити положення приватної зони</string>
     <string name="dialogFencesEdit">Змінити приватну зону</string>
@@ -258,12 +267,20 @@
     <string name="dialogMapsDownloadText">Відкрити сторінку із завантаженнями\?</string>
     <string name="dialogMapsTerrainDownloadTitle">Завантажування рельєфу</string>
     <string name="dialogSvgTitle">SVG малюнок</string>
-    <string name="dialogSvgDistanceTitle"><xliff:g>\@string/infoMeterModeDistanceTitle</xliff:g></string>
-    <string name="dialogSvgDurationTitle"><xliff:g>\@string/infoMeterModeDurationTitle</xliff:g></string>
+    <string name="dialogSvgDistanceTitle">
+        <xliff:g>\@string/infoMeterModeDistanceTitle</xliff:g>
+    </string>
+    <string name="dialogSvgDurationTitle">
+        <xliff:g>\@string/infoMeterModeDurationTitle</xliff:g>
+    </string>
     <string name="dialogGpsIntervalTitle">Частота оновлення GPS</string>
-    <string name="dialogGpsIntervalValue"><xliff:g>%1$s</xliff:g></string>
+    <string name="dialogGpsIntervalValue">
+        <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="dialogGpsIntervalNote">Увага: Тримайте це значення меншим, ніж 3 секунди, щоб мати найточніші записи і передбачувану поведінку!</string>
-    <string name="dialogHapticIntensityTitle"><xliff:g>\@string/pref_haptic_feedback_intensity_title</xliff:g></string>
+    <string name="dialogHapticIntensityTitle">
+        <xliff:g>\@string/pref_haptic_feedback_intensity_title</xliff:g>
+    </string>
     <string name="dialogLocationPermissionRequestTitle">Доступ до геоданих</string>
     <string name="dialogLocationPermissionRequest">Програма потребує доступу до геоданих щоб відслідковувати ваші переміщення.</string>
     <string name="dialogStoragePermissionRequestTitle">Доступ до сховища даних</string>
@@ -275,12 +292,10 @@
     <string name="dialogPermissionProblemMessage">Право доступу до цього ресурсу необхідне для правильної роботи програми. Його можна надати на сторінці налаштувань доступів.<xliff:g>
 \n
 \n</xliff:g>Перейти туди\?</string>
-
-	<string name="mapLayerStreet">Вулиці</string>
+    <string name="mapLayerStreet">Вулиці</string>
     <string name="mapLayerTerrain">Рельєф</string>
     <string name="mapLayerSatellite">Супутник</string>
-
-	<string name="unitKm">км</string>
+    <string name="unitKm">км</string>
     <string name="unitKmh">км/год</string>
     <string name="unitMiles">миль</string>
     <string name="unitMph">миль/год</string>
@@ -331,11 +346,10 @@
     <string name="unitMilliseconds">мс</string>
     <string name="unitDegree">°</string>
     <string name="unitMegabyte">MB</string>
-
-    <string name="durationHrMin"><xliff:g>%1$d:%2$02d</xliff:g></string>
-
+    <string name="durationHrMin">
+        <xliff:g>%1$d:%2$02d</xliff:g>
+    </string>
     <string name="valueTimesCount">×</string>
-
     <string name="meterGPS">GPS</string>
     <string name="meterModeSpeed">швидкість</string>
     <string name="meterModeSpeedShort">шв</string>
@@ -393,7 +407,6 @@
     <string name="meterTextMax">макс</string>
     <string name="meterTextAvg">сер</string>
     <string name="meterTextTotal">всього</string>
-
     <string name="controlPanelSoundAutoBell">Автоматичний дзвінок</string>
     <string name="controlPanelSoundRoar">Крякалка</string>
     <string name="controlPanelSoundEffects">Ефекти</string>
@@ -401,16 +414,17 @@
     <string name="controlPanelSoundTallies">Підказки</string>
     <string name="controlPanelSoundVolume">Гучність</string>
     <string name="controlPanelEnergyParams">Параметри Сили / Енергії</string>
-
     <string name="profilesListTitle">Профілі</string>
     <string name="profilesListTitleSelectProfile">Перемкнути профіль</string>
     <string name="profilesListAddProfile">Новий профіль</string>
-    <string name="profilesListRowLastActivity"><xliff:g>%1$s</xliff:g></string>
-    <string name="profilesListRowTotalsSince">Підсумок від: <xliff:g>%1$s</xliff:g></string>
+    <string name="profilesListRowLastActivity">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="profilesListRowTotalsSince">Підсумок від: <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="profilesListButtonResetTotals">Обнулити підсумки</string>
     <string name="profilesListProfileNotUsed">(не використ.)</string>
     <string name="profilesListLoading">Завантажую...</string>
-
     <string name="tracksHistoryListTitle">Історія треків</string>
     <string name="tracksHistoryListEmpty">Треків ще не записано. Саме час записати перший!</string>
     <string name="tracksHistoryListLoading">Завантажую...</string>
@@ -421,7 +435,6 @@
     <string name="tracksHistoryListButtonDelete">Вилучити</string>
     <string name="tracksHistoryListShareTrackDialogTitle">Зберегти трек до...</string>
     <string name="tracksHistoryListViewTrackDialogTitle">Переглянути трек у...</string>
-
     <string name="summaryTotalWeight">Повна маса</string>
     <string name="summaryWheelsWeight">Маса коліс</string>
     <string name="summaryEfficiency">Ефективність</string>
@@ -429,7 +442,9 @@
     <string name="summaryRollResistCoef">Коеф. опору кочення</string>
     <string name="summaryBasalMetabolicRate">Базовий рівень метаболізму</string>
     <string name="summaryLocationInterval">Інтервал позиціонування</string>
-    <string name="summaryEnergyParams"><xliff:g>\@string/controlPanelEnergyParams</xliff:g></string>
+    <string name="summaryEnergyParams">
+        <xliff:g>\@string/controlPanelEnergyParams</xliff:g>
+    </string>
     <string name="summaryStartedDatetime">Розпочато</string>
     <string name="summaryEndedDatetime">Завершено</string>
     <string name="summaryTotalTime">Повний час</string>
@@ -443,21 +458,17 @@
     <string name="sensorsSectionUnsupported">Не підтримуються</string>
     <string name="sensorsEmptyList">Список порожній</string>
     <string name="sensorsMenuScan">Сканувати</string>
-
     <string name="sensorMenuAddToProfile">Додати у профіль</string>
     <string name="sensorMenuRemoveFromProfile">Вилучити з профілю</string>
     <string name="sensorMenuProperties">Властивості</string>
     <string name="sensorMenuEnable">Увімкнути</string>
     <string name="sensorMenuDisable">Вимкнути</string>
     <string name="sensorMenuDelete">Видалити</string>
-
     <string name="sensorRemoveConfirmDialogMsg">Вилучити з профілю\?</string>
     <string name="sensorDeleteConfirmDialogMsg">Видалити цей сенсор\?</string>
-
     <string name="sensorAddedMsg">Сенсор додано у профіль</string>
     <string name="sensorRemovedMsg">Сенсор видалено з профілю</string>
     <string name="sensorDeletedMsg">Сенсор видалено</string>
-
     <string name="sensorPurposeNone">(Не призначено)</string>
     <string name="sensorPurposeCadence">Ритм</string>
     <string name="sensorPurposeSpeed">Швидкість</string>
@@ -465,7 +476,6 @@
     <string name="sensorPurposeDuration">Тривалість</string>
     <string name="sensorPurposePower">Потужність</string>
     <string name="sensorPurposeHeartRate">Пульс</string>
-
     <string name="sensorProperitesProfileInfo">Властивості сенсорів налаштовуються окремо для кожного профілю. Ці властивості налаштовуються для поточного активного профілю (<xliff:g id="profile_name">%1$s</xliff:g>).</string>
     <string name="sensorProperitesUseForSpeed">Використовувати для швидкості</string>
     <string name="sensorProperitesUseForCadence">Використовувати для ритму</string>
@@ -481,12 +491,10 @@
     <string name="sensorStatusConnected">Під\'єднано</string>
     <string name="sensorStatusConnecting">Під\'єдную...</string>
     <string name="sensorStatusDisconnected">Від\'єднано</string>
-
     <string name="pref_text_off">Вимк.</string>
     <string name="pref_text_min">Мін</string>
     <string name="pref_text_medium">Середнє</string>
     <string name="pref_text_max">Макс</string>
-
     <string name="settingsTitle">Налаштування</string>
     <string name="pref_category1_title">Звук</string>
     <string name="pref_category2_title">Екран</string>
@@ -560,7 +568,6 @@
     <string name="pref_category_mapsCache">Кеш</string>
     <string name="prefAllProfilesInfoTitle">Увага!</string>
     <string name="prefAllProfilesInfoSummary">Ці властивості застосовуються до всіх профілів.</string>
-
     <string name="pref_app_language_summary">(Всі профілі)</string>
     <string name="pref_app_language_dialog_title">Мова</string>
     <string name="pref_app_language_translate_title">Допомога з перекладом</string>
@@ -598,14 +605,19 @@
     <string name="pref_roaring_type_title">Тип</string>
     <string name="pref_roaring_type_dialog_title">Тип крякалки</string>
     <string name="pref_volume_summary_text">Дзвоник:<xliff:g> %1$s</xliff:g>, Крякалка:<xliff:g> %2$s
-\n</xliff:g>Підказки:<xliff:g> %3$s</xliff:g>, Ефекти:<xliff:g> %4$s</xliff:g>, Попередження:<xliff:g> %5$s</xliff:g></string>
+\n</xliff:g>Підказки:<xliff:g> %3$s</xliff:g>, Ефекти:<xliff:g> %4$s</xliff:g>, Попередження:<xliff:g> %5$s</xliff:g>
+    </string>
     <string name="pref_bg_color_title">Колір фону</string>
     <string name="pref_bg_color_summary">Виберіть колір для фону</string>
     <string name="pref_fg_color_title">Колір тексту</string>
     <string name="pref_fg_color_summary">Виберіть колір для тексту</string>
-    <string name="pref_visualThemeAutoTitle"><xliff:g>\@string/pref_category_visualThemeAuto</xliff:g></string>
+    <string name="pref_visualThemeAutoTitle">
+        <xliff:g>\@string/pref_category_visualThemeAuto</xliff:g>
+    </string>
     <string name="pref_visualThemeAutoSummary">Застосовувати темну або світлу тему залежно від освітленості навколо</string>
-    <string name="pref_default_color_title"><xliff:g>\@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_default_color_title">
+        <xliff:g>\@string/pref_resetToDefault</xliff:g>
+    </string>
     <string name="pref_buttons_bg_look_title">Чисті кнопки</string>
     <string name="pref_buttons_bg_look_summary">Повністю прозорі кнопки і поля</string>
     <string name="pref_screen_keep_on_title">Тримати екран увімкнутим</string>
@@ -646,22 +658,42 @@
     <string name="pref_roarConstantModeButton_summary">Вмикати постійний режим після натискання на кнопку, якщо крякалка увімкнена</string>
     <string name="pref_fenceguard_title">Приватна зона</string>
     <string name="pref_fenceguard_summary">Захистіть координати свого дому або інших важливих місць від потрапляння у записані треки</string>
-    <string name="pref_gps_update_freq_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_summary"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_dialog_title"><xliff:g>\@string/pref_category_gps_boost_title</xliff:g></string>
-    <string name="pref_autopause_mode_title"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_gps_update_freq_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_gps_boost_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_gps_boost_summary">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_gps_boost_dialog_title">
+        <xliff:g>\@string/pref_category_gps_boost_title</xliff:g>
+    </string>
+    <string name="pref_autopause_mode_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="pref_autopause_mode_dialog_title">Автоматичне призупинення</string>
-    <string name="pref_wakelock_mode_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_wakelock_mode_dialog_title"><xliff:g>\@string/pref_category_wakelock_title</xliff:g></string>
-    <string name="pref_locationProviderMode_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_locationProviderMode_dialog_title"><xliff:g>\@string/pref_category_locationProvider_title</xliff:g></string>
+    <string name="pref_wakelock_mode_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_wakelock_mode_dialog_title">
+        <xliff:g>\@string/pref_category_wakelock_title</xliff:g>
+    </string>
+    <string name="pref_locationProviderMode_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_locationProviderMode_dialog_title">
+        <xliff:g>\@string/pref_category_locationProvider_title</xliff:g>
+    </string>
     <string name="pref_speedometer_limit_title">Максимум індикації</string>
     <string name="pref_speedometer_limit_dialog_title">Максимальна швидкість на спідометрі</string>
     <string name="pref_speed_calculate_mode_title">Перерахувати швидкість</string>
     <string name="pref_speed_calculate_mode_summary">(Для всіх профілів) Перераховувати швидкість з відстані, не використовуючи дані від GPS. Це може дати більш стабільні дані, ніж GPS.</string>
     <string name="pref_soundeffects_title">Увімкнути</string>
-    <string name="pref_soundeffects_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_soundeffects_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="pref_soundeffects_fence_enterleave_title">Прив. зона</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Сигналізувати звуком про вхід або вихід із приватної зони</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
@@ -669,8 +701,12 @@
     <string name="pref_soundeffects_countdown_title">Зворотній відлік</string>
     <string name="pref_soundeffects_countdown_summary">Звук зворотнього відліку перед відновленням треку (... 3, 2, 1, GO!)</string>
     <string name="pref_soundeffects_tally_title">Увімкнути</string>
-    <string name="pref_soundeffects_tally_summary"><xliff:g>\@null</xliff:g></string>
-    <string name="pref_soundeffects_tally_value_summary">Кожні <xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g></string>
+    <string name="pref_soundeffects_tally_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
+    <string name="pref_soundeffects_tally_value_summary">Кожні <xliff:g>%1$s</xliff:g>
+        <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_soundeffects_tally_distance_title">Відстань</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">Підказка відстані</string>
     <string name="pref_soundeffects_tally_duration_title">Тривалість</string>
@@ -680,7 +716,9 @@
     <string name="pref_soundeffects_tally_descent_title">Спуск</string>
     <string name="pref_soundeffects_tally_descent_dialog_title">Підказка спуску</string>
     <string name="pref_soundeffects_alarm_title">Увімкнути</string>
-    <string name="pref_soundeffects_alarm_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_soundeffects_alarm_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Забули призупинити запис\?</string>
     <string name="pref_soundeffects_alarm_gpsPause_summary">Попередження прозвучить після суттєвого переміщення, якщо запис було призупинено</string>
     <string name="pref_facebook_disable_title">Відключити Facebook</string>
@@ -697,20 +735,27 @@
     <string name="pref_maps_online_mode_dialog_title">Джерело карт</string>
     <string name="pref_maps_offline_file_title">Виберіть файл або теку</string>
     <string name="pref_maps_offline_file_dialog_title">Вибрати теку для зберігання карт локально</string>
-    <string name="pref_maps_offline_file_summary">(Всі профілі) <xliff:g>%1$s</xliff:g></string>
+    <string name="pref_maps_offline_file_summary">(Всі профілі) <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="pref_maps_offline_file_noFolderSelected">Теку не вибрано.</string>
     <string name="pref_maps_offline_info_title">Завантажити</string>
     <string name="pref_maps_offline_info_summary">Підтримуються векторні карти Mapsforge (.map) та растрові Rmaps (.sqlitedb). Скачати можна на .mapsforge.org</string>
     <string name="pref_maps_offline_warning_summary">Увага! Деякий об\'єм даних може викачуватися навіть в режимі офлайн. Будь ласка - вимкніть мобільний інтернет, якщо вам це важливо.</string>
-    <string name="pref_maps_offline_resetToDefault_title"><xliff:g>\@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_maps_offline_resetToDefault_title">
+        <xliff:g>\@string/pref_resetToDefault</xliff:g>
+    </string>
     <string name="pref_maps_routes_draw_title">План маршруту</string>
     <string name="pref_maps_routes_info_title">Увага!</string>
     <string name="pref_maps_routes_info_summary">Не буде жодних інших відео чи аудіо підказок, які би допомагали рухатися по цьому маршруту.</string>
     <string name="pref_maps_routes_files_title">Виберіть файл або теку</string>
     <string name="pref_maps_routes_files_dialog_title">Виберіть теку або файл з маршрутами</string>
-    <string name="pref_maps_routes_files_summary"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_maps_routes_files_summary">
+        <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="pref_maps_routes_files_noFolderSelected">Теку не вибрано.</string>
-    <string name="pref_maps_routes_resetToDefault_title"><xliff:g>\@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_maps_routes_resetToDefault_title">
+        <xliff:g>\@string/pref_resetToDefault</xliff:g>
+    </string>
     <string name="pref_maps_quickZoom_title">Кнопки швидкого масштабування</string>
     <string name="pref_maps_quickZoom_summary">(Всі профілі) Показувати невидимі кнопки швидкої зміни масштабу в нижній частині карти, може полегшити вам орієнтування</string>
     <string name="pref_maps_quickZoomInvert_title">Обернено</string>
@@ -719,7 +764,6 @@
     <string name="pref_maps_offline_terrain_summary">(Всі профілі) Підсвічувати рельєф відтінками. Карта виглядатиме реалістичнішою, але, можливо, повільнішою. Потребує відповідних DEM (.hgt) файлів закачаних у теку з картами.</string>
     <string name="pref_maps_offline_terrain_info_title">Завантажити</string>
     <string name="pref_maps_offline_terrain_info_summary">Відкрити сторінку із завантаженнями на viewfinderpanoramas.org</string>
-    <string name="pref_maps_offline_terrain_note_summary">Спосіб використання: витягніть файли .hgt із отриманих zip-архівів і розмістіть їх в теці із офлайн картами (не використовуйте вкладені під-теки).</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Дія кнопки налаштування шарів</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Всі профілі) Виберіть що має відбуватися після натискання кнопки налаштування шарів</string>
     <string name="pref_button_autoring_enable_title">Увімкнення автоматичного дзвоника</string>
@@ -749,13 +793,16 @@
     <string name="pref_powermeter_parameters_info_title">Увага!</string>
     <string name="pref_powermeter_parameters_info_summary">Для точного розрахунку потужності та енергії переконайтеся, що ці параметри вказані правильно!</string>
     <string name="pref_power_weights_title">Ваги</string>
-    <string name="pref_power_weights_summary">Водій: <xliff:g>%1$s</xliff:g>, Транспорт: <xliff:g>%2$s</xliff:g>, Вантаж: <xliff:g>%3$s</xliff:g>, Пасажири: <xliff:g>%4$s</xliff:g>, Колеса: <xliff:g>%5$s</xliff:g></string>
+    <string name="pref_power_weights_summary">Водій: <xliff:g>%1$s</xliff:g>, Транспорт: <xliff:g>%2$s</xliff:g>, Вантаж: <xliff:g>%3$s</xliff:g>, Пасажири: <xliff:g>%4$s</xliff:g>, Колеса: <xliff:g>%5$s</xliff:g>
+    </string>
     <string name="pref_power_coefs_title">Крефіцієнти</string>
     <string name="pref_power_coefs_summary">Опір повітря: <xliff:g>%1$s
-\n</xliff:g>Опір коченню: <xliff:g>%2$s</xliff:g></string>
+\n</xliff:g>Опір коченню: <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_energy_params_title">Параметри енергії</string>
     <string name="pref_energy_params_summary">Ефективність: <xliff:g>%1$s
-\n</xliff:g>Метаболізм: <xliff:g>%2$s</xliff:g></string>
+\n</xliff:g>Метаболізм: <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_svg_data_enable_title">Згенерувати графіки</string>
     <string name="pref_svg_data_enable_summary">Згенерувати SVG графіки і дані для різних параметрів їзди</string>
     <string name="pref_svg_data_modes_select_title">Вибрати типи графіків...</string>
@@ -770,10 +817,14 @@
     <string name="pref_paceIndicator_title">Індикатор темпу</string>
     <string name="pref_paceIndicator_summary">Показує чи ви рухаєтеся швидше, чи повільніше середньої швидкості</string>
     <string name="pref_haptic_feedback_title">Вібрувати від дотику</string>
-    <string name="pref_haptic_feedback_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_haptic_feedback_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="pref_haptic_feedback_intensity_title">Сила вібрування</string>
     <string name="pref_soundsMasterSwitch_title">Всі звуки</string>
-    <string name="pref_soundsMasterSwitch_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_soundsMasterSwitch_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="prefBarometricAltitudeTitle">Барометрична висота</string>
     <string name="prefBarometricAltitudeSummary">Використовувати вбудований барометр для покращення точності виміру висоти</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Термо-барометр</string>
@@ -835,7 +886,6 @@
     <string name="infoMeterModeGearRatioTitle">Передатне число</string>
     <string name="infoAutopauseForcedRelaxed">Режим авто-паузи буде переключено в Розслаблений режим</string>
     <string name="infoAutopauseForcedOff">Режим авто-паузи буде вимкнено</string>
-
     <string name="defaultProfileNameBike1">Велосипед 1</string>
     <string name="defaultProfileNameBike2">Велосипед 2</string>
     <string name="defaultProfileNameWalk">Пішки</string>
@@ -843,30 +893,21 @@
     <string name="defaultProfileNameCar">Авто</string>
     <string name="defaultProfileNamePlane">Літак</string>
     <string name="defaultProfileNameOther">Інше</string>
-
-
-	<string name="svgCopyright">Створено в Urban Biker</string>
-
-
-	<string name="fbStoryLiveText">Вперед!</string>
+    <string name="svgCopyright">Створено в Urban Biker</string>
+    <string name="fbStoryLiveText">Вперед!</string>
     <string name="fbCourseTitle">Створено в Urban Biker</string>
-	<string name="fbTemperatureMin">Темп. мін</string>
-	<string name="fbTemperatureMax">Темп. макс</string>
+    <string name="fbTemperatureMin">Темп. мін</string>
+    <string name="fbTemperatureMax">Темп. макс</string>
     <string name="menuLicense">Придбати ліцензію</string>
-
     <string name="dialogLicenseBuyTitle">Сподобалася програмка\?</string>
     <string name="dialogLicenseBuyYesButton">Отримати!</string>
     <string name="dialogLicenseBuyNoButton">Не зараз</string>
-
     <string name="licenseItemAlreadyOwned">Придбані ліцензії</string>
-
     <string name="timePeriod_perWeek">/тиждень</string>
     <string name="timePeriod_perMonth">/місяць</string>
     <string name="timePeriod_per3Months">/квартал</string>
     <string name="timePeriod_per6Months">/півріччя</string>
     <string name="timePeriod_perYear">/рік</string>
-
     <string name="generalError">Сталися невідомі помилки. Спробуйте ще раз.</string>
     <string name="openSourceLicensesTitle">Вільні ліцензії</string>
-
 </resources>

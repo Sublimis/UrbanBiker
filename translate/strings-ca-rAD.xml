@@ -1,41 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="locale">ca</string>
-
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="locale">ca</string>
     <string name="app_name">Urban Biker</string>
-
     <string name="app_description">Marca i mesura els teus trajectes amb gran precisió. Incrementa la teva seguretat i eficiència a la bicicleta.</string>
-
     <string name="widget_1_description">Biker: Timbre de bicicleta</string>
     <string name="widget_2_description">Biker: Timbre + Llum de flash</string>
     <string name="widget_3_description">Biker: Complert</string>
-
     <string name="copyright_part1">&lt;xliff:g&gt;<b>v%1$s</b> (%2$s)&lt;/xliff:g&gt;</string>
-
     <string name="proLicenseLabel">Pro</string>
     <string name="proPlusLicenseLabel">Pro+</string>
     <string name="ultimateLicenseLabel">Ultimate</string>
-
     <string name="proLicenseTitle">Pro License</string>
     <string name="proLicenseDescription">Remove ads</string>
-
     <string name="proPlusLicenseTitle">Pro Plus License</string>
     <string name="proPlusLicenseDescription">Remove ads and unlock all non-subscription features we may add in the future</string>
-
     <string name="ultimateLicenseTitle">Ultimate License</string>
     <string name="ultimateLicenseDescriptionMonthly">All features and maps unlocked (monthly subscription)</string>
     <string name="ultimateLicenseDescriptionYearly">All features and maps unlocked (yearly subscription)</string>
-
-
     <string name="ok">OK</string>
     <string name="yes">Sí</string>
     <string name="no">No</string>
     <string name="cancel">Cancel·la</string>
     <string name="buttonUnderstand">Ho entenc</string>
-
     <string name="buttonResumeTrack">Continua</string>
     <string name="buttonNewTrack">Finalitza</string>
-
     <string name="menuControlPanel">Panell de control</string>
     <string name="menuSettings">Configuració</string>
     <string name="menuSummary">Resum</string>
@@ -71,24 +59,21 @@
     <string name="menuCenterOnMap">Centra</string>
     <string name="menuClose">Tanca</string>
     <string name="menuInfo">Info</string>
-    <string name="menuFeedback">Envia comentaris</string>
     <string name="menuRateAndComment">Avalua i comenta</string>
     <string name="menuRefresh">Refresca</string>
     <string name="menuSwitchProfile">Canvia a</string>
-
     <string name="share_title">Envia per</string>
-    <string name="share_subject"><xliff:g>\@string/app_name</xliff:g></string>
-
+    <string name="share_subject">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
     <string name="pick_a_color">Selecciona un color</string>
-
     <string name="fence_name_default">El meu lloc</string>
     <string name="profileNameDefault">Nou perfil</string>
-
     <string name="featureNotAvailable">Disculpeu, aquesta funcionalitat no està disponible en aquest dispositiu</string>
     <string name="farFromHere">Lluny d\'aquí</string>
-
     <string name="toastRestartRequired">Si us plau, inicieu de nou l\'app per a activar-ho</string>
-    <string name="toastActiveProfile">Perfil: <xliff:g>%1$s</xliff:g></string>
+    <string name="toastActiveProfile">Perfil: <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="toastProfileSavingError">Error desant dades del perfil! Si us plau, proveu de nou.</string>
     <string name="toastProfileChangeError">No es pot canviar el perfil! Si us plau, proveu de nou.</string>
     <string name="toastGpsEnabled">GPS engegat</string>
@@ -143,17 +128,20 @@
     <string name="toastSensorDisabled">Sensor deshabilitat</string>
     <string name="toastAutoThemeActivated">Tema visual automàtic activat</string>
     <string name="toastCancelled">Cancel·lat</string>
-
-    <string name="notificationTitle"><xliff:g>\@string/app_name</xliff:g></string>
-    <string name="notificationTitleAdvanced"><xliff:g>%1$s</xliff:g></string>
-    <string name="notificationTitleAdvancedPaused">Pausat: <xliff:g>%1$s</xliff:g></string>
-
-    <string name="licenseSuccessDialogTitle"><xliff:g>\@string/app_name</xliff:g></string>
+    <string name="notificationTitle">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
+    <string name="notificationTitleAdvanced">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="notificationTitleAdvancedPaused">Pausat: <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="licenseSuccessDialogTitle">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
     <string name="licenseSuccessDialogMessage">S\'ha obtingut la llicència de l\'aplicació correctament. Gràcies pel teu suport!</string>
-
     <string name="ongoingNotificationChannelName">Notificació permanent</string>
     <string name="ongoingNotificationChannelDescription">Proporcionant control del servei de primer pla i fàcil accés a l\'aplicació</string>
-
     <string name="dialog_default_color_light_title">Tema de colors clar</string>
     <string name="dialog_default_color_dark_title">Tema de colors fosc</string>
     <string name="dialog_default_color_text">Això carregarà els colors per defecte, n\'esteu segur\?</string>
@@ -166,7 +154,9 @@
     <string name="dialog_volume_message">Nota: Utilitzeu els botons de volum del dispositiu per ajustar el volum del so en general.</string>
     <string name="dialog_bell_automatic_sensitivity_title">Sensibilitat de timbre automàtic</string>
     <string name="dialog_bell_shake_sensitivity_title">Sensibilitat de sacseig</string>
-    <string name="dialog_fenceguard_title"><xliff:g>\@string/menuFenceguard</xliff:g></string>
+    <string name="dialog_fenceguard_title">
+        <xliff:g>\@string/menuFenceguard</xliff:g>
+    </string>
     <string name="dialog_fenceguard_add_title">Afegiu àrea</string>
     <string name="dialog_fenceguard_add_text">Anomena una nova àrea</string>
     <string name="dialog_fenceguard_add_text2">Una àrea privada serà creada al voltant de la vostra ubicació actual per a protegir-la als trajectes enregistrats.</string>
@@ -178,10 +168,13 @@
     <string name="dialog_fenceguard_remove_formatText">Esteu segur que voleu eliminar l\'àrea <xliff:g>%1$s</xliff:g>\?</string>
     <string name="dialog_track_save_text">Distància <xliff:g>%1$.3f %2$s
 \n</xliff:g>Durada <xliff:g>%3$s
-\n</xliff:g><xliff:g>(%4$s)
+\n</xliff:g>
+        <xliff:g>(%4$s)
 \n
 \n</xliff:g>El recorregut sembla massa curt. Vols desar aquest recorregut\?</string>
-    <string name="dialog_exit_title"><xliff:g>\@string/app_name</xliff:g></string>
+    <string name="dialog_exit_title">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
     <string name="dialog_exit_msg">Atenció: L\'enregistrament del recorregut està actiu, i serà aturat.</string>
     <string name="dialogProfileDeleteTitle">Elimina perfil</string>
     <string name="dialogProfileDeleteMessage">Atenció: Això eliminarà els ajustaments del perfil i les dades totals. Els trajecte desats romandran intactes. Eliminar perfil <xliff:g>%1$s</xliff:g>\?</string>
@@ -242,13 +235,27 @@
     <string name="dialogMapsHighResolution">Mapa d\'alta resolució</string>
     <string name="dialogMapsRenderTerrain">Renderitza el terreny</string>
     <string name="dialogMapsTrackColor">Color del trajecte:</string>
-    <string name="dialogMapsTrackColorAltitude"><xliff:g>\@string/infoMeterModeAltitudeTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorSpeed"><xliff:g>\@string/infoMeterModeSpeedTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorDuration"><xliff:g>\@string/infoMeterModeDurationTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorElapsed"><xliff:g>\@string/summaryTotalTime</xliff:g></string>
-    <string name="dialogMapsTrackColorHeartRate"><xliff:g>\@string/infoMeterModeHeartRateTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorCadence"><xliff:g>\@string/infoMeterModeCadenceTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorTemperature"><xliff:g>\@string/infoMeterModeTemperatureTitle</xliff:g></string>
+    <string name="dialogMapsTrackColorAltitude">
+        <xliff:g>\@string/infoMeterModeAltitudeTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorSpeed">
+        <xliff:g>\@string/infoMeterModeSpeedTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorDuration">
+        <xliff:g>\@string/infoMeterModeDurationTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorElapsed">
+        <xliff:g>\@string/summaryTotalTime</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorHeartRate">
+        <xliff:g>\@string/infoMeterModeHeartRateTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorCadence">
+        <xliff:g>\@string/infoMeterModeCadenceTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorTemperature">
+        <xliff:g>\@string/infoMeterModeTemperatureTitle</xliff:g>
+    </string>
     <string name="dialogFencesAdd">Afegeix àrea aquí</string>
     <string name="dialogFencesUpdate">Actualitza ubicació de l\'àrea</string>
     <string name="dialogFencesEdit">Edita àrea</string>
@@ -282,16 +289,26 @@
     <string name="dialogTrackUploadPlatform">Servei en línia</string>
     <string name="dialogTrackUploadStravaIsCommute">Commuta</string>
     <string name="dialogSvgTitle">Gràfics SVG</string>
-    <string name="dialogSvgDistanceTitle"><xliff:g>\@string/infoMeterModeDistanceTitle</xliff:g></string>
-    <string name="dialogSvgDurationTitle"><xliff:g>\@string/infoMeterModeDurationTitle</xliff:g></string>
+    <string name="dialogSvgDistanceTitle">
+        <xliff:g>\@string/infoMeterModeDistanceTitle</xliff:g>
+    </string>
+    <string name="dialogSvgDurationTitle">
+        <xliff:g>\@string/infoMeterModeDurationTitle</xliff:g>
+    </string>
     <string name="dialogGpsIntervalTitle">Interval d\'actualització del GPS</string>
-    <string name="dialogGpsIntervalValue"><xliff:g>%1$s</xliff:g></string>
+    <string name="dialogGpsIntervalValue">
+        <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="dialogGpsIntervalNote">Nota: Mantingues aquest valor per sota de 3 segons per a obtenir lectures més acurades i un comportament més consistent!</string>
-    <string name="dialogGpsIntervalLabelMore"><xliff:g>◀
+    <string name="dialogGpsIntervalLabelMore">
+        <xliff:g>◀
 \n</xliff:g>Més acurat, fa servir més bateria</string>
-    <string name="dialogGpsIntervalLabelLess"><xliff:g>▶
+    <string name="dialogGpsIntervalLabelLess">
+        <xliff:g>▶
 \n</xliff:g>Més acurat, fa servir més bateria</string>
-    <string name="dialogHapticIntensityTitle"><xliff:g>\@string/pref_haptic_feedback_intensity_title</xliff:g></string>
+    <string name="dialogHapticIntensityTitle">
+        <xliff:g>\@string/pref_haptic_feedback_intensity_title</xliff:g>
+    </string>
     <string name="dialogSliderLess">◀</string>
     <string name="dialogSliderMore">▶</string>
     <string name="dialogLocationPermissionRequestTitle">Permís d\'ubicació</string>
@@ -305,12 +322,10 @@
     <string name="dialogPermissionProblemMessage">Aquest permís es necessita per part de l\'aplicació per a funcionar correctament. Aquest pot ser concedit des de la pàgina de permisos d\'Aplicacions.<xliff:g>
 \n
 \n</xliff:g>Vols anar-hi ara\?</string>
-
-	<string name="mapLayerStreet">Mapa</string>
+    <string name="mapLayerStreet">Mapa</string>
     <string name="mapLayerTerrain">Terreny</string>
     <string name="mapLayerSatellite">Satel·lit</string>
-
-	<string name="unitKm">km</string>
+    <string name="unitKm">km</string>
     <string name="unitKmh">km/h</string>
     <string name="unitMiles">mi</string>
     <string name="unitMph">mph</string>
@@ -364,11 +379,10 @@
     <string name="unitMilliseconds">ms</string>
     <string name="unitDegree">°</string>
     <string name="unitMegabyte">MB</string>
-
-    <string name="durationHrMin"><xliff:g>%1$d:%2$02d</xliff:g></string>
-
+    <string name="durationHrMin">
+        <xliff:g>%1$d:%2$02d</xliff:g>
+    </string>
     <string name="valueTimesCount">×</string>
-
     <string name="meterGPS">GPS</string>
     <string name="meterModeSpeed">velocitat</string>
     <string name="meterModeSpeedShort">vel</string>
@@ -427,7 +441,6 @@
     <string name="meterTextMax">màx.</string>
     <string name="meterTextAvg">mit.</string>
     <string name="meterTextTotal">tot</string>
-
     <string name="controlPanelSoundAutoBell">Timbre automàtic</string>
     <string name="controlPanelSoundRoar">Clàxon</string>
     <string name="controlPanelSoundEffects">Efectes</string>
@@ -435,25 +448,28 @@
     <string name="controlPanelSoundTallies">Recomptes</string>
     <string name="controlPanelSoundVolume">Volums</string>
     <string name="controlPanelEnergyParams">Paràmetres de Potència/Energia</string>
-
     <string name="profilesListTitle">Perfils</string>
     <string name="profilesListTitleSelectProfile">Commuta el perfil</string>
     <string name="profilesListAddProfile">Nou perfil</string>
-    <string name="profilesListRowLastActivity"><xliff:g>%1$s</xliff:g></string>
-    <string name="profilesListRowTotalsSince">Totals des de: <xliff:g>%1$s</xliff:g></string>
+    <string name="profilesListRowLastActivity">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="profilesListRowTotalsSince">Totals des de: <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="profilesListButtonResetTotals">Restableix totals</string>
     <string name="profilesListProfileNotUsed">(no emprat)</string>
     <string name="profilesListLoading">Carregant...</string>
-
     <string name="cloudAccountsTitle">Comptes</string>
     <string name="cloudAccountsInfo">Connectar a un servei al núvol et fa més fàcil pujar i compartir les teves rutes amb altres.<xliff:g>
 \n
 \n</xliff:g>Mai no publicarem res...</string>
     <string name="accountDisconnect">Desconnecta</string>
-    <string name="googleFitConnectButton">Connecta amb <xliff:g>Google Fit</xliff:g></string>
-    <string name="stravaTrackPrivacyInfo">La pista heretarà la privacitat predeterminada establerta a <xliff:g>Strava</xliff:g></string>
-    <string name="facebookConnectButton">Connectar amb <xliff:g>Facebook</xliff:g></string>
-
+    <string name="googleFitConnectButton">Connecta amb <xliff:g>Google Fit</xliff:g>
+    </string>
+    <string name="stravaTrackPrivacyInfo">La pista heretarà la privacitat predeterminada establerta a <xliff:g>Strava</xliff:g>
+    </string>
+    <string name="facebookConnectButton">Connectar amb <xliff:g>Facebook</xliff:g>
+    </string>
     <string name="tracksHistoryListTitle">Històric de trajectes</string>
     <string name="tracksHistoryListTitleSelect">Selecciona</string>
     <string name="tracksHistoryListEmpty">No s\'han trobat trajectes aquí. Sortiu i enregistreu activitat!</string>
@@ -466,7 +482,6 @@
     <string name="tracksHistoryListButtonDelete">Elimina</string>
     <string name="tracksHistoryListShareTrackDialogTitle">Comparteix el trajecte amb...</string>
     <string name="tracksHistoryListViewTrackDialogTitle">Visualitza el trajecte amb...</string>
-
     <string name="summaryTotalWeight">Pes total</string>
     <string name="summaryWheelsWeight">Pes de les rodes</string>
     <string name="summaryEfficiency">Eficiència</string>
@@ -475,7 +490,9 @@
     <string name="summaryBasalMetabolicRate">Taxa metabòlica basal</string>
     <string name="summaryLocationInterval">Interval d\'ubicació</string>
     <string name="summaryDeviceRestartsCount">Força el reinici</string>
-    <string name="summaryEnergyParams"><xliff:g>\@string/controlPanelEnergyParams</xliff:g></string>
+    <string name="summaryEnergyParams">
+        <xliff:g>\@string/controlPanelEnergyParams</xliff:g>
+    </string>
     <string name="summaryStartedDatetime">Iniciat</string>
     <string name="summaryEndedDatetime">Finalitzat</string>
     <string name="summaryTotalTime">Temps total</string>
@@ -484,7 +501,6 @@
     <string name="summaryCadenceStrokes">Pedalades</string>
     <string name="summarySpecific">Específic</string>
     <string name="summaryMechEnergy">Energia mecà.</string>
-
     <string name="sensorsTitle">Sensors</string>
     <string name="sensorsTabUsed">Utilitzat</string>
     <string name="sensorsTabFound">Trobat</string>
@@ -493,21 +509,17 @@
     <string name="sensorsSectionUnsupported">No suportat</string>
     <string name="sensorsEmptyList">Llista buida</string>
     <string name="sensorsMenuScan">Escaneja</string>
-
     <string name="sensorMenuAddToProfile">Afegeix al perfil</string>
     <string name="sensorMenuRemoveFromProfile">Elimina del perfil</string>
     <string name="sensorMenuProperties">Propietat</string>
     <string name="sensorMenuEnable">Activa</string>
     <string name="sensorMenuDisable">Desactiva</string>
     <string name="sensorMenuDelete">Esborra</string>
-
     <string name="sensorRemoveConfirmDialogMsg">Eliminar del perfil\?</string>
     <string name="sensorDeleteConfirmDialogMsg">Eliminar aquest sensor\?</string>
-
     <string name="sensorAddedMsg">Sensor afegit al perfil</string>
     <string name="sensorRemovedMsg">Sensor eliminat del perfil</string>
     <string name="sensorDeletedMsg">Sensor esborrat</string>
-
     <string name="sensorPurposeNone">(Sense finalitat)</string>
     <string name="sensorPurposeCadence">Cadència</string>
     <string name="sensorPurposeSpeed">Velocitat</string>
@@ -515,7 +527,6 @@
     <string name="sensorPurposeDuration">Durada</string>
     <string name="sensorPurposePower">Energia</string>
     <string name="sensorPurposeHeartRate">Freqüència cardíaca</string>
-
     <string name="sensorProperitesProfileInfo">Les propietats del sensor són gestionades per perfil. Aquestes propietats només estan gestionades pel perfil actual (<xliff:g id="profile_name">%1$s</xliff:g>).</string>
     <string name="sensorProperitesUseForSpeed">Utilitza per a la velocitat</string>
     <string name="sensorProperitesUseForCadence">Utilitza per a la cadència</string>
@@ -531,12 +542,10 @@
     <string name="sensorStatusConnected">Connectat</string>
     <string name="sensorStatusConnecting">Connectant...</string>
     <string name="sensorStatusDisconnected">Desconnectat</string>
-
     <string name="pref_text_off">Atura</string>
     <string name="pref_text_min">Min</string>
     <string name="pref_text_medium">Mitja</string>
     <string name="pref_text_max">Màx</string>
-
     <string name="settingsTitle">Configuració</string>
     <string name="pref_category1_title">Sons</string>
     <string name="pref_category2_title">Pantalla</string>
@@ -612,7 +621,6 @@
     <string name="pref_category_mapsCache">Memòria cau</string>
     <string name="prefAllProfilesInfoTitle">Nota!</string>
     <string name="prefAllProfilesInfoSummary">Aquestes propietats són aplicables a tots els perfils.</string>
-
     <string name="pref_app_language_summary">(Tots els perfils)</string>
     <string name="pref_app_language_dialog_title">Idioma</string>
     <string name="pref_app_language_translate_title">Ajuda a traduir</string>
@@ -650,14 +658,19 @@
     <string name="pref_roaring_type_title">Tipus</string>
     <string name="pref_roaring_type_dialog_title">Tipus de clàxon</string>
     <string name="pref_volume_summary_text">Timbre:<xliff:g> %1$s</xliff:g>, Clàxon:<xliff:g> %2$s
-\n</xliff:g>Comptadors:<xliff:g> %3$s</xliff:g>, Efectes:<xliff:g> %4$s</xliff:g>, Alarmes:<xliff:g> %5$s</xliff:g></string>
+\n</xliff:g>Comptadors:<xliff:g> %3$s</xliff:g>, Efectes:<xliff:g> %4$s</xliff:g>, Alarmes:<xliff:g> %5$s</xliff:g>
+    </string>
     <string name="pref_bg_color_title">Color de fons</string>
     <string name="pref_bg_color_summary">Tria el color desitjat pel fons de l\'app</string>
     <string name="pref_fg_color_title">Color del text</string>
     <string name="pref_fg_color_summary">Tria el color desitjat pel text i les icones</string>
-    <string name="pref_visualThemeAutoTitle"><xliff:g>\@string/pref_category_visualThemeAuto</xliff:g></string>
+    <string name="pref_visualThemeAutoTitle">
+        <xliff:g>\@string/pref_category_visualThemeAuto</xliff:g>
+    </string>
     <string name="pref_visualThemeAutoSummary">Aplica el tema clar o fosc en funció de la llum ambiental</string>
-    <string name="pref_default_color_title"><xliff:g>\@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_default_color_title">
+        <xliff:g>\@string/pref_resetToDefault</xliff:g>
+    </string>
     <string name="pref_buttons_bg_look_title">Neteja els botons</string>
     <string name="pref_buttons_bg_look_summary">Butons i camps completament transparents</string>
     <string name="pref_screen_keep_on_title">Mantingues pantalla activada</string>
@@ -699,22 +712,42 @@
     <string name="pref_roarConstantModeButton_summary">Commuta el mode constant pitjant el botó mentre el clàxon està encés</string>
     <string name="pref_fenceguard_title">Àrea Privada</string>
     <string name="pref_fenceguard_summary">Protegeix la ubicació de la vostra casa, o d\'altres llocs importants, d\'estar exposats als trajectes enregistrats</string>
-    <string name="pref_gps_update_freq_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_summary"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_dialog_title"><xliff:g>\@string/pref_category_gps_boost_title</xliff:g></string>
-    <string name="pref_autopause_mode_title"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_gps_update_freq_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_gps_boost_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_gps_boost_summary">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_gps_boost_dialog_title">
+        <xliff:g>\@string/pref_category_gps_boost_title</xliff:g>
+    </string>
+    <string name="pref_autopause_mode_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="pref_autopause_mode_dialog_title">Pausant automàticament</string>
-    <string name="pref_wakelock_mode_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_wakelock_mode_dialog_title"><xliff:g>\@string/pref_category_wakelock_title</xliff:g></string>
-    <string name="pref_locationProviderMode_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_locationProviderMode_dialog_title"><xliff:g>\@string/pref_category_locationProvider_title</xliff:g></string>
+    <string name="pref_wakelock_mode_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_wakelock_mode_dialog_title">
+        <xliff:g>\@string/pref_category_wakelock_title</xliff:g>
+    </string>
+    <string name="pref_locationProviderMode_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_locationProviderMode_dialog_title">
+        <xliff:g>\@string/pref_category_locationProvider_title</xliff:g>
+    </string>
     <string name="pref_speedometer_limit_title">Màxim indicador</string>
     <string name="pref_speedometer_limit_dialog_title">Màxim indicador de velocitat</string>
     <string name="pref_speed_calculate_mode_title">Recalcula velocitat</string>
     <string name="pref_speed_calculate_mode_summary">(Tots els perfils) Recalcular la velocitat a través de les distàncies no fa servir directaments els valors del GPS. Això donarà lectures més estables per valors del GPS (Doppler).</string>
     <string name="pref_soundeffects_title">Activa</string>
-    <string name="pref_soundeffects_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_soundeffects_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="pref_soundeffects_fence_enterleave_title">Àrea</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Sona quan entreu o sortiu d\'una àrea</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
@@ -722,8 +755,12 @@
     <string name="pref_soundeffects_countdown_title">Compte enrrere</string>
     <string name="pref_soundeffects_countdown_summary">So pel compte enrere abans de continuar el trajecte (...3, 2, 1, Som-hi!)</string>
     <string name="pref_soundeffects_tally_title">Activa</string>
-    <string name="pref_soundeffects_tally_summary"><xliff:g>\@null</xliff:g></string>
-    <string name="pref_soundeffects_tally_value_summary">Cada <xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g></string>
+    <string name="pref_soundeffects_tally_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
+    <string name="pref_soundeffects_tally_value_summary">Cada <xliff:g>%1$s</xliff:g>
+        <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_soundeffects_tally_distance_title">Distància</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">Mesura distància</string>
     <string name="pref_soundeffects_tally_duration_title">Durada</string>
@@ -733,7 +770,9 @@
     <string name="pref_soundeffects_tally_descent_title">Descens</string>
     <string name="pref_soundeffects_tally_descent_dialog_title">Mesura descens</string>
     <string name="pref_soundeffects_alarm_title">Activa</string>
-    <string name="pref_soundeffects_alarm_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_soundeffects_alarm_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Pausa oblidada</string>
     <string name="pref_soundeffects_alarm_gpsPause_summary">Sonarà una alarma quan es detecti algun moviment significant mentre el trajecte està pausat</string>
     <string name="pref_facebook_disable_title">Desactiva Facebook</string>
@@ -750,20 +789,27 @@
     <string name="pref_maps_online_mode_dialog_title">Origen dels mapes</string>
     <string name="pref_maps_offline_file_title">Selecciona arxiu o carpeta</string>
     <string name="pref_maps_offline_file_dialog_title">Selecciona carpeta de mapes fora línia</string>
-    <string name="pref_maps_offline_file_summary">(Tots els perfils) <xliff:g>%1$s</xliff:g></string>
+    <string name="pref_maps_offline_file_summary">(Tots els perfils) <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="pref_maps_offline_file_noFolderSelected">Cap carpeta seleccionada</string>
     <string name="pref_maps_offline_info_title">Descarrega ara</string>
     <string name="pref_maps_offline_info_summary">Mapa vectoritzat Mapsforge (.map) i ràster Rmaps (.sqlitedb) estan suportats. Disponible a download.mapsforge.org</string>
     <string name="pref_maps_offline_warning_summary">Atenció: Algunes dades en línia poden ser recuperades fins i tot en mode fora línia. Si us plau, si s\'escau, desactiveu l\'accés a dades abans d\'emprar els mapes.</string>
-    <string name="pref_maps_offline_resetToDefault_title"><xliff:g>\@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_maps_offline_resetToDefault_title">
+        <xliff:g>\@string/pref_resetToDefault</xliff:g>
+    </string>
     <string name="pref_maps_routes_draw_title">Guia de rutes</string>
     <string name="pref_maps_routes_info_title">Nota!</string>
     <string name="pref_maps_routes_info_summary">No es donaran altres senyals visuals o audibles per facilitar la navegació en ruta</string>
     <string name="pref_maps_routes_files_title">Selecciona arxiu o carpeta</string>
     <string name="pref_maps_routes_files_dialog_title">Tria carpeta o arxiu de rutes</string>
-    <string name="pref_maps_routes_files_summary"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_maps_routes_files_summary">
+        <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="pref_maps_routes_files_noFolderSelected">Cap carpeta seleccionada</string>
-    <string name="pref_maps_routes_resetToDefault_title"><xliff:g>\@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_maps_routes_resetToDefault_title">
+        <xliff:g>\@string/pref_resetToDefault</xliff:g>
+    </string>
     <string name="pref_maps_quickZoom_title">Botons de Zoom Ràpid</string>
     <string name="pref_maps_quickZoom_summary">(Tots els perfils) Activa amagar els botons de zoom ràpid a la part inferior del mapa, millora la teva orientació.</string>
     <string name="pref_maps_quickZoomInvert_title">Invertit</string>
@@ -772,7 +818,6 @@
     <string name="pref_maps_offline_terrain_summary">(Tots els perfils) Renderitza el gradient d\'elevació del terreny. El mapa es mostrarà més realista, però probablement més lentament. Requereix del fitxers DEM (Data Elevation Model) (.hgt) presents al mapa...</string>
     <string name="pref_maps_offline_terrain_info_title">Descarrega ara</string>
     <string name="pref_maps_offline_terrain_info_summary">Obre la pàgina de descàrrega a viewfinderpanoramas.org</string>
-    <string name="pref_maps_offline_terrain_note_summary">Us: Extreu els arxius .hgt del fitxer/s zip descarregats i desa\'ls a la mateixa carpeta os es troba el mapa fora de línia (no facis servir subcarpetes separades).</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Botó d\'acció de capes</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Tots els perfils) Selecciona que fer quan es prem el botó de capes</string>
     <string name="pref_button_autoring_enable_title">Alterna timbre automàtic</string>
@@ -802,13 +847,16 @@
     <string name="pref_powermeter_parameters_info_title">Nota!</string>
     <string name="pref_powermeter_parameters_info_summary">Per a lectures correctes de potència i energia, si us plau, assegureu-vos que aquests paràmetres són correctes!</string>
     <string name="pref_power_weights_title">Pesos</string>
-    <string name="pref_power_weights_summary">Conductor: <xliff:g>%1$s</xliff:g>, Vehicle: <xliff:g>%2$s</xliff:g>, Càrrega: <xliff:g>%3$s</xliff:g>, Passatgers: <xliff:g>%4$s</xliff:g>, Rodes: <xliff:g>%5$s</xliff:g></string>
+    <string name="pref_power_weights_summary">Conductor: <xliff:g>%1$s</xliff:g>, Vehicle: <xliff:g>%2$s</xliff:g>, Càrrega: <xliff:g>%3$s</xliff:g>, Passatgers: <xliff:g>%4$s</xliff:g>, Rodes: <xliff:g>%5$s</xliff:g>
+    </string>
     <string name="pref_power_coefs_title">Coeficients</string>
     <string name="pref_power_coefs_summary">Àrea de fregament: <xliff:g>%1$s
-\n</xliff:g>Resistència de rodament: <xliff:g>%2$s</xliff:g></string>
+\n</xliff:g>Resistència de rodament: <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_energy_params_title">Paràmetres d\'energia</string>
     <string name="pref_energy_params_summary">Eficiència: <xliff:g>%1$s
-\n</xliff:g>Metabolisme: <xliff:g>%2$s</xliff:g></string>
+\n</xliff:g>Metabolisme: <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_svg_data_enable_title">Genera gràfics</string>
     <string name="pref_svg_data_enable_summary">Genera gràfics SVG i arxius de dades per a diversos paràmetres</string>
     <string name="pref_svg_data_modes_select_title">Selecciona tipus de gràfics...</string>
@@ -823,10 +871,14 @@
     <string name="pref_paceIndicator_title">Indicador de ritme</string>
     <string name="pref_paceIndicator_summary">Mostra quan es va més ràpid o més lent que la velocitat mitja</string>
     <string name="pref_haptic_feedback_title">Vibrar en tocar</string>
-    <string name="pref_haptic_feedback_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_haptic_feedback_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="pref_haptic_feedback_intensity_title">Intensitat de la vibració</string>
     <string name="pref_soundsMasterSwitch_title">Tots els sons</string>
-    <string name="pref_soundsMasterSwitch_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_soundsMasterSwitch_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="prefBarometricAltitudeTitle">Alçada baromètrica</string>
     <string name="prefBarometricAltitudeSummary">Fes servir el baròmetre incorporat per a millorar la precisió de l\'alçada</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Termo baròmetre</string>
@@ -889,7 +941,6 @@
     <string name="infoMeterModeGearRatioTitle">Relació de transmissió</string>
     <string name="infoAutopauseForcedRelaxed">Nota: Auto Pausa forçada a Relaxat</string>
     <string name="infoAutopauseForcedOff">Nota: Auto Pausa forçada a Aturat</string>
-
     <string name="defaultProfileNameBike1">Bicicleta 1</string>
     <string name="defaultProfileNameBike2">Bicicleta 2</string>
     <string name="defaultProfileNameWalk">Caminar</string>
@@ -897,19 +948,13 @@
     <string name="defaultProfileNameCar">Cotxe</string>
     <string name="defaultProfileNamePlane">Avió</string>
     <string name="defaultProfileNameOther">Altres</string>
-
-
-	<string name="svgCopyright">Creat amb Urban Biker</string>
-
-
-	<string name="fbStoryLiveText">En marxa!</string>
+    <string name="svgCopyright">Creat amb Urban Biker</string>
+    <string name="fbStoryLiveText">En marxa!</string>
     <string name="fbCourseTitle">Motoritzat per Urban Biker</string>
-	<string name="fbTemperatureMin">Temp. mín.</string>
-	<string name="fbTemperatureMax">Temp. màx.</string>
+    <string name="fbTemperatureMin">Temp. mín.</string>
+    <string name="fbTemperatureMax">Temp. màx.</string>
     <string name="menuLicense">Compra la licència</string>
-
     <string name="dialogLicenseBuyTitle">T\'agrada l\'App\?</string>
     <string name="dialogLicenseBuyYesButton">Aconsegueix-la!</string>
     <string name="dialogLicenseBuyNoButton">Ara no</string>
-
-    </resources>
+</resources>

@@ -1,41 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="locale">ja</string>
-
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="locale">ja</string>
     <string name="app_name">Urban Biker</string>
-
     <string name="app_description">Track and measure your rides with great accuracy. Increase your cycling safety and efficiency.</string>
-
     <string name="widget_1_description">Biker: Bicycle Bell</string>
     <string name="widget_2_description">Biker: Bell + Flashlight</string>
     <string name="widget_3_description">Biker: Complete</string>
-
     <string name="copyright_part1">&lt;xliff:g&gt;<b>v%1$s</b> (%2$s)&lt;/xliff:g&gt;</string>
-
     <string name="proLicenseLabel">Pro</string>
     <string name="proPlusLicenseLabel">Pro+</string>
     <string name="ultimateLicenseLabel">Ultimate</string>
-
     <string name="proLicenseTitle">Pro License</string>
     <string name="proLicenseDescription">Remove ads</string>
-
     <string name="proPlusLicenseTitle">Pro Plus License</string>
     <string name="proPlusLicenseDescription">Remove ads and unlock all non-subscription features we may add in the future</string>
-
     <string name="ultimateLicenseTitle">Ultimate License</string>
     <string name="ultimateLicenseDescriptionMonthly">All features and maps unlocked (monthly subscription)</string>
     <string name="ultimateLicenseDescriptionYearly">All features and maps unlocked (yearly subscription)</string>
-
-
     <string name="ok">OK</string>
     <string name="yes">はい</string>
     <string name="no">いいえ</string>
     <string name="cancel">キャンセル</string>
     <string name="buttonUnderstand">了解</string>
-
     <string name="buttonResumeTrack">続ける</string>
     <string name="buttonNewTrack">ゴール</string>
-
     <string name="menuControlPanel">コントロール パネル</string>
     <string name="menuSettings">設定</string>
     <string name="menuSummary">簡易表示</string>
@@ -70,24 +58,21 @@
     <string name="menuCenterOnMap">中央</string>
     <string name="menuClose">閉じる</string>
     <string name="menuInfo">情報</string>
-    <string name="menuFeedback">フィードバックを送る</string>
     <string name="menuRateAndComment">レビュー</string>
     <string name="menuRefresh">リフレッシュ</string>
     <string name="menuSwitchProfile">切り替え :</string>
-
     <string name="share_title">送信先</string>
-    <string name="share_subject"><xliff:g>\@string/app_name</xliff:g></string>
-
+    <string name="share_subject">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
     <string name="pick_a_color">色を選ぶ</string>
-
     <string name="fence_name_default">個人の場所</string>
     <string name="profileNameDefault">新しいプロファイル</string>
-
     <string name="featureNotAvailable">この機能は、このデバイスでは無効です。</string>
     <string name="farFromHere">現在地から遠すぎ</string>
-
     <string name="toastRestartRequired">反映するには、アプリを再起動してください。</string>
-    <string name="toastActiveProfile">プロファイル : <xliff:g>%1$s</xliff:g></string>
+    <string name="toastActiveProfile">プロファイル : <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="toastProfileSavingError">プロファイル データの保存でエラー！　再試行してください。</string>
     <string name="toastProfileChangeError">プロファイルの切り替えができません！　再試行してください。</string>
     <string name="toastGpsEnabled">GPS オン</string>
@@ -141,17 +126,20 @@
     <string name="toastSensorDisabled">センサー無効</string>
     <string name="toastAutoThemeActivated">自動テーマを有効にしました</string>
     <string name="toastCancelled">キャンセルしました</string>
-
-    <string name="notificationTitle"><xliff:g>\@string/app_name</xliff:g></string>
-    <string name="notificationTitleAdvanced"><xliff:g>%1$s</xliff:g></string>
-    <string name="notificationTitleAdvancedPaused">一時停止 : <xliff:g>%1$s</xliff:g></string>
-
-    <string name="licenseSuccessDialogTitle"><xliff:g>\@string/app_name</xliff:g></string>
+    <string name="notificationTitle">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
+    <string name="notificationTitleAdvanced">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="notificationTitleAdvancedPaused">一時停止 : <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="licenseSuccessDialogTitle">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
     <string name="licenseSuccessDialogMessage">アプリのライセンスを受けつけました。ご支援に感謝します！</string>
-
     <string name="ongoingNotificationChannelName">通知を継続</string>
     <string name="ongoingNotificationChannelDescription">実行中のサービスへのコントロールを提供するとともに、アプリの操作が簡単になります</string>
-
     <string name="dialog_default_color_light_title">ライト テーマ</string>
     <string name="dialog_default_color_dark_title">ダーク テーマ</string>
     <string name="dialog_default_map_track_colors_title">地図の軌跡の色</string>
@@ -163,7 +151,9 @@
     <string name="dialog_volume_message">メモ : 全体の音量を設定するには、スマートフォンの音量ボタンを使ってください</string>
     <string name="dialog_bell_automatic_sensitivity_title">自動ベルの感度</string>
     <string name="dialog_bell_shake_sensitivity_title">シェイクの感度</string>
-    <string name="dialog_fenceguard_title"><xliff:g>\@string/menuFenceguard</xliff:g></string>
+    <string name="dialog_fenceguard_title">
+        <xliff:g>\@string/menuFenceguard</xliff:g>
+    </string>
     <string name="dialog_fenceguard_add_title">保護エリアの追加</string>
     <string name="dialog_fenceguard_add_text">保護エリア名 :</string>
     <string name="dialog_fenceguard_add_text2">「保護エリア」は、あなたの現在地の周りを、保存済みのアクティビティーで公開されないようにします。</string>
@@ -177,10 +167,13 @@
 \n
 \n</xliff:g>時間 <xliff:g>%3$s
 \n
-\n</xliff:g><xliff:g>(%4$s)
+\n</xliff:g>
+        <xliff:g>(%4$s)
 \n
 \n</xliff:g>このアクティビティーは短すぎます。保存しますか？</string>
-    <string name="dialog_exit_title"><xliff:g>\@string/app_name</xliff:g></string>
+    <string name="dialog_exit_title">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
     <string name="dialog_exit_msg">注意 : 記録中ですが、停止します。</string>
     <string name="dialogProfileDeleteTitle">プロファイルの削除</string>
     <string name="dialogProfileDeleteMessage">注意 : この操作でプロファイルの設定と合算データが削除されます。個々の保存済みアクティビティーはそのまま手をつけません。
@@ -302,4 +295,4 @@
 \n</xliff:g>減速時はマイナスになります</string>
     <string name="infoMeterModeClockTitle">時計</string>
     <string name="infoMeterModeClockMsg">現在時刻 ー (中央)現在時刻 (左)距離 (右)移動時間</string>
-    </resources>
+</resources>

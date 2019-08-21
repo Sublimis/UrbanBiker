@@ -1,41 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="locale">en</string>
-
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="locale">en</string>
     <string name="app_name">Urban Biker</string>
-
     <string name="app_description">Įrašinėk ir matuok savo keliones su dideliu tikslumu. Padidink savo, kaip keliautojo, saugumą ir efektyvumą.</string>
-
     <string name="widget_1_description">Dviratininkas: Dviračio skambutis</string>
     <string name="widget_2_description">Dviratininkas: Skambutis + Žibintuvėlis</string>
     <string name="widget_3_description">Dviratininkas: Pilnas</string>
-
     <string name="copyright_part1">&lt;xliff:g&gt;<b>v%1$s</b> (%2$s)&lt;/xliff:g&gt;</string>
-
     <string name="proLicenseLabel">Pro</string>
     <string name="proPlusLicenseLabel">Pro+</string>
     <string name="ultimateLicenseLabel">Ultimate</string>
-
     <string name="proLicenseTitle">Pro License</string>
     <string name="proLicenseDescription">Remove ads</string>
-
     <string name="proPlusLicenseTitle">Pro Plus License</string>
     <string name="proPlusLicenseDescription">Remove ads and unlock all non-subscription features we may add in the future</string>
-
     <string name="ultimateLicenseTitle">Ultimate License</string>
     <string name="ultimateLicenseDescriptionMonthly">All features and maps unlocked (monthly subscription)</string>
     <string name="ultimateLicenseDescriptionYearly">All features and maps unlocked (yearly subscription)</string>
-
-
     <string name="ok">Gerai</string>
     <string name="yes">Taip</string>
     <string name="no">Ne</string>
     <string name="cancel">Nutraukti</string>
     <string name="buttonUnderstand">Supratau</string>
-
     <string name="buttonResumeTrack">Tęsti</string>
     <string name="buttonNewTrack">Pabaigti</string>
-
     <string name="menuControlPanel">Valdymo skydas</string>
     <string name="menuSettings">Nustatymai</string>
     <string name="menuSummary">Suvestinė</string>
@@ -71,24 +59,21 @@
     <string name="menuCenterOnMap">Centras</string>
     <string name="menuClose">Uždaryti</string>
     <string name="menuInfo">Info</string>
-    <string name="menuFeedback">Siųsti atsiliepimą</string>
     <string name="menuRateAndComment">Įvertink ir komentuok</string>
     <string name="menuRefresh">Atšviežinti</string>
     <string name="menuSwitchProfile">Perjungti į</string>
-
     <string name="share_title">Siųsti naudojant</string>
-    <string name="share_subject"><xliff:g>\@string/app_name</xliff:g></string>
-
+    <string name="share_subject">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
     <string name="pick_a_color">Pasirink spalvą</string>
-
     <string name="fence_name_default">Mano vietos</string>
     <string name="profileNameDefault">Naujas profilis</string>
-
     <string name="featureNotAvailable">Deja, funkcija šiame įrenginyje negalima</string>
     <string name="farFromHere">Toli nuo čia</string>
-
     <string name="toastRestartRequired">Išjunkite ir vėl įjunkite programą, kad pakeitimai įsigaliotų</string>
-    <string name="toastActiveProfile">Profilis: <xliff:g>%1$s</xliff:g></string>
+    <string name="toastActiveProfile">Profilis: <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="toastProfileSavingError">Klaida saugant profilio duomenis. Pabandykite dar kartą.</string>
     <string name="toastProfileChangeError">Klaida perjungiant profilį. Pabandykite dar kartą.</string>
     <string name="toastGpsEnabled">GPS įjungtas</string>
@@ -143,17 +128,20 @@
     <string name="toastSensorDisabled">Daviklis išjungtas</string>
     <string name="toastAutoThemeActivated">Automatinė išvaizda aktyvuota</string>
     <string name="toastCancelled">Nutraukta</string>
-
-    <string name="notificationTitle"><xliff:g>\@string/app_name</xliff:g></string>
-    <string name="notificationTitleAdvanced"><xliff:g>%1$s</xliff:g></string>
-    <string name="notificationTitleAdvancedPaused">Pauzėje: <xliff:g>%1$s</xliff:g></string>
-
-    <string name="licenseSuccessDialogTitle"><xliff:g>\@string/app_name</xliff:g></string>
+    <string name="notificationTitle">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
+    <string name="notificationTitleAdvanced">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="notificationTitleAdvancedPaused">Pauzėje: <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="licenseSuccessDialogTitle">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
     <string name="licenseSuccessDialogMessage">Programėlė licencijuota sėkmingai. Dėkojame už jūsų palaikymą!</string>
-
     <string name="ongoingNotificationChannelName">Aktyvus pranešimas</string>
     <string name="ongoingNotificationChannelDescription">Suteikia priešakinių paslaugų valdymą ir lengvą programėlės pasiekiamumą</string>
-
     <string name="dialog_default_color_light_title">Lengvų spalvų temaa</string>
     <string name="dialog_default_color_dark_title">Tamsių spalvų tema</string>
     <string name="dialog_default_map_track_colors_title">Trasos spalva žemėlapyje</string>
@@ -167,7 +155,9 @@
     <string name="dialog_volume_message">Pastaba: naudokite įrenginio garso mygtukus garsumo nustatymui</string>
     <string name="dialog_bell_automatic_sensitivity_title">Automatinis skambučio jautrumas</string>
     <string name="dialog_bell_shake_sensitivity_title">Pakratymo jautrumas</string>
-    <string name="dialog_fenceguard_title"><xliff:g>\@string/menuFenceguard</xliff:g></string>
+    <string name="dialog_fenceguard_title">
+        <xliff:g>\@string/menuFenceguard</xliff:g>
+    </string>
     <string name="dialog_fenceguard_add_title">Pridėti lauką</string>
     <string name="dialog_fenceguard_add_text">Naujo lauko pavadinimas:</string>
     <string name="dialog_fenceguard_add_text2">Laukas bus nustatytas apie dabartinę vietą, kad ji būtų apsaugota nuo rodymo Trasos įraše.</string>
@@ -179,10 +169,13 @@
     <string name="dialog_fenceguard_remove_formatText">Ar tikrai pašalinti lauką <xliff:g>%1$s</xliff:g>\?</string>
     <string name="dialog_track_save_text">Atstumas <xliff:g>%1$.3f %2$s
 \n</xliff:g>Trukmė <xliff:g>%3$s
-\n</xliff:g><xliff:g>(%4$s)
+\n</xliff:g>
+        <xliff:g>(%4$s)
 \n
 \n</xliff:g>Kelionė atrodo trumpoka. Ar vistiek išsaugoti\?</string>
-    <string name="dialog_exit_title"><xliff:g>\@string/app_name</xliff:g></string>
+    <string name="dialog_exit_title">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
     <string name="dialog_exit_msg">Dėmesio: sekimas aktyvus, ir bus sustabdytas.</string>
     <string name="dialogProfileDeleteTitle">Ištrinti profilį</string>
     <string name="dialogProfileDeleteMessage">Dėmesio:Tai pašalins profilio nustatymus ir visus duomenis. Išsaugoti įrašai bus nepaliesti.
@@ -245,13 +238,27 @@
     <string name="dialogMapsHighResolution">Aukštos rezoliucijos žemėlapis</string>
     <string name="dialogMapsRenderTerrain">Piešti reljefą</string>
     <string name="dialogMapsTrackColor">Įrašo atspalvis</string>
-    <string name="dialogMapsTrackColorAltitude"><xliff:g>\@string/infoMeterModeAltitudeTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorSpeed"><xliff:g>\@string/infoMeterModeSpeedTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorDuration"><xliff:g>\@string/mapLayerTerrain</xliff:g></string>
-    <string name="dialogMapsTrackColorElapsed"><xliff:g>\@string/summaryTotalTime</xliff:g></string>
-    <string name="dialogMapsTrackColorHeartRate"><xliff:g>\@string/infoMeterModeHeartRateTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorCadence"><xliff:g>\@string/infoMeterModeCadenceTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorTemperature"><xliff:g>\@string/infoMeterModeTemperatureTitle</xliff:g></string>
+    <string name="dialogMapsTrackColorAltitude">
+        <xliff:g>\@string/infoMeterModeAltitudeTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorSpeed">
+        <xliff:g>\@string/infoMeterModeSpeedTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorDuration">
+        <xliff:g>\@string/mapLayerTerrain</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorElapsed">
+        <xliff:g>\@string/summaryTotalTime</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorHeartRate">
+        <xliff:g>\@string/infoMeterModeHeartRateTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorCadence">
+        <xliff:g>\@string/infoMeterModeCadenceTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorTemperature">
+        <xliff:g>\@string/infoMeterModeTemperatureTitle</xliff:g>
+    </string>
     <string name="dialogFencesAdd">Pridėti lauką čia</string>
     <string name="dialogFencesUpdate">Atnaujinti lauko vietą</string>
     <string name="dialogFencesEdit">Tvarkyti lauką</string>
@@ -285,16 +292,26 @@
     <string name="dialogTrackUploadPlatform">Online paslaugos</string>
     <string name="dialogTrackUploadStravaIsCommute">Eikite</string>
     <string name="dialogSvgTitle">SVG grafikai</string>
-    <string name="dialogSvgDistanceTitle"><xliff:g>\@string/infoMeterModeDistanceTitle</xliff:g></string>
-    <string name="dialogSvgDurationTitle"><xliff:g>\@string/infoMeterModeDurationTitle</xliff:g></string>
+    <string name="dialogSvgDistanceTitle">
+        <xliff:g>\@string/infoMeterModeDistanceTitle</xliff:g>
+    </string>
+    <string name="dialogSvgDurationTitle">
+        <xliff:g>\@string/infoMeterModeDurationTitle</xliff:g>
+    </string>
     <string name="dialogGpsIntervalTitle">GPS atnaujinimo intervalas</string>
-    <string name="dialogGpsIntervalValue"><xliff:g>%1$s</xliff:g></string>
+    <string name="dialogGpsIntervalValue">
+        <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="dialogGpsIntervalNote">Pastaba: Šią reikšmę nustatyk mažiau kaip 3 sek. dėl tikslesnių matavimų ir geresnio veikimo!</string>
-    <string name="dialogGpsIntervalLabelMore"><xliff:g>◀
+    <string name="dialogGpsIntervalLabelMore">
+        <xliff:g>◀
 \n</xliff:g>Tikslesnis, naudoja daugiau energijos</string>
-    <string name="dialogGpsIntervalLabelLess"><xliff:g>▶
+    <string name="dialogGpsIntervalLabelLess">
+        <xliff:g>▶
 \n</xliff:g>Mažiau tikslus, naudoja mažiau energijos</string>
-    <string name="dialogHapticIntensityTitle"><xliff:g>\@string/pref_haptic_feedback_intensity_title</xliff:g></string>
+    <string name="dialogHapticIntensityTitle">
+        <xliff:g>\@string/pref_haptic_feedback_intensity_title</xliff:g>
+    </string>
     <string name="dialogSliderLess">◀</string>
     <string name="dialogSliderMore">▶</string>
     <string name="dialogLocationPermissionRequestTitle">Vietos aptikimo leidimas</string>
@@ -311,12 +328,10 @@
     <string name="dialogPermissionProblemMessage">Šis leidimas reikalingas, kad programa tinkamai veiktų. Tai gali būti suteikta programų leidimų nustatymų puslapyje.<xliff:g>
 \n
 \n</xliff:g>Ar pereiti ten dabar\?</string>
-
-	<string name="mapLayerStreet">Gatvė</string>
+    <string name="mapLayerStreet">Gatvė</string>
     <string name="mapLayerTerrain">Reljefas</string>
     <string name="mapLayerSatellite">Palydovas</string>
-
-	<string name="unitKm">km</string>
+    <string name="unitKm">km</string>
     <string name="unitKmh">km/h</string>
     <string name="unitMiles">mi</string>
     <string name="unitMph">mph</string>
@@ -370,11 +385,10 @@
     <string name="unitMilliseconds">ms</string>
     <string name="unitDegree">°</string>
     <string name="unitMegabyte">MB</string>
-
-    <string name="durationHrMin"><xliff:g>%1$d:%2$02d</xliff:g></string>
-
+    <string name="durationHrMin">
+        <xliff:g>%1$d:%2$02d</xliff:g>
+    </string>
     <string name="valueTimesCount">×</string>
-
     <string name="meterGPS">GPS</string>
     <string name="meterModeSpeed">greitis</string>
     <string name="meterModeSpeedShort">greitis</string>
@@ -433,7 +447,6 @@
     <string name="meterTextMax">max</string>
     <string name="meterTextAvg">vidut</string>
     <string name="meterTextTotal">viso</string>
-
     <string name="controlPanelSoundAutoBell">Automatinis skambutis</string>
     <string name="controlPanelSoundRoar">Kriokimas</string>
     <string name="controlPanelSoundEffects">Efektai</string>
@@ -441,22 +454,24 @@
     <string name="controlPanelSoundTallies">Atitikimai</string>
     <string name="controlPanelSoundVolume">Garsumai</string>
     <string name="controlPanelEnergyParams">Galios/Energijos parametrai</string>
-
     <string name="profilesListTitle">Profiliai</string>
     <string name="profilesListTitleSelectProfile">Perjungti profilį</string>
     <string name="profilesListAddProfile">Naujas profilis</string>
-    <string name="profilesListRowLastActivity"><xliff:g>%1$s</xliff:g></string>
-    <string name="profilesListRowTotalsSince">Viso nuo: <xliff:g>%1$s</xliff:g></string>
+    <string name="profilesListRowLastActivity">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="profilesListRowTotalsSince">Viso nuo: <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="profilesListButtonResetTotals">Perkrauti sumas</string>
     <string name="profilesListProfileNotUsed">(nepanaudota)</string>
     <string name="profilesListLoading">Krauna...</string>
-
     <string name="cloudAccountsTitle">Paskyros</string>
     <string name="cloudAccountsInfo">Prisijungus prie debesų paslaugų galima lengviau nusiųsti ir dalintis įrašais su kitais.<xliff:g>
 \n
 \n</xliff:g>Be Jūsų leidimo nieko nekomentuosime. </string>
     <string name="accountDisconnect">Atsijungti</string>
-    <string name="googleFitConnectButton">Susijungti su <xliff:g>Google Fit</xliff:g></string>
+    <string name="googleFitConnectButton">Susijungti su <xliff:g>Google Fit</xliff:g>
+    </string>
     <string name="tracksHistoryListTitle">Trasų istorija</string>
     <string name="tracksHistoryListTitleSelect">Pažymėti</string>
     <string name="tracksHistoryListEmpty">Nėra įrašų. Sukurkite juos ką nors nuveikdami!</string>
@@ -469,7 +484,6 @@
     <string name="tracksHistoryListButtonDelete">Ištrinti</string>
     <string name="tracksHistoryListShareTrackDialogTitle">Dalintis įrašu į...</string>
     <string name="tracksHistoryListViewTrackDialogTitle">Žiūrėti įrašą su...</string>
-
     <string name="summaryTotalWeight">Bendras svoris</string>
     <string name="summaryWheelsWeight">Ratų svoris</string>
     <string name="summaryEfficiency">Efektyvumas</string>
@@ -478,7 +492,9 @@
     <string name="summaryBasalMetabolicRate">Bazinio metabolizmo greitis</string>
     <string name="summaryLocationInterval">GPS atnaujinimo intervalas</string>
     <string name="summaryDeviceRestartsCount">Priverstinis perkrovimas</string>
-    <string name="summaryEnergyParams"><xliff:g>\@string/controlPanelEnergyParams</xliff:g></string>
+    <string name="summaryEnergyParams">
+        <xliff:g>\@string/controlPanelEnergyParams</xliff:g>
+    </string>
     <string name="summaryStartedDatetime">Pradėta</string>
     <string name="summaryEndedDatetime">Pabaigta</string>
     <string name="summaryTotalTime">Bendras laikas</string>
@@ -487,7 +503,6 @@
     <string name="summaryCadenceStrokes">Pedalo mostai</string>
     <string name="summarySpecific">Specifinis</string>
     <string name="summaryMechEnergy">Mech. energija</string>
-
     <string name="sensorsTitle">Jutikliai</string>
     <string name="sensorsTabUsed">Panaudota</string>
     <string name="sensorsTabFound">Rasta</string>
@@ -496,21 +511,17 @@
     <string name="sensorsSectionUnsupported">Nepalaikoma</string>
     <string name="sensorsEmptyList">Sąrašas tuščias</string>
     <string name="sensorsMenuScan">Ieškoti</string>
-
     <string name="sensorMenuAddToProfile">Pridėti prie profilio</string>
     <string name="sensorMenuRemoveFromProfile">Pašalinti iš profilio</string>
     <string name="sensorMenuProperties">Savybės</string>
     <string name="sensorMenuEnable">Įjungti</string>
     <string name="sensorMenuDisable">Deaktyvuoti</string>
     <string name="sensorMenuDelete">Ištrinti</string>
-
     <string name="sensorRemoveConfirmDialogMsg">Pašalinti iš profilio\?</string>
     <string name="sensorDeleteConfirmDialogMsg">Trinti šį jutiklį\?</string>
-
     <string name="sensorAddedMsg">Jutiklis pridėtas prie profilio</string>
     <string name="sensorRemovedMsg">Jutiklis pašalintas iš profilio</string>
     <string name="sensorDeletedMsg">Daviklis ištrintas</string>
-
     <string name="sensorPurposeNone">(be priežasties)</string>
     <string name="sensorPurposeCadence">Ritmas</string>
     <string name="sensorPurposeSpeed">Greitis</string>
@@ -518,7 +529,6 @@
     <string name="sensorPurposeDuration">Trukmė</string>
     <string name="sensorPurposePower">Galia</string>
     <string name="sensorPurposeHeartRate">Širdies ritmas</string>
-
     <string name="sensorProperitesProfileInfo">Jutiklio savybės valdomos per profilį. Čia esančios Savybės yra valdomos tik šiuo metu veikiančiam profiliui (<xliff:g id="profile_name">%1$s</xliff:g>).</string>
     <string name="sensorProperitesUseForSpeed">Naudok greičiui</string>
     <string name="sensorProperitesUseForCadence">Naudok ritmui</string>
@@ -540,19 +550,19 @@
     <string name="sensorStatusConnected">Prijungta</string>
     <string name="sensorStatusConnecting">Jungiamasi...</string>
     <string name="sensorStatusDisconnected">Atjungta</string>
-
     <string name="pref_text_off">Išj.</string>
     <string name="pref_text_min">Min</string>
     <string name="pref_text_medium">Vidutinis</string>
     <string name="pref_text_max">Max</string>
-
     <string name="settingsTitle">Nustatymai</string>
     <string name="pref_category1_title">Garsas</string>
     <string name="pref_category2_title">Ekranas</string>
     <string name="pref_category_general_title">Bendras</string>
     <string name="pref_category_language_title">Kalba</string>
     <string name="pref_category_appearance_title">Išvaizda</string>
-    <string name="pref_category_background_title"><xliff:g>\@string/pref_background_pattern_dialog_title</xliff:g></string>
+    <string name="pref_category_background_title">
+        <xliff:g>\@string/pref_background_pattern_dialog_title</xliff:g>
+    </string>
     <string name="pref_category_speedo_title">Spidometras</string>
     <string name="pref_group_powermeter_title">Galia ir Energija</string>
     <string name="pref_category_power_mode_title">Galios ekrano režimas</string>
@@ -623,7 +633,6 @@
     <string name="pref_category_mapsCache">Cashe</string>
     <string name="prefAllProfilesInfoTitle">Dėmesio!</string>
     <string name="prefAllProfilesInfoSummary">Čia esančios Savybės bus pritaikytos visiems profiliams</string>
-
     <string name="pref_app_language_summary">(Visi profiliai)</string>
     <string name="pref_app_language_dialog_title">Kalba</string>
     <string name="pref_app_language_translate_title">Pagalba verčiant</string>
@@ -661,14 +670,19 @@
     <string name="pref_roaring_type_title">Tipas</string>
     <string name="pref_roaring_type_dialog_title">Burzgimo tipas</string>
     <string name="pref_volume_summary_text">Skambutis:<xliff:g> %1$s</xliff:g>, Kriokimas:<xliff:g> %2$s
-\n</xliff:g>Aukščiai:<xliff:g> %3$s</xliff:g>, Efektai:<xliff:g> %4$s</xliff:g>, Aliarmai:<xliff:g> %5$s</xliff:g></string>
+\n</xliff:g>Aukščiai:<xliff:g> %3$s</xliff:g>, Efektai:<xliff:g> %4$s</xliff:g>, Aliarmai:<xliff:g> %5$s</xliff:g>
+    </string>
     <string name="pref_bg_color_title">Fono spalva</string>
     <string name="pref_bg_color_summary">Pasirink norimą spalvą programos fonui</string>
     <string name="pref_fg_color_title">Teksto spalva</string>
     <string name="pref_fg_color_summary">Pasirink norimą spalvą tekstui ir piktogramoms</string>
-    <string name="pref_visualThemeAutoTitle"><xliff:g>\@string/pref_category_visualThemeAuto</xliff:g></string>
+    <string name="pref_visualThemeAutoTitle">
+        <xliff:g>\@string/pref_category_visualThemeAuto</xliff:g>
+    </string>
     <string name="pref_visualThemeAutoSummary">Naudoti šviesią ar tamsią temą atsižvelgiant į aplinkos apšvietimą</string>
-    <string name="pref_default_color_title"><xliff:g>\@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_default_color_title">
+        <xliff:g>\@string/pref_resetToDefault</xliff:g>
+    </string>
     <string name="pref_buttons_bg_look_title">Valyti mygtukus</string>
     <string name="pref_buttons_bg_look_summary">Visiškai permatomi mygtukai ir laukai</string>
     <string name="pref_screen_keep_on_title">Laikyti ekraną įjungtą</string>
@@ -710,24 +724,46 @@
     <string name="pref_roarConstantModeButton_summary">Įjungti pastovumo režimą mygtuko paspaudimu, kai burzgimo garas įjungtas</string>
     <string name="pref_fenceguard_title">Apsaugos laukas</string>
     <string name="pref_fenceguard_summary">Apsaugo namų ar kitos svarbios vietos rodymą Trasos įraše.</string>
-    <string name="pref_gps_update_freq_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_summary"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_dialog_title"><xliff:g>\@string/pref_category_gps_boost_title</xliff:g></string>
-    <string name="pref_autopause_mode_title"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_gps_update_freq_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_gps_boost_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_gps_boost_summary">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_gps_boost_dialog_title">
+        <xliff:g>\@string/pref_category_gps_boost_title</xliff:g>
+    </string>
+    <string name="pref_autopause_mode_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="pref_autopause_mode_dialog_title">Automatinės pauzės</string>
-    <string name="pref_wakelock_mode_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_wakelock_mode_dialog_title"><xliff:g>\@string/pref_category_wakelock_title</xliff:g></string>
-    <string name="pref_locationProviderMode_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_locationProviderMode_dialog_title"><xliff:g>\@string/pref_category_locationProvider_title</xliff:g></string>
+    <string name="pref_wakelock_mode_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_wakelock_mode_dialog_title">
+        <xliff:g>\@string/pref_category_wakelock_title</xliff:g>
+    </string>
+    <string name="pref_locationProviderMode_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_locationProviderMode_dialog_title">
+        <xliff:g>\@string/pref_category_locationProvider_title</xliff:g>
+    </string>
     <string name="pref_speedometer_limit_title">Indikatoriaus maksimumas</string>
     <string name="pref_speedometer_limit_dialog_title">Greičio indikatoriaus maksimumas</string>
     <string name="pref_speed_calculate_mode_title">Perskaičiuoti greitį</string>
     <string name="pref_speed_calculate_mode_summary">(Visi profiliai) Perskaičiuoti greitį naudojant atstumus ir nenaudojant GPS. Tai gali užtikrinti stabilesnius greičio rodmenis nei naudojant GPS (Doplerio) vertes.</string>
-    <string name="pref_background_pattern_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_background_pattern_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="pref_background_pattern_dialog_title">Meniu fono struktūra</string>
     <string name="pref_soundeffects_title">Įjungti</string>
-    <string name="pref_soundeffects_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_soundeffects_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="pref_soundeffects_fence_enterleave_title">Laukas</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Įspėti garsu, kai kertamos apsaugos lauko ribos</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
@@ -735,8 +771,12 @@
     <string name="pref_soundeffects_countdown_title">Skaičiavimas atgal</string>
     <string name="pref_soundeffects_countdown_summary">Garsu skaičiuoti laiką atgal tęsiant trasos įrašinėjimą (...3, 2, 1, PIRMYN)</string>
     <string name="pref_soundeffects_tally_title">Įjungti</string>
-    <string name="pref_soundeffects_tally_summary"><xliff:g>\@null</xliff:g></string>
-    <string name="pref_soundeffects_tally_value_summary">Kas <xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g></string>
+    <string name="pref_soundeffects_tally_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
+    <string name="pref_soundeffects_tally_value_summary">Kas <xliff:g>%1$s</xliff:g>
+        <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_soundeffects_tally_distance_title">Atstumas</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">Atstumo informavimas</string>
     <string name="pref_soundeffects_tally_duration_title">Trukmė</string>
@@ -746,7 +786,9 @@
     <string name="pref_soundeffects_tally_descent_title">Leidimasis</string>
     <string name="pref_soundeffects_tally_descent_dialog_title">Kilimo informavimas</string>
     <string name="pref_soundeffects_alarm_title">Įjungti</string>
-    <string name="pref_soundeffects_alarm_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_soundeffects_alarm_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Pamiršta pauzė</string>
     <string name="pref_soundeffects_alarm_gpsPause_summary">Garsinis signalas bus pagrotas, kai bus aptiktas judesys trasos sekimui esant pauzėje.</string>
     <string name="pref_facebook_disable_title">Deaktyvuoti Facebook</string>
@@ -763,20 +805,27 @@
     <string name="pref_maps_online_mode_dialog_title">Žemėlapių bazės</string>
     <string name="pref_maps_offline_file_title">Pažymėti bylą ar katalogą</string>
     <string name="pref_maps_offline_file_dialog_title">Pasirinkti Offline žemėlapių katalogą</string>
-    <string name="pref_maps_offline_file_summary">(Visiems profiliams) <xliff:g>%1$s</xliff:g></string>
+    <string name="pref_maps_offline_file_summary">(Visiems profiliams) <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="pref_maps_offline_file_noFolderSelected">Nepažymėtas nei vienas katalogas</string>
     <string name="pref_maps_offline_info_title">Atsisiųsti dabar</string>
     <string name="pref_maps_offline_info_summary">Mapsforge vector (.map) ir Rmaps raster (.sqlitedb) žemėlapiai naudotini. Parsisiuntimas iš www.mapsforge.org</string>
     <string name="pref_maps_offline_warning_summary">Dėmesio: Net ir offline režime gali būti naudojami online duomenys. Todėl, jei tai neramina, išjunkite mobilų duomenų perdavimą.</string>
-    <string name="pref_maps_offline_resetToDefault_title"><xliff:g>\@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_maps_offline_resetToDefault_title">
+        <xliff:g>\@string/pref_resetToDefault</xliff:g>
+    </string>
     <string name="pref_maps_routes_draw_title">Kelrodės trasos</string>
     <string name="pref_maps_routes_info_title">Dėmesio!</string>
     <string name="pref_maps_routes_info_summary">Nebus jokių kitų vaizdinių ar garsinių pagalbų, padedančių navigacijai trasoje</string>
     <string name="pref_maps_routes_files_title">Pažymėti bylą ar katalogą</string>
     <string name="pref_maps_routes_files_dialog_title">Pasirinkti trasų katalogą ar bylą</string>
-    <string name="pref_maps_routes_files_summary"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_maps_routes_files_summary">
+        <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="pref_maps_routes_files_noFolderSelected">Nepažymėtas nei vienas katalogas</string>
-    <string name="pref_maps_routes_resetToDefault_title"><xliff:g>\@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_maps_routes_resetToDefault_title">
+        <xliff:g>\@string/pref_resetToDefault</xliff:g>
+    </string>
     <string name="pref_maps_quickZoom_title">Greito priartinimo mygtukai</string>
     <string name="pref_maps_quickZoom_summary">(Visi profiliai) Įjunkite nematomus greito priartinimo mygtukus apatinėje žemėlapio dalyje</string>
     <string name="pref_maps_quickZoomInvert_title">Invertuotas</string>
@@ -785,7 +834,6 @@
     <string name="pref_maps_offline_terrain_summary">(Visi profiliai) Piešti vietovės aukščio skirtumų atspalvius. Žemėlapis atrodys realesnis, bet tikriausiai lėtesnis. Reikia DEM (.hgt) failų, esančių žemėlapio aplanke.</string>
     <string name="pref_maps_offline_terrain_info_title">Atsisiųsti dabar</string>
     <string name="pref_maps_offline_terrain_info_summary">Ar atidaryti stsisiuntimų puslapį viewfinderpanoramas.org</string>
-    <string name="pref_maps_offline_terrain_note_summary">Naudojimas: ištraukite .hgt failus iš atsisiųsto zip (-ų) ir padėkite juos tame pačiame aplanke, kuriame yra offline žemėlapio failas (nenaudokite atskirų pakatalogių).</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Sluoksnio mygtuko veiksmas</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Visi profiliai) Pasirinkite, ką daryti, kai paspausite sluoksnio mygtuką</string>
     <string name="pref_button_autoring_enable_title">Automatinio skambučio jungiklis</string>
@@ -815,13 +863,16 @@
     <string name="pref_powermeter_parameters_info_title">Dėmesio!</string>
     <string name="pref_powermeter_parameters_info_summary">Šie duomenys turi būti teisingi, jei norite teisingų galios ir energijos parodymų!</string>
     <string name="pref_power_weights_title">Svoriai</string>
-    <string name="pref_power_weights_summary">Vairuotojas: <xliff:g>%1$s</xliff:g>, Lengvasis: <xliff:g>%2$s</xliff:g>, Krovininis: <xliff:g>%3$s</xliff:g>, Keleivis: <xliff:g>%4$s</xliff:g>, Ratai: <xliff:g>%5$s</xliff:g></string>
+    <string name="pref_power_weights_summary">Vairuotojas: <xliff:g>%1$s</xliff:g>, Lengvasis: <xliff:g>%2$s</xliff:g>, Krovininis: <xliff:g>%3$s</xliff:g>, Keleivis: <xliff:g>%4$s</xliff:g>, Ratai: <xliff:g>%5$s</xliff:g>
+    </string>
     <string name="pref_power_coefs_title">Koeficientai</string>
     <string name="pref_power_coefs_summary">Traukos plotas: <xliff:g>%1$s
-\n</xliff:g>Riedėjimo pasipriešinimas: <xliff:g>%2$s</xliff:g></string>
+\n</xliff:g>Riedėjimo pasipriešinimas: <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_energy_params_title">Energijos parametrai</string>
     <string name="pref_energy_params_summary">Efektyvumas: <xliff:g>%1$s
-\n</xliff:g>Metabolizmas: <xliff:g>%2$s</xliff:g></string>
+\n</xliff:g>Metabolizmas: <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_svg_data_enable_title">Generuoti grafikus</string>
     <string name="pref_svg_data_enable_summary">Generuoti SVG grafikų duomenų failus įvairiems važiavimo patametrams</string>
     <string name="pref_svg_data_modes_select_title">Pasirinkti grafikų tipus...</string>
@@ -836,10 +887,14 @@
     <string name="pref_paceIndicator_title">Tempo indikatorius</string>
     <string name="pref_paceIndicator_summary">Rodo, kai judama greičiau ar lėčiau nei vidutinis greitis</string>
     <string name="pref_haptic_feedback_title">Vibruoja palietus</string>
-    <string name="pref_haptic_feedback_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_haptic_feedback_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="pref_haptic_feedback_intensity_title">Vibravimo intensyvumas</string>
     <string name="pref_soundsMasterSwitch_title">Visi garsai</string>
-    <string name="pref_soundsMasterSwitch_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_soundsMasterSwitch_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="prefBarometricAltitudeTitle">Barometrinis aukštis</string>
     <string name="prefBarometricAltitudeSummary">Naudoti integruotą barometrą pagerinant aukščio tikslumą.</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Termo barometras</string>
@@ -897,7 +952,6 @@
     <string name="infoMeterModeGearRatioTitle">Pavarų perdavimo laipsnis</string>
     <string name="infoAutopauseForcedRelaxed">Pastaba: Automatinė pauzė priverstinai Atsipalaidavęs režime</string>
     <string name="infoAutopauseForcedOff">Pastaba: Automatinė pauzė priverstinai išjungta</string>
-
     <string name="defaultProfileNameBike1">Dviratis 1</string>
     <string name="defaultProfileNameBike2">Dviratis 2</string>
     <string name="defaultProfileNameWalk">Ėjimas</string>
@@ -906,23 +960,15 @@
     <string name="defaultProfileNamePlane">Lėktuvas</string>
     <string name="defaultProfileNameIndoor">Viduje</string>
     <string name="defaultProfileNameOther">Kita</string>
-
-
-	<string name="svgCopyright">Sukurta su Urban Biker</string>
-
-
-	<string name="fbStoryLiveText">Dabar vyksta!</string>
+    <string name="svgCopyright">Sukurta su Urban Biker</string>
+    <string name="fbStoryLiveText">Dabar vyksta!</string>
     <string name="fbCourseTitle">Patobulinta Urban Biker</string>
-	<string name="fbTemperatureMin">Temp. min</string>
-	<string name="fbTemperatureMax">Temp. max</string>
+    <string name="fbTemperatureMin">Temp. min</string>
+    <string name="fbTemperatureMax">Temp. max</string>
     <string name="trackUploadDescriptionDefault">Šie veiksmai buvo įrašyti naudojant Urban Bike mobilią aplikaciją</string>
-
-	<string name="menuLicense">Pirkti licenciją</string>
-
+    <string name="menuLicense">Pirkti licenciją</string>
     <string name="dialogLicenseBuyTitle">Ar patinka programėlė\?</string>
     <string name="dialogLicenseBuyYesButton">Griebk!</string>
     <string name="dialogLicenseBuyNoButton">Ne dabar</string>
-
-    <string name="dialogReviewNudgeTitle">Ar patinka programėlė\?</string>
     <string name="generalError">Kilo problemų. Pabandykite vėl.</string>
-    </resources>
+</resources>

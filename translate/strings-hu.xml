@@ -1,41 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="locale">hu</string>
-
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="locale">hu</string>
     <string name="app_name">Urban Biker</string>
-
     <string name="app_description">Nagy pontossággal tudja nyomon követni, és mérni a túráit. Növelje kerékpárostúrái biztonságát és hatékonyságát!</string>
-
     <string name="widget_1_description">Kerékpáros: Biciklicsengő</string>
     <string name="widget_2_description">Kerékpáros: Csengő+Villogó</string>
     <string name="widget_3_description">Kerékpáros: Kész!</string>
-
     <string name="copyright_part1">&lt;xliff:g&gt;<b>v%1$s</b> (%2$s)&lt;/xliff:g&gt;</string>
-
     <string name="proLicenseLabel">Teljes</string>
     <string name="proPlusLicenseLabel">Pro+</string>
     <string name="ultimateLicenseLabel">Teljes</string>
-
     <string name="proLicenseTitle">Profi licensz</string>
     <string name="proLicenseDescription">Reklámok tiltása</string>
-
     <string name="proPlusLicenseTitle">Pro Plusz Licensz</string>
     <string name="proPlusLicenseDescription">Reklámok tiltása és az összes nem előfizetéses funkció engedélyezése</string>
-
     <string name="ultimateLicenseTitle">Teljes Licensz</string>
     <string name="ultimateLicenseDescriptionMonthly">Minden funkció és térkép engedélyezése (havi előfizetés)</string>
     <string name="ultimateLicenseDescriptionYearly">Minden funkció és térkép engedélyezése (éves előfizetés)</string>
-
-
     <string name="ok">OK</string>
     <string name="yes">Igen</string>
     <string name="no">Nem</string>
     <string name="cancel">Mégse</string>
     <string name="buttonUnderstand">Megértem</string>
-
     <string name="buttonResumeTrack">Folytatás</string>
     <string name="buttonNewTrack">Befejez</string>
-
     <string name="menuControlPanel">Kezelőpanel</string>
     <string name="menuSettings">Beállítások</string>
     <string name="menuSummary">Összesítés</string>
@@ -71,24 +59,21 @@
     <string name="menuCenterOnMap">Közép</string>
     <string name="menuClose">Bezár</string>
     <string name="menuInfo">Információ</string>
-    <string name="menuFeedback">Visszajelzés küldése</string>
     <string name="menuRateAndComment">Értékelés és hozzászólás</string>
     <string name="menuRefresh">Frissítés</string>
     <string name="menuSwitchProfile">Váltás</string>
-
     <string name="share_title">Küldés</string>
-    <string name="share_subject"><xliff:g>\@string/app_name</xliff:g></string>
-
+    <string name="share_subject">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
     <string name="pick_a_color">Válassz színt</string>
-
     <string name="fence_name_default">Saját helyem</string>
     <string name="profileNameDefault">Új Profil</string>
-
     <string name="featureNotAvailable">Ez a funkció nem elérhető ezen az eszközön</string>
     <string name="farFromHere">Messze innen</string>
-
     <string name="toastRestartRequired">Indítsd újra az appot az alkalmazáshoz</string>
-    <string name="toastActiveProfile">Profil: <xliff:g>%1$s</xliff:g></string>
+    <string name="toastActiveProfile">Profil: <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="toastProfileSavingError">Hiba az adatok mentése közben.Próbáld újra</string>
     <string name="toastProfileChangeError">Hiba a profil cseréje közben.Próbáld újra</string>
     <string name="toastGpsEnabled">GPS bekapcsolva</string>
@@ -143,17 +128,20 @@
     <string name="toastSensorDisabled">Jeladó letiltva</string>
     <string name="toastAutoThemeActivated">Automatikus képernyő sötétítés</string>
     <string name="toastCancelled">Törölve</string>
-
-    <string name="notificationTitle"><xliff:g>\@string/app_name</xliff:g></string>
-    <string name="notificationTitleAdvanced"><xliff:g>%1$s</xliff:g></string>
-    <string name="notificationTitleAdvancedPaused">Megállítva: <xliff:g>%1$s</xliff:g></string>
-
-    <string name="licenseSuccessDialogTitle"><xliff:g>\@string/app_name</xliff:g></string>
+    <string name="notificationTitle">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
+    <string name="notificationTitleAdvanced">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="notificationTitleAdvancedPaused">Megállítva: <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="licenseSuccessDialogTitle">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
     <string name="licenseSuccessDialogMessage">Sikeres license vásárlás. Köszönjük a tamogatásod!</string>
-
     <string name="ongoingNotificationChannelName">Folyamatban lévő értesítés</string>
     <string name="ongoingNotificationChannelDescription">Az előtérben lévő szolgáltatás vezérlése és az alkalmazáshoz való könnyű hozzáférés</string>
-
     <string name="dialog_default_color_light_title">Világos színsablon</string>
     <string name="dialog_default_color_dark_title">Sötét színsablon</string>
     <string name="dialog_default_color_text">Szín alapbeállítások betöltése.Biztos vagy benne\?</string>
@@ -166,7 +154,9 @@
     <string name="dialog_volume_message">Tipp:Használd a készülék hangerő szabályzó gombját a hangerő beállításához</string>
     <string name="dialog_bell_automatic_sensitivity_title">Automata csengő érzékenység</string>
     <string name="dialog_bell_shake_sensitivity_title">Rázás érzékenység</string>
-    <string name="dialog_fenceguard_title"><xliff:g>\@string/menuFenceguard</xliff:g></string>
+    <string name="dialog_fenceguard_title">
+        <xliff:g>\@string/menuFenceguard</xliff:g>
+    </string>
     <string name="dialog_fenceguard_add_title">Kerítés hozzáadása</string>
     <string name="dialog_fenceguard_add_text">Új kerítés neve:</string>
     <string name="dialog_fenceguard_add_text2">A kerítés a jelenlegi pozíciód köré lesz kijelölve.Jelenlegi pozíciód nem lesz látható az útvonalon</string>
@@ -178,10 +168,13 @@
     <string name="dialog_fenceguard_remove_formatText">Biztos eltávolítod <xliff:g>%1$s</xliff:g>\? nevű kerítést\?</string>
     <string name="dialog_track_save_text">Megtett út <xliff:g>%1$.3f %2$s
 \n</xliff:g>Időtartam <xliff:g>%3$s
-\n</xliff:g><xliff:g>(%4$s)
+\n</xliff:g>
+        <xliff:g>(%4$s)
 \n
 \n</xliff:g>Az útvonal túlságosan rövidnek tűnik. Mentsük\?</string>
-    <string name="dialog_exit_title"><xliff:g>\@string/app_name</xliff:g></string>
+    <string name="dialog_exit_title">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
     <string name="dialog_exit_msg">Az útvonalrögzítés aktív és le fog állni.</string>
     <string name="dialogProfileDeleteTitle">Profil törlése</string>
     <string name="dialogProfileDeleteMessage">Figyelmeztetés: Ez a művelet törli a profil beállításait és annak minden adatát. A mentett útvonalak megmaradnak. Profil törlése <xliff:g>%1$s</xliff:g>\?</string>
@@ -238,13 +231,27 @@
     <string name="dialogMapsHighResolution">Nagy felbontású térkép</string>
     <string name="dialogMapsRenderTerrain">Domborzat simítása</string>
     <string name="dialogMapsTrackColor">Útvonal színárnyalata:</string>
-    <string name="dialogMapsTrackColorAltitude"><xliff:g>\@string/infoMeterModeAltitudeTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorSpeed"><xliff:g>\@string/infoMeterModeSpeedTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorDuration"><xliff:g>\@string/infoMeterModeDurationTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorElapsed"><xliff:g>\@string/summaryTotalTime</xliff:g></string>
-    <string name="dialogMapsTrackColorHeartRate"><xliff:g>\@string/infoMeterModeHeartRateTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorCadence"><xliff:g>\@string/infoMeterModeCadenceTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorTemperature"><xliff:g>\@string/infoMeterModeTemperatureTitle</xliff:g></string>
+    <string name="dialogMapsTrackColorAltitude">
+        <xliff:g>\@string/infoMeterModeAltitudeTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorSpeed">
+        <xliff:g>\@string/infoMeterModeSpeedTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorDuration">
+        <xliff:g>\@string/infoMeterModeDurationTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorElapsed">
+        <xliff:g>\@string/summaryTotalTime</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorHeartRate">
+        <xliff:g>\@string/infoMeterModeHeartRateTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorCadence">
+        <xliff:g>\@string/infoMeterModeCadenceTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorTemperature">
+        <xliff:g>\@string/infoMeterModeTemperatureTitle</xliff:g>
+    </string>
     <string name="dialogFencesAdd">Kerítés hozzáadása itt</string>
     <string name="dialogFencesUpdate">Kerítés frissítése</string>
     <string name="dialogFencesEdit">Kerítés szerkesztése</string>
@@ -278,16 +285,26 @@
     <string name="dialogTrackUploadPlatform">Online szolgáltató</string>
     <string name="dialogTrackUploadStravaIsCommute">Ingázik</string>
     <string name="dialogSvgTitle">SVG grafikák</string>
-    <string name="dialogSvgDistanceTitle"><xliff:g>\@string/infoMeterModeDistanceTitle</xliff:g></string>
-    <string name="dialogSvgDurationTitle"><xliff:g>\@string/infoMeterModeDurationTitle</xliff:g></string>
+    <string name="dialogSvgDistanceTitle">
+        <xliff:g>\@string/infoMeterModeDistanceTitle</xliff:g>
+    </string>
+    <string name="dialogSvgDurationTitle">
+        <xliff:g>\@string/infoMeterModeDurationTitle</xliff:g>
+    </string>
     <string name="dialogGpsIntervalTitle">GPS frissítés gyakorisága</string>
-    <string name="dialogGpsIntervalValue"><xliff:g>%1$s</xliff:g></string>
+    <string name="dialogGpsIntervalValue">
+        <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="dialogGpsIntervalNote">Megjegyzés: Tartsa ezt az értéket 3 másodperc alatt a pontos és folyamatos mérések érdekében!</string>
-    <string name="dialogGpsIntervalLabelMore"><xliff:g>◀
+    <string name="dialogGpsIntervalLabelMore">
+        <xliff:g>◀
 \n</xliff:g>Nagyobb pontosság, több energia felhasználás</string>
-    <string name="dialogGpsIntervalLabelLess"><xliff:g>▶
+    <string name="dialogGpsIntervalLabelLess">
+        <xliff:g>▶
 \n</xliff:g>Kisebb pontosság, kevesebb energia felhasználás</string>
-    <string name="dialogHapticIntensityTitle"><xliff:g>\@string/pref_haptic_feedback_intensity_title</xliff:g></string>
+    <string name="dialogHapticIntensityTitle">
+        <xliff:g>\@string/pref_haptic_feedback_intensity_title</xliff:g>
+    </string>
     <string name="dialogSliderLess">◀</string>
     <string name="dialogSliderMore">▶</string>
     <string name="dialogLocationPermissionRequestTitle">Helyzetmeghatározás engedélyei</string>
@@ -301,12 +318,10 @@
     <string name="dialogPermissionProblemMessage">Ez az engedély ahhoz szükséges, hogy az alkalmazás megfelelően működjön. Ez az Alkalmazás engedélyek beállításai oldalon engedélyezhető.<xliff:g>
 \n
 \n</xliff:g>Beállítja most\?</string>
-
-	<string name="mapLayerStreet">Utca</string>
+    <string name="mapLayerStreet">Utca</string>
     <string name="mapLayerTerrain">Domborzat</string>
     <string name="mapLayerSatellite">Műhold</string>
-
-	<string name="unitKm">km</string>
+    <string name="unitKm">km</string>
     <string name="unitKmh">km/h</string>
     <string name="unitMiles">mi</string>
     <string name="unitMph">mph</string>
@@ -360,11 +375,10 @@
     <string name="unitMilliseconds">ms</string>
     <string name="unitDegree">°</string>
     <string name="unitMegabyte">Mb</string>
-
-    <string name="durationHrMin"><xliff:g>%1$d:%2$02d</xliff:g></string>
-
+    <string name="durationHrMin">
+        <xliff:g>%1$d:%2$02d</xliff:g>
+    </string>
     <string name="valueTimesCount">×</string>
-
     <string name="meterGPS">GPS</string>
     <string name="meterModeSpeed">sebesség</string>
     <string name="meterModeSpeedShort">seb</string>
@@ -423,7 +437,6 @@
     <string name="meterTextMax">max</string>
     <string name="meterTextAvg">átl</string>
     <string name="meterTextTotal">mind</string>
-
     <string name="controlPanelSoundAutoBell">Automatikus csengő</string>
     <string name="controlPanelSoundRoar">Riasztó</string>
     <string name="controlPanelSoundEffects">Hangmódok</string>
@@ -431,25 +444,27 @@
     <string name="controlPanelSoundTallies">Figyelmeztetés</string>
     <string name="controlPanelSoundVolume">Hangerők</string>
     <string name="controlPanelEnergyParams">Teljesítmény/Erő beállítások</string>
-
     <string name="profilesListTitle">Profilok</string>
     <string name="profilesListTitleSelectProfile">Profil váltás</string>
     <string name="profilesListAddProfile">Új profil</string>
-    <string name="profilesListRowLastActivity"><xliff:g>%1$s</xliff:g></string>
+    <string name="profilesListRowLastActivity">
+        <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="profilesListRowTotalsSince">Összesen <xliff:g>%1$s</xliff:g>óta</string>
     <string name="profilesListButtonResetTotals">Minden alapra állítása</string>
     <string name="profilesListProfileNotUsed">felhasználatlan</string>
     <string name="profilesListLoading">Betöltés...</string>
-
     <string name="cloudAccountsTitle">Felhasználói fiók</string>
     <string name="cloudAccountsInfo">A felhőszolgáltatáshoz való csatlakozás megkönnyíti az adatok feltöltését és megosztását másokkal. <xliff:g>
 \n
 \n</xliff:g> Soha nem teszünk közzé semmit az Ön engedélye nélkül.</string>
     <string name="accountDisconnect">Leválasztás</string>
-    <string name="googleFitConnectButton">Kapcsolódás <xliff:g>Google Fit</xliff:g></string>
-    <string name="stravaTrackPrivacyInfo">A track biztonsági beállításai megmaradnak <xliff:g>Strava</xliff:g></string>
-    <string name="facebookConnectButton">Kapcsolódás <xliff:g>Facebook</xliff:g></string>
-
+    <string name="googleFitConnectButton">Kapcsolódás <xliff:g>Google Fit</xliff:g>
+    </string>
+    <string name="stravaTrackPrivacyInfo">A track biztonsági beállításai megmaradnak <xliff:g>Strava</xliff:g>
+    </string>
+    <string name="facebookConnectButton">Kapcsolódás <xliff:g>Facebook</xliff:g>
+    </string>
     <string name="tracksHistoryListTitle">Útvonal előzmény</string>
     <string name="tracksHistoryListTitleSelect">Kiválasztás</string>
     <string name="tracksHistoryListEmpty">Nem található felvétel. Menj ki és naplózd az aktivitásodat.</string>
@@ -462,7 +477,6 @@
     <string name="tracksHistoryListButtonDelete">Törlés</string>
     <string name="tracksHistoryListShareTrackDialogTitle">Útvonal megosztása...</string>
     <string name="tracksHistoryListViewTrackDialogTitle">Útvonal megtekintése...</string>
-
     <string name="summaryTotalWeight">Összsúly</string>
     <string name="summaryWheelsWeight">Kerekek súlya</string>
     <string name="summaryEfficiency">Hatékonyság</string>
@@ -471,7 +485,9 @@
     <string name="summaryBasalMetabolicRate">Alapanyagcsere (BMR)</string>
     <string name="summaryLocationInterval">Helymeghatározás gyakorisága</string>
     <string name="summaryDeviceRestartsCount">Kényszerített újraindítás</string>
-    <string name="summaryEnergyParams"><xliff:g>\@string/controlPanelEnergyParams</xliff:g></string>
+    <string name="summaryEnergyParams">
+        <xliff:g>\@string/controlPanelEnergyParams</xliff:g>
+    </string>
     <string name="summaryStartedDatetime">Elindult</string>
     <string name="summaryEndedDatetime">Befejeződött</string>
     <string name="summaryTotalTime">Összes idő</string>
@@ -480,7 +496,6 @@
     <string name="summaryCadenceStrokes">Pedál fordulat</string>
     <string name="summarySpecific">Jellemző</string>
     <string name="summaryMechEnergy">Mechanikus erő</string>
-
     <string name="sensorsTitle">Jeladók</string>
     <string name="sensorsTabUsed">Használt</string>
     <string name="sensorsTabFound">Találat</string>
@@ -489,21 +504,17 @@
     <string name="sensorsSectionUnsupported">Nem támogatott</string>
     <string name="sensorsEmptyList">Üres lista</string>
     <string name="sensorsMenuScan">Keresés</string>
-
     <string name="sensorMenuAddToProfile">Hozzáadás a profilhoz</string>
     <string name="sensorMenuRemoveFromProfile">Törlés a profilból</string>
     <string name="sensorMenuProperties">Tulajdonságok</string>
     <string name="sensorMenuEnable">Engedélyezés</string>
     <string name="sensorMenuDisable">Letiltás</string>
     <string name="sensorMenuDelete">Törlés</string>
-
     <string name="sensorRemoveConfirmDialogMsg">Törljük a profilból\?</string>
     <string name="sensorDeleteConfirmDialogMsg">Töröljük ezt a jeladót\?</string>
-
     <string name="sensorAddedMsg">A jeladó hozzáadva a profilhoz</string>
     <string name="sensorRemovedMsg">A jeladó törölve a profilból</string>
     <string name="sensorDeletedMsg">A jeladó törölve</string>
-
     <string name="sensorPurposeNone">(Nincs cél)</string>
     <string name="sensorPurposeCadence">Pedálfordulat</string>
     <string name="sensorPurposeSpeed">Sebesség</string>
@@ -511,7 +522,6 @@
     <string name="sensorPurposeDuration">Időtartam</string>
     <string name="sensorPurposePower">Erő</string>
     <string name="sensorPurposeHeartRate">Pulzus</string>
-
     <string name="sensorProperitesProfileInfo">A jeladó beállításaii profilonként külön vannak kezelve. A beállítások csak az aktuális (<xliff:g id="profile_name">%1$s</xliff:g>) profilban változtathatók.</string>
     <string name="sensorProperitesUseForSpeed">Sebességméréshez</string>
     <string name="sensorProperitesUseForCadence">Pedálfordulat számolásához</string>
@@ -527,12 +537,10 @@
     <string name="sensorStatusConnected">Kapcsolódva</string>
     <string name="sensorStatusConnecting">Kapcsolódás folyamatban...</string>
     <string name="sensorStatusDisconnected">Szétkapcsolva</string>
-
     <string name="pref_text_off">Ki</string>
     <string name="pref_text_min">Min</string>
     <string name="pref_text_medium">Közepes</string>
     <string name="pref_text_max">Max</string>
-
     <string name="settingsTitle">Beállítások</string>
     <string name="pref_category1_title">Hang</string>
     <string name="pref_category2_title">Kijelző</string>
@@ -609,7 +617,6 @@
     <string name="pref_category_mapsCache">Gyorsítótár</string>
     <string name="prefAllProfilesInfoTitle">Jegyzet!</string>
     <string name="prefAllProfilesInfoSummary">Az itt megadott beállítások minden profilra érvényesek</string>
-
     <string name="pref_app_language_summary">(Minden profil)</string>
     <string name="pref_app_language_dialog_title">Nyelv</string>
     <string name="pref_app_language_translate_title">Fordítási segítség</string>
@@ -647,14 +654,19 @@
     <string name="pref_roaring_type_title">Tipus</string>
     <string name="pref_roaring_type_dialog_title">Riasztás módja</string>
     <string name="pref_volume_summary_text">Cengő:<xliff:g> %1$s</xliff:g>, Riasztás:<xliff:g> %2$s
-\n</xliff:g>Figyelmeztetés:<xliff:g> %3$s</xliff:g>, Egyéb:<xliff:g> %4$s</xliff:g>, Emlékeztető:<xliff:g> %5$s</xliff:g></string>
+\n</xliff:g>Figyelmeztetés:<xliff:g> %3$s</xliff:g>, Egyéb:<xliff:g> %4$s</xliff:g>, Emlékeztető:<xliff:g> %5$s</xliff:g>
+    </string>
     <string name="pref_bg_color_title">Háttérszín</string>
     <string name="pref_bg_color_summary">Válaszd ki az alkalmazás háttérszínét</string>
     <string name="pref_fg_color_title">Szöveg színe</string>
     <string name="pref_fg_color_summary">Válaszd ki a szöveg és az ikonok színét</string>
-    <string name="pref_visualThemeAutoTitle"><xliff:g>\@string/pref_category_visualThemeAuto</xliff:g></string>
+    <string name="pref_visualThemeAutoTitle">
+        <xliff:g>\@string/pref_category_visualThemeAuto</xliff:g>
+    </string>
     <string name="pref_visualThemeAutoSummary">Nappali vagy éjszakai téma alkalmazása fényerőtől függően</string>
-    <string name="pref_default_color_title"><xliff:g>\@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_default_color_title">
+        <xliff:g>\@string/pref_resetToDefault</xliff:g>
+    </string>
     <string name="pref_buttons_bg_look_title">Gombok felszabadítása</string>
     <string name="pref_buttons_bg_look_summary">Teljesen átlátszó gombok és mezők</string>
     <string name="pref_screen_keep_on_title">Képernyő ébren tartása</string>
@@ -696,22 +708,42 @@
     <string name="pref_roarConstantModeButton_summary">Váltás folyamatos üzemmódba egy koppintással, ha a riasztás aktív</string>
     <string name="pref_fenceguard_title">Eltűnés védelem</string>
     <string name="pref_fenceguard_summary">Az otthon és más személyes helyek rejtése az útvonal rögzítése során</string>
-    <string name="pref_gps_update_freq_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_summary"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_dialog_title"><xliff:g>\@string/pref_category_gps_boost_title</xliff:g></string>
-    <string name="pref_autopause_mode_title"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_gps_update_freq_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_gps_boost_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_gps_boost_summary">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_gps_boost_dialog_title">
+        <xliff:g>\@string/pref_category_gps_boost_title</xliff:g>
+    </string>
+    <string name="pref_autopause_mode_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="pref_autopause_mode_dialog_title">Automatikus szüneteltetés</string>
-    <string name="pref_wakelock_mode_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_wakelock_mode_dialog_title"><xliff:g>\@string/pref_category_wakelock_title</xliff:g></string>
-    <string name="pref_locationProviderMode_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_locationProviderMode_dialog_title"><xliff:g>\@string/pref_category_locationProvider_title</xliff:g></string>
+    <string name="pref_wakelock_mode_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_wakelock_mode_dialog_title">
+        <xliff:g>\@string/pref_category_wakelock_title</xliff:g>
+    </string>
+    <string name="pref_locationProviderMode_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_locationProviderMode_dialog_title">
+        <xliff:g>\@string/pref_category_locationProvider_title</xliff:g>
+    </string>
     <string name="pref_speedometer_limit_title">Mérő felsőhatára</string>
     <string name="pref_speedometer_limit_dialog_title">Sebességmérő felsőhatára</string>
     <string name="pref_speed_calculate_mode_title">Sebesség pontosítása</string>
     <string name="pref_speed_calculate_mode_summary">(Minden profil) Sebesség pontosítása a megtett távolságból, közvetlen GPS használat nélkül. Pontosabb lehet a sebesség kijelzés mint GPS esetén</string>
     <string name="pref_soundeffects_title">Engedélyezve</string>
-    <string name="pref_soundeffects_summary"><xliff:g>\@nulla</xliff:g></string>
+    <string name="pref_soundeffects_summary">
+        <xliff:g>\@nulla</xliff:g>
+    </string>
     <string name="pref_soundeffects_fence_enterleave_title">Zóna</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Hangjelzés, ha be-vagy kilép a védett zóna határán</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
@@ -719,8 +751,12 @@
     <string name="pref_soundeffects_countdown_title">Visszaszámlálás</string>
     <string name="pref_soundeffects_countdown_summary">Hangjelzés, mielőtt az útvonal rögzítés újra indul (...3, 2, 1, Start!)</string>
     <string name="pref_soundeffects_tally_title">Engedélyezve</string>
-    <string name="pref_soundeffects_tally_summary"><xliff:g>\@nulla</xliff:g></string>
-    <string name="pref_soundeffects_tally_value_summary">Minden <xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g></string>
+    <string name="pref_soundeffects_tally_summary">
+        <xliff:g>\@nulla</xliff:g>
+    </string>
+    <string name="pref_soundeffects_tally_value_summary">Minden <xliff:g>%1$s</xliff:g>
+        <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_soundeffects_tally_distance_title">Távolság</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">Távolság ellenőrzése</string>
     <string name="pref_soundeffects_tally_duration_title">Időtartam</string>
@@ -730,7 +766,9 @@
     <string name="pref_soundeffects_tally_descent_title">Ereszkedés</string>
     <string name="pref_soundeffects_tally_descent_dialog_title">Lejtés ellenőrzés</string>
     <string name="pref_soundeffects_alarm_title">Engedélyezve</string>
-    <string name="pref_soundeffects_alarm_summary"><xliff:g>\@nulla</xliff:g></string>
+    <string name="pref_soundeffects_alarm_summary">
+        <xliff:g>\@nulla</xliff:g>
+    </string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Elfelejtett megállítás</string>
     <string name="pref_soundeffects_alarm_gpsPause_summary">Riasztás, ha szüneteltetett rögzítéskor mozgás kezdődik</string>
     <string name="pref_facebook_disable_title">Facebook tiltása</string>
@@ -747,21 +785,28 @@
     <string name="pref_maps_online_mode_dialog_title">Térkép forrása</string>
     <string name="pref_maps_offline_file_title">Fájl, vagy könyvtár választása</string>
     <string name="pref_maps_offline_file_dialog_title">Váltás az offline térkép könyvtárára</string>
-    <string name="pref_maps_offline_file_summary">(Minden profil) <xliff:g>%1$s</xliff:g></string>
+    <string name="pref_maps_offline_file_summary">(Minden profil) <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="pref_maps_offline_file_noFolderSelected">Nincs kiválasztva könyvtár</string>
     <string name="pref_maps_offline_info_title">Letöltés</string>
     <string name="pref_maps_offline_info_summary">Mapsforge vector (.map) and Rmaps raster (.sqlitedb) térképek támogatva. Letölthetőek a : download.mapsforge.org címen</string>
     <string name="pref_maps_offline_warning_summary">Figyelem: Néhány internetes adat offline üzemmódban is elérhető. A térképek használata előtt tiltsd le a mobil internetet, ha nem szükséges</string>
-    <string name="pref_maps_offline_resetToDefault_title"><xliff:g>\@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_maps_offline_resetToDefault_title">
+        <xliff:g>\@string/pref_resetToDefault</xliff:g>
+    </string>
     <string name="pref_maps_routes_draw_title">Útikalauzok</string>
     <string name="pref_maps_routes_draw_summary">A GPX útvonalakat pontozott vonal jelzi a térképen.</string>
     <string name="pref_maps_routes_info_title">Megjegyzés</string>
     <string name="pref_maps_routes_info_summary">Nincs más vizuális vagy hallható jelzés, amely megkönnyíti a navigációt</string>
     <string name="pref_maps_routes_files_title">Fájl vagy könyvtár választása</string>
     <string name="pref_maps_routes_files_dialog_title">Útvonalak tárolási helye</string>
-    <string name="pref_maps_routes_files_summary"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_maps_routes_files_summary">
+        <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="pref_maps_routes_files_noFolderSelected">Nincs választott könyvtár</string>
-    <string name="pref_maps_routes_resetToDefault_title"><xliff:g>\@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_maps_routes_resetToDefault_title">
+        <xliff:g>\@string/pref_resetToDefault</xliff:g>
+    </string>
     <string name="pref_maps_quickZoom_title">Gyors nagyítás</string>
     <string name="pref_maps_quickZoom_summary">(Minden profil) Átlátszó nagyító gombok a térkép alsó részében, tájolásnak megfelelően</string>
     <string name="pref_maps_quickZoomInvert_title">Fordított</string>
@@ -770,7 +815,6 @@
     <string name="pref_maps_offline_terrain_summary">(Minden profil) A terep magasságának megjelenítése színekkel. A térkép valósághűbbnek tűnik, de valószínűleg lassabb. DEM (.ht) fájlokra szükség van a térképmappában....</string>
     <string name="pref_maps_offline_terrain_info_title">Letöltés</string>
     <string name="pref_maps_offline_terrain_info_summary">Nyisd meg a viewfinderpanoramas.org letöltési oldalát</string>
-    <string name="pref_maps_offline_terrain_note_summary">Használat: bontsd ki a .hgt fájlokat a letöltött .zip fájlból, majd másold be az offline térkép fájlokat tartalmazó mappába. (ne hozz létre másik mappát)</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Réteg gomb működése</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Minden profil) Válaszd ki mi történjen a rétegek gomb lenyomásakor</string>
     <string name="pref_button_autoring_enable_title">Automata csengő kapcsoló</string>
@@ -800,13 +844,16 @@
     <string name="pref_powermeter_parameters_info_title">Megjegyzés!</string>
     <string name="pref_powermeter_parameters_info_summary">A pontos mérés érdekében ellenőrizze a megadott értékeket</string>
     <string name="pref_power_weights_title">Súlyok</string>
-    <string name="pref_power_weights_summary">Soför: <xliff:g>%1$s</xliff:g>, Jármű: <xliff:g>%2$s</xliff:g>, Rakomány: <xliff:g>%3$s</xliff:g>, Utasok: <xliff:g>%4$s</xliff:g>, Kerekek száma: <xliff:g>%5$s</xliff:g></string>
+    <string name="pref_power_weights_summary">Soför: <xliff:g>%1$s</xliff:g>, Jármű: <xliff:g>%2$s</xliff:g>, Rakomány: <xliff:g>%3$s</xliff:g>, Utasok: <xliff:g>%4$s</xliff:g>, Kerekek száma: <xliff:g>%5$s</xliff:g>
+    </string>
     <string name="pref_power_coefs_title">Együttható</string>
     <string name="pref_power_coefs_summary">Kijelölt terület: <xliff:g>%1$s
-\n</xliff:g>Görgetés sebessége: <xliff:g>%2$s</xliff:g></string>
+\n</xliff:g>Görgetés sebessége: <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_energy_params_title">Erő beállításai</string>
     <string name="pref_energy_params_summary">Hatékonyság: <xliff:g>%1$s
-\n</xliff:g>Anyagcsere: <xliff:g>%2$s</xliff:g></string>
+\n</xliff:g>Anyagcsere: <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_svg_data_enable_title">Grafikon létrehozása</string>
     <string name="pref_svg_data_enable_summary">SVG grafika létrehozása változó menetparaméterek alapján</string>
     <string name="pref_svg_data_modes_select_title">Grafika típusok kiválasztása</string>
@@ -821,10 +868,14 @@
     <string name="pref_paceIndicator_title">Pillanatnyi sebességmérő</string>
     <string name="pref_paceIndicator_summary">Mutatja, ha gyorsabban vagy lassabban mész az átlagsebességnél</string>
     <string name="pref_haptic_feedback_title">Érintésre vibrál</string>
-    <string name="pref_haptic_feedback_summary"><xliff:g>\@nulla</xliff:g></string>
+    <string name="pref_haptic_feedback_summary">
+        <xliff:g>\@nulla</xliff:g>
+    </string>
     <string name="pref_haptic_feedback_intensity_title">Vibráció erőssége</string>
     <string name="pref_soundsMasterSwitch_title">Minden hang</string>
-    <string name="pref_soundsMasterSwitch_summary"><xliff:g>\@nulla</xliff:g></string>
+    <string name="pref_soundsMasterSwitch_summary">
+        <xliff:g>\@nulla</xliff:g>
+    </string>
     <string name="prefBarometricAltitudeTitle">Légnyomás</string>
     <string name="prefBarometricAltitudeSummary">Használd a beépített barométert a magasság pontos megállapításához</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Hőmérő</string>
@@ -848,7 +899,6 @@
     <string name="prefProhibitLocationSummary">A szükséges adatok (erő, sebesség, ereszkedés, pulzus) a vezeték nélküli szenzoroktól jönnek, nem a műholdról</string>
     <string name="prefMapTrackColorTitle">Nyomvonal színe</string>
     <string name="prefMapGuideRouteColorTitle">útvonal mutató szín</string>
-
     <string name="infoMeterModeDistanceTitle">Távolság</string>
     <string name="infoMeterModeDistanceMsg">Beutazott távolság</string>
     <string name="infoMeterModeDistanceOdoTitle">Úthossz mérő</string>
@@ -890,7 +940,6 @@
     <string name="infoMeterModeGearRatioTitle">Váltó áttétel</string>
     <string name="infoAutopauseForcedRelaxed">Megjegyzés: Automatikus szüneteltetés pihenő időben</string>
     <string name="infoAutopauseForcedOff">Megjegyzés: Automatikus szüneteltetés kikapcsoláskor</string>
-
     <string name="defaultProfileNameBike1">Bicikli 1</string>
     <string name="defaultProfileNameBike2">Bicikli 2</string>
     <string name="defaultProfileNameWalk">Séta</string>
@@ -899,32 +948,22 @@
     <string name="defaultProfileNamePlane">Repülő</string>
     <string name="defaultProfileNameIndoor">Beltér</string>
     <string name="defaultProfileNameOther">Más</string>
-
-
-	<string name="svgCopyright">Urban Biker alkalmazással készült</string>
-
-
-	<string name="fbStoryLiveText">Folyamatban!</string>
+    <string name="svgCopyright">Urban Biker alkalmazással készült</string>
+    <string name="fbStoryLiveText">Folyamatban!</string>
     <string name="fbCourseTitle">Urban Biker támogatásával</string>
-	<string name="fbTemperatureMin">Hőfok. min.</string>
-	<string name="fbTemperatureMax">Hőfok. max.</string>
+    <string name="fbTemperatureMin">Hőfok. min.</string>
+    <string name="fbTemperatureMax">Hőfok. max.</string>
     <string name="trackUploadDescriptionDefault">Az adatok rögzítése az Urban Biker alkalmazással történt</string>
-
-	<string name="menuLicense">Alkalmazás megvásárolása</string>
-
+    <string name="menuLicense">Alkalmazás megvásárolása</string>
     <string name="dialogLicenseBuyTitle">Tetszik az alkalmazás\?</string>
     <string name="dialogLicenseBuyYesButton">Szerezd meg!</string>
     <string name="dialogLicenseBuyNoButton">Később</string>
-
     <string name="licenseItemAlreadyOwned">Licensz megvásárolva</string>
-
     <string name="timePeriod_perWeek">/hét</string>
     <string name="timePeriod_perMonth">/hó</string>
     <string name="timePeriod_per3Months">/3havi</string>
     <string name="timePeriod_per6Months">/6havi</string>
     <string name="timePeriod_perYear">/év</string>
-
     <string name="generalError">Hiba történt. Próbálja újra.</string>
     <string name="openSourceLicensesTitle">Nyílt forráskódú licensz</string>
-
 </resources>

@@ -1,41 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="locale">sk</string>
-
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="locale">sk</string>
     <string name="app_name">Urban Biker</string>
-
     <string name="app_description">Meranie a zaznamenávanie jázd s vysokou presnosťou pre väčšiu bezpečnosť a efektívnosť.</string>
-
     <string name="widget_1_description">Cyklista: Zvonček</string>
     <string name="widget_2_description">Cyklista: Zvonček + Svetlo</string>
     <string name="widget_3_description">Cyklista: Komplet</string>
-
     <string name="copyright_part1">&lt;xliff:g&gt;<b>v%1$s</b> (%2$s)&lt;/xliff:g&gt;</string>
-
     <string name="proLicenseLabel">Pro</string>
     <string name="proPlusLicenseLabel">Pro+</string>
     <string name="ultimateLicenseLabel">Ultimate</string>
-
     <string name="proLicenseTitle">Pro License</string>
     <string name="proLicenseDescription">Odstránenie reklamy</string>
-
     <string name="proPlusLicenseTitle">Pro Plus License</string>
     <string name="proPlusLicenseDescription">Odstránenie reklamy a odomknutie všetkých dostupných funkcií</string>
-
     <string name="ultimateLicenseTitle">Ultimate License</string>
     <string name="ultimateLicenseDescriptionMonthly">Odomknutie všetkých funkcií a dostupných máp (mesačné predplatné)</string>
     <string name="ultimateLicenseDescriptionYearly">Odomknutie všetkých funkcií a dostupných máp (ročné predplatné)</string>
-
-
     <string name="ok">OK</string>
     <string name="yes">Áno</string>
     <string name="no">Nie</string>
     <string name="cancel">Zrušiť</string>
     <string name="buttonUnderstand">Rozumiem</string>
-
     <string name="buttonResumeTrack">Obnoviť</string>
     <string name="buttonNewTrack">Ukončiť</string>
-
     <string name="menuControlPanel">Ovládací panel</string>
     <string name="menuSettings">Nastavenia</string>
     <string name="menuSummary">Prehľad</string>
@@ -71,24 +59,21 @@
     <string name="menuCenterOnMap">Vycentrovať</string>
     <string name="menuClose">Zavrieť</string>
     <string name="menuInfo">Info</string>
-    <string name="menuFeedback">Poslať odozvu</string>
     <string name="menuRateAndComment">Ohodnotiť</string>
     <string name="menuRefresh">Obnoviť</string>
     <string name="menuSwitchProfile">Prepnúť na profil</string>
-
     <string name="share_title">Poslať cez</string>
-    <string name="share_subject"><xliff:g>\@string/app_name</xliff:g></string>
-
+    <string name="share_subject">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
     <string name="pick_a_color">Vybrať farbu</string>
-
     <string name="fence_name_default">Moje miesto</string>
     <string name="profileNameDefault">Nový profil</string>
-
     <string name="featureNotAvailable">Funkcia nie je dostupná na tomto zariadení</string>
     <string name="farFromHere">Vzdialená pozícia</string>
-
     <string name="toastRestartRequired">Uplatnenie tejto zmeny vyžaduje reštart aplikácie</string>
-    <string name="toastActiveProfile">Profil: <xliff:g>%1$s</xliff:g></string>
+    <string name="toastActiveProfile">Profil: <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="toastProfileSavingError">Chyba pri ukladaní údajov profilu! Skús znovu.</string>
     <string name="toastProfileChangeError">Chyba pri prepínaní profilu! Skús znovu.</string>
     <string name="toastGpsEnabled">GPS zapnuté</string>
@@ -143,17 +128,20 @@
     <string name="toastSensorDisabled">Snímač zakázaný</string>
     <string name="toastAutoThemeActivated">Automatická kombinácia aktívna</string>
     <string name="toastCancelled">Zrušené</string>
-
-    <string name="notificationTitle"><xliff:g>\@string/app_name</xliff:g></string>
-    <string name="notificationTitleAdvanced"><xliff:g>%1$s</xliff:g></string>
-    <string name="notificationTitleAdvancedPaused">Pozastavené: <xliff:g>%1$s</xliff:g></string>
-
-    <string name="licenseSuccessDialogTitle"><xliff:g>\@string/app_name</xliff:g></string>
+    <string name="notificationTitle">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
+    <string name="notificationTitleAdvanced">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="notificationTitleAdvancedPaused">Pozastavené: <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="licenseSuccessDialogTitle">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
     <string name="licenseSuccessDialogMessage">Licencia bola úspešne pridelená. Vdaka za podporu.</string>
-
     <string name="ongoingNotificationChannelName">Altuálne oznámenie</string>
     <string name="ongoingNotificationChannelDescription">Prebieha overovanie fungovania aplikácie</string>
-
     <string name="dialog_default_color_light_title">Kombinácia 1</string>
     <string name="dialog_default_color_dark_title">Kombinácia 2</string>
     <string name="dialog_default_color_text">Nastavenie uplatní predvolené farby. Pokračovať\?</string>
@@ -166,7 +154,9 @@
     <string name="dialog_volume_message">Poznámka: Na celkové ovládanie zvuku slúžia tlačidlá hlasitosti.</string>
     <string name="dialog_bell_automatic_sensitivity_title">Citlivosť automatického zvončeka</string>
     <string name="dialog_bell_shake_sensitivity_title">Citlivosť potrasenia</string>
-    <string name="dialog_fenceguard_title"><xliff:g>\@string/menuFenceguard</xliff:g></string>
+    <string name="dialog_fenceguard_title">
+        <xliff:g>\@string/menuFenceguard</xliff:g>
+    </string>
     <string name="dialog_fenceguard_add_title">Pridať chránenú oblasť</string>
     <string name="dialog_fenceguard_add_text">Pomenovať novú chránenú oblasť:</string>
     <string name="dialog_fenceguard_add_text2">FenceGuard ohraničí aktuálnu polohu, aby ju nebolo možné vidieť v nahratých trasách.</string>
@@ -178,10 +168,13 @@
     <string name="dialog_fenceguard_remove_formatText">Naozaj odstrániť chránenú oblasť <xliff:g>%1$s</xliff:g>\?</string>
     <string name="dialog_track_save_text">Vzdialenosť <xliff:g>%1$.3f %2$s
 \n</xliff:g>Trvanie <xliff:g>%3$s
-\n</xliff:g><xliff:g>(%4$s)
+\n</xliff:g>
+        <xliff:g>(%4$s)
 \n
 \n</xliff:g>Nahratá trasa sa zdá krátka. Uložiť\?</string>
-    <string name="dialog_exit_title"><xliff:g>\@string/app_name</xliff:g></string>
+    <string name="dialog_exit_title">
+        <xliff:g>\@string/app_name</xliff:g>
+    </string>
     <string name="dialog_exit_msg">Upozornenie: Je aktívne trasovanie, ktoré bude ukončené!</string>
     <string name="dialogProfileDeleteTitle">Vymazať profil</string>
     <string name="dialogProfileDeleteMessage">Upozornenie: Vymažú sa všetky údaje a nastavenia profilu! Uložené trasy zostanú nezmenené.
@@ -244,13 +237,27 @@
     <string name="dialogMapsHighResolution">Mapa v HD</string>
     <string name="dialogMapsRenderTerrain">Vyobrazovanie terénu</string>
     <string name="dialogMapsTrackColor">Farba trasy:</string>
-    <string name="dialogMapsTrackColorAltitude"><xliff:g>\@string/infoMeterModeAltitudeTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorSpeed"><xliff:g>\@string/infoMeterModeSpeedTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorDuration"><xliff:g>\@string/infoMeterModeDurationTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorElapsed"><xliff:g>\@string/summaryTotalTime</xliff:g></string>
-    <string name="dialogMapsTrackColorHeartRate"><xliff:g>\@string/infoMeterModeHeartRateTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorCadence"><xliff:g>\@string/infoMeterModeCadenceTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorTemperature"><xliff:g>\@string/infoMeterModeTemperatureTitle</xliff:g></string>
+    <string name="dialogMapsTrackColorAltitude">
+        <xliff:g>\@string/infoMeterModeAltitudeTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorSpeed">
+        <xliff:g>\@string/infoMeterModeSpeedTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorDuration">
+        <xliff:g>\@string/infoMeterModeDurationTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorElapsed">
+        <xliff:g>\@string/summaryTotalTime</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorHeartRate">
+        <xliff:g>\@string/infoMeterModeHeartRateTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorCadence">
+        <xliff:g>\@string/infoMeterModeCadenceTitle</xliff:g>
+    </string>
+    <string name="dialogMapsTrackColorTemperature">
+        <xliff:g>\@string/infoMeterModeTemperatureTitle</xliff:g>
+    </string>
     <string name="dialogFencesAdd">Pridať chránenú oblasť</string>
     <string name="dialogFencesUpdate">Aktualizovať polohu chránenej oblasti</string>
     <string name="dialogFencesEdit">Upraviť chránenú oblasť</string>
@@ -284,16 +291,26 @@
     <string name="dialogTrackUploadPlatform">Online služba</string>
     <string name="dialogTrackUploadStravaIsCommute">Dochádzanie</string>
     <string name="dialogSvgTitle">SVG-grafy</string>
-    <string name="dialogSvgDistanceTitle"><xliff:g>\@string/infoMeterModeDistanceTitle</xliff:g></string>
-    <string name="dialogSvgDurationTitle"><xliff:g>\@string/infoMeterModeDurationTitle</xliff:g></string>
+    <string name="dialogSvgDistanceTitle">
+        <xliff:g>\@string/infoMeterModeDistanceTitle</xliff:g>
+    </string>
+    <string name="dialogSvgDurationTitle">
+        <xliff:g>\@string/infoMeterModeDurationTitle</xliff:g>
+    </string>
     <string name="dialogGpsIntervalTitle">Interval aktualizácie GPS</string>
-    <string name="dialogGpsIntervalValue"><xliff:g>%1$s</xliff:g></string>
+    <string name="dialogGpsIntervalValue">
+        <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="dialogGpsIntervalNote">Poznámka: Pre získavanie čo najpresnejších údajov je potrebné zachovať frekvenciu do 3 sekúnd.</string>
-    <string name="dialogGpsIntervalLabelMore"><xliff:g>◀
+    <string name="dialogGpsIntervalLabelMore">
+        <xliff:g>◀
 \n</xliff:g>Väčšia presnosť a menšia výdrž batérie</string>
-    <string name="dialogGpsIntervalLabelLess"><xliff:g>▶
+    <string name="dialogGpsIntervalLabelLess">
+        <xliff:g>▶
 \n</xliff:g>Menšia presnosť a väčšia výdrž batérie</string>
-    <string name="dialogHapticIntensityTitle"><xliff:g>\@string/pref_haptic_feedback_intensity_title</xliff:g></string>
+    <string name="dialogHapticIntensityTitle">
+        <xliff:g>\@string/pref_haptic_feedback_intensity_title</xliff:g>
+    </string>
     <string name="dialogSliderLess">◀</string>
     <string name="dialogSliderMore">▶</string>
     <string name="dialogLocationPermissionRequestTitle">Lokalizačné oprávnenie</string>
@@ -307,12 +324,10 @@
     <string name="dialogPermissionProblemMessage">Oprávnenia sú nevyhnutné pre správne fungovanie aplikácie.<xliff:g>
 \n
 \n</xliff:g>Prejsť do nastavení\?</string>
-
-	<string name="mapLayerStreet">Ulice</string>
+    <string name="mapLayerStreet">Ulice</string>
     <string name="mapLayerTerrain">Terén</string>
     <string name="mapLayerSatellite">Satelit</string>
-
-	<string name="unitKm">km</string>
+    <string name="unitKm">km</string>
     <string name="unitKmh">km/h</string>
     <string name="unitMiles">M</string>
     <string name="unitMph">M/h</string>
@@ -366,11 +381,10 @@
     <string name="unitMilliseconds">ms</string>
     <string name="unitDegree">°</string>
     <string name="unitMegabyte">MB</string>
-
-    <string name="durationHrMin"><xliff:g>%1$d:%2$02d</xliff:g></string>
-
+    <string name="durationHrMin">
+        <xliff:g>%1$d:%2$02d</xliff:g>
+    </string>
     <string name="valueTimesCount">×</string>
-
     <string name="meterGPS">GPS</string>
     <string name="meterModeSpeed">rýchlosť</string>
     <string name="meterModeSpeedShort">rýchl.</string>
@@ -429,7 +443,6 @@
     <string name="meterTextMax">max.</string>
     <string name="meterTextAvg">priem.</string>
     <string name="meterTextTotal">tot</string>
-
     <string name="controlPanelSoundAutoBell">Automatický zvonček</string>
     <string name="controlPanelSoundRoar">Vrčanie</string>
     <string name="controlPanelSoundEffects">Efekty</string>
@@ -437,25 +450,28 @@
     <string name="controlPanelSoundTallies">Hlásenia</string>
     <string name="controlPanelSoundVolume">Hlasitosť</string>
     <string name="controlPanelEnergyParams">Parametre výkonu a energie</string>
-
     <string name="profilesListTitle">Profily</string>
     <string name="profilesListTitleSelectProfile">Vybrať profil</string>
     <string name="profilesListAddProfile">Nový Profil</string>
-    <string name="profilesListRowLastActivity"><xliff:g>%1$s</xliff:g></string>
-    <string name="profilesListRowTotalsSince">Celkovo od: <xliff:g>%1$s</xliff:g></string>
+    <string name="profilesListRowLastActivity">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="profilesListRowTotalsSince">Celkovo od: <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="profilesListButtonResetTotals">Vynulovať</string>
     <string name="profilesListProfileNotUsed">(nepoužívaný)</string>
     <string name="profilesListLoading">Načítava sa...</string>
-
     <string name="cloudAccountsTitle">Účty</string>
     <string name="cloudAccountsInfo">Pripojenie sa do cloudovej služby uľahčuje zdieľanie trás s druhými.<xliff:g>
 \n
 \n</xliff:g>Neodosielajú sa žiadne údaje bez povolenia.</string>
     <string name="accountDisconnect">Odhlásiť sa</string>
-    <string name="googleFitConnectButton">Prihlásiť sa cez <xliff:g>Google Fit</xliff:g></string>
-    <string name="stravaTrackPrivacyInfo">Trasa bude obsahovať zásady ochrany súkromia prednastavené na <xliff:g>Strava</xliff:g></string>
-    <string name="facebookConnectButton">Prihlásiť sa cez <xliff:g>Facebook</xliff:g></string>
-
+    <string name="googleFitConnectButton">Prihlásiť sa cez <xliff:g>Google Fit</xliff:g>
+    </string>
+    <string name="stravaTrackPrivacyInfo">Trasa bude obsahovať zásady ochrany súkromia prednastavené na <xliff:g>Strava</xliff:g>
+    </string>
+    <string name="facebookConnectButton">Prihlásiť sa cez <xliff:g>Facebook</xliff:g>
+    </string>
     <string name="tracksHistoryListTitle">Prejdené trasy</string>
     <string name="tracksHistoryListTitleSelect">Zvoliť</string>
     <string name="tracksHistoryListEmpty">Žiadne uložené trasy.</string>
@@ -468,7 +484,6 @@
     <string name="tracksHistoryListButtonDelete">Vymazať</string>
     <string name="tracksHistoryListShareTrackDialogTitle">Zdieľať trasu...</string>
     <string name="tracksHistoryListViewTrackDialogTitle">Pozrieť si trasu...</string>
-
     <string name="summaryTotalWeight">Celková hmotnosť</string>
     <string name="summaryWheelsWeight">Hmotnosť kolies</string>
     <string name="summaryEfficiency">Účinnosť</string>
@@ -477,7 +492,9 @@
     <string name="summaryBasalMetabolicRate">Bazálny metabolizmus</string>
     <string name="summaryLocationInterval">Lokalizačný interval</string>
     <string name="summaryDeviceRestartsCount">Vynútené reštartovanie</string>
-    <string name="summaryEnergyParams"><xliff:g>\@string/controlPanelEnergyParams</xliff:g></string>
+    <string name="summaryEnergyParams">
+        <xliff:g>\@string/controlPanelEnergyParams</xliff:g>
+    </string>
     <string name="summaryStartedDatetime">Začatie</string>
     <string name="summaryEndedDatetime">Ukončenie</string>
     <string name="summaryTotalTime">Celkový čas</string>
@@ -492,21 +509,17 @@
     <string name="sensorsSectionUnsupported">Nepodporované</string>
     <string name="sensorsEmptyList">Prázdny zoznam</string>
     <string name="sensorsMenuScan">Zistiť</string>
-
     <string name="sensorMenuAddToProfile">Pridať do profilu</string>
     <string name="sensorMenuRemoveFromProfile">Odstrániť z profilu</string>
     <string name="sensorMenuProperties">Vlastnosti</string>
     <string name="sensorMenuEnable">Povoliť</string>
     <string name="sensorMenuDisable">Zakázať</string>
     <string name="sensorMenuDelete">Vymazať</string>
-
     <string name="sensorRemoveConfirmDialogMsg">Odstrániť snímač z profilu\?</string>
     <string name="sensorDeleteConfirmDialogMsg">Odstrániť snímač z profilu\?</string>
-
     <string name="sensorAddedMsg">Snímač pridaný do profilu</string>
     <string name="sensorRemovedMsg">Snímač odstránený z profilu</string>
     <string name="sensorDeletedMsg">Snímač vymazaný</string>
-
     <string name="sensorPurposeNone">(nepridelené)</string>
     <string name="sensorPurposeCadence">Kadencia</string>
     <string name="sensorPurposeSpeed">Rýchlosť</string>
@@ -514,7 +527,6 @@
     <string name="sensorPurposeDuration">Trvanie</string>
     <string name="sensorPurposePower">Výkon</string>
     <string name="sensorPurposeHeartRate">Srdcový tep</string>
-
     <string name="sensorProperitesProfileInfo">Vlastnosti snímača sa nastavujú pre každý profil zvlášť. Tie aktuálne platia len pre práve aktívny profil (<xliff:g id="profile_name">%1$s</xliff:g>).</string>
     <string name="sensorProperitesUseForSpeed">Pre rýchlosť</string>
     <string name="sensorProperitesUseForCadence">Pre kadenciu</string>
@@ -530,12 +542,10 @@
     <string name="sensorStatusConnected">Pripojené</string>
     <string name="sensorStatusConnecting">Pripája sa...</string>
     <string name="sensorStatusDisconnected">Odpojené</string>
-
     <string name="pref_text_off">Vypnuté</string>
     <string name="pref_text_min">Min.</string>
     <string name="pref_text_medium">Stred</string>
     <string name="pref_text_max">Max.</string>
-
     <string name="settingsTitle">Nastavenia</string>
     <string name="pref_category1_title">Zvuk</string>
     <string name="pref_category2_title">Zobrazenie</string>
@@ -611,7 +621,6 @@
     <string name="pref_category_mapsCache">Vyrovnávacia pamäť</string>
     <string name="prefAllProfilesInfoTitle">Poznámka!</string>
     <string name="prefAllProfilesInfoSummary">Tieto nastavenia platia pre všetky profily.</string>
-
     <string name="pref_app_language_summary">(Všetky profily)</string>
     <string name="pref_app_language_dialog_title">Jazyk</string>
     <string name="pref_app_language_translate_title">Preklad</string>
@@ -649,14 +658,19 @@
     <string name="pref_roaring_type_title">Typ</string>
     <string name="pref_roaring_type_dialog_title">Typ vrčania</string>
     <string name="pref_volume_summary_text">Zvonček:<xliff:g> %1$s</xliff:g>, Vrčanie:<xliff:g> %2$s
-\n</xliff:g>Hlásenia:<xliff:g> %3$s</xliff:g>, Efekty:<xliff:g> %4$s</xliff:g>, Upozornenia:<xliff:g> %5$s</xliff:g></string>
+\n</xliff:g>Hlásenia:<xliff:g> %3$s</xliff:g>, Efekty:<xliff:g> %4$s</xliff:g>, Upozornenia:<xliff:g> %5$s</xliff:g>
+    </string>
     <string name="pref_bg_color_title">Farba pozadia</string>
     <string name="pref_bg_color_summary">Vybrať požadovanú farbu pozadia</string>
     <string name="pref_fg_color_title">Farba znakov</string>
     <string name="pref_fg_color_summary">Vybrať požadovanú farbu textu a ikon</string>
-    <string name="pref_visualThemeAutoTitle"><xliff:g>\@string/pref_category_visualThemeAuto</xliff:g></string>
+    <string name="pref_visualThemeAutoTitle">
+        <xliff:g>\@string/pref_category_visualThemeAuto</xliff:g>
+    </string>
     <string name="pref_visualThemeAutoSummary">Voliť jednu alebo druhú farebnú kombináciu podľa vonkajších svetelných podmienok</string>
-    <string name="pref_default_color_title"><xliff:g>\@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_default_color_title">
+        <xliff:g>\@string/pref_resetToDefault</xliff:g>
+    </string>
     <string name="pref_buttons_bg_look_title">Priehľadné tlačidlá</string>
     <string name="pref_buttons_bg_look_summary">Celkom priehľadné polia tlačidiel</string>
     <string name="pref_screen_keep_on_title">Nezhasínať obrazovku</string>
@@ -698,22 +712,42 @@
     <string name="pref_roarConstantModeButton_summary">Prepínať na konštantný mód jednoduchým ťuknutím</string>
     <string name="pref_fenceguard_title">FenceGuard</string>
     <string name="pref_fenceguard_summary">Skrývať domácu polohu alebo polohu dôležitých miest</string>
-    <string name="pref_gps_update_freq_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_summary"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_dialog_title"><xliff:g>\@string/pref_category_gps_boost_title</xliff:g></string>
-    <string name="pref_autopause_mode_title"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_gps_update_freq_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_gps_boost_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_gps_boost_summary">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_gps_boost_dialog_title">
+        <xliff:g>\@string/pref_category_gps_boost_title</xliff:g>
+    </string>
+    <string name="pref_autopause_mode_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="pref_autopause_mode_dialog_title">Automatické pozastavenie</string>
-    <string name="pref_wakelock_mode_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_wakelock_mode_dialog_title"><xliff:g>\@string/pref_category_wakelock_title</xliff:g></string>
-    <string name="pref_locationProviderMode_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_locationProviderMode_dialog_title"><xliff:g>\@string/pref_category_locationProvider_title</xliff:g></string>
+    <string name="pref_wakelock_mode_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_wakelock_mode_dialog_title">
+        <xliff:g>\@string/pref_category_wakelock_title</xliff:g>
+    </string>
+    <string name="pref_locationProviderMode_title">
+        <xliff:g>%1$s</xliff:g>
+    </string>
+    <string name="pref_locationProviderMode_dialog_title">
+        <xliff:g>\@string/pref_category_locationProvider_title</xliff:g>
+    </string>
     <string name="pref_speedometer_limit_title">Ukazovateľ max.</string>
     <string name="pref_speedometer_limit_dialog_title">Ukazovateľ rýchlosti max.</string>
     <string name="pref_speed_calculate_mode_title">Vypočítavať rýchlosť</string>
     <string name="pref_speed_calculate_mode_summary">(Všetky profily) Vypočítavať rýchlosť zo vzdialeností namiesto priameho používania GPS-hodnôt, čo môže poskytovať presnejšie údaje vyhodnocujúc hodnoty Dopplerovho javu</string>
     <string name="pref_soundeffects_title">Povoliť</string>
-    <string name="pref_soundeffects_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_soundeffects_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="pref_soundeffects_fence_enterleave_title">Chránená oblasť</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Zvuk pri vstupe do a výstupe z chránenej oblasti</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
@@ -721,8 +755,12 @@
     <string name="pref_soundeffects_countdown_title">Odpočítavanie</string>
     <string name="pref_soundeffects_countdown_summary">Zvuk pri odpočítavaní do obnovenia trasy (…3, 2, 1, Štart!)</string>
     <string name="pref_soundeffects_tally_title">Povoliť</string>
-    <string name="pref_soundeffects_tally_summary"><xliff:g>\@null</xliff:g></string>
-    <string name="pref_soundeffects_tally_value_summary">Po každých <xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g></string>
+    <string name="pref_soundeffects_tally_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
+    <string name="pref_soundeffects_tally_value_summary">Po každých <xliff:g>%1$s</xliff:g>
+        <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_soundeffects_tally_distance_title">Vzdialenosť</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">Hlásenie vzdialenosti</string>
     <string name="pref_soundeffects_tally_duration_title">Trvanie</string>
@@ -732,7 +770,9 @@
     <string name="pref_soundeffects_tally_descent_title">Klesanie</string>
     <string name="pref_soundeffects_tally_descent_dialog_title">Hlásenie klesania</string>
     <string name="pref_soundeffects_alarm_title">Povoliť</string>
-    <string name="pref_soundeffects_alarm_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_soundeffects_alarm_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Zabudnutá prestávka</string>
     <string name="pref_soundeffects_alarm_gpsPause_summary">Prehrať upozornenie pri zaznamenaní výraznejšieho pohybu, ak je trasovanie pozastavené</string>
     <string name="pref_facebook_disable_title">Zakázať Facebook</string>
@@ -749,20 +789,27 @@
     <string name="pref_maps_online_mode_dialog_title">Zdroj máp</string>
     <string name="pref_maps_offline_file_title">Zvoliť súbor alebo priečinok</string>
     <string name="pref_maps_offline_file_dialog_title">Zvoliť priečinok offline-máp</string>
-    <string name="pref_maps_offline_file_summary">(Všetky profily) <xliff:g>%1$s</xliff:g></string>
+    <string name="pref_maps_offline_file_summary">(Všetky profily) <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="pref_maps_offline_file_noFolderSelected">Nie je zvolený žiadny priečinok.</string>
     <string name="pref_maps_offline_info_title">Stiahnuť</string>
     <string name="pref_maps_offline_info_summary">Podporované formáty vektorových (.map) a rastrových (.sqlitedb) máp si možno stiahnuť na download.mapsforge.org alebo vytvoriť pomocou programu Mobac (mobac.sourceforge.net)</string>
     <string name="pref_maps_offline_warning_summary">Upozornenie: Môžu sa načítavať online-dáta pri zapnutom mobilnom internete.</string>
-    <string name="pref_maps_offline_resetToDefault_title"><xliff:g>\@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_maps_offline_resetToDefault_title">
+        <xliff:g>\@string/pref_resetToDefault</xliff:g>
+    </string>
     <string name="pref_maps_routes_draw_title">Zadané trasy</string>
     <string name="pref_maps_routes_info_title">Poznámka!</string>
     <string name="pref_maps_routes_info_summary">Nie su podporované žiadne obrazové či zvukové upozornenia na vybočenie z trasy.</string>
     <string name="pref_maps_routes_files_title">Zvoliť súbor alebo prečinok</string>
     <string name="pref_maps_routes_files_dialog_title">Zvoliť priečinok alebo súbor trás</string>
-    <string name="pref_maps_routes_files_summary"><xliff:g>%1$s</xliff:g></string>
+    <string name="pref_maps_routes_files_summary">
+        <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="pref_maps_routes_files_noFolderSelected">Nie je zvolený žiadny priečinok.</string>
-    <string name="pref_maps_routes_resetToDefault_title"><xliff:g>\@string/pref_resetToDefault</xliff:g></string>
+    <string name="pref_maps_routes_resetToDefault_title">
+        <xliff:g>\@string/pref_resetToDefault</xliff:g>
+    </string>
     <string name="pref_maps_quickZoom_title">Tlačidlá rýchleho zoomu</string>
     <string name="pref_maps_quickZoom_summary">(Všetky profily) Povoliť priehľadné tlacidlá rýchleho zoomu</string>
     <string name="pref_maps_quickZoomInvert_title">Tlačidlá naopak</string>
@@ -771,7 +818,6 @@
     <string name="pref_maps_offline_terrain_summary">(Všetky profily) Zobrazovať vrstevnice na mape prostredníctvom súborov DEM (.hgt)</string>
     <string name="pref_maps_offline_terrain_info_title">Stiahnuť súbory...</string>
     <string name="pref_maps_offline_terrain_info_summary">viewfinderpanoramas.org</string>
-    <string name="pref_maps_offline_terrain_note_summary">Extrahované subory .hgt treba umiestniť priamo do priečinka s mapami, nie do samostatného podpriečinka.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Tlačidlo vrstiev</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Všetky profily) Definovanie funkcie tlačidla vrstiev pri zobrazovaní mapy</string>
     <string name="pref_button_autoring_enable_title">Prepínač aut. zvonenia</string>
@@ -801,13 +847,16 @@
     <string name="pref_powermeter_parameters_info_title">Poznámka!</string>
     <string name="pref_powermeter_parameters_info_summary">Pre získavanie čo najpresnejších hodnôt výkonu a energie treba zadávať správne parametre na vyhodnocovanie.</string>
     <string name="pref_power_weights_title">Hmotnosti</string>
-    <string name="pref_power_weights_summary">Vodič: <xliff:g>%1$s</xliff:g>, Vozidlo: <xliff:g>%2$s</xliff:g>, Náklad: <xliff:g>%3$s</xliff:g>, Spolujazdci: <xliff:g>%4$s</xliff:g>, Kolesá: <xliff:g>%5$s</xliff:g></string>
+    <string name="pref_power_weights_summary">Vodič: <xliff:g>%1$s</xliff:g>, Vozidlo: <xliff:g>%2$s</xliff:g>, Náklad: <xliff:g>%3$s</xliff:g>, Spolujazdci: <xliff:g>%4$s</xliff:g>, Kolesá: <xliff:g>%5$s</xliff:g>
+    </string>
     <string name="pref_power_coefs_title">Súčinitele</string>
     <string name="pref_power_coefs_summary">Plocha čelného odporu: <xliff:g>%1$s
-\n</xliff:g>Valivé trenie: <xliff:g>%2$s</xliff:g></string>
+\n</xliff:g>Valivé trenie: <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_energy_params_title">Parametre energie</string>
     <string name="pref_energy_params_summary">Účinnosť: <xliff:g>%1$s
-\n</xliff:g>Metabolizmus: <xliff:g>%2$s</xliff:g></string>
+\n</xliff:g>Metabolizmus: <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_svg_data_enable_title">Vytvárať grafy</string>
     <string name="pref_svg_data_enable_summary">Vytvárať dátové súbory podľa SVG-grafov pre rôzne jazdné parametre</string>
     <string name="pref_svg_data_modes_select_title">Zvoliť druhy grafov...</string>
@@ -822,10 +871,14 @@
     <string name="pref_paceIndicator_title">Ukazovateľ tempa</string>
     <string name="pref_paceIndicator_summary">Zobrazuje či je aktuálna rýchlosť vyššia alebo nižšia ako priemerná rýchlosť</string>
     <string name="pref_haptic_feedback_title">Vibrovať pri dotyku</string>
-    <string name="pref_haptic_feedback_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_haptic_feedback_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="pref_haptic_feedback_intensity_title">Intenzita vibrácie</string>
     <string name="pref_soundsMasterSwitch_title">Všetky zvuky</string>
-    <string name="pref_soundsMasterSwitch_summary"><xliff:g>\@null</xliff:g></string>
+    <string name="pref_soundsMasterSwitch_summary">
+        <xliff:g>\@null</xliff:g>
+    </string>
     <string name="prefBarometricAltitudeTitle">Barometrická nadm. výška</string>
     <string name="prefBarometricAltitudeSummary">Používať vstavaný barometer na presnejšie určovanie nadm. výšky</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Termobarometer</string>
@@ -888,7 +941,6 @@
     <string name="infoMeterModeGearRatioTitle">Prevodový pomer</string>
     <string name="infoAutopauseForcedRelaxed">Poznámka: Automatické pozastavenie vyhodnocované ako Pri oddychu.</string>
     <string name="infoAutopauseForcedOff">Poznámka: Automatické pozastavenie vyhodnocované ako Vypnuté.</string>
-
     <string name="defaultProfileNameBike1">Bicykel 1</string>
     <string name="defaultProfileNameBike2">Bicykel 2</string>
     <string name="defaultProfileNameWalk">Chôdza</string>
@@ -897,32 +949,22 @@
     <string name="defaultProfileNamePlane">Lietadlo</string>
     <string name="defaultProfileNameIndoor">Vnútri</string>
     <string name="defaultProfileNameOther">Iné</string>
-
-
-	<string name="svgCopyright">Vytvorené v Urban Biker</string>
-
-
-	<string name="fbStoryLiveText">Na ceste!</string>
+    <string name="svgCopyright">Vytvorené v Urban Biker</string>
+    <string name="fbStoryLiveText">Na ceste!</string>
     <string name="fbCourseTitle">Powered by Urban Biker</string>
-	<string name="fbTemperatureMin">Teplota min.</string>
-	<string name="fbTemperatureMax">Teplota max.</string>
+    <string name="fbTemperatureMin">Teplota min.</string>
+    <string name="fbTemperatureMax">Teplota max.</string>
     <string name="trackUploadDescriptionDefault">Aktivita zaznamenaná pomocou mobilnej aplikácie Urban Biker</string>
-
-	<string name="menuLicense">Zakúpiť licenciu</string>
-
+    <string name="menuLicense">Zakúpiť licenciu</string>
     <string name="dialogLicenseBuyTitle">Páči sa ti aplikácia\?</string>
     <string name="dialogLicenseBuyYesButton">Získať</string>
     <string name="dialogLicenseBuyNoButton">Teraz nie</string>
-
     <string name="licenseItemAlreadyOwned">Licencia už bola zakúpená</string>
-
     <string name="timePeriod_perWeek">/týždeň</string>
     <string name="timePeriod_perMonth">/mesiac</string>
     <string name="timePeriod_per3Months">/3 mesiace</string>
     <string name="timePeriod_per6Months">/6 mesiacov</string>
     <string name="timePeriod_perYear">/rok</string>
-
     <string name="generalError">Vyskytla sa chyba.</string>
     <string name="openSourceLicensesTitle">Licencie z otvorených zdrojov</string>
-
 </resources>
