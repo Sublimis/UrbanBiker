@@ -1,32 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="locale">nl</string>
-
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="locale">nl</string>
     <string name="app_name">Urban Biker</string>
-
     <string name="app_description">Track en meet uw ritten met grote precisie. Vergroot uw fietsveiligheid en efficiency.</string>
-
     <string name="widget_1_description">Fietser: Fietsbel</string>
     <string name="widget_2_description">Fietser: Bel + Zaklamp</string>
     <string name="widget_3_description">Fietser: Compleet</string>
-
     <string name="copyright_part1">&lt;xliff:g&gt;<b>v%1$s</b> (%2$s)&lt;/xliff:g&gt;</string>
-
     <string name="proLicenseLabel">Pro</string>
     <string name="proPlusLicenseLabel">Pro+</string>
     <string name="ultimateLicenseLabel">Ultimate</string>
-
     <string name="proLicenseTitle">Pro License</string>
     <string name="proLicenseDescription">Remove ads</string>
-
     <string name="proPlusLicenseTitle">Pro Plus License</string>
     <string name="proPlusLicenseDescription">Remove ads and unlock all non-subscription features we may add in the future</string>
-
     <string name="ultimateLicenseTitle">Ultimate License</string>
     <string name="ultimateLicenseDescriptionMonthly">All features and maps unlocked (monthly subscription)</string>
     <string name="ultimateLicenseDescriptionYearly">All features and maps unlocked (yearly subscription)</string>
-
-
     <string name="ok">OK</string>
     <string name="yes">Ja</string>
     <string name="no">Nee</string>
@@ -55,16 +45,13 @@
     <string name="menuClose">Sluit</string>
     <string name="menuInfo">Informatie</string>
     <string name="share_title">Verzend via</string>
-    <string name="share_subject"><xliff:g>\@string/app_name</xliff:g></string>
-
     <string name="pick_a_color">Kies een kleur</string>
-
     <string name="fence_name_default">Mijn huis</string>
     <string name="profileNameDefault">Nieuw profiel</string>
-
     <string name="featureNotAvailable">Sorry, deze functie is niet beschikbaar op dit apparaat</string>
     <string name="toastRestartRequired">AUB opnieuw opstarten om de instellingen actief te maken</string>
-    <string name="toastActiveProfile">Profiel: <xliff:g>%1$s</xliff:g></string>
+    <string name="toastActiveProfile">Profiel: <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="toastProfileSavingError">Fout tijdens het opslaan van de profiles data! Probeer het nogmaals.</string>
     <string name="toastProfileChangeError">Kan niet van profiel wisselen! Probeer het nogmaals.</string>
     <string name="toastGpsEnabled">GPS ingeschakeld</string>
@@ -103,7 +90,6 @@
     <string name="toastErrorCreatingOfflineMap">Fout tijdens creëren van de offline kaart</string>
     <string name="toastErrorAccessingExternalStorage">Fout tijdens de toegang tot de externe opslag</string>
     <string name="toastErrorPowerParametersVoid">Vul AUB de vermogens parameters in bij de Instellingen</string>
-    <string name="notificationTitle"><xliff:g>\@string/app_name</xliff:g></string>
     <string name="dialog_default_color_light_title">Lichte kleuren schema</string>
     <string name="dialog_default_color_dark_title">Donkere kleuren schema</string>
     <string name="dialog_default_color_text">Hiermee laad u de standaard kleuren schema. Weet u het zeker\?</string>
@@ -114,7 +100,6 @@
     <string name="dialog_volume_message">Opmerking: Gebruik de volumeknoppen op uw apparaat om het algemene geluidsvolume aan te passen</string>
     <string name="dialog_bell_automatic_sensitivity_title">Auto fietsbel gevoeligheid</string>
     <string name="dialog_bell_shake_sensitivity_title">Schud gevoeligheid</string>
-    <string name="dialog_fenceguard_title"><xliff:g>\@string/menuFenceguard</xliff:g></string>
     <string name="dialog_fenceguard_add_title">Voeg locatie toe</string>
     <string name="dialog_fenceguard_add_text">Benoem de locatie</string>
     <string name="dialog_fenceguard_add_text2">De afscherming wordt rond uw huidige locatie gemaakt, dit om uw privacy te bewaren in uw routes.</string>
@@ -124,7 +109,6 @@
     <string name="dialog_fenceguard_remove_title">Verwijder locatie</string>
     <string name="dialog_fenceguard_remove_defaultText">Wilt u de locatie echt verwijderen\?</string>
     <string name="dialog_fenceguard_remove_formatText">Wilt u de locatie echt <xliff:g>%1$s</xliff:g> verwijderen\?</string>
-    <string name="dialog_exit_title"><xliff:g>\@string/app_name</xliff:g></string>
     <string name="dialogProfileDeleteTitle">Verwijder profiel</string>
     <string name="dialogProfileDeleteMessage">Let op: Alle profiel instellingen en opgeslagen totalen worden verwijderd. Opgeslagen routes zullen intact blijven.
 \n
@@ -180,13 +164,10 @@
     <string name="dialogMapsDownloadText">Open de download pagina nu\?</string>
     <string name="dialogSvgTitle">SVG grafieken</string>
     <string name="dialogGpsIntervalTitle">GPS update interval</string>
-    <string name="dialogGpsIntervalValue"><xliff:g>%1$s</xliff:g></string>
-    <string name="dialogHapticIntensityTitle"><xliff:g>\@string/pref_haptic_feedback_intensity_title</xliff:g></string>
     <string name="mapLayerStreet">Straat</string>
     <string name="mapLayerTerrain">Terrein</string>
     <string name="mapLayerSatellite">Sateliet</string>
-
-	<string name="unitKm">km</string>
+    <string name="unitKm">km</string>
     <string name="unitKmh">km/h</string>
     <string name="unitMiles">mi</string>
     <string name="unitMph">mph</string>
@@ -230,10 +211,7 @@
     <string name="unitPerHour">/u</string>
     <string name="unitPercent">%</string>
     <string name="unitMilliseconds">ms</string>
-    <string name="durationHrMin"><xliff:g>%1$d:%2$02d</xliff:g></string>
-
     <string name="valueTimesCount">×</string>
-
     <string name="meterGPS">GPS</string>
     <string name="meterModeSpeed">snelheid</string>
     <string name="meterModeSpeedVertical">verticale snelheid</string>
@@ -263,8 +241,8 @@
     <string name="meterTextMax">max</string>
     <string name="meterTextAvg">gem</string>
     <string name="profilesListTitleSelectProfile">Verander Profiel</string>
-    <string name="profilesListRowLastActivity"><xliff:g>%1$s</xliff:g></string>
-    <string name="profilesListRowTotalsSince">Totalen sinds: <xliff:g>%1$s</xliff:g></string>
+    <string name="profilesListRowTotalsSince">Totalen sinds: <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="profilesListButtonResetTotals">Reset totalen</string>
     <string name="tracksHistoryListTitle">Routegeschiedenis</string>
     <string name="tracksHistoryListLoading">Laden...</string>
@@ -275,12 +253,10 @@
     <string name="tracksHistoryListButtonDelete">Verwijder</string>
     <string name="tracksHistoryListShareTrackDialogTitle">Deel route naar...</string>
     <string name="tracksHistoryListViewTrackDialogTitle">Geef route weer met...</string>
-
     <string name="pref_text_off">Uit</string>
     <string name="pref_text_min">Min</string>
     <string name="pref_text_medium">Medium</string>
     <string name="pref_text_max">Max</string>
-
     <string name="pref_category1_title">Geluid</string>
     <string name="pref_category2_title">Beeld</string>
     <string name="pref_category_general_title">Algemeen</string>
@@ -375,7 +351,6 @@
     <string name="pref_bg_color_summary">Kies de gewenste kleur voor de app achtergrond</string>
     <string name="pref_fg_color_title">Tekstkleur</string>
     <string name="pref_fg_color_summary">Kies de gewenste kleur voor de tekst en de iconen</string>
-    <string name="pref_visualThemeAutoTitle"><xliff:g>\@string/pref_category_visualThemeAuto</xliff:g></string>
     <string name="pref_visualThemeAutoSummary">Pas licht of donker thema toe op basis van omgevingslicht</string>
     <string name="pref_buttons_bg_look_title">Wis buttons</string>
     <string name="pref_buttons_bg_look_summary">Compleet transparante knoppen en velden</string>
@@ -409,20 +384,10 @@
     <string name="pref_roaring_mode_dialog_title">Brul modus</string>
     <string name="pref_fenceguard_title">Anonimiteits-instelling</string>
     <string name="pref_fenceguard_summary">Bescherm uw thuis of andere belangrijke locaties van weergave in opgenomen ritten</string>
-    <string name="pref_gps_update_freq_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_summary"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_dialog_title"><xliff:g>\@string/pref_category_gps_boost_title</xliff:g></string>
-    <string name="pref_autopause_mode_title"><xliff:g>%1$s</xliff:g></string>
     <string name="pref_autopause_mode_dialog_title">Auto pauzering</string>
-    <string name="pref_wakelock_mode_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_wakelock_mode_dialog_title"><xliff:g>\@string/pref_category_wakelock_title</xliff:g></string>
-    <string name="pref_locationProviderMode_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_locationProviderMode_dialog_title"><xliff:g>\@string/pref_category_locationProvider_title</xliff:g></string>
     <string name="pref_speedometer_limit_title">Maximale indicatorsnelheid</string>
     <string name="pref_speedometer_limit_dialog_title">Snelheidsmeter max</string>
     <string name="pref_soundeffects_title">Inschakelen</string>
-    <string name="pref_soundeffects_summary"><xliff:g>\@null</xliff:g></string>
     <string name="pref_soundeffects_fence_enterleave_title">Afscherming</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Speel geluid af bij in- of uitgaan van een afscherming</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
@@ -430,8 +395,9 @@
     <string name="pref_soundeffects_countdown_title">Aftellen</string>
     <string name="pref_soundeffects_countdown_summary">Speel geluid af bij hervatting van de rit (...3, 2, 1, GO!)</string>
     <string name="pref_soundeffects_tally_title">Inschakelen</string>
-    <string name="pref_soundeffects_tally_summary"><xliff:g>\@null</xliff:g></string>
-    <string name="pref_soundeffects_tally_value_summary">Elke <xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g></string>
+    <string name="pref_soundeffects_tally_value_summary">Elke <xliff:g>%1$s</xliff:g>
+        <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_soundeffects_tally_distance_title">Afstand</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">Afstandsinterval</string>
     <string name="pref_soundeffects_tally_duration_title">Duur</string>
@@ -441,7 +407,6 @@
     <string name="pref_soundeffects_tally_descent_title">Afdalen</string>
     <string name="pref_soundeffects_tally_descent_dialog_title">Dalingsinterval</string>
     <string name="pref_soundeffects_alarm_title">Inschakelen</string>
-    <string name="pref_soundeffects_alarm_summary"><xliff:g>\@null</xliff:g></string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Vergeten pauze</string>
     <string name="pref_soundeffects_alarm_gpsPause_summary">Alarm zal luiden wanneer beweging wordt gedetecteerd terwijl tracking gepauzeerd is.</string>
     <string name="pref_facebook_disable_title">Blokkeer Facebook</string>
@@ -452,13 +417,13 @@
     <string name="pref_maps_online_mode_dialog_title">Kaart bron</string>
     <string name="pref_maps_offline_file_title">Selecteer bestand of map</string>
     <string name="pref_maps_offline_file_dialog_title">Kies offline kaarten map</string>
-    <string name="pref_maps_offline_file_summary">(Alle profielen) <xliff:g>%1$s</xliff:g></string>
+    <string name="pref_maps_offline_file_summary">(Alle profielen) <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="pref_maps_offline_file_noFolderSelected">Geen map geselecteerd.</string>
     <string name="pref_maps_offline_info_title">Download nu</string>
     <string name="pref_maps_offline_info_summary">Mapsforge vector (.map) en Rmaps raster (.sqlitedb) kaarten worden ondersteund. Verkrijgbaar op download.mapsforge.org</string>
     <string name="pref_maps_routes_files_title">Selecteer bestand of map</string>
     <string name="pref_maps_routes_files_dialog_title">Kies route map of bestand</string>
-    <string name="pref_maps_routes_files_summary"><xliff:g>%1$s</xliff:g></string>
     <string name="pref_maps_routes_files_noFolderSelected">Geen map geselecteerd.</string>
     <string name="pref_button_autoring_enable_title">Auto Bel schakelen</string>
     <string name="pref_button_autoring_enable_summary">Schakel de Auto Bel modus in bij lange klik op de snelheidsmeter</string>
@@ -482,20 +447,22 @@
     <string name="pref_speedo_display_mode_dialog_title">Snelheidsmeter uiterlijk</string>
     <string name="pref_powermeter_display_mode_dialog_title">Vermogen weergave modus</string>
     <string name="pref_power_weights_title">Gewichten</string>
-    <string name="pref_power_weights_summary">Bestuurder: <xliff:g>%1$s</xliff:g>, Voertuig: <xliff:g>%2$s</xliff:g>, Lading: <xliff:g>%3$s</xliff:g>, Passagier: <xliff:g>%4$s</xliff:g>, Wielen: <xliff:g>%5$s</xliff:g></string>
+    <string name="pref_power_weights_summary">Bestuurder: <xliff:g>%1$s</xliff:g>, Voertuig: <xliff:g>%2$s</xliff:g>, Lading: <xliff:g>%3$s</xliff:g>, Passagier: <xliff:g>%4$s</xliff:g>, Wielen: <xliff:g>%5$s</xliff:g>
+    </string>
     <string name="pref_power_coefs_title">Coëfficiënten</string>
     <string name="pref_power_coefs_summary">Luchtweerstand oppervlak: <xliff:g>%1$s
-\n</xliff:g>Rolweerstand: <xliff:g>%2$s</xliff:g></string>
+\n</xliff:g>Rolweerstand: <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_energy_params_title">Energie parameters</string>
     <string name="pref_energy_params_summary">Efficiency: <xliff:g>%1$s
-\n</xliff:g>Metabolisme: <xliff:g>%2$s</xliff:g></string>
+\n</xliff:g>Metabolisme: <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_svg_data_enable_title">Genereer grafieken</string>
     <string name="pref_svg_data_modes_select_title">Kies grafiek types...</string>
     <string name="pref_flashlightAutoPocketMode_summary">Gebruik nabijheidssensor om de zaklamp uit te schakelen wanneer niet nodig</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Knop schakelen</string>
     <string name="pref_gpsInaccuracyIndicator_summary">Wijst op veroudering van de snelheidswaarde daar deze na verloop van tijd steeds onzekerder wordt</string>
     <string name="pref_haptic_feedback_title">Vibreer bij aanraking</string>
-    <string name="pref_haptic_feedback_summary"><xliff:g>\@null</xliff:g></string>
     <string name="pref_haptic_feedback_intensity_title">Vribatie intensiteit</string>
     <string name="infoMeterModeDistanceTitle">Afstand</string>
     <string name="infoMeterModeDistanceMsg">Afgelegde afstand</string>
@@ -531,14 +498,9 @@
     <string name="defaultProfileNameCar">Auto</string>
     <string name="defaultProfileNamePlane">Vliegtuig</string>
     <string name="defaultProfileNameOther">Anders</string>
-
-
-	<string name="svgCopyright">Gemaakt met Urban Biker</string>
-
-
-	<string name="fbStoryLiveText">Goedlopend!</string>
+    <string name="svgCopyright">Gemaakt met Urban Biker</string>
+    <string name="fbStoryLiveText">Goedlopend!</string>
     <string name="fbCourseTitle">Powered by Urban Biker</string>
-	<string name="dialogLicenseBuyYesButton">Koop nu!</string>
+    <string name="dialogLicenseBuyYesButton">Koop nu!</string>
     <string name="dialogLicenseBuyNoButton">Niet nu</string>
-
-    </resources>
+</resources>

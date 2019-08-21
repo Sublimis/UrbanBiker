@@ -1,32 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="locale">sv</string>
-
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="locale">sv</string>
     <string name="app_name">Urban Biker</string>
-
     <string name="app_description">Spela in och mät dina turer med stor noggrannhet. Förbättra din säkerhet och effektivitet när du cyklar.</string>
-
     <string name="widget_1_description">Biker: Bicycle Bell</string>
     <string name="widget_2_description">Biker: Bell + Flashlight</string>
     <string name="widget_3_description">Biker: Complete</string>
-
     <string name="copyright_part1">&lt;xliff:g&gt;<b>v%1$s</b> (%2$s)&lt;/xliff:g&gt;</string>
-
     <string name="proLicenseLabel">Pro</string>
     <string name="proPlusLicenseLabel">Pro+</string>
     <string name="ultimateLicenseLabel">Ultimate</string>
-
     <string name="proLicenseTitle">Pro License</string>
     <string name="proLicenseDescription">Remove ads</string>
-
     <string name="proPlusLicenseTitle">Pro Plus License</string>
     <string name="proPlusLicenseDescription">Remove ads and unlock all non-subscription features we may add in the future</string>
-
     <string name="ultimateLicenseTitle">Ultimate License</string>
     <string name="ultimateLicenseDescriptionMonthly">All features and maps unlocked (monthly subscription)</string>
     <string name="ultimateLicenseDescriptionYearly">All features and maps unlocked (yearly subscription)</string>
-
-
     <string name="ok">OK</string>
     <string name="yes">Ja</string>
     <string name="no">Nej</string>
@@ -57,16 +47,13 @@
     <string name="menuClose">Stäng</string>
     <string name="menuInfo">Info</string>
     <string name="share_title">Skicka via</string>
-    <string name="share_subject"><xliff:g>\@string/app_name</xliff:g></string>
-
     <string name="pick_a_color">Välj en färg</string>
-
     <string name="fence_name_default">Hemma</string>
     <string name="profileNameDefault">Ny profil</string>
-
     <string name="featureNotAvailable">Den funktionen finns tyvärr inte på denna enhet</string>
     <string name="toastRestartRequired">Detta kräver en omstart av appen</string>
-    <string name="toastActiveProfile">Profil: <xliff:g>%1$s</xliff:g></string>
+    <string name="toastActiveProfile">Profil: <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="toastProfileSavingError">Fel när profildata sparades! Försök igen.</string>
     <string name="toastProfileChangeError">Kunde inte byta profil! Försök igen.</string>
     <string name="toastGpsEnabled">GPS påslagen</string>
@@ -107,7 +94,6 @@
     <string name="toastErrorPowerParametersVoid">Fyll i Power-parametrarna i inställningarna</string>
     <string name="toastSoundsEnabled">Ljud aktiverat</string>
     <string name="toastSoundsDisabled">Ljud inaktiverat</string>
-    <string name="notificationTitle"><xliff:g>\@string/app_name</xliff:g></string>
     <string name="dialog_default_color_light_title">Ljust tema</string>
     <string name="dialog_default_color_dark_title">Mörkt tema</string>
     <string name="dialog_default_color_text">Detta kommer att ladda standardfärgerna. Är du säker\?</string>
@@ -117,7 +103,6 @@
     <string name="dialog_volume_message">OBS: Använd volymknapparna på din enhet för att justera ljudvolymen.</string>
     <string name="dialog_bell_automatic_sensitivity_title">Känslighet för auto-ringklocka</string>
     <string name="dialog_bell_shake_sensitivity_title">Känslighet för skakning</string>
-    <string name="dialog_fenceguard_title"><xliff:g>\@string/menuFenceguard</xliff:g></string>
     <string name="dialog_fenceguard_add_title">Lägg till stängsel</string>
     <string name="dialog_fenceguard_add_text">Namn på nytt stängsel:</string>
     <string name="dialog_fenceguard_add_text2">Ett stängsel kommer att sättas upp runt din aktuella position så att den skyddas från att avslöjas i inspelade spår.</string>
@@ -127,7 +112,6 @@
     <string name="dialog_fenceguard_remove_title">Ta bort stängsel</string>
     <string name="dialog_fenceguard_remove_defaultText">Är du säker på att stängslet ska tas bort\?</string>
     <string name="dialog_fenceguard_remove_formatText">Är du säker på att stängslet <xliff:g>%1$s</xliff:g> ska tas bort\?</string>
-    <string name="dialog_exit_title"><xliff:g>\@string/app_name</xliff:g></string>
     <string name="dialogProfileDeleteTitle">Ta bort profil</string>
     <string name="dialogProfileDeleteMessage">Varning: Detta kommer att ta bort profilinställningarna och totaldata. Sparade spår lämnas orörda.
 \n
@@ -183,13 +167,10 @@
     <string name="dialogMapsDownloadText">Öppna webbplatsen för hämtningar nu\?</string>
     <string name="dialogSvgTitle">SVG-grafer</string>
     <string name="dialogGpsIntervalTitle">Uppdateringsintervall för GPS</string>
-    <string name="dialogGpsIntervalValue"><xliff:g>%1$s</xliff:g></string>
-    <string name="dialogHapticIntensityTitle"><xliff:g>\@string/pref_haptic_feedback_intensity_title</xliff:g></string>
     <string name="mapLayerStreet">Gata</string>
     <string name="mapLayerTerrain">Terräng</string>
     <string name="mapLayerSatellite">Satellit</string>
-
-	<string name="unitKm">km</string>
+    <string name="unitKm">km</string>
     <string name="unitKmh">km/h</string>
     <string name="unitMiles">mi</string>
     <string name="unitMph">mph</string>
@@ -233,10 +214,7 @@
     <string name="unitPerHour">/h</string>
     <string name="unitPercent">%</string>
     <string name="unitMilliseconds">ms</string>
-    <string name="durationHrMin"><xliff:g>%1$d:%2$02d</xliff:g></string>
-
     <string name="valueTimesCount">×</string>
-
     <string name="meterGPS">GPS</string>
     <string name="meterModeSpeed">hastighet</string>
     <string name="meterModeSpeedVertical">vertikal hastighet</string>
@@ -270,8 +248,8 @@
     <string name="controlPanelSoundAlarms">Larm</string>
     <string name="controlPanelSoundVolume">Volym</string>
     <string name="profilesListTitleSelectProfile">Byt profil</string>
-    <string name="profilesListRowLastActivity"><xliff:g>%1$s</xliff:g></string>
-    <string name="profilesListRowTotalsSince">Totalt sedan: <xliff:g>%1$s</xliff:g></string>
+    <string name="profilesListRowTotalsSince">Totalt sedan: <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="profilesListButtonResetTotals">Återställ totala</string>
     <string name="profilesListProfileNotUsed">(ej använd)</string>
     <string name="tracksHistoryListTitle">Spårhistorik</string>
@@ -283,12 +261,10 @@
     <string name="tracksHistoryListButtonDelete">Ta bort</string>
     <string name="tracksHistoryListShareTrackDialogTitle">Dela spår till ...</string>
     <string name="tracksHistoryListViewTrackDialogTitle">Visa spår med ...</string>
-
     <string name="pref_text_off">Av</string>
     <string name="pref_text_min">Min</string>
     <string name="pref_text_medium">Mellan</string>
     <string name="pref_text_max">Max</string>
-
     <string name="pref_category1_title">Ljud</string>
     <string name="pref_category2_title">Visning</string>
     <string name="pref_category_general_title">Allmänt</string>
@@ -374,7 +350,6 @@
     <string name="pref_bg_color_summary">Välj önskad färg för bakgrund i appen</string>
     <string name="pref_fg_color_title">Textfärg</string>
     <string name="pref_fg_color_summary">Välj önskad färg för text och ikoner</string>
-    <string name="pref_visualThemeAutoTitle"><xliff:g>\@string/pref_category_visualThemeAuto</xliff:g></string>
     <string name="pref_visualThemeAutoSummary">Använd ljust eller mörkt tema baserat på omgivningens ljus</string>
     <string name="pref_buttons_bg_look_title">Genomskinliga knappar</string>
     <string name="pref_buttons_bg_look_summary">Helt genomskinliga knappar och fält</string>
@@ -402,34 +377,24 @@
     <string name="pref_roar_threshold_speed_title">Tröskelläge</string>
     <string name="pref_fenceguard_title">FenceGuard</string>
     <string name="pref_fenceguard_summary">Skydda platsen där du bor eller andra viktiga ställen från att visas i inspelade spår.</string>
-    <string name="pref_gps_update_freq_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_summary"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_dialog_title"><xliff:g>\@string/pref_category_gps_boost_title</xliff:g></string>
-    <string name="pref_autopause_mode_title"><xliff:g>%1$s</xliff:g></string>
     <string name="pref_autopause_mode_dialog_title">Automatisk paus</string>
-    <string name="pref_wakelock_mode_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_wakelock_mode_dialog_title"><xliff:g>\@string/pref_category_wakelock_title</xliff:g></string>
-    <string name="pref_locationProviderMode_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_locationProviderMode_dialog_title"><xliff:g>\@string/pref_category_locationProvider_title</xliff:g></string>
     <string name="pref_speedometer_limit_title">Maxhastighet</string>
     <string name="pref_speedometer_limit_dialog_title">Max. hastighetsvisning</string>
     <string name="pref_soundeffects_title">Aktivera</string>
-    <string name="pref_soundeffects_summary"><xliff:g>\@null</xliff:g></string>
     <string name="pref_soundeffects_fence_enterleave_title">Stängsel</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Signal när du kommer till eller lämnar ett stängsel</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
     <string name="pref_soundeffects_countdown_title">Nedräkning</string>
     <string name="pref_soundeffects_tally_title">Aktivera</string>
-    <string name="pref_soundeffects_tally_summary"><xliff:g>\@null</xliff:g></string>
-    <string name="pref_soundeffects_tally_value_summary">Varje <xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g></string>
+    <string name="pref_soundeffects_tally_value_summary">Varje <xliff:g>%1$s</xliff:g>
+        <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_soundeffects_tally_distance_title">Sträcka</string>
     <string name="pref_soundeffects_tally_duration_title">Längd</string>
     <string name="pref_soundeffects_tally_duration_dialog_title">Längd och ...</string>
     <string name="pref_soundeffects_tally_ascent_title">Stigning</string>
     <string name="pref_soundeffects_tally_descent_title">Sänkning</string>
     <string name="pref_soundeffects_alarm_title">Aktivera</string>
-    <string name="pref_soundeffects_alarm_summary"><xliff:g>\@null</xliff:g></string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Glömd paus</string>
     <string name="pref_soundeffects_alarm_gpsPause_summary">Larmet kommer att gå om en längre förfflyttning upptäcks medan spårningen är pauserad</string>
     <string name="pref_facebook_disable_title">Inaktivera Facebook</string>
@@ -444,12 +409,12 @@
     <string name="pref_maps_online_mode_dialog_title">Kartkälla</string>
     <string name="pref_maps_offline_file_title">Välj fil eller mapp</string>
     <string name="pref_maps_offline_file_dialog_title">Välj map för offline-kartor</string>
-    <string name="pref_maps_offline_file_summary">(Alla profiler) <xliff:g>%1$s</xliff:g></string>
+    <string name="pref_maps_offline_file_summary">(Alla profiler) <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="pref_maps_offline_file_noFolderSelected">Ingen mapp vald.</string>
     <string name="pref_maps_offline_info_title">Hämta nu</string>
     <string name="pref_maps_routes_files_title">Välj fil eller mapp</string>
     <string name="pref_maps_routes_files_dialog_title">Välj ruttmapp eller ruttfil</string>
-    <string name="pref_maps_routes_files_summary"><xliff:g>%1$s</xliff:g></string>
     <string name="pref_maps_routes_files_noFolderSelected">Ingen mapp vald.</string>
     <string name="pref_button_profile_show_title">Profil</string>
     <string name="pref_button_profile_show_summary">Visa profilknappen</string>
@@ -470,10 +435,12 @@
     <string name="pref_speedo_indicator_needle_summary">Visa hastighetsnål i grafiken</string>
     <string name="pref_powermeter_parameters_info_title">OBS!</string>
     <string name="pref_power_weights_title">Vikter</string>
-    <string name="pref_power_weights_summary">Förare: <xliff:g>%1$s</xliff:g>, Fordon: <xliff:g>%2$s</xliff:g>, Last: <xliff:g>%3$s</xliff:g>, Passagerare: <xliff:g>%4$s</xliff:g>, Hjul: <xliff:g>%5$s</xliff:g></string>
+    <string name="pref_power_weights_summary">Förare: <xliff:g>%1$s</xliff:g>, Fordon: <xliff:g>%2$s</xliff:g>, Last: <xliff:g>%3$s</xliff:g>, Passagerare: <xliff:g>%4$s</xliff:g>, Hjul: <xliff:g>%5$s</xliff:g>
+    </string>
     <string name="pref_power_coefs_title">Koefficienter</string>
     <string name="pref_power_coefs_summary">Motståndsarea: <xliff:g>%1$s
-\n</xliff:g>Rullmotstånd: <xliff:g>%2$s</xliff:g></string>
+\n</xliff:g>Rullmotstånd: <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_energy_params_title">Energiparametrar</string>
     <string name="pref_svg_data_enable_title">Skapa grafer</string>
     <string name="pref_svg_data_modes_select_title">Välj typ av grafer ...</string>
@@ -482,10 +449,8 @@
     <string name="pref_paceIndicator_title">Taktindikator</string>
     <string name="pref_paceIndicator_summary">Visar när du kör snabbare eller långsammare än genomsnittshastigheten</string>
     <string name="pref_haptic_feedback_title">Vibrera vid beröring</string>
-    <string name="pref_haptic_feedback_summary"><xliff:g>\@null</xliff:g></string>
     <string name="pref_haptic_feedback_intensity_title">Vibrationsintensitet</string>
     <string name="pref_soundsMasterSwitch_title">Alla ljud</string>
-    <string name="pref_soundsMasterSwitch_summary"><xliff:g>\@null</xliff:g></string>
     <string name="prefBarometricAltitudeTitle">Barometrisk höjd</string>
     <string name="infoMeterModeDistanceTitle">Sträcka</string>
     <string name="infoMeterModeDistanceMsg">Sträcka totalt.</string>
@@ -515,13 +480,8 @@
     <string name="defaultProfileNameCar">Bil</string>
     <string name="defaultProfileNamePlane">Flygplan</string>
     <string name="defaultProfileNameOther">Annat</string>
-
-
-	<string name="svgCopyright">Skapat med Urban Biker</string>
-
-
-	<string name="fbStoryLiveText">Pågående!</string>
+    <string name="svgCopyright">Skapat med Urban Biker</string>
+    <string name="fbStoryLiveText">Pågående!</string>
     <string name="dialogLicenseBuyYesButton">Skaffa den!</string>
     <string name="dialogLicenseBuyNoButton">Inte nu</string>
-
-    </resources>
+</resources>

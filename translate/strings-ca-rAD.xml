@@ -63,9 +63,6 @@
     <string name="menuRefresh">Refresca</string>
     <string name="menuSwitchProfile">Canvia a</string>
     <string name="share_title">Envia per</string>
-    <string name="share_subject">
-        <xliff:g>\@string/app_name</xliff:g>
-    </string>
     <string name="pick_a_color">Selecciona un color</string>
     <string name="fence_name_default">El meu lloc</string>
     <string name="profileNameDefault">Nou perfil</string>
@@ -128,16 +125,7 @@
     <string name="toastSensorDisabled">Sensor deshabilitat</string>
     <string name="toastAutoThemeActivated">Tema visual automàtic activat</string>
     <string name="toastCancelled">Cancel·lat</string>
-    <string name="notificationTitle">
-        <xliff:g>\@string/app_name</xliff:g>
-    </string>
-    <string name="notificationTitleAdvanced">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="notificationTitleAdvancedPaused">Pausat: <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="licenseSuccessDialogTitle">
-        <xliff:g>\@string/app_name</xliff:g>
     </string>
     <string name="licenseSuccessDialogMessage">S\'ha obtingut la llicència de l\'aplicació correctament. Gràcies pel teu suport!</string>
     <string name="ongoingNotificationChannelName">Notificació permanent</string>
@@ -154,9 +142,6 @@
     <string name="dialog_volume_message">Nota: Utilitzeu els botons de volum del dispositiu per ajustar el volum del so en general.</string>
     <string name="dialog_bell_automatic_sensitivity_title">Sensibilitat de timbre automàtic</string>
     <string name="dialog_bell_shake_sensitivity_title">Sensibilitat de sacseig</string>
-    <string name="dialog_fenceguard_title">
-        <xliff:g>\@string/menuFenceguard</xliff:g>
-    </string>
     <string name="dialog_fenceguard_add_title">Afegiu àrea</string>
     <string name="dialog_fenceguard_add_text">Anomena una nova àrea</string>
     <string name="dialog_fenceguard_add_text2">Una àrea privada serà creada al voltant de la vostra ubicació actual per a protegir-la als trajectes enregistrats.</string>
@@ -172,9 +157,6 @@
         <xliff:g>(%4$s)
 \n
 \n</xliff:g>El recorregut sembla massa curt. Vols desar aquest recorregut\?</string>
-    <string name="dialog_exit_title">
-        <xliff:g>\@string/app_name</xliff:g>
-    </string>
     <string name="dialog_exit_msg">Atenció: L\'enregistrament del recorregut està actiu, i serà aturat.</string>
     <string name="dialogProfileDeleteTitle">Elimina perfil</string>
     <string name="dialogProfileDeleteMessage">Atenció: Això eliminarà els ajustaments del perfil i les dades totals. Els trajecte desats romandran intactes. Eliminar perfil <xliff:g>%1$s</xliff:g>\?</string>
@@ -235,27 +217,6 @@
     <string name="dialogMapsHighResolution">Mapa d\'alta resolució</string>
     <string name="dialogMapsRenderTerrain">Renderitza el terreny</string>
     <string name="dialogMapsTrackColor">Color del trajecte:</string>
-    <string name="dialogMapsTrackColorAltitude">
-        <xliff:g>\@string/infoMeterModeAltitudeTitle</xliff:g>
-    </string>
-    <string name="dialogMapsTrackColorSpeed">
-        <xliff:g>\@string/infoMeterModeSpeedTitle</xliff:g>
-    </string>
-    <string name="dialogMapsTrackColorDuration">
-        <xliff:g>\@string/infoMeterModeDurationTitle</xliff:g>
-    </string>
-    <string name="dialogMapsTrackColorElapsed">
-        <xliff:g>\@string/summaryTotalTime</xliff:g>
-    </string>
-    <string name="dialogMapsTrackColorHeartRate">
-        <xliff:g>\@string/infoMeterModeHeartRateTitle</xliff:g>
-    </string>
-    <string name="dialogMapsTrackColorCadence">
-        <xliff:g>\@string/infoMeterModeCadenceTitle</xliff:g>
-    </string>
-    <string name="dialogMapsTrackColorTemperature">
-        <xliff:g>\@string/infoMeterModeTemperatureTitle</xliff:g>
-    </string>
     <string name="dialogFencesAdd">Afegeix àrea aquí</string>
     <string name="dialogFencesUpdate">Actualitza ubicació de l\'àrea</string>
     <string name="dialogFencesEdit">Edita àrea</string>
@@ -289,16 +250,7 @@
     <string name="dialogTrackUploadPlatform">Servei en línia</string>
     <string name="dialogTrackUploadStravaIsCommute">Commuta</string>
     <string name="dialogSvgTitle">Gràfics SVG</string>
-    <string name="dialogSvgDistanceTitle">
-        <xliff:g>\@string/infoMeterModeDistanceTitle</xliff:g>
-    </string>
-    <string name="dialogSvgDurationTitle">
-        <xliff:g>\@string/infoMeterModeDurationTitle</xliff:g>
-    </string>
     <string name="dialogGpsIntervalTitle">Interval d\'actualització del GPS</string>
-    <string name="dialogGpsIntervalValue">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="dialogGpsIntervalNote">Nota: Mantingues aquest valor per sota de 3 segons per a obtenir lectures més acurades i un comportament més consistent!</string>
     <string name="dialogGpsIntervalLabelMore">
         <xliff:g>◀
@@ -306,9 +258,6 @@
     <string name="dialogGpsIntervalLabelLess">
         <xliff:g>▶
 \n</xliff:g>Més acurat, fa servir més bateria</string>
-    <string name="dialogHapticIntensityTitle">
-        <xliff:g>\@string/pref_haptic_feedback_intensity_title</xliff:g>
-    </string>
     <string name="dialogSliderLess">◀</string>
     <string name="dialogSliderMore">▶</string>
     <string name="dialogLocationPermissionRequestTitle">Permís d\'ubicació</string>
@@ -379,9 +328,6 @@
     <string name="unitMilliseconds">ms</string>
     <string name="unitDegree">°</string>
     <string name="unitMegabyte">MB</string>
-    <string name="durationHrMin">
-        <xliff:g>%1$d:%2$02d</xliff:g>
-    </string>
     <string name="valueTimesCount">×</string>
     <string name="meterGPS">GPS</string>
     <string name="meterModeSpeed">velocitat</string>
@@ -451,9 +397,6 @@
     <string name="profilesListTitle">Perfils</string>
     <string name="profilesListTitleSelectProfile">Commuta el perfil</string>
     <string name="profilesListAddProfile">Nou perfil</string>
-    <string name="profilesListRowLastActivity">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="profilesListRowTotalsSince">Totals des de: <xliff:g>%1$s</xliff:g>
     </string>
     <string name="profilesListButtonResetTotals">Restableix totals</string>
@@ -490,9 +433,6 @@
     <string name="summaryBasalMetabolicRate">Taxa metabòlica basal</string>
     <string name="summaryLocationInterval">Interval d\'ubicació</string>
     <string name="summaryDeviceRestartsCount">Força el reinici</string>
-    <string name="summaryEnergyParams">
-        <xliff:g>\@string/controlPanelEnergyParams</xliff:g>
-    </string>
     <string name="summaryStartedDatetime">Iniciat</string>
     <string name="summaryEndedDatetime">Finalitzat</string>
     <string name="summaryTotalTime">Temps total</string>
@@ -616,7 +556,6 @@
     <string name="pref_category_pressure_title">Pressió</string>
     <string name="pref_category_sensors_title">Sensors</string>
     <string name="pref_category_cloudAccounts_title">Comptes</string>
-    <string name="pref_category_goto_title">\@null</string>
     <string name="pref_category_mapsQuickZoom">Zoom Ràpid</string>
     <string name="pref_category_mapsCache">Memòria cau</string>
     <string name="prefAllProfilesInfoTitle">Nota!</string>
@@ -664,13 +603,7 @@
     <string name="pref_bg_color_summary">Tria el color desitjat pel fons de l\'app</string>
     <string name="pref_fg_color_title">Color del text</string>
     <string name="pref_fg_color_summary">Tria el color desitjat pel text i les icones</string>
-    <string name="pref_visualThemeAutoTitle">
-        <xliff:g>\@string/pref_category_visualThemeAuto</xliff:g>
-    </string>
     <string name="pref_visualThemeAutoSummary">Aplica el tema clar o fosc en funció de la llum ambiental</string>
-    <string name="pref_default_color_title">
-        <xliff:g>\@string/pref_resetToDefault</xliff:g>
-    </string>
     <string name="pref_buttons_bg_look_title">Neteja els botons</string>
     <string name="pref_buttons_bg_look_summary">Butons i camps completament transparents</string>
     <string name="pref_screen_keep_on_title">Mantingues pantalla activada</string>
@@ -712,42 +645,12 @@
     <string name="pref_roarConstantModeButton_summary">Commuta el mode constant pitjant el botó mentre el clàxon està encés</string>
     <string name="pref_fenceguard_title">Àrea Privada</string>
     <string name="pref_fenceguard_summary">Protegeix la ubicació de la vostra casa, o d\'altres llocs importants, d\'estar exposats als trajectes enregistrats</string>
-    <string name="pref_gps_update_freq_title">
-        <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="pref_gps_boost_title">
-        <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="pref_gps_boost_summary">
-        <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="pref_gps_boost_dialog_title">
-        <xliff:g>\@string/pref_category_gps_boost_title</xliff:g>
-    </string>
-    <string name="pref_autopause_mode_title">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="pref_autopause_mode_dialog_title">Pausant automàticament</string>
-    <string name="pref_wakelock_mode_title">
-        <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="pref_wakelock_mode_dialog_title">
-        <xliff:g>\@string/pref_category_wakelock_title</xliff:g>
-    </string>
-    <string name="pref_locationProviderMode_title">
-        <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="pref_locationProviderMode_dialog_title">
-        <xliff:g>\@string/pref_category_locationProvider_title</xliff:g>
-    </string>
     <string name="pref_speedometer_limit_title">Màxim indicador</string>
     <string name="pref_speedometer_limit_dialog_title">Màxim indicador de velocitat</string>
     <string name="pref_speed_calculate_mode_title">Recalcula velocitat</string>
     <string name="pref_speed_calculate_mode_summary">(Tots els perfils) Recalcular la velocitat a través de les distàncies no fa servir directaments els valors del GPS. Això donarà lectures més estables per valors del GPS (Doppler).</string>
     <string name="pref_soundeffects_title">Activa</string>
-    <string name="pref_soundeffects_summary">
-        <xliff:g>\@null</xliff:g>
-    </string>
     <string name="pref_soundeffects_fence_enterleave_title">Àrea</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Sona quan entreu o sortiu d\'una àrea</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
@@ -755,9 +658,6 @@
     <string name="pref_soundeffects_countdown_title">Compte enrrere</string>
     <string name="pref_soundeffects_countdown_summary">So pel compte enrere abans de continuar el trajecte (...3, 2, 1, Som-hi!)</string>
     <string name="pref_soundeffects_tally_title">Activa</string>
-    <string name="pref_soundeffects_tally_summary">
-        <xliff:g>\@null</xliff:g>
-    </string>
     <string name="pref_soundeffects_tally_value_summary">Cada <xliff:g>%1$s</xliff:g>
         <xliff:g>%2$s</xliff:g>
     </string>
@@ -770,9 +670,6 @@
     <string name="pref_soundeffects_tally_descent_title">Descens</string>
     <string name="pref_soundeffects_tally_descent_dialog_title">Mesura descens</string>
     <string name="pref_soundeffects_alarm_title">Activa</string>
-    <string name="pref_soundeffects_alarm_summary">
-        <xliff:g>\@null</xliff:g>
-    </string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Pausa oblidada</string>
     <string name="pref_soundeffects_alarm_gpsPause_summary">Sonarà una alarma quan es detecti algun moviment significant mentre el trajecte està pausat</string>
     <string name="pref_facebook_disable_title">Desactiva Facebook</string>
@@ -795,21 +692,12 @@
     <string name="pref_maps_offline_info_title">Descarrega ara</string>
     <string name="pref_maps_offline_info_summary">Mapa vectoritzat Mapsforge (.map) i ràster Rmaps (.sqlitedb) estan suportats. Disponible a download.mapsforge.org</string>
     <string name="pref_maps_offline_warning_summary">Atenció: Algunes dades en línia poden ser recuperades fins i tot en mode fora línia. Si us plau, si s\'escau, desactiveu l\'accés a dades abans d\'emprar els mapes.</string>
-    <string name="pref_maps_offline_resetToDefault_title">
-        <xliff:g>\@string/pref_resetToDefault</xliff:g>
-    </string>
     <string name="pref_maps_routes_draw_title">Guia de rutes</string>
     <string name="pref_maps_routes_info_title">Nota!</string>
     <string name="pref_maps_routes_info_summary">No es donaran altres senyals visuals o audibles per facilitar la navegació en ruta</string>
     <string name="pref_maps_routes_files_title">Selecciona arxiu o carpeta</string>
     <string name="pref_maps_routes_files_dialog_title">Tria carpeta o arxiu de rutes</string>
-    <string name="pref_maps_routes_files_summary">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="pref_maps_routes_files_noFolderSelected">Cap carpeta seleccionada</string>
-    <string name="pref_maps_routes_resetToDefault_title">
-        <xliff:g>\@string/pref_resetToDefault</xliff:g>
-    </string>
     <string name="pref_maps_quickZoom_title">Botons de Zoom Ràpid</string>
     <string name="pref_maps_quickZoom_summary">(Tots els perfils) Activa amagar els botons de zoom ràpid a la part inferior del mapa, millora la teva orientació.</string>
     <string name="pref_maps_quickZoomInvert_title">Invertit</string>
@@ -871,14 +759,8 @@
     <string name="pref_paceIndicator_title">Indicador de ritme</string>
     <string name="pref_paceIndicator_summary">Mostra quan es va més ràpid o més lent que la velocitat mitja</string>
     <string name="pref_haptic_feedback_title">Vibrar en tocar</string>
-    <string name="pref_haptic_feedback_summary">
-        <xliff:g>\@null</xliff:g>
-    </string>
     <string name="pref_haptic_feedback_intensity_title">Intensitat de la vibració</string>
     <string name="pref_soundsMasterSwitch_title">Tots els sons</string>
-    <string name="pref_soundsMasterSwitch_summary">
-        <xliff:g>\@null</xliff:g>
-    </string>
     <string name="prefBarometricAltitudeTitle">Alçada baromètrica</string>
     <string name="prefBarometricAltitudeSummary">Fes servir el baròmetre incorporat per a millorar la precisió de l\'alçada</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Termo baròmetre</string>

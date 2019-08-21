@@ -1,32 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="locale">zh</string>
-
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="locale">zh</string>
     <string name="app_name">Urban Biker</string>
-
     <string name="app_description">Track and measure your rides with great accuracy. Increase your cycling safety and efficiency.</string>
-
     <string name="widget_1_description">類別: 單車響安</string>
     <string name="widget_2_description">類別: 響安 + 閃燈</string>
     <string name="widget_3_description">Biker: Complete</string>
-
     <string name="copyright_part1">&lt;xliff:g&gt;<b>v%1$s</b> (%2$s)&lt;/xliff:g&gt;</string>
-
     <string name="proLicenseLabel">專業</string>
     <string name="proPlusLicenseLabel">Pro+</string>
     <string name="ultimateLicenseLabel">Ultimate</string>
-
     <string name="proLicenseTitle">Pro License</string>
     <string name="proLicenseDescription">Remove ads</string>
-
     <string name="proPlusLicenseTitle">Pro Plus License</string>
     <string name="proPlusLicenseDescription">Remove ads and unlock all non-subscription features we may add in the future</string>
-
     <string name="ultimateLicenseTitle">Ultimate License</string>
     <string name="ultimateLicenseDescriptionMonthly">All features and maps unlocked (monthly subscription)</string>
     <string name="ultimateLicenseDescriptionYearly">All features and maps unlocked (yearly subscription)</string>
-
-
     <string name="ok">確定</string>
     <string name="yes">是</string>
     <string name="no">否</string>
@@ -54,16 +44,13 @@
     <string name="menuClose">關閉</string>
     <string name="menuInfo">信息</string>
     <string name="share_title">轉送透過</string>
-    <string name="share_subject"><xliff:g>\@string/app_name</xliff:g></string>
-
     <string name="pick_a_color">選擇一種顏色</string>
-
     <string name="fence_name_default">我的地點</string>
     <string name="profileNameDefault">新增使用者</string>
-
     <string name="featureNotAvailable">很抱歉，此功能在此裝置上不可使用</string>
     <string name="toastRestartRequired">請重新啟動應用程式以使此生效</string>
-    <string name="toastActiveProfile">使用者: <xliff:g>%1$s</xliff:g></string>
+    <string name="toastActiveProfile">使用者: <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="toastProfileSavingError">保存使用者數據時出錯！ 請再試一次。</string>
     <string name="toastProfileChangeError">無法切換使用者！ 請再試一次。</string>
     <string name="toastGpsEnabled">定位開啟</string>
@@ -95,15 +82,12 @@
     <string name="toastErrorPowerParametersVoid">請在設置中填寫電源參數</string>
     <string name="toastSoundsEnabled">聲音已開啟</string>
     <string name="toastSoundsDisabled">聲音已關閉</string>
-    <string name="notificationTitle"><xliff:g>\@string/app_name</xliff:g></string>
     <string name="dialog_default_color_light_title">淺色主題</string>
     <string name="dialog_default_color_dark_title">深色主題</string>
     <string name="dialog_default_color_text">加載默認顏色。 確定？</string>
     <string name="dialog_volume_bell_text">響安</string>
     <string name="dialog_bell_automatic_sensitivity_title">自動響安靈敏度</string>
     <string name="dialog_bell_shake_sensitivity_title">搖動靈敏度</string>
-    <string name="dialog_fenceguard_title"><xliff:g>\@string/menuFenceguard</xliff:g></string>
-    <string name="dialog_exit_title"><xliff:g>\@string/app_name</xliff:g></string>
     <string name="dialogProfileDeleteTitle">刪除使用者</string>
     <string name="dialogProfileDeleteMessage">警告：這將刪除使用者個人資料設置和總計數據。已保存的記錄將保持不變。
 \n
@@ -127,9 +111,6 @@
     <string name="dialogScreenAutoTheme">自動主題</string>
     <string name="dialogMapsOffline">離線地圖</string>
     <string name="dialogMapsLayerTraffic">路況</string>
-    <string name="dialogMapsTrackColorAltitude"><xliff:g>\@string/infoMeterModeAltitudeTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorSpeed"><xliff:g>\@string/infoMeterModeSpeedTitle</xliff:g></string>
-    <string name="dialogMapsTrackColorDuration"><xliff:g>\@string/infoMeterModeDurationTitle</xliff:g></string>
     <string name="dialogPowerWeightsTitle">重量</string>
     <string name="dialogPowerWeightsWeightRider">駕駛者</string>
     <string name="dialogPowerWeightsWeightVehicle">車輛</string>
@@ -140,13 +121,10 @@
     <string name="dialogFileChooseSelectFolder">選擇此文件夾</string>
     <string name="dialogMapsDownloadTitle">下載離線地圖</string>
     <string name="dialogMapsDownloadText">立刻打開下載網頁？</string>
-    <string name="dialogGpsIntervalValue"><xliff:g>%1$s</xliff:g></string>
-    <string name="dialogHapticIntensityTitle"><xliff:g>\@string/pref_haptic_feedback_intensity_title</xliff:g></string>
     <string name="mapLayerStreet">街</string>
     <string name="mapLayerTerrain">地形</string>
     <string name="mapLayerSatellite">衛星</string>
-
-	<string name="unitKm">公里</string>
+    <string name="unitKm">公里</string>
     <string name="unitKmh">公里/小時</string>
     <string name="unitMiles">英里</string>
     <string name="unitMph">英里</string>
@@ -170,10 +148,7 @@
     <string name="unitPerHundredMi">/100英里</string>
     <string name="unitPerHour">/小時</string>
     <string name="unitPercent">%</string>
-    <string name="durationHrMin"><xliff:g>%1$d:%2$02d</xliff:g></string>
-
     <string name="valueTimesCount">×</string>
-
     <string name="meterGPS">衛星定位</string>
     <string name="meterModeSpeed">速度</string>
     <string name="meterModeSpeedAverage">平均速度</string>
@@ -190,7 +165,6 @@
     <string name="controlPanelSoundAlarms">警報</string>
     <string name="controlPanelSoundVolume">音量</string>
     <string name="profilesListTitleSelectProfile">切換使用者</string>
-    <string name="profilesListRowLastActivity"><xliff:g>%1$s</xliff:g></string>
     <string name="profilesListButtonResetTotals">重設總計</string>
     <string name="tracksHistoryListTitle">歷史記錄</string>
     <string name="tracksHistoryListLoading">載入中...</string>
@@ -201,12 +175,10 @@
     <string name="tracksHistoryListButtonDelete">刪除</string>
     <string name="tracksHistoryListShareTrackDialogTitle">分享記錄至…</string>
     <string name="tracksHistoryListViewTrackDialogTitle">查看記錄使用…</string>
-
     <string name="pref_text_off">關閉</string>
     <string name="pref_text_min">小</string>
     <string name="pref_text_medium">中</string>
     <string name="pref_text_max">大</string>
-
     <string name="pref_category1_title">聲音</string>
     <string name="pref_category2_title">顯示</string>
     <string name="pref_category_general_title">一般</string>
@@ -263,7 +235,6 @@
     <string name="pref_bg_color_title">背景顏色</string>
     <string name="pref_fg_color_title">文字顏色</string>
     <string name="pref_fg_color_summary">為文字和圖示選擇所需的顏色</string>
-    <string name="pref_visualThemeAutoTitle"><xliff:g>\@string/pref_category_visualThemeAuto</xliff:g></string>
     <string name="pref_visualThemeAutoSummary">自動調整光暗主題基於環境因素</string>
     <string name="pref_buttons_bg_look_summary">透明的按鈕和區域</string>
     <string name="pref_screen_keep_on_title">螢幕持續開啟</string>
@@ -282,25 +253,16 @@
     <string name="pref_roaring_mode_title">模式</string>
     <string name="pref_roarConstantModeButton_title">按鈕切換</string>
     <string name="pref_fenceguard_summary">保護您的住家或其他重要的地點位置，使其位置不顯示在已錄製記錄檔案當中</string>
-    <string name="pref_gps_update_freq_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_summary"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_dialog_title"><xliff:g>\@string/pref_category_gps_boost_title</xliff:g></string>
-    <string name="pref_autopause_mode_title"><xliff:g>%1$s</xliff:g></string>
     <string name="pref_autopause_mode_dialog_title">自動暫停中</string>
-    <string name="pref_wakelock_mode_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_wakelock_mode_dialog_title"><xliff:g>\@string/pref_category_wakelock_title</xliff:g></string>
-    <string name="pref_locationProviderMode_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_locationProviderMode_dialog_title"><xliff:g>\@string/pref_category_locationProvider_title</xliff:g></string>
     <string name="pref_speedometer_limit_title">指示燈</string>
     <string name="pref_speedometer_limit_dialog_title">速度指示燈</string>
     <string name="pref_soundeffects_title">啟動</string>
-    <string name="pref_soundeffects_summary"><xliff:g>\@null</xliff:g></string>
     <string name="pref_soundeffects_gps_signal_title">衛星定位</string>
     <string name="pref_soundeffects_countdown_summary">在恢復記錄之前倒計時聲音（... 3，2，1，GO！）</string>
     <string name="pref_soundeffects_tally_title">啟動</string>
-    <string name="pref_soundeffects_tally_summary"><xliff:g>\@null</xliff:g></string>
-    <string name="pref_soundeffects_tally_value_summary">每 <xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g></string>
+    <string name="pref_soundeffects_tally_value_summary">每 <xliff:g>%1$s</xliff:g>
+        <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_soundeffects_tally_distance_title">距離</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">距離記錄</string>
     <string name="pref_soundeffects_tally_duration_title">持續時間</string>
@@ -310,7 +272,6 @@
     <string name="pref_soundeffects_tally_descent_title">下降</string>
     <string name="pref_soundeffects_tally_descent_dialog_title">下降記錄</string>
     <string name="pref_soundeffects_alarm_title">啟動</string>
-    <string name="pref_soundeffects_alarm_summary"><xliff:g>\@null</xliff:g></string>
     <string name="pref_facebook_disable_title">關閉 Facebook</string>
     <string name="pref_maps_disable_title">關閉地圖</string>
     <string name="pref_maps_track_draw_title">繪製行走記錄</string>
@@ -319,11 +280,11 @@
     <string name="pref_maps_online_mode_dialog_title">地圖資料</string>
     <string name="pref_maps_offline_file_title">選擇檔案或文件夾</string>
     <string name="pref_maps_offline_file_dialog_title">選擇離線地圖文件夾</string>
-    <string name="pref_maps_offline_file_summary">(所有使用者) <xliff:g>%1$s</xliff:g></string>
+    <string name="pref_maps_offline_file_summary">(所有使用者) <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="pref_maps_offline_file_noFolderSelected">未選擇文件夾。</string>
     <string name="pref_maps_offline_info_title">立即下載</string>
     <string name="pref_maps_routes_files_title">選擇檔案或文件夾</string>
-    <string name="pref_maps_routes_files_summary"><xliff:g>%1$s</xliff:g></string>
     <string name="pref_maps_routes_files_noFolderSelected">未選擇文件夾。</string>
     <string name="pref_button_profile_show_title">使用者</string>
     <string name="pref_button_profile_show_summary">顯示使用者按鈕</string>
@@ -344,9 +305,7 @@
     <string name="pref_flashlightBlinkMode_title">模式</string>
     <string name="pref_paceIndicator_summary">當你的速度比平均速度更快或更慢時顯示</string>
     <string name="pref_haptic_feedback_title">觸摸時震動</string>
-    <string name="pref_haptic_feedback_summary"><xliff:g>\@null</xliff:g></string>
     <string name="pref_soundsMasterSwitch_title">所有聲音</string>
-    <string name="pref_soundsMasterSwitch_summary"><xliff:g>\@null</xliff:g></string>
     <string name="infoMeterModeDistanceTitle">距離</string>
     <string name="infoMeterModeDistanceMsg">行駛距離。</string>
     <string name="infoMeterModeDurationTitle">持續時間</string>
@@ -363,13 +322,8 @@
     <string name="defaultProfileNameCar">汽車</string>
     <string name="defaultProfileNamePlane">飛機</string>
     <string name="defaultProfileNameOther">其他</string>
-
-
-	<string name="svgCopyright">由Urban Biker建立</string>
-
-
-	<string name="fbStoryLiveText">正在進行！</string>
+    <string name="svgCopyright">由Urban Biker建立</string>
+    <string name="fbStoryLiveText">正在進行！</string>
     <string name="fbCourseTitle">由Urban Biker提供</string>
-	<string name="dialogLicenseBuyNoButton">不是現在</string>
-
-    </resources>
+    <string name="dialogLicenseBuyNoButton">不是現在</string>
+</resources>

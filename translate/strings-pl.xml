@@ -59,9 +59,6 @@
     <string name="menuRefresh">Odśwież</string>
     <string name="menuSwitchProfile">Przełącz na</string>
     <string name="share_title">Wyślij przez</string>
-    <string name="share_subject">
-        <xliff:g>\@string/app_name</xliff:g>
-    </string>
     <string name="pick_a_color">Wybierz kolor</string>
     <string name="fence_name_default">Moje miejsce</string>
     <string name="profileNameDefault">Nowy profil</string>
@@ -117,16 +114,7 @@
     <string name="toastSensorEnabled">Czujnik włączony</string>
     <string name="toastSensorDisabled">Czujnik wyłączony</string>
     <string name="toastAutoThemeActivated">Automatyczny motyw wizualny aktywowany</string>
-    <string name="notificationTitle">
-        <xliff:g>\@string/app_name</xliff:g>
-    </string>
-    <string name="notificationTitleAdvanced">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="notificationTitleAdvancedPaused">Pauza: <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="licenseSuccessDialogTitle">
-        <xliff:g>\@string/app_name</xliff:g>
     </string>
     <string name="licenseSuccessDialogMessage">Appka została pomyślnie licencjonowana. Dziękujemy za wsparcie!</string>
     <string name="ongoingNotificationChannelName">Trwające powiadomienie</string>
@@ -143,9 +131,6 @@
     <string name="dialog_volume_message">Info: Użyj przycisku głośności, aby ustawić ogólny poziom dźwięku</string>
     <string name="dialog_bell_automatic_sensitivity_title">Automatyczna czułość dzwonka</string>
     <string name="dialog_bell_shake_sensitivity_title">Czułość potrząsania</string>
-    <string name="dialog_fenceguard_title">
-        <xliff:g>\@string/menuFenceguard</xliff:g>
-    </string>
     <string name="dialog_fenceguard_add_title">Dodaj Ogrodzenie</string>
     <string name="dialog_fenceguard_add_text">Nazwij nowe Ogrodzenie:</string>
     <string name="dialog_fenceguard_add_text2">Ogrodzenie zostanie utworzone wokół twojej obecnej lokalizacji, aby nie zostało zarejestrowane na zapisanej trasie.</string>
@@ -157,9 +142,6 @@
     <string name="dialog_fenceguard_remove_formatText">Czy na pewno usunąć granice obszaru <xliff:g>%1$s</xliff:g>\?</string>
     <string name="dialog_track_save_text">Dystans: <xliff:g>%1$.3f %2$s</xliff:g>Okres <xliff:g>%3$s</xliff:g>
         <xliff:g>(%4$s)</xliff:g>Trasa wydaje się być bardzo krótka. Zapisać\?</string>
-    <string name="dialog_exit_title">
-        <xliff:g>\@string/app_name</xliff:g>
-    </string>
     <string name="dialog_exit_msg">Uwaga: Śledzenie jest aktywne i będzie zatrzymane.</string>
     <string name="dialogProfileDeleteTitle">Usuń profil</string>
     <string name="dialogProfileDeleteMessage">Ostrzeżenie: Ta operacja usunie wszystkie ustawienia i dane profilu. Zapisane trasy nie zostaną usunięte.
@@ -232,9 +214,6 @@
     <string name="dialogMapsDownloadText">Otworzyć stronę pobierania\?</string>
     <string name="dialogSvgTitle">Wykres SVG</string>
     <string name="dialogGpsIntervalTitle">Częstotliwość aktualizacji GPS</string>
-    <string name="dialogGpsIntervalValue">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="mapLayerStreet">Ulica</string>
     <string name="mapLayerTerrain">Teren</string>
     <string name="mapLayerSatellite">Satelita</string>
@@ -283,9 +262,6 @@
     <string name="unitPerHour">/h</string>
     <string name="unitPercent">%</string>
     <string name="unitMilliseconds">ms</string>
-    <string name="durationHrMin">
-        <xliff:g>%1$d:%2$02d</xliff:g>
-    </string>
     <string name="valueTimesCount">×</string>
     <string name="meterGPS">GPS</string>
     <string name="meterModeSpeed">prędkość</string>
@@ -315,9 +291,6 @@
     <string name="meterTextMax">Maksimum</string>
     <string name="meterTextAvg">średnia</string>
     <string name="profilesListTitleSelectProfile">Przełącz profil</string>
-    <string name="profilesListRowLastActivity">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="profilesListRowTotalsSince">Całość od: <xliff:g>%1$s</xliff:g>
     </string>
     <string name="profilesListButtonResetTotals">Reset wyników</string>
@@ -427,9 +400,6 @@
     <string name="pref_bg_color_summary">Wybierz kolor dla tła aplikacji</string>
     <string name="pref_fg_color_title">Kolor tekstu</string>
     <string name="pref_fg_color_summary">Wybierz kolor dla tekstu i ikon</string>
-    <string name="pref_visualThemeAutoTitle">
-        <xliff:g>\@string/pref_category_visualThemeAuto</xliff:g>
-    </string>
     <string name="pref_visualThemeAutoSummary">Zastosuj jasny lub ciemny motyw oparty na warunkach oświetlenia</string>
     <string name="pref_buttons_bg_look_title">Wyczyść przyciski</string>
     <string name="pref_buttons_bg_look_summary">Całkowicie przeźroczyste przyciski i pola</string>
@@ -463,37 +433,10 @@
     <string name="pref_roaring_mode_dialog_title">Tryb sygnału</string>
     <string name="pref_fenceguard_title">FenceGuard</string>
     <string name="pref_fenceguard_summary">Chroni pozycję twojego domu lub inne ważne miejscia przed ujawnieniem w rejestrach trasy</string>
-    <string name="pref_gps_update_freq_title">
-        <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="pref_gps_boost_title">
-        <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="pref_gps_boost_summary">
-        <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="pref_gps_boost_dialog_title">
-        <xliff:g>\@string/pref_category_gps_boost_title</xliff:g>
-    </string>
-    <string name="pref_autopause_mode_title">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="pref_autopause_mode_dialog_title">Auto pauza</string>
-    <string name="pref_wakelock_mode_title">
-        <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="pref_wakelock_mode_dialog_title">
-        <xliff:g>\@string/pref_category_wakelock_title</xliff:g>
-    </string>
-    <string name="pref_locationProviderMode_title">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="pref_speedometer_limit_title">Wskaźnik max</string>
     <string name="pref_speedometer_limit_dialog_title">Max wskaźnika prędkości</string>
     <string name="pref_soundeffects_title">Włączyć</string>
-    <string name="pref_soundeffects_summary">
-        <xliff:g>\@null</xliff:g>
-    </string>
     <string name="pref_soundeffects_fence_enterleave_title">Ogrodzenie</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Dźwięk przy przekraczaniu Ogrodzenia</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
@@ -501,9 +444,6 @@
     <string name="pref_soundeffects_countdown_title">Odliczanie</string>
     <string name="pref_soundeffects_countdown_summary">Dźwięk odliczania przed startem (...3, 2, 1, GO!)</string>
     <string name="pref_soundeffects_tally_title">Włącz</string>
-    <string name="pref_soundeffects_tally_summary">
-        <xliff:g>\@null</xliff:g>
-    </string>
     <string name="pref_soundeffects_tally_value_summary">Co <xliff:g>%1$s</xliff:g>
         <xliff:g>%2$s</xliff:g>
     </string>
@@ -516,9 +456,6 @@
     <string name="pref_soundeffects_tally_descent_title">Spadek</string>
     <string name="pref_soundeffects_tally_descent_dialog_title">Zakładka spadku</string>
     <string name="pref_soundeffects_alarm_title">Włącz</string>
-    <string name="pref_soundeffects_alarm_summary">
-        <xliff:g>\@null</xliff:g>
-    </string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Zapomniana pauza</string>
     <string name="pref_facebook_disable_title">Wyłącz Facebooka</string>
     <string name="pref_ads_mode_dialog_title">Typ komunikatu</string>
@@ -535,9 +472,6 @@
     <string name="pref_maps_offline_info_summary">Mapy Mapsforge vector (.map) i Rmaps raster (.sqlitedb) są obsługiwane. Dostępne na download.mapsforge.org</string>
     <string name="pref_maps_routes_files_title">Wybierz plik lub folder</string>
     <string name="pref_maps_routes_files_dialog_title">Wybierz trasy z folderu lub pliku</string>
-    <string name="pref_maps_routes_files_summary">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="pref_maps_routes_files_noFolderSelected">Nie wybrano folderu.</string>
     <string name="pref_button_autoring_enable_title">Przełącznik Auto Dzwonka</string>
     <string name="pref_button_autoring_enable_summary">Włącz przełączanie trybu Auto Dzwonka przez długie kliknięcie prędkościomierza</string>
@@ -570,9 +504,6 @@
     <string name="pref_flashlightBlinkModeToggleEnable_title">Przycisk przełączający</string>
     <string name="pref_gpsInaccuracyIndicator_summary">Wskazuje starzenie się wartości prędkości, staje się coraz bardziej nieprecyzyjne z czasem</string>
     <string name="pref_haptic_feedback_title">Wibruj przy dotyku</string>
-    <string name="pref_haptic_feedback_summary">
-        <xliff:g>\@null</xliff:g>
-    </string>
     <string name="pref_haptic_feedback_intensity_title">Intensywność wibracji</string>
     <string name="infoMeterModeDistanceTitle">Dystans</string>
     <string name="infoMeterModeDistanceMsg">Przejechany dystans.</string>

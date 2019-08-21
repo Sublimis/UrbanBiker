@@ -63,9 +63,6 @@
     <string name="menuRefresh">Ανανέωση</string>
     <string name="menuSwitchProfile">Εναλλαγή σε</string>
     <string name="share_title">Αποστολή μέσω</string>
-    <string name="share_subject">
-        <xliff:g>\@string/app_name</xliff:g>
-    </string>
     <string name="pick_a_color">Επιλέξτε χρώμα</string>
     <string name="fence_name_default">Τα μέρη μου</string>
     <string name="profileNameDefault">Νέο Προφίλ</string>
@@ -128,16 +125,7 @@
     <string name="toastSensorDisabled">Αισθητήρας απενεργοποιήθηκε</string>
     <string name="toastAutoThemeActivated">Αυτόματο οπτικό θέμα είναι ενεργό</string>
     <string name="toastCancelled">Ακυρώθηκε</string>
-    <string name="notificationTitle">
-        <xliff:g>\@string/app_name</xliff:g>
-    </string>
-    <string name="notificationTitleAdvanced">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="notificationTitleAdvancedPaused">Παύση: <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="licenseSuccessDialogTitle">
-        <xliff:g>\@string/app_name</xliff:g>
     </string>
     <string name="licenseSuccessDialogMessage">Η εφαρμογή είχε λάβει άδεια με επιτυχία. Σας ευχαριστούμε για την υποστήριξή σας!</string>
     <string name="ongoingNotificationChannelName">Τρέχουσα ειδοποίηση</string>
@@ -154,9 +142,6 @@
     <string name="dialog_volume_message">Σημείωση: Χρησιμοποιείστε τα κουμπιά ήχου της συσκευής σας για να ρυθμίσετε την συνολική ένταση ήχου</string>
     <string name="dialog_bell_automatic_sensitivity_title">Ευαισθησία αυτόματου κουδούνιου</string>
     <string name="dialog_bell_shake_sensitivity_title">Ευαισθησία ανακίνησης</string>
-    <string name="dialog_fenceguard_title">
-        <xliff:g>\@string/menuFenceguard</xliff:g>
-    </string>
     <string name="dialog_fenceguard_add_title">Προσθήκη περίφραξης</string>
     <string name="dialog_fenceguard_add_text">Ονομάστε μία νέα περίφραξη</string>
     <string name="dialog_fenceguard_add_text2">Η περίφραξη θα ανέλθει γύρω από την τρέχουσα θέση σας για την προστασία της ιδιωτικότητας σας, στις καταγεγραμένες διαδρομες.</string>
@@ -172,9 +157,6 @@
         <xliff:g>(%4$s)
 \n
 \n</xliff:g>Η διαδρομή είναι πολύ μικρή. Αποθήκευση αυτής της διαδρομής;</string>
-    <string name="dialog_exit_title">
-        <xliff:g>\@string/app_name</xliff:g>
-    </string>
     <string name="dialog_exit_msg">Προειδοποίηση: Ο εντοπισμός είναι ενεργός, και θα τερματιστεί.</string>
     <string name="dialogProfileDeleteTitle">Διαγραφή προφίλ</string>
     <string name="dialogProfileDeleteMessage">Προειδοποίηση: Θα αφαιρέθούν οι ρυθμίσεις προφίλ και τα συνολικά δεδομένα. Τα Αποθηκευμένα ίχνη θα μείνουν ανέπαφα.n
@@ -235,27 +217,6 @@
     <string name="dialogMapsHighResolution">Χάρτης υψηλής ανάλυσης</string>
     <string name="dialogMapsRenderTerrain">Απόδοση εδάφους</string>
     <string name="dialogMapsTrackColor">Απόχρωση ίχνους</string>
-    <string name="dialogMapsTrackColorAltitude">
-        <xliff:g>\@string/infoMeterModeAltitudeTitle</xliff:g>
-    </string>
-    <string name="dialogMapsTrackColorSpeed">
-        <xliff:g>\@string/infoMeterModeSpeedTitle</xliff:g>
-    </string>
-    <string name="dialogMapsTrackColorDuration">
-        <xliff:g>\@string/infoMeterModeDurationTitle</xliff:g>
-    </string>
-    <string name="dialogMapsTrackColorElapsed">
-        <xliff:g>\@string/summaryTotalTime</xliff:g>
-    </string>
-    <string name="dialogMapsTrackColorHeartRate">
-        <xliff:g>\@string/infoMeterModeHeartRateTitle</xliff:g>
-    </string>
-    <string name="dialogMapsTrackColorCadence">
-        <xliff:g>\@string/infoMeterModeCadenceTitle</xliff:g>
-    </string>
-    <string name="dialogMapsTrackColorTemperature">
-        <xliff:g>\@string/infoMeterModeTemperatureTitle</xliff:g>
-    </string>
     <string name="dialogFencesAdd">Προσθήκη περίφραξης εδώ</string>
     <string name="dialogFencesUpdate">Ενημέρωση τοποθεσίας περίφραξης</string>
     <string name="dialogFencesEdit">Επεξεργασία περίφραξης</string>
@@ -289,16 +250,7 @@
     <string name="dialogTrackUploadPlatform">Υπηρεσία σε σύνδεση</string>
     <string name="dialogTrackUploadStravaIsCommute">Μετακίνηση</string>
     <string name="dialogSvgTitle">Γραφήματα SVG</string>
-    <string name="dialogSvgDistanceTitle">
-        <xliff:g>\@string/infoMeterModeDistanceTitle</xliff:g>
-    </string>
-    <string name="dialogSvgDurationTitle">
-        <xliff:g>\@string/infoMeterModeDurationTitle</xliff:g>
-    </string>
     <string name="dialogGpsIntervalTitle">Χρονικό διάστημα ενημέρωσης GPS</string>
-    <string name="dialogGpsIntervalValue">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="dialogGpsIntervalNote">Σημείωση: Διατηρήστε αυτήν την τιμή κάτω από 3 δευτερόλεπτα για να πάρετε τις πιο ακριβείς μετρήσεις και την πιο συνεπή συμπεριφορά!</string>
     <string name="dialogGpsIntervalLabelMore">
         <xliff:g>◀
@@ -306,9 +258,6 @@
     <string name="dialogGpsIntervalLabelLess">
         <xliff:g>▶
 \n</xliff:g>Λιγότερη ακρίβεια, χρήση λιγότερης μπαταρίας</string>
-    <string name="dialogHapticIntensityTitle">
-        <xliff:g>\@string/pref_haptic_feedback_intensity_title</xliff:g>
-    </string>
     <string name="dialogSliderLess">◀</string>
     <string name="dialogSliderMore">▶</string>
     <string name="dialogLocationPermissionRequestTitle">Άδεια τοποθεσίας</string>
@@ -379,9 +328,6 @@
     <string name="unitMilliseconds">ms</string>
     <string name="unitDegree">°</string>
     <string name="unitMegabyte">MB</string>
-    <string name="durationHrMin">
-        <xliff:g>%1$d:%2$02d</xliff:g>
-    </string>
     <string name="valueTimesCount">×</string>
     <string name="meterGPS">GPS</string>
     <string name="meterModeSpeed">ταχύτητα</string>
@@ -451,9 +397,6 @@
     <string name="profilesListTitle">Προφίλ</string>
     <string name="profilesListTitleSelectProfile">Εναλλαγή Προφίλ</string>
     <string name="profilesListAddProfile">Νέο προφίλ</string>
-    <string name="profilesListRowLastActivity">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="profilesListRowTotalsSince">Συνολικά από:<xliff:g>%1$s</xliff:g>
     </string>
     <string name="profilesListButtonResetTotals">Επαναφορά συνόλων</string>
@@ -490,9 +433,6 @@
     <string name="summaryBasalMetabolicRate">Βασικός μεταβολικός ρυθμός</string>
     <string name="summaryLocationInterval">Διάστημα τοποθεσίας</string>
     <string name="summaryDeviceRestartsCount">Εξαναγκασμένη επανεκκίνηση</string>
-    <string name="summaryEnergyParams">
-        <xliff:g>\@string/controlPanelEnergyParams</xliff:g>
-    </string>
     <string name="summaryStartedDatetime">Ξεκίνησε</string>
     <string name="summaryEndedDatetime">Τελείωσε</string>
     <string name="summaryTotalTime">Συνολικός χρόνος</string>
@@ -616,7 +556,6 @@
     <string name="pref_category_pressure_title">Πίεση</string>
     <string name="pref_category_sensors_title">Αισθητήρες</string>
     <string name="pref_category_cloudAccounts_title">Λογαριασμοί</string>
-    <string name="pref_category_goto_title">\@null</string>
     <string name="pref_category_mapsQuickZoom">Γρήγορη μεγέθυνση</string>
     <string name="pref_category_mapsCache">κρυφή μνήμη</string>
     <string name="prefAllProfilesInfoTitle">Σημείωση</string>
@@ -664,13 +603,7 @@
     <string name="pref_bg_color_summary">Επιλογή επιθυμητού χρώματος για παρασκήνιο εφαρμογής</string>
     <string name="pref_fg_color_title">Χρώμα κειμένου</string>
     <string name="pref_fg_color_summary">Επιλογή επιθυμητού χρώματος για κείμενο και εικονίδια</string>
-    <string name="pref_visualThemeAutoTitle">
-        <xliff:g>\@string/pref_category_visualThemeAuto</xliff:g>
-    </string>
     <string name="pref_visualThemeAutoSummary">Εφαρμογή φωτεινού η σκούρου θέματος βάση του περιβάλλοντος φωτισμού</string>
-    <string name="pref_default_color_title">
-        <xliff:g>\@string/pref_resetToDefault</xliff:g>
-    </string>
     <string name="pref_buttons_bg_look_title">Διαφανή πλήκτρα</string>
     <string name="pref_buttons_bg_look_summary">Πλήρως διαφανή πλήκτρα και πεδία</string>
     <string name="pref_screen_keep_on_title">Διατήρηση ενεργής οθόνης</string>
@@ -712,42 +645,12 @@
     <string name="pref_roarConstantModeButton_summary">Εναλλαγή σταθερής λειτουργίας με το κλικ ενός κουμπιού, ενώ η βοή είναι ενεργοποιημένη</string>
     <string name="pref_fenceguard_title">Περίφραξη ιδιωτικότητας</string>
     <string name="pref_fenceguard_summary">Προστατέψτε την τοποθεσία του σπιτιού σας, ή άλλα σημαντικά σημεία από την έκθεση, σε καταγεγραμμένες διαδρομές</string>
-    <string name="pref_gps_update_freq_title">
-        <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="pref_gps_boost_title">
-        <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="pref_gps_boost_summary">
-        <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="pref_gps_boost_dialog_title">
-        <xliff:g>\@string/pref_category_gps_boost_title</xliff:g>
-    </string>
-    <string name="pref_autopause_mode_title">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="pref_autopause_mode_dialog_title">Αυτόματη παύση</string>
-    <string name="pref_wakelock_mode_title">
-        <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="pref_wakelock_mode_dialog_title">
-        <xliff:g>\@string/pref_category_wakelock_title</xliff:g>
-    </string>
-    <string name="pref_locationProviderMode_title">
-        <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="pref_locationProviderMode_dialog_title">
-        <xliff:g>\@string/pref_category_locationProvider_title</xliff:g>
-    </string>
     <string name="pref_speedometer_limit_title">Δείκτης μέγιστου</string>
     <string name="pref_speedometer_limit_dialog_title">Ένδειξη μέγιστης ταχύτητας</string>
     <string name="pref_speed_calculate_mode_title">Επαναυπολογισμός της ταχύτητας</string>
     <string name="pref_speed_calculate_mode_summary">(Όλα τα προφίλ) Επαναυπολογίζει την ταχύτητα από τις αποστάσεις, χωρίς να χρησιμοποιεί απευθείας την τιμή GPS. Αυτό μπορεί να παρέχει πιο σταθερές αναγνώσεις ταχύτητας από τις τιμές GPS (Doppler)</string>
     <string name="pref_soundeffects_title">Ενεργοποίηση</string>
-    <string name="pref_soundeffects_summary">
-        <xliff:g>\@null</xliff:g>
-    </string>
     <string name="pref_soundeffects_fence_enterleave_title">Περίφραξη</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Ήχος όταν εισέρχεστε ή εξέρχεστε της περίφραξη</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
@@ -755,9 +658,6 @@
     <string name="pref_soundeffects_countdown_title">Αντίστροφη μέτρηση</string>
     <string name="pref_soundeffects_countdown_summary">Ήχος για αντίστροφη μέτρηση πριν από την επανέναρξη της διαδρομής (... 3, 2, 1, GO!)</string>
     <string name="pref_soundeffects_tally_title">Ενεργοποίηση</string>
-    <string name="pref_soundeffects_tally_summary">
-        <xliff:g>\@null</xliff:g>
-    </string>
     <string name="pref_soundeffects_tally_value_summary">Κάθε <xliff:g>%1$s</xliff:g>
         <xliff:g>%2$s</xliff:g>
     </string>
@@ -770,9 +670,6 @@
     <string name="pref_soundeffects_tally_descent_title">Κατάβαση</string>
     <string name="pref_soundeffects_tally_descent_dialog_title">Ορόσημο κατάβασης</string>
     <string name="pref_soundeffects_alarm_title">Ενεργοποίηση</string>
-    <string name="pref_soundeffects_alarm_summary">
-        <xliff:g>\@null</xliff:g>
-    </string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Ξεχασμένη παύση</string>
     <string name="pref_soundeffects_alarm_gpsPause_summary">Οι ειδοποίησεις θα ηχήσουν όταν σημαντική κίνηση ανιχνεύτει ενώ ο εντοπισμός είναι σε παύση</string>
     <string name="pref_facebook_disable_title">Απενεργοποίηση Facebook</string>
@@ -795,21 +692,12 @@
     <string name="pref_maps_offline_info_title">Λήψη τώρα</string>
     <string name="pref_maps_offline_info_summary">Οι χάρτες Mapsforge vector (.map) και Rmaps raster (.sqlitedb) υποστηρίζονται. Διαθέσιμοι στο download.mapsforge.org</string>
     <string name="pref_maps_offline_warning_summary">Προειδοποίηση: Μπορεί να ανακτηθούν κάποια δεδομένα, ακόμα και σε λειτουργία εκτός σύνδεσης. Παρακαλούμε να απενεργοποιήσετε τα δεδομένα κινητού πριν από τη χρήση χαρτών αν σας απασχολεί.</string>
-    <string name="pref_maps_offline_resetToDefault_title">
-        <xliff:g>\@string/pref_resetToDefault</xliff:g>
-    </string>
     <string name="pref_maps_routes_draw_title">Καθοδηγούμενες διαδρομές</string>
     <string name="pref_maps_routes_info_title">Σημείωση!</string>
     <string name="pref_maps_routes_info_summary">Καμία άλλη οπτική ή ακουστική νύξη θα δοθεί για να διευκολύνει την πλοήγηση</string>
     <string name="pref_maps_routes_files_title">Επιλέξτε αρχείο ή φάκελο</string>
     <string name="pref_maps_routes_files_dialog_title">Επιλέξτε φάκελο ή αρχείο διαδρομής</string>
-    <string name="pref_maps_routes_files_summary">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="pref_maps_routes_files_noFolderSelected">Δεν επιλέχθηκε φάκελος</string>
-    <string name="pref_maps_routes_resetToDefault_title">
-        <xliff:g>\@string/pref_resetToDefault</xliff:g>
-    </string>
     <string name="pref_maps_quickZoom_title">Κουμπιά γρήγορης μεγέθυνσης</string>
     <string name="pref_maps_quickZoom_summary">(Όλα τα προφίλ) Ενεργοποίηση των αόρατων κουμπιών γρήγορου ζουμ στο κάτω μέρος του χάρτη, βελτιώνει τον προσανατολισμό σας</string>
     <string name="pref_maps_quickZoomInvert_title">Αντιστροφή</string>
@@ -871,14 +759,8 @@
     <string name="pref_paceIndicator_title">Δείκτης ρυθμού</string>
     <string name="pref_paceIndicator_summary">Δείχνει όταν πηγαίνετε πιο γρήγορα ή πιο αργά από τη μέση ταχύτητα</string>
     <string name="pref_haptic_feedback_title">Δόνηση κατά την αφή</string>
-    <string name="pref_haptic_feedback_summary">
-        <xliff:g>\@null</xliff:g>
-    </string>
     <string name="pref_haptic_feedback_intensity_title">Ένταση δόνησης</string>
     <string name="pref_soundsMasterSwitch_title">Όλοι οι ήχοι</string>
-    <string name="pref_soundsMasterSwitch_summary">
-        <xliff:g>\@null</xliff:g>
-    </string>
     <string name="prefBarometricAltitudeTitle">Βαρομετρικό υψόμετρο</string>
     <string name="prefBarometricAltitudeSummary">Χρησιμοποιήστε το ενσωματωμένο βαρόμετρο για να αυξήσετε την ακρίβεια του ύψους</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Θερμοβαρόμετρο</string>

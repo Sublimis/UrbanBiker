@@ -1,32 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="locale">sr</string>
-
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="locale">sr</string>
     <string name="app_name">Urban Biker</string>
-
     <string name="app_description">Pratite i merite Vaše vožnje sa velikom preciznošću. Povećajte Vašu efikasnost i bezbednost u vožnji.</string>
-
     <string name="widget_1_description">Biciklista: Biciklističko zvono</string>
     <string name="widget_2_description">Biciklista: Zvono + Lampa</string>
     <string name="widget_3_description">Biciklista: Kompletno</string>
-
     <string name="copyright_part1">&lt;xliff:g&gt;<b>v%1$s</b> (%2$s)&lt;/xliff:g&gt;</string>
-
     <string name="proLicenseLabel">Pro</string>
     <string name="proPlusLicenseLabel">Pro+</string>
     <string name="ultimateLicenseLabel">Ultimate</string>
-
     <string name="proLicenseTitle">Pro License</string>
     <string name="proLicenseDescription">Remove ads</string>
-
     <string name="proPlusLicenseTitle">Pro Plus License</string>
     <string name="proPlusLicenseDescription">Remove ads and unlock all non-subscription features we may add in the future</string>
-
     <string name="ultimateLicenseTitle">Ultimate License</string>
     <string name="ultimateLicenseDescriptionMonthly">All features and maps unlocked (monthly subscription)</string>
     <string name="ultimateLicenseDescriptionYearly">All features and maps unlocked (yearly subscription)</string>
-
-
     <string name="ok">OK</string>
     <string name="yes">Da</string>
     <string name="no">Ne</string>
@@ -54,16 +44,13 @@
     <string name="menuClose">Zatvorite</string>
     <string name="menuInfo">Info</string>
     <string name="share_title">Pošaljite preko</string>
-    <string name="share_subject"><xliff:g>\@string/app_name</xliff:g></string>
-
     <string name="pick_a_color">Izaberite boju</string>
-
     <string name="fence_name_default">Moja Lokacija</string>
     <string name="profileNameDefault">Novi Profil</string>
-
     <string name="featureNotAvailable">Izvinite, opcija nije dostupna na ovom uređaju</string>
     <string name="toastRestartRequired">Molimo Vas restartujte aplikaciju da bi ova promena bila primenjena</string>
-    <string name="toastActiveProfile">Profil: <xliff:g>%1$s</xliff:g></string>
+    <string name="toastActiveProfile">Profil: <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="toastProfileSavingError">Greška pri snimanju podataka profila. Molimo Vas pokušajte ponovo.</string>
     <string name="toastProfileChangeError">Greška pri zameni profila. Molimo Vas pokušajte ponovo.</string>
     <string name="toastGpsEnabled">GPS je uključen</string>
@@ -102,7 +89,6 @@
     <string name="toastErrorCreatingOfflineMap">Greška pri pravljenju offline mape</string>
     <string name="toastErrorAccessingExternalStorage">Greška pri pristupanju spoljašnjoj memoriji</string>
     <string name="toastErrorPowerParametersVoid">Popunite parametre Snage u Podešavanjima</string>
-    <string name="notificationTitle"><xliff:g>\@string/app_name</xliff:g></string>
     <string name="dialog_default_color_light_title">Svetla tema</string>
     <string name="dialog_default_color_dark_title">Tamna tema</string>
     <string name="dialog_default_color_text">Ovim ćete učitati osnovne boje. Da li ste sigurni\?</string>
@@ -111,7 +97,6 @@
     <string name="dialog_volume_effects_text">Efekti</string>
     <string name="dialog_volume_tallies_text">Deonice</string>
     <string name="dialog_volume_message">Napomena: Koristite dugmiće za zvuk na Vašem uređaju da biste podesili jačinu zvuka.</string>
-    <string name="dialog_fenceguard_title"><xliff:g>\@string/menuFenceguard</xliff:g></string>
     <string name="dialog_fenceguard_add_title">Dodajte ogradu</string>
     <string name="dialog_fenceguard_add_text">Unesite naziv za novu ogradu:</string>
     <string name="dialog_fenceguard_add_text2">Ograda će biti podignuta oko Vaše trenutne lokacije da ista ne bi bila izložena u snimljenim stazama.</string>
@@ -121,7 +106,6 @@
     <string name="dialog_fenceguard_remove_title">Uklonite ogradu</string>
     <string name="dialog_fenceguard_remove_defaultText">Da li ste sigurni da želite da uklonite ogradu\?</string>
     <string name="dialog_fenceguard_remove_formatText">Da li ste sigurni da želite da uklonite ogradu <xliff:g>%1$s</xliff:g>\?</string>
-    <string name="dialog_exit_title"><xliff:g>\@string/app_name</xliff:g></string>
     <string name="dialogProfileDeleteTitle">Izbrišite profil</string>
     <string name="dialogProfileDeleteMessage">Upozorenje: Ovom akcijom uklonićete podešavanja profila i zbirne podatke. Ovo neće uticati na sačuvane staze.
 \n
@@ -174,7 +158,6 @@
     <string name="dialogMapsDownloadText">Otvorite veb stranicu za preuzimanje sada\?</string>
     <string name="dialogSvgTitle">SVG grafikoni</string>
     <string name="dialogGpsIntervalTitle">Interval ažuriranja GPS-a</string>
-    <string name="dialogGpsIntervalValue"><xliff:g>%1$s</xliff:g></string>
     <string name="unitKm">km</string>
     <string name="unitKmh">km/h</string>
     <string name="unitMiles">mi</string>
@@ -218,10 +201,7 @@
     <string name="unitPerHundredMi">/100mi</string>
     <string name="unitPerHour">/h</string>
     <string name="unitPercent">%</string>
-    <string name="durationHrMin"><xliff:g>%1$d:%2$02d</xliff:g></string>
-
     <string name="valueTimesCount">×</string>
-
     <string name="meterGPS">GPS</string>
     <string name="meterModeSpeed">brzina</string>
     <string name="meterModeSpeedVertical">vertikalna brzina</string>
@@ -250,8 +230,8 @@
     <string name="meterTextMax">max</string>
     <string name="meterTextAvg">prosek</string>
     <string name="profilesListTitleSelectProfile">Zamenite Profil</string>
-    <string name="profilesListRowLastActivity"><xliff:g>%1$s</xliff:g></string>
-    <string name="profilesListRowTotalsSince">Ukupno od: <xliff:g>%1$s</xliff:g></string>
+    <string name="profilesListRowTotalsSince">Ukupno od: <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="profilesListButtonResetTotals">Resetovanje zbirnih podataka</string>
     <string name="tracksHistoryListTitle">Arhiva staza</string>
     <string name="tracksHistoryListLoading">Učitavanje...</string>
@@ -262,12 +242,10 @@
     <string name="tracksHistoryListButtonDelete">Izbrišite</string>
     <string name="tracksHistoryListShareTrackDialogTitle">Podelite stazu na...</string>
     <string name="tracksHistoryListViewTrackDialogTitle">Pogledajte stazu sa...</string>
-
     <string name="pref_text_off">Isklj.</string>
     <string name="pref_text_min">Min</string>
     <string name="pref_text_medium">Srednje</string>
     <string name="pref_text_max">Max</string>
-
     <string name="pref_category1_title">Zvuk</string>
     <string name="pref_category2_title">Displej</string>
     <string name="pref_category_general_title">Opšte</string>
@@ -352,7 +330,6 @@
     <string name="pref_bg_color_summary">Izaberite željenu boju za pozadinu aplikacije</string>
     <string name="pref_fg_color_title">Boja teksta</string>
     <string name="pref_fg_color_summary">Izaberite željenu boju slova i ikonica</string>
-    <string name="pref_visualThemeAutoTitle"><xliff:g>\@string/pref_category_visualThemeAuto</xliff:g></string>
     <string name="pref_visualThemeAutoSummary">Primeni svetlu ili tamnu temu u zavisnosti od spoljašnjeg osvetljenja</string>
     <string name="pref_buttons_bg_look_title">Čisti dugmići</string>
     <string name="pref_buttons_bg_look_summary">Potpuno prozirni dugmići i polja</string>
@@ -386,18 +363,10 @@
     <string name="pref_roaring_mode_dialog_title">Režim zvuka točka</string>
     <string name="pref_fenceguard_title">ZaštitnaOgrada</string>
     <string name="pref_fenceguard_summary">Zaštita i onemogućavanje pristupa lokaciji Vaše kuće ili drugih važnih mesta u snimljenim stazama</string>
-    <string name="pref_gps_update_freq_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_summary"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_gps_boost_dialog_title"><xliff:g>\@string/pref_category_gps_boost_title</xliff:g></string>
-    <string name="pref_autopause_mode_title"><xliff:g>%1$s</xliff:g></string>
     <string name="pref_autopause_mode_dialog_title">Automatsko pauziranje</string>
-    <string name="pref_wakelock_mode_title"><xliff:g>%1$s</xliff:g></string>
-    <string name="pref_wakelock_mode_dialog_title"><xliff:g>\@string/pref_category_wakelock_title</xliff:g></string>
     <string name="pref_speedometer_limit_title">Indikator brzine max</string>
     <string name="pref_speedometer_limit_dialog_title">Indikator brzine max</string>
     <string name="pref_soundeffects_title">Omogućite</string>
-    <string name="pref_soundeffects_summary"><xliff:g>\@null</xliff:g></string>
     <string name="pref_soundeffects_fence_enterleave_title">Ograda</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Zvučni signal prilikom ulaska/izlaska iz ograde</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
@@ -405,8 +374,9 @@
     <string name="pref_soundeffects_countdown_title">Odbrojavanje</string>
     <string name="pref_soundeffects_countdown_summary">Zvučni signal prilikom odbrojavanja pre nastavka kretanja (...3, 2, 1, KRENI!)</string>
     <string name="pref_soundeffects_tally_title">Omogućite</string>
-    <string name="pref_soundeffects_tally_summary"><xliff:g>\@null</xliff:g></string>
-    <string name="pref_soundeffects_tally_value_summary">Svakih <xliff:g>%1$s</xliff:g> <xliff:g>%2$s</xliff:g></string>
+    <string name="pref_soundeffects_tally_value_summary">Svakih <xliff:g>%1$s</xliff:g>
+        <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_soundeffects_tally_distance_title">Razdaljina</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">Dužina deonice</string>
     <string name="pref_soundeffects_tally_duration_title">Trajanje</string>
@@ -423,13 +393,13 @@
     <string name="pref_maps_online_mode_dialog_title">Izvor mapa</string>
     <string name="pref_maps_offline_file_title">Izaberite datoteku ili fasciklu</string>
     <string name="pref_maps_offline_file_dialog_title">Izaberite fasciklu sa offline mapama</string>
-    <string name="pref_maps_offline_file_summary">(Važi za sve profile) <xliff:g>%1$s</xliff:g></string>
+    <string name="pref_maps_offline_file_summary">(Važi za sve profile) <xliff:g>%1$s</xliff:g>
+    </string>
     <string name="pref_maps_offline_file_noFolderSelected">Nije odabrana nijedna fascikla.</string>
     <string name="pref_maps_offline_info_title">Preuzmite sada</string>
     <string name="pref_maps_offline_info_summary">Podržane su Mapsforge vektorske (.map) i Rmaps rasterske (.sqlitedb) mape. Dostupne su na download.mapsforge.org</string>
     <string name="pref_maps_routes_files_title">Izaberite datoteku ili fasciklu</string>
     <string name="pref_maps_routes_files_dialog_title">Izaberite folder ili datoteku staza</string>
-    <string name="pref_maps_routes_files_summary"><xliff:g>%1$s</xliff:g></string>
     <string name="pref_maps_routes_files_noFolderSelected">Nijedan folder nije izabran.</string>
     <string name="pref_button_autoring_enable_title">Promena režima Automatskog Zvona</string>
     <string name="pref_button_autoring_enable_summary">Omogućite režim Automatskog Zvona dugim klikom na brzinomer</string>
@@ -454,13 +424,16 @@
     <string name="pref_speedo_display_mode_dialog_title">Izgled merača brzine</string>
     <string name="pref_powermeter_display_mode_dialog_title">Režim prikaza snage</string>
     <string name="pref_power_weights_title">Težine</string>
-    <string name="pref_power_weights_summary">Vozač: <xliff:g>%1$s</xliff:g>, Vozilo: <xliff:g>%2$s</xliff:g>, Teret: <xliff:g>%3$s</xliff:g>, Putnici: <xliff:g>%4$s</xliff:g>, Točkovi: <xliff:g>%5$s</xliff:g></string>
+    <string name="pref_power_weights_summary">Vozač: <xliff:g>%1$s</xliff:g>, Vozilo: <xliff:g>%2$s</xliff:g>, Teret: <xliff:g>%3$s</xliff:g>, Putnici: <xliff:g>%4$s</xliff:g>, Točkovi: <xliff:g>%5$s</xliff:g>
+    </string>
     <string name="pref_power_coefs_title">Koeficijenti</string>
     <string name="pref_power_coefs_summary">Površina otpora: <xliff:g>%1$s
-\n</xliff:g>Obrtni otpor: <xliff:g>%2$s</xliff:g></string>
+\n</xliff:g>Obrtni otpor: <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_energy_params_title">Parametri energije</string>
     <string name="pref_energy_params_summary">Efikasnost: <xliff:g>%1$s
-\n</xliff:g>Metabolizam: <xliff:g>%2$s</xliff:g></string>
+\n</xliff:g>Metabolizam: <xliff:g>%2$s</xliff:g>
+    </string>
     <string name="pref_svg_data_enable_title">Generisanje grafikona</string>
     <string name="pref_svg_data_modes_select_title">Izaberite vrste grafikona...</string>
     <string name="pref_flashlightAutoPocketMode_title">Režim u džepu</string>
@@ -499,14 +472,9 @@
     <string name="defaultProfileNameCar">Auto</string>
     <string name="defaultProfileNamePlane">Avion</string>
     <string name="defaultProfileNameOther">Ostalo</string>
-
-
-	<string name="svgCopyright">Omogućio: Urban Biker</string>
-
-
-	<string name="fbStoryLiveText">U toku!</string>
+    <string name="svgCopyright">Omogućio: Urban Biker</string>
+    <string name="fbStoryLiveText">U toku!</string>
     <string name="fbCourseTitle">Pokreće Urban Biker</string>
-	<string name="dialogLicenseBuyYesButton">Kupite!</string>
+    <string name="dialogLicenseBuyYesButton">Kupite!</string>
     <string name="dialogLicenseBuyNoButton">Ne sada</string>
-
-    </resources>
+</resources>

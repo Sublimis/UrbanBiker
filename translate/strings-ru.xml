@@ -63,9 +63,6 @@
     <string name="menuRefresh">Обновить</string>
     <string name="menuSwitchProfile">Переключить на</string>
     <string name="share_title">Отправить с помощью</string>
-    <string name="share_subject">
-        <xliff:g>\@string/app_name</xliff:g>
-    </string>
     <string name="pick_a_color">Выбрать цвет</string>
     <string name="fence_name_default">Мое Местоположение</string>
     <string name="profileNameDefault">Новый профиль</string>
@@ -128,16 +125,7 @@
     <string name="toastSensorDisabled">Датчик выключен</string>
     <string name="toastAutoThemeActivated">Включена автоматическая визуальная тема</string>
     <string name="toastCancelled">Отменено</string>
-    <string name="notificationTitle">
-        <xliff:g>\@string/app_name</xliff:g>
-    </string>
-    <string name="notificationTitleAdvanced">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="notificationTitleAdvancedPaused">Пауза: <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="licenseSuccessDialogTitle">
-        <xliff:g>\@string/app_name</xliff:g>
     </string>
     <string name="licenseSuccessDialogMessage">Приложение успешно лицензировано. Спасибо за вашу поддержку!</string>
     <string name="ongoingNotificationChannelName">Непрерывное оповещение</string>
@@ -154,9 +142,6 @@
     <string name="dialog_volume_message">Примечание: Используйте кнопки громкости на устройстве, чтобы отрегулировать общую громкость звука.</string>
     <string name="dialog_bell_automatic_sensitivity_title">Чувствительность авто-звонка</string>
     <string name="dialog_bell_shake_sensitivity_title">Чувствительность тряски</string>
-    <string name="dialog_fenceguard_title">
-        <xliff:g>\@string/menuFenceguard</xliff:g>
-    </string>
     <string name="dialog_fenceguard_add_title">Добавить препятствие</string>
     <string name="dialog_fenceguard_add_text">Имя нового препятствия</string>
     <string name="dialog_fenceguard_add_text2">Ограждение будет установлено вокруг вашего текущего местоположения, чтобы защитить его от воздействия на записанные треки.</string>
@@ -172,9 +157,6 @@
         <xliff:g>(%4$s)
 \n
 \n</xliff:g>Похоже трек очень короткий. Сохранить\?</string>
-    <string name="dialog_exit_title">
-        <xliff:g>\@string/app_name</xliff:g>
-    </string>
     <string name="dialog_exit_msg">Предупреждение: Трек сейчас записывается и будет остановлен.</string>
     <string name="dialogProfileDeleteTitle">Удалить профиль</string>
     <string name="dialogProfileDeleteMessage">Предупреждение: Этот пункт удалит настройки профиля и сохраненные данные. Сохраненные треки будут оставлены без изменений.
@@ -242,27 +224,6 @@
     <string name="dialogMapsHighResolution">Карты выс. разрешения</string>
     <string name="dialogMapsRenderTerrain">Показывать рельеф</string>
     <string name="dialogMapsTrackColor">Оттенок трека:</string>
-    <string name="dialogMapsTrackColorAltitude">
-        <xliff:g>\@string/infoMeterModeAltitudeTitle</xliff:g>
-    </string>
-    <string name="dialogMapsTrackColorSpeed">
-        <xliff:g>\@string/infoMeterModeSpeedTitle</xliff:g>
-    </string>
-    <string name="dialogMapsTrackColorDuration">
-        <xliff:g>\@string/infoMeterModeDurationTitle</xliff:g>
-    </string>
-    <string name="dialogMapsTrackColorElapsed">
-        <xliff:g>\@string/summaryTotalTime</xliff:g>
-    </string>
-    <string name="dialogMapsTrackColorHeartRate">
-        <xliff:g>\@string/infoMeterModeHeartRateTitle</xliff:g>
-    </string>
-    <string name="dialogMapsTrackColorCadence">
-        <xliff:g>\@string/infoMeterModeCadenceTitle</xliff:g>
-    </string>
-    <string name="dialogMapsTrackColorTemperature">
-        <xliff:g>\@string/infoMeterModeTemperatureTitle</xliff:g>
-    </string>
     <string name="dialogFencesAdd">Добавить скрытую зону</string>
     <string name="dialogFencesUpdate">Обновить скрытую зону</string>
     <string name="dialogFencesEdit">Редактировать скрытую зону</string>
@@ -296,16 +257,7 @@
     <string name="dialogTrackUploadPlatform">Сетевые службы</string>
     <string name="dialogTrackUploadStravaIsCommute">Общий</string>
     <string name="dialogSvgTitle">Диаграммы SVG</string>
-    <string name="dialogSvgDistanceTitle">
-        <xliff:g>\@string/infoMeterModeDistanceTitle</xliff:g>
-    </string>
-    <string name="dialogSvgDurationTitle">
-        <xliff:g>\@string/infoMeterModeDurationTitle</xliff:g>
-    </string>
     <string name="dialogGpsIntervalTitle">Интервал обновления GPS</string>
-    <string name="dialogGpsIntervalValue">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="dialogGpsIntervalNote">Примечание: Держите этот параметр ниже 3х сек. что бы получить наиболее точные данные и стабильное данные!</string>
     <string name="dialogGpsIntervalLabelMore">
         <xliff:g>◀
@@ -313,9 +265,6 @@
     <string name="dialogGpsIntervalLabelLess">
         <xliff:g>▶
 \n</xliff:g>Менее точный, меньше расходует батареи</string>
-    <string name="dialogHapticIntensityTitle">
-        <xliff:g>\@string/pref_haptic_feedback_intensity_title</xliff:g>
-    </string>
     <string name="dialogSliderLess">◀</string>
     <string name="dialogSliderMore">▶</string>
     <string name="dialogLocationPermissionRequestTitle">Разрешение на определение местоположения</string>
@@ -389,9 +338,6 @@
     <string name="unitMilliseconds">мс.</string>
     <string name="unitDegree">°</string>
     <string name="unitMegabyte">МБ</string>
-    <string name="durationHrMin">
-        <xliff:g>%1$d:%2$02d</xliff:g>
-    </string>
     <string name="valueTimesCount">×</string>
     <string name="meterGPS">GPS</string>
     <string name="meterModeSpeed">скорость</string>
@@ -461,9 +407,6 @@
     <string name="profilesListTitle">Профили</string>
     <string name="profilesListTitleSelectProfile">Выбор профилей</string>
     <string name="profilesListAddProfile">Новый профиль</string>
-    <string name="profilesListRowLastActivity">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="profilesListRowTotalsSince">Итоги: <xliff:g>%1$s</xliff:g>
     </string>
     <string name="profilesListButtonResetTotals">Сбросить итоги</string>
@@ -500,9 +443,6 @@
     <string name="summaryBasalMetabolicRate">Скорость обмена веществ</string>
     <string name="summaryLocationInterval">Интервал местоположения</string>
     <string name="summaryDeviceRestartsCount">Принудительные перезапуски</string>
-    <string name="summaryEnergyParams">
-        <xliff:g>\@string/controlPanelEnergyParams</xliff:g>
-    </string>
     <string name="summaryStartedDatetime">Начат</string>
     <string name="summaryEndedDatetime">Закончен</string>
     <string name="summaryTotalTime">Общее время</string>
@@ -562,9 +502,6 @@
     <string name="pref_category_general_title">Общие</string>
     <string name="pref_category_language_title">Язык</string>
     <string name="pref_category_appearance_title">Вид</string>
-    <string name="pref_category_background_title">
-        <xliff:g>\@string/pref_background_pattern_dialog_title</xliff:g>
-    </string>
     <string name="pref_category_speedo_title">спидометр</string>
     <string name="pref_group_powermeter_title">Мощность и Энергия</string>
     <string name="pref_category_power_mode_title">Режим отображения мощности</string>
@@ -630,7 +567,6 @@
     <string name="pref_category_pressure_title">Давление</string>
     <string name="pref_category_sensors_title">Сенсоры</string>
     <string name="pref_category_cloudAccounts_title">Учётные записи</string>
-    <string name="pref_category_goto_title">\@null</string>
     <string name="pref_category_mapsQuickZoom">БыстроеПриближение</string>
     <string name="pref_category_mapsCache">Кэш</string>
     <string name="prefAllProfilesInfoTitle">Примечание!</string>
@@ -678,13 +614,7 @@
     <string name="pref_bg_color_summary">Выберите нужный цвет для фона приложения</string>
     <string name="pref_fg_color_title">Цвет текста</string>
     <string name="pref_fg_color_summary">Выберите цвет для текста и иконок</string>
-    <string name="pref_visualThemeAutoTitle">
-        <xliff:g>\@string/pref_category_visualThemeAuto</xliff:g>
-    </string>
     <string name="pref_visualThemeAutoSummary">Применить светлую или темную тему на основе окружающей среды освещения</string>
-    <string name="pref_default_color_title">
-        <xliff:g>\@string/pref_resetToDefault</xliff:g>
-    </string>
     <string name="pref_buttons_bg_look_title">Очистить кнопки</string>
     <string name="pref_buttons_bg_look_summary">Полностью прозрачные кнопки и поля</string>
     <string name="pref_screen_keep_on_title">Держать экран включенным</string>
@@ -726,45 +656,12 @@
     <string name="pref_roarConstantModeButton_summary">Переключает в постоянный режим по нажатию кнопки при включённом шуме</string>
     <string name="pref_fenceguard_title">Ограждение</string>
     <string name="pref_fenceguard_summary">Не отображать местоположение вашего дома и других личных объектов в записанных треках</string>
-    <string name="pref_gps_update_freq_title">
-        <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="pref_gps_boost_title">
-        <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="pref_gps_boost_summary">
-        <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="pref_gps_boost_dialog_title">
-        <xliff:g>\@string/pref_category_gps_boost_title</xliff:g>
-    </string>
-    <string name="pref_autopause_mode_title">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="pref_autopause_mode_dialog_title">Авто-пауза</string>
-    <string name="pref_wakelock_mode_title">
-        <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="pref_wakelock_mode_dialog_title">
-        <xliff:g>\@string/pref_category_wakelock_title</xliff:g>
-    </string>
-    <string name="pref_locationProviderMode_title">
-        <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="pref_locationProviderMode_dialog_title">
-        <xliff:g>\@string/pref_category_locationProvider_title</xliff:g>
-    </string>
     <string name="pref_speedometer_limit_title">Индикатор максимума</string>
     <string name="pref_speedometer_limit_dialog_title">Индикатор макс. скорости</string>
     <string name="pref_speed_calculate_mode_title">Перерасчитать скорость</string>
     <string name="pref_speed_calculate_mode_summary">(Все профили) Перерасчитать скорость используя пройдены путь, не используя значения GPS на прямую. Это может дать более стабильные считывания скорости по сравнению со значениями GPS (Допплера)</string>
-    <string name="pref_background_pattern_summary">
-        <xliff:g>\@null</xliff:g>
-    </string>
     <string name="pref_soundeffects_title">Включить</string>
-    <string name="pref_soundeffects_summary">
-        <xliff:g>\@null</xliff:g>
-    </string>
     <string name="pref_soundeffects_fence_enterleave_title">Скрытая зона</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Оповещать о входе/выходе в скрытую зону</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
@@ -772,9 +669,6 @@
     <string name="pref_soundeffects_countdown_title">Обратный отсчет</string>
     <string name="pref_soundeffects_countdown_summary">Звуковой обратный отсчет до старта(…3, 2, 1, Поехали!)</string>
     <string name="pref_soundeffects_tally_title">Включить</string>
-    <string name="pref_soundeffects_tally_summary">
-        <xliff:g>\@null</xliff:g>
-    </string>
     <string name="pref_soundeffects_tally_value_summary">Каждые <xliff:g>%1$s</xliff:g>
         <xliff:g>%2$s</xliff:g>
     </string>
@@ -787,9 +681,6 @@
     <string name="pref_soundeffects_tally_descent_title">Спуск</string>
     <string name="pref_soundeffects_tally_descent_dialog_title">Единицы спуска</string>
     <string name="pref_soundeffects_alarm_title">Включить</string>
-    <string name="pref_soundeffects_alarm_summary">
-        <xliff:g>\@null</xliff:g>
-    </string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Забытая пауза</string>
     <string name="pref_soundeffects_alarm_gpsPause_summary">Тревога прозвучит, когда будет обнаружено значительное движение во время паузы записи движения.</string>
     <string name="pref_facebook_disable_title">Отключить Facebook</string>
@@ -812,21 +703,12 @@
     <string name="pref_maps_offline_info_title">Загрузить сейчас</string>
     <string name="pref_maps_offline_info_summary">Поддерживаются Векторные карты (.map) и Растровые карты (.sqlitedb). Доступны для скачивания на mapsforge.org</string>
     <string name="pref_maps_offline_warning_summary">Внимание: даже в оффлайн режиме могут передаваться некоторые данные. Если необходимо, то пожалуйста выключите мобильный интернет перед использованием карт.</string>
-    <string name="pref_maps_offline_resetToDefault_title">
-        <xliff:g>\@string/pref_resetToDefault</xliff:g>
-    </string>
     <string name="pref_maps_routes_draw_title">Руководство по маршрутам</string>
     <string name="pref_maps_routes_info_title">Примечание!</string>
     <string name="pref_maps_routes_info_summary">Никакие другие визуальные или звуковые подсказки не будут показаны для облегчения следования по маршруту.</string>
     <string name="pref_maps_routes_files_title">Выбрать файл или папку</string>
     <string name="pref_maps_routes_files_dialog_title">Выбор маршрутов из папки или файла</string>
-    <string name="pref_maps_routes_files_summary">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="pref_maps_routes_files_noFolderSelected">Папка не выбрана.</string>
-    <string name="pref_maps_routes_resetToDefault_title">
-        <xliff:g>\@string/pref_resetToDefault</xliff:g>
-    </string>
     <string name="pref_maps_quickZoom_title">Кнопки БыстрогоПриближения</string>
     <string name="pref_maps_quickZoom_summary">(Все профили) Включает невидимые кнопки быстрого приближения в нижней части карты. Улучшает ориентирование</string>
     <string name="pref_maps_quickZoomInvert_title">Перевёрнутые</string>
@@ -888,14 +770,8 @@
     <string name="pref_paceIndicator_title">Индикатор темпа</string>
     <string name="pref_paceIndicator_summary">Показывает когда вы передвигаетесь быстрее или медленние вашей средней скорости</string>
     <string name="pref_haptic_feedback_title">Вибрировать при касании</string>
-    <string name="pref_haptic_feedback_summary">
-        <xliff:g>\@null</xliff:g>
-    </string>
     <string name="pref_haptic_feedback_intensity_title">Сила вибрации</string>
     <string name="pref_soundsMasterSwitch_title">Все звуки</string>
-    <string name="pref_soundsMasterSwitch_summary">
-        <xliff:g>\@null</xliff:g>
-    </string>
     <string name="prefBarometricAltitudeTitle">Барометрическая высота</string>
     <string name="prefBarometricAltitudeSummary">Использовать встроенный барометр для улучшения точности определения высоты над уровнем моря</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Гипсотермометр</string>

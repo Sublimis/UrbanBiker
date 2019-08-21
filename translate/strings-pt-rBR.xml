@@ -59,9 +59,6 @@
     <string name="menuRefresh">Atualizar</string>
     <string name="menuSwitchProfile">Alterar para</string>
     <string name="share_title">Enviar via</string>
-    <string name="share_subject">
-        <xliff:g>\@string/app_name</xliff:g>
-    </string>
     <string name="pick_a_color">Escolha uma cor</string>
     <string name="fence_name_default">Meu Lugar</string>
     <string name="profileNameDefault">Novo Perfil</string>
@@ -117,16 +114,7 @@
     <string name="toastSensorEnabled">Sensor ativo</string>
     <string name="toastSensorDisabled">Sensor inativo</string>
     <string name="toastAutoThemeActivated">Tema visual automático ativado</string>
-    <string name="notificationTitle">
-        <xliff:g>\@string/app_name</xliff:g>
-    </string>
-    <string name="notificationTitleAdvanced">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="notificationTitleAdvancedPaused">Pausado: <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="licenseSuccessDialogTitle">
-        <xliff:g>\@string/app_name</xliff:g>
     </string>
     <string name="licenseSuccessDialogMessage">O aplicativo foi licenciado com sucesso. Obrigado pelo apoio!</string>
     <string name="ongoingNotificationChannelName">Notificação em andamento</string>
@@ -143,9 +131,6 @@
     <string name="dialog_volume_message">Nota: Use os botões de volume em seu dispositivo para ajustar qualquer tipo de som.</string>
     <string name="dialog_bell_automatic_sensitivity_title">Sensibilidade da campainha automática</string>
     <string name="dialog_bell_shake_sensitivity_title">Sensibilidade ao agitar</string>
-    <string name="dialog_fenceguard_title">
-        <xliff:g>\@string/menuFenceguard</xliff:g>
-    </string>
     <string name="dialog_fenceguard_add_title">Adicionar zona privada</string>
     <string name="dialog_fenceguard_add_text">Nome da nova zona privada</string>
     <string name="dialog_fenceguard_add_text2">Uma zona de privacidade será levantado em torno de seu local atual para protegê-lo de ser exposto em faixas gravadas.</string>
@@ -161,9 +146,6 @@
         <xliff:g>(%4$s)
 \n
 \n</xliff:g>O percurso parece muito curto. Salvar este percurso\?</string>
-    <string name="dialog_exit_title">
-        <xliff:g>\@string/app_name</xliff:g>
-    </string>
     <string name="dialog_exit_msg">Cuidado: rastreamento está ativo e será interrompido.</string>
     <string name="dialogProfileDeleteTitle">Deletar Perfil</string>
     <string name="dialogProfileDeleteMessage">Cuidado: Isto irá remover as configurações de perfil e dados totais. Percursos salvos serão mantidos.
@@ -223,27 +205,6 @@
     <string name="dialogMapsAutoRotate">Rotação automática</string>
     <string name="dialogMapsRenderTerrain">Renderizar terreno</string>
     <string name="dialogMapsTrackColor">Rota matriz:</string>
-    <string name="dialogMapsTrackColorAltitude">
-        <xliff:g>\@string/infoMeterModeAltitudeTitle</xliff:g>
-    </string>
-    <string name="dialogMapsTrackColorSpeed">
-        <xliff:g>\@string/infoMeterModeSpeedTitle</xliff:g>
-    </string>
-    <string name="dialogMapsTrackColorDuration">
-        <xliff:g>\@string/infoMeterModeDurationTitle</xliff:g>
-    </string>
-    <string name="dialogMapsTrackColorElapsed">
-        <xliff:g>\@string/summaryTotalTime</xliff:g>
-    </string>
-    <string name="dialogMapsTrackColorHeartRate">
-        <xliff:g>\@string/infoMeterModeHeartRateTitle</xliff:g>
-    </string>
-    <string name="dialogMapsTrackColorCadence">
-        <xliff:g>\@string/infoMeterModeCadenceTitle</xliff:g>
-    </string>
-    <string name="dialogMapsTrackColorTemperature">
-        <xliff:g>\@string/infoMeterModeTemperatureTitle</xliff:g>
-    </string>
     <string name="dialogFencesAdd">Adicionar zona aqui</string>
     <string name="dialogFencesUpdate">Atualizar zona de localização</string>
     <string name="dialogFencesEdit">Editar zona</string>
@@ -267,20 +228,8 @@
     <string name="dialogMapsDownloadText">Abrir página de downloads na internet agora\?</string>
     <string name="dialogMapsTerrainDownloadTitle">Carregar terreno</string>
     <string name="dialogSvgTitle">Gráficos em SVG</string>
-    <string name="dialogSvgDistanceTitle">
-        <xliff:g>\@string/infoMeterModeDistanceTitle</xliff:g>
-    </string>
-    <string name="dialogSvgDurationTitle">
-        <xliff:g>\@string/infoMeterModeDurationTitle</xliff:g>
-    </string>
     <string name="dialogGpsIntervalTitle">Intervalo de atualização do GPS</string>
-    <string name="dialogGpsIntervalValue">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="dialogGpsIntervalNote">Nota: Mantenha este valor abaixo de 3 segundos para obter leituras mais precisas e comportamento mais consistente!</string>
-    <string name="dialogHapticIntensityTitle">
-        <xliff:g>\@string/pref_haptic_feedback_intensity_title</xliff:g>
-    </string>
     <string name="dialogLocationPermissionRequestTitle">Permissão de localização</string>
     <string name="dialogLocationPermissionRequest">Este aplicativo necessita acessar sua localização para registrar suas atividades ao ar livre.</string>
     <string name="dialogStoragePermissionRequestTitle">Permissão de armazenamento</string>
@@ -346,9 +295,6 @@
     <string name="unitMilliseconds">ms</string>
     <string name="unitDegree">°</string>
     <string name="unitMegabyte">MB</string>
-    <string name="durationHrMin">
-        <xliff:g>%1$d:%2$02d</xliff:g>
-    </string>
     <string name="valueTimesCount">×</string>
     <string name="meterGPS">GPS</string>
     <string name="meterModeSpeed">Velocidade</string>
@@ -417,9 +363,6 @@
     <string name="profilesListTitle">Perfis</string>
     <string name="profilesListTitleSelectProfile">Trocar perfil</string>
     <string name="profilesListAddProfile">Novo perfil</string>
-    <string name="profilesListRowLastActivity">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="profilesListRowTotalsSince">Os totais desde: <xliff:g>%1$s</xliff:g>
     </string>
     <string name="profilesListButtonResetTotals">Redefinir os totais</string>
@@ -442,9 +385,6 @@
     <string name="summaryRollResistCoef">Coef. resist. rol.</string>
     <string name="summaryBasalMetabolicRate">Taxa metabólica basal</string>
     <string name="summaryLocationInterval">Intervalo de localização</string>
-    <string name="summaryEnergyParams">
-        <xliff:g>\@string/controlPanelEnergyParams</xliff:g>
-    </string>
     <string name="summaryStartedDatetime">Iniciado</string>
     <string name="summaryEndedDatetime">Finalizado</string>
     <string name="summaryTotalTime">Tempo total</string>
@@ -611,13 +551,7 @@
     <string name="pref_bg_color_summary">Escolha a cor desejada para o fundo de app</string>
     <string name="pref_fg_color_title">Cor do texto</string>
     <string name="pref_fg_color_summary">Escolha a cor desejada para o texto e os ícones</string>
-    <string name="pref_visualThemeAutoTitle">
-        <xliff:g>\@string/pref_category_visualThemeAuto</xliff:g>
-    </string>
     <string name="pref_visualThemeAutoSummary">Aplicar tema claro ou escuro, com base na iluminação do ambiente</string>
-    <string name="pref_default_color_title">
-        <xliff:g>\@string/pref_resetToDefault</xliff:g>
-    </string>
     <string name="pref_buttons_bg_look_title">Clarear Botões</string>
     <string name="pref_buttons_bg_look_summary">Campos e botões completamente transparentes</string>
     <string name="pref_screen_keep_on_title">Manter a tela ligada</string>
@@ -658,42 +592,12 @@
     <string name="pref_roarConstantModeButton_summary">Alternar modo de constante com um clique de botão, quando o som estiver ligado</string>
     <string name="pref_fenceguard_title">Zona Privada</string>
     <string name="pref_fenceguard_summary">Proteger o local da sua casa, ou outros locais importantes a serem expostas em faixas gravadas</string>
-    <string name="pref_gps_update_freq_title">
-        <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="pref_gps_boost_title">
-        <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="pref_gps_boost_summary">
-        <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="pref_gps_boost_dialog_title">
-        <xliff:g>\@string/pref_category_gps_boost_title</xliff:g>
-    </string>
-    <string name="pref_autopause_mode_title">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="pref_autopause_mode_dialog_title">Pausa automática</string>
-    <string name="pref_wakelock_mode_title">
-        <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="pref_wakelock_mode_dialog_title">
-        <xliff:g>\@string/pref_category_wakelock_title</xliff:g>
-    </string>
-    <string name="pref_locationProviderMode_title">
-        <xliff:g>%1$s</xliff:g>
-    </string>
-    <string name="pref_locationProviderMode_dialog_title">
-        <xliff:g>\@string/pref_category_locationProvider_title</xliff:g>
-    </string>
     <string name="pref_speedometer_limit_title">Indicador máximo</string>
     <string name="pref_speedometer_limit_dialog_title">Indicador de velocidade máxima</string>
     <string name="pref_speed_calculate_mode_title">Recalcular velocidade</string>
     <string name="pref_speed_calculate_mode_summary">(Todos os perfis) Recalcular velocidade a partir de distâncias, não utilizar valores de GPS diretamente. Isso pode gerar leituras de velocidade mais estáveis comparado aos valores de GPS (Doppler).</string>
     <string name="pref_soundeffects_title">Ativado</string>
-    <string name="pref_soundeffects_summary">
-        <xliff:g>\@null</xliff:g>
-    </string>
     <string name="pref_soundeffects_fence_enterleave_title">Zona</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Tocar quando entrar ou sair de uma zona</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
@@ -701,9 +605,6 @@
     <string name="pref_soundeffects_countdown_title">Contagem regressiva</string>
     <string name="pref_soundeffects_countdown_summary">Som da contagem regressiva antes de retomar ao percurso (…3, 2, 1, VAI!)</string>
     <string name="pref_soundeffects_tally_title">Ativado</string>
-    <string name="pref_soundeffects_tally_summary">
-        <xliff:g>\@null</xliff:g>
-    </string>
     <string name="pref_soundeffects_tally_value_summary">Sempre <xliff:g>%1$s</xliff:g>
         <xliff:g>%2$s</xliff:g>
     </string>
@@ -716,9 +617,6 @@
     <string name="pref_soundeffects_tally_descent_title">Descida</string>
     <string name="pref_soundeffects_tally_descent_dialog_title">Contagem de descida</string>
     <string name="pref_soundeffects_alarm_title">Ativado</string>
-    <string name="pref_soundeffects_alarm_summary">
-        <xliff:g>\@null</xliff:g>
-    </string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Esquecer pausa</string>
     <string name="pref_soundeffects_alarm_gpsPause_summary">O alarme soará quando for detectado movimento significativo mesmo o rastreamento estando em pausa</string>
     <string name="pref_facebook_disable_title">Desativar o Facebook</string>
@@ -741,21 +639,12 @@
     <string name="pref_maps_offline_info_title">Faça o download agora</string>
     <string name="pref_maps_offline_info_summary">Os mapas de Mapsforge vector (.map) e Rmaps raster (.sqlitedb) são suportados. Disponibilidade em download.mapsforge.org</string>
     <string name="pref_maps_offline_warning_summary">Aviso: Alguns dados on-line podem ser obtidos mesmo em modo offline. Por favor, desative Internet móvel antes de utilizar mapas, se isso o preocupa.</string>
-    <string name="pref_maps_offline_resetToDefault_title">
-        <xliff:g>\@string/pref_resetToDefault</xliff:g>
-    </string>
     <string name="pref_maps_routes_draw_title">Guia de rotas</string>
     <string name="pref_maps_routes_info_title">Nota!</string>
     <string name="pref_maps_routes_info_summary">Não há outras sinais visuais ou sonoros que possam facilitar a rota de navegação</string>
     <string name="pref_maps_routes_files_title">Selecione o arquivo ou pasta</string>
     <string name="pref_maps_routes_files_dialog_title">Escolha o arquivo ou pasta das rotas</string>
-    <string name="pref_maps_routes_files_summary">
-        <xliff:g>%1$s</xliff:g>
-    </string>
     <string name="pref_maps_routes_files_noFolderSelected">Nenhuma pasta selecionada.</string>
-    <string name="pref_maps_routes_resetToDefault_title">
-        <xliff:g>\@string/pref_resetToDefault</xliff:g>
-    </string>
     <string name="pref_maps_quickZoom_title">Botões QuickZoom</string>
     <string name="pref_maps_quickZoom_summary">(Todos os perfis) Habilite botões de zoom rápido invisíveis na parte inferior do mapa, melhora sua orientação</string>
     <string name="pref_maps_quickZoomInvert_title">Invertido</string>
@@ -817,14 +706,8 @@
     <string name="pref_paceIndicator_title">Indicador de ritmo</string>
     <string name="pref_paceIndicator_summary">Mostra quando você está indo mais rápido ou mais lento do que a média de velocidade</string>
     <string name="pref_haptic_feedback_title">Vibrar quando tocar</string>
-    <string name="pref_haptic_feedback_summary">
-        <xliff:g>\@null</xliff:g>
-    </string>
     <string name="pref_haptic_feedback_intensity_title">Intensidade da vibração</string>
     <string name="pref_soundsMasterSwitch_title">Todos os sons</string>
-    <string name="pref_soundsMasterSwitch_summary">
-        <xliff:g>\@null</xliff:g>
-    </string>
     <string name="prefBarometricAltitudeTitle">Altitude barométrica</string>
     <string name="prefBarometricAltitudeSummary">Usar o barômetro embutido para melhorar a precisão da altitude</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Termo Barômetro</string>
