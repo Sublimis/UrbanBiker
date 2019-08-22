@@ -164,7 +164,6 @@
     <string name="dialog_default_map_track_colors_title">Map track colors</string>
     <string name="dialog_default_color_text">This will load the default colors. Are you sure?</string>
     <string name="dialog_defaultConfirmation">Are you sure?</string>
-    <string name="dialog_volume_title" translatable="false">@null</string>
     <string name="dialog_volume_bell_text">Bell</string>
     <string name="dialog_volume_roaring_text">Roar</string>
     <string name="dialog_volume_effects_text">Effects</string>
@@ -295,19 +294,16 @@
     <string name="dialogCameraPermissionRequest">Permission is needed so the app can activate the flashlight.</string>
     <string name="dialogPermissionProblemMessage">This permission is needed for the app to function properly. It can be granted in the App permissions settings page.\n\nGo there now?</string>
 
-	<string-array name="dialog_fenceguard_add_entries">
-	    <item>Add fence</item>
-	</string-array>
+    <!-- dialog_fenceguard_add_entries -->
+    <string name="dialog_fenceguard_add_entries_0">Add fence</string>
 
-	<string-array name="dialog_fenceguard_update_entries">
-	    <item>Update fence</item>
-	    <item>Remove fence</item>
-	</string-array>
+    <!-- dialog_fenceguard_update_entries -->
+    <string name="dialog_fenceguard_update_entries_0">Update fence</string>
+    <string name="dialog_fenceguard_update_entries_1">Remove fence</string>
 
-	<string-array name="dialogTracksShareChoices">
-	    <item>ZIPs (complete)</item>
-	    <item>GPX only</item>
-	</string-array>
+    <!-- dialogTracksShareChoices -->
+    <string name="dialogTracksShareChoices_0">ZIPs (complete)</string>
+    <string name="dialogTracksShareChoices_1">GPX only</string>
 
     <string name="mapLayerStreet">Street</string>
     <string name="mapLayerTerrain">Terrain</string>
@@ -950,303 +946,267 @@
     <string name="defaultProfileNameOther">Other</string>
 
 
-	<string-array name="meterModes">
-	    <item>Duration</item>
-	    <item>Distance</item>
-	    <item>Speed</item>
-	    <item>Altitude</item>
-	    <item>Ascent</item>
-	    <item>Descent</item>
-        <item>Slope</item>
-	    <item>Energy</item>
-	    <item>Efficacy</item>
-	    <item>Power</item>
-        <item>Active power</item>
-	    <item>Vert. power</item>
-	    <item>Vert. speed</item>
-	    <item>Acceleration</item>
-	    <item>Avg. speed</item>
-        <item>Avg. power</item>
-        <item>Elapsed time</item>
-	    <item>Pace</item>
-        <item>Cadence</item>
-        <item>Heart rate</item>
-        <item>Gear ratio</item>
-	    <item>Clock</item>
-	    <item>Wriggle</item>
-	    <item>Temperature</item>
-	    <item>Pressure</item>
-	   	<item>Odometer</item>
-	</string-array>
+    <!-- meterModes -->
+    <string name="meterModes_0">Duration</string>
+    <string name="meterModes_1">Distance</string>
+    <string name="meterModes_2">Speed</string>
+    <string name="meterModes_3">Altitude</string>
+    <string name="meterModes_4">Ascent</string>
+    <string name="meterModes_5">Descent</string>
+    <string name="meterModes_6">Slope</string>
+    <string name="meterModes_7">Energy</string>
+    <string name="meterModes_8">Efficacy</string>
+    <string name="meterModes_9">Power</string>
+    <string name="meterModes_10">Active power</string>
+    <string name="meterModes_11">Vert. power</string>
+    <string name="meterModes_12">Vert. speed</string>
+    <string name="meterModes_13">Acceleration</string>
+    <string name="meterModes_14">Avg. speed</string>
+    <string name="meterModes_15">Avg. power</string>
+    <string name="meterModes_16">Elapsed time</string>
+    <string name="meterModes_17">Pace</string>
+    <string name="meterModes_18">Cadence</string>
+    <string name="meterModes_19">Heart rate</string>
+    <string name="meterModes_20">Gear ratio</string>
+    <string name="meterModes_21">Clock</string>
+    <string name="meterModes_22">Wriggle</string>
+    <string name="meterModes_23">Temperature</string>
+    <string name="meterModes_24">Pressure</string>
+    <string name="meterModes_25">Odometer</string>
 
 
-	<string-array name="pref_gps_update_freq_entries">
-	    <item>Fastest</item>
-	    <item>0.5 sec</item>
-	    <item>Default</item>
-	    <item>1 sec</item>
-	    <item>2 sec</item>
-	    <item>3 sec</item>
-	    <item>4 sec</item>
-	    <item>5 sec</item>
-	    <item>10 sec</item>
-	    <item>15 sec</item>
-	    <item>20 sec</item>
-	   	<item>30 sec</item>
-	   	<item>45 sec</item>
-	   	<item>1 min</item>
-	    <item>2 min</item>
-	    <item>3 min</item>
-	    <item>4 min</item>
-	    <item>5 min</item>
-	    <item>10 min</item>
-	    <item>15 min</item>
-	    <item>20 min</item>
-	    <item>30 min</item>
-	    <item>45 min</item>
-	    <item>1 hour</item>
-	</string-array>
+    <!-- pref_gps_update_freq_entries -->
+    <string name="pref_gps_update_freq_entries_0">Fastest</string>
+    <string name="pref_gps_update_freq_entries_1">0.5 sec</string>
+    <string name="pref_gps_update_freq_entries_2">Default</string>
+    <string name="pref_gps_update_freq_entries_3">1 sec</string>
+    <string name="pref_gps_update_freq_entries_4">2 sec</string>
+    <string name="pref_gps_update_freq_entries_5">3 sec</string>
+    <string name="pref_gps_update_freq_entries_6">4 sec</string>
+    <string name="pref_gps_update_freq_entries_7">5 sec</string>
+    <string name="pref_gps_update_freq_entries_8">10 sec</string>
+    <string name="pref_gps_update_freq_entries_9">15 sec</string>
+    <string name="pref_gps_update_freq_entries_10">20 sec</string>
+    <string name="pref_gps_update_freq_entries_11">30 sec</string>
+    <string name="pref_gps_update_freq_entries_12">45 sec</string>
+    <string name="pref_gps_update_freq_entries_13">1 min</string>
+    <string name="pref_gps_update_freq_entries_14">2 min</string>
+    <string name="pref_gps_update_freq_entries_15">3 min</string>
+    <string name="pref_gps_update_freq_entries_16">4 min</string>
+    <string name="pref_gps_update_freq_entries_17">5 min</string>
+    <string name="pref_gps_update_freq_entries_18">10 min</string>
+    <string name="pref_gps_update_freq_entries_19">15 min</string>
+    <string name="pref_gps_update_freq_entries_20">20 min</string>
+    <string name="pref_gps_update_freq_entries_21">30 min</string>
+    <string name="pref_gps_update_freq_entries_22">45 min</string>
+    <string name="pref_gps_update_freq_entries_23">1 hour</string>
 
-	<string-array name="pref_gps_boost_modes">
-	    <item>Map shown (default)</item>
-	    <item>Screen on</item>
-	    <item>Disabled</item>
-	</string-array>
+    <!-- pref_gps_boost_modes -->
+    <string name="pref_gps_boost_modes_0">Map shown (default)</string>
+    <string name="pref_gps_boost_modes_1">Screen on</string>
+    <string name="pref_gps_boost_modes_2">Disabled</string>
 
-	<string-array name="pref_gps_boost_modes_explanation">
-	    <item>Force frequent GPS updates while the map is visible</item>
-	    <item>Force frequent GPS updates while the screen is turned on</item>
-	    <item>Never force frequent GPS updates</item>
-	</string-array>
+    <!-- pref_gps_boost_modes_explanation -->
+    <string name="pref_gps_boost_modes_explanation_0">Force frequent GPS updates while the map is visible</string>
+    <string name="pref_gps_boost_modes_explanation_1">Force frequent GPS updates while the screen is turned on</string>
+    <string name="pref_gps_boost_modes_explanation_2">Never force frequent GPS updates</string>
 
-	<string-array name="pref_autopause_modes">
-	    <item>Realtime (default)</item>
-	    <item>Relaxed</item>
-	    <item>Off</item>
-	</string-array>
+    <!-- pref_autopause_modes -->
+    <string name="pref_autopause_modes_0">Realtime (default)</string>
+    <string name="pref_autopause_modes_1">Relaxed</string>
+    <string name="pref_autopause_modes_2">Off</string>
 
-	<string-array name="pref_autopause_modes_explanation">
-	    <item>Discard all pauses longer than few seconds</item>
-	    <item>Discard only pauses longer than 5 minutes</item>
-	    <item>Keep all pauses (unless paused manually)</item>
-	</string-array>
+    <!-- pref_autopause_modes_explanation -->
+    <string name="pref_autopause_modes_explanation_0">Discard all pauses longer than few seconds</string>
+    <string name="pref_autopause_modes_explanation_1">Discard only pauses longer than 5 minutes</string>
+    <string name="pref_autopause_modes_explanation_2">Keep all pauses (unless paused manually)</string>
 
-	<string-array name="pref_wakelock_modes">
-	    <item>Auto (default)</item>
-	    <item>Fully awake</item>
-	    <item>Partial</item>
-	    <item>Off</item>
-	</string-array>
+    <!-- pref_wakelock_modes -->
+    <string name="pref_wakelock_modes_0">Auto (default)</string>
+    <string name="pref_wakelock_modes_1">Fully awake</string>
+    <string name="pref_wakelock_modes_2">Partial</string>
+    <string name="pref_wakelock_modes_3">Off</string>
 
-	<string-array name="pref_wakelock_modes_explanation">
-	    <item>Automatically decide based on GPS update interval and other factors</item>
-	    <item>Keep CPU awake during tracking. May use more battery, but ensures no location update is skipped.</item>
-	    <item>Allow CPU to sleep between location updates. May use less battery, but may skip an update on a rare occasion.</item>
-	    <item>Obey behaviour imposed by the system and/or other apps. Warning: May cause highly irregular location updates or even reject them all. Not recommended.</item>
-	</string-array>
+    <!-- pref_wakelock_modes_explanation -->
+    <string name="pref_wakelock_modes_explanation_0">Automatically decide based on GPS update interval and other factors</string>
+    <string name="pref_wakelock_modes_explanation_1">Keep CPU awake during tracking. May use more battery, but ensures no location update is skipped.</string>
+    <string name="pref_wakelock_modes_explanation_2">Allow CPU to sleep between location updates. May use less battery, but may skip an update on a rare occasion.</string>
+    <string name="pref_wakelock_modes_explanation_3">Obey behaviour imposed by the system and/or other apps. Warning: May cause highly irregular location updates or even reject them all. Not recommended.</string>
 
-	<string-array name="pref_locationProvider_modes">
-	    <item>GPS subsystem (default)</item>
-	    <item>Google Play services</item>
-	</string-array>
+    <!-- pref_locationProvider_modes -->
+    <string name="pref_locationProvider_modes_0">GPS subsystem (default)</string>
+    <string name="pref_locationProvider_modes_1">Google Play services</string>
 
-	<string-array name="pref_locationProvider_modes_explanation">
-	    <item>(All profiles) Use GPS subsystem directly. Stable, less complex model, no middleman. May also use less resources than the other provider.</item>
-	    <item>(All profiles) Use \"Fused\" provider from Google Play services, if available. In theory this may provide faster and more accurate locations sometimes. Try it out to see if it benefits you.</item>
-	</string-array>
+    <!-- pref_locationProvider_modes_explanation -->
+    <string name="pref_locationProvider_modes_explanation_0">(All profiles) Use GPS subsystem directly. Stable, less complex model, no middleman. May also use less resources than the other provider.</string>
+    <string name="pref_locationProvider_modes_explanation_1">(All profiles) Use \"Fused\" provider from Google Play services, if available. In theory this may provide faster and more accurate locations sometimes. Try it out to see if it benefits you.</string>
 
-	<string-array name="pref_flashlightBlinkModes">
-	    <item>Slow (default)</item>
-	    <item>Fast</item>
-	    <item>None / Steady</item>
-	</string-array>
+    <!-- pref_flashlightBlinkModes -->
+    <string name="pref_flashlightBlinkModes_0">Slow (default)</string>
+    <string name="pref_flashlightBlinkModes_1">Fast</string>
+    <string name="pref_flashlightBlinkModes_2">None / Steady</string>
 
-	<string-array name="pref_units_distance_entries">
-	    <item>Metric [m, km]</item>
-	    <item>Imperial [ft, mi]</item>
-	</string-array>
+    <!-- pref_units_distance_entries -->
+    <string name="pref_units_distance_entries_0">Metric [m, km]</string>
+    <string name="pref_units_distance_entries_1">Imperial [ft, mi]</string>
 
-	<string-array name="pref_units_speed_entries">
-	    <item>Metric [km/h]</item>
-	    <item>Imperial [mph]</item>
-	</string-array>
+    <!-- pref_units_speed_entries -->
+    <string name="pref_units_speed_entries_0">Metric [km/h]</string>
+    <string name="pref_units_speed_entries_1">Imperial [mph]</string>
 
-	<string-array name="pref_units_altitude_entries">
-	    <item>Metric [m]</item>
-	    <item>Imperial [ft]</item>
-	</string-array>
+    <!-- pref_units_altitude_entries -->
+    <string name="pref_units_altitude_entries_0">Metric [m]</string>
+    <string name="pref_units_altitude_entries_1">Imperial [ft]</string>
 
-	<string-array name="pref_units_weight_entries">
-	    <item>Metric [kg]</item>
-	    <item>Imperial [lb]</item>
-	</string-array>
+    <!-- pref_units_weight_entries -->
+    <string name="pref_units_weight_entries_0">Metric [kg]</string>
+    <string name="pref_units_weight_entries_1">Imperial [lb]</string>
 
-	<string-array name="pref_units_other_entries">
-	    <item>Metric</item>
-	    <item>Imperial</item>
-	</string-array>
+    <!-- pref_units_other_entries -->
+    <string name="pref_units_other_entries_0">Metric</string>
+    <string name="pref_units_other_entries_1">Imperial</string>
 
-	<string-array name="prefUnitsEnergyEntries">
-	    <item>[kcal]</item>
-	    <item>[kJ]</item>
-	    <item>[kWh]</item>
-	    <item>[Liters of petrol]</item>
-	</string-array>
+    <!-- prefUnitsEnergyEntries -->
+    <string name="prefUnitsEnergyEntries_0">[kcal]</string>
+    <string name="prefUnitsEnergyEntries_1">[kJ]</string>
+    <string name="prefUnitsEnergyEntries_2">[kWh]</string>
+    <string name="prefUnitsEnergyEntries_3">[Liters of petrol]</string>
 
-	<string-array name="prefUnitsPowerEntries">
-	    <item>[W]</item>
-	    <item>[HP]</item>
-	    <item>[kcal/h]</item>
-	    <item>[kJ/h]</item>
-	</string-array>
+    <!-- prefUnitsPowerEntries -->
+    <string name="prefUnitsPowerEntries_0">[W]</string>
+    <string name="prefUnitsPowerEntries_1">[HP]</string>
+    <string name="prefUnitsPowerEntries_2">[kcal/h]</string>
+    <string name="prefUnitsPowerEntries_3">[kJ/h]</string>
 
-    <string-array name="prefUnitsSlopeEntries">
-        <item>Percent [\uff05]</item>
-        <item>Degree [°]</item>
-        <item>Per mille [‰]</item>
-    </string-array>
+    <!-- prefUnitsSlopeEntries -->
+    <string name="prefUnitsSlopeEntries_0">Percent [\uff05]</string>
+    <string name="prefUnitsSlopeEntries_1">Degree [°]</string>
+    <string name="prefUnitsSlopeEntries_2">Per mille [‰]</string>
 
-	<string-array name="pref_hud_axis_entries">
-	    <item>Default — Statusbar at its natural position</item>
-	    <item>Upside down — More practical device handling</item>
-	</string-array>
+    <!-- pref_hud_axis_entries -->
+    <string name="pref_hud_axis_entries_0">Default — Statusbar at its natural position</string>
+    <string name="pref_hud_axis_entries_1">Upside down — More practical device handling</string>
 
-	<string-array name="pref_bell_mode_entries">
-	    <item>Ding</item>
-	    <item>Ring-ring</item>
-	    <item>Horn</item>
-	    <item>Yoo-hoo</item>
-	</string-array>
+    <!-- pref_bell_mode_entries -->
+    <string name="pref_bell_mode_entries_0">Ding</string>
+    <string name="pref_bell_mode_entries_1">Ring-ring</string>
+    <string name="pref_bell_mode_entries_2">Horn</string>
+    <string name="pref_bell_mode_entries_3">Yoo-hoo</string>
 
-	<string-array name="pref_roaring_type_entries">
-	    <item>Freehub</item>
-	    <item>Beep</item>
-	    <item>Chopper</item>
-	</string-array>
+    <!-- pref_roaring_type_entries -->
+    <string name="pref_roaring_type_entries_0">Freehub</string>
+    <string name="pref_roaring_type_entries_1">Beep</string>
+    <string name="pref_roaring_type_entries_2">Chopper</string>
 
-	<string-array name="pref_roaring_mode_entries">
-	    <item>Auto rate and volume</item>
-	    <item>Auto rate</item>
-	    <item>Auto volume</item>
-	    <item>Constant while moving</item>
-	    <item>Active above threshold speed</item>
-	</string-array>
+    <!-- pref_roaring_mode_entries -->
+    <string name="pref_roaring_mode_entries_0">Auto rate and volume</string>
+    <string name="pref_roaring_mode_entries_1">Auto rate</string>
+    <string name="pref_roaring_mode_entries_2">Auto volume</string>
+    <string name="pref_roaring_mode_entries_3">Constant while moving</string>
+    <string name="pref_roaring_mode_entries_4">Active above threshold speed</string>
 
-	<string-array name="pref_background_pattern_entries">
-	    <item>None</item>
-	    <item>@string/app_name</item>
-	    <item>Zebra</item>
-	    <item>Leopard</item>
-	    <item>Brick</item>
-	   	<item>Cobble</item>
-	    <item>Clouds</item>
-	    <item>Hearts</item>
-	    <item>Honeycomb</item>
-	</string-array>
+    <!-- pref_background_pattern_entries -->
+    <string name="pref_background_pattern_entries_0">None</string>
+    <string name="pref_background_pattern_entries_1" translatable="false">@string/app_name</string>
+    <string name="pref_background_pattern_entries_2">Zebra</string>
+    <string name="pref_background_pattern_entries_3">Leopard</string>
+    <string name="pref_background_pattern_entries_4">Brick</string>
+    <string name="pref_background_pattern_entries_5">Cobble</string>
+    <string name="pref_background_pattern_entries_6">Clouds</string>
+    <string name="pref_background_pattern_entries_7">Hearts</string>
+    <string name="pref_background_pattern_entries_8">Honeycomb</string>
 
-	<string-array name="pref_tally_distance_entries">
-	    <item>Off</item>
-	    <item>0.1</item>
-	    <item>0.25</item>
-	    <item>0.5</item>
-	    <item>1</item>
-	   	<item>2.5</item>
-	    <item>5</item>
-	    <item>10</item>
-	    <item>25</item>
-	    <item>50</item>
-	    <item>100</item>
-	    <item>250</item>
-	</string-array>
+    <!-- pref_tally_distance_entries -->
+    <string name="pref_tally_distance_entries_0">Off</string>
+    <string name="pref_tally_distance_entries_1">0.1</string>
+    <string name="pref_tally_distance_entries_2">0.25</string>
+    <string name="pref_tally_distance_entries_3">0.5</string>
+    <string name="pref_tally_distance_entries_4">1</string>
+    <string name="pref_tally_distance_entries_5">2.5</string>
+    <string name="pref_tally_distance_entries_6">5</string>
+    <string name="pref_tally_distance_entries_7">10</string>
+    <string name="pref_tally_distance_entries_8">25</string>
+    <string name="pref_tally_distance_entries_9">50</string>
+    <string name="pref_tally_distance_entries_10">100</string>
+    <string name="pref_tally_distance_entries_11">250</string>
 
-	<string-array name="pref_tally_duration_entries">
-	    <item>Off</item>
-	    <item>1</item>
-	    <item>2</item>
-	    <item>5</item>
-	    <item>10</item>
-	    <item>15</item>
-	    <item>20</item>
-	    <item>30</item>
-	    <item>45</item>
-	    <item>60</item>
-	    <item>90</item>
-	    <item>120</item>
-	    <item>180</item>
-	</string-array>
+    <!-- pref_tally_duration_entries -->
+    <string name="pref_tally_duration_entries_0">Off</string>
+    <string name="pref_tally_duration_entries_1">1</string>
+    <string name="pref_tally_duration_entries_2">2</string>
+    <string name="pref_tally_duration_entries_3">5</string>
+    <string name="pref_tally_duration_entries_4">10</string>
+    <string name="pref_tally_duration_entries_5">15</string>
+    <string name="pref_tally_duration_entries_6">20</string>
+    <string name="pref_tally_duration_entries_7">30</string>
+    <string name="pref_tally_duration_entries_8">45</string>
+    <string name="pref_tally_duration_entries_9">60</string>
+    <string name="pref_tally_duration_entries_10">90</string>
+    <string name="pref_tally_duration_entries_11">120</string>
+    <string name="pref_tally_duration_entries_12">180</string>
 
-	<string-array name="pref_tally_ascent_entries">
-	    <item>Off</item>
-	    <item>5</item>
-	    <item>10</item>
-	    <item>25</item>
-	    <item>50</item>
-	    <item>100</item>
-	    <item>250</item>
-	    <item>500</item>
-	    <item>1000</item>
-	    <item>2500</item>
-	    <item>5000</item>
-	</string-array>
+    <!-- pref_tally_ascent_entries -->
+    <string name="pref_tally_ascent_entries_0">Off</string>
+    <string name="pref_tally_ascent_entries_1">5</string>
+    <string name="pref_tally_ascent_entries_2">10</string>
+    <string name="pref_tally_ascent_entries_3">25</string>
+    <string name="pref_tally_ascent_entries_4">50</string>
+    <string name="pref_tally_ascent_entries_5">100</string>
+    <string name="pref_tally_ascent_entries_6">250</string>
+    <string name="pref_tally_ascent_entries_7">500</string>
+    <string name="pref_tally_ascent_entries_8">1000</string>
+    <string name="pref_tally_ascent_entries_9">2500</string>
+    <string name="pref_tally_ascent_entries_10">5000</string>
 
-	<string-array name="pref_speedo_display_mode_entries">
-	    <item>Graphic &amp; Digital</item>
-	    <item>Graphic</item>
-	    <item>Digital</item>
-	</string-array>
+    <!-- pref_speedo_display_mode_entries -->
+    <string name="pref_speedo_display_mode_entries_0">Graphic &amp; Digital</string>
+    <string name="pref_speedo_display_mode_entries_1">Graphic</string>
+    <string name="pref_speedo_display_mode_entries_2">Digital</string>
 
-	<string-array name="pref_powermeter_display_mode_entries">
-	    <item>Total power</item>
-	    <item>Watts per kg/lb</item>
-	</string-array>
+    <!-- pref_powermeter_display_mode_entries -->
+    <string name="pref_powermeter_display_mode_entries_0">Total power</string>
+    <string name="pref_powermeter_display_mode_entries_1">Watts per kg/lb</string>
 
-	<string-array name="prefMapOnlineModeEntries">
-	    <item>Online</item>
-	    <item>Offline</item>
-	</string-array>
+    <!-- prefMapOnlineModeEntries -->
+    <string name="prefMapOnlineModeEntries_0">Online</string>
+    <string name="prefMapOnlineModeEntries_1">Offline</string>
 
-	<string-array name="prefBackKeyModeEntries">
-	    <item>Normal</item>
-        <item>None</item>
-	    <item>Double-click exit</item>
-	</string-array>
+    <!-- prefBackKeyModeEntries -->
+    <string name="prefBackKeyModeEntries_0">Normal</string>
+    <string name="prefBackKeyModeEntries_1">None</string>
+    <string name="prefBackKeyModeEntries_2">Double-click exit</string>
 
-	<string-array name="mapLayerTypes">
-	    <item>@string/mapLayerStreet</item>
-	    <item>@string/mapLayerTerrain</item>
-	    <item>@string/mapLayerSatellite</item>
-	</string-array>
+    <!-- mapLayerTypes -->
+    <string name="mapLayerTypes_0" translatable="false">@string/mapLayerStreet</string>
+    <string name="mapLayerTypes_1" translatable="false">@string/mapLayerTerrain</string>
+    <string name="mapLayerTypes_2" translatable="false">@string/mapLayerSatellite</string>
 
-	<string-array name="derivedTemperatureSensorTypes">
-	    <item>@string/prefTemperatureSensorDerivedType1Title</item>
-	    <item>@string/prefTemperatureSensorDerivedType2Title</item>
-	</string-array>
+    <!-- derivedTemperatureSensorTypes -->
+    <string name="derivedTemperatureSensorTypes_0" translatable="false">@string/prefTemperatureSensorDerivedType1Title</string>
+    <string name="derivedTemperatureSensorTypes_1" translatable="false">@string/prefTemperatureSensorDerivedType2Title</string>
 
-	<string-array name="derivedTemperatureSensorTypesInfo">
-	    <item>@string/prefTemperatureSensorDerivedType1Summary</item>
-	    <item>@string/prefTemperatureSensorDerivedType2Summary</item>
-	</string-array>
+    <!-- derivedTemperatureSensorTypesInfo -->
+    <string name="derivedTemperatureSensorTypesInfo_0" translatable="false">@string/prefTemperatureSensorDerivedType1Summary</string>
+    <string name="derivedTemperatureSensorTypesInfo_1" translatable="false">@string/prefTemperatureSensorDerivedType2Summary</string>
 
-    <string-array name="prefMapOfflineLayerButtonActionEntries">
-        <item>Switch theme</item>
-        <item>Switch file</item>
-        <item>None</item>
-    </string-array>
+    <!-- prefMapOfflineLayerButtonActionEntries -->
+    <string name="prefMapOfflineLayerButtonActionEntries_0">Switch theme</string>
+    <string name="prefMapOfflineLayerButtonActionEntries_1">Switch file</string>
+    <string name="prefMapOfflineLayerButtonActionEntries_2">None</string>
 
-    <string-array name="prefMapDiskCacheSizeEntries">
-        <item>10 MB</item>
-        <item>50 MB</item>
-        <item>100 MB (default)</item>
-        <item>200 MB</item>
-        <item>300 MB</item>
-        <item>400 MB</item>
-        <item>500 MB</item>
-        <item>1 GB</item>
-        <item>2 GB</item>
-        <item>3 GB</item>
-        <item>4 GB</item>
-        <item>5 GB</item>
-    </string-array>
+    <!-- prefMapDiskCacheSizeEntries -->
+    <string name="prefMapDiskCacheSizeEntries_0">10 MB</string>
+    <string name="prefMapDiskCacheSizeEntries_1">50 MB</string>
+    <string name="prefMapDiskCacheSizeEntries_2">100 MB (default)</string>
+    <string name="prefMapDiskCacheSizeEntries_3">200 MB</string>
+    <string name="prefMapDiskCacheSizeEntries_4">300 MB</string>
+    <string name="prefMapDiskCacheSizeEntries_5">400 MB</string>
+    <string name="prefMapDiskCacheSizeEntries_6">500 MB</string>
+    <string name="prefMapDiskCacheSizeEntries_7">1 GB</string>
+    <string name="prefMapDiskCacheSizeEntries_8">2 GB</string>
+    <string name="prefMapDiskCacheSizeEntries_9">3 GB</string>
+    <string name="prefMapDiskCacheSizeEntries_10">4 GB</string>
+    <string name="prefMapDiskCacheSizeEntries_11">5 GB</string>
 
 
     <string name="svgCopyright">Created with Urban Biker</string>
@@ -1258,18 +1218,16 @@
 	<string name="fbTemperatureMax">Temp. max</string>
     <string name="trackUploadDescriptionDefault">This activity was tracked using Urban Biker mobile app</string>
 
-	<string-array name="trackUploadActivityTypes">
-	    <item>Bike</item>
-	    <item>Run</item>
-	    <item>Walk</item>
-	</string-array>
+    <!-- trackUploadActivityTypes -->
+    <string name="trackUploadActivityTypes_0">Bike</string>
+    <string name="trackUploadActivityTypes_1">Run</string>
+    <string name="trackUploadActivityTypes_2">Walk</string>
 
-	<string-array name="prefAdModes">
-        <item>Any</item>
-	    <item>Google</item>
-	    <item>AppBrain</item>
-	    <item>None</item>
-	</string-array>
+    <!-- prefAdModes -->
+    <string name="prefAdModes_0">Any</string>
+    <string name="prefAdModes_1">Google</string>
+    <string name="prefAdModes_2">AppBrain</string>
+    <string name="prefAdModes_3">None</string>
 
 
     <string name="menuLicense">Buy license</string>
