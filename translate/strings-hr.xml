@@ -165,8 +165,8 @@
 \n</xliff:g>Staza se čini kratkom. Pohraniti\?</string>
     <string name="dialog_exit_msg">Upozorenje: Praćenje je aktivno, i biti će zaustavljeno.</string>
     <string name="dialogProfileDeleteTitle">Brisanje profila</string>
-    <string name="dialogProfileDeleteMessage">Upozorenje: Ovo će ukloniti postavke profila i iznose ukupnih suma. Pohranjene staze ostaju nedirnute.
-\n
+    <string name="dialogProfileDeleteMessage">Upozorenje: Ovo će ukloniti postavke profila i iznose ukupnih suma. Pohranjene staze ostaju nedirnute. 
+\n 
 \nObrisati profil %1$s\?<xliff:g>%1$s</xliff:g>\?</string>
     <string name="dialogProfileAddTitle">Novi profil</string>
     <string name="dialogProfileAddInfo">Postavke novog profila biti će preuzete od trenutno aktivnog profila</string>
@@ -179,8 +179,8 @@
     <string name="dialogTracksDeleteMessage">Upozorenje: Ova akcija ne može se poništiti.
 \n
 \nObrisati odabrane staze\?</string>
-    <string name="dialogTrackDeleteMessage">Upozorenje: Ova akcija ne može se poništiti.
-\n
+    <string name="dialogTrackDeleteMessage">Upozorenje: Ova akcija ne može se poništiti. 
+\n 
 \nObrisati stazu %1$s\?<xliff:g>%1$s</xliff:g>\?</string>
     <string name="dialogTrackResumeTitle">Nastavi stazu</string>
     <string name="dialogTrackResumeGpsActiveMessage">Praćenje je aktivno. Molimo prvo ugasite ili pauzirajte GPS.</string>
@@ -194,7 +194,11 @@
     <string name="dialogTracksShareGeneralErrorMessage">Došlo je do pogreške. Molimo pokušajte ponovo.</string>
     <string name="dialogTracksShareCountExceeded">Nije moguće dijeliti više od 100 staza odjednom.</string>
     <string name="dialogGpsSettingsPromptTitle">Lokacija je isključena</string>
-    <string name="dialogGpsSettingsPromptMessage">Bez lokacije nećete moći koristiti većinu značajki ove aplikacije.<xliff:g>
+    <string name="dialogGpsSettingsPromptMessage">Bez lokacije nećete moći koristiti većinu značajki ove aplikacije. 
+\n 
+\nProvjerite da je lokacija omogućena i postavljena u način \'Visoka točnost\'. 
+\n 
+\nŽelite li otvoriti sistemske Postavke lokacije sada\?<xliff:g>
 \n
 \n</xliff:g>Provjerite da je lokacija omogućena i postavljena u način \'Visoka točnost\'.<xliff:g>
 \n
@@ -274,7 +278,7 @@
     <string name="dialogGpsIntervalLabelMore">◀ 
 \nVeća točnost, troši više baterije<xliff:g>◀
 \n</xliff:g>Veća točnost, troši više baterije</string>
-    <string name="dialogGpsIntervalLabelLess">▶
+    <string name="dialogGpsIntervalLabelLess">▶ 
 \nManja točnost, troši manje baterije<xliff:g>▶
 \n</xliff:g>Manja točnost, troši manje baterije</string>
     <string name="dialogSliderLess">◀</string>
@@ -1084,7 +1088,7 @@
     <string name="prefUnitsPowerEntries_2">[kcal/h]</string>
     <string name="prefUnitsPowerEntries_3">[kJ/h]</string>
     <!-- prefUnitsSlopeEntries -->
-    <string name="prefUnitsSlopeEntries_0">Postotak [<xliff:g id="fullwidthPercentSign">\uff05</xliff:g>]</string>
+    <string name="prefUnitsSlopeEntries_0">Postotak [％]<xliff:g id="fullwidthPercentSign">\uff05</xliff:g>]</string>
     <string name="prefUnitsSlopeEntries_1">Stupnjevi [°]</string>
     <string name="prefUnitsSlopeEntries_2">Promili [‰]</string>
     <!-- pref_hud_axis_entries -->
