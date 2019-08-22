@@ -43,7 +43,7 @@
     <string name="menuExit">Izlaz</string>
     <string name="menuMore">Više…</string>
     <string name="menuView">Pregledaj</string>
-    <string name="menuViewWith">Pregledaj s</string>
+    <string name="menuViewWith">Pregledaj s…</string>
     <string name="menuProfiles">Profili</string>
     <string name="menuSensors">Senzori</string>
     <string name="menuAbout">O aplikaciji</string>
@@ -70,8 +70,7 @@
     <string name="featureNotAvailable">Žao nam je, značajka nije dostupna na ovom uređaju</string>
     <string name="farFromHere">Daleko odavde</string>
     <string name="toastRestartRequired">Ponovno pokrenite aplikaciju za primjenu</string>
-    <string name="toastActiveProfile">Profil: %1$s<xliff:g>%1$s</xliff:g>
-    </string>
+    <string name="toastActiveProfile">Profil: %1$s</string>
     <string name="toastProfileSavingError">Greška pri spremanju podataka profila! Molim pokušajte ponovno.</string>
     <string name="toastProfileChangeError">Neuspješno prebacivanje profila! Molim pokušajte ponovno.</string>
     <string name="toastGpsEnabled">GPS uključen</string>
@@ -86,11 +85,11 @@
     <string name="toastTrackingRecordingPassive">Pasivno snimanje</string>
     <string name="toastTrackingPaused">Pauzirano</string>
     <string name="toastTrackingStopped">Zaustavljeno</string>
-    <string name="toastFenceGuardFenceAdded">ČuvarOgrade: Ograda %1$s dodana<xliff:g>%1$s</xliff:g> dodana</string>
+    <string name="toastFenceGuardFenceAdded">ČuvarOgrade: Ograda %1$s dodana</string>
     <string name="toastFenceGuardFenceAddingError">ČuvarOgrade: Greška pri dodavanju ograde</string>
-    <string name="toastFenceGuardFenceUpdated">ČuvarOgrade: Ograda %1$s ažurirana<xliff:g>%1$s</xliff:g> ažurirana</string>
+    <string name="toastFenceGuardFenceUpdated">ČuvarOgrade: Ograda %1$s ažurirana</string>
     <string name="toastFenceGuardFenceUpdatingError">ČuvarOgrade: Greška pri ažuriranju ograde</string>
-    <string name="toastFenceGuardFenceRemoved">ČuvarOgrade: Ograda %1$s uklonjena<xliff:g>%1$s</xliff:g> uklonjena</string>
+    <string name="toastFenceGuardFenceRemoved">ČuvarOgrade: Ograda %1$s uklonjena</string>
     <string name="toastFenceGuardFenceRemovingError">ČuvarOgrade: Greška pri uklanjanju ograde</string>
     <string name="toastFenceGuardOutsideTheFence">ČuvarOgrade: Trenutno niste unutar ograde</string>
     <string name="toastFenceGuardLocationUnavailable">ČuvarOgrade: Vaša lokacija još nije dostupna</string>
@@ -126,8 +125,7 @@
     <string name="toastSensorDisabled">Senzor onemogućen</string>
     <string name="toastAutoThemeActivated">Automatska vizualna tema je aktivna</string>
     <string name="toastCancelled">Otkazano</string>
-    <string name="notificationTitleAdvancedPaused">Pauzirano: %1$s<xliff:g>%1$s</xliff:g>
-    </string>
+    <string name="notificationTitleAdvancedPaused">Pauzirano: %1$s</string>
     <string name="licenseSuccessDialogMessage">Aplikacija je uspješno licencirana. Hvala na podršci!</string>
     <string name="ongoingNotificationChannelName">Trajna notifikacija</string>
     <string name="ongoingNotificationChannelDescription">Pruža kontrolu servisa i lak pristup aplikaciji</string>
@@ -152,36 +150,31 @@
     <string name="dialog_fenceguard_update_text2">Ograda podignuta oko vaše lokacije štiti je od objavljivanja u snimljenim stazama.</string>
     <string name="dialog_fenceguard_remove_title">Ukloni ogradu</string>
     <string name="dialog_fenceguard_remove_defaultText">Jeste li sigurni da želite ukloniti ogradu\?</string>
-    <string name="dialog_fenceguard_remove_formatText">Jeste li sigurni da želite ukloniti ogradu %1$s\?<xliff:g>%1$s</xliff:g>\?</string>
-    <string name="dialog_track_save_text">Udaljenost %1$.3f %2$s 
-\nTrajanje %3$s 
-\n(%4$s) 
-\n 
-\nStaza se čini kratkom. Pohraniti\?<xliff:g>%1$.3f %2$s
-\n</xliff:g>Trajanje <xliff:g>%3$s
-\n</xliff:g>
-        <xliff:g>(%4$s)
+    <string name="dialog_fenceguard_remove_formatText">Jeste li sigurni da želite ukloniti ogradu %1$s\?</string>
+    <string name="dialog_track_save_text">Udaljenost %1$.3f %2$s
+\nTrajanje %3$s
+\n(%4$s)
 \n
-\n</xliff:g>Staza se čini kratkom. Pohraniti\?</string>
+\nStaza se čini kratkom. Pohraniti\?</string>
     <string name="dialog_exit_msg">Upozorenje: Praćenje je aktivno, i biti će zaustavljeno.</string>
     <string name="dialogProfileDeleteTitle">Brisanje profila</string>
-    <string name="dialogProfileDeleteMessage">Upozorenje: Ovo će ukloniti postavke profila i iznose ukupnih suma. Pohranjene staze ostaju nedirnute. 
-\n 
-\nObrisati profil %1$s\?<xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialogProfileDeleteMessage">Upozorenje: Ovo će ukloniti postavke profila i iznose ukupnih suma. Pohranjene staze ostaju nedirnute.
+\n
+\nObrisati profil %1$s\?</string>
     <string name="dialogProfileAddTitle">Novi profil</string>
     <string name="dialogProfileAddInfo">Postavke novog profila biti će preuzete od trenutno aktivnog profila</string>
     <string name="dialogProfileEditTitle">Izmjena profila</string>
     <string name="dialogProfileEditTotals">Ukupne sume:</string>
     <string name="dialogProfileTotalsResetMessage">Resetirati ukupne sume profila na nulu\?</string>
     <string name="dialogProfileSwitchTitle">Prebaci profil</string>
-    <string name="dialogProfileSwitchMessage">Praćenje je aktivno. Jeste li sigurni da želite prebaciti na profil %1$s\?<xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialogProfileSwitchMessage">Praćenje je aktivno. Jeste li sigurni da želite prebaciti na profil %1$s\?</string>
     <string name="dialogTracksDeleteTitle">Briši staze</string>
     <string name="dialogTracksDeleteMessage">Upozorenje: Ova akcija ne može se poništiti.
 \n
 \nObrisati odabrane staze\?</string>
-    <string name="dialogTrackDeleteMessage">Warning: This action cannot be undone.
+    <string name="dialogTrackDeleteMessage">Upozorenje: Ova akcija ne može se poništiti.
 \n
-\nDelete the track %1$s\?<xliff:g>%1$s</xliff:g>\?</string>
+\nObrisati stazu %1$s\?</string>
     <string name="dialogTrackResumeTitle">Nastavi stazu</string>
     <string name="dialogTrackResumeGpsActiveMessage">Praćenje je aktivno. Molimo prvo ugasite ili pauzirajte GPS.</string>
     <string name="dialogTrackResumeProfileNotBlankMessage">Ciljni profil %1$s nije prazan. Molimo prvo resetirajte.<xliff:g>%1$s</xliff:g> nije prazan. Molimo prvo resetirajte.</string>
@@ -194,31 +187,21 @@
     <string name="dialogTracksShareGeneralErrorMessage">Došlo je do pogreške. Molimo pokušajte ponovo.</string>
     <string name="dialogTracksShareCountExceeded">Nije moguće dijeliti više od 100 staza odjednom.</string>
     <string name="dialogGpsSettingsPromptTitle">Lokacija je isključena</string>
-    <string name="dialogGpsSettingsPromptMessage">Bez lokacije nećete moći koristiti većinu značajki ove aplikacije. 
-\n 
-\nProvjerite da je lokacija omogućena i postavljena u način \'Visoka točnost\'. 
-\n 
-\nŽelite li otvoriti sistemske Postavke lokacije sada\?<xliff:g>
+    <string name="dialogGpsSettingsPromptMessage">Bez lokacije nećete moći koristiti većinu značajki ove aplikacije.<xliff:g>
 \n
 \n</xliff:g>Provjerite da je lokacija omogućena i postavljena u način \'Visoka točnost\'.<xliff:g>
 \n
 \n</xliff:g>Želite li otvoriti sistemske Postavke lokacije sada\?</string>
     <string name="dialogBaroAltitudePromptTitle">Problem s barometarskom visinom</string>
-    <string name="dialogBaroAltitudePromptMessage">Barometarska visina je prisilno isključena zbog neslaganja s GPS visinom! 
-\n 
-\nMolimo ne koristite je u zatvorenim ili klimatiziranim prostorima!<xliff:g>
+    <string name="dialogBaroAltitudePromptMessage">Barometarska visina je prisilno isključena zbog neslaganja s GPS visinom!<xliff:g>
 \n
 \n</xliff:g>Molimo ne koristite je u zatvorenim ili klimatiziranim prostorima!</string>
     <string name="dialogBaroAltitudeNoticeTitle">Obavijest</string>
-    <string name="dialogBaroAltitudeNoticeMessage">Barometarska visina radi samo na otvorenom. 
-\n 
-\nMolimo ne koristite je u zatvorenim ili klimatiziranim prostorima poput nekih vozila ili aviona.<xliff:g>
+    <string name="dialogBaroAltitudeNoticeMessage">Barometarska visina radi samo na otvorenom.<xliff:g>
 \n
 \n</xliff:g>Molimo ne koristite je u zatvorenim ili klimatiziranim prostorima poput nekih vozila ili aviona.</string>
     <string name="dialogThermoBarometerNoticeTitle">Obavijest</string>
-    <string name="dialogThermoBarometerNoticeMessage">Točnost termo barometra ovisi o temperaturi vanjskog zraka. 
-\n 
-\nMolimo ne koristite u zatvorenim ili klimatiziranim prostorima poput nekih vozila ili aviona.<xliff:g>
+    <string name="dialogThermoBarometerNoticeMessage">Točnost termo barometra ovisi o temperaturi vanjskog zraka.<xliff:g>
 \n
 \n</xliff:g>Molimo ne koristite u zatvorenim ili klimatiziranim prostorima poput nekih vozila ili aviona.</string>
     <string name="dialogResetTitle">Završi</string>
@@ -275,32 +258,26 @@
     <string name="dialogSvgTitle">SVG grafovi</string>
     <string name="dialogGpsIntervalTitle">GPS interval ažuriranja</string>
     <string name="dialogGpsIntervalNote">Molimo držite ovu vrijednost ispod 3 sek kako biste dobili točna mjerenja i dosljedno ponašanje!</string>
-    <string name="dialogGpsIntervalLabelMore">◀ 
+    <string name="dialogGpsIntervalLabelMore">◀
 \nVeća točnost, troši više baterije<xliff:g>◀
 \n</xliff:g>Veća točnost, troši više baterije</string>
-    <string name="dialogGpsIntervalLabelLess">▶ 
+    <string name="dialogGpsIntervalLabelLess">▶
 \nManja točnost, troši manje baterije<xliff:g>▶
 \n</xliff:g>Manja točnost, troši manje baterije</string>
     <string name="dialogSliderLess">◀</string>
     <string name="dialogSliderMore">▶</string>
     <string name="dialogLocationPermissionRequestTitle">Dozvola za lokaciju</string>
     <string name="dialogLocationPermissionRequest">Aplikacija treba pristup vašoj lokaciji kako bi mogla snimati vaše aktivnosti na otvorenom.</string>
-    <string name="dialogLocationPermissionRequestForBt">Za pronalaženje Bluetooth uređaja potrebna je lokacijska dozvola. 
-\n 
-\nBluetooth uređaji se neće pronaći ako je dozvola odbijena.<xliff:g>
+    <string name="dialogLocationPermissionRequestForBt">Za pronalaženje Bluetooth uređaja potrebna je lokacijska dozvola.<xliff:g>
 \n
 \n</xliff:g>Bluetooth uređaji se neće pronaći ako je dozvola odbijena.</string>
     <string name="dialogStoragePermissionRequestTitle">Dozvola za pohranu</string>
-    <string name="dialogStoragePermissionRequest">Aplikacija treba pristup pohrani kako bi mogla spremiti ili vratiti vaše staze i postvke. 
-\n 
-\nBez davanja dozvole nećete moći vidjeti povijest staza niti podijeliti staze, i mogli bi izgubiti podatke.<xliff:g>
+    <string name="dialogStoragePermissionRequest">Aplikacija treba pristup pohrani kako bi mogla spremiti ili vratiti vaše staze i postvke.<xliff:g>
 \n
 \n</xliff:g>Bez davanja dozvole nećete moći vidjeti povijest staza niti podijeliti staze, i mogli bi izgubiti podatke.</string>
     <string name="dialogCameraPermissionRequestTitle">Dozvola za kameru</string>
     <string name="dialogCameraPermissionRequest">Potrebna je dozvola kako bi aplikacija mogla aktivirati bljeskalicu.</string>
-    <string name="dialogPermissionProblemMessage">Ova dozvola potrebna je kako bi aplikacija pravilno radila. Može se dodijeliti na stranici Dozvole aplikacija u Postavkama. 
-\n 
-\nIći sada tamo\?<xliff:g>
+    <string name="dialogPermissionProblemMessage">Ova dozvola je potrebna kako bi aplikacija pravilno radila. Može se dodijeliti na stranici Dozvole aplikacija u Postavkama.<xliff:g>
 \n
 \n</xliff:g>Go there now\?</string>
     <string name="mapLayerStreet">Ulice</string>
@@ -408,7 +385,7 @@
     <string name="meterModeAltitudeSlope">nagib</string>
     <string name="meterModeAltitudeSlopeShort">nag</string>
     <string name="meterModeCadence">kadenca</string>
-    <string name="meterModeCadenceShort">kad</string>
+    <string name="meterModeCadenceShort">cad</string>
     <string name="meterModeHeartRate">otkucaji srca</string>
     <string name="meterModeHeartRateShort">hr</string>
     <string name="meterModeGearRatio">omjer prijenosa</string>
@@ -429,21 +406,19 @@
     <string name="profilesListTitle">Profili</string>
     <string name="profilesListTitleSelectProfile">Prebaci profil</string>
     <string name="profilesListAddProfile">Novi profil</string>
-    <string name="profilesListRowTotalsSince">Ukupno od: %1$s<xliff:g>%1$s</xliff:g>
+    <string name="profilesListRowTotalsSince">Ukupno od: <xliff:g>%1$s</xliff:g>
     </string>
     <string name="profilesListButtonResetTotals">Resetiraj ukupne sume</string>
     <string name="profilesListProfileNotUsed">(nekorišten)</string>
     <string name="profilesListLoading">Učitavam…</string>
     <string name="cloudAccountsTitle">Računi</string>
-    <string name="cloudAccountsInfo">Povezivanje s online servisom olakšava vam slanje i dijeljenje vaših staza s drugima. 
-\n 
-\nNikada nećemo objavljivati bez vašeg dopuštenja.<xliff:g>
+    <string name="cloudAccountsInfo">Povezivanje s online servisom olakšava vam slanje i dijeljenje vaših staza s drugima.<xliff:g>
 \n
 \n</xliff:g>Nikada nećemo objavljivati bez vašeg dopuštenja.</string>
     <string name="accountDisconnect">Odspoji</string>
     <string name="googleFitConnectButton">Poveži s Google Fit<xliff:g>Google Fit</xliff:g>
     </string>
-    <string name="stravaTrackPrivacyInfo">Staza će naslijediti zadanu privatnost koju ste postavili na Strava<xliff:g>Strava</xliff:g>
+    <string name="stravaTrackPrivacyInfo">Staza će naslijediti zadanu privatnost koju ste postavili na <xliff:g>Strava</xliff:g>
     </string>
     <string name="facebookConnectButton">Poveži s Facebook<xliff:g>Facebook</xliff:g>
     </string>
@@ -638,8 +613,7 @@
     <string name="pref_bell_shake_sensitivity_title">Osjetljivost treskanja</string>
     <string name="pref_roaring_type_title">Vrsta</string>
     <string name="pref_roaring_type_dialog_title">Vrsta huke</string>
-    <string name="pref_volume_summary_text">Zvonce: %1$s, Huka: %2$s 
-\nOznake: %3$s, Efekti: %4$s, Alarmi: %5$s<xliff:g> %1$s</xliff:g>, Huka:<xliff:g> %2$s
+    <string name="pref_volume_summary_text">Zvonce:<xliff:g> %1$s</xliff:g>, Huka:<xliff:g> %2$s
 \n</xliff:g>Oznake:<xliff:g> %3$s</xliff:g>, Efekti:<xliff:g> %4$s</xliff:g>, Alarmi:<xliff:g> %5$s</xliff:g>
     </string>
     <string name="pref_bg_color_title">Boja pozadine</string>
@@ -703,7 +677,7 @@
     <string name="pref_soundeffects_countdown_title">Odbrojavanje</string>
     <string name="pref_soundeffects_countdown_summary">Zvuk pri odbrojavanju prije nastavka praćenja (…3, 2, 1, START!)</string>
     <string name="pref_soundeffects_tally_title">Omogući</string>
-    <string name="pref_soundeffects_tally_value_summary">Svakih %1$s %2$s<xliff:g>%1$s</xliff:g>
+    <string name="pref_soundeffects_tally_value_summary">Svakih <xliff:g>%1$s</xliff:g>
         <xliff:g>%2$s</xliff:g>
     </string>
     <string name="pref_soundeffects_tally_distance_title">Udaljenost</string>
@@ -731,7 +705,7 @@
     <string name="pref_maps_online_mode_dialog_title">Izvor mape</string>
     <string name="pref_maps_offline_file_title">Odaberi datoteku ili folder</string>
     <string name="pref_maps_offline_file_dialog_title">Izaberi folder offline mapa</string>
-    <string name="pref_maps_offline_file_summary">(Svi profili) %1$s<xliff:g>%1$s</xliff:g>
+    <string name="pref_maps_offline_file_summary">(Svi profili) <xliff:g>%1$s</xliff:g>
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Folder nije odabran.</string>
     <string name="pref_maps_offline_info_title">Preuzmi sada</string>
@@ -785,16 +759,14 @@
     <string name="pref_powermeter_parameters_info_title">Važno!</string>
     <string name="pref_powermeter_parameters_info_summary">Za točna mjerenja snage i energije, molimo osigurajte ispravnost ovih parametara!</string>
     <string name="pref_power_weights_title">Mase</string>
-    <string name="pref_power_weights_summary">Vozač: %1$s, Vozilo: %2$s, Teret: %3$s, Putnici: %4$s, Kotači: %5$s<xliff:g>%1$s</xliff:g>, Vozilo: <xliff:g>%2$s</xliff:g>, Teret: <xliff:g>%3$s</xliff:g>, Putnici: <xliff:g>%4$s</xliff:g>, Kotači: <xliff:g>%5$s</xliff:g>
+    <string name="pref_power_weights_summary">Vozač: <xliff:g>%1$s</xliff:g>, Vozilo: <xliff:g>%2$s</xliff:g>, Teret: <xliff:g>%3$s</xliff:g>, Putnici: <xliff:g>%4$s</xliff:g>, Kotači: <xliff:g>%5$s</xliff:g>
     </string>
     <string name="pref_power_coefs_title">Koeficijenti</string>
-    <string name="pref_power_coefs_summary">Površina otpora zraka: %1$s 
-\nOtpor kotrljanja: %2$s<xliff:g>%1$s
+    <string name="pref_power_coefs_summary">Površina otpora zraka: <xliff:g>%1$s
 \n</xliff:g>Otpor kotrljanja: <xliff:g>%2$s</xliff:g>
     </string>
     <string name="pref_energy_params_title">Parametri energije</string>
-    <string name="pref_energy_params_summary">Efikasnost: %1$s 
-\nMetabolizam: %2$s<xliff:g>%1$s
+    <string name="pref_energy_params_summary">Efikasnost: <xliff:g>%1$s
 \n</xliff:g>Metabolizam: <xliff:g>%2$s</xliff:g>
     </string>
     <string name="pref_svg_data_enable_title">Generiraj grafove</string>
@@ -855,41 +827,27 @@
     <string name="infoMeterModeWriggleTitle">Vijuganje</string>
     <string name="infoMeterModeWriggleMsg">Mjera odstupanja staze od ravne linije, tj. koliko staza ispunjava površinu umjesto da ide ravno. Manje je najčešće bolje.</string>
     <string name="infoMeterModeAltitudeTitle">Visina</string>
-    <string name="infoMeterModeAltitudeMsg">Nadmorska visina (geoid) — Trenutna, maksimalna i minimalna. 
-\n 
-\nNapomena: Ovo može kasniti u odnosu na stvarno vrijeme, zbog neizbježnih kašnjenja u digitalnom filtriranju.<xliff:g>
+    <string name="infoMeterModeAltitudeMsg">Nadmorska visina (geoid) — Trenutna, maksimalna i minimalna.<xliff:g>
 \n
 \n</xliff:g>Napomena: Ovo može kasniti u odnosu na stvarno vrijeme, zbog neizbježnih kašnjenja u digitalnom filtriranju.</string>
     <string name="infoMeterModeSlopeTitle">Nagib</string>
-    <string name="infoMeterModeSlopeMsg">Nagib (gradijent), broj koji opisuje nagnutost terena gdje je nula vodoravno. Veći broj znači strmiju uzbrdicu, a negativno je za nizbrdicu. 
-\n 
-\nNapomena: Ovo može kasniti i do jedne minute u odnosu na stvarno vrijeme, zbog neizbježnih kašnjenja u digitalnom filtriranju.<xliff:g>
+    <string name="infoMeterModeSlopeMsg">Nagib (gradijent), broj koji opisuje nagnutost terena gdje je nula vodoravno. Veći broj znači strmiju uzbrdicu, a negativno je za nizbrdicu.<xliff:g>
 \n
 \n</xliff:g>Napomena: Ovo može kasniti i do jedne minute u odnosu na stvarno vrijeme, zbog neizbježnih kašnjenja u digitalnom filtriranju.</string>
     <string name="infoMeterModeSpeedTitle">Brzina</string>
     <string name="infoMeterModeSpeedMsg">Brzina — Trenutna, maksimalna i minimalna.</string>
     <string name="infoMeterModeVerticalSpeedTitle">Vertikalna brzina</string>
-    <string name="infoMeterModeVerticalSpeedMsg">Brzina u smjeru gore (pozitivno) ili dolje (negativno) — Trenutna, maksimalna i minimalna. 
-\n 
-\nNapomena: Ovo može kasniti u odnosu na stvarno vrijeme, zbog neizbježnih kašnjenja u digitalnom filtriranju.<xliff:g>
+    <string name="infoMeterModeVerticalSpeedMsg">Brzina u smjeru gore (pozitivno) ili dolje (negativno) — Trenutna, maksimalna i minimalna.<xliff:g>
 \n
 \n</xliff:g>Napomena: Ovo može kasniti u odnosu na stvarno vrijeme, zbog neizbježnih kašnjenja u digitalnom filtriranju.</string>
     <string name="infoMeterModePaceTitle">Tempo</string>
     <string name="infoMeterModePaceMsg">Inverzna brzina — Trenutna, maksimalna i prosječna.</string>
     <string name="infoMeterModeAccelerationTitle">Ubrzanje</string>
-    <string name="infoMeterModeAccelerationMsg">Stopa promjene brzine — Trenutna, maksimalna i minimalna. 
-\n 
-\nNegativno označava deceleraciju.<xliff:g>
+    <string name="infoMeterModeAccelerationMsg">Stopa promjene brzine — Trenutna, maksimalna i minimalna.<xliff:g>
 \n
 \n</xliff:g>Negativno označava deceleraciju.</string>
     <string name="infoMeterModePowerTitle">Snaga</string>
-    <string name="infoMeterModePowerMsg">Snaga zbog sila trenja, promjene visine, itd. — Trenutna, maksimalna i prosječna. 
-\n 
-\nNegativno znači dobitak snage, npr. tijekom spusta ili kočenja. 
-\n 
-\nKad su jedinice kcal/h ili kJ/h, također uzima u obzir efikasnost i BMR. 
-\n 
-\nNapomena: Ovo može kasniti i do jedne minute u odnosu na stvarno vrijeme, zbog neizbježnih kašnjenja u digitalnom filtriranju.<xliff:g>
+    <string name="infoMeterModePowerMsg">Snaga zbog sila trenja, promjene visine, itd. — Trenutna, maksimalna i prosječna.<xliff:g>
 \n
 \n</xliff:g>Negativno znači dobitak snage, npr. tijekom spusta ili kočenja.<xliff:g>
 \n
@@ -897,19 +855,11 @@
 \n
 \n</xliff:g>Napomena: Ovo može kasniti i do jedne minute u odnosu na stvarno vrijeme, zbog neizbježnih kašnjenja u digitalnom filtriranju.</string>
     <string name="infoMeterModeAvgActivePowerTitle">Srednja aktivna snaga</string>
-    <string name="infoMeterModeAvgActivePowerMsg">Srednja snaga tijekom aktivnosti, ne računajući intervale u kojima je snaga bila odsutna ili jako mala (nizbrdica, kočenje, klizanje). 
-\n 
-\nKad radite naporan trening, to će u osnovi biti vaš FTP (snaga funkcionalnog praga).<xliff:g>
+    <string name="infoMeterModeAvgActivePowerMsg">Srednja snaga tijekom aktivnosti, ne računajući intervale u kojima je snaga bila odsutna ili jako mala (nizbrdica, kočenje, klizanje).<xliff:g>
 \n
 \n</xliff:g>Kad radite naporan trening, to će u osnovi biti vaš FTP (snaga funkcionalnog praga).</string>
     <string name="infoMeterModeVerticalPowerTitle">Vertikalna snaga</string>
-    <string name="infoMeterModeVerticalPowerMsg">Gubitak ili dobitak snage tijekom uspona ili spusta — Trenutni, maksimalni i minimalni. 
-\n 
-\nNegativno označava dobitak snage (spuštanje). 
-\n 
-\nKada su jedinice kcal/h ili kJ/h, također uzima u obzir efikasnost. 
-\n 
-\nNapomena: Ovo može kasniti i do jedne minute u odnosu na stvarno vrijeme, zbog neizbježnih kašnjenja u digitalnom filtriranju.<xliff:g>
+    <string name="infoMeterModeVerticalPowerMsg">Gubitak ili dobitak snage tijekom uspona ili spusta — Trenutni, maksimalni i minimalni.<xliff:g>
 \n
 \n</xliff:g>Negativno označava dobitak snage (spuštanje).<xliff:g>
 \n
@@ -966,14 +916,18 @@
     <string name="batteryOptimizationToast">Odaberite Urban Biker s popisa</string>
     <string name="dialogReviewNudgeMessage2">Hvala! Molimo napišite lijepu recenziju ili nas ocijenite s 5 zvjezdica u Play Store.</string>
     <string name="dialogButtonRateOnPlayStore">Ocijenite na Play Store</string>
+
     <!-- dialog_fenceguard_add_entries -->
     <string name="dialog_fenceguard_add_entries_0">Dodaj ogradu</string>
+
     <!-- dialog_fenceguard_update_entries -->
     <string name="dialog_fenceguard_update_entries_0">Ažuriraj ogradu</string>
     <string name="dialog_fenceguard_update_entries_1">Ukloni ogradu</string>
+
     <!-- dialogTracksShareChoices -->
     <string name="dialogTracksShareChoices_0">ZIPovi (kompletno)</string>
     <string name="dialogTracksShareChoices_1">GPX jedino</string>
+
     <!-- meterModes -->
     <string name="meterModes_0">Trajanje</string>
     <string name="meterModes_1">Udaljenost</string>
@@ -1001,6 +955,7 @@
     <string name="meterModes_23">Temperatura</string>
     <string name="meterModes_24">Tlak</string>
     <string name="meterModes_25">Odometar</string>
+
     <!-- pref_gps_update_freq_entries -->
     <string name="pref_gps_update_freq_entries_0">Najbrže</string>
     <string name="pref_gps_update_freq_entries_1">0,5 sek</string>
@@ -1026,94 +981,114 @@
     <string name="pref_gps_update_freq_entries_21">30 min</string>
     <string name="pref_gps_update_freq_entries_22">45 min</string>
     <string name="pref_gps_update_freq_entries_23">1 sat</string>
+
     <!-- pref_gps_boost_modes -->
     <string name="pref_gps_boost_modes_0">Mapa prikazana (default)</string>
     <string name="pref_gps_boost_modes_1">Ekran upaljen</string>
     <string name="pref_gps_boost_modes_2">Onemogućeno</string>
+
     <!-- pref_gps_boost_modes_explanation -->
     <string name="pref_gps_boost_modes_explanation_0">Nametni učestala ažuriranja GPS-a dok je mapa vidljiva</string>
     <string name="pref_gps_boost_modes_explanation_1">Nametni učestala ažuriranja GPS-a dok je ekran upaljen</string>
     <string name="pref_gps_boost_modes_explanation_2">Nikada ne nametni učestala ažuriranja GPS-a</string>
+
     <!-- pref_autopause_modes -->
     <string name="pref_autopause_modes_0">U stvarnom vremenu (default)</string>
     <string name="pref_autopause_modes_1">Ležerno</string>
     <string name="pref_autopause_modes_2">Isključeno</string>
+
     <!-- pref_autopause_modes_explanation -->
     <string name="pref_autopause_modes_explanation_0">Odbacuj sve pauze dulje od nekoliko sekundi</string>
     <string name="pref_autopause_modes_explanation_1">Odbacuj samo pauze dulje od 5 minuta</string>
     <string name="pref_autopause_modes_explanation_2">Zadrži sve pauze (osim ukoliko se ručno pauzira)</string>
+
     <!-- pref_wakelock_modes -->
     <string name="pref_wakelock_modes_0">Automatski (default)</string>
     <string name="pref_wakelock_modes_1">Potpuno budno</string>
     <string name="pref_wakelock_modes_2">Djelomično</string>
     <string name="pref_wakelock_modes_3">Isključeno</string>
+
     <!-- pref_wakelock_modes_explanation -->
     <string name="pref_wakelock_modes_explanation_0">Automatski odluči na osnovu intervala GPS ažuriranja i drugih faktora</string>
     <string name="pref_wakelock_modes_explanation_1">Drži CPU budnim tijekom praćenja. Može rabiti više baterije, ali osigurava da se nijedno ažuriranje lokacije ne propusti.</string>
     <string name="pref_wakelock_modes_explanation_2">Dozvoli CPU da spava između ažuriranja lokacije. Može rabiti manje baterije, ali katkad i propustiti ažuriranje lokacije.</string>
     <string name="pref_wakelock_modes_explanation_3">Pokori se ponašnju nametnutom od strane sistema i/ili ostalih aplikacija. Upozorenje: Može uzrokovati vrlo neredovita ažuriranja ili ih čak odbaciti sva. Ne preporuča se.</string>
+
     <!-- pref_locationProvider_modes -->
     <string name="pref_locationProvider_modes_0">GPS podsistem (default)</string>
     <string name="pref_locationProvider_modes_1">Google Play servisi</string>
+
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Svi profili) Koristi GPS podsistem izravno. Stabilan, manje složen model, bez posrednika. Također može trošiti manje resursa od drugog providera.</string>
     <string name="pref_locationProvider_modes_explanation_1">(Svi profili) Koristi \"Fused\" provider iz Google Play servisa, ako je dostupno. U teoriji ovo može pružiti brže i preciznije lokacije ponekad. Isprobajte da saznate ima li prednosti.</string>
+
     <!-- pref_flashlightBlinkModes -->
     <string name="pref_flashlightBlinkModes_0">Sporo (default)</string>
     <string name="pref_flashlightBlinkModes_1">Brzo</string>
     <string name="pref_flashlightBlinkModes_2">Bez / Postojano</string>
+
     <!-- pref_units_distance_entries -->
     <string name="pref_units_distance_entries_0">Metričke [m, km]</string>
     <string name="pref_units_distance_entries_1">Imperijalne [ft, mi]</string>
+
     <!-- pref_units_speed_entries -->
     <string name="pref_units_speed_entries_0">Metričke [km/h]</string>
     <string name="pref_units_speed_entries_1">Imperijalne [mph]</string>
+
     <!-- pref_units_altitude_entries -->
     <string name="pref_units_altitude_entries_0">Metričke [m]</string>
     <string name="pref_units_altitude_entries_1">Imperijalne [ft]</string>
+
     <!-- pref_units_weight_entries -->
     <string name="pref_units_weight_entries_0">Metričke [kg]</string>
     <string name="pref_units_weight_entries_1">Imperijalne [lb]</string>
+
     <!-- pref_units_other_entries -->
     <string name="pref_units_other_entries_0">Metričke</string>
     <string name="pref_units_other_entries_1">Imperijalne</string>
+
     <!-- prefUnitsEnergyEntries -->
     <string name="prefUnitsEnergyEntries_0">[kcal]</string>
     <string name="prefUnitsEnergyEntries_1">[kJ]</string>
     <string name="prefUnitsEnergyEntries_2">[kWh]</string>
     <string name="prefUnitsEnergyEntries_3">[Litara benzina]</string>
+
     <!-- prefUnitsPowerEntries -->
     <string name="prefUnitsPowerEntries_0">[W]</string>
     <string name="prefUnitsPowerEntries_1">[KS]</string>
     <string name="prefUnitsPowerEntries_2">[kcal/h]</string>
     <string name="prefUnitsPowerEntries_3">[kJ/h]</string>
+
     <!-- prefUnitsSlopeEntries -->
-    <string name="prefUnitsSlopeEntries_0">Postotak [％]<xliff:g id="fullwidthPercentSign">\uff05</xliff:g>]</string>
+    <string name="prefUnitsSlopeEntries_0">Postotak [<xliff:g id="fullwidthPercentSign">\uff05</xliff:g>]</string>
     <string name="prefUnitsSlopeEntries_1">Stupnjevi [°]</string>
     <string name="prefUnitsSlopeEntries_2">Promili [‰]</string>
+
     <!-- pref_hud_axis_entries -->
     <string name="pref_hud_axis_entries_0">Zadano — Statusna traka na prirodnom položaju</string>
     <string name="pref_hud_axis_entries_1">Naopako — Praktičnije rukovanje uređajem</string>
+
     <!-- pref_bell_mode_entries -->
     <string name="pref_bell_mode_entries_0">Ding</string>
     <string name="pref_bell_mode_entries_1">Ring-ring</string>
     <string name="pref_bell_mode_entries_2">Truba</string>
     <string name="pref_bell_mode_entries_3">Juu-huu</string>
+
     <!-- pref_roaring_type_entries -->
     <string name="pref_roaring_type_entries_0">Glavčina</string>
     <string name="pref_roaring_type_entries_1">Pijuk</string>
     <string name="pref_roaring_type_entries_2">Chopper</string>
+
     <!-- pref_roaring_mode_entries -->
     <string name="pref_roaring_mode_entries_0">Autom. tempo i glasnoća</string>
     <string name="pref_roaring_mode_entries_1">Autom. tempo</string>
     <string name="pref_roaring_mode_entries_2">Autom. glasnoća</string>
     <string name="pref_roaring_mode_entries_3">Postojano tijekom kretanja</string>
     <string name="pref_roaring_mode_entries_4">Aktiviraj iznad praga brzine</string>
+
     <!-- pref_background_pattern_entries -->
     <string name="pref_background_pattern_entries_0">Ništa</string>
-    <string name="pref_background_pattern_entries_1">
-        <xliff:g>@string/app_name</xliff:g>
-    </string>
+    <string name="pref_background_pattern_entries_1"><xliff:g>@string/app_name</xliff:g></string>
     <string name="pref_background_pattern_entries_2">Zebra</string>
     <string name="pref_background_pattern_entries_3">Leopard</string>
     <string name="pref_background_pattern_entries_4">Cigla</string>
@@ -1121,6 +1096,7 @@
     <string name="pref_background_pattern_entries_6">Oblaci</string>
     <string name="pref_background_pattern_entries_7">Srca</string>
     <string name="pref_background_pattern_entries_8">Saće</string>
+
     <!-- pref_tally_distance_entries -->
     <string name="pref_tally_distance_entries_0">Isklj.</string>
     <string name="pref_tally_distance_entries_1">0,1</string>
@@ -1134,6 +1110,7 @@
     <string name="pref_tally_distance_entries_9">50</string>
     <string name="pref_tally_distance_entries_10">100</string>
     <string name="pref_tally_distance_entries_11">250</string>
+
     <!-- pref_tally_duration_entries -->
     <string name="pref_tally_duration_entries_0">Isklj.</string>
     <string name="pref_tally_duration_entries_1">1</string>
@@ -1148,6 +1125,7 @@
     <string name="pref_tally_duration_entries_10">90</string>
     <string name="pref_tally_duration_entries_11">120</string>
     <string name="pref_tally_duration_entries_12">180</string>
+
     <!-- pref_tally_ascent_entries -->
     <string name="pref_tally_ascent_entries_0">Isklj.</string>
     <string name="pref_tally_ascent_entries_1">5</string>
@@ -1160,48 +1138,43 @@
     <string name="pref_tally_ascent_entries_8">1000</string>
     <string name="pref_tally_ascent_entries_9">2500</string>
     <string name="pref_tally_ascent_entries_10">5000</string>
+
     <!-- pref_speedo_display_mode_entries -->
     <string name="pref_speedo_display_mode_entries_0">Grafički &amp; Digitalni</string>
     <string name="pref_speedo_display_mode_entries_1">Grafički</string>
     <string name="pref_speedo_display_mode_entries_2">Digitalni</string>
+
     <!-- pref_powermeter_display_mode_entries -->
     <string name="pref_powermeter_display_mode_entries_0">Ukupna snaga</string>
     <string name="pref_powermeter_display_mode_entries_1">Watti po kg/lb</string>
+
     <!-- prefMapOnlineModeEntries -->
     <string name="prefMapOnlineModeEntries_0">Online</string>
     <string name="prefMapOnlineModeEntries_1">Offline</string>
+
     <!-- prefBackKeyModeEntries -->
     <string name="prefBackKeyModeEntries_0">Normalno</string>
     <string name="prefBackKeyModeEntries_1">Ništa</string>
     <string name="prefBackKeyModeEntries_2">Dvostruki-klik za izlaz</string>
+
     <!-- mapLayerTypes -->
-    <string name="mapLayerTypes_0">
-        <xliff:g>@string/mapLayerStreet</xliff:g>
-    </string>
-    <string name="mapLayerTypes_1">
-        <xliff:g>@string/mapLayerTerrain</xliff:g>
-    </string>
-    <string name="mapLayerTypes_2">
-        <xliff:g>@string/mapLayerSatellite</xliff:g>
-    </string>
+    <string name="mapLayerTypes_0"><xliff:g>@string/mapLayerStreet</xliff:g></string>
+    <string name="mapLayerTypes_1"><xliff:g>@string/mapLayerTerrain</xliff:g></string>
+    <string name="mapLayerTypes_2"><xliff:g>@string/mapLayerSatellite</xliff:g></string>
+
     <!-- derivedTemperatureSensorTypes -->
-    <string name="derivedTemperatureSensorTypes_0">
-        <xliff:g>@string/prefTemperatureSensorDerivedType1Title</xliff:g>
-    </string>
-    <string name="derivedTemperatureSensorTypes_1">
-        <xliff:g>@string/prefTemperatureSensorDerivedType2Title</xliff:g>
-    </string>
+    <string name="derivedTemperatureSensorTypes_0"><xliff:g>@string/prefTemperatureSensorDerivedType1Title</xliff:g></string>
+    <string name="derivedTemperatureSensorTypes_1"><xliff:g>@string/prefTemperatureSensorDerivedType2Title</xliff:g></string>
+
     <!-- derivedTemperatureSensorTypesInfo -->
-    <string name="derivedTemperatureSensorTypesInfo_0">
-        <xliff:g>@string/prefTemperatureSensorDerivedType1Summary</xliff:g>
-    </string>
-    <string name="derivedTemperatureSensorTypesInfo_1">
-        <xliff:g>@string/prefTemperatureSensorDerivedType2Summary</xliff:g>
-    </string>
+    <string name="derivedTemperatureSensorTypesInfo_0"><xliff:g>@string/prefTemperatureSensorDerivedType1Summary</xliff:g></string>
+    <string name="derivedTemperatureSensorTypesInfo_1"><xliff:g>@string/prefTemperatureSensorDerivedType2Summary</xliff:g></string>
+
     <!-- prefMapOfflineLayerButtonActionEntries -->
     <string name="prefMapOfflineLayerButtonActionEntries_0">Prebaci temu</string>
     <string name="prefMapOfflineLayerButtonActionEntries_1">Prebaci datoteku</string>
     <string name="prefMapOfflineLayerButtonActionEntries_2">Ništa</string>
+
     <!-- prefMapDiskCacheSizeEntries -->
     <string name="prefMapDiskCacheSizeEntries_0">10 MB</string>
     <string name="prefMapDiskCacheSizeEntries_1">50 MB</string>
@@ -1215,13 +1188,16 @@
     <string name="prefMapDiskCacheSizeEntries_9">3 GB</string>
     <string name="prefMapDiskCacheSizeEntries_10">4 GB</string>
     <string name="prefMapDiskCacheSizeEntries_11">5 GB</string>
+
     <!-- trackUploadActivityTypes -->
     <string name="trackUploadActivityTypes_0">Bicikl</string>
     <string name="trackUploadActivityTypes_1">Trčanje</string>
     <string name="trackUploadActivityTypes_2">Hodanje</string>
+
     <!-- prefAdModes -->
     <string name="prefAdModes_0">Bilo koji</string>
     <string name="prefAdModes_1">Google</string>
     <string name="prefAdModes_2">AppBrain</string>
     <string name="prefAdModes_3">Nijedan</string>
+
 </resources>
