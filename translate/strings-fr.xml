@@ -846,4 +846,261 @@
     <string name="timePeriod_perYear">/an</string>
     <string name="generalError">Une erreur s\'est produite. Veuillez réessayer.</string>
     <string name="openSourceLicensesTitle">Licences Open source</string>
+
+    <!-- dialog_fenceguard_add_entries -->
+    <string name="dialog_fenceguard_add_entries_0">Ajouter un périmètre</string>
+
+    <!-- dialog_fenceguard_update_entries -->
+    <string name="dialog_fenceguard_update_entries_0">Actualiser le périmètre</string>
+    <string name="dialog_fenceguard_update_entries_1">Supprimer le périmètre</string>
+
+    <!-- dialogTracksShareChoices -->
+    <string name="dialogTracksShareChoices_0">ZIP (complet)</string>
+    <string name="dialogTracksShareChoices_1">GPX seulement</string>
+
+
+    <!-- pref_gps_update_freq_entries -->
+    <string name="pref_gps_update_freq_entries_0">Le plus rapide</string>
+    <string name="pref_gps_update_freq_entries_1">0.5 sec</string>
+    <string name="pref_gps_update_freq_entries_2">Défaut</string>
+    <string name="pref_gps_update_freq_entries_3">1 sec</string>
+    <string name="pref_gps_update_freq_entries_4">2 sec</string>
+    <string name="pref_gps_update_freq_entries_5">3 sec</string>
+    <string name="pref_gps_update_freq_entries_6">4 sec</string>
+    <string name="pref_gps_update_freq_entries_7">5 sec</string>
+    <string name="pref_gps_update_freq_entries_8">10 sec</string>
+    <string name="pref_gps_update_freq_entries_9">15 sec</string>
+    <string name="pref_gps_update_freq_entries_10">20 sec</string>
+    <string name="pref_gps_update_freq_entries_11">30 sec</string>
+    <string name="pref_gps_update_freq_entries_12">45 sec</string>
+    <string name="pref_gps_update_freq_entries_13">1 min</string>
+    <string name="pref_gps_update_freq_entries_14">2 min</string>
+    <string name="pref_gps_update_freq_entries_15">3 min</string>
+    <string name="pref_gps_update_freq_entries_16">4 min</string>
+    <string name="pref_gps_update_freq_entries_17">5 min</string>
+    <string name="pref_gps_update_freq_entries_18">10 min</string>
+    <string name="pref_gps_update_freq_entries_19">15 min</string>
+    <string name="pref_gps_update_freq_entries_20">20 min</string>
+    <string name="pref_gps_update_freq_entries_21">30 min</string>
+    <string name="pref_gps_update_freq_entries_22">45 min</string>
+    <string name="pref_gps_update_freq_entries_23">1 heure</string>
+
+    <!-- pref_gps_boost_modes -->
+    <string name="pref_gps_boost_modes_0">Carte affichée (par défaut)</string>
+    <string name="pref_gps_boost_modes_1">Ecran allumé</string>
+    <string name="pref_gps_boost_modes_2">Désactivé</string>
+
+    <!-- pref_gps_boost_modes_explanation -->
+    <string name="pref_gps_boost_modes_explanation_0">Forcer la mise à jour fréquente du GPS lorsque la carte est visible</string>
+    <string name="pref_gps_boost_modes_explanation_1">Forcer la mise à jour fréquente du GPS lorsque l\'écran est allumé</string>
+    <string name="pref_gps_boost_modes_explanation_2">Ne jamais forcer la mise à jour fréquente du GPS</string>
+
+    <!-- pref_autopause_modes -->
+    <string name="pref_autopause_modes_0">Temps réel (par défaut)</string>
+    <string name="pref_autopause_modes_1">Relaxé</string>
+    <string name="pref_autopause_modes_2">Off</string>
+
+    <!-- pref_autopause_modes_explanation -->
+    <string name="pref_autopause_modes_explanation_0">Jeter toutes les pauses de plus de quelques secondes</string>
+    <string name="pref_autopause_modes_explanation_1">Retirer seulement les pauses de plus de 5 minutes</string>
+    <string name="pref_autopause_modes_explanation_2">Garder toutes les pauses (sauf les pauses faites manuellement)</string>
+
+    <!-- pref_wakelock_modes -->
+    <string name="pref_wakelock_modes_0">Auto (défaut)</string>
+    <string name="pref_wakelock_modes_1">Toujours actif</string>
+    <string name="pref_wakelock_modes_2">Partiel</string>
+    <string name="pref_wakelock_modes_3">Off</string>
+
+    <!-- pref_wakelock_modes_explanation -->
+    <string name="pref_wakelock_modes_explanation_0">Décider automatiquement en fonction de l\'intervalle de mise à jour du GPS et d\'autres facteurs</string>
+    <string name="pref_wakelock_modes_explanation_1">Gardez le processeur éveillé pendant le suivi. Peut utiliser plus de batterie, mais veille à ce qu\'aucune mise à jour de localisation ne soit ignorée.</string>
+    <string name="pref_wakelock_modes_explanation_2">Autoriser le processeur à dormir entre les mises à jour d\'emplacement. Peut utiliser moins de batterie, mais peut ignorer une mise à jour à de rares occasions.</string>
+    <string name="pref_wakelock_modes_explanation_3">Obéissez au comportement imposé par le système et / ou d\'autres applications. Avertissement: peut provoquer des mises à jour de position très irrégulières ou même les rejeter toutes. Non recommandé.</string>
+
+    <!-- pref_locationProvider_modes -->
+    <string name="pref_locationProvider_modes_0">Sous-système GPS (par défaut)</string>
+    <string name="pref_locationProvider_modes_1">Services Google Play</string>
+
+    <!-- pref_locationProvider_modes_explanation -->
+    <string name="pref_locationProvider_modes_explanation_0">(Tous les profils) Utiliser le GPS du système directement. Stable, moins complexe, pas d\'intermédiaire. Utilise aussi moins de ressources que l\'autre fournisseur.</string>
+    <string name="pref_locationProvider_modes_explanation_1">(Tous les profils) Utilise \"Fused\" système des Services Google Play si disponible. En théorie, cela peut fournir des emplacements plus rapides et plus précis, parfois. Essayez-le pour voir si cela est bénéfique.</string>
+
+    <!-- pref_flashlightBlinkModes -->
+    <string name="pref_flashlightBlinkModes_0">Lent (par défaut)</string>
+    <string name="pref_flashlightBlinkModes_1">Rapide</string>
+    <string name="pref_flashlightBlinkModes_2">Aucune / stable</string>
+
+    <!-- pref_units_distance_entries -->
+    <string name="pref_units_distance_entries_0">Métrique [m, km]</string>
+    <string name="pref_units_distance_entries_1">Impérial [ft, mi]</string>
+
+    <!-- pref_units_speed_entries -->
+    <string name="pref_units_speed_entries_0">Métrique [km/h]</string>
+    <string name="pref_units_speed_entries_1">Impérial [mph]</string>
+
+    <!-- pref_units_altitude_entries -->
+    <string name="pref_units_altitude_entries_0">Métrique [m]</string>
+    <string name="pref_units_altitude_entries_1">Impérial [ft]</string>
+
+    <!-- pref_units_weight_entries -->
+    <string name="pref_units_weight_entries_0">Métrique [kg]</string>
+    <string name="pref_units_weight_entries_1">Impérial [lb]</string>
+
+    <!-- pref_units_other_entries -->
+    <string name="pref_units_other_entries_0">Métrique</string>
+    <string name="pref_units_other_entries_1">Impérial</string>
+
+    <!-- prefUnitsEnergyEntries -->
+    <string name="prefUnitsEnergyEntries_0">[kcal]</string>
+    <string name="prefUnitsEnergyEntries_1">[kJ]</string>
+    <string name="prefUnitsEnergyEntries_2">[kWh]</string>
+    <string name="prefUnitsEnergyEntries_3">[Litres de carburant]</string>
+
+    <!-- prefUnitsPowerEntries -->
+    <string name="prefUnitsPowerEntries_0">[W]</string>
+    <string name="prefUnitsPowerEntries_1">[Cv]</string>
+    <string name="prefUnitsPowerEntries_2">[kcal/h]</string>
+    <string name="prefUnitsPowerEntries_3">[kJ/h]</string>
+
+    <!-- prefUnitsSlopeEntries -->
+    <string name="prefUnitsSlopeEntries_0">Pourcent [<xliff:g id="fullwidthPercentSign">\uff05</xliff:g>]</string>
+    <string name="prefUnitsSlopeEntries_1">Degrés [°]</string>
+    <string name="prefUnitsSlopeEntries_2">Pour mille [‰]</string>
+
+    <!-- pref_hud_axis_entries -->
+    <string name="pref_hud_axis_entries_0">Par défaut — Barre de statut en position normale</string>
+    <string name="pref_hud_axis_entries_1">À l\'envers - Manipulation plus pratique de l\'appareil</string>
+
+    <!-- pref_bell_mode_entries -->
+    <string name="pref_bell_mode_entries_0">Ding</string>
+    <string name="pref_bell_mode_entries_1">Ring-ring</string>
+    <string name="pref_bell_mode_entries_2">Klaxon</string>
+    <string name="pref_bell_mode_entries_3">Yoo-hoo</string>
+
+    <!-- pref_roaring_type_entries -->
+    <string name="pref_roaring_type_entries_0">Roue libre</string>
+    <string name="pref_roaring_type_entries_1">Beep</string>
+    <string name="pref_roaring_type_entries_2">Chopper</string>
+
+    <!-- pref_roaring_mode_entries -->
+    <string name="pref_roaring_mode_entries_0">Taux et volume automatiques</string>
+    <string name="pref_roaring_mode_entries_1">Taux automatique</string>
+    <string name="pref_roaring_mode_entries_2">Volume auto</string>
+    <string name="pref_roaring_mode_entries_3">Constante en mouvement</string>
+    <string name="pref_roaring_mode_entries_4">Actif au-dessus du seuil de vitesse</string>
+
+    <!-- pref_background_pattern_entries -->
+    <string name="pref_background_pattern_entries_0">Aucun</string>
+    <string name="pref_background_pattern_entries_1"><xliff:g>@string/app_name</xliff:g></string>
+    <string name="pref_background_pattern_entries_2">Zèbre</string>
+    <string name="pref_background_pattern_entries_3">Léopard</string>
+    <string name="pref_background_pattern_entries_4">Brique</string>
+    <string name="pref_background_pattern_entries_5">Pavé</string>
+    <string name="pref_background_pattern_entries_6">Nuages</string>
+    <string name="pref_background_pattern_entries_7">Coeurs</string>
+    <string name="pref_background_pattern_entries_8">Nid d\'abeilles</string>
+
+    <!-- pref_tally_distance_entries -->
+    <string name="pref_tally_distance_entries_0">Off</string>
+    <string name="pref_tally_distance_entries_1">0.1</string>
+    <string name="pref_tally_distance_entries_2">0.25</string>
+    <string name="pref_tally_distance_entries_3">0.5</string>
+    <string name="pref_tally_distance_entries_4">1</string>
+    <string name="pref_tally_distance_entries_5">2.5</string>
+    <string name="pref_tally_distance_entries_6">5</string>
+    <string name="pref_tally_distance_entries_7">10</string>
+    <string name="pref_tally_distance_entries_8">25</string>
+    <string name="pref_tally_distance_entries_9">50</string>
+    <string name="pref_tally_distance_entries_10">100</string>
+    <string name="pref_tally_distance_entries_11">250</string>
+
+    <!-- pref_tally_duration_entries -->
+    <string name="pref_tally_duration_entries_0">Off</string>
+    <string name="pref_tally_duration_entries_1">1</string>
+    <string name="pref_tally_duration_entries_2">2</string>
+    <string name="pref_tally_duration_entries_3">5</string>
+    <string name="pref_tally_duration_entries_4">10</string>
+    <string name="pref_tally_duration_entries_5">15</string>
+    <string name="pref_tally_duration_entries_6">20</string>
+    <string name="pref_tally_duration_entries_7">30</string>
+    <string name="pref_tally_duration_entries_8">45</string>
+    <string name="pref_tally_duration_entries_9">60</string>
+    <string name="pref_tally_duration_entries_10">90</string>
+    <string name="pref_tally_duration_entries_11">120</string>
+    <string name="pref_tally_duration_entries_12">180</string>
+
+    <!-- pref_tally_ascent_entries -->
+    <string name="pref_tally_ascent_entries_0">Off</string>
+    <string name="pref_tally_ascent_entries_1">5</string>
+    <string name="pref_tally_ascent_entries_2">10</string>
+    <string name="pref_tally_ascent_entries_3">25</string>
+    <string name="pref_tally_ascent_entries_4">50</string>
+    <string name="pref_tally_ascent_entries_5">100</string>
+    <string name="pref_tally_ascent_entries_6">250</string>
+    <string name="pref_tally_ascent_entries_7">500</string>
+    <string name="pref_tally_ascent_entries_8">1000</string>
+    <string name="pref_tally_ascent_entries_9">2500</string>
+    <string name="pref_tally_ascent_entries_10">5000</string>
+
+    <!-- pref_speedo_display_mode_entries -->
+    <string name="pref_speedo_display_mode_entries_0">Graphique &amp; Numérique</string>
+    <string name="pref_speedo_display_mode_entries_1">Graphique</string>
+    <string name="pref_speedo_display_mode_entries_2">Digital</string>
+
+    <!-- pref_powermeter_display_mode_entries -->
+    <string name="pref_powermeter_display_mode_entries_0">Puissance totale</string>
+    <string name="pref_powermeter_display_mode_entries_1">Watts par kg/lb</string>
+
+    <!-- prefMapOnlineModeEntries -->
+    <string name="prefMapOnlineModeEntries_0">En ligne</string>
+    <string name="prefMapOnlineModeEntries_1">Hors ligne</string>
+
+    <!-- prefBackKeyModeEntries -->
+    <string name="prefBackKeyModeEntries_0">Normal</string>
+    <string name="prefBackKeyModeEntries_1">Aucun</string>
+    <string name="prefBackKeyModeEntries_2">Double-clique pour quitter</string>
+
+    <!-- mapLayerTypes -->
+    <string name="mapLayerTypes_0"><xliff:g>@string/mapLayerStreet</xliff:g></string>
+    <string name="mapLayerTypes_1"><xliff:g>@string/mapLayerTerrain</xliff:g></string>
+    <string name="mapLayerTypes_2"><xliff:g>@string/mapLayerSatellite</xliff:g></string>
+
+    <!-- derivedTemperatureSensorTypes -->
+    <string name="derivedTemperatureSensorTypes_0"><xliff:g>@string/prefTemperatureSensorDerivedType1Title</xliff:g></string>
+    <string name="derivedTemperatureSensorTypes_1"><xliff:g>@string/prefTemperatureSensorDerivedType2Title</xliff:g></string>
+
+    <!-- derivedTemperatureSensorTypesInfo -->
+    <string name="derivedTemperatureSensorTypesInfo_0"><xliff:g>@string/prefTemperatureSensorDerivedType1Summary</xliff:g></string>
+    <string name="derivedTemperatureSensorTypesInfo_1"><xliff:g>@string/prefTemperatureSensorDerivedType2Summary</xliff:g></string>
+
+    <!-- prefMapOfflineLayerButtonActionEntries -->
+    <string name="prefMapOfflineLayerButtonActionEntries_0">Changer de thème</string>
+    <string name="prefMapOfflineLayerButtonActionEntries_1">Changer de fichier</string>
+    <string name="prefMapOfflineLayerButtonActionEntries_2">Aucun</string>
+
+    <!-- prefMapDiskCacheSizeEntries -->
+    <string name="prefMapDiskCacheSizeEntries_0">10 Mo</string>
+    <string name="prefMapDiskCacheSizeEntries_1">50 Mo</string>
+    <string name="prefMapDiskCacheSizeEntries_2">100 Mo (défaut)</string>
+    <string name="prefMapDiskCacheSizeEntries_3">200 Mo</string>
+    <string name="prefMapDiskCacheSizeEntries_4">300 Mo</string>
+    <string name="prefMapDiskCacheSizeEntries_5">400 Mo</string>
+    <string name="prefMapDiskCacheSizeEntries_6">500 Mo</string>
+    <string name="prefMapDiskCacheSizeEntries_7">1 Go</string>
+    <string name="prefMapDiskCacheSizeEntries_8">2 Go</string>
+    <string name="prefMapDiskCacheSizeEntries_9">3 Go</string>
+    <string name="prefMapDiskCacheSizeEntries_10">4 Go</string>
+    <string name="prefMapDiskCacheSizeEntries_11">5 Go</string>
+
+
+    <!-- trackUploadActivityTypes -->
+    <string name="trackUploadActivityTypes_0">Vélo</string>
+    <string name="trackUploadActivityTypes_1">Course</string>
+    <string name="trackUploadActivityTypes_2">Marche</string>
+
+    <!-- prefAdModes -->
+    <string name="prefAdModes_0">Tout</string>
+    <string name="prefAdModes_1">Google</string>
+    <string name="prefAdModes_2">AppBrain</string>
+    <string name="prefAdModes_3">Aucun</string>
 </resources>
