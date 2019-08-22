@@ -6,7 +6,6 @@
     <string name="widget_1_description">Fietser: Fietsbel</string>
     <string name="widget_2_description">Fietser: Bel + Zaklamp</string>
     <string name="widget_3_description">Fietser: Compleet</string>
-    <string name="copyright_part1">&lt;xliff:g&gt;<b>v%1$s</b> (%2$s)&lt;/xliff:g&gt;</string>
     <string name="proLicenseLabel">Pro</string>
     <string name="proPlusLicenseLabel">Pro+</string>
     <string name="ultimateLicenseLabel">Ultimate</string>
@@ -503,110 +502,79 @@
     <string name="fbCourseTitle">Powered by Urban Biker</string>
     <string name="dialogLicenseBuyYesButton">Koop nu!</string>
     <string name="dialogLicenseBuyNoButton">Niet nu</string>
-
     <!-- dialog_fenceguard_add_entries -->
     <string name="dialog_fenceguard_add_entries_0">Voeg afscherming toe</string>
-
     <!-- dialog_fenceguard_update_entries -->
     <string name="dialog_fenceguard_update_entries_0">Update afscherming</string>
     <string name="dialog_fenceguard_update_entries_1">Verwijder afscherming</string>
-
     <!-- dialogTracksShareChoices -->
     <string name="dialogTracksShareChoices_0">ZIPs (compleet)</string>
     <string name="dialogTracksShareChoices_1">alleen GPX</string>
-
     <!-- pref_gps_boost_modes -->
     <string name="pref_gps_boost_modes_0">Weergegeven kaart (standaard)</string>
     <string name="pref_gps_boost_modes_1">Scherm aan</string>
     <string name="pref_gps_boost_modes_2">Uitgeschakeld</string>
-
     <!-- pref_gps_boost_modes_explanation -->
     <string name="pref_gps_boost_modes_explanation_0">Forceer frequente GPS updates zolang de kaart zichtbaar is</string>
     <string name="pref_gps_boost_modes_explanation_1">Forceer frequente GPS updates zolang het scherm aan is</string>
     <string name="pref_gps_boost_modes_explanation_2">Nooit frequente GPS updates forceren</string>
-
     <!-- pref_autopause_modes -->
     <string name="pref_autopause_modes_0">Meteen (standaard)</string>
     <string name="pref_autopause_modes_1">Relaxed</string>
     <string name="pref_autopause_modes_2">Uit</string>
-
-
-
     <!-- pref_wakelock_modes -->
     <string name="pref_wakelock_modes_0">Auto (standaard)</string>
     <string name="pref_wakelock_modes_1">Volledig wakker</string>
     <string name="pref_wakelock_modes_2">Gedeeltelijk</string>
     <string name="pref_wakelock_modes_3">Uit</string>
-
     <!-- pref_wakelock_modes_explanation -->
     <string name="pref_wakelock_modes_explanation_0">Kies automatisch op basis van het GPS update interval en andere factoren</string>
     <string name="pref_wakelock_modes_explanation_1">Houd de CPU aktief tijdens tracking. Kan meer batterij verbruiken, maar zorgt ervoor dat lokatie updates niet worden overgeslagen.</string>
     <string name="pref_wakelock_modes_explanation_2">Sta CPU toe te slapen tussen locatie updates. Zou minder batterij kunnen verbruiken, maar kan bij hoge uitzondering een update missen.</string>
     <string name="pref_wakelock_modes_explanation_3">Gehoorzaam gedrag opgelegd door het systeem en/of andere apps. Let op: Kan zeer onregelmatige of zelfs geen lokatie updaties veroorzaken. Niet aangeraden.</string>
-
     <!-- pref_locationProvider_modes -->
     <string name="pref_locationProvider_modes_0">GPS subsystem (standaard)</string>
     <string name="pref_locationProvider_modes_1">Google Play services</string>
-
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Alle profielen) Gebruik het GPS subsystem. Stabiel en minder complex. Zou ook minder middelen kunnen gebruiken dan de andere provider.</string>
     <string name="pref_locationProvider_modes_explanation_1">(Alle profielen) Gebruik de \"Fused\" provider van Google Play services, indien beschikbaar. Dit zou in theorie snellere en preciezere locaties kunnen verzorgen. Probeer uit of het voor jou goed werkt.</string>
-
-
-
     <!-- pref_units_distance_entries -->
     <string name="pref_units_distance_entries_0">Metrisch [m, km]</string>
     <string name="pref_units_distance_entries_1">Imperiaal [ft, mi]</string>
-
     <!-- pref_units_speed_entries -->
     <string name="pref_units_speed_entries_0">Metrisch [km/u]</string>
     <string name="pref_units_speed_entries_1">Imperiaal [mph]</string>
-
     <!-- pref_units_altitude_entries -->
     <string name="pref_units_altitude_entries_0">Metrisch [m]</string>
     <string name="pref_units_altitude_entries_1">Imperiaal [ft]</string>
-
     <!-- pref_units_weight_entries -->
     <string name="pref_units_weight_entries_0">Metrisch [kg]</string>
     <string name="pref_units_weight_entries_1">Imperiaal [lb]</string>
-
     <!-- pref_units_other_entries -->
     <string name="pref_units_other_entries_0">Metrisch</string>
     <string name="pref_units_other_entries_1">Imperiaal</string>
-
     <!-- prefUnitsEnergyEntries -->
     <string name="prefUnitsEnergyEntries_0">[kcal]</string>
     <string name="prefUnitsEnergyEntries_1">[kJ]</string>
     <string name="prefUnitsEnergyEntries_2">[kWh]</string>
     <string name="prefUnitsEnergyEntries_3">[Liters brandstof]</string>
-
     <!-- prefUnitsPowerEntries -->
     <string name="prefUnitsPowerEntries_0">[W]</string>
     <string name="prefUnitsPowerEntries_1">[HP]</string>
     <string name="prefUnitsPowerEntries_2">[kcal/u]</string>
     <string name="prefUnitsPowerEntries_3">[kJ/u]</string>
-
-
-
     <!-- pref_hud_axis_entries -->
     <string name="pref_hud_axis_entries_0">Standaard — Statusbalk op natuurlijke positie</string>
     <string name="pref_hud_axis_entries_1">Ondersteboven — Praktischer apparaat bediening</string>
-
     <!-- pref_bell_mode_entries -->
     <string name="pref_bell_mode_entries_0">Ding</string>
     <string name="pref_bell_mode_entries_1">Ring-ring</string>
     <string name="pref_bell_mode_entries_2">Hoorn</string>
     <string name="pref_bell_mode_entries_3">Joehoe</string>
-
     <!-- pref_roaring_type_entries -->
     <string name="pref_roaring_type_entries_0">Freehub</string>
     <string name="pref_roaring_type_entries_1">Beep</string>
     <string name="pref_roaring_type_entries_2">Motor</string>
-
-
-
-
-
     <!-- pref_tally_distance_entries -->
     <string name="pref_tally_distance_entries_0">Uit</string>
     <string name="pref_tally_distance_entries_1">0.1</string>
@@ -620,7 +588,6 @@
     <string name="pref_tally_distance_entries_9">50</string>
     <string name="pref_tally_distance_entries_10">100</string>
     <string name="pref_tally_distance_entries_11">250</string>
-
     <!-- pref_tally_duration_entries -->
     <string name="pref_tally_duration_entries_0">Uit</string>
     <string name="pref_tally_duration_entries_1">1</string>
@@ -635,7 +602,6 @@
     <string name="pref_tally_duration_entries_10">90</string>
     <string name="pref_tally_duration_entries_11">120</string>
     <string name="pref_tally_duration_entries_12">180</string>
-
     <!-- pref_tally_ascent_entries -->
     <string name="pref_tally_ascent_entries_0">Uit</string>
     <string name="pref_tally_ascent_entries_1">5</string>
@@ -648,18 +614,11 @@
     <string name="pref_tally_ascent_entries_8">1000</string>
     <string name="pref_tally_ascent_entries_9">2500</string>
     <string name="pref_tally_ascent_entries_10">5000</string>
-
     <!-- pref_speedo_display_mode_entries -->
     <string name="pref_speedo_display_mode_entries_0">Grafisch &amp; Digitaal</string>
     <string name="pref_speedo_display_mode_entries_1">Grafisch</string>
     <string name="pref_speedo_display_mode_entries_2">Digitaal</string>
-
     <!-- pref_powermeter_display_mode_entries -->
     <string name="pref_powermeter_display_mode_entries_0">Totaal vermogen</string>
     <string name="pref_powermeter_display_mode_entries_1">Watts per kg/lb</string>
-
-
-
-
-
 </resources>

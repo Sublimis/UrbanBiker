@@ -6,7 +6,6 @@
     <string name="widget_1_description">Biciklista: Biciklističko zvono</string>
     <string name="widget_2_description">Biciklista: Zvono + Lampa</string>
     <string name="widget_3_description">Biciklista: Kompletno</string>
-    <string name="copyright_part1">&lt;xliff:g&gt;<b>v%1$s</b> (%2$s)&lt;/xliff:g&gt;</string>
     <string name="proLicenseLabel">Pro</string>
     <string name="proPlusLicenseLabel">Pro+</string>
     <string name="ultimateLicenseLabel">Ultimate</string>
@@ -477,104 +476,73 @@
     <string name="fbCourseTitle">Pokreće Urban Biker</string>
     <string name="dialogLicenseBuyYesButton">Kupite!</string>
     <string name="dialogLicenseBuyNoButton">Ne sada</string>
-
     <!-- dialog_fenceguard_add_entries -->
     <string name="dialog_fenceguard_add_entries_0">Dodajte ogradu</string>
-
     <!-- dialog_fenceguard_update_entries -->
     <string name="dialog_fenceguard_update_entries_0">Ažurirajte ogradu</string>
     <string name="dialog_fenceguard_update_entries_1">Uklonite ogradu</string>
-
     <!-- dialogTracksShareChoices -->
     <string name="dialogTracksShareChoices_0">ZIPovanje (potpuno)</string>
     <string name="dialogTracksShareChoices_1">Samo GPX</string>
-
     <!-- pref_gps_boost_modes -->
     <string name="pref_gps_boost_modes_0">Mapa prikazana (podrazumevano)</string>
     <string name="pref_gps_boost_modes_1">Displej uključen</string>
     <string name="pref_gps_boost_modes_2">Onemogućeno</string>
-
     <!-- pref_gps_boost_modes_explanation -->
     <string name="pref_gps_boost_modes_explanation_0">Prinudno često ažuriranje GPS-a kada je mapa vidljiva</string>
     <string name="pref_gps_boost_modes_explanation_1">Prinudno često ažuriranje GPS-a kada je displej uključen</string>
     <string name="pref_gps_boost_modes_explanation_2">Ne dozvoli prinudno često ažuriranje GPS-a</string>
-
     <!-- pref_autopause_modes -->
     <string name="pref_autopause_modes_0">U realnom vremenu (podrazumevano)</string>
     <string name="pref_autopause_modes_1">Opušteno</string>
     <string name="pref_autopause_modes_2">Isklj.</string>
-
-
-
     <!-- pref_wakelock_modes -->
     <string name="pref_wakelock_modes_0">Automatski (podrazumevano)</string>
     <string name="pref_wakelock_modes_1">Potpuno budan</string>
     <string name="pref_wakelock_modes_2">Delimično</string>
     <string name="pref_wakelock_modes_3">Isklj.</string>
-
     <!-- pref_wakelock_modes_explanation -->
     <string name="pref_wakelock_modes_explanation_0">Odluči automatski u zavisnoti od intervala ažuriranja GPS-a i ostalih faktora</string>
     <string name="pref_wakelock_modes_explanation_1">Drži procesor budnim tokom praćenja. Ova opcija može povećati potrošnju baterije, ali osigurava neizostavljanje ažuriranja lokacije.</string>
     <string name="pref_wakelock_modes_explanation_2">Dozvoliti da procesor pređe u režim \'spavanja\' u intervalima između ažuriranja lokacije. Ova opcija može smanjiti potrošnju baterije, ali povremeno može doći do izostavljanja pojedinih ažuriranja lokacije.</string>
     <string name="pref_wakelock_modes_explanation_3">Povinuj se ponašanjima nametnutim od strane sistema i/ili drugih aplikacija. Upozoreje: Može uzrokovati veoma nepravilnim ažuriranjima lokacije, ili ih čak potpuno odbiti. Nije preporučljivo.</string>
-
-
-
-
-
-
-
     <!-- pref_units_distance_entries -->
     <string name="pref_units_distance_entries_0">Metrički [m, km]</string>
     <string name="pref_units_distance_entries_1">Imperijalni [ft, mi]</string>
-
     <!-- pref_units_speed_entries -->
     <string name="pref_units_speed_entries_0">Metrički [km/h]</string>
     <string name="pref_units_speed_entries_1">Imperijalni [mph]</string>
-
     <!-- pref_units_altitude_entries -->
     <string name="pref_units_altitude_entries_0">Metrički [m]</string>
     <string name="pref_units_altitude_entries_1">Imperijalni [ft]</string>
-
     <!-- pref_units_weight_entries -->
     <string name="pref_units_weight_entries_0">Metrički [kg]</string>
     <string name="pref_units_weight_entries_1">Imperijalni [lb]</string>
-
     <!-- pref_units_other_entries -->
     <string name="pref_units_other_entries_0">Metrički</string>
     <string name="pref_units_other_entries_1">Imperijalni</string>
-
     <!-- prefUnitsEnergyEntries -->
     <string name="prefUnitsEnergyEntries_0">[kcal]</string>
     <string name="prefUnitsEnergyEntries_1">[kJ]</string>
     <string name="prefUnitsEnergyEntries_2">[kWh]</string>
     <string name="prefUnitsEnergyEntries_3">[Litara benzina]</string>
-
     <!-- prefUnitsPowerEntries -->
     <string name="prefUnitsPowerEntries_0">[W]</string>
     <string name="prefUnitsPowerEntries_1">[HP]</string>
     <string name="prefUnitsPowerEntries_2">[kcal/h]</string>
     <string name="prefUnitsPowerEntries_3">[kJ/h]</string>
-
-
-
     <!-- pref_hud_axis_entries -->
     <string name="pref_hud_axis_entries_0">Podrazumevano — Statusna traka na standardnom položaju</string>
     <string name="pref_hud_axis_entries_1">Naopako — Praktičnije rukovanje uređajem</string>
-
     <!-- pref_bell_mode_entries -->
     <string name="pref_bell_mode_entries_0">Ding</string>
     <string name="pref_bell_mode_entries_1">Zvrk-zvrk</string>
     <string name="pref_bell_mode_entries_2">Sirena</string>
     <string name="pref_bell_mode_entries_3">Ju-hu</string>
-
     <!-- pref_roaring_type_entries -->
     <string name="pref_roaring_type_entries_0">Freehub</string>
     <string name="pref_roaring_type_entries_1">Bip</string>
     <string name="pref_roaring_type_entries_2">Helikopter</string>
-
-
-
     <!-- pref_background_pattern_entries -->
     <string name="pref_background_pattern_entries_0">Nijedno</string>
     <string name="pref_background_pattern_entries_2">Zebra</string>
@@ -584,7 +552,6 @@
     <string name="pref_background_pattern_entries_6">Oblaci</string>
     <string name="pref_background_pattern_entries_7">Srca</string>
     <string name="pref_background_pattern_entries_8">Saće</string>
-
     <!-- pref_tally_distance_entries -->
     <string name="pref_tally_distance_entries_0">Isklj.</string>
     <string name="pref_tally_distance_entries_1">0.1</string>
@@ -598,7 +565,6 @@
     <string name="pref_tally_distance_entries_9">50</string>
     <string name="pref_tally_distance_entries_10">100</string>
     <string name="pref_tally_distance_entries_11">250</string>
-
     <!-- pref_tally_duration_entries -->
     <string name="pref_tally_duration_entries_0">Isklj.</string>
     <string name="pref_tally_duration_entries_1">1</string>
@@ -613,7 +579,6 @@
     <string name="pref_tally_duration_entries_10">90</string>
     <string name="pref_tally_duration_entries_11">120</string>
     <string name="pref_tally_duration_entries_12">180</string>
-
     <!-- pref_tally_ascent_entries -->
     <string name="pref_tally_ascent_entries_0">Isklj.</string>
     <string name="pref_tally_ascent_entries_1">5</string>
@@ -626,10 +591,8 @@
     <string name="pref_tally_ascent_entries_8">1000</string>
     <string name="pref_tally_ascent_entries_9">2500</string>
     <string name="pref_tally_ascent_entries_10">5000</string>
-
     <!-- pref_speedo_display_mode_entries -->
     <string name="pref_speedo_display_mode_entries_0">Grafički &amp; Digitalni</string>
     <string name="pref_speedo_display_mode_entries_1">Grafički</string>
     <string name="pref_speedo_display_mode_entries_2">Digitalni</string>
-
 </resources>

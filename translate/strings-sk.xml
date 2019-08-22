@@ -6,7 +6,6 @@
     <string name="widget_1_description">Cyklista: Zvonček</string>
     <string name="widget_2_description">Cyklista: Zvonček + Svetlo</string>
     <string name="widget_3_description">Cyklista: Komplet</string>
-    <string name="copyright_part1">&lt;xliff:g&gt;<b>v%1$s</b> (%2$s)&lt;/xliff:g&gt;</string>
     <string name="proLicenseLabel">Pro</string>
     <string name="proPlusLicenseLabel">Pro+</string>
     <string name="ultimateLicenseLabel">Ultimate</string>
@@ -849,18 +848,14 @@
     <string name="timePeriod_perYear">/rok</string>
     <string name="generalError">Vyskytla sa chyba.</string>
     <string name="openSourceLicensesTitle">Licencie z otvorených zdrojov</string>
-
     <!-- dialog_fenceguard_add_entries -->
     <string name="dialog_fenceguard_add_entries_0">Pridať chránenú oblasť</string>
-
     <!-- dialog_fenceguard_update_entries -->
     <string name="dialog_fenceguard_update_entries_0">Aktualizovať chránenú oblasť</string>
     <string name="dialog_fenceguard_update_entries_1">Odstrániť chránenú oblasť</string>
-
     <!-- dialogTracksShareChoices -->
     <string name="dialogTracksShareChoices_0">ZIP</string>
     <string name="dialogTracksShareChoices_1">GPX</string>
-
     <!-- pref_gps_update_freq_entries -->
     <string name="pref_gps_update_freq_entries_0">Najkratší</string>
     <string name="pref_gps_update_freq_entries_1">0,5 s</string>
@@ -886,111 +881,89 @@
     <string name="pref_gps_update_freq_entries_21">30 min</string>
     <string name="pref_gps_update_freq_entries_22">45 min</string>
     <string name="pref_gps_update_freq_entries_23">1 h</string>
-
     <!-- pref_gps_boost_modes -->
     <string name="pref_gps_boost_modes_0">Zobrazovaná mapa</string>
     <string name="pref_gps_boost_modes_1">Zapnutá obrazovka</string>
     <string name="pref_gps_boost_modes_2">Zakázané</string>
-
     <!-- pref_gps_boost_modes_explanation -->
     <string name="pref_gps_boost_modes_explanation_0">Vynucovať časté GPS-aktualizovanie počas viditeľnosti mapy</string>
     <string name="pref_gps_boost_modes_explanation_1">Vynucovať časté GPS-aktualizovanie pri zapnutej obrazovke</string>
     <string name="pref_gps_boost_modes_explanation_2">Nikdy nevynucovať časté GPS-aktualizovanie</string>
-
     <!-- pref_autopause_modes -->
     <string name="pref_autopause_modes_0">Priebežne (predvolené)</string>
     <string name="pref_autopause_modes_1">Pri oddychu</string>
     <string name="pref_autopause_modes_2">Vypnuté</string>
-
     <!-- pref_autopause_modes_explanation -->
     <string name="pref_autopause_modes_explanation_0">Vymazať každú prestávku dlhšiu ako pár sekúnd</string>
     <string name="pref_autopause_modes_explanation_1">Vymazať každú prestávku dlhšiu ako 5 minút</string>
     <string name="pref_autopause_modes_explanation_2">Ponechať každú prestávku</string>
-
     <!-- pref_wakelock_modes -->
     <string name="pref_wakelock_modes_0">Automaticky (predvolené)</string>
     <string name="pref_wakelock_modes_1">Plné využitie</string>
     <string name="pref_wakelock_modes_2">Čiastočná aktivita</string>
     <string name="pref_wakelock_modes_3">Vypnuté</string>
-
     <!-- pref_wakelock_modes_explanation -->
     <string name="pref_wakelock_modes_explanation_0">Automaticky určovať podľa intervalu aktualizácie GPS a iných faktorov</string>
     <string name="pref_wakelock_modes_explanation_1">Ponechať CPU v plnom režime počas trasovania, čo môže vyžadovať viac energie, ale zaisťuje neustálu aktualizáciu polohy</string>
     <string name="pref_wakelock_modes_explanation_2">Povoliť CPU-spánok medzi aktualizáciami polohy, čo vyžaduje menej energie, avšak nezaručuje zriedkavé nevynechanie polohy</string>
     <string name="pref_wakelock_modes_explanation_3">Riadiť sa nastavením systému a/alebo iných aplikácií, čo však môže spôsobiť veľmi nepravidelnú komunikáciu alebo odmietnutie všetkých aktualizácií polohy</string>
-
     <!-- pref_locationProvider_modes -->
     <string name="pref_locationProvider_modes_0">Podsystém GPS (predvolené)</string>
     <string name="pref_locationProvider_modes_1">Google Play services</string>
-
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Všetky profily) Používať priamy stály zabudovaný podsystém</string>
     <string name="pref_locationProvider_modes_explanation_1">(Všetky profily) Používať komplexnejší systém teoreticky poskytujúci rýchlejšiu a presnejšiu lokalizáciu</string>
-
     <!-- pref_flashlightBlinkModes -->
     <string name="pref_flashlightBlinkModes_0">Pomalé (predvolené)</string>
     <string name="pref_flashlightBlinkModes_1">Rýchle</string>
     <string name="pref_flashlightBlinkModes_2">Žiadne</string>
-
     <!-- pref_units_distance_entries -->
     <string name="pref_units_distance_entries_0">Metrické [m, km]</string>
     <string name="pref_units_distance_entries_1">Imperiálne [ft, M]</string>
-
     <!-- pref_units_speed_entries -->
     <string name="pref_units_speed_entries_0">Metrické [km/h]</string>
     <string name="pref_units_speed_entries_1">Imperiálne [M/h]</string>
-
     <!-- pref_units_altitude_entries -->
     <string name="pref_units_altitude_entries_0">Metrické [m]</string>
     <string name="pref_units_altitude_entries_1">Imperiálne [ft]</string>
-
     <!-- pref_units_weight_entries -->
     <string name="pref_units_weight_entries_0">Metrické [kg]</string>
     <string name="pref_units_weight_entries_1">Imperiálne [lb]</string>
-
     <!-- pref_units_other_entries -->
     <string name="pref_units_other_entries_0">Metrické</string>
     <string name="pref_units_other_entries_1">Imperiálne</string>
-
     <!-- prefUnitsEnergyEntries -->
     <string name="prefUnitsEnergyEntries_0">[kcal]</string>
     <string name="prefUnitsEnergyEntries_1">[kJ]</string>
     <string name="prefUnitsEnergyEntries_2">[kWh]</string>
     <string name="prefUnitsEnergyEntries_3">[Litre paliva]</string>
-
     <!-- prefUnitsPowerEntries -->
     <string name="prefUnitsPowerEntries_0">[W]</string>
     <string name="prefUnitsPowerEntries_1">[HP]</string>
     <string name="prefUnitsPowerEntries_2">[kcal/h]</string>
     <string name="prefUnitsPowerEntries_3">[kJ/h]</string>
-
     <!-- prefUnitsSlopeEntries -->
     <string name="prefUnitsSlopeEntries_0">Percentá [<xliff:g id="fullwidthPercentSign">\uff05</xliff:g>]</string>
     <string name="prefUnitsSlopeEntries_1">Stupne [°]</string>
     <string name="prefUnitsSlopeEntries_2">Promile [‰]</string>
-
     <!-- pref_hud_axis_entries -->
     <string name="pref_hud_axis_entries_0">Zvislá — zrkadlenie neobráteného zariadenia</string>
     <string name="pref_hud_axis_entries_1">Vodorovná — praktické riešenie</string>
-
     <!-- pref_bell_mode_entries -->
     <string name="pref_bell_mode_entries_0">Ding</string>
     <string name="pref_bell_mode_entries_1">Ring</string>
     <string name="pref_bell_mode_entries_2">Trúbka</string>
     <string name="pref_bell_mode_entries_3">Yoo-hoo</string>
-
     <!-- pref_roaring_type_entries -->
     <string name="pref_roaring_type_entries_0">Pretáčanie</string>
     <string name="pref_roaring_type_entries_1">Pípanie</string>
     <string name="pref_roaring_type_entries_2">Motorka</string>
-
     <!-- pref_roaring_mode_entries -->
     <string name="pref_roaring_mode_entries_0">Aut. štýl a hlasitosť</string>
     <string name="pref_roaring_mode_entries_1">Automatický štýl</string>
     <string name="pref_roaring_mode_entries_2">Automatická hlasitosť</string>
     <string name="pref_roaring_mode_entries_3">Konštantné pri pohybe</string>
     <string name="pref_roaring_mode_entries_4">Nad prahovou rýchlosťou</string>
-
     <!-- pref_background_pattern_entries -->
     <string name="pref_background_pattern_entries_0">Žiadny</string>
     <string name="pref_background_pattern_entries_2">Zebra</string>
@@ -1000,7 +973,6 @@
     <string name="pref_background_pattern_entries_6">Oblaky</string>
     <string name="pref_background_pattern_entries_7">Srdcia</string>
     <string name="pref_background_pattern_entries_8">Medový plást</string>
-
     <!-- pref_tally_distance_entries -->
     <string name="pref_tally_distance_entries_0">Vypnuté</string>
     <string name="pref_tally_distance_entries_1">0,1</string>
@@ -1014,7 +986,6 @@
     <string name="pref_tally_distance_entries_9">50</string>
     <string name="pref_tally_distance_entries_10">100</string>
     <string name="pref_tally_distance_entries_11">250</string>
-
     <!-- pref_tally_duration_entries -->
     <string name="pref_tally_duration_entries_0">Vypnuté</string>
     <string name="pref_tally_duration_entries_1">1</string>
@@ -1029,7 +1000,6 @@
     <string name="pref_tally_duration_entries_10">90</string>
     <string name="pref_tally_duration_entries_11">120</string>
     <string name="pref_tally_duration_entries_12">180</string>
-
     <!-- pref_tally_ascent_entries -->
     <string name="pref_tally_ascent_entries_0">Vypnuté</string>
     <string name="pref_tally_ascent_entries_1">5</string>
@@ -1042,30 +1012,24 @@
     <string name="pref_tally_ascent_entries_8">1000</string>
     <string name="pref_tally_ascent_entries_9">2500</string>
     <string name="pref_tally_ascent_entries_10">5000</string>
-
     <!-- pref_speedo_display_mode_entries -->
     <string name="pref_speedo_display_mode_entries_0">Digitálno-graficky</string>
     <string name="pref_speedo_display_mode_entries_1">Graficky</string>
     <string name="pref_speedo_display_mode_entries_2">Digitálne</string>
-
     <!-- pref_powermeter_display_mode_entries -->
     <string name="pref_powermeter_display_mode_entries_0">Celkový výkon</string>
     <string name="pref_powermeter_display_mode_entries_1">Watty na kg/lb</string>
-
     <!-- prefMapOnlineModeEntries -->
     <string name="prefMapOnlineModeEntries_0">Online</string>
     <string name="prefMapOnlineModeEntries_1">Offline</string>
-
     <!-- prefBackKeyModeEntries -->
     <string name="prefBackKeyModeEntries_0">Normálna</string>
     <string name="prefBackKeyModeEntries_1">Žiadna</string>
     <string name="prefBackKeyModeEntries_2">Dvojklikom skončiť</string>
-
     <!-- prefMapOfflineLayerButtonActionEntries -->
     <string name="prefMapOfflineLayerButtonActionEntries_0">Prepínať fareb. kombináciu</string>
     <string name="prefMapOfflineLayerButtonActionEntries_1">Prepínať medzi súbormi</string>
     <string name="prefMapOfflineLayerButtonActionEntries_2">Žiadne priradenie</string>
-
     <!-- prefMapDiskCacheSizeEntries -->
     <string name="prefMapDiskCacheSizeEntries_0">10 MB</string>
     <string name="prefMapDiskCacheSizeEntries_1">50 MB</string>
@@ -1079,17 +1043,13 @@
     <string name="prefMapDiskCacheSizeEntries_9">3 GB</string>
     <string name="prefMapDiskCacheSizeEntries_10">4 GB</string>
     <string name="prefMapDiskCacheSizeEntries_11">5 GB</string>
-
-
     <!-- trackUploadActivityTypes -->
     <string name="trackUploadActivityTypes_0">Cyklistika</string>
     <string name="trackUploadActivityTypes_1">Beh</string>
     <string name="trackUploadActivityTypes_2">Chôdza</string>
-
     <!-- prefAdModes -->
     <string name="prefAdModes_0">Rôzna</string>
     <string name="prefAdModes_1">Google</string>
     <string name="prefAdModes_2">AppBrain</string>
     <string name="prefAdModes_3">Žiadna</string>
-
 </resources>
