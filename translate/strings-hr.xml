@@ -381,7 +381,7 @@
     <string name="meterModeAltitudeSlope">nagib</string>
     <string name="meterModeAltitudeSlopeShort">nag</string>
     <string name="meterModeCadence">kadenca</string>
-    <string name="meterModeCadenceShort">cad</string>
+    <string name="meterModeCadenceShort">kad</string>
     <string name="meterModeHeartRate">otkucaji srca</string>
     <string name="meterModeHeartRateShort">hr</string>
     <string name="meterModeGearRatio">omjer prijenosa</string>
@@ -605,7 +605,8 @@
     <string name="pref_bell_shake_sensitivity_title">Osjetljivost treskanja</string>
     <string name="pref_roaring_type_title">Vrsta</string>
     <string name="pref_roaring_type_dialog_title">Vrsta huke</string>
-    <string name="pref_volume_summary_text">Zvonce:<xliff:g> %1$s</xliff:g>, Huka:<xliff:g> %2$s
+    <string name="pref_volume_summary_text">Zvonce: %1$s, Huka: %2$s 
+\nOznake: %3$s, Efekti: %4$s, Alarmi: %5$s<xliff:g> %1$s</xliff:g>, Huka:<xliff:g> %2$s
 \n</xliff:g>Oznake:<xliff:g> %3$s</xliff:g>, Efekti:<xliff:g> %4$s</xliff:g>, Alarmi:<xliff:g> %5$s</xliff:g>
     </string>
     <string name="pref_bg_color_title">Boja pozadine</string>
@@ -697,7 +698,7 @@
     <string name="pref_maps_online_mode_dialog_title">Izvor mape</string>
     <string name="pref_maps_offline_file_title">Odaberi datoteku ili folder</string>
     <string name="pref_maps_offline_file_dialog_title">Izaberi folder offline mapa</string>
-    <string name="pref_maps_offline_file_summary">(Svi profili) <xliff:g>%1$s</xliff:g>
+    <string name="pref_maps_offline_file_summary">(Svi profili) %1$s<xliff:g>%1$s</xliff:g>
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Folder nije odabran.</string>
     <string name="pref_maps_offline_info_title">Preuzmi sada</string>
@@ -751,14 +752,16 @@
     <string name="pref_powermeter_parameters_info_title">Važno!</string>
     <string name="pref_powermeter_parameters_info_summary">Za točna mjerenja snage i energije, molimo osigurajte ispravnost ovih parametara!</string>
     <string name="pref_power_weights_title">Mase</string>
-    <string name="pref_power_weights_summary">Vozač: <xliff:g>%1$s</xliff:g>, Vozilo: <xliff:g>%2$s</xliff:g>, Teret: <xliff:g>%3$s</xliff:g>, Putnici: <xliff:g>%4$s</xliff:g>, Kotači: <xliff:g>%5$s</xliff:g>
+    <string name="pref_power_weights_summary">Vozač: %1$s, Vozilo: %2$s, Teret: %3$s, Putnici: %4$s, Kotači: %5$s<xliff:g>%1$s</xliff:g>, Vozilo: <xliff:g>%2$s</xliff:g>, Teret: <xliff:g>%3$s</xliff:g>, Putnici: <xliff:g>%4$s</xliff:g>, Kotači: <xliff:g>%5$s</xliff:g>
     </string>
     <string name="pref_power_coefs_title">Koeficijenti</string>
-    <string name="pref_power_coefs_summary">Površina otpora zraka: <xliff:g>%1$s
+    <string name="pref_power_coefs_summary">Površina otpora zraka: %1$s 
+\nOtpor kotrljanja: %2$s<xliff:g>%1$s
 \n</xliff:g>Otpor kotrljanja: <xliff:g>%2$s</xliff:g>
     </string>
     <string name="pref_energy_params_title">Parametri energije</string>
-    <string name="pref_energy_params_summary">Efikasnost: <xliff:g>%1$s
+    <string name="pref_energy_params_summary">Efikasnost: %1$s 
+\nMetabolizam: %2$s<xliff:g>%1$s
 \n</xliff:g>Metabolizam: <xliff:g>%2$s</xliff:g>
     </string>
     <string name="pref_svg_data_enable_title">Generiraj grafove</string>
