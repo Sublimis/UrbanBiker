@@ -54,7 +54,7 @@
     <string name="menuCenterOnMap">Wyśrodkuj</string>
     <string name="menuClose">Zamknij</string>
     <string name="menuInfo">Info</string>
-    <string name="menuRateAndComment">Oceń i skomentuj</string>
+    <string name="menuRateAndComment">Oceń nas</string>
     <string name="menuRefresh">Odśwież</string>
     <string name="menuSwitchProfile">Przełącz na</string>
     <string name="share_title">Wyślij przez</string>
@@ -82,9 +82,9 @@
     <string name="toastTrackingStopped">Zatrzymany</string>
     <string name="toastFenceGuardFenceAdded">Obszar chroniony: Obszar <xliff:g>%1$s</xliff:g> dodany</string>
     <string name="toastFenceGuardFenceAddingError">Strażnik ogrodzenia: Błąd dodania ogrodzenia</string>
-    <string name="toastFenceGuardFenceUpdated">Obszar chroniony: Obszar <xliff:g>%1$s</xliff:g> uaktualniony</string>
+    <string name="toastFenceGuardFenceUpdated">Obszar chroniony: Obszar %1$s uaktualniony<xliff:g>%1$s</xliff:g> uaktualniony</string>
     <string name="toastFenceGuardFenceUpdatingError">Strażnik ogrodzenia: Błąd aktualizacji ogrodzenia</string>
-    <string name="toastFenceGuardFenceRemoved">Obszar chroniony: Obszar <xliff:g>%1$s</xliff:g> usunięty</string>
+    <string name="toastFenceGuardFenceRemoved">Obszar chroniony: Obszar %1$s usunięty<xliff:g>%1$s</xliff:g> usunięty</string>
     <string name="toastFenceGuardFenceRemovingError">Strażnik ogrodzenia: Błąd usuwania ogrodzenia</string>
     <string name="toastFenceGuardOutsideTheFence">FenceGuard: Jesteś obecnie poza Ogrodzeniem</string>
     <string name="toastFenceGuardLocationUnavailable">FenceGuard: Twoja lokalizacja jest nadal niedostępna</string>
@@ -113,7 +113,7 @@
     <string name="toastSensorEnabled">Czujnik włączony</string>
     <string name="toastSensorDisabled">Czujnik wyłączony</string>
     <string name="toastAutoThemeActivated">Automatyczny motyw wizualny aktywowany</string>
-    <string name="notificationTitleAdvancedPaused">Pauza: <xliff:g>%1$s</xliff:g>
+    <string name="notificationTitleAdvancedPaused">Pauza: %1$s<xliff:g>%1$s</xliff:g>
     </string>
     <string name="licenseSuccessDialogMessage">Appka została pomyślnie licencjonowana. Dziękujemy za wsparcie!</string>
     <string name="ongoingNotificationChannelName">Trwające powiadomienie</string>
@@ -138,7 +138,7 @@
     <string name="dialog_fenceguard_update_text2">Ogrodzenie zostało utworzone wogół twojej lokalizacji, aby nie zostało zarejestrowane na zapisanej trasie.</string>
     <string name="dialog_fenceguard_remove_title">Usuń Ogrodzenie</string>
     <string name="dialog_fenceguard_remove_defaultText">Czy na pewno chcesz usunąć Ogrodzenie\?</string>
-    <string name="dialog_fenceguard_remove_formatText">Czy na pewno usunąć granice obszaru <xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialog_fenceguard_remove_formatText">Czy na pewno usunąć granice obszaru %1$s\?<xliff:g>%1$s</xliff:g>\?</string>
     <string name="dialog_track_save_text">Dystans: <xliff:g>%1$.3f %2$s</xliff:g>Okres <xliff:g>%3$s</xliff:g>
         <xliff:g>(%4$s)</xliff:g>Trasa wydaje się być bardzo krótka. Zapisać\?</string>
     <string name="dialog_exit_msg">Uwaga: Śledzenie jest aktywne i będzie zatrzymane.</string>
@@ -651,4 +651,166 @@
     <!-- pref_powermeter_display_mode_entries -->
     <string name="pref_powermeter_display_mode_entries_0">Moc całkowita</string>
     <string name="pref_powermeter_display_mode_entries_1">Waty na kg/lb</string>
+    <string name="ultimateLicenseTitleYearly">Licencja Ultimate (roczna)</string>
+    <string name="buttonNewTrack">Meta</string>
+    <string name="menuMeterReset">Koniec trasy</string>
+    <string name="menuViewWith">Szerokość widoku</string>
+    <string name="menuUpload">Prześlij</string>
+    <string name="toastProfilesListNonemptyDelete">Nie można skasować - Profil zawiera niezapisane dane! Proszę zakończ wcześniej.</string>
+    <string name="toastProfileButtonClickInfo">Przytrzymaj dłużej aby zmienić profil</string>
+    <string name="toastMapClickInfo">Przytrzymaj dłużej dla ustawień mapy</string>
+    <string name="toastSharingSuccess">Post utworzony pomyślnie</string>
+    <string name="toastSharingError">Błąd podczas udostępniania</string>
+    <string name="toastSharingPermissionsError">Błąd tworzenia postu, proszę sprawdź uprawnienia</string>
+    <string name="toastUpdatingSuccess">Uaktualniono pomyślnie</string>
+    <string name="toastCancelled">Anulowano</string>
+    <string name="dialog_default_map_track_colors_title">Kolor ścieżki na mapie</string>
+    <string name="dialogTracksShareCountExceeded">Nie możesz udostępnić ponad 100 ścieżek jednocześnie.</string>
+    <string name="dialogGpsSettingsPromptMessage">Nie możesz korzystać z większości funkcji bez zezwolenia na śledzenie lokalizacji.
+\n
+\nProszę upewnij się, że Lokalizacja jest wyłączona w trybie \'Wysoka dokładność\'.
+\n
+\nOtworzyć teraz Ustawienia Lokalizacji\?</string>
+    <string name="dialogResetTitle">Finisz</string>
+    <string name="dialogMapsTrackColor">Odcień ścieżki:</string>
+    <string name="dialogPowerWeightsRotInertiaTitle">Bezwładność rotacyjna</string>
+    <string name="dialogMapsTerrainDownloadTitle">Pobierz teren</string>
+    <string name="dialogTrackUploadWaitTitle">Proszę czekać</string>
+    <string name="dialogTrackUploadPreparing">Przygotowanie danych ścieżki…</string>
+    <string name="dialogTrackUploadSending">Wysyłanie…</string>
+    <string name="dialogTrackUploadDescriptionHint">Podziel się przemyśleniami…</string>
+    <string name="dialogTrackUploadShareButton">Udostępnij</string>
+    <string name="dialogTrackUploadShareAgainButton">Udostępnij ponownie</string>
+    <string name="dialogTrackUploadUpdateButton">Uaktualnij</string>
+    <string name="dialogTrackUploadActivityType">Typ aktywności</string>
+    <string name="dialogTrackUploadPlatform">Serwis online</string>
+    <string name="dialogGpsIntervalNote">Uwaga: utrzymuj ta wartość poniżej 3 sec by otrzymać bardziej wiarygodne wyniki i przewidywalne zachowanie!</string>
+    <string name="dialogGpsIntervalLabelMore">◀
+\nBardziej dokładne, zużywa więcej energii</string>
+    <string name="dialogGpsIntervalLabelLess">▶
+\nMniej dokładny, zużywa mniej energii</string>
+    <string name="dialogSliderLess">◀</string>
+    <string name="dialogSliderMore">▶</string>
+    <string name="dialogLocationPermissionRequestTitle">Zezwolenia lokalizacji</string>
+    <string name="dialogLocationPermissionRequest">Aplikacja potrzebuje dostępu do lokalizacji aby rejestrować Twoją aktywność.</string>
+    <string name="dialogStoragePermissionRequestTitle">Zezwolenie na dostęp do pamięci masowej</string>
+    <string name="dialogStoragePermissionRequest">Aplikacja potrzebuje dostępu do pamięci masowej aby zapisać lub odczytać Twoje trasy i ustawienia.
+\n
+\nBez tego zezwolenia nie będziesz widzieć historii tras ani ich udostępnić i możesz stracić swoje dane.</string>
+    <string name="dialogCameraPermissionRequestTitle">Zezwolenie na dostęp do aparatu fotograficznego</string>
+    <string name="dialogCameraPermissionRequest">Zezwolenie jest potrzebne aby aplikacja mogła włączyć latarkę.</string>
+    <string name="dialogPermissionProblemMessage">Zezwolenie jest potrzebne aby aplikacja funkcjonowała poprawnie. Może być przyznane w sekcji Uprawnienia Aplikacji.
+\n
+\nPrzejść tam teraz\?</string>
+    <string name="unitTimeHour">h</string>
+    <string name="unitTimeMinute">min</string>
+    <string name="unitTimeSecond">s</string>
+    <string name="unitMillimeter">mm</string>
+    <string name="unitIn">cali</string>
+    <string name="unitPerMinute">/min</string>
+    <string name="unitPerMille">‰</string>
+    <string name="unitDegree">°</string>
+    <string name="unitMegabyte">MB</string>
+    <string name="meterModeSpeedShort">pręd.</string>
+    <string name="meterModeSpeedVerticalShort">pion. pręd.</string>
+    <string name="meterModeSpeedAverageShort">śr. pręd.</string>
+    <string name="meterModeDuration">czas trwania</string>
+    <string name="meterModeElapsedTime">upłynęło</string>
+    <string name="meterModeVerticalPower">Moc wznoszenia</string>
+    <string name="meterModeVerticalPowerShort">moc wznosz.</string>
+    <string name="meterModePowerShort">moc</string>
+    <string name="meterModePowerAverageShort">śr. moc</string>
+    <string name="meterModeFTP">moc chwil.</string>
+    <string name="meterModeAccelerationShort">przyśp.</string>
+    <string name="meterModeDistanceShort">dyst.</string>
+    <string name="meterModeEnergyShort">energ.</string>
+    <string name="meterModeEfficacy">skuteczność</string>
+    <string name="meterModeEfficacyShort">skut.</string>
+    <string name="meterModePressure">ciśnienie</string>
+    <string name="meterModePressureShort">ciśn.</string>
+    <string name="meterModeClockShort">zeg.</string>
+    <string name="meterModeWriggleShort">kręt</string>
+    <string name="meterModeAltitudeDescentShort">spad.</string>
+    <string name="meterModeAltitudeSlope">nachylenie</string>
+    <string name="meterModeAltitudeSlopeShort">nachyl.</string>
+    <string name="meterModeCadence">kadencja</string>
+    <string name="meterModeCadenceShort">kad.</string>
+    <string name="meterModeHeartRate">puls</string>
+    <string name="meterModeHeartRateShort">puls</string>
+    <string name="meterModeGearRatio">przełożenie</string>
+    <string name="meterModeGearRatioShort">przełoż.</string>
+    <string name="meterTextTotal">całk.</string>
+    <string name="controlPanelSoundAutoBell">Automatyczny dzwonek</string>
+    <string name="controlPanelSoundRoar">ryk</string>
+    <string name="controlPanelSoundEffects">Efekty</string>
+    <string name="controlPanelSoundAlarms">Alarmy</string>
+    <string name="controlPanelSoundTallies">Brzmienie</string>
+    <string name="controlPanelSoundVolume">Głośność</string>
+    <string name="controlPanelEnergyParams">Moc/Energia parametry</string>
+    <string name="profilesListTitle">Profile</string>
+    <string name="profilesListAddProfile">Nowy profil</string>
+    <string name="profilesListProfileNotUsed">(nieużywany)</string>
+    <string name="profilesListLoading">Ładowanie…</string>
+    <string name="cloudAccountsTitle">Konta</string>
+    <string name="cloudAccountsInfo">Podłączenie do chmury ułatwia dzielenie się trasami z innymi.
+\n
+\nNigdy nie udostępniamy czegokolwiek bez Twojej zgody.</string>
+    <string name="accountDisconnect">Rozłącz</string>
+    <string name="googleFitConnectButton">Połącz z Google Fit</string>
+    <string name="stravaTrackPrivacyInfo">Trasa odziedziczy domyślną prywatność ustawioną na Strava</string>
+    <string name="facebookConnectButton">Połącz z Facebook</string>
+    <string name="tracksHistoryListTitleSelect">Wybierz</string>
+    <string name="tracksHistoryListButtonUpload">Prześlij</string>
+    <string name="summaryTotalWeight">Waga całkowita</string>
+    <string name="summaryWheelsWeight">Waga kół</string>
+    <string name="summaryEfficiency">Wydajność</string>
+    <string name="summaryLocationInterval">Interwał lokalizacji</string>
+    <string name="summaryStartedDatetime">Początek</string>
+    <string name="summaryEndedDatetime">Zakończenie</string>
+    <string name="summaryTotalTime">Czas całkowity</string>
+    <string name="summaryStoppedTime">Czas zatrzymania</string>
+    <string name="summaryHeartBeats">Uderzeń serca</string>
+    <string name="summaryCadenceStrokes">Pociągnięcia pedału</string>
+    <string name="summarySpecific">Specyficzny</string>
+    <string name="summaryMechEnergy">Energia mechaniczna</string>
+    <string name="sensorsTitle">Sensory</string>
+    <string name="sensorsTabUsed">Użyte</string>
+    <string name="sensorsTabFound">Znalezione</string>
+    <string name="sensorsSectionUsedInProfile">Użyte w profilu</string>
+    <string name="sensorsSectionSupported">Wspierane</string>
+    <string name="sensorsSectionUnsupported">Nie wspierane</string>
+    <string name="sensorsEmptyList">Pusta lista</string>
+    <string name="sensorsMenuScan">Skan</string>
+    <string name="sensorMenuAddToProfile">Dodaj do profilu</string>
+    <string name="sensorMenuRemoveFromProfile">Usuń z profilu</string>
+    <string name="sensorMenuProperties">Właściwości</string>
+    <string name="sensorMenuEnable">Włącz</string>
+    <string name="sensorMenuDisable">Wyłącz</string>
+    <string name="sensorMenuDelete">Zapomnij</string>
+    <string name="sensorRemoveConfirmDialogMsg">Usunąć z profilu\?</string>
+    <string name="sensorDeleteConfirmDialogMsg">Zapomnieć ten sensor\?</string>
+    <string name="sensorAddedMsg">Sensor dodany do profilu</string>
+    <string name="sensorRemovedMsg">Sensor usunięto z profilu</string>
+    <string name="sensorDeletedMsg">Sensor zapomniano</string>
+    <string name="sensorPurposeNone">(Brak celu)</string>
+    <string name="sensorPurposeCadence">Kadencja</string>
+    <string name="sensorPurposeSpeed">Prędkość</string>
+    <string name="sensorPurposeDistance">Dystans</string>
+    <string name="sensorPurposeDuration">Trwanie</string>
+    <string name="sensorPurposePower">Moc</string>
+    <string name="sensorPurposeHeartRate">Puls</string>
+    <string name="sensorProperitesProfileInfo">"Właściwości czujnika są zarządzane według profilu.  Właściwościami tutaj zarządzanymi są tylko te dla aktualnie aktywnego profilu (%1$s)."</string>
+    <string name="sensorProperitesUseForSpeed">Używane dla prędkości</string>
+    <string name="sensorProperitesUseForCadence">Używane dla kadencji</string>
+    <string name="sensorProperitesUseForDistance">Używane dla odległości i czasu trwania</string>
+    <string name="sensorProperitesUseForPower">Używane dla mocy ;)</string>
+    <string name="sensorProperitesUseForHeartRate">Używane dla pulsu</string>
+    <string name="sensorProperitesIsInverted">Zamień prędkość i kadencję</string>
+    <string name="sensorProperitesIsInvertedInfo">Używa sensora kadencji do uzyskania prędkości lub odwrotnie. Normalnie wyłączone.</string>
+    <string name="sensorProperitesWheelPerimeter">Obwód koła</string>
+    <string name="sensorProperitesIsAutoPerimeter">Automatyczny</string>
+    <string name="sensorProperitesIsAutoPerimeterInfo">To przeprowadzi automatyczny pomiar obwodu koła podczas jazdy.</string>
+    <string name="sensorProperitesWheelPerimeterNotSet">Nie ustawione</string>
+    <string name="sensorProperitesStrideLen">Długość kroku</string>
+    <string name="sensorProperitesIsAutoStrideLen">Automatyczny</string>
 </resources>
