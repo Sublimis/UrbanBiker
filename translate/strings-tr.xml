@@ -9,13 +9,13 @@
     <string name="proLicenseLabel">Pro</string>
     <string name="proPlusLicenseLabel">Pro+</string>
     <string name="ultimateLicenseLabel">Ultimate</string>
-    <string name="proLicenseTitle">Pro License</string>
-    <string name="proLicenseDescription">Remove ads</string>
-    <string name="proPlusLicenseTitle">Pro Plus License</string>
-    <string name="proPlusLicenseDescription">Remove ads and unlock all non-subscription features we may add in the future</string>
-    <string name="ultimateLicenseTitle">Ultimate License</string>
-    <string name="ultimateLicenseDescriptionMonthly">All features and maps unlocked (monthly subscription)</string>
-    <string name="ultimateLicenseDescriptionYearly">All features and maps unlocked (yearly subscription)</string>
+    <string name="proLicenseTitle">Ayrıcalıklık Sürüm</string>
+    <string name="proLicenseDescription">Reklamları kaldır</string>
+    <string name="proPlusLicenseTitle">Daha ayrıcalıklı sürüm</string>
+    <string name="proPlusLicenseDescription">Reklamlar kaldırılır ve gelecekte ekleyeceğimiz üyelik gerektirmeyen tüm içerikler açılır</string>
+    <string name="ultimateLicenseTitle">Gelişmiş Sürüm</string>
+    <string name="ultimateLicenseDescriptionMonthly">Tüm içerikler ve haritalar açılır (aylık abonelik)</string>
+    <string name="ultimateLicenseDescriptionYearly">Tüm içerikler ve haritalar açılır (yıllık abonelik)</string>
     <string name="ok">Tamam</string>
     <string name="yes">Evet</string>
     <string name="no">Hayır</string>
@@ -29,15 +29,15 @@
     <string name="menuTracksHistoryResume">Devam ettir</string>
     <string name="menuMeterLock">Kilitle</string>
     <string name="menuMeterLockAll">Hepsini Kilitle</string>
-    <string name="menuMeterMode">Metre Modu...</string>
-    <string name="menuMeterChooseModes">Mod Seçin...</string>
+    <string name="menuMeterMode">Metre Modu…</string>
+    <string name="menuMeterChooseModes">Mod Seçin…</string>
     <string name="menuMeterNewTrack">Yeni Kayıt</string>
     <string name="menuMeterResetMinMax">Sıfırla Min/Max</string>
-    <string name="menuMeterParameters">Parametreler...</string>
+    <string name="menuMeterParameters">Parametreler…</string>
     <string name="menuMeterPowerMode">Güç Modu</string>
     <string name="menuFenceguard">FenceGuard</string>
-    <string name="menuExit">Çık</string>
-    <string name="menuMore">Devamı...</string>
+    <string name="menuExit">Çıkış</string>
+    <string name="menuMore">Devamı…</string>
     <string name="menuView">Göster</string>
     <string name="menuProfiles">Profiller</string>
     <string name="menuSensors">Sensörler</string>
@@ -63,13 +63,13 @@
     <string name="featureNotAvailable">Üzgünüm, bu özellik bu cihazda desteklenmemektedir</string>
     <string name="farFromHere">burdan uzak</string>
     <string name="toastRestartRequired">Değişikliklerin etkili olması için yeniden başlatın</string>
-    <string name="toastActiveProfile">Profil: <xliff:g>%1$s</xliff:g>
+    <string name="toastActiveProfile">Profil: %1$s<xliff:g>%1$s</xliff:g>
     </string>
     <string name="toastProfileSavingError">Profil verileri kaydedilirken hata! Lütfen tekrar deneyin.</string>
     <string name="toastProfileChangeError">Profil değiştirilemedi! Lütfen tekrar deneyin.</string>
     <string name="toastGpsEnabled">GPS açıldı</string>
     <string name="toastTrackSaved">Rota Kaydedildi.</string>
-    <string name="toastTrackDiscarded">Kayıt vazgeçildi</string>
+    <string name="toastTrackDiscarded">Kayıt iptal edildi.</string>
     <string name="toastTrackSavingError">Rota kaydedilirken hata! Tekrar deneyin.</string>
     <string name="toastTrackWritingError">Veriler yazılırken hata! Tekrar deneyin.</string>
     <string name="toastTrackZippingError">Rota sıkıştırılırken hata! Tekrar deneyin.</string>
@@ -80,7 +80,7 @@
     <string name="toastTrackingPaused">Duraklatıldı</string>
     <string name="toastTrackingStopped">Durduruldu</string>
     <string name="toastFenceGuardFenceAddingError">FenceGuard: Fence eklenirken hata</string>
-    <string name="toastFenceGuardFenceUpdatingError">FenceGuard: Fence güncellenirken hata</string>
+    <string name="toastFenceGuardFenceUpdatingError">FenceGuard: Fence güncelleme hatası</string>
     <string name="toastFenceGuardFenceRemovingError">FenceGuard: Fence silinirken hata</string>
     <string name="toastFenceGuardOutsideTheFence">FenceGuard: Şuan Fence içinde değilsiniz</string>
     <string name="toastFenceGuardLocationUnavailable">FenceGuard: Konumunuz henüz kullanılabilir değil</string>
@@ -107,9 +107,9 @@
     <string name="toastSoundsDisabled">Ses devredışı</string>
     <string name="toastSensorEnabled">Sensör etkin</string>
     <string name="toastSensorDisabled">Sensör devredışı</string>
-    <string name="notificationTitleAdvancedPaused">Duraklatıldı: <xliff:g>%1$s</xliff:g>
+    <string name="notificationTitleAdvancedPaused">Duraklatıldı: %1$s<xliff:g>%1$s</xliff:g>
     </string>
-    <string name="licenseSuccessDialogMessage">Uygulama başarıyla lisanslandı. Desteğiniz için teşekkürler</string>
+    <string name="licenseSuccessDialogMessage">Uygulama başarıyla lisanslandı. Desteğiniz için teşekkürler!</string>
     <string name="ongoingNotificationChannelName">Devam eden bildirim</string>
     <string name="ongoingNotificationChannelDescription">Önplan hizmetinin kontrolünü sağla ve uygulamaya kolay erişim sağla</string>
     <string name="dialog_default_color_light_title">Açık renk tema</string>
@@ -131,21 +131,20 @@
     <string name="dialog_fenceguard_update_text2">Fenceolarak işaretlenen yer, sizin sabit olarak kayıt edilmesini sağlar. Mesela ev, iş yeri, park gibi. Bu sayede daha az pil kullanır.</string>
     <string name="dialog_fenceguard_remove_title">Fence\'i sil</string>
     <string name="dialog_fenceguard_remove_defaultText">Fence\'i silmek istediğinize emin misiniz\?</string>
-    <string name="dialog_fenceguard_remove_formatText">
-        <xliff:g>%1$s</xliff:g>\? adlı fence\'i kaldırmak istediğinizden emin misiniz\?</string>
+    <string name="dialog_fenceguard_remove_formatText">%1$s\? adlı fence\'i kaldırmak istediğinizden emin misiniz\?<xliff:g>%1$s</xliff:g>\? adlı fence\'i kaldırmak istediğinizden emin misiniz\?</string>
     <string name="dialogProfileDeleteTitle">Profili sil.</string>
     <string name="dialogProfileAddTitle">Yeni Profil</string>
     <string name="dialogProfileEditTitle">Profili düzenle</string>
     <string name="dialogProfileEditTotals">Toplam:</string>
-    <string name="dialogProfileTotalsResetMessage">Tüm profil değerlerini sıfırla</string>
+    <string name="dialogProfileTotalsResetMessage">Tüm profil değerlerini sıfırlamak istediğinize emin misiniz\?</string>
     <string name="dialogProfileSwitchTitle">Profil değiştir</string>
-    <string name="dialogProfileSwitchMessage">Rota kayıtta. <xliff:g>%1$s</xliff:g>\? isimli profile geçmek istediğinize emin misiniz\?</string>
+    <string name="dialogProfileSwitchMessage">Rota kaydediliyor. <xliff:g>%1$s</xliff:g>\? isimli profile geçmek istediğinizden emin misiniz\?</string>
     <string name="dialogTracksDeleteTitle">Rotaları sil</string>
-    <string name="dialogTrackDeleteMessage">Bu eylem geri alınamaz. <xliff:g>%1$s</xliff:g>\? isimli rotayı silmek istediğinize emin misiniz\?</string>
+    <string name="dialogTrackDeleteMessage">Uyarı:Bu eylem geri alınamaz. <xliff:g>%1$s</xliff:g>\? isimli rotayı silmek istediğinizden emin misiniz\?</string>
     <string name="dialogTrackResumeTitle">Devam et</string>
-    <string name="dialogTrackResumeGpsActiveMessage">Rota kayıtta. Lütfen devam etmeden önce GPS\'i duraklatın veya durdurun.</string>
+    <string name="dialogTrackResumeGpsActiveMessage">Rota kaydediliyor. Lütfen devam etmeden önce GPS\'i duraklatın veya durdurun.</string>
     <string name="dialogTrackResumeGeneralErrorMessage">Hata. Lütfen tekrar deneyin.</string>
-    <string name="dialogTrackResumeWaitMessage">Devam ediliyor, lütfen bekleyin...</string>
+    <string name="dialogTrackResumeWaitMessage">Devam ediliyor, lütfen bekleyin…</string>
     <string name="dialogTracksShareTitle">Rotaları paylaş</string>
     <string name="dialogTracksShareGeneralErrorMessage">Hata uluştu. Lütfen tekrar deneyin.</string>
     <string name="dialogScreenHudMode">HUD ayna modu</string>
@@ -266,16 +265,16 @@
     <string name="profilesListAddProfile">Yeni Profil</string>
     <string name="profilesListButtonResetTotals">Toplamları sıfırla</string>
     <string name="tracksHistoryListTitle">Kayıt geçmişi</string>
-    <string name="tracksHistoryListLoading">Yükleniyor...</string>
-    <string name="tracksHistoryListButtonView">Göster</string>
+    <string name="tracksHistoryListLoading">Yükleniyor…</string>
+    <string name="tracksHistoryListButtonView">Görüntüle</string>
     <string name="tracksHistoryListButtonShare">Paylaş</string>
     <string name="tracksHistoryListButtonResume">Devam ettir</string>
     <string name="tracksHistoryListButtonEdit">Düzenle</string>
     <string name="tracksHistoryListButtonDelete">Sil</string>
-    <string name="tracksHistoryListShareTrackDialogTitle">Paylaş...</string>
-    <string name="tracksHistoryListViewTrackDialogTitle">Rotayı görüntüle...</string>
+    <string name="tracksHistoryListShareTrackDialogTitle">Şurada paylaş…</string>
+    <string name="tracksHistoryListViewTrackDialogTitle">Rotayı görüntüle…</string>
     <string name="summaryTotalWeight">Toplam ağırlık</string>
-    <string name="summaryWheelsWeight">Tekerleklerin ağırlığı</string>
+    <string name="summaryWheelsWeight">Tekerlek ağırlığı</string>
     <string name="summaryStartedDatetime">Başladı</string>
     <string name="summaryEndedDatetime">Sona erdi</string>
     <string name="summaryTotalTime">Toplam zaman</string>
@@ -289,9 +288,9 @@
     <string name="sensorPurposePower">Güç</string>
     <string name="sensorProperitesIsAutoPerimeter">Otomatik</string>
     <string name="pref_text_off">Kapalı</string>
-    <string name="pref_text_min">Min</string>
+    <string name="pref_text_min">En düşük</string>
     <string name="pref_text_medium">Orta</string>
-    <string name="pref_text_max">Max</string>
+    <string name="pref_text_max">En yüksek</string>
     <string name="settingsTitle">Ayarlar</string>
     <string name="pref_category1_title">Ses</string>
     <string name="pref_category2_title">Görünüm</string>
@@ -302,7 +301,7 @@
     <string name="pref_category_power_mode_title">Güç gösterim modu</string>
     <string name="pref_category_params_title">Parametreler</string>
     <string name="pref_group_units_title">Birimler</string>
-    <string name="pref_category_units_title">ölçüm birimi</string>
+    <string name="pref_category_units_title">Ölçü birimi</string>
     <string name="pref_category_colors_title">Renkler</string>
     <string name="pref_category_colors_light_title">Açık Tema</string>
     <string name="pref_category_colors_dark_title">Koyu Tema</string>
@@ -312,13 +311,13 @@
     <string name="pref_category6_title">Yardım</string>
     <string name="pref_category7_title">Paylaş</string>
     <string name="pref_category8_title">Hakkında</string>
-    <string name="pref_category_autopause_title">Auto duraklat</string>
+    <string name="pref_category_autopause_title">Otomatik duraklat</string>
     <string name="pref_category_bell_title">Zil</string>
     <string name="pref_category_roaring_title">Uğultu</string>
-    <string name="pref_category_effects_title">Efekt</string>
+    <string name="pref_category_effects_title">Etkiler</string>
     <string name="pref_category_alarms_title">Alarmlar</string>
     <string name="pref_category_tallies_title">Çetele</string>
-    <string name="pref_category_select_title">Seç...</string>
+    <string name="pref_category_select_title">Seç…</string>
     <string name="pref_category_fonts_title">Yazı tipi</string>
     <string name="pref_category_buttons_title">Butonlar</string>
     <string name="pref_category_meters_title">Göstergeler</string>
@@ -417,7 +416,7 @@
     <string name="pref_soundeffects_countdown_title">Geri sayım</string>
     <string name="pref_soundeffects_countdown_summary">Rotayı devam etmeden önceki geri sayım (... 3, 2 , 1 , GO!)</string>
     <string name="pref_soundeffects_tally_title">Aktif</string>
-    <string name="pref_soundeffects_tally_value_summary">Her <xliff:g>%1$s</xliff:g>
+    <string name="pref_soundeffects_tally_value_summary">Her %1$s %2$s<xliff:g>%1$s</xliff:g>
         <xliff:g>%2$s</xliff:g>
     </string>
     <string name="pref_soundeffects_tally_distance_title">Mesafe</string>
@@ -435,7 +434,7 @@
     <string name="pref_maps_online_mode_summary">(Tüm Profiller)</string>
     <string name="pref_maps_online_mode_dialog_title">Harita kaynağı</string>
     <string name="pref_maps_offline_file_dialog_title">Çevrimdışı harita dosyası seç</string>
-    <string name="pref_maps_offline_file_summary">(Tüm Profiller) <xliff:g>%1$s</xliff:g>
+    <string name="pref_maps_offline_file_summary">(Tüm Profiller) %1$s<xliff:g>%1$s</xliff:g>
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Seçili dosya yok</string>
     <string name="pref_maps_offline_info_title">Şimdi indir</string>
@@ -635,4 +634,104 @@
     <!-- pref_powermeter_display_mode_entries -->
     <string name="pref_powermeter_display_mode_entries_0">Toplam güç</string>
     <string name="pref_powermeter_display_mode_entries_1">Watts her kg/lb</string>
+    <string name="ultimateLicenseTitleYearly">Gelişmiş Sürüm(Yıllık)</string>
+    <string name="buttonNewTrack">Bitiş</string>
+    <string name="menuMeterReset">Bitiş</string>
+    <string name="menuViewWith">Şunla Görüntüle</string>
+    <string name="menuUpload">Yükle</string>
+    <string name="menuRateAndComment">Bize puan ver</string>
+    <string name="toastFenceGuardFenceAdded">"FenceGuard: Fence %1$s  eklendi"</string>
+    <string name="toastFenceGuardFenceUpdated">FenceGuard: Fence %1$s güncellendi</string>
+    <string name="toastProfilesListNonemptyDelete">Silinemiyor - Profil kaydedilmemiş veriler içeriyor! Lütfen önce kaydedin.</string>
+    <string name="toastTrackDeleteError">Hata! Rota silinemiyor.</string>
+    <string name="toastProfileButtonClickInfo">Kullanıcı değiştirmek için basılı tutun</string>
+    <string name="toastMapClickInfo">Harita ayarları için basılı tutun</string>
+    <string name="toastSharingSuccess">Başarıyla yayınlandı</string>
+    <string name="toastSharingError">Aktivite paylaşılırken hata gerçekleşti</string>
+    <string name="toastSharingPermissionsError">Gönderi hatası. Lütfen izinleri kontrol edin</string>
+    <string name="toastUpdatingSuccess">Başarıyla yükseltildi</string>
+    <string name="toastAutoThemeActivated">Otomatik görsel tema aktif</string>
+    <string name="toastCancelled">İptal edildi</string>
+    <string name="dialog_default_map_track_colors_title">Mevcut rota rengi yazısı</string>
+    <string name="dialog_bell_shake_sensitivity_title">Sarsıntı hassaslığı</string>
+    <string name="dialog_exit_msg">Uyarı: Kayıt aktif ve şimdi duracak.</string>
+    <string name="dialogProfileDeleteMessage">"Uyarı: Profil ayarları ve  tüm veriler kaldırılacak.  Kaydedilmiş rotalar silinmez.
+\n
+\nProfili sil\?"</string>
+    <string name="dialogProfileAddInfo">Yeni profil ayarları kullanımdaki profil ayarlarından kopyalanacak</string>
+    <string name="dialogTracksDeleteMessage">Uyarı: Bu eylem geri alınamaz. 
+\n
+\nSeçili rotaları silmek istediğinizden emin misiniz\?</string>
+    <string name="dialogTracksShareCountExceeded">Bir defada 100 rotadan fazlası paylaşılamaz.</string>
+    <string name="dialogGpsSettingsPromptTitle">Konum kapalı</string>
+    <string name="dialogGpsSettingsPromptMessage">Konum kapalıyken uygulamanın birçok özelliğini kullanamayacaksınız.
+\n
+\nLütfen Konum\'un açık olduğundan ve \'Yüksek doğruluk\' ayarında bulunduğundan emin olun.
+\n
+\nKonum Ayarları\'nı açmak istiyor musunuz\?</string>
+    <string name="dialogBaroAltitudePromptTitle">Barometrik yükseklik sorunu</string>
+    <string name="dialogBaroAltitudeNoticeTitle">Uyarı</string>
+    <string name="dialogThermoBarometerNoticeTitle">Uyarı</string>
+    <string name="dialogResetNoTrackMessage">"Herhangi bir rota kaydedilmedi.  Ölçümleri sıfırla\?"</string>
+    <string name="stravaTrackPrivacyInfo">Kayıt Strava\'da belirlediğiniz gizliliği kullanacak</string>
+    <string name="facebookConnectButton">Facebook ile bağlan</string>
+    <string name="tracksHistoryListTitleSelect">Seç</string>
+    <string name="tracksHistoryListEmpty">Burada kayıt yok. Dışarı çık ve bir rota kaydet.</string>
+    <string name="tracksHistoryListButtonUpload">Yükle</string>
+    <string name="summaryEfficiency">Verimlilik</string>
+    <string name="summaryRollResistCoef">Yuvarlanma direnci katsayısı.</string>
+    <string name="summaryBasalMetabolicRate">Bazal metabolizma hızı</string>
+    <string name="summaryLocationInterval">Konum aralığı</string>
+    <string name="summaryDeviceRestartsCount">Zorlu yeniden başlatma</string>
+    <string name="summaryStoppedTime">Duraklama süresi</string>
+    <string name="summaryHeartBeats">Nabız</string>
+    <string name="summaryCadenceStrokes">Pedallama sayısı</string>
+    <string name="summarySpecific">Özet</string>
+    <string name="summaryMechEnergy">Mekanik enerji</string>
+    <string name="sensorsTabUsed">Kullanılan</string>
+    <string name="sensorsTabFound">Bulunan</string>
+    <string name="sensorsSectionUsedInProfile">Profilde kullanılan</string>
+    <string name="sensorMenuAddToProfile">Profile ekle</string>
+    <string name="sensorMenuRemoveFromProfile">Profilden kaldır</string>
+    <string name="sensorMenuProperties">Özellikler</string>
+    <string name="sensorMenuEnable">Etkin</string>
+    <string name="sensorMenuDisable">Devre dışı</string>
+    <string name="sensorRemoveConfirmDialogMsg">Profilden kaldır\?</string>
+    <string name="sensorDeleteConfirmDialogMsg">Sensörü sil\?</string>
+    <string name="sensorAddedMsg">Sensör profile eklendi</string>
+    <string name="sensorRemovedMsg">Sensör profilden kaldırıldı</string>
+    <string name="sensorDeletedMsg">Sensör kaldırıldı</string>
+    <string name="sensorPurposeNone">(Kullanım amacı belirtilmemiş)</string>
+    <string name="sensorPurposeCadence">Kadans</string>
+    <string name="sensorPurposeDistance">Mesafe</string>
+    <string name="sensorPurposeDuration">Süre</string>
+    <string name="sensorPurposeHeartRate">Nabız</string>
+    <string name="sensorProperitesProfileInfo">"Sensör özellikleri her profil için ayrı işler.  Buradaki özellikler sadece belirtilen güncel profil için geçerlidir."</string>
+    <string name="sensorProperitesUseForSpeed">Hız için kullan</string>
+    <string name="sensorProperitesUseForCadence">Kadans için kullan</string>
+    <string name="sensorProperitesUseForDistance">Mesafe ve süre için kullan</string>
+    <string name="sensorProperitesUseForPower">Güç için kullan</string>
+    <string name="sensorProperitesUseForHeartRate">Nabız için kullan</string>
+    <string name="sensorProperitesIsInverted">Hız ve kadansı değiştir</string>
+    <string name="sensorProperitesIsInvertedInfo">Hız ile ilgili değerlendirmeler için kadans sensörü kullanın. Normalde devre dışıdır.</string>
+    <string name="sensorProperitesWheelPerimeter">Teker çevresi</string>
+    <string name="sensorProperitesIsAutoPerimeterInfo">"Sürüş sırasında  teker çevresini otomatik ölçer."</string>
+    <string name="sensorProperitesWheelPerimeterNotSet">Ayarlanmamış</string>
+    <string name="sensorProperitesStrideLen">Adım uzunluğu</string>
+    <string name="sensorProperitesIsAutoStrideLen">Otomatik</string>
+    <string name="sensorProperitesIsAutoStrideLenInfo">Sürüş esnasında adım uzunluğunu otomatik ölçer.</string>
+    <string name="sensorProperitesStrideLenNotSet">Ayarlanmamış</string>
+    <string name="sensorStatusConnected">Bağlandı</string>
+    <string name="sensorStatusConnecting">Bağlanıyor…</string>
+    <string name="sensorStatusDisconnected">Bağlantı başarısız</string>
+    <string name="pref_group_powermeter_title">Güç ve enerji</string>
+    <string name="pref_category_map_colors_title">Harita renkleri</string>
+    <string name="pref_category_visualThemeAuto">Otomatik tema</string>
+    <string name="pref_group_advanced_title">Gelişmiş…</string>
+    <string name="pref_category_roaringConstantMode_title">Sabit mod</string>
+    <string name="pref_maps_routes_draw_title">Rehber rotalar</string>
+    <string name="pref_maps_routes_files_title">Dosya/klasör seçin</string>
+    <string name="pref_maps_quickZoom_title">QuickZoom butonları</string>
+    <string name="pref_maps_offline_terrain_info_title">Şimdi indir</string>
+    <string name="openSourceLicensesTitle">Açık kaynak lisansları</string>
 </resources>
