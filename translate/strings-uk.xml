@@ -64,7 +64,7 @@
     <string name="featureNotAvailable">На жаль, ця функція не підтримується цим пристроєм</string>
     <string name="farFromHere">Далеко звідси</string>
     <string name="toastRestartRequired">Будь ласка, перезавантажте додаток, щоб зміни вступили в силу</string>
-    <string name="toastActiveProfile">Профіль: <xliff:g>%1$s</xliff:g>
+    <string name="toastActiveProfile">Профіль: %1$s
     </string>
     <string name="toastProfileSavingError">Помилка при збережені інформації ! Спробуйте ще раз.</string>
     <string name="toastProfileChangeError">Не вдалося змінити профіль! Спробуйте ще раз.</string>
@@ -80,11 +80,11 @@
     <string name="toastTrackingRecordingPassive">Пасивний запис</string>
     <string name="toastTrackingPaused">Призупинено</string>
     <string name="toastTrackingStopped">Зупинено</string>
-    <string name="toastFenceGuardFenceAdded">Приватна зона: <xliff:g>%1$s</xliff:g> додано</string>
+    <string name="toastFenceGuardFenceAdded">Приватна зона: %1$s додано</string>
     <string name="toastFenceGuardFenceAddingError">Приватна зона: Помилка додавання приватної зони</string>
-    <string name="toastFenceGuardFenceUpdated">Приватна зона: <xliff:g>%1$s</xliff:g> оновлено</string>
+    <string name="toastFenceGuardFenceUpdated">Приватна зона: %1$s оновлено</string>
     <string name="toastFenceGuardFenceUpdatingError">Приватна зона: Помилка під час зміни приватної зони</string>
-    <string name="toastFenceGuardFenceRemoved">Приватна зона: <xliff:g>%1$s</xliff:g> вилучено</string>
+    <string name="toastFenceGuardFenceRemoved">Приватна зона: %1$s вилучено</string>
     <string name="toastFenceGuardFenceRemovingError">Приватна зона: Помилка вилучення приватної зони</string>
     <string name="toastFenceGuardOutsideTheFence">Приватна зона: Ви зараз не у приватній зоні</string>
     <string name="toastFenceGuardLocationUnavailable">Приватна зона: Ваша місцезнаходження досі не доступне</string>
@@ -113,7 +113,7 @@
     <string name="toastSensorEnabled">Сенсор увімкнено</string>
     <string name="toastSensorDisabled">Сенсор вимкнено</string>
     <string name="toastAutoThemeActivated">Вибрано автоматичну тему</string>
-    <string name="notificationTitleAdvancedPaused">Призупинено: <xliff:g>%1$s</xliff:g>
+    <string name="notificationTitleAdvancedPaused">Призупинено: %1$s
     </string>
     <string name="licenseSuccessDialogMessage">Ліцензію успішно активовано. Дякуємо за підтримку!</string>
     <string name="ongoingNotificationChannelName">Поточні повідомлення</string>
@@ -138,55 +138,55 @@
     <string name="dialog_fenceguard_update_text2">Приватну зону активовано навколо вашої теперішньої позиції, щоб вона не потрапила у записані треки.</string>
     <string name="dialog_fenceguard_remove_title">Вилучити приватну зону</string>
     <string name="dialog_fenceguard_remove_defaultText">Ви дійсно хочете вилучити приватну зону\?</string>
-    <string name="dialog_fenceguard_remove_formatText">Ви дійсно хочете вилучити приватну зону <xliff:g>%1$s</xliff:g>\?</string>
-    <string name="dialog_track_save_text">Відстань <xliff:g>%1$.3f %2$s
-\n</xliff:g>Тривалість <xliff:g>%3$s
-\n</xliff:g>
-        <xliff:g>(%4$s)
+    <string name="dialog_fenceguard_remove_formatText">Ви дійсно хочете вилучити приватну зону %1$s\?</string>
+    <string name="dialog_track_save_text">Відстань %1$.3f %2$s
+\nТривалість %3$s
 \n
-\n</xliff:g>Трек щось короткуватий. Зберегти\?</string>
+        (%4$s)
+\n
+\nТрек щось короткуватий. Зберегти\?</string>
     <string name="dialog_exit_msg">Увага: запис треку увімкнутий, і зараз буде припинений</string>
     <string name="dialogProfileDeleteTitle">Вилучити профіль</string>
     <string name="dialogProfileDeleteMessage">Увага: Ця дія вилучить всі дані профілю та статистику. Збережені треки все ж буде збережено.
 \n
-\nДійсно вилучити профіль <xliff:g>%1$s</xliff:g>\?</string>
+\nДійсно вилучити профіль %1$s\?</string>
     <string name="dialogProfileAddTitle">Новий профіль</string>
     <string name="dialogProfileAddInfo">Налаштування нового профілю будуть скопійовані з активного на даний момент</string>
     <string name="dialogProfileEditTitle">Редагувати профіль</string>
     <string name="dialogProfileEditTotals">Підсумки:</string>
     <string name="dialogProfileTotalsResetMessage">Скинути режим підсумки на нуль\?</string>
     <string name="dialogProfileSwitchTitle">Перемкнути профіль</string>
-    <string name="dialogProfileSwitchMessage">Запис треку активний. Ви впевнені, що хочете переключитися у профіль <xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialogProfileSwitchMessage">Запис треку активний. Ви впевнені, що хочете переключитися у профіль %1$s\?</string>
     <string name="dialogTracksDeleteTitle">Вилучити треки</string>
     <string name="dialogTracksDeleteMessage">Увага: цю дію неможливо скасувати.
 \n
 \nВилучити вибрані треки\?</string>
     <string name="dialogTrackDeleteMessage">Увага: цю дію неможливо скасувати.
 \n
-\nВилучити трек <xliff:g>%1$s</xliff:g>\?</string>
+\nВилучити трек %1$s\?</string>
     <string name="dialogTrackResumeTitle">Продовжити трек</string>
     <string name="dialogTrackResumeGpsActiveMessage">Запис треку активний. Спочатку вимкніть або призупиніть запис GPS.</string>
-    <string name="dialogTrackResumeProfileNotBlankMessage">Профіль <xliff:g>%1$s</xliff:g> не порожній. Обнуліть його спочатку.</string>
-    <string name="dialogTrackResumeProfileSwitchMessage">Активний профіль буде переключено з <xliff:g>%1$s</xliff:g> на <xliff:g>%2$s</xliff:g>. Продовжити\?</string>
-    <string name="dialogTrackResumeProfileMissingMessage">Профіль <xliff:g>%1$s</xliff:g>, під яким було створено цей трек більше не існує. Продовжити в поточному профілі <xliff:g>%2$s</xliff:g>\?</string>
-    <string name="dialogTrackResumeGeneralPromptMessage">Трек буде відновлено у профілі <xliff:g>%1$s</xliff:g>. Продовжити\?</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">Профіль %1$s не порожній. Обнуліть його спочатку.</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">Активний профіль буде переключено з %1$s на %2$s. Продовжити\?</string>
+    <string name="dialogTrackResumeProfileMissingMessage">Профіль %1$s, під яким було створено цей трек більше не існує. Продовжити в поточному профілі %2$s\?</string>
+    <string name="dialogTrackResumeGeneralPromptMessage">Трек буде відновлено у профілі %1$s. Продовжити\?</string>
     <string name="dialogTrackResumeGeneralErrorMessage">Сталися невідомі помилки. Спробуйте ще раз.</string>
     <string name="dialogTrackResumeWaitMessage">Відновлюю, прошу зачекати...</string>
     <string name="dialogTracksShareTitle">Поділитися треками</string>
     <string name="dialogTracksShareGeneralErrorMessage">Сталася невідома помилка. Спробуйте ще раз.</string>
     <string name="dialogGpsSettingsPromptTitle">Визначення місцезнаходження вимкнуте</string>
     <string name="dialogBaroAltitudePromptTitle">Проблеми з барометричною висотою</string>
-    <string name="dialogBaroAltitudePromptMessage">Вимірювання барометричної висоти було примусово вимкнено через надто велике відхилення від показів GPS!<xliff:g>
+    <string name="dialogBaroAltitudePromptMessage">Вимірювання барометричної висоти було примусово вимкнено через надто велике відхилення від показів GPS!
 \n
-\n</xliff:g>Не використовуйте цей режим в закритих чи вентильованих приміщеннях!</string>
+\nНе використовуйте цей режим в закритих чи вентильованих приміщеннях!</string>
     <string name="dialogBaroAltitudeNoticeTitle">Повідомлення</string>
-    <string name="dialogBaroAltitudeNoticeMessage">Барометрична висота працює лише на вулиці.<xliff:g>
+    <string name="dialogBaroAltitudeNoticeMessage">Барометрична висота працює лише на вулиці.
 \n
-\n</xliff:g>Не використовуйте її в закритих або вентильованих приміщеннях а також в автомобілях та літаках.</string>
+\nНе використовуйте її в закритих або вентильованих приміщеннях а також в автомобілях та літаках.</string>
     <string name="dialogThermoBarometerNoticeTitle">Повідомлення</string>
-    <string name="dialogThermoBarometerNoticeMessage">Термо-барометр покладається на покази вуличної температури для підвищення точності.<xliff:g>
+    <string name="dialogThermoBarometerNoticeMessage">Термо-барометр покладається на покази вуличної температури для підвищення точності.
 \n
-\n</xliff:g>Не використовуйте його в закритих або вентильованих приміщеннях а також в автомобілях та літаках.</string>
+\nНе використовуйте його в закритих або вентильованих приміщеннях а також в автомобілях та літаках.</string>
     <string name="dialogResetMessage">Зберегти цей трек і підготуватися до нового\?</string>
     <string name="dialogResetNoTrackMessage">Трек записувався. Дійсно обнулити лічильники\?</string>
     <string name="dialogScreenHudMode">дзеркальний HUD режим</string>
@@ -232,14 +232,14 @@
     <string name="dialogLocationPermissionRequestTitle">Доступ до геоданих</string>
     <string name="dialogLocationPermissionRequest">Програма потребує доступу до геоданих щоб відслідковувати ваші переміщення.</string>
     <string name="dialogStoragePermissionRequestTitle">Доступ до сховища даних</string>
-    <string name="dialogStoragePermissionRequest">Програма потребує доступу до сховища даних щоб мати можливість зберігати і відновлювати ваші треки та налаштування.<xliff:g>
+    <string name="dialogStoragePermissionRequest">Програма потребує доступу до сховища даних щоб мати можливість зберігати і відновлювати ваші треки та налаштування.
 \n
-\n</xliff:g>Без цього дозволу ви не зможете бачити історію треків а також ділитися треками з іншими. Також ви можете втратити свої дані.</string>
+\nБез цього дозволу ви не зможете бачити історію треків а також ділитися треками з іншими. Також ви можете втратити свої дані.</string>
     <string name="dialogCameraPermissionRequestTitle">Доступ до камери</string>
     <string name="dialogCameraPermissionRequest">Цей доступ потрібен щоб програма могла вмикати ліхтарик.</string>
-    <string name="dialogPermissionProblemMessage">Право доступу до цього ресурсу необхідне для правильної роботи програми. Його можна надати на сторінці налаштувань доступів.<xliff:g>
+    <string name="dialogPermissionProblemMessage">Право доступу до цього ресурсу необхідне для правильної роботи програми. Його можна надати на сторінці налаштувань доступів.
 \n
-\n</xliff:g>Перейти туди\?</string>
+\nПерейти туди\?</string>
     <string name="mapLayerStreet">Вулиці</string>
     <string name="mapLayerTerrain">Рельєф</string>
     <string name="mapLayerSatellite">Супутник</string>
@@ -362,7 +362,7 @@
     <string name="profilesListTitle">Профілі</string>
     <string name="profilesListTitleSelectProfile">Перемкнути профіль</string>
     <string name="profilesListAddProfile">Новий профіль</string>
-    <string name="profilesListRowTotalsSince">Підсумок від: <xliff:g>%1$s</xliff:g>
+    <string name="profilesListRowTotalsSince">Підсумок від: %1$s
     </string>
     <string name="profilesListButtonResetTotals">Обнулити підсумки</string>
     <string name="profilesListProfileNotUsed">(не використ.)</string>
@@ -415,7 +415,7 @@
     <string name="sensorPurposeDuration">Тривалість</string>
     <string name="sensorPurposePower">Потужність</string>
     <string name="sensorPurposeHeartRate">Пульс</string>
-    <string name="sensorProperitesProfileInfo">Властивості сенсорів налаштовуються окремо для кожного профілю. Ці властивості налаштовуються для поточного активного профілю (<xliff:g id="profile_name">%1$s</xliff:g>).</string>
+    <string name="sensorProperitesProfileInfo">Властивості сенсорів налаштовуються окремо для кожного профілю. Ці властивості налаштовуються для поточного активного профілю (%1$s).</string>
     <string name="sensorProperitesUseForSpeed">Використовувати для швидкості</string>
     <string name="sensorProperitesUseForCadence">Використовувати для ритму</string>
     <string name="sensorProperitesUseForDistance">Використовувати для відстані та тривалості</string>
@@ -543,8 +543,8 @@
     <string name="pref_bell_shake_sensitivity_title">Чутливість до струшування</string>
     <string name="pref_roaring_type_title">Тип</string>
     <string name="pref_roaring_type_dialog_title">Тип крякалки</string>
-    <string name="pref_volume_summary_text">Дзвоник:<xliff:g> %1$s</xliff:g>, Крякалка:<xliff:g> %2$s
-\n</xliff:g>Підказки:<xliff:g> %3$s</xliff:g>, Ефекти:<xliff:g> %4$s</xliff:g>, Попередження:<xliff:g> %5$s</xliff:g>
+    <string name="pref_volume_summary_text">Дзвоник: %1$s, Крякалка: %2$s
+\nПідказки: %3$s, Ефекти: %4$s, Попередження: %5$s
     </string>
     <string name="pref_bg_color_title">Колір фону</string>
     <string name="pref_bg_color_summary">Виберіть колір для фону</string>
@@ -604,8 +604,8 @@
     <string name="pref_soundeffects_countdown_title">Зворотній відлік</string>
     <string name="pref_soundeffects_countdown_summary">Звук зворотнього відліку перед відновленням треку (... 3, 2, 1, GO!)</string>
     <string name="pref_soundeffects_tally_title">Увімкнути</string>
-    <string name="pref_soundeffects_tally_value_summary">Кожні <xliff:g>%1$s</xliff:g>
-        <xliff:g>%2$s</xliff:g>
+    <string name="pref_soundeffects_tally_value_summary">Кожні %1$s
+        %2$s
     </string>
     <string name="pref_soundeffects_tally_distance_title">Відстань</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">Підказка відстані</string>
@@ -632,7 +632,7 @@
     <string name="pref_maps_online_mode_dialog_title">Джерело карт</string>
     <string name="pref_maps_offline_file_title">Виберіть файл або теку</string>
     <string name="pref_maps_offline_file_dialog_title">Вибрати теку для зберігання карт локально</string>
-    <string name="pref_maps_offline_file_summary">(Всі профілі) <xliff:g>%1$s</xliff:g>
+    <string name="pref_maps_offline_file_summary">(Всі профілі) %1$s
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Теку не вибрано.</string>
     <string name="pref_maps_offline_info_title">Завантажити</string>
@@ -681,15 +681,15 @@
     <string name="pref_powermeter_parameters_info_title">Увага!</string>
     <string name="pref_powermeter_parameters_info_summary">Для точного розрахунку потужності та енергії переконайтеся, що ці параметри вказані правильно!</string>
     <string name="pref_power_weights_title">Ваги</string>
-    <string name="pref_power_weights_summary">Водій: <xliff:g>%1$s</xliff:g>, Транспорт: <xliff:g>%2$s</xliff:g>, Вантаж: <xliff:g>%3$s</xliff:g>, Пасажири: <xliff:g>%4$s</xliff:g>, Колеса: <xliff:g>%5$s</xliff:g>
+    <string name="pref_power_weights_summary">Водій: %1$s, Транспорт: %2$s, Вантаж: %3$s, Пасажири: %4$s, Колеса: %5$s
     </string>
     <string name="pref_power_coefs_title">Крефіцієнти</string>
-    <string name="pref_power_coefs_summary">Опір повітря: <xliff:g>%1$s
-\n</xliff:g>Опір коченню: <xliff:g>%2$s</xliff:g>
+    <string name="pref_power_coefs_summary">Опір повітря: %1$s
+\nОпір коченню: %2$s
     </string>
     <string name="pref_energy_params_title">Параметри енергії</string>
-    <string name="pref_energy_params_summary">Ефективність: <xliff:g>%1$s
-\n</xliff:g>Метаболізм: <xliff:g>%2$s</xliff:g>
+    <string name="pref_energy_params_summary">Ефективність: %1$s
+\nМетаболізм: %2$s
     </string>
     <string name="pref_svg_data_enable_title">Згенерувати графіки</string>
     <string name="pref_svg_data_enable_summary">Згенерувати SVG графіки і дані для різних параметрів їзди</string>
@@ -753,9 +753,9 @@
     <string name="infoMeterModePaceTitle">Темп</string>
     <string name="infoMeterModePaceMsg">Темп (зворотнє до швидкості) - поточний, максимальний та середній</string>
     <string name="infoMeterModeAccelerationTitle">Прискорення</string>
-    <string name="infoMeterModeAccelerationMsg">Ступінь зміни швидкості — Поточна, Максимальна та Мінімальна.<xliff:g>
+    <string name="infoMeterModeAccelerationMsg">Ступінь зміни швидкості — Поточна, Максимальна та Мінімальна.
 \n
-\n</xliff:g>Від\'ємні значення позначають сповільнення.</string>
+\nВід\'ємні значення позначають сповільнення.</string>
     <string name="infoMeterModePowerTitle">Потужність</string>
     <string name="infoMeterModeVerticalPowerTitle">Вертикальна потужність</string>
     <string name="infoMeterModeTemperatureTitle">Температура</string>

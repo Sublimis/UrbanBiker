@@ -67,7 +67,7 @@
     <string name="featureNotAvailable">この機能は、このデバイスでは無効です。</string>
     <string name="farFromHere">現在地から遠すぎ</string>
     <string name="toastRestartRequired">反映するには、アプリを再起動してください。</string>
-    <string name="toastActiveProfile">プロファイル : <xliff:g>%1$s</xliff:g>
+    <string name="toastActiveProfile">プロファイル : %1$s
     </string>
     <string name="toastProfileSavingError">プロファイル データの保存でエラー！　再試行してください。</string>
     <string name="toastProfileChangeError">プロファイルの切り替えができません！　再試行してください。</string>
@@ -82,11 +82,11 @@
     <string name="toastTrackingRecording">記録中</string>
     <string name="toastTrackingPaused">一時停止中</string>
     <string name="toastTrackingStopped">停止しました</string>
-    <string name="toastFenceGuardFenceAdded">フェンスガード: フェンス <xliff:g>%1$s</xliff:g> を追加しました</string>
+    <string name="toastFenceGuardFenceAdded">フェンスガード: フェンス %1$s を追加しました</string>
     <string name="toastFenceGuardFenceAddingError">フェンスガード: フェンスの追加に失敗しました</string>
-    <string name="toastFenceGuardFenceUpdated">フェンスガード: フェンス <xliff:g>%1$s</xliff:g> を更新しました</string>
+    <string name="toastFenceGuardFenceUpdated">フェンスガード: フェンス %1$s を更新しました</string>
     <string name="toastFenceGuardFenceUpdatingError">フェンスガード: フェンスの更新に失敗しました</string>
-    <string name="toastFenceGuardFenceRemoved">フェンスガード: フェンス <xliff:g>%1$s</xliff:g> を削除しました</string>
+    <string name="toastFenceGuardFenceRemoved">フェンスガード: フェンス %1$s を削除しました</string>
     <string name="toastFenceGuardFenceRemovingError">フェンスガード: フェンスの削除に失敗しました</string>
     <string name="toastFenceGuardOutsideTheFence">フェンスガード: 現在地はフェンス領域外です</string>
     <string name="toastFenceGuardLocationUnavailable">フェンスガード: 現在地が取得できません</string>
@@ -122,7 +122,7 @@
     <string name="toastSensorDisabled">センサー無効</string>
     <string name="toastAutoThemeActivated">自動テーマを有効にしました</string>
     <string name="toastCancelled">キャンセルしました</string>
-    <string name="notificationTitleAdvancedPaused">一時停止 : <xliff:g>%1$s</xliff:g>
+    <string name="notificationTitleAdvancedPaused">一時停止 : %1$s
     </string>
     <string name="licenseSuccessDialogMessage">アプリのライセンスを受けつけました。ご支援に感謝します！</string>
     <string name="ongoingNotificationChannelName">通知を継続</string>
@@ -146,63 +146,63 @@
     <string name="dialog_fenceguard_update_text2">「保護エリア」は、あなたの周りを保存済みのアクティビティーで公開されないようにします。</string>
     <string name="dialog_fenceguard_remove_title">保護エリアの削除</string>
     <string name="dialog_fenceguard_remove_defaultText">保護エリアを削除します。よろしいですか？</string>
-    <string name="dialog_fenceguard_remove_formatText">保護エリア、<xliff:g>%1$s</xliff:g> を削除します？</string>
-    <string name="dialog_track_save_text">距離 <xliff:g>%1$.3f %2$s
+    <string name="dialog_fenceguard_remove_formatText">保護エリア、%1$s を削除します？</string>
+    <string name="dialog_track_save_text">距離 %1$.3f %2$s
 \n
-\n</xliff:g>時間 <xliff:g>%3$s
+\n時間 %3$s
 \n
-\n</xliff:g>
-        <xliff:g>(%4$s)
 \n
-\n</xliff:g>このアクティビティーは短すぎます。保存しますか？</string>
+        (%4$s)
+\n
+\nこのアクティビティーは短すぎます。保存しますか？</string>
     <string name="dialog_exit_msg">注意 : 記録中ですが、停止します。</string>
     <string name="dialogProfileDeleteTitle">プロファイルの削除</string>
     <string name="dialogProfileDeleteMessage">注意 : この操作でプロファイルの設定と合算データが削除されます。個々の保存済みアクティビティーはそのまま手をつけません。
 \n
-\nプロファイル : <xliff:g>%1$s</xliff:g> を削除しますか？</string>
+\nプロファイル : %1$s を削除しますか？</string>
     <string name="dialogProfileAddTitle">新しいプロファイル</string>
     <string name="dialogProfileAddInfo">新しいプロファイルの設定は、現在使用中のプロファイルからコピーされたものです。</string>
     <string name="dialogProfileEditTitle">プロファイルの編集</string>
     <string name="dialogProfileEditTotals">合計 :</string>
     <string name="dialogProfileTotalsResetMessage">プロファイルの合計を 0 にリセットしますか？</string>
     <string name="dialogProfileSwitchTitle">プロファイル切り替え</string>
-    <string name="dialogProfileSwitchMessage">記録中です。プロファイルを <xliff:g>%1$s</xliff:g> に切り替えて、よろしいですか？</string>
+    <string name="dialogProfileSwitchMessage">記録中です。プロファイルを %1$s に切り替えて、よろしいですか？</string>
     <string name="dialogTracksDeleteTitle">アクティビティーの削除</string>
     <string name="dialogTracksDeleteMessage">注意 : この操作は取り消しできません。
 \n
 \n選択したアクティビティーを削除してよろしいですか？</string>
     <string name="dialogTrackDeleteMessage">注意 : この操作は取り消しできません。
 \n
-\nアクティビティー: <xliff:g>%1$s</xliff:g> を削除してよろしいですか？</string>
+\nアクティビティー: %1$s を削除してよろしいですか？</string>
     <string name="dialogTrackResumeTitle">アクティビティーの再開</string>
     <string name="dialogTrackResumeGpsActiveMessage">記録中です。先に GPS をオフにするか、一時停止してください。</string>
-    <string name="dialogTrackResumeProfileNotBlankMessage">対象のプロファイル : <xliff:g>%1$s</xliff:g> は空ではありません。まずリセットしてください。</string>
-    <string name="dialogTrackResumeProfileSwitchMessage">プロファイルを <xliff:g>%1$s</xliff:g> から <xliff:g>%2$s</xliff:g> に切り替えます。よろしいですか？</string>
-    <string name="dialogTrackResumeProfileMissingMessage">このアクティビティーを記録したプロファイル : <xliff:g>%1$s</xliff:g> は存在しません。現在のプロファイル : <xliff:g>%2$s</xliff:g>で再開しますか？</string>
-    <string name="dialogTrackResumeGeneralPromptMessage">アクティビティーをプロファイル : <xliff:g>%1$s</xliff:g>で再開します。よろしいですか？</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">対象のプロファイル : %1$s は空ではありません。まずリセットしてください。</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">プロファイルを %1$s から %2$s に切り替えます。よろしいですか？</string>
+    <string name="dialogTrackResumeProfileMissingMessage">このアクティビティーを記録したプロファイル : %1$s は存在しません。現在のプロファイル : %2$sで再開しますか？</string>
+    <string name="dialogTrackResumeGeneralPromptMessage">アクティビティーをプロファイル : %1$sで再開します。よろしいですか？</string>
     <string name="dialogTrackResumeGeneralErrorMessage">エラーが発生しました。再試行してください。</string>
     <string name="dialogTrackResumeWaitMessage">再開中、お待ちください…</string>
     <string name="dialogTracksShareTitle">アクティビティーの共有</string>
     <string name="dialogTracksShareGeneralErrorMessage">エラーが発生しました。再試行してください。</string>
     <string name="dialogTracksShareCountExceeded">一度に 100 件以上のアクティビティーを共有することはできません。</string>
     <string name="dialogGpsSettingsPromptTitle">位置情報オフ</string>
-    <string name="dialogGpsSettingsPromptMessage">位置情報なしでは、このアプリのほどんどの機能を使うことができません。<xliff:g>
+    <string name="dialogGpsSettingsPromptMessage">位置情報なしでは、このアプリのほどんどの機能を使うことができません。
 \n
-\n</xliff:g>位置情報が有効、また「高精度」モードに設定していることを確認してください。<xliff:g>
+\n位置情報が有効、また「高精度」モードに設定していることを確認してください。
 \n
-\n</xliff:g>位置情報の設定を開きますか？</string>
+\n位置情報の設定を開きますか？</string>
     <string name="dialogBaroAltitudePromptTitle">気圧高度の問題</string>
-    <string name="dialogBaroAltitudePromptMessage">GPSによる高度との食い違いが起きたため、気圧高度を強制的にオフにしました。<xliff:g>
+    <string name="dialogBaroAltitudePromptMessage">GPSによる高度との食い違いが起きたため、気圧高度を強制的にオフにしました。
 \n
-\n</xliff:g>屋内や空調が効いた空間では、使用しないでください！</string>
+\n屋内や空調が効いた空間では、使用しないでください！</string>
     <string name="dialogBaroAltitudeNoticeTitle">注意</string>
-    <string name="dialogBaroAltitudeNoticeMessage">気圧高度は屋外でのみ動作します。<xliff:g>
+    <string name="dialogBaroAltitudeNoticeMessage">気圧高度は屋外でのみ動作します。
 \n
-\n</xliff:g>屋内、乗り物や航空機など空調が効いた空間では、使用しないでください。</string>
+\n屋内、乗り物や航空機など空調が効いた空間では、使用しないでください。</string>
     <string name="dialogThermoBarometerNoticeTitle">注意</string>
-    <string name="dialogThermoBarometerNoticeMessage">乾湿計は屋外の気温に依存し、正確さに影響が出ます。<xliff:g>
+    <string name="dialogThermoBarometerNoticeMessage">乾湿計は屋外の気温に依存し、正確さに影響が出ます。
 \n
-\n</xliff:g> 屋内、または乗り物や航空機など空調が効いた空間では、使用しないでください。</string>
+\n 屋内、または乗り物や航空機など空調が効いた空間では、使用しないでください。</string>
     <string name="dialogResetTitle">ゴール</string>
     <string name="dialogResetMessage">このアクティビティーを保存し、次に備えますか？</string>
     <string name="dialogResetNoTrackMessage">アクティビティーは記録されていません。今すぐメーターをリセットしますか？</string>
@@ -271,9 +271,9 @@
     <string name="infoMeterModeSpeedMsg">速度 ー (中央)現在の速度 (左)最大速度 (右)平均速度</string>
     <string name="infoMeterModePaceMsg">ペース ー (中央)現在 (左)最速 (右)平均</string>
     <string name="infoMeterModeAccelerationTitle">加速度</string>
-    <string name="infoMeterModeAccelerationMsg">速度の変化率 — (中央)現在 (左)最大 (右)最小.<xliff:g>
+    <string name="infoMeterModeAccelerationMsg">速度の変化率 — (中央)現在 (左)最大 (右)最小.
 \n
-\n</xliff:g>減速時はマイナスになります</string>
+\n減速時はマイナスになります</string>
     <string name="infoMeterModeClockTitle">時計</string>
     <string name="infoMeterModeClockMsg">現在時刻 ー (中央)現在時刻 (左)距離 (右)移動時間</string>
     <!-- pref_units_distance_entries -->

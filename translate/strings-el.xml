@@ -68,7 +68,7 @@
     <string name="featureNotAvailable">Λυπούμαστε, η λειτουργία δεν είναι διαθέσιμη σε αυτή τη συσκευή</string>
     <string name="farFromHere">Μακριά από εδώ</string>
     <string name="toastRestartRequired">Παρακαλούμε επανεκκινήστε το πρόγραμμα για να εφαρμοστούν οι αλλαγές</string>
-    <string name="toastActiveProfile">Προφίλ: <xliff:g>%1$s</xliff:g>
+    <string name="toastActiveProfile">Προφίλ: %1$s
     </string>
     <string name="toastProfileSavingError">Σφάλμα κατά την αποθήκευση δεδομένων προφίλ! Παρακαλούμε προσπάθηστε ξανά.</string>
     <string name="toastProfileChangeError">Σφάλμα αλλαγής προφίλ! Παρακαλούμε προσπάθηστε ξανά.</string>
@@ -84,11 +84,11 @@
     <string name="toastTrackingRecordingPassive">Παθητική εγγραφή</string>
     <string name="toastTrackingPaused">Παύση</string>
     <string name="toastTrackingStopped">Τερματισμένο</string>
-    <string name="toastFenceGuardFenceAdded">Περίφραξη ιδιωτικότητας: Περίφραξη <xliff:g>%1$s</xliff:g> προστέθηκε</string>
+    <string name="toastFenceGuardFenceAdded">Περίφραξη ιδιωτικότητας: Περίφραξη %1$s προστέθηκε</string>
     <string name="toastFenceGuardFenceAddingError">Περίφραξη ιδιωτικότητας: Σφάλμα προσθήκης περίφραξης</string>
-    <string name="toastFenceGuardFenceUpdated">Περίφραξη ιδιωτικότητας: Περίφραξη <xliff:g>%1$s</xliff:g> ενημερώθηκε</string>
+    <string name="toastFenceGuardFenceUpdated">Περίφραξη ιδιωτικότητας: Περίφραξη %1$s ενημερώθηκε</string>
     <string name="toastFenceGuardFenceUpdatingError">Περίφραξη ιδιωτικότητας: Σφάλμα ενημέρωσης περίφραξης</string>
-    <string name="toastFenceGuardFenceRemoved">Περίφραξη ιδιωτικότητας: Περίφραξη <xliff:g>%1$s</xliff:g> αφαιρέθηκε</string>
+    <string name="toastFenceGuardFenceRemoved">Περίφραξη ιδιωτικότητας: Περίφραξη %1$s αφαιρέθηκε</string>
     <string name="toastFenceGuardFenceRemovingError">Περίφραξη ιδιωτικότητας: Σφάλμα αφαίρεσης περίφραξης</string>
     <string name="toastFenceGuardOutsideTheFence">Περίφραξη ιδιωτικότητας: Αυτήν τη στιγμή δεν είστε εντός της περίφραξης</string>
     <string name="toastFenceGuardLocationUnavailable">Περίφραξη ιδιωτικότητας: Η τοποθεσία σας εξακολουθεί να μην είναι διαθέσιμη</string>
@@ -124,7 +124,7 @@
     <string name="toastSensorDisabled">Αισθητήρας απενεργοποιήθηκε</string>
     <string name="toastAutoThemeActivated">Αυτόματο οπτικό θέμα είναι ενεργό</string>
     <string name="toastCancelled">Ακυρώθηκε</string>
-    <string name="notificationTitleAdvancedPaused">Παύση: <xliff:g>%1$s</xliff:g>
+    <string name="notificationTitleAdvancedPaused">Παύση: %1$s
     </string>
     <string name="licenseSuccessDialogMessage">Η εφαρμογή είχε λάβει άδεια με επιτυχία. Σας ευχαριστούμε για την υποστήριξή σας!</string>
     <string name="ongoingNotificationChannelName">Τρέχουσα ειδοποίηση</string>
@@ -149,36 +149,36 @@
     <string name="dialog_fenceguard_update_text2">Η περίφραξη ανήλθε γύρω από την θέση σας για την προστασία της ιδιωτικότητας σας, στις καταγεγραμένες διαδρομες.</string>
     <string name="dialog_fenceguard_remove_title">Κατάργηση περίφραξης</string>
     <string name="dialog_fenceguard_remove_defaultText">Είστε σίγουροι ότι θέλετε να αφαιρέσετε την περίφραξη;</string>
-    <string name="dialog_fenceguard_remove_formatText">Είστε σίγουροι ότι θέλετε να αφαιρέσετε την περίφραξη <xliff:g>%1$s</xliff:g>;</string>
-    <string name="dialog_track_save_text">Απόσταση<xliff:g>%1$.3f %2$s
-\n</xliff:g>Duration <xliff:g>%3$s
-\n</xliff:g>
-        <xliff:g>(%4$s)
+    <string name="dialog_fenceguard_remove_formatText">Είστε σίγουροι ότι θέλετε να αφαιρέσετε την περίφραξη %1$s;</string>
+    <string name="dialog_track_save_text">Απόσταση%1$.3f %2$s
+\nDuration %3$s
 \n
-\n</xliff:g>Η διαδρομή είναι πολύ μικρή. Αποθήκευση αυτής της διαδρομής;</string>
+        (%4$s)
+\n
+\nΗ διαδρομή είναι πολύ μικρή. Αποθήκευση αυτής της διαδρομής;</string>
     <string name="dialog_exit_msg">Προειδοποίηση: Ο εντοπισμός είναι ενεργός, και θα τερματιστεί.</string>
     <string name="dialogProfileDeleteTitle">Διαγραφή προφίλ</string>
     <string name="dialogProfileDeleteMessage">Προειδοποίηση: Θα αφαιρέθούν οι ρυθμίσεις προφίλ και τα συνολικά δεδομένα. Τα Αποθηκευμένα ίχνη θα μείνουν ανέπαφα.n
-\nΔιαγραφή προφίλ <xliff:g>%1$s</xliff:g>;</string>
+\nΔιαγραφή προφίλ %1$s;</string>
     <string name="dialogProfileAddTitle">Νέο προφίλ</string>
     <string name="dialogProfileAddInfo">Το νέο προφίλ θα αντιγράφει τις ρυθμίσεις του από το ενεργό προφίλ</string>
     <string name="dialogProfileEditTitle">Επεξεργασία προφίλ</string>
     <string name="dialogProfileEditTotals">Σύνολα:</string>
     <string name="dialogProfileTotalsResetMessage">Επαναφορά προφίλ στο μηδέν;</string>
     <string name="dialogProfileSwitchTitle">Εναλλαγή προφίλ</string>
-    <string name="dialogProfileSwitchMessage">Η καταγραφή είναι ενεργή. Θέλετε να μεταβείτε στο προφίλ<xliff:g>%1$s</xliff:g>;</string>
+    <string name="dialogProfileSwitchMessage">Η καταγραφή είναι ενεργή. Θέλετε να μεταβείτε στο προφίλ%1$s;</string>
     <string name="dialogTracksDeleteTitle">Διαγραφή διαδρομών</string>
     <string name="dialogTracksDeleteMessage">Προειδοποίηση:. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.
 \n
 \nΝα Διαγραφούν οι επιλεγμένες διαδρομές;</string>
     <string name="dialogTrackDeleteMessage">Προειδοποίηση:. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί n
-\nΝα Διαγραφούν οι επιλεγμένες διαδρομές;<xliff:g>%1$s</xliff:g>;</string>
+\nΝα Διαγραφούν οι επιλεγμένες διαδρομές;%1$s;</string>
     <string name="dialogTrackResumeTitle">Επανάληψη διαδρομής</string>
     <string name="dialogTrackResumeGpsActiveMessage">Η ιχνηλάτηση είναι ενεργή. Παρακαλούμε να απενεργοποιήσετε ή διακόψετε το GPS πρώτα.</string>
-    <string name="dialogTrackResumeProfileNotBlankMessage">Το επιλεγμένο προφίλ <xliff:g>%1$s</xliff:g> δεν είναι κενό. Παρακαλούμε επαναφέρετε πρώτα.</string>
-    <string name="dialogTrackResumeProfileSwitchMessage">Το ενεργό προφίλ θα αλλάξει από <xliff:g>%1$s</xliff:g> σε <xliff:g>%2$s</xliff:g>. Συνέχεια;</string>
-    <string name="dialogTrackResumeProfileMissingMessage">Το προφίλ <xliff:g>%1$s</xliff:g> το οποίο δημιουργήσε αυτήν την διαδρομή δεν υπάρχει πια. Συνέχιση στο τρέχον προφίλ <xliff:g>%2$s</xliff:g>;</string>
-    <string name="dialogTrackResumeGeneralPromptMessage">Η διαδρομή θα επανέλθει στο προφίλ <xliff:g>%1$s</xliff:g>. Συνέχεια;</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">Το επιλεγμένο προφίλ %1$s δεν είναι κενό. Παρακαλούμε επαναφέρετε πρώτα.</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">Το ενεργό προφίλ θα αλλάξει από %1$s σε %2$s. Συνέχεια;</string>
+    <string name="dialogTrackResumeProfileMissingMessage">Το προφίλ %1$s το οποίο δημιουργήσε αυτήν την διαδρομή δεν υπάρχει πια. Συνέχιση στο τρέχον προφίλ %2$s;</string>
+    <string name="dialogTrackResumeGeneralPromptMessage">Η διαδρομή θα επανέλθει στο προφίλ %1$s. Συνέχεια;</string>
     <string name="dialogTrackResumeGeneralErrorMessage">Παρουσιάστηκε κάποιο σφάλμα. Παρακαλούμε προσπαθήστε ξανά.</string>
     <string name="dialogTrackResumeWaitMessage">Επανέναρξη, παρακαλώ περιμένετε ...</string>
     <string name="dialogTracksShareTitle">Κοινοποίηση διαδρομών</string>
@@ -186,17 +186,17 @@
     <string name="dialogTracksShareCountExceeded">Δεν είναι δυνατή η κοινή χρήση περισσότερων από 100 διαδρομών ταυτόχρονα.</string>
     <string name="dialogGpsSettingsPromptTitle">Η τοποθεσία είναι απενεργοποιημένη</string>
     <string name="dialogBaroAltitudePromptTitle">Πρόβλημα Βαρομετρικού ύψομετρού</string>
-    <string name="dialogBaroAltitudePromptMessage">Το βαρομετρικό ύψος έχει απενεργοποιηθεί βίαια λόγω διαφοράς με το ύψος GPS!<xliff:g>
+    <string name="dialogBaroAltitudePromptMessage">Το βαρομετρικό ύψος έχει απενεργοποιηθεί βίαια λόγω διαφοράς με το ύψος GPS!
 \n
-\n</xliff:g>Μην το χρησιμοποιείτε σε κλειστούς ή κλιματιζόμενους χώρους!</string>
+\nΜην το χρησιμοποιείτε σε κλειστούς ή κλιματιζόμενους χώρους!</string>
     <string name="dialogBaroAltitudeNoticeTitle">Ειδοποίηση</string>
-    <string name="dialogBaroAltitudeNoticeMessage">Το βαρομετρικό ύψος λειτουργεί μόνο σε εξωτερικούς χώρους.<xliff:g>
+    <string name="dialogBaroAltitudeNoticeMessage">Το βαρομετρικό ύψος λειτουργεί μόνο σε εξωτερικούς χώρους.
 \n
-\n</xliff:g>Μην το χρησιμοποιείτε σε κλειστούς ή κλιματιζόμενους χώρους, όπως σε μερικά οχήματα και σε αεροπλάνα.</string>
+\nΜην το χρησιμοποιείτε σε κλειστούς ή κλιματιζόμενους χώρους, όπως σε μερικά οχήματα και σε αεροπλάνα.</string>
     <string name="dialogThermoBarometerNoticeTitle">Ειδοποίηση</string>
-    <string name="dialogThermoBarometerNoticeMessage">Το θερμικό βαρόμετρο εξαρτάται από την εξωτερική θερμοκρασία του αέρα για ακρίβεια.<xliff:g>
+    <string name="dialogThermoBarometerNoticeMessage">Το θερμικό βαρόμετρο εξαρτάται από την εξωτερική θερμοκρασία του αέρα για ακρίβεια.
 \n
-\n</xliff:g>Μην το χρησιμοποιείτε σε κλειστούς ή κλιματιζόμενους χώρους, όπως σε μερικά οχήματα και σε αεροπλάνα.</string>
+\nΜην το χρησιμοποιείτε σε κλειστούς ή κλιματιζόμενους χώρους, όπως σε μερικά οχήματα και σε αεροπλάνα.</string>
     <string name="dialogResetTitle">Τερματισμός</string>
     <string name="dialogResetMessage">Αποθήκευση αυτής της διαδρομής και προετοιμασία για νέα;</string>
     <string name="dialogResetNoTrackMessage">Δεν καταγράφηκε καμία διαδρομή. Επαναφορά των μετρητών τώρα;</string>
@@ -252,24 +252,24 @@
     <string name="dialogGpsIntervalTitle">Χρονικό διάστημα ενημέρωσης GPS</string>
     <string name="dialogGpsIntervalNote">Σημείωση: Διατηρήστε αυτήν την τιμή κάτω από 3 δευτερόλεπτα για να πάρετε τις πιο ακριβείς μετρήσεις και την πιο συνεπή συμπεριφορά!</string>
     <string name="dialogGpsIntervalLabelMore">
-        <xliff:g>◀
-\n</xliff:g>Μεγαλύτερη ακρίβεια, χρήση περισσότερης μπαταρίας</string>
+        ◀
+\nΜεγαλύτερη ακρίβεια, χρήση περισσότερης μπαταρίας</string>
     <string name="dialogGpsIntervalLabelLess">
-        <xliff:g>▶
-\n</xliff:g>Λιγότερη ακρίβεια, χρήση λιγότερης μπαταρίας</string>
+        ▶
+\nΛιγότερη ακρίβεια, χρήση λιγότερης μπαταρίας</string>
     <string name="dialogSliderLess">◀</string>
     <string name="dialogSliderMore">▶</string>
     <string name="dialogLocationPermissionRequestTitle">Άδεια τοποθεσίας</string>
     <string name="dialogLocationPermissionRequest">Η εφαρμογή πρέπει να έχει πρόσβαση στην τοποθεσία σας για να καταγράψει τις υπαίθριες δραστηριότητες σας.</string>
     <string name="dialogStoragePermissionRequestTitle">Άδεια αποθήκευσης</string>
-    <string name="dialogStoragePermissionRequest">Η εφαρμογή χρειάζεται να έχει πρόσβαση στο χώρο αποθήκευσης, ώστε να μπορεί να αποθηκεύσει ή να επαναφέρει τις διαδρομές και τις ρυθμίσεις σας.<xliff:g>
+    <string name="dialogStoragePermissionRequest">Η εφαρμογή χρειάζεται να έχει πρόσβαση στο χώρο αποθήκευσης, ώστε να μπορεί να αποθηκεύσει ή να επαναφέρει τις διαδρομές και τις ρυθμίσεις σας.
 \n
-\n</xliff:g>Χωρίς να δώσετε την άδεια, δεν θα μπορείτε να βλέπετε το ιστορικό των διαδρομών σας ή να μοιράζεστε διαδρομές και θα μπορούσατε να χάσετε τα δεδομένα σας.</string>
+\nΧωρίς να δώσετε την άδεια, δεν θα μπορείτε να βλέπετε το ιστορικό των διαδρομών σας ή να μοιράζεστε διαδρομές και θα μπορούσατε να χάσετε τα δεδομένα σας.</string>
     <string name="dialogCameraPermissionRequestTitle">Άδεια φωτογραφικής μηχανής</string>
     <string name="dialogCameraPermissionRequest">Χρειάζεται άδεια, ώστε η εφαρμογή να μπορεί να ενεργοποιήσει το φακό.</string>
-    <string name="dialogPermissionProblemMessage">Αυτή η άδεια είναι απαραίτητη για την σωστή λειτουργία της εφαρμογής. Μπορεί να χορηγηθεί στη σελίδα Ρυθμίσεις δικαιωμάτων εφαρμογής..<xliff:g>
+    <string name="dialogPermissionProblemMessage">Αυτή η άδεια είναι απαραίτητη για την σωστή λειτουργία της εφαρμογής. Μπορεί να χορηγηθεί στη σελίδα Ρυθμίσεις δικαιωμάτων εφαρμογής..
 \n
-\n</xliff:g>Θέλετε να μεταβείτε τώρα;</string>
+\nΘέλετε να μεταβείτε τώρα;</string>
     <string name="mapLayerStreet">Οδός</string>
     <string name="mapLayerTerrain">Έδαφος</string>
     <string name="mapLayerSatellite">Δορυφόρος</string>
@@ -396,21 +396,21 @@
     <string name="profilesListTitle">Προφίλ</string>
     <string name="profilesListTitleSelectProfile">Εναλλαγή Προφίλ</string>
     <string name="profilesListAddProfile">Νέο προφίλ</string>
-    <string name="profilesListRowTotalsSince">Συνολικά από:<xliff:g>%1$s</xliff:g>
+    <string name="profilesListRowTotalsSince">Συνολικά από:%1$s
     </string>
     <string name="profilesListButtonResetTotals">Επαναφορά συνόλων</string>
     <string name="profilesListProfileNotUsed">(αχρησιμοποίητο)</string>
     <string name="profilesListLoading">Φόρτωση...</string>
     <string name="cloudAccountsTitle">Λογαριασμοί</string>
-    <string name="cloudAccountsInfo">Η σύνδεση με μια υπηρεσία cloud διευκολύνει τη μεταφόρτωση και κοινή χρήση των κομματιών σας με άλλους.<xliff:g>
+    <string name="cloudAccountsInfo">Η σύνδεση με μια υπηρεσία cloud διευκολύνει τη μεταφόρτωση και κοινή χρήση των κομματιών σας με άλλους.
 \n
-\n</xliff:g>Δεν θα δημοσιεύσουμε ποτέ τίποτα χωρίς την άδειά σας.</string>
+\nΔεν θα δημοσιεύσουμε ποτέ τίποτα χωρίς την άδειά σας.</string>
     <string name="accountDisconnect">Αποσυνδέση</string>
-    <string name="googleFitConnectButton">Σύνδεση με <xliff:g>Google Fit</xliff:g>
+    <string name="googleFitConnectButton">Σύνδεση με Google Fit
     </string>
-    <string name="stravaTrackPrivacyInfo">Η διαδρομή θα λάβει τις προκαθορισμένες ρυθμίσεις απορρήτου που ενεργοποιήσατε στο <xliff:g>Strava</xliff:g>
+    <string name="stravaTrackPrivacyInfo">Η διαδρομή θα λάβει τις προκαθορισμένες ρυθμίσεις απορρήτου που ενεργοποιήσατε στο Strava
     </string>
-    <string name="facebookConnectButton">Συνδεθείτε με το <xliff:g>Facebook</xliff:g>
+    <string name="facebookConnectButton">Συνδεθείτε με το Facebook
     </string>
     <string name="tracksHistoryListTitle">Ιστορικό διαδρομών</string>
     <string name="tracksHistoryListTitleSelect">Επιλογή</string>
@@ -466,7 +466,7 @@
     <string name="sensorPurposeDuration">Διάρκεια</string>
     <string name="sensorPurposePower">Ισχύς</string>
     <string name="sensorPurposeHeartRate">Καρδιακός ρυθμός</string>
-    <string name="sensorProperitesProfileInfo">Οι ιδιότητες των αισθητήρων διαχειρίζονται ανά προφίλ. Οι ιδιότητες εδώ διαχειρίζονται μόνο το τρέχον ενεργό προφίλ (<xliff:g id="profile_name">%1$s</xliff:g>).</string>
+    <string name="sensorProperitesProfileInfo">Οι ιδιότητες των αισθητήρων διαχειρίζονται ανά προφίλ. Οι ιδιότητες εδώ διαχειρίζονται μόνο το τρέχον ενεργό προφίλ (%1$s).</string>
     <string name="sensorProperitesUseForSpeed">Χρησιμοποιήστε για ταχύτητα</string>
     <string name="sensorProperitesUseForCadence">Χρησιμοποιήστε για ρυθμό</string>
     <string name="sensorProperitesUseForDistance">Χρήση για απόσταση και διάρκεια</string>
@@ -595,8 +595,8 @@
     <string name="pref_bell_shake_sensitivity_title">Ευαισθησία ανακίνησης</string>
     <string name="pref_roaring_type_title">Τύπος</string>
     <string name="pref_roaring_type_dialog_title">Τύπος βουητού</string>
-    <string name="pref_volume_summary_text">Κουδούνι:<xliff:g> %1$s</xliff:g>, Βουητό:<xliff:g> %2$s
-\n</xliff:g>Ορόσημα:<xliff:g> %3$s</xliff:g>, Εφέ:<xliff:g> %4$s</xliff:g>, Ειδοποιήσεις:<xliff:g> %5$s</xliff:g>
+    <string name="pref_volume_summary_text">Κουδούνι: %1$s, Βουητό: %2$s
+\nΟρόσημα: %3$s, Εφέ: %4$s, Ειδοποιήσεις: %5$s
     </string>
     <string name="pref_bg_color_title">Χρώμα παρασκηνίου</string>
     <string name="pref_bg_color_summary">Επιλογή επιθυμητού χρώματος για παρασκήνιο εφαρμογής</string>
@@ -657,8 +657,8 @@
     <string name="pref_soundeffects_countdown_title">Αντίστροφη μέτρηση</string>
     <string name="pref_soundeffects_countdown_summary">Ήχος για αντίστροφη μέτρηση πριν από την επανέναρξη της διαδρομής (... 3, 2, 1, GO!)</string>
     <string name="pref_soundeffects_tally_title">Ενεργοποίηση</string>
-    <string name="pref_soundeffects_tally_value_summary">Κάθε <xliff:g>%1$s</xliff:g>
-        <xliff:g>%2$s</xliff:g>
+    <string name="pref_soundeffects_tally_value_summary">Κάθε %1$s
+        %2$s
     </string>
     <string name="pref_soundeffects_tally_distance_title">Απόσταση</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">Ορόσημο απόστασης</string>
@@ -685,7 +685,7 @@
     <string name="pref_maps_online_mode_dialog_title">Πηγή χαρτών</string>
     <string name="pref_maps_offline_file_title">Επιλέξτε αρχείο ή φάκελο</string>
     <string name="pref_maps_offline_file_dialog_title">Επιλέξτε φάκελο για χάρτες εκτός σύνδεσης</string>
-    <string name="pref_maps_offline_file_summary">(Όλα τα προφίλ) <xliff:g>%1$s</xliff:g>
+    <string name="pref_maps_offline_file_summary">(Όλα τα προφίλ) %1$s
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Δεν επιλέχθηκε φάκελος</string>
     <string name="pref_maps_offline_info_title">Λήψη τώρα</string>
@@ -734,15 +734,15 @@
     <string name="pref_powermeter_parameters_info_title">Σημείωση!</string>
     <string name="pref_powermeter_parameters_info_summary">Για ακριβείς μετρήσεις ενέργειας και ενέργειας, βεβαιωθείτε ότι αυτές οι παράμετροι είναι σωστές!</string>
     <string name="pref_power_weights_title">Σταθμά</string>
-    <string name="pref_power_weights_summary">Οδηγός: <xliff:g>%1$s</xliff:g>, Όχημα: <xliff:g>%2$s</xliff:g>, Φορτίο: <xliff:g>%3$s</xliff:g>, Επιβάτες: <xliff:g>%4$s</xliff:g>, Τροχοί: <xliff:g>%5$s</xliff:g>
+    <string name="pref_power_weights_summary">Οδηγός: %1$s, Όχημα: %2$s, Φορτίο: %3$s, Επιβάτες: %4$s, Τροχοί: %5$s
     </string>
     <string name="pref_power_coefs_title">Συντελεστές</string>
-    <string name="pref_power_coefs_summary">Επιφάνεια οπισθέλκουσας: <xliff:g>%1$s
-\n</xliff:g>Αντίσταση κύλισης: <xliff:g>%2$s</xliff:g>
+    <string name="pref_power_coefs_summary">Επιφάνεια οπισθέλκουσας: %1$s
+\nΑντίσταση κύλισης: %2$s
     </string>
     <string name="pref_energy_params_title">Παράμετροι Ενέργειας</string>
-    <string name="pref_energy_params_summary">Αποδοτικότητα: <xliff:g>%1$s
-\n</xliff:g>Μεταβολισμός: <xliff:g>%2$s</xliff:g>
+    <string name="pref_energy_params_summary">Αποδοτικότητα: %1$s
+\nΜεταβολισμός: %2$s
     </string>
     <string name="pref_svg_data_enable_title">Δημιουργία γραφημάτων</string>
     <string name="pref_svg_data_enable_summary">Δημιουργήστε αρχεία γραφημάτων SVG για διάφορες παραμέτρους διαδρομής</string>
@@ -806,14 +806,14 @@
     <string name="infoMeterModePaceTitle">Ρυθμός</string>
     <string name="infoMeterModePaceMsg">Αντίστροφη ταχύτητα - Τρέχουσα, Μέγιστη και Μέση.</string>
     <string name="infoMeterModeAccelerationTitle">Επιτάχυνση</string>
-    <string name="infoMeterModeAccelerationMsg">Ρυθμός μεταβολής της ταχύτητας - Τρέχουσα, μέγιστη και ελάχιστη.<xliff:g>
+    <string name="infoMeterModeAccelerationMsg">Ρυθμός μεταβολής της ταχύτητας - Τρέχουσα, μέγιστη και ελάχιστη.
 \n
-\n</xliff:g>Αρνητική σημαίνει επιβράδυνση.</string>
+\nΑρνητική σημαίνει επιβράδυνση.</string>
     <string name="infoMeterModePowerTitle">Ισχύς</string>
     <string name="infoMeterModeAvgActivePowerTitle">Μέση ενεργή ισχύς</string>
-    <string name="infoMeterModeAvgActivePowerMsg">Μέση ισχύς που ασκήθηκε κατά τη διάρκεια της δραστηριότητας, χωρίς να υπολογίζονται χρονικά διαστήματα όπου η ισχύς απουσίαζε ή ήταν πραγματικά μικρή (κατηφόρα, φρενάρισμα, ρολάρισμα).<xliff:g>
+    <string name="infoMeterModeAvgActivePowerMsg">Μέση ισχύς που ασκήθηκε κατά τη διάρκεια της δραστηριότητας, χωρίς να υπολογίζονται χρονικά διαστήματα όπου η ισχύς απουσίαζε ή ήταν πραγματικά μικρή (κατηφόρα, φρενάρισμα, ρολάρισμα).
 \n
-\n</xliff:g>FTP (λειτουργική ισχύς κατωφλίου).</string>
+\nFTP (λειτουργική ισχύς κατωφλίου).</string>
     <string name="infoMeterModeVerticalPowerTitle">Κάθετη Ισχύς</string>
     <string name="infoMeterModeTemperatureTitle">Θερμοκρασία</string>
     <string name="infoMeterModePressureTitle">Πίεση</string>
@@ -973,7 +973,7 @@
     <string name="prefUnitsPowerEntries_2">[Χιλιοθερμίδες/ώρα]</string>
     <string name="prefUnitsPowerEntries_3">[κιλοτζάουλ/ώρα]</string>
     <!-- prefUnitsSlopeEntries -->
-    <string name="prefUnitsSlopeEntries_0">Τοις εκατό [<xliff:g id="fullwidthPercentSign">\uff05</xliff:g>]</string>
+    <string name="prefUnitsSlopeEntries_0">Τοις εκατό [\uff05]</string>
     <string name="prefUnitsSlopeEntries_1">Μοίρες [°]</string>
     <string name="prefUnitsSlopeEntries_2">Τοις χιλίοις [‰]</string>
     <!-- pref_hud_axis_entries -->

@@ -68,7 +68,7 @@
     <string name="featureNotAvailable">Disculpeu, aquesta funcionalitat no està disponible en aquest dispositiu</string>
     <string name="farFromHere">Lluny d\'aquí</string>
     <string name="toastRestartRequired">Si us plau, inicieu de nou l\'app per a activar-ho</string>
-    <string name="toastActiveProfile">Perfil: <xliff:g>%1$s</xliff:g>
+    <string name="toastActiveProfile">Perfil: %1$s
     </string>
     <string name="toastProfileSavingError">Error desant dades del perfil! Si us plau, proveu de nou.</string>
     <string name="toastProfileChangeError">No es pot canviar el perfil! Si us plau, proveu de nou.</string>
@@ -84,11 +84,11 @@
     <string name="toastTrackingRecordingPassive">Enregistrament passiu</string>
     <string name="toastTrackingPaused">Pausat</string>
     <string name="toastTrackingStopped">Aturat</string>
-    <string name="toastFenceGuardFenceAdded">Àrea Privada: Àrea <xliff:g>%1$s</xliff:g> afegida</string>
+    <string name="toastFenceGuardFenceAdded">Àrea Privada: Àrea %1$s afegida</string>
     <string name="toastFenceGuardFenceAddingError">Àrea Privada: Error afegint l\'àrea</string>
-    <string name="toastFenceGuardFenceUpdated">Àrea Privada: Àrea <xliff:g>%1$s</xliff:g> actualitzada</string>
+    <string name="toastFenceGuardFenceUpdated">Àrea Privada: Àrea %1$s actualitzada</string>
     <string name="toastFenceGuardFenceUpdatingError">Àrea Privada: Error actualitzant l\'àrea</string>
-    <string name="toastFenceGuardFenceRemoved">Àrea Privada: Àrea <xliff:g>%1$s</xliff:g> eliminada</string>
+    <string name="toastFenceGuardFenceRemoved">Àrea Privada: Àrea %1$s eliminada</string>
     <string name="toastFenceGuardFenceRemovingError">Àrea Privada: Error eliminant l\'àrea</string>
     <string name="toastFenceGuardOutsideTheFence">Àrea Privada: Ara mateix no esteu dins l\'àrea</string>
     <string name="toastFenceGuardLocationUnavailable">Àrea Privada: La vostra ubicació no està disponible</string>
@@ -124,7 +124,7 @@
     <string name="toastSensorDisabled">Sensor deshabilitat</string>
     <string name="toastAutoThemeActivated">Tema visual automàtic activat</string>
     <string name="toastCancelled">Cancel·lat</string>
-    <string name="notificationTitleAdvancedPaused">Pausat: <xliff:g>%1$s</xliff:g>
+    <string name="notificationTitleAdvancedPaused">Pausat: %1$s
     </string>
     <string name="licenseSuccessDialogMessage">S\'ha obtingut la llicència de l\'aplicació correctament. Gràcies pel teu suport!</string>
     <string name="ongoingNotificationChannelName">Notificació permanent</string>
@@ -149,36 +149,36 @@
     <string name="dialog_fenceguard_update_text2">Àrea privada creada al voltant de la vostra ubicació actual per a protegir-la als trajectes enregistrats.</string>
     <string name="dialog_fenceguard_remove_title">Elimina àrea</string>
     <string name="dialog_fenceguard_remove_defaultText">Esteu segur que voleu eliminar l\'àrea\?</string>
-    <string name="dialog_fenceguard_remove_formatText">Esteu segur que voleu eliminar l\'àrea <xliff:g>%1$s</xliff:g>\?</string>
-    <string name="dialog_track_save_text">Distància <xliff:g>%1$.3f %2$s
-\n</xliff:g>Durada <xliff:g>%3$s
-\n</xliff:g>
-        <xliff:g>(%4$s)
+    <string name="dialog_fenceguard_remove_formatText">Esteu segur que voleu eliminar l\'àrea %1$s\?</string>
+    <string name="dialog_track_save_text">Distància %1$.3f %2$s
+\nDurada %3$s
 \n
-\n</xliff:g>El recorregut sembla massa curt. Vols desar aquest recorregut\?</string>
+        (%4$s)
+\n
+\nEl recorregut sembla massa curt. Vols desar aquest recorregut\?</string>
     <string name="dialog_exit_msg">Atenció: L\'enregistrament del recorregut està actiu, i serà aturat.</string>
     <string name="dialogProfileDeleteTitle">Elimina perfil</string>
-    <string name="dialogProfileDeleteMessage">Atenció: Això eliminarà els ajustaments del perfil i les dades totals. Els trajecte desats romandran intactes. Eliminar perfil <xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialogProfileDeleteMessage">Atenció: Això eliminarà els ajustaments del perfil i les dades totals. Els trajecte desats romandran intactes. Eliminar perfil %1$s\?</string>
     <string name="dialogProfileAddTitle">Nou perfil</string>
     <string name="dialogProfileAddInfo">El nou perfil tindrà els paràmetres copiats del perfil actiu actual</string>
     <string name="dialogProfileEditTitle">Edita perfil</string>
     <string name="dialogProfileEditTotals">Totals:</string>
     <string name="dialogProfileTotalsResetMessage">Restableix els totals a zero\?</string>
     <string name="dialogProfileSwitchTitle">Commuta el perfil</string>
-    <string name="dialogProfileSwitchMessage">El trajecte està actiu. Esteu segur que voleu commutar al perfil <xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialogProfileSwitchMessage">El trajecte està actiu. Esteu segur que voleu commutar al perfil %1$s\?</string>
     <string name="dialogTracksDeleteTitle">Elimina trajectes</string>
     <string name="dialogTracksDeleteMessage">Atenció: Aquesta acció no es pot desfer.
 \n
 \nVols esborrar els recorreguts seleccionats\?</string>
     <string name="dialogTrackDeleteMessage">Atenció: Aquesta acció no es pot revertir.
 \n
-\nVoleu eliminar el trajecte <xliff:g>%1$s</xliff:g>\?</string>
+\nVoleu eliminar el trajecte %1$s\?</string>
     <string name="dialogTrackResumeTitle">Continua el trajecte</string>
     <string name="dialogTrackResumeGpsActiveMessage">El trajecte està actiu. Si us plau, apagueu o pauseu el GPS primer</string>
-    <string name="dialogTrackResumeProfileNotBlankMessage">El perfil de destí <xliff:g>%1$s</xliff:g> no està buit. Si us plau, restabliu primer.</string>
-    <string name="dialogTrackResumeProfileSwitchMessage">El perfil actiu serà commutat de <xliff:g>%1$s</xliff:g> a <xliff:g>%2$s</xliff:g>. Voleu continuar\?</string>
-    <string name="dialogTrackResumeProfileMissingMessage">El perfil <xliff:g>%1$s</xliff:g> amb el que es va crear aquest trajecte ja no existeix. Voleu continuar-lo amb el perfil <xliff:g>%2$s</xliff:g> actual\?</string>
-    <string name="dialogTrackResumeGeneralPromptMessage">El trajecte continuarà amb el perfil <xliff:g>%1$s</xliff:g>. Voleu continuar\?</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">El perfil de destí %1$s no està buit. Si us plau, restabliu primer.</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">El perfil actiu serà commutat de %1$s a %2$s. Voleu continuar\?</string>
+    <string name="dialogTrackResumeProfileMissingMessage">El perfil %1$s amb el que es va crear aquest trajecte ja no existeix. Voleu continuar-lo amb el perfil %2$s actual\?</string>
+    <string name="dialogTrackResumeGeneralPromptMessage">El trajecte continuarà amb el perfil %1$s. Voleu continuar\?</string>
     <string name="dialogTrackResumeGeneralErrorMessage">S\'ha produït un error. Si us plau, proveu de nou.</string>
     <string name="dialogTrackResumeWaitMessage">Continuat, si us plau, espereu...</string>
     <string name="dialogTracksShareTitle">Comparteix trajectes</string>
@@ -186,17 +186,17 @@
     <string name="dialogTracksShareCountExceeded">No és poden compartir més de 100 rutes alhora</string>
     <string name="dialogGpsSettingsPromptTitle">La localització ha estat apagada</string>
     <string name="dialogBaroAltitudePromptTitle">Problema amb l\'alçada baromètrica</string>
-    <string name="dialogBaroAltitudePromptMessage">L\'Alçada Baromètrica ha estat aturada forçadament per discrepàncies amb l\'alçada del GPS!<xliff:g>
+    <string name="dialogBaroAltitudePromptMessage">L\'Alçada Baromètrica ha estat aturada forçadament per discrepàncies amb l\'alçada del GPS!
 \n
-\n</xliff:g>Si us plau, no la facis servir en espais tancats o amb aire condicionat!</string>
+\nSi us plau, no la facis servir en espais tancats o amb aire condicionat!</string>
     <string name="dialogBaroAltitudeNoticeTitle">Avís</string>
-    <string name="dialogBaroAltitudeNoticeMessage">L\'Alçada Baromètrica només funciona en espais exteriors.<xliff:g>
+    <string name="dialogBaroAltitudeNoticeMessage">L\'Alçada Baromètrica només funciona en espais exteriors.
 \n
-\n</xliff:g>Si us plau, no la facis servir en espais tancats o amb aire condicionat, com ara alguns vehicles o aeronaus.</string>
+\nSi us plau, no la facis servir en espais tancats o amb aire condicionat, com ara alguns vehicles o aeronaus.</string>
     <string name="dialogThermoBarometerNoticeTitle">Avís</string>
-    <string name="dialogThermoBarometerNoticeMessage">La precisió del Baròmetre Tèrmic depèn de la temperatura ambient exterior.<xliff:g>
+    <string name="dialogThermoBarometerNoticeMessage">La precisió del Baròmetre Tèrmic depèn de la temperatura ambient exterior.
 \n
-\n</xliff:g>Si us plau, no el feu servir en espais tancats o amb aire condicionat, com ara alguns vehicles o aeronaus.</string>
+\nSi us plau, no el feu servir en espais tancats o amb aire condicionat, com ara alguns vehicles o aeronaus.</string>
     <string name="dialogResetTitle">Finalitza</string>
     <string name="dialogResetMessage">Vols desar aquest recorregut i preparar-ne un de nou\?</string>
     <string name="dialogResetNoTrackMessage">No s\'ha enregistrat cap recorregut. Vols restablir ara els comptadors\?</string>
@@ -252,24 +252,24 @@
     <string name="dialogGpsIntervalTitle">Interval d\'actualització del GPS</string>
     <string name="dialogGpsIntervalNote">Nota: Mantingues aquest valor per sota de 3 segons per a obtenir lectures més acurades i un comportament més consistent!</string>
     <string name="dialogGpsIntervalLabelMore">
-        <xliff:g>◀
-\n</xliff:g>Més acurat, fa servir més bateria</string>
+        ◀
+\nMés acurat, fa servir més bateria</string>
     <string name="dialogGpsIntervalLabelLess">
-        <xliff:g>▶
-\n</xliff:g>Més acurat, fa servir més bateria</string>
+        ▶
+\nMés acurat, fa servir més bateria</string>
     <string name="dialogSliderLess">◀</string>
     <string name="dialogSliderMore">▶</string>
     <string name="dialogLocationPermissionRequestTitle">Permís d\'ubicació</string>
     <string name="dialogLocationPermissionRequest">L\'app necessita accedir a la teva ubicació per entegistrar la teva activitat</string>
     <string name="dialogStoragePermissionRequestTitle">Permís d\'emagatzematge</string>
-    <string name="dialogStoragePermissionRequest">L\'app necessita accedir a l\'emmagatzematge per a poder desar i recuperar les vostres rutes i configuracions. <xliff:g>
+    <string name="dialogStoragePermissionRequest">L\'app necessita accedir a l\'emmagatzematge per a poder desar i recuperar les vostres rutes i configuracions.
 \n
-\n</xliff:g>. Sense donar aquests permisos no podreu veure l\'historial de rutes ni compartir-les i podries perdre les teves dades.</string>
+\n. Sense donar aquests permisos no podreu veure l\'historial de rutes ni compartir-les i podries perdre les teves dades.</string>
     <string name="dialogCameraPermissionRequestTitle">Permis de càmera</string>
     <string name="dialogCameraPermissionRequest">El permís és necessari per a poder activar el flaix</string>
-    <string name="dialogPermissionProblemMessage">Aquest permís es necessita per part de l\'aplicació per a funcionar correctament. Aquest pot ser concedit des de la pàgina de permisos d\'Aplicacions.<xliff:g>
+    <string name="dialogPermissionProblemMessage">Aquest permís es necessita per part de l\'aplicació per a funcionar correctament. Aquest pot ser concedit des de la pàgina de permisos d\'Aplicacions.
 \n
-\n</xliff:g>Vols anar-hi ara\?</string>
+\nVols anar-hi ara\?</string>
     <string name="mapLayerStreet">Mapa</string>
     <string name="mapLayerTerrain">Terreny</string>
     <string name="mapLayerSatellite">Satel·lit</string>
@@ -396,21 +396,21 @@
     <string name="profilesListTitle">Perfils</string>
     <string name="profilesListTitleSelectProfile">Commuta el perfil</string>
     <string name="profilesListAddProfile">Nou perfil</string>
-    <string name="profilesListRowTotalsSince">Totals des de: <xliff:g>%1$s</xliff:g>
+    <string name="profilesListRowTotalsSince">Totals des de: %1$s
     </string>
     <string name="profilesListButtonResetTotals">Restableix totals</string>
     <string name="profilesListProfileNotUsed">(no emprat)</string>
     <string name="profilesListLoading">Carregant...</string>
     <string name="cloudAccountsTitle">Comptes</string>
-    <string name="cloudAccountsInfo">Connectar a un servei al núvol et fa més fàcil pujar i compartir les teves rutes amb altres.<xliff:g>
+    <string name="cloudAccountsInfo">Connectar a un servei al núvol et fa més fàcil pujar i compartir les teves rutes amb altres.
 \n
-\n</xliff:g>Mai no publicarem res...</string>
+\nMai no publicarem res...</string>
     <string name="accountDisconnect">Desconnecta</string>
-    <string name="googleFitConnectButton">Connecta amb <xliff:g>Google Fit</xliff:g>
+    <string name="googleFitConnectButton">Connecta amb Google Fit
     </string>
-    <string name="stravaTrackPrivacyInfo">La pista heretarà la privacitat predeterminada establerta a <xliff:g>Strava</xliff:g>
+    <string name="stravaTrackPrivacyInfo">La pista heretarà la privacitat predeterminada establerta a Strava
     </string>
-    <string name="facebookConnectButton">Connectar amb <xliff:g>Facebook</xliff:g>
+    <string name="facebookConnectButton">Connectar amb Facebook
     </string>
     <string name="tracksHistoryListTitle">Històric de trajectes</string>
     <string name="tracksHistoryListTitleSelect">Selecciona</string>
@@ -466,7 +466,7 @@
     <string name="sensorPurposeDuration">Durada</string>
     <string name="sensorPurposePower">Energia</string>
     <string name="sensorPurposeHeartRate">Freqüència cardíaca</string>
-    <string name="sensorProperitesProfileInfo">Les propietats del sensor són gestionades per perfil. Aquestes propietats només estan gestionades pel perfil actual (<xliff:g id="profile_name">%1$s</xliff:g>).</string>
+    <string name="sensorProperitesProfileInfo">Les propietats del sensor són gestionades per perfil. Aquestes propietats només estan gestionades pel perfil actual (%1$s).</string>
     <string name="sensorProperitesUseForSpeed">Utilitza per a la velocitat</string>
     <string name="sensorProperitesUseForCadence">Utilitza per a la cadència</string>
     <string name="sensorProperitesUseForDistance">Utilitza per a la distància i durada</string>
@@ -595,8 +595,8 @@
     <string name="pref_bell_shake_sensitivity_title">Sensibilitat de sacseig</string>
     <string name="pref_roaring_type_title">Tipus</string>
     <string name="pref_roaring_type_dialog_title">Tipus de clàxon</string>
-    <string name="pref_volume_summary_text">Timbre:<xliff:g> %1$s</xliff:g>, Clàxon:<xliff:g> %2$s
-\n</xliff:g>Comptadors:<xliff:g> %3$s</xliff:g>, Efectes:<xliff:g> %4$s</xliff:g>, Alarmes:<xliff:g> %5$s</xliff:g>
+    <string name="pref_volume_summary_text">Timbre: %1$s, Clàxon: %2$s
+\nComptadors: %3$s, Efectes: %4$s, Alarmes: %5$s
     </string>
     <string name="pref_bg_color_title">Color de fons</string>
     <string name="pref_bg_color_summary">Tria el color desitjat pel fons de l\'app</string>
@@ -657,8 +657,8 @@
     <string name="pref_soundeffects_countdown_title">Compte enrrere</string>
     <string name="pref_soundeffects_countdown_summary">So pel compte enrere abans de continuar el trajecte (...3, 2, 1, Som-hi!)</string>
     <string name="pref_soundeffects_tally_title">Activa</string>
-    <string name="pref_soundeffects_tally_value_summary">Cada <xliff:g>%1$s</xliff:g>
-        <xliff:g>%2$s</xliff:g>
+    <string name="pref_soundeffects_tally_value_summary">Cada %1$s
+        %2$s
     </string>
     <string name="pref_soundeffects_tally_distance_title">Distància</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">Mesura distància</string>
@@ -685,7 +685,7 @@
     <string name="pref_maps_online_mode_dialog_title">Origen dels mapes</string>
     <string name="pref_maps_offline_file_title">Selecciona arxiu o carpeta</string>
     <string name="pref_maps_offline_file_dialog_title">Selecciona carpeta de mapes fora línia</string>
-    <string name="pref_maps_offline_file_summary">(Tots els perfils) <xliff:g>%1$s</xliff:g>
+    <string name="pref_maps_offline_file_summary">(Tots els perfils) %1$s
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Cap carpeta seleccionada</string>
     <string name="pref_maps_offline_info_title">Descarrega ara</string>
@@ -734,15 +734,15 @@
     <string name="pref_powermeter_parameters_info_title">Nota!</string>
     <string name="pref_powermeter_parameters_info_summary">Per a lectures correctes de potència i energia, si us plau, assegureu-vos que aquests paràmetres són correctes!</string>
     <string name="pref_power_weights_title">Pesos</string>
-    <string name="pref_power_weights_summary">Conductor: <xliff:g>%1$s</xliff:g>, Vehicle: <xliff:g>%2$s</xliff:g>, Càrrega: <xliff:g>%3$s</xliff:g>, Passatgers: <xliff:g>%4$s</xliff:g>, Rodes: <xliff:g>%5$s</xliff:g>
+    <string name="pref_power_weights_summary">Conductor: %1$s, Vehicle: %2$s, Càrrega: %3$s, Passatgers: %4$s, Rodes: %5$s
     </string>
     <string name="pref_power_coefs_title">Coeficients</string>
-    <string name="pref_power_coefs_summary">Àrea de fregament: <xliff:g>%1$s
-\n</xliff:g>Resistència de rodament: <xliff:g>%2$s</xliff:g>
+    <string name="pref_power_coefs_summary">Àrea de fregament: %1$s
+\nResistència de rodament: %2$s
     </string>
     <string name="pref_energy_params_title">Paràmetres d\'energia</string>
-    <string name="pref_energy_params_summary">Eficiència: <xliff:g>%1$s
-\n</xliff:g>Metabolisme: <xliff:g>%2$s</xliff:g>
+    <string name="pref_energy_params_summary">Eficiència: %1$s
+\nMetabolisme: %2$s
     </string>
     <string name="pref_svg_data_enable_title">Genera gràfics</string>
     <string name="pref_svg_data_enable_summary">Genera gràfics SVG i arxius de dades per a diversos paràmetres</string>
@@ -806,9 +806,9 @@
     <string name="infoMeterModePaceTitle">Ritme</string>
     <string name="infoMeterModePaceMsg">Velocitat inversa - Actual, Màxima i Mitja</string>
     <string name="infoMeterModeAccelerationTitle">Acceleració</string>
-    <string name="infoMeterModeAccelerationMsg">Taxa de canvi de velocitat - Actual, Màxima i Mínima.<xliff:g>
+    <string name="infoMeterModeAccelerationMsg">Taxa de canvi de velocitat - Actual, Màxima i Mínima.
 \n
-\n</xliff:g>Negativa significa desacceleració.</string>
+\nNegativa significa desacceleració.</string>
     <string name="infoMeterModePowerTitle">Potència</string>
     <string name="infoMeterModeAvgActivePowerTitle">Potència Activa Mitjana</string>
     <string name="infoMeterModeVerticalPowerTitle">Potència Vertical</string>

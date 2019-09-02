@@ -68,7 +68,7 @@
     <string name="featureNotAvailable">Ez a funkció nem elérhető ezen az eszközön</string>
     <string name="farFromHere">Messze innen</string>
     <string name="toastRestartRequired">Indítsd újra az appot az alkalmazáshoz</string>
-    <string name="toastActiveProfile">Profil: <xliff:g>%1$s</xliff:g>
+    <string name="toastActiveProfile">Profil: %1$s
     </string>
     <string name="toastProfileSavingError">Hiba az adatok mentése közben.Próbáld újra</string>
     <string name="toastProfileChangeError">Hiba a profil cseréje közben.Próbáld újra</string>
@@ -84,11 +84,11 @@
     <string name="toastTrackingRecordingPassive">Passzív felvétel</string>
     <string name="toastTrackingPaused">Megállítva</string>
     <string name="toastTrackingStopped">Leállítva</string>
-    <string name="toastFenceGuardFenceAdded">FenceGuard: Kerítés <xliff:g>%1$s</xliff:g> hozzáadva</string>
+    <string name="toastFenceGuardFenceAdded">FenceGuard: Kerítés %1$s hozzáadva</string>
     <string name="toastFenceGuardFenceAddingError">FenceGuard: Hiba a kerítés hozzáadásában</string>
-    <string name="toastFenceGuardFenceUpdated">FenceGuard: Kerítés <xliff:g>%1$s</xliff:g> frissítve</string>
+    <string name="toastFenceGuardFenceUpdated">FenceGuard: Kerítés %1$s frissítve</string>
     <string name="toastFenceGuardFenceUpdatingError">FenceGuard: Hiba a kerítés frissítésében</string>
-    <string name="toastFenceGuardFenceRemoved">FenceGuard: Kerítés <xliff:g>%1$s</xliff:g> törölve</string>
+    <string name="toastFenceGuardFenceRemoved">FenceGuard: Kerítés %1$s törölve</string>
     <string name="toastFenceGuardFenceRemovingError">FenceGuard: Hiba a kerítés törlésében</string>
     <string name="toastFenceGuardOutsideTheFence">FenceGuard: A kerítésen kívül vagy</string>
     <string name="toastFenceGuardLocationUnavailable">FenceGuard: Nincs meg a jelenlegi helyzeted</string>
@@ -124,7 +124,7 @@
     <string name="toastSensorDisabled">Jeladó letiltva</string>
     <string name="toastAutoThemeActivated">Automatikus képernyő sötétítés</string>
     <string name="toastCancelled">Törölve</string>
-    <string name="notificationTitleAdvancedPaused">Megállítva: <xliff:g>%1$s</xliff:g>
+    <string name="notificationTitleAdvancedPaused">Megállítva: %1$s
     </string>
     <string name="licenseSuccessDialogMessage">Sikeres license vásárlás. Köszönjük a tamogatásod!</string>
     <string name="ongoingNotificationChannelName">Folyamatban lévő értesítés</string>
@@ -149,36 +149,36 @@
     <string name="dialog_fenceguard_update_text2">A kerítés a jelenlegi pozíciód köré kijelölve.Jelenlegi pozíciód nem lesz látható az útvonalon</string>
     <string name="dialog_fenceguard_remove_title">Kerítés eltávolítása</string>
     <string name="dialog_fenceguard_remove_defaultText">Biztos eltávolítod a kerítést\?</string>
-    <string name="dialog_fenceguard_remove_formatText">Biztos eltávolítod <xliff:g>%1$s</xliff:g>\? nevű kerítést\?</string>
-    <string name="dialog_track_save_text">Megtett út <xliff:g>%1$.3f %2$s
-\n</xliff:g>Időtartam <xliff:g>%3$s
-\n</xliff:g>
-        <xliff:g>(%4$s)
+    <string name="dialog_fenceguard_remove_formatText">Biztos eltávolítod %1$s\? nevű kerítést\?</string>
+    <string name="dialog_track_save_text">Megtett út %1$.3f %2$s
+\nIdőtartam %3$s
 \n
-\n</xliff:g>Az útvonal túlságosan rövidnek tűnik. Mentsük\?</string>
+        (%4$s)
+\n
+\nAz útvonal túlságosan rövidnek tűnik. Mentsük\?</string>
     <string name="dialog_exit_msg">Az útvonalrögzítés aktív és le fog állni.</string>
     <string name="dialogProfileDeleteTitle">Profil törlése</string>
-    <string name="dialogProfileDeleteMessage">Figyelmeztetés: Ez a művelet törli a profil beállításait és annak minden adatát. A mentett útvonalak megmaradnak. Profil törlése <xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialogProfileDeleteMessage">Figyelmeztetés: Ez a művelet törli a profil beállításait és annak minden adatát. A mentett útvonalak megmaradnak. Profil törlése %1$s\?</string>
     <string name="dialogProfileAddTitle">Új Profil</string>
     <string name="dialogProfileAddInfo">Az új profil beállításai át lesznek másolva a jelenleg aktív profilból</string>
     <string name="dialogProfileEditTitle">Profil szerkesztése</string>
     <string name="dialogProfileEditTotals">Összesítések:</string>
     <string name="dialogProfileTotalsResetMessage">Profil összesítések nullázása\?</string>
     <string name="dialogProfileSwitchTitle">Profil váltás</string>
-    <string name="dialogProfileSwitchMessage">Az útvonal rögzítése folyamatban. Biztosan profilt akar váltani\? <xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialogProfileSwitchMessage">Az útvonal rögzítése folyamatban. Biztosan profilt akar váltani\? %1$s\?</string>
     <string name="dialogTracksDeleteTitle">Útvonal törlése</string>
     <string name="dialogTracksDeleteMessage">Figyelmeztetés: ez a művelet nem vonható vissza.
 \n
 \nTöröljük a kiválasztott útvonalat\?</string>
     <string name="dialogTrackDeleteMessage">Figyelmeztetés: ez a művelet nem vonható vissza.
 \n
-\nTöröljük a kiválasztott útvonalat <xliff:g>%1$s</xliff:g>\?</string>
+\nTöröljük a kiválasztott útvonalat %1$s\?</string>
     <string name="dialogTrackResumeTitle">Útvonal rögzítés folytatása</string>
     <string name="dialogTrackResumeGpsActiveMessage">Folyamatos rögzítés. Leállításhoz először kapcsolja ki a GPS-t.</string>
-    <string name="dialogTrackResumeProfileNotBlankMessage">A kiválasztott <xliff:g>%1$s</xliff:g> profil nem üres. Nullázza a profilt. </string>
-    <string name="dialogTrackResumeProfileSwitchMessage">Az aktív profil át lesz kapcsolva erről: <xliff:g>%1$s</xliff:g> erre: <xliff:g>%2$s</xliff:g>. Folytassuk\?</string>
-    <string name="dialogTrackResumeProfileMissingMessage">A <xliff:g>%1$s</xliff:g> profil, amely ezt az útvonalat létrehozta, már nem létezik. Folytassuk az aktuális profilban: <xliff:g>%2$s</xliff:g>\?</string>
-    <string name="dialogTrackResumeGeneralPromptMessage">Az útvonal a <xliff:g>%1$s</xliff:g> profilban kerül folytatásra. Folytassuk\?</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">A kiválasztott %1$s profil nem üres. Nullázza a profilt. </string>
+    <string name="dialogTrackResumeProfileSwitchMessage">Az aktív profil át lesz kapcsolva erről: %1$s erre: %2$s. Folytassuk\?</string>
+    <string name="dialogTrackResumeProfileMissingMessage">A %1$s profil, amely ezt az útvonalat létrehozta, már nem létezik. Folytassuk az aktuális profilban: %2$s\?</string>
+    <string name="dialogTrackResumeGeneralPromptMessage">Az útvonal a %1$s profilban kerül folytatásra. Folytassuk\?</string>
     <string name="dialogTrackResumeGeneralErrorMessage">Hiba történt. Próbálja újra.</string>
     <string name="dialogTrackResumeWaitMessage">Folytatás, kérem, várjon...</string>
     <string name="dialogTracksShareTitle">Útvonal megosztása</string>
@@ -186,13 +186,13 @@
     <string name="dialogTracksShareCountExceeded">Egyszerre max. 100 track osztható</string>
     <string name="dialogGpsSettingsPromptTitle">GPS kikapcsolva</string>
     <string name="dialogBaroAltitudePromptTitle">Barométeres magasság megállapítási hiba</string>
-    <string name="dialogBaroAltitudePromptMessage">A barometrikus magasság megállapítás a GPS-magasságtól való eltérés miatt kikapcsolásra került!<xliff:g> </xliff:g>Kérjük, ne használja zárt vagy légkondicionált helyiségekben!</string>
+    <string name="dialogBaroAltitudePromptMessage">A barometrikus magasság megállapítás a GPS-magasságtól való eltérés miatt kikapcsolásra került! Kérjük, ne használja zárt vagy légkondicionált helyiségekben!</string>
     <string name="dialogBaroAltitudeNoticeTitle">Értesítés</string>
-    <string name="dialogBaroAltitudeNoticeMessage">A barometrikus magasság meghatározás csak a szabadban működik.<xliff:g> </xliff:g>Kérjük, ne használja zárt vagy légkondicionált helyiségekben, mint például járművekben és repülőgépen!</string>
+    <string name="dialogBaroAltitudeNoticeMessage">A barometrikus magasság meghatározás csak a szabadban működik. Kérjük, ne használja zárt vagy légkondicionált helyiségekben, mint például járművekben és repülőgépen!</string>
     <string name="dialogThermoBarometerNoticeTitle">Értesítés</string>
-    <string name="dialogThermoBarometerNoticeMessage">A hőmérő pontossága a külső levegő hőmérsékletétől függ.<xliff:g>
+    <string name="dialogThermoBarometerNoticeMessage">A hőmérő pontossága a külső levegő hőmérsékletétől függ.
 \n
-\n</xliff:g>Kérjük, ne használja zárt vagy légkondicionált helyiségekben, mint például járművekben és repülőgépen!</string>
+\nKérjük, ne használja zárt vagy légkondicionált helyiségekben, mint például járművekben és repülőgépen!</string>
     <string name="dialogResetTitle">Befejez</string>
     <string name="dialogResetMessage">Mentsük az útvonalat és kezdjünk egy újat\?</string>
     <string name="dialogResetNoTrackMessage">Nem került útvonal rögzítésre. Lenullázuk a mutatókat\?</string>
@@ -248,24 +248,24 @@
     <string name="dialogGpsIntervalTitle">GPS frissítés gyakorisága</string>
     <string name="dialogGpsIntervalNote">Megjegyzés: Tartsa ezt az értéket 3 másodperc alatt a pontos és folyamatos mérések érdekében!</string>
     <string name="dialogGpsIntervalLabelMore">
-        <xliff:g>◀
-\n</xliff:g>Nagyobb pontosság, több energia felhasználás</string>
+        ◀
+\nNagyobb pontosság, több energia felhasználás</string>
     <string name="dialogGpsIntervalLabelLess">
-        <xliff:g>▶
-\n</xliff:g>Kisebb pontosság, kevesebb energia felhasználás</string>
+        ▶
+\nKisebb pontosság, kevesebb energia felhasználás</string>
     <string name="dialogSliderLess">◀</string>
     <string name="dialogSliderMore">▶</string>
     <string name="dialogLocationPermissionRequestTitle">Helyzetmeghatározás engedélyei</string>
     <string name="dialogLocationPermissionRequest">Az alkalmazásnak hozzá kell férnie a tartózkodási helyéhez az ön szabadtéri tevékenységeinek rögzítéséhez.</string>
     <string name="dialogStoragePermissionRequestTitle">Tárhely engedélyei</string>
-    <string name="dialogStoragePermissionRequest">Az alkalmazásnak hozzá kell férnie a tárhelyhez, csak így mentheti vagy állíthatja vissza az útvonalakat és beállításokat.<xliff:g>
+    <string name="dialogStoragePermissionRequest">Az alkalmazásnak hozzá kell férnie a tárhelyhez, csak így mentheti vagy állíthatja vissza az útvonalakat és beállításokat.
 \n
-\n</xliff:g>Az engedély megadása nélkül nem fogja tudni megtekinteni az útvonalak előzményeit vagy megosztani az útvonalakat, ez adatvesztéshez vezet.</string>
+\nAz engedély megadása nélkül nem fogja tudni megtekinteni az útvonalak előzményeit vagy megosztani az útvonalakat, ez adatvesztéshez vezet.</string>
     <string name="dialogCameraPermissionRequestTitle">Kamera engedélyei</string>
     <string name="dialogCameraPermissionRequest">Engedély szükséges, hogy az alkalmazás aktiválhassa a vakut.</string>
-    <string name="dialogPermissionProblemMessage">Ez az engedély ahhoz szükséges, hogy az alkalmazás megfelelően működjön. Ez az Alkalmazás engedélyek beállításai oldalon engedélyezhető.<xliff:g>
+    <string name="dialogPermissionProblemMessage">Ez az engedély ahhoz szükséges, hogy az alkalmazás megfelelően működjön. Ez az Alkalmazás engedélyek beállításai oldalon engedélyezhető.
 \n
-\n</xliff:g>Beállítja most\?</string>
+\nBeállítja most\?</string>
     <string name="mapLayerStreet">Utca</string>
     <string name="mapLayerTerrain">Domborzat</string>
     <string name="mapLayerSatellite">Műhold</string>
@@ -392,20 +392,20 @@
     <string name="profilesListTitle">Profilok</string>
     <string name="profilesListTitleSelectProfile">Profil váltás</string>
     <string name="profilesListAddProfile">Új profil</string>
-    <string name="profilesListRowTotalsSince">Összesen <xliff:g>%1$s</xliff:g>óta</string>
+    <string name="profilesListRowTotalsSince">Összesen %1$sóta</string>
     <string name="profilesListButtonResetTotals">Minden alapra állítása</string>
     <string name="profilesListProfileNotUsed">felhasználatlan</string>
     <string name="profilesListLoading">Betöltés...</string>
     <string name="cloudAccountsTitle">Felhasználói fiók</string>
-    <string name="cloudAccountsInfo">A felhőszolgáltatáshoz való csatlakozás megkönnyíti az adatok feltöltését és megosztását másokkal. <xliff:g>
+    <string name="cloudAccountsInfo">A felhőszolgáltatáshoz való csatlakozás megkönnyíti az adatok feltöltését és megosztását másokkal.
 \n
-\n</xliff:g> Soha nem teszünk közzé semmit az Ön engedélye nélkül.</string>
+\n Soha nem teszünk közzé semmit az Ön engedélye nélkül.</string>
     <string name="accountDisconnect">Leválasztás</string>
-    <string name="googleFitConnectButton">Kapcsolódás <xliff:g>Google Fit</xliff:g>
+    <string name="googleFitConnectButton">Kapcsolódás Google Fit
     </string>
-    <string name="stravaTrackPrivacyInfo">A track biztonsági beállításai megmaradnak <xliff:g>Strava</xliff:g>
+    <string name="stravaTrackPrivacyInfo">A track biztonsági beállításai megmaradnak Strava
     </string>
-    <string name="facebookConnectButton">Kapcsolódás <xliff:g>Facebook</xliff:g>
+    <string name="facebookConnectButton">Kapcsolódás Facebook
     </string>
     <string name="tracksHistoryListTitle">Útvonal előzmény</string>
     <string name="tracksHistoryListTitleSelect">Kiválasztás</string>
@@ -461,7 +461,7 @@
     <string name="sensorPurposeDuration">Időtartam</string>
     <string name="sensorPurposePower">Erő</string>
     <string name="sensorPurposeHeartRate">Pulzus</string>
-    <string name="sensorProperitesProfileInfo">A jeladó beállításaii profilonként külön vannak kezelve. A beállítások csak az aktuális (<xliff:g id="profile_name">%1$s</xliff:g>) profilban változtathatók.</string>
+    <string name="sensorProperitesProfileInfo">A jeladó beállításaii profilonként külön vannak kezelve. A beállítások csak az aktuális (%1$s) profilban változtathatók.</string>
     <string name="sensorProperitesUseForSpeed">Sebességméréshez</string>
     <string name="sensorProperitesUseForCadence">Pedálfordulat számolásához</string>
     <string name="sensorProperitesUseForDistance">Használja távolság és időméréshez</string>
@@ -591,8 +591,8 @@
     <string name="pref_bell_shake_sensitivity_title">Rázás érzékenysége</string>
     <string name="pref_roaring_type_title">Tipus</string>
     <string name="pref_roaring_type_dialog_title">Riasztás módja</string>
-    <string name="pref_volume_summary_text">Cengő:<xliff:g> %1$s</xliff:g>, Riasztás:<xliff:g> %2$s
-\n</xliff:g>Figyelmeztetés:<xliff:g> %3$s</xliff:g>, Egyéb:<xliff:g> %4$s</xliff:g>, Emlékeztető:<xliff:g> %5$s</xliff:g>
+    <string name="pref_volume_summary_text">Cengő: %1$s, Riasztás: %2$s
+\nFigyelmeztetés: %3$s, Egyéb: %4$s, Emlékeztető: %5$s
     </string>
     <string name="pref_bg_color_title">Háttérszín</string>
     <string name="pref_bg_color_summary">Válaszd ki az alkalmazás háttérszínét</string>
@@ -653,8 +653,8 @@
     <string name="pref_soundeffects_countdown_title">Visszaszámlálás</string>
     <string name="pref_soundeffects_countdown_summary">Hangjelzés, mielőtt az útvonal rögzítés újra indul (...3, 2, 1, Start!)</string>
     <string name="pref_soundeffects_tally_title">Engedélyezve</string>
-    <string name="pref_soundeffects_tally_value_summary">Minden <xliff:g>%1$s</xliff:g>
-        <xliff:g>%2$s</xliff:g>
+    <string name="pref_soundeffects_tally_value_summary">Minden %1$s
+        %2$s
     </string>
     <string name="pref_soundeffects_tally_distance_title">Távolság</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">Távolság ellenőrzése</string>
@@ -681,7 +681,7 @@
     <string name="pref_maps_online_mode_dialog_title">Térkép forrása</string>
     <string name="pref_maps_offline_file_title">Fájl, vagy könyvtár választása</string>
     <string name="pref_maps_offline_file_dialog_title">Váltás az offline térkép könyvtárára</string>
-    <string name="pref_maps_offline_file_summary">(Minden profil) <xliff:g>%1$s</xliff:g>
+    <string name="pref_maps_offline_file_summary">(Minden profil) %1$s
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Nincs kiválasztva könyvtár</string>
     <string name="pref_maps_offline_info_title">Letöltés</string>
@@ -731,15 +731,15 @@
     <string name="pref_powermeter_parameters_info_title">Megjegyzés!</string>
     <string name="pref_powermeter_parameters_info_summary">A pontos mérés érdekében ellenőrizze a megadott értékeket</string>
     <string name="pref_power_weights_title">Súlyok</string>
-    <string name="pref_power_weights_summary">Soför: <xliff:g>%1$s</xliff:g>, Jármű: <xliff:g>%2$s</xliff:g>, Rakomány: <xliff:g>%3$s</xliff:g>, Utasok: <xliff:g>%4$s</xliff:g>, Kerekek száma: <xliff:g>%5$s</xliff:g>
+    <string name="pref_power_weights_summary">Soför: %1$s, Jármű: %2$s, Rakomány: %3$s, Utasok: %4$s, Kerekek száma: %5$s
     </string>
     <string name="pref_power_coefs_title">Együttható</string>
-    <string name="pref_power_coefs_summary">Kijelölt terület: <xliff:g>%1$s
-\n</xliff:g>Görgetés sebessége: <xliff:g>%2$s</xliff:g>
+    <string name="pref_power_coefs_summary">Kijelölt terület: %1$s
+\nGörgetés sebessége: %2$s
     </string>
     <string name="pref_energy_params_title">Erő beállításai</string>
-    <string name="pref_energy_params_summary">Hatékonyság: <xliff:g>%1$s
-\n</xliff:g>Anyagcsere: <xliff:g>%2$s</xliff:g>
+    <string name="pref_energy_params_summary">Hatékonyság: %1$s
+\nAnyagcsere: %2$s
     </string>
     <string name="pref_svg_data_enable_title">Grafikon létrehozása</string>
     <string name="pref_svg_data_enable_summary">SVG grafika létrehozása változó menetparaméterek alapján</string>
@@ -805,9 +805,9 @@
     <string name="infoMeterModePaceTitle">Tempó</string>
     <string name="infoMeterModePaceMsg">Ellentétes sebesség - Aktuális, Legnagyobb, Legkisebb.</string>
     <string name="infoMeterModeAccelerationTitle">Gyorsulás</string>
-    <string name="infoMeterModeAccelerationMsg">A sebesség változásának aránya - Aktuális, Legnagyobb, Legkisebb. <xliff:g>
+    <string name="infoMeterModeAccelerationMsg">A sebesség változásának aránya - Aktuális, Legnagyobb, Legkisebb.
 \n
-\n</xliff:g>Mínuszban lassulás.</string>
+\nMínuszban lassulás.</string>
     <string name="infoMeterModePowerTitle">Hatásfok</string>
     <string name="infoMeterModeAvgActivePowerTitle">Átlagos aktív erő</string>
     <string name="infoMeterModeVerticalPowerTitle">Függőleges erőhatás</string>
@@ -942,7 +942,7 @@
     <string name="prefUnitsPowerEntries_2">[kcal/h]</string>
     <string name="prefUnitsPowerEntries_3">[kJ/h]</string>
     <!-- prefUnitsSlopeEntries -->
-    <string name="prefUnitsSlopeEntries_0">Százalék [<xliff:g id="fullwidthPercentSign">\uff05</xliff:g>]</string>
+    <string name="prefUnitsSlopeEntries_0">Százalék [\uff05]</string>
     <string name="prefUnitsSlopeEntries_1">Fok [°]</string>
     <string name="prefUnitsSlopeEntries_2">Százalék [‰]</string>
     <!-- pref_hud_axis_entries -->

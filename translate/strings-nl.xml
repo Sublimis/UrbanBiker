@@ -49,7 +49,7 @@
     <string name="profileNameDefault">Nieuw profiel</string>
     <string name="featureNotAvailable">Sorry, deze functie is niet beschikbaar op dit apparaat</string>
     <string name="toastRestartRequired">AUB opnieuw opstarten om de instellingen actief te maken</string>
-    <string name="toastActiveProfile">Profiel: <xliff:g>%1$s</xliff:g>
+    <string name="toastActiveProfile">Profiel: %1$s
     </string>
     <string name="toastProfileSavingError">Fout tijdens het opslaan van de profiles data! Probeer het nogmaals.</string>
     <string name="toastProfileChangeError">Kan niet van profiel wisselen! Probeer het nogmaals.</string>
@@ -61,11 +61,11 @@
     <string name="toastTrackZippingError">Fout tijden het zippen dan de route! Probeer opnieuw te resetten.</string>
     <string name="toastTrackMovingError">Fout tijdens het verplaatsen van de route naar USB! probeer opnieuw te resetten.</string>
     <string name="toastPressAgainToExit">Druk nogmaals om de stoppen</string>
-    <string name="toastFenceGuardFenceAdded">Annonimiteits-instelling: Afscherming <xliff:g>%1$s</xliff:g> toegevoegd</string>
+    <string name="toastFenceGuardFenceAdded">Annonimiteits-instelling: Afscherming %1$s toegevoegd</string>
     <string name="toastFenceGuardFenceAddingError">Annonimiteits-mode: Fout tijdens toevoegen van locatie</string>
-    <string name="toastFenceGuardFenceUpdated">Annonimiteits-mode: Locatie <xliff:g>%1$s</xliff:g> gewijzigd</string>
+    <string name="toastFenceGuardFenceUpdated">Annonimiteits-mode: Locatie %1$s gewijzigd</string>
     <string name="toastFenceGuardFenceUpdatingError">Annonimiteits-mode: Fout tijdens wijzigen van de locatie</string>
-    <string name="toastFenceGuardFenceRemoved">Annonimiteits-mode: Locatie <xliff:g>%1$s</xliff:g> verwijderd</string>
+    <string name="toastFenceGuardFenceRemoved">Annonimiteits-mode: Locatie %1$s verwijderd</string>
     <string name="toastFenceGuardFenceRemovingError">Annonimiteits-mode: Fout tijdens verwijderen van de locatie</string>
     <string name="toastFenceGuardOutsideTheFence">Annonimiteits-mode: U bent op dit moment niet binnen uw Annonimiteitslocatie</string>
     <string name="toastFenceGuardLocationUnavailable">Annonimiteits-mode: Uw locatie is nog steeds niet beschikbaar</string>
@@ -107,27 +107,27 @@
     <string name="dialog_fenceguard_update_text2">Afscherming rond uw locatie beveiligd uw privacy in opgenomen routes.</string>
     <string name="dialog_fenceguard_remove_title">Verwijder locatie</string>
     <string name="dialog_fenceguard_remove_defaultText">Wilt u de locatie echt verwijderen\?</string>
-    <string name="dialog_fenceguard_remove_formatText">Wilt u de locatie echt <xliff:g>%1$s</xliff:g> verwijderen\?</string>
+    <string name="dialog_fenceguard_remove_formatText">Wilt u de locatie echt %1$s verwijderen\?</string>
     <string name="dialogProfileDeleteTitle">Verwijder profiel</string>
     <string name="dialogProfileDeleteMessage">Let op: Alle profiel instellingen en opgeslagen totalen worden verwijderd. Opgeslagen routes zullen intact blijven.
 \n
-\nVerwijder profiel <xliff:g>%1$s</xliff:g>\?</string>
+\nVerwijder profiel %1$s\?</string>
     <string name="dialogProfileAddTitle">Nieuw profiel</string>
     <string name="dialogProfileEditTitle">Bewerk profiel</string>
     <string name="dialogProfileEditTotals">Totalen:</string>
     <string name="dialogProfileTotalsResetMessage">Reset de profiel totalen naar 0\?</string>
     <string name="dialogProfileSwitchTitle">Verander profiel</string>
-    <string name="dialogProfileSwitchMessage">Tracking is aktief. Weet u zeker dat u wilt wisselen naar profiel <xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialogProfileSwitchMessage">Tracking is aktief. Weet u zeker dat u wilt wisselen naar profiel %1$s\?</string>
     <string name="dialogTracksDeleteTitle">Verwijder ritten</string>
     <string name="dialogTrackDeleteMessage">Let op: deze actie kan niet ongedaan worden gemaakt.
 \n
-\nVerwijder de route <xliff:g>%1$s</xliff:g>\?</string>
+\nVerwijder de route %1$s\?</string>
     <string name="dialogTrackResumeTitle">Hervat rit</string>
     <string name="dialogTrackResumeGpsActiveMessage">Tracking is aktief. Pauzeer of schakel de GPS eerst uit.</string>
-    <string name="dialogTrackResumeProfileNotBlankMessage">Doel profiel <xliff:g>%1$s</xliff:g> is niet leeg. Reset deze eerst.</string>
-    <string name="dialogTrackResumeProfileSwitchMessage">Aktief profiel wordt gewisseld van <xliff:g>%1$s</xliff:g> naar <xliff:g>%2$s</xliff:g>. Doorgaan\?</string>
-    <string name="dialogTrackResumeProfileMissingMessage">Profiel <xliff:g>%1$s</xliff:g> dat deze route heeft aangemaakt bestaat niet meer. Doorgaan in het huidige profiel <xliff:g>%2$s</xliff:g>\?</string>
-    <string name="dialogTrackResumeGeneralPromptMessage">Route zal worden hervat in profiel <xliff:g>%1$s</xliff:g>. Doorgaan\?</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">Doel profiel %1$s is niet leeg. Reset deze eerst.</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">Aktief profiel wordt gewisseld van %1$s naar %2$s. Doorgaan\?</string>
+    <string name="dialogTrackResumeProfileMissingMessage">Profiel %1$s dat deze route heeft aangemaakt bestaat niet meer. Doorgaan in het huidige profiel %2$s\?</string>
+    <string name="dialogTrackResumeGeneralPromptMessage">Route zal worden hervat in profiel %1$s. Doorgaan\?</string>
     <string name="dialogTrackResumeGeneralErrorMessage">Een fout is opgetreden. Probeer opnieuw A.U.B.</string>
     <string name="dialogTrackResumeWaitMessage">Hervatten, even wachten a.u.b.</string>
     <string name="dialogTracksShareTitle">Deel ritten</string>
@@ -240,7 +240,7 @@
     <string name="meterTextMax">max</string>
     <string name="meterTextAvg">gem</string>
     <string name="profilesListTitleSelectProfile">Verander Profiel</string>
-    <string name="profilesListRowTotalsSince">Totalen sinds: <xliff:g>%1$s</xliff:g>
+    <string name="profilesListRowTotalsSince">Totalen sinds: %1$s
     </string>
     <string name="profilesListButtonResetTotals">Reset totalen</string>
     <string name="tracksHistoryListTitle">Routegeschiedenis</string>
@@ -394,8 +394,8 @@
     <string name="pref_soundeffects_countdown_title">Aftellen</string>
     <string name="pref_soundeffects_countdown_summary">Speel geluid af bij hervatting van de rit (...3, 2, 1, GO!)</string>
     <string name="pref_soundeffects_tally_title">Inschakelen</string>
-    <string name="pref_soundeffects_tally_value_summary">Elke <xliff:g>%1$s</xliff:g>
-        <xliff:g>%2$s</xliff:g>
+    <string name="pref_soundeffects_tally_value_summary">Elke %1$s
+        %2$s
     </string>
     <string name="pref_soundeffects_tally_distance_title">Afstand</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">Afstandsinterval</string>
@@ -416,7 +416,7 @@
     <string name="pref_maps_online_mode_dialog_title">Kaart bron</string>
     <string name="pref_maps_offline_file_title">Selecteer bestand of map</string>
     <string name="pref_maps_offline_file_dialog_title">Kies offline kaarten map</string>
-    <string name="pref_maps_offline_file_summary">(Alle profielen) <xliff:g>%1$s</xliff:g>
+    <string name="pref_maps_offline_file_summary">(Alle profielen) %1$s
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Geen map geselecteerd.</string>
     <string name="pref_maps_offline_info_title">Download nu</string>
@@ -446,15 +446,15 @@
     <string name="pref_speedo_display_mode_dialog_title">Snelheidsmeter uiterlijk</string>
     <string name="pref_powermeter_display_mode_dialog_title">Vermogen weergave modus</string>
     <string name="pref_power_weights_title">Gewichten</string>
-    <string name="pref_power_weights_summary">Bestuurder: <xliff:g>%1$s</xliff:g>, Voertuig: <xliff:g>%2$s</xliff:g>, Lading: <xliff:g>%3$s</xliff:g>, Passagier: <xliff:g>%4$s</xliff:g>, Wielen: <xliff:g>%5$s</xliff:g>
+    <string name="pref_power_weights_summary">Bestuurder: %1$s, Voertuig: %2$s, Lading: %3$s, Passagier: %4$s, Wielen: %5$s
     </string>
     <string name="pref_power_coefs_title">Coëfficiënten</string>
-    <string name="pref_power_coefs_summary">Luchtweerstand oppervlak: <xliff:g>%1$s
-\n</xliff:g>Rolweerstand: <xliff:g>%2$s</xliff:g>
+    <string name="pref_power_coefs_summary">Luchtweerstand oppervlak: %1$s
+\nRolweerstand: %2$s
     </string>
     <string name="pref_energy_params_title">Energie parameters</string>
-    <string name="pref_energy_params_summary">Efficiency: <xliff:g>%1$s
-\n</xliff:g>Metabolisme: <xliff:g>%2$s</xliff:g>
+    <string name="pref_energy_params_summary">Efficiency: %1$s
+\nMetabolisme: %2$s
     </string>
     <string name="pref_svg_data_enable_title">Genereer grafieken</string>
     <string name="pref_svg_data_modes_select_title">Kies grafiek types...</string>
@@ -483,9 +483,9 @@
     <string name="infoMeterModePaceTitle">Tempo</string>
     <string name="infoMeterModePaceMsg">Afgeleide snelheid — Huidig, Maximum en Gemiddeld</string>
     <string name="infoMeterModeAccelerationTitle">Versnelling</string>
-    <string name="infoMeterModeAccelerationMsg">Mate van snelheidsverandering — Huidig, Maximum en Minimum.<xliff:g>
+    <string name="infoMeterModeAccelerationMsg">Mate van snelheidsverandering — Huidig, Maximum en Minimum.
 \n
-\n</xliff:g>Negatief betekent deceleratie.</string>
+\nNegatief betekent deceleratie.</string>
     <string name="infoMeterModePowerTitle">Vermogen</string>
     <string name="infoMeterModeTemperatureTitle">Temperatuur</string>
     <string name="infoMeterModeClockTitle">Klok</string>

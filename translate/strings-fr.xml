@@ -68,7 +68,7 @@
     <string name="featureNotAvailable">Desolé, la fonctionnalité n\'est pas disponible sur cet appareil</string>
     <string name="farFromHere">Loin d\'ici</string>
     <string name="toastRestartRequired">Veuillez redémarrer l\'application afin que ceci prenne effet</string>
-    <string name="toastActiveProfile">Profil: <xliff:g>%1$s</xliff:g>
+    <string name="toastActiveProfile">Profil: %1$s
     </string>
     <string name="toastProfileSavingError">Erreur lors de la sauvegarde des données du profil ! Veuillez réessayer.</string>
     <string name="toastProfileChangeError">Impossible de basculer sur le profil ! Veuillez réessayer.</string>
@@ -84,11 +84,11 @@
     <string name="toastTrackingRecordingPassive">Enregistrement passif</string>
     <string name="toastTrackingPaused">En pause</string>
     <string name="toastTrackingStopped">Arrêté</string>
-    <string name="toastFenceGuardFenceAdded">Périmètre protégé: Périmètre <xliff:g>%1$s</xliff:g> ajouté</string>
+    <string name="toastFenceGuardFenceAdded">Périmètre protégé: Périmètre %1$s ajouté</string>
     <string name="toastFenceGuardFenceAddingError">Périmètre protégé: Erreur lors de la création du périmètre</string>
-    <string name="toastFenceGuardFenceUpdated">Périmètre protégé: Périmètre <xliff:g>%1$s</xliff:g> actualisé</string>
+    <string name="toastFenceGuardFenceUpdated">Périmètre protégé: Périmètre %1$s actualisé</string>
     <string name="toastFenceGuardFenceUpdatingError">Périmètre protégé: Erreur lors de la mise à jour du périmètre</string>
-    <string name="toastFenceGuardFenceRemoved">Périmètre protégé: Périmètre <xliff:g>%1$s</xliff:g> supprimé</string>
+    <string name="toastFenceGuardFenceRemoved">Périmètre protégé: Périmètre %1$s supprimé</string>
     <string name="toastFenceGuardFenceRemovingError">Périmètre protégé: Erreur lors de la suppression du périmètre</string>
     <string name="toastFenceGuardOutsideTheFence">Périmètre protégé: Vous n\'êtes plus à l\'intérieur du périmètre</string>
     <string name="toastFenceGuardLocationUnavailable">Périmètre protégé: Votre position n\'est pas disponible</string>
@@ -124,7 +124,7 @@
     <string name="toastSensorDisabled">Capteur désactivé</string>
     <string name="toastAutoThemeActivated">Thème visuel automatique activé.</string>
     <string name="toastCancelled">Annulé</string>
-    <string name="notificationTitleAdvancedPaused">En pause: <xliff:g>%1$s</xliff:g>
+    <string name="notificationTitleAdvancedPaused">En pause: %1$s
     </string>
     <string name="licenseSuccessDialogMessage">Cette application a été enregistrée avec succès. Merci de votre soutien!</string>
     <string name="ongoingNotificationChannelName">Notification en cours</string>
@@ -149,34 +149,34 @@
     <string name="dialog_fenceguard_update_text2">Un périmètre créé autour de votre position empêche de la montrer dans les enregistrements de déplacements.</string>
     <string name="dialog_fenceguard_remove_title">Supprimer le périmètre</string>
     <string name="dialog_fenceguard_remove_defaultText">Êtes-vous sûr de vouloir supprimer le périmètre \?</string>
-    <string name="dialog_fenceguard_remove_formatText">Êtes-vous sûr de vouloir supprimer le périmètre <xliff:g>%1$s</xliff:g>\?</string>
-    <string name="dialog_track_save_text">Distance <xliff:g>%1$.3f %2$s</xliff:g>Durée <xliff:g>%3$s</xliff:g>
-        <xliff:g>(%4$s)</xliff:g>Le parcours semble très court. Sauvegarder ce parcours \?</string>
+    <string name="dialog_fenceguard_remove_formatText">Êtes-vous sûr de vouloir supprimer le périmètre %1$s\?</string>
+    <string name="dialog_track_save_text">Distance %1$.3f %2$sDurée %3$s
+        (%4$s)Le parcours semble très court. Sauvegarder ce parcours \?</string>
     <string name="dialog_exit_msg">Attention : le suivi est actif et va être arrêté.</string>
     <string name="dialogProfileDeleteTitle">Supprimer le profil</string>
     <string name="dialogProfileDeleteMessage">Attention : cela va supprimer les paramètres du profil et toutes les données. Les parcours sauvegardés ne seront pas touchés.
 \n
-\nSupprimer le profil <xliff:g>%1$s</xliff:g> \?</string>
+\nSupprimer le profil %1$s \?</string>
     <string name="dialogProfileAddTitle">Nouveau profil</string>
     <string name="dialogProfileAddInfo">Les paramètres du nouveau profil seront copiés à partir du profil actuellement actif</string>
     <string name="dialogProfileEditTitle">Editer le profil</string>
     <string name="dialogProfileEditTotals">Totaux :</string>
     <string name="dialogProfileTotalsResetMessage">Remettre à zéro les stats du profil \?</string>
     <string name="dialogProfileSwitchTitle">Changer de profil</string>
-    <string name="dialogProfileSwitchMessage">Le suivi est en cours. Êtes-vous sûr de vouloir quitter <xliff:g>%1$s</xliff:g> \?</string>
+    <string name="dialogProfileSwitchMessage">Le suivi est en cours. Êtes-vous sûr de vouloir quitter %1$s \?</string>
     <string name="dialogTracksDeleteTitle">Supprimer les parcours</string>
     <string name="dialogTracksDeleteMessage">Attention : cette action ne peut pas être annulée.
 \n
 \nSupprimer les parcours sélectionnés \?</string>
     <string name="dialogTrackDeleteMessage">Attention : cette action ne peut pas être annulée.
 \n
-\nSupprimer le parcours <xliff:g>%1$s</xliff:g> \?</string>
+\nSupprimer le parcours %1$s \?</string>
     <string name="dialogTrackResumeTitle">Reprendre le parcours</string>
     <string name="dialogTrackResumeGpsActiveMessage">Le suivi est actif. Veuillez éteindre ou mettre en pause le GPS d\'abord.</string>
-    <string name="dialogTrackResumeProfileNotBlankMessage">Le profil cible <xliff:g>%1$s</xliff:g> n\'est pas vide. Veuillez le réinitialisez d\'abord.</string>
-    <string name="dialogTrackResumeProfileSwitchMessage">Le profil actuel sera changé de <xliff:g>%1$s</xliff:g> à <xliff:g>%2$s</xliff:g>. Continuer\?</string>
-    <string name="dialogTrackResumeProfileMissingMessage">Le profile <xliff:g>%1$s</xliff:g> qui a créé ce parcours n\'existe plus. Reprendre dans le profil actuel <xliff:g>%2$s</xliff:g> \?</string>
-    <string name="dialogTrackResumeGeneralPromptMessage">Le parcours sera repris dans le profil <xliff:g>%1$s</xliff:g>. Continuer \?</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">Le profil cible %1$s n\'est pas vide. Veuillez le réinitialisez d\'abord.</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">Le profil actuel sera changé de %1$s à %2$s. Continuer\?</string>
+    <string name="dialogTrackResumeProfileMissingMessage">Le profile %1$s qui a créé ce parcours n\'existe plus. Reprendre dans le profil actuel %2$s \?</string>
+    <string name="dialogTrackResumeGeneralPromptMessage">Le parcours sera repris dans le profil %1$s. Continuer \?</string>
     <string name="dialogTrackResumeGeneralErrorMessage">Une erreur est survenue. Veuillez réessayer.</string>
     <string name="dialogTrackResumeWaitMessage">Reprise en cours, veuillez patienter …</string>
     <string name="dialogTracksShareTitle">Partager vos parcours</string>
@@ -184,17 +184,17 @@
     <string name="dialogTracksShareCountExceeded">Impossible de partager plus de 100 pistes à la fois.</string>
     <string name="dialogGpsSettingsPromptTitle">Géolocalisation désactivée</string>
     <string name="dialogBaroAltitudePromptTitle">Problème d\'altitude barométrique</string>
-    <string name="dialogBaroAltitudePromptMessage">L\'altitude barométrique a été désactivée en raison d\'un décalage avec l\'altitude du GPS ! <xliff:g>
+    <string name="dialogBaroAltitudePromptMessage">L\'altitude barométrique a été désactivée en raison d\'un décalage avec l\'altitude du GPS !
 \n
-\n</xliff:g>Ne l\'utilisez pas dans des espaces fermés ou climatisés !</string>
+\nNe l\'utilisez pas dans des espaces fermés ou climatisés !</string>
     <string name="dialogBaroAltitudeNoticeTitle">Remarque</string>
-    <string name="dialogBaroAltitudeNoticeMessage">L\'altitude barométrique fonctionne uniquement à l\'extérieur. <xliff:g>
+    <string name="dialogBaroAltitudeNoticeMessage">L\'altitude barométrique fonctionne uniquement à l\'extérieur.
 \n
-\n</xliff:g>Ne l\'utilisez pas dans des espaces fermés ou climatisés comme certains véhicules et avions.</string>
+\nNe l\'utilisez pas dans des espaces fermés ou climatisés comme certains véhicules et avions.</string>
     <string name="dialogThermoBarometerNoticeTitle">Remarque</string>
-    <string name="dialogThermoBarometerNoticeMessage">Pour une bonne précision, le baromètre thermique dépend de la température de l\'air extérieur. <xliff:g>
+    <string name="dialogThermoBarometerNoticeMessage">Pour une bonne précision, le baromètre thermique dépend de la température de l\'air extérieur.
 \n
-\n</xliff:g>Ne l\'utilisez pas dans des espaces fermés ou climatisés, comme certains véhicules et avions.</string>
+\nNe l\'utilisez pas dans des espaces fermés ou climatisés, comme certains véhicules et avions.</string>
     <string name="dialogResetTitle">Terminé</string>
     <string name="dialogResetMessage">Sauvegardez ce parcours et vous préparer à un nouveau \?</string>
     <string name="dialogResetNoTrackMessage">Aucun parcours n\'a été enregistré. Réinitialiser les compteurs maintenant \?</string>
@@ -249,24 +249,24 @@
     <string name="dialogGpsIntervalTitle">Intervalle de mise a jour GPS</string>
     <string name="dialogGpsIntervalNote">Remarque : conservez cette valeur en dessous de 3 secondes pour obtenir les lectures les plus précises et le comportement le plus cohérent !</string>
     <string name="dialogGpsIntervalLabelMore">
-        <xliff:g>◀
-\n</xliff:g>Plus de précision, utilise plus de batterie</string>
+        ◀
+\nPlus de précision, utilise plus de batterie</string>
     <string name="dialogGpsIntervalLabelLess">
-        <xliff:g>▶
-\n</xliff:g>Moins de précision, utilise moins de batterie</string>
+        ▶
+\nMoins de précision, utilise moins de batterie</string>
     <string name="dialogSliderLess">◀</string>
     <string name="dialogSliderMore">▶</string>
     <string name="dialogLocationPermissionRequestTitle">Autorisation de géolocalisation</string>
     <string name="dialogLocationPermissionRequest">L\'application doit accéder à votre emplacement pour enregistrer vos activités extérieures.</string>
     <string name="dialogStoragePermissionRequestTitle">Autorisation de stockage</string>
-    <string name="dialogStoragePermissionRequest">L\'application doit accéder au stockage pour pouvoir enregistrer ou restaurer vos parcours et paramètres.<xliff:g>
+    <string name="dialogStoragePermissionRequest">L\'application doit accéder au stockage pour pouvoir enregistrer ou restaurer vos parcours et paramètres.
 \n
-\n</xliff:g>Sans donner l\'autorisation, vous ne pourrez pas voir l\'historique des parcours ni les partager et vous pourriez perdre vos données.</string>
+\nSans donner l\'autorisation, vous ne pourrez pas voir l\'historique des parcours ni les partager et vous pourriez perdre vos données.</string>
     <string name="dialogCameraPermissionRequestTitle">Autorisation d\'appareil photo</string>
     <string name="dialogCameraPermissionRequest">L\'autorisation est nécessaire pour que l\'application puisse activer la lampe de poche.</string>
-    <string name="dialogPermissionProblemMessage">Cette autorisation est nécessaire pour que l\'application fonctionne correctement. Cela peut être accordé dans la page des paramètres des autorisations de l\'application.<xliff:g>
+    <string name="dialogPermissionProblemMessage">Cette autorisation est nécessaire pour que l\'application fonctionne correctement. Cela peut être accordé dans la page des paramètres des autorisations de l\'application.
 \n
-\n</xliff:g> Y aller maintenant \?</string>
+\n Y aller maintenant \?</string>
     <string name="mapLayerStreet">Rue</string>
     <string name="mapLayerTerrain">Terrain</string>
     <string name="mapLayerSatellite">Satellite</string>
@@ -392,21 +392,21 @@
     <string name="profilesListTitle">Profils</string>
     <string name="profilesListTitleSelectProfile">Changer de profil</string>
     <string name="profilesListAddProfile">Nouveau profil</string>
-    <string name="profilesListRowTotalsSince">Totaux depuis: <xliff:g>%1$s</xliff:g>
+    <string name="profilesListRowTotalsSince">Totaux depuis: %1$s
     </string>
     <string name="profilesListButtonResetTotals">Réinitialiser les totaux</string>
     <string name="profilesListProfileNotUsed">(vierge)</string>
     <string name="profilesListLoading">Chargement...</string>
     <string name="cloudAccountsTitle">Comptes</string>
-    <string name="cloudAccountsInfo">La connexion à un service en nuage facilite le téléchargement et le partage de vos pistes avec d’autres. <xliff:g>
+    <string name="cloudAccountsInfo">La connexion à un service en nuage facilite le téléchargement et le partage de vos pistes avec d’autres.
 \n
-\n</xliff:g>Nous ne publierons jamais rien sans votre permission.</string>
+\nNous ne publierons jamais rien sans votre permission.</string>
     <string name="accountDisconnect">Déconnecter</string>
-    <string name="googleFitConnectButton">Connecter avec <xliff:g>Google Fit</xliff:g>
+    <string name="googleFitConnectButton">Connecter avec Google Fit
     </string>
-    <string name="stravaTrackPrivacyInfo">La piste héritera de la confidentialité par défaut que vous avez définie sur <xliff:g>Strava</xliff:g>
+    <string name="stravaTrackPrivacyInfo">La piste héritera de la confidentialité par défaut que vous avez définie sur Strava
     </string>
-    <string name="facebookConnectButton">Connecter avec <xliff:g>Facebook</xliff:g>
+    <string name="facebookConnectButton">Connecter avec Facebook
     </string>
     <string name="tracksHistoryListTitle">Historique des parcours</string>
     <string name="tracksHistoryListTitleSelect">Choisir</string>
@@ -461,7 +461,7 @@
     <string name="sensorPurposeDuration">Durée</string>
     <string name="sensorPurposePower">Puissance</string>
     <string name="sensorPurposeHeartRate">Fréquence cardiaque</string>
-    <string name="sensorProperitesProfileInfo">Les propriétés du capteur sont gérées par profil. Les propriétés ici sont gérées uniquement pour le profil actif (<xliff:g id="profile_name">%1$s</xliff:g>).</string>
+    <string name="sensorProperitesProfileInfo">Les propriétés du capteur sont gérées par profil. Les propriétés ici sont gérées uniquement pour le profil actif (%1$s).</string>
     <string name="sensorProperitesUseForSpeed">Utiliser pour la vitesse</string>
     <string name="sensorProperitesUseForCadence">Utiliser pour la cadence</string>
     <string name="sensorProperitesUseForDistance">Utiliser pour la distance et la durée</string>
@@ -590,8 +590,8 @@
     <string name="pref_bell_shake_sensitivity_title">Sensibilité du secouement</string>
     <string name="pref_roaring_type_title">Type</string>
     <string name="pref_roaring_type_dialog_title">Type de vrombissement</string>
-    <string name="pref_volume_summary_text">Sonnette:<xliff:g> %1$s</xliff:g>, Rugissement:<xliff:g> %2$s
-\n</xliff:g>Décomptes:<xliff:g> %3$s</xliff:g>, Effets:<xliff:g> %4$s</xliff:g>, Alarmes:<xliff:g> %5$s</xliff:g>
+    <string name="pref_volume_summary_text">Sonnette: %1$s, Rugissement: %2$s
+\nDécomptes: %3$s, Effets: %4$s, Alarmes: %5$s
     </string>
     <string name="pref_bg_color_title">Couleur de fond</string>
     <string name="pref_bg_color_summary">Choisir une couleur pour le fond de l\'application</string>
@@ -652,8 +652,8 @@
     <string name="pref_soundeffects_countdown_title">Compte à rebours</string>
     <string name="pref_soundeffects_countdown_summary">Compte à rebours sonore avant la reprise du parcours (... 3, 2, 1, Go !)</string>
     <string name="pref_soundeffects_tally_title">Activé</string>
-    <string name="pref_soundeffects_tally_value_summary">Chaque <xliff:g>%1$s</xliff:g>
-        <xliff:g>%2$s</xliff:g>
+    <string name="pref_soundeffects_tally_value_summary">Chaque %1$s
+        %2$s
     </string>
     <string name="pref_soundeffects_tally_distance_title">Distance</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">Décompte de la distance</string>
@@ -680,7 +680,7 @@
     <string name="pref_maps_online_mode_dialog_title">Source des cartes</string>
     <string name="pref_maps_offline_file_title">Sélectionner fichier ou dossier</string>
     <string name="pref_maps_offline_file_dialog_title">Choisir le dossier des cartes hors-ligne</string>
-    <string name="pref_maps_offline_file_summary">(Tous les profils) <xliff:g>%1$s</xliff:g>
+    <string name="pref_maps_offline_file_summary">(Tous les profils) %1$s
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Aucun dossier sélectionné.</string>
     <string name="pref_maps_offline_info_title">Télécharger maintenant</string>
@@ -729,15 +729,15 @@
     <string name="pref_powermeter_parameters_info_title">Remarque!</string>
     <string name="pref_powermeter_parameters_info_summary">Pour des lectures précises de puissance et d\'énergie, assurez-vous que ces paramètres sont corrects!</string>
     <string name="pref_power_weights_title">Poids</string>
-    <string name="pref_power_weights_summary">Conducteur: <xliff:g>%1$s</xliff:g>, Véhicule: <xliff:g>%2$s</xliff:g>, Cargaison: <xliff:g>%3$s</xliff:g>, Passagers: <xliff:g>%4$s</xliff:g>, Roues: <xliff:g>%5$s</xliff:g>
+    <string name="pref_power_weights_summary">Conducteur: %1$s, Véhicule: %2$s, Cargaison: %3$s, Passagers: %4$s, Roues: %5$s
     </string>
     <string name="pref_power_coefs_title">Coefficients</string>
-    <string name="pref_power_coefs_summary">Zone de trainée: <xliff:g>%1$s
-\n</xliff:g>Résistance de roulement: <xliff:g>%2$s</xliff:g>
+    <string name="pref_power_coefs_summary">Zone de trainée: %1$s
+\nRésistance de roulement: %2$s
     </string>
     <string name="pref_energy_params_title">Paramètres d\'énergie</string>
-    <string name="pref_energy_params_summary">Efficacité: <xliff:g>%1$s
-\n</xliff:g>Metabolisme: <xliff:g>%2$s</xliff:g>
+    <string name="pref_energy_params_summary">Efficacité: %1$s
+\nMetabolisme: %2$s
     </string>
     <string name="pref_svg_data_enable_title">Générer les graphiques</string>
     <string name="pref_svg_data_enable_summary">Générer des fichiers de données graphiques SVG pour différents paramètres de trajet</string>
@@ -801,13 +801,13 @@
     <string name="infoMeterModePaceTitle">Allure</string>
     <string name="infoMeterModePaceMsg">Inverser la vitesse — Actuelle, maximale et moyenne.</string>
     <string name="infoMeterModeAccelerationTitle">Accélération</string>
-    <string name="infoMeterModeAccelerationMsg">Taux de changement de vitesse - Actuel, Maximum et Minimum.<xliff:g>
+    <string name="infoMeterModeAccelerationMsg">Taux de changement de vitesse - Actuel, Maximum et Minimum.
 \n
-\n</xliff:g> Négatif signifie décélération.</string>
+\n Négatif signifie décélération.</string>
     <string name="infoMeterModePowerTitle">Puissance</string>
-    <string name="infoMeterModeAvgActivePowerMsg">Puissance moyenne exercée au cours de l’activité, sans compter les intervalles où la puissance était absente ou très faible (en descente, au freinage, en roue libre). <xliff:g>
+    <string name="infoMeterModeAvgActivePowerMsg">Puissance moyenne exercée au cours de l’activité, sans compter les intervalles où la puissance était absente ou très faible (en descente, au freinage, en roue libre).
 \n
-\n</xliff:g> Lorsque vous effectuez un entraînement intense, ce sera essentiellement votre puissance de seuil fonctionnelle (FTP (Functional Threshold Power)).</string>
+\n Lorsque vous effectuez un entraînement intense, ce sera essentiellement votre puissance de seuil fonctionnelle (FTP (Functional Threshold Power)).</string>
     <string name="infoMeterModeVerticalPowerTitle">Puissance verticale</string>
     <string name="infoMeterModeTemperatureTitle">Température</string>
     <string name="infoMeterModePressureTitle">Pression</string>
@@ -940,7 +940,7 @@
     <string name="prefUnitsPowerEntries_2">[kcal/h]</string>
     <string name="prefUnitsPowerEntries_3">[kJ/h]</string>
     <!-- prefUnitsSlopeEntries -->
-    <string name="prefUnitsSlopeEntries_0">Pourcent [<xliff:g id="fullwidthPercentSign">\uff05</xliff:g>]</string>
+    <string name="prefUnitsSlopeEntries_0">Pourcent [\uff05]</string>
     <string name="prefUnitsSlopeEntries_1">Degrés [°]</string>
     <string name="prefUnitsSlopeEntries_2">Pour mille [‰]</string>
     <!-- pref_hud_axis_entries -->

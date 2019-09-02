@@ -48,7 +48,7 @@
     <string name="profileNameDefault">Novi Profil</string>
     <string name="featureNotAvailable">Izvinite, opcija nije dostupna na ovom uređaju</string>
     <string name="toastRestartRequired">Molimo Vas restartujte aplikaciju da bi ova promena bila primenjena</string>
-    <string name="toastActiveProfile">Profil: <xliff:g>%1$s</xliff:g>
+    <string name="toastActiveProfile">Profil: %1$s
     </string>
     <string name="toastProfileSavingError">Greška pri snimanju podataka profila. Molimo Vas pokušajte ponovo.</string>
     <string name="toastProfileChangeError">Greška pri zameni profila. Molimo Vas pokušajte ponovo.</string>
@@ -60,11 +60,11 @@
     <string name="toastTrackZippingError">Greška pri arhiviranju staze! Pokušajte ponovo sa resetovanjem.</string>
     <string name="toastTrackMovingError">Greška pri premeštanju staze na USB memoriju! Pokušajte ponovo sa resetovanjem.</string>
     <string name="toastPressAgainToExit">Kliknite još jednom da biste izašli</string>
-    <string name="toastFenceGuardFenceAdded">ZaštitnaOgrada: Ograda <xliff:g>%1$s</xliff:g> je dodana</string>
+    <string name="toastFenceGuardFenceAdded">ZaštitnaOgrada: Ograda %1$s je dodana</string>
     <string name="toastFenceGuardFenceAddingError">ZaštitnaOgrada: Greška pri dodavanju ograde</string>
-    <string name="toastFenceGuardFenceUpdated">ZaštitnaOgrada: Ograda <xliff:g>%1$s</xliff:g> je ažurirana</string>
+    <string name="toastFenceGuardFenceUpdated">ZaštitnaOgrada: Ograda %1$s je ažurirana</string>
     <string name="toastFenceGuardFenceUpdatingError">ZaštitnaOgrada: Greška pri ažuriranju ograde</string>
-    <string name="toastFenceGuardFenceRemoved">ZaštitnaOgrada: Ograda <xliff:g>%1$s</xliff:g> je uklonjena</string>
+    <string name="toastFenceGuardFenceRemoved">ZaštitnaOgrada: Ograda %1$s je uklonjena</string>
     <string name="toastFenceGuardFenceRemovingError">ZaštitnaOgrada: Greška pri uklanjanju ograde</string>
     <string name="toastFenceGuardOutsideTheFence">ZaštitnaOgrada: Trenutno se ne nalazite unutar ograde</string>
     <string name="toastFenceGuardLocationUnavailable">ZaštitnaOgrada: Vaša lokacija je još uvek nedostupna</string>
@@ -104,27 +104,27 @@
     <string name="dialog_fenceguard_update_text2">Ograda podignuta oko Vaše lokacije štiti je od izloženosti u snimljenim stazama.</string>
     <string name="dialog_fenceguard_remove_title">Uklonite ogradu</string>
     <string name="dialog_fenceguard_remove_defaultText">Da li ste sigurni da želite da uklonite ogradu\?</string>
-    <string name="dialog_fenceguard_remove_formatText">Da li ste sigurni da želite da uklonite ogradu <xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialog_fenceguard_remove_formatText">Da li ste sigurni da želite da uklonite ogradu %1$s\?</string>
     <string name="dialogProfileDeleteTitle">Izbrišite profil</string>
     <string name="dialogProfileDeleteMessage">Upozorenje: Ovom akcijom uklonićete podešavanja profila i zbirne podatke. Ovo neće uticati na sačuvane staze.
 \n
-\nIzbrišite profil <xliff:g>%1$s</xliff:g>\?</string>
+\nIzbrišite profil %1$s\?</string>
     <string name="dialogProfileAddTitle">Novi profil</string>
     <string name="dialogProfileEditTitle">Izmenite profil</string>
     <string name="dialogProfileEditTotals">Zbir:</string>
     <string name="dialogProfileTotalsResetMessage">Resetujte zbirne podatke profila na nulu\?</string>
     <string name="dialogProfileSwitchTitle">Zamenite profil</string>
-    <string name="dialogProfileSwitchMessage">Praćenje je uključeno. Da li ste sigurni da želite da pređete na profil <xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialogProfileSwitchMessage">Praćenje je uključeno. Da li ste sigurni da želite da pređete na profil %1$s\?</string>
     <string name="dialogTracksDeleteTitle">Izbrišite staze</string>
     <string name="dialogTrackDeleteMessage">Upozorenje: Ova radnja je nepovratna.
 \n
-\nIzbrišite stazu <xliff:g>%1$s</xliff:g>\?</string>
+\nIzbrišite stazu %1$s\?</string>
     <string name="dialogTrackResumeTitle">Nastavite stazu</string>
     <string name="dialogTrackResumeGpsActiveMessage">Paćenje je uključeno. Molimo Vas da prvo isključite ili pauzirate GPS.</string>
-    <string name="dialogTrackResumeProfileNotBlankMessage">Željeni profil <xliff:g>%1$s</xliff:g> nije prazan. Molimo Vas, prvo izvršite resetovanje.</string>
-    <string name="dialogTrackResumeProfileSwitchMessage">Aktivni profil <xliff:g>%1$s</xliff:g> će biti zamenjen profilom <xliff:g>%2$s</xliff:g>. Nastavite\?</string>
-    <string name="dialogTrackResumeProfileMissingMessage">Profil <xliff:g>%1$s</xliff:g> pod kojim je ova staza napravljena više ne postoji. Nastavite stazu u trenutnom profilu <xliff:g>%2$s</xliff:g>\?</string>
-    <string name="dialogTrackResumeGeneralPromptMessage">Staza će biti nastavljena pod profilom <xliff:g>%1$s</xliff:g>. Nastavite\?</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">Željeni profil %1$s nije prazan. Molimo Vas, prvo izvršite resetovanje.</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">Aktivni profil %1$s će biti zamenjen profilom %2$s. Nastavite\?</string>
+    <string name="dialogTrackResumeProfileMissingMessage">Profil %1$s pod kojim je ova staza napravljena više ne postoji. Nastavite stazu u trenutnom profilu %2$s\?</string>
+    <string name="dialogTrackResumeGeneralPromptMessage">Staza će biti nastavljena pod profilom %1$s. Nastavite\?</string>
     <string name="dialogTrackResumeGeneralErrorMessage">Pojavila se greška. Molimo Vas pokušajte ponovo.</string>
     <string name="dialogTrackResumeWaitMessage">Nastavljanje, molimo sačekajte...</string>
     <string name="dialogTracksShareTitle">Podelite staze</string>
@@ -229,7 +229,7 @@
     <string name="meterTextMax">max</string>
     <string name="meterTextAvg">prosek</string>
     <string name="profilesListTitleSelectProfile">Zamenite Profil</string>
-    <string name="profilesListRowTotalsSince">Ukupno od: <xliff:g>%1$s</xliff:g>
+    <string name="profilesListRowTotalsSince">Ukupno od: %1$s
     </string>
     <string name="profilesListButtonResetTotals">Resetovanje zbirnih podataka</string>
     <string name="tracksHistoryListTitle">Arhiva staza</string>
@@ -373,8 +373,8 @@
     <string name="pref_soundeffects_countdown_title">Odbrojavanje</string>
     <string name="pref_soundeffects_countdown_summary">Zvučni signal prilikom odbrojavanja pre nastavka kretanja (...3, 2, 1, KRENI!)</string>
     <string name="pref_soundeffects_tally_title">Omogućite</string>
-    <string name="pref_soundeffects_tally_value_summary">Svakih <xliff:g>%1$s</xliff:g>
-        <xliff:g>%2$s</xliff:g>
+    <string name="pref_soundeffects_tally_value_summary">Svakih %1$s
+        %2$s
     </string>
     <string name="pref_soundeffects_tally_distance_title">Razdaljina</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">Dužina deonice</string>
@@ -392,7 +392,7 @@
     <string name="pref_maps_online_mode_dialog_title">Izvor mapa</string>
     <string name="pref_maps_offline_file_title">Izaberite datoteku ili fasciklu</string>
     <string name="pref_maps_offline_file_dialog_title">Izaberite fasciklu sa offline mapama</string>
-    <string name="pref_maps_offline_file_summary">(Važi za sve profile) <xliff:g>%1$s</xliff:g>
+    <string name="pref_maps_offline_file_summary">(Važi za sve profile) %1$s
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Nije odabrana nijedna fascikla.</string>
     <string name="pref_maps_offline_info_title">Preuzmite sada</string>
@@ -423,15 +423,15 @@
     <string name="pref_speedo_display_mode_dialog_title">Izgled merača brzine</string>
     <string name="pref_powermeter_display_mode_dialog_title">Režim prikaza snage</string>
     <string name="pref_power_weights_title">Težine</string>
-    <string name="pref_power_weights_summary">Vozač: <xliff:g>%1$s</xliff:g>, Vozilo: <xliff:g>%2$s</xliff:g>, Teret: <xliff:g>%3$s</xliff:g>, Putnici: <xliff:g>%4$s</xliff:g>, Točkovi: <xliff:g>%5$s</xliff:g>
+    <string name="pref_power_weights_summary">Vozač: %1$s, Vozilo: %2$s, Teret: %3$s, Putnici: %4$s, Točkovi: %5$s
     </string>
     <string name="pref_power_coefs_title">Koeficijenti</string>
-    <string name="pref_power_coefs_summary">Površina otpora: <xliff:g>%1$s
-\n</xliff:g>Obrtni otpor: <xliff:g>%2$s</xliff:g>
+    <string name="pref_power_coefs_summary">Površina otpora: %1$s
+\nObrtni otpor: %2$s
     </string>
     <string name="pref_energy_params_title">Parametri energije</string>
-    <string name="pref_energy_params_summary">Efikasnost: <xliff:g>%1$s
-\n</xliff:g>Metabolizam: <xliff:g>%2$s</xliff:g>
+    <string name="pref_energy_params_summary">Efikasnost: %1$s
+\nMetabolizam: %2$s
     </string>
     <string name="pref_svg_data_enable_title">Generisanje grafikona</string>
     <string name="pref_svg_data_modes_select_title">Izaberite vrste grafikona...</string>
@@ -457,9 +457,9 @@
     <string name="infoMeterModePaceTitle">Tempo</string>
     <string name="infoMeterModePaceMsg">Tempo (obrnuta brzina) — Trenutni, Maksimalni i Prosečni.</string>
     <string name="infoMeterModeAccelerationTitle">Ubrzanje</string>
-    <string name="infoMeterModeAccelerationMsg">Kurs promene brzine — Trenutni, Maksimalni i Minimalni.<xliff:g>
+    <string name="infoMeterModeAccelerationMsg">Kurs promene brzine — Trenutni, Maksimalni i Minimalni.
 \n
-\n</xliff:g>Negativna vrednost označava smanjenje brzine.</string>
+\nNegativna vrednost označava smanjenje brzine.</string>
     <string name="infoMeterModePowerTitle">Snaga</string>
     <string name="infoMeterModeTemperatureTitle">Temperatura</string>
     <string name="infoMeterModeClockTitle">Sat</string>

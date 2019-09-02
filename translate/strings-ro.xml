@@ -68,7 +68,7 @@
     <string name="featureNotAvailable">Scuze, această funcție nu este disponibilă pe acest tip de echipament</string>
     <string name="farFromHere">Departe de aici</string>
     <string name="toastRestartRequired">Reporniți aplicația pentru efectuarea schimbărilor</string>
-    <string name="toastActiveProfile">Profil: <xliff:g>%1$s</xliff:g>
+    <string name="toastActiveProfile">Profil: %1$s
     </string>
     <string name="toastProfileSavingError">Eroare salvare date profil! Reîncercați.</string>
     <string name="toastProfileChangeError">Nu se poate schimba profilul! Reincercati.</string>
@@ -84,11 +84,11 @@
     <string name="toastTrackingRecordingPassive">Înregistare pasivă</string>
     <string name="toastTrackingPaused">Întrerupt</string>
     <string name="toastTrackingStopped">Oprit</string>
-    <string name="toastFenceGuardFenceAdded">FenceGuard: Protecţia <xliff:g>%1$s</xliff:g> a fost adăugată</string>
+    <string name="toastFenceGuardFenceAdded">FenceGuard: Protecţia %1$s a fost adăugată</string>
     <string name="toastFenceGuardFenceAddingError">FenceGuard: Eroare adăugare profil</string>
-    <string name="toastFenceGuardFenceUpdated">FenceGuard: Protecţia <xliff:g>%1$s</xliff:g> a fost actualizată</string>
+    <string name="toastFenceGuardFenceUpdated">FenceGuard: Protecţia %1$s a fost actualizată</string>
     <string name="toastFenceGuardFenceUpdatingError">FenceGuard: Eroare actualizare protecţie</string>
-    <string name="toastFenceGuardFenceRemoved">FenceGuard: Profilul <xliff:g>%1$s</xliff:g> șters</string>
+    <string name="toastFenceGuardFenceRemoved">FenceGuard: Profilul %1$s șters</string>
     <string name="toastFenceGuardFenceRemovingError">FenceGuard: Eroare ştergere protecţie</string>
     <string name="toastFenceGuardOutsideTheFence">FenceGuard: nu ești parte a unui profil</string>
     <string name="toastFenceGuardLocationUnavailable">FenceGuard: Locație indisponibilă</string>
@@ -124,7 +124,7 @@
     <string name="toastSensorDisabled">Senzor oprit</string>
     <string name="toastAutoThemeActivated">Tema vizuală automată activată</string>
     <string name="toastCancelled">Anulat</string>
-    <string name="notificationTitleAdvancedPaused">Pauză: <xliff:g>%1$s</xliff:g>
+    <string name="notificationTitleAdvancedPaused">Pauză: %1$s
     </string>
     <string name="licenseSuccessDialogMessage">Licența a fost aplicată cu succes. Îți mulțumim pentru suport!</string>
     <string name="ongoingNotificationChannelName">Notificare continuă</string>
@@ -150,61 +150,61 @@
     <string name="dialog_fenceguard_update_text2">Protecţia va fi ridicată în jurul locaţiei tale actuale pentru a-ţi proteja traseele salvate de expuneri nedorite.</string>
     <string name="dialog_fenceguard_remove_title">Elimină protecţia</string>
     <string name="dialog_fenceguard_remove_defaultText">Eşti sigur că vrei să elimini protecţia\?</string>
-    <string name="dialog_fenceguard_remove_formatText">Eşti sigur că vrei să elimini protecţia <xliff:g>%1$s</xliff:g>\?</string>
-    <string name="dialog_track_save_text">Distanță <xliff:g>%1$.3f %2$s
-\n</xliff:g>Durată <xliff:g>%3$s
-\n</xliff:g>
-        <xliff:g>(%4$s)
+    <string name="dialog_fenceguard_remove_formatText">Eşti sigur că vrei să elimini protecţia %1$s\?</string>
+    <string name="dialog_track_save_text">Distanță %1$.3f %2$s
+\nDurată %3$s
 \n
-\n</xliff:g> Cursa pare să fie foarte scurtă. Salvezi această cursă\?</string>
+        (%4$s)
+\n
+\n Cursa pare să fie foarte scurtă. Salvezi această cursă\?</string>
     <string name="dialog_exit_msg">Atenţie: Înregistrarea este activă, şi va fi oprită.</string>
     <string name="dialogProfileDeleteTitle">Şterge profil</string>
     <string name="dialogProfileDeleteMessage">Atenţie: Setările de profil şi totalurile vor fi şterse. Traseele salvate nu vor fi afectate.
 \n
-\nŞtergi profilul <xliff:g>%1$s</xliff:g>\?</string>
+\nŞtergi profilul %1$s\?</string>
     <string name="dialogProfileAddTitle">Profil nou</string>
     <string name="dialogProfileAddInfo">Noul profil va copia setările din profilul activ curent.</string>
     <string name="dialogProfileEditTitle">Editează profil</string>
     <string name="dialogProfileEditTotals">Totaluri:</string>
     <string name="dialogProfileTotalsResetMessage">Resetează totalurile profilului la zero\?</string>
     <string name="dialogProfileSwitchTitle">Schimbă profilul</string>
-    <string name="dialogProfileSwitchMessage">Înregistrarea este activă. Eşti sigur că vrei să schimbi profilul <xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialogProfileSwitchMessage">Înregistrarea este activă. Eşti sigur că vrei să schimbi profilul %1$s\?</string>
     <string name="dialogTracksDeleteTitle">Şterge traseele</string>
     <string name="dialogTracksDeleteMessage">Atenţie: Această acţiune nu mai poate fi inversată.
 \n
 \nŞtergi traseele selectate\?</string>
     <string name="dialogTrackDeleteMessage">Atenţie: Această acţiune nu mai poate fi inversată.
 \n
-\nŞtergi traseul <xliff:g>%1$s</xliff:g>\?</string>
+\nŞtergi traseul %1$s\?</string>
     <string name="dialogTrackResumeTitle">Reia traseul</string>
     <string name="dialogTrackResumeGpsActiveMessage">Înregistrarea este activă. Te rog închide sau întrerupe GPS-ul întâi.</string>
-    <string name="dialogTrackResumeProfileNotBlankMessage">Profilul ţintă <xliff:g>%1$s</xliff:g> nu este gol. Te rog resetează întâi.</string>
-    <string name="dialogTrackResumeProfileSwitchMessage">Profilul activ va fi schimbat din <xliff:g>%1$s</xliff:g> în <xliff:g>%2$s</xliff:g>. Continuă\?</string>
-    <string name="dialogTrackResumeProfileMissingMessage">Profilul <xliff:g>%1$s</xliff:g> care a creat acest traseu nu mai există. Reiei folosind profilul curent <xliff:g>%2$s</xliff:g>\?</string>
-    <string name="dialogTrackResumeGeneralPromptMessage">Traseul va fi reluat folosind profilul <xliff:g>%1$s</xliff:g>. Continuă\?</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">Profilul ţintă %1$s nu este gol. Te rog resetează întâi.</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">Profilul activ va fi schimbat din %1$s în %2$s. Continuă\?</string>
+    <string name="dialogTrackResumeProfileMissingMessage">Profilul %1$s care a creat acest traseu nu mai există. Reiei folosind profilul curent %2$s\?</string>
+    <string name="dialogTrackResumeGeneralPromptMessage">Traseul va fi reluat folosind profilul %1$s. Continuă\?</string>
     <string name="dialogTrackResumeGeneralErrorMessage">A apărut o eroare. Te rog să reîncerci.</string>
     <string name="dialogTrackResumeWaitMessage">Reiau, te rog aşteaptă...</string>
     <string name="dialogTracksShareTitle">Partajează trasee</string>
     <string name="dialogTracksShareGeneralErrorMessage">A apărut o eroare. Te rog să reîncerci.</string>
     <string name="dialogTracksShareCountExceeded">Nu se pot distribui mai mult de 100 de trasee odată.</string>
     <string name="dialogGpsSettingsPromptTitle">Localizarea este oprită</string>
-    <string name="dialogGpsSettingsPromptMessage">Nu vei putea folosi multe din caracteristicile aceastei aplicații fără Localizare.<xliff:g>
+    <string name="dialogGpsSettingsPromptMessage">Nu vei putea folosi multe din caracteristicile aceastei aplicații fără Localizare.
 \n
-\n</xliff:g>Te rog fii sigur că Localizarea este activată și este ales modul \'Acuratețe mare\'.<xliff:g>
+\nTe rog fii sigur că Localizarea este activată și este ales modul \'Acuratețe mare\'.
 \n
-\n</xliff:g>Deschizi acum setările Localizării\?</string>
+\nDeschizi acum setările Localizării\?</string>
     <string name="dialogBaroAltitudePromptTitle">Problemă cu altitudinea barometrică</string>
-    <string name="dialogBaroAltitudePromptMessage">Altitudinea barometrică a fost oprită forțat din cauza diferențelor cu cea oferită de GPS!<xliff:g>
+    <string name="dialogBaroAltitudePromptMessage">Altitudinea barometrică a fost oprită forțat din cauza diferențelor cu cea oferită de GPS!
 \n
-\n</xliff:g>Te rpg sa nu o folosești in spații inchise sau cu aer condiționat!</string>
+\nTe rpg sa nu o folosești in spații inchise sau cu aer condiționat!</string>
     <string name="dialogBaroAltitudeNoticeTitle">Notă</string>
-    <string name="dialogBaroAltitudeNoticeMessage">Altitudinea barometrică funcționează doar la exterior. <xliff:g>
+    <string name="dialogBaroAltitudeNoticeMessage">Altitudinea barometrică funcționează doar la exterior.
 \n
-\n</xliff:g>Te rog să nu o folosești in spații închise sau cu aer conditionat precum vehicule sau avioane.</string>
+\nTe rog să nu o folosești in spații închise sau cu aer conditionat precum vehicule sau avioane.</string>
     <string name="dialogThermoBarometerNoticeTitle">Notă</string>
-    <string name="dialogThermoBarometerNoticeMessage">Termo-barometrul depinde de temperatura ambiantă exterioară pentru precizie<xliff:g>
+    <string name="dialogThermoBarometerNoticeMessage">Termo-barometrul depinde de temperatura ambiantă exterioară pentru precizie
 \n
-\n</xliff:g>Te rog să nu îl folosești in spații închise sau cu aer conditionat precum vehicule sau avioane.</string>
+\nTe rog să nu îl folosești in spații închise sau cu aer conditionat precum vehicule sau avioane.</string>
     <string name="dialogResetTitle">Finalizare</string>
     <string name="dialogResetMessage">Salvează această cursă și pregătește una nouă\?</string>
     <string name="dialogResetNoTrackMessage">Nu s-a salvat nicio cursă. Resetezi măsurătorile acum\?</string>
@@ -260,19 +260,19 @@
     <string name="dialogGpsIntervalTitle">Interval actualizare GPS</string>
     <string name="dialogGpsIntervalNote">Notă: Păstrează această valoare sub 3sec. pentru a obține date precise și un comportament consecvent!</string>
     <string name="dialogGpsIntervalLabelMore">
-        <xliff:g>◀
-\n</xliff:g>Mai multă acuratețe folosește mai multă baterie</string>
+        ◀
+\nMai multă acuratețe folosește mai multă baterie</string>
     <string name="dialogLocationPermissionRequestTitle">Permiterea localizării</string>
     <string name="dialogLocationPermissionRequest">Aplicația necesită acces la localizare pentru a înregistra actiivitățile tale in aer liber.</string>
     <string name="dialogStoragePermissionRequestTitle">Permiterea stocării</string>
-    <string name="dialogStoragePermissionRequest">Aplicația necesită acces la stocare pentru a salva sau restaura traseele sau setările tale. <xliff:g>
+    <string name="dialogStoragePermissionRequest">Aplicația necesită acces la stocare pentru a salva sau restaura traseele sau setările tale.
 \n
-\n</xliff:g>Fără această permisiune nu vei putea să vezi istoricul traseelor sau să impătășești trasee, și poți pierde datele tale.</string>
+\nFără această permisiune nu vei putea să vezi istoricul traseelor sau să impătășești trasee, și poți pierde datele tale.</string>
     <string name="dialogCameraPermissionRequestTitle">Permiterea fotografierii</string>
     <string name="dialogCameraPermissionRequest">Permisiunea este necesară pentru a putea activa lanterna.</string>
-    <string name="dialogPermissionProblemMessage">Această permisiune este necesară pentru ca aplicația să funcționeze corect. Poate fi acordată in pagina de Permisiuni pentru aplicații.<xliff:g>
+    <string name="dialogPermissionProblemMessage">Această permisiune este necesară pentru ca aplicația să funcționeze corect. Poate fi acordată in pagina de Permisiuni pentru aplicații.
 \n
-\n</xliff:g>mergi acolo acum\?</string>
+\nmergi acolo acum\?</string>
     <string name="mapLayerStreet">Stradă</string>
     <string name="mapLayerTerrain">Teren</string>
     <string name="mapLayerSatellite">Satelit</string>
@@ -394,7 +394,7 @@
     <string name="profilesListTitle">Profile</string>
     <string name="profilesListTitleSelectProfile">Schimbă profil</string>
     <string name="profilesListAddProfile">Profil Nou</string>
-    <string name="profilesListRowTotalsSince">Totals de la: <xliff:g>%1$s</xliff:g>
+    <string name="profilesListRowTotalsSince">Totals de la: %1$s
     </string>
     <string name="profilesListButtonResetTotals">Resetează totalurile</string>
     <string name="profilesListProfileNotUsed">(nefolosit)</string>
@@ -443,7 +443,7 @@
     <string name="sensorPurposeSpeed">Viteză</string>
     <string name="sensorPurposePower">Putere</string>
     <string name="sensorPurposeHeartRate">Ritm cardiac</string>
-    <string name="sensorProperitesProfileInfo">Proprietățile senzorilor sunt administrate per profil. Proprietățile administrate aici sunt doar pentru profilul activ curent (<xliff:g id="profile_name">%1$s</xliff:g>).</string>
+    <string name="sensorProperitesProfileInfo">Proprietățile senzorilor sunt administrate per profil. Proprietățile administrate aici sunt doar pentru profilul activ curent (%1$s).</string>
     <string name="sensorProperitesUseForSpeed">Folosit pentru viteză</string>
     <string name="sensorProperitesUseForCadence">Folosit pentru cadență</string>
     <string name="sensorProperitesIsInverted">Schimbă viteza cu cadența</string>
@@ -568,8 +568,8 @@
     <string name="pref_bell_shake_sensitivity_title">Sensibilitatea scuturării</string>
     <string name="pref_roaring_type_title">Tip</string>
     <string name="pref_roaring_type_dialog_title">Tip claxon</string>
-    <string name="pref_volume_summary_text">Clopoțel:<xliff:g> %1$s</xliff:g>, Claxon:<xliff:g> %2$s
-\n</xliff:g>Numărătoare:<xliff:g> %3$s</xliff:g>, Efecte:<xliff:g> %4$s</xliff:g>, Alarme:<xliff:g> %5$s</xliff:g>
+    <string name="pref_volume_summary_text">Clopoțel: %1$s, Claxon: %2$s
+\nNumărătoare: %3$s, Efecte: %4$s, Alarme: %5$s
     </string>
     <string name="pref_bg_color_title">Culoare fundal</string>
     <string name="pref_bg_color_summary">Alege culoare dorită pentru fundalul aplicației</string>
@@ -629,8 +629,8 @@
     <string name="pref_soundeffects_countdown_title">Numărătoare inversă</string>
     <string name="pref_soundeffects_countdown_summary">Sunet pentru numărătoare inversă înainte să continuăm traseul (…3, 2, 1, START!)</string>
     <string name="pref_soundeffects_tally_title">Pornește</string>
-    <string name="pref_soundeffects_tally_value_summary">La fiecare <xliff:g>%1$s</xliff:g>
-        <xliff:g>%2$s</xliff:g>
+    <string name="pref_soundeffects_tally_value_summary">La fiecare %1$s
+        %2$s
     </string>
     <string name="pref_soundeffects_tally_distance_title">Distanță</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">Calculare distantă</string>
@@ -657,7 +657,7 @@
     <string name="pref_maps_online_mode_dialog_title">Sursă hărți</string>
     <string name="pref_maps_offline_file_title">Alege fișier sau dosar</string>
     <string name="pref_maps_offline_file_dialog_title">Alege dosar hărți offline</string>
-    <string name="pref_maps_offline_file_summary">(Toate profilele) <xliff:g>%1$s</xliff:g>
+    <string name="pref_maps_offline_file_summary">(Toate profilele) %1$s
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Nici un dosar selectat.</string>
     <string name="pref_maps_offline_info_title">Descarcă acum</string>
@@ -706,15 +706,15 @@
     <string name="pref_powermeter_parameters_info_title">Notă!</string>
     <string name="pref_powermeter_parameters_info_summary">Pentru o citire exactă a puterii și energiei, vă rugăm să vă asigurați că acești parametri sunt corecți!</string>
     <string name="pref_power_weights_title">Greutăţi</string>
-    <string name="pref_power_weights_summary">Conducător: <xliff:g>%1$s</xliff:g>, Vehicul: <xliff:g>%2$s</xliff:g>, Bagaj: <xliff:g>%3$s</xliff:g>, Pasageri: <xliff:g>%4$s</xliff:g>, Roți: <xliff:g>%5$s</xliff:g>
+    <string name="pref_power_weights_summary">Conducător: %1$s, Vehicul: %2$s, Bagaj: %3$s, Pasageri: %4$s, Roți: %5$s
     </string>
     <string name="pref_power_coefs_title">Coeficienți</string>
-    <string name="pref_power_coefs_summary">Zonă rezistență: <xliff:g>%1$s
-\n</xliff:g>Rezistență rulare: <xliff:g>%2$s</xliff:g>
+    <string name="pref_power_coefs_summary">Zonă rezistență: %1$s
+\nRezistență rulare: %2$s
     </string>
     <string name="pref_energy_params_title">Parametri energetici</string>
-    <string name="pref_energy_params_summary">Eficiență: <xliff:g>%1$s
-\n</xliff:g>Metabolism: <xliff:g>%2$s</xliff:g>
+    <string name="pref_energy_params_summary">Eficiență: %1$s
+\nMetabolism: %2$s
     </string>
     <string name="pref_svg_data_enable_title">Generare grafice</string>
     <string name="pref_svg_data_enable_summary">Generează fișiere de tip grafic SVG pentru diferiți parametrii de cursă</string>
@@ -774,9 +774,9 @@
     <string name="infoMeterModePaceTitle">Ritm</string>
     <string name="infoMeterModePaceMsg">Viteză inversată - Curentă, Maximă si Medie.</string>
     <string name="infoMeterModeAccelerationTitle">Accelerație</string>
-    <string name="infoMeterModeAccelerationMsg">Rata de schimbare a vitezei - Curentă, Maximă și Minimă. <xliff:g>
+    <string name="infoMeterModeAccelerationMsg">Rata de schimbare a vitezei - Curentă, Maximă și Minimă.
 \n
-\n</xliff:g> Negativ înseamnă decelerare.</string>
+\n Negativ înseamnă decelerare.</string>
     <string name="infoMeterModePowerTitle">Putere</string>
     <string name="infoMeterModeVerticalPowerTitle">Putere verticală</string>
     <string name="infoMeterModeTemperatureTitle">Temperatură</string>
@@ -808,8 +808,8 @@
     <string name="ultimateLicenseTitleYearly">Licență Ultimate (anuală)</string>
     <string name="toastMapClickInfo">Apasă lung pentru setările hărții</string>
     <string name="dialogGpsIntervalLabelLess">
-        <xliff:g>▶
-\n</xliff:g>Mai puțin precisă, utilizează mai puțină baterie</string>
+        ▶
+\nMai puțin precisă, utilizează mai puțină baterie</string>
     <!-- dialog_fenceguard_add_entries -->
     <string name="dialog_fenceguard_add_entries_0">Adaugă protecție</string>
     <!-- dialog_fenceguard_update_entries -->

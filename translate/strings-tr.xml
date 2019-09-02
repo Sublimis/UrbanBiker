@@ -63,7 +63,7 @@
     <string name="featureNotAvailable">Üzgünüm, bu özellik bu cihazda desteklenmemektedir</string>
     <string name="farFromHere">burdan uzak</string>
     <string name="toastRestartRequired">Değişikliklerin etkili olması için yeniden başlatın</string>
-    <string name="toastActiveProfile">Profil: %1$s<xliff:g>%1$s</xliff:g>
+    <string name="toastActiveProfile">Profil: %1$s%1$s
     </string>
     <string name="toastProfileSavingError">Profil verileri kaydedilirken hata! Lütfen tekrar deneyin.</string>
     <string name="toastProfileChangeError">Profil değiştirilemedi! Lütfen tekrar deneyin.</string>
@@ -107,7 +107,7 @@
     <string name="toastSoundsDisabled">Ses devredışı</string>
     <string name="toastSensorEnabled">Sensör etkin</string>
     <string name="toastSensorDisabled">Sensör devredışı</string>
-    <string name="notificationTitleAdvancedPaused">Duraklatıldı: %1$s<xliff:g>%1$s</xliff:g>
+    <string name="notificationTitleAdvancedPaused">Duraklatıldı: %1$s%1$s
     </string>
     <string name="licenseSuccessDialogMessage">Uygulama başarıyla lisanslandı. Desteğiniz için teşekkürler!</string>
     <string name="ongoingNotificationChannelName">Devam eden bildirim</string>
@@ -131,16 +131,16 @@
     <string name="dialog_fenceguard_update_text2">Fenceolarak işaretlenen yer, sizin sabit olarak kayıt edilmesini sağlar. Mesela ev, iş yeri, park gibi. Bu sayede daha az pil kullanır.</string>
     <string name="dialog_fenceguard_remove_title">Fence\'i sil</string>
     <string name="dialog_fenceguard_remove_defaultText">Fence\'i silmek istediğinize emin misiniz\?</string>
-    <string name="dialog_fenceguard_remove_formatText">%1$s\? adlı fence\'i kaldırmak istediğinizden emin misiniz\?<xliff:g>%1$s</xliff:g>\? adlı fence\'i kaldırmak istediğinizden emin misiniz\?</string>
+    <string name="dialog_fenceguard_remove_formatText">%1$s\? adlı fence\'i kaldırmak istediğinizden emin misiniz\?%1$s\? adlı fence\'i kaldırmak istediğinizden emin misiniz\?</string>
     <string name="dialogProfileDeleteTitle">Profili sil</string>
     <string name="dialogProfileAddTitle">Yeni Profil</string>
     <string name="dialogProfileEditTitle">Profili düzenle</string>
     <string name="dialogProfileEditTotals">Toplam:</string>
     <string name="dialogProfileTotalsResetMessage">Tüm profil değerlerini sıfırlamak istediğinize emin misiniz\?</string>
     <string name="dialogProfileSwitchTitle">Profil değiştir</string>
-    <string name="dialogProfileSwitchMessage">Rota kaydediliyor. <xliff:g>%1$s</xliff:g>\? isimli profile geçmek istediğinizden emin misiniz\?</string>
+    <string name="dialogProfileSwitchMessage">Rota kaydediliyor. %1$s\? isimli profile geçmek istediğinizden emin misiniz\?</string>
     <string name="dialogTracksDeleteTitle">Rotaları sil</string>
-    <string name="dialogTrackDeleteMessage">Uyarı:Bu eylem geri alınamaz. <xliff:g>%1$s</xliff:g>\? isimli rotayı silmek istediğinizden emin misiniz\?</string>
+    <string name="dialogTrackDeleteMessage">Uyarı:Bu eylem geri alınamaz. %1$s\? isimli rotayı silmek istediğinizden emin misiniz\?</string>
     <string name="dialogTrackResumeTitle">Devam et</string>
     <string name="dialogTrackResumeGpsActiveMessage">Rota kaydediliyor. Lütfen devam etmeden önce GPS\'i duraklatın veya durdurun.</string>
     <string name="dialogTrackResumeGeneralErrorMessage">Hata. Lütfen tekrar deneyin.</string>
@@ -416,8 +416,8 @@
     <string name="pref_soundeffects_countdown_title">Geri sayım</string>
     <string name="pref_soundeffects_countdown_summary">Rotayı devam etmeden önceki geri sayım (... 3, 2 , 1 , GO!)</string>
     <string name="pref_soundeffects_tally_title">Aktif</string>
-    <string name="pref_soundeffects_tally_value_summary">Her %1$s %2$s<xliff:g>%1$s</xliff:g>
-        <xliff:g>%2$s</xliff:g>
+    <string name="pref_soundeffects_tally_value_summary">Her %1$s %2$s%1$s
+        %2$s
     </string>
     <string name="pref_soundeffects_tally_distance_title">Mesafe</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">Mesafe skoru</string>
@@ -434,7 +434,7 @@
     <string name="pref_maps_online_mode_summary">(Tüm Profiller)</string>
     <string name="pref_maps_online_mode_dialog_title">Harita kaynağı</string>
     <string name="pref_maps_offline_file_dialog_title">Çevrimdışı harita dosyası seç</string>
-    <string name="pref_maps_offline_file_summary">(Tüm Profiller) %1$s<xliff:g>%1$s</xliff:g>
+    <string name="pref_maps_offline_file_summary">(Tüm Profiller) %1$s%1$s
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Seçili dosya yok.</string>
     <string name="pref_maps_offline_info_title">Şimdi indir</string>
@@ -462,7 +462,7 @@
     <string name="pref_powermeter_display_mode_dialog_title">Güç göstergesi modu</string>
     <string name="pref_powermeter_parameters_info_title">Not!</string>
     <string name="pref_power_weights_title">Ağırlıklar</string>
-    <string name="pref_power_weights_summary">Sürücü: <xliff:g>%1$s</xliff:g>, Araç: <xliff:g>%2$s</xliff:g>, Yük: <xliff:g>%3$s</xliff:g>, Yolcular: <xliff:g>%4$s</xliff:g>, Tekerlekler: <xliff:g>%5$s</xliff:g>
+    <string name="pref_power_weights_summary">Sürücü: %1$s, Araç: %2$s, Yük: %3$s, Yolcular: %4$s, Tekerlekler: %5$s
     </string>
     <string name="pref_power_coefs_title">Katsayılar</string>
     <string name="pref_energy_params_title">Enerji Parametreleri</string>
@@ -659,7 +659,7 @@
 \n
 \nProfili sil\?"</string>
     <string name="dialogProfileAddInfo">Yeni profil ayarları kullanımdaki profil ayarlarından kopyalanacak</string>
-    <string name="dialogTracksDeleteMessage">Uyarı: Bu eylem geri alınamaz. 
+    <string name="dialogTracksDeleteMessage">Uyarı: Bu eylem geri alınamaz.
 \n
 \nSeçili rotaları silmek istediğinizden emin misiniz\?</string>
     <string name="dialogTracksShareCountExceeded">Bir defada 100 rotadan fazlası paylaşılamaz.</string>

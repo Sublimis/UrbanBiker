@@ -68,7 +68,7 @@
     <string name="featureNotAvailable">Omlouváme se, funkce není dostupná na tomto zařízení</string>
     <string name="farFromHere">Daleko odtud</string>
     <string name="toastRestartRequired">Změna se projeví až po restartu, prosím restartujte</string>
-    <string name="toastActiveProfile">Profil: %1$s<xliff:g>%1$s</xliff:g>
+    <string name="toastActiveProfile">Profil: %1$s%1$s
     </string>
     <string name="toastProfileSavingError">Chyba ukládání dat profilu. Zkuste to prosím znovu.</string>
     <string name="toastProfileChangeError">Nelze přepnout profil. Zkuste to prosím znovu.</string>
@@ -84,11 +84,11 @@
     <string name="toastTrackingRecordingPassive">Pasivní záznam</string>
     <string name="toastTrackingPaused">Pozastaveno</string>
     <string name="toastTrackingStopped">Zastaveno</string>
-    <string name="toastFenceGuardFenceAdded">Soukromé zóny: Zóna %1$s nastavena<xliff:g>%1$s</xliff:g> nastavena.</string>
+    <string name="toastFenceGuardFenceAdded">Soukromé zóny: Zóna %1$s nastavena%1$s nastavena.</string>
     <string name="toastFenceGuardFenceAddingError">Soukromé zóny: Chyba při nastavení zóny.</string>
-    <string name="toastFenceGuardFenceUpdated">Soukromé zóny: Zóna %1$s upravena<xliff:g>%1$s</xliff:g> upravena.</string>
+    <string name="toastFenceGuardFenceUpdated">Soukromé zóny: Zóna %1$s upravena%1$s upravena.</string>
     <string name="toastFenceGuardFenceUpdatingError">Soukromé zóny: Chyba při úpravě nastavení zóny.</string>
-    <string name="toastFenceGuardFenceRemoved">Soukromé zóny: Zóna %1$s odstraněna<xliff:g>%1$s</xliff:g> odstraněna. </string>
+    <string name="toastFenceGuardFenceRemoved">Soukromé zóny: Zóna %1$s odstraněna%1$s odstraněna. </string>
     <string name="toastFenceGuardFenceRemovingError">Soukromé zóny: Chyba při odebrání zóny.</string>
     <string name="toastFenceGuardOutsideTheFence">Soukromé zóny: Momentálně se nenacházíte v soukromé zóně.</string>
     <string name="toastFenceGuardLocationUnavailable">Soukromé zóny: Vaše poloha není dostupná.</string>
@@ -124,7 +124,7 @@
     <string name="toastSensorDisabled">Senzor zakázán</string>
     <string name="toastAutoThemeActivated">Aktivováno automatické téma</string>
     <string name="toastCancelled">Zrušeno</string>
-    <string name="notificationTitleAdvancedPaused">Pozastaveno: %1$s<xliff:g>%1$s</xliff:g>
+    <string name="notificationTitleAdvancedPaused">Pozastaveno: %1$s%1$s
     </string>
     <string name="licenseSuccessDialogMessage">Aplikace zakoupena. Děkujeme Vám za podporu!</string>
     <string name="ongoingNotificationChannelName">Průběžné oznámení</string>
@@ -149,42 +149,42 @@
     <string name="dialog_fenceguard_update_text2">Na Vaší současné pozici bude nastavena zóna, která se nebude zobrazovat v záznamech aktivit.</string>
     <string name="dialog_fenceguard_remove_title">Odstranit zónu</string>
     <string name="dialog_fenceguard_remove_defaultText">Opravdu chcete zónu odstranit\?</string>
-    <string name="dialog_fenceguard_remove_formatText">Opravdu chcete zónu %1$s odstranit\?<xliff:g>%1$s</xliff:g> odstranit\?</string>
-    <string name="dialog_track_save_text">Vzdálenost %1$.3f %2$s 
-\nČas %3$s 
-\n%4$s 
-\n 
-\nTrasa se zdá být velmi krátká, opravdu ji chcete uložit\?<xliff:g>%1$.3f %2$s
-\n</xliff:g>Čas<xliff:g>%3$s
-\n</xliff:g>
-        <xliff:g>(%4$s)
+    <string name="dialog_fenceguard_remove_formatText">Opravdu chcete zónu %1$s odstranit\?%1$s odstranit\?</string>
+    <string name="dialog_track_save_text">Vzdálenost %1$.3f %2$s
+\nČas %3$s
+\n%4$s
 \n
-\n</xliff:g>Trasa se zdá být velmi krátká, opravdu ji chcete uložit\?</string>
+\nTrasa se zdá být velmi krátká, opravdu ji chcete uložit\?%1$.3f %2$s
+\nČas%3$s
+\n
+        (%4$s)
+\n
+\nTrasa se zdá být velmi krátká, opravdu ji chcete uložit\?</string>
     <string name="dialog_exit_msg">Upozornění: Sledování je aktivní a bude zastaveno.</string>
     <string name="dialogProfileDeleteTitle">Smazat profil</string>
-    <string name="dialogProfileDeleteMessage">Varování: Tímto vymažete nastavení profilu a data čítačů. Uložené trasy zůstanou zachovány. 
-\n 
-\nSmazat profil %1$s\?<xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialogProfileDeleteMessage">Varování: Tímto vymažete nastavení profilu a data čítačů. Uložené trasy zůstanou zachovány.
+\n
+\nSmazat profil %1$s\?%1$s\?</string>
     <string name="dialogProfileAddTitle">Nový profil</string>
     <string name="dialogProfileAddInfo">Nový profil bude mít nastavení zkopírováno z aktuálního profilu</string>
     <string name="dialogProfileEditTitle">Upravit profil</string>
     <string name="dialogProfileEditTotals">Souhrn:</string>
     <string name="dialogProfileTotalsResetMessage">Vynulovat čítače v profilu\?</string>
     <string name="dialogProfileSwitchTitle">Přepnout profil</string>
-    <string name="dialogProfileSwitchMessage">Je spuštěný záznam trasy. Opravdu chcete přepnout profil %1$s\?<xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialogProfileSwitchMessage">Je spuštěný záznam trasy. Opravdu chcete přepnout profil %1$s\?%1$s\?</string>
     <string name="dialogTracksDeleteTitle">Smazat trasy</string>
     <string name="dialogTracksDeleteMessage">Upozornění: Tuto akci nelze vrátit zpět.
 \n
 \nSmazat vybrané trasy\?</string>
-    <string name="dialogTrackDeleteMessage">Varování: Akci nelze vzít zpět. 
-\n 
-\nSmazat trasu %1$s\?<xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialogTrackDeleteMessage">Varování: Akci nelze vzít zpět.
+\n
+\nSmazat trasu %1$s\?%1$s\?</string>
     <string name="dialogTrackResumeTitle">Obnovení trasy</string>
     <string name="dialogTrackResumeGpsActiveMessage">Záznam trasy je aktivní. Nejdřív vypněte nebo pozastavte GPS.</string>
-    <string name="dialogTrackResumeProfileNotBlankMessage">Cílový profil %1$s není prázdný. Nejdřív ho přenastavte.<xliff:g>%1$s</xliff:g> není prázdný. Nejdřív ho vymažte.</string>
-    <string name="dialogTrackResumeProfileSwitchMessage">Aktivní profil bude přepnut z %1$s na %2$s. Pokračovat\?<xliff:g>%1$s</xliff:g> to <xliff:g>%2$s</xliff:g>. Chcete pokračovat\?</string>
-    <string name="dialogTrackResumeProfileMissingMessage">Profil %1$s, ve kterém byla trasa uložena již neexistuje. Pokračovat v aktuálním profilu %2$s\?<xliff:g>%1$s</xliff:g> ve kterém byla trasa uložena již nexistuje. Obnovit v tomto profilu <xliff:g>%2$s</xliff:g>\?</string>
-    <string name="dialogTrackResumeGeneralPromptMessage">Trasa bude zaznamenávána v profilu %1$s. Pokračovat\?<xliff:g>%1$s</xliff:g>. Chcete pokračovat\?</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">Cílový profil %1$s není prázdný. Nejdřív ho přenastavte.%1$s není prázdný. Nejdřív ho vymažte.</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">Aktivní profil bude přepnut z %1$s na %2$s. Pokračovat\?%1$s to %2$s. Chcete pokračovat\?</string>
+    <string name="dialogTrackResumeProfileMissingMessage">Profil %1$s, ve kterém byla trasa uložena již neexistuje. Pokračovat v aktuálním profilu %2$s\?%1$s ve kterém byla trasa uložena již nexistuje. Obnovit v tomto profilu %2$s\?</string>
+    <string name="dialogTrackResumeGeneralPromptMessage">Trasa bude zaznamenávána v profilu %1$s. Pokračovat\?%1$s. Chcete pokračovat\?</string>
     <string name="dialogTrackResumeGeneralErrorMessage">Chyba operace. Zkuste prosím znovu.</string>
     <string name="dialogTrackResumeWaitMessage">Obnovuji, čekejte prosím...</string>
     <string name="dialogTracksShareTitle">Sdílet trasy</string>
@@ -192,23 +192,23 @@
     <string name="dialogTracksShareCountExceeded">Nelze sdílet více než 100 tras najednou.</string>
     <string name="dialogGpsSettingsPromptTitle">Umístění je vypnuté</string>
     <string name="dialogBaroAltitudePromptTitle">Problém barometrické výšky</string>
-    <string name="dialogBaroAltitudePromptMessage">Barometrická nadmořská výška byla násilně vypnuta kvůli nesouladu s GPS nadmořskou výškou! 
-\n 
-\nNepoužívejte v uzavřených nebo klimatizovaných prostorech!<xliff:g>
+    <string name="dialogBaroAltitudePromptMessage">Barometrická nadmořská výška byla násilně vypnuta kvůli nesouladu s GPS nadmořskou výškou!
 \n
-\n</xliff:g>Nepoužívejte v uzavřených nebo klimatizovaných prostorech!</string>
+\nNepoužívejte v uzavřených nebo klimatizovaných prostorech!
+\n
+\nNepoužívejte v uzavřených nebo klimatizovaných prostorech!</string>
     <string name="dialogBaroAltitudeNoticeTitle">Upozornění</string>
     <string name="dialogBaroAltitudeNoticeMessage">Barometrická výška funguje pouze venku.
-\n 
-\nNepoužívejte v uzavřených nebo klimatizovaných prostorech, jako jsou některá vozidla a letadla.<xliff:g>
 \n
-\n</xliff:g>Nepoužívejte v uzavřených nebo klimatizovaných prostorech, jako jsou některá vozidla a letadla.</string>
+\nNepoužívejte v uzavřených nebo klimatizovaných prostorech, jako jsou některá vozidla a letadla.
+\n
+\nNepoužívejte v uzavřených nebo klimatizovaných prostorech, jako jsou některá vozidla a letadla.</string>
     <string name="dialogThermoBarometerNoticeTitle">Oznámení</string>
     <string name="dialogThermoBarometerNoticeMessage">Přesnost teplotního barometru závisí na venkovní teplotě vzduchu.
-\n 
-\nNepoužívejte v uzavřených nebo klimatizovaných prostorech, jako jsou některá vozidla a letadla.<xliff:g>
 \n
-\n</xliff:g>Nepoužívejte v uzavřených nebo klimatizovaných prostorech, jako jsou některá vozidla a letadla.</string>
+\nNepoužívejte v uzavřených nebo klimatizovaných prostorech, jako jsou některá vozidla a letadla.
+\n
+\nNepoužívejte v uzavřených nebo klimatizovaných prostorech, jako jsou některá vozidla a letadla.</string>
     <string name="dialogResetTitle">Dokončit</string>
     <string name="dialogResetMessage">Uložit tuto trasu a připravit se na novou\?</string>
     <string name="dialogResetNoTrackMessage">Nebyla zaznamenána žádná trasa. Obnovit měřiče nyní\?</string>
@@ -263,27 +263,27 @@
     <string name="dialogSvgTitle">SVG grafy</string>
     <string name="dialogGpsIntervalTitle">Interval aktualizace GPS</string>
     <string name="dialogGpsIntervalNote">Upozornění: Pro přesné měření nedoporučujeme zadávat vyšší hodnotu jak 3 sekundy.</string>
-    <string name="dialogGpsIntervalLabelMore">Větší přesnost=větší spotřeba baterie<xliff:g>◀
-\n</xliff:g>Větší přesnost=větší spotřeba baterie</string>
-    <string name="dialogGpsIntervalLabelLess">Menší přesnost=menší spotřeba baterie<xliff:g>▶
-\n</xliff:g>Menší přesnost=menší spotřeba baterie</string>
+    <string name="dialogGpsIntervalLabelMore">Větší přesnost=větší spotřeba baterie◀
+\nVětší přesnost=větší spotřeba baterie</string>
+    <string name="dialogGpsIntervalLabelLess">Menší přesnost=menší spotřeba baterie▶
+\nMenší přesnost=menší spotřeba baterie</string>
     <string name="dialogSliderLess">◀</string>
     <string name="dialogSliderMore">▶</string>
     <string name="dialogLocationPermissionRequestTitle">Oprávnění pro sledování polohy</string>
     <string name="dialogLocationPermissionRequest">Aplikace musí přistupovat k vaší poloze k zaznamenání vašich outdoorových aktivit.</string>
     <string name="dialogStoragePermissionRequestTitle">Oprávnění k ukládání</string>
     <string name="dialogStoragePermissionRequest">Aplikace potřebuje přístup k úložišti, aby mohla ukládat nebo obnovovat trasy a nastavení.
-\n 
-\nBez udělení oprávnění nebudete mít možnost sledovat historii tras nebo sdílet trasy a můžete ztratit data..<xliff:g>
 \n
-\n</xliff:g>Bez udělení oprávnění nebudete mít možnost sledovat historii tras nebo sdílet trasy a můžete ztratit data..</string>
+\nBez udělení oprávnění nebudete mít možnost sledovat historii tras nebo sdílet trasy a můžete ztratit data..
+\n
+\nBez udělení oprávnění nebudete mít možnost sledovat historii tras nebo sdílet trasy a můžete ztratit data..</string>
     <string name="dialogCameraPermissionRequestTitle">Oprávnění k fotoaparátu</string>
     <string name="dialogCameraPermissionRequest">Je potřeba oprávnění, aby aplikace mohla aktivovat blesk.</string>
     <string name="dialogPermissionProblemMessage">Toto oprávnění je potřebné pro správnou funkci aplikace. Může být uděleno na stránce Nastavení oprávnění aplikace.
-\n 
-\nJít tam\?<xliff:g>
 \n
-\n</xliff:g>Jít tam\?</string>
+\nJít tam\?
+\n
+\nJít tam\?</string>
     <string name="mapLayerStreet">Ulice</string>
     <string name="mapLayerTerrain">Terén</string>
     <string name="mapLayerSatellite">Satelitní</string>
@@ -410,23 +410,23 @@
     <string name="profilesListTitle">Profily</string>
     <string name="profilesListTitleSelectProfile">Přepnout profil</string>
     <string name="profilesListAddProfile">Nový profil</string>
-    <string name="profilesListRowTotalsSince">Celkem od: %1$s<xliff:g>%1$s</xliff:g>
+    <string name="profilesListRowTotalsSince">Celkem od: %1$s%1$s
     </string>
     <string name="profilesListButtonResetTotals">Vynulovat čítače</string>
     <string name="profilesListProfileNotUsed">(nepoužitý)</string>
     <string name="profilesListLoading">Načítání...</string>
     <string name="cloudAccountsTitle">Účty</string>
-    <string name="cloudAccountsInfo">Připojením na cloud služby se zjednoduší nahrávání a sdílení tratí s ostatními. 
-\n 
-\nNikdy neodesíláme nic bez vašeho svolení.<xliff:g>
+    <string name="cloudAccountsInfo">Připojením na cloud služby se zjednoduší nahrávání a sdílení tratí s ostatními.
 \n
-\n</xliff:g>Nikdy neodesíláme nic bez Vašeho svolení.</string>
+\nNikdy neodesíláme nic bez vašeho svolení.
+\n
+\nNikdy neodesíláme nic bez Vašeho svolení.</string>
     <string name="accountDisconnect">Odpojení</string>
-    <string name="googleFitConnectButton">Propojit s Google Fit<xliff:g>Google Fit</xliff:g>
+    <string name="googleFitConnectButton">Propojit s Google FitGoogle Fit
     </string>
-    <string name="stravaTrackPrivacyInfo">Trať zdědí výchozí nastavení soukromí nastavené v aplikaci Strava<xliff:g>Strava</xliff:g>
+    <string name="stravaTrackPrivacyInfo">Trať zdědí výchozí nastavení soukromí nastavené v aplikaci StravaStrava
     </string>
-    <string name="facebookConnectButton">Propojit se sítí Facebook<xliff:g>Facebook</xliff:g>
+    <string name="facebookConnectButton">Propojit se sítí FacebookFacebook
     </string>
     <string name="tracksHistoryListTitle">Historie tras</string>
     <string name="tracksHistoryListTitleSelect">Zvolit</string>
@@ -482,7 +482,7 @@
     <string name="sensorPurposeDuration">Čas</string>
     <string name="sensorPurposePower">Výkon</string>
     <string name="sensorPurposeHeartRate">Srdeční tep</string>
-    <string name="sensorProperitesProfileInfo">Vlastnosti senzorů jsou pod správou profilu. Vlastnosti zde upravujete pouze pro aktivní profil (%1$s).<xliff:g id="profile_name">%1$s</xliff:g>).</string>
+    <string name="sensorProperitesProfileInfo">Vlastnosti senzorů jsou pod správou profilu. Vlastnosti zde upravujete pouze pro aktivní profil (%1$s).%1$s).</string>
     <string name="sensorProperitesUseForSpeed">Použít pro rychlost</string>
     <string name="sensorProperitesUseForCadence">Použít pro kadenci</string>
     <string name="sensorProperitesUseForDistance">Použít pro vzdálenost a čas</string>
@@ -611,9 +611,9 @@
     <string name="pref_bell_shake_sensitivity_title">Citlivost třesení</string>
     <string name="pref_roaring_type_title">Typ</string>
     <string name="pref_roaring_type_dialog_title">Typ rachotu</string>
-    <string name="pref_volume_summary_text">Zvonek: %1$s, Rachot: %2$s 
-\nHlášení: %3$s, Efekty: %4$s, Poplachy: %5$s<xliff:g> %1$s</xliff:g>, Rachot:<xliff:g> %2$s
-\n</xliff:g>Hlášení:<xliff:g> %3$s</xliff:g>, Efekty:<xliff:g> %4$s</xliff:g>, Poplach:<xliff:g> %5$s</xliff:g>
+    <string name="pref_volume_summary_text">Zvonek: %1$s, Rachot: %2$s
+\nHlášení: %3$s, Efekty: %4$s, Poplachy: %5$s %1$s, Rachot: %2$s
+\nHlášení: %3$s, Efekty: %4$s, Poplach: %5$s
     </string>
     <string name="pref_bg_color_title">Barva pozadí</string>
     <string name="pref_bg_color_summary">Vybrat požadovanou barvu pro pozadí aplikace</string>
@@ -674,8 +674,8 @@
     <string name="pref_soundeffects_countdown_title">Odpočítávání</string>
     <string name="pref_soundeffects_countdown_summary">Zvuk při odpočítávání před odstartováním trasy (…3, 2, 1, GO!)</string>
     <string name="pref_soundeffects_tally_title">Povolit</string>
-    <string name="pref_soundeffects_tally_value_summary">Každý %1$s %2$s<xliff:g>%1$s</xliff:g>
-        <xliff:g>%2$s</xliff:g>
+    <string name="pref_soundeffects_tally_value_summary">Každý %1$s %2$s%1$s
+        %2$s
     </string>
     <string name="pref_soundeffects_tally_distance_title">Vzdálenost</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">Hlášení vzdálenosti</string>
@@ -702,7 +702,7 @@
     <string name="pref_maps_online_mode_dialog_title">Zdroj map</string>
     <string name="pref_maps_offline_file_title">Vybrat složku nebo soubor</string>
     <string name="pref_maps_offline_file_dialog_title">Vybrat složku pro offline mapy</string>
-    <string name="pref_maps_offline_file_summary">(Všechny profily) %1$s<xliff:g>%1$s</xliff:g>
+    <string name="pref_maps_offline_file_summary">(Všechny profily) %1$s%1$s
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Není vybraná žádný složka</string>
     <string name="pref_maps_offline_info_title">Stáhnout teď</string>
@@ -755,17 +755,17 @@
     <string name="pref_powermeter_parameters_info_title">Poznámka!</string>
     <string name="pref_powermeter_parameters_info_summary">Vyplňte přesně tyto parametry, aby byl výkon a energie správně!</string>
     <string name="pref_power_weights_title">Hmotnosti</string>
-    <string name="pref_power_weights_summary">Řidič: %1$s, Vozidlo: %2$s, Náklad: %3$s, Cestující: %4$s, Kola: %5$s<xliff:g>%1$s</xliff:g>, Vozidlo: <xliff:g>%2$s</xliff:g>, Náklad: <xliff:g>%3$s</xliff:g>, Osob: <xliff:g>%4$s</xliff:g>, Kola: <xliff:g>%5$s</xliff:g>
+    <string name="pref_power_weights_summary">Řidič: %1$s, Vozidlo: %2$s, Náklad: %3$s, Cestující: %4$s, Kola: %5$s%1$s, Vozidlo: %2$s, Náklad: %3$s, Osob: %4$s, Kola: %5$s
     </string>
     <string name="pref_power_coefs_title">Koeficienty</string>
-    <string name="pref_power_coefs_summary">Oblast přetažení: %1$s 
-\nOdolnost rolování: %2$s<xliff:g>%1$s
-\n</xliff:g>Odolnost rolování: <xliff:g>%2$s</xliff:g>
+    <string name="pref_power_coefs_summary">Oblast přetažení: %1$s
+\nOdolnost rolování: %2$s%1$s
+\nOdolnost rolování: %2$s
     </string>
     <string name="pref_energy_params_title">Energetické parametry</string>
-    <string name="pref_energy_params_summary">Efektivita: %1$s 
-\nMetabolismus: %2$s<xliff:g>%1$s
-\n</xliff:g>Metabolism: <xliff:g>%2$s</xliff:g>
+    <string name="pref_energy_params_summary">Efektivita: %1$s
+\nMetabolismus: %2$s%1$s
+\nMetabolism: %2$s
     </string>
     <string name="pref_svg_data_enable_title">Vytvořit grafy</string>
     <string name="pref_svg_data_enable_summary">Vygenerovat soubor SVG obsahující grafy pro různé parametry jízdy</string>
@@ -830,17 +830,17 @@
     <string name="infoMeterModePaceMsg">Zpomalení — Okamžité, Maximální a Průměrné.</string>
     <string name="infoMeterModeAccelerationTitle">Zrychlení</string>
     <string name="infoMeterModeAccelerationMsg">Úroveň změny rychlosti — Aktuální, Maximální a Minimální.
-\n 
-\nNegativní znamená zpomalení.<xliff:g>
 \n
-\n</xliff:g>Negativní znamená zpomalení.</string>
+\nNegativní znamená zpomalení.
+\n
+\nNegativní znamená zpomalení.</string>
     <string name="infoMeterModePowerTitle">Výkon</string>
     <string name="infoMeterModeAvgActivePowerTitle">Průměrný činný výkon</string>
     <string name="infoMeterModeAvgActivePowerMsg">Průměrný výkon vyvíjený během činnosti, bez počítání intervalů, kdy nebyl výkon žádný nebo opravdu malý (sjezd, brzdění, dojezd).
-\n 
-\nKdyž děláte namáhavé cvičení, bude to v podstatě váš FPV (funkční prahový výkon).<xliff:g>
 \n
-\n</xliff:g>Když děláte namáhavé cvičení, bude to v podstatě váš FPV (funkční prahový výkon).</string>
+\nKdyž děláte namáhavé cvičení, bude to v podstatě váš FPV (funkční prahový výkon).
+\n
+\nKdyž děláte namáhavé cvičení, bude to v podstatě váš FPV (funkční prahový výkon).</string>
     <string name="infoMeterModeVerticalPowerTitle">Vertikální síla</string>
     <string name="infoMeterModeTemperatureTitle">Teplota</string>
     <string name="infoMeterModePressureTitle">Tlak</string>
@@ -1000,7 +1000,7 @@
     <string name="prefUnitsPowerEntries_2">[kcal/h]</string>
     <string name="prefUnitsPowerEntries_3">[kJ/h]</string>
     <!-- prefUnitsSlopeEntries -->
-    <string name="prefUnitsSlopeEntries_0">Procent [<xliff:g id="fullwidthPercentSign">\uff05</xliff:g>]</string>
+    <string name="prefUnitsSlopeEntries_0">Procent [\uff05]</string>
     <string name="prefUnitsSlopeEntries_1">Stupně [°]</string>
     <string name="prefUnitsSlopeEntries_2">Za míli [‰]</string>
     <!-- pref_hud_axis_entries -->

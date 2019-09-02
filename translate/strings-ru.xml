@@ -68,7 +68,7 @@
     <string name="featureNotAvailable">К сожалению, функция не доступна на этом устройстве</string>
     <string name="farFromHere">Далеко</string>
     <string name="toastRestartRequired">Пожалуйста, перезагрузите приложение, чтобы изменения вступили в силу</string>
-    <string name="toastActiveProfile">Профиль: <xliff:g>%1$s</xliff:g>
+    <string name="toastActiveProfile">Профиль: %1$s
     </string>
     <string name="toastProfileSavingError">Ошибка сохранения данных профиля. Пожалуйста, попробуйте еще раз.</string>
     <string name="toastProfileChangeError">Не удалось переключить профиль! Пожалуйста, попробуйте еще раз.</string>
@@ -84,11 +84,11 @@
     <string name="toastTrackingRecordingPassive">Пассивная запись</string>
     <string name="toastTrackingPaused">Пауза</string>
     <string name="toastTrackingStopped">Остановлен</string>
-    <string name="toastFenceGuardFenceAdded">Ограждение: Забор <xliff:g>%1$s</xliff:g> добавлено</string>
+    <string name="toastFenceGuardFenceAdded">Ограждение: Забор %1$s добавлено</string>
     <string name="toastFenceGuardFenceAddingError">Ограждния: Ошибка добавления препятствия</string>
-    <string name="toastFenceGuardFenceUpdated">Ограждение: Забор <xliff:g>%1$s</xliff:g> обновлено</string>
+    <string name="toastFenceGuardFenceUpdated">Ограждение: Забор %1$s обновлено</string>
     <string name="toastFenceGuardFenceUpdatingError">Ограждения: Ошибка обновления ограждения</string>
-    <string name="toastFenceGuardFenceRemoved">Ограждение: Забор <xliff:g>%1$s</xliff:g> удалено</string>
+    <string name="toastFenceGuardFenceRemoved">Ограждение: Забор %1$s удалено</string>
     <string name="toastFenceGuardFenceRemovingError">Ограждения: Ошибка удаления ограждения</string>
     <string name="toastFenceGuardOutsideTheFence">Ограждения: Вы вне ограждения</string>
     <string name="toastFenceGuardLocationUnavailable">Ограждения: Ваше местоположение не определено</string>
@@ -124,7 +124,7 @@
     <string name="toastSensorDisabled">Датчик выключен</string>
     <string name="toastAutoThemeActivated">Включена автоматическая визуальная тема</string>
     <string name="toastCancelled">Отменено</string>
-    <string name="notificationTitleAdvancedPaused">Пауза: <xliff:g>%1$s</xliff:g>
+    <string name="notificationTitleAdvancedPaused">Пауза: %1$s
     </string>
     <string name="licenseSuccessDialogMessage">Приложение успешно лицензировано. Спасибо за вашу поддержку!</string>
     <string name="ongoingNotificationChannelName">Непрерывное оповещение</string>
@@ -149,61 +149,61 @@
     <string name="dialog_fenceguard_update_text2">Ограждение установлено вокруг вашего текущего местоположения, и защищает его от воздействия на записанные треки.</string>
     <string name="dialog_fenceguard_remove_title">Удалить ограждение</string>
     <string name="dialog_fenceguard_remove_defaultText">Удалить ограждение\?</string>
-    <string name="dialog_fenceguard_remove_formatText">Вы уверены в удалении ограждения <xliff:g>%1$s</xliff:g>\?</string>
-    <string name="dialog_track_save_text">Расстояние <xliff:g>%1$.3f %2$s
-\n</xliff:g>Продолжительность <xliff:g>%3$s
-\n</xliff:g>
-        <xliff:g>(%4$s)
+    <string name="dialog_fenceguard_remove_formatText">Вы уверены в удалении ограждения %1$s\?</string>
+    <string name="dialog_track_save_text">Расстояние %1$.3f %2$s
+\nПродолжительность %3$s
 \n
-\n</xliff:g>Похоже трек очень короткий. Сохранить\?</string>
+        (%4$s)
+\n
+\nПохоже трек очень короткий. Сохранить\?</string>
     <string name="dialog_exit_msg">Предупреждение: Трек сейчас записывается и будет остановлен.</string>
     <string name="dialogProfileDeleteTitle">Удалить профиль</string>
     <string name="dialogProfileDeleteMessage">Предупреждение: Этот пункт удалит настройки профиля и сохраненные данные. Сохраненные треки будут оставлены без изменений.
 \n
-\nУдалить профиль <xliff:g>%1$s</xliff:g>\?</string>
+\nУдалить профиль %1$s\?</string>
     <string name="dialogProfileAddTitle">Новый профиль</string>
     <string name="dialogProfileAddInfo">Настройки нового профиля будут скопированы из нынешнего активного профиля</string>
     <string name="dialogProfileEditTitle">Редактировать профиль</string>
     <string name="dialogProfileEditTotals">Итоги:</string>
     <string name="dialogProfileTotalsResetMessage">Сбросить итоги профиля\?</string>
     <string name="dialogProfileSwitchTitle">Переключение профиля</string>
-    <string name="dialogProfileSwitchMessage">Трек записывается. Вы действительно хотите переключится на профиль <xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialogProfileSwitchMessage">Трек записывается. Вы действительно хотите переключится на профиль %1$s\?</string>
     <string name="dialogTracksDeleteTitle">Удалить треки</string>
     <string name="dialogTracksDeleteMessage">Предупреждение: Это действие нельзя отменить.
 \n
 \nУдалить выбранный трек</string>
     <string name="dialogTrackDeleteMessage">Предупреждение: Это действие не может быть отменено.
 \n
-\nУдалить трек <xliff:g>%1$s</xliff:g>\?</string>
+\nУдалить трек %1$s\?</string>
     <string name="dialogTrackResumeTitle">Возобновить трек</string>
     <string name="dialogTrackResumeGpsActiveMessage">Трек записывается. Сначала включите или приостановите GPS.</string>
-    <string name="dialogTrackResumeProfileNotBlankMessage">Заданный профиль <xliff:g>%1$s</xliff:g> не пустой. Сначала сделайте сброс.</string>
-    <string name="dialogTrackResumeProfileSwitchMessage">Активный профиль будет переключен с <xliff:g>%1$s</xliff:g> на <xliff:g>%2$s</xliff:g>. Продолжить\?</string>
-    <string name="dialogTrackResumeProfileMissingMessage">Профиль <xliff:g>%1$s</xliff:g> который создал этот трек, больше не существует. Возобновить в текущем профиле <xliff:g>%2$s</xliff:g>\?</string>
-    <string name="dialogTrackResumeGeneralPromptMessage">Трек будет возобновлён в профиле <xliff:g>%1$s</xliff:g>. Продолжить\?</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">Заданный профиль %1$s не пустой. Сначала сделайте сброс.</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">Активный профиль будет переключен с %1$s на %2$s. Продолжить\?</string>
+    <string name="dialogTrackResumeProfileMissingMessage">Профиль %1$s который создал этот трек, больше не существует. Возобновить в текущем профиле %2$s\?</string>
+    <string name="dialogTrackResumeGeneralPromptMessage">Трек будет возобновлён в профиле %1$s. Продолжить\?</string>
     <string name="dialogTrackResumeGeneralErrorMessage">Неизвестная ошибка. Попробуйте еще раз.</string>
     <string name="dialogTrackResumeWaitMessage">Возобновление…</string>
     <string name="dialogTracksShareTitle">Поделиться треками</string>
     <string name="dialogTracksShareGeneralErrorMessage">Произошла неизвестная ошибка. Попробуйте еще раз.</string>
     <string name="dialogTracksShareCountExceeded">Не могу поделиться более чем 100 треками за раз</string>
     <string name="dialogGpsSettingsPromptTitle">Определение местоположения выключено</string>
-    <string name="dialogGpsSettingsPromptMessage">Вы не сможете использовать большую часть программы без доступа к Местоположению.<xliff:g>
+    <string name="dialogGpsSettingsPromptMessage">Вы не сможете использовать большую часть программы без доступа к Местоположению.
 \n
-\n</xliff:g>Удостоверьтесь, что Местоположения включены и выбран режим \'Высокая точность\'.<xliff:g>
+\nУдостоверьтесь, что Местоположения включены и выбран режим \'Высокая точность\'.
 \n
-\n</xliff:g>Открыть настройки Местоположения\?</string>
+\nОткрыть настройки Местоположения\?</string>
     <string name="dialogBaroAltitudePromptTitle">Проблема с барометрической высотой</string>
-    <string name="dialogBaroAltitudePromptMessage">Барометрическая высота была принудительно выключена из-за разницы с GPS высотой!<xliff:g>
+    <string name="dialogBaroAltitudePromptMessage">Барометрическая высота была принудительно выключена из-за разницы с GPS высотой!
 \n
-\n</xliff:g>Пожалуйста, не используйте её в закрытых или кондиционируемых местах</string>
+\nПожалуйста, не используйте её в закрытых или кондиционируемых местах</string>
     <string name="dialogBaroAltitudeNoticeTitle">Примечание</string>
-    <string name="dialogBaroAltitudeNoticeMessage">Барометрическая высота работает только вне помещения.<xliff:g>
+    <string name="dialogBaroAltitudeNoticeMessage">Барометрическая высота работает только вне помещения.
 \n
-\n</xliff:g>Пожалуйста, не используйте её в закрытых или кондиционируемых местах вроде машин или самолётах.</string>
+\nПожалуйста, не используйте её в закрытых или кондиционируемых местах вроде машин или самолётах.</string>
     <string name="dialogThermoBarometerNoticeTitle">Примечание</string>
-    <string name="dialogThermoBarometerNoticeMessage">Точность гипсотермометра зависит от внешней температуры.<xliff:g>
+    <string name="dialogThermoBarometerNoticeMessage">Точность гипсотермометра зависит от внешней температуры.
 \n
-\n</xliff:g>Пожалуйста, не используйте его в закрытых или кондиционируемых помещениях на подобии машин или самолётов.</string>
+\nПожалуйста, не используйте его в закрытых или кондиционируемых помещениях на подобии машин или самолётов.</string>
     <string name="dialogResetTitle">Закончить</string>
     <string name="dialogResetMessage">Сохранить этот трек и подготовиться к новому\?</string>
     <string name="dialogResetNoTrackMessage">Трек не был записан. Сбросить показания\?</string>
@@ -259,27 +259,27 @@
     <string name="dialogGpsIntervalTitle">Интервал обновления GPS</string>
     <string name="dialogGpsIntervalNote">Примечание: Держите этот параметр ниже 3х сек. что бы получить наиболее точные данные и стабильное данные!</string>
     <string name="dialogGpsIntervalLabelMore">
-        <xliff:g>◀
-\n</xliff:g>Более точный, больше расходует батареи</string>
+        ◀
+\nБолее точный, больше расходует батареи</string>
     <string name="dialogGpsIntervalLabelLess">
-        <xliff:g>▶
-\n</xliff:g>Менее точный, меньше расходует батареи</string>
+        ▶
+\nМенее точный, меньше расходует батареи</string>
     <string name="dialogSliderLess">◀</string>
     <string name="dialogSliderMore">▶</string>
     <string name="dialogLocationPermissionRequestTitle">Разрешение на определение местоположения</string>
     <string name="dialogLocationPermissionRequest">Приложению нужен доступ на определение местоположения что бы записывать вашу активность за пределами дома.</string>
-    <string name="dialogLocationPermissionRequestForBt">Доступ к Местоположению необходим что бы найти Bluetooth устройства.<xliff:g>
+    <string name="dialogLocationPermissionRequestForBt">Доступ к Местоположению необходим что бы найти Bluetooth устройства.
 \n
-\n</xliff:g>Если доступ запрещён, то Bluetooth устройства не будут найдены.</string>
+\nЕсли доступ запрещён, то Bluetooth устройства не будут найдены.</string>
     <string name="dialogStoragePermissionRequestTitle">Доступ к хранилищу.</string>
-    <string name="dialogStoragePermissionRequest">Приложению нужен доступ к хранилищу что бы оно могло сохранять и загружать треки и настройки.<xliff:g>
+    <string name="dialogStoragePermissionRequest">Приложению нужен доступ к хранилищу что бы оно могло сохранять и загружать треки и настройки.
 \n
-\n</xliff:g>Без доступа вы не сможете видеть старые поездки или делиться ими, а ещё вы можете потерять свои данные.</string>
+\nБез доступа вы не сможете видеть старые поездки или делиться ими, а ещё вы можете потерять свои данные.</string>
     <string name="dialogCameraPermissionRequestTitle">Доступ к камере</string>
     <string name="dialogCameraPermissionRequest">Разрешение нужно что бы приложение могло включать вспышку.</string>
-    <string name="dialogPermissionProblemMessage">Эти разрешения необходимы этому приложению для правильной работы. Их можно предоставить в разделе Разрешения приложений.<xliff:g>
+    <string name="dialogPermissionProblemMessage">Эти разрешения необходимы этому приложению для правильной работы. Их можно предоставить в разделе Разрешения приложений.
 \n
-\n</xliff:g>Перейти туда\?</string>
+\nПерейти туда\?</string>
     <string name="mapLayerStreet">Улица</string>
     <string name="mapLayerTerrain">Рельеф</string>
     <string name="mapLayerSatellite">Спутник</string>
@@ -406,21 +406,21 @@
     <string name="profilesListTitle">Профили</string>
     <string name="profilesListTitleSelectProfile">Выбор профилей</string>
     <string name="profilesListAddProfile">Новый профиль</string>
-    <string name="profilesListRowTotalsSince">Итоги: <xliff:g>%1$s</xliff:g>
+    <string name="profilesListRowTotalsSince">Итоги: %1$s
     </string>
     <string name="profilesListButtonResetTotals">Сбросить итоги</string>
     <string name="profilesListProfileNotUsed">(не использованный)</string>
     <string name="profilesListLoading">Загрузка...</string>
     <string name="cloudAccountsTitle">Учётные записи</string>
-    <string name="cloudAccountsInfo">Подключение к облачным службам позволяют вам легче загружать и делиться треками.<xliff:g>
+    <string name="cloudAccountsInfo">Подключение к облачным службам позволяют вам легче загружать и делиться треками.
 \n
-\n</xliff:g>Мы не будем ничего выкладывать без вашего разрешения</string>
+\nМы не будем ничего выкладывать без вашего разрешения</string>
     <string name="accountDisconnect">Отключить</string>
-    <string name="googleFitConnectButton">Соединить с <xliff:g>Google Fit</xliff:g>
+    <string name="googleFitConnectButton">Соединить с Google Fit
     </string>
-    <string name="stravaTrackPrivacyInfo">Трек унаследует настройки конфиденциальности которые вы выставили в <xliff:g>Strava</xliff:g>
+    <string name="stravaTrackPrivacyInfo">Трек унаследует настройки конфиденциальности которые вы выставили в Strava
     </string>
-    <string name="facebookConnectButton">Соединить с <xliff:g>Facebook</xliff:g>
+    <string name="facebookConnectButton">Соединить с Facebook
     </string>
     <string name="tracksHistoryListTitle">История треков</string>
     <string name="tracksHistoryListTitleSelect">Выбрать</string>
@@ -476,7 +476,7 @@
     <string name="sensorPurposeDuration">Длительность</string>
     <string name="sensorPurposePower">Мощность</string>
     <string name="sensorPurposeHeartRate">Частота сердцебиения</string>
-    <string name="sensorProperitesProfileInfo">Настройки датчиков устанавливаются в каждом профиле отдельно. Настройки сделанные тут применяться только к активному профилю (<xliff:g id="profile_name">%1$s</xliff:g>).</string>
+    <string name="sensorProperitesProfileInfo">Настройки датчиков устанавливаются в каждом профиле отдельно. Настройки сделанные тут применяться только к активному профилю (%1$s).</string>
     <string name="sensorProperitesUseForSpeed">Использовать для скорости</string>
     <string name="sensorProperitesUseForCadence">Использовать для каденса</string>
     <string name="sensorProperitesUseForDistance">Использовать для расстояния и продолжительности</string>
@@ -606,8 +606,8 @@
     <string name="pref_bell_shake_sensitivity_title">Чувствительность тряски</string>
     <string name="pref_roaring_type_title">Тип</string>
     <string name="pref_roaring_type_dialog_title">Тип шума</string>
-    <string name="pref_volume_summary_text">Звонок:<xliff:g> %1$s</xliff:g>, Шум:<xliff:g> %2$s
-\n</xliff:g>Оповещения:<xliff:g> %3$s</xliff:g>, Эффекты:<xliff:g> %4$s</xliff:g>, Сигналы:<xliff:g> %5$s</xliff:g>
+    <string name="pref_volume_summary_text">Звонок: %1$s, Шум: %2$s
+\nОповещения: %3$s, Эффекты: %4$s, Сигналы: %5$s
     </string>
     <string name="pref_bg_color_title">Цвет фона</string>
     <string name="pref_bg_color_summary">Выберите нужный цвет для фона приложения</string>
@@ -668,8 +668,8 @@
     <string name="pref_soundeffects_countdown_title">Обратный отсчет</string>
     <string name="pref_soundeffects_countdown_summary">Звуковой обратный отсчет до старта(…3, 2, 1, Поехали!)</string>
     <string name="pref_soundeffects_tally_title">Включить</string>
-    <string name="pref_soundeffects_tally_value_summary">Каждые <xliff:g>%1$s</xliff:g>
-        <xliff:g>%2$s</xliff:g>
+    <string name="pref_soundeffects_tally_value_summary">Каждые %1$s
+        %2$s
     </string>
     <string name="pref_soundeffects_tally_distance_title">Расстояние</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">Единицы расстояния</string>
@@ -696,7 +696,7 @@
     <string name="pref_maps_online_mode_dialog_title">Источник карт</string>
     <string name="pref_maps_offline_file_title">Выбрать файл или папку</string>
     <string name="pref_maps_offline_file_dialog_title">Выбрать папку оффлайн карт</string>
-    <string name="pref_maps_offline_file_summary">(Все профили) <xliff:g>%1$s</xliff:g>
+    <string name="pref_maps_offline_file_summary">(Все профили) %1$s
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Папка не выбрана</string>
     <string name="pref_maps_offline_info_title">Загрузить сейчас</string>
@@ -745,15 +745,15 @@
     <string name="pref_powermeter_parameters_info_title">Примечание!</string>
     <string name="pref_powermeter_parameters_info_summary">Что бы показатели мощности и энергии были точными, убедитесь, что эти параметры введены верно!</string>
     <string name="pref_power_weights_title">Вес</string>
-    <string name="pref_power_weights_summary">Водитель: <xliff:g>%1$s</xliff:g>, Транспорт: <xliff:g>%2$s</xliff:g>, Груз: <xliff:g>%3$s</xliff:g>, Пассажиры: <xliff:g>%4$s</xliff:g>, Колеса: <xliff:g>%5$s</xliff:g>
+    <string name="pref_power_weights_summary">Водитель: %1$s, Транспорт: %2$s, Груз: %3$s, Пассажиры: %4$s, Колеса: %5$s
     </string>
     <string name="pref_power_coefs_title">Коэффициенты</string>
-    <string name="pref_power_coefs_summary">Площадь лобового сопротивления: <xliff:g>%1$s
-\n</xliff:g>Сопротивление качению: <xliff:g>%2$s</xliff:g>
+    <string name="pref_power_coefs_summary">Площадь лобового сопротивления: %1$s
+\nСопротивление качению: %2$s
     </string>
     <string name="pref_energy_params_title">Параметры энергии</string>
-    <string name="pref_energy_params_summary">Эффективность: <xliff:g>%1$s
-\n</xliff:g>Метаболизм: <xliff:g>%2$s</xliff:g>
+    <string name="pref_energy_params_summary">Эффективность: %1$s
+\nМетаболизм: %2$s
     </string>
     <string name="pref_svg_data_enable_title">Генерировать диаграммы</string>
     <string name="pref_svg_data_enable_summary">Создавать файлы с SVG графиком для различных параметров поездки</string>
@@ -818,14 +818,14 @@
     <string name="infoMeterModePaceTitle">Темп</string>
     <string name="infoMeterModePaceMsg">Обратная скорость - текущая, максимум и средняя</string>
     <string name="infoMeterModeAccelerationTitle">Ускорение</string>
-    <string name="infoMeterModeAccelerationMsg">Темп изменения скорости - Текущее, Максимум и Минимум.<xliff:g>
+    <string name="infoMeterModeAccelerationMsg">Темп изменения скорости - Текущее, Максимум и Минимум.
 \n
-\n</xliff:g>Отрицательное значение говорит о замедлении</string>
+\nОтрицательное значение говорит о замедлении</string>
     <string name="infoMeterModePowerTitle">Мощность</string>
     <string name="infoMeterModeAvgActivePowerTitle">Средняя активная мощность</string>
-    <string name="infoMeterModeAvgActivePowerMsg">Средняя мощность, приложенная во время активности, без учёта периодов, когда мощность отсутствовала или была действительно небольшой (спуск, торможение, выбег).<xliff:g>
+    <string name="infoMeterModeAvgActivePowerMsg">Средняя мощность, приложенная во время активности, без учёта периодов, когда мощность отсутствовала или была действительно небольшой (спуск, торможение, выбег).
 \n
-\n</xliff:g>При выполнении напряжённой тренировки это будет в основном ваша ФПМ (функциональная пороговая мощность).</string>
+\nПри выполнении напряжённой тренировки это будет в основном ваша ФПМ (функциональная пороговая мощность).</string>
     <string name="infoMeterModeVerticalPowerTitle">Вертикальная Мощность</string>
     <string name="infoMeterModeTemperatureTitle">Температура</string>
     <string name="infoMeterModePressureTitle">Давление</string>
@@ -986,7 +986,7 @@
     <string name="prefUnitsPowerEntries_2">[кКал/ч]</string>
     <string name="prefUnitsPowerEntries_3">[кДж/ч]</string>
     <!-- prefUnitsSlopeEntries -->
-    <string name="prefUnitsSlopeEntries_0">Процент [<xliff:g id="fullwidthPercentSign">\uff05</xliff:g>]</string>
+    <string name="prefUnitsSlopeEntries_0">Процент [\uff05]</string>
     <string name="prefUnitsSlopeEntries_1">Угол [°]</string>
     <string name="prefUnitsSlopeEntries_2">За милю [‰]</string>
     <!-- pref_hud_axis_entries -->

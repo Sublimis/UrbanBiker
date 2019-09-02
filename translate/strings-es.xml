@@ -61,7 +61,7 @@
     <string name="profileNameDefault">Nuevo Perfil</string>
     <string name="featureNotAvailable">Lo sentimos, la función no está disponible en este dispositivo</string>
     <string name="toastRestartRequired">Reinicie la aplicación para que los cambios surtan efecto.</string>
-    <string name="toastActiveProfile">Perfil: <xliff:g>%1$s</xliff:g>
+    <string name="toastActiveProfile">Perfil: %1$s
     </string>
     <string name="toastProfileSavingError">¡Error guardando datos del perfil! Por favor vuelva a intentarlo.</string>
     <string name="toastProfileChangeError">¡No se pudo cambiar de perfil! Por favor vuelva a intentarlo.</string>
@@ -73,11 +73,11 @@
     <string name="toastTrackZippingError">¡Error comprimiendo el recorrido! Intente reiniciar.</string>
     <string name="toastTrackMovingError">¡Error moviendo el recorrido a USB! Intente reiniciar.</string>
     <string name="toastPressAgainToExit">Pulse de nuevo para salir</string>
-    <string name="toastFenceGuardFenceAdded">FenceGuard: Valla <xliff:g>%1$s</xliff:g> añadido</string>
+    <string name="toastFenceGuardFenceAdded">FenceGuard: Valla %1$s añadido</string>
     <string name="toastFenceGuardFenceAddingError">FenceGuard: Error añadiendo valla</string>
-    <string name="toastFenceGuardFenceUpdated">FenceGuard: Valla <xliff:g>%1$s</xliff:g> actualizado</string>
+    <string name="toastFenceGuardFenceUpdated">FenceGuard: Valla %1$s actualizado</string>
     <string name="toastFenceGuardFenceUpdatingError">FenceGuard: Error actualizando valla</string>
-    <string name="toastFenceGuardFenceRemoved">FenceGuard: Valla <xliff:g>%1$s</xliff:g> eliminado</string>
+    <string name="toastFenceGuardFenceRemoved">FenceGuard: Valla %1$s eliminado</string>
     <string name="toastFenceGuardFenceRemovingError">FenceGuard: Error eliminando valla</string>
     <string name="toastFenceGuardOutsideTheFence">FenceGuard: Actualmente no estás dentro de la valla</string>
     <string name="toastFenceGuardLocationUnavailable">FenceGuard: Tu ubicación no está disponible</string>
@@ -103,7 +103,7 @@
     <string name="toastErrorPowerParametersVoid">Por favor, rellene los parámetros de potencia en Ajustes</string>
     <string name="toastSoundsEnabled">Habilitar sonidos</string>
     <string name="toastSoundsDisabled">Deshabilitar sonidos</string>
-    <string name="notificationTitleAdvancedPaused">En pausa: <xliff:g>%1$s</xliff:g>
+    <string name="notificationTitleAdvancedPaused">En pausa: %1$s
     </string>
     <string name="dialog_default_color_light_title">Tema de color claro</string>
     <string name="dialog_default_color_dark_title">Tema de color oscuro</string>
@@ -125,33 +125,33 @@
     <string name="dialog_fenceguard_update_text2">Una valla levantada alrededor de su ubicación la protege de quedar expuesta en los recorridos guardados.</string>
     <string name="dialog_fenceguard_remove_title">Eliminar valla</string>
     <string name="dialog_fenceguard_remove_defaultText">¿Está seguro/a de eliminar la valla\?</string>
-    <string name="dialog_fenceguard_remove_formatText">¿Está seguro/a de eliminar la valla <xliff:g>%1$s</xliff:g>\?</string>
-    <string name="dialog_track_save_text">Distancia <xliff:g>%1$.3f %2$s
-\n</xliff:g>Duración <xliff:g>%3$s
-\n</xliff:g>
-        <xliff:g>(%4$s)
+    <string name="dialog_fenceguard_remove_formatText">¿Está seguro/a de eliminar la valla %1$s\?</string>
+    <string name="dialog_track_save_text">Distancia %1$.3f %2$s
+\nDuración %3$s
 \n
-\n</xliff:g>El recorrido parece muy corto. ¿Quieres guardarlo\?</string>
+        (%4$s)
+\n
+\nEl recorrido parece muy corto. ¿Quieres guardarlo\?</string>
     <string name="dialogProfileDeleteTitle">Eliminar perfil</string>
     <string name="dialogProfileDeleteMessage">Advertencia: Esto eliminará la configuración del perfil y los datos totales. Los recorridos guardados permanecerán intactos.
 \n
-\n¿Borrar perfil <xliff:g>%1$s</xliff:g>\?</string>
+\n¿Borrar perfil %1$s\?</string>
     <string name="dialogProfileAddTitle">Nuevo Perfil</string>
     <string name="dialogProfileEditTitle">Editar perfil</string>
     <string name="dialogProfileEditTotals">Totales:</string>
     <string name="dialogProfileTotalsResetMessage">¿Reiniciar totales del perfil a cero\?</string>
     <string name="dialogProfileSwitchTitle">Cambiar perfil</string>
-    <string name="dialogProfileSwitchMessage">Seguimiento activado. ¿Seguro que quiere cambiar al perfil <xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialogProfileSwitchMessage">Seguimiento activado. ¿Seguro que quiere cambiar al perfil %1$s\?</string>
     <string name="dialogTracksDeleteTitle">Borrar grabaciones</string>
     <string name="dialogTrackDeleteMessage">Aviso: Esta acción no se puede deshacer.
 \n
-\n¿Eliminar el recorrido <xliff:g>%1$s</xliff:g>\?</string>
+\n¿Eliminar el recorrido %1$s\?</string>
     <string name="dialogTrackResumeTitle">Continuar recorrido</string>
     <string name="dialogTrackResumeGpsActiveMessage">Seguimiento activado. Por favor apague o pause el GPS antes.</string>
-    <string name="dialogTrackResumeProfileNotBlankMessage">Perfil de destino <xliff:g>%1$s</xliff:g> no está vacío. Reinicie antes.</string>
-    <string name="dialogTrackResumeProfileSwitchMessage">Perfil activo se puede cambiar de <xliff:g>%1$s</xliff:g> a <xliff:g>%2$s</xliff:g>. ¿Continuar\?</string>
-    <string name="dialogTrackResumeProfileMissingMessage">El perfil <xliff:g>%1$s</xliff:g> que creó este recorrido ya no existe. ¿Continuar en el perfil actual <xliff:g>%2$s</xliff:g>\?</string>
-    <string name="dialogTrackResumeGeneralPromptMessage">El recorrido proseguirá en perfil <xliff:g>%1$s</xliff:g>. ¿Continuar\?</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">Perfil de destino %1$s no está vacío. Reinicie antes.</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">Perfil activo se puede cambiar de %1$s a %2$s. ¿Continuar\?</string>
+    <string name="dialogTrackResumeProfileMissingMessage">El perfil %1$s que creó este recorrido ya no existe. ¿Continuar en el perfil actual %2$s\?</string>
+    <string name="dialogTrackResumeGeneralPromptMessage">El recorrido proseguirá en perfil %1$s. ¿Continuar\?</string>
     <string name="dialogTrackResumeGeneralErrorMessage">Ha ocurrido un error. Vuelva a intentarlo.</string>
     <string name="dialogTrackResumeWaitMessage">Reanudando, espere porfavor...</string>
     <string name="dialogTracksShareTitle">Compartir grabaciones</string>
@@ -291,7 +291,7 @@
     <string name="controlPanelSoundVolume">Volúmenes</string>
     <string name="controlPanelEnergyParams">Parámetros Potencia/Energía</string>
     <string name="profilesListTitleSelectProfile">Cambiar Perfil</string>
-    <string name="profilesListRowTotalsSince">Totales desde: <xliff:g>%1$s</xliff:g>
+    <string name="profilesListRowTotalsSince">Totales desde: %1$s
     </string>
     <string name="profilesListButtonResetTotals">Reiniciar totales</string>
     <string name="profilesListProfileNotUsed">(sin usar)</string>
@@ -489,8 +489,8 @@
     <string name="pref_soundeffects_countdown_title">Cuenta atrás</string>
     <string name="pref_soundeffects_countdown_summary">Sonido de cuenta atrás antes de continuar el recorrido (...3, 2, 1, GO!)</string>
     <string name="pref_soundeffects_tally_title">Habilitar</string>
-    <string name="pref_soundeffects_tally_value_summary">Cada <xliff:g>%1$s</xliff:g>
-        <xliff:g>%2$s</xliff:g>
+    <string name="pref_soundeffects_tally_value_summary">Cada %1$s
+        %2$s
     </string>
     <string name="pref_soundeffects_tally_distance_title">Distancia</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">Distancia total</string>
@@ -515,7 +515,7 @@
     <string name="pref_maps_online_mode_dialog_title">Origen de los mapas</string>
     <string name="pref_maps_offline_file_title">Elija un archivo o una carpeta</string>
     <string name="pref_maps_offline_file_dialog_title">Elegir carpeta de mapas fuera de línea</string>
-    <string name="pref_maps_offline_file_summary">(Todos los perfiles) <xliff:g>%1$s</xliff:g>
+    <string name="pref_maps_offline_file_summary">(Todos los perfiles) %1$s
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Ninguna carpeta seleccionada.</string>
     <string name="pref_maps_offline_info_title">Descargar ahora</string>
@@ -555,15 +555,15 @@
     <string name="pref_powermeter_parameters_info_title">Nota!</string>
     <string name="pref_powermeter_parameters_info_summary">Para lecturas precisas de potencia y energía, ¡asegúrese de que estos parámetros son correctos!</string>
     <string name="pref_power_weights_title">Pesos</string>
-    <string name="pref_power_weights_summary">Conductor: <xliff:g>%1$s</xliff:g>, Vehículo: <xliff:g>%2$s</xliff:g>, Carga: <xliff:g>%3$s</xliff:g>, Pasajeros: <xliff:g>%4$s</xliff:g>, Ruedas: <xliff:g>%5$s</xliff:g>
+    <string name="pref_power_weights_summary">Conductor: %1$s, Vehículo: %2$s, Carga: %3$s, Pasajeros: %4$s, Ruedas: %5$s
     </string>
     <string name="pref_power_coefs_title">Coeficientes</string>
-    <string name="pref_power_coefs_summary">Area de arrastre: <xliff:g>%1$s
-\n</xliff:g>Roll resist: <xliff:g>%2$s</xliff:g>
+    <string name="pref_power_coefs_summary">Area de arrastre: %1$s
+\nRoll resist: %2$s
     </string>
     <string name="pref_energy_params_title">Parámetros de energía</string>
-    <string name="pref_energy_params_summary">Eficiencia: <xliff:g>%1$s
-\n</xliff:g>Metabolism: <xliff:g>%2$s</xliff:g>
+    <string name="pref_energy_params_summary">Eficiencia: %1$s
+\nMetabolism: %2$s
     </string>
     <string name="pref_svg_data_enable_title">Generar gráfica</string>
     <string name="pref_svg_data_modes_select_title">Seleccionar tipo de gráfica...</string>
@@ -617,9 +617,9 @@
     <string name="infoMeterModePaceTitle">Ritmo</string>
     <string name="infoMeterModePaceMsg">Velocidad inversa - Actual, Máxima y Promedio</string>
     <string name="infoMeterModeAccelerationTitle">Aceleración</string>
-    <string name="infoMeterModeAccelerationMsg">Proporción de cambio de velocidad — Actual, Máxima y Mínima. <xliff:g>
+    <string name="infoMeterModeAccelerationMsg">Proporción de cambio de velocidad — Actual, Máxima y Mínima.
 \n
-\n</xliff:g>Negativo significa des-aceleración.</string>
+\nNegativo significa des-aceleración.</string>
     <string name="infoMeterModePowerTitle">Potencia</string>
     <string name="infoMeterModeTemperatureTitle">Temperatura</string>
     <string name="infoMeterModeClockTitle">Reloj</string>

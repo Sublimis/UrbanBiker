@@ -68,7 +68,7 @@
     <string name="featureNotAvailable">Leider ist diese Funktion auf diesem Gerät nicht verfügbar</string>
     <string name="farFromHere">Weit entfernt</string>
     <string name="toastRestartRequired">Zum Übernehmen die App neu starten</string>
-    <string name="toastActiveProfile">Profil: <xliff:g>%1$s</xliff:g>
+    <string name="toastActiveProfile">Profil: %1$s
     </string>
     <string name="toastProfileSavingError">Fehler beim Speichern der Profilinformationen! Bitte versuchen Sie es erneut</string>
     <string name="toastProfileChangeError">Profil konnte nicht gewechselt werden! Bitte versuchen Sie es erneut</string>
@@ -84,11 +84,11 @@
     <string name="toastTrackingRecordingPassive">Passive Aufnahme</string>
     <string name="toastTrackingPaused">Pausiert</string>
     <string name="toastTrackingStopped">Gestoppt</string>
-    <string name="toastFenceGuardFenceAdded">Sichtschutz: Grenze <xliff:g>%1$s</xliff:g> hinzugefügt</string>
+    <string name="toastFenceGuardFenceAdded">Sichtschutz: Grenze %1$s hinzugefügt</string>
     <string name="toastFenceGuardFenceAddingError">Sichtschutz: Fehler beim Hinzufügen einer Grenze</string>
-    <string name="toastFenceGuardFenceUpdated">Sichtschutz: Grenze <xliff:g>%1$s</xliff:g> aktualisiert</string>
+    <string name="toastFenceGuardFenceUpdated">Sichtschutz: Grenze %1$s aktualisiert</string>
     <string name="toastFenceGuardFenceUpdatingError">Sichtschutz: Fehler beim Aktualisieren einer Grenze</string>
-    <string name="toastFenceGuardFenceRemoved">Sichtschutz: Grenze <xliff:g>%1$s</xliff:g> entfernt</string>
+    <string name="toastFenceGuardFenceRemoved">Sichtschutz: Grenze %1$s entfernt</string>
     <string name="toastFenceGuardFenceRemovingError">Sichtschutz: Fehler beim Entfernen der Grenze</string>
     <string name="toastFenceGuardOutsideTheFence">Sichtschutz: Du bist momentan nicht innerhalb des Sichtschutz</string>
     <string name="toastFenceGuardLocationUnavailable">Sichtschutz: Dein Standort ist nicht verfügbar</string>
@@ -124,7 +124,7 @@
     <string name="toastSensorDisabled">Sensor ausgeschaltet</string>
     <string name="toastAutoThemeActivated">Automatisches optisches Schema aktiviert</string>
     <string name="toastCancelled">Abgebrochen</string>
-    <string name="notificationTitleAdvancedPaused">Pausiert: <xliff:g>%1$s</xliff:g>
+    <string name="notificationTitleAdvancedPaused">Pausiert: %1$s
     </string>
     <string name="licenseSuccessDialogMessage">Die App wurde erfolgreich lizenziert. Danke für deine Unterstützung!</string>
     <string name="ongoingNotificationChannelName">Laufende Benachrichtigung</string>
@@ -149,38 +149,38 @@
     <string name="dialog_fenceguard_update_text2">Eine Grenze um deinen momentanen Standort, die ihn bei der Streckenaufzeichnung vebirgt.</string>
     <string name="dialog_fenceguard_remove_title">Grenze entfernen</string>
     <string name="dialog_fenceguard_remove_defaultText">Bist du sicher, dass du die Grenze entfernen möchtest\?</string>
-    <string name="dialog_fenceguard_remove_formatText">Bist du sicher, dass du die Grenze <xliff:g>%1$s</xliff:g> entfernen möchtest\?</string>
-    <string name="dialog_track_save_text">Entfernung <xliff:g>%1$.3f %2$s
-\n</xliff:g>Dauer <xliff:g>%3$s
-\n</xliff:g>
-        <xliff:g>(%4$s)
+    <string name="dialog_fenceguard_remove_formatText">Bist du sicher, dass du die Grenze %1$s entfernen möchtest\?</string>
+    <string name="dialog_track_save_text">Entfernung %1$.3f %2$s
+\nDauer %3$s
 \n
-\n</xliff:g>Die Strecke scheint sehr kurz zu sein. Trotzdem speichern\?</string>
+        (%4$s)
+\n
+\nDie Strecke scheint sehr kurz zu sein. Trotzdem speichern\?</string>
     <string name="dialog_exit_msg">Achtung: Verfolgung ist aktiv und wird gestoppt.</string>
     <string name="dialogProfileDeleteTitle">Profil löschen</string>
     <string name="dialogProfileDeleteMessage">Warnung: Profileinstellungen und alle Daten werden gelöscht. Gespeicherte Strecken bleiben erhalten.
 \n
-\nProfil <xliff:g>%1$s</xliff:g> löschen\?</string>
+\nProfil %1$s löschen\?</string>
     <string name="dialogProfileAddTitle">Neues Profil</string>
     <string name="dialogProfileAddInfo">Die Einstellungen des neuen Profils werden vom aktuellen Profil übernommen.</string>
     <string name="dialogProfileEditTitle">Profil bearbeiten</string>
     <string name="dialogProfileEditTotals">Gesamtwerte:</string>
     <string name="dialogProfileTotalsResetMessage">Werte zurücksetzen</string>
     <string name="dialogProfileSwitchTitle">Profil wechseln</string>
-    <string name="dialogProfileSwitchMessage">Verfolgung ist aktiv. Wirklich zu Profil <xliff:g>%1$s</xliff:g> wechseln\?</string>
+    <string name="dialogProfileSwitchMessage">Verfolgung ist aktiv. Wirklich zu Profil %1$s wechseln\?</string>
     <string name="dialogTracksDeleteTitle">Strecken löschen</string>
     <string name="dialogTracksDeleteMessage">Achtung: Die Aktion kann nicht rückgängig gemacht werden.
 \n
 \nDie ausgewählten Strecken löschen\?</string>
     <string name="dialogTrackDeleteMessage">Achtung: Die Aktion kann nicht rückgängig gemacht werden.
 \n
-\nStrecke <xliff:g>%1$s</xliff:g> löschen\?</string>
+\nStrecke %1$s löschen\?</string>
     <string name="dialogTrackResumeTitle">Strecke fortsetzen</string>
     <string name="dialogTrackResumeGpsActiveMessage">Verfolgung ist aktiv. Bitte zuerst GPS pausieren oder abschalten.</string>
-    <string name="dialogTrackResumeProfileNotBlankMessage">Zielprofil <xliff:g>%1$s</xliff:g> ist nicht leer. Bitte zuerst zurücksetzen.</string>
-    <string name="dialogTrackResumeProfileSwitchMessage">Aktives Profil wird gewechselt von <xliff:g>%1$s</xliff:g> zu <xliff:g>%2$s</xliff:g>. Fortsetzen\?</string>
-    <string name="dialogTrackResumeProfileMissingMessage">Profil <xliff:g>%1$s</xliff:g> mit dem die Strecke aufgezeichnet wurde, existiert nicht mehr. Im aktuellen Profil <xliff:g>%2$s</xliff:g> fortfahren\?</string>
-    <string name="dialogTrackResumeGeneralPromptMessage">Strecke wird im Profil <xliff:g>%1$s</xliff:g> fortgesetzt. Fortsetzen\?</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">Zielprofil %1$s ist nicht leer. Bitte zuerst zurücksetzen.</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">Aktives Profil wird gewechselt von %1$s zu %2$s. Fortsetzen\?</string>
+    <string name="dialogTrackResumeProfileMissingMessage">Profil %1$s mit dem die Strecke aufgezeichnet wurde, existiert nicht mehr. Im aktuellen Profil %2$s fortfahren\?</string>
+    <string name="dialogTrackResumeGeneralPromptMessage">Strecke wird im Profil %1$s fortgesetzt. Fortsetzen\?</string>
     <string name="dialogTrackResumeGeneralErrorMessage">Ein Fehler ist aufgetreten. Bitte noch einmal versuchen.</string>
     <string name="dialogTrackResumeWaitMessage">Fortsetzen, bitte warten…</string>
     <string name="dialogTracksShareTitle">Strecken Teilen</string>
@@ -188,17 +188,17 @@
     <string name="dialogTracksShareCountExceeded">Mehr als 100 Strecken können nicht gleichzeitig geteilt werden.</string>
     <string name="dialogGpsSettingsPromptTitle">Standort ist deaktiviert</string>
     <string name="dialogBaroAltitudePromptTitle">Problem mit der barometerischen Höhenermittlung</string>
-    <string name="dialogBaroAltitudePromptMessage">Die barometrische Höhenbestimmung wurde wegen einer Unstimmigkeit mit der GPS Höhe deaktiviert!<xliff:g>
+    <string name="dialogBaroAltitudePromptMessage">Die barometrische Höhenbestimmung wurde wegen einer Unstimmigkeit mit der GPS Höhe deaktiviert!
 \n
-\n</xliff:g>Bitte diese nicht in geschlossenen oder klimatisierten Räumen nutzen!</string>
+\nBitte diese nicht in geschlossenen oder klimatisierten Räumen nutzen!</string>
     <string name="dialogBaroAltitudeNoticeTitle">Notiz</string>
-    <string name="dialogBaroAltitudeNoticeMessage">Die barometrische Höhenbestimmung funktioniert nur im Freien.<xliff:g>
+    <string name="dialogBaroAltitudeNoticeMessage">Die barometrische Höhenbestimmung funktioniert nur im Freien.
 \n
-\n</xliff:g>Bitte diese nicht in geschlossenen oder klimatisierten Räumen wie Fahrzeugen oder Flugzeugen nutzen.</string>
+\nBitte diese nicht in geschlossenen oder klimatisierten Räumen wie Fahrzeugen oder Flugzeugen nutzen.</string>
     <string name="dialogThermoBarometerNoticeTitle">Notiz</string>
-    <string name="dialogThermoBarometerNoticeMessage">Die Genauigkeit des Thermo Baromters benötigt die Aussentemperatur.<xliff:g>
+    <string name="dialogThermoBarometerNoticeMessage">Die Genauigkeit des Thermo Baromters benötigt die Aussentemperatur.
 \n
-\n</xliff:g>Bitte diese nicht in geschlossenen oder klimatisierten Räumen wie Fahrzeugen oder Flugzeugen nutzen.</string>
+\nBitte diese nicht in geschlossenen oder klimatisierten Räumen wie Fahrzeugen oder Flugzeugen nutzen.</string>
     <string name="dialogResetTitle">Aufzeichnung beenden</string>
     <string name="dialogResetMessage">Diese Strecke speichern und eine neue vorbereiten\?</string>
     <string name="dialogResetNoTrackMessage">Es wurde keine Strecke aufgezeichnet. Zähler zurücksetzen\?</string>
@@ -255,14 +255,14 @@
     <string name="dialogLocationPermissionRequestTitle">Berechtigung zur Standort Ermittlung</string>
     <string name="dialogLocationPermissionRequest">Die App muss den Standort ermitteln um Ihre outdoor Aktivitäten zu speichern</string>
     <string name="dialogStoragePermissionRequestTitle">Speicherzugriffsberechtigung</string>
-    <string name="dialogStoragePermissionRequest">Die App muss auf den Speicher zugreifen können, damit Tracks und Einstellungen gespeichert und wiederhergestellt werden können.<xliff:g>
+    <string name="dialogStoragePermissionRequest">Die App muss auf den Speicher zugreifen können, damit Tracks und Einstellungen gespeichert und wiederhergestellt werden können.
 \n
-\n</xliff:g>Ohne Speicherfreigabe ist kein Trackverlauf / keine Trackweitergabe möglich und Datenverlust kann die Folge sein.</string>
+\nOhne Speicherfreigabe ist kein Trackverlauf / keine Trackweitergabe möglich und Datenverlust kann die Folge sein.</string>
     <string name="dialogCameraPermissionRequestTitle">Kamerazugriffsberechtigung</string>
     <string name="dialogCameraPermissionRequest">Berechtigung benötigt, damit die App die Taschenlampe aktivieren kann.</string>
-    <string name="dialogPermissionProblemMessage">Diese Berechtigung ist zur ordentlichen Funktion der App notwendig. Sie kann auf der Seite für App Berechtigungseinstellungen erteilt werden.<xliff:g>
+    <string name="dialogPermissionProblemMessage">Diese Berechtigung ist zur ordentlichen Funktion der App notwendig. Sie kann auf der Seite für App Berechtigungseinstellungen erteilt werden.
 \n
-\n</xliff:g>Dorthin wechseln\?</string>
+\nDorthin wechseln\?</string>
     <string name="mapLayerStreet">Straße</string>
     <string name="mapLayerTerrain">Gelände</string>
     <string name="mapLayerSatellite">Satellit</string>
@@ -369,7 +369,7 @@
     <string name="profilesListTitle">Profile</string>
     <string name="profilesListTitleSelectProfile">Profil wechseln</string>
     <string name="profilesListAddProfile">Neues Profil</string>
-    <string name="profilesListRowTotalsSince">Gesamt seit: <xliff:g>%1$s</xliff:g>
+    <string name="profilesListRowTotalsSince">Gesamt seit: %1$s
     </string>
     <string name="profilesListButtonResetTotals">Summen zurücksetzen</string>
     <string name="profilesListProfileNotUsed">(ungenützt)</string>
@@ -415,7 +415,7 @@
     <string name="sensorPurposeSpeed">Geschwindigkeit</string>
     <string name="sensorPurposePower">Leistung</string>
     <string name="sensorPurposeHeartRate">Herzfrequenz</string>
-    <string name="sensorProperitesProfileInfo">Sensor Einstellungen werden pro Profil gespeichert. Diese Einstellungen sind nur für das aktive Profil (<xliff:g id="profile_name">%1$s</xliff:g>).</string>
+    <string name="sensorProperitesProfileInfo">Sensor Einstellungen werden pro Profil gespeichert. Diese Einstellungen sind nur für das aktive Profil (%1$s).</string>
     <string name="sensorProperitesUseForSpeed">Verwende für Geschwindigkeit</string>
     <string name="sensorProperitesUseForCadence">Verwende für Trittfrequenz</string>
     <string name="sensorProperitesIsInverted">Tausche Geschwindigkeit / Trittfrequenz</string>
@@ -538,8 +538,8 @@
     <string name="pref_bell_shake_sensitivity_title">Schüttelempfindlichkeit</string>
     <string name="pref_roaring_type_title">Typ</string>
     <string name="pref_roaring_type_dialog_title">Brummtyp</string>
-    <string name="pref_volume_summary_text">Klingel:<xliff:g> %1$s</xliff:g>, Brummen:<xliff:g> %2$s
-\n</xliff:g>Zwischenstände:<xliff:g> %3$s</xliff:g>, Effekte:<xliff:g> %4$s</xliff:g>, Alarme:<xliff:g> %5$s</xliff:g>
+    <string name="pref_volume_summary_text">Klingel: %1$s, Brummen: %2$s
+\nZwischenstände: %3$s, Effekte: %4$s, Alarme: %5$s
     </string>
     <string name="pref_bg_color_title">Hintergrundfarbe</string>
     <string name="pref_bg_color_summary">Wähle die gewünschte Farbe für den App-Hintergrund</string>
@@ -599,8 +599,8 @@
     <string name="pref_soundeffects_countdown_title">Countdown</string>
     <string name="pref_soundeffects_countdown_summary">Ton bei Countdown, bevor die Strecke fortgesetzt wird (…3, 2, 1, GO!)</string>
     <string name="pref_soundeffects_tally_title">Einschalten</string>
-    <string name="pref_soundeffects_tally_value_summary">Alle <xliff:g>%1$s</xliff:g>
-        <xliff:g>%2$s</xliff:g>
+    <string name="pref_soundeffects_tally_value_summary">Alle %1$s
+        %2$s
     </string>
     <string name="pref_soundeffects_tally_distance_title">Entfernung</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">Entfernungs-Zwischenstand</string>
@@ -627,7 +627,7 @@
     <string name="pref_maps_online_mode_dialog_title">Kartenquelle</string>
     <string name="pref_maps_offline_file_title">Datei oder Ordner auswählen</string>
     <string name="pref_maps_offline_file_dialog_title">Wähle Offlinekartenverzeichnis</string>
-    <string name="pref_maps_offline_file_summary"> (Alle Profile) <xliff:g>%1$s</xliff:g>
+    <string name="pref_maps_offline_file_summary"> (Alle Profile) %1$s
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Kein Verzeichnis ausgewählt</string>
     <string name="pref_maps_offline_info_title">Jetzt herunterladen</string>
@@ -670,15 +670,15 @@
     <string name="pref_powermeter_parameters_info_title">Hinweis!</string>
     <string name="pref_powermeter_parameters_info_summary">Zur genauen Anzeige der Kraft- und Energiewerte bitte sicherstellen, dass diese Parameter korrekt sind.</string>
     <string name="pref_power_weights_title">Gewichte</string>
-    <string name="pref_power_weights_summary">Fahrer: <xliff:g>%1$s</xliff:g>, Fahrzeug: <xliff:g>%2$s</xliff:g>, Zuladung: <xliff:g>%3$s</xliff:g>, Passagiere: <xliff:g>%4$s</xliff:g>, Reifen: <xliff:g>%5$s</xliff:g>
+    <string name="pref_power_weights_summary">Fahrer: %1$s, Fahrzeug: %2$s, Zuladung: %3$s, Passagiere: %4$s, Reifen: %5$s
     </string>
     <string name="pref_power_coefs_title">Koeffizienten</string>
-    <string name="pref_power_coefs_summary">Luftwiderstand: <xliff:g>%1$s
-\n</xliff:g>Rollwiderstand: <xliff:g>%2$s</xliff:g>
+    <string name="pref_power_coefs_summary">Luftwiderstand: %1$s
+\nRollwiderstand: %2$s
     </string>
     <string name="pref_energy_params_title">Energieparameter</string>
-    <string name="pref_energy_params_summary">Effizienz: <xliff:g>%1$s
-\n</xliff:g>Stoffwechsel: <xliff:g>%2$s</xliff:g>
+    <string name="pref_energy_params_summary">Effizienz: %1$s
+\nStoffwechsel: %2$s
     </string>
     <string name="pref_svg_data_enable_title">Diagramme erzeugen</string>
     <string name="pref_svg_data_enable_summary">Erzeuge SVG Diagrammdateien für verschiedene Kennzahlen</string>
@@ -738,9 +738,9 @@
     <string name="infoMeterModePaceTitle">Pace</string>
     <string name="infoMeterModePaceMsg">Kehrwert der Geschwindigkeit - Aktuell, Maximum und Durchschnitt.</string>
     <string name="infoMeterModeAccelerationTitle">Beschleunigung</string>
-    <string name="infoMeterModeAccelerationMsg">Rate des Geschwindigkeitswechsels — Aktuell, Maximum und Minimum.<xliff:g>
+    <string name="infoMeterModeAccelerationMsg">Rate des Geschwindigkeitswechsels — Aktuell, Maximum und Minimum.
 \n
-\n</xliff:g>Negativ bedeutet Abbremsen.</string>
+\nNegativ bedeutet Abbremsen.</string>
     <string name="infoMeterModePowerTitle">Leistung</string>
     <string name="infoMeterModeTemperatureTitle">Temperatur</string>
     <string name="infoMeterModePressureTitle">Druck</string>

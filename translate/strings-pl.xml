@@ -64,7 +64,7 @@
     <string name="featureNotAvailable">Przepraszamy, funkcjonalność niedostępna na tym urządzeniu.</string>
     <string name="farFromHere">Daleko stąd</string>
     <string name="toastRestartRequired">Zresetuj apkę w celu zatwierdzenia zmian</string>
-    <string name="toastActiveProfile">Profile: <xliff:g>%1$s</xliff:g>
+    <string name="toastActiveProfile">Profile: %1$s
     </string>
     <string name="toastProfileSavingError">Błąd zapisu danych w profilu! Spróbuj ponownie.</string>
     <string name="toastProfileChangeError">Błąd zmiany profilu! Spróbuj ponownie.</string>
@@ -80,11 +80,11 @@
     <string name="toastTrackingRecordingPassive">Nagrywanie pasywne</string>
     <string name="toastTrackingPaused">Pauza</string>
     <string name="toastTrackingStopped">Zatrzymany</string>
-    <string name="toastFenceGuardFenceAdded">Obszar chroniony: Obszar <xliff:g>%1$s</xliff:g> dodany</string>
+    <string name="toastFenceGuardFenceAdded">Obszar chroniony: Obszar %1$s dodany</string>
     <string name="toastFenceGuardFenceAddingError">Strażnik ogrodzenia: Błąd dodania ogrodzenia</string>
-    <string name="toastFenceGuardFenceUpdated">Obszar chroniony: Obszar %1$s uaktualniony<xliff:g>%1$s</xliff:g> uaktualniony</string>
+    <string name="toastFenceGuardFenceUpdated">Obszar chroniony: Obszar %1$s uaktualniony%1$s uaktualniony</string>
     <string name="toastFenceGuardFenceUpdatingError">Strażnik ogrodzenia: Błąd aktualizacji ogrodzenia</string>
-    <string name="toastFenceGuardFenceRemoved">Obszar chroniony: Obszar %1$s usunięty<xliff:g>%1$s</xliff:g> usunięty</string>
+    <string name="toastFenceGuardFenceRemoved">Obszar chroniony: Obszar %1$s usunięty%1$s usunięty</string>
     <string name="toastFenceGuardFenceRemovingError">Strażnik ogrodzenia: Błąd usuwania ogrodzenia</string>
     <string name="toastFenceGuardOutsideTheFence">FenceGuard: Jesteś obecnie poza Ogrodzeniem</string>
     <string name="toastFenceGuardLocationUnavailable">FenceGuard: Twoja lokalizacja jest nadal niedostępna</string>
@@ -113,7 +113,7 @@
     <string name="toastSensorEnabled">Czujnik włączony</string>
     <string name="toastSensorDisabled">Czujnik wyłączony</string>
     <string name="toastAutoThemeActivated">Automatyczny motyw wizualny aktywowany</string>
-    <string name="notificationTitleAdvancedPaused">Pauza: %1$s<xliff:g>%1$s</xliff:g>
+    <string name="notificationTitleAdvancedPaused">Pauza: %1$s%1$s
     </string>
     <string name="licenseSuccessDialogMessage">Appka została pomyślnie licencjonowana. Dziękujemy za wsparcie!</string>
     <string name="ongoingNotificationChannelName">Trwające powiadomienie</string>
@@ -138,34 +138,34 @@
     <string name="dialog_fenceguard_update_text2">Ogrodzenie zostało utworzone wogół twojej lokalizacji, aby nie zostało zarejestrowane na zapisanej trasie.</string>
     <string name="dialog_fenceguard_remove_title">Usuń Ogrodzenie</string>
     <string name="dialog_fenceguard_remove_defaultText">Czy na pewno chcesz usunąć Ogrodzenie\?</string>
-    <string name="dialog_fenceguard_remove_formatText">Czy na pewno usunąć granice obszaru %1$s\?<xliff:g>%1$s</xliff:g>\?</string>
-    <string name="dialog_track_save_text">Dystans: <xliff:g>%1$.3f %2$s</xliff:g>Okres <xliff:g>%3$s</xliff:g>
-        <xliff:g>(%4$s)</xliff:g>Trasa wydaje się być bardzo krótka. Zapisać\?</string>
+    <string name="dialog_fenceguard_remove_formatText">Czy na pewno usunąć granice obszaru %1$s\?%1$s\?</string>
+    <string name="dialog_track_save_text">Dystans: %1$.3f %2$sOkres %3$s
+        (%4$s)Trasa wydaje się być bardzo krótka. Zapisać\?</string>
     <string name="dialog_exit_msg">Uwaga: Śledzenie jest aktywne i będzie zatrzymane.</string>
     <string name="dialogProfileDeleteTitle">Usuń profil</string>
     <string name="dialogProfileDeleteMessage">Ostrzeżenie: Ta operacja usunie wszystkie ustawienia i dane profilu. Zapisane trasy nie zostaną usunięte.
 \n
-\nUsunąć profil <xliff:g>%1$s</xliff:g>\?</string>
+\nUsunąć profil %1$s\?</string>
     <string name="dialogProfileAddTitle">Nowy profil</string>
     <string name="dialogProfileAddInfo">Ustawienia Nowego profilu zostaną skopiowane z bieżącego profilu aktywności</string>
     <string name="dialogProfileEditTitle">Edytuj profil</string>
     <string name="dialogProfileEditTotals">Podsumowanie:</string>
     <string name="dialogProfileTotalsResetMessage">Wyzerować zsumowane wartości\?</string>
     <string name="dialogProfileSwitchTitle">Przełącz profil</string>
-    <string name="dialogProfileSwitchMessage">Śledzenie GPS jest aktywne. Czy na pewno chcesz przełączyć profil<xliff:g>%1$s</xliff:g>\?</string>
+    <string name="dialogProfileSwitchMessage">Śledzenie GPS jest aktywne. Czy na pewno chcesz przełączyć profil%1$s\?</string>
     <string name="dialogTracksDeleteTitle">Usuń trasy</string>
     <string name="dialogTracksDeleteMessage">Uwaga: Tej czynności nie można cofnąć.
 \n
 \nSkasować wybrane trasy\?</string>
     <string name="dialogTrackDeleteMessage">Uwaga: Tej cz,ynności nie można cofnąć.
 \n
-\nSkasuj ścieżkę <xliff:g>%1$s</xliff:g>\?</string>
+\nSkasuj ścieżkę %1$s\?</string>
     <string name="dialogTrackResumeTitle">Wznów ścieżkę</string>
     <string name="dialogTrackResumeGpsActiveMessage">Śledzenie GPS jest aktywne. Proszę wyłącz lub wstrzymaj wcześniej GPS.</string>
-    <string name="dialogTrackResumeProfileNotBlankMessage">Profil docelowy <xliff:g>%1$s</xliff:g> nie jest pusty. Zresetuj go wcześniej.</string>
-    <string name="dialogTrackResumeProfileSwitchMessage">Aktywny profil będzie przełączony z <xliff:g>%1$s</xliff:g> na <xliff:g>%2$s</xliff:g>. Kontynuować\?</string>
-    <string name="dialogTrackResumeProfileMissingMessage">Profil <xliff:g>%1$s</xliff:g> który utworzył tą ścieżkę już nie istnieje. Wznowić w bieżącym profilu <xliff:g>%2$s</xliff:g>\?</string>
-    <string name="dialogTrackResumeGeneralPromptMessage">Trasa będzie wznowiona w profilu <xliff:g>%1$s</xliff:g>. Kontynuować\?</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">Profil docelowy %1$s nie jest pusty. Zresetuj go wcześniej.</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">Aktywny profil będzie przełączony z %1$s na %2$s. Kontynuować\?</string>
+    <string name="dialogTrackResumeProfileMissingMessage">Profil %1$s który utworzył tą ścieżkę już nie istnieje. Wznowić w bieżącym profilu %2$s\?</string>
+    <string name="dialogTrackResumeGeneralPromptMessage">Trasa będzie wznowiona w profilu %1$s. Kontynuować\?</string>
     <string name="dialogTrackResumeGeneralErrorMessage">Wystąpił błąd. Spróbuj ponownie.</string>
     <string name="dialogTrackResumeWaitMessage">Wznawianie, proszę czekaj...</string>
     <string name="dialogTracksShareTitle">Udostępnij trasy</string>
@@ -290,7 +290,7 @@
     <string name="meterTextMax">Maksimum</string>
     <string name="meterTextAvg">średnia</string>
     <string name="profilesListTitleSelectProfile">Przełącz profil</string>
-    <string name="profilesListRowTotalsSince">Całość od: <xliff:g>%1$s</xliff:g>
+    <string name="profilesListRowTotalsSince">Całość od: %1$s
     </string>
     <string name="profilesListButtonResetTotals">Reset wyników</string>
     <string name="tracksHistoryListTitle">Historia tras</string>
@@ -443,8 +443,8 @@
     <string name="pref_soundeffects_countdown_title">Odliczanie</string>
     <string name="pref_soundeffects_countdown_summary">Dźwięk odliczania przed startem (...3, 2, 1, GO!)</string>
     <string name="pref_soundeffects_tally_title">Włącz</string>
-    <string name="pref_soundeffects_tally_value_summary">Co <xliff:g>%1$s</xliff:g>
-        <xliff:g>%2$s</xliff:g>
+    <string name="pref_soundeffects_tally_value_summary">Co %1$s
+        %2$s
     </string>
     <string name="pref_soundeffects_tally_distance_title">Dystans</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">Zakładka dystansu</string>
@@ -464,7 +464,7 @@
     <string name="pref_maps_online_mode_dialog_title">Źródło map</string>
     <string name="pref_maps_offline_file_title">Wybierz plik lub folder</string>
     <string name="pref_maps_offline_file_dialog_title">Wybierz folder map offline</string>
-    <string name="pref_maps_offline_file_summary">(Wszystkie profile) <xliff:g>%1$s</xliff:g>
+    <string name="pref_maps_offline_file_summary">(Wszystkie profile) %1$s
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Nie wybrano katalogu.</string>
     <string name="pref_maps_offline_info_title">Pobierz teraz</string>
@@ -492,7 +492,7 @@
     <string name="pref_speedo_display_mode_title">Wygląd</string>
     <string name="pref_powermeter_display_mode_dialog_title">Tryb wyświetlacza mocy</string>
     <string name="pref_power_weights_title">Wagi</string>
-    <string name="pref_power_weights_summary">Kierowca: <xliff:g>%1$s</xliff:g>, Pojazd: <xliff:g>%2$s</xliff:g>, Ładunek: <xliff:g>%3$s</xliff:g>, Pasażerowie: <xliff:g>%4$s</xliff:g>, Koła: <xliff:g>%5$s</xliff:g>
+    <string name="pref_power_weights_summary">Kierowca: %1$s, Pojazd: %2$s, Ładunek: %3$s, Pasażerowie: %4$s, Koła: %5$s
     </string>
     <string name="pref_power_coefs_title">Współczynniki</string>
     <string name="pref_energy_params_title">Parametry Energetyczne</string>
