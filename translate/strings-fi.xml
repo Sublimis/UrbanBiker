@@ -381,15 +381,15 @@
     <string name="pref_info_title">Tietoa</string>
     <string name="pref_resetToDefault">Palauta oletukset</string>
     <string name="pref_units_distance_title">Etäisyys</string>
-    <string name="pref_units_distance_dialog_title">Etäisyyden yksiköt</string>
+    <string name="pref_units_distance_dialog_title">Etäisyyden yksikkö</string>
     <string name="pref_units_speed_title">Nopeus</string>
-    <string name="pref_units_speed_dialog_title">Nopeuden yksiköt</string>
+    <string name="pref_units_speed_dialog_title">Nopeuden yksikkö</string>
     <string name="pref_units_weight_title">Massa</string>
-    <string name="pref_units_weight_dialog_title">Massan yksiköt</string>
+    <string name="pref_units_weight_dialog_title">Massan yksikkö</string>
     <string name="pref_units_other_title">Muuta</string>
     <string name="pref_units_other_dialog_title">Yksiköt muille suureille</string>
     <string name="pref_units_energy_title">Energia</string>
-    <string name="pref_units_energy_dialog_title">Energiayksiköt</string>
+    <string name="pref_units_energy_dialog_title">Energiayksikkö</string>
     <string name="pref_bell_mode_title">Tyyppi</string>
     <string name="pref_bell_mode_dialog_title">Kellon tyyppi</string>
     <string name="pref_bell_automatic_title">Automaattinen</string>
@@ -468,4 +468,105 @@
     <string name="dialogFencesShowFences">Näytä suojat</string>
     <string name="pref_screen_allow_off_inactive_title">Kytke pois inaktiivisena</string>
     <string name="pref_screen_allow_off_inactive_summary">Anna näytön sammua muutaman minuutin inaktiivisuuden jälkeen</string>
+    <string name="menuMeterPowerMode">Vaihda tehon näyttöä</string>
+    <string name="fence_name_default">Koti</string>
+    <string name="farFromHere">Kaukana täältä</string>
+    <string name="toastTrackSavingError">Virhe reitin tallennuksessa! Yritä nollata uudelleen.</string>
+    <string name="toastTrackWritingError">Virhe reitin tietojen tallennuksessa muistiin! Yritä nollata uudelleen.</string>
+    <string name="toastTrackZippingError">Virhe reitin pakkauksessa! Yritä nollata uudelleen.</string>
+    <string name="toastTrackMovingError">Virhe siirtäessä reittiä USB-muistiin! Yritä nollata uudelleen.</string>
+    <string name="dialogProfileDeleteMessage">Varoitus: Tämä poistaa profiiliasetukset ja kokonaistilastot. Tallennetut reitit pysyvät ennallaan.
+\n
+\nPoistetaanko profiili %1$s\?</string>
+    <string name="dialogBaroAltitudePromptTitle">Barometrisen korkeuden virhe</string>
+    <string name="dialogBaroAltitudePromptMessage">Barometrinen korkeus on pakotettu pois päältä johtuen ristiriidasta GPS:n korkeuden kanssa!
+\n
+\nÄlä käytä sitä suljetuissa tai ilmastoiduissa tiloissa!</string>
+    <string name="dialogBaroAltitudeNoticeMessage">Barometrinen korkeus toimii vain ulkoilmassa.
+\n
+\nÄlä käytä sitä suljetuissa tai ilmastoiduissa tiloissa kuten joissain kulkuvälineissä ja lentokoneissa.</string>
+    <string name="dialogThermoBarometerNoticeMessage">Termobarometri vaatii ulkolämpötilan toimiakseen tarkasti.
+\n
+\nÄlä käytä sitä suljetuissa tai ilmastoiduissa tiloissa, kuten joissain kulkuvälineissä tai lentokoneissa.</string>
+    <string name="dialogPowerWeightsRotInertiaTitle">Hitausmomentti</string>
+    <string name="dialogPowerParamsDragArea">Ilmanvastus (Cd·A)</string>
+    <string name="dialogPowerParamsRollResist">Vierintävastuskerroin (Crr)</string>
+    <string name="dialogEnergyParamsEfficiency">Kokonaislämpötehokkuus (η)</string>
+    <string name="dialogEnergyParamsBmr">Perusaineenvaihdunta (BMR)</string>
+    <string name="dialogTrackUploadPreparing">Valmistellaan reitin tietoja…</string>
+    <string name="dialogTrackUploadActivityType">Aktiviteetin tyyppi</string>
+    <string name="dialogTrackUploadStravaIsCommute">Työmatka</string>
+    <string name="dialogSvgTitle">SVG-kuvaajat</string>
+    <string name="dialogSliderLess">◀</string>
+    <string name="dialogSliderMore">▶</string>
+    <string name="dialogStoragePermissionRequest">Sovellus tarvitsee tallennustilan käyttöoikeuden voidakseen tallentaa ja palauttaa reittejäsi ja asetuksiasi.
+\n
+\nIlman käyttöoikeuden myöntämistä et voi käyttää reittihistoriaa tai jakaa reittejä ja saatat menettää tietojasi.</string>
+    <string name="dialog_fenceguard_add_entries_0">Lisää suoja</string>
+    <string name="dialog_fenceguard_update_entries_0">Päivitä suoja</string>
+    <string name="dialog_fenceguard_update_entries_1">Poista suoja</string>
+    <string name="dialogTracksShareChoices_0">ZIP (täydellinen)</string>
+    <string name="unitPetrolLit">L gas.</string>
+    <string name="meterModeSpeedVertical">pystynopeus</string>
+    <string name="meterModeSpeedVerticalShort">v spd</string>
+    <string name="meterModeSpeedAverageShort">ka spd</string>
+    <string name="meterModeDurationShort">kes</string>
+    <string name="meterModeElapsedTime">kulunut</string>
+    <string name="meterModeElapsedTimeShort">kulu</string>
+    <string name="meterModeAltitude">korkeus</string>
+    <string name="meterModeAltitudeShort">kor</string>
+    <string name="meterModeVerticalPower">pystyvoima</string>
+    <string name="meterModeVerticalPowerShort">v pwr</string>
+    <string name="meterModePower">teho</string>
+    <string name="meterModePowerShort">pwr</string>
+    <string name="meterModePowerAverage">keskiteho</string>
+    <string name="meterModePowerAverageShort">ka pwr</string>
+    <string name="meterModeFTP">nyk pwr</string>
+    <string name="meterModeAcceleration">kiihtyvyys</string>
+    <string name="meterModeAccelerationShort">acc</string>
+    <string name="meterModeDistanceShort">etä</string>
+    <string name="meterModeOdo">matkamittari</string>
+    <string name="meterModeOdoShort">odo</string>
+    <string name="meterModeEnergyShort">ene</string>
+    <string name="meterModeEfficacy">tehokkuus</string>
+    <string name="meterModeEfficacyShort">thk</string>
+    <string name="meterModeTemperatureShort">lämpö</string>
+    <string name="meterModePressureShort">paine</string>
+    <string name="meterModeClockShort">klo</string>
+    <string name="meterModeAltitudeAscentShort">nou</string>
+    <string name="meterModeAltitudeDescentShort">las</string>
+    <string name="meterModeAltitudeSlope">kaltevuus</string>
+    <string name="meterModeAltitudeSlopeShort">kalt</string>
+    <string name="meterModeCadence">kadenssi</string>
+    <string name="meterModeCadenceShort">kad</string>
+    <string name="meterModeHeartRateShort">hr</string>
+    <string name="meterModeGearRatio">välityssuhde</string>
+    <string name="meterModeGearRatioShort">v suh</string>
+    <string name="bellRingAuto">auto</string>
+    <string name="roarModeConstant">jatk</string>
+    <string name="meterTextMin">min</string>
+    <string name="meterTextMax">max</string>
+    <string name="meterTextAvg">ka</string>
+    <string name="meterTextTotal">yht</string>
+    <string name="controlPanelEnergyParams">Teho/energiaparametrit</string>
+    <string name="cloudAccountsInfo">Pilvipalveluun yhdistämineen helpottaa reittien lataamista ja jakamista muille.
+\n
+\nEmme koskaan lähetä mitään ilman lupaasi.</string>
+    <string name="stravaTrackPrivacyInfo">Reittiin ladataan Stravan oletusyksityisyysasetuksesi</string>
+    <string name="tracksHistoryListTitle">Reittihistoria</string>
+    <string name="tracksHistoryListEmpty">Ei reittejä. Lähde ulos ja tallenna aktiviteetti!</string>
+    <string name="tracksHistoryListShareTrackDialogTitle">Jaa reitti…</string>
+    <string name="tracksHistoryListViewTrackDialogTitle">Avaa reitti…</string>
+    <string name="summaryEfficiency">Tehokkuus</string>
+    <string name="pref_units_altitude_dialog_title">Korkeuden yksikkö</string>
+    <string name="pref_units_power_dialog_title">Kokonaistehon yksikkö</string>
+    <string name="pref_units_slope_dialog_title">Kaltevuuden yksikkö</string>
+    <string name="pref_energy_params_title">Energiaparametrit</string>
+    <string name="infoMeterModeEnergyTitle">Energia</string>
+    <string name="meterModes_7">Energia</string>
+    <string name="pref_units_distance_entries_0">Metrinen [m, km]</string>
+    <string name="pref_units_speed_entries_0">Metrinen [km/h]</string>
+    <string name="pref_units_altitude_entries_0">Metrinen [m]</string>
+    <string name="pref_units_weight_entries_0">Metrinen [kg]</string>
+    <string name="pref_units_other_entries_0">Metrinen</string>
 </resources>
