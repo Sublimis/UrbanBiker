@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="locale">tr</string>
+    <string name="locale">En</string>
     <string name="app_name">Urban Biker</string>
     <string name="app_description">Sürüşlerini gerçeğe en yakın ölç. Sürüş tecrübelerini ve güvenliğini artır.</string>
     <string name="widget_1_description">Bisikletçi: Bisiklet Zili</string>
@@ -438,7 +438,9 @@
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Seçili dosya yok.</string>
     <string name="pref_maps_offline_info_title">Şimdi indir</string>
-    <string name="pref_maps_offline_info_summary">Mapsforge vektör (.map) ve Rmaps tarama (.sqlitedb) haritalar destekliyor.Siteden indirebilirsiniz. mapsforge.org</string>
+    <string name="pref_maps_offline_info_summary">"Harita birleşim vektörü (.map) ve Rmaps raster (.sqlitedb) haritaları desteklenir.  download.mapsforge.org adresinde mevcuttur.
+\n
+\nKullanım: İndirilen harita dosyasını yukarıdaki seçenekle seçin."</string>
     <string name="pref_maps_routes_info_title">Not!</string>
     <string name="pref_maps_routes_files_dialog_title">Rotalar klasörünü/dosyasını seçin</string>
     <string name="pref_maps_routes_files_noFolderSelected">Klasör seçilmedi.</string>
@@ -788,10 +790,167 @@
     <string name="trackUploadActivityTypes_2">Yürüyüş</string>
     <string name="prefAdModes_1">Google</string>
     <string name="prefAdModes_2">AppBrain</string>
-    <string name="aboutScreenWarmWelcome">Umarız uygulamayı beğenmişsizdir :)</string>
+    <string name="aboutScreenWarmWelcome">Umarız ki uygulamayı beğenmişsinizdir 😊</string>
     <string name="aboutScreenFacebookLink">Facebook\'ta Urban Biker</string>
     <string name="aboutScreenTranslationsTitle">Çeviriler</string>
-    <string name="aboutScreenTranslationsText">Bu uygulamanın çevirisine yardım et ve ücretiz lisans kazan. Lütfen daha fazlası için</string>
+    <string name="aboutScreenTranslationsText">Bu uygulamanın çevirisine yardım et ve ücretiz lisans kazan! Daha fazla bilgi için:</string>
     <string name="disclaimerTitle">Fesih</string>
     <string name="disclaimerText3">Gözün her zaman yolda olsun.</string>
+    <string name="dialogBaroAltitudePromptMessage">Barometrik Rakım, GPS rakımı ile tutarsızlık nedeniyle zorla kapatıldı!
+\n
+\n Lütfen kapalı veya klimalı alanlarda kullanmayın!</string>
+    <string name="dialogBaroAltitudeNoticeMessage">Barometrik İrtifa sadece açık havada çalışır.\t
+\n
+\n Lütfen bazı araçlar ve uçaklar gibi kapalı veya klimalı alanlarda kullanmayın.</string>
+    <string name="dialogThermoBarometerNoticeMessage">Termo Barometre doğruluğu dış hava sıcaklığına bağlıdır.
+\n
+\n Lütfen bazı araçlar ve uçaklar gibi kapalı veya klimalı alanlarda kullanmayın.</string>
+    <string name="dialogResetMessage">Bu rotayı sonlandır ve yeni bir rotaya hazırlan\?</string>
+    <string name="dialogScreenPocketMode">Cepte kullanım modu</string>
+    <string name="dialogMapsShowFences">Engeller</string>
+    <string name="dialogMapsShowRoutes">Rehber Rotalar</string>
+    <string name="dialogMapsHighResolution">Yüksek Çözünürlüklü Harita</string>
+    <string name="dialogMapsRenderTerrain">Arazi oluştur</string>
+    <string name="dialogMapsTrackColor">Rota rengi:</string>
+    <string name="dialogPowerWeightsRotInertiaTitle">Dönel Süredurum</string>
+    <string name="dialogEnergyParamsTitle">Enerji Parametreleri</string>
+    <string name="dialogEnergyParamsEfficiency">Genel Termal Verimlilik (η)</string>
+    <string name="dialogMapsTerrainDownloadTitle">Araziyi indir</string>
+    <string name="dialogTrackUploadWaitTitle">Lütfen Bekleyiniz</string>
+    <string name="dialogTrackUploadPreparing">Rota verisi hazırlanıyor…</string>
+    <string name="dialogTrackUploadSending">Gönderiliyor…</string>
+    <string name="dialogTrackUploadDescriptionHint">Düşüncelerininizi paylaşın…</string>
+    <string name="dialogTrackUploadShareButton">Paylaş</string>
+    <string name="dialogTrackUploadShareAgainButton">Tekrar Paylaş</string>
+    <string name="dialogTrackUploadUpdateButton">Güncelle</string>
+    <string name="dialogTrackUploadActivityType">Aktivite Tipi</string>
+    <string name="dialogTrackUploadPlatform">Çevrimiçi Servis</string>
+    <string name="dialogTrackUploadStravaIsCommute">Hafiflet</string>
+    <string name="dialogSvgTitle">Ölçeklendirilebilir Vektör Grafikleri</string>
+    <string name="dialogGpsIntervalTitle">GPS tazeleme hızı</string>
+    <string name="dialogGpsIntervalNote">Not: En doğru ve tutarlı davranışı elde etmek için bu değeri 3 sn\'nin altında tutun!</string>
+    <string name="dialogGpsIntervalLabelMore">◀
+\n Daha fazla doğruluk, daha fazla pil kullanır</string>
+    <string name="dialogGpsIntervalLabelLess">▶
+\n Daha az doğruluk, daha az pil kullanır</string>
+    <string name="dialogSliderLess">◀</string>
+    <string name="dialogSliderMore">▶</string>
+    <string name="dialogLocationPermissionRequestTitle">Konum izni</string>
+    <string name="dialogLocationPermissionRequest">Açıkhava aktivitelerinizi kaydetmesi için uygulamanın konumunuza erişmesi gerekiyor .</string>
+    <string name="dialogLocationPermissionRequestForBt">Bluetooth cihazlarını bulmak için konum izni gerekir.
+\n
+\nİzin reddedilirse hiçbir Bluetooth cihazı bulunmaz.</string>
+    <string name="dialogStoragePermissionRequestTitle">Depolama izni</string>
+    <string name="dialogStoragePermissionRequest">Uygulamanın depolamaya erişmesi gerekir; böylece rotalarınızı ve ayarlarınızı kaydedebilir veya geri yükleyebilirsiniz.
+\n
+\nİzin vermeden rota geçmişini göremez veya rotalarınızı paylaşamazsınız ve verilerinizi kaybedebilirsiniz.</string>
+    <string name="dialogCameraPermissionRequestTitle">Kamera izni</string>
+    <string name="dialogCameraPermissionRequest">Uygulamanın el fenerini aktif edebilmesi için izin gereklidir.</string>
+    <string name="dialogPermissionProblemMessage">"Bu izin, uygulamanın düzgün çalışması için gereklidir.  İzinler uygulama ayarlar sayfasında verilebilir.
+\n
+\n Şimdi oraya git\?"</string>
+    <string name="unitTimeHour">Sa</string>
+    <string name="unitTimeMinute">Dk</string>
+    <string name="unitTimeSecond">Sn</string>
+    <string name="unitMilliseconds">Ms</string>
+    <string name="unitMegabyte">MB</string>
+    <string name="meterModeSpeedShort">Hız</string>
+    <string name="meterModeSpeedVerticalShort">Dikey Hız</string>
+    <string name="meterModeSpeedAverageShort">Ort Hız</string>
+    <string name="meterModeElapsedTime">Geçen zaman</string>
+    <string name="meterModeElapsedTimeShort">Geçen Zmn</string>
+    <string name="meterModeVerticalPower">Dikey Güç</string>
+    <string name="meterModeVerticalPowerShort">D. Güç</string>
+    <string name="meterModePowerShort">Güç</string>
+    <string name="meterModePowerAverage">Ortalama Güç</string>
+    <string name="meterModePowerAverageShort">Ort. Güç</string>
+    <string name="meterModeFTP">Aktif güç</string>
+    <string name="meterModeAccelerationShort">Hızlanma</string>
+    <string name="meterModeDistanceShort">Mesafe</string>
+    <string name="meterModeEnergyShort">Enrji</string>
+    <string name="meterModeEfficacyShort">Etki</string>
+    <string name="meterModePressureShort">Basınç</string>
+    <string name="meterModeClockShort">Saat</string>
+    <string name="meterModeWriggleShort">Sıyrılma</string>
+    <string name="meterModeAltitudeDescentShort">İniş</string>
+    <string name="meterModeAltitudeSlopeShort">Eğim</string>
+    <string name="meterModeCadence">Tempo</string>
+    <string name="meterModeCadenceShort">Tempo</string>
+    <string name="meterModeHeartRate">Nabız</string>
+    <string name="meterModeGearRatio">Dişli Oranı</string>
+    <string name="meterModeGearRatioShort">Dişli Oranı</string>
+    <string name="roarModeConstant">Sabit</string>
+    <string name="meterTextAvg">Ort</string>
+    <string name="meterTextTotal">Top</string>
+    <string name="controlPanelSoundAutoBell">Otomatik Zil</string>
+    <string name="controlPanelSoundRoar">Gürleme</string>
+    <string name="controlPanelSoundTallies">Kat edilen uzunluklar</string>
+    <string name="controlPanelSoundVolume">Birimler</string>
+    <string name="controlPanelEnergyParams">Güç/Enerji parametreleri</string>
+    <string name="profilesListRowTotalsSince">%1$s \'dan toplam</string>
+    <string name="profilesListProfileNotUsed">(Deaktif)</string>
+    <string name="profilesListLoading">Yükleniyor…</string>
+    <string name="cloudAccountsTitle">Hesaplar</string>
+    <string name="cloudAccountsInfo">Bir bulut servisine bağlanmak, rotalarınızı yüklemenizi ve başkalarıyla paylaşmanızı kolaylaştırır.
+\n
+\nİzniniz olmadan asla hiçbir şey yayınlamayacağız.</string>
+    <string name="accountDisconnect">Bağlantıyı Kes</string>
+    <string name="googleFitConnectButton">Google Fit\'e Bağlan</string>
+    <string name="summaryDragArea">Alana Sürükle</string>
+    <string name="sensorProperitesSpeedTriggers">Hız Tetikleyicileri</string>
+    <string name="sensorProperitesCadenceTriggers">Tempo Tetikleyicileri</string>
+    <string name="sensorProperitesTriggersCountInfo">"Sensör tarafından kullanılan tetikleyici sayısı (örneğin mıknatıslar).  Harici tetikleyici olmayan sensörlerde genellikle tek bir dahili tetikleyici bulunur."</string>
+    <string name="pref_category_gps_interval_title">GPS Tazeleme Hızı</string>
+    <string name="pref_category_stationary_exercise_title">Sabit Egzersiz</string>
+    <string name="pref_category_resetPrompt_title">Komutu sıfırla</string>
+    <string name="pref_category_tracking_title">Takip Ediliyor</string>
+    <string name="pref_category_tracking_gps_title">Takipte / GPS</string>
+    <string name="pref_category_meter5_title">Sayaç 5</string>
+    <string name="pref_group_maps_offline_title">Çevrimdışı Harita Ayarları…</string>
+    <string name="pref_category_maps_offline_terrain_title">Arazi</string>
+    <string name="pref_category_maps_routes_title">Rehber Rotalar</string>
+    <string name="pref_category_haptic_title">Dokunsal geribildirim</string>
+    <string name="pref_category_wakelock_title">İşlemci Uyku Politikası</string>
+    <string name="pref_category_gps_boost_title">GPS Tazeleme hızı Politikası</string>
+    <string name="pref_category_flashlightBlinkMode_title">Titreşiyor</string>
+    <string name="pref_category_flashlightAutoPocketMode_title">Cepte Kullanım Modu</string>
+    <string name="pref_category_gpsInaccuracyIndicator_title">Güven Göstergesi</string>
+    <string name="pref_category_paceIndicator_title">Sakinlik Göstergesi</string>
+    <string name="pref_category_locationProvider_title">GPS Sağlayıcı</string>
+    <string name="pref_category_altitude_adjustments_title">Rakım</string>
+    <string name="pref_category_cloudAccounts_title">Hesaplar</string>
+    <string name="pref_category_mapsQuickZoom">Hızlı Yakınlaşma</string>
+    <string name="pref_category_mapsCache">Önbellek</string>
+    <string name="prefAllProfilesInfoSummary">Buradaki tercihler tüm profillere uygulanabilir.</string>
+    <string name="pref_units_power_dialog_title">Toplam güç birimleri</string>
+    <string name="pref_volume_summary_text">Zil: %1$s, Gürleme: %2$s
+\nKat edilen Mesafeler: %3$s, Etkiler: %4$s, Alarmlar: %5$s</string>
+    <string name="pref_visualThemeAutoSummary">Çevre aydınlatmasına bağlı olarak açık veya koyu temalar uygulayın</string>
+    <string name="pref_buttons_bg_look_title">Düğmeleri Temizle</string>
+    <string name="pref_buttons_bg_look_summary">Tamamen şeffaf düğmeler ve alanlar</string>
+    <string name="pref_screenAutoPocketMode_title">Cepte Kullanım Modu</string>
+    <string name="pref_screenAutoPocketMode_summary">(Tüm profiller) Gerekmiyorken ekranı kapalı tutmak için yakınlık sensörünü kullanın</string>
+    <string name="pref_relaunchAfterReboot_summary">(Tüm profiller) %10 veya daha fazla pil varsa, cihaz zorlayeniden başlatıldıktan sonra roataya devam edin</string>
+    <string name="pref_resetPrompt_title">Komutu Sıfırla</string>
+    <string name="pref_resetPrompt_summary">4 saatten daha uzun bir süre önce aktif olan son rotanız varsa veya uzak bir yerdeyseniz yeni bir rota başlatmanız isteniyor</string>
+    <string name="pref_roaring_state_title">Gürleme Sesi</string>
+    <string name="pref_roaring_state_summary">Siz hareket ettikçe ikaz sesleri çıksın</string>
+    <string name="pref_roaring_constant_mode_title">Sabit Mod</string>
+    <string name="pref_roaring_constant_mode_summary">Hareketiniz veya GPS durumunuz ne olursa olsun, her zaman sürekli gürleme sesleri üretin</string>
+    <string name="pref_roar_threshold_speed_title">Eşik Hızı</string>
+    <string name="pref_roar_threshold_speed_info">"Gürleme sesi yalnızca eşik hızından daha hızlı giderken çalacaktır. Faydalı örn.  Yokuş aşağı"</string>
+    <string name="pref_roarConstantModeButton_title">Düğme Geçişi</string>
+    <string name="pref_roarConstantModeButton_summary">Gürleme açık durumdayken düğme tıklatmasıyla sabit moda geçin</string>
+    <string name="pref_speed_calculate_mode_title">Hızı yeniden hesapla</string>
+    <string name="pref_speed_calculate_mode_summary">"(Tüm profiller) Hızları mesafelerden yeniden hesaplayın, doğrudan GPS değerini kullanmayın.  Bu, GPS (Doppler) değerleri üzerinden daha kararlı hız okumaları sağlayabilir."</string>
+    <string name="pref_background_pattern_dialog_title">Menü arka plan deseni</string>
+    <string name="pref_soundeffects_alarm_title">Etkinleştir</string>
+    <string name="pref_soundeffects_alarm_gpsPause_title">Unutulmuş duraklama</string>
+    <string name="pref_soundeffects_alarm_gpsPause_summary">Rota duraklatılırken önemli hareket algılandığında alarm çalar</string>
+    <string name="pref_ads_mode_title">Reklamları göster</string>
+    <string name="pref_maps_track_draw_summary">Hareketlerinizi harita üzerinden grafikleştirin</string>
+    <string name="pref_maps_fences_draw_title">Engeller</string>
+    <string name="pref_maps_fences_draw_summary">Harita üzerinde FenceGuard korumalı bölgeleri göster</string>
+    <string name="pref_maps_animate_title">Animasyon</string>
+    <string name="pref_maps_animate_summary">(Tüm profiller) Batarya kullanımını azaltmak için, özellikle Takip modu açıkken kapatın</string>
 </resources>
