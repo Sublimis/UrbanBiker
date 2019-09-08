@@ -1,3 +1,10 @@
+#### If possible, please download the app from the official Play Store instead:
+
+https://play.google.com/store/apps/details?id=com.sublimis.urbanbiker
+
+APKs here are provided as a convenience for devices without a Play Store or Google Play services.
+
+
 #### Complete change log
 
 http://urban-bike-computer.com/help/changelog/
