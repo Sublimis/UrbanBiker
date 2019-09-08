@@ -2,7 +2,7 @@
 
 https://play.google.com/store/apps/details?id=com.sublimis.urbanbiker
 
-APKs here are provided as a convenience for devices without a Play Store or Google Play services.
+APKs here are provided only as a convenience for devices without a Play Store or Google Play services.
 
 
 #### Complete change log
