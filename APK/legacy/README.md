@@ -9,6 +9,13 @@ The last version to support Android API levels 17-20 (4.2, 4.3 Jelly Bean, and 4
 The last version to support Android API levels 15-16 (4.0 Ice Cream Sandwich, 4.1 Jelly Bean)
 
 
+### If possible, please download the app from the official Play Store instead:
+
+https://play.google.com/store/apps/details?id=com.sublimis.urbanbiker
+
+APKs here are provided only as a convenience for devices without a Play Store or Google Play services.
+
+
 #### Complete change log
 
 http://urban-bike-computer.com/help/changelog/
