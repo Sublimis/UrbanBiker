@@ -1,4 +1,4 @@
-#### If possible, please download the app from the official Play Store instead:
+### If possible, please download the app from the official Play Store instead:
 
 https://play.google.com/store/apps/details?id=com.sublimis.urbanbiker
 
