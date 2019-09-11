@@ -165,4 +165,187 @@
     <string name="dialogProfileEditTitle">Редактирайте профил</string>
     <string name="dialogProfileEditTotals">Резултати</string>
     <string name="dialogProfileTotalsResetMessage">Нулиране на резултатите от профила\?</string>
+    <string name="dialogProfileSwitchMessage">Има активно записване на проследяване. Сигурни ли сте, че искате да превключите към профил %1$s\?</string>
+    <string name="dialogTracksDeleteTitle">Изтриване на трасета</string>
+    <string name="dialogTracksDeleteMessage">Внимание: Това действие не може да бъде отменено.
+\n
+\nИзтриване на израните тракове\?</string>
+    <string name="dialogTrackDeleteMessage">Внимание: Това действие не може да бъде отменено.
+\n
+\nИзтриване на трасето %1$s\?</string>
+    <string name="dialogTrackResumeTitle">Продължи трасе</string>
+    <string name="dialogTrackResumeGpsActiveMessage">Има активно проследяване. Моля, първо изключете или сложете на пауза GPS.</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">Зададеният профил %1$s не е празен. Моля, първо го нулирайте.</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">Активен профил ще бъде превключен от %1$s към %2$s. Продължаване\?</string>
+    <string name="dialogTrackResumeProfileMissingMessage">Профилът %1$s който създаде това трасе вече не съществува. Продължаване в текущ профил %2$s\?</string>
+    <string name="dialogTrackResumeGeneralPromptMessage">Трасето ще бъде продължено в профил %1$s. Продължаване\?</string>
+    <string name="dialogTrackResumeGeneralErrorMessage">Възникна грешка. Моля, опитайте отново.</string>
+    <string name="dialogTrackResumeWaitMessage">Продължаване. Моля, изчакайте…</string>
+    <string name="dialogTracksShareTitle">Споделяне на трасета</string>
+    <string name="dialogTracksShareGeneralErrorMessage">Възникна грешка. Моля, опитайте отново.</string>
+    <string name="dialogTracksShareCountExceeded">Невъзможно споделянето на повече от 100 трасета наведнъж.</string>
+    <string name="dialogGpsSettingsPromptTitle">Определяне на местоположението е изключено</string>
+    <string name="dialogGpsSettingsPromptMessage">Без определяне на местоположението Вие няма да можете да използвате повечето от функциите на приложението.
+\n
+\nМоля, убедете се, че GPS е настроен на режим \"Висока точност\".
+\n
+\nОтваряне на настройките на местоположението сега\?</string>
+    <string name="dialogBaroAltitudePromptTitle">Проблем с барометричната височина</string>
+    <string name="dialogBaroAltitudePromptMessage">Барометричната височина беше изключена, поради несъответствие с височината по GPS!
+\n
+\nМоля, не я използвайте в затворени или климатизирани пространства!</string>
+    <string name="dialogBaroAltitudeNoticeTitle">Забележка</string>
+    <string name="dialogBaroAltitudeNoticeMessage">Барометричната височина работи само на открито.
+\n
+\nМоля, не я използвайте в затворени или климатизирани пространства като някои превозни средства и самолети.</string>
+    <string name="dialogThermoBarometerNoticeTitle">Забележка</string>
+    <string name="dialogThermoBarometerNoticeMessage">Точността на Термо барометъра зависи от температурата навън.
+\n
+\nМоля, не го използвайте в затворени или климатизирани пространства като някои превозни средства и самолети.</string>
+    <string name="dialogResetTitle">Край</string>
+    <string name="dialogResetMessage">Да се запази ли трасето и да се подготви ново\?</string>
+    <string name="dialogResetNoTrackMessage">Няма записано трасе. Да се нулират ли броячите\?</string>
+    <string name="dialogScreenHudMode">HUD огледален режим</string>
+    <string name="dialogScreenOrientationAuto">Автоматично завъртане</string>
+    <string name="dialogScreenOrientationPortrait">Портрет</string>
+    <string name="dialogScreenOrientationLandscape">Пейзаж</string>
+    <string name="dialogScreenBrightnessOverride">Собствено ниво на яркост</string>
+    <string name="dialogScreenAutoTheme">Автоматична тема</string>
+    <string name="dialogScreenPocketMode">Джобен режим</string>
+    <string name="dialogMapsOffline">Офлайн карти</string>
+    <string name="dialogMapsLayerTraffic">Трафик</string>
+    <string name="dialogMapsShowFences">Зони</string>
+    <string name="dialogMapsShowRoutes">Пътеводители</string>
+    <string name="dialogMapsFollowMode">Следване</string>
+    <string name="dialogMapsAutoRotate">Автоматична ориентация</string>
+    <string name="dialogMapsHighResolution">Карта с висока резолюция</string>
+    <string name="dialogMapsRenderTerrain">Покажи релеф</string>
+    <string name="dialogMapsTrackColor">Цвят на трасето</string>
+    <string name="dialogFencesAdd">Добави скрита зона тук</string>
+    <string name="dialogFencesUpdate">Обновяване на локацията на скритата зона</string>
+    <string name="dialogFencesEdit">Редактирай скрита зона</string>
+    <string name="dialogFencesRemove">Премахни скрита зона</string>
+    <string name="dialogFencesShowFences">Покажи скрити зони</string>
+    <string name="dialogPowerWeightsTitle">Тегло</string>
+    <string name="dialogPowerWeightsRotInertiaTitle">Тегло при инерция при въртене</string>
+    <string name="dialogPowerWeightsWeightRider">Тегло на колоездача</string>
+    <string name="dialogPowerWeightsWeightVehicle">Тегло на велосипеда</string>
+    <string name="dialogPowerWeightsWeightCargo">Тегло на багаж</string>
+    <string name="dialogPowerWeightsWeightPassengers">Тегло на пасажер</string>
+    <string name="dialogPowerWeightsWeightWheels">Тегло на колелата</string>
+    <string name="dialogPowerParamsTitle">Коефициенти на загуба на мощност</string>
+    <string name="dialogPowerParamsDragArea">Зона на влачене на въздуха (Cd·A)</string>
+    <string name="dialogPowerParamsRollResist">Коефициент на съпротивление при търкаляне. (Crr)</string>
+    <string name="dialogEnergyParamsTitle">Енергийни параметри</string>
+    <string name="dialogEnergyParamsEfficiency">Обща топлинна ефективност (η)</string>
+    <string name="dialogEnergyParamsBmr">Базова скорост на метаболизма (BMR)</string>
+    <string name="dialogFileChooseSelectFolder">Изберете тази папка</string>
+    <string name="dialogMapsDownloadTitle">Сваляне на офлайн карти</string>
+    <string name="dialogMapsDownloadText">Отваряне на уеб страницата сваляне сега\?</string>
+    <string name="dialogMapsTerrainDownloadTitle">Сваляне на карти за терен</string>
+    <string name="dialogTrackUploadWaitTitle">Моля, изчакайте</string>
+    <string name="dialogTrackUploadPreparing">Подготовка на данните за трасето…</string>
+    <string name="dialogTrackUploadSending">Изпращане…</string>
+    <string name="dialogTrackUploadDescriptionHint">Споделете мислите си…</string>
+    <string name="dialogTrackUploadShareButton">Сподели</string>
+    <string name="dialogTrackUploadShareAgainButton">Сподели отново</string>
+    <string name="dialogTrackUploadUpdateButton">Обновете</string>
+    <string name="dialogTrackUploadActivityType">Тип дейност</string>
+    <string name="dialogTrackUploadPlatform">Онлайн услуга</string>
+    <string name="dialogTrackUploadStravaIsCommute">До работа</string>
+    <string name="dialogSvgTitle">SVG графики</string>
+    <string name="dialogGpsIntervalTitle">GPS интервал на опресняване</string>
+    <string name="dialogGpsIntervalNote">Забележка: Запазете тази стойност под 3 сек за да получите най-точните и последователни данни!</string>
+    <string name="dialogGpsIntervalLabelMore">◀
+\nПо-голяма точност, използва повече батерия</string>
+    <string name="dialogGpsIntervalLabelLess">▶
+\nПо-ниска точност, използва по-малко батерия</string>
+    <string name="dialogSliderLess">◀</string>
+    <string name="dialogSliderMore">▶</string>
+    <string name="dialogLocationPermissionRequestTitle">Разрешение за местоположение</string>
+    <string name="dialogLocationPermissionRequest">Приложението има нужда от достъп до вашето местоположение, за да записва вашите дейности на открито.</string>
+    <string name="dialogLocationPermissionRequestForBt">Разрешение за местоположение е необходимо, за да намерите Bluetooth устройства.
+\n
+\nBluetooth устройства няма да бъдат намерени ако разрешението бъде отхвърлено.</string>
+    <string name="dialogStoragePermissionRequestTitle">Разрешение за достъп до хранилището</string>
+    <string name="dialogStoragePermissionRequest">Приложението има нужда от достъп до хранилището, за да може да запази или възстанови вашите трасета и настройки.
+\n
+\nБез да дадете разрешение, няма да можете да виждате историята на трасетата или да ги споделяте и можете да загубите данните си.</string>
+    <string name="dialogCameraPermissionRequestTitle">Разрешение за камерата</string>
+    <string name="dialogCameraPermissionRequest">Необходимо е разрешение, за да може приложението да активира фенерчето.</string>
+    <string name="dialogPermissionProblemMessage">Това разрешение е необходимо, за да може приложението да функционира правилно. То може да бъде предоставено на страницата с настройки за разрешения за приложения.
+\n
+\nОтидете там сега\?</string>
+    <string name="dialog_fenceguard_add_entries_0">Добавяне на скрита зона</string>
+    <string name="dialog_fenceguard_update_entries_0">Обновяване на скритата зона</string>
+    <string name="dialog_fenceguard_update_entries_1">Премахване на скрита зона</string>
+    <string name="dialogTracksShareChoices_0">ZIP (завършен/и)</string>
+    <string name="dialogTracksShareChoices_1">Само GPX</string>
+    <string name="mapLayerStreet">Улица</string>
+    <string name="mapLayerTerrain">Терен</string>
+    <string name="mapLayerSatellite">Сателит</string>
+    <string name="unitKm">км</string>
+    <string name="unitKmh">км/ч</string>
+    <string name="unitMiles">мили</string>
+    <string name="unitMph">мили/ч</string>
+    <string name="unitMinPerKm">мин/км</string>
+    <string name="unitMinPerKmShort">/км</string>
+    <string name="unitMinPerMile">мин/миля</string>
+    <string name="unitMinPerMileShort">/миля</string>
+    <string name="unitMSxS">м/с²</string>
+    <string name="unitFtSxS">фут/с²</string>
+    <string name="unitMeterPerMin">м/мин</string>
+    <string name="unitFeetPerMin">фут/мин</string>
+    <string name="unitTimeHrMinSec">ч:м:с</string>
+    <string name="unitTimeHour">ч</string>
+    <string name="unitTimeMinute">мин</string>
+    <string name="unitTimeSecond">сек</string>
+    <string name="unitM">м</string>
+    <string name="unitMillimeter">мм</string>
+    <string name="unitMxM">м²</string>
+    <string name="unitIn">инч</string>
+    <string name="unitFt">фут</string>
+    <string name="unitFtxFt">фут²</string>
+    <string name="unitKg">кг</string>
+    <string name="unitLb">паунд</string>
+    <string name="unitW">Ват</string>
+    <string name="unitKW">кВат</string>
+    <string name="unitHP">КС</string>
+    <string name="unitKWH">кВч</string>
+    <string name="unitMiliW">мВат</string>
+    <string name="unitWKg">Ват/кг</string>
+    <string name="unitWLb">Ват/паунд</string>
+    <string name="unitKj">кДж</string>
+    <string name="unitKjH">кДж/ч</string>
+    <string name="unitKjKg">кДж/кг</string>
+    <string name="unitKjLb">кДж/паунд</string>
+    <string name="unitKcal">ккал</string>
+    <string name="unitKcalH">ккал/ч</string>
+    <string name="unitKcalKG">ккал/кг</string>
+    <string name="unitKcalLb">ккал/паунд</string>
+    <string name="unitDegC">°C</string>
+    <string name="unitDegF">°F</string>
+    <string name="unitHPa">hPa</string>
+    <string name="unitPetrolLit">Лит. бензин</string>
+    <string name="unitKmPerLit">км/л</string>
+    <string name="unitMiPerGal">мили/галон</string>
+    <string name="unitPerHundredKm">/100км</string>
+    <string name="unitPerHundredMi">/100мили</string>
+    <string name="unitPerMinute">/мин</string>
+    <string name="unitPerHour">/ч</string>
+    <string name="unitPercent">%</string>
+    <string name="unitPerMille">‰</string>
+    <string name="unitMilliseconds">м.сек</string>
+    <string name="unitDegree">°</string>
+    <string name="unitMegabyte">МБ</string>
+    <string name="valueTimesCount">×</string>
+    <string name="meterGPS">GPS</string>
+    <string name="meterModeSpeed">скорост</string>
+    <string name="meterModeSpeedShort">скор</string>
+    <string name="meterModeSpeedVertical">вертикална скорост</string>
+    <string name="meterModeSpeedVerticalShort">верт скор</string>
+    <string name="meterModeSpeedAverage">средната скорост</string>
+    <string name="meterModeSpeedAverageShort">сред скор</string>
+    <string name="meterModePace">темпо</string>
+    <string name="meterModePaceShort">темпо</string>
 </resources>
