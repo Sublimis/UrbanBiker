@@ -13,7 +13,7 @@ The last version to support Android API levels 15-16 (4.0 Ice Cream Sandwich, 4.
 
 https://play.google.com/store/apps/details?id=com.sublimis.urbanbiker
 
-APKs here are provided only as a convenience for devices without a Play Store or Google Play services.
+APKs here are provided only as a convenience for devices without the Play Store or Google Play services.
 
 
 #### Complete change log
