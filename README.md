@@ -37,7 +37,7 @@ _**When filing a new bug, please include:**_
 
 #### Requesting a feature
 
-Feel free to file new feature requests as an issue on GitHub.
+Feel free to file new feature requests as an _issue_ on GitHub.
 
 We will respond to you as soon as possible, likely within 24 or 48 hours. If we have any further questions, expect a response back.
 
