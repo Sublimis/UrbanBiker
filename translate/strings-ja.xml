@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="locale">ja</string>
-    <string name="app_name">Urban Biker</string>
+    <string name="app_name">Urban Biker (アーバン・バイカー)</string>
     <string name="app_description">正確に軌跡を記録し測定します。より安全で、効率的なサイクリングに役立ちます。</string>
     <string name="widget_1_description">Biker: チリンチリン（自転車ベル音）</string>
     <string name="widget_2_description">Biker: 自転車ベル音＋フラッシュライト</string>
-    <string name="widget_3_description">Biker: Complete</string>
+    <string name="widget_3_description">Biker: 完了</string>
     <string name="proLicenseLabel">プロフェッショナル版</string>
     <string name="proPlusLicenseLabel">プロフェッショナル・プラス版</string>
     <string name="ultimateLicenseLabel">最上位版</string>
-    <string name="proLicenseTitle">Pro License</string>
+    <string name="proLicenseTitle">プロフェショナル版</string>
     <string name="proLicenseDescription">広告を消します</string>
     <string name="proPlusLicenseTitle">プロフェッショナル・プラス版 ライセンス</string>
     <string name="proPlusLicenseDescription">広告表示なし。今後追加される機能がすべて使用可能。ただし、定期購読者専用機能は除く</string>
@@ -173,7 +173,7 @@
 \nアクティビティー: %1$s を削除してよろしいですか？</string>
     <string name="dialogTrackResumeTitle">アクティビティーの再開</string>
     <string name="dialogTrackResumeGpsActiveMessage">記録中です。先に GPS をオフにするか、一時停止してください。</string>
-    <string name="dialogTrackResumeProfileNotBlankMessage">対象のプロファイル : %1$s は空ではありません。まずリセットしてください。</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">対象のプロファイル : %1$s は、いくつか設定された項目があります。まずすべての項目をリセットしてください。</string>
     <string name="dialogTrackResumeProfileSwitchMessage">プロファイルを %1$s から %2$s に切り替えます。よろしいですか？</string>
     <string name="dialogTrackResumeProfileMissingMessage">このアクティビティーを記録したプロファイル : %1$s は存在しません。現在のプロファイル : %2$sで再開しますか？</string>
     <string name="dialogTrackResumeGeneralPromptMessage">アクティビティーをプロファイル : %1$sで再開します。よろしいですか？</string>
@@ -189,12 +189,12 @@
 \n
 \n位置情報の設定を開きますか？</string>
     <string name="dialogBaroAltitudePromptTitle">気圧高度の問題</string>
-    <string name="dialogBaroAltitudePromptMessage">GPSによる高度との食い違いが起きたため、気圧高度を強制的にオフにしました。
-\n
+    <string name="dialogBaroAltitudePromptMessage">GPSによる高度との食い違いが起きたため、「気圧による高度測定」を強制的にオフにしました。 
+\n 
 \n屋内や空調が効いた空間では、使用しないでください！</string>
     <string name="dialogBaroAltitudeNoticeTitle">注意</string>
-    <string name="dialogBaroAltitudeNoticeMessage">気圧高度は屋外でのみ動作します。
-\n
+    <string name="dialogBaroAltitudeNoticeMessage">「気圧による高度測定」は屋外でのみ動作します。 
+\n 
 \n屋内、乗り物や航空機など空調が効いた空間では、使用しないでください。</string>
     <string name="dialogThermoBarometerNoticeTitle">注意</string>
     <string name="dialogThermoBarometerNoticeMessage">乾湿計は屋外の気温に依存し、正確さに影響が出ます。
@@ -268,9 +268,9 @@
     <string name="infoMeterModeSpeedMsg">速度 ー (中央)現在の速度 (左)最大速度 (右)平均速度.</string>
     <string name="infoMeterModePaceMsg">ペース ー (中央)現在 (左)最速 (右)平均.</string>
     <string name="infoMeterModeAccelerationTitle">加速度</string>
-    <string name="infoMeterModeAccelerationMsg">速度の変化率 — (中央)現在 (左)最大 (右)最小.
-\n
-\n減速時はマイナスになります</string>
+    <string name="infoMeterModeAccelerationMsg">速度の変化率 — (中央)現在 (左)最大 (右)最小. 
+\n 
+\n減速時はマイナスになります。</string>
     <string name="infoMeterModeClockTitle">時計</string>
     <string name="infoMeterModeClockMsg">現在時刻 ー (中央)現在時刻 (左)距離 (右)移動時間.</string>
     <!-- pref_units_distance_entries -->
@@ -600,14 +600,14 @@
     <string name="unitKjH">キロジュール毎時</string>
     <string name="unitKjKg">キロジュール/kg</string>
     <string name="unitKjLb">キロジュール/ポンド</string>
-    <string name="unitKcal">kcal</string>
+    <string name="unitKcal">キロカロリー</string>
     <string name="unitKcalH">kcal毎時</string>
-    <string name="unitKcalKG">kcal/kg</string>
+    <string name="unitKcalKG">キロカロリー/kg</string>
     <string name="unitKcalLb">kcal/ポンド</string>
     <string name="unitDegC">°C</string>
     <string name="unitDegF">°F</string>
     <string name="unitHPa">ヘクトパスカル</string>
-    <string name="unitPetrolLit">リットルのガソリン 相当</string>
+    <string name="unitPetrolLit">リットルのガソリン</string>
     <string name="unitKmPerLit">km/L</string>
     <string name="unitMiPerGal">マイル/1ガロンのガソリン</string>
     <string name="unitPerHundredKm">/100km</string>
