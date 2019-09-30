@@ -16,7 +16,7 @@
 
 
 
-##  📣 Issues and feature requests
+##  :loudspeaker: Issues and feature requests
 
 If you've found an issue with Urban Biker, or think a new feature would be useful, here's how to report.
 
