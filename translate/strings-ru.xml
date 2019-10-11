@@ -84,11 +84,11 @@
     <string name="toastTrackingRecordingPassive">Пассивная запись</string>
     <string name="toastTrackingPaused">Приостановлено</string>
     <string name="toastTrackingStopped">Остановлено</string>
-    <string name="toastFenceGuardFenceAdded">Скрытая зона: зона %1$s добавлена</string>
+    <string name="toastFenceGuardFenceAdded">Скрытая зона: зона \"%1$s\" добавлена</string>
     <string name="toastFenceGuardFenceAddingError">Скрытая зона: ошибка добавления зоны</string>
-    <string name="toastFenceGuardFenceUpdated">Скрытая зона: зона %1$s обновлена</string>
+    <string name="toastFenceGuardFenceUpdated">Скрытая зона: зона \"%1$s\" обновлена</string>
     <string name="toastFenceGuardFenceUpdatingError">Скрытая зона: ошибка обновления зоны</string>
-    <string name="toastFenceGuardFenceRemoved">Скрытая зона: зона %1$s удалена</string>
+    <string name="toastFenceGuardFenceRemoved">Скрытая зона: зона \"%1$s\" удалена</string>
     <string name="toastFenceGuardFenceRemovingError">Скрытая зона: ошибка удаления зоны</string>
     <string name="toastFenceGuardOutsideTheFence">Скрытая зона: вы вне скрытой зоны</string>
     <string name="toastFenceGuardLocationUnavailable">Скрытая зона: ваше местоположение не определено</string>
@@ -149,7 +149,7 @@
     <string name="dialog_fenceguard_update_text2">Скрытая зона установлена вокруг вашего текущего местоположения и защищает его от воздействия на записанные треки.</string>
     <string name="dialog_fenceguard_remove_title">Удалить скрытую зону</string>
     <string name="dialog_fenceguard_remove_defaultText">Удалить скрытую зону\?</string>
-    <string name="dialog_fenceguard_remove_formatText">Вы уверены, что хотите удалить скрытую зону %1$s\?</string>
+    <string name="dialog_fenceguard_remove_formatText">Вы уверены, что хотите удалить скрытую зону \"%1$s\"\?</string>
     <string name="dialog_track_save_text">Расстояние: %1$.3f %2$s
 \nПродолжительность: %3$s
 \n(%4$s)
@@ -159,27 +159,27 @@
     <string name="dialogProfileDeleteTitle">Удалить профиль</string>
     <string name="dialogProfileDeleteMessage">Предупреждение: это действие удалит настройки профиля и сохранённые данные. Сохранённые треки будут оставлены без изменений.
 \n
-\nУдалить профиль %1$s\?</string>
+\nУдалить профиль \"%1$s\"\?</string>
     <string name="dialogProfileAddTitle">Новый профиль</string>
     <string name="dialogProfileAddInfo">Настройки нового профиля будут скопированы из нынешнего активного профиля</string>
     <string name="dialogProfileEditTitle">Изменить профиль</string>
     <string name="dialogProfileEditTotals">Итоги:</string>
     <string name="dialogProfileTotalsResetMessage">Сбросить итоги профиля\?</string>
     <string name="dialogProfileSwitchTitle">Переключение профиля</string>
-    <string name="dialogProfileSwitchMessage">Идёт запись трека. Вы действительно хотите переключится на профиль %1$s\?</string>
+    <string name="dialogProfileSwitchMessage">Идёт запись трека. Вы действительно хотите переключится на профиль \"%1$s\"\?</string>
     <string name="dialogTracksDeleteTitle">Удалить треки</string>
     <string name="dialogTracksDeleteMessage">Предупреждение: это действие не сможет быть отменено.
 \n
 \nУдалить выбранные треки\?</string>
     <string name="dialogTrackDeleteMessage">Предупреждение: это действие не сможет быть отменено.
 \n
-\nУдалить трек %1$s\?</string>
+\nУдалить трек \"%1$s\"\?</string>
     <string name="dialogTrackResumeTitle">Возобновить трек</string>
     <string name="dialogTrackResumeGpsActiveMessage">Идёт запись трека. Сначала отключите или приостановите GPS.</string>
-    <string name="dialogTrackResumeProfileNotBlankMessage">Заданный профиль %1$s не пустой. Сначала сделайте сброс.</string>
-    <string name="dialogTrackResumeProfileSwitchMessage">Активный профиль будет переключен с %1$s на %2$s. Продолжить\?</string>
-    <string name="dialogTrackResumeProfileMissingMessage">Профиль %1$s, в котором создан этот трек, больше не существует. Продолжить в текущем профиле %2$s\?</string>
-    <string name="dialogTrackResumeGeneralPromptMessage">Трек будет возобновлён в профиле %1$s. Продолжить\?</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">Указанный профиль \"%1$s\" не пустой. Сначала сделайте сброс.</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">Активный профиль будет переключен с \"%1$s\" на \"%2$s\". Продолжить\?</string>
+    <string name="dialogTrackResumeProfileMissingMessage">Профиль \"%1$s\", в котором создан этот трек, больше не существует. Продолжить в текущем профиле \"%2$s\"\?</string>
+    <string name="dialogTrackResumeGeneralPromptMessage">Трек будет возобновлён в профиле \"%1$s\". Продолжить\?</string>
     <string name="dialogTrackResumeGeneralErrorMessage">Неизвестная ошибка. Попробуйте ещё раз.</string>
     <string name="dialogTrackResumeWaitMessage">Возобновление…</string>
     <string name="dialogTracksShareTitle">Поделиться треками</string>
