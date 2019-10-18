@@ -58,7 +58,7 @@
     <string name="menuCenterOnMap">Mitte</string>
     <string name="menuClose">Schließen</string>
     <string name="menuInfo">Info</string>
-    <string name="menuRateAndComment">Bewerten und kommentieren</string>
+    <string name="menuRateAndComment">Bewerte uns</string>
     <string name="menuRefresh">Aktualisieren</string>
     <string name="menuSwitchProfile">Wechseln zu</string>
     <string name="share_title">Senden per</string>
@@ -70,11 +70,11 @@
     <string name="toastRestartRequired">Zum Übernehmen die App neu starten</string>
     <string name="toastActiveProfile">Profil: %1$s
     </string>
-    <string name="toastProfileSavingError">Fehler beim Speichern der Profilinformationen! Bitte versuchen Sie es erneut</string>
-    <string name="toastProfileChangeError">Profil konnte nicht gewechselt werden! Bitte versuchen Sie es erneut</string>
+    <string name="toastProfileSavingError">Fehler beim Speichern der Profilinformationen! Bitte versuchen Sie es erneut.</string>
+    <string name="toastProfileChangeError">Profil konnte nicht gewechselt werden! Bitte versuchen Sie es erneut.</string>
     <string name="toastGpsEnabled">GPS eingeschaltet</string>
     <string name="toastTrackSaved">Strecke gespeichert.</string>
-    <string name="toastTrackDiscarded">Strecke verworfen</string>
+    <string name="toastTrackDiscarded">Strecke verworfen.</string>
     <string name="toastTrackSavingError">Fehler beim Speichern! Versuche erneut zurückzusetzen.</string>
     <string name="toastTrackWritingError">Fehler beim Schreiben der Streckendaten! Versuche erneut zurückzusetzen.</string>
     <string name="toastTrackZippingError">Fehler beim Packen! Versuche erneut zurückzusetzen.</string>
@@ -84,11 +84,11 @@
     <string name="toastTrackingRecordingPassive">Passive Aufnahme</string>
     <string name="toastTrackingPaused">Pausiert</string>
     <string name="toastTrackingStopped">Gestoppt</string>
-    <string name="toastFenceGuardFenceAdded">Sichtschutz: Grenze %1$s hinzugefügt</string>
+    <string name="toastFenceGuardFenceAdded">FenceGuard: Radius %1$s hinzugefügt</string>
     <string name="toastFenceGuardFenceAddingError">Sichtschutz: Fehler beim Hinzufügen einer Grenze</string>
-    <string name="toastFenceGuardFenceUpdated">Sichtschutz: Grenze %1$s aktualisiert</string>
+    <string name="toastFenceGuardFenceUpdated">FenceGuard: Radius %1$s aktualisiert</string>
     <string name="toastFenceGuardFenceUpdatingError">Sichtschutz: Fehler beim Aktualisieren einer Grenze</string>
-    <string name="toastFenceGuardFenceRemoved">Sichtschutz: Grenze %1$s entfernt</string>
+    <string name="toastFenceGuardFenceRemoved">FenceGuard: Radius %1$s entfernt</string>
     <string name="toastFenceGuardFenceRemovingError">Sichtschutz: Fehler beim Entfernen der Grenze</string>
     <string name="toastFenceGuardOutsideTheFence">Sichtschutz: Du bist momentan nicht innerhalb des Sichtschutz</string>
     <string name="toastFenceGuardLocationUnavailable">Sichtschutz: Dein Standort ist nicht verfügbar</string>
@@ -149,7 +149,7 @@
     <string name="dialog_fenceguard_update_text2">Eine Grenze um deinen momentanen Standort, die ihn bei der Streckenaufzeichnung vebirgt.</string>
     <string name="dialog_fenceguard_remove_title">Grenze entfernen</string>
     <string name="dialog_fenceguard_remove_defaultText">Bist du sicher, dass du die Grenze entfernen möchtest\?</string>
-    <string name="dialog_fenceguard_remove_formatText">Bist du sicher, dass du die Grenze %1$s entfernen möchtest\?</string>
+    <string name="dialog_fenceguard_remove_formatText">Bist du sicher, dass du den Radius %1$s entfernen möchtest\?</string>
     <string name="dialog_track_save_text">Entfernung %1$.3f %2$s
 \nDauer %3$s
 \n
@@ -167,20 +167,20 @@
     <string name="dialogProfileEditTotals">Gesamtwerte:</string>
     <string name="dialogProfileTotalsResetMessage">Werte zurücksetzen</string>
     <string name="dialogProfileSwitchTitle">Profil wechseln</string>
-    <string name="dialogProfileSwitchMessage">Verfolgung ist aktiv. Wirklich zu Profil %1$s wechseln\?</string>
+    <string name="dialogProfileSwitchMessage">Aufzeichnung ist aktiv. Wirklich zu Profil %1$s wechseln\?</string>
     <string name="dialogTracksDeleteTitle">Strecken löschen</string>
     <string name="dialogTracksDeleteMessage">Achtung: Die Aktion kann nicht rückgängig gemacht werden.
 \n
 \nDie ausgewählten Strecken löschen\?</string>
-    <string name="dialogTrackDeleteMessage">Achtung: Die Aktion kann nicht rückgängig gemacht werden.
-\n
+    <string name="dialogTrackDeleteMessage">Achtung: Diese Aktion kann nicht rückgängig gemacht werden. 
+\n 
 \nStrecke %1$s löschen\?</string>
     <string name="dialogTrackResumeTitle">Strecke fortsetzen</string>
     <string name="dialogTrackResumeGpsActiveMessage">Verfolgung ist aktiv. Bitte zuerst GPS pausieren oder abschalten.</string>
-    <string name="dialogTrackResumeProfileNotBlankMessage">Zielprofil %1$s ist nicht leer. Bitte zuerst zurücksetzen.</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">Zielprofil %1$s ist nicht leer. Bitte erst zurücksetzen.</string>
     <string name="dialogTrackResumeProfileSwitchMessage">Aktives Profil wird gewechselt von %1$s zu %2$s. Fortsetzen\?</string>
-    <string name="dialogTrackResumeProfileMissingMessage">Profil %1$s mit dem die Strecke aufgezeichnet wurde, existiert nicht mehr. Im aktuellen Profil %2$s fortfahren\?</string>
-    <string name="dialogTrackResumeGeneralPromptMessage">Strecke wird im Profil %1$s fortgesetzt. Fortsetzen\?</string>
+    <string name="dialogTrackResumeProfileMissingMessage">Das Profil %1$s, mit dem die Strecke aufgezeichnet wurde, existiert nicht mehr. Im aktuellen Profil %2$s fortfahren\?</string>
+    <string name="dialogTrackResumeGeneralPromptMessage">"Strecke wird im Profil %1$s  wieder aufgenommen. Fortsetzen\?"</string>
     <string name="dialogTrackResumeGeneralErrorMessage">Ein Fehler ist aufgetreten. Bitte noch einmal versuchen.</string>
     <string name="dialogTrackResumeWaitMessage">Fortsetzen, bitte warten…</string>
     <string name="dialogTracksShareTitle">Strecken Teilen</string>
@@ -188,17 +188,17 @@
     <string name="dialogTracksShareCountExceeded">Mehr als 100 Strecken können nicht gleichzeitig geteilt werden.</string>
     <string name="dialogGpsSettingsPromptTitle">Standort ist deaktiviert</string>
     <string name="dialogBaroAltitudePromptTitle">Problem mit der barometerischen Höhenermittlung</string>
-    <string name="dialogBaroAltitudePromptMessage">Die barometrische Höhenbestimmung wurde wegen einer Unstimmigkeit mit der GPS Höhe deaktiviert!
-\n
-\nBitte diese nicht in geschlossenen oder klimatisierten Räumen nutzen!</string>
+    <string name="dialogBaroAltitudePromptMessage">Die barometrische Höhenbestimmung wurde wegen einer Unstimmigkeit mit der GPS Höhe deaktiviert! 
+\n 
+\nBitte nicht in geschlossenen oder klimatisierten Räumen nutzen!</string>
     <string name="dialogBaroAltitudeNoticeTitle">Notiz</string>
-    <string name="dialogBaroAltitudeNoticeMessage">Die barometrische Höhenbestimmung funktioniert nur im Freien.
-\n
-\nBitte diese nicht in geschlossenen oder klimatisierten Räumen wie Fahrzeugen oder Flugzeugen nutzen.</string>
+    <string name="dialogBaroAltitudeNoticeMessage">Die barometrische Höhenbestimmung funktioniert nur im Freien. 
+\n 
+\nBitte nicht in geschlossenen oder klimatisierten Räumen wie Fahrzeugen oder Flugzeugen nutzen.</string>
     <string name="dialogThermoBarometerNoticeTitle">Notiz</string>
-    <string name="dialogThermoBarometerNoticeMessage">Die Genauigkeit des Thermo Baromters benötigt die Aussentemperatur.
-\n
-\nBitte diese nicht in geschlossenen oder klimatisierten Räumen wie Fahrzeugen oder Flugzeugen nutzen.</string>
+    <string name="dialogThermoBarometerNoticeMessage">Die Genauigkeit des thermometrischen Barometers benötigt die Außentemperatur. 
+\n 
+\nBitte nicht in geschlossenen oder klimatisierten Räumen wie Fahrzeugen oder Flugzeugen nutzen.</string>
     <string name="dialogResetTitle">Aufzeichnung beenden</string>
     <string name="dialogResetMessage">Diese Strecke speichern und eine neue vorbereiten\?</string>
     <string name="dialogResetNoTrackMessage">Es wurde keine Strecke aufgezeichnet. Zähler zurücksetzen\?</string>
@@ -241,7 +241,7 @@
     <string name="dialogMapsDownloadText">Soll die Downloadseite geöffnet werden\?</string>
     <string name="dialogMapsTerrainDownloadTitle">Terrain herunterladen</string>
     <string name="dialogTrackUploadWaitTitle">Bitte warten</string>
-    <string name="dialogTrackUploadPreparing">Vorbereiten der Streckendaten...</string>
+    <string name="dialogTrackUploadPreparing">Vorbereiten der Streckendaten…</string>
     <string name="dialogTrackUploadSending">Senden…</string>
     <string name="dialogTrackUploadDescriptionHint">Sag deine Meinung…</string>
     <string name="dialogTrackUploadShareButton">Teilen</string>
@@ -253,7 +253,7 @@
     <string name="dialogGpsIntervalTitle">GPS-Aktualisierungsintervall</string>
     <string name="dialogGpsIntervalNote">Hinweis: Dieser Wert sollte unter 3 Sek. liegen um das genaueste Auslesen und das verlässlichste Verhalten zu gewährleisten!</string>
     <string name="dialogLocationPermissionRequestTitle">Berechtigung zur Standort Ermittlung</string>
-    <string name="dialogLocationPermissionRequest">Die App muss den Standort ermitteln um Ihre outdoor Aktivitäten zu speichern</string>
+    <string name="dialogLocationPermissionRequest">Die App muss auf Ihren Standort zugreifen dürfen um Outdoor-Aktivitäten aufzeichnen zu können.</string>
     <string name="dialogStoragePermissionRequestTitle">Speicherzugriffsberechtigung</string>
     <string name="dialogStoragePermissionRequest">Die App muss auf den Speicher zugreifen können, damit Tracks und Einstellungen gespeichert und wiederhergestellt werden können.
 \n
@@ -305,7 +305,7 @@
     <string name="unitDegC">°C</string>
     <string name="unitDegF">°F</string>
     <string name="unitHPa">hPa</string>
-    <string name="unitPetrolLit">L gas</string>
+    <string name="unitPetrolLit">Liter Benzin</string>
     <string name="unitKmPerLit">km/L</string>
     <string name="unitMiPerGal">mpg</string>
     <string name="unitPerHundredKm">/100km</string>
@@ -322,7 +322,7 @@
     <string name="meterModeSpeedShort">Geschw</string>
     <string name="meterModeSpeedVertical">vertikale Geschwindigkeit</string>
     <string name="meterModeSpeedAverage">Durchschnittsgeschwindigkeit</string>
-    <string name="meterModeSpeedAverageShort">durch. Geschw.</string>
+    <string name="meterModeSpeedAverageShort">durchschnittliche Geschwindigkeit</string>
     <string name="meterModePace">Pace</string>
     <string name="meterModePaceShort">Pace</string>
     <string name="meterModeDuration">Dauer</string>
@@ -568,7 +568,7 @@
     <string name="pref_duck_roaring_on_bell_summary">Bei Klingelton die Brummtonlautstärke verringern</string>
     <string name="pref_relaunchAfterReboot_title">Öffnen nach Neustart</string>
     <string name="pref_resetPrompt_title">Reset Nachfrage</string>
-    <string name="pref_resetPrompt_summary">Benachrichtigung einen neuen Track zu starten, wenn über 4 Stunden inaktiv, oder neuer Standort weit entfernt.</string>
+    <string name="pref_resetPrompt_summary">Aufforderung zum Start einer neuen Tour, wenn über 4 Stunden inaktiv oder neuer Standort weit entfernt.</string>
     <string name="pref_auto_launch_on_gps_title">Automatisches Öffnen bei GPS-Signal</string>
     <string name="pref_auto_launch_on_gps_summary">App bei GPS-Aktivität im Passivmodus öffnen</string>
     <string name="pref_passive_gps_button_title">Passiv-GPS-Knopf-Modus</string>
@@ -635,16 +635,16 @@
     <string name="pref_maps_offline_warning_summary">Warnung: Auch im Offline-Modus könnten Online-Daten heruntergeladen werden. Wenn du unsicher bist, bitte deaktiviere mobile Daten bevor du Karten benutzt.</string>
     <string name="pref_maps_routes_draw_title">Geführte Strecken</string>
     <string name="pref_maps_routes_info_title">Hinweis!</string>
-    <string name="pref_maps_routes_info_summary">Es werden keine anderen visuellen oder akustischen Signale zur Erleichterung der Navigation angezeigt.</string>
+    <string name="pref_maps_routes_info_summary">Zur Erleichterung der Navigation entlang der Route werden keine anderen visuellen oder akustischen Signale angezeigt.</string>
     <string name="pref_maps_routes_files_title">Datei oder Ordner auswählen</string>
     <string name="pref_maps_routes_files_dialog_title">Wähle Strecken Verzeichnis oder Datei</string>
-    <string name="pref_maps_routes_files_noFolderSelected">Kein Verzeichnis ausgewählt</string>
+    <string name="pref_maps_routes_files_noFolderSelected">Kein Verzeichnis ausgewählt.</string>
     <string name="pref_maps_quickZoom_title">Schnell-Zoom Schaltflächen</string>
     <string name="pref_maps_quickZoom_summary">(Alle Profile) Aktiviere unsichtbare Schnell-Zoom Schaltflächen im unteren Bereich der Karte, verbessert die Orientierung</string>
     <string name="pref_maps_quickZoomInvert_title">Invertiert</string>
     <string name="pref_maps_quickZoomInvert_summary">Tausche Zoom +- Schaltflächenpositionen</string>
     <string name="pref_button_autoring_enable_title">Auto-Klingel-Umschalter</string>
-    <string name="pref_button_autoring_enable_summary">Aktiviert das Umschalten des Auto-Klingel-Modus durch einen langen Druck auf die Geschwindigkeitsanzeige.</string>
+    <string name="pref_button_autoring_enable_summary">Aktiviert das Umschalten des Auto-Klingel-Modus\' durch einen langen Druck auf die Geschwindigkeitsanzeige.</string>
     <string name="pref_button_profile_show_title">Profil</string>
     <string name="pref_button_profile_show_summary">Zeige die Profilschaltfläche</string>
     <string name="pref_button_map_show_title">Karte</string>
@@ -668,7 +668,7 @@
     <string name="pref_speedo_indicator_needle_summary">Zeiger in Grafikanzeige anzeigen</string>
     <string name="pref_powermeter_display_mode_dialog_title">Leistungsanzeige-Modus</string>
     <string name="pref_powermeter_parameters_info_title">Hinweis!</string>
-    <string name="pref_powermeter_parameters_info_summary">Zur genauen Anzeige der Kraft- und Energiewerte bitte sicherstellen, dass diese Parameter korrekt sind.</string>
+    <string name="pref_powermeter_parameters_info_summary">Zur Anzeige möglichst genauer Kraft- und Energiewerte bitte sicherstellen, dass diese Parameter korrekt sind.</string>
     <string name="pref_power_weights_title">Gewichte</string>
     <string name="pref_power_weights_summary">Fahrer: %1$s, Fahrzeug: %2$s, Zuladung: %3$s, Passagiere: %4$s, Reifen: %5$s
     </string>
@@ -697,7 +697,7 @@
     <string name="pref_haptic_feedback_intensity_title">Vibrationsstärke</string>
     <string name="pref_soundsMasterSwitch_title">Alle Töne</string>
     <string name="prefBarometricAltitudeTitle">Barometrische Höhe</string>
-    <string name="prefBarometricAltitudeSummary">Benutze das eingebaute Barometer zur Verbesserung der Genauigkeit der Höhe.</string>
+    <string name="prefBarometricAltitudeSummary">Benutze das eingebaute Barometer zur Verbesserung der Genauigkeit der Höhenmessung.</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Thermo Barometer</string>
     <string name="prefBaroAltitudeUsesTemperatureSummary">Nutze Temperatur Sensor Daten für genauere barometrische Höhen</string>
     <string name="prefBarometricAltitudeNoteTitle">Hinweis!</string>
@@ -714,9 +714,9 @@
     <string name="prefNotificationAlwaysTitle">Andauernde Benachrichtigung</string>
     <string name="prefNotificationAlwaysSummary">Zeige das App Benachrichtigungssymbol in der Statuszeile immer an, nicht nur wenn das Tracking aktiv ist.</string>
     <string name="infoMeterModeDistanceTitle">Entfernung</string>
-    <string name="infoMeterModeDistanceMsg">Zurückgelegte Entfernung</string>
+    <string name="infoMeterModeDistanceMsg">Zurückgelegte Entfernung.</string>
     <string name="infoMeterModeDistanceOdoTitle">Entfernungsmesser</string>
-    <string name="infoMeterModeDistanceOdoMsg">Zurückgelegte Gesamtentfernung seit erster Profilbenutzung</string>
+    <string name="infoMeterModeDistanceOdoMsg">Zurückgelegte Gesamtentfernung seit erster Profilbenutzung.</string>
     <string name="infoMeterModeDurationTitle">Dauer</string>
     <string name="infoMeterModeDurationMsg">Dauer der Fahrt, je nach Einstellung abzüglich aller Pausen oder Stopps.</string>
     <string name="infoMeterModeElapsedTitle">Verstichene Zeit</string>
@@ -733,7 +733,7 @@
     <string name="infoMeterModeAltitudeTitle">Höhe</string>
     <string name="infoMeterModeSlopeTitle">Neigung</string>
     <string name="infoMeterModeSpeedTitle">Geschwindigkeit</string>
-    <string name="infoMeterModeSpeedMsg">Geschwindigkeit — Aktuell, Maximum und Durchschnitt</string>
+    <string name="infoMeterModeSpeedMsg">Geschwindigkeit — Aktuell, Maximum und Durchschnitt.</string>
     <string name="infoMeterModeVerticalSpeedTitle">Vertikale Geschwindigkeit</string>
     <string name="infoMeterModePaceTitle">Pace</string>
     <string name="infoMeterModePaceMsg">Kehrwert der Geschwindigkeit - Aktuell, Maximum und Durchschnitt.</string>
@@ -748,7 +748,7 @@
     <string name="infoMeterModeClockMsg">Aktuelle Tageszeit.</string>
     <string name="infoMeterModeCadenceTitle">Trittfrequenz</string>
     <string name="infoMeterModeHeartRateTitle">Herzfrequenz</string>
-    <string name="infoMeterModeHeartRateMsg">Anzahl an Herzschlägen pro Minute</string>
+    <string name="infoMeterModeHeartRateMsg">Anzahl der Herzschläge pro Minute.</string>
     <string name="infoAutopauseForcedRelaxed">Hinweis: Auto Pause ist auf entspannt gesetzt</string>
     <string name="infoAutopauseForcedOff">Hinweis: Auto Pause ist ausgeschaltet</string>
     <string name="defaultProfileNameBike1">Fahrrad 1</string>
@@ -943,4 +943,36 @@
     <string name="prefAdModes_2">AppBrain</string>
     <string name="prefAdModes_3">Nichts</string>
     <string name="ultimateLicenseTitleYearly">Ultimate License (jährlich)</string>
+    <string name="toastMapClickInfo">Für Karteneinstellungen lange gedrückt halten</string>
+    <string name="dialog_default_map_track_colors_title">Farbe der Strecke auf der Karte</string>
+    <string name="dialogGpsSettingsPromptMessage">Ohne Ortungsdienste können die meisten Funktionen nicht genutzt werden.
+\n
+\nBitte sicherstellen, dass Ortungsdienste und der Modus \'hohe Genauigkeit\' aktiviert sind.
+\n
+\nJetzt Einstellungen zu Ortungsdiensten öffnen\?</string>
+    <string name="dialogTrackUploadStravaIsCommute">Pendelstrecke</string>
+    <string name="dialogGpsIntervalLabelMore">Höhere Genauigkeit, benötigt mehr Akkuleistung</string>
+    <string name="dialogGpsIntervalLabelLess">Geringere Genauigkeit, benötigt geringere Akkuleistung</string>
+    <string name="dialogLocationPermissionRequestForBt">Berechtigung für Ortungsdienste wird benötigt, um Bluetooth-Geräte finden zu können.
+\n
+\nOhne die Berechtigung können keine Bluetooth-Geräte gefunden werden.</string>
+    <string name="dialogReviewNudgeMessage">Gefällt dir Urban Biker\?</string>
+    <string name="dialogAppOptimizedPromptTitle">Akku-Optimierungen</string>
+    <string name="dialogAppOptimizedPromptMessage">Urban Biker sollte von Akku-Optimierungen ausgenommen sein, andernfalls könnten Fehler auftreten.
+\n
+\nEinstellungen jetzt öffnen\?</string>
+    <string name="batteryOptimizationToast">Urban Biker aus der Liste auswählen</string>
+    <string name="timePeriod_perWeek">/Woche</string>
+    <string name="timePeriod_perMonth">/Monat</string>
+    <string name="timePeriod_per3Months">/3 Monate</string>
+    <string name="timePeriod_per6Months">/6 Monate</string>
+    <string name="timePeriod_perYear">/Jahr</string>
+    <string name="generalError">Es ist ein Fehler aufgetreten. Probiere es noch einmal.</string>
+    <string name="openSourceLicensesTitle">Open Source-Lizenzen</string>
+    <string name="dialogReviewNudgeMessage2">Danke! Schreibe uns doch noch eine Rezension oder bewerte uns im Play Store.</string>
+    <string name="dialogButtonRateOnPlayStore">Bewertung im Play Store</string>
+    <string name="trackUploadActivityTypes_1">Laufen</string>
+    <string name="trackUploadActivityTypes_2">Gehen</string>
+    <string name="aboutScreenWarmWelcome">Wir hoffen, dir gefällt die App 😊</string>
+    <string name="disclaimerText3">Behalte die Straße immer im Blick.</string>
 </resources>
