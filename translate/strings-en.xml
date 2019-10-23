@@ -16,20 +16,37 @@
         &lt;b&gt;v%1$s&lt;/b&gt; (%2$s)
     </string>
 
-    <string name="proLicenseLabel">Pro</string>
-    <string name="proPlusLicenseLabel">Pro+</string>
     <string name="ultimateLicenseLabel">Ultimate</string>
+    <string name="proPlusLicenseLabel">Pro+</string>
+    <string name="proLicenseLabel">Pro</string>
 
-    <string name="proLicenseTitle">Pro License</string>
-    <string name="proLicenseDescription">Remove ads</string>
+    <string name="licenseDialogUltimateTab" translatable="false">@string/ultimateLicenseLabel</string>
+    <string name="licenseDialogProTab" translatable="false">@string/proLicenseLabel</string>
+    <string name="licenseDialogMapsTab">Maps</string>
+
+    <string name="thunderforestMapsLabel" translatable="false">Thunderforest</string>
+    <string name="mapboxMapsLabel" translatable="false">Mapbox</string>
+
+    <string name="ultimateLicenseTitle">Ultimate License</string>
+    <string name="ultimateLicenseDescription">Most powerful license for ultimate experience.</string>
+    <string name="ultimateLicenseFeatures">✔ No ads ✔ All maps ✔ All features</string>
 
     <string name="proPlusLicenseTitle">Pro Plus License</string>
     <string name="proPlusLicenseDescription">Remove ads and unlock all non-subscription features we may add in the future</string>
+    <string name="proPlusLicenseFeatures">✔ No ads ✔ All features</string>
 
-    <string name="ultimateLicenseTitle">Ultimate License</string>
-    <string name="ultimateLicenseTitleYearly">Ultimate License (yearly)</string>
-    <string name="ultimateLicenseDescriptionMonthly">All features and maps unlocked (monthly subscription)</string>
-    <string name="ultimateLicenseDescriptionYearly">All features and maps unlocked (yearly subscription)</string>
+    <string name="proLicenseTitle">Pro License</string>
+    <string name="proLicenseDescription">Remove ads</string>
+    <string name="proLicenseFeatures">✔ No ads</string>
+
+    <string name="thunderforestMapsFeatures">✔ No ads ✔ Thunderforest maps</string>
+    <string name="mapboxMapsFeatures">✔ No ads ✔ Mapbox maps</string>
+
+    <string name="subscriptionYearly">365-day</string>
+    <string name="subscriptionMonthly">30-day</string>
+
+    <string name="priceFree">FREE</string>
+    <string name="rewardedAdDescription">1-day (watch an ad)</string>
 
 
     <string name="ok">OK</string>
@@ -37,6 +54,8 @@
     <string name="no">No</string>
     <string name="cancel">Cancel</string>
     <string name="buttonUnderstand">I understand</string>
+
+    <string name="na">N/A</string>
 
     <string name="buttonResumeTrack">Resume</string>
     <string name="buttonNewTrack">Finish</string>
@@ -148,6 +167,8 @@
     <string name="toastSensorDisabled">Sensor disabled</string>
     <string name="toastAutoThemeActivated">Automatic visual theme activated</string>
     <string name="toastCancelled">Canceled</string>
+    <string name="toastScreenPocketModeActive">Pocket mode active</string>
+    <string name="toastScreenWavingModeActive">Waving mode active</string>
 
     <string name="notificationTitle" translatable="false">@string/app_name</string>
     <string name="notificationTitleAdvanced" translatable="false">%1$s</string>
@@ -225,7 +246,6 @@
     <string name="dialogScreenOrientationLandscape">Landscape</string>
     <string name="dialogScreenBrightnessOverride">Override brightness</string>
     <string name="dialogScreenAutoTheme">Auto theme</string>
-    <string name="dialogScreenPocketMode">Pocket mode</string>
     <string name="dialogMapsOffline">Offline maps</string>
     <string name="dialogMapsLayerTraffic">Traffic</string>
     <string name="dialogMapsShowFences">Fences</string>
@@ -340,6 +360,10 @@
     <string name="unitMiliW">mW</string>
     <string name="unitWKg">W/kg</string>
     <string name="unitWLb">W/lb</string>
+    <string name="unitJoule">J</string>
+    <string name="unitJoulePerHour">J/h</string>
+    <string name="unitJoulePerKg">J/kg</string>
+    <string name="unitJoulePerLb">J/lb</string>
     <string name="unitKj">kJ</string>
     <string name="unitKjH">kJ/h</string>
     <string name="unitKjKg">kJ/kg</string>
@@ -675,8 +699,6 @@
     <string name="pref_visualThemeAutoSummary">Apply light or dark theme based on environment illumination</string>
     <string name="pref_default_color_title" translatable="false">@string/pref_resetToDefault</string>
     <string name="pref_default_color_summary" translatable="false">@null</string>
-    <string name="pref_buttons_bg_look_title">Clear buttons</string>
-    <string name="pref_buttons_bg_look_summary">Completely transparent buttons and fields</string>
     <string name="pref_screen_keep_on_title">Keep screen on</string>
     <string name="pref_screen_keep_on_summary">Screen will remain turned on while the app is used</string>
     <string name="pref_screen_allow_off_inactive_title">Allow off when inactive</string>
@@ -685,6 +707,8 @@
     <string name="pref_above_lockscreen_summary">App will remain visible even if the device is locked</string>
     <string name="pref_screenAutoPocketMode_title">Pocket mode</string>
     <string name="pref_screenAutoPocketMode_summary">(All profiles) Use proximity sensor to keep the display off while not needed</string>
+    <string name="pref_screenWaveOnOffMode_title">Waving mode</string>
+    <string name="pref_screenWaveOnOffMode_summary">Dim and app-lock the display by waving twice in front of it. Wave again to undim and unlock.</string>
     <string name="pref_ring_on_stop_title">Ring on stop</string>
     <string name="pref_ring_on_stop_summary">Ring the automatic bell when the speed drops to zero, too</string>
     <string name="pref_disable_bell_button_title">Disable bell button</string>
@@ -747,6 +771,10 @@
     <string name="pref_soundeffects_gps_signal_summary">Sound on GPS status change (good, bad/standstill)</string>
     <string name="pref_soundeffects_countdown_title">Countdown</string>
     <string name="pref_soundeffects_countdown_summary">Sound on countdown before resuming the track (…3, 2, 1, GO!)</string>
+    <string name="pref_soundeffects_screenOff_title">Screen dim/off</string>
+    <string name="pref_soundeffects_screenOff_summary">Sound and vibrate when screen is dimmed or temporary turned off</string>
+    <string name="pref_soundeffects_proximity_title">Proximity sensor</string>
+    <string name="pref_soundeffects_proximity_summary">Click sound when proximity sensor is tripped</string>
     <string name="pref_soundeffects_tally_title">Enable</string>
     <string name="pref_soundeffects_tally_summary" translatable="false">@null</string>
     <string name="pref_soundeffects_tally_value_summary">Every %1$s %2$s</string>
@@ -1231,10 +1259,6 @@
 
 
     <string name="menuLicense">Buy license</string>
-
-    <string name="dialogLicenseBuyTitle">Like this app?</string>
-    <string name="dialogLicenseBuyYesButton">Get it!</string>
-    <string name="dialogLicenseBuyNoButton">Not now</string>
 
     <string name="dialogReviewNudgeMessage">Are you enjoying Urban Biker?</string>
     <string name="dialogReviewNudgeMessage2">Thanks! Please write a nice review or rate us 5 stars on the Play Store.</string>
