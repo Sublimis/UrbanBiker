@@ -285,9 +285,9 @@
     <string name="unitMinPerMile">min/mi</string>
     <string name="unitMinPerMileShort">/mi</string>
     <string name="unitMSxS">m/s²</string>
-    <string name="unitFtSxS">ft/s²</string>
+    <string name="unitFtSxS">pé/s²</string>
     <string name="unitMeterPerMin">m/min</string>
-    <string name="unitFeetPerMin">ft/min</string>
+    <string name="unitFeetPerMin">pé/min</string>
     <string name="unitTimeHrMinSec">h:m:s</string>
     <string name="unitTimeHour">h</string>
     <string name="unitTimeMinute">min</string>
@@ -296,7 +296,7 @@
     <string name="unitMillimeter">mm</string>
     <string name="unitMxM">m²</string>
     <string name="unitIn">in</string>
-    <string name="unitFt">ft</string>
+    <string name="unitFt">pé</string>
     <string name="unitFtxFt">ft²</string>
     <string name="unitKg">Kg</string>
     <string name="unitLb">lb</string>
@@ -992,13 +992,13 @@
     <string name="pref_flashlightBlinkModes_2">Nenhum / Estável</string>
     <!-- pref_units_distance_entries -->
     <string name="pref_units_distance_entries_0">Métrico [m, Km]</string>
-    <string name="pref_units_distance_entries_1">Imperial [ft, mi]</string>
+    <string name="pref_units_distance_entries_1">Imperial [pés, mi]</string>
     <!-- pref_units_speed_entries -->
     <string name="pref_units_speed_entries_0">Métrico [Km/h]</string>
     <string name="pref_units_speed_entries_1">Imperial [mph]</string>
     <!-- pref_units_altitude_entries -->
     <string name="pref_units_altitude_entries_0">Métrico [m]</string>
-    <string name="pref_units_altitude_entries_1">Imperial [ft]</string>
+    <string name="pref_units_altitude_entries_1">Imperial [pé]</string>
     <!-- pref_units_weight_entries -->
     <string name="pref_units_weight_entries_0">Métrico [Kg]</string>
     <string name="pref_units_weight_entries_1">Imperial [lb]</string>
@@ -1160,4 +1160,19 @@
     <string name="pref_soundeffects_screenOff_summary">Som e vibração quando o ecrã está escurecido ou temporariamente desligado</string>
     <string name="pref_soundeffects_proximity_title">Sensor de proximidade</string>
     <string name="pref_soundeffects_proximity_summary">Som de clique quando o sensor de proximidade for usado</string>
+    <string name="unitMetersAboveGroundLevel">m ANS</string>
+    <string name="unitFeetsAboveGroundLevel">pé ANS</string>
+    <string name="meterModeKineticEnergy">Energia Cinética</string>
+    <string name="meterModeKineticEnergyShort">Energ. Cin.</string>
+    <string name="sensorsInfo">Os sensores conectam-se automaticamente enquanto a gravação está ativa e desconectam quando você para de gravar.
+\n
+\nNão é possível estabelecer uma conexão do sensor manualmente.</string>
+    <string name="sensorWheelCircNotSetWarning">A circunferência da roda não foi definida</string>
+    <string name="infoMeterModeKineticEnergyTitle">Energia Cinética</string>
+    <string name="infoMeterModeKineticEnergyMsg">Altura acima do nível do solo, onde a sua energia potencial seria igual à sua energia cinética atual. 
+\n
+\nEm outras palavras, a sua velocidade é igual à que teria após cair desta altura (desconsiderando a resistência do ar).
+\n
+\nDa mesma forma, é a altura que você obteria subindo diretamente usando apenas a sua energia cinética.</string>
+    <string name="meterModes_26">Energia Cinética</string>
 </resources>
