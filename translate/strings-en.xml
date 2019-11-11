@@ -389,6 +389,8 @@
     <string name="unitMilliseconds">ms</string>
     <string name="unitDegree">°</string>
     <string name="unitMegabyte">MB</string>
+    <string name="unitMetersAboveGroundLevel">m agl</string>
+    <string name="unitFeetsAboveGroundLevel">ft agl</string>
 
     <string name="durationHrMin" translatable="false">%1$d:%2$02d</string>
 
@@ -446,6 +448,8 @@
     <string name="meterModeHeartRateShort">hr</string>
     <string name="meterModeGearRatio">gear ratio</string>
     <string name="meterModeGearRatioShort">g rat</string>
+    <string name="meterModeKineticEnergy">kinetic energy</string>
+    <string name="meterModeKineticEnergyShort">kin en</string>
     <string name="bellRingAuto">auto</string>
     <string name="roarModeConstant">const</string>
     <string name="meterTextMin">min</string>
@@ -516,6 +520,8 @@
     <string name="sensorsSectionUnsupported">Unsupported</string>
     <string name="sensorsEmptyList">Empty list</string>
     <string name="sensorsMenuScan">Scan</string>
+    <string name="sensorsInfo">Sensors get connected automatically while recording is active, and disconnected when you stop recording.\n\nIt\'s not possible to establish a sensor connection manually.</string>
+    <string name="sensorWheelCircNotSetWarning">Wheel circumference has not been set</string>
 
     <string name="sensorMenuAddToProfile">Add to the profile</string>
     <string name="sensorMenuRemoveFromProfile">Remove from the profile</string>
@@ -962,6 +968,8 @@
     <string name="infoMeterModeHeartRateMsg">Number of heartbeats per minute.</string>
     <string name="infoMeterModeGearRatioTitle">Gear ratio</string>
     <string name="infoMeterModeGearRatioMsg">Ratio of wheel revolutions vs. pedal turns per time unit, i.e. ratio of front sprocket and rear sprocket sizes. Higher number means higher gear.</string>
+    <string name="infoMeterModeKineticEnergyTitle">Kinetic energy</string>
+    <string name="infoMeterModeKineticEnergyMsg">Height above ground level where your potential energy would equal your current kinetic energy.\n\nIn other words, your speed is equal to the speed you\'d have after falling from this height (disregarding air resistance).\n\nLikewise, it\'s the height you\'d obtain by going straight up using your kinetic energy content only.</string>
 
     <string name="infoAutopauseForcedRelaxed">Note: Auto Pause forced to Relaxed</string>
     <string name="infoAutopauseForcedOff">Note: Auto Pause forced to Off</string>
@@ -1003,6 +1011,7 @@
     <string name="meterModes_23">Temperature</string>
     <string name="meterModes_24">Pressure</string>
     <string name="meterModes_25">Odometer</string>
+    <string name="meterModes_26">Kinetic energy</string>
 
 
     <!-- pref_gps_update_freq_entries -->
