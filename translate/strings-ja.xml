@@ -569,7 +569,7 @@
     <string name="pref_tally_distance_entries_6">5</string>
     <string name="dialogPowerWeightsTitle">体重</string>
     <string name="dialogPowerWeightsWeightRider">ライダー体重</string>
-    <string name="dialogPowerWeightsWeightVehicle">車重</string>
+    <string name="dialogPowerWeightsWeightVehicle">自転車の重量</string>
     <string name="dialogPowerParamsDragArea">空気抵抗領域 (Cd·A)</string>
     <string name="dialogEnergyParamsTitle">エネルギー変数</string>
     <string name="dialogEnergyParamsEfficiency">全温度効率 (η)</string>
@@ -629,7 +629,7 @@
     <string name="meterModeWriggleShort">蛇行</string>
     <string name="meterModeAltitudeSlopeShort">傾斜</string>
     <string name="meterTextTotal">合計</string>
-    <string name="cloudAccountsTitle">支払い</string>
+    <string name="cloudAccountsTitle">アカウント連携</string>
     <string name="tracksHistoryListButtonView">表示</string>
     <string name="summaryStoppedTime">静止時間</string>
     <string name="summaryHeartBeats">心拍数</string>
@@ -1130,4 +1130,19 @@
     <string name="pref_soundeffects_screenOff_summary">画面が暗くなるまたは一時的にオフされたときに音を鳴らし振動させる</string>
     <string name="pref_soundeffects_proximity_title">近くにあるセンサー</string>
     <string name="pref_soundeffects_proximity_summary">近接センサーとの接続が切れたときに音を鳴らす</string>
+    <string name="unitMetersAboveGroundLevel">m (高さ)</string>
+    <string name="unitFeetsAboveGroundLevel">フィート (高さ)</string>
+    <string name="meterModeKineticEnergy">運動エネルギー</string>
+    <string name="meterModeKineticEnergyShort">運動en</string>
+    <string name="sensorsInfo">記録の開始/終了に合わせて、センサーと自動的に接続します。
+\n
+\n手動でセンサーと接続することはできません。</string>
+    <string name="sensorWheelCircNotSetWarning">ホイール周長が設定されていません</string>
+    <string name="infoMeterModeKineticEnergyTitle">運動エネルギー</string>
+    <string name="infoMeterModeKineticEnergyMsg">運動エネルギーを位置エネルギーに換算したときの高さ。
+\n
+\n言い換えると、速度は(空気抵抗を無視して)この高さから落ちたときの速度と等しくなります。
+\n
+\n同様に、この高さは運動エネルギーのみを利用して到達できる高さです。</string>
+    <string name="meterModes_26">運動エネルギー</string>
 </resources>
