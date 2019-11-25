@@ -659,13 +659,13 @@
     <string name="pref_soundeffects_fence_enterleave_title">Ograda</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Zvuk pri ulasku ili napuštanju ograde</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
-    <string name="pref_soundeffects_gps_signal_summary">Zvuk pri promjeni GPS statusa (dobar, loš/u mirovanju)</string>
+    <string name="pref_soundeffects_gps_signal_summary">Zvuk pri promjeni GPS statusa (dobar, loš)</string>
     <string name="pref_soundeffects_countdown_title">Odbrojavanje</string>
     <string name="pref_soundeffects_countdown_summary">Zvuk pri odbrojavanju prije nastavka praćenja (…3, 2, 1, START!)</string>
     <string name="pref_soundeffects_tally_title">Omogući</string>
     <string name="pref_soundeffects_tally_value_summary">Svakih %1$s %2$s</string>
     <string name="pref_soundeffects_tally_distance_title">Udaljenost</string>
-    <string name="pref_soundeffects_tally_distance_dialog_title">Oznaka daljenosti</string>
+    <string name="pref_soundeffects_tally_distance_dialog_title">Oznaka udaljenosti</string>
     <string name="pref_soundeffects_tally_duration_title">Trajanje</string>
     <string name="pref_soundeffects_tally_duration_dialog_title">Oznaka trajanja</string>
     <string name="pref_soundeffects_tally_ascent_title">Uspon</string>
@@ -860,13 +860,13 @@
     <string name="infoMeterModeGearRatioMsg">Omjer broja okretaja kotača i okretaja pedala po jedinici vremena, tj. omjer prednjeg i stražnjeg lančanika. Veći broj znači veći stupanj prijenosa.</string>
     <string name="infoAutopauseForcedRelaxed">Napomena: Auto pauza forsirana u Ležerno</string>
     <string name="infoAutopauseForcedOff">Napomena: Auto pauza forsirana u Isključeno</string>
-    <string name="defaultProfileNameBike1">Bicikl 1</string>
-    <string name="defaultProfileNameBike2">Bicikl 2</string>
-    <string name="defaultProfileNameWalk">Hodanje</string>
-    <string name="defaultProfileNameRun">Trčanje</string>
-    <string name="defaultProfileNameCar">Automobil</string>
-    <string name="defaultProfileNamePlane">Zrakoplov</string>
-    <string name="defaultProfileNameIndoor">Unutar</string>
+    <string name="defaultProfileNameBike1">Bicikl 1 🚴</string>
+    <string name="defaultProfileNameBike2">Bicikl 2 🚵</string>
+    <string name="defaultProfileNameWalk">Hodanje 👣</string>
+    <string name="defaultProfileNameRun">Trčanje 🏃</string>
+    <string name="defaultProfileNameCar">Automobil 🚘</string>
+    <string name="defaultProfileNamePlane">Zrakoplov 🛩️</string>
+    <string name="defaultProfileNameIndoor">Sobni 🏠</string>
     <string name="defaultProfileNameOther">Ostalo</string>
     <string name="svgCopyright">Napravljeno s Urban Biker-om</string>
     <string name="fbStoryLiveText">U tijeku!</string>
@@ -1173,4 +1173,29 @@
 \n
 \nIsto tako, to je visina koju biste postigli ako biste otišli ravno uvis koristeći samo sadržaj svoje kinetičke energije.</string>
     <string name="meterModes_26">Kinetička energija</string>
+    <string name="mapMarkerStart">Start</string>
+    <string name="mapMarkerFinish">Kraj</string>
+    <string name="pref_speechMasterSwitch_title">Govor</string>
+    <string name="pref_speechMasterSwitch_summary">Koristi govor za oznake i odbrojavanje</string>
+    <string name="defaultProfileNameScooter">Skuter 🛴</string>
+    <string name="defaultProfileNameSki">Skijanje 🎿</string>
+    <string name="speechUnitOneMeter">Metar</string>
+    <string name="speechUnitTwoMeters">Metara</string>
+    <string name="speechUnitManyMeters">Metara</string>
+    <string name="speechUnitOneKilometer">Kilometar</string>
+    <string name="speechUnitTwoKilometers">Kilometra</string>
+    <string name="speechUnitManyKilometers">Kilometara</string>
+    <string name="speechUnitOneFeet">Stopa</string>
+    <string name="speechUnitTwoFeets">Stope</string>
+    <string name="speechUnitManyFeets">Stopa</string>
+    <string name="speechUnitOneMile">Milja</string>
+    <string name="speechUnitTwoMiles">Milje</string>
+    <string name="speechUnitManyMiles">Milja</string>
+    <string name="speechUnitOneHour">Sat</string>
+    <string name="speechUnitTwoHours">Sata</string>
+    <string name="speechUnitManyHours">Sati</string>
+    <string name="speechUnitOneMinute">Minuta</string>
+    <string name="speechUnitTwoMinutes">Minute</string>
+    <string name="speechUnitManyMinutes">Minuta</string>
+    <string name="speechCountdownGo">Kreni</string>
 </resources>
