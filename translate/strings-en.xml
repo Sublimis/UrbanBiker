@@ -331,6 +331,9 @@
     <string name="mapLayerTerrain">Terrain</string>
     <string name="mapLayerSatellite">Satellite</string>
 
+    <string name="mapMarkerStart">Start</string>
+    <string name="mapMarkerFinish">Finish</string>
+
 	<string name="unitKm">km</string>
     <string name="unitKmh">km/h</string>
     <string name="unitMiles">mi</string>
@@ -776,7 +779,7 @@
     <string name="pref_soundeffects_fence_enterleave_title">Fence</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Sound when entering or leaving a fence</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
-    <string name="pref_soundeffects_gps_signal_summary">Sound on GPS status change (good, bad/standstill)</string>
+    <string name="pref_soundeffects_gps_signal_summary">Sound on GPS status change (good, bad)</string>
     <string name="pref_soundeffects_countdown_title">Countdown</string>
     <string name="pref_soundeffects_countdown_summary">Sound on countdown before resuming the track (…3, 2, 1, GO!)</string>
     <string name="pref_soundeffects_screenOff_title">Screen dim/off</string>
@@ -896,6 +899,8 @@
     <string name="pref_haptic_feedback_intensity_summary" translatable="false">@null</string>
     <string name="pref_soundsMasterSwitch_title">All sounds</string>
     <string name="pref_soundsMasterSwitch_summary" translatable="false">@null</string>
+    <string name="pref_speechMasterSwitch_title">Speech</string>
+    <string name="pref_speechMasterSwitch_summary">Use speech for tallies and countdown</string>
     <string name="prefBarometricAltitudeTitle">Barometric altitude</string>
     <string name="prefBarometricAltitudeSummary">Use inbuilt barometer to enhance altitude accuracy</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Thermo barometer</string>
@@ -969,18 +974,20 @@
     <string name="infoMeterModeGearRatioTitle">Gear ratio</string>
     <string name="infoMeterModeGearRatioMsg">Ratio of wheel revolutions vs. pedal turns per time unit, i.e. ratio of front sprocket and rear sprocket sizes. Higher number means higher gear.</string>
     <string name="infoMeterModeKineticEnergyTitle">Kinetic energy</string>
-    <string name="infoMeterModeKineticEnergyMsg">Height above ground level where your potential energy would equal your current kinetic energy.\n\nIn other words, your speed is equal to the speed you\'d have after falling from this height (disregarding air resistance).\n\nLikewise, it\'s the height you\'d obtain by going straight up using your kinetic energy content only.</string>
+    <string name="infoMeterModeKineticEnergyMsg">Height above ground level where your potential energy would equal your current kinetic energy.\n\nIn other words, your speed is equal to the speed you\'d have after falling from this height (disregarding air resistance).\n\nLikewise, it\'s the height you\'d achieve by going straight up using your kinetic energy content only.</string>
 
     <string name="infoAutopauseForcedRelaxed">Note: Auto Pause forced to Relaxed</string>
     <string name="infoAutopauseForcedOff">Note: Auto Pause forced to Off</string>
 
-    <string name="defaultProfileNameBike1">Bike 1</string>
-    <string name="defaultProfileNameBike2">Bike 2</string>
-    <string name="defaultProfileNameWalk">Walk</string>
-    <string name="defaultProfileNameRun">Run</string>
-    <string name="defaultProfileNameCar">Car</string>
-    <string name="defaultProfileNamePlane">Plane</string>
-    <string name="defaultProfileNameIndoor">Indoor</string>
+    <string name="defaultProfileNameBike1">Bike 1 🚴</string>
+    <string name="defaultProfileNameBike2">Bike 2 🚵</string>
+    <string name="defaultProfileNameWalk">Walk 👣</string>
+    <string name="defaultProfileNameRun">Run 🏃</string>
+    <string name="defaultProfileNameCar">Car 🚘</string>
+    <string name="defaultProfileNamePlane">Plane 🛩️</string>
+    <string name="defaultProfileNameIndoor">Indoor 🏠</string>
+    <string name="defaultProfileNameScooter">Scooter 🛴</string>
+    <string name="defaultProfileNameSki">Ski 🎿</string>
     <string name="defaultProfileNameOther">Other</string>
 
 
@@ -1301,5 +1308,27 @@
     <string name="disclaimerText1">This app is provided as is, and you use it at your own risk. We, the publisher, will not be held responsible for any mishap, loss of possession, injury or worse involving you or a third person, arising from app usage during a ride or otherwise.</string>
     <string name="disclaimerText2">Please use this app wisely and DO NOT operate it while driving a car, riding a motorbike, a bicycle, or any other vehicle.</string>
     <string name="disclaimerText3">Always keep your eyes on the road.</string>
+
+    <string name="speechUnitOneMeter">Meter</string>
+    <string name="speechUnitTwoMeters">Meters</string>
+    <string name="speechUnitManyMeters">Meters</string>
+    <string name="speechUnitOneKilometer">Kilometer</string>
+    <string name="speechUnitTwoKilometers">Kilometers</string>
+    <string name="speechUnitManyKilometers">Kilometers</string>
+    <string name="speechUnitOneFeet">Feet</string>
+    <string name="speechUnitTwoFeets">Feets</string>
+    <string name="speechUnitManyFeets">Feets</string>
+    <string name="speechUnitOneMile">Mile</string>
+    <string name="speechUnitTwoMiles">Miles</string>
+    <string name="speechUnitManyMiles">Miles</string>
+
+    <string name="speechUnitOneHour">Hour</string>
+    <string name="speechUnitTwoHours">Hours</string>
+    <string name="speechUnitManyHours">Hours</string>
+    <string name="speechUnitOneMinute">Minute</string>
+    <string name="speechUnitTwoMinutes">Minutes</string>
+    <string name="speechUnitManyMinutes">Minutes</string>
+
+    <string name="speechCountdownGo">Go</string>
 
 </resources>
