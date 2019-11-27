@@ -430,7 +430,7 @@
     <string name="summaryStartedDatetime">Ξεκίνησε</string>
     <string name="summaryEndedDatetime">Τελείωσε</string>
     <string name="summaryTotalTime">Συνολικός χρόνος</string>
-    <string name="summaryStoppedTime">Τερματισμένος χρόνος</string>
+    <string name="summaryStoppedTime">Αδρανής χρόνος</string>
     <string name="summaryHeartBeats">Καρδιακοί παλμοί</string>
     <string name="summaryCadenceStrokes">Πεταλιές</string>
     <string name="summarySpecific">εξειδίκευση</string>
@@ -646,7 +646,7 @@
     <string name="pref_soundeffects_fence_enterleave_title">Περίφραξη</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Ήχος όταν εισέρχεστε ή εξέρχεστε της περίφραξη</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
-    <string name="pref_soundeffects_gps_signal_summary">Ήχος για την αλλαγή του καθεστώτος GPS (καλή, κακή / ακινησία)</string>
+    <string name="pref_soundeffects_gps_signal_summary">Ήχος στην αλλαγή κατάστασης GPS (καλό, κακό)</string>
     <string name="pref_soundeffects_countdown_title">Αντίστροφη μέτρηση</string>
     <string name="pref_soundeffects_countdown_summary">Ήχος για αντίστροφη μέτρηση πριν από την επανέναρξη της διαδρομής (... 3, 2, 1, GO!)</string>
     <string name="pref_soundeffects_tally_title">Ενεργοποίηση</string>
@@ -837,7 +837,7 @@
     <string name="fbTemperatureMax">Θερμ. Μεγ</string>
     <string name="trackUploadDescriptionDefault">Η δραστηριότητα αυτή καταγράφηκε χρησιμοποιώντας την εφαρμογή Urban Biker</string>
     <string name="menuLicense">Αγορά άδειας</string>
-    <string name="licenseItemAlreadyOwned">Άδεια είναι ήδη διαθέσιμη</string>
+    <string name="licenseItemAlreadyOwned">Το στοιχείο της άδειας είναι ήδη διαθέσιμο</string>
     <string name="timePeriod_perWeek">/εβδομάδα</string>
     <string name="timePeriod_perMonth">/μήνα</string>
     <string name="timePeriod_per3Months">/3 μήνες</string>
@@ -1075,7 +1075,7 @@
     <string name="prefAdModes_0">Οτιδήποτε</string>
     <string name="prefAdModes_1">Google</string>
     <string name="prefAdModes_2">AppBrain</string>
-    <string name="prefAdModes_3">Ουδείς</string>
+    <string name="prefAdModes_3">Κανένα</string>
     <string name="toastMapClickInfo">Πατήστε παρατεταμένα για ρυθμίσεις χάρτη</string>
     <string name="dialog_default_map_track_colors_title">Χρώματα διαδρομής χάρτη</string>
     <string name="dialogGpsSettingsPromptMessage">Δεν θα μπορείτε να χρησιμοποιήσετε τα περισσότερα από τα χαρακτηριστικά αυτής της εφαρμογής χωρίς ενεργή τοποθεσία.
@@ -1173,7 +1173,7 @@
     <string name="unitMetersAboveGroundLevel">μέτρα από το έδαφος</string>
     <string name="unitFeetsAboveGroundLevel">πόδια από το έδαφος</string>
     <string name="meterModeKineticEnergy">κινητική ενέργεια</string>
-    <string name="meterModeKineticEnergyShort">"κινητ.  ενέρ."</string>
+    <string name="meterModeKineticEnergyShort">"κινητ.  ενέργεια"</string>
     <string name="sensorsInfo">Οι αισθητήρες συνδέονται αυτόματα κατά τη διάρκεια της εγγραφής και αποσυνδέονται όταν σταματήσετε την εγγραφή.
 \n
 \nΔεν είναι δυνατό να δημιουργηθεί χειροκίνητη σύνδεση αισθητήρα.</string>
@@ -1185,4 +1185,29 @@
 \n
 \nΕπίσης, είναι το ύψος που θα αποκτούσατε πηγαίνοντας κατ \'ευθείαν χρησιμοποιώντας το κινητικό σας ενεργειακό περιεχόμενο μόνο.</string>
     <string name="meterModes_26">Κινητική ενέργεια</string>
+    <string name="mapMarkerStart">Εκκίνηση</string>
+    <string name="mapMarkerFinish">Τερματισμός</string>
+    <string name="pref_speechMasterSwitch_title">Ομιλία</string>
+    <string name="pref_speechMasterSwitch_summary">Χρησιμοποιήστε την ομιλία για τα ορόσημα και την αντίστροφη μέτρηση</string>
+    <string name="defaultProfileNameScooter">Σκούτερ 🛴</string>
+    <string name="defaultProfileNameSki">Σκι 🎿</string>
+    <string name="speechUnitOneMeter">Ένα Μέτρο</string>
+    <string name="speechUnitTwoMeters">Δύο Μέτρα</string>
+    <string name="speechUnitManyMeters">Μέτρα</string>
+    <string name="speechUnitOneKilometer">Ένα Χιλιόμετρο</string>
+    <string name="speechUnitTwoKilometers">Δύο Χιλιόμετρα</string>
+    <string name="speechUnitManyKilometers">Χιλιόμετρα</string>
+    <string name="speechUnitOneFeet">Ένα Πόδι</string>
+    <string name="speechUnitTwoFeets">Δύο Πόδια</string>
+    <string name="speechUnitManyFeets">Πόδια</string>
+    <string name="speechUnitOneMile">Ένα Μίλι</string>
+    <string name="speechUnitTwoMiles">Δύο Μίλια</string>
+    <string name="speechUnitManyMiles">Μίλια</string>
+    <string name="speechUnitOneHour">Μία Ώρα</string>
+    <string name="speechUnitTwoHours">Δύο Ώρες</string>
+    <string name="speechUnitManyHours">Ώρες</string>
+    <string name="speechUnitOneMinute">Ένα Λεπτό</string>
+    <string name="speechUnitTwoMinutes">Δύο Λεπτά</string>
+    <string name="speechUnitManyMinutes">Λεπτά</string>
+    <string name="speechCountdownGo">Έναρξη</string>
 </resources>
