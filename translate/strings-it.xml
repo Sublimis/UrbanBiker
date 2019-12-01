@@ -688,7 +688,7 @@
     <string name="pref_soundeffects_fence_enterleave_title">Barriera</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Suono all\'ingresso o all\'uscita da una barriera</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
-    <string name="pref_soundeffects_gps_signal_summary">Suono al cambio di stato GPS (buono, cattivo/in blocco)</string>
+    <string name="pref_soundeffects_gps_signal_summary">Suono al cambio di stato GPS (buono, cattivo)</string>
     <string name="pref_soundeffects_countdown_title">Conto alla rovescia</string>
     <string name="pref_soundeffects_countdown_summary">Suono al conto alla rovescia prima di riprendere il tragitto (…3, 2, 1, VIA!)</string>
     <string name="pref_soundeffects_tally_title">Attiva</string>
@@ -1186,9 +1186,75 @@
     <string name="aboutScreenChangeLogLink">Log delle versioni</string>
     <string name="aboutScreenFacebookLink">Urban Biker su Facebook</string>
     <string name="aboutScreenTranslationsTitle">Traduzioni</string>
-    <string name="aboutScreenTranslationsText">Aiuta a tradurre quest\'app e ottieni una licenza gratuita! Informati all\'indirizzo</string>
+    <string name="aboutScreenTranslationsText">Aiuta a tradurre quest\'app e ottieni una licenza gratuita! Ulteriori informazioni:</string>
     <string name="disclaimerTitle">Note legali</string>
     <string name="disclaimerText1">Questa app viene fornita così com\'è, usala a tuo rischio. Noi, l\'editore, non saremo ritenuti responsabili per eventuali incidenti, perdita di possesso, lesioni o cose peggiori, derivanti dal suo uso durante una corsa o altro, e che coinvolgono te o persone terze.</string>
     <string name="disclaimerText2">Usa l\'app in modo saggio: NON trafficarci mentre guidi l\'auto, la moto, la bicicletta o qualsiasi altro veicolo.</string>
     <string name="disclaimerText3">Mantieni sempre l\'occhio sulla strada.</string>
+    <string name="licenseDialogMapsTab">Mappe</string>
+    <string name="ultimateLicenseDescription">La licenza più completa per un\'esperienza superiore.</string>
+    <string name="ultimateLicenseFeatures">✔ No pubblicità ✔ Tutte le mappe ✔ Funzionalità complete</string>
+    <string name="proPlusLicenseFeatures">✔ No pubblicità ✔ Funzionalità complete</string>
+    <string name="proLicenseFeatures">✔ No pubblicità</string>
+    <string name="thunderforestMapsFeatures">✔ No pubblicità ✔ Mappe Thunderforest</string>
+    <string name="mapboxMapsFeatures">✔ No pubblicità ✔ Mappe Mapbox</string>
+    <string name="subscriptionYearly">365 giorni</string>
+    <string name="subscriptionMonthly">30 giorni</string>
+    <string name="priceFree">GRATUITO</string>
+    <string name="rewardedAdDescription">Questa sessione (guarda un annuncio)</string>
+    <string name="rewardedAdLoading">Caricamento annuncio…</string>
+    <string name="rewardedLicenseSuccess">Licenza concessa correttamente</string>
+    <string name="na">N/D</string>
+    <string name="toastScreenPocketModeActive">Modalità tasca attiva</string>
+    <string name="toastScreenWavingModeActive">Modalità Agita mano attivo</string>
+    <string name="unitJoule">J</string>
+    <string name="unitJoulePerHour">J/h</string>
+    <string name="unitJoulePerKg">J/kg</string>
+    <string name="unitJoulePerLb">J/lb</string>
+    <string name="pref_screenWaveOnOffMode_title">Modalità Agita mano</string>
+    <string name="pref_screenWaveOnOffMode_summary">Scurisci e blocca lo schermo agitando due volte la mano di fronte allo schermo. Agita di nuovo la mano per schiarire e sbloccare.</string>
+    <string name="pref_soundeffects_screenOff_title">Oscura schermo/off</string>
+    <string name="pref_soundeffects_screenOff_summary">Suona e vibra quando lo schermo è oscurato o temporaneamente spento</string>
+    <string name="pref_soundeffects_proximity_title">Sensore di prossimità</string>
+    <string name="pref_soundeffects_proximity_summary">Suono del clic quando scatta il sensore di prossimità</string>
+    <string name="unitMetersAboveGroundLevel">m (s.l.s.)</string>
+    <string name="unitFeetsAboveGroundLevel">ft (s.l.s.)</string>
+    <string name="meterModeKineticEnergy">energia cinetica</string>
+    <string name="meterModeKineticEnergyShort">en cin</string>
+    <string name="sensorsInfo">"I sensori vengono collegati automaticamente quando la registrazione è attiva, e scollegati quando fermi la registrazione.
+\n
+\nNon è possibile stabilire manualmente il collegamento di un  sensore."</string>
+    <string name="sensorWheelCircNotSetWarning">La circonferenza della ruota non è stata impostata</string>
+    <string name="infoMeterModeKineticEnergyTitle">Energia cinetica</string>
+    <string name="infoMeterModeKineticEnergyMsg">Altezza sopra il livello del suolo dove la tua energia potenziale equivarrebbe alla tua energia cinetica.
+\n
+\nIn altre parole, la tua velocità è uguale alla velocità di caduta da questa altezza (senza considerare la resistenza dell\'aria).
+\n
+\nAllo stesso modo, è l\'altezza che raggiungeresti salendo dritto con l\'uso della tua sola energia cinetica.</string>
+    <string name="meterModes_26">Energia cinetica</string>
+    <string name="mapMarkerStart">Inizio</string>
+    <string name="mapMarkerFinish">Fine</string>
+    <string name="pref_speechMasterSwitch_title">Avvisi vocali</string>
+    <string name="pref_speechMasterSwitch_summary">Usa gli avvisi vocali per conteggi e conto alla rovescia</string>
+    <string name="defaultProfileNameScooter">Scooter 🛴</string>
+    <string name="defaultProfileNameSki">Sci 🎿</string>
+    <string name="speechUnitOneMeter">Metro</string>
+    <string name="speechUnitTwoMeters">Metri</string>
+    <string name="speechUnitManyMeters">Metri</string>
+    <string name="speechUnitOneKilometer">Chilometro</string>
+    <string name="speechUnitTwoKilometers">Chilometri</string>
+    <string name="speechUnitManyKilometers">Chilometri</string>
+    <string name="speechUnitOneFeet">Piede</string>
+    <string name="speechUnitTwoFeets">Piedi</string>
+    <string name="speechUnitManyFeets">Piedi</string>
+    <string name="speechUnitOneMile">Miglio</string>
+    <string name="speechUnitTwoMiles">Miglia</string>
+    <string name="speechUnitManyMiles">Miglia</string>
+    <string name="speechUnitOneHour">Ora</string>
+    <string name="speechUnitTwoHours">Ore</string>
+    <string name="speechUnitManyHours">Ore</string>
+    <string name="speechUnitOneMinute">Minuto</string>
+    <string name="speechUnitTwoMinutes">Minuti</string>
+    <string name="speechUnitManyMinutes">Minuti</string>
+    <string name="speechCountdownGo">Vai</string>
 </resources>
