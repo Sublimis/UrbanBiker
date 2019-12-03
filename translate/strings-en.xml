@@ -192,6 +192,7 @@
     <string name="dialog_volume_effects_text">Effects</string>
     <string name="dialog_volume_tallies_text">Tallies</string>
     <string name="dialog_volume_alarms_text">Alarms</string>
+    <string name="dialog_volume_speech_text">Speech</string>
     <string name="dialog_volume_message">Note: Use volume buttons on your device to adjust overall sound volume.</string>
     <string name="dialog_bell_automatic_sensitivity_title">Auto bell sensitivity</string>
     <string name="dialog_bell_shake_sensitivity_title">Shake sensitivity</string>
@@ -465,6 +466,7 @@
     <string name="controlPanelSoundEffects">Effects</string>
     <string name="controlPanelSoundAlarms">Alarms</string>
     <string name="controlPanelSoundTallies">Tallies</string>
+    <string name="controlPanelSoundSpeech">Speech</string>
     <string name="controlPanelSoundVolume">Volumes</string>
     <string name="controlPanelEnergyParams">Power/Energy parameters</string>
 
@@ -614,6 +616,7 @@
     <string name="pref_category_effects_title">Effects</string>
     <string name="pref_category_alarms_title">Alarms</string>
     <string name="pref_category_tallies_title">Tallies</string>
+    <string name="pref_category_speech_title">Speech</string>
     <string name="pref_category_select_title">Select…</string>
     <string name="pref_category_fonts_title">Font</string>
     <string name="pref_category_buttons_title">Buttons</string>
@@ -701,7 +704,7 @@
     <string name="pref_roaring_type_dialog_title">Roar type</string>
     <string name="pref_volume_title" translatable="false">@null</string>
     <string name="pref_volume_summary" translatable="false">@null</string>
-    <string name="pref_volume_summary_text">Bell:  %1$s, Roar:  %2$s\nTallies:  %3$s, Effects:  %4$s, Alarms:  %5$s</string>
+    <string name="pref_volume_summary_text">Bell: %1$s, Roar: %2$s, Tallies: %3$s, Effects: %4$s, Alarms: %5$s, Speech: %6$s</string>
     <string name="pref_bg_color_title">Background color</string>
     <string name="pref_bg_color_summary">Pick the desired color for the app background</string>
     <string name="pref_fg_color_title">Text color</string>
@@ -797,6 +800,8 @@
     <string name="pref_soundeffects_tally_ascent_dialog_title">Ascent tally</string>
     <string name="pref_soundeffects_tally_descent_title">Descent</string>
     <string name="pref_soundeffects_tally_descent_dialog_title">Descent tally</string>
+    <string name="pref_soundeffects_tally_clock_title">Clock</string>
+    <string name="pref_soundeffects_tally_clock_dialog_title">Clock tally</string>
     <string name="pref_soundeffects_alarm_title">Enable</string>
     <string name="pref_soundeffects_alarm_summary" translatable="false">@null</string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Forgotten pause</string>
@@ -899,8 +904,18 @@
     <string name="pref_haptic_feedback_intensity_summary" translatable="false">@null</string>
     <string name="pref_soundsMasterSwitch_title">All sounds</string>
     <string name="pref_soundsMasterSwitch_summary" translatable="false">@null</string>
-    <string name="pref_speechMasterSwitch_title">Speech</string>
-    <string name="pref_speechMasterSwitch_summary">Use speech for tallies and countdown</string>
+    <string name="pref_speechMasterSwitch_title">Enable</string>
+    <string name="pref_speechMasterSwitch_summary" translatable="false">@null</string>
+    <string name="pref_speechProfileName_title">Profile name</string>
+    <string name="pref_speechProfileName_summary">(All profiles) Speak profile name on profile switch</string>
+    <string name="pref_speechTrackingStatus_title">Tracking</string>
+    <string name="pref_speechTrackingStatus_summary">Speak when tracking starts, stops, and pauses</string>
+    <string name="pref_speechTallies_title">Tallies</string>
+    <string name="pref_speechTallies_summary">Speak tallies</string>
+    <string name="pref_speechToasts_title">Short notes</string>
+    <string name="pref_speechToasts_summary">Speak various short info notes</string>
+    <string name="pref_speechCountdown_title">Countdown</string>
+    <string name="pref_speechCountdown_summary">Speak countdown</string>
     <string name="prefBarometricAltitudeTitle">Barometric altitude</string>
     <string name="prefBarometricAltitudeSummary">Use inbuilt barometer to enhance altitude accuracy</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Thermo barometer</string>
@@ -1204,6 +1219,16 @@
     <string name="pref_tally_ascent_entries_9">2500</string>
     <string name="pref_tally_ascent_entries_10">5000</string>
 
+    <!-- pref_tally_clock_entries -->
+    <string name="pref_tally_clock_entries_0">Off</string>
+    <string name="pref_tally_clock_entries_3">5</string>
+    <string name="pref_tally_clock_entries_4">10</string>
+    <string name="pref_tally_clock_entries_5">15</string>
+    <string name="pref_tally_clock_entries_6">20</string>
+    <string name="pref_tally_clock_entries_7">30</string>
+    <string name="pref_tally_clock_entries_8">45</string>
+    <string name="pref_tally_clock_entries_9">60</string>
+
     <!-- pref_speedo_display_mode_entries -->
     <string name="pref_speedo_display_mode_entries_0">Graphic &amp; Digital</string>
     <string name="pref_speedo_display_mode_entries_1">Graphic</string>
@@ -1329,6 +1354,16 @@
     <string name="speechUnitTwoMinutes">Minutes</string>
     <string name="speechUnitManyMinutes">Minutes</string>
 
-    <string name="speechCountdownGo">Go</string>
+    <string name="speechAscent">Climb: %1$s</string>
+    <string name="speechDescent">Drop: %1$s</string>
+    <string name="speechClock">Clock: %1$s</string>
+
+    <string name="speechCountdownGo">Go!</string>
+
+    <string name="speechTrackingPause">Pause</string>
+    <string name="speechTrackingStop">Stop</string>
+
+    <string name="speechTrackingGpsOk">GPS OK</string>
+    <string name="speechTrackingGpsWeak">No GPS</string>
 
 </resources>
