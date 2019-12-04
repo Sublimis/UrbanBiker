@@ -601,8 +601,8 @@
     <string name="pref_bell_shake_sensitivity_title">Чувствительность тряски</string>
     <string name="pref_roaring_type_title">Тип</string>
     <string name="pref_roaring_type_dialog_title">Тип шума</string>
-    <string name="pref_volume_summary_text">Звонок: %1$s, Шум: %2$s
-\nОповещения: %3$s, Эффекты: %4$s, Сигналы: %5$s</string>
+    <string name="pref_volume_summary_text">Звонок: %1$s, Шум: %2$s 
+\nОповещения: %3$s, Эффекты: %4$s, Сигналы: %5$s, Речь: %6$s</string>
     <string name="pref_bg_color_title">Цвет фона</string>
     <string name="pref_bg_color_summary">Выберите желаемый цвет для фона приложения</string>
     <string name="pref_fg_color_title">Цвет текста</string>
@@ -1186,7 +1186,7 @@
     <string name="meterModes_26">Кинетическая энергия</string>
     <string name="mapMarkerStart">Старт</string>
     <string name="mapMarkerFinish">Финиш</string>
-    <string name="pref_speechMasterSwitch_title">Речь</string>
+    <string name="pref_speechMasterSwitch_title">Включить</string>
     <string name="pref_speechMasterSwitch_summary">Использовать речь для оповещений и обратного отсчёта</string>
     <string name="defaultProfileNameScooter">Скутер 🛴</string>
     <string name="defaultProfileNameSki">Лыжи 🎿</string>
@@ -1208,5 +1208,35 @@
     <string name="speechUnitOneMinute">Минута</string>
     <string name="speechUnitTwoMinutes">Минуты</string>
     <string name="speechUnitManyMinutes">Минут</string>
-    <string name="speechCountdownGo">Начали</string>
+    <string name="speechCountdownGo">Начали!</string>
+    <string name="dialog_volume_speech_text">Речь</string>
+    <string name="controlPanelSoundSpeech">Речь</string>
+    <string name="pref_category_speech_title">Речь</string>
+    <string name="pref_soundeffects_tally_clock_title">Часы</string>
+    <string name="pref_soundeffects_tally_clock_dialog_title">Учёт часов</string>
+    <string name="pref_speechProfileName_title">Имя профиля</string>
+    <string name="pref_speechProfileName_summary">(Все профили) Имя голосового профиля в переключателе профилей</string>
+    <string name="pref_speechTrackingStatus_title">Отслеживание</string>
+    <string name="pref_speechTrackingStatus_summary">Произносить, когда отслеживание начинается, приостанавливается и прекращается</string>
+    <string name="pref_speechTallies_title">Оповещения</string>
+    <string name="pref_speechTallies_summary">Произносить оповещения</string>
+    <string name="pref_speechToasts_title">Краткие уведомления</string>
+    <string name="pref_speechToasts_summary">Произносить различные короткие информационные уведомления</string>
+    <string name="pref_speechCountdown_title">Обратный отсчёт</string>
+    <string name="pref_speechCountdown_summary">Произносить обратный отсчёт</string>
+    <string name="pref_tally_clock_entries_0">Отключено</string>
+    <string name="pref_tally_clock_entries_3">5</string>
+    <string name="pref_tally_clock_entries_4">10</string>
+    <string name="pref_tally_clock_entries_5">15</string>
+    <string name="pref_tally_clock_entries_6">20</string>
+    <string name="pref_tally_clock_entries_7">30</string>
+    <string name="pref_tally_clock_entries_8">45</string>
+    <string name="pref_tally_clock_entries_9">60</string>
+    <string name="speechAscent">Подъём: %1$s</string>
+    <string name="speechDescent">Спуск: %1$s</string>
+    <string name="speechClock">Часы: %1$s</string>
+    <string name="speechTrackingPause">Приостановлено</string>
+    <string name="speechTrackingStop">Прекращено</string>
+    <string name="speechTrackingGpsOk">GPS в порядке</string>
+    <string name="speechTrackingGpsWeak">GPS отсутствует</string>
 </resources>
