@@ -591,8 +591,7 @@
     <string name="pref_roaring_type_title">Τύπος</string>
     <string name="pref_roaring_type_dialog_title">Τύπος βουητού</string>
     <string name="pref_volume_summary_text">Κουδούνι: %1$s, Βουητό: %2$s
-\nΟρόσημα: %3$s, Εφέ: %4$s, Ειδοποιήσεις: %5$s
-    </string>
+\n, Ορόσημα: %3$s, Εφέ: %4$s, Ειδοποιήσεις: %5$s, Ομιλία: %6$s</string>
     <string name="pref_bg_color_title">Χρώμα παρασκηνίου</string>
     <string name="pref_bg_color_summary">Επιλογή επιθυμητού χρώματος για παρασκήνιο εφαρμογής</string>
     <string name="pref_fg_color_title">Χρώμα κειμένου</string>
@@ -1187,7 +1186,7 @@
     <string name="meterModes_26">Κινητική ενέργεια</string>
     <string name="mapMarkerStart">Εκκίνηση</string>
     <string name="mapMarkerFinish">Τερματισμός</string>
-    <string name="pref_speechMasterSwitch_title">Ομιλία</string>
+    <string name="pref_speechMasterSwitch_title">Ομιλία Ενεργή</string>
     <string name="pref_speechMasterSwitch_summary">Χρησιμοποιήστε την ομιλία για τα ορόσημα και την αντίστροφη μέτρηση</string>
     <string name="defaultProfileNameScooter">Σκούτερ 🛴</string>
     <string name="defaultProfileNameSki">Σκι 🎿</string>
@@ -1209,5 +1208,35 @@
     <string name="speechUnitOneMinute">Ένα Λεπτό</string>
     <string name="speechUnitTwoMinutes">Δύο Λεπτά</string>
     <string name="speechUnitManyMinutes">Λεπτά</string>
-    <string name="speechCountdownGo">Έναρξη</string>
+    <string name="speechCountdownGo">Έναρξη!</string>
+    <string name="dialog_volume_speech_text">Ομιλία</string>
+    <string name="controlPanelSoundSpeech">Ομιλία</string>
+    <string name="pref_category_speech_title">Ομιλία</string>
+    <string name="pref_soundeffects_tally_clock_title">Ρολόι</string>
+    <string name="pref_soundeffects_tally_clock_dialog_title">Ορόσημο ρολογιού</string>
+    <string name="pref_speechProfileName_title">Όνομα Προφίλ</string>
+    <string name="pref_speechProfileName_summary">"(Όλα τα προφίλ) Καλέστε το όνομα του προφίλ στην  αλλαγή προφίλ"</string>
+    <string name="pref_speechTrackingStatus_title">παρακολούθηση</string>
+    <string name="pref_speechTrackingStatus_summary">Καλέστε όταν η παρακολούθηση αρχίζει, σταματά και παύει</string>
+    <string name="pref_speechTallies_title">Ορόσημα</string>
+    <string name="pref_speechTallies_summary">Καλέστε τα ορόσημα</string>
+    <string name="pref_speechToasts_title">Σύντομες σημειώσεις</string>
+    <string name="pref_speechToasts_summary">Καλέστε διάφορες σύντομες ενημερωτικές σημειώσεις</string>
+    <string name="pref_speechCountdown_title">Αντίστροφη μέτρηση</string>
+    <string name="pref_speechCountdown_summary">Καλέστε στην αντίστροφη μέτρηση</string>
+    <string name="pref_tally_clock_entries_0">Ανενεργό</string>
+    <string name="pref_tally_clock_entries_3">5</string>
+    <string name="pref_tally_clock_entries_4">10</string>
+    <string name="pref_tally_clock_entries_5">15</string>
+    <string name="pref_tally_clock_entries_6">20</string>
+    <string name="pref_tally_clock_entries_7">30</string>
+    <string name="pref_tally_clock_entries_8">45</string>
+    <string name="pref_tally_clock_entries_9">60</string>
+    <string name="speechAscent">Αναρρίχηση: %1$s</string>
+    <string name="speechDescent">Πτώση: %1$s</string>
+    <string name="speechClock">Ρολόι: %1$s</string>
+    <string name="speechTrackingPause">Παύση</string>
+    <string name="speechTrackingStop">Σταματημένο</string>
+    <string name="speechTrackingGpsOk">GPS Εντάξει</string>
+    <string name="speechTrackingGpsWeak">Χωρίς GPS</string>
 </resources>
