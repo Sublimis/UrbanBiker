@@ -14,11 +14,11 @@
     <string name="proPlusLicenseTitle">Ліцензія Про Плюс</string>
     <string name="proPlusLicenseDescription">Вимкнути рекламу та підключити всі можливості, які можуть з\'явитися в майбутньому (крім підписок)</string>
     <string name="ultimateLicenseTitle">Ліцензія Ultimate</string>
-    <string name="ok">ОК</string>
+    <string name="ok">Угу</string>
     <string name="yes">Так</string>
     <string name="no">Ні</string>
     <string name="cancel">Скасувати</string>
-    <string name="buttonUnderstand">Я зрозумів</string>
+    <string name="buttonUnderstand">Я розумію</string>
     <string name="buttonResumeTrack">Продовжити</string>
     <string name="menuControlPanel">Панель керування</string>
     <string name="menuSettings">Налаштування</string>
@@ -304,19 +304,19 @@
     <string name="meterModeDuration">тривалість</string>
     <string name="meterModeDurationShort">трив</string>
     <string name="meterModeElapsedTime">залишилося</string>
-    <string name="meterModeElapsedTimeShort">приб</string>
+    <string name="meterModeElapsedTimeShort">прбл</string>
     <string name="meterModeAltitude">висота</string>
     <string name="meterModeAltitudeShort">вис</string>
     <string name="meterModeVerticalPower">вертикальна потужність</string>
-    <string name="meterModeVerticalPowerShort">верт. пот</string>
-    <string name="meterModePower">потужність</string>
-    <string name="meterModePowerShort">пот</string>
-    <string name="meterModePowerAverage">середня потужність</string>
-    <string name="meterModePowerAverageShort">сер. пот</string>
+    <string name="meterModeVerticalPowerShort">врт сил</string>
+    <string name="meterModePower">сила</string>
+    <string name="meterModePowerShort">сил</string>
+    <string name="meterModePowerAverage">середня сила</string>
+    <string name="meterModePowerAverageShort">сер. сила</string>
     <string name="meterModeAcceleration">прискорення</string>
-    <string name="meterModeAccelerationShort">приск</string>
+    <string name="meterModeAccelerationShort">прск</string>
     <string name="meterModeDistance">відстань</string>
-    <string name="meterModeDistanceShort">відст</string>
+    <string name="meterModeDistanceShort">вдст</string>
     <string name="meterModeOdo">одометр</string>
     <string name="meterModeOdoShort">одометр</string>
     <string name="meterModeEnergy">енергія</string>
@@ -340,7 +340,7 @@
     <string name="meterModeCadence">ритм</string>
     <string name="meterModeCadenceShort">ртм</string>
     <string name="meterModeHeartRate">пульс</string>
-    <string name="meterModeHeartRateShort">пульс</string>
+    <string name="meterModeHeartRateShort">чсс</string>
     <string name="meterModeGearRatio">передатне число</string>
     <string name="meterModeGearRatioShort">прдч</string>
     <string name="bellRingAuto">авто</string>
@@ -578,12 +578,12 @@
     <string name="pref_roaring_state_title">Звук крякалки</string>
     <string name="pref_roaring_state_summary">Генерувати попереджувальні звуки під час руху</string>
     <string name="pref_roaring_mode_title">Режим</string>
-    <string name="pref_roaring_mode_dialog_title">Режим крякалки</string>
+    <string name="pref_roaring_mode_dialog_title">Режим шумілки</string>
     <string name="pref_roaring_constant_mode_title">Постійний режим</string>
-    <string name="pref_roaring_constant_mode_summary">Генерувати звук крякалки весь час, незалежно від ваших переміщень чи режиму GPS</string>
-    <string name="pref_roar_threshold_speed_title">Мін. швидкість вмикання</string>
+    <string name="pref_roaring_constant_mode_summary">Генерувати звук шумілки увесь час, незалежно від ваших переміщень чи режиму GPS</string>
+    <string name="pref_roar_threshold_speed_title">Мін. межа швидкості</string>
     <string name="pref_roarConstantModeButton_title">Кнопка у режимі перемикання</string>
-    <string name="pref_roarConstantModeButton_summary">Вмикати постійний режим після натискання на кнопку, якщо крякалка увімкнена</string>
+    <string name="pref_roarConstantModeButton_summary">Вмикати постійний режим після натискання на кнопку, якщо шумілка увімкнена</string>
     <string name="pref_fenceguard_title">Приватна зона</string>
     <string name="pref_fenceguard_summary">Захистіть координати свого дому або інших важливих місць від потрапляння у записані треки</string>
     <string name="pref_autopause_mode_dialog_title">Автоматичне призупинення</string>
@@ -987,4 +987,114 @@
     <string name="ultimateLicenseDescription">Найбільш повна ліцензія із найкращим наповненням.</string>
     <string name="ultimateLicenseFeatures">✔ Без реклами ✔ Всі карти ✔ Всі функції</string>
     <string name="proPlusLicenseFeatures">✔ Без реклами ✔ Всі функції</string>
+    <string name="buttonNewTrack">Закінчити</string>
+    <string name="toastProfilesListNonemptyDelete">Неможливо видалити. Профіль містить незбережені дані! Спочатку фінішуйте.</string>
+    <string name="toastProfileButtonClickInfo">Довге натискання для перемикання профілю</string>
+    <string name="toastMapClickInfo">Довге натискання для налаштування мапи</string>
+    <string name="toastSharingSuccess">Успішно розміщено</string>
+    <string name="toastSharingError">Помилка під час розміщення</string>
+    <string name="toastSharingPermissionsError">Не вдалося поділитися, перевірте дозволи</string>
+    <string name="toastUpdatingSuccess">Успішно оновлено</string>
+    <string name="toastCancelled">Скасовано</string>
+    <string name="dialog_default_map_track_colors_title">Колір треку на карті</string>
+    <string name="dialogTracksShareCountExceeded">Не можу поділитися більше ніж сотнею треків за раз.</string>
+    <string name="dialogGpsSettingsPromptMessage">Ви не зможете повноцінно користуватися програмою без доступу до розташування.
+\n
+\nПереконайтеся, що визначення розташування працює і встановлене на найвищу точність.
+\n
+\nВідкрити налаштування розташування\?</string>
+    <string name="dialogResetTitle">Закінчити</string>
+    <string name="dialogMapsHighResolution">Мапа високої роздільності</string>
+    <string name="dialogTrackUploadWaitTitle">Очікуйте</string>
+    <string name="dialogTrackUploadPreparing">Підготовка даних трека…</string>
+    <string name="dialogTrackUploadSending">Надсилання…</string>
+    <string name="dialogTrackUploadDescriptionHint">Поділіться своєю думкою…</string>
+    <string name="dialogTrackUploadShareButton">Поділитися</string>
+    <string name="dialogTrackUploadShareAgainButton">Поділитися знову</string>
+    <string name="dialogTrackUploadUpdateButton">Оновити</string>
+    <string name="dialogTrackUploadActivityType">Тип активності</string>
+    <string name="dialogTrackUploadPlatform">Мережевий сервіс</string>
+    <string name="dialogTrackUploadStravaIsCommute">Добирання</string>
+    <string name="dialogGpsIntervalLabelMore">◀
+\nБільше точності, більший розряд батареї</string>
+    <string name="dialogGpsIntervalLabelLess">▶
+\nМенше точності, менший розряд батареї</string>
+    <string name="dialogSliderLess">◀</string>
+    <string name="dialogSliderMore">▶</string>
+    <string name="dialogLocationPermissionRequestForBt">Потрібен доступ до розташування для пошуку Bluetooth пристроїв.
+\n
+\nЯкщо не дозволяти, програма не зможе знайти Bluetooth пристрої.</string>
+    <string name="unitTimeHour">год</string>
+    <string name="unitTimeMinute">хв</string>
+    <string name="unitTimeSecond">сек</string>
+    <string name="meterModeFTP">акт сил</string>
+    <string name="cloudAccountsTitle">Обліковки</string>
+    <string name="cloudAccountsInfo">Приєднання до мережевого сервісу робить зручнішим відвантаження треків щоб поділитися.
+\n
+\nМи ніколи не скористаємося цим без вашого дозволу.</string>
+    <string name="accountDisconnect">Від\'єднати</string>
+    <string name="googleFitConnectButton">З\'єднати із Google Fit</string>
+    <string name="stravaTrackPrivacyInfo">Трек отримає приватність за замовчуванням у Strava</string>
+    <string name="facebookConnectButton">З\'єднати із Facebook</string>
+    <string name="tracksHistoryListTitleSelect">Обрати</string>
+    <string name="tracksHistoryListButtonUpload">Вивантажити</string>
+    <string name="summaryDeviceRestartsCount">Примусових рестартів</string>
+    <string name="summaryStoppedTime">Час зупинки</string>
+    <string name="summarySpecific">Специфічні</string>
+    <string name="summaryMechEnergy">Мех. енергія</string>
+    <string name="sensorProperitesUseForPower">Використовувати для сили</string>
+    <string name="sensorProperitesUseForHeartRate">Використовувати для пульсу</string>
+    <string name="sensorProperitesStrideLen">Довжина кроку</string>
+    <string name="sensorProperitesIsAutoStrideLen">Автоматично</string>
+    <string name="sensorProperitesIsAutoStrideLenInfo">Автоматичне визначення довжини кроку під час поїздки.</string>
+    <string name="sensorProperitesStrideLenNotSet">Не встановлено</string>
+    <string name="sensorProperitesTriggersCountInfo">Кількість тригерів (напр. магнітів), для сенсора. Сенсори без окремих тригерів зазвичай мають один внутрішній.</string>
+    <string name="pref_category_map_colors_title">Кольори мапи</string>
+    <string name="pref_category_cloudAccounts_title">Обліковки</string>
+    <string name="pref_relaunchAfterReboot_summary">(Всі профілі) Відновити запис після примусового перезавантаження пристрою, якщо є більше 10% заряду</string>
+    <string name="pref_roar_threshold_speed_info">Шум буде звучати тільки при перевищенні встановленої межі швидкості. Зручно для даунхілу.</string>
+    <string name="pref_background_pattern_dialog_title">Візерунок фону меню</string>
+    <string name="pref_maps_routes_draw_summary">Зобразити обрані GPX шляхи пунктирними лініями на мапі</string>
+    <string name="proLicenseFeatures">✔ Без реклами</string>
+    <string name="thunderforestMapsFeatures">✔ Без реклами ✔ Карти Thunderforest</string>
+    <string name="mapboxMapsFeatures">✔ Без реклами ✔ Мапи Mapbox</string>
+    <string name="subscriptionYearly">365-денна</string>
+    <string name="subscriptionMonthly">30-денна</string>
+    <string name="priceFree">БЕЗКОШТОВНО</string>
+    <string name="rewardedAdDescription">Цього разу (дивитися рекламу)</string>
+    <string name="rewardedAdLoading">Завантажується реклама…</string>
+    <string name="rewardedLicenseSuccess">Винагорода отримана</string>
+    <string name="na">н/д</string>
+    <string name="toastScreenPocketModeActive">Працює кишеньковий режим</string>
+    <string name="toastScreenWavingModeActive">Працює режим жесту</string>
+    <string name="unitJoule">Дж</string>
+    <string name="unitJoulePerHour">Дж/год</string>
+    <string name="unitJoulePerKg">Дж/кг</string>
+    <string name="unitJoulePerLb">Дж/фунт</string>
+    <string name="pref_screenWaveOnOffMode_title">Режим жесту</string>
+    <string name="pref_screenWaveOnOffMode_summary">Погасити та заблокувати екран, двічі махнувши перед ним рукою. Те саме для розблокування.</string>
+    <string name="pref_soundeffects_screenOff_title">Перемикання дисплея</string>
+    <string name="pref_soundeffects_screenOff_summary">Позначати звуком і вібрацією вимкнення ерана</string>
+    <string name="pref_soundeffects_proximity_title">Сенсор наближення</string>
+    <string name="pref_soundeffects_proximity_summary">Клацання при спрацюванні сенсора наближення</string>
+    <string name="unitMetersAboveGroundLevel">м над пов</string>
+    <string name="unitFeetsAboveGroundLevel">фт над пов</string>
+    <string name="meterModeKineticEnergy">кінетитчна енергія</string>
+    <string name="meterModeKineticEnergyShort">кнт ен</string>
+    <string name="sensorsInfo">Сенсори автоматично під\'єднаються при активному записі та відключаться при зупинці запису.
+\n
+\nНемає можливості встановити з\'єднання вручну.</string>
+    <string name="sensorWheelCircNotSetWarning">Окружність колеса не встановлено</string>
+    <string name="mapMarkerStart">Початок</string>
+    <string name="mapMarkerFinish">Кінець</string>
+    <string name="pref_speechMasterSwitch_title">Увімкнути</string>
+    <string name="dialog_volume_speech_text">Мовлення</string>
+    <string name="controlPanelSoundSpeech">Мовлення</string>
+    <string name="pref_category_speech_title">Мовлення</string>
+    <string name="pref_soundeffects_tally_clock_title">Годинник</string>
+    <string name="pref_soundeffects_tally_clock_dialog_title">Відмітки часу</string>
+    <string name="pref_speechProfileName_title">Назва профіля</string>
+    <string name="pref_speechProfileName_summary">(Всі профілі) Говорити назву профіля при перемиканні</string>
+    <string name="pref_speechTrackingStatus_title">Відстеження</string>
+    <string name="pref_speechTrackingStatus_summary">Говорити, коли стеження починається чи зупиняється</string>
 </resources>
