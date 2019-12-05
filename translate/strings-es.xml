@@ -4,16 +4,16 @@
     <string name="app_name">Urban Biker</string>
     <string name="app_description">Siga y mida sus paseos con gran precisión. Incremente su seguridad y eficiencia ciclista.</string>
     <string name="widget_1_description">Ciclista: Timbre de Bicicleta</string>
-    <string name="widget_2_description">Biker: Campana + Linterna</string>
-    <string name="widget_3_description">Biker: Completo</string>
+    <string name="widget_2_description">Ciclista: Campana + Linterna</string>
+    <string name="widget_3_description">Ciclista: Completo</string>
     <string name="proLicenseLabel">Pro</string>
     <string name="proPlusLicenseLabel">Pro+</string>
     <string name="ultimateLicenseLabel">Ultimate</string>
-    <string name="proLicenseTitle">Pro License</string>
-    <string name="proLicenseDescription">Remove ads</string>
-    <string name="proPlusLicenseTitle">Pro Plus License</string>
-    <string name="proPlusLicenseDescription">Remove ads and unlock all non-subscription features we may add in the future</string>
-    <string name="ultimateLicenseTitle">Ultimate License</string>
+    <string name="proLicenseTitle">Licencia Pro</string>
+    <string name="proLicenseDescription">Eliminar anuncios</string>
+    <string name="proPlusLicenseTitle">Licencia Pro Plus</string>
+    <string name="proPlusLicenseDescription">Elimine anuncios y desbloquee todas las características que no sean de suscripción que podamos agregar en el futuro</string>
+    <string name="ultimateLicenseTitle">Licencia Ultimate</string>
     <string name="ok">OK</string>
     <string name="yes">Sí</string>
     <string name="no">No</string>
@@ -27,15 +27,15 @@
     <string name="menuTracksHistoryResume">Continuar</string>
     <string name="menuMeterLock">Bloquear</string>
     <string name="menuMeterLockAll">Bloquear todo</string>
-    <string name="menuMeterMode">Modo de indicador...</string>
-    <string name="menuMeterChooseModes">Seleccionar modos...</string>
+    <string name="menuMeterMode">Modo de indicador…</string>
+    <string name="menuMeterChooseModes">Seleccionar modos…</string>
     <string name="menuMeterNewTrack">Nuevo recorrido</string>
     <string name="menuMeterResetMinMax">Reiniciar mín/máx</string>
-    <string name="menuMeterParameters">Parámetros...</string>
+    <string name="menuMeterParameters">Parámetros…</string>
     <string name="menuMeterPowerMode">Alternar modo de potencia</string>
     <string name="menuFenceguard">Zona Segura</string>
     <string name="menuExit">Salir</string>
-    <string name="menuMore">Más...</string>
+    <string name="menuMore">Más…</string>
     <string name="menuView">Ver</string>
     <string name="menuProfiles">Perfiles</string>
     <string name="menuSensors">Sensores</string>
@@ -71,11 +71,11 @@
     <string name="toastTrackZippingError">¡Error comprimiendo el recorrido! Intente reiniciar.</string>
     <string name="toastTrackMovingError">¡Error moviendo el recorrido a USB! Intente reiniciar.</string>
     <string name="toastPressAgainToExit">Pulse de nuevo para salir</string>
-    <string name="toastFenceGuardFenceAdded">FenceGuard: Valla %1$s añadido</string>
+    <string name="toastFenceGuardFenceAdded">FenceGuard: Zona de seguridad %1$s añadida</string>
     <string name="toastFenceGuardFenceAddingError">FenceGuard: Error añadiendo valla</string>
-    <string name="toastFenceGuardFenceUpdated">FenceGuard: Valla %1$s actualizado</string>
+    <string name="toastFenceGuardFenceUpdated">FenceGuard: Zona de seguridad %1$s actualizada</string>
     <string name="toastFenceGuardFenceUpdatingError">FenceGuard: Error actualizando valla</string>
-    <string name="toastFenceGuardFenceRemoved">FenceGuard: Valla %1$s eliminado</string>
+    <string name="toastFenceGuardFenceRemoved">FenceGuard: Zona de seguridad %1$s eliminada</string>
     <string name="toastFenceGuardFenceRemovingError">FenceGuard: Error eliminando valla</string>
     <string name="toastFenceGuardOutsideTheFence">FenceGuard: Actualmente no estás dentro de la valla</string>
     <string name="toastFenceGuardLocationUnavailable">FenceGuard: Tu ubicación no está disponible</string>
@@ -123,7 +123,7 @@
     <string name="dialog_fenceguard_update_text2">Una valla levantada alrededor de su ubicación la protege de quedar expuesta en los recorridos guardados.</string>
     <string name="dialog_fenceguard_remove_title">Eliminar valla</string>
     <string name="dialog_fenceguard_remove_defaultText">¿Está seguro/a de eliminar la valla\?</string>
-    <string name="dialog_fenceguard_remove_formatText">¿Está seguro/a de eliminar la valla %1$s\?</string>
+    <string name="dialog_fenceguard_remove_formatText">¿Está seguro/a de eliminar la zona de seguridad %1$s\?</string>
     <string name="dialog_track_save_text">Distancia %1$.3f %2$s
 \nDuración %3$s
 \n
@@ -151,7 +151,7 @@
     <string name="dialogTrackResumeProfileMissingMessage">El perfil %1$s que creó este recorrido ya no existe. ¿Continuar en el perfil actual %2$s\?</string>
     <string name="dialogTrackResumeGeneralPromptMessage">El recorrido proseguirá en perfil %1$s. ¿Continuar\?</string>
     <string name="dialogTrackResumeGeneralErrorMessage">Ha ocurrido un error. Vuelva a intentarlo.</string>
-    <string name="dialogTrackResumeWaitMessage">Reanudando, espere porfavor...</string>
+    <string name="dialogTrackResumeWaitMessage">Reanudando, espere por favor…</string>
     <string name="dialogTracksShareTitle">Compartir grabaciones</string>
     <string name="dialogTracksShareGeneralErrorMessage">Ocurrió un error. Porfavor inténtelo de nuevo.</string>
     <string name="dialogScreenHudMode">HUD modo espejo</string>
@@ -293,14 +293,14 @@
     <string name="profilesListButtonResetTotals">Reiniciar totales</string>
     <string name="profilesListProfileNotUsed">(sin usar)</string>
     <string name="tracksHistoryListTitle">Histórico de recorridos</string>
-    <string name="tracksHistoryListLoading">Cargando...</string>
+    <string name="tracksHistoryListLoading">Cargando…</string>
     <string name="tracksHistoryListButtonView">Ver</string>
     <string name="tracksHistoryListButtonShare">Compartir</string>
     <string name="tracksHistoryListButtonResume">Continuar</string>
     <string name="tracksHistoryListButtonEdit">Editar</string>
     <string name="tracksHistoryListButtonDelete">Borrar</string>
-    <string name="tracksHistoryListShareTrackDialogTitle">Compartir recorrido con...</string>
-    <string name="tracksHistoryListViewTrackDialogTitle">Ver recorrido con...</string>
+    <string name="tracksHistoryListShareTrackDialogTitle">Compartir recorrido con…</string>
+    <string name="tracksHistoryListViewTrackDialogTitle">Ver recorrido con…</string>
     <string name="summaryTotalWeight">Peso total</string>
     <string name="summaryWheelsWeight">Peso de las ruedas</string>
     <string name="summaryEfficiency">Rendimiento</string>
@@ -344,7 +344,7 @@
     <string name="pref_category_visualThemeAuto">Tema automático</string>
     <string name="pref_category4_title">Volumen (relativo)</string>
     <string name="pref_category_advanced_title">Avanzado</string>
-    <string name="pref_group_advanced_title">Avanzado...</string>
+    <string name="pref_group_advanced_title">Avanzado…</string>
     <string name="pref_category_other_title">Otros</string>
     <string name="pref_category6_title">Ayuda</string>
     <string name="pref_category7_title">Compartir</string>
@@ -360,7 +360,7 @@
     <string name="pref_category_effects_title">Efectos</string>
     <string name="pref_category_alarms_title">Alarmas</string>
     <string name="pref_category_tallies_title">Totales</string>
-    <string name="pref_category_select_title">Seleccionar...</string>
+    <string name="pref_category_select_title">Seleccionar…</string>
     <string name="pref_category_fonts_title">Fuente</string>
     <string name="pref_category_buttons_title">Botones</string>
     <string name="pref_category_meters_title">Indicadores</string>
@@ -480,7 +480,7 @@
     <string name="pref_soundeffects_fence_enterleave_title">Valla</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Sonido al entrar o abandonar una valla</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
-    <string name="pref_soundeffects_gps_signal_summary">Sonido al cambiar el estado de GPS (bueno, malo/parada)</string>
+    <string name="pref_soundeffects_gps_signal_summary">Sonido al cambiar el estado GPS (bueno, malo/parada)</string>
     <string name="pref_soundeffects_countdown_title">Cuenta atrás</string>
     <string name="pref_soundeffects_countdown_summary">Sonido de cuenta atrás antes de continuar el recorrido (...3, 2, 1, GO!)</string>
     <string name="pref_soundeffects_tally_title">Habilitar</string>
@@ -514,7 +514,9 @@
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Ninguna carpeta seleccionada.</string>
     <string name="pref_maps_offline_info_title">Descargar ahora</string>
-    <string name="pref_maps_offline_info_summary">Soportados mapas Mapsforge vector (.map) y Rmaps raster (.sqlitedb). Disponible en download.mapsforge.org</string>
+    <string name="pref_maps_offline_info_summary">Soportados mapas Mapsforge vector (.map) y Rmaps raster (.sqlitedb). Disponibles en download.mapsforge.org
+\n
+\nUso: Seleccione el archivo de mapa descargado con la opción anterior.</string>
     <string name="pref_maps_offline_warning_summary">Advertencia: Algunos datos pueden ser descargados incluso si está en modo fuera de linea. Por favor desactive el acceso a Internet móvil antes de usar mapas, si eso le preocupa.</string>
     <string name="pref_maps_routes_draw_title">Guiar rutas</string>
     <string name="pref_maps_routes_info_title">Nota!</string>
@@ -541,7 +543,7 @@
     <string name="pref_meter_enable_summary">Mostrar u ocultar este medidor</string>
     <string name="pref_meter_lock_title">Modo bloqueo</string>
     <string name="pref_meter_lock_summary">Prevenir cambio de modo en click</string>
-    <string name="pref_meter_modes_select_title">Cambiar modos disponibles...</string>
+    <string name="pref_meter_modes_select_title">Cambiar modos disponibles…</string>
     <string name="pref_speedo_display_mode_title">Apariencia</string>
     <string name="pref_speedo_display_mode_dialog_title">Apariencia del velocímetro</string>
     <string name="pref_speedo_indicator_needle_title">Aguja</string>
@@ -553,15 +555,13 @@
     <string name="pref_power_weights_summary">Conductor: %1$s, Vehículo: %2$s, Carga: %3$s, Pasajeros: %4$s, Ruedas: %5$s
     </string>
     <string name="pref_power_coefs_title">Coeficientes</string>
-    <string name="pref_power_coefs_summary">Area de arrastre: %1$s
-\nRoll resist: %2$s
-    </string>
+    <string name="pref_power_coefs_summary">Area de arrastre: %1$s 
+\nResistencia a la rodadura: %2$s</string>
     <string name="pref_energy_params_title">Parámetros de energía</string>
-    <string name="pref_energy_params_summary">Eficiencia: %1$s
-\nMetabolism: %2$s
-    </string>
+    <string name="pref_energy_params_summary">Eficiencia: %1$s 
+\nMetabolismo: %2$s</string>
     <string name="pref_svg_data_enable_title">Generar gráfica</string>
-    <string name="pref_svg_data_modes_select_title">Seleccionar tipo de gráfica...</string>
+    <string name="pref_svg_data_modes_select_title">Seleccionar tipo de gráfica…</string>
     <string name="pref_flashlightAutoPocketMode_title">Modo de bolsillo</string>
     <string name="pref_flashlightAutoPocketMode_summary">Utilizar el sensor de proximidad para mantener la linterna mientras no sea necesario</string>
     <string name="pref_flashlightBlinkMode_title">Modo</string>
@@ -916,4 +916,28 @@
     <string name="dialogGpsIntervalNote">Nota: ¡Mantenga este valor por debajo de 3 segundos para obtener las lecturas más precisas y el comportamiento más consistente!</string>
     <string name="dialogLocationPermissionRequestForBt">Se necesita permiso de ubicación para encontrar los dispositivos Bluetooth.</string>
     <string name="dialogCameraPermissionRequestTitle">Dar permisos a la cámara</string>
+    <string name="dialogTrackUploadPreparing">Preparando datos de ruta …</string>
+    <string name="dialogTrackUploadDescriptionHint">Comparte tus pensamientos…</string>
+    <string name="dialogStoragePermissionRequest">La aplicación necesita acceder al almacenamiento para poder guardar o restaurar sus rutas y configuraciones.
+\n
+\nSin dar el permiso, no podrá ver el historial de las rutas ni compartirlas, y podría perder sus datos.</string>
+    <string name="dialogPermissionProblemMessage">"Este permiso es necesario para que la aplicación funcione correctamente.  Se puede otorgar en la página de configuración de permisos de la aplicación.
+\n
+\n¿Ir allí ahora\?"</string>
+    <string name="licenseDialogMapsTab">Mapas</string>
+    <string name="ultimateLicenseDescription">La licencia más poderosa para la mejor experiencia.</string>
+    <string name="ultimateLicenseFeatures">✔ Sin anuncios ✔ Todos los mapas ✔ Todas las características</string>
+    <string name="proPlusLicenseFeatures">✔ Sin anuncios ✔ Todas las características</string>
+    <string name="proLicenseFeatures">✔ Sin anuncios</string>
+    <string name="thunderforestMapsFeatures">✔ Sin anuncios ✔ Mapas Thunderforest</string>
+    <string name="mapboxMapsFeatures">✔ Sin anuncios ✔ Mapas de Mapbox</string>
+    <string name="subscriptionYearly">365 días</string>
+    <string name="subscriptionMonthly">30 días</string>
+    <string name="priceFree">GRATIS</string>
+    <string name="rewardedAdDescription">Esta sesión (ver un anuncio)</string>
+    <string name="rewardedAdLoading">Cargando anuncio…</string>
+    <string name="na">N/A</string>
+    <string name="toastScreenPocketModeActive">Modo bolsillo activo</string>
+    <string name="toastScreenWavingModeActive">Modo agitación activo</string>
+    <string name="dialog_volume_speech_text">Diálogos</string>
 </resources>
