@@ -629,10 +629,7 @@
     <string name="pref_bell_shake_sensitivity_title">Sensibilità scuotimento</string>
     <string name="pref_roaring_type_title">Tipo</string>
     <string name="pref_roaring_type_dialog_title">Tipo di rombo</string>
-    <string name="pref_volume_summary_text">Campanella: %1$s, Rombo: %2$s
-\nConteggi: %3$s, Effetti: %4$s, Allarmi: %5$s %1$s, Rombo: %2$s
-\nConteggi: %3$s, Effetti: %4$s, Allarmi: %5$s
-    </string>
+    <string name="pref_volume_summary_text">Campanella: %1$s, Rombo: %2$s, Conteggi: %3$s, Effetti: %4$s, Allarmi: %5$s, Voce: %6$s</string>
     <string name="pref_bg_color_title">Colore di sfondo</string>
     <string name="pref_bg_color_summary">Scegli il colore desiderato per lo sfondo dell\'app</string>
     <string name="pref_fg_color_title">Colore del testo</string>
@@ -1234,7 +1231,7 @@
     <string name="meterModes_26">Energia cinetica</string>
     <string name="mapMarkerStart">Inizio</string>
     <string name="mapMarkerFinish">Fine</string>
-    <string name="pref_speechMasterSwitch_title">Avvisi vocali</string>
+    <string name="pref_speechMasterSwitch_title">Abilita</string>
     <string name="pref_speechMasterSwitch_summary">Usa gli avvisi vocali per conteggi e conto alla rovescia</string>
     <string name="defaultProfileNameScooter">Scooter 🛴</string>
     <string name="defaultProfileNameSki">Sci 🎿</string>
@@ -1256,5 +1253,35 @@
     <string name="speechUnitOneMinute">Minuto</string>
     <string name="speechUnitTwoMinutes">Minuti</string>
     <string name="speechUnitManyMinutes">Minuti</string>
-    <string name="speechCountdownGo">Vai</string>
+    <string name="speechCountdownGo">Vai!</string>
+    <string name="dialog_volume_speech_text">Avviso vocale</string>
+    <string name="controlPanelSoundSpeech">Avviso vocale</string>
+    <string name="pref_category_speech_title">Avviso vocale</string>
+    <string name="pref_soundeffects_tally_clock_title">Orologio</string>
+    <string name="pref_soundeffects_tally_clock_dialog_title">Conteggio orologio</string>
+    <string name="pref_speechProfileName_title">Nome profilo</string>
+    <string name="pref_speechProfileName_summary">(Tutti i profili) Pronuncia il nome profilo al cambio di profilo</string>
+    <string name="pref_speechTrackingStatus_title">Registrazione</string>
+    <string name="pref_speechTrackingStatus_summary">Avviso vocale quando si avvia, si ferma e si mette in pausa la registrazione</string>
+    <string name="pref_speechTallies_title">Conteggi</string>
+    <string name="pref_speechTallies_summary">Pronuncia i conteggi</string>
+    <string name="pref_speechToasts_title">Note brevi</string>
+    <string name="pref_speechToasts_summary">Pronuncia varie note informative brevi</string>
+    <string name="pref_speechCountdown_title">Conto alla rovescia</string>
+    <string name="pref_speechCountdown_summary">Pronuncia il conto alla rovescia</string>
+    <string name="pref_tally_clock_entries_0">Off</string>
+    <string name="pref_tally_clock_entries_3">5</string>
+    <string name="pref_tally_clock_entries_4">10</string>
+    <string name="pref_tally_clock_entries_5">15</string>
+    <string name="pref_tally_clock_entries_6">20</string>
+    <string name="pref_tally_clock_entries_7">30</string>
+    <string name="pref_tally_clock_entries_8">45</string>
+    <string name="pref_tally_clock_entries_9">60</string>
+    <string name="speechAscent">Salita: %1$s</string>
+    <string name="speechDescent">Discesa: %1$s</string>
+    <string name="speechClock">Orologio: %1$s</string>
+    <string name="speechTrackingPause">Pausa</string>
+    <string name="speechTrackingStop">Stop</string>
+    <string name="speechTrackingGpsOk">GPS OK</string>
+    <string name="speechTrackingGpsWeak">Nessun GPS</string>
 </resources>
