@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="locale">英語</string>
+    <string name="locale">ja</string>
     <string name="app_name">Urban Biker</string>
     <string name="app_description">きわめて正確に測定し記録します。サイクリングがより安全で効果的になります。</string>
     <string name="widget_1_description">Biker: 自転車ベル</string>
@@ -9,7 +9,7 @@
     <string name="proLicenseLabel">プロフェッショナル版</string>
     <string name="proPlusLicenseLabel">プロフェッショナル・プラス版</string>
     <string name="ultimateLicenseLabel">最上位版</string>
-    <string name="proLicenseTitle">プロフェショナル版のライセンス</string>
+    <string name="proLicenseTitle">プロフェショナル版 ライセンス</string>
     <string name="proLicenseDescription">広告を消す</string>
     <string name="proPlusLicenseTitle">プロフェッショナル・プラス版 ライセンス</string>
     <string name="proPlusLicenseDescription">広告表示を消し、定期支払い者むけに追加されるすべての機能が使用可能</string>
@@ -87,20 +87,20 @@
     <string name="toastFenceGuardFenceRemoved">保護エリア: %1$s を削除しました</string>
     <string name="toastFenceGuardFenceRemovingError">保護エリア: エリアの削除でエラーが発生しました</string>
     <string name="toastFenceGuardOutsideTheFence">保護エリア: 現在地は設定エリア外です</string>
-    <string name="toastFenceGuardLocationUnavailable">フェンスガード: 現在地が取得できません</string>
+    <string name="toastFenceGuardLocationUnavailable">保護エリア : 現在地が取得できません</string>
     <string name="toastProfilesListNonemptyDelete">削除できません — プロファイルに未保存のデータがあります！　先に処理してください。</string>
     <string name="toastProfilesListProfileCreated">プロファイルを作成しました</string>
     <string name="toastProfilesListProfileDeleted">プロファイルを削除しました</string>
     <string name="toastProfilesListProfileDeleteError">プロファイルの削除でエラー</string>
     <string name="toastProfilesListProfileUpdated">プロファイルを更新しました</string>
-    <string name="toastTrackDeleted">記録を削除しました</string>
-    <string name="toastTrackDeleteError">記録の削除でエラー</string>
+    <string name="toastTrackDeleted">走行記録を削除しました</string>
+    <string name="toastTrackDeleteError">走行記録の削除でエラー</string>
     <string name="toastTrackResumed">走行記録を再開しました</string>
     <string name="toastTrackResumeGpsActiveError">先にGPS を停止するか一時停止してください</string>
     <string name="toastProfileButtonClickInfo">長押しでプロファイルを切り替え</string>
     <string name="toastContrastButtonClickInfo">自動テーマが有効</string>
     <string name="toastFlashlightButtonClickInfo">長押しでライトを切り替え</string>
-    <string name="toastRoarButtonClickInfo">長押しでアラート音を切り替え</string>
+    <string name="toastRoarButtonClickInfo">長押しで走行音を切り替え</string>
     <string name="toastMapButtonClickInfo">長押しでマップを切り替え</string>
     <string name="toastMapFollowingOn">追跡オン</string>
     <string name="toastMapFollowingAutorotate">自動回転オン</string>
@@ -111,7 +111,7 @@
     <string name="toastErrorAccessingExternalStorage">外部ストレージへのアクセスでエラー</string>
     <string name="toastErrorPowerParametersVoid">設定の「パワー」でパラメーターを入力してください</string>
     <string name="toastSharingSuccess">投稿しました</string>
-    <string name="toastSharingError">共有アクションでエラー</string>
+    <string name="toastSharingError">共有操作でエラー</string>
     <string name="toastSharingPermissionsError">投稿でエラー！　権限を確認してください</string>
     <string name="toastUpdatingSuccess">更新しました</string>
     <string name="toastSoundsEnabled">サウンド有効</string>
@@ -145,9 +145,9 @@
     <string name="dialog_fenceguard_remove_title">保護エリアの削除</string>
     <string name="dialog_fenceguard_remove_defaultText">保護エリアを削除します。よろしいですか？</string>
     <string name="dialog_fenceguard_remove_formatText">保護エリア、%1$s を削除します？</string>
-    <string name="dialog_track_save_text">距離 %1$.3f %2$s 
-\n時間 %3$s 
-\n (%4$s) 
+    <string name="dialog_track_save_text">距離 %1$.3f %2$s
+\n時間 %3$s
+\n (%4$s)
 \n
 \nこの走行記録は短すぎます。保存しますか？</string>
     <string name="dialog_exit_msg">注意 : 記録中ですが、停止します。</string>
@@ -289,11 +289,11 @@
     <string name="pref_hud_axis_entries_0">デフォルト ー 左右反転</string>
     <string name="pref_hud_axis_entries_1">実用的なデバイス ― 上下左右反転</string>
     <!-- pref_speedo_display_mode_entries -->
-    <string name="pref_speedo_display_mode_entries_0">グラフィック &amp; デジタル</string>
-    <string name="pref_speedo_display_mode_entries_1">グラフィック</string>
-    <string name="pref_speedo_display_mode_entries_2">デジタル</string>
+    <string name="pref_speedo_display_mode_entries_0">メーターと数字</string>
+    <string name="pref_speedo_display_mode_entries_1">メーター</string>
+    <string name="pref_speedo_display_mode_entries_2">数字</string>
     <string name="toastTrackingRecordingPassive">パッシブ記録</string>
-    <string name="toastMapClickInfo">ロングタップで地図設定</string>
+    <string name="toastMapClickInfo">長押しで地図設定</string>
     <string name="dialog_volume_roaring_text">走行音</string>
     <string name="dialog_volume_tallies_text">一定間隔</string>
     <string name="dialogMapsTrackColor">走行記録表示の色あい:</string>
@@ -735,7 +735,7 @@
     <string name="pref_category_flashlightBlinkMode_title">点滅</string>
     <string name="pref_category_flashlightAutoPocketMode_title">ポケットモード</string>
     <string name="infoMeterModeTemperatureTitle">温度</string>
-    <string name="svgCopyright">Urban Biker アプリで作成されました</string>
+    <string name="svgCopyright">Urban Biker で作成</string>
     <string name="fbStoryLiveText">続行中!</string>
     <string name="fbTemperatureMin">最低気温</string>
     <string name="fbTemperatureMax">最高気温</string>
@@ -745,7 +745,7 @@
     <string name="dialogAppOptimizedPromptTitle">電池使用の最適化</string>
     <string name="dialogAppOptimizedPromptMessage">Urban Biker を正しく作動させるには、このアプリを「電池使用の最適化アプリ」から除外する必要があります。
 \n
-\n設定モードに移行しますか\?</string>
+\n設定画面を開きますか\?</string>
     <string name="batteryOptimizationToast">一覧から Urban Biker を選択してください</string>
     <string name="licenseItemAlreadyOwned">すでにライセンス登録されています</string>
     <string name="timePeriod_perWeek">/週</string>
@@ -809,8 +809,8 @@
     <string name="prefMapDiskCacheSizeEntries_10">4 GB</string>
     <string name="prefMapDiskCacheSizeEntries_11">5 GB</string>
     <string name="trackUploadActivityTypes_0">自転車</string>
-    <string name="trackUploadActivityTypes_1">ジョギング</string>
-    <string name="trackUploadActivityTypes_2">ウォーキング</string>
+    <string name="trackUploadActivityTypes_1">ラン</string>
+    <string name="trackUploadActivityTypes_2">ウォーク</string>
     <string name="prefAdModes_0">いろいろな運動</string>
     <string name="prefAdModes_1">Google</string>
     <string name="prefAdModes_2">AppBrain (アプブレイン)</string>
@@ -819,13 +819,13 @@
     <string name="aboutScreenChangeLogLink">改訂履歴</string>
     <string name="aboutScreenFacebookLink">Facebook の Urban Biker</string>
     <string name="aboutScreenTranslationsTitle">翻訳</string>
-    <string name="aboutScreenTranslationsText">アプリに使われる文章の翻訳を手伝ってください。無料ライセンスを差し上げます。くわしくは以下を:</string>
+    <string name="aboutScreenTranslationsText">アプリの翻訳を手伝って、無料ライセンスを獲得しましょう！ くわしくは以下を:</string>
     <string name="disclaimerTitle">免責事項（以下の事項につき、本ソフトは責任をとれません。納得のうえ　お使いください。）</string>
     <string name="disclaimerText1">このアプリは、「現状」のまま提供されます。使用者の責任でお使いください。
 \n私たち、アプリの作成者は、本アプリ使用中・あるいは非使用中に発生した、以下の事項につき責任をとることはできません。すなわち、不運・不幸な事故、紛失、使用者の外傷、第3者への加害など。</string>
     <string name="disclaimerText2">言うまでも無く、自動車・自転車あるいはすべての乗り物の運転中に、アプリを操作してはいけません。安全にお使いください。</string>
     <string name="disclaimerText3">運転中は（アプリ画面ではなく）道路に眼をむけてください。</string>
-    <string name="menuViewWith">同時表示</string>
+    <string name="menuViewWith">アプリで表示 :</string>
     <string name="meterModeFTP">実効パワー</string>
     <string name="controlPanelEnergyParams">パワー・エネルギー 係数</string>
     <string name="tracksHistoryListViewTrackDialogTitle">走行記録を表示…</string>
@@ -902,7 +902,7 @@
     <string name="pref_obey_audio_focus_disable_summary">（システム通知または別のアプリによって）アプリのフォーカスが失われても、音を出しつづけます</string>
     <string name="pref_audio_force_loudspeaker_title">無条件に大音量</string>
     <string name="pref_audio_force_loudspeaker_summary">警告：実験レベルで、動作しない場合があります。 ヘッドフォンが接続されている場合、音声通話を除くすべてのサウンドをスピーカー出力へ変更してください。</string>
-    <string name="pref_duck_roaring_on_bell_title">ベルを鳴らすときは、走行音をアヒルの鳴き声に</string>
+    <string name="pref_duck_roaring_on_bell_title">ベル時に、走行音を下げる</string>
     <string name="pref_duck_roaring_on_bell_summary">ベルを鳴らすとき、走行音の音量を下げます</string>
     <string name="pref_relaunchAfterReboot_title">再起動後にアプリを再始動</string>
     <string name="pref_relaunchAfterReboot_summary">(全プロファイル) バッテリー残量が 10% 以上あれば、スマートフォンを強制再起動したのち、走行記録を再開します</string>
@@ -942,8 +942,8 @@
     <string name="pref_soundeffects_tally_descent_title">下降（下り）</string>
     <string name="pref_soundeffects_tally_descent_dialog_title">下り</string>
     <string name="pref_soundeffects_alarm_title">有効</string>
-    <string name="pref_soundeffects_alarm_gpsPause_title">ポーズのままですよ</string>
-    <string name="pref_soundeffects_alarm_gpsPause_summary">ログのポーズ中、ある程度の距離を移動するとアラームが鳴ります</string>
+    <string name="pref_soundeffects_alarm_gpsPause_title">一時停止解除忘れ</string>
+    <string name="pref_soundeffects_alarm_gpsPause_summary">一時停止のまま一定距離を移動すると警告します</string>
     <string name="pref_facebook_disable_title">Facebook を無効に</string>
     <string name="pref_ads_mode_title">広告表示</string>
     <string name="pref_ads_mode_dialog_title">広告の種類</string>
@@ -1119,7 +1119,7 @@
     <string name="rewardedLicenseSuccess">ライセンスを獲得しました</string>
     <string name="na">なし</string>
     <string name="toastScreenPocketModeActive">ポケットモードに移行</string>
-    <string name="toastScreenWavingModeActive">ジェスチャーモードに移行</string>
+    <string name="toastScreenWavingModeActive">ジェスチャーモード有効</string>
     <string name="unitJoule">J</string>
     <string name="unitJoulePerHour">J/時</string>
     <string name="unitJoulePerKg">J/Kg</string>
@@ -1176,11 +1176,11 @@
     <string name="pref_soundeffects_tally_clock_title">時刻</string>
     <string name="pref_soundeffects_tally_clock_dialog_title">時刻</string>
     <string name="pref_speechProfileName_title">プロファイル名</string>
-    <string name="pref_speechProfileName_summary">(All profiles) 切り替えで利用する音声ガイドのプロファイル名</string>
+    <string name="pref_speechProfileName_summary">(全てのプロファイル) 切り替えで利用する音声ガイドのプロファイル名</string>
     <string name="pref_speechTrackingStatus_title">記録状態</string>
     <string name="pref_speechTrackingStatus_summary">記録を開始、中止、一時停止したときに音声で案内します</string>
     <string name="pref_speechTallies_title">一定間隔</string>
-    <string name="pref_speechTallies_summary">設定された一定間隔ごとに音声で案内する</string>
+    <string name="pref_speechTallies_summary">一定間隔ごとに音声で案内する</string>
     <string name="pref_speechToasts_title">短め</string>
     <string name="pref_speechToasts_summary">情報を短めに音声案内する</string>
     <string name="pref_speechCountdown_title">カウントダウン</string>
