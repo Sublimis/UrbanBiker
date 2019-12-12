@@ -63,7 +63,7 @@
     <string name="fence_name_default">個人の場所</string>
     <string name="profileNameDefault">新しいプロファイル</string>
     <string name="featureNotAvailable">この機能は、このデバイスでは無効です</string>
-    <string name="farFromHere">現在地から遠すぎ</string>
+    <string name="farFromHere">現在地から遠すぎます</string>
     <string name="toastRestartRequired">反映するには、アプリを再起動してください</string>
     <string name="toastActiveProfile">プロファイル : %1$s
     </string>
@@ -123,8 +123,8 @@
     <string name="notificationTitleAdvancedPaused">一時停止 : %1$s
     </string>
     <string name="licenseSuccessDialogMessage">アプリのライセンスを受けつけました。ご支援に感謝します！</string>
-    <string name="ongoingNotificationChannelName">通知を継続</string>
-    <string name="ongoingNotificationChannelDescription">実行中のサービスへのコントロールを提供するとともに、アプリの操作が簡単になります</string>
+    <string name="ongoingNotificationChannelName">通知の継続的な表示</string>
+    <string name="ongoingNotificationChannelDescription">実行中のサービスへのコントロールを提供するとともに、アプリへのアクセスが簡単になります</string>
     <string name="dialog_default_color_light_title">ライト テーマ</string>
     <string name="dialog_default_color_dark_title">ダーク テーマ</string>
     <string name="dialog_default_map_track_colors_title">地図の走行記録の色</string>
@@ -138,10 +138,10 @@
     <string name="dialog_bell_shake_sensitivity_title">シェイクの感度</string>
     <string name="dialog_fenceguard_add_title">保護エリアの追加</string>
     <string name="dialog_fenceguard_add_text">保護エリア名 :</string>
-    <string name="dialog_fenceguard_add_text2">「保護エリア」内は、あなたの所在地情報を、保存済みのアクティビティー等で公開しないようにします。</string>
+    <string name="dialog_fenceguard_add_text2">「保護エリア」内は、あなたの所在地情報を、保存済みの走行記録等で公開しないようにします。</string>
     <string name="dialog_fenceguard_update_title">保護エリアの更新</string>
     <string name="dialog_fenceguard_update_text">保護エリア名 :</string>
-    <string name="dialog_fenceguard_update_text2">「保護エリア」は、あなたの所在地情報を保存済みのアクティビティー等で公開しないようにします。</string>
+    <string name="dialog_fenceguard_update_text2">「保護エリア」は、あなたの所在地情報を保存済みの走行記録等で公開しないようにします。</string>
     <string name="dialog_fenceguard_remove_title">保護エリアの削除</string>
     <string name="dialog_fenceguard_remove_defaultText">保護エリアを削除します。よろしいですか？</string>
     <string name="dialog_fenceguard_remove_formatText">保護エリア、%1$s を削除します？</string>
@@ -152,34 +152,34 @@
 \nこの走行記録は短すぎます。保存しますか？</string>
     <string name="dialog_exit_msg">注意 : 記録中ですが、停止します。</string>
     <string name="dialogProfileDeleteTitle">プロファイルの削除</string>
-    <string name="dialogProfileDeleteMessage">注意 : この操作でプロファイルの設定と集計データが削除されます。保存済みアクティビティーは削除されません。 
+    <string name="dialogProfileDeleteMessage">注意 : プロファイルの設定と集計データを削除します。保存済みの走行記録は削除されません。 
 \n 
 \nプロファイル : %1$s を削除しますか？</string>
     <string name="dialogProfileAddTitle">新しいプロファイル</string>
-    <string name="dialogProfileAddInfo">新しいプロファイルの設定は、現在使用中のプロファイルからコピーされたものです</string>
+    <string name="dialogProfileAddInfo">新しいプロファイルの設定は、現在使用中のプロファイルからコピーされます</string>
     <string name="dialogProfileEditTitle">プロファイルの編集</string>
     <string name="dialogProfileEditTotals">合計 :</string>
-    <string name="dialogProfileTotalsResetMessage">プロファイルの合計を 0 にリセットしますか？</string>
+    <string name="dialogProfileTotalsResetMessage">プロファイルの総走行距離を 0 にリセットしますか？</string>
     <string name="dialogProfileSwitchTitle">プロファイル切り替え</string>
-    <string name="dialogProfileSwitchMessage">記録中です。プロファイルを %1$s に切り替えて、よろしいですか？</string>
-    <string name="dialogTracksDeleteTitle">アクティビティーの削除</string>
-    <string name="dialogTracksDeleteMessage">注意 : この操作は取り消しできません。
-\n
-\n選択したアクティビティーを削除してよろしいですか？</string>
+    <string name="dialogProfileSwitchMessage">記録中ですが、プロファイルを %1$s に切り替えます。よろしいですか？</string>
+    <string name="dialogTracksDeleteTitle">走行記録の削除</string>
+    <string name="dialogTracksDeleteMessage">注意 : この操作は取り消しできません。 
+\n 
+\n選択した走行記録を削除してよろしいですか？</string>
     <string name="dialogTrackDeleteMessage">注意 : この操作は取り消しできません。 
 \n 
 \n走行記録: %1$s を削除してよろしいですか？</string>
     <string name="dialogTrackResumeTitle">走行記録の再開</string>
     <string name="dialogTrackResumeGpsActiveMessage">記録中です。先に GPS をオフにするか、一時停止してください。</string>
-    <string name="dialogTrackResumeProfileNotBlankMessage">対象のプロファイル : %1$s は、いくつか設定された項目があります。まずすべての項目をリセットしてください。</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">対象のプロファイル : %1$s は、いくつか設定された項目があります。まずリセットしてください。</string>
     <string name="dialogTrackResumeProfileSwitchMessage">プロファイルを %1$s から %2$s に切り替えます。よろしいですか？</string>
     <string name="dialogTrackResumeProfileMissingMessage">この走行記録を作成したプロファイル : %1$s は存在しません。現在のプロファイル : %2$sで再開しますか？</string>
     <string name="dialogTrackResumeGeneralPromptMessage">走行記録をプロファイル : %1$sで再開します。よろしいですか？</string>
     <string name="dialogTrackResumeGeneralErrorMessage">エラーが発生しました。再試行してください。</string>
     <string name="dialogTrackResumeWaitMessage">再開中、お待ちください…</string>
-    <string name="dialogTracksShareTitle">アクティビティーの共有</string>
+    <string name="dialogTracksShareTitle">走行記録の共有</string>
     <string name="dialogTracksShareGeneralErrorMessage">エラーが発生しました。再試行してください。</string>
-    <string name="dialogTracksShareCountExceeded">一度に 100 件以上のアクティビティーを共有することはできません。</string>
+    <string name="dialogTracksShareCountExceeded">一度に 100 件以上の走行記録を共有することはできません。</string>
     <string name="dialogGpsSettingsPromptTitle">位置情報オフ</string>
     <string name="dialogGpsSettingsPromptMessage">位置情報なしでは、このアプリのほどんどの機能を使うことができません。
 \n
@@ -402,8 +402,8 @@
     <string name="controlPanelSoundTallies">一定間隔</string>
     <string name="controlPanelSoundVolume">音量</string>
     <string name="profilesListTitle">プロファイル</string>
-    <string name="profilesListTitleSelectProfile">別プロファイルへ</string>
-    <string name="profilesListAddProfile">新規プロファイル</string>
+    <string name="profilesListTitleSelectProfile">プロファイルの切り替え</string>
+    <string name="profilesListAddProfile">新しいプロファイル</string>
     <string name="profilesListRowTotalsSince">%1$s から合計</string>
     <string name="profilesListButtonResetTotals">合計をリセット</string>
     <string name="profilesListProfileNotUsed">(使用せず)</string>
@@ -432,7 +432,7 @@
     <string name="summaryDeviceRestartsCount">強制再開</string>
     <string name="summaryStartedDatetime">開始時刻</string>
     <string name="summaryEndedDatetime">終了時刻</string>
-    <string name="summaryTotalTime">全体時間</string>
+    <string name="summaryTotalTime">総時間</string>
     <string name="pref_roar_threshold_speed_title">速度・閾値</string>
     <string name="pref_roar_threshold_speed_info">閾値より高速になると走行音が出ます。ダウンヒルなどで有効です。</string>
     <string name="pref_roarConstantModeButton_title">オン・オフ　ボタン</string>
@@ -463,11 +463,11 @@
     <string name="infoMeterModeHeartRateTitle">心拍数</string>
     <string name="infoMeterModeHeartRateMsg">1分間の心拍数。</string>
     <string name="infoMeterModeGearRatioTitle">ギア比</string>
-    <string name="infoAutopauseForcedOff">メモ：自動ポーズはオフです</string>
+    <string name="infoAutopauseForcedOff">メモ : 自動ポーズはオフです</string>
     <string name="defaultProfileNameBike1">バイク 1 🚴</string>
     <string name="defaultProfileNameBike2">バイク 2 🚵</string>
-    <string name="defaultProfileNameWalk">ウォーキング 👣</string>
-    <string name="defaultProfileNameRun">ジョギング 🏃</string>
+    <string name="defaultProfileNameWalk">ウォーク 👣</string>
+    <string name="defaultProfileNameRun">ラン 🏃</string>
     <string name="defaultProfileNameCar">自動車 🚘</string>
     <string name="defaultProfileNamePlane">航空機 🛩️</string>
     <string name="defaultProfileNameIndoor">室内活動 🏠</string>
@@ -631,29 +631,29 @@
     <string name="meterTextTotal">合計</string>
     <string name="cloudAccountsTitle">アカウント連携</string>
     <string name="tracksHistoryListButtonView">表示</string>
-    <string name="summaryStoppedTime">静止時間</string>
+    <string name="summaryStoppedTime">停止時間</string>
     <string name="summaryHeartBeats">心拍数</string>
     <string name="summaryCadenceStrokes">ペダル・ストローク</string>
     <string name="summaryMechEnergy">機械的エネルギー</string>
     <string name="sensorsTitle">センサー</string>
-    <string name="sensorsTabUsed">使用中の</string>
-    <string name="sensorsTabFound">確認された</string>
-    <string name="sensorsSectionUsedInProfile">プロファイルに使用された</string>
-    <string name="sensorsSectionSupported">サポートします</string>
-    <string name="sensorsSectionUnsupported">サポートしません</string>
+    <string name="sensorsTabUsed">使用中</string>
+    <string name="sensorsTabFound">発見</string>
+    <string name="sensorsSectionUsedInProfile">プロファイルで使用</string>
+    <string name="sensorsSectionSupported">対応</string>
+    <string name="sensorsSectionUnsupported">非対応</string>
     <string name="sensorsEmptyList">リストは空です</string>
     <string name="sensorsMenuScan">スキャン</string>
     <string name="sensorMenuAddToProfile">プロファイルに追加</string>
     <string name="sensorMenuRemoveFromProfile">プロファイルから削除</string>
     <string name="sensorMenuProperties">特性</string>
-    <string name="sensorMenuEnable">有効化</string>
-    <string name="sensorMenuDisable">無効化</string>
-    <string name="sensorMenuDelete">削除する</string>
+    <string name="sensorMenuEnable">有効にする</string>
+    <string name="sensorMenuDisable">無効に</string>
+    <string name="sensorMenuDelete">登録解除</string>
     <string name="sensorRemoveConfirmDialogMsg">プロファイルから削除しますか\?</string>
     <string name="sensorDeleteConfirmDialogMsg">このセンサーを無視しますか\?</string>
     <string name="sensorAddedMsg">センサーがプロファイルに追加されました</string>
     <string name="sensorRemovedMsg">プロファイルからセンサーを削除しました</string>
-    <string name="sensorDeletedMsg">センサーを無視します</string>
+    <string name="sensorDeletedMsg">センサーの登録を解除しました</string>
     <string name="sensorPurposeNone">(意図なし)</string>
     <string name="sensorPurposeCadence">ケイデンス</string>
     <string name="sensorPurposeSpeed">スピード</string>
@@ -661,18 +661,18 @@
     <string name="sensorPurposeDuration">持続時間</string>
     <string name="sensorPurposePower">パワー</string>
     <string name="sensorPurposeHeartRate">心拍数</string>
-    <string name="sensorProperitesUseForSpeed">速度測定に使用</string>
+    <string name="sensorProperitesUseForSpeed">スピード測定に使用</string>
     <string name="sensorProperitesUseForCadence">ケイデンス測定に使用</string>
     <string name="sensorProperitesUseForDistance">距離・持続時間測定に使用</string>
     <string name="sensorProperitesUseForPower">パワー測定に使用</string>
     <string name="sensorProperitesUseForHeartRate">心拍数測定に使用</string>
-    <string name="sensorProperitesIsInverted">速度・ケイデンスを交換</string>
-    <string name="sensorProperitesIsInvertedInfo">ケイデンスセンサーを使用して速度を計算、または速度からケイデンスを測定. 通常は使用しない。</string>
-    <string name="sensorProperitesWheelPerimeter">車輪周長（ホイール周長）</string>
-    <string name="sensorProperitesIsAutoPerimeter">自動的</string>
+    <string name="sensorProperitesIsInverted">スピードとケイデンスを逆に</string>
+    <string name="sensorProperitesIsInvertedInfo">ケイデンスセンサーでスピードを計測、またはその逆。 普通はオフのままで。</string>
+    <string name="sensorProperitesWheelPerimeter">タイヤ周長</string>
+    <string name="sensorProperitesIsAutoPerimeter">自動</string>
     <string name="sensorProperitesWheelPerimeterNotSet">設定されていません</string>
     <string name="sensorProperitesStrideLen">ストライド(一歩の長さ)</string>
-    <string name="sensorProperitesIsAutoStrideLen">自動的</string>
+    <string name="sensorProperitesIsAutoStrideLen">自動</string>
     <string name="sensorProperitesStrideLenNotSet">設定されていません</string>
     <string name="sensorProperitesSpeedTriggers">速度トリガー</string>
     <string name="sensorProperitesCadenceTriggers">ケイデンストリガー</string>
@@ -834,7 +834,7 @@
     <string name="summaryLocationInterval">測位間隔</string>
     <string name="summarySpecific">詳細</string>
     <string name="sensorProperitesProfileInfo">センサー特性はプロファイルごとに管理されます。ここに表示される特性は、現在使用中のプロファイルだけに影響します(%1$s).</string>
-    <string name="sensorProperitesIsAutoPerimeterInfo">自動的に車輪周長を計算して、走行を記録します。</string>
+    <string name="sensorProperitesIsAutoPerimeterInfo">走行中に自動でタイヤ周長を計測します。</string>
     <string name="sensorProperitesIsAutoStrideLenInfo">自動的にストライド長を計算して、走行を記録します。</string>
     <string name="sensorProperitesTriggersCountInfo">センサーに使われるトリガー(磁石など)の数。外部トリガーを持たないセンサーは、通常トリガーを内蔵しています。</string>
     <string name="pref_category_stationary_exercise_title">室内練習</string>
@@ -990,7 +990,7 @@
     <string name="pref_powermeter_parameters_info_title">注意!</string>
     <string name="pref_powermeter_parameters_info_summary">正確なパワーやエネルギーの値を取得するため、正確に設定してください!</string>
     <string name="pref_power_weights_title">重量</string>
-    <string name="pref_power_weights_summary">運転者: %1$s, 車重: %2$s, 荷重: %3$s, 同乗者: %4$s, ホイール重: %5$s</string>
+    <string name="pref_power_weights_summary">体重: %1$s, 車重: %2$s, 荷物: %3$s, 同乗者: %4$s, ホイール: %5$s</string>
     <string name="pref_power_coefs_title">抵抗</string>
     <string name="pref_power_coefs_summary">抗力面積: %1$s
 \nロール抵抗: %2$s</string>
@@ -1077,7 +1077,7 @@
 \n注意：デジタルフィルタリングの遅延は避けられないため、これはリアルタイムから1分程度遅れることがあります。</string>
     <string name="infoMeterModeCadenceMsg">1分間のクランクの回転数。ペダリング数と同義。</string>
     <string name="infoMeterModeGearRatioMsg">時間単位あたりのホイール回転数とペダル回転数の比率、つまりフロントスプロケットとリアスプロケットのサイズの比率。 数値が大きいほどギアが高くなります。</string>
-    <string name="infoAutopauseForcedRelaxed">メモ: 自動ポーズは解除されています</string>
+    <string name="infoAutopauseForcedRelaxed">メモ : 自動ポーズは解除されています</string>
     <string name="fbCourseTitle">Urban Biker のおかげ</string>
     <string name="meterModes_10">実効パワー</string>
     <string name="meterModes_11">垂直方向のパワー</string>
@@ -1118,7 +1118,7 @@
     <string name="rewardedAdLoading">広告をロード中…</string>
     <string name="rewardedLicenseSuccess">ライセンスを獲得しました</string>
     <string name="na">なし</string>
-    <string name="toastScreenPocketModeActive">ポケットモードに移行</string>
+    <string name="toastScreenPocketModeActive">ポケットモード有効</string>
     <string name="toastScreenWavingModeActive">ジェスチャーモード有効</string>
     <string name="unitJoule">J</string>
     <string name="unitJoulePerHour">J/時</string>
@@ -1137,7 +1137,7 @@
     <string name="sensorsInfo">記録の開始/終了に合わせて、センサーと自動的に接続します。
 \n
 \n手動でセンサーと接続することはできません。</string>
-    <string name="sensorWheelCircNotSetWarning">ホイール周長が設定されていません</string>
+    <string name="sensorWheelCircNotSetWarning">タイヤ周長が設定されていません</string>
     <string name="infoMeterModeKineticEnergyTitle">運動エネルギー</string>
     <string name="infoMeterModeKineticEnergyMsg">運動エネルギーを位置エネルギーに換算したときの高さ。
 \n
