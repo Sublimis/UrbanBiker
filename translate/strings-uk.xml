@@ -52,7 +52,7 @@
     <string name="menuCenterOnMap">Центрувати</string>
     <string name="menuClose">Закрити</string>
     <string name="menuInfo">Інформація</string>
-    <string name="menuRateAndComment">Оцінити і прокоментувати</string>
+    <string name="menuRateAndComment">Оцініть нас</string>
     <string name="menuRefresh">Оновити</string>
     <string name="menuSwitchProfile">Перемкнути</string>
     <string name="share_title">Відправити через</string>
@@ -139,13 +139,12 @@
     <string name="dialog_fenceguard_remove_formatText">Ви дійсно хочете вилучити приватну зону %1$s\?</string>
     <string name="dialog_track_save_text">Відстань %1$.3f %2$s
 \nТривалість %3$s
+\n(%4$s)
 \n
-        (%4$s)
-\n
-\nТрек щось короткуватий. Зберегти\?</string>
-    <string name="dialog_exit_msg">Увага: запис треку увімкнутий, і зараз буде припинений</string>
+\nТрек виглядає надто коротким. Зберегти його\?</string>
+    <string name="dialog_exit_msg">Увага: запис треку увімкнутий, і зараз буде припинений.</string>
     <string name="dialogProfileDeleteTitle">Вилучити профіль</string>
-    <string name="dialogProfileDeleteMessage">Увага: Ця дія вилучить всі дані профілю та статистику. Збережені треки все ж буде збережено.
+    <string name="dialogProfileDeleteMessage">Увага: Ця дія вилучить всі дані профілю та статистику. Збережені треки все ж залишаться. 
 \n
 \nДійсно вилучити профіль %1$s\?</string>
     <string name="dialogProfileAddTitle">Новий профіль</string>
@@ -154,37 +153,37 @@
     <string name="dialogProfileEditTotals">Підсумки:</string>
     <string name="dialogProfileTotalsResetMessage">Скинути режим підсумки на нуль\?</string>
     <string name="dialogProfileSwitchTitle">Перемкнути профіль</string>
-    <string name="dialogProfileSwitchMessage">Запис треку активний. Ви впевнені, що хочете переключитися у профіль %1$s\?</string>
+    <string name="dialogProfileSwitchMessage">Триває запис треку. Точно перемкнутися на %1$s\?</string>
     <string name="dialogTracksDeleteTitle">Вилучити треки</string>
     <string name="dialogTracksDeleteMessage">Увага: цю дію неможливо скасувати.
 \n
 \nВилучити вибрані треки\?</string>
-    <string name="dialogTrackDeleteMessage">Увага: цю дію неможливо скасувати.
+    <string name="dialogTrackDeleteMessage">Увага: Цю дію неможливо скасувати. 
 \n
 \nВилучити трек %1$s\?</string>
     <string name="dialogTrackResumeTitle">Продовжити трек</string>
     <string name="dialogTrackResumeGpsActiveMessage">Запис треку активний. Спочатку вимкніть або призупиніть запис GPS.</string>
-    <string name="dialogTrackResumeProfileNotBlankMessage">Профіль %1$s не порожній. Обнуліть його спочатку.</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">Профіль %1$s не порожній. Скиньте його спочатку.</string>
     <string name="dialogTrackResumeProfileSwitchMessage">Активний профіль буде переключено з %1$s на %2$s. Продовжити\?</string>
-    <string name="dialogTrackResumeProfileMissingMessage">Профіль %1$s, під яким було створено цей трек більше не існує. Продовжити в поточному профілі %2$s\?</string>
+    <string name="dialogTrackResumeProfileMissingMessage">Профіль %1$s, під яким було створено цей трек, більше не існує. Продовжити в поточному профілі %2$s\?</string>
     <string name="dialogTrackResumeGeneralPromptMessage">Трек буде відновлено у профілі %1$s. Продовжити\?</string>
     <string name="dialogTrackResumeGeneralErrorMessage">Сталися невідомі помилки. Спробуйте ще раз.</string>
-    <string name="dialogTrackResumeWaitMessage">Відновлюю, прошу зачекати...</string>
+    <string name="dialogTrackResumeWaitMessage">Відновлюю, прошу зачекати…</string>
     <string name="dialogTracksShareTitle">Поділитися треками</string>
     <string name="dialogTracksShareGeneralErrorMessage">Сталася невідома помилка. Спробуйте ще раз.</string>
     <string name="dialogGpsSettingsPromptTitle">Визначення місцезнаходження вимкнуте</string>
     <string name="dialogBaroAltitudePromptTitle">Проблеми з барометричною висотою</string>
-    <string name="dialogBaroAltitudePromptMessage">Вимірювання барометричної висоти було примусово вимкнено через надто велике відхилення від показів GPS!
+    <string name="dialogBaroAltitudePromptMessage">Барометричний висотомір був примусово відключений через значне відхилення від показів GPS!
 \n
-\nНе використовуйте цей режим в закритих чи вентильованих приміщеннях!</string>
+\nНе використовуйте цей режим у закритих приміщеннях та місцях із потужною вентиляційною системою!</string>
     <string name="dialogBaroAltitudeNoticeTitle">Повідомлення</string>
     <string name="dialogBaroAltitudeNoticeMessage">Барометрична висота працює лише на вулиці.
 \n
-\nНе використовуйте її в закритих або вентильованих приміщеннях а також в автомобілях та літаках.</string>
+\nНе використовуйте її у закритих або вентильованих приміщеннях, в автомобілях та літаках.</string>
     <string name="dialogThermoBarometerNoticeTitle">Повідомлення</string>
     <string name="dialogThermoBarometerNoticeMessage">Термо-барометр покладається на покази вуличної температури для підвищення точності.
 \n
-\nНе використовуйте його в закритих або вентильованих приміщеннях а також в автомобілях та літаках.</string>
+\nНе використовуйте його у закритих або вентильованих приміщеннях, в автомобілях та літаках.</string>
     <string name="dialogResetMessage">Зберегти цей трек і підготуватися до нового\?</string>
     <string name="dialogResetNoTrackMessage">Трек записувався. Дійсно обнулити лічильники\?</string>
     <string name="dialogScreenHudMode">дзеркальний HUD режим</string>
@@ -229,12 +228,12 @@
     <string name="dialogLocationPermissionRequestTitle">Доступ до геоданих</string>
     <string name="dialogLocationPermissionRequest">Програма потребує доступу до геоданих щоб відслідковувати ваші переміщення.</string>
     <string name="dialogStoragePermissionRequestTitle">Доступ до сховища даних</string>
-    <string name="dialogStoragePermissionRequest">Програма потребує доступу до сховища даних щоб мати можливість зберігати і відновлювати ваші треки та налаштування.
+    <string name="dialogStoragePermissionRequest">Програма потребує доступу до сховища даних, щоб мати можливість зберігати та відновлювати ваші треки й налаштування.
 \n
-\nБез цього дозволу ви не зможете бачити історію треків а також ділитися треками з іншими. Також ви можете втратити свої дані.</string>
+\nБез цього дозволу ви не зможете бачити історію треків та ділитися треками з іншими. Також ви можете втратити свої дані.</string>
     <string name="dialogCameraPermissionRequestTitle">Доступ до камери</string>
     <string name="dialogCameraPermissionRequest">Цей доступ потрібен щоб програма могла вмикати ліхтарик.</string>
-    <string name="dialogPermissionProblemMessage">Право доступу до цього ресурсу необхідне для правильної роботи програми. Його можна надати на сторінці налаштувань доступів.
+    <string name="dialogPermissionProblemMessage">Цей дозвіл потрібний програмі для правильної роботи. Його можна надати на сторінці налаштувань доступів.
 \n
 \nПерейти туди\?</string>
     <string name="mapLayerStreet">Вулиці</string>
@@ -281,7 +280,7 @@
     <string name="unitHPa">гПа</string>
     <string name="unitPetrolLit">л.</string>
     <string name="unitKmPerLit">км/літр</string>
-    <string name="unitMiPerGal">mpg</string>
+    <string name="unitMiPerGal">миль/галон</string>
     <string name="unitPerHundredKm">/100км</string>
     <string name="unitPerHundredMi">/100миль</string>
     <string name="unitPerMinute">/хв</string>
@@ -363,22 +362,22 @@
     </string>
     <string name="profilesListButtonResetTotals">Обнулити підсумки</string>
     <string name="profilesListProfileNotUsed">(не використ.)</string>
-    <string name="profilesListLoading">Завантажую...</string>
+    <string name="profilesListLoading">Завантажую…</string>
     <string name="tracksHistoryListTitle">Історія треків</string>
     <string name="tracksHistoryListEmpty">Треків ще не записано. Саме час записати перший!</string>
-    <string name="tracksHistoryListLoading">Завантажую...</string>
+    <string name="tracksHistoryListLoading">Завантажую…</string>
     <string name="tracksHistoryListButtonView">Перегляд</string>
     <string name="tracksHistoryListButtonShare">Поділитися</string>
     <string name="tracksHistoryListButtonResume">Продовжити</string>
     <string name="tracksHistoryListButtonEdit">Редагувати</string>
     <string name="tracksHistoryListButtonDelete">Вилучити</string>
-    <string name="tracksHistoryListShareTrackDialogTitle">Зберегти трек до...</string>
-    <string name="tracksHistoryListViewTrackDialogTitle">Переглянути трек у...</string>
+    <string name="tracksHistoryListShareTrackDialogTitle">Поділитися треком…</string>
+    <string name="tracksHistoryListViewTrackDialogTitle">Переглянути трек у…</string>
     <string name="summaryTotalWeight">Повна маса</string>
     <string name="summaryWheelsWeight">Маса коліс</string>
     <string name="summaryEfficiency">Ефективність</string>
     <string name="summaryDragArea">Поверхня опору</string>
-    <string name="summaryRollResistCoef">Коеф. опору кочення</string>
+    <string name="summaryRollResistCoef">Коеф. опору кочення.</string>
     <string name="summaryBasalMetabolicRate">Базовий рівень метаболізму</string>
     <string name="summaryLocationInterval">Інтервал позиціонування</string>
     <string name="summaryStartedDatetime">Розпочато</string>
@@ -425,7 +424,7 @@
     <string name="sensorProperitesSpeedTriggers">Тригери швидкості</string>
     <string name="sensorProperitesCadenceTriggers">Тригери ритму</string>
     <string name="sensorStatusConnected">Під\'єднано</string>
-    <string name="sensorStatusConnecting">Під\'єдную...</string>
+    <string name="sensorStatusConnecting">Під\'єдную…</string>
     <string name="sensorStatusDisconnected">Від\'єднано</string>
     <string name="pref_text_off">Вимк.</string>
     <string name="pref_text_min">Мін</string>
@@ -449,7 +448,7 @@
     <string name="pref_category_visualThemeAuto">Автоматична тема</string>
     <string name="pref_category4_title">Гучність (відносна)</string>
     <string name="pref_category_advanced_title">Детальніше</string>
-    <string name="pref_group_advanced_title">Детальніше...</string>
+    <string name="pref_group_advanced_title">Розширені…</string>
     <string name="pref_category_other_title">Інше</string>
     <string name="pref_category6_title">Допомога</string>
     <string name="pref_category7_title">Поділитися</string>
@@ -466,7 +465,7 @@
     <string name="pref_category_effects_title">Ефекти</string>
     <string name="pref_category_alarms_title">Попередження</string>
     <string name="pref_category_tallies_title">Підказки</string>
-    <string name="pref_category_select_title">Вибрати...</string>
+    <string name="pref_category_select_title">Вибрати…</string>
     <string name="pref_category_fonts_title">Шрифт</string>
     <string name="pref_category_buttons_title">Кнопки</string>
     <string name="pref_category_meters_title">Покажчики</string>
@@ -480,7 +479,7 @@
     <string name="pref_group_maps_title">Карти</string>
     <string name="pref_category_maps_online_mode_title">Джерело карт</string>
     <string name="pref_category_maps_offline_title">Локальні карти</string>
-    <string name="pref_group_maps_offline_title">Налаштування офлайн карт...</string>
+    <string name="pref_group_maps_offline_title">Налаштування офлайн карт…</string>
     <string name="pref_category_maps_offline_terrain_title">Рельєф</string>
     <string name="pref_category_maps_routes_title">План маршруту</string>
     <string name="pref_category_maps_track_title">Лінія трека</string>
@@ -611,7 +610,7 @@
     <string name="pref_soundeffects_tally_descent_title">Спуск</string>
     <string name="pref_soundeffects_tally_descent_dialog_title">Підказка спуску</string>
     <string name="pref_soundeffects_alarm_title">Увімкнути</string>
-    <string name="pref_soundeffects_alarm_gpsPause_title">Забули призупинити запис\?</string>
+    <string name="pref_soundeffects_alarm_gpsPause_title">Забута пауза</string>
     <string name="pref_soundeffects_alarm_gpsPause_summary">Попередження прозвучить після суттєвого переміщення, якщо запис було призупинено</string>
     <string name="pref_facebook_disable_title">Відключити Facebook</string>
     <string name="pref_ads_mode_title">Показувати рекламу</string>
@@ -635,7 +634,7 @@
     <string name="pref_maps_offline_warning_summary">Увага! Деякий об\'єм даних може викачуватися навіть в режимі офлайн. Будь ласка - вимкніть мобільний інтернет, якщо вам це важливо.</string>
     <string name="pref_maps_routes_draw_title">План маршруту</string>
     <string name="pref_maps_routes_info_title">Увага!</string>
-    <string name="pref_maps_routes_info_summary">Не буде жодних інших відео чи аудіо підказок, які би допомагали рухатися по цьому маршруту.</string>
+    <string name="pref_maps_routes_info_summary">Не буде інших візуальних чи аудіо підказок, які би допомагали дотримуватися маршруту</string>
     <string name="pref_maps_routes_files_title">Виберіть файл або теку</string>
     <string name="pref_maps_routes_files_dialog_title">Виберіть теку або файл з маршрутами</string>
     <string name="pref_maps_routes_files_noFolderSelected">Теку не вибрано.</string>
@@ -667,7 +666,7 @@
     <string name="pref_meter_enable_summary">Показати/сховати цей лічильник</string>
     <string name="pref_meter_lock_title">Заблокований</string>
     <string name="pref_meter_lock_summary">Лічильник не перемикається натисканням на нього</string>
-    <string name="pref_meter_modes_select_title">Вибрати доступні режими...</string>
+    <string name="pref_meter_modes_select_title">Вибрати доступні режими…</string>
     <string name="pref_speedo_display_mode_title">Вигляд</string>
     <string name="pref_speedo_display_mode_dialog_title">Вигляд спідометра</string>
     <string name="pref_speedo_indicator_needle_title">Стрілка</string>
@@ -688,7 +687,7 @@
     </string>
     <string name="pref_svg_data_enable_title">Згенерувати графіки</string>
     <string name="pref_svg_data_enable_summary">Згенерувати SVG графіки і дані для різних параметрів їзди</string>
-    <string name="pref_svg_data_modes_select_title">Вибрати типи графіків...</string>
+    <string name="pref_svg_data_modes_select_title">Вибрати типи графіків…</string>
     <string name="pref_flashlightAutoPocketMode_title">Кишеньковий режим</string>
     <string name="pref_flashlightAutoPocketMode_summary">Використовувати сенсор наближення для вимикання ліхтарика коли він не потрібен</string>
     <string name="pref_flashlightBlinkMode_title">Режим</string>
@@ -728,7 +727,7 @@
     <string name="infoMeterModeDistanceOdoTitle">Одометр</string>
     <string name="infoMeterModeDistanceOdoMsg">Повний шлях пройдений від початку використання профіля.</string>
     <string name="infoMeterModeDurationTitle">Тривалість</string>
-    <string name="infoMeterModeDurationMsg">Тривалість подорожі, відмінусовуючи, якщо вдасться, тривалість зупинок</string>
+    <string name="infoMeterModeDurationMsg">Тривалість подорожі, по можливості без урахування зупинок.</string>
     <string name="infoMeterModeElapsedTitle">Тривалість подорожі</string>
     <string name="infoMeterModeElapsedMsg">Тривалість подорожі, включаючи всі перерви але не враховуючи зупинки.</string>
     <string name="infoMeterModeEnergyTitle">Енергія</string>
@@ -743,10 +742,10 @@
     <string name="infoMeterModeAltitudeTitle">Висота</string>
     <string name="infoMeterModeSlopeTitle">Похилість</string>
     <string name="infoMeterModeSpeedTitle">Швидкість</string>
-    <string name="infoMeterModeSpeedMsg">Швидкість - Поточна, Максимальна і Середня</string>
+    <string name="infoMeterModeSpeedMsg">Швидкість — Поточна, Максимальна і Середня.</string>
     <string name="infoMeterModeVerticalSpeedTitle">Вертикальна швидкість</string>
     <string name="infoMeterModePaceTitle">Темп</string>
-    <string name="infoMeterModePaceMsg">Темп (зворотнє до швидкості) - поточний, максимальний та середній</string>
+    <string name="infoMeterModePaceMsg">Темп — Поточний, Максимальний та Середній.</string>
     <string name="infoMeterModeAccelerationTitle">Прискорення</string>
     <string name="infoMeterModeAccelerationMsg">Ступінь зміни швидкості — Поточна, Максимальна та Мінімальна.
 \n
@@ -756,10 +755,10 @@
     <string name="infoMeterModeTemperatureTitle">Температура</string>
     <string name="infoMeterModePressureTitle">Тиск</string>
     <string name="infoMeterModeClockTitle">Годинник</string>
-    <string name="infoMeterModeClockMsg">Поточний час годинника</string>
+    <string name="infoMeterModeClockMsg">Поточний час доби.</string>
     <string name="infoMeterModeCadenceTitle">Ритм</string>
     <string name="infoMeterModeHeartRateTitle">Пульс</string>
-    <string name="infoMeterModeHeartRateMsg">Кількість ударів пульсу за хвилину</string>
+    <string name="infoMeterModeHeartRateMsg">Серцебиття в ударах за хвилину.</string>
     <string name="infoMeterModeGearRatioTitle">Передатне число</string>
     <string name="infoAutopauseForcedRelaxed">Режим авто-паузи буде переключено в Розслаблений режим</string>
     <string name="infoAutopauseForcedOff">Режим авто-паузи буде вимкнено</string>
@@ -802,10 +801,10 @@
     <string name="pref_gps_update_freq_entries_6">4 сек</string>
     <string name="pref_gps_update_freq_entries_7">5 сек</string>
     <string name="pref_gps_update_freq_entries_8">10 сек</string>
-    <string name="pref_gps_update_freq_entries_9">15 сек.</string>
-    <string name="pref_gps_update_freq_entries_10">20 сек.</string>
-    <string name="pref_gps_update_freq_entries_11">30 сек.</string>
-    <string name="pref_gps_update_freq_entries_12">45 сек.</string>
+    <string name="pref_gps_update_freq_entries_9">15 сек</string>
+    <string name="pref_gps_update_freq_entries_10">20 сек</string>
+    <string name="pref_gps_update_freq_entries_11">30 сек</string>
+    <string name="pref_gps_update_freq_entries_12">45 сек</string>
     <string name="pref_gps_update_freq_entries_13">1 хв</string>
     <string name="pref_gps_update_freq_entries_14">2 хв</string>
     <string name="pref_gps_update_freq_entries_15">3 хв</string>
@@ -830,8 +829,8 @@
     <string name="pref_autopause_modes_1">Розслаблено</string>
     <string name="pref_autopause_modes_2">Викл</string>
     <!-- pref_autopause_modes_explanation -->
-    <string name="pref_autopause_modes_explanation_0">Забувати всі паузи, які довші, ніж кілька секунд.</string>
-    <string name="pref_autopause_modes_explanation_1">Забувати тільки паузи, які довші, ніж 5 хв.</string>
+    <string name="pref_autopause_modes_explanation_0">Пропускати всі паузи, довші кількох секунд</string>
+    <string name="pref_autopause_modes_explanation_1">Забувати тільки паузи, які довші 5 хвилин</string>
     <string name="pref_autopause_modes_explanation_2">Записувати всі паузи (крім зупинки запису вручну)</string>
     <!-- pref_wakelock_modes -->
     <string name="pref_wakelock_modes_0">Авто (стандартно)</string>
@@ -840,8 +839,8 @@
     <string name="pref_wakelock_modes_3">Вимк.</string>
     <!-- pref_wakelock_modes_explanation -->
     <string name="pref_wakelock_modes_explanation_0">Визначати автоматично на основі частоти оновлення GPS та інших факторів</string>
-    <string name="pref_wakelock_modes_explanation_1">Тримати процесор активним під час запису трека (більше навантаження на батарею, але акуратніший запис)</string>
-    <string name="pref_wakelock_modes_explanation_2">Дозволити процесору простоювати поки позиція не змінилася (економить батарею, але може деколи погіршувати точність)</string>
+    <string name="pref_wakelock_modes_explanation_1">Підтримувати активність процесора. Може сильніше розряджати батарею, але покращує точність трека.</string>
+    <string name="pref_wakelock_modes_explanation_2">Дозволити процесору засинати між оновленнями локації. Економить батарею, але може погіршити точність запису.</string>
     <string name="pref_wakelock_modes_explanation_3">Дотримуватися налаштувань системи і/або інших програм. УВАГА: може спричинити дуже неточне визначення координат або повну втрату точності позиціонування. Використання не рекомендується.</string>
     <!-- pref_locationProvider_modes -->
     <string name="pref_locationProvider_modes_0">Підсистема GPS (типово)</string>
@@ -885,9 +884,9 @@
     <string name="pref_bell_mode_entries_0">Дзинь</string>
     <string name="pref_bell_mode_entries_1">Дзинь-дзинь</string>
     <string name="pref_bell_mode_entries_2">Туу</string>
-    <string name="pref_bell_mode_entries_3">Йу-ху!</string>
+    <string name="pref_bell_mode_entries_3">Ю-ху</string>
     <!-- pref_roaring_type_entries -->
-    <string name="pref_roaring_type_entries_0">Freehub</string>
+    <string name="pref_roaring_type_entries_0">Тріскачка</string>
     <string name="pref_roaring_type_entries_1">Біп</string>
     <string name="pref_roaring_type_entries_2">Вертоліт</string>
     <!-- pref_roaring_mode_entries -->
