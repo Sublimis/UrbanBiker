@@ -690,9 +690,7 @@
     <string name="pref_maps_offline_file_summary">(Todos os perfis) %1$s</string>
     <string name="pref_maps_offline_file_noFolderSelected">Pasta não seleccionada.</string>
     <string name="pref_maps_offline_info_title">Descarregar agora</string>
-    <string name="pref_maps_offline_info_summary">Mapas Mapsforge vector (.map) e Rmaps raster (.sqlitedb) são suportados. Disponíveis em download.mapsforge.org
-\n
-\nUtilização: Selecione o ficheiro do mapa descarregado com a opção acima.</string>
+    <string name="pref_maps_offline_info_summary">Mapas Mapsforge vector (.map) e Rmaps raster (.sqlitedb) são suportados. Disponíveis em download.mapsforge.org.</string>
     <string name="pref_maps_offline_warning_summary">Aviso: Alguns dados online podem ser recuperados mesmo em modo offline. Por favor desative a internet móvel antes de usar os mapas, se considerado.</string>
     <string name="pref_maps_routes_draw_title">Guia de rotas</string>
     <string name="pref_maps_routes_draw_summary">As rotas GPX são mostradas sobre o mapa num traçado pontilhado</string>
@@ -708,9 +706,7 @@
     <string name="pref_maps_offline_terrain_title">Apresentar terreno</string>
     <string name="pref_maps_offline_terrain_summary">(Todos os perfis) Apresentar sombras de elevação do terreno. O mapa parecerá mais realista, mas provavelmente mais lento. Requer arquivos DEM (.hgt) presentes na pasta do mapa.</string>
     <string name="pref_maps_offline_terrain_info_title">Descarregar agora</string>
-    <string name="pref_maps_offline_terrain_info_summary">Abrir a página de download em viewfinderpanoramas.org
-\n
-\nUtilização: Extraia os ficheiros .hgt do(s) ZIP(s) descarregados(s) e coloque-os na mesma pasta onde reside o ficheiro de mapa off-line (não use uma subpasta separada).</string>
+    <string name="pref_maps_offline_terrain_info_summary">Abrir a página de download em viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Ação do botão de camada</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Todos os perfis) Escolher o que fazer quando o botão de camada for pressionado</string>
     <string name="pref_button_autoring_enable_title">Alternância de campaínha automática</string>
@@ -875,11 +871,11 @@
     <string name="menuLicense">Comprar licença</string>
     <string name="dialogReviewNudgeMessage">Está a gostar de Urban Biker\?</string>
     <string name="licenseItemAlreadyOwned">Já possui item de licença</string>
-    <string name="timePeriod_perWeek">/Semana</string>
-    <string name="timePeriod_perMonth">/Mês</string>
-    <string name="timePeriod_per3Months">/3 Meses</string>
-    <string name="timePeriod_per6Months">/6 Meses</string>
-    <string name="timePeriod_perYear">/Ano</string>
+    <string name="timePeriod_perWeek">por semana</string>
+    <string name="timePeriod_perMonth">por mês</string>
+    <string name="timePeriod_per3Months">por 3 meses</string>
+    <string name="timePeriod_per6Months">por 6 meses</string>
+    <string name="timePeriod_perYear">por ano</string>
     <string name="generalError">Ocorreu algum erro. Por favor tente novamente.</string>
     <string name="openSourceLicensesTitle">Licenças de código aberto</string>
     <string name="toastMapClickInfo">Toque longo para as definições do mapa</string>
@@ -1174,7 +1170,7 @@
     <string name="mapMarkerStart">Início</string>
     <string name="mapMarkerFinish">Final</string>
     <string name="pref_speechMasterSwitch_title">Ativar</string>
-    <string name="pref_speechMasterSwitch_summary">Usar o discurso para contagens e contagem decrescente</string>
+    <string name="pref_speechMasterSwitch_summary">Usar discurso por voz para contagens e contagem decrescente</string>
     <string name="defaultProfileNameScooter">Trotinete</string>
     <string name="defaultProfileNameSki">Ski 🎿</string>
     <string name="speechUnitOneMeter">Metro</string>
@@ -1226,4 +1222,15 @@
     <string name="speechTrackingStop">Paragem</string>
     <string name="speechTrackingGpsOk">GPS OK</string>
     <string name="speechTrackingGpsWeak">Sem GPS</string>
+    <string name="dialogTrackEditTitleHint">Digite o título aqui</string>
+    <string name="dialogTrackEditNotesHint">Digite as suas notas aqui</string>
+    <string name="summaryProfileName">Perfil</string>
+    <string name="summaryDeviceName">Dispositivo</string>
+    <string name="pref_soundeffects_tally_altitude_title">Altitude</string>
+    <string name="pref_soundeffects_tally_altitude_dialog_title">Contagem de altitude</string>
+    <string name="pref_maps_offline_usage_summary">Utilização: Selecione o ficheiro de mapa descarregado com a opção acima.</string>
+    <string name="pref_maps_offline_terrain_usage_summary">Utilização: Extraia os ficheiros .hgt do(s) ZIP(s) descarregados(s) e coloque-os na mesma pasta onde reside o ficheiro de mapa off-line (não use uma subpasta separada).</string>
+    <string name="speechAltitude">Altitude: %1$s</string>
+    <string name="speechIncreasing">Subindo</string>
+    <string name="speechDecreasing">Descendo</string>
 </resources>
