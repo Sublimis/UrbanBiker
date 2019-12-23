@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="locale">uk</string>
     <string name="app_name">Міський Велосипедист</string>
-    <string name="app_description">Відслідковуйте та вимірюйте ваші поїздки з високою точністю. Покращуйте свою безпеку та ефективність.</string>
+    <string name="app_description">Записуйте та вимірюйте свої поїздки з надзвичайною точністю. Покращіть свою безпеку та ефективність при їзді на велосипеді.</string>
     <string name="widget_1_description">Велосипедист: Дзвінок</string>
     <string name="widget_2_description">Велосипедист: Дзвінок + Ліхтар</string>
     <string name="widget_3_description">Велосипедист: Готово</string>
@@ -22,15 +22,15 @@
     <string name="buttonResumeTrack">Продовжити</string>
     <string name="menuControlPanel">Панель керування</string>
     <string name="menuSettings">Налаштування</string>
-    <string name="menuSummary">Статистика</string>
+    <string name="menuSummary">Підсумок</string>
     <string name="menuTracksHistory">Історія</string>
-    <string name="menuTracksHistoryResume">Продовжити</string>
+    <string name="menuTracksHistoryResume">Відновити</string>
     <string name="menuMeterLock">Блокувати</string>
     <string name="menuMeterLockAll">Блокувати усе</string>
     <string name="menuMeterMode">Режим лічильника…</string>
     <string name="menuMeterChooseModes">Вибір режиму…</string>
     <string name="menuMeterNewTrack">Новий трек</string>
-    <string name="menuMeterResetMinMax">Скинути мін / макс</string>
+    <string name="menuMeterResetMinMax">Скинути мін/макс</string>
     <string name="menuMeterParameters">Параметри…</string>
     <string name="menuMeterPowerMode">Перемкнути режим потужності</string>
     <string name="menuFenceguard">Приватна зона</string>
@@ -39,12 +39,12 @@
     <string name="menuView">Вид</string>
     <string name="menuProfiles">Профілі</string>
     <string name="menuSensors">Сенсори</string>
-    <string name="menuAbout">Про</string>
+    <string name="menuAbout">Опис</string>
     <string name="menuHelp">Допомога і підтримка</string>
     <string name="menuShare">Поділитися</string>
     <string name="menuSelectMode">Вибрати</string>
     <string name="menuSelectAll">Обрати усе</string>
-    <string name="menuExpandAll">Показати все</string>
+    <string name="menuExpandAll">Розкрити все</string>
     <string name="menuCollapseAll">Сховати все</string>
     <string name="menuEdit">Редагувати</string>
     <string name="menuDelete">Видалити</string>
@@ -55,11 +55,11 @@
     <string name="menuRateAndComment">Оцініть нас</string>
     <string name="menuRefresh">Оновити</string>
     <string name="menuSwitchProfile">Перемкнути</string>
-    <string name="share_title">Відправити через</string>
+    <string name="share_title">Відправити з</string>
     <string name="pick_a_color">Вибрати колір</string>
     <string name="fence_name_default">Моє місце</string>
     <string name="profileNameDefault">Новий профіль</string>
-    <string name="featureNotAvailable">На жаль, ця функція не підтримується цим пристроєм</string>
+    <string name="featureNotAvailable">Шкода, та ця функція не підтримується цим пристроєм</string>
     <string name="farFromHere">Далеко звідси</string>
     <string name="toastRestartRequired">Будь ласка, перезавантажте додаток, щоб зміни вступили в силу</string>
     <string name="toastActiveProfile">Профіль: %1$s
@@ -627,7 +627,7 @@
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Теку не вибрано.</string>
     <string name="pref_maps_offline_info_title">Завантажити</string>
-    <string name="pref_maps_offline_info_summary">Підтримуються векторні карти Mapsforge (.map) та растрові Rmaps (.sqlitedb). Скачати можна на .mapsforge.org</string>
+    <string name="pref_maps_offline_info_summary">Підтримуються векторні Mapsforge (.map) і растрові Rmaps (.sqlitedb) карти. Доступні для завантаження на download.mapsforge.org.</string>
     <string name="pref_maps_offline_warning_summary">Увага! Деякий об\'єм даних може викачуватися навіть в режимі офлайн. Будь ласка - вимкніть мобільний інтернет, якщо вам це важливо.</string>
     <string name="pref_maps_routes_draw_title">План маршруту</string>
     <string name="pref_maps_routes_info_title">Увага!</string>
@@ -642,7 +642,7 @@
     <string name="pref_maps_offline_terrain_title">Підсвічувати рельєф</string>
     <string name="pref_maps_offline_terrain_summary">(Всі профілі) Підсвічувати рельєф відтінками. Карта виглядатиме реалістичнішою, але, можливо, повільнішою. Потребує відповідних DEM (.hgt) файлів закачаних у теку з картами.</string>
     <string name="pref_maps_offline_terrain_info_title">Завантажити</string>
-    <string name="pref_maps_offline_terrain_info_summary">Відкрити сторінку із завантаженнями на viewfinderpanoramas.org</string>
+    <string name="pref_maps_offline_terrain_info_summary">Відкрити сторінку завантаження на viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Дія кнопки налаштування шарів</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Всі профілі) Виберіть що має відбуватися після натискання кнопки налаштування шарів</string>
     <string name="pref_button_autoring_enable_title">Увімкнення автоматичного дзвоника</string>
@@ -674,13 +674,11 @@
     <string name="pref_power_weights_summary">Водій: %1$s, Транспорт: %2$s, Вантаж: %3$s, Пасажири: %4$s, Колеса: %5$s
     </string>
     <string name="pref_power_coefs_title">Крефіцієнти</string>
-    <string name="pref_power_coefs_summary">Опір повітря: %1$s
-\nОпір коченню: %2$s
-    </string>
+    <string name="pref_power_coefs_summary">Площа лобового опору: %1$s
+\nОпір коченню: %2$s</string>
     <string name="pref_energy_params_title">Параметри енергії</string>
     <string name="pref_energy_params_summary">Ефективність: %1$s
-\nМетаболізм: %2$s
-    </string>
+\nМетаболізм: %2$s</string>
     <string name="pref_svg_data_enable_title">Згенерувати графіки</string>
     <string name="pref_svg_data_enable_summary">Згенерувати SVG графіки і дані для різних параметрів їзди</string>
     <string name="pref_svg_data_modes_select_title">Вибрати типи графіків…</string>
@@ -740,7 +738,7 @@
     <string name="infoMeterModeSpeedMsg">Швидкість — Поточна, Максимальна і Середня.</string>
     <string name="infoMeterModeVerticalSpeedTitle">Вертикальна швидкість</string>
     <string name="infoMeterModePaceTitle">Темп</string>
-    <string name="infoMeterModePaceMsg">Темп — Поточний, Максимальний та Середній.</string>
+    <string name="infoMeterModePaceMsg">Темп (зворотня швидкість) — Поточний, Максимальний та Середній.</string>
     <string name="infoMeterModeAccelerationTitle">Прискорення</string>
     <string name="infoMeterModeAccelerationMsg">Ступінь зміни швидкості — Поточна, Максимальна та Мінімальна.
 \n
@@ -771,11 +769,11 @@
     <string name="fbTemperatureMax">Темп. макс</string>
     <string name="menuLicense">Придбати ліцензію</string>
     <string name="licenseItemAlreadyOwned">Придбані ліцензії</string>
-    <string name="timePeriod_perWeek">/тиждень</string>
-    <string name="timePeriod_perMonth">/місяць</string>
-    <string name="timePeriod_per3Months">/квартал</string>
-    <string name="timePeriod_per6Months">/півріччя</string>
-    <string name="timePeriod_perYear">/рік</string>
+    <string name="timePeriod_perWeek">за тиждень</string>
+    <string name="timePeriod_perMonth">за місяць</string>
+    <string name="timePeriod_per3Months">за квартал</string>
+    <string name="timePeriod_per6Months">за півроку</string>
+    <string name="timePeriod_perYear">за рік</string>
     <string name="generalError">Сталися невідомі помилки. Спробуйте ще раз.</string>
     <string name="openSourceLicensesTitle">Вільні ліцензії</string>
     <!-- dialog_fenceguard_add_entries -->
@@ -1091,4 +1089,118 @@
     <string name="pref_speechProfileName_summary">(Всі профілі) Говорити назву профіля при перемиканні</string>
     <string name="pref_speechTrackingStatus_title">Відстеження</string>
     <string name="pref_speechTrackingStatus_summary">Говорити, коли стеження починається чи зупиняється</string>
+    <string name="prefMapTrackColorTitle">Колір трека</string>
+    <string name="prefMapGuideRouteColorTitle">Колір трека для слідування</string>
+    <string name="infoMeterModeWriggleMsg">Вимірює відхилення трека від прямої лінії, тобто як часто він заповнює площину замість створення прямої лінії. Нижче зазвичай краще.</string>
+    <string name="infoMeterModeAltitudeMsg">Висота над рівнем моря — Поточна, Максимальна та Мінімальна.
+\n
+\nЗауважте: Це значення деколи може запізнюватися через неминучі затримки цифрової фільтрації.</string>
+    <string name="infoMeterModeSlopeMsg">Нахил (градієнт) – вказує на відхилення рівня поверхні від горизонтального нуля. Вищі значення відображають крутіший підйом, від\'ємні означають спуск.
+\n
+\nЗауважте: Це значення може запізнюватися близько хвилини через неминучі затримки, викликані фільтрацією значень.</string>
+    <string name="infoMeterModeVerticalSpeedMsg">Швидкість підйому (додатні значення) чи спуску (від\'ємні значення) — Поточна, Максимальна та Мінімальна.
+\n
+\nЗауважте: Це значення може запізнюватися через неминучі затримки, викликані фільтрацією значень.</string>
+    <string name="infoMeterModeAvgActivePowerTitle">Середня поточна потужність</string>
+    <string name="infoMeterModeTemperatureMsg">Температура середовища, виміряна пристроєм — Поточна, Максимальна та Мінімальна.</string>
+    <string name="infoMeterModePressureMsg">Атмосферний тиск, виміряний пристроєм — Поточна, Максимальна та Мінімальна.</string>
+    <string name="infoMeterModeCadenceMsg">Також називають каденс. Кількість обертів педалей за хвилину, частота педалювання.</string>
+    <string name="infoMeterModeGearRatioMsg">Кількість обертів колеса у співвідношенні до обертів педалей за хвилину, тобто співвідношення передачі. Вище число означає вищу передачу.</string>
+    <string name="defaultProfileNameIndoor">Приміщення 🏠</string>
+    <string name="trackUploadDescriptionDefault">Ця активність записана за допомогою додатку Міський Велосипедист</string>
+    <string name="dialogReviewNudgeMessage">Подобається Міський Велосипедист\?</string>
+    <string name="dialogAppOptimizedPromptTitle">Оптимізація акумулятора</string>
+    <string name="dialogReviewNudgeMessage2">Дякуємо! Будь ласка, напишіть хороший відгук та поставте нам 5 зірочок у Play Store.</string>
+    <string name="dialogButtonRateOnPlayStore">Оцінити на Play Store</string>
+    <string name="meterModes_0">Тривалість</string>
+    <string name="meterModes_1">Відстань</string>
+    <string name="meterModes_2">Швидкість</string>
+    <string name="meterModes_3">Висота</string>
+    <string name="meterModes_4">Підйом</string>
+    <string name="meterModes_5">Спуск</string>
+    <string name="meterModes_6">Похил</string>
+    <string name="meterModes_7">Енергія</string>
+    <string name="meterModes_8">Ефективність</string>
+    <string name="meterModes_9">Сила</string>
+    <string name="meterModes_10">Поточна сила</string>
+    <string name="meterModes_11">Верт. сила</string>
+    <string name="meterModes_12">Верт. швидкість</string>
+    <string name="meterModes_13">Прискорення</string>
+    <string name="meterModes_14">Сер. швидкість</string>
+    <string name="meterModes_15">Сер. сила</string>
+    <string name="meterModes_16">Загальний час</string>
+    <string name="meterModes_17">Темп</string>
+    <string name="meterModes_18">Ритм</string>
+    <string name="meterModes_19">Серцебиття</string>
+    <string name="meterModes_20">Передача</string>
+    <string name="meterModes_21">Годинник</string>
+    <string name="meterModes_22">Петляння</string>
+    <string name="meterModes_23">Температура</string>
+    <string name="meterModes_24">Тиск</string>
+    <string name="meterModes_25">Одометр</string>
+    <string name="prefUnitsSlopeEntries_0">Відсоток [％]</string>
+    <string name="prefUnitsSlopeEntries_1">Градус [°]</string>
+    <string name="prefUnitsSlopeEntries_2">Проміле [‰]</string>
+    <string name="trackUploadActivityTypes_0">Велосипед</string>
+    <string name="trackUploadActivityTypes_1">Біг</string>
+    <string name="trackUploadActivityTypes_2">Ходьба</string>
+    <string name="aboutScreenWarmWelcome">Сподіваємося, вам подобається додаток 😊</string>
+    <string name="aboutScreenTranslationsTitle">Переклади</string>
+    <string name="aboutScreenTranslationsText">Допоможіть із перекладом та отримайте ліцензію безкоштовно! Більше інформації:</string>
+    <string name="infoMeterModeKineticEnergyTitle">Кінетична енергія</string>
+    <string name="meterModes_26">Кінетична енергія</string>
+    <string name="defaultProfileNameScooter">Самокат 🛴</string>
+    <string name="defaultProfileNameSki">Лижі 🎿</string>
+    <string name="speechUnitOneMeter">метр</string>
+    <string name="speechUnitTwoMeters">метри</string>
+    <string name="speechUnitManyMeters">метрів</string>
+    <string name="speechUnitOneKilometer">кілометр</string>
+    <string name="speechUnitTwoKilometers">кілометри</string>
+    <string name="speechUnitManyKilometers">кілометрів</string>
+    <string name="speechUnitOneFeet">фут</string>
+    <string name="speechUnitTwoFeets">фути</string>
+    <string name="speechUnitManyFeets">футів</string>
+    <string name="speechUnitOneMile">миля</string>
+    <string name="speechUnitTwoMiles">милі</string>
+    <string name="speechUnitManyMiles">миль</string>
+    <string name="speechUnitOneHour">година</string>
+    <string name="speechUnitTwoHours">години</string>
+    <string name="speechUnitManyHours">годин</string>
+    <string name="speechUnitOneMinute">хвилина</string>
+    <string name="speechUnitTwoMinutes">хвилини</string>
+    <string name="speechUnitManyMinutes">хвилин</string>
+    <string name="speechCountdownGo">Старт!</string>
+    <string name="pref_speechTallies_title">Проміжки</string>
+    <string name="pref_speechTallies_summary">Озвучувати проміжки</string>
+    <string name="pref_speechToasts_title">Короткі нотатки</string>
+    <string name="pref_speechToasts_summary">Озвучувати різні короткі нотатки</string>
+    <string name="pref_speechCountdown_title">Відлік</string>
+    <string name="pref_speechCountdown_summary">Озвучувати відлік</string>
+    <string name="pref_tally_clock_entries_0">Вимкнено</string>
+    <string name="pref_tally_clock_entries_3">5</string>
+    <string name="pref_tally_clock_entries_4">10</string>
+    <string name="pref_tally_clock_entries_5">15</string>
+    <string name="pref_tally_clock_entries_6">20</string>
+    <string name="pref_tally_clock_entries_7">30</string>
+    <string name="pref_tally_clock_entries_8">45</string>
+    <string name="pref_tally_clock_entries_9">60</string>
+    <string name="speechAscent">Підйом: %1$s</string>
+    <string name="speechDescent">Спуск: %1$s</string>
+    <string name="speechClock">Годинник: %1$s</string>
+    <string name="speechTrackingPause">Пауза</string>
+    <string name="speechTrackingStop">Зупинка</string>
+    <string name="speechTrackingGpsOk">GPS працює</string>
+    <string name="speechTrackingGpsWeak">Слабкий сигнал GPS</string>
+    <string name="dialogTrackEditTitleHint">Введіть назву</string>
+    <string name="dialogTrackEditNotesHint">Введіть нотатки тут</string>
+    <string name="summaryProfileName">Профіль</string>
+    <string name="summaryDeviceName">Пристрій</string>
+    <string name="pref_soundeffects_tally_altitude_title">Висота</string>
+    <string name="pref_soundeffects_tally_altitude_dialog_title">Проміжок висоти</string>
+    <string name="pref_maps_offline_usage_summary">Використання: Оберіть завантажений файл мапи вище.</string>
+    <string name="pref_maps_offline_terrain_usage_summary">Використання: Розпакуйте файли .hgt із завантажених архівів та помістіть їх у той же каталог, де розміщений файл карти (не використовуйте вкладених каталогів).</string>
+    <string name="pref_speechMasterSwitch_summary" translatable="true">\@null</string>
+    <string name="speechAltitude">Висота: %1$s</string>
+    <string name="speechIncreasing">Збільшується</string>
+    <string name="speechDecreasing">Зменшується</string>
 </resources>
