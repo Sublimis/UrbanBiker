@@ -287,6 +287,8 @@
     <string name="dialogMapsDownloadTitle">Offline maps download</string>
     <string name="dialogMapsDownloadText">Open the downloads web page now?</string>
     <string name="dialogMapsTerrainDownloadTitle">Terrain download</string>
+    <string name="dialogTrackEditTitleHint">Enter title here</string>
+    <string name="dialogTrackEditNotesHint">Enter your notes here</string>
     <string name="dialogTrackUploadWaitTitle">Please wait</string>
     <string name="dialogTrackUploadPreparing">Preparing track data…</string>
     <string name="dialogTrackUploadSending">Sending…</string>
@@ -499,6 +501,8 @@
     <string name="tracksHistoryListShareTrackDialogTitle">Share track to…</string>
     <string name="tracksHistoryListViewTrackDialogTitle">View track with…</string>
 
+    <string name="summaryProfileName">Profile</string>
+    <string name="summaryDeviceName">Device</string>
     <string name="summaryTotalWeight">Total weight</string>
     <string name="summaryWheelsWeight">Wheels weight</string>
     <string name="summaryEfficiency">Efficiency</string>
@@ -655,7 +659,6 @@
     <string name="pref_category_goto_title" translatable="false">@null</string>
     <string name="pref_category_mapsQuickZoom">QuickZoom</string>
     <string name="pref_category_mapsCache">Cache</string>
-    <string name="prefAllProfilesInfoTitle">Note!</string>
     <string name="prefAllProfilesInfoSummary">Preferences here are applicable to all profiles.</string>
 
     <string name="pref_app_language_title" translatable="false">@null</string>
@@ -800,6 +803,8 @@
     <string name="pref_soundeffects_tally_ascent_dialog_title">Ascent tally</string>
     <string name="pref_soundeffects_tally_descent_title">Descent</string>
     <string name="pref_soundeffects_tally_descent_dialog_title">Descent tally</string>
+    <string name="pref_soundeffects_tally_altitude_title">Altitude</string>
+    <string name="pref_soundeffects_tally_altitude_dialog_title">Altitude tally</string>
     <string name="pref_soundeffects_tally_clock_title">Clock</string>
     <string name="pref_soundeffects_tally_clock_dialog_title">Clock tally</string>
     <string name="pref_soundeffects_alarm_title">Enable</string>
@@ -827,7 +832,8 @@
     <string name="pref_maps_offline_file_summary">(All profiles) %1$s</string>
     <string name="pref_maps_offline_file_noFolderSelected">No folder selected.</string>
     <string name="pref_maps_offline_info_title">Download now</string>
-    <string name="pref_maps_offline_info_summary">Mapsforge vector (.map) and Rmaps raster (.sqlitedb) maps are supported. Available at download.mapsforge.org.\n\nUsage: Select the downloaded map file with the option above.</string>
+    <string name="pref_maps_offline_info_summary">Mapsforge vector (.map) and Rmaps raster (.sqlitedb) maps are supported. Available at download.mapsforge.org.</string>
+    <string name="pref_maps_offline_usage_summary">Usage: Select the downloaded map file with the option above.</string>
     <string name="pref_maps_offline_warning_summary">Warning: Some online data may be retrieved even in offline mode. Please disable mobile Internet before using maps, if concerned.</string>
     <string name="pref_maps_offline_resetToDefault_title" translatable="false">@string/pref_resetToDefault</string>
     <string name="pref_maps_routes_draw_title">Guide routes</string>
@@ -846,7 +852,8 @@
     <string name="pref_maps_offline_terrain_title">Render terrain</string>
     <string name="pref_maps_offline_terrain_summary">(All profiles) Render terrain elevation shades. Map will look more realistic, but probably slower. Requires DEM (.hgt) files present in the map folder.</string>
     <string name="pref_maps_offline_terrain_info_title">Download now</string>
-    <string name="pref_maps_offline_terrain_info_summary">Open up download page at viewfinderpanoramas.org.\n\nUsage: Extract .hgt files from the downloaded zip(s) and place them in the same folder where the offline map file resides (do not use separate subfolder).</string>
+    <string name="pref_maps_offline_terrain_info_summary">Open up download page at viewfinderpanoramas.org.</string>
+    <string name="pref_maps_offline_terrain_usage_summary">Usage: Extract .hgt files from the downloaded zip(s) and place them in the same folder where the offline map file resides (do not use separate subfolder).</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Layer button action</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(All profiles) Choose what to do when layer button gets pressed</string>
     <string name="pref_button_autoring_enable_title">Auto Ring toggle</string>
@@ -876,7 +883,6 @@
     <string name="pref_powermeter_display_mode_title" translatable="false">@null</string>
     <string name="pref_powermeter_display_mode_summary" translatable="false">@null</string>
     <string name="pref_powermeter_display_mode_dialog_title">Power display mode</string>
-    <string name="pref_powermeter_parameters_info_title">Note!</string>
     <string name="pref_powermeter_parameters_info_summary">For accurate power and energy readings, please make sure these parameters are correct!</string>
     <string name="pref_power_weights_title">Weights</string>
     <string name="pref_power_weights_summary">Driver: %1$s, Vehicle: %2$s, Cargo: %3$s, Passengers: %4$s, Wheels: %5$s</string>
@@ -905,7 +911,7 @@
     <string name="pref_soundsMasterSwitch_title">All sounds</string>
     <string name="pref_soundsMasterSwitch_summary" translatable="false">@null</string>
     <string name="pref_speechMasterSwitch_title">Enable</string>
-    <string name="pref_speechMasterSwitch_summary" translatable="false">@null</string>
+    <string name="pref_speechMasterSwitch_summary" translatable="true">@null</string>
     <string name="pref_speechProfileName_title">Profile name</string>
     <string name="pref_speechProfileName_summary">(All profiles) Speak profile name on profile switch</string>
     <string name="pref_speechTrackingStatus_title">Tracking</string>
@@ -920,7 +926,6 @@
     <string name="prefBarometricAltitudeSummary">Use inbuilt barometer to enhance altitude accuracy</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Thermo barometer</string>
     <string name="prefBaroAltitudeUsesTemperatureSummary">Use temperature sensor data for more accurate barometric altitudes</string>
-    <string name="prefBarometricAltitudeNoteTitle">Note!</string>
     <string name="prefBarometricAltitudeNoteSummary">Use these only in the open atmosphere! Please disable while in pressurized, closed or air-conditioned vehicles like cars or airplanes!</string>
     <string name="prefTemperatureSensorDerivedTitle">Use derived sensor</string>
     <string name="prefTemperatureSensorDerivedSummary">This device lacks ambient temperature sensor, but it can be derived using other sensors. Please read more in Help.</string>
@@ -1313,11 +1318,11 @@
 
     <string name="licenseItemAlreadyOwned">License item already owned</string>
 
-    <string name="timePeriod_perWeek">/week</string>
-    <string name="timePeriod_perMonth">/mo</string>
-    <string name="timePeriod_per3Months">/3 mo</string>
-    <string name="timePeriod_per6Months">/6 mo</string>
-    <string name="timePeriod_perYear">/yr</string>
+    <string name="timePeriod_perWeek">per week</string>
+    <string name="timePeriod_perMonth">per month</string>
+    <string name="timePeriod_per3Months">per 3 months</string>
+    <string name="timePeriod_per6Months">per 6 months</string>
+    <string name="timePeriod_perYear">per year</string>
 
     <string name="generalError">Some error occurred. Please try again.</string>
     <string name="openSourceLicensesTitle">Open source licenses</string>
@@ -1354,11 +1359,14 @@
     <string name="speechUnitTwoMinutes">Minutes</string>
     <string name="speechUnitManyMinutes">Minutes</string>
 
+    <string name="speechAltitude">Altitude: %1$s</string>
     <string name="speechAscent">Climb: %1$s</string>
     <string name="speechDescent">Drop: %1$s</string>
     <string name="speechClock">Clock: %1$s</string>
 
     <string name="speechCountdownGo">Go!</string>
+    <string name="speechIncreasing">Rising</string>
+    <string name="speechDecreasing">Dropping</string>
 
     <string name="speechTrackingPause">Pause</string>
     <string name="speechTrackingStop">Stop</string>
