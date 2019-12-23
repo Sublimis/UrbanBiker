@@ -720,9 +720,7 @@
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Nessuna cartella selezionata.</string>
     <string name="pref_maps_offline_info_title">Scarica ora</string>
-    <string name="pref_maps_offline_info_summary">Sono supportate le mappe vettoriali Mapsforge (.map) e raster Rmaps (.sqlitedb). Disponibili all\'indirizzo download.mapsforge.org
-\n
-\nUso: seleziona la mappa scaricata con l\'opzione sopra.</string>
+    <string name="pref_maps_offline_info_summary">Sono supportate le mappe vettoriali Mapsforge (.map) e raster Rmaps (.sqlitedb). Disponibili all\'indirizzo download.mapsforge.org.</string>
     <string name="pref_maps_offline_warning_summary">Attenzione: anche se in modalità fuori linea, alcuni dati in linea potrebbero essere recuperati. Disabilitare, se necessario, i dati Internet prima di usare le mappe.</string>
     <string name="pref_maps_routes_draw_title">Itinerari guida</string>
     <string name="pref_maps_routes_draw_summary">Itinerari GPX selezionati da cartina come linee punteggiate sulla mappa</string>
@@ -738,9 +736,7 @@
     <string name="pref_maps_offline_terrain_title">Rappresentazione del terreno</string>
     <string name="pref_maps_offline_terrain_summary">(Tutti i profili) Rappresenta le variazioni altimetriche. La mappa sembrerà più realistica ma sarà più lenta. Richiede i file DEM (.hgt) nella cartella della mappa.</string>
     <string name="pref_maps_offline_terrain_info_title">Scarica ora</string>
-    <string name="pref_maps_offline_terrain_info_summary">Apri la pagina di scaricamento in viewfinderpanoramas.org
-\n
-\nUso: estrai i file .hgt dall\'archivio scaricato e salvali nella stessa cartella in cui si trova il file della mappa fuori linea (non usare sotto-cartelle separate).</string>
+    <string name="pref_maps_offline_terrain_info_summary">Apri la pagina di scaricamento in viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Azione del pulsante Livello</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Tutti i profili) Scegli cosa fare quando premi il pulsante Livello</string>
     <string name="pref_button_autoring_enable_title">Campanello automatico sì/no</string>
@@ -930,11 +926,11 @@
     <string name="menuLicense">Acquista la licenza</string>
     <string name="dialogReviewNudgeMessage">Ti stai divertendo con Urban Biker\?</string>
     <string name="licenseItemAlreadyOwned">Già in possesso della licenza</string>
-    <string name="timePeriod_perWeek">/settimana</string>
-    <string name="timePeriod_perMonth">/mese</string>
-    <string name="timePeriod_per3Months">/3 mesi</string>
-    <string name="timePeriod_per6Months">/6 mesi</string>
-    <string name="timePeriod_perYear">/anno</string>
+    <string name="timePeriod_perWeek">per settimana</string>
+    <string name="timePeriod_perMonth">per mese</string>
+    <string name="timePeriod_per3Months">per 3 mesi</string>
+    <string name="timePeriod_per6Months">per 6 mesi</string>
+    <string name="timePeriod_perYear">per anno</string>
     <string name="generalError">Si è verificato un errore. Riprovare.</string>
     <string name="openSourceLicensesTitle">Licenze open source</string>
     <!-- dialog_fenceguard_add_entries -->
@@ -1281,4 +1277,15 @@
     <string name="speechTrackingStop">Stop</string>
     <string name="speechTrackingGpsOk">GPS OK</string>
     <string name="speechTrackingGpsWeak">Nessun GPS</string>
+    <string name="dialogTrackEditTitleHint">Digita qui il titolo</string>
+    <string name="dialogTrackEditNotesHint">Scrivi qui le tue note</string>
+    <string name="summaryProfileName">Profilo</string>
+    <string name="summaryDeviceName">Dispositivo</string>
+    <string name="pref_soundeffects_tally_altitude_title">Altitudine</string>
+    <string name="pref_soundeffects_tally_altitude_dialog_title">Conteggio altitudine</string>
+    <string name="pref_maps_offline_usage_summary">Uso: seleziona il file di mappa scaricato con l\'opzione sopra.</string>
+    <string name="pref_maps_offline_terrain_usage_summary">Uso: estrai i file .hgt dall\'archivio zip scaricato e mettili nella stessa cartella in cui si trova il file mappa della mappa fuori linea (non usare sotto-cartelle separate).</string>
+    <string name="speechAltitude">Altitudine: %1$s</string>
+    <string name="speechIncreasing">In salita</string>
+    <string name="speechDecreasing">In discesa</string>
 </resources>
