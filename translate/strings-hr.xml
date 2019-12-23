@@ -39,7 +39,7 @@
     <string name="menuExit">Izlaz</string>
     <string name="menuMore">Više…</string>
     <string name="menuView">Pregledaj</string>
-    <string name="menuViewWith">Pregledaj s…</string>
+    <string name="menuViewWith">Pregledaj s</string>
     <string name="menuProfiles">Profili</string>
     <string name="menuSensors">Senzori</string>
     <string name="menuAbout">O aplikaciji</string>
@@ -690,9 +690,7 @@
     <string name="pref_maps_offline_file_summary">(Svi profili) %1$s</string>
     <string name="pref_maps_offline_file_noFolderSelected">Folder nije odabran.</string>
     <string name="pref_maps_offline_info_title">Preuzmi sada</string>
-    <string name="pref_maps_offline_info_summary">Mapsforge vektorske (.map) i Rmaps rasterske (.sqlitedb) mape su podržane. Dostupne na download.mapsforge.org
-\n
-\nUpotreba: Odaberite preuzetu datoteku karte s gornjom opcijom.</string>
+    <string name="pref_maps_offline_info_summary">Mapsforge vektorske (.map) i Rmaps rasterske (.sqlitedb) mape su podržane. Dostupne na download.mapsforge.org.</string>
     <string name="pref_maps_offline_warning_summary">Upozorenje: Neki online podaci se mogu dohvaćati čak i u offline načinu. Molimo onemogućite mobilni Internet prije korištenja mapa, ukoliko vas brine.</string>
     <string name="pref_maps_routes_draw_title">Trase navođenja</string>
     <string name="pref_maps_routes_draw_summary">Iscrtaj odabrane GPX rute kao točkaste crte na karti</string>
@@ -708,9 +706,7 @@
     <string name="pref_maps_offline_terrain_title">Prikazuj teren</string>
     <string name="pref_maps_offline_terrain_summary">(Svi profili) Prikaz sjena izdizanja terena. Mapa će izgledati realistično, ali vjerojatno biti sporija. Zahtijeva DEM (.hgt) datoteke prisutne u folderu mape.</string>
     <string name="pref_maps_offline_terrain_info_title">Preuzmi sada</string>
-    <string name="pref_maps_offline_terrain_info_summary">Otvoriti web stranicu za preuzimanje na viewfinderpanoramas.org
-\n
-\nUpotreba: Izvucite .hgt datoteke iz preuzetih zip-ova i stavite ih u isti folder u kojemu se nalazi datoteka offline mape (ne koristite zasebni folder).</string>
+    <string name="pref_maps_offline_terrain_info_summary">Otvoriti web stranicu za preuzimanje na viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Akcija gumba sloja</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Svi profili) Odaberite što učiniti kad pritisnete gumb sloja</string>
     <string name="pref_button_autoring_enable_title">Automatsko zvonce</string>
@@ -873,11 +869,11 @@
     <string name="menuLicense">Kupi licencu</string>
     <string name="dialogReviewNudgeMessage">Uživate li u Urban Bikeru\?</string>
     <string name="licenseItemAlreadyOwned">Stavka je već u vlasništvu</string>
-    <string name="timePeriod_perWeek">/tjedan</string>
-    <string name="timePeriod_perMonth">/mj</string>
-    <string name="timePeriod_per3Months">/3 mj</string>
-    <string name="timePeriod_per6Months">/6 mj</string>
-    <string name="timePeriod_perYear">/god</string>
+    <string name="timePeriod_perWeek">tjedno</string>
+    <string name="timePeriod_perMonth">mjesečno</string>
+    <string name="timePeriod_per3Months">svaka 3 mjeseca</string>
+    <string name="timePeriod_per6Months">svakih 6 mjeseci</string>
+    <string name="timePeriod_perYear">godišnje</string>
     <string name="generalError">Došlo je do pogreške. Molimo pokušajte ponovo.</string>
     <string name="openSourceLicensesTitle">Licence otvorenog koda</string>
     <string name="toastMapClickInfo">Dugo taknite za postavke mape</string>
@@ -1224,4 +1220,15 @@
     <string name="speechTrackingStop">Stop</string>
     <string name="speechTrackingGpsOk">GPS u redu</string>
     <string name="speechTrackingGpsWeak">Nema GPS-a</string>
+    <string name="dialogTrackEditTitleHint">Ovdje unesite naslov</string>
+    <string name="dialogTrackEditNotesHint">Ovdje unesite svoje bilješke</string>
+    <string name="summaryProfileName">Profil</string>
+    <string name="summaryDeviceName">Uređaj</string>
+    <string name="pref_soundeffects_tally_altitude_title">Visina</string>
+    <string name="pref_soundeffects_tally_altitude_dialog_title">Oznaka visine</string>
+    <string name="pref_maps_offline_usage_summary">Upotreba: Odaberite preuzetu datoteku karte s gornjom opcijom.</string>
+    <string name="pref_maps_offline_terrain_usage_summary">Upotreba: Izvucite .hgt datoteke iz preuzetih zip-ova i stavite ih u isti folder u kojemu se nalazi datoteka offline mape (ne koristite zasebni folder).</string>
+    <string name="speechAltitude">Visina: %1$s</string>
+    <string name="speechIncreasing">Raste</string>
+    <string name="speechDecreasing">Pada</string>
 </resources>
