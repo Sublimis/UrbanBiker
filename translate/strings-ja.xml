@@ -441,9 +441,7 @@
     <string name="pref_maps_offline_file_summary">(全プロファイル) %1$s</string>
     <string name="pref_maps_offline_file_noFolderSelected">フォルダー未選択。</string>
     <string name="pref_maps_offline_info_title">ただちにダウンロード</string>
-    <string name="pref_maps_offline_info_summary">Mapsforge ベクター地図 (.map)、Rmaps ビットマップ地図 (.sqlitedb) が使えます。いずれも download.mapsforge.org からダウンロード可能です。
-\n
-\n使用法: 上記のサイトからダウンロードした地図ファイルを指定してください。</string>
+    <string name="pref_maps_offline_info_summary">Mapsforge ベクター地図 (.map)、Rmaps ビットマップ地図 (.sqlitedb) が使えます。いずれも download.mapsforge.org からダウンロード可能です。</string>
     <string name="pref_maps_routes_draw_title">ナビゲーション</string>
     <string name="pref_maps_routes_draw_summary">指定した GPX ルートを、地図上に破線で表示します</string>
     <string name="pref_maps_routes_info_title">メモ!</string>
@@ -749,10 +747,10 @@
     <string name="batteryOptimizationToast">一覧から Urban Biker を選択してください</string>
     <string name="licenseItemAlreadyOwned">すでにライセンス登録されています</string>
     <string name="timePeriod_perWeek">/週</string>
-    <string name="timePeriod_perMonth">/1ヶ月</string>
+    <string name="timePeriod_perMonth">/月</string>
     <string name="timePeriod_per3Months">/3ヶ月</string>
     <string name="timePeriod_per6Months">/6ヶ月</string>
-    <string name="timePeriod_perYear">/1年</string>
+    <string name="timePeriod_perYear">/年</string>
     <string name="generalError">エラー発生。再起動してください。</string>
     <string name="openSourceLicensesTitle">オープンソースライセンス</string>
     <string name="dialogReviewNudgeMessage2">ありがとうございます。Google Play Store での良い評価、高得点を期待しています。</string>
@@ -959,9 +957,7 @@
     <string name="pref_maps_routes_info_summary">これ以外、表示や音でナビゲーションを案内するものはありません</string>
     <string name="pref_maps_quickZoom_summary">(全プロファイル) 地図下方にクイックズームボタンを表示します、現在地確認が容易になります</string>
     <string name="pref_maps_offline_terrain_summary">(全プロファイル) 地形の高低を描きます。地図はよりリアルになりますが、描画が遅くなります。地図フォルダーに DEM (.hgt) ファイルが必要です。</string>
-    <string name="pref_maps_offline_terrain_info_summary">viewfinderpanoramas.orgでダウンロードページを開きます。
-\n
-\n使用法：ダウンロードしたzipから.hgtファイルを抽出し、オフラインマップファイルが存在する同じフォルダーに配置します（サブフォルダーは使用しないでください）。</string>
+    <string name="pref_maps_offline_terrain_info_summary">viewfinderpanoramas.orgでダウンロードページを開きます。</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(全プロファイル) レイヤーボタンでの動作を選択</string>
     <string name="pref_button_autoring_enable_title">自動ベルのオン・オフ</string>
     <string name="pref_button_autoring_enable_summary">速度計長押しでの自動ベルオン・オフ切り替えを有効に</string>
@@ -1197,4 +1193,15 @@
     <string name="speechTrackingStop">停止</string>
     <string name="speechTrackingGpsOk">GPS OK</string>
     <string name="speechTrackingGpsWeak">GPS ×</string>
+    <string name="dialogTrackEditTitleHint">ここにタイトルを入力してください</string>
+    <string name="dialogTrackEditNotesHint">ここにメモを入力してください</string>
+    <string name="summaryProfileName">プロファイル</string>
+    <string name="summaryDeviceName">デバイス</string>
+    <string name="pref_soundeffects_tally_altitude_title">高度</string>
+    <string name="pref_soundeffects_tally_altitude_dialog_title">高度</string>
+    <string name="pref_maps_offline_usage_summary">使用方法: 上記のオプションでダウンロードしたマップファイルを選択してください。</string>
+    <string name="pref_maps_offline_terrain_usage_summary">使用方法: ダウンロードしたzipファイルから.hgtファイルを取り出し、オフラインマップファイルと同じフォルダに格納してください(個別のサブフォルダは使用しないでください)。</string>
+    <string name="speechAltitude">高度: %1$s</string>
+    <string name="speechIncreasing">上昇</string>
+    <string name="speechDecreasing">低下</string>
 </resources>
