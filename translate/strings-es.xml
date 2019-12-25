@@ -513,9 +513,7 @@
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Ninguna carpeta seleccionada.</string>
     <string name="pref_maps_offline_info_title">Descargar ahora</string>
-    <string name="pref_maps_offline_info_summary">Soportados mapas Mapsforge vector (.map) y Rmaps raster (.sqlitedb). Disponibles en download.mapsforge.org
-\n
-\nUso: Seleccione el archivo de mapa descargado con la opción anterior.</string>
+    <string name="pref_maps_offline_info_summary">Soportados mapas Mapsforge vector (.map) y Rmaps raster (.sqlitedb). Disponibles en download.mapsforge.org.</string>
     <string name="pref_maps_offline_warning_summary">Advertencia: Algunos datos pueden ser descargados incluso si está en modo sin conexión. Por favor, si eso le preocupa, desactive el acceso a Internet móvil antes de usar mapas.</string>
     <string name="pref_maps_routes_draw_title">Rutas guiadas</string>
     <string name="pref_maps_routes_info_title">Nota!</string>
@@ -1016,9 +1014,7 @@
     <string name="pref_maps_offline_terrain_title">Renderizar terreno</string>
     <string name="pref_maps_offline_terrain_summary">"(Todos los perfiles) Renderizar sombras de elevación del terreno.  El mapa se verá más realista, pero probablemente más lento. Requiere archivos DEM (.hgt) presentes en la carpeta del mapa."</string>
     <string name="pref_maps_offline_terrain_info_title">Descargar ahora</string>
-    <string name="pref_maps_offline_terrain_info_summary">Abra la página de descarga en viewfinderpanoramas.org.
-\n
-\nUso: Extraiga los archivos .hgt de los zip descargados y colóquelos en la misma carpeta donde reside el archivo de mapa sin conexión (no use una subcarpeta separada).</string>
+    <string name="pref_maps_offline_terrain_info_summary">Abra la página de descarga en viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Acción del botón de capa</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Todos los perfiles) Elija qué hacer cuando se presiona el botón de capa</string>
     <string name="pref_svg_data_enable_summary">Generar archivos de datos de gráficos SVG para varios parámetros de recorrido</string>
@@ -1081,11 +1077,11 @@
 \n¿Abrir configuración ahora\?</string>
     <string name="batteryOptimizationToast">Seleccione Urban Biker de la lista</string>
     <string name="licenseItemAlreadyOwned">En posesión de una licencia</string>
-    <string name="timePeriod_perWeek">/semana</string>
-    <string name="timePeriod_perMonth">/mes</string>
-    <string name="timePeriod_per3Months">/3 meses</string>
-    <string name="timePeriod_per6Months">/6 meses</string>
-    <string name="timePeriod_perYear">/año</string>
+    <string name="timePeriod_perWeek">por semana</string>
+    <string name="timePeriod_perMonth">por mes</string>
+    <string name="timePeriod_per3Months">por 3 meses</string>
+    <string name="timePeriod_per6Months">por 6 meses</string>
+    <string name="timePeriod_perYear">por año</string>
     <string name="generalError">Se produjo un error. Por favor, intente nuevamente.</string>
     <string name="openSourceLicensesTitle">Licencias de código abierto</string>
     <string name="dialogReviewNudgeMessage2">"¡Gracias!  Por favor escriba una buena reseña o califíquenos con 5 estrellas en Play Store."</string>
@@ -1221,4 +1217,16 @@
     <string name="speechTrackingStop">Parado</string>
     <string name="speechTrackingGpsOk">GPS OK</string>
     <string name="speechTrackingGpsWeak">Sin GPS</string>
+    <string name="dialogTrackEditTitleHint">Introduzca el título aquí</string>
+    <string name="dialogTrackEditNotesHint">Introduzca aquí sus notas</string>
+    <string name="summaryProfileName">Perfil</string>
+    <string name="summaryDeviceName">Dispositivo</string>
+    <string name="pref_soundeffects_tally_altitude_title">Altitud</string>
+    <string name="pref_soundeffects_tally_altitude_dialog_title">Contador de altitud</string>
+    <string name="pref_maps_offline_usage_summary">Uso: Seleccione el archivo de mapa descargado con la opción anterior.</string>
+    <string name="pref_maps_offline_terrain_usage_summary">Uso: Extraiga los archivos .hgt de los zip descargados y colóquelos en la misma carpeta donde reside el archivo de mapa sin conexión (no use una subcarpeta separada).</string>
+    <string name="pref_speechMasterSwitch_summary" translatable="true">Usar alertas de voz para hitos y cuenta regresiva</string>
+    <string name="speechAltitude">Altitud: %1$s</string>
+    <string name="speechIncreasing">Ascendiendo</string>
+    <string name="speechDecreasing">Descendiendo</string>
 </resources>
