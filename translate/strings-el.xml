@@ -680,9 +680,7 @@
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Δεν επιλέχθηκε φάκελος.</string>
     <string name="pref_maps_offline_info_title">Λήψη τώρα</string>
-    <string name="pref_maps_offline_info_summary">Οι χάρτες Mapsforge vector (.map) και Rmaps raster (.sqlitedb) υποστηρίζονται. Διαθέσιμοι στο download.mapsforge.org
-\n
-\nΧρήση: Επιλέξτε το ληφθέν αρχείο χάρτη με την παραπάνω επιλογή.</string>
+    <string name="pref_maps_offline_info_summary">Οι χάρτες Mapsforge vector (.map) και Rmaps raster (.sqlitedb) υποστηρίζονται. Διαθέσιμοι στο download.mapsforge.org.</string>
     <string name="pref_maps_offline_warning_summary">Προειδοποίηση: Μπορεί να ανακτηθούν κάποια δεδομένα, ακόμα και σε λειτουργία εκτός σύνδεσης. Παρακαλούμε να απενεργοποιήσετε τα δεδομένα κινητού πριν από τη χρήση χαρτών αν σας απασχολεί.</string>
     <string name="pref_maps_routes_draw_title">Καθοδηγούμενες διαδρομές</string>
     <string name="pref_maps_routes_info_title">Σημείωση!</string>
@@ -697,9 +695,7 @@
     <string name="pref_maps_offline_terrain_title">Απόδοση εδάφους</string>
     <string name="pref_maps_offline_terrain_summary">(Όλα τα προφίλ) Απόδοση ανύψωσης εδάφους με σκιαγράφηση. Ο χάρτης θα φαίνεται πιο ρεαλιστικός, αλλά πιθανότατα πιο αργός. Απαιτεί αρχεία DEM (.hgt) παρόντα στο φάκελο του χάρτη.</string>
     <string name="pref_maps_offline_terrain_info_title">Λήψη τώρα</string>
-    <string name="pref_maps_offline_terrain_info_summary">Ανοίξτε τη σελίδα λήψης στο viewfinderpanoramas.org
-\n
-\nΧρήση: Εξάγετε τα αρχεία .hgt από τα ληφθέντα zip(s) και τοποθετήστε τα στον ίδιο φάκελο όπου βρίσκεται το αρχείο χάρτη εκτός σύνδεσης (μην χρησιμοποιείτε ξεχωριστό υποφάκελο).</string>
+    <string name="pref_maps_offline_terrain_info_summary">Ανοίξτε τη σελίδα λήψης στο viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Λειτουργία πλήκτρου επιπέδων</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Όλα τα προφίλ) Επιλέξτε την λειτουργία του πλήκτρου επιπέδων</string>
     <string name="pref_button_autoring_enable_title">Εναλλαγή αυτόματου κουδουνιού</string>
@@ -834,11 +830,11 @@
     <string name="trackUploadDescriptionDefault">Η δραστηριότητα αυτή καταγράφηκε χρησιμοποιώντας την εφαρμογή Urban Biker</string>
     <string name="menuLicense">Αγορά άδειας</string>
     <string name="licenseItemAlreadyOwned">Το στοιχείο της άδειας είναι ήδη διαθέσιμο</string>
-    <string name="timePeriod_perWeek">/εβδομάδα</string>
-    <string name="timePeriod_perMonth">/μήνα</string>
-    <string name="timePeriod_per3Months">/3 μήνες</string>
-    <string name="timePeriod_per6Months">/6 μήνες</string>
-    <string name="timePeriod_perYear">/έτος</string>
+    <string name="timePeriod_perWeek">ανά εβδομάδα</string>
+    <string name="timePeriod_perMonth">ανά μήνα</string>
+    <string name="timePeriod_per3Months">ανά 3 μήνες</string>
+    <string name="timePeriod_per6Months">ανά 6 μήνες</string>
+    <string name="timePeriod_perYear">ανά έτος</string>
     <string name="generalError">Παρουσιάστηκε κάποιο σφάλμα. Παρακαλούμε προσπαθήστε ξανά.</string>
     <string name="openSourceLicensesTitle">Άδειες ανοιχτού κώδικα</string>
     <!-- dialog_fenceguard_add_entries -->
@@ -1096,8 +1092,8 @@
     <string name="prefMapTrackColorTitle">Χρώμα διαδρομής</string>
     <string name="prefMapGuideRouteColorTitle">Χρώμα διαδρομής οδηγού</string>
     <string name="infoMeterModeWriggleMsg">Μέτρο της απόκλισης της διαδρομής από μια ευθεία γραμμή, δηλαδή πόσο γεμίζει την περιοχή αντί να πηγαίνει ευθεία. Χαμηλότερα είναι συνήθως καλύτερα.</string>
-    <string name="infoMeterModeAltitudeMsg">Ύψος πάνω από τη μέση στάθμη της θάλασσας (γεωδετικό) - Τρέχον, μέγιστο και ελάχιστο.
-\n
+    <string name="infoMeterModeAltitudeMsg">Ύψος πάνω από τη μέση στάθμη της θάλασσας (γεωδαιτικό) - Τρέχον, μέγιστο και ελάχιστο. 
+\n 
 \nΣημείωση: Μπορεί να υπάρχει καθυστέρηση από την πραγματική ώρα, λόγω των αναπόφευκτων καθυστερήσεων του ψηφιακού φιλτραρίσματος.</string>
     <string name="infoMeterModeSlopeMsg">Κλίση (βαθμίδα), ένας αριθμός που περιγράφει την κλίση του εδάφους όπου το μηδέν είναι οριζόντιο. Υψηλότερος αριθμός σημαίνει ανάβαση, και αρνητικός είναι για την κάθοδο.
 \n
@@ -1236,4 +1232,15 @@
     <string name="speechTrackingStop">Σταματημένο</string>
     <string name="speechTrackingGpsOk">GPS Εντάξει</string>
     <string name="speechTrackingGpsWeak">Χωρίς GPS</string>
+    <string name="dialogTrackEditTitleHint">Εισάγετε τον τίτλο εδώ</string>
+    <string name="dialogTrackEditNotesHint">Εισαγάγετε τις σημειώσεις σας εδώ</string>
+    <string name="summaryProfileName">Προφίλ</string>
+    <string name="summaryDeviceName">Συσκευή</string>
+    <string name="pref_soundeffects_tally_altitude_title">Υψόμετρο</string>
+    <string name="pref_soundeffects_tally_altitude_dialog_title">Ορόσημο υψόμετρου</string>
+    <string name="pref_maps_offline_usage_summary">Χρήση: Επιλέξτε το ληφθέν αρχείο χάρτη με την παραπάνω επιλογή.</string>
+    <string name="pref_maps_offline_terrain_usage_summary">Χρήση: Εξάγετε τα αρχεία .hgt από τα ληφθέντα zip(s) και τοποθετήστε τα στον ίδιο φάκελο όπου βρίσκεται το αρχείο χάρτη εκτός σύνδεσης (μην χρησιμοποιείτε ξεχωριστό υποφάκελο).</string>
+    <string name="speechAltitude">Υψόμετρο: %1$s</string>
+    <string name="speechIncreasing">Ύψωση</string>
+    <string name="speechDecreasing">Πτώση</string>
 </resources>
