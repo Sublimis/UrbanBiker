@@ -691,9 +691,7 @@
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Папка не выбрана</string>
     <string name="pref_maps_offline_info_title">Загрузить</string>
-    <string name="pref_maps_offline_info_summary">Поддерживаются векторные (.map) и растровые (.sqlitedb) карты. Доступны для скачивания на mapsforge.org.
-\n
-\nИспользование: выберите загруженный файл карты с параметрами выше.</string>
+    <string name="pref_maps_offline_info_summary">Поддерживаются векторные (Mapsforge .map) и растровые (Rmaps .sqlitedb) карты. Доступны на download.mapsforge.org.</string>
     <string name="pref_maps_offline_warning_summary">Внимание: даже в автономном режиме может передаваться некоторый объём данных. Если это нежелательно, отключите мобильный интернет перед использованием карт.</string>
     <string name="pref_maps_routes_draw_title">Руководство по маршрутам</string>
     <string name="pref_maps_routes_info_title">Примечание!</string>
@@ -708,9 +706,7 @@
     <string name="pref_maps_offline_terrain_title">Показывать рельеф</string>
     <string name="pref_maps_offline_terrain_summary">(Все профили) Показывать рельеф местности. Карта будет выглядеть более реалистичной, но, скорее всего, отображаться будет медленнее. Необходимо, чтобы файлы DEM (.hgt) находились в папке с картами.</string>
     <string name="pref_maps_offline_terrain_info_title">Загрузить</string>
-    <string name="pref_maps_offline_terrain_info_summary">Открыть страницу загрузки сайта viewfinderpanoramas.org.
-\n
-\nИспользование: извлечение файлы .hgt из загруженных zip-файлов и поместите их в ту же папку, где находится автономный файл карты (не используйте отдельную подпапку).</string>
+    <string name="pref_maps_offline_terrain_info_summary">Открыть страницу загрузки сайта viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Действие кнопки «Слои»</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Все профили) Выберите, что будет происходить при нажатии кнопки «Слои»</string>
     <string name="pref_button_autoring_enable_title">Режим автозвонка</string>
@@ -845,11 +841,11 @@
     <string name="trackUploadDescriptionDefault">Эта активность была записана с помощью мобильного приложения Urban Biker</string>
     <string name="menuLicense">Покупка лицензии</string>
     <string name="licenseItemAlreadyOwned">Функция уже лицензирована</string>
-    <string name="timePeriod_perWeek">/неделя</string>
-    <string name="timePeriod_perMonth">/месяц</string>
-    <string name="timePeriod_per3Months">/3 месяца</string>
-    <string name="timePeriod_per6Months">/6 месяцев</string>
-    <string name="timePeriod_perYear">/год</string>
+    <string name="timePeriod_perWeek">в неделю</string>
+    <string name="timePeriod_perMonth">в месяц</string>
+    <string name="timePeriod_per3Months">в 3 месяца</string>
+    <string name="timePeriod_per6Months">в 6 месяцев</string>
+    <string name="timePeriod_perYear">в год</string>
     <string name="generalError">Произошла неизвестная ошибка. Попробуйте ещё раз.</string>
     <string name="openSourceLicensesTitle">Лицензии Open source</string>
     <!-- dialog_fenceguard_add_entries -->
@@ -1236,4 +1232,15 @@
     <string name="speechTrackingStop">Прекращено</string>
     <string name="speechTrackingGpsOk">GPS в порядке</string>
     <string name="speechTrackingGpsWeak">GPS отсутствует</string>
+    <string name="dialogTrackEditTitleHint">Заголовок</string>
+    <string name="dialogTrackEditNotesHint">Заметки</string>
+    <string name="summaryProfileName">Профиль</string>
+    <string name="summaryDeviceName">Устройство</string>
+    <string name="pref_soundeffects_tally_altitude_title">Высота</string>
+    <string name="pref_soundeffects_tally_altitude_dialog_title">Учёт высоты</string>
+    <string name="pref_maps_offline_usage_summary">Использование: выберите загруженный файл карты с помощью функции выше.</string>
+    <string name="pref_maps_offline_terrain_usage_summary">Использование: извлечение файлы .hgt из загруженных zip-файлов и поместите их в ту же папку, где находится автономный файл карты (не используйте отдельную подпапку).</string>
+    <string name="speechAltitude">Высота: %1$s</string>
+    <string name="speechIncreasing">Подъём</string>
+    <string name="speechDecreasing">Спуск</string>
 </resources>
