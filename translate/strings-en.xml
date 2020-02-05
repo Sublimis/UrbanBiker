@@ -29,27 +29,35 @@
 
     <string name="ultimateLicenseTitle">Ultimate License</string>
     <string name="ultimateLicenseDescription">Most powerful license for ultimate experience.</string>
-    <string name="ultimateLicenseFeatures">✔ No ads ✔ All maps ✔ All features</string>
+    <string name="ultimateLicenseFeatures">🔹 All maps\n🔹 All features\n🔹 No ads</string>
 
     <string name="proPlusLicenseTitle">Pro Plus License</string>
     <string name="proPlusLicenseDescription">Remove ads and unlock all non-subscription features we may add in the future</string>
-    <string name="proPlusLicenseFeatures">✔ No ads ✔ All features</string>
+    <string name="proPlusLicenseFeatures">🔹 No ads\n🔹 Extra donation</string>
 
     <string name="proLicenseTitle">Pro License</string>
     <string name="proLicenseDescription">Remove ads</string>
-    <string name="proLicenseFeatures">✔ No ads</string>
+    <string name="proLicenseFeatures">🔹 No ads</string>
 
-    <string name="thunderforestMapsFeatures">✔ No ads ✔ Thunderforest maps</string>
-    <string name="mapboxMapsFeatures">✔ No ads ✔ Mapbox maps</string>
+    <string name="thunderforestMapsFeatures">🔹 Thunderforest maps\n🔹 No ads</string>
+    <string name="mapboxMapsFeatures">🔹 Mapbox maps\n🔹 No ads</string>
 
-    <string name="subscriptionYearly">365-day</string>
-    <string name="subscriptionMonthly">30-day</string>
+    <string name="subscriptionPerMonth">%1$s /month</string>
+    <string name="subscriptionPer1y">%1$s billed once in 12 months</string>
+    <string name="subscriptionPer6m">%1$s billed once in 6 months</string>
+    <string name="subscriptionPer3m">%1$s billed once in 3 months</string>
+    <string name="subscriptionPer1m">%1$s billed once a month</string>
+    <string name="subscriptionPer1w">%1$s billed once a week</string>
+
+    <string name="paymentOnce">One-time payment</string>
 
     <string name="priceFree">FREE</string>
-    <string name="rewardedAdDescription">This session (watch an ad)</string>
+    <string name="rewardedAdDescription">Valid for this session</string>
     <string name="rewardedAdLoading">Loading ad…</string>
     <string name="rewardedLicenseSuccess">License successfully awarded</string>
 
+    <string name="priceLoading" translatable="false">@string/loading</string>
+    <string name="manageSubscriptions">Manage subscriptions</string>
 
     <string name="ok">OK</string>
     <string name="yes">Yes</string>
@@ -58,6 +66,7 @@
     <string name="buttonUnderstand">I understand</string>
 
     <string name="na">N/A</string>
+    <string name="loading">Loading…</string>
 
     <string name="buttonResumeTrack">Resume</string>
     <string name="buttonNewTrack">Finish</string>
@@ -1286,16 +1295,20 @@
     <string name="svgCopyright">Created with Urban Biker</string>
 
 
-	<string name="fbStoryLiveText">Ongoing!</string>
-    <string name="fbCourseTitle">Powered by Urban Biker</string>
-	<string name="fbTemperatureMin">Temp. min</string>
-	<string name="fbTemperatureMax">Temp. max</string>
-    <string name="trackUploadDescriptionDefault">This activity was tracked using Urban Biker mobile app</string>
+    <string name="trackUploadDescriptionDefault">Tracked using Urban Biker mobile app</string>
 
     <!-- trackUploadActivityTypes -->
     <string name="trackUploadActivityTypes_0">Bike</string>
     <string name="trackUploadActivityTypes_1">Run</string>
     <string name="trackUploadActivityTypes_2">Walk</string>
+    <string name="trackUploadActivityTypes_3">Hike</string>
+    <string name="trackUploadActivityTypes_4">Swim</string>
+    <string name="trackUploadActivityTypes_5">Surf</string>
+    <string name="trackUploadActivityTypes_6">Sail</string>
+    <string name="trackUploadActivityTypes_7">Skateboard</string>
+    <string name="trackUploadActivityTypes_8">Ski</string>
+    <string name="trackUploadActivityTypes_9">Snowboard</string>
+    <string name="trackUploadActivityTypes_10">Other</string>
 
     <!-- prefAdModes -->
     <string name="prefAdModes_0">Any</string>
@@ -1304,7 +1317,7 @@
     <string name="prefAdModes_3">None</string>
 
 
-    <string name="menuLicense">Buy license</string>
+    <string name="menuLicense">Upgrade</string>
 
     <string name="dialogReviewNudgeMessage">Are you enjoying Urban Biker?</string>
     <string name="dialogReviewNudgeMessage2">Thanks! Please write a nice review or rate us 5 stars on the Play Store.</string>
