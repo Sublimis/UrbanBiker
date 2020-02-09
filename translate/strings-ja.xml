@@ -12,7 +12,7 @@
     <string name="proLicenseTitle">プロフェショナル版 ライセンス</string>
     <string name="proLicenseDescription">広告を消す</string>
     <string name="proPlusLicenseTitle">プロフェッショナル・プラス版 ライセンス</string>
-    <string name="proPlusLicenseDescription">広告表示を消し、定期支払い者むけに追加されるすべての機能が使用可能</string>
+    <string name="proPlusLicenseDescription">広告表示を消し、定期購入者向けに追加されるすべての機能が使用可能</string>
     <string name="ultimateLicenseTitle">最上位版ライセンス</string>
     <string name="ok">OK</string>
     <string name="yes">はい</string>
@@ -733,8 +733,8 @@
     <string name="pref_category_flashlightAutoPocketMode_title">ポケットモード</string>
     <string name="infoMeterModeTemperatureTitle">温度</string>
     <string name="svgCopyright">Urban Biker で作成</string>
-    <string name="trackUploadDescriptionDefault">この活動は Urban Biker アプリで記録されました</string>
-    <string name="menuLicense">ライセンス購入</string>
+    <string name="trackUploadDescriptionDefault">Urban Biker アプリで記録されました</string>
+    <string name="menuLicense">アップグレード</string>
     <string name="dialogReviewNudgeMessage">Urban Biker を気に入っていただけましたか\?</string>
     <string name="dialogAppOptimizedPromptTitle">電池使用の最適化</string>
     <string name="dialogAppOptimizedPromptMessage">Urban Biker を正しく作動させるには、このアプリを「電池使用の最適化アプリ」から除外する必要があります。
@@ -1093,13 +1093,18 @@
     <string name="prefMapOfflineLayerButtonActionEntries_2">なし</string>
     <string name="licenseDialogMapsTab">マップ</string>
     <string name="ultimateLicenseDescription">最上位の経験ができるもっともパワフルなライセンスです。</string>
-    <string name="ultimateLicenseFeatures">✔ 広告なし ✔ すべてのマップ ✔ すべての機能</string>
-    <string name="proPlusLicenseFeatures">✔ 広告なし ✔ すべての機能</string>
-    <string name="proLicenseFeatures">✔ 広告なし</string>
-    <string name="thunderforestMapsFeatures">✔ 広告なし ✔ Thunderforestマップを利用可能</string>
-    <string name="mapboxMapsFeatures">✔ 広告なし ✔ Mapboxマップを利用可能</string>
+    <string name="ultimateLicenseFeatures">🔹 すべてのマップ
+\n🔹 すべての機能
+\n🔹 広告無し</string>
+    <string name="proPlusLicenseFeatures">🔹 広告無し
+\n🔹 追加の寄付</string>
+    <string name="proLicenseFeatures">🔹 広告無し</string>
+    <string name="thunderforestMapsFeatures">🔹 Thunderforestマップを利用可能
+\n🔹 広告無し</string>
+    <string name="mapboxMapsFeatures">🔹 Mapboxマップを利用可能
+\n🔹 広告無し</string>
     <string name="priceFree">無料</string>
-    <string name="rewardedAdDescription">このセッション (広告を見る)</string>
+    <string name="rewardedAdDescription">このセッションで有効</string>
     <string name="rewardedAdLoading">広告をロード中…</string>
     <string name="rewardedLicenseSuccess">ライセンスを獲得しました</string>
     <string name="na">なし</string>
@@ -1197,4 +1202,21 @@
     <string name="speechIncreasing">上昇</string>
     <string name="speechDecreasing">低下</string>
     <string name="facebookRemovedInfo">Facebookはアクティビティの共有サポートを止めたため、アプリからFacebook連携を削除しました。</string>
+    <string name="subscriptionPerMonth">%1$s /月</string>
+    <string name="subscriptionPer1y">%1$s (1年ごと支払い)</string>
+    <string name="subscriptionPer6m">%1$s (6ヶ月ごと支払い)</string>
+    <string name="subscriptionPer3m">%1$s (3ヶ月ごと支払い)</string>
+    <string name="subscriptionPer1m">%1$s (1ヶ月ごと支払い)</string>
+    <string name="subscriptionPer1w">%1$s (1週間ごと支払い)</string>
+    <string name="paymentOnce">1回払い</string>
+    <string name="manageSubscriptions">定期購入の管理</string>
+    <string name="loading">ロード中…</string>
+    <string name="trackUploadActivityTypes_3">ハイキング</string>
+    <string name="trackUploadActivityTypes_4">水泳</string>
+    <string name="trackUploadActivityTypes_5">サーフィン</string>
+    <string name="trackUploadActivityTypes_6">セイリング</string>
+    <string name="trackUploadActivityTypes_7">スケボー</string>
+    <string name="trackUploadActivityTypes_8">スキー</string>
+    <string name="trackUploadActivityTypes_9">スノボ</string>
+    <string name="trackUploadActivityTypes_10">その他</string>
 </resources>
