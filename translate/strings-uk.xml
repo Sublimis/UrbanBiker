@@ -5,15 +5,15 @@
     <string name="app_description">Записуйте та вимірюйте свої поїздки з надзвичайною точністю. Покращіть свою безпеку та ефективність при їзді на велосипеді.</string>
     <string name="widget_1_description">Велосипедист: Дзвінок</string>
     <string name="widget_2_description">Велосипедист: Дзвінок + Ліхтар</string>
-    <string name="widget_3_description">Велосипедист: Готово</string>
-    <string name="proLicenseLabel">Про</string>
-    <string name="proPlusLicenseLabel">Про Плюс</string>
-    <string name="ultimateLicenseLabel">Ліцензія Ultimate</string>
-    <string name="proLicenseTitle">Ліцензія Pro</string>
+    <string name="widget_3_description">Велосипедист: Повний</string>
+    <string name="proLicenseLabel">Професійна</string>
+    <string name="proPlusLicenseLabel">Професійна+</string>
+    <string name="ultimateLicenseLabel">Найкраща</string>
+    <string name="proLicenseTitle">Ліцензія Професійна</string>
     <string name="proLicenseDescription">Вимкнути рекламу</string>
-    <string name="proPlusLicenseTitle">Ліцензія Про Плюс</string>
+    <string name="proPlusLicenseTitle">Ліцензія Професійна+</string>
     <string name="proPlusLicenseDescription">Вимкнути рекламу та підключити всі можливості, які можуть з\'явитися в майбутньому (крім підписок)</string>
-    <string name="ultimateLicenseTitle">Ліцензія Ultimate</string>
+    <string name="ultimateLicenseTitle">Ліцензія Найкраща</string>
     <string name="ok">Угу</string>
     <string name="yes">Так</string>
     <string name="no">Ні</string>
@@ -64,7 +64,7 @@
     <string name="toastRestartRequired">Будь ласка, перезавантажте додаток, щоб зміни вступили в силу</string>
     <string name="toastActiveProfile">Профіль: %1$s
     </string>
-    <string name="toastProfileSavingError">Помилка при збережені інформації ! Спробуйте ще раз.</string>
+    <string name="toastProfileSavingError">Помилка при збережені інформації! Спробуйте ще раз.</string>
     <string name="toastProfileChangeError">Не вдалося змінити профіль! Спробуйте ще раз.</string>
     <string name="toastGpsEnabled">GPS увімкнено</string>
     <string name="toastTrackSaved">Трек збережено.</string>
@@ -121,9 +121,9 @@
     <string name="dialog_default_color_text">Буде завантажено стандартну схему кольорів. Продовжити\?</string>
     <string name="dialog_defaultConfirmation">Ви впевнені\?</string>
     <string name="dialog_volume_bell_text">Дзвінок</string>
-    <string name="dialog_volume_roaring_text">Крякалка</string>
+    <string name="dialog_volume_roaring_text">Шумілка</string>
     <string name="dialog_volume_effects_text">Ефекти</string>
-    <string name="dialog_volume_tallies_text">Підказки</string>
+    <string name="dialog_volume_tallies_text">Проміжки</string>
     <string name="dialog_volume_alarms_text">Попередження</string>
     <string name="dialog_volume_message">Використовуйте кнопки регулювання звуку на вашому пристрої для підлаштування загальної гучності.</string>
     <string name="dialog_bell_automatic_sensitivity_title">Автоматична чутливість дзвінка</string>
@@ -142,7 +142,7 @@
 \n(%4$s)
 \n
 \nТрек виглядає надто коротким. Зберегти його\?</string>
-    <string name="dialog_exit_msg">Увага: запис треку увімкнутий, і зараз буде припинений.</string>
+    <string name="dialog_exit_msg">Увага: йде запис треку, і зараз він буде припинений.</string>
     <string name="dialogProfileDeleteTitle">Вилучити профіль</string>
     <string name="dialogProfileDeleteMessage">Увага: Ця дія вилучить всі дані профілю та статистику. Збережені треки все ж залишаться. 
 \n
@@ -151,14 +151,14 @@
     <string name="dialogProfileAddInfo">Налаштування нового профілю будуть скопійовані з активного на даний момент</string>
     <string name="dialogProfileEditTitle">Редагувати профіль</string>
     <string name="dialogProfileEditTotals">Підсумки:</string>
-    <string name="dialogProfileTotalsResetMessage">Скинути режим підсумки на нуль\?</string>
+    <string name="dialogProfileTotalsResetMessage">Скинути підсумки профіля\?</string>
     <string name="dialogProfileSwitchTitle">Перемкнути профіль</string>
     <string name="dialogProfileSwitchMessage">Триває запис треку. Точно перемкнутися на %1$s\?</string>
     <string name="dialogTracksDeleteTitle">Вилучити треки</string>
     <string name="dialogTracksDeleteMessage">Увага: цю дію неможливо скасувати.
 \n
 \nВилучити вибрані треки\?</string>
-    <string name="dialogTrackDeleteMessage">Увага: Цю дію неможливо скасувати. 
+    <string name="dialogTrackDeleteMessage">Увага: Цю дію неможливо скасувати.
 \n
 \nВилучити трек %1$s\?</string>
     <string name="dialogTrackResumeTitle">Продовжити трек</string>
@@ -176,21 +176,21 @@
     <string name="dialogBaroAltitudePromptMessage">Барометричний висотомір був примусово відключений через значне відхилення від показів GPS!
 \n
 \nНе використовуйте цей режим у закритих приміщеннях та місцях із потужною вентиляційною системою!</string>
-    <string name="dialogBaroAltitudeNoticeTitle">Повідомлення</string>
+    <string name="dialogBaroAltitudeNoticeTitle">Зауваження</string>
     <string name="dialogBaroAltitudeNoticeMessage">Барометрична висота працює лише на вулиці.
 \n
 \nНе використовуйте її у закритих або вентильованих приміщеннях, в автомобілях та літаках.</string>
-    <string name="dialogThermoBarometerNoticeTitle">Повідомлення</string>
+    <string name="dialogThermoBarometerNoticeTitle">Зауваження</string>
     <string name="dialogThermoBarometerNoticeMessage">Термо-барометр покладається на покази вуличної температури для підвищення точності.
 \n
 \nНе використовуйте його у закритих або вентильованих приміщеннях, в автомобілях та літаках.</string>
     <string name="dialogResetMessage">Зберегти цей трек і підготуватися до нового\?</string>
     <string name="dialogResetNoTrackMessage">Трек записувався. Дійсно обнулити лічильники\?</string>
-    <string name="dialogScreenHudMode">дзеркальний HUD режим</string>
+    <string name="dialogScreenHudMode">Режим віддзеркалення HUD</string>
     <string name="dialogScreenOrientationAuto">Автоматична орієнтація</string>
-    <string name="dialogScreenOrientationPortrait">Портрет</string>
-    <string name="dialogScreenOrientationLandscape">Пейзаж</string>
-    <string name="dialogScreenBrightnessOverride">Встановити яскравість примусово</string>
+    <string name="dialogScreenOrientationPortrait">Книжковий</string>
+    <string name="dialogScreenOrientationLandscape">Альбомний</string>
+    <string name="dialogScreenBrightnessOverride">Примусова яскравість</string>
     <string name="dialogScreenAutoTheme">Автоматична тема</string>
     <string name="dialogMapsOffline">Офлайн карти</string>
     <string name="dialogMapsLayerTraffic">Трафік</string>
@@ -213,13 +213,13 @@
     <string name="dialogPowerWeightsWeightPassengers">Пасажири</string>
     <string name="dialogPowerWeightsWeightWheels">Коліс</string>
     <string name="dialogPowerParamsTitle">Коефіцієнт втрати потужності</string>
-    <string name="dialogPowerParamsDragArea">Аеродинамічний коеф. опору (Cd·A)</string>
+    <string name="dialogPowerParamsDragArea">Коеф. аеродинамічного опору (Cd·A)</string>
     <string name="dialogPowerParamsRollResist">Коеф. опору кочення (Crr)</string>
     <string name="dialogEnergyParamsTitle">Параметри енергії</string>
     <string name="dialogEnergyParamsEfficiency">ККД (η)</string>
     <string name="dialogEnergyParamsBmr">Базовий рівень метаболізму (BMR)</string>
     <string name="dialogFileChooseSelectFolder">Вибрати цю теку</string>
-    <string name="dialogMapsDownloadTitle">Викачування карт локально</string>
+    <string name="dialogMapsDownloadTitle">Завантаження офлайн мап</string>
     <string name="dialogMapsDownloadText">Відкрити сторінку із завантаженнями\?</string>
     <string name="dialogMapsTerrainDownloadTitle">Завантажування рельєфу</string>
     <string name="dialogSvgTitle">SVG малюнок</string>
@@ -263,7 +263,7 @@
     <string name="unitW">Вт</string>
     <string name="unitKW">кВт</string>
     <string name="unitHP">к.с.</string>
-    <string name="unitKWH">кВт-год</string>
+    <string name="unitKWH">кВт⋅год</string>
     <string name="unitMiliW">мВт</string>
     <string name="unitWKg">Вт/кг</string>
     <string name="unitWLb">Вт/фунт</string>
@@ -307,31 +307,31 @@
     <string name="meterModeAltitude">висота</string>
     <string name="meterModeAltitudeShort">вис</string>
     <string name="meterModeVerticalPower">вертикальна потужність</string>
-    <string name="meterModeVerticalPowerShort">врт сил</string>
-    <string name="meterModePower">сила</string>
-    <string name="meterModePowerShort">сил</string>
-    <string name="meterModePowerAverage">середня сила</string>
-    <string name="meterModePowerAverageShort">сер. сила</string>
+    <string name="meterModeVerticalPowerShort">в птж</string>
+    <string name="meterModePower">потужність</string>
+    <string name="meterModePowerShort">птж</string>
+    <string name="meterModePowerAverage">середня потужність</string>
+    <string name="meterModePowerAverageShort">ср птж</string>
     <string name="meterModeAcceleration">прискорення</string>
     <string name="meterModeAccelerationShort">прск</string>
     <string name="meterModeDistance">відстань</string>
     <string name="meterModeDistanceShort">вдст</string>
     <string name="meterModeOdo">одометр</string>
-    <string name="meterModeOdoShort">одометр</string>
+    <string name="meterModeOdoShort">одо</string>
     <string name="meterModeEnergy">енергія</string>
-    <string name="meterModeEnergyShort">енерг</string>
+    <string name="meterModeEnergyShort">енрг</string>
     <string name="meterModeEfficacy">ефективність</string>
-    <string name="meterModeEfficacyShort">ефктв</string>
+    <string name="meterModeEfficacyShort">ефкт</string>
     <string name="meterModeTemperature">температура</string>
     <string name="meterModeTemperatureShort">темп</string>
     <string name="meterModePressure">тиск</string>
     <string name="meterModePressureShort">тиск</string>
-    <string name="meterModeClock">таймер</string>
+    <string name="meterModeClock">годинник</string>
     <string name="meterModeClockShort">год</string>
     <string name="meterModeWriggle">відхилення</string>
-    <string name="meterModeWriggleShort">петл</string>
+    <string name="meterModeWriggleShort">вдхл</string>
     <string name="meterModeAltitudeAscent">підйом</string>
-    <string name="meterModeAltitudeAscentShort">підйом</string>
+    <string name="meterModeAltitudeAscentShort">пдйм</string>
     <string name="meterModeAltitudeDescent">спуск</string>
     <string name="meterModeAltitudeDescentShort">спск</string>
     <string name="meterModeAltitudeSlope">похилість</string>
@@ -339,7 +339,7 @@
     <string name="meterModeCadence">ритм</string>
     <string name="meterModeCadenceShort">ртм</string>
     <string name="meterModeHeartRate">пульс</string>
-    <string name="meterModeHeartRateShort">чсс</string>
+    <string name="meterModeHeartRateShort">плс</string>
     <string name="meterModeGearRatio">передатне число</string>
     <string name="meterModeGearRatioShort">прдч</string>
     <string name="bellRingAuto">авто</string>
@@ -347,14 +347,14 @@
     <string name="meterTextMin">мін</string>
     <string name="meterTextMax">макс</string>
     <string name="meterTextAvg">сер</string>
-    <string name="meterTextTotal">всього</string>
+    <string name="meterTextTotal">разом</string>
     <string name="controlPanelSoundAutoBell">Автоматичний дзвінок</string>
-    <string name="controlPanelSoundRoar">Крякалка</string>
+    <string name="controlPanelSoundRoar">Шумілка</string>
     <string name="controlPanelSoundEffects">Ефекти</string>
     <string name="controlPanelSoundAlarms">Попередження</string>
     <string name="controlPanelSoundTallies">Підказки</string>
     <string name="controlPanelSoundVolume">Гучність</string>
-    <string name="controlPanelEnergyParams">Параметри Сили / Енергії</string>
+    <string name="controlPanelEnergyParams">Параметри Сили/Енергії</string>
     <string name="profilesListTitle">Профілі</string>
     <string name="profilesListTitleSelectProfile">Перемкнути профіль</string>
     <string name="profilesListAddProfile">Новий профіль</string>
@@ -458,7 +458,7 @@
     <string name="pref_category_autopause_title">Автоматичне призупинення</string>
     <string name="pref_category_resetPrompt_title">Підтвердження скидання</string>
     <string name="pref_category_tracking_title">Ведення треку</string>
-    <string name="pref_category_tracking_gps_title">Ведення треку / GPS</string>
+    <string name="pref_category_tracking_gps_title">Ведення треку, GPS</string>
     <string name="pref_category_bell_title">Дзвінок</string>
     <string name="pref_category_roaring_title">Крякалка</string>
     <string name="pref_category_roaringConstantMode_title">Постійний режим</string>
@@ -468,31 +468,31 @@
     <string name="pref_category_select_title">Вибрати…</string>
     <string name="pref_category_fonts_title">Шрифт</string>
     <string name="pref_category_buttons_title">Кнопки</string>
-    <string name="pref_category_meters_title">Покажчики</string>
-    <string name="pref_group_meters_title">Покажчики</string>
-    <string name="pref_group_meter_modes_title">Режими покажчиків</string>
-    <string name="pref_category_meter1_title">Покажчик 1</string>
-    <string name="pref_category_meter2_title">Покажчик 2</string>
-    <string name="pref_category_meter3_title">Покажчик 3</string>
-    <string name="pref_category_meter4_title">Покажчик 4</string>
-    <string name="pref_category_meter5_title">Покажчик 5</string>
-    <string name="pref_group_maps_title">Карти</string>
-    <string name="pref_category_maps_online_mode_title">Джерело карт</string>
-    <string name="pref_category_maps_offline_title">Локальні карти</string>
-    <string name="pref_group_maps_offline_title">Налаштування офлайн карт…</string>
+    <string name="pref_category_meters_title">Лічильники</string>
+    <string name="pref_group_meters_title">Лічильники</string>
+    <string name="pref_group_meter_modes_title">Режими лічильників</string>
+    <string name="pref_category_meter1_title">Лічильник 1</string>
+    <string name="pref_category_meter2_title">Лічильник 2</string>
+    <string name="pref_category_meter3_title">Лічильник 3</string>
+    <string name="pref_category_meter4_title">Лічильник 4</string>
+    <string name="pref_category_meter5_title">Лічильник 5</string>
+    <string name="pref_group_maps_title">Мапи</string>
+    <string name="pref_category_maps_online_mode_title">Джерело мап</string>
+    <string name="pref_category_maps_offline_title">Локальні мапи</string>
+    <string name="pref_group_maps_offline_title">Налаштування офлайн мап…</string>
     <string name="pref_category_maps_offline_terrain_title">Рельєф</string>
     <string name="pref_category_maps_routes_title">План маршруту</string>
     <string name="pref_category_maps_track_title">Лінія трека</string>
     <string name="pref_category_hud_title">HUD</string>
-    <string name="pref_category_back_key_title">Режим роботи кнопки назад</string>
+    <string name="pref_category_back_key_title">Режим кнопки назад</string>
     <string name="pref_category_haptic_title">Вібрувати</string>
     <string name="pref_category_app_features_title">Властивості програми</string>
-    <string name="pref_category_wakelock_title">Режим сповільнення процесора</string>
-    <string name="pref_category_gps_boost_title">Режим підвищення точності GPS</string>
+    <string name="pref_category_wakelock_title">Політика засинання ЦП</string>
+    <string name="pref_category_gps_boost_title">Політика точності GPS</string>
     <string name="pref_group_flashlight_title">Ліхтарик</string>
     <string name="pref_category_flashlightBlinkMode_title">Блимання</string>
     <string name="pref_category_flashlightAutoPocketMode_title">Кишеньковий режим</string>
-    <string name="pref_category_gpsInaccuracyIndicator_title">Індикатор впевненості</string>
+    <string name="pref_category_gpsInaccuracyIndicator_title">Індикатор неточності</string>
     <string name="pref_category_paceIndicator_title">Індикатор темпу</string>
     <string name="pref_category_locationProvider_title">Джерело GPS даних</string>
     <string name="pref_category_altitude_adjustments_title">Висоти</string>
@@ -504,45 +504,45 @@
     <string name="prefAllProfilesInfoSummary">Ці властивості застосовуються до всіх профілів.</string>
     <string name="pref_app_language_summary">(Всі профілі)</string>
     <string name="pref_app_language_dialog_title">Мова</string>
-    <string name="pref_app_language_translate_title">Допомога з перекладом</string>
+    <string name="pref_app_language_translate_title">Допомогти з перекладом</string>
     <string name="pref_app_language_translate_summary">Натисніть тут, якщо маєте бажання допомогти з перекладом</string>
     <string name="pref_back_key_mode_summary">(Всі профілі)</string>
-    <string name="pref_back_key_mode_dialog_title">Режим роботи кнопки назад</string>
+    <string name="pref_back_key_mode_dialog_title">Режим кнопки назад</string>
     <string name="pref_info_title">Інформація</string>
     <string name="pref_resetToDefault">Скинути до типових</string>
     <string name="pref_units_distance_title">Відстань</string>
-    <string name="pref_units_distance_dialog_title">Одиниці виміру відстані</string>
+    <string name="pref_units_distance_dialog_title">Одиниці відстані</string>
     <string name="pref_units_speed_title">Швидкість</string>
-    <string name="pref_units_speed_dialog_title">Одиниці виміру швидкості</string>
+    <string name="pref_units_speed_dialog_title">Одиниці швидкості</string>
     <string name="pref_units_altitude_title">Висота</string>
-    <string name="pref_units_altitude_dialog_title">Одиниці виміру висоти</string>
+    <string name="pref_units_altitude_dialog_title">Одиниці висоти</string>
     <string name="pref_units_weight_title">Вага</string>
-    <string name="pref_units_weight_dialog_title">Одиниці виміру ваги</string>
+    <string name="pref_units_weight_dialog_title">Одиниці ваги</string>
     <string name="pref_units_other_title">Інше</string>
     <string name="pref_units_other_dialog_title">Інші одиниці виміру</string>
     <string name="pref_units_energy_title">Енергія</string>
-    <string name="pref_units_energy_dialog_title">Одиниці виміру енергії</string>
+    <string name="pref_units_energy_dialog_title">Одиниці енергії</string>
     <string name="pref_units_power_title">Потужність (сумарна)</string>
-    <string name="pref_units_power_dialog_title">Одиниці виміру сумарної потужності</string>
+    <string name="pref_units_power_dialog_title">Одиниці сумарної потужності</string>
     <string name="pref_units_slope_title">Похилість</string>
     <string name="pref_units_slope_dialog_title">Одиниці виміру похилості</string>
-    <string name="pref_hud_axis_title">Орієнтація дзеркального режиму HUD</string>
-    <string name="pref_hud_axis_dialog_title">Орієнтація дзеркального режиму HUD</string>
+    <string name="pref_hud_axis_title">Орієнтація выддзеркалення HUD</string>
+    <string name="pref_hud_axis_dialog_title">Орієнтація выддзеркалення HUD</string>
     <string name="pref_bell_mode_title">Тип</string>
     <string name="pref_bell_mode_dialog_title">Тип дзвінка</string>
     <string name="pref_bell_automatic_title">Автоматично</string>
-    <string name="pref_bell_automatic_summary">Дзвеніти дзвоником при різкому гальмуванні</string>
+    <string name="pref_bell_automatic_summary">Дзвеніти при різкому гальмуванні</string>
     <string name="pref_bell_automatic_sensitivity_title">Чутливість автоматичного дзвінка</string>
     <string name="pref_bell_shake_title">Дзвонити від струшування</string>
     <string name="pref_bell_shake_summary">Струшуйте пристрій щоб активувати дзвоник</string>
     <string name="pref_bell_shake_sensitivity_title">Чутливість до струшування</string>
     <string name="pref_roaring_type_title">Тип</string>
-    <string name="pref_roaring_type_dialog_title">Тип крякалки</string>
+    <string name="pref_roaring_type_dialog_title">Тип шумілки</string>
     <string name="pref_volume_summary_text">Дзвінок: %1$s, Шумілка: %2$s, Проміжки: %3$s, Ефекти: %4$s, Попередження: %5$s, Мовлення: %6$s</string>
     <string name="pref_bg_color_title">Колір фону</string>
-    <string name="pref_bg_color_summary">Виберіть колір для фону</string>
+    <string name="pref_bg_color_summary">Виберіть колір для фону додатка</string>
     <string name="pref_fg_color_title">Колір тексту</string>
-    <string name="pref_fg_color_summary">Виберіть колір для тексту</string>
+    <string name="pref_fg_color_summary">Виберіть колір для тексту й значків</string>
     <string name="pref_visualThemeAutoSummary">Застосовувати темну або світлу тему залежно від освітленості навколо</string>
     <string name="pref_screen_keep_on_title">Тримати екран увімкнутим</string>
     <string name="pref_screen_keep_on_summary">Екран не буде вимикатися поки використовується програма</string>
@@ -559,19 +559,19 @@
     <string name="pref_obey_audio_focus_disable_title">Вимкнути аудіо фокус</string>
     <string name="pref_obey_audio_focus_disable_summary">Продовжувати генерування звуків навіть якщо аудіо фокус втрачено (через появу системного повідомлення або іншої програмки)</string>
     <string name="pref_audio_force_loudspeaker_title">Примусово вмикати динаміки</string>
-    <string name="pref_audio_force_loudspeaker_summary">Увага! Експериментальна річ - може не працювати правильно. Спробувати перекидати всі звуки на динаміки навіть коли ввімкнено навушники, крім голосових дзвінків.</string>
+    <string name="pref_audio_force_loudspeaker_summary">Увага! Експеримент, може не працювати. Спробувати перекидати всі звуки на динаміки навіть коли ввімкнено навушники, крім голосових дзвінків.</string>
     <string name="pref_duck_roaring_on_bell_title">Крякалка замість дзвінка</string>
-    <string name="pref_duck_roaring_on_bell_summary">Понизити звук крякалки на час активування дзвінка</string>
+    <string name="pref_duck_roaring_on_bell_summary">Понизити звук шумілки на час активування дзвінка</string>
     <string name="pref_relaunchAfterReboot_title">Перезапустити після перезавантаження</string>
     <string name="pref_resetPrompt_title">Підтвердження скидання</string>
     <string name="pref_resetPrompt_summary">Запропонувати почати новий трек, якщо попередній пишеться вже більше чотирьох годин</string>
-    <string name="pref_auto_launch_on_gps_title">Автоматично запускати якщо спрацював GPS</string>
-    <string name="pref_auto_launch_on_gps_summary">Запускати програму (в пасивному режимі) якщо було помічено активність на GPS</string>
+    <string name="pref_auto_launch_on_gps_title">Автоматично запускати по GPS</string>
+    <string name="pref_auto_launch_on_gps_summary">Запускати додаток (в пасивному режимі) якщо було помічено активність на GPS</string>
     <string name="pref_passive_gps_button_title">Режим кнопки пасивного GPS</string>
     <string name="pref_passive_gps_button_summary">Активувати пасивний режим GPS при натисканні на кнопку GPS</string>
     <string name="pref_digital_font_title">Цифровий шрифт</string>
     <string name="pref_digital_font_summary">(Всі профілі) Використовувати сегметний LCD шрифт для показу датих циклометра</string>
-    <string name="pref_roaring_state_title">Звук крякалки</string>
+    <string name="pref_roaring_state_title">Звук шумілки</string>
     <string name="pref_roaring_state_summary">Генерувати попереджувальні звуки під час руху</string>
     <string name="pref_roaring_mode_title">Режим</string>
     <string name="pref_roaring_mode_dialog_title">Режим шумілки</string>
@@ -593,7 +593,7 @@
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
     <string name="pref_soundeffects_gps_signal_summary">Сигнал про рівень сигналу GPS (хороший, поганий)</string>
     <string name="pref_soundeffects_countdown_title">Зворотній відлік</string>
-    <string name="pref_soundeffects_countdown_summary">Звук зворотнього відліку перед відновленням треку (... 3, 2, 1, GO!)</string>
+    <string name="pref_soundeffects_countdown_summary">Звук зворотнього відліку перед відновленням треку (... 3, 2, 1, СТАРТ!)</string>
     <string name="pref_soundeffects_tally_title">Увімкнути</string>
     <string name="pref_soundeffects_tally_value_summary">Кожні %1$s
         %2$s
@@ -605,7 +605,7 @@
     <string name="pref_soundeffects_tally_ascent_title">Підйом</string>
     <string name="pref_soundeffects_tally_ascent_dialog_title">Підказка підйому</string>
     <string name="pref_soundeffects_tally_descent_title">Спуск</string>
-    <string name="pref_soundeffects_tally_descent_dialog_title">Підказка спуску</string>
+    <string name="pref_soundeffects_tally_descent_dialog_title">Проміжок спуску</string>
     <string name="pref_soundeffects_alarm_title">Увімкнути</string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Забута пауза</string>
     <string name="pref_soundeffects_alarm_gpsPause_summary">Попередження прозвучить після суттєвого переміщення, якщо запис було призупинено</string>
@@ -613,21 +613,21 @@
     <string name="pref_ads_mode_dialog_title">Тип реклами</string>
     <string name="pref_maps_disable_title">Відключити карти</string>
     <string name="pref_maps_track_draw_title">Намалювати трек</string>
-    <string name="pref_maps_track_draw_summary">Показувати ваше переміщення на карті</string>
+    <string name="pref_maps_track_draw_summary">Показувати ваше переміщення на мапі</string>
     <string name="pref_maps_fences_draw_title">Приватні зони</string>
-    <string name="pref_maps_fences_draw_summary">Показувати приватні зони на карті</string>
+    <string name="pref_maps_fences_draw_summary">Показувати приватні зони на мапі</string>
     <string name="pref_maps_animate_title">Анімація</string>
     <string name="pref_maps_animate_summary">(Всі профілі) Вимкніть для зменшення використання батареї, особливо з активованим режимом слідування</string>
     <string name="pref_maps_online_mode_summary">(Всі профілі)</string>
-    <string name="pref_maps_online_mode_dialog_title">Джерело карт</string>
+    <string name="pref_maps_online_mode_dialog_title">Джерело мап</string>
     <string name="pref_maps_offline_file_title">Виберіть файл або теку</string>
-    <string name="pref_maps_offline_file_dialog_title">Вибрати теку для зберігання карт локально</string>
+    <string name="pref_maps_offline_file_dialog_title">Вибрати теку для зберігання мап локально</string>
     <string name="pref_maps_offline_file_summary">(Всі профілі) %1$s
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Теку не вибрано.</string>
     <string name="pref_maps_offline_info_title">Завантажити</string>
-    <string name="pref_maps_offline_info_summary">Підтримуються векторні Mapsforge (.map) і растрові Rmaps (.sqlitedb) карти. Доступні для завантаження на download.mapsforge.org.</string>
-    <string name="pref_maps_offline_warning_summary">Увага! Деякий об\'єм даних може викачуватися навіть в режимі офлайн. Будь ласка - вимкніть мобільний інтернет, якщо вам це важливо.</string>
+    <string name="pref_maps_offline_info_summary">Підтримуються векторні Mapsforge (.map) і растрові Rmaps (.sqlitedb) мапи. Доступні для завантаження на download.mapsforge.org.</string>
+    <string name="pref_maps_offline_warning_summary">Увага! Деякий об\'єм даних може викачуватися навіть в режимі офлайн. Будь ласка, вимкніть мобільний інтернет, якщо вам це важливо.</string>
     <string name="pref_maps_routes_draw_title">План маршруту</string>
     <string name="pref_maps_routes_info_title">Увага!</string>
     <string name="pref_maps_routes_info_summary">Не буде інших візуальних чи аудіо підказок, які би допомагали дотримуватися маршруту</string>
@@ -635,27 +635,27 @@
     <string name="pref_maps_routes_files_dialog_title">Виберіть теку або файл з маршрутами</string>
     <string name="pref_maps_routes_files_noFolderSelected">Теку не вибрано.</string>
     <string name="pref_maps_quickZoom_title">Кнопки швидкого масштабування</string>
-    <string name="pref_maps_quickZoom_summary">(Всі профілі) Показувати невидимі кнопки швидкої зміни масштабу в нижній частині карти, може полегшити вам орієнтування</string>
+    <string name="pref_maps_quickZoom_summary">(Всі профілі) Показувати невидимі кнопки швидкої зміни масштабу в нижній частині мапи, може полегшити вам орієнтування</string>
     <string name="pref_maps_quickZoomInvert_title">Обернено</string>
     <string name="pref_maps_quickZoomInvert_summary">Поміняти місцями кнопки наближення/віддалення</string>
     <string name="pref_maps_offline_terrain_title">Підсвічувати рельєф</string>
-    <string name="pref_maps_offline_terrain_summary">(Всі профілі) Підсвічувати рельєф відтінками. Карта виглядатиме реалістичнішою, але, можливо, повільнішою. Потребує відповідних DEM (.hgt) файлів закачаних у теку з картами.</string>
+    <string name="pref_maps_offline_terrain_summary">(Всі профілі) Підсвічувати рельєф відтінками. Мапа виглядатиме реалістичнішою, але, можливо, повільнішою. Потребує відповідних DEM (.hgt) файлів закачаних у теку з мапами.</string>
     <string name="pref_maps_offline_terrain_info_title">Завантажити</string>
     <string name="pref_maps_offline_terrain_info_summary">Відкрити сторінку завантаження на viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Дія кнопки налаштування шарів</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Всі профілі) Виберіть що має відбуватися після натискання кнопки налаштування шарів</string>
-    <string name="pref_button_autoring_enable_title">Увімкнення автоматичного дзвоника</string>
-    <string name="pref_button_autoring_enable_summary">Дозволити вмикання автоматичного дзвоника довгим натисканням на спідометр</string>
+    <string name="pref_button_autoring_enable_title">Увімкнення автоматичного дзвінка</string>
+    <string name="pref_button_autoring_enable_summary">Дозволити вмикання автоматичного дзвінка довгим натисканням на спідометр</string>
     <string name="pref_button_profile_show_title">Профіль</string>
     <string name="pref_button_profile_show_summary">Показати кнопку профіля</string>
-    <string name="pref_button_map_show_title">Карта</string>
+    <string name="pref_button_map_show_title">Мапа</string>
     <string name="pref_button_map_show_summary">Показати кнопку карти</string>
     <string name="pref_button_flashlight_show_title">Ліхтарик</string>
     <string name="pref_button_flashlight_show_summary">Показати кнопку ліхтарика (якщо такий є в наявності)</string>
     <string name="pref_button_contrast_show_title">Контраст/шар карти</string>
-    <string name="pref_button_contrast_show_summary">Показати кнопку перемикання контрасту/шару карти</string>
-    <string name="pref_button_roar_show_title">Крякалка</string>
-    <string name="pref_button_roar_show_summary">Показати кнопку крякалки</string>
+    <string name="pref_button_contrast_show_summary">Показати кнопку перемикання контрасту/шару мапи</string>
+    <string name="pref_button_roar_show_title">Шумілка</string>
+    <string name="pref_button_roar_show_summary">Показати кнопку шумілки</string>
     <string name="pref_button_menu_show_title">Меню</string>
     <string name="pref_button_menu_show_summary">Показати кнопку меню</string>
     <string name="pref_meter_enable_title">Увімкнути</string>
@@ -698,7 +698,7 @@
     <string name="prefBarometricAltitudeSummary">Використовувати вбудований барометр для покращення точності виміру висоти</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Термо-барометр</string>
     <string name="prefBaroAltitudeUsesTemperatureSummary">Використовувати дані сенсора температури для точнішого вимірювання барометричної висоти</string>
-    <string name="prefBarometricAltitudeNoteSummary">Використовуйте це лише на відкритій місцевості. Вимкніть коли перебуваєте в герметизованих приміщеннях типу автомобілів з увімкненою вентиляцією чи в літаку!</string>
+    <string name="prefBarometricAltitudeNoteSummary">Використовуйте це лише на відкритій місцевості. Вимкніть, коли перебуваєте в герметизованих приміщеннях типу автомобілів з увімкненою вентиляцією чи в літаку!</string>
     <string name="prefTemperatureSensorDerivedTitle">Використати непрямі покази сенсорів</string>
     <string name="prefTemperatureSensorDerivedSummary">Цей пристрій не має спеціального термометра, але температура може бути встановлена з використанням інших сенсорів. Читайте більше в розділі Допомога.</string>
     <string name="prefTemperatureSensorDerivedTypeDialogTitle">Тип сенсора</string>
@@ -762,14 +762,14 @@
     <string name="defaultProfileNamePlane">Літак 🛩️</string>
     <string name="defaultProfileNameOther">Інше</string>
     <string name="svgCopyright">Створено в Urban Biker</string>
-    <string name="menuLicense">Придбати ліцензію</string>
+    <string name="menuLicense">Покращити</string>
     <string name="licenseItemAlreadyOwned">Придбані ліцензії</string>
     <string name="timePeriod_perWeek">за тиждень</string>
     <string name="timePeriod_perMonth">за місяць</string>
     <string name="timePeriod_per3Months">за квартал</string>
     <string name="timePeriod_per6Months">за півроку</string>
     <string name="timePeriod_perYear">за рік</string>
-    <string name="generalError">Сталися невідомі помилки. Спробуйте ще раз.</string>
+    <string name="generalError">Сталася невідома помилка. Спробуйте ще раз.</string>
     <string name="openSourceLicensesTitle">Вільні ліцензії</string>
     <!-- dialog_fenceguard_add_entries -->
     <string name="dialog_fenceguard_add_entries_0">Додати приватну зону</string>
@@ -805,11 +805,11 @@
     <string name="pref_gps_update_freq_entries_22">45 хв</string>
     <string name="pref_gps_update_freq_entries_23">1 год</string>
     <!-- pref_gps_boost_modes -->
-    <string name="pref_gps_boost_modes_0">Показувати карту (стандартно)</string>
+    <string name="pref_gps_boost_modes_0">Показана мапа (стандартно)</string>
     <string name="pref_gps_boost_modes_1">Екран увімкнено</string>
     <string name="pref_gps_boost_modes_2">Вимкнено</string>
     <!-- pref_gps_boost_modes_explanation -->
-    <string name="pref_gps_boost_modes_explanation_0">Оновлювати GPS частіше в режимі показу карти</string>
+    <string name="pref_gps_boost_modes_explanation_0">Оновлювати GPS частіше в режимі показу мапи</string>
     <string name="pref_gps_boost_modes_explanation_1">Оновлювати GPS частіше коли екран увімкнено</string>
     <string name="pref_gps_boost_modes_explanation_2">Ніколи не прискорювати зчитування GPS</string>
     <!-- pref_autopause_modes -->
@@ -866,12 +866,12 @@
     <string name="prefUnitsPowerEntries_2">[ккал/год]</string>
     <string name="prefUnitsPowerEntries_3">[кДж/год]</string>
     <!-- pref_hud_axis_entries -->
-    <string name="pref_hud_axis_entries_0">Стандартно - лінійка статусу на звичному місці</string>
-    <string name="pref_hud_axis_entries_1">Догори дригом - практичніше для керування пристроєм</string>
+    <string name="pref_hud_axis_entries_0">Стандартно — лінійка статусу на звичному місці</string>
+    <string name="pref_hud_axis_entries_1">Догори дригом — практичніше для керування пристроєм</string>
     <!-- pref_bell_mode_entries -->
     <string name="pref_bell_mode_entries_0">Дзинь</string>
     <string name="pref_bell_mode_entries_1">Дзинь-дзинь</string>
-    <string name="pref_bell_mode_entries_2">Туу</string>
+    <string name="pref_bell_mode_entries_2">Ріг</string>
     <string name="pref_bell_mode_entries_3">Ю-ху</string>
     <!-- pref_roaring_type_entries -->
     <string name="pref_roaring_type_entries_0">Тріскачка</string>
@@ -891,7 +891,7 @@
     <string name="pref_background_pattern_entries_5">Бруківка</string>
     <string name="pref_background_pattern_entries_6">Хмари</string>
     <string name="pref_background_pattern_entries_7">Серця</string>
-    <string name="pref_background_pattern_entries_8">Печенюшка</string>
+    <string name="pref_background_pattern_entries_8">Соти</string>
     <!-- pref_tally_distance_entries -->
     <string name="pref_tally_distance_entries_0">Викл</string>
     <string name="pref_tally_distance_entries_1">0.1</string>
@@ -920,7 +920,7 @@
     <string name="pref_tally_duration_entries_11">120</string>
     <string name="pref_tally_duration_entries_12">180</string>
     <!-- pref_tally_ascent_entries -->
-    <string name="pref_tally_ascent_entries_0">Викл</string>
+    <string name="pref_tally_ascent_entries_0">Вимк.</string>
     <string name="pref_tally_ascent_entries_1">5</string>
     <string name="pref_tally_ascent_entries_2">10</string>
     <string name="pref_tally_ascent_entries_3">25</string>
@@ -937,7 +937,7 @@
     <string name="pref_speedo_display_mode_entries_2">Цифровий</string>
     <!-- pref_powermeter_display_mode_entries -->
     <string name="pref_powermeter_display_mode_entries_0">Сумарна потужність</string>
-    <string name="pref_powermeter_display_mode_entries_1">Вт на кг / фунт</string>
+    <string name="pref_powermeter_display_mode_entries_1">Вт на кг чи фунт</string>
     <!-- prefMapOnlineModeEntries -->
     <string name="prefMapOnlineModeEntries_0">Онлайн</string>
     <string name="prefMapOnlineModeEntries_1">Офлайн</string>
@@ -950,18 +950,18 @@
     <string name="prefMapOfflineLayerButtonActionEntries_1">Перемкнути файл</string>
     <string name="prefMapOfflineLayerButtonActionEntries_2">Немає</string>
     <!-- prefMapDiskCacheSizeEntries -->
-    <string name="prefMapDiskCacheSizeEntries_0">10 MB</string>
-    <string name="prefMapDiskCacheSizeEntries_1">50 MB</string>
-    <string name="prefMapDiskCacheSizeEntries_2">100 MB (типово)</string>
-    <string name="prefMapDiskCacheSizeEntries_3">200 MB</string>
-    <string name="prefMapDiskCacheSizeEntries_4">300 MB</string>
-    <string name="prefMapDiskCacheSizeEntries_5">400 MB</string>
-    <string name="prefMapDiskCacheSizeEntries_6">500 MB</string>
-    <string name="prefMapDiskCacheSizeEntries_7">1 GB</string>
-    <string name="prefMapDiskCacheSizeEntries_8">2 GB</string>
-    <string name="prefMapDiskCacheSizeEntries_9">3 GB</string>
-    <string name="prefMapDiskCacheSizeEntries_10">4 GB</string>
-    <string name="prefMapDiskCacheSizeEntries_11">5 GB</string>
+    <string name="prefMapDiskCacheSizeEntries_0">10 МБ</string>
+    <string name="prefMapDiskCacheSizeEntries_1">50 МБ</string>
+    <string name="prefMapDiskCacheSizeEntries_2">100 МБ (типово)</string>
+    <string name="prefMapDiskCacheSizeEntries_3">200 МБ</string>
+    <string name="prefMapDiskCacheSizeEntries_4">300 МБ</string>
+    <string name="prefMapDiskCacheSizeEntries_5">400 МБ</string>
+    <string name="prefMapDiskCacheSizeEntries_6">500 МБ</string>
+    <string name="prefMapDiskCacheSizeEntries_7">1 ГБ</string>
+    <string name="prefMapDiskCacheSizeEntries_8">2 ГБ</string>
+    <string name="prefMapDiskCacheSizeEntries_9">3 ГБ</string>
+    <string name="prefMapDiskCacheSizeEntries_10">4 ГБ</string>
+    <string name="prefMapDiskCacheSizeEntries_11">5 ГБ</string>
     <!-- prefAdModes -->
     <string name="prefAdModes_0">Всі</string>
     <string name="prefAdModes_1">Google</string>
@@ -970,10 +970,13 @@
     <string name="menuMeterReset">Завершити</string>
     <string name="menuViewWith">Переглянути у</string>
     <string name="menuUpload">Відвантажити</string>
-    <string name="licenseDialogMapsTab">Карти</string>
+    <string name="licenseDialogMapsTab">Мапи</string>
     <string name="ultimateLicenseDescription">Найбільш повна ліцензія із найкращим наповненням.</string>
-    <string name="ultimateLicenseFeatures">✔ Без реклами ✔ Всі карти ✔ Всі функції</string>
-    <string name="proPlusLicenseFeatures">✔ Без реклами ✔ Всі функції</string>
+    <string name="ultimateLicenseFeatures">🔹 Всі мапи
+\n🔹 Всі функції
+\n🔹 Без реклами</string>
+    <string name="proPlusLicenseFeatures">🔹 Без реклами
+\n🔹 Додаткове спонсорство</string>
     <string name="buttonNewTrack">Закінчити</string>
     <string name="toastProfilesListNonemptyDelete">Неможливо видалити. Профіль містить незбережені дані! Спочатку фінішуйте.</string>
     <string name="toastProfileButtonClickInfo">Довге натискання для перемикання профілю</string>
@@ -984,7 +987,7 @@
     <string name="toastUpdatingSuccess">Успішно оновлено</string>
     <string name="toastCancelled">Скасовано</string>
     <string name="dialog_default_map_track_colors_title">Колір треку на карті</string>
-    <string name="dialogTracksShareCountExceeded">Не можу поділитися більше ніж сотнею треків за раз.</string>
+    <string name="dialogTracksShareCountExceeded">Не можна поділитися більше ніж сотнею треків за раз.</string>
     <string name="dialogGpsSettingsPromptMessage">Ви не зможете повноцінно користуватися програмою без доступу до розташування.
 \n
 \nПереконайтеся, що визначення розташування працює і встановлене на найвищу точність.
@@ -1014,7 +1017,7 @@
     <string name="unitTimeHour">год</string>
     <string name="unitTimeMinute">хв</string>
     <string name="unitTimeSecond">сек</string>
-    <string name="meterModeFTP">акт сил</string>
+    <string name="meterModeFTP">акт птж</string>
     <string name="cloudAccountsTitle">Обліковки</string>
     <string name="cloudAccountsInfo">Приєднання до мережевого сервісу робить зручнішим відвантаження треків щоб поділитися.
 \n
@@ -1041,11 +1044,13 @@
     <string name="pref_roar_threshold_speed_info">Шум буде звучати тільки при перевищенні встановленої межі швидкості. Зручно для даунхілу.</string>
     <string name="pref_background_pattern_dialog_title">Візерунок фону меню</string>
     <string name="pref_maps_routes_draw_summary">Зобразити обрані GPX шляхи пунктирними лініями на мапі</string>
-    <string name="proLicenseFeatures">✔ Без реклами</string>
-    <string name="thunderforestMapsFeatures">✔ Без реклами ✔ Карти Thunderforest</string>
-    <string name="mapboxMapsFeatures">✔ Без реклами ✔ Мапи Mapbox</string>
+    <string name="proLicenseFeatures">🔹 Без реклами</string>
+    <string name="thunderforestMapsFeatures">🔹 Карти Thunderforest
+\n🔹 Без реклами</string>
+    <string name="mapboxMapsFeatures">🔹 Мапи Mapbox
+\n🔹 Без реклами</string>
     <string name="priceFree">БЕЗКОШТОВНО</string>
-    <string name="rewardedAdDescription">Цього разу (дивитися рекламу)</string>
+    <string name="rewardedAdDescription">Тільки на цей раз</string>
     <string name="rewardedAdLoading">Завантажується реклама…</string>
     <string name="rewardedLicenseSuccess">Винагорода отримана</string>
     <string name="na">н/д</string>
@@ -1058,7 +1063,7 @@
     <string name="pref_screenWaveOnOffMode_title">Режим жесту</string>
     <string name="pref_screenWaveOnOffMode_summary">Погасити та заблокувати екран, двічі махнувши перед ним рукою. Те саме для розблокування.</string>
     <string name="pref_soundeffects_screenOff_title">Перемикання дисплея</string>
-    <string name="pref_soundeffects_screenOff_summary">Позначати звуком і вібрацією вимкнення ерана</string>
+    <string name="pref_soundeffects_screenOff_summary">Позначати звуком і вібрацією вимкнення екрана</string>
     <string name="pref_soundeffects_proximity_title">Сенсор наближення</string>
     <string name="pref_soundeffects_proximity_summary">Клацання при спрацюванні сенсора наближення</string>
     <string name="unitMetersAboveGroundLevel">м над пов</string>
@@ -1099,7 +1104,7 @@
     <string name="infoMeterModeCadenceMsg">Також називають каденс. Кількість обертів педалей за хвилину, частота педалювання.</string>
     <string name="infoMeterModeGearRatioMsg">Кількість обертів колеса у співвідношенні до обертів педалей за хвилину, тобто співвідношення передачі. Вище число означає вищу передачу.</string>
     <string name="defaultProfileNameIndoor">Приміщення 🏠</string>
-    <string name="trackUploadDescriptionDefault">Ця активність записана за допомогою додатку Міський Велосипедист</string>
+    <string name="trackUploadDescriptionDefault">Запис із мобільного додатку Міський Велосипедист</string>
     <string name="dialogReviewNudgeMessage">Подобається Міський Велосипедист\?</string>
     <string name="dialogAppOptimizedPromptTitle">Оптимізація акумулятора</string>
     <string name="dialogReviewNudgeMessage2">Дякуємо! Будь ласка, напишіть хороший відгук та поставте нам 5 зірочок у Play Store.</string>
@@ -1168,7 +1173,7 @@
     <string name="pref_speechToasts_summary">Озвучувати різні короткі нотатки</string>
     <string name="pref_speechCountdown_title">Відлік</string>
     <string name="pref_speechCountdown_summary">Озвучувати відлік</string>
-    <string name="pref_tally_clock_entries_0">Вимкнено</string>
+    <string name="pref_tally_clock_entries_0">Вимк.</string>
     <string name="pref_tally_clock_entries_3">5</string>
     <string name="pref_tally_clock_entries_4">10</string>
     <string name="pref_tally_clock_entries_5">15</string>
@@ -1181,18 +1186,68 @@
     <string name="speechClock">Годинник: %1$s</string>
     <string name="speechTrackingPause">Пауза</string>
     <string name="speechTrackingStop">Зупинка</string>
-    <string name="speechTrackingGpsOk">GPS працює</string>
-    <string name="speechTrackingGpsWeak">Слабкий сигнал GPS</string>
-    <string name="dialogTrackEditTitleHint">Введіть назву</string>
-    <string name="dialogTrackEditNotesHint">Введіть нотатки тут</string>
+    <string name="speechTrackingGpsOk">Є GPS</string>
+    <string name="speechTrackingGpsWeak">Нема GPS</string>
+    <string name="dialogTrackEditTitleHint">Назва</string>
+    <string name="dialogTrackEditNotesHint">Нотатки</string>
     <string name="summaryProfileName">Профіль</string>
     <string name="summaryDeviceName">Пристрій</string>
     <string name="pref_soundeffects_tally_altitude_title">Висота</string>
     <string name="pref_soundeffects_tally_altitude_dialog_title">Проміжок висоти</string>
     <string name="pref_maps_offline_usage_summary">Використання: Оберіть завантажений файл мапи вище.</string>
-    <string name="pref_maps_offline_terrain_usage_summary">Використання: Розпакуйте файли .hgt із завантажених архівів та помістіть їх у той же каталог, де розміщений файл карти (не використовуйте вкладених каталогів).</string>
+    <string name="pref_maps_offline_terrain_usage_summary">Використання: Розпакуйте файли .hgt із завантажених архівів та помістіть їх у той же каталог, де розміщений файл мапи (не використовуйте вкладених каталогів).</string>
     <string name="pref_speechMasterSwitch_summary" translatable="true">\@null</string>
     <string name="speechAltitude">Висота: %1$s</string>
     <string name="speechIncreasing">Збільшується</string>
     <string name="speechDecreasing">Зменшується</string>
+    <string name="infoMeterModePowerMsg">Потужність вираховується із сили тяги, змін висоти та ін. — Поточна, Максимальна та Середня.
+\n
+\nВід\'ємні значення відображають набір потужності, наприклад при спусках чи гальмуванні.
+\n
+\nКоли у ккал/год чи кДж/год, у профіль також записується ефективність та основний обмін речовин (BMR).
+\n
+\nЗауважте: Це значення може відставати до хвилини через затримки, зумовлені фільтруванням значень.</string>
+    <string name="infoMeterModeAvgActivePowerMsg">Середня потужність рахується упродовж активності, не враховуючи інтервали без потужності чи з дуже малою потужністю (спуск, гальмування, рух по інерції).
+\n
+\nПід час напружених тренувань це буде ваша порогова функціональна потужність (Functional Threshold Power).</string>
+    <string name="infoMeterModeVerticalPowerMsg">Втрата або набір потужності під час підйому чи спуску — Поточна, Максимальна та Середня.
+\n
+\nВід\'ємні значення відображають набір потужності (зниження).
+\n
+\nКоли у ккал/год чи кДж/год, у профіль також записується ефективність.
+\n
+\nЗауважте: Це значення може відставати до хвилини через затримки, зумовлені фільтруванням значень.</string>
+    <string name="dialogAppOptimizedPromptMessage">Додаток Міський Велосипедист повинен бути доданий у виключення оптимізації акумулятора, інакше він не зможе працювати належним чином.
+\n
+\nВідкрити ці налаштування\?</string>
+    <string name="batteryOptimizationToast">Оберіть Міський Велосипедист зі списку</string>
+    <string name="aboutScreenChangeLogLink">Список змін у версіях</string>
+    <string name="aboutScreenFacebookLink">Міський Велосипедист на Facebook</string>
+    <string name="disclaimerTitle">Дисклеймер</string>
+    <string name="disclaimerText1">Цей додаток надається як є, ви використовуєте його на власний ризик. Ми, видавець, не відповідаємо за будь-які нещасні випадки, втрати майна, травми чи гірше у вас чи у третіх осіб, що виникли через користування додатком під час поїздок чи інших активностей.</string>
+    <string name="disclaimerText2">Будь ласка, користуйтеся додатком розсудливо та НЕ ПРАЦЮЙТЕ ІЗ ДОДАТКОМ ПІД ЧАС КЕРУВАННЯ автомобілем, мотоциклом, велосипедом чи іншим транспортом. Ви несете відповідальність за життя та здоров\'я інших людей.</string>
+    <string name="disclaimerText3">Завжди слідкуйте за ситуацією на дорозі.</string>
+    <string name="infoMeterModeKineticEnergyMsg">Висота над рівнем землі, де ваша потенційна енергія буде рівна вашій поточній кінетичній енергії.
+\n
+\nІншими словами ваша поточна швидкість дорівнює тій, яку б ви розвинули при падінні з цієї висоти (не беручи до уваги опір повітря).
+\n
+\nТак само це висота, якої б ви досягнули при русі вверх та використовуючи тільки кінетичну енергію.</string>
+    <string name="facebookRemovedInfo">Facebook більше не підтримує розміщення постів про тренування, тож ми видалили підтримку цієї функції з додатку.</string>
+    <string name="subscriptionPerMonth">%1$s /місяць</string>
+    <string name="subscriptionPer1y">%1$s за кожні 12 місяців</string>
+    <string name="subscriptionPer6m">%1$s за кожні 6 місяців</string>
+    <string name="subscriptionPer3m">%1$s за кожні 3 місяці</string>
+    <string name="subscriptionPer1m">%1$s за кожен місяць</string>
+    <string name="subscriptionPer1w">%1$s за кожен тиждень</string>
+    <string name="paymentOnce">Одноразовий платіж</string>
+    <string name="manageSubscriptions">Керувати підписками</string>
+    <string name="loading">Завантаження…</string>
+    <string name="trackUploadActivityTypes_3">Похід</string>
+    <string name="trackUploadActivityTypes_4">Плавання</string>
+    <string name="trackUploadActivityTypes_5">Серфінг</string>
+    <string name="trackUploadActivityTypes_6">Човен</string>
+    <string name="trackUploadActivityTypes_7">Скейтборд</string>
+    <string name="trackUploadActivityTypes_8">Лижі</string>
+    <string name="trackUploadActivityTypes_9">Сноуборд</string>
+    <string name="trackUploadActivityTypes_10">Інше</string>
 </resources>
