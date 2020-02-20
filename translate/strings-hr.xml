@@ -252,7 +252,7 @@
     <string name="dialogTrackUploadStravaIsCommute">Commute-anje</string>
     <string name="dialogSvgTitle">SVG grafovi</string>
     <string name="dialogGpsIntervalTitle">GPS interval ažuriranja</string>
-    <string name="dialogGpsIntervalNote">Molimo držite ovu vrijednost ispod 3 sek kako biste dobili točna mjerenja i dosljedno ponašanje!</string>
+    <string name="dialogGpsIntervalNote">Molimo držite ovu vrijednost ispod 3 sek kako biste dobili najtočnija mjerenja i dosljedno ponašanje!</string>
     <string name="dialogGpsIntervalLabelMore">◀
 \nVeća točnost, troši više baterije</string>
     <string name="dialogGpsIntervalLabelLess">▶
@@ -476,9 +476,9 @@
     <string name="sensorProperitesIsAutoPerimeter">Automatsko</string>
     <string name="sensorProperitesIsAutoPerimeterInfo">Ovo će obavljati automatska mjerenja opsega kotača tijekom vožnje.</string>
     <string name="sensorProperitesWheelPerimeterNotSet">Nije postavljeno</string>
-    <string name="sensorProperitesStrideLen">Dužina koraka</string>
+    <string name="sensorProperitesStrideLen">Duljina koraka</string>
     <string name="sensorProperitesIsAutoStrideLen">Automatsko</string>
-    <string name="sensorProperitesIsAutoStrideLenInfo">Ovo će obavljati automatska mjerenja dužine koraka tijekom aktivnosti.</string>
+    <string name="sensorProperitesIsAutoStrideLenInfo">Ovo će obavljati automatska mjerenja duljine koraka tijekom trčanja ili brzog hoda.</string>
     <string name="sensorProperitesStrideLenNotSet">Nije postavljeno</string>
     <string name="sensorProperitesSpeedTriggers">Okidači brzine</string>
     <string name="sensorProperitesCadenceTriggers">Okidači kadence</string>
@@ -515,7 +515,7 @@
     <string name="pref_category7_title">Podijeli</string>
     <string name="pref_category8_title">O aplikaciji</string>
     <string name="pref_category_gps_interval_title">GPS interval ažuriranja</string>
-    <string name="pref_category_stationary_exercise_title">Stacionarna vježba</string>
+    <string name="pref_category_stationary_exercise_title">Stacionarna aktivnost</string>
     <string name="pref_category_autopause_title">Auto pauza</string>
     <string name="pref_category_resetPrompt_title">Pitaj za reset</string>
     <string name="pref_category_tracking_title">Praćenje</string>
@@ -774,8 +774,8 @@
     <string name="prefNotificationAlwaysSummary">Uvijek prikazuj notifikacijsku ikonu aplikacije u statusnoj traci sustava, ne samo kada je praćenje aktivno.</string>
     <string name="prefMapDiskCacheSizeTitle">Veličina predmemorije mape</string>
     <string name="prefMapDiskCacheSizeSummary">Kada pregledavate kartu, on-line i offline, dijelovi se lokalno pohranjuju kako bi se smanjila potreba za ponovnim preuzimanjem ili rekreacijom. To ubrzava učitavanje karte i štedi bateriju. (Svi profili)</string>
-    <string name="prefProhibitLocationTitle">Ne koristi GPS</string>
-    <string name="prefProhibitLocationSummary">Ovo će uzimati podatke samo od bežičnih senzora (Snaga, Brzina, Kadenca, Otkucaji srca) i neće uključiti GPS</string>
+    <string name="prefProhibitLocationTitle">Ne koristi Lokaciju</string>
+    <string name="prefProhibitLocationSummary">Spriječi GPS tijekom aktivnosti</string>
     <string name="prefMapTrackColorTitle">Boja staze</string>
     <string name="prefMapGuideRouteColorTitle">Boja ruta navođenja</string>
     <string name="infoMeterModeDistanceTitle">Udaljenost</string>
@@ -1131,7 +1131,7 @@
     <string name="mapboxMapsFeatures">🔹 Mapbox mape
 \n🔹 Nema oglasa</string>
     <string name="priceFree">BESPLATNO</string>
-    <string name="rewardedAdDescription">Vrijedi za ovu sesiju</string>
+    <string name="rewardedAdDescription">Kliknite ovdje za pogledati oglas</string>
     <string name="rewardedAdLoading">Učitavanje oglasa…</string>
     <string name="rewardedLicenseSuccess">Licenca je uspješno dodijeljena</string>
     <string name="na">N/A</string>
