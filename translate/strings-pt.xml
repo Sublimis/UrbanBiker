@@ -252,7 +252,7 @@
     <string name="dialogTrackUploadStravaIsCommute">Comutar</string>
     <string name="dialogSvgTitle">Gráficos SVG</string>
     <string name="dialogGpsIntervalTitle">Intervalo de atualização do GPS</string>
-    <string name="dialogGpsIntervalNote">Nota: Mantenha este valor abaixo de 3 seg para obter leituras mais precisas e um comportamento mais consistente!</string>
+    <string name="dialogGpsIntervalNote">Mantenha este valor abaixo de 3 seg para obter leituras mais precisas e um comportamento consistente!</string>
     <string name="dialogGpsIntervalLabelMore">◀
 \nMais precisão, usa mais bateria</string>
     <string name="dialogGpsIntervalLabelLess">▶
@@ -478,7 +478,7 @@
     <string name="sensorProperitesWheelPerimeterNotSet">Não configurado</string>
     <string name="sensorProperitesStrideLen">Comprimento da passada</string>
     <string name="sensorProperitesIsAutoStrideLen">Automático</string>
-    <string name="sensorProperitesIsAutoStrideLenInfo">Isso executará medições automáticas de comprimento da passada durante um percurso.</string>
+    <string name="sensorProperitesIsAutoStrideLenInfo">Isso executará medições automáticas de comprimento da passada durante uma corrida ou uma caminhada acelerada.</string>
     <string name="sensorProperitesStrideLenNotSet">Não configurado</string>
     <string name="sensorProperitesSpeedTriggers">Ativadores de Velocidade</string>
     <string name="sensorProperitesCadenceTriggers">Ativadores de Cadência</string>
@@ -515,7 +515,7 @@
     <string name="pref_category7_title">Partilhar</string>
     <string name="pref_category8_title">Sobre</string>
     <string name="pref_category_gps_interval_title">Intervalo de atualização do GPS</string>
-    <string name="pref_category_stationary_exercise_title">Exercício Estacionário</string>
+    <string name="pref_category_stationary_exercise_title">Atividade Estacionária</string>
     <string name="pref_category_autopause_title">Pausa automática</string>
     <string name="pref_category_resetPrompt_title">Redefinir prompt</string>
     <string name="pref_category_tracking_title">Percurso</string>
@@ -774,8 +774,8 @@
     <string name="prefNotificationAlwaysSummary">Mostrar sempre o ícone de notificação da Aplicação na barra de status. (Não apenas quando um percurso estiver ativo).</string>
     <string name="prefMapDiskCacheSizeTitle">Limite do tamanho da cache do mapa</string>
     <string name="prefMapDiskCacheSizeSummary">Ao visualizar um mapa, tanto on-line como off-line, as zonas são armazenadas em cache localmente para reduzir a necessidade de downloads ou recreações repetidas. Isso acelera o carregamento do mapa e economiza bateria. (Todos os Perfis)</string>
-    <string name="prefProhibitLocationTitle">Não usar GPS</string>
-    <string name="prefProhibitLocationSummary">Isto irá adquirir dados apenas de sensores sem fio (Potência, Velocidade, Cadência, Frequência Cardíaca) e não ligará o GPS</string>
+    <string name="prefProhibitLocationTitle">Não usar Localização</string>
+    <string name="prefProhibitLocationSummary">Evitar GPS durante a atividade</string>
     <string name="prefMapTrackColorTitle">Cor do Percurso</string>
     <string name="prefMapGuideRouteColorTitle">Cor da Guia de Rotas</string>
     <string name="infoMeterModeDistanceTitle">Distância</string>
@@ -1133,7 +1133,7 @@
     <string name="mapboxMapsFeatures">🔹Mapbox Maps
 \n🔹Sem Anúncios</string>
     <string name="priceFree">Gratuito</string>
-    <string name="rewardedAdDescription">Válido para esta sessão</string>
+    <string name="rewardedAdDescription">Clique aqui para ver um anúncio primeiro</string>
     <string name="rewardedAdLoading">A carregar um anúncio…</string>
     <string name="rewardedLicenseSuccess">Licença concedida com sucesso</string>
     <string name="na">N/A</string>
@@ -1248,4 +1248,34 @@
     <string name="trackUploadActivityTypes_8">Esqui</string>
     <string name="trackUploadActivityTypes_9">Snowboard</string>
     <string name="trackUploadActivityTypes_10">Outra</string>
+    <string name="rewardedAdPriceFree">GRÁTIS (válido para esta sessão)</string>
+    <string name="cautionTitle">Atenção</string>
+    <string name="dialogActivityRecognitionPermissionRequestTitle">Permissão de atividade física</string>
+    <string name="dialogActivityRecognitionPermissionRequest">É necessária permissão para que a aplicação possa usar os sensores embutidos, como o sensor de Deteção de Passos.</string>
+    <string name="unitSteps">Passos</string>
+    <string name="meterModeStepCadence">Cadência de Passos</string>
+    <string name="meterModeStepCadenceShort">Cad. Passos</string>
+    <string name="meterModeStepCount">Passos</string>
+    <string name="meterModeStepCountShort">Passos</string>
+    <string name="controlPanelLocationButton">Localização</string>
+    <string name="tracksHistoryListNoMap">Nenhum mapa foi gravado.</string>
+    <string name="summaryStepCount">Passos</string>
+    <string name="sensorStepLengthNotSetWarning">O comprimento da passada não foi definido</string>
+    <string name="sensorPurposeSteps">Passos</string>
+    <string name="sensorStepDetectorName">Detetor de Passos</string>
+    <string name="sensorProperitesUseForSteps">Use para contagem de passos e cadência</string>
+    <string name="sensorProperitesEnableFiltering">Filtragem de dados</string>
+    <string name="sensorProperitesEnableFilteringInfo">Isso executará uma filtragem adicional nos dados do sensor, possivelmente melhorando a precisão, mas apresentando alguns segundos de atraso. Desativado por padrão.</string>
+    <string name="pref_soundeffects_tally_steps_title">Passos</string>
+    <string name="pref_soundeffects_tally_steps_dialog_title">Contagem de passos</string>
+    <string name="prefProhibitLocationAlertInfo">A localização nunca será ativada ou usada durante a atividade, portanto, nenhum mapa estará disponível.
+\n
+\nOs dados serão adquiridos exclusivamente a partir de sensores de movimento e de corpo, se disponíveis (Potência, Velocidade, Cadência, Frequência Cardíaca, Passos).</string>
+    <string name="infoMeterModeStepCadenceTitle">Cadência de Passos</string>
+    <string name="infoMeterModeStepCadenceMsg">Número de passos por minuto.</string>
+    <string name="infoMeterModeStepCountTitle">Passos</string>
+    <string name="infoMeterModeStepCountMsg">Número de passos dados.</string>
+    <string name="meterModes_27">Passos</string>
+    <string name="meterModes_28">Cadência de Passos</string>
+    <string name="speechSteps">Passos: %1$s</string>
 </resources>
