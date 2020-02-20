@@ -50,9 +50,10 @@
     <string name="subscriptionPer1w">%1$s billed once a week</string>
 
     <string name="paymentOnce">One-time payment</string>
-
     <string name="priceFree">FREE</string>
-    <string name="rewardedAdDescription">Valid for this session</string>
+
+    <string name="rewardedAdPriceFree">FREE (valid for this session)</string>
+    <string name="rewardedAdDescription">Click here to watch an ad first</string>
     <string name="rewardedAdLoading">Loading ad…</string>
     <string name="rewardedLicenseSuccess">License successfully awarded</string>
 
@@ -191,6 +192,8 @@
     <string name="ongoingNotificationChannelName">Ongoing notification</string>
     <string name="ongoingNotificationChannelDescription">Providing control of the foreground service and easy access to the app</string>
 
+    <string name="cautionTitle">Caution</string>
+
     <string name="dialog_default_color_light_title">Light color theme</string>
     <string name="dialog_default_color_dark_title">Dark color theme</string>
     <string name="dialog_default_map_track_colors_title">Map track colors</string>
@@ -313,7 +316,7 @@
     <string name="dialogSvgDurationTitle" translatable="false">@string/infoMeterModeDurationTitle</string>
     <string name="dialogGpsIntervalTitle">GPS update interval</string>
     <string name="dialogGpsIntervalValue" translatable="false">%1$s</string>
-    <string name="dialogGpsIntervalNote">Note: Keep this value below 3 sec to get the most accurate readings and the most consistent behaviour!</string>
+    <string name="dialogGpsIntervalNote">Keep this value below 3 sec to get the most accurate readings and consistent behavior!</string>
     <string name="dialogGpsIntervalLabelMore">◀\nMore accuracy, uses more battery</string>
     <string name="dialogGpsIntervalLabelLess">▶\nLess accuracy, uses less battery</string>
     <string name="dialogHapticIntensityTitle" translatable="false">@string/pref_haptic_feedback_intensity_title</string>
@@ -327,6 +330,8 @@
     <string name="dialogCameraPermissionRequestTitle">Camera permission</string>
     <string name="dialogCameraPermissionRequest">Permission is needed so the app can activate the flashlight.</string>
     <string name="dialogPermissionProblemMessage">This permission is needed for the app to function properly. It can be granted in the App permissions settings page.\n\nGo there now?</string>
+    <string name="dialogActivityRecognitionPermissionRequestTitle">Physical activity permission</string>
+    <string name="dialogActivityRecognitionPermissionRequest">Permission is needed so the app can use built-in sensors like Step Detector sensor.</string>
 
     <!-- dialog_fenceguard_add_entries -->
     <string name="dialog_fenceguard_add_entries_0">Add fence</string>
@@ -406,6 +411,7 @@
     <string name="unitMegabyte">MB</string>
     <string name="unitMetersAboveGroundLevel">m agl</string>
     <string name="unitFeetsAboveGroundLevel">ft agl</string>
+    <string name="unitSteps">steps</string>
 
     <string name="durationHrMin" translatable="false">%1$d:%2$02d</string>
 
@@ -465,6 +471,10 @@
     <string name="meterModeGearRatioShort">g rat</string>
     <string name="meterModeKineticEnergy">kinetic energy</string>
     <string name="meterModeKineticEnergyShort">kin en</string>
+    <string name="meterModeStepCadence">step cadence</string>
+    <string name="meterModeStepCadenceShort">step cad</string>
+    <string name="meterModeStepCount">steps</string>
+    <string name="meterModeStepCountShort">steps</string>
     <string name="bellRingAuto">auto</string>
     <string name="roarModeConstant">const</string>
     <string name="meterTextMin">min</string>
@@ -480,6 +490,7 @@
     <string name="controlPanelSoundSpeech">Speech</string>
     <string name="controlPanelSoundVolume">Volumes</string>
     <string name="controlPanelEnergyParams">Power/Energy parameters</string>
+    <string name="controlPanelLocationButton">Location</string>
 
     <string name="profilesListTitle">Profiles</string>
     <string name="profilesListTitleSelectProfile">Switch Profile</string>
@@ -501,6 +512,7 @@
     <string name="tracksHistoryListTitleSelect">Select</string>
     <string name="tracksHistoryListEmpty">No tracks here. Go out and record an activity!</string>
     <string name="tracksHistoryListLoading">Loading…</string>
+    <string name="tracksHistoryListNoMap">No map was recorded.</string>
     <string name="tracksHistoryListButtonView">View</string>
     <string name="tracksHistoryListButtonShare">Share</string>
     <string name="tracksHistoryListButtonUpload">Upload</string>
@@ -529,6 +541,7 @@
     <string name="summaryCadenceStrokes">Pedal strokes</string>
     <string name="summarySpecific">Specific</string>
     <string name="summaryMechEnergy">Mech. energy</string>
+    <string name="summaryStepCount">Steps</string>
 
     <string name="sensorsTitle">Sensors</string>
     <string name="sensorsTabUsed">Used</string>
@@ -540,6 +553,7 @@
     <string name="sensorsMenuScan">Scan</string>
     <string name="sensorsInfo">Sensors get connected automatically while recording is active, and disconnected when you stop recording.\n\nIt\'s not possible to establish a sensor connection manually.</string>
     <string name="sensorWheelCircNotSetWarning">Wheel circumference has not been set</string>
+    <string name="sensorStepLengthNotSetWarning">Step length has not been set</string>
 
     <string name="sensorMenuAddToProfile">Add to the profile</string>
     <string name="sensorMenuRemoveFromProfile">Remove from the profile</string>
@@ -562,6 +576,8 @@
     <string name="sensorPurposeDuration">Duration</string>
     <string name="sensorPurposePower">Power</string>
     <string name="sensorPurposeHeartRate">Heart rate</string>
+    <string name="sensorPurposeSteps">Steps</string>
+    <string name="sensorStepDetectorName">Step Detector</string>
 
     <string name="sensorProperitesProfileInfo">Sensor properties are managed per profile. Properties here are managed for the currently active profile only (%1$s).</string>
     <string name="sensorProperitesUseForSpeed">Use for speed</string>
@@ -569,19 +585,22 @@
     <string name="sensorProperitesUseForDistance">Use for distance and duration</string>
     <string name="sensorProperitesUseForPower">Use for power</string>
     <string name="sensorProperitesUseForHeartRate">Use for heart rate</string>
+    <string name="sensorProperitesUseForSteps">Use for step count and cadence</string>
     <string name="sensorProperitesIsInverted">Swap speed and cadence</string>
     <string name="sensorProperitesIsInvertedInfo">Use cadence sensor to obtain speed readings, or vice versa. Normally disabled.</string>
     <string name="sensorProperitesWheelPerimeter">Wheel circumference</string>
     <string name="sensorProperitesIsAutoPerimeter">Automatic</string>
     <string name="sensorProperitesIsAutoPerimeterInfo">This will perform automatic circumference measurements during a ride.</string>
     <string name="sensorProperitesWheelPerimeterNotSet">Not set</string>
-    <string name="sensorProperitesStrideLen">Stride length</string>
+    <string name="sensorProperitesStrideLen">Step length</string>
     <string name="sensorProperitesIsAutoStrideLen">Automatic</string>
-    <string name="sensorProperitesIsAutoStrideLenInfo">This will perform automatic stride length measurements during a ride.</string>
+    <string name="sensorProperitesIsAutoStrideLenInfo">This will perform automatic step length measurements during running or speed walking.</string>
     <string name="sensorProperitesStrideLenNotSet">Not set</string>
     <string name="sensorProperitesSpeedTriggers">Speed triggers</string>
     <string name="sensorProperitesCadenceTriggers">Cadence triggers</string>
     <string name="sensorProperitesTriggersCountInfo">Number of triggers (e.g. magnets) used by the sensor. Sensors with no external triggers usually have a single internal trigger.</string>
+    <string name="sensorProperitesEnableFiltering">Data filtering</string>
+    <string name="sensorProperitesEnableFilteringInfo">This will perform additional filtering on sensor data, possibly improving accuracy, but introducing a few seconds of delay. Disabled by default.</string>
 
     <string name="sensorStatusConnected">Connected</string>
     <string name="sensorStatusConnecting">Connecting…</string>
@@ -618,7 +637,7 @@
     <string name="pref_category7_title">Share</string>
     <string name="pref_category8_title">About</string>
     <string name="pref_category_gps_interval_title">GPS update interval</string>
-    <string name="pref_category_stationary_exercise_title">Stationary exercise</string>
+    <string name="pref_category_stationary_exercise_title">Stationary activity</string>
     <string name="pref_category_autopause_title">Auto pause</string>
     <string name="pref_category_resetPrompt_title">Reset prompt</string>
     <string name="pref_category_tracking_title">Tracking</string>
@@ -816,6 +835,8 @@
     <string name="pref_soundeffects_tally_altitude_dialog_title">Altitude tally</string>
     <string name="pref_soundeffects_tally_clock_title">Clock</string>
     <string name="pref_soundeffects_tally_clock_dialog_title">Clock tally</string>
+    <string name="pref_soundeffects_tally_steps_title">Steps</string>
+    <string name="pref_soundeffects_tally_steps_dialog_title">Steps tally</string>
     <string name="pref_soundeffects_alarm_title">Enable</string>
     <string name="pref_soundeffects_alarm_summary" translatable="false">@null</string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Forgotten pause</string>
@@ -947,8 +968,9 @@
     <string name="prefNotificationAlwaysSummary">Show app notification icon in system status bar at all times, not only when tracking is active.</string>
     <string name="prefMapDiskCacheSizeTitle">Map cache size limit</string>
     <string name="prefMapDiskCacheSizeSummary">When viewing a map, both online and offline, parts are being cached locally to reduce the need for repeated download or recreation. This speeds up map loading and saves battery. (All profiles)</string>
-    <string name="prefProhibitLocationTitle">Do not use GPS</string>
-    <string name="prefProhibitLocationSummary">This will acquire data only from wireless sensors (Power, Speed, Cadence, Heart rate) and will not turn on the GPS</string>
+    <string name="prefProhibitLocationTitle">Do not use Location</string>
+    <string name="prefProhibitLocationSummary">Prevent GPS during activity</string>
+    <string name="prefProhibitLocationAlertInfo">Location will never be turned on or used during activity, so no map will be available.\n\nData will be acquired exclusively from motion and body sensors if available (Power, Speed, Cadence, Heart rate, Steps).</string>
     <string name="prefMapTrackColorTitle">Track color</string>
     <string name="prefMapGuideRouteColorTitle">Guide route color</string>
 
@@ -996,12 +1018,16 @@
     <string name="infoMeterModeClockMsg">Current time of the day.</string>
     <string name="infoMeterModeCadenceTitle">Cadence</string>
     <string name="infoMeterModeCadenceMsg">Number of revolutions of the crank per minute, i.e. pedalling rate.</string>
-    <string name="infoMeterModeHeartRateTitle">Heart Rate</string>
+    <string name="infoMeterModeHeartRateTitle">Heart rate</string>
     <string name="infoMeterModeHeartRateMsg">Number of heartbeats per minute.</string>
     <string name="infoMeterModeGearRatioTitle">Gear ratio</string>
     <string name="infoMeterModeGearRatioMsg">Ratio of wheel revolutions vs. pedal turns per time unit, i.e. ratio of front sprocket and rear sprocket sizes. Higher number means higher gear.</string>
     <string name="infoMeterModeKineticEnergyTitle">Kinetic energy</string>
     <string name="infoMeterModeKineticEnergyMsg">Height above ground level where your potential energy would equal your current kinetic energy.\n\nIn other words, your speed is equal to the speed you\'d have after falling from this height (disregarding air resistance).\n\nLikewise, it\'s the height you\'d achieve by going straight up using your kinetic energy content only.</string>
+    <string name="infoMeterModeStepCadenceTitle">Step cadence</string>
+    <string name="infoMeterModeStepCadenceMsg">Number of steps per minute.</string>
+    <string name="infoMeterModeStepCountTitle">Steps</string>
+    <string name="infoMeterModeStepCountMsg">Number of steps taken.</string>
 
     <string name="infoAutopauseForcedRelaxed">Note: Auto Pause forced to Relaxed</string>
     <string name="infoAutopauseForcedOff">Note: Auto Pause forced to Off</string>
@@ -1046,6 +1072,8 @@
     <string name="meterModes_24">Pressure</string>
     <string name="meterModes_25">Odometer</string>
     <string name="meterModes_26">Kinetic energy</string>
+    <string name="meterModes_27">Steps</string>
+    <string name="meterModes_28">Step cadence</string>
 
 
     <!-- pref_gps_update_freq_entries -->
@@ -1374,6 +1402,7 @@
     <string name="speechAscent">Climb: %1$s</string>
     <string name="speechDescent">Drop: %1$s</string>
     <string name="speechClock">Clock: %1$s</string>
+    <string name="speechSteps">Steps: %1$s</string>
 
     <string name="speechCountdownGo">Go!</string>
     <string name="speechIncreasing">Rising</string>
