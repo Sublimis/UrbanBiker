@@ -324,7 +324,7 @@
     <string name="dialogTrackUploadPlatform">オンラインサービス</string>
     <string name="dialogSvgTitle">SVG グラフ</string>
     <string name="dialogGpsIntervalTitle">GPS 受信間隔</string>
-    <string name="dialogGpsIntervalNote">メモ : ３秒以下に設定すると、正確・確実です！</string>
+    <string name="dialogGpsIntervalNote">3秒以下に設定すると、正確・確実です!</string>
     <string name="dialogGpsIntervalLabelMore">◀
 \nより正確になりますが、バッテリーを消費します</string>
     <string name="dialogGpsIntervalLabelLess">▶
@@ -335,9 +335,9 @@
 \n
 \n位置情報がなければ、ブルートゥース機器は接続されません。</string>
     <string name="dialogStoragePermissionRequestTitle">保存許可</string>
-    <string name="dialogStoragePermissionRequest">走行記録・設定内容を保存するため、記憶領域へのアクセスが必要です。
-\n
-\n記憶領域へクセスできない場合、走行記録・共有ルート・設定内容を記録、再生することができません。</string>
+    <string name="dialogStoragePermissionRequest">走行記録・設定内容を保存するため、記憶領域へのアクセスが必要です。 
+\n 
+\n記憶領域へのアクセス権がない場合は、走行記録・共有ルート・設定内容を記録、再生することができません。</string>
     <string name="dialogCameraPermissionRequestTitle">カメラ許可</string>
     <string name="dialogCameraPermissionRequest">フラッシュを使用するため、許可が必要です。</string>
     <string name="mapLayerTerrain">地形図</string>
@@ -668,7 +668,7 @@
     <string name="sensorProperitesWheelPerimeter">タイヤ周長</string>
     <string name="sensorProperitesIsAutoPerimeter">自動</string>
     <string name="sensorProperitesWheelPerimeterNotSet">設定されていません</string>
-    <string name="sensorProperitesStrideLen">ストライド(一歩の長さ)</string>
+    <string name="sensorProperitesStrideLen">歩幅</string>
     <string name="sensorProperitesIsAutoStrideLen">自動</string>
     <string name="sensorProperitesStrideLenNotSet">設定されていません</string>
     <string name="sensorProperitesSpeedTriggers">速度トリガー</string>
@@ -829,9 +829,9 @@
     <string name="summarySpecific">詳細</string>
     <string name="sensorProperitesProfileInfo">センサー特性はプロファイルごとに管理されます。ここに表示される特性は、現在使用中のプロファイルだけに影響します(%1$s).</string>
     <string name="sensorProperitesIsAutoPerimeterInfo">走行中に自動でタイヤ周長を計測します。</string>
-    <string name="sensorProperitesIsAutoStrideLenInfo">自動的にストライド長を計算して、走行を記録します。</string>
+    <string name="sensorProperitesIsAutoStrideLenInfo">自動的に歩幅を計測して、走行を記録します。</string>
     <string name="sensorProperitesTriggersCountInfo">センサーに使われるトリガー(磁石など)の数。外部トリガーを持たないセンサーは、通常トリガーを内蔵しています。</string>
-    <string name="pref_category_stationary_exercise_title">室内練習</string>
+    <string name="pref_category_stationary_exercise_title">室内活動</string>
     <string name="pref_category_resetPrompt_title">プロンプトをリセット</string>
     <string name="pref_category_tracking_title">走行記録</string>
     <string name="pref_category_tracking_gps_title">走行記録 / GPS</string>
@@ -1019,8 +1019,8 @@
     <string name="prefNotificationAlwaysSummary">トラッキング中でなくても、ステータスバーに通知アイコンを表示します。</string>
     <string name="prefMapDiskCacheSizeTitle">地図用キャッシュの上限</string>
     <string name="prefMapDiskCacheSizeSummary">（オンラインでもオフラインでも）地図の一部はメモリーに保存され、再ダウンロード・再描画の負荷を軽減します。これにより地図描画の高速化、バッテリー負荷を軽減します（すべてのプロファイルで有効）</string>
-    <string name="prefProhibitLocationTitle">GPS を利用しない</string>
-    <string name="prefProhibitLocationSummary">データはワイヤレスセンサ (パワー、速度、ケイデンス、心拍数）から取得します。GPS をオンにすることはありません</string>
+    <string name="prefProhibitLocationTitle">位置情報を利用しない</string>
+    <string name="prefProhibitLocationSummary">活動中にGPS動作を抑制します</string>
     <string name="prefMapTrackColorTitle">走行記録の色</string>
     <string name="prefMapGuideRouteColorTitle">ルートガイドの色</string>
     <string name="infoMeterModeDistanceOdoTitle">オドメーター</string>
@@ -1104,7 +1104,7 @@
     <string name="mapboxMapsFeatures">🔹 Mapboxマップを利用可能
 \n🔹 広告無し</string>
     <string name="priceFree">無料</string>
-    <string name="rewardedAdDescription">このセッションで有効</string>
+    <string name="rewardedAdDescription">ここをクリックして広告を視聴</string>
     <string name="rewardedAdLoading">広告をロード中…</string>
     <string name="rewardedLicenseSuccess">ライセンスを獲得しました</string>
     <string name="na">なし</string>
@@ -1219,4 +1219,30 @@
     <string name="trackUploadActivityTypes_8">スキー</string>
     <string name="trackUploadActivityTypes_9">スノボ</string>
     <string name="trackUploadActivityTypes_10">その他</string>
+    <string name="rewardedAdPriceFree">無料 (このセッションのみ有効)</string>
+    <string name="cautionTitle">注意</string>
+    <string name="dialogActivityRecognitionPermissionRequest">アプリが歩数検出センサーなどの組み込みセンサーを使用できるようにするには、許可が必要です。</string>
+    <string name="unitSteps">歩数</string>
+    <string name="meterModeStepCadence">歩数</string>
+    <string name="meterModeStepCadenceShort">歩数</string>
+    <string name="meterModeStepCount">歩数</string>
+    <string name="meterModeStepCountShort">歩</string>
+    <string name="controlPanelLocationButton">位置</string>
+    <string name="tracksHistoryListNoMap">記録されているマップはありません。</string>
+    <string name="summaryStepCount">歩数</string>
+    <string name="sensorStepLengthNotSetWarning">歩幅が設定されていません</string>
+    <string name="sensorPurposeSteps">歩数</string>
+    <string name="sensorStepDetectorName">歩数検出</string>
+    <string name="sensorProperitesUseForSteps">歩数/歩幅の検出に使用</string>
+    <string name="sensorProperitesEnableFiltering">データのフィルタリング</string>
+    <string name="sensorProperitesEnableFilteringInfo">センサーデータで追加のフィルタリングが実行され、精度が向上する可能性がありますが、数秒の遅延が生じます。 デフォルトでは無効です。</string>
+    <string name="pref_soundeffects_tally_steps_title">歩数</string>
+    <string name="pref_soundeffects_tally_steps_dialog_title">歩数</string>
+    <string name="infoMeterModeStepCadenceTitle">歩数</string>
+    <string name="infoMeterModeStepCadenceMsg">1分あたりの歩数。</string>
+    <string name="infoMeterModeStepCountTitle">歩数</string>
+    <string name="infoMeterModeStepCountMsg">総歩数。</string>
+    <string name="meterModes_27">歩数</string>
+    <string name="meterModes_28">歩数</string>
+    <string name="speechSteps">歩数: %1$s</string>
 </resources>
