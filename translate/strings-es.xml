@@ -272,8 +272,8 @@
     <string name="meterModeAltitudeSlope">pendiente</string>
     <string name="meterModeCadence">cadencia</string>
     <string name="meterModeCadenceShort">cad</string>
-    <string name="meterModeHeartRate">pulso</string>
-    <string name="meterModeHeartRateShort">pul</string>
+    <string name="meterModeHeartRate">frecuencia cardíaca</string>
+    <string name="meterModeHeartRateShort">fc</string>
     <string name="bellRingAuto">auto</string>
     <string name="roarModeConstant">const</string>
     <string name="meterTextMin">mín</string>
@@ -317,7 +317,7 @@
     <string name="sensorPurposeCadence">Cadencia</string>
     <string name="sensorPurposeSpeed">Velocidad</string>
     <string name="sensorPurposePower">Potencia</string>
-    <string name="sensorPurposeHeartRate">Pulso</string>
+    <string name="sensorPurposeHeartRate">Frecuencia cardíaca</string>
     <string name="sensorProperitesIsAutoPerimeter">Automático</string>
     <string name="sensorStatusConnected">Conectado</string>
     <string name="sensorStatusConnecting">Conectando…</string>
@@ -614,7 +614,7 @@
     <string name="infoMeterModeClockTitle">Reloj</string>
     <string name="infoMeterModeClockMsg">Hora actual del día.</string>
     <string name="infoMeterModeCadenceTitle">Cadencia</string>
-    <string name="infoMeterModeHeartRateTitle">Pulso</string>
+    <string name="infoMeterModeHeartRateTitle">Frecuencia cardíaca</string>
     <string name="infoMeterModeHeartRateMsg">Número de latidos por minuto.</string>
     <string name="defaultProfileNameBike1">Bici 1 🚴</string>
     <string name="defaultProfileNameBike2">Bici 2 🚵</string>
@@ -905,7 +905,7 @@
     <string name="dialogSliderMore">▶</string>
     <string name="dialogCameraPermissionRequest">Se necesita permiso para que la app pueda encender la linterna.</string>
     <string name="dialogTrackUploadStravaIsCommute">Conmutar</string>
-    <string name="dialogGpsIntervalNote">Nota: ¡Mantenga este valor por debajo de 3 segundos para obtener una lectura de valores más precisa y así un comportamiento más consistente!</string>
+    <string name="dialogGpsIntervalNote">¡Mantenga este valor por debajo de 3 segundos para obtener una lectura de valores más precisa y un comportamiento consistente!</string>
     <string name="dialogLocationPermissionRequestForBt">Se necesita permiso de ubicación para encontrar los dispositivos Bluetooth.
 \n
 \nNo se encontrarán dispositivos Bluetooth si se rechaza dicho permiso.</string>
@@ -931,7 +931,7 @@
     <string name="mapboxMapsFeatures">🔹 Mapas de Mapbox
 \n🔹 Sin publicidad</string>
     <string name="priceFree">GRATIS</string>
-    <string name="rewardedAdDescription">Válido para esta sesión</string>
+    <string name="rewardedAdDescription">Clique aquí para ver un anuncio primero</string>
     <string name="rewardedAdLoading">Cargando anuncio…</string>
     <string name="na">N/A</string>
     <string name="toastScreenPocketModeActive">Modo bolsillo habilitado</string>
@@ -972,7 +972,7 @@
     <string name="tracksHistoryListButtonUpload">Subir</string>
     <string name="summaryDeviceRestartsCount">Reinicios forzados</string>
     <string name="summaryStoppedTime">Tiempo parado</string>
-    <string name="summaryHeartBeats">Pulso</string>
+    <string name="summaryHeartBeats">Pulsaciones</string>
     <string name="summaryCadenceStrokes">Pedaladas</string>
     <string name="summarySpecific">Específico</string>
     <string name="summaryMechEnergy">Energía mecánica</string>
@@ -986,13 +986,13 @@
     <string name="sensorMenuAddToProfile">Añadir al perfil</string>
     <string name="sensorMenuRemoveFromProfile">Eliminar del perfil</string>
     <string name="sensorProperitesProfileInfo">Las propiedades de los sensores se gestionan por perfil. Aquellas aquí mostradas solo se atribuyen al perfil activo actualmente (%1$s).</string>
-    <string name="sensorProperitesStrideLen">Longitud de zancada</string>
-    <string name="sensorProperitesIsAutoStrideLenInfo">Esto realizará mediciones automáticas de la longitud de zancada durante un recorrido.</string>
+    <string name="sensorProperitesStrideLen">Longitud del paso</string>
+    <string name="sensorProperitesIsAutoStrideLenInfo">Esto realizará mediciones automáticas de la longitud del paso durante una carrera o caminata con brío.</string>
     <string name="sensorProperitesSpeedTriggers">Medidores de velocidad</string>
     <string name="sensorProperitesCadenceTriggers">Medidores de cadencia</string>
     <string name="sensorProperitesTriggersCountInfo">"Número de disparadores (por ejemplo, imanes) utilizados por el sensor.  Los sensores sin disparadores externos generalmente tienen un solo disparador interno."</string>
     <string name="pref_category_map_colors_title">Colores del mapa</string>
-    <string name="pref_category_stationary_exercise_title">Ejercicio estacionario</string>
+    <string name="pref_category_stationary_exercise_title">Actividad estacionaria</string>
     <string name="pref_category_meter5_title">Indicador 5</string>
     <string name="pref_group_maps_offline_title">Configuración de mapas sin conexión…</string>
     <string name="pref_category_maps_offline_terrain_title">Terreno</string>
@@ -1022,8 +1022,8 @@
     <string name="prefPressureSensorOffsetInfo">Esta constante se agrega a las lecturas del barómetro y se puede usar para mitigar el sesgo del barómetro, si está presente</string>
     <string name="prefMapDiskCacheSizeTitle">Límite de tamaño de caché de mapa</string>
     <string name="prefMapDiskCacheSizeSummary">Al ver un mapa, tanto en línea como sin conexión, las partes se almacenan en caché localmente para reducir la necesidad de descargas o recreaciones repetidas. Esto acelera la carga del mapa y ahorra batería. (Todos los perfiles)</string>
-    <string name="prefProhibitLocationTitle">No usar el GPS</string>
-    <string name="prefProhibitLocationSummary">Esto solo obtendrá datos de sensores inalámbricos (Potencia, Velocidad, Cadencia, Frecuencia cardíaca) y no encenderá el GPS</string>
+    <string name="prefProhibitLocationTitle">No usar localización</string>
+    <string name="prefProhibitLocationSummary">Evitar GPS durante la actividad.</string>
     <string name="prefMapTrackColorTitle">Color del recorrido</string>
     <string name="prefMapGuideRouteColorTitle">Color de ruta guía</string>
     <string name="infoMeterModeDurationMsg">Duración del viaje, posiblemente excluyendo cualquier pausa o parada.</string>
@@ -1244,4 +1244,34 @@
     <string name="trackUploadActivityTypes_8">Esquí</string>
     <string name="trackUploadActivityTypes_9">Snowboard</string>
     <string name="trackUploadActivityTypes_10">Otra</string>
+    <string name="rewardedAdPriceFree">GRATIS (válido para esta sesión)</string>
+    <string name="cautionTitle">Atención</string>
+    <string name="dialogActivityRecognitionPermissionRequestTitle">Permisos de actividad física</string>
+    <string name="dialogActivityRecognitionPermissionRequest">Es necesario permisos para que la aplicación pueda usar los sensores incorporados, tales como el sensor de Detección de Pasos.</string>
+    <string name="unitSteps">pasos</string>
+    <string name="meterModeStepCadence">cadencia de pasos</string>
+    <string name="meterModeStepCadenceShort">cad pasos</string>
+    <string name="meterModeStepCount">pasos</string>
+    <string name="meterModeStepCountShort">pasos</string>
+    <string name="controlPanelLocationButton">Localización</string>
+    <string name="tracksHistoryListNoMap">No se grabó ningún mapa.</string>
+    <string name="summaryStepCount">Pasos</string>
+    <string name="sensorStepLengthNotSetWarning">La longitud de pasos no ha sido establecida</string>
+    <string name="sensorPurposeSteps">Pasos</string>
+    <string name="sensorStepDetectorName">Detector de Pasos</string>
+    <string name="sensorProperitesUseForSteps">Usar para contar los pasos y cadencia</string>
+    <string name="sensorProperitesEnableFiltering">Filtro de datos</string>
+    <string name="sensorProperitesEnableFilteringInfo">Esto realizará un filtrado adicional en los datos del sensor, posiblemente mejorando la precisión, pero introduciendo unos segundos de retraso. Deshabilitado por defecto.</string>
+    <string name="pref_soundeffects_tally_steps_title">Pasos</string>
+    <string name="pref_soundeffects_tally_steps_dialog_title">Contador de pasos</string>
+    <string name="prefProhibitLocationAlertInfo">La localización nunca se activará o se usará durante una actividad, así que los mapas no estarán disponibles.
+\n
+\nLos datos serán adquiridos exclusivamente a partir de sensores de cuerpo y de movimiento cuando éstos estén disponibles (Potencia, Velocidad, Cadencia, Frecuencia cardíaca, Pasos).</string>
+    <string name="infoMeterModeStepCadenceTitle">Cadencia de pasos</string>
+    <string name="infoMeterModeStepCadenceMsg">Número de pasos por minuto.</string>
+    <string name="infoMeterModeStepCountTitle">Pasos</string>
+    <string name="infoMeterModeStepCountMsg">Número de pasos dados.</string>
+    <string name="meterModes_27">Pasos</string>
+    <string name="meterModes_28">Cadencia de pasos</string>
+    <string name="speechSteps">Pasos: %1$s</string>
 </resources>
