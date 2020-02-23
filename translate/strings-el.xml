@@ -248,7 +248,7 @@
     <string name="dialogTrackUploadStravaIsCommute">Μετακίνηση</string>
     <string name="dialogSvgTitle">Γραφήματα SVG</string>
     <string name="dialogGpsIntervalTitle">Χρονικό διάστημα ενημέρωσης GPS</string>
-    <string name="dialogGpsIntervalNote">Σημείωση: Διατηρήστε αυτήν την τιμή κάτω από 3 δευτερόλεπτα για να πάρετε τις πιο ακριβείς μετρήσεις και την πιο συνεπή συμπεριφορά!</string>
+    <string name="dialogGpsIntervalNote">Διατηρήστε αυτήν την τιμή κάτω από 3 δευτερόλεπτα για να πάρετε τις πιο ακριβείς μετρήσεις πιο συνεπή συμπεριφορά!</string>
     <string name="dialogGpsIntervalLabelMore">◀
 \nΜεγαλύτερη ακρίβεια, χρήση περισσότερης μπαταρίας</string>
     <string name="dialogGpsIntervalLabelLess">▶
@@ -502,7 +502,7 @@
     <string name="pref_category7_title">Κοινοποίηση</string>
     <string name="pref_category8_title">Σχετικά</string>
     <string name="pref_category_gps_interval_title">Χρονικό διάστημα ενημέρωσης GPS</string>
-    <string name="pref_category_stationary_exercise_title">Στατική άσκηση</string>
+    <string name="pref_category_stationary_exercise_title">Στατική δραστηριότητα</string>
     <string name="pref_category_autopause_title">Αυτόματη παύση</string>
     <string name="pref_category_resetPrompt_title">Προτροπή επαναφοράς</string>
     <string name="pref_category_tracking_title">Εντοπισμός</string>
@@ -765,8 +765,8 @@
     <string name="prefNotificationAlwaysSummary">Εμφανίστε το εικονίδιο ειδοποίησης εφαρμογής στη γραμμή κατάστασης του συστήματος ανά πάσα στιγμή, όχι μόνο όταν η παρακολούθηση είναι ενεργή.</string>
     <string name="prefMapDiskCacheSizeTitle">Όριο μεγέθους της προσωρινής μνήμης χάρτη</string>
     <string name="prefMapDiskCacheSizeSummary">Κατά την προβολή ενός χάρτη, τόσο σε σύνδεση όσο και εκτός σύνδεσης, τα τμήματα αποθηκεύονται προσωρινά σε τοπικό επίπεδο, προκειμένου να μειωθεί η ανάγκη επαναλαμβανόμενης λήψης ή αναδημιουργίας. Αυτό επιταχύνει τη φόρτωση χάρτη και εξοικονομεί μπαταρία. (Όλα τα προφίλ)</string>
-    <string name="prefProhibitLocationTitle">Μην χρησιμοποίηση του GPS</string>
-    <string name="prefProhibitLocationSummary">Αυτό θα αποκτήσει δεδομένα μόνο από ασύρματους αισθητήρες (Ισχύς, Ταχύτητα, Ρυθμός, Καρδιακός ρυθμός) και δεν θα ενεργοποιήσει το GPS</string>
+    <string name="prefProhibitLocationTitle">Μην χρησιμοποίηση Τοποθεσίας</string>
+    <string name="prefProhibitLocationSummary">Αποτρέψτε το GPS κατά τη διάρκεια της δραστηριότητας</string>
     <string name="infoMeterModeDistanceTitle">Απόσταση</string>
     <string name="infoMeterModeDistanceMsg">Διανυθείσα απόσταση.</string>
     <string name="infoMeterModeDistanceOdoTitle">Οδόμετρο</string>
@@ -806,7 +806,7 @@
     <string name="infoMeterModeClockTitle">Ρολόι</string>
     <string name="infoMeterModeClockMsg">Τρέχουσα ώρα της ημέρας.</string>
     <string name="infoMeterModeCadenceTitle">Ρυθμός</string>
-    <string name="infoMeterModeHeartRateTitle">Καρδιακός Ρυθμός</string>
+    <string name="infoMeterModeHeartRateTitle">Καρδιακός ρυθμός</string>
     <string name="infoMeterModeHeartRateMsg">Αριθμός καρδιακών παλμών ανά λεπτό.</string>
     <string name="infoMeterModeGearRatioTitle">Σχέση μετάδοσης</string>
     <string name="infoAutopauseForcedRelaxed">Σημείωση: Η Αυτόματη Παύση αναγκάστηκε να Επανέλθει</string>
@@ -820,8 +820,8 @@
     <string name="defaultProfileNameIndoor">Εσωτερικά 🏠</string>
     <string name="defaultProfileNameOther">Λοιπά</string>
     <string name="svgCopyright">Δημιουργήθηκε με το Urban Biker</string>
-    <string name="trackUploadDescriptionDefault">Η δραστηριότητα αυτή καταγράφηκε χρησιμοποιώντας την εφαρμογή Urban Biker</string>
-    <string name="menuLicense">Αγορά άδειας</string>
+    <string name="trackUploadDescriptionDefault">Καταγράφηκε χρησιμοποιώντας την εφαρμογή Urban Biker για κινητά</string>
+    <string name="menuLicense">Αναβαθμίση</string>
     <string name="licenseItemAlreadyOwned">Το στοιχείο της άδειας είναι ήδη διαθέσιμο</string>
     <string name="timePeriod_perWeek">ανά εβδομάδα</string>
     <string name="timePeriod_perMonth">ανά μήνα</string>
@@ -1073,9 +1073,9 @@
 \nΔεν θα βρεθούν συσκευές Bluetooth εάν απορριφθεί η άδεια.</string>
     <string name="sensorProperitesUseForPower">Χρήση για ισχύ</string>
     <string name="sensorProperitesUseForHeartRate">Χρήση για καρδιακό ρυθμό</string>
-    <string name="sensorProperitesStrideLen">Μήκος διαδρομής</string>
+    <string name="sensorProperitesStrideLen">Μήκος βήματος</string>
     <string name="sensorProperitesIsAutoStrideLen">Αυτόματο</string>
-    <string name="sensorProperitesIsAutoStrideLenInfo">Αυτό θα πραγματοποιήσει αυτόματες μετρήσεις μήκους βημάτων κατά τη διάρκεια μιας διαδρομής.</string>
+    <string name="sensorProperitesIsAutoStrideLenInfo">Αυτό θα εκτελέσει αυτόματες μετρήσεις μήκους βημάτων κατά τη διάρκεια του τρεξίματος ή της βάδισης.</string>
     <string name="sensorProperitesStrideLenNotSet">Δεν ρυθμίστηκε</string>
     <string name="sensorProperitesTriggersCountInfo">Αριθμός διακοπτών(π.χ. μαγνητών) που χρησιμοποιούνται από τον αισθητήρα. Οι αισθητήρες χωρίς εξωτερικούς διακόπτες έχουν συνήθως έναν εσωτερικό.</string>
     <string name="pref_category_map_colors_title">Χρώματα χάρτη</string>
@@ -1131,13 +1131,18 @@
     <string name="disclaimerText3">Πάντα κρατάτε τα μάτια σας στο δρόμο.</string>
     <string name="licenseDialogMapsTab">Χάρτες</string>
     <string name="ultimateLicenseDescription">Πιο ισχυρή άδεια για την απόλυτη εμπειρία.</string>
-    <string name="ultimateLicenseFeatures">✔ Χωρίς διαφημίσεις ✔ Όλοι οι χάρτες ✔ Όλα τα χαρακτηριστικά</string>
-    <string name="proPlusLicenseFeatures">✔ Χωρίς διαφημίσεις ✔ Όλες οι λειτουργίες</string>
-    <string name="proLicenseFeatures">✔ Χωρίς διαφημίσεις</string>
-    <string name="thunderforestMapsFeatures">✔ Χωρίς διαφημίσεις ✔ Χάρτες Thunderforest</string>
-    <string name="mapboxMapsFeatures">✔ Χωρίς διαφημίσεις ✔ Χάρτες Mapbox</string>
+    <string name="ultimateLicenseFeatures">🔹 Όλοι οι χάρτες
+\n🔹 Όλα τα χαρακτηριστικά
+\n🔹 Χωρίς διαφημίσεις</string>
+    <string name="proPlusLicenseFeatures">🔹 Χωρίς διαφημίσεις 
+\n🔹 Επιπλέον δωρεά</string>
+    <string name="proLicenseFeatures">🔹 Χωρίς διαφημίσεις</string>
+    <string name="thunderforestMapsFeatures">🔹 Χάρτες Thunderforest
+\n🔹 Χωρίς διαφημίσεις</string>
+    <string name="mapboxMapsFeatures">🔹 Χάρτες Mapbox
+\n🔹 Χωρίς διαφημίσεις</string>
     <string name="priceFree">Δωρεάν</string>
-    <string name="rewardedAdDescription">Αυτή η συνεδρία (παρακολουθήστε μια διαφήμιση)</string>
+    <string name="rewardedAdDescription">Κάντε κλικ εδώ για να παρακολουθήσετε μια διαφήμιση πρώτα</string>
     <string name="rewardedAdLoading">Φόρτωση διαφήμισης …</string>
     <string name="rewardedLicenseSuccess">Η άδεια απονεμήθηκε με επιτυχία</string>
     <string name="na">Μη Διαθέσιμο</string>
@@ -1186,7 +1191,7 @@
     <string name="speechUnitOneMile">Μίλι</string>
     <string name="speechUnitTwoMiles">Μίλια</string>
     <string name="speechUnitManyMiles">Μίλια</string>
-    <string name="speechUnitOneHour">Ώρα</string>
+    <string name="speechUnitOneHour">Ωρα</string>
     <string name="speechUnitTwoHours">Ώρες</string>
     <string name="speechUnitManyHours">Ώρες</string>
     <string name="speechUnitOneMinute">Λεπτό</string>
@@ -1235,4 +1240,51 @@
     <string name="speechIncreasing">Ύψωση</string>
     <string name="speechDecreasing">Πτώση</string>
     <string name="facebookRemovedInfo">Το Facebook δεν υποστηρίζει πλέον την κοινή χρήση δραστηριοτήτων φυσικής κατάστασης, οπότε καταργήσαμε το Facebook από την εφαρμογή.</string>
+    <string name="subscriptionPerMonth">%1$s /Μήνα</string>
+    <string name="subscriptionPer1y">%1$s χρεώνεται μία φορά σε 12 μήνες</string>
+    <string name="subscriptionPer6m">%1$s χρεώνεται μία φορά σε 6 μήνες</string>
+    <string name="subscriptionPer3m">%1$s χρεώνεται μία φορά σε 3 μήνες</string>
+    <string name="subscriptionPer1m">%1$s χρεώνεται μία φορά το μήνα</string>
+    <string name="subscriptionPer1w">%1$s χρεώνεται μία φορά την εβδομάδα</string>
+    <string name="paymentOnce">Πληρωμή εφάπαξ</string>
+    <string name="manageSubscriptions">Διαχείριση συνδρομών</string>
+    <string name="loading">Φόρτωση…</string>
+    <string name="trackUploadActivityTypes_3">Πεζοπορία</string>
+    <string name="trackUploadActivityTypes_4">Κολύμβηση</string>
+    <string name="trackUploadActivityTypes_5">Σερφάρισμα</string>
+    <string name="trackUploadActivityTypes_6">Ιστιοπλοΐα</string>
+    <string name="trackUploadActivityTypes_7">Σκεϊτμπορντ</string>
+    <string name="trackUploadActivityTypes_8">Σκι</string>
+    <string name="trackUploadActivityTypes_9">Σνόουμπορντ</string>
+    <string name="trackUploadActivityTypes_10">Λοιπά</string>
+    <string name="rewardedAdPriceFree">ΔΩΡΕΑΝ (ισχύει για αυτήν την περίοδο λειτουργίας)</string>
+    <string name="cautionTitle">Προσοχή</string>
+    <string name="dialogActivityRecognitionPermissionRequestTitle">Άδεια σωματικής δραστηριότητας</string>
+    <string name="dialogActivityRecognitionPermissionRequest">Απαιτείται άδεια έτσι ώστε η εφαρμογή να μπορεί να χρησιμοποιεί ενσωματωμένους αισθητήρες όπως αισθητήρα ανίχνευσης βημάτων.</string>
+    <string name="unitSteps">βήματα</string>
+    <string name="meterModeStepCadence">ρυθμός βηματισμού</string>
+    <string name="meterModeStepCadenceShort">ρυθμ. βηματισμού</string>
+    <string name="meterModeStepCount">βήματα</string>
+    <string name="meterModeStepCountShort">βήματα</string>
+    <string name="controlPanelLocationButton">Τοποθεσία</string>
+    <string name="tracksHistoryListNoMap">Δεν καταγράφηκε χάρτης.</string>
+    <string name="summaryStepCount">Βήματα</string>
+    <string name="sensorStepLengthNotSetWarning">Δεν έχει οριστεί μήκος βήματος</string>
+    <string name="sensorPurposeSteps">Βήματα</string>
+    <string name="sensorStepDetectorName">Ανιχνευτής βημάτων</string>
+    <string name="sensorProperitesUseForSteps">Χρήση για μέτρηση βημάτων και ρυθμό</string>
+    <string name="sensorProperitesEnableFiltering">Φιλτράρισμα δεδομένων</string>
+    <string name="sensorProperitesEnableFilteringInfo">Αυτό θα πραγματοποιήσει πρόσθετο φιλτράρισμα στα δεδομένα αισθητήρα, ενδεχομένως βελτιώνοντας την ακρίβεια, αλλά εισάγοντας μερικά δευτερόλεπτα καθυστέρησης. Απενεργοποιημένη από προεπιλογή.</string>
+    <string name="pref_soundeffects_tally_steps_title">Βήματα</string>
+    <string name="pref_soundeffects_tally_steps_dialog_title">Ορόσημα βημάτων</string>
+    <string name="prefProhibitLocationAlertInfo">Η τοποθεσία δεν ενεργοποιείται ποτέ ή δεν χρησιμοποιείται κατά τη διάρκεια της δραστηριότητας, επομένως δεν θα υπάρχει διαθέσιμος χάρτης.
+\n
+\nΤα δεδομένα θα αποκτηθούν αποκλειστικά από τους αισθητήρες κίνησης και του σώματος, αν υπάρχουν (ισχύς, ταχύτητα, ρυθμός, καρδιακός ρυθμός, βήματα).</string>
+    <string name="infoMeterModeStepCadenceTitle">Ρυθμός βημάτων</string>
+    <string name="infoMeterModeStepCadenceMsg">Αριθμός βημάτων ανά λεπτό.</string>
+    <string name="infoMeterModeStepCountTitle">Βήματα</string>
+    <string name="infoMeterModeStepCountMsg">Αριθμός βημάτων που έχουν ληφθεί.</string>
+    <string name="meterModes_27">Βήματα</string>
+    <string name="meterModes_28">Ρυθμός βημάτων</string>
+    <string name="speechSteps">Βήματα: %1$s</string>
 </resources>
