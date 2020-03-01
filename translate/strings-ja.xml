@@ -1228,7 +1228,7 @@
     <string name="meterModeStepCount">歩数</string>
     <string name="meterModeStepCountShort">歩</string>
     <string name="controlPanelLocationButton">位置</string>
-    <string name="tracksHistoryListNoMap">記録されているマップはありません。</string>
+    <string name="tracksHistoryListNoMap">マップは記録されていません。</string>
     <string name="summaryStepCount">歩数</string>
     <string name="sensorStepLengthNotSetWarning">歩幅が設定されていません</string>
     <string name="sensorPurposeSteps">歩数</string>
@@ -1245,4 +1245,16 @@
     <string name="meterModes_27">歩数</string>
     <string name="meterModes_28">歩数</string>
     <string name="speechSteps">歩数: %1$s</string>
+    <string name="dialogActivityRecognitionPermissionRequestTitle">身体活動許可</string>
+    <string name="prefProhibitLocationAlertInfo">活動中に位置情報がオンになったり使用されたりすることはないため、マップは使用できません。
+\n
+\nデータは、モーションセンサとボディセンサ（パワー、速度、ケイデンス、心拍数、歩数）からのみ取得されます。</string>
+    <string name="menuExpand">展開</string>
+    <string name="menuCollapse">折りたたむ</string>
+    <string name="dialogMapsWeatherRadar">降水レーダー</string>
+    <string name="dialogOpenRainviewerText">webページ www.rainviewer.com をいま開きますか\?</string>
+    <string name="pref_category_maps_weather_title">天気</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_title">降水レーダー</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_summary">降水レーダーのレイヤーを表示します。レーダーのデータはインターネットからダウンロードされます。</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_info">レーターのデータは、マップが表示されている間10分ごとに自動更新されます。データの取得元は RainViewer.com です。</string>
 </resources>
