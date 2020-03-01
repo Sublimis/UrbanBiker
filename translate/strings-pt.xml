@@ -49,7 +49,7 @@
     <string name="menuSelectMode">Selecionar</string>
     <string name="menuSelectAll">Selecionar tudo</string>
     <string name="menuExpandAll">Expandir tudo</string>
-    <string name="menuCollapseAll">Recolher tudo</string>
+    <string name="menuCollapseAll">Minimizar tudo</string>
     <string name="menuEdit">Editar</string>
     <string name="menuDelete">Excluir</string>
     <string name="menuClear">Limpar</string>
@@ -1258,7 +1258,7 @@
     <string name="meterModeStepCount">Passos</string>
     <string name="meterModeStepCountShort">Passos</string>
     <string name="controlPanelLocationButton">Localização</string>
-    <string name="tracksHistoryListNoMap">Nenhum mapa foi gravado.</string>
+    <string name="tracksHistoryListNoMap">O mapa não foi gravado.</string>
     <string name="summaryStepCount">Passos</string>
     <string name="sensorStepLengthNotSetWarning">O comprimento da passada não foi definido</string>
     <string name="sensorPurposeSteps">Passos</string>
@@ -1278,4 +1278,12 @@
     <string name="meterModes_27">Passos</string>
     <string name="meterModes_28">Cadência de Passos</string>
     <string name="speechSteps">Passos: %1$s</string>
+    <string name="menuExpand">Expandir</string>
+    <string name="menuCollapse">Minimizar</string>
+    <string name="dialogMapsWeatherRadar">Radar de precipitação</string>
+    <string name="dialogOpenRainviewerText">Abrir a página web www.rainviewer.com agora\?</string>
+    <string name="pref_category_maps_weather_title">Meteorologia</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_title">Radar de precipitação</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_summary">Mostrar camada de radar de precipitação. Os dados do radar são descarregados da Internet.</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_info">Os dados do radar são atualizados automaticamente a cada 10 minutos enquanto o mapa está visível. A fonte de dados é RainViewer.com.</string>
 </resources>
