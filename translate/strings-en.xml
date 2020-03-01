@@ -99,7 +99,9 @@
     <string name="menuUpload">Upload</string>
     <string name="menuSelectMode">Select</string>
     <string name="menuSelectAll">Select all</string>
+    <string name="menuExpand">Expand</string>
     <string name="menuExpandAll">Expand all</string>
+    <string name="menuCollapse">Collapse</string>
     <string name="menuCollapseAll">Collapse all</string>
     <string name="menuEdit">Edit</string>
     <string name="menuDelete">Delete</string>
@@ -269,6 +271,7 @@
     <string name="dialogMapsAutoRotate">Auto rotate</string>
     <string name="dialogMapsHighResolution">High res map</string>
     <string name="dialogMapsRenderTerrain">Render terrain</string>
+    <string name="dialogMapsWeatherRadar">Precipitation radar</string>
     <string name="dialogMapsTrackColor">Track hue:</string>
     <string name="dialogMapsTrackColorAltitude" translatable="false">@string/infoMeterModeAltitudeTitle</string>
     <string name="dialogMapsTrackColorSpeed" translatable="false">@string/infoMeterModeSpeedTitle</string>
@@ -277,6 +280,7 @@
     <string name="dialogMapsTrackColorHeartRate" translatable="false">@string/infoMeterModeHeartRateTitle</string>
     <string name="dialogMapsTrackColorCadence" translatable="false">@string/infoMeterModeCadenceTitle</string>
     <string name="dialogMapsTrackColorTemperature" translatable="false">@string/infoMeterModeTemperatureTitle</string>
+    <string name="dialogMapsTrackColorSlope" translatable="false">@string/infoMeterModeSlopeTitle</string>
     <string name="dialogFencesAdd">Add fence here</string>
     <string name="dialogFencesUpdate">Update fence location</string>
     <string name="dialogFencesEdit">Edit fence</string>
@@ -299,6 +303,7 @@
     <string name="dialogMapsDownloadTitle">Offline maps download</string>
     <string name="dialogMapsDownloadText">Open the downloads web page now?</string>
     <string name="dialogMapsTerrainDownloadTitle">Terrain download</string>
+    <string name="dialogOpenRainviewerText">Open www.rainviewer.com web page now?</string>
     <string name="dialogTrackEditTitleHint">Title</string>
     <string name="dialogTrackEditNotesHint">Notes</string>
     <string name="dialogTrackUploadWaitTitle">Please wait</string>
@@ -512,7 +517,7 @@
     <string name="tracksHistoryListTitleSelect">Select</string>
     <string name="tracksHistoryListEmpty">No tracks here. Go out and record an activity!</string>
     <string name="tracksHistoryListLoading">Loading…</string>
-    <string name="tracksHistoryListNoMap">No map was recorded.</string>
+    <string name="tracksHistoryListNoMap">Map was not recorded.</string>
     <string name="tracksHistoryListButtonView">View</string>
     <string name="tracksHistoryListButtonShare">Share</string>
     <string name="tracksHistoryListButtonUpload">Upload</string>
@@ -667,6 +672,7 @@
     <string name="pref_category_maps_offline_terrain_title">Terrain</string>
     <string name="pref_category_maps_routes_title">Guide routes</string>
     <string name="pref_category_maps_track_title">Track line</string>
+    <string name="pref_category_maps_weather_title">Weather</string>
     <string name="pref_category_hud_title">HUD</string>
     <string name="pref_category_back_key_title">Back key mode</string>
     <string name="pref_category_haptic_title">Haptic feedback</string>
@@ -884,6 +890,9 @@
     <string name="pref_maps_offline_terrain_usage_summary">Usage: Extract .hgt files from the downloaded zip(s) and place them in the same folder where the offline map file resides (do not use separate subfolder).</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Layer button action</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(All profiles) Choose what to do when layer button gets pressed</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_title">Precipitation radar</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_summary">Show precipitation radar layer. Radar data is downloaded from the Internet.</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_info">Radar data is automatically refreshed every 10 minutes while map is visible. Data source is RainViewer.com.</string>
     <string name="pref_button_autoring_enable_title">Auto Ring toggle</string>
     <string name="pref_button_autoring_enable_summary">Enable the Auto Ring mode toggle on speedometer long-click</string>
     <string name="pref_button_profile_show_title">Profile</string>
@@ -970,7 +979,7 @@
     <string name="prefMapDiskCacheSizeSummary">When viewing a map, both online and offline, parts are being cached locally to reduce the need for repeated download or recreation. This speeds up map loading and saves battery. (All profiles)</string>
     <string name="prefProhibitLocationTitle">Do not use Location</string>
     <string name="prefProhibitLocationSummary">Prevent GPS during activity</string>
-    <string name="prefProhibitLocationAlertInfo">Location will never be turned on or used during activity, so no map will be available.\n\nData will be acquired exclusively from motion and body sensors if available (Power, Speed, Cadence, Heart rate, Steps).</string>
+    <string name="prefProhibitLocationAlertInfo">Location will never be turned on or used during activity, so map will not be available.\n\nData will be acquired exclusively from motion and body sensors if available (Power, Speed, Cadence, Heart rate, Steps).</string>
     <string name="prefMapTrackColorTitle">Track color</string>
     <string name="prefMapGuideRouteColorTitle">Guide route color</string>
 
