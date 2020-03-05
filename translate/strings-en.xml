@@ -258,10 +258,12 @@
     <string name="dialogResetMessage">Save this track and prepare for a new one?</string>
     <string name="dialogResetNoTrackMessage">No track was recorded. Reset the meters now?</string>
     <string name="dialogScreenHudMode">HUD mirror mode</string>
-    <string name="dialogScreenOrientationAuto">Auto orientation</string>
+    <string name="dialogScreenOrientationAuto">Automatic</string>
     <string name="dialogScreenOrientationPortrait">Portrait</string>
     <string name="dialogScreenOrientationLandscape">Landscape</string>
-    <string name="dialogScreenBrightnessOverride">Override brightness</string>
+    <string name="dialogScreenOrientationReversePortrait">Portrait (reverse)</string>
+    <string name="dialogScreenOrientationReverseLandscape">Landscape (reverse)</string>
+    <string name="dialogScreenBrightnessOverride">Brightness</string>
     <string name="dialogScreenAutoTheme">Auto theme</string>
     <string name="dialogMapsOffline">Offline maps</string>
     <string name="dialogMapsLayerTraffic">Traffic</string>
@@ -496,6 +498,7 @@
     <string name="controlPanelSoundVolume">Volumes</string>
     <string name="controlPanelEnergyParams">Power/Energy parameters</string>
     <string name="controlPanelLocationButton">Location</string>
+    <string name="controlPanelScreenOrientation">Screen orientation</string>
 
     <string name="profilesListTitle">Profiles</string>
     <string name="profilesListTitleSelectProfile">Switch Profile</string>
@@ -891,8 +894,11 @@
     <string name="pref_mapsOfflineLayerButtonActionTitle">Layer button action</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(All profiles) Choose what to do when layer button gets pressed</string>
     <string name="pref_mapsWeatherPrecipitationRadar_title">Precipitation radar</string>
-    <string name="pref_mapsWeatherPrecipitationRadar_summary">Show precipitation radar layer. Radar data is downloaded from the Internet.</string>
-    <string name="pref_mapsWeatherPrecipitationRadar_info">Radar data is automatically refreshed every 10 minutes while map is visible. Data source is RainViewer.com.</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_summary">Show precipitation radar layer</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_info">Radar data is downloaded from the Internet, even when offline maps are used. It is automatically refreshed every 10 minutes while map is visible. Data source is RainViewer.com.</string>
+    <string name="pref_mapsWeatherAnimate_title">Animate</string>
+    <string name="pref_mapsWeatherAnimate_summary">Animate last 1 hour of radar data, to help you visualize the precipitation trend</string>
+    <string name="pref_mapsWeatherAnimate_info">Radar animation uses 5x more Internet data than a static radar image.</string>
     <string name="pref_button_autoring_enable_title">Auto Ring toggle</string>
     <string name="pref_button_autoring_enable_summary">Enable the Auto Ring mode toggle on speedometer long-click</string>
     <string name="pref_button_profile_show_title">Profile</string>
