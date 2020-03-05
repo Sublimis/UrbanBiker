@@ -204,10 +204,10 @@
     <string name="dialogResetMessage">Guardar este percurso e iniciar um novo\?</string>
     <string name="dialogResetNoTrackMessage">O percurso não foi gravado. Reiniciar os medidores agora\?</string>
     <string name="dialogScreenHudMode">Ecrã: Modo espelho</string>
-    <string name="dialogScreenOrientationAuto">Orientação automática</string>
+    <string name="dialogScreenOrientationAuto">Automático</string>
     <string name="dialogScreenOrientationPortrait">Retrato</string>
     <string name="dialogScreenOrientationLandscape">Paisagem</string>
-    <string name="dialogScreenBrightnessOverride">Sobrepor brilho</string>
+    <string name="dialogScreenBrightnessOverride">Brilho</string>
     <string name="dialogScreenAutoTheme">Tema automático</string>
     <string name="dialogMapsOffline">Mapas offline</string>
     <string name="dialogMapsLayerTraffic">Tráfego</string>
@@ -1284,6 +1284,12 @@
     <string name="dialogOpenRainviewerText">Abrir a página web www.rainviewer.com agora\?</string>
     <string name="pref_category_maps_weather_title">Meteorologia</string>
     <string name="pref_mapsWeatherPrecipitationRadar_title">Radar de precipitação</string>
-    <string name="pref_mapsWeatherPrecipitationRadar_summary">Mostrar camada de radar de precipitação. Os dados do radar são descarregados da Internet.</string>
-    <string name="pref_mapsWeatherPrecipitationRadar_info">Os dados do radar são atualizados automaticamente a cada 10 minutos enquanto o mapa está visível. A fonte de dados é RainViewer.com.</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_summary">Mostrar camada de radar de precipitação</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_info">Os dados do radar são descarregados da internet, mesmo quando são usados mapas offline. São atualizados automaticamente a cada 10 minutos enquanto o mapa está visível. A fonte de dados é RainViewer.com.</string>
+    <string name="dialogScreenOrientationReversePortrait">Retrato (inverso)</string>
+    <string name="dialogScreenOrientationReverseLandscape">Paisagem (inverso)</string>
+    <string name="controlPanelScreenOrientation">Orientação do Ecrã</string>
+    <string name="pref_mapsWeatherAnimate_title">Animar</string>
+    <string name="pref_mapsWeatherAnimate_summary">Animar a última hora de dados de radar, para ajudar a visualizar a tendência de precipitação</string>
+    <string name="pref_mapsWeatherAnimate_info">A animação de radar usa 5x mais dados da Internet do que uma imagem de radar estática.</string>
 </resources>
