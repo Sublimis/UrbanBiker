@@ -205,10 +205,10 @@
     <string name="dialogResetMessage">Сохранить этот трек и подготовиться к новому\?</string>
     <string name="dialogResetNoTrackMessage">Трек не был записан. Сбросить показания\?</string>
     <string name="dialogScreenHudMode">Зеркальный режим HUD</string>
-    <string name="dialogScreenOrientationAuto">Автоповорот</string>
+    <string name="dialogScreenOrientationAuto">Автоматически</string>
     <string name="dialogScreenOrientationPortrait">Портрет</string>
     <string name="dialogScreenOrientationLandscape">Альбом</string>
-    <string name="dialogScreenBrightnessOverride">Переопределение яркости</string>
+    <string name="dialogScreenBrightnessOverride">Яркость</string>
     <string name="dialogScreenAutoTheme">Автоматическая тема</string>
     <string name="dialogMapsOffline">Автономные карты</string>
     <string name="dialogMapsLayerTraffic">Дорожная информация</string>
@@ -1293,6 +1293,12 @@
     <string name="dialogOpenRainviewerText">Открыть сайт www.rainviewer.com\?</string>
     <string name="pref_category_maps_weather_title">Погода</string>
     <string name="pref_mapsWeatherPrecipitationRadar_title">Карта осадков</string>
-    <string name="pref_mapsWeatherPrecipitationRadar_summary">Показывать осадки на карте. Данные загружаются из интернета.</string>
-    <string name="pref_mapsWeatherPrecipitationRadar_info">Данные автоматически обновляются каждые 10 минут, пока отображается карта. Источник данных: RainViewer.com.</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_summary">Показывать осадки на карте</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_info">Данные загружаются из интернета, даже когда используются автономные карты. Они автоматически обновляется каждые 10 минут, пока отображается карта. Источник данных: RainViewer.com.</string>
+    <string name="dialogScreenOrientationReversePortrait">Портрет (обратный)</string>
+    <string name="dialogScreenOrientationReverseLandscape">Альбом (обратный)</string>
+    <string name="controlPanelScreenOrientation">Ориентация экрана</string>
+    <string name="pref_mapsWeatherAnimate_title">Анимация</string>
+    <string name="pref_mapsWeatherAnimate_summary">Анимировать данные за последний час, чтобы помочь визуально оценить тенденцию осадков</string>
+    <string name="pref_mapsWeatherAnimate_info">Анимация использует в 5 раз больше интернет-данных, чем статичное изображение.</string>
 </resources>
