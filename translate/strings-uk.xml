@@ -187,10 +187,10 @@
     <string name="dialogResetMessage">Зберегти цей трек і підготуватися до нового\?</string>
     <string name="dialogResetNoTrackMessage">Трек записувався. Дійсно обнулити лічильники\?</string>
     <string name="dialogScreenHudMode">Режим віддзеркалення HUD</string>
-    <string name="dialogScreenOrientationAuto">Автоматична орієнтація</string>
+    <string name="dialogScreenOrientationAuto">Автоматична</string>
     <string name="dialogScreenOrientationPortrait">Книжковий</string>
     <string name="dialogScreenOrientationLandscape">Альбомний</string>
-    <string name="dialogScreenBrightnessOverride">Примусова яскравість</string>
+    <string name="dialogScreenBrightnessOverride">Яскравість</string>
     <string name="dialogScreenAutoTheme">Автоматична тема</string>
     <string name="dialogMapsOffline">Офлайн карти</string>
     <string name="dialogMapsLayerTraffic">Трафік</string>
@@ -1286,6 +1286,12 @@
     <string name="dialogOpenRainviewerText">Відкрити сторінку www.rainviewer.com зараз\?</string>
     <string name="pref_category_maps_weather_title">Погода</string>
     <string name="pref_mapsWeatherPrecipitationRadar_title">Радар опадів</string>
-    <string name="pref_mapsWeatherPrecipitationRadar_summary">Показувати шар із радаром опадів. Дані завантажуються з мережі.</string>
-    <string name="pref_mapsWeatherPrecipitationRadar_info">Дані радара оновлюються автоматично з інтервалом 10 хвилин, коли мапа відображається. Джерело RainViewer.com.</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_summary">Показувати шар із радаром опадів</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_info">Дані радара оновлюються через Інтернет навіть якщо використовуються офлайн мапи. Вони оновлюються автоматично з інтервалом 10 хвилин, коли мапа відображається. Джерело RainViewer.com.</string>
+    <string name="dialogScreenOrientationReversePortrait">Портретна (зворотня)</string>
+    <string name="dialogScreenOrientationReverseLandscape">Альбомна (зворотня)</string>
+    <string name="controlPanelScreenOrientation">Орієнтація дисплея</string>
+    <string name="pref_mapsWeatherAnimate_title">Анімувати</string>
+    <string name="pref_mapsWeatherAnimate_summary">Анімувати останню годину даних із погодного радару, щоб легше розуміти ситуацію</string>
+    <string name="pref_mapsWeatherAnimate_info">Анімація радару використовує у 5 разів більше трафіку, ніж просте зображення.</string>
 </resources>
