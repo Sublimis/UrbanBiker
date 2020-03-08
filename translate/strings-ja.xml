@@ -202,10 +202,10 @@
     <string name="dialogResetMessage">この走行記録を保存し、次に備えますか？</string>
     <string name="dialogResetNoTrackMessage">ライディングが記録されていません。今すぐメーターをリセットしますか？</string>
     <string name="dialogScreenHudMode">HUD 反転モード</string>
-    <string name="dialogScreenOrientationAuto">自動回転</string>
+    <string name="dialogScreenOrientationAuto">自動</string>
     <string name="dialogScreenOrientationPortrait">縦</string>
     <string name="dialogScreenOrientationLandscape">横</string>
-    <string name="dialogScreenBrightnessOverride">画面の明るさをアプリで調整</string>
+    <string name="dialogScreenBrightnessOverride">画面の明るさ</string>
     <string name="dialogScreenAutoTheme">自動テーマ設定</string>
     <string name="dialogMapsOffline">オフライン地図</string>
     <string name="dialogMapsLayerTraffic">交通情報</string>
@@ -1255,6 +1255,12 @@
     <string name="dialogOpenRainviewerText">webページ www.rainviewer.com をいま開きますか\?</string>
     <string name="pref_category_maps_weather_title">天気</string>
     <string name="pref_mapsWeatherPrecipitationRadar_title">降水レーダー</string>
-    <string name="pref_mapsWeatherPrecipitationRadar_summary">降水レーダーのレイヤーを表示します。レーダーのデータはインターネットからダウンロードされます。</string>
-    <string name="pref_mapsWeatherPrecipitationRadar_info">レーターのデータは、マップが表示されている間10分ごとに自動更新されます。データの取得元は RainViewer.com です。</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_summary">降水レーダーのレイヤーを表示します</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_info">レーターのデータは、オフラインマップを使用する場合でもインターネットからダウンロードされます。マップが表示されている間10分ごとに自動更新されます。データの取得元は RainViewer.com です。</string>
+    <string name="dialogScreenOrientationReversePortrait">縦 (反転)</string>
+    <string name="dialogScreenOrientationReverseLandscape">横 (反転)</string>
+    <string name="controlPanelScreenOrientation">画面の向き</string>
+    <string name="pref_mapsWeatherAnimate_title">アニメーション</string>
+    <string name="pref_mapsWeatherAnimate_summary">降水傾向を可視化するため、過去1時間のレーダーデータをアニメーションします</string>
+    <string name="pref_mapsWeatherAnimate_info">レーダーアニメーションは、静的なレーダー画像と比較して5倍以上のデータをインターネットからダウンロードします。</string>
 </resources>
