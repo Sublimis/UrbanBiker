@@ -155,7 +155,7 @@
     <string name="dialogTracksShareTitle">Compartir recorridos</string>
     <string name="dialogTracksShareGeneralErrorMessage">Ocurrió un error. Por favor, inténtelo de nuevo.</string>
     <string name="dialogScreenHudMode">Modo espejo HUD</string>
-    <string name="dialogScreenOrientationAuto">Orientación automática</string>
+    <string name="dialogScreenOrientationAuto">Automática</string>
     <string name="dialogScreenOrientationPortrait">En vertical</string>
     <string name="dialogScreenOrientationLandscape">Apaisado</string>
     <string name="dialogScreenAutoTheme">Tema automático</string>
@@ -886,7 +886,7 @@
     <string name="dialog_default_map_track_colors_title">Color del recorrido en el mapa</string>
     <string name="dialogBaroAltitudeNoticeTitle">Atención</string>
     <string name="dialogThermoBarometerNoticeTitle">Atención</string>
-    <string name="dialogScreenBrightnessOverride">Ignorar brillo</string>
+    <string name="dialogScreenBrightnessOverride">Brillo</string>
     <string name="dialogMapsHighResolution">Mapa de alta resolución</string>
     <string name="dialogMapsRenderTerrain">Renderizar terreno</string>
     <string name="dialogPowerWeightsRotInertiaTitle">Inercia rotacional</string>
@@ -1280,6 +1280,12 @@
     <string name="dialogOpenRainviewerText">Abrir la página web www.rainviewer.com ahora\?</string>
     <string name="pref_category_maps_weather_title">Metereología</string>
     <string name="pref_mapsWeatherPrecipitationRadar_title">Radar de precipitaciones</string>
-    <string name="pref_mapsWeatherPrecipitationRadar_summary">Mostrar la capa de radar de precipitación. Los datos de radar se descargan de Internet.</string>
-    <string name="pref_mapsWeatherPrecipitationRadar_info">Los datos de radar se actualizan automáticamente cada 10 minutos mientras el mapa está visible. La fuente de datos es RainViewer.com.</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_summary">Mostrar la capa de radar de precipitaciones</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_info">Los datos de radar son descargados de Internet, incluso utilizando mapas fuera de línea. Se actualizan automáticamente cada 10 minutos mientras el mapa está visible. La fuente de datos es RainViewer.com.</string>
+    <string name="dialogScreenOrientationReversePortrait">Vertical (inversa)</string>
+    <string name="dialogScreenOrientationReverseLandscape">Horizontal (inversa)</string>
+    <string name="controlPanelScreenOrientation">Orientación de pantalla</string>
+    <string name="pref_mapsWeatherAnimate_title">Animar</string>
+    <string name="pref_mapsWeatherAnimate_summary">Animar la última hora de los datos de radar, para ayudarte a visualizar la tendencia de precipitaciones</string>
+    <string name="pref_mapsWeatherAnimate_info">La animación del radar utiliza 5x más datos de Internet que la de una imagen de radar estática.</string>
 </resources>
