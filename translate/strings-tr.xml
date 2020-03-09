@@ -436,9 +436,7 @@
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Seçili dosya yok.</string>
     <string name="pref_maps_offline_info_title">Şimdi indir</string>
-    <string name="pref_maps_offline_info_summary">"Harita birleşim vektörü (.map) ve Rmaps raster (.sqlitedb) haritaları desteklenir.  download.mapsforge.org adresinde mevcuttur.
-\n
-\nKullanım: İndirilen harita dosyasını yukarıdaki seçenekle seçin."</string>
+    <string name="pref_maps_offline_info_summary">"Harita birleşim vektörü (.map) ve Rmaps raster (.sqlitedb) haritaları desteklenir.  download.mapsforge.org adresinde mevcuttur."</string>
     <string name="pref_maps_routes_info_title">Not!</string>
     <string name="pref_maps_routes_files_dialog_title">Rotalar klasörünü/dosyasını seçin</string>
     <string name="pref_maps_routes_files_noFolderSelected">Klasör seçilmedi.</string>
@@ -711,7 +709,7 @@
     <string name="sensorProperitesWheelPerimeterNotSet">Ayarlanmamış</string>
     <string name="sensorProperitesStrideLen">Adım uzunluğu</string>
     <string name="sensorProperitesIsAutoStrideLen">Otomatik</string>
-    <string name="sensorProperitesIsAutoStrideLenInfo">Sürüş esnasında adım uzunluğunu otomatik ölçer.</string>
+    <string name="sensorProperitesIsAutoStrideLenInfo">Koşu ya da tempolu yürüyüş esnasında adım uzunluğunu otomatik ölçer.</string>
     <string name="sensorProperitesStrideLenNotSet">Ayarlanmamış</string>
     <string name="sensorStatusConnected">Bağlandı</string>
     <string name="sensorStatusConnecting">Bağlanıyor…</string>
@@ -741,7 +739,7 @@
     <string name="infoMeterModeHeartRateMsg">Nabız.</string>
     <string name="svgCopyright">Urban Biker ile oluşturuldu</string>
     <string name="trackUploadDescriptionDefault">Bu kayıt Urban Biker ile kaydedildi</string>
-    <string name="menuLicense">Lisans satın al</string>
+    <string name="menuLicense">Yükselt</string>
     <string name="dialogReviewNudgeMessage">Urban Biker\'dan memnun musun\?</string>
     <string name="dialogAppOptimizedPromptTitle">Batarya iyileştirme</string>
     <string name="batteryOptimizationToast">Listeden Urban Biker\'ı seç</string>
@@ -814,7 +812,7 @@
     <string name="dialogTrackUploadStravaIsCommute">Hafiflet</string>
     <string name="dialogSvgTitle">Ölçeklendirilebilir Vektör Grafikleri</string>
     <string name="dialogGpsIntervalTitle">GPS tazeleme hızı</string>
-    <string name="dialogGpsIntervalNote">Not: En doğru ve tutarlı davranışı elde etmek için bu değeri 3 sn\'nin altında tutun!</string>
+    <string name="dialogGpsIntervalNote">"En doğru ve en tutarlı  sonuçları elde etmek için bu değeri 3 sn\'nin altında tutun!"</string>
     <string name="dialogGpsIntervalLabelMore">◀
 \n Daha fazla doğruluk, daha fazla pil kullanır</string>
     <string name="dialogGpsIntervalLabelLess">▶
@@ -988,8 +986,8 @@
     <string name="prefNotificationAlwaysSummary">Bildirim simgesini sadece rota kaydedilirken değil her zaman durum çubuğunda göster.</string>
     <string name="prefMapDiskCacheSizeTitle">Harita önbelleği boyut sınırı</string>
     <string name="prefMapDiskCacheSizeSummary">Çevrimiçi veya çevrimdışı bir haritayı görüntülerken, tekrarlanan indirme veya yeniden oluşturma gereksinimini azaltmak için parçalar yerel olarak önbelleğe alınır. Bu harita yüklenmesini hızlandırır ve batarya tasarrufu sağlar. (Tüm profiller)</string>
-    <string name="prefProhibitLocationTitle">GPS kullanma</string>
-    <string name="prefProhibitLocationSummary">Bu yalnızca kablosuz sensörlerden veri toplar (Güç, Hız, Kadans, Nabız) ve GPS kullanmaz</string>
+    <string name="prefProhibitLocationTitle">Konum kullanma</string>
+    <string name="prefProhibitLocationSummary">Aktivite sırasında GPS kullanmaz</string>
     <string name="prefMapTrackColorTitle">Rota rengi</string>
     <string name="prefMapGuideRouteColorTitle">Rehber rota rengi</string>
     <string name="infoMeterModeDistanceOdoTitle">Kilometre Sayacı</string>
@@ -1107,7 +1105,7 @@
     <string name="ultimateLicenseDescription">Üst düzey bir deneyim için en iyisi.</string>
     <string name="ultimateLicenseFeatures">✔Reklam yok ✔ Tüm haritalar ✔ Tüm içerikler</string>
     <string name="proPlusLicenseFeatures">✔Reklam yok ✔ Tüm içerikler</string>
-    <string name="proLicenseFeatures">✔ Reklam yok</string>
+    <string name="proLicenseFeatures">🔹 Reklam yok</string>
     <string name="priceFree">Ücretsiz</string>
     <string name="toastScreenPocketModeActive">Cep modu aktif</string>
     <string name="unitJoule">J</string>
@@ -1120,4 +1118,54 @@
     <string name="pref_speechMasterSwitch_title">Aktif</string>
     <string name="pref_speechProfileName_title">Profil ismi</string>
     <string name="summaryDeviceName">Cihaz</string>
+    <string name="thunderforestMapsFeatures">🔹 Thunderforest Haritaları
+\n🔹 Reklam yok</string>
+    <string name="mapboxMapsFeatures">🔹 Mapbox Haritaları 
+\n🔹 Reklam yok</string>
+    <string name="unitJoulePerHour">J/h</string>
+    <string name="unitJoulePerKg">J/kg</string>
+    <string name="unitJoulePerLb">J/lb</string>
+    <string name="meterModeKineticEnergy">Kinetik enerji</string>
+    <string name="infoMeterModeKineticEnergyTitle">Kinetik enerji</string>
+    <string name="meterModes_26">Kinetik enerji</string>
+    <string name="defaultProfileNameSki">Kayak</string>
+    <string name="speechUnitOneMeter">Metre</string>
+    <string name="speechUnitManyMinutes">Dakika</string>
+    <string name="speechCountdownGo">Başla!</string>
+    <string name="pref_speechToasts_title">Kısa notlar</string>
+    <string name="pref_speechCountdown_title">Geri sayım</string>
+    <string name="speechClock">Saat: %1$s</string>
+    <string name="dialogTrackEditTitleHint">Başlık</string>
+    <string name="dialogTrackEditNotesHint">Notlar</string>
+    <string name="summaryProfileName">Profil</string>
+    <string name="pref_maps_offline_usage_summary">Kullanım: Yukarıdaki seçenek ile indirilen haritayı seç.</string>
+    <string name="pref_maps_offline_terrain_usage_summary">Kullanım: İndirilen zip\'lerden .hgt dosyalarını çıkart ve çevrimdışı harita dosyalarının bulunduğu klasöre yerleştir (ayrı bir alt klasör açma).</string>
+    <string name="facebookRemovedInfo">Artık aktivite paylaşımını desteklemediği için Facebook\'u uygulamadan kaldırdık.</string>
+    <string name="dialogActivityRecognitionPermissionRequestTitle">Fiziksel aktivite izni</string>
+    <string name="dialogActivityRecognitionPermissionRequest">Uygulamanın Adım Dedektörü sensörü gibi yerleşik sensörleri kullanabilmesi için izin gereklidir.</string>
+    <string name="unitSteps">Adım</string>
+    <string name="meterModeStepCount">Adım</string>
+    <string name="controlPanelLocationButton">Konum</string>
+    <string name="summaryStepCount">Adım</string>
+    <string name="sensorStepLengthNotSetWarning">Adım uzunluğu belirtilmedi</string>
+    <string name="sensorPurposeSteps">Adım</string>
+    <string name="sensorProperitesEnableFilteringInfo">Bu, sensör verileri üzerinde ek filtreleme gerçekleştirir, muhtemelen doğruluğu artırır ama birkaç saniye gecikmeye neden olur. Varsayılan olarak devre dışıdır.</string>
+    <string name="pref_soundeffects_tally_steps_title">Adım</string>
+    <string name="prefProhibitLocationAlertInfo">Etkinlik sırasında konum asla açılmaz veya kullanılmaz, bu nedenle harita kullanılamaz.
+\n
+\nBu yalnızca kablosuz sensörlerden veri toplar (Güç, Hız, Kadans, Nabız).</string>
+    <string name="infoMeterModeStepCadenceMsg">Dakika başına adım.</string>
+    <string name="infoMeterModeStepCountTitle">Adım</string>
+    <string name="meterModes_27">Adım</string>
+    <string name="speechSteps">Adım: %1$s</string>
+    <string name="dialogMapsWeatherRadar">Yağış radarı</string>
+    <string name="dialogOpenRainviewerText">www.rainwiever.com sitesini aç\?</string>
+    <string name="pref_category_maps_weather_title">Hava</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_title">Yağış radarı</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_summary">Yağış radarını göster</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_info">"Radar verileri, çevrimdışı haritalar kullanılsa bile İnternet\'ten indirilir.  Harita görünür durumdayken her 10 dakikada bir otomatik olarak yenilenir.  Veri kaynağı RainViewer.com\'dur."</string>
+    <string name="controlPanelScreenOrientation">Ekran yönü</string>
+    <string name="pref_mapsWeatherAnimate_title">Animasyon</string>
+    <string name="pref_mapsWeatherAnimate_summary">Son 1 saatlik radar verilerini görselleştir, bu yağış eğilimini yorumlamanıza yardımcı olur</string>
+    <string name="pref_mapsWeatherAnimate_info">Radar animasyonları durgun radar görüntülerinden 5 kat daha fazla internet verisi kullanır.</string>
 </resources>
