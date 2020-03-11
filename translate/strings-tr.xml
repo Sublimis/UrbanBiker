@@ -54,7 +54,7 @@
     <string name="menuInfo">Bilgi</string>
     <string name="menuRefresh">Yenile</string>
     <string name="menuSwitchProfile">Değiştir</string>
-    <string name="share_title">...ile gönder</string>
+    <string name="share_title">ile gönder</string>
     <string name="pick_a_color">Renk seç</string>
     <string name="fence_name_default">Evim</string>
     <string name="profileNameDefault">Yeni Profil</string>
@@ -148,10 +148,10 @@
     <string name="dialogTracksShareTitle">Rotaları paylaş</string>
     <string name="dialogTracksShareGeneralErrorMessage">Hata uluştu. Lütfen tekrar deneyin.</string>
     <string name="dialogScreenHudMode">HUD ayna modu</string>
-    <string name="dialogScreenOrientationAuto">Otomatik Yön</string>
+    <string name="dialogScreenOrientationAuto">Otomatik</string>
     <string name="dialogScreenOrientationPortrait">Dikey</string>
     <string name="dialogScreenOrientationLandscape">Yatay</string>
-    <string name="dialogScreenBrightnessOverride">Parlaklığı ayarla</string>
+    <string name="dialogScreenBrightnessOverride">Parlaklık</string>
     <string name="dialogScreenAutoTheme">Oto tema</string>
     <string name="dialogMapsOffline">Çevrimdışı Haritalar</string>
     <string name="dialogMapsLayerTraffic">Trafik</string>
@@ -443,17 +443,17 @@
     <string name="pref_button_autoring_enable_title">Otomatik zil açık</string>
     <string name="pref_button_autoring_enable_summary">Hız göstergesine uzun tıklayarak otomatik zili açın</string>
     <string name="pref_button_profile_show_title">Profil</string>
-    <string name="pref_button_profile_show_summary">Profil Butonunu Göster</string>
+    <string name="pref_button_profile_show_summary">Profil butonunu göster</string>
     <string name="pref_button_map_show_title">Harita</string>
-    <string name="pref_button_map_show_summary">Harita Butonunu Göster</string>
+    <string name="pref_button_map_show_summary">Harita butonunu göster</string>
     <string name="pref_button_flashlight_show_title">Flaş Işık</string>
-    <string name="pref_button_flashlight_show_summary">Flaş ışık butonunu göster (eğer flash varsa)</string>
+    <string name="pref_button_flashlight_show_summary">Flaş ışık butonunu göster (flaş varsa)</string>
     <string name="pref_button_contrast_show_title">Harita/Kontrast</string>
-    <string name="pref_button_contrast_show_summary">Harita/Kontrast katmanını göster</string>
+    <string name="pref_button_contrast_show_summary">Harita/Kontrast butonunu göster</string>
     <string name="pref_button_roar_show_title">Uğultu</string>
     <string name="pref_button_roar_show_summary">Uğultu butonunu göster</string>
     <string name="pref_button_menu_show_title">Menü</string>
-    <string name="pref_button_menu_show_summary">Menü Butonunu Göster</string>
+    <string name="pref_button_menu_show_summary">Menü butonunu göster</string>
     <string name="pref_meter_enable_title">Aç</string>
     <string name="pref_meter_modes_select_title">Kullanılabilir modları seçin…</string>
     <string name="pref_speedo_display_mode_title">Görünüm</string>
@@ -738,7 +738,7 @@
     <string name="infoMeterModeHeartRateTitle">Nabız</string>
     <string name="infoMeterModeHeartRateMsg">Nabız.</string>
     <string name="svgCopyright">Urban Biker ile oluşturuldu</string>
-    <string name="trackUploadDescriptionDefault">Bu kayıt Urban Biker ile kaydedildi</string>
+    <string name="trackUploadDescriptionDefault">Urban Biker ile kaydedildi</string>
     <string name="menuLicense">Yükselt</string>
     <string name="dialogReviewNudgeMessage">Urban Biker\'dan memnun musun\?</string>
     <string name="dialogAppOptimizedPromptTitle">Batarya iyileştirme</string>
@@ -1103,8 +1103,11 @@
     <string name="disclaimerText2">"Lütfen bu uygulamayı akıllıca kullanın ve araba, motorsiklet, bisiklet veya herhangi bir araç kullanırken dikkatinizi sürüşünüze  verin."</string>
     <string name="licenseDialogMapsTab">Harita</string>
     <string name="ultimateLicenseDescription">Üst düzey bir deneyim için en iyisi.</string>
-    <string name="ultimateLicenseFeatures">✔Reklam yok ✔ Tüm haritalar ✔ Tüm içerikler</string>
-    <string name="proPlusLicenseFeatures">✔Reklam yok ✔ Tüm içerikler</string>
+    <string name="ultimateLicenseFeatures">🔹 Tüm haritalar 
+\n🔹 Tüm içerikler 
+\n🔹 Reklam yok</string>
+    <string name="proPlusLicenseFeatures">🔹 Reklam yok 
+\n🔹 Extra donation</string>
     <string name="proLicenseFeatures">🔹 Reklam yok</string>
     <string name="priceFree">Ücretsiz</string>
     <string name="toastScreenPocketModeActive">Cep modu aktif</string>
@@ -1168,4 +1171,79 @@
     <string name="pref_mapsWeatherAnimate_title">Animasyon</string>
     <string name="pref_mapsWeatherAnimate_summary">Son 1 saatlik radar verilerini görselleştir, bu yağış eğilimini yorumlamanıza yardımcı olur</string>
     <string name="pref_mapsWeatherAnimate_info">Radar animasyonları durgun radar görüntülerinden 5 kat daha fazla internet verisi kullanır.</string>
+    <string name="meterModes_11">Yty güç</string>
+    <string name="meterModes_12">Yty hız</string>
+    <string name="rewardedAdDescription">"Reklamı izlemek için  tıklayın"</string>
+    <string name="rewardedAdLoading">Reklam yükleniyor…</string>
+    <string name="rewardedLicenseSuccess">Lisans başarıyla yüklendi</string>
+    <string name="na">N/A</string>
+    <string name="toastScreenWavingModeActive">Karartma modu aktif</string>
+    <string name="pref_screenWaveOnOffMode_title">Karartma modu</string>
+    <string name="pref_soundeffects_screenOff_title">Ekran kapalı</string>
+    <string name="pref_soundeffects_screenOff_summary">Ekran karartıldığında ya da aniden kapandığında ses ve titreşimle bildir</string>
+    <string name="pref_soundeffects_proximity_summary">Yakınlık sensörü açıldığında sesle bildir</string>
+    <string name="unitMetersAboveGroundLevel">m rkm</string>
+    <string name="unitFeetsAboveGroundLevel">f rkm</string>
+    <string name="meterModeKineticEnergyShort">Kin En</string>
+    <string name="infoMeterModeKineticEnergyMsg">Potansiyel enerjinizin, mevcut kinetik enerjinize eşit olacağı yer seviyesinin üzerindeki yükseklik.
+\n
+\nBaşka bir deyişle, hızınız, bu yükseklikten düşmüş olsaydınız kazanacağınız hıza eşittir (hava direnci göz ardı edildiğinde).
+\n
+\nAynı şekilde, yalnızca kinetik enerji içeriğinizi kullanarak doğrudan yukarı çıkarak elde edeceğiniz yüksekliktir.</string>
+    <string name="mapMarkerStart">Başlangıç</string>
+    <string name="mapMarkerFinish">Bitiş</string>
+    <string name="defaultProfileNameScooter">Scooter</string>
+    <string name="pref_soundeffects_tally_clock_title">Saat</string>
+    <string name="pref_soundeffects_tally_clock_dialog_title">Saat hesabı</string>
+    <string name="pref_speechProfileName_summary">(Tüm profiller için) Profil değiştirmek için profil ismini söyle</string>
+    <string name="pref_speechTrackingStatus_title">Kaydediliyor</string>
+    <string name="pref_tally_clock_entries_0">Kapalı</string>
+    <string name="pref_tally_clock_entries_3">5</string>
+    <string name="pref_tally_clock_entries_4">10</string>
+    <string name="pref_tally_clock_entries_5">15</string>
+    <string name="pref_tally_clock_entries_6">20</string>
+    <string name="pref_tally_clock_entries_7">30</string>
+    <string name="pref_tally_clock_entries_8">45</string>
+    <string name="pref_tally_clock_entries_9">60</string>
+    <string name="speechAscent">Tırmanış: %1$s</string>
+    <string name="speechDescent">İniş: %1$s</string>
+    <string name="speechTrackingPause">Duraklat</string>
+    <string name="speechTrackingStop">Durdur</string>
+    <string name="pref_soundeffects_tally_altitude_title">Rakım</string>
+    <string name="pref_soundeffects_tally_altitude_dialog_title">Rakım hesabı</string>
+    <string name="speechIncreasing">Yükseliş</string>
+    <string name="speechDecreasing">Düşüş</string>
+    <string name="subscriptionPerMonth">%1$s /aylık</string>
+    <string name="subscriptionPer1y">12 ay için %1$s</string>
+    <string name="subscriptionPer6m">6 ay için %1$s</string>
+    <string name="subscriptionPer3m">3 ay için %1$s</string>
+    <string name="subscriptionPer1m">1 ay için %1$s</string>
+    <string name="subscriptionPer1w">Bir hafta için %1$s</string>
+    <string name="paymentOnce">Tek seferlik ödeme</string>
+    <string name="manageSubscriptions">Abonelikleri yönet</string>
+    <string name="loading">Yükleniyor…</string>
+    <string name="trackUploadActivityTypes_3">Doğa yürüyüşü</string>
+    <string name="trackUploadActivityTypes_4">Yüzme</string>
+    <string name="trackUploadActivityTypes_5">Sörf</string>
+    <string name="trackUploadActivityTypes_6">Yelken</string>
+    <string name="trackUploadActivityTypes_7">Kaykay</string>
+    <string name="trackUploadActivityTypes_8">Kayak</string>
+    <string name="trackUploadActivityTypes_9">Kar kayağı</string>
+    <string name="trackUploadActivityTypes_10">Diğer</string>
+    <string name="rewardedAdPriceFree">Ücretsiz (Sadece bu oturum için geçerli)</string>
+    <string name="cautionTitle">Dikkat</string>
+    <string name="meterModeStepCadence">Adım temposu</string>
+    <string name="meterModeStepCadenceShort">Ad Kad</string>
+    <string name="meterModeStepCountShort">Adım</string>
+    <string name="tracksHistoryListNoMap">Harita kaydedilmedi.</string>
+    <string name="sensorStepDetectorName">Adım Sensörü</string>
+    <string name="sensorProperitesUseForSteps">Adım sayma ve tempo için kullan</string>
+    <string name="sensorProperitesEnableFiltering">Veri filtreleme</string>
+    <string name="pref_soundeffects_tally_steps_dialog_title">Adım hesabı</string>
+    <string name="infoMeterModeStepCadenceTitle">Adım temposu</string>
+    <string name="infoMeterModeStepCountMsg">Kaydedilen adım sayısı.</string>
+    <string name="meterModes_28">Adım temposu</string>
+    <string name="menuExpand">Genişlet</string>
+    <string name="dialogScreenOrientationReversePortrait">Portre (ters)</string>
+    <string name="dialogScreenOrientationReverseLandscape">Manzara (ters)</string>
 </resources>
