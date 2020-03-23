@@ -23,7 +23,7 @@
     <string name="buttonNewTrack">Terminar</string>
     <string name="menuControlPanel">Painel de Controlo</string>
     <string name="menuSettings">Definições</string>
-    <string name="menuSummary">Resumo</string>
+    <string name="menuSummary">Resumo (ao Vivo)</string>
     <string name="menuTracksHistory">Histórico</string>
     <string name="menuTracksHistoryResume">Retomar</string>
     <string name="menuMeterLock">Bloquear</string>
@@ -101,7 +101,7 @@
     <string name="toastProfileButtonClickInfo">Clique longo para alternar perfil</string>
     <string name="toastContrastButtonClickInfo">Tema visual automático está ativo</string>
     <string name="toastFlashlightButtonClickInfo">Clique longo para alternar lanterna</string>
-    <string name="toastRoarButtonClickInfo">Clique longo para alternar o som de ruído</string>
+    <string name="toastRoarButtonClickInfo">Clique longo para alternar o som SAAV</string>
     <string name="toastMapButtonClickInfo">Clique longo para alternar mapa</string>
     <string name="toastMapFollowingOn">Seguir ligado</string>
     <string name="toastMapFollowingAutorotate">Rotação automática ligada</string>
@@ -131,7 +131,7 @@
     <string name="dialog_default_color_text">Isto irá carregar as cores padrão. Tem a certeza\?</string>
     <string name="dialog_defaultConfirmation">Tem a certeza\?</string>
     <string name="dialog_volume_bell_text">Campaínha</string>
-    <string name="dialog_volume_roaring_text">Ruído</string>
+    <string name="dialog_volume_roaring_text">SAAV</string>
     <string name="dialog_volume_effects_text">Efeitos</string>
     <string name="dialog_volume_tallies_text">Contagens</string>
     <string name="dialog_volume_alarms_text">Alarmes</string>
@@ -215,7 +215,7 @@
     <string name="dialogMapsShowRoutes">Guia de Rotas</string>
     <string name="dialogMapsFollowMode">Seguir</string>
     <string name="dialogMapsAutoRotate">Rotação automática</string>
-    <string name="dialogMapsHighResolution">Mapa em alta resolução</string>
+    <string name="dialogMapsHighResolution">Mapa em HD</string>
     <string name="dialogMapsRenderTerrain">Apresentar terreno</string>
     <string name="dialogMapsTrackColor">Percurso matriz:</string>
     <string name="dialogFencesAdd">Adicionar Zona Privada aqui</string>
@@ -390,7 +390,7 @@
     <string name="meterTextAvg">Méd</string>
     <string name="meterTextTotal">Tot</string>
     <string name="controlPanelSoundAutoBell">Campaínha automática</string>
-    <string name="controlPanelSoundRoar">Ruído</string>
+    <string name="controlPanelSoundRoar">SAAV</string>
     <string name="controlPanelSoundEffects">Efeitos</string>
     <string name="controlPanelSoundAlarms">Alarmes</string>
     <string name="controlPanelSoundTallies">Contagens</string>
@@ -521,7 +521,7 @@
     <string name="pref_category_tracking_title">Percurso</string>
     <string name="pref_category_tracking_gps_title">Percurso / GPS</string>
     <string name="pref_category_bell_title">Campaínha</string>
-    <string name="pref_category_roaring_title">Ruído</string>
+    <string name="pref_category_roaring_title">SAAV - Sistema de Alerta Acústico para Veículos (AVAS)</string>
     <string name="pref_category_roaringConstantMode_title">Modo constante</string>
     <string name="pref_category_effects_title">Efeitos</string>
     <string name="pref_category_alarms_title">Alarmes</string>
@@ -599,8 +599,8 @@
     <string name="pref_bell_shake_summary">Abanar o aparelho para tocar a campaínha</string>
     <string name="pref_bell_shake_sensitivity_title">Sensibilidade da vibração</string>
     <string name="pref_roaring_type_title">Tipo</string>
-    <string name="pref_roaring_type_dialog_title">Tipo de ruído</string>
-    <string name="pref_volume_summary_text">Campainha: %1$s, Ruído: %2$s, Contagens: %3$s, Efeitos: %4$s, Alarmes: %5$s, Voz: %6$s</string>
+    <string name="pref_roaring_type_dialog_title">Tipo de SAAV</string>
+    <string name="pref_volume_summary_text">Campainha: %1$s, SAAV: %2$s, Contagens: %3$s, Efeitos: %4$s, Alarmes: %5$s, Voz: %6$s</string>
     <string name="pref_bg_color_title">Cor de fundo</string>
     <string name="pref_bg_color_summary">Escolha a cor desejada para a cor de fundo da aplicação</string>
     <string name="pref_fg_color_title">Cor do texto</string>
@@ -622,8 +622,8 @@
     <string name="pref_obey_audio_focus_disable_summary">Continuar a produzir sons mesmo se o foco audio se perder (por notificação do sistema ou por outra aplicação)</string>
     <string name="pref_audio_force_loudspeaker_title">Forçar o altifalante</string>
     <string name="pref_audio_force_loudspeaker_summary">Aviso: Experimental, pode não funcionar. Tente redireccionar todos os sons através do altifalante quando os auscultadores estiverem ligados, excepto as chamadas.</string>
-    <string name="pref_duck_roaring_on_bell_title">Ruído de Pato ao toque da campaínha</string>
-    <string name="pref_duck_roaring_on_bell_summary">Diminuir o volume dos sons de ruído quando a campaínha toca</string>
+    <string name="pref_duck_roaring_on_bell_title">SAAV de Pato ao toque da campainha</string>
+    <string name="pref_duck_roaring_on_bell_summary">Diminuir o volume dos sons SAAV quando a campainha toca</string>
     <string name="pref_relaunchAfterReboot_title">Relançamento após reinicialização</string>
     <string name="pref_relaunchAfterReboot_summary">(Todos os perfis) Continuar a registar o percurso depois de uma reinicialização forçada do aparelho, se a bateria estiver a 10% ou mais.</string>
     <string name="pref_resetPrompt_title">Redefinir prompt</string>
@@ -634,16 +634,16 @@
     <string name="pref_passive_gps_button_summary">Ativar o modo passivo do GPS quando clicar no botão do GPS</string>
     <string name="pref_digital_font_title">Fonte digital</string>
     <string name="pref_digital_font_summary">(Todos os perfis) Usar a fonte digital segmentada do LCD para o mostrador de dados do ciclómetro</string>
-    <string name="pref_roaring_state_title">Som de ruído</string>
-    <string name="pref_roaring_state_summary">Produzir sons de alerta durante o movimento</string>
+    <string name="pref_roaring_state_title">SAAV</string>
+    <string name="pref_roaring_state_summary">Produzir sons de Sistema de Alerta Acústico para Veículos - SAAV (AVAS - em inglês) enquanto você se move</string>
     <string name="pref_roaring_mode_title">Modo</string>
-    <string name="pref_roaring_mode_dialog_title">Modo de ruído</string>
+    <string name="pref_roaring_mode_dialog_title">Modo de SAAV</string>
     <string name="pref_roaring_constant_mode_title">Modo constante</string>
-    <string name="pref_roaring_constant_mode_summary">Produzir sempre sons de ruído constantes, independentemente do movimento ou do estado do GPS</string>
+    <string name="pref_roaring_constant_mode_summary">Produzir sempre sons de SAAV constantes, independentemente do movimento ou do estado do GPS</string>
     <string name="pref_roar_threshold_speed_title">Velocidade limite</string>
-    <string name="pref_roar_threshold_speed_info">O som de ruído soará unicamente quando estiver a andar mais rápido que a velocidade limite. Útil por exemplo em descidas.</string>
+    <string name="pref_roar_threshold_speed_info">O som de SAAV soará unicamente quando estiver a andar mais rápido que a velocidade limite. Útil por exemplo em descidas.</string>
     <string name="pref_roarConstantModeButton_title">Botão de alternância</string>
-    <string name="pref_roarConstantModeButton_summary">Alternar modo constante com um clique de botão enquanto o ruído está ligado</string>
+    <string name="pref_roarConstantModeButton_summary">Alternar modo constante com um clique no botão enquanto o SAAV está ligado</string>
     <string name="pref_fenceguard_title">Zona de Privacidade</string>
     <string name="pref_fenceguard_summary">Proteja a localização da sua casa, ou outros locais importantes de serem expostos nos percursos registados</string>
     <string name="pref_autopause_mode_dialog_title">Pausa automática</string>
@@ -717,8 +717,8 @@
     <string name="pref_button_flashlight_show_summary">Mostrar o botão da Lanterna (se a lanterna estiver disponível)</string>
     <string name="pref_button_contrast_show_title">Contraste/Camadas do Mapa</string>
     <string name="pref_button_contrast_show_summary">Mostrar o botão de alternância de Contraste/Camadas do Mapa</string>
-    <string name="pref_button_roar_show_title">Ruído</string>
-    <string name="pref_button_roar_show_summary">Mostrar o botão de Ruído</string>
+    <string name="pref_button_roar_show_title">SAAV</string>
+    <string name="pref_button_roar_show_summary">Mostrar o botão de SAAV</string>
     <string name="pref_button_menu_show_title">Menu</string>
     <string name="pref_button_menu_show_summary">Mostrar o botão de Menu</string>
     <string name="pref_meter_enable_title">Ativar</string>
@@ -1292,4 +1292,14 @@
     <string name="pref_mapsWeatherAnimate_title">Animar</string>
     <string name="pref_mapsWeatherAnimate_summary">Animar a última hora de dados de radar, para ajudar a visualizar a tendência de precipitação</string>
     <string name="pref_mapsWeatherAnimate_info">A animação de radar usa 5x mais dados da Internet do que uma imagem de radar estática.</string>
+    <string name="menuMeterStart">Iniciar</string>
+    <string name="menuMeterStop">Parar</string>
+    <string name="dialogScreenshotTitle">Captura de Ecrã</string>
+    <string name="dialogGoogleMapTermsViolation">A captura do conteúdo de um mapa da Google não é permitida. Portanto, o tipo de mapa deve primeiro ser alterado.
+\n
+\nMudar para o mapa Stamen agora\?</string>
+    <string name="dialogWaitTitle">Por favor, espere</string>
+    <string name="dialogScreenshotPreparing">A preparar captura de ecrã…</string>
+    <string name="mapMarkerMyLocation">A minha localização</string>
+    <string name="pref_roaring_type_entries_3">Veículo elétrico</string>
 </resources>
