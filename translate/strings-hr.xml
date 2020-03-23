@@ -23,7 +23,7 @@
     <string name="buttonNewTrack">Završi</string>
     <string name="menuControlPanel">Upravljačka ploča</string>
     <string name="menuSettings">Postavke</string>
-    <string name="menuSummary">Rezime</string>
+    <string name="menuSummary">Sažetak uživo</string>
     <string name="menuTracksHistory">Povijest</string>
     <string name="menuTracksHistoryResume">Nastavi</string>
     <string name="menuMeterLock">Zaključaj</string>
@@ -101,7 +101,7 @@
     <string name="toastProfileButtonClickInfo">Dugim klikom prebacite profil</string>
     <string name="toastContrastButtonClickInfo">Automatski vizualna tema je aktivna</string>
     <string name="toastFlashlightButtonClickInfo">Dugim klikom prebacite bljeskalicu</string>
-    <string name="toastRoarButtonClickInfo">Dugim klikom prebacite zvuk huke</string>
+    <string name="toastRoarButtonClickInfo">Dugim klikom prebacite AVAS zvuk</string>
     <string name="toastMapButtonClickInfo">Dugim klikom prebacite mapu</string>
     <string name="toastMapFollowingOn">Praćenje</string>
     <string name="toastMapFollowingAutorotate">Auto-rotacija</string>
@@ -131,7 +131,7 @@
     <string name="dialog_default_color_text">Biti će učitane zadane boje. Jeste li sigurni\?</string>
     <string name="dialog_defaultConfirmation">Jeste li sigurni\?</string>
     <string name="dialog_volume_bell_text">Zvonce</string>
-    <string name="dialog_volume_roaring_text">Huka</string>
+    <string name="dialog_volume_roaring_text">AVAS</string>
     <string name="dialog_volume_effects_text">Efekti</string>
     <string name="dialog_volume_tallies_text">Oznake</string>
     <string name="dialog_volume_alarms_text">Alarmi</string>
@@ -390,7 +390,7 @@
     <string name="meterTextAvg">sred</string>
     <string name="meterTextTotal">uku</string>
     <string name="controlPanelSoundAutoBell">Automatsko zvono</string>
-    <string name="controlPanelSoundRoar">Huka</string>
+    <string name="controlPanelSoundRoar">AVAS</string>
     <string name="controlPanelSoundEffects">Efekti</string>
     <string name="controlPanelSoundAlarms">Alarmi</string>
     <string name="controlPanelSoundTallies">Oznake</string>
@@ -521,7 +521,7 @@
     <string name="pref_category_tracking_title">Praćenje</string>
     <string name="pref_category_tracking_gps_title">Praćenje / GPS</string>
     <string name="pref_category_bell_title">Zvonce</string>
-    <string name="pref_category_roaring_title">Huka</string>
+    <string name="pref_category_roaring_title">AVAS</string>
     <string name="pref_category_roaringConstantMode_title">Postojani način</string>
     <string name="pref_category_effects_title">Efekti</string>
     <string name="pref_category_alarms_title">Alarmi</string>
@@ -599,8 +599,8 @@
     <string name="pref_bell_shake_summary">Zatresite uređaj da pozvonite zvoncem</string>
     <string name="pref_bell_shake_sensitivity_title">Osjetljivost treskanja</string>
     <string name="pref_roaring_type_title">Vrsta</string>
-    <string name="pref_roaring_type_dialog_title">Vrsta huke</string>
-    <string name="pref_volume_summary_text">Zvonce: %1$s, Huka: %2$s, Oznake: %3$s, Efekti: %4$s, Alarmi: %5$s, Govor: %6$s</string>
+    <string name="pref_roaring_type_dialog_title">AVAS tip</string>
+    <string name="pref_volume_summary_text">Zvonce: %1$s, AVAS: %2$s, Oznake: %3$s, Efekti: %4$s, Alarmi: %5$s, Govor: %6$s</string>
     <string name="pref_bg_color_title">Boja pozadine</string>
     <string name="pref_bg_color_summary">Odaberite željenu boju za pozadinu aplikacije</string>
     <string name="pref_fg_color_title">Boja teksta</string>
@@ -622,8 +622,8 @@
     <string name="pref_obey_audio_focus_disable_summary">Nastavi proizvoditi zvukove i kada se izgubi audio fokus (od strane sistemske obavijesti ili druge aplikacije)</string>
     <string name="pref_audio_force_loudspeaker_title">Prisili na zvučnik</string>
     <string name="pref_audio_force_loudspeaker_summary">Upozorenje: Eksperimentalno, moguće je da ne radi. Pokušaj preusmjeriti sve zvukove na zvučnik dok su slušalice priključene, izuzev glasovnih poziva.</string>
-    <string name="pref_duck_roaring_on_bell_title">Stišaj huku dok zvonce zvoni</string>
-    <string name="pref_duck_roaring_on_bell_summary">Stišaj zvukove huke prilikom zvonjave zvonca</string>
+    <string name="pref_duck_roaring_on_bell_title">Stišaj AVAS dok zvonce zvoni</string>
+    <string name="pref_duck_roaring_on_bell_summary">Stišaj zvukove AVAS-a kada zvonce zvoni</string>
     <string name="pref_relaunchAfterReboot_title">Pokreni nakon reboot-a</string>
     <string name="pref_relaunchAfterReboot_summary">(Svi profili) Nastavi praćenje nakon prisilnog restarta uređaja, ako je baterija na 10% ili više</string>
     <string name="pref_resetPrompt_title">Pitaj za reset</string>
@@ -634,16 +634,16 @@
     <string name="pref_passive_gps_button_summary">Omogući pasivni GPS način klikanjem GPS tipke</string>
     <string name="pref_digital_font_title">Digitalni font</string>
     <string name="pref_digital_font_summary">(Svi profili) Koristi segmentirani font digitalnog LCD-a za prikaz podataka</string>
-    <string name="pref_roaring_state_title">Zvuk huke</string>
-    <string name="pref_roaring_state_summary">Proizvodi zvukove upozorenja tijekom kretanja</string>
+    <string name="pref_roaring_state_title">AVAS</string>
+    <string name="pref_roaring_state_summary">Proizvodi zvuk sustava alarma vozila (AVAS) tijekom kretanja</string>
     <string name="pref_roaring_mode_title">Način</string>
-    <string name="pref_roaring_mode_dialog_title">Vrsta huke</string>
+    <string name="pref_roaring_mode_dialog_title">AVAS način rada</string>
     <string name="pref_roaring_constant_mode_title">Postojani način</string>
-    <string name="pref_roaring_constant_mode_summary">Proizvodi postojanu huku cijelo vrijeme, neovisno o kretanju ili stanju GPS-a</string>
+    <string name="pref_roaring_constant_mode_summary">Proizvodi stalne AVAS zvukove u svakom trenutku, bez obzira na vaše kretanje ili stanje GPS-a</string>
     <string name="pref_roar_threshold_speed_title">Prag brzine</string>
-    <string name="pref_roar_threshold_speed_info">Huka će se oglašavati samo dok je brzina veća od praga. Korisno npr. za downhill.</string>
+    <string name="pref_roar_threshold_speed_info">AVAS će se oglašavati samo dok je brzina veća od praga. Korisno npr. za downhill.</string>
     <string name="pref_roarConstantModeButton_title">Odabir gumbom</string>
-    <string name="pref_roarConstantModeButton_summary">Odaberi postojani način pritiskom na gumb dok je huka upaljena</string>
+    <string name="pref_roarConstantModeButton_summary">Odaberi postojani način pritiskom na gumb dok je AVAS uključen</string>
     <string name="pref_fenceguard_title">ČuvarOgrade</string>
     <string name="pref_fenceguard_summary">Zaštitite lokaciju vašeg doma ili drugih važnih mjesta od objavljivanja u snimljenim stazama</string>
     <string name="pref_autopause_mode_dialog_title">Auto pauziranje</string>
@@ -717,8 +717,8 @@
     <string name="pref_button_flashlight_show_summary">Prikaži tipku svjetiljke (ako je svjetiljka dostupna)</string>
     <string name="pref_button_contrast_show_title">Kontrast/Sloj mape</string>
     <string name="pref_button_contrast_show_summary">Prikaži tipku za prebacivanje kontrasta/sloja mape</string>
-    <string name="pref_button_roar_show_title">Huka</string>
-    <string name="pref_button_roar_show_summary">Prikaži tipku huke</string>
+    <string name="pref_button_roar_show_title">AVAS</string>
+    <string name="pref_button_roar_show_summary">Pokaži tipku AVAS</string>
     <string name="pref_button_menu_show_title">Meni</string>
     <string name="pref_button_menu_show_summary">Prikaži tipku menija</string>
     <string name="pref_meter_enable_title">Omogući</string>
@@ -1290,4 +1290,14 @@
     <string name="pref_mapsWeatherAnimate_title">Animiraj</string>
     <string name="pref_mapsWeatherAnimate_summary">Animirajte radarske podatke u zadnjih 1 sat, kako bi vam pomoglo vizualizirati trend oborina</string>
     <string name="pref_mapsWeatherAnimate_info">Radarska animacija koristi 5x više internetskih podataka od statičke radarske slike.</string>
+    <string name="menuMeterStart">Start</string>
+    <string name="menuMeterStop">Stop</string>
+    <string name="dialogScreenshotTitle">Snimka zaslona</string>
+    <string name="dialogGoogleMapTermsViolation">Snimanje sadržaja Googleove karte nije dopušteno, pa prvo morate promijeniti vrstu karte.
+\n
+\nŽelite li se sada prebaciti na kartu Stamen\?</string>
+    <string name="dialogWaitTitle">Molim pričekajte</string>
+    <string name="dialogScreenshotPreparing">Priprema snimke zaslona…</string>
+    <string name="mapMarkerMyLocation">Moja lokacija</string>
+    <string name="pref_roaring_type_entries_3">Električno vozilo</string>
 </resources>
