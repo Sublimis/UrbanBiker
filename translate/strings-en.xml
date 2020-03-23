@@ -74,7 +74,7 @@
 
     <string name="menuControlPanel">Control Panel</string>
     <string name="menuSettings">Settings</string>
-    <string name="menuSummary">Summary</string>
+    <string name="menuSummary">Live summary</string>
     <string name="menuTracksHistory">History</string>
     <string name="menuTracksHistoryResume">Resume</string>
     <string name="menuMeterLock">Lock</string>
@@ -83,6 +83,8 @@
     <string name="menuMeterChooseModes">Choose modes…</string>
     <string name="menuMeterNewTrack">New track</string>
     <string name="menuMeterResetMinMax">Reset min/max</string>
+    <string name="menuMeterStart">Start</string>
+    <string name="menuMeterStop">Stop</string>
     <string name="menuMeterReset">Finish</string>
     <string name="menuMeterParameters">Parameters…</string>
     <string name="menuMeterPowerMode">Toggle power mode</string>
@@ -160,7 +162,7 @@
     <string name="toastProfileButtonClickInfo">Long-click to switch profile</string>
     <string name="toastContrastButtonClickInfo">Automatic visual theme is active</string>
     <string name="toastFlashlightButtonClickInfo">Long-click to toggle the flashlight</string>
-    <string name="toastRoarButtonClickInfo">Long-click to toggle the roar sound</string>
+    <string name="toastRoarButtonClickInfo">Long-click to toggle the AVAS sound</string>
     <string name="toastMapButtonClickInfo">Long-click to toggle the map</string>
     <string name="toastMapClickInfo">Long-tap for map settings</string>
     <string name="toastMapFollowingOn">Follow on</string>
@@ -202,7 +204,7 @@
     <string name="dialog_default_color_text">This will load the default colors. Are you sure?</string>
     <string name="dialog_defaultConfirmation">Are you sure?</string>
     <string name="dialog_volume_bell_text">Bell</string>
-    <string name="dialog_volume_roaring_text">Roar</string>
+    <string name="dialog_volume_roaring_text">AVAS</string>
     <string name="dialog_volume_effects_text">Effects</string>
     <string name="dialog_volume_tallies_text">Tallies</string>
     <string name="dialog_volume_alarms_text">Alarms</string>
@@ -271,7 +273,7 @@
     <string name="dialogMapsShowRoutes">Guide routes</string>
     <string name="dialogMapsFollowMode">Follow</string>
     <string name="dialogMapsAutoRotate">Auto rotate</string>
-    <string name="dialogMapsHighResolution">High res map</string>
+    <string name="dialogMapsHighResolution">Hi-res map</string>
     <string name="dialogMapsRenderTerrain">Render terrain</string>
     <string name="dialogMapsWeatherRadar">Precipitation radar</string>
     <string name="dialogMapsTrackColor">Track hue:</string>
@@ -339,6 +341,10 @@
     <string name="dialogPermissionProblemMessage">This permission is needed for the app to function properly. It can be granted in the App permissions settings page.\n\nGo there now?</string>
     <string name="dialogActivityRecognitionPermissionRequestTitle">Physical activity permission</string>
     <string name="dialogActivityRecognitionPermissionRequest">Permission is needed so the app can use built-in sensors like Step Detector sensor.</string>
+    <string name="dialogScreenshotTitle">Screenshot</string>
+    <string name="dialogGoogleMapTermsViolation">Capturing the contents of a Google map is not permitted, so map type must first be changed.\n\nSwitch to Stamen map now?</string>
+    <string name="dialogWaitTitle">Please wait</string>
+    <string name="dialogScreenshotPreparing">Preparing screenshot…</string>
 
     <!-- dialog_fenceguard_add_entries -->
     <string name="dialog_fenceguard_add_entries_0">Add fence</string>
@@ -355,6 +361,7 @@
     <string name="mapLayerTerrain">Terrain</string>
     <string name="mapLayerSatellite">Satellite</string>
 
+    <string name="mapMarkerMyLocation">My location</string>
     <string name="mapMarkerStart">Start</string>
     <string name="mapMarkerFinish">Finish</string>
 
@@ -490,7 +497,7 @@
     <string name="meterTextTotal">tot</string>
 
     <string name="controlPanelSoundAutoBell">Automatic bell</string>
-    <string name="controlPanelSoundRoar">Roar</string>
+    <string name="controlPanelSoundRoar">AVAS</string>
     <string name="controlPanelSoundEffects">Effects</string>
     <string name="controlPanelSoundAlarms">Alarms</string>
     <string name="controlPanelSoundTallies">Tallies</string>
@@ -651,7 +658,7 @@
     <string name="pref_category_tracking_title">Tracking</string>
     <string name="pref_category_tracking_gps_title">Tracking / GPS</string>
     <string name="pref_category_bell_title">Bell</string>
-    <string name="pref_category_roaring_title">Roar</string>
+    <string name="pref_category_roaring_title">AVAS</string>
     <string name="pref_category_roaringConstantMode_title">Constant mode</string>
     <string name="pref_category_effects_title">Effects</string>
     <string name="pref_category_alarms_title">Alarms</string>
@@ -741,10 +748,10 @@
     <string name="pref_bell_shake_sensitivity_summary" translatable="false">@null</string>
     <string name="pref_roaring_type_title">Type</string>
     <string name="pref_roaring_type_summary" translatable="false">@null</string>
-    <string name="pref_roaring_type_dialog_title">Roar type</string>
+    <string name="pref_roaring_type_dialog_title">AVAS type</string>
     <string name="pref_volume_title" translatable="false">@null</string>
     <string name="pref_volume_summary" translatable="false">@null</string>
-    <string name="pref_volume_summary_text">Bell: %1$s, Roar: %2$s, Tallies: %3$s, Effects: %4$s, Alarms: %5$s, Speech: %6$s</string>
+    <string name="pref_volume_summary_text">Bell: %1$s, AVAS: %2$s, Tallies: %3$s, Effects: %4$s, Alarms: %5$s, Speech: %6$s</string>
     <string name="pref_bg_color_title">Background color</string>
     <string name="pref_bg_color_summary">Pick the desired color for the app background</string>
     <string name="pref_fg_color_title">Text color</string>
@@ -771,8 +778,8 @@
     <string name="pref_obey_audio_focus_disable_summary">Continue producing sounds even if audio focus is lost (by system notification or another app)</string>
     <string name="pref_audio_force_loudspeaker_title">Force loudspeaker</string>
     <string name="pref_audio_force_loudspeaker_summary">Warning: Experimental, may not work. Try to reroute all sounds through the loudspeaker when headphones are connected, except the voice calls.</string>
-    <string name="pref_duck_roaring_on_bell_title">Duck roaring on bell ring</string>
-    <string name="pref_duck_roaring_on_bell_summary">Lower the volume of roaring sounds when the bell rings</string>
+    <string name="pref_duck_roaring_on_bell_title">Duck AVAS on bell ring</string>
+    <string name="pref_duck_roaring_on_bell_summary">Lower the volume of AVAS sounds when the bell rings</string>
     <string name="pref_relaunchAfterReboot_title">Relaunch after reboot</string>
     <string name="pref_relaunchAfterReboot_summary">(All profiles) Resume tracking after a forced device reboot, if battery 10% or more</string>
     <string name="pref_resetPrompt_title">Reset prompt</string>
@@ -783,17 +790,17 @@
     <string name="pref_passive_gps_button_summary">Enable Passive GPS mode when clicking GPS button</string>
     <string name="pref_digital_font_title">Digital font</string>
     <string name="pref_digital_font_summary">(All profiles) Use segmented digital LCD font for cyclometer data display</string>
-    <string name="pref_roaring_state_title">Roar sound</string>
-    <string name="pref_roaring_state_summary">Produce alert sounds as you move</string>
+    <string name="pref_roaring_state_title">AVAS</string>
+    <string name="pref_roaring_state_summary">Produce Acoustic Vehicle Alerting System (AVAS) sounds as you move</string>
     <string name="pref_roaring_mode_title">Mode</string>
-    <string name="pref_roaring_mode_dialog_title">Roar mode</string>
+    <string name="pref_roaring_mode_dialog_title">AVAS mode</string>
     <string name="pref_roaring_mode_summary" translatable="false">@null</string>
     <string name="pref_roaring_constant_mode_title">Constant mode</string>
-    <string name="pref_roaring_constant_mode_summary">Produce constant roar sounds at all times, regardless of your movement or GPS state</string>
+    <string name="pref_roaring_constant_mode_summary">Produce constant AVAS sounds at all times, regardless of your movement or GPS state</string>
     <string name="pref_roar_threshold_speed_title">Threshold speed</string>
-    <string name="pref_roar_threshold_speed_info">Roar will sound only when going faster than the threshold speed. Useful e.g. for downhills.</string>
+    <string name="pref_roar_threshold_speed_info">AVAS will sound only when going faster than the threshold speed. Useful e.g. for downhills.</string>
     <string name="pref_roarConstantModeButton_title">Button toggle</string>
-    <string name="pref_roarConstantModeButton_summary">Toggle constant mode with a button click while the roar is turned on</string>
+    <string name="pref_roarConstantModeButton_summary">Toggle constant mode with a button click while the AVAS is turned on</string>
     <string name="pref_fenceguard_title">FenceGuard</string>
     <string name="pref_fenceguard_summary">Protect the location of your home, or other important places from being exposed in recorded tracks</string>
     <string name="pref_gps_update_freq_title" translatable="false">%1$s</string>
@@ -909,8 +916,8 @@
     <string name="pref_button_flashlight_show_summary">Show the Flashlight button (if flashlight available)</string>
     <string name="pref_button_contrast_show_title">Contrast/Map layer</string>
     <string name="pref_button_contrast_show_summary">Show the Contrast/Map layer toggle button</string>
-    <string name="pref_button_roar_show_title">Roar</string>
-    <string name="pref_button_roar_show_summary">Show the Roar button</string>
+    <string name="pref_button_roar_show_title">AVAS</string>
+    <string name="pref_button_roar_show_summary">Show the AVAS button</string>
     <string name="pref_button_menu_show_title">Menu</string>
     <string name="pref_button_menu_show_summary">Show the Menu button</string>
     <string name="pref_meter_enable_title">Enable</string>
@@ -1213,6 +1220,7 @@
     <string name="pref_roaring_type_entries_0">Freehub</string>
     <string name="pref_roaring_type_entries_1">Beep</string>
     <string name="pref_roaring_type_entries_2">Chopper</string>
+    <string name="pref_roaring_type_entries_3">Electric vehicle</string>
 
     <!-- pref_roaring_mode_entries -->
     <string name="pref_roaring_mode_entries_0">Auto rate and volume</string>
