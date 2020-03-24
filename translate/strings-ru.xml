@@ -102,7 +102,7 @@
     <string name="toastProfileButtonClickInfo">Долгое нажатие переключает профиль</string>
     <string name="toastContrastButtonClickInfo">Автоматическая визуальная тема активирована</string>
     <string name="toastFlashlightButtonClickInfo">Долгое нажатие включает фонарик</string>
-    <string name="toastRoarButtonClickInfo">Долгое нажатие включает/отключает звук движения</string>
+    <string name="toastRoarButtonClickInfo">Долгое нажатие включает/отключает звуки AVAS</string>
     <string name="toastMapButtonClickInfo">Долгое нажатие включает режим карты</string>
     <string name="toastMapFollowingOn">Следование возобновлено</string>
     <string name="toastMapFollowingAutorotate">Автоповорот включён</string>
@@ -132,7 +132,7 @@
     <string name="dialog_default_color_text">Будут загружены цвета по умолчанию. Вы уверены\?</string>
     <string name="dialog_defaultConfirmation">Вы уверенны\?</string>
     <string name="dialog_volume_bell_text">Звонок</string>
-    <string name="dialog_volume_roaring_text">Шум</string>
+    <string name="dialog_volume_roaring_text">AVAS</string>
     <string name="dialog_volume_effects_text">Эффекты</string>
     <string name="dialog_volume_tallies_text">Оповещения</string>
     <string name="dialog_volume_alarms_text">Сигналы</string>
@@ -393,7 +393,7 @@
     <string name="meterTextAvg">сред</string>
     <string name="meterTextTotal">итого</string>
     <string name="controlPanelSoundAutoBell">Автозвонок</string>
-    <string name="controlPanelSoundRoar">Шум</string>
+    <string name="controlPanelSoundRoar">AVAS</string>
     <string name="controlPanelSoundEffects">Эффекты</string>
     <string name="controlPanelSoundAlarms">Сигналы</string>
     <string name="controlPanelSoundTallies">Оповещения</string>
@@ -519,7 +519,7 @@
     <string name="pref_category_tracking_title">Отслеживание</string>
     <string name="pref_category_tracking_gps_title">Отслеживание / GPS</string>
     <string name="pref_category_bell_title">Звонок</string>
-    <string name="pref_category_roaring_title">Шум</string>
+    <string name="pref_category_roaring_title">AVAS</string>
     <string name="pref_category_roaringConstantMode_title">Постоянный режим</string>
     <string name="pref_category_effects_title">Эффекты</string>
     <string name="pref_category_alarms_title">Сигналы</string>
@@ -597,8 +597,8 @@
     <string name="pref_bell_shake_summary">Звонок при тряске устройства</string>
     <string name="pref_bell_shake_sensitivity_title">Чувствительность тряски</string>
     <string name="pref_roaring_type_title">Тип</string>
-    <string name="pref_roaring_type_dialog_title">Тип шума</string>
-    <string name="pref_volume_summary_text">Звонок: %1$s, Шум: %2$s 
+    <string name="pref_roaring_type_dialog_title">Тип AVAS</string>
+    <string name="pref_volume_summary_text">Звонок: %1$s, AVAS: %2$s 
 \nОповещения: %3$s, Эффекты: %4$s, Сигналы: %5$s, Речь: %6$s</string>
     <string name="pref_bg_color_title">Цвет фона</string>
     <string name="pref_bg_color_summary">Выберите желаемый цвет для фона приложения</string>
@@ -621,8 +621,8 @@
     <string name="pref_obey_audio_focus_disable_summary">Продолжать подавать сигнал, даже если фокус звука забран (системным уведомлением или другим приложением)</string>
     <string name="pref_audio_force_loudspeaker_title">Принудительный внешний динамик</string>
     <string name="pref_audio_force_loudspeaker_summary">Пытаться перенаправить все звуки через внешний динамик при подключении наушников, за исключением голосовых вызовов. Предупреждение: экспериментально, может не работать.</string>
-    <string name="pref_duck_roaring_on_bell_title">Приглушать шум при звонке</string>
-    <string name="pref_duck_roaring_on_bell_summary">Уменьшать громкость шума движения при активации звонка</string>
+    <string name="pref_duck_roaring_on_bell_title">Приглушать AVAS при звонке</string>
+    <string name="pref_duck_roaring_on_bell_summary">Уменьшать громкость AVAS при активации звонка</string>
     <string name="pref_relaunchAfterReboot_title">Перезапуск после перезагрузки</string>
     <string name="pref_relaunchAfterReboot_summary">(Все профили) Возобновить запись трека после полной принудительной перезагрузки устройства, если заряд батареи 10% или больше</string>
     <string name="pref_resetPrompt_title">Быстрый сброс</string>
@@ -633,15 +633,15 @@
     <string name="pref_passive_gps_button_summary">Включить пассивный режим при нажатии кнопки GPS</string>
     <string name="pref_digital_font_title">Цифровой шрифт</string>
     <string name="pref_digital_font_summary">(Все профили) Установить цифровой шрифт для показаний дисплея</string>
-    <string name="pref_roaring_state_title">Шум</string>
-    <string name="pref_roaring_state_summary">Воспроизводить предупреждающие звуки во время движения</string>
+    <string name="pref_roaring_state_title">AVAS</string>
+    <string name="pref_roaring_state_summary">Воспроизводить звуки AVAS (акустической системы оповещения о дорожно-транспортных средствах) во время движения</string>
     <string name="pref_roaring_mode_title">Режим</string>
-    <string name="pref_roaring_mode_dialog_title">Режим шума</string>
+    <string name="pref_roaring_mode_dialog_title">Режим AVAS</string>
     <string name="pref_roaring_constant_mode_title">Постоянный режим</string>
-    <string name="pref_roaring_constant_mode_summary">Выдаётся постоянный шум в независимости от движения или статуса GPS</string>
+    <string name="pref_roaring_constant_mode_summary">Звуки AVAS воспроизводятся непрерывно в независимости от движения или статуса GPS</string>
     <string name="pref_roar_threshold_speed_title">Ограничение скорости</string>
     <string name="pref_roarConstantModeButton_title">Кнопка переключения</string>
-    <string name="pref_roarConstantModeButton_summary">Переключает в постоянный режим по нажатию кнопки при включённом шуме</string>
+    <string name="pref_roarConstantModeButton_summary">Переключает в постоянный режим по нажатию кнопки при включённой AVAS</string>
     <string name="pref_fenceguard_title">Скрытая зона</string>
     <string name="pref_fenceguard_summary">Не показывать местоположение вашего дома и других личных объектов в записанных треках</string>
     <string name="pref_autopause_mode_dialog_title">Автопауза</string>
@@ -716,8 +716,8 @@
     <string name="pref_button_flashlight_show_summary">Показывать кнопку «Фонарик» (если доступна вспышка)</string>
     <string name="pref_button_contrast_show_title">Контраст/Слои карты</string>
     <string name="pref_button_contrast_show_summary">Показывать кнопку переключения «Контраст»/«Слои карты»</string>
-    <string name="pref_button_roar_show_title">Шум</string>
-    <string name="pref_button_roar_show_summary">Показывать кнопку «Шум»</string>
+    <string name="pref_button_roar_show_title">AVAS</string>
+    <string name="pref_button_roar_show_summary">Показывать кнопку «AVAS»</string>
     <string name="pref_button_menu_show_title">Меню</string>
     <string name="pref_button_menu_show_summary">Показывать кнопку «Меню»</string>
     <string name="pref_meter_enable_title">Включить</string>
@@ -1081,7 +1081,7 @@
     <string name="sensorProperitesIsAutoStrideLenInfo">Длина шага будет измерена автоматически во время бега или быстрой ходьбы.</string>
     <string name="sensorProperitesStrideLenNotSet">Не задано</string>
     <string name="sensorProperitesTriggersCountInfo">Количество триггеров (например, магнитов), используемых датчиком. У датчиков без внешних триггеров обычно один внутренний.</string>
-    <string name="pref_roar_threshold_speed_info">Шум будет воспроизводится, только когда вы двигаетесь быстрее ограничения скорости. Полезно, например, на спусках.</string>
+    <string name="pref_roar_threshold_speed_info">Звуки AVAS воспроизводятся только когда вы двигаетесь быстрее ограничения скорости. Полезно, например, на спусках.</string>
     <string name="pref_background_pattern_dialog_title">Фоновое изображение</string>
     <string name="pref_maps_routes_draw_summary">Рисовать выбранные маршруты GPX пунктирными линиями на карте</string>
     <string name="prefMapGuideRouteColorTitle">Руководство по цвету маршрута</string>
