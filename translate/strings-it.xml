@@ -23,7 +23,7 @@
     <string name="buttonNewTrack">Termina</string>
     <string name="menuControlPanel">Pannello di controllo</string>
     <string name="menuSettings">Impostazioni</string>
-    <string name="menuSummary">Riepilogo</string>
+    <string name="menuSummary">Riepilogo in diretta</string>
     <string name="menuTracksHistory">Cronologia</string>
     <string name="menuTracksHistoryResume">Riprendi</string>
     <string name="menuMeterLock">Blocca</string>
@@ -102,7 +102,7 @@
     <string name="toastProfileButtonClickInfo">Tieni premuto per cambiare profilo</string>
     <string name="toastContrastButtonClickInfo">È attivo il tema di visuale automatica</string>
     <string name="toastFlashlightButtonClickInfo">Tieni premuto per attivare/disattivare la luce</string>
-    <string name="toastRoarButtonClickInfo">Tieni premuto per attivare/disattivare il rombo</string>
+    <string name="toastRoarButtonClickInfo">Tieni premuto per attivare/disattivare AVAS</string>
     <string name="toastMapButtonClickInfo">Tieni premuto per attivare/disattivare la mappa</string>
     <string name="toastMapFollowingOn">Segui: on</string>
     <string name="toastMapFollowingAutorotate">Rotazione automatica: on</string>
@@ -133,7 +133,7 @@
     <string name="dialog_default_color_text">L\'azione caricherà i colori predefiniti. Sei sicuro\?</string>
     <string name="dialog_defaultConfirmation">Sicuro\?</string>
     <string name="dialog_volume_bell_text">Campanello</string>
-    <string name="dialog_volume_roaring_text">Rombo</string>
+    <string name="dialog_volume_roaring_text">AVAS</string>
     <string name="dialog_volume_effects_text">Effetti</string>
     <string name="dialog_volume_tallies_text">Conteggi</string>
     <string name="dialog_volume_alarms_text">Allarmi</string>
@@ -228,7 +228,7 @@
     <string name="dialogMapsShowRoutes">Itinerari guida</string>
     <string name="dialogMapsFollowMode">Segui</string>
     <string name="dialogMapsAutoRotate">Ruota automaticamente</string>
-    <string name="dialogMapsHighResolution">Mappa ad alta risoluzione</string>
+    <string name="dialogMapsHighResolution">Mappa in HD</string>
     <string name="dialogMapsRenderTerrain">Rappresentazione del terreno</string>
     <string name="dialogMapsTrackColor">Sfumatura percorso:</string>
     <string name="dialogFencesAdd">Aggiungi qui una barriera</string>
@@ -411,7 +411,7 @@
     <string name="meterTextAvg">media</string>
     <string name="meterTextTotal">tot</string>
     <string name="controlPanelSoundAutoBell">Campanello automatico</string>
-    <string name="controlPanelSoundRoar">Rombo</string>
+    <string name="controlPanelSoundRoar">AVAS</string>
     <string name="controlPanelSoundEffects">Effetti</string>
     <string name="controlPanelSoundAlarms">Allarmi</string>
     <string name="controlPanelSoundTallies">Conteggi</string>
@@ -547,7 +547,7 @@
     <string name="pref_category_tracking_title">Registrazione</string>
     <string name="pref_category_tracking_gps_title">Registrazione / GPS</string>
     <string name="pref_category_bell_title">Campanello</string>
-    <string name="pref_category_roaring_title">Rombo</string>
+    <string name="pref_category_roaring_title">AVAS</string>
     <string name="pref_category_roaringConstantMode_title">Modalità costante</string>
     <string name="pref_category_effects_title">Effetti</string>
     <string name="pref_category_alarms_title">Allarmi</string>
@@ -625,8 +625,8 @@
     <string name="pref_bell_shake_summary">Scuoti il dispositivo per suonare il campanello</string>
     <string name="pref_bell_shake_sensitivity_title">Sensibilità scuotimento</string>
     <string name="pref_roaring_type_title">Tipo</string>
-    <string name="pref_roaring_type_dialog_title">Tipo di rombo</string>
-    <string name="pref_volume_summary_text">Campanella: %1$s, Rombo: %2$s, Conteggi: %3$s, Effetti: %4$s, Allarmi: %5$s, Voce: %6$s</string>
+    <string name="pref_roaring_type_dialog_title">Tipo AVAS</string>
+    <string name="pref_volume_summary_text">Campanella: %1$s, AVAS: %2$s, Conteggi: %3$s, Effetti: %4$s, Allarmi: %5$s, Voce: %6$s</string>
     <string name="pref_bg_color_title">Colore di sfondo</string>
     <string name="pref_bg_color_summary">Scegli il colore desiderato per lo sfondo dell\'app</string>
     <string name="pref_fg_color_title">Colore del testo</string>
@@ -648,8 +648,8 @@
     <string name="pref_obey_audio_focus_disable_summary">Continua a produrre suoni anche se la selezione audio viene persa (a causa di notifiche di sistema o altra app)</string>
     <string name="pref_audio_force_loudspeaker_title">Forza altoparlante</string>
     <string name="pref_audio_force_loudspeaker_summary">Attenzione: sperimentale, potrebbe non funzionare. Prova a reindirizzare tutti i suoni all\'altoparlante quando le cuffie sono connesse, ad eccezione delle chiamate vocali.</string>
-    <string name="pref_duck_roaring_on_bell_title">Abbassa rombo al suono del campanello</string>
-    <string name="pref_duck_roaring_on_bell_summary">Abbassa il volume dei suoni vivaci quando il campanello suona</string>
+    <string name="pref_duck_roaring_on_bell_title">Abbassa AVAS al suono del campanello</string>
+    <string name="pref_duck_roaring_on_bell_summary">Abbassa il volume dei suoni AVAS quando suona il campanello</string>
     <string name="pref_relaunchAfterReboot_title">Riavvia dopo il riavvio</string>
     <string name="pref_relaunchAfterReboot_summary">(Tutti i profili) Riprendi la registrazione dopo un riavvio forzato del dispositivo, se la batteria è non meno del 10%</string>
     <string name="pref_resetPrompt_title">Azzera suggerimento</string>
@@ -660,16 +660,16 @@
     <string name="pref_passive_gps_button_summary">Attiva il modo GPS passivo quando premi il pulsante GPS</string>
     <string name="pref_digital_font_title">Carattere digitale</string>
     <string name="pref_digital_font_summary">(Tutti i profili) Usa il carattere LCD digitale segmentato per la visualizzazione dei dati odometrici</string>
-    <string name="pref_roaring_state_title">Suono rombo</string>
-    <string name="pref_roaring_state_summary">Produce avvisi sonori al movimento</string>
+    <string name="pref_roaring_state_title">Suono AVAS</string>
+    <string name="pref_roaring_state_summary">Produce avvisi sonori AVAS (Sistema di avviso sonoro per veicoli) al movimento</string>
     <string name="pref_roaring_mode_title">Modo</string>
-    <string name="pref_roaring_mode_dialog_title">Modalità roar</string>
+    <string name="pref_roaring_mode_dialog_title">Modalità AVAS</string>
     <string name="pref_roaring_constant_mode_title">Modalità costante</string>
-    <string name="pref_roaring_constant_mode_summary">Produce un rombo costante sempre, a prescindere dal tuo movimento o dallo stato del GPS</string>
-    <string name="pref_roar_threshold_speed_title">Velocità di soglia</string>
-    <string name="pref_roar_threshold_speed_info">Il rombo suonerà solo se oltrepassi la velocità di soglia. Utile, per es., per le discese.</string>
+    <string name="pref_roaring_constant_mode_summary">Produce un suono AVAS costante sempre, a prescindere dal movimento o dallo stato del GPS</string>
+    <string name="pref_roar_threshold_speed_title">Limite di velocità</string>
+    <string name="pref_roar_threshold_speed_info">AVAS suonerà solo se oltrepassi il limite di velocità. Utile, per es., per le discese.</string>
     <string name="pref_roarConstantModeButton_title">Pulsante di attivazione</string>
-    <string name="pref_roarConstantModeButton_summary">Un clic del pulsante attiva la modalità costante quando il rombo è acceso</string>
+    <string name="pref_roarConstantModeButton_summary">Un clic del pulsante attiva la modalità costante quando AVAS è acceso</string>
     <string name="pref_fenceguard_title">Barriera difensiva</string>
     <string name="pref_fenceguard_summary">Proteggi la posizione della tua casa, o di altri posti importanti, dall\'esposizione nei percorsi registrati</string>
     <string name="pref_autopause_mode_dialog_title">Pausa automatica</string>
@@ -746,8 +746,8 @@
     <string name="pref_button_flashlight_show_summary">Mostra il pulsante Luce (se la luce è disponibile)</string>
     <string name="pref_button_contrast_show_title">Livello contrasto/mappa</string>
     <string name="pref_button_contrast_show_summary">Mostra il pulsante di attivazione/disattivazione del livello contrasto/mappa</string>
-    <string name="pref_button_roar_show_title">Rombo</string>
-    <string name="pref_button_roar_show_summary">Mostra il pulsante Rombo</string>
+    <string name="pref_button_roar_show_title">AVAS</string>
+    <string name="pref_button_roar_show_summary">Mostra il pulsante AVAS</string>
     <string name="pref_button_menu_show_title">Menu</string>
     <string name="pref_button_menu_show_summary">Mostra il pulsante Menu</string>
     <string name="pref_meter_enable_title">Attiva</string>
@@ -1346,4 +1346,14 @@
     <string name="pref_mapsWeatherAnimate_title">Anima</string>
     <string name="pref_mapsWeatherAnimate_summary">Anima l\'ultima ora dei dati del radar per aiutarti a visualizzare l\'andamento delle precipitazioni</string>
     <string name="pref_mapsWeatherAnimate_info">L\'animazione del radar utilizza 5x i dati Internet rispetto a un\'immagine radar statica.</string>
+    <string name="menuMeterStart">Inizio</string>
+    <string name="menuMeterStop">Stop</string>
+    <string name="dialogScreenshotTitle">Schermata</string>
+    <string name="dialogGoogleMapTermsViolation">Non è permessa la cattura del contenuto di una mappa Google, devi dunque prima cambiare il tipo di mappa.
+\n
+\nPassare alla mappa Stamen ora\?</string>
+    <string name="dialogWaitTitle">Attendere</string>
+    <string name="dialogScreenshotPreparing">Preparazione della schermata…</string>
+    <string name="mapMarkerMyLocation">La mia posizione</string>
+    <string name="pref_roaring_type_entries_3">Veicolo elettrico</string>
 </resources>
