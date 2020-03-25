@@ -22,7 +22,7 @@
     <string name="buttonResumeTrack">Continuar</string>
     <string name="menuControlPanel">Panel de Control</string>
     <string name="menuSettings">Preferencias</string>
-    <string name="menuSummary">Resumen</string>
+    <string name="menuSummary">Resumen en vivo</string>
     <string name="menuTracksHistory">Historial</string>
     <string name="menuTracksHistoryResume">Continuar</string>
     <string name="menuMeterLock">Bloquear</string>
@@ -89,7 +89,7 @@
     <string name="toastTrackResumeGpsActiveError">Por favor, apague o pause el GPS antes</string>
     <string name="toastContrastButtonClickInfo">Tema visual automático activado</string>
     <string name="toastFlashlightButtonClickInfo">Pulsación larga para alternar la linterna</string>
-    <string name="toastRoarButtonClickInfo">Pulsación larga para alternar rugido</string>
+    <string name="toastRoarButtonClickInfo">Pulsación larga para alternar sonido SAAV</string>
     <string name="toastMapButtonClickInfo">Pulsación larga para alternar mapa</string>
     <string name="toastMapFollowingOn">Seguimiento activado</string>
     <string name="toastMapFollowingAutorotate">Rotación automática activada</string>
@@ -108,7 +108,7 @@
     <string name="dialog_default_color_text">Esto cargará los colores por defecto. ¿Está seguro/a\?</string>
     <string name="dialog_defaultConfirmation">¿Está seguro\?</string>
     <string name="dialog_volume_bell_text">Timbre</string>
-    <string name="dialog_volume_roaring_text">Rugido</string>
+    <string name="dialog_volume_roaring_text">SAAV</string>
     <string name="dialog_volume_effects_text">Efectos</string>
     <string name="dialog_volume_tallies_text">Recuentos</string>
     <string name="dialog_volume_alarms_text">Alarmas</string>
@@ -281,7 +281,7 @@
     <string name="meterTextAvg">media</string>
     <string name="meterTextTotal">tot</string>
     <string name="controlPanelSoundAutoBell">Timbre automático</string>
-    <string name="controlPanelSoundRoar">Rugido</string>
+    <string name="controlPanelSoundRoar">SAAV</string>
     <string name="controlPanelSoundEffects">Efectos</string>
     <string name="controlPanelSoundAlarms">Alarmas</string>
     <string name="controlPanelSoundTallies">Recuentos</string>
@@ -355,7 +355,7 @@
     <string name="pref_category_tracking_title">Seguimiento</string>
     <string name="pref_category_tracking_gps_title">Seguimiento / GPS</string>
     <string name="pref_category_bell_title">Timbre</string>
-    <string name="pref_category_roaring_title">Rugido</string>
+    <string name="pref_category_roaring_title">SAAV</string>
     <string name="pref_category_roaringConstantMode_title">Modo constante</string>
     <string name="pref_category_effects_title">Efectos</string>
     <string name="pref_category_alarms_title">Alarmas</string>
@@ -427,7 +427,7 @@
     <string name="pref_bell_shake_summary">Sacudir el dispositivo para tocar el timbre</string>
     <string name="pref_bell_shake_sensitivity_title">Sensibilidad de sacudida</string>
     <string name="pref_roaring_type_title">Tipo</string>
-    <string name="pref_roaring_type_dialog_title">Tipo de rugido</string>
+    <string name="pref_roaring_type_dialog_title">Tipo de SAAV</string>
     <string name="pref_bg_color_title">Color de fondo</string>
     <string name="pref_bg_color_summary">Escoja el color deseado para el fondo de la app</string>
     <string name="pref_fg_color_title">Color del texto</string>
@@ -449,8 +449,8 @@
     <string name="pref_obey_audio_focus_disable_summary">Continuar produciendo sonidos incluso al perder el foco de audio (por notificación del sistema u otra app)</string>
     <string name="pref_audio_force_loudspeaker_title">Forzar altavoz potente</string>
     <string name="pref_audio_force_loudspeaker_summary">Advertencia: Experimental, puede no funcionar. Trate de desviar todos los sonidos a través del altavoz cuando los auriculares están conectados, excepto las llamadas de voz.</string>
-    <string name="pref_duck_roaring_on_bell_title">Gradnido al sonar el timbre</string>
-    <string name="pref_duck_roaring_on_bell_summary">Bajar el volumen de los sonidos de rugido cuando suene el timbre</string>
+    <string name="pref_duck_roaring_on_bell_title">SAAV de pato al sonar el timbre</string>
+    <string name="pref_duck_roaring_on_bell_summary">Bajar el volumen de los sonidos SAAV cuando suene el timbre</string>
     <string name="pref_relaunchAfterReboot_title">Relanzar tras reinicio</string>
     <string name="pref_resetPrompt_title">Aviso de reinicio</string>
     <string name="pref_auto_launch_on_gps_title">Lanzar automáticamente con GPS</string>
@@ -459,15 +459,15 @@
     <string name="pref_passive_gps_button_summary">Activar modo de GPS Pasivo al pulsar el botón GPS</string>
     <string name="pref_digital_font_title">Fuente digital</string>
     <string name="pref_digital_font_summary">(Todos los perfiles) Usa fuente LCD digital segmentada para la visualización del velocímetro</string>
-    <string name="pref_roaring_state_title">Sonido del rugido</string>
-    <string name="pref_roaring_state_summary">Producir sonidos de alerta mientras se mueve</string>
+    <string name="pref_roaring_state_title">Sonido SAAV</string>
+    <string name="pref_roaring_state_summary">Producir sonidos del Sistema de Alerta Acústica para Vehículos (SAAV) mientras se está en movimiento</string>
     <string name="pref_roaring_mode_title">Modo</string>
-    <string name="pref_roaring_mode_dialog_title">Modo de rugido</string>
+    <string name="pref_roaring_mode_dialog_title">Modo de SAAV</string>
     <string name="pref_roaring_constant_mode_title">Modo constante</string>
-    <string name="pref_roaring_constant_mode_summary">Producir rugidos constantes en todo momento, independientemente de su estado de movimiento o del GPS</string>
+    <string name="pref_roaring_constant_mode_summary">Producir sonidos SAAV constantes en todo momento, independientemente de su estado de movimiento o del GPS</string>
     <string name="pref_roar_threshold_speed_title">Umbral de velocidad</string>
     <string name="pref_roarConstantModeButton_title">Botón de alternancia</string>
-    <string name="pref_roarConstantModeButton_summary">Cambiar el modo constante con un clic de botón mientras el rugido está encendido</string>
+    <string name="pref_roarConstantModeButton_summary">Cambiar el modo constante con un clic de botón mientras SAAV está encendido</string>
     <string name="pref_fenceguard_title">Zonas seguras</string>
     <string name="pref_fenceguard_summary">Protege la ubicación de su hogar, o de otros lugares importantes, de quedar expuestos en los recorridos grabados</string>
     <string name="pref_autopause_mode_dialog_title">Pausa automática</string>
@@ -531,8 +531,8 @@
     <string name="pref_button_flashlight_show_summary">Mostrar botón de Linterna (si está disponible la linterna)</string>
     <string name="pref_button_contrast_show_title">Capa Contraste/Mapa</string>
     <string name="pref_button_contrast_show_summary">Mostrar el botón de alternar capa Contraste/Mapa</string>
-    <string name="pref_button_roar_show_title">Rugido</string>
-    <string name="pref_button_roar_show_summary">Mostrar el botón de Rugido</string>
+    <string name="pref_button_roar_show_title">SAAV</string>
+    <string name="pref_button_roar_show_summary">Mostrar el botón de SAAV</string>
     <string name="pref_button_menu_show_title">Menú</string>
     <string name="pref_button_menu_show_summary">Mostrar el botón Menú</string>
     <string name="pref_meter_enable_title">Habilitar</string>
@@ -887,7 +887,7 @@
     <string name="dialogBaroAltitudeNoticeTitle">Atención</string>
     <string name="dialogThermoBarometerNoticeTitle">Atención</string>
     <string name="dialogScreenBrightnessOverride">Brillo</string>
-    <string name="dialogMapsHighResolution">Mapa de alta resolución</string>
+    <string name="dialogMapsHighResolution">Mapa en alta resolución</string>
     <string name="dialogMapsRenderTerrain">Renderizar terreno</string>
     <string name="dialogPowerWeightsRotInertiaTitle">Inercia rotacional</string>
     <string name="dialogMapsTerrainDownloadTitle">Descargar terreno</string>
@@ -999,10 +999,10 @@
     <string name="pref_category_cloudAccounts_title">Cuentas</string>
     <string name="pref_category_mapsQuickZoom">Zoom rápido</string>
     <string name="pref_category_mapsCache">Caché</string>
-    <string name="pref_volume_summary_text">Timbre: %1$s, Rugido: %2$s, Recuentos: %3$s, Efectos: %4$s, Alarmas: %5$s, Diálogos: %6$s</string>
+    <string name="pref_volume_summary_text">Timbre: %1$s, SAAV: %2$s, Recuentos: %3$s, Efectos: %4$s, Alarmas: %5$s, Diálogos: %6$s</string>
     <string name="pref_relaunchAfterReboot_summary">(Todos los perfiles) Reanudar el seguimiento después de un reinicio forzado del dispositivo, si la batería es del 10% o más</string>
     <string name="pref_resetPrompt_summary">Solicitar iniciar una nuevo recorrido si el último activo fue hace más de 4 horas o es en una ubicación distante</string>
-    <string name="pref_roar_threshold_speed_info">"Los rugidos sonarán solo cuando vaya más rápido que el umbral de velocidad.  Útil por ejemplo en descensos."</string>
+    <string name="pref_roar_threshold_speed_info">"Los sonidos SAAV sonarán solo cuando vaya más rápido que el umbral de velocidad límite.  Útil por ejemplo en descensos."</string>
     <string name="pref_background_pattern_dialog_title">Patrón de fondo del menú</string>
     <string name="pref_maps_fences_draw_summary">Mostrar Zonas Seguras sobre el mapa</string>
     <string name="pref_maps_animate_summary">(Todos los perfiles) Apague para reducir el uso de la batería, especialmente mientras el modo Seguir esté activado</string>
@@ -1288,4 +1288,14 @@
     <string name="pref_mapsWeatherAnimate_title">Animar</string>
     <string name="pref_mapsWeatherAnimate_summary">Animar la última hora de los datos de radar, para ayudarte a visualizar la tendencia de precipitaciones</string>
     <string name="pref_mapsWeatherAnimate_info">La animación del radar utiliza 5x más datos de Internet que la de una imagen de radar estática.</string>
+    <string name="menuMeterStart">Iniciar</string>
+    <string name="menuMeterStop">Parar</string>
+    <string name="dialogScreenshotTitle">Captura de pantalla</string>
+    <string name="dialogGoogleMapTermsViolation">No está permitido capturar el contenido de un mapa de Google, por lo que primero se debe cambiar el tipo de mapa.
+\n
+\n¿Cambiar al mapa Stamen ahora\?</string>
+    <string name="dialogWaitTitle">Por favor, espere</string>
+    <string name="dialogScreenshotPreparing">Preparando captura de pantalla…</string>
+    <string name="mapMarkerMyLocation">Mi localización</string>
+    <string name="pref_roaring_type_entries_3">Vehículo eléctrico</string>
 </resources>
