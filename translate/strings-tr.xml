@@ -91,7 +91,7 @@
     <string name="toastTrackResumeGpsActiveError">Lütfen devam etmeden önce GPS\'i duraklatın veya durdurun</string>
     <string name="toastContrastButtonClickInfo">Otomatik görsel tema aktif</string>
     <string name="toastFlashlightButtonClickInfo">Işık için uzun tıkla</string>
-    <string name="toastRoarButtonClickInfo">Uğultuyu açıp kapatmak için uzun tıklayın</string>
+    <string name="toastRoarButtonClickInfo">Sesli ikazı açıp kapatmak için uzun tıklayın</string>
     <string name="toastMapButtonClickInfo">Harita için uzun tıkla</string>
     <string name="toastMapFollowingOn">Takip Açık</string>
     <string name="toastMapFollowingAutorotate">Oto-döndür açık</string>
@@ -115,7 +115,7 @@
     <string name="dialog_default_color_text">Varsayılan renkler yüklenecek. Emin misiniz\?</string>
     <string name="dialog_defaultConfirmation">Emin misin\?</string>
     <string name="dialog_volume_bell_text">Zil</string>
-    <string name="dialog_volume_roaring_text">Uğultu</string>
+    <string name="dialog_volume_roaring_text">Sesli İkaz</string>
     <string name="dialog_volume_effects_text">Efektler</string>
     <string name="dialog_volume_tallies_text">Çetele</string>
     <string name="dialog_volume_alarms_text">Alarmlar</string>
@@ -313,7 +313,7 @@
     <string name="pref_category8_title">Hakkında</string>
     <string name="pref_category_autopause_title">Otomatik duraklat</string>
     <string name="pref_category_bell_title">Zil</string>
-    <string name="pref_category_roaring_title">Uğultu</string>
+    <string name="pref_category_roaring_title">Sesli İkaz</string>
     <string name="pref_category_effects_title">Etkiler</string>
     <string name="pref_category_alarms_title">Alarmlar</string>
     <string name="pref_category_tallies_title">Çetele</string>
@@ -372,7 +372,7 @@
     <string name="pref_bell_shake_summary">Zİli çalmak için telefonu salla</string>
     <string name="pref_bell_shake_sensitivity_title">Sallama hassasiyeti</string>
     <string name="pref_roaring_type_title">Türü</string>
-    <string name="pref_roaring_type_dialog_title">Uğultu Türü</string>
+    <string name="pref_roaring_type_dialog_title">Sesli İkaz türü</string>
     <string name="pref_bg_color_title">Arkaplan rengi</string>
     <string name="pref_bg_color_summary">Uygulama arka planı için renk seç</string>
     <string name="pref_fg_color_title">Yazı rengi</string>
@@ -391,8 +391,8 @@
     <string name="pref_obey_audio_focus_disable_summary">Ses çıkarmaya devam eder ( bildirim sesi veya başka uygulama ile çakıştığında)</string>
     <string name="pref_audio_force_loudspeaker_title">Hoparlör kullanmaya zorla</string>
     <string name="pref_audio_force_loudspeaker_summary">Uyarı: Deneysel özellik, çalışmayabilir. Kulaklık bağlandığında, çağrılar hariç bütün sesleri hoparlöre yönlendir.</string>
-    <string name="pref_duck_roaring_on_bell_title">Zİl çalınca uğultuyu kıs</string>
-    <string name="pref_duck_roaring_on_bell_summary">Zil çalınca uğultu sesini kısar</string>
+    <string name="pref_duck_roaring_on_bell_title">Zil çalınca Sesli Ikaz\'ı kıs</string>
+    <string name="pref_duck_roaring_on_bell_summary">Zil çalınca Sesli İkaz kısılır</string>
     <string name="pref_relaunchAfterReboot_title">Restart sonrası yeniden başlatın</string>
     <string name="pref_auto_launch_on_gps_title">GPS ile başlat</string>
     <string name="pref_auto_launch_on_gps_summary">GPS açılınca uygulamayı da açar (pasif modda)</string>
@@ -401,7 +401,7 @@
     <string name="pref_digital_font_title">Dijital Yazı</string>
     <string name="pref_digital_font_summary">(Tüm profiller) Siklometre verileri için LCD fontu kullanır</string>
     <string name="pref_roaring_mode_title">Mod</string>
-    <string name="pref_roaring_mode_dialog_title">Uğultu modu</string>
+    <string name="pref_roaring_mode_dialog_title">Sesli İkaz modu</string>
     <string name="pref_fenceguard_title">FenceGuard</string>
     <string name="pref_fenceguard_summary">Ev, iş yeri gibi yerlerde konumuzunu korur</string>
     <string name="pref_autopause_mode_dialog_title">Oto duraklama</string>
@@ -450,8 +450,8 @@
     <string name="pref_button_flashlight_show_summary">Flaş ışık butonunu göster (flaş varsa)</string>
     <string name="pref_button_contrast_show_title">Harita/Kontrast</string>
     <string name="pref_button_contrast_show_summary">Harita/Kontrast butonunu göster</string>
-    <string name="pref_button_roar_show_title">Uğultu</string>
-    <string name="pref_button_roar_show_summary">Uğultu butonunu göster</string>
+    <string name="pref_button_roar_show_title">Sesli İkaz</string>
+    <string name="pref_button_roar_show_summary">Sesli İkaz butonunu göster</string>
     <string name="pref_button_menu_show_title">Menü</string>
     <string name="pref_button_menu_show_summary">Menü butonunu göster</string>
     <string name="pref_meter_enable_title">Aç</string>
@@ -867,7 +867,7 @@
     <string name="meterTextAvg">Ort</string>
     <string name="meterTextTotal">Top</string>
     <string name="controlPanelSoundAutoBell">Otomatik Zil</string>
-    <string name="controlPanelSoundRoar">Uğultu</string>
+    <string name="controlPanelSoundRoar">Sesli İkaz</string>
     <string name="controlPanelSoundTallies">Kat edilen uzunluklar</string>
     <string name="controlPanelSoundVolume">Birimler</string>
     <string name="controlPanelEnergyParams">Güç/Enerji parametreleri</string>
@@ -905,9 +905,9 @@
     <string name="pref_category_cloudAccounts_title">Hesaplar</string>
     <string name="pref_category_mapsQuickZoom">Hızlı Yakınlaşma</string>
     <string name="pref_category_mapsCache">Önbellek</string>
-    <string name="prefAllProfilesInfoSummary">Buradaki tercihler tüm profillere uygulanabilir.</string>
+    <string name="prefAllProfilesInfoSummary">Buradaki tercihler tüm profillere uygulanır.</string>
     <string name="pref_units_power_dialog_title">Toplam güç birimleri</string>
-    <string name="pref_volume_summary_text">Zil: %1$s, Uğultu: %2$s
+    <string name="pref_volume_summary_text">Zil: %1$s, Sesli İkaz: %2$s 
 \nKat edilen Mesafeler: %3$s, Etkiler: %4$s, Alarmlar: %5$s</string>
     <string name="pref_visualThemeAutoSummary">Çevre aydınlatmasına bağlı olarak açık veya koyu temalar uygulayın</string>
     <string name="pref_screenAutoPocketMode_title">Cep Modu</string>
@@ -915,20 +915,20 @@
     <string name="pref_relaunchAfterReboot_summary">(Tüm profiller) %10 veya daha fazla pil varsa, cihaz zorlayeniden başlatıldıktan sonra roataya devam edin</string>
     <string name="pref_resetPrompt_title">Komutu Sıfırla</string>
     <string name="pref_resetPrompt_summary">4 saatten daha uzun bir süre önce aktif olan son rotanız varsa veya uzak bir yerdeyseniz yeni bir rota başlatmanız isteniyor</string>
-    <string name="pref_roaring_state_title">Uğultu Sesi</string>
-    <string name="pref_roaring_state_summary">Siz hareket ettikçe ikaz sesleri çıksın</string>
+    <string name="pref_roaring_state_title">Sesli İkaz</string>
+    <string name="pref_roaring_state_summary">Siz hareket ederken ikaz sesleri çıkarır</string>
     <string name="pref_roaring_constant_mode_title">Sabit Mod</string>
-    <string name="pref_roaring_constant_mode_summary">Hareketiniz veya GPS durumunuz ne olursa olsun, her zaman sürekli uğultu sesleri üretin</string>
+    <string name="pref_roaring_constant_mode_summary">Hareketiniz veya GPS durumunuzdan bağımsız olarak sürekli ikaz sesleri üretir</string>
     <string name="pref_roar_threshold_speed_title">Eşik Hızı</string>
-    <string name="pref_roar_threshold_speed_info">"Uğultu sesi yalnızca eşik hızından daha hızlı giderken çalacaktır. Faydalı örn.  Yokuş aşağı."</string>
-    <string name="pref_roarConstantModeButton_title">Düğme Geçişi</string>
-    <string name="pref_roarConstantModeButton_summary">Uğultu açık durumdayken düğme tıklatmasıyla sabit moda geçin</string>
+    <string name="pref_roar_threshold_speed_info">"İkaz sesleri yalnızca eşik hızından daha hızlı giderken çalacaktır. Faydalı örn.  Yokuş aşağı."</string>
+    <string name="pref_roarConstantModeButton_title">Geçiş Düğmesi</string>
+    <string name="pref_roarConstantModeButton_summary">Sesli İkaz açıkken tıkladığınızda sabit moda geçer</string>
     <string name="pref_speed_calculate_mode_title">Hızı yeniden hesapla</string>
     <string name="pref_speed_calculate_mode_summary">"(Tüm profiller) Hızları mesafelerden yeniden hesaplayın, doğrudan GPS değerini kullanmayın.  Bu, GPS (Doppler) değerleri üzerinden daha kararlı hız okumaları sağlayabilir."</string>
     <string name="pref_background_pattern_dialog_title">Menü arka plan deseni</string>
     <string name="pref_soundeffects_alarm_title">Etkinleştir</string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Unutulmuş duraklama</string>
-    <string name="pref_soundeffects_alarm_gpsPause_summary">Rota duraklatılırken önemli hareket algılandığında alarm çalar</string>
+    <string name="pref_soundeffects_alarm_gpsPause_summary">Rota duraklatılmışken önemli bir hareket algılanırsa alarm çalar</string>
     <string name="pref_ads_mode_title">Reklamları göster</string>
     <string name="pref_maps_track_draw_summary">Hareketlerinizi harita üzerinden grafikleştirin</string>
     <string name="pref_maps_fences_draw_title">Koruma Alanları</string>
@@ -1246,4 +1246,14 @@
     <string name="menuExpand">Genişlet</string>
     <string name="dialogScreenOrientationReversePortrait">Portre (ters)</string>
     <string name="dialogScreenOrientationReverseLandscape">Manzara (ters)</string>
+    <string name="menuCollapse">Daralt</string>
+    <string name="menuMeterStart">Başla</string>
+    <string name="menuMeterStop">Durdur</string>
+    <string name="dialogScreenshotTitle">Ekran görüntüsü</string>
+    <string name="dialogGoogleMapTermsViolation">"Google haritası içeriğinin yakalanmasına izin verilmiyor,  bu yüzden önce harita türü değiştirilmeli.
+\n
+\nStamen haritasına geçilsin mi\?"</string>
+    <string name="dialogWaitTitle">Lütfen bekleyin</string>
+    <string name="dialogScreenshotPreparing">Ekran görüntüsü hazırlanıyor…</string>
+    <string name="mapMarkerMyLocation">Konumum</string>
 </resources>
