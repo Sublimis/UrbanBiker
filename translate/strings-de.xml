@@ -23,7 +23,7 @@
     <string name="buttonNewTrack">Beenden</string>
     <string name="menuControlPanel">Schnelleinstellungen</string>
     <string name="menuSettings">Einstellungen</string>
-    <string name="menuSummary">Zusammenfassung</string>
+    <string name="menuSummary">Live-Zusammenfassung</string>
     <string name="menuTracksHistory">Verlauf</string>
     <string name="menuTracksHistoryResume">Fortsetzen</string>
     <string name="menuMeterLock">Sperren</string>
@@ -31,7 +31,7 @@
     <string name="menuMeterMode">Anzeigemodus…</string>
     <string name="menuMeterChooseModes">Modi wählen…</string>
     <string name="menuMeterNewTrack">Neue Strecke</string>
-    <string name="menuMeterResetMinMax">Min/max zurücksetzen</string>
+    <string name="menuMeterResetMinMax">Min/Max zurücksetzen</string>
     <string name="menuMeterReset">Aufzeichnung beenden</string>
     <string name="menuMeterParameters">Parameter…</string>
     <string name="menuMeterPowerMode">Leistungsmodus wählen</string>
@@ -73,22 +73,22 @@
     <string name="toastGpsEnabled">GPS eingeschaltet</string>
     <string name="toastTrackSaved">Strecke gespeichert.</string>
     <string name="toastTrackDiscarded">Strecke verworfen.</string>
-    <string name="toastTrackSavingError">Fehler beim Speichern! Versuche erneut zurückzusetzen.</string>
-    <string name="toastTrackWritingError">Fehler beim Schreiben der Streckendaten! Versuche erneut zurückzusetzen.</string>
-    <string name="toastTrackZippingError">Fehler beim Packen! Versuche erneut zurückzusetzen.</string>
-    <string name="toastTrackMovingError">Fehler beim Verschieben auf den USB-Speicher! Versuche erneut zurückzusetzen.</string>
+    <string name="toastTrackSavingError">Fehler beim Speichern! Versuche, erneut zurückzusetzen.</string>
+    <string name="toastTrackWritingError">Fehler beim Schreiben der Streckendaten! Versuche, erneut zurückzusetzen.</string>
+    <string name="toastTrackZippingError">Fehler beim Packen! Versuche, erneut zurückzusetzen.</string>
+    <string name="toastTrackMovingError">Fehler beim Verschieben auf den USB-Speicher! Versuche, erneut zurückzusetzen.</string>
     <string name="toastPressAgainToExit">Zum Verlassen erneut drücken</string>
     <string name="toastTrackingRecording">Aufnahme läuft</string>
     <string name="toastTrackingRecordingPassive">Passive Aufnahme</string>
     <string name="toastTrackingPaused">Pausiert</string>
     <string name="toastTrackingStopped">Gestoppt</string>
-    <string name="toastFenceGuardFenceAdded">Sichtschutz: Radius %1$s hinzugefügt</string>
-    <string name="toastFenceGuardFenceAddingError">Sichtschutz: Fehler beim Hinzufügen einer Grenze</string>
-    <string name="toastFenceGuardFenceUpdated">Sichtschutz: Radius %1$s aktualisiert</string>
-    <string name="toastFenceGuardFenceUpdatingError">Sichtschutz: Fehler beim Aktualisieren einer Grenze</string>
-    <string name="toastFenceGuardFenceRemoved">FenceGuard: Radius %1$s entfernt</string>
-    <string name="toastFenceGuardFenceRemovingError">Sichtschutz: Fehler beim Entfernen der Grenze</string>
-    <string name="toastFenceGuardOutsideTheFence">Sichtschutz: Du bist momentan nicht innerhalb des Sichtschutzes</string>
+    <string name="toastFenceGuardFenceAdded">Sichtschutz: Schutzzone %1$s hinzugefügt</string>
+    <string name="toastFenceGuardFenceAddingError">Sichtschutz: Fehler beim Hinzufügen der Schutzzone</string>
+    <string name="toastFenceGuardFenceUpdated">Sichtschutz: Schutzzone %1$s aktualisiert</string>
+    <string name="toastFenceGuardFenceUpdatingError">Sichtschutz: Fehler beim Aktualisieren der Schutzzone</string>
+    <string name="toastFenceGuardFenceRemoved">FenceGuard: Schutzzone %1$s entfernt</string>
+    <string name="toastFenceGuardFenceRemovingError">Sichtschutz: Fehler beim Entfernen der Schutzzone</string>
+    <string name="toastFenceGuardOutsideTheFence">Sichtschutz: Du bist momentan nicht innerhalb der Schutzzone</string>
     <string name="toastFenceGuardLocationUnavailable">Sichtschutz: Dein Standort ist nicht verfügbar</string>
     <string name="toastProfilesListNonemptyDelete">Löschen nicht möglich — Profil enthält ungespeicherte Daten! Bitte zuerst die Streckenaufzeichnung beenden.</string>
     <string name="toastProfilesListProfileCreated">Profil wurde erstellt</string>
@@ -102,11 +102,11 @@
     <string name="toastProfileButtonClickInfo">Gedrückt halten, um Profil zu wechseln</string>
     <string name="toastContrastButtonClickInfo">Automatisches Farbschema ist aktiv</string>
     <string name="toastFlashlightButtonClickInfo">Lange drücken, um Taschenlampe ein-/auszuschalten</string>
-    <string name="toastRoarButtonClickInfo">Gedrückt halten für Brummton</string>
+    <string name="toastRoarButtonClickInfo">Gedrückt halten, um den AVAS-Ton umzuschalten</string>
     <string name="toastMapButtonClickInfo">Gedrückt halten, um zur Karte zu wechseln</string>
-    <string name="toastMapFollowingOn">Verfolgung eingeschaltet</string>
+    <string name="toastMapFollowingOn">Kartennachführung eingeschaltet</string>
     <string name="toastMapFollowingAutorotate">Automatische Drehung eingeschaltet</string>
-    <string name="toastMapFollowingOff">Verfolgung ausgeschaltet</string>
+    <string name="toastMapFollowingOff">Kartennachführung ausgeschaltet</string>
     <string name="toastMapLayerTrafficOn">Verkehr eingeschaltet</string>
     <string name="toastMapLayerTrafficOff">Verkehr ausgeschaltet</string>
     <string name="toastErrorCreatingOfflineMap">Fehler beim Erstellen der Offline-Karte</string>
@@ -132,22 +132,22 @@
     <string name="dialog_default_color_text">Hiermit wird das Standardfarbprofil geladen. Bist du sicher\?</string>
     <string name="dialog_defaultConfirmation">Bist du sicher\?</string>
     <string name="dialog_volume_bell_text">Klingel</string>
-    <string name="dialog_volume_roaring_text">Brummen</string>
+    <string name="dialog_volume_roaring_text">AVAS</string>
     <string name="dialog_volume_effects_text">Effekte</string>
     <string name="dialog_volume_tallies_text">Töne</string>
     <string name="dialog_volume_alarms_text">Alarme</string>
     <string name="dialog_volume_message">Hinweis: Benutze den Lautstärkeregler deines Gerätes, um die Gesamtlautstärke anzupassen.</string>
-    <string name="dialog_bell_automatic_sensitivity_title">Automatische Klingelempfindlichkeit</string>
+    <string name="dialog_bell_automatic_sensitivity_title">Klingel-Empfindlichkeit</string>
     <string name="dialog_bell_shake_sensitivity_title">Schüttelempfindlichkeit</string>
-    <string name="dialog_fenceguard_add_title">Grenze hinzufügen</string>
-    <string name="dialog_fenceguard_add_text">Name der neuen Grenze:</string>
-    <string name="dialog_fenceguard_add_text2">Eine Grenze wird um deinen momentanen Standort gezogen, um ihn bei der Streckenaufzeichnung zu verbergen.</string>
-    <string name="dialog_fenceguard_update_title">Grenze aktualisieren</string>
-    <string name="dialog_fenceguard_update_text">Name der Grenze:</string>
-    <string name="dialog_fenceguard_update_text2">Eine Grenze um deinen momentanen Standort, die ihn bei der Streckenaufzeichnung vebirgt.</string>
-    <string name="dialog_fenceguard_remove_title">Grenze entfernen</string>
-    <string name="dialog_fenceguard_remove_defaultText">Bist du sicher, dass du die Grenze entfernen möchtest\?</string>
-    <string name="dialog_fenceguard_remove_formatText">Bist du sicher, dass du den Radius %1$s entfernen möchtest\?</string>
+    <string name="dialog_fenceguard_add_title">Schutzzone hinzufügen</string>
+    <string name="dialog_fenceguard_add_text">Name der neuen Schutzzone:</string>
+    <string name="dialog_fenceguard_add_text2">Der Bereich um deinen momentanen Standort wird als Schutzzone markiert, um ihn bei der Streckenaufzeichnung zu verbergen.</string>
+    <string name="dialog_fenceguard_update_title">Schutzzone aktualisieren</string>
+    <string name="dialog_fenceguard_update_text">Name der Schutzzone:</string>
+    <string name="dialog_fenceguard_update_text2">"Der Bereich um deinen momentanen Standort wird durch die Markierung als Schutzzone  von der Streckenaufzeichnung ausgeschlossen."</string>
+    <string name="dialog_fenceguard_remove_title">Schutzzone entfernen</string>
+    <string name="dialog_fenceguard_remove_defaultText">Bist du sicher, dass du die Schutzzone entfernen möchtest\?</string>
+    <string name="dialog_fenceguard_remove_formatText">Bist du sicher, dass du die Schutzzone %1$s entfernen möchtest\?</string>
     <string name="dialog_track_save_text">Entfernung %1$.3f %2$s
 \nDauer %3$s
 \n
@@ -208,18 +208,18 @@
     <string name="dialogScreenAutoTheme">Automatisches Farbschema</string>
     <string name="dialogMapsOffline">Offline-Karten</string>
     <string name="dialogMapsLayerTraffic">Verkehr</string>
-    <string name="dialogMapsShowFences">Grenzen</string>
+    <string name="dialogMapsShowFences">Schutzzonen</string>
     <string name="dialogMapsShowRoutes">Wegweiser-Strecken</string>
-    <string name="dialogMapsFollowMode">Folgen</string>
+    <string name="dialogMapsFollowMode">Karte nachführen</string>
     <string name="dialogMapsAutoRotate">Automatische Drehung</string>
     <string name="dialogMapsHighResolution">Hochauflösende Karte</string>
     <string name="dialogMapsRenderTerrain">Gelände darstellen</string>
     <string name="dialogMapsTrackColor">Farbton der Strecke:</string>
-    <string name="dialogFencesAdd">Hier Grenze einfügen</string>
-    <string name="dialogFencesUpdate">Aktualisiere Grenzstandort</string>
-    <string name="dialogFencesEdit">Grenze bearbeiten</string>
-    <string name="dialogFencesRemove">Grenze entfernen</string>
-    <string name="dialogFencesShowFences">Grenzen anzeigen</string>
+    <string name="dialogFencesAdd">Hier Schutzzone anlegen</string>
+    <string name="dialogFencesUpdate">Schutzzone aktualisieren</string>
+    <string name="dialogFencesEdit">Schutzzone bearbeiten</string>
+    <string name="dialogFencesRemove">Schutzzone entfernen</string>
+    <string name="dialogFencesShowFences">Schutzzonen anzeigen</string>
     <string name="dialogPowerWeightsTitle">Gewichte</string>
     <string name="dialogPowerWeightsRotInertiaTitle">Trägheitsmoment</string>
     <string name="dialogPowerWeightsWeightRider">Fahrer</string>
@@ -319,7 +319,7 @@
     <string name="meterModeSpeedShort">Geschw</string>
     <string name="meterModeSpeedVertical">Vertikale Geschwindigkeit</string>
     <string name="meterModeSpeedAverage">Durchschnittsgeschwindigkeit</string>
-    <string name="meterModeSpeedAverageShort">Durchschn Geschw</string>
+    <string name="meterModeSpeedAverageShort">Ø Geschw</string>
     <string name="meterModePace">Pace</string>
     <string name="meterModePaceShort">Pace</string>
     <string name="meterModeDuration">Dauer</string>
@@ -340,7 +340,7 @@
     <string name="meterModePressure">Druck</string>
     <string name="meterModePressureShort">Dru</string>
     <string name="meterModeClock">Uhr</string>
-    <string name="meterModeWriggle">Windung</string>
+    <string name="meterModeWriggle">Schlängelverhältnis</string>
     <string name="meterModeAltitudeAscent">Bergauf</string>
     <string name="meterModeAltitudeAscentShort">Auf</string>
     <string name="meterModeAltitudeDescent">Bergab</string>
@@ -357,7 +357,7 @@
     <string name="meterTextAvg">Ø</string>
     <string name="meterTextTotal">ges.</string>
     <string name="controlPanelSoundAutoBell">Automatische Klingel</string>
-    <string name="controlPanelSoundRoar">Brummen</string>
+    <string name="controlPanelSoundRoar">AVAS</string>
     <string name="controlPanelSoundEffects">Effekte</string>
     <string name="controlPanelSoundAlarms">Alarme</string>
     <string name="controlPanelSoundTallies">Zwischenstände</string>
@@ -459,7 +459,7 @@
     <string name="pref_category_tracking_title">Aufzeichnung</string>
     <string name="pref_category_tracking_gps_title">Aufzeichnung / GPS</string>
     <string name="pref_category_bell_title">Klingel</string>
-    <string name="pref_category_roaring_title">Brummen</string>
+    <string name="pref_category_roaring_title">Warnton (AVAS)</string>
     <string name="pref_category_roaringConstantMode_title">Konstanter Modus</string>
     <string name="pref_category_effects_title">Effekte</string>
     <string name="pref_category_alarms_title">Alarme</string>
@@ -481,13 +481,13 @@
     <string name="pref_category_maps_routes_title">Wegweiser-Routen</string>
     <string name="pref_category_maps_track_title">Streckenlinie</string>
     <string name="pref_category_hud_title">HUD</string>
-    <string name="pref_category_back_key_title">Zurück-Taste-Modus</string>
+    <string name="pref_category_back_key_title">Modus der Zurück-Taste</string>
     <string name="pref_category_haptic_title">Haptisches Feedback</string>
     <string name="pref_category_app_features_title">App-Funktionen</string>
     <string name="pref_category_wakelock_title">CPU-Ruhezustandseinstellungen</string>
     <string name="pref_category_gps_boost_title">GPS-Aktualisierungseinstellungen</string>
     <string name="pref_group_flashlight_title">Taschenlampe</string>
-    <string name="pref_category_flashlightBlinkMode_title">Flackern</string>
+    <string name="pref_category_flashlightBlinkMode_title">Blinken</string>
     <string name="pref_category_flashlightAutoPocketMode_title">Taschenmodus</string>
     <string name="pref_category_gpsInaccuracyIndicator_title">Genauigkeitsanzeige</string>
     <string name="pref_category_paceIndicator_title">Pace-Anzeige</string>
@@ -501,9 +501,9 @@
     <string name="pref_app_language_summary">(Alle Profile)</string>
     <string name="pref_app_language_dialog_title">Sprache</string>
     <string name="pref_app_language_translate_title">Hilf bei der Übersetzung</string>
-    <string name="pref_app_language_translate_summary">Klick hier, wenn du mithelfen möchtest, diese App in andere Sprachen zu übersetzen</string>
+    <string name="pref_app_language_translate_summary">Klicke hier, wenn du mithelfen möchtest, diese App in andere Sprachen zu übersetzen</string>
     <string name="pref_back_key_mode_summary">(Alle Profile)</string>
-    <string name="pref_back_key_mode_dialog_title">Zurück-Taste-Modus</string>
+    <string name="pref_back_key_mode_dialog_title">Modus der Zurück-Taste</string>
     <string name="pref_info_title">Info</string>
     <string name="pref_resetToDefault">Zurücksetzen auf Standardeinstellungen</string>
     <string name="pref_units_distance_title">Entfernung</string>
@@ -528,13 +528,13 @@
     <string name="pref_bell_mode_dialog_title">Klingeltyp</string>
     <string name="pref_bell_automatic_title">Automatisch</string>
     <string name="pref_bell_automatic_summary">Klingelton bei erheblicher Verlangsamung</string>
-    <string name="pref_bell_automatic_sensitivity_title">Automatische Klingelton-Empfindlichkeit</string>
+    <string name="pref_bell_automatic_sensitivity_title">Klingelton-Empfindlichkeit</string>
     <string name="pref_bell_shake_title">Schütteln zum Klingeln</string>
-    <string name="pref_bell_shake_summary">Schüttle das Gerät zum Klingeln</string>
+    <string name="pref_bell_shake_summary">Schüttle das Gerät, um es Klingeln zu lassen</string>
     <string name="pref_bell_shake_sensitivity_title">Schüttelempfindlichkeit</string>
     <string name="pref_roaring_type_title">Typ</string>
-    <string name="pref_roaring_type_dialog_title">Brummtyp</string>
-    <string name="pref_volume_summary_text">Klingel: %1$s, Brummen: %2$s 
+    <string name="pref_roaring_type_dialog_title">AVAS-Typ</string>
+    <string name="pref_volume_summary_text">Klingel: %1$s, AVAS: %2$s 
 \nZwischenstände: %3$s, Effekte: %4$s, Alarme: %5$s, Sprache: %6$s</string>
     <string name="pref_bg_color_title">Hintergrundfarbe</string>
     <string name="pref_bg_color_summary">Wähle die gewünschte Farbe für den App-Hintergrund</string>
@@ -542,13 +542,13 @@
     <string name="pref_fg_color_summary">Wähle die gewünschte Farbe für Text und Symbole</string>
     <string name="pref_visualThemeAutoSummary">Helles oder dunkles Farbschema abhängig von der Umgebungshelligkeit auswählen</string>
     <string name="pref_screen_keep_on_title">Bildschirm anlassen</string>
-    <string name="pref_screen_keep_on_summary">Der Bildschirm bleibt an, während die App benutzt wird</string>
+    <string name="pref_screen_keep_on_summary">Der Bildschirm bleibt an, während die App verwendet wird</string>
     <string name="pref_screen_allow_off_inactive_title">Bildschirm ausschalten bei Inaktivität</string>
     <string name="pref_screen_allow_off_inactive_summary">Der Bildschirm wird nach einigen Minuten Inaktivität ausgeschaltet</string>
     <string name="pref_above_lockscreen_title">Über Sperrbildschirm anzeigen</string>
     <string name="pref_above_lockscreen_summary">Die App bleibt im Vordergrund, auch wenn der Sperrbildschirm aktiv ist</string>
     <string name="pref_screenAutoPocketMode_title">Taschenmodus</string>
-    <string name="pref_screenAutoPocketMode_summary">(Alle Profile) Näherungssensor nutzen, um das Display auszuschalten, wenn es nicht benötigt wird</string>
+    <string name="pref_screenAutoPocketMode_summary">(Alle Profile) Näherungssensor nutzen, um den Bildschirm auszuschalten, wenn er nicht benötigt wird</string>
     <string name="pref_ring_on_stop_title">Klingelton bei Stopp</string>
     <string name="pref_ring_on_stop_summary">Automatischer Klingelton beim Anhalten</string>
     <string name="pref_disable_bell_button_title">Klingelknopf deaktivieren</string>
@@ -557,36 +557,36 @@
     <string name="pref_obey_audio_focus_disable_summary">Töne immer abspielen, auch wenn der Audio-Fokus verloren wird (durch Systembenachrichtigung oder eine andere App)</string>
     <string name="pref_audio_force_loudspeaker_title">Immer Lautsprecher verwenden</string>
     <string name="pref_audio_force_loudspeaker_summary">Warnung: Experimentell, funktioniert möglicherweise nicht. Versucht alle Töne - mit Ausnahme von Sprachanrufen - über den Lautsprecher abzuspielen, wenn Kopfhörer angeschlossen sind.</string>
-    <string name="pref_duck_roaring_on_bell_title">Leiseres Brummen bei Klingelton</string>
-    <string name="pref_duck_roaring_on_bell_summary">Brummtonlautstärke verringern, während der Klingelton abgespielt wird</string>
+    <string name="pref_duck_roaring_on_bell_title">AVAS während Klingelton leiser abspielen</string>
+    <string name="pref_duck_roaring_on_bell_summary">Lautstärke des AVAS-Warntons verringern, während der Klingelton abgespielt wird</string>
     <string name="pref_relaunchAfterReboot_title">Öffnen nach Neustart</string>
     <string name="pref_resetPrompt_title">Aufforderung zum Zurücksetzen</string>
     <string name="pref_resetPrompt_summary">Aufforderung zum Start einer neuen Strecke, wenn über 4 Stunden inaktiv oder der neue Standort weit entfernt ist</string>
     <string name="pref_auto_launch_on_gps_title">Automatisches Öffnen bei GPS-Signal</string>
-    <string name="pref_auto_launch_on_gps_summary">App öffnen, wenn im Padsivmodus GPS-Aktivität erkannt wird</string>
+    <string name="pref_auto_launch_on_gps_summary">App öffnen, wenn im Passivmodus GPS-Aktivität erkannt wird</string>
     <string name="pref_passive_gps_button_title">GPS-Schaltfläche für Passivmodus</string>
     <string name="pref_passive_gps_button_summary">Passiven GPS-Modus einschalten, wenn die GPS-Schaltfläche berührt wird</string>
     <string name="pref_digital_font_title">Digitale Schriftart</string>
     <string name="pref_digital_font_summary">(Alle Profile) Segmentierte digitale LCD-Schrift für Fahrradcomputer-Daten verwenden</string>
-    <string name="pref_roaring_state_title">Brummton</string>
-    <string name="pref_roaring_state_summary">Alarmgeräusche erzeugen wenn in Bewegung</string>
+    <string name="pref_roaring_state_title">AVAS</string>
+    <string name="pref_roaring_state_summary">AVAS-(Acoustic Vehicle Alerting System-)Warntöne während Bewegung erzeugen</string>
     <string name="pref_roaring_mode_title">Modus</string>
-    <string name="pref_roaring_mode_dialog_title">Brumm-Modus</string>
+    <string name="pref_roaring_mode_dialog_title">AVAS-Modus</string>
     <string name="pref_roaring_constant_mode_title">Konstanter Modus</string>
-    <string name="pref_roaring_constant_mode_summary">Brummgeräusch unabhängig von Bewegung oder GPS-Status immer erzeugen</string>
+    <string name="pref_roaring_constant_mode_summary">AVAS-Warntöne unabhängig von Bewegung oder GPS-Status immer erzeugen</string>
     <string name="pref_roar_threshold_speed_title">Geschwindigkeits-Schwellwert</string>
     <string name="pref_roarConstantModeButton_title">Umschalt-Schaltfläche</string>
-    <string name="pref_roarConstantModeButton_summary">Konstanten Modus mit Knopfdruck umschalten, wenn das Brummen eingeschaltet ist</string>
+    <string name="pref_roarConstantModeButton_summary">Konstanten Modus mit Knopfdruck umschalten, wenn AVAS-Warntöne eingeschaltet sind</string>
     <string name="pref_fenceguard_title">Sichtschutz</string>
     <string name="pref_fenceguard_summary">Verberge den Standort deines Zuhauses oder anderer wichtiger Orte vor der Streckenaufzeichnung</string>
     <string name="pref_autopause_mode_dialog_title">Automatisches Pausieren</string>
     <string name="pref_speedometer_limit_title">Maximum der Anzeige</string>
     <string name="pref_speedometer_limit_dialog_title">Maximale Geschwindigkeit</string>
     <string name="pref_speed_calculate_mode_title">Geschwindigkeit selbst berechnen</string>
-    <string name="pref_speed_calculate_mode_summary">(Alle Profile) Geschwindigkeit aus den Entfernungswerten berechnen, anstatt den GPS-Wert zu verwrnden. Dies könnte stabilere Geschwindigkeitswerte als die GPS-(Doppler-)Werte bieten.</string>
+    <string name="pref_speed_calculate_mode_summary">(Alle Profile) Geschwindigkeit aus den Entfernungswerten berechnen, anstatt den GPS-Wert zu verwenden. Dies könnte stabilere Geschwindigkeitswerte als die GPS-(Doppler-)Werte bieten.</string>
     <string name="pref_soundeffects_title">Einschalten</string>
-    <string name="pref_soundeffects_fence_enterleave_title">Grenze</string>
-    <string name="pref_soundeffects_fence_enterleave_summary">Ton bei Erreichen oder Verlassen einer Sichtschutzgrenze</string>
+    <string name="pref_soundeffects_fence_enterleave_title">Schutzzone</string>
+    <string name="pref_soundeffects_fence_enterleave_summary">Ton bei Erreichen oder Verlassen einer Sichtschutzzone</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
     <string name="pref_soundeffects_gps_signal_summary">Ton bei GPS-Statusänderung (gut, schlecht / Stillstand)</string>
     <string name="pref_soundeffects_countdown_title">Countdown</string>
@@ -611,7 +611,7 @@
     <string name="pref_maps_disable_title">Karten deaktivieren</string>
     <string name="pref_maps_track_draw_title">Strecke zeichnen</string>
     <string name="pref_maps_track_draw_summary">Bewegungen auf der Karte einzeichnen</string>
-    <string name="pref_maps_fences_draw_title">Grenzen</string>
+    <string name="pref_maps_fences_draw_title">Schutzzonen</string>
     <string name="pref_maps_fences_draw_summary">Die durch den Sichtschutz geschützten Flächen auf der Karte einzeichnen</string>
     <string name="pref_maps_animate_title">Animation</string>
     <string name="pref_maps_animate_summary">(Alle Profile) Ausschalten, um Akku zu sparen, besonders während der automatische Kartennachführungsmodus aktiv ist</string>
@@ -645,8 +645,8 @@
     <string name="pref_button_flashlight_show_summary">Schaltfläche für Taschenlampe anzeigen (falls ein LED-Blitz vorhanden ist)</string>
     <string name="pref_button_contrast_show_title">Kontrast/Kartenebene</string>
     <string name="pref_button_contrast_show_summary">Umschaltfläche für Kontrast/Kartenebene anzeigen</string>
-    <string name="pref_button_roar_show_title">Brummen</string>
-    <string name="pref_button_roar_show_summary">Schaltfläche für Brummton anzeigen</string>
+    <string name="pref_button_roar_show_title">AVAS</string>
+    <string name="pref_button_roar_show_summary">Schaltfläche für AVAS-Warnton anzeigen</string>
     <string name="pref_button_menu_show_title">Menü</string>
     <string name="pref_button_menu_show_summary">Menü-Schaltfläche anzeigen</string>
     <string name="pref_meter_enable_title">Einschalten</string>
@@ -657,9 +657,9 @@
     <string name="pref_speedo_display_mode_title">Darstellung</string>
     <string name="pref_speedo_display_mode_dialog_title">Tacho-Darstellung</string>
     <string name="pref_speedo_indicator_needle_title">Zeiger</string>
-    <string name="pref_speedo_indicator_needle_summary">Zeiger in Grafikanzeige anzeigen</string>
+    <string name="pref_speedo_indicator_needle_summary">Zusätzlichen Zeiger in der Analoganzeige anzeigen</string>
     <string name="pref_powermeter_display_mode_dialog_title">Leistungsanzeige-Modus</string>
-    <string name="pref_powermeter_parameters_info_summary">Zur Anzeige möglichst genauer Leistungs- und Energiewerte bitte sicherstellen, dass diese Parameter korrekt sind!</string>
+    <string name="pref_powermeter_parameters_info_summary">Die angezeigten Leistungs- und Energiewerte können nur dann genau sein, wenn diese Parameter korrekt sind!</string>
     <string name="pref_power_weights_title">Gewichte</string>
     <string name="pref_power_weights_summary">Fahrer: %1$s, Fahrzeug: %2$s, Zuladung: %3$s, Passagiere: %4$s, Reifen: %5$s
     </string>
@@ -677,21 +677,21 @@
     <string name="pref_flashlightAutoPocketMode_title">Taschenmodus</string>
     <string name="pref_flashlightAutoPocketMode_summary">Näherungssensor nutzen, um die Taschenlampe ausgeschaltet zu lassen, wenn diese nicht benötigt wird</string>
     <string name="pref_flashlightBlinkMode_title">Modus</string>
-    <string name="pref_flashlightBlinkMode_dialogTitle">Blinkende Taschenlampe</string>
+    <string name="pref_flashlightBlinkMode_dialogTitle">Blinkmodus</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Umschalter</string>
     <string name="pref_flashlightBlinkModeToggleEnable_summary">Blinklicht mit Knopfdruck umschalten, wenn die Taschenlampe eingeschaltet ist</string>
     <string name="pref_gpsInaccuracyIndicator_title">Vertrauensanzeiger</string>
-    <string name="pref_gpsInaccuracyIndicator_summary">Das Alter des Geschwindkeits-Wertes anzeigen, wenn dieser mit der Zeit ungenau wird</string>
+    <string name="pref_gpsInaccuracyIndicator_summary">Das Alter des Geschwindigkeits-Wertes anzeigen, wenn dieser mit der Zeit ungenau wird</string>
     <string name="pref_paceIndicator_title">Pace-Anzeige</string>
     <string name="pref_paceIndicator_summary">Zeigt an, wenn du schneller oder langsamer als die durchschnittliche Geschwindigkeit bist</string>
     <string name="pref_haptic_feedback_title">Beim Berühren vibrieren</string>
-    <string name="pref_haptic_feedback_intensity_title">Vibrationsstärke</string>
+    <string name="pref_haptic_feedback_intensity_title">Vibrationsdauer</string>
     <string name="pref_soundsMasterSwitch_title">Alle Töne</string>
     <string name="prefBarometricAltitudeTitle">Barometrische Höhe</string>
     <string name="prefBarometricAltitudeSummary">Das geräteeigene Barometer zur Verbesserung der Genauigkeit der Höhenmessung verwenden</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Thermo-Barometer</string>
     <string name="prefBaroAltitudeUsesTemperatureSummary">Daten des Temperatursensors für genauere barometrische Höhenmessung nutzen</string>
-    <string name="prefBarometricAltitudeNoteSummary">Benutze diese nur in der offenen Atmosphäre! Bitte in unter Druck stehenden, geschlossenen oder klimatisierten Fahrzeugen wie Autos oder Flugzeugen deaktivieren!</string>
+    <string name="prefBarometricAltitudeNoteSummary">Benutze diese Funktionen nur unter freiem Himmel! In unter Druck stehenden, geschlossenen oder klimatisierten Fahrzeugen wie Autos oder Flugzeugen solltest du sie deaktivieren!</string>
     <string name="prefTemperatureSensorDerivedTitle">Abgeleiteten Sensor nutzen</string>
     <string name="prefTemperatureSensorDerivedSummary">Dieses Gerät hat keinen Temperatursensor, die Temperatur kann aber aus anderen Sensorwerten abgeleitet werden. Bitte in der Hilfe nachlesen.</string>
     <string name="prefTemperatureSensorDerivedTypeDialogTitle">Sensortyp</string>
@@ -719,7 +719,7 @@
     <string name="infoMeterModeAscentMsg">Gesamter Höhengewinn (Anstieg).</string>
     <string name="infoMeterModeDescentTitle">Abfahrt</string>
     <string name="infoMeterModeDescentMsg">Gesamter Höhenverlust (Abfahrt).</string>
-    <string name="infoMeterModeWriggleTitle">Windung</string>
+    <string name="infoMeterModeWriggleTitle">Schlängelverhältnis</string>
     <string name="infoMeterModeAltitudeTitle">Höhe</string>
     <string name="infoMeterModeSlopeTitle">Neigung</string>
     <string name="infoMeterModeSpeedTitle">Geschwindigkeit</string>
@@ -751,10 +751,10 @@
     <string name="svgCopyright">Mit Urban Biker erstellt</string>
     <string name="menuLicense">Upgrade</string>
     <!-- dialog_fenceguard_add_entries -->
-    <string name="dialog_fenceguard_add_entries_0">Grenze hinzufügen</string>
+    <string name="dialog_fenceguard_add_entries_0">Schutzzone hinzufügen</string>
     <!-- dialog_fenceguard_update_entries -->
-    <string name="dialog_fenceguard_update_entries_0">Grenze aktualisieren</string>
-    <string name="dialog_fenceguard_update_entries_1">Grenze entfernen</string>
+    <string name="dialog_fenceguard_update_entries_0">Schutzzone aktualisieren</string>
+    <string name="dialog_fenceguard_update_entries_1">Schutzzone entfernen</string>
     <!-- dialogTracksShareChoices -->
     <string name="dialogTracksShareChoices_0">ZIPs (vollständig)</string>
     <string name="dialogTracksShareChoices_1">Nur GPX</string>
@@ -810,11 +810,11 @@
     <string name="pref_locationProvider_modes_1">Google Play-Dienste</string>
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Alle Profile) GPS-Subsystem direkt verwenden. Stabil, weniger komplexes Modell, keine Zwischenschicht. Könnte auch weniger Ressourcen als andere Provider benötigen.</string>
-    <string name="pref_locationProvider_modes_explanation_1">(Alle Profile) \"Fused\"-Provider der Google Play-Dienste verwenden, wenn verfügbar. Theoretisch bietet dies manchmal schnellere und genauere Standortbestimmung. Probier einfach aus, wie gut es bei dir funktioniert.</string>
+    <string name="pref_locationProvider_modes_explanation_1">(Alle Profile) \"Fused\"-Provider der Google Play-Dienste verwenden, wenn verfügbar. Theoretisch bietet dies manchmal schnellere und genauere Standortbestimmung. Probiere einfach aus, wie gut es bei dir funktioniert.</string>
     <!-- pref_flashlightBlinkModes -->
     <string name="pref_flashlightBlinkModes_0">Langsam (Standard)</string>
     <string name="pref_flashlightBlinkModes_1">Schnell</string>
-    <string name="pref_flashlightBlinkModes_2">Kein / Dauerhaft</string>
+    <string name="pref_flashlightBlinkModes_2">Kein Blinken / Dauerhaft</string>
     <!-- pref_units_distance_entries -->
     <string name="pref_units_distance_entries_0">Metrisch [m, km]</string>
     <string name="pref_units_distance_entries_1">Angloamerikanisch [ft, mi]</string>
@@ -983,22 +983,22 @@
     <string name="meterModeVerticalPower">Vertikale Leistung</string>
     <string name="meterModeVerticalPowerShort">Vert Lst</string>
     <string name="meterModePowerShort">Lst</string>
-    <string name="meterModePowerAverageShort">Durchsch Lst</string>
+    <string name="meterModePowerAverageShort">Ø Lst</string>
     <string name="meterModeFTP">Akt Lst</string>
     <string name="meterModeAccelerationShort">Beschl</string>
     <string name="meterModeDistanceShort">Entf</string>
     <string name="meterModeEnergyShort">Ener</string>
     <string name="meterModeEfficacyShort">Eff</string>
     <string name="meterModeClockShort">Uhr</string>
-    <string name="meterModeWriggleShort">Wind</string>
+    <string name="meterModeWriggleShort">Schl</string>
     <string name="meterModeAltitudeDescentShort">Ab</string>
     <string name="meterModeAltitudeSlopeShort">Gef</string>
     <string name="meterModeGearRatioShort">Übers</string>
     <string name="profilesListLoading">Lade…</string>
     <string name="cloudAccountsTitle">Konten</string>
-    <string name="cloudAccountsInfo">Über eine Cloud-Service-Verknüpfung kannst du Strecken einfach hochladen und mit anderen teilen.
-\n
-\nEs wird dabei nichts ohne deine ausdrückliche Einwilligung hochgeladen .</string>
+    <string name="cloudAccountsInfo">Über eine Cloud-Service-Verknüpfung kannst du Strecken einfach hochladen und mit anderen teilen. 
+\n 
+\nEs wird dabei nichts ohne deine ausdrückliche Einwilligung hochgeladen.</string>
     <string name="accountDisconnect">Trennen</string>
     <string name="googleFitConnectButton">Mit Google Fit verbinden</string>
     <string name="stravaTrackPrivacyInfo">Die Strecke übernimmt deine Standard-Privatsphäreeinstellungen auf Strava</string>
@@ -1019,7 +1019,7 @@
     <string name="sensorProperitesUseForHeartRate">Für Pulsmessung verwenden</string>
     <string name="sensorProperitesStrideLen">Schrittlänge</string>
     <string name="sensorProperitesIsAutoStrideLen">Automatisch</string>
-    <string name="sensorProperitesIsAutoStrideLenInfo">Schrittlänge automatisch während des Laufens oder Walkens bestimmen.</string>
+    <string name="sensorProperitesIsAutoStrideLenInfo">Schrittlänge automatisch während des Laufens oder Gehens bestimmen.</string>
     <string name="sensorProperitesStrideLenNotSet">Nicht eingestellt</string>
     <string name="sensorProperitesTriggersCountInfo">Anzahl der vom Sensor verwendeten Geber (z.B. Magnete). Sensoren ohne externe Geber haben üblicherweise einen einzelnen internen Geber.</string>
     <string name="pref_category_map_colors_title">Kartenfarben</string>
@@ -1029,7 +1029,7 @@
     <string name="pref_category_cloudAccounts_title">Konten</string>
     <string name="pref_category_mapsCache">Cache</string>
     <string name="pref_relaunchAfterReboot_summary">(Alle Profile) Nach Geräteneustart die Aufzeichnung fortsetzen, falls der Akku zu 10% oder mehr geladen ist</string>
-    <string name="pref_roar_threshold_speed_info">Brummton ertönt nur, wenn die Geschwindigkeit höher als der Schwellwert ist. Sinnvoll z.B. für Abfahrten.</string>
+    <string name="pref_roar_threshold_speed_info">AVAS-Warntöne ertönen nur, wenn die Geschwindigkeit höher als der Schwellwert ist. Sinnvoll z.B. für Abfahrten.</string>
     <string name="pref_background_pattern_dialog_title">Menü-Hintergrund-Muster</string>
     <string name="pref_maps_routes_draw_summary">Ausgewählte GPX-Routen als gepunktete Linien auf der Karte darstellen</string>
     <string name="pref_maps_offline_terrain_title">Gelände zeichnen</string>
@@ -1103,7 +1103,7 @@
     <string name="meterModes_19">Puls</string>
     <string name="meterModes_20">Übersetzung</string>
     <string name="meterModes_21">Uhrzeit</string>
-    <string name="meterModes_22">Windung</string>
+    <string name="meterModes_22">Schlängelverhältnis</string>
     <string name="meterModes_23">Temperatur</string>
     <string name="meterModes_24">Luftdruck</string>
     <string name="meterModes_25">Gesamtentfernung</string>
@@ -1134,7 +1134,7 @@
     <string name="aboutScreenTranslationsTitle">Übersetzungen</string>
     <string name="aboutScreenTranslationsText">Hilf mit, diese App zu über setzen und erhalte dafür eine kostenlose Lizenz! Weitere Informationen:</string>
     <string name="disclaimerTitle">Haftungsausschluss</string>
-    <string name="disclaimerText1">Diese App wird in der vorliegenden Form zur Verfügung gestellt, und du verwendet sie auf eigenes Risiko. Wir als Herausgeber sind nicht verantwortlich für etwaige Unfälle, Eigentumsverluste, Verletzungen oder schlimmeres, die dir oder anderen bei der Verwendung der App während eine Radfahrt oder anderem zustoßen.</string>
+    <string name="disclaimerText1">Diese App wird in der vorliegenden Form zur Verfügung gestellt, und du verwendet sie auf eigenes Risiko. Wir als Herausgeber sind nicht verantwortlich für etwaige Unfälle, Eigentumsverluste, Verletzungen oder Schlimmeres, die dir oder anderen bei der Verwendung der App während einer Radfahrt oder anderem zustoßen.</string>
     <string name="disclaimerText2">Bitte sei bei der Verwendung der App vorsichtig und verwende sie NICHT während des Auto-, Motorrad-, Fahrradfahrens oder während du ein anderes Fahrzeug führst.</string>
     <string name="toastScreenPocketModeActive">Taschenmodus aktiv</string>
     <string name="toastScreenWavingModeActive">Winkmodus aktiv</string>
@@ -1148,8 +1148,8 @@
     <string name="pref_soundeffects_screenOff_summary">Ton und Vibration beim Abdunkeln und vorübergehenden Abschalten des Bildschirms</string>
     <string name="pref_soundeffects_proximity_title">Näherungssensor</string>
     <string name="pref_soundeffects_proximity_summary">Klickton beim Auslösen des Näherungssensors</string>
-    <string name="unitMetersAboveGroundLevel">m üNN</string>
-    <string name="unitFeetsAboveGroundLevel">ft üNN</string>
+    <string name="unitMetersAboveGroundLevel">m agl</string>
+    <string name="unitFeetsAboveGroundLevel">ft agl</string>
     <string name="meterModeKineticEnergy">Kinetische Energie</string>
     <string name="meterModeKineticEnergyShort">Kin Ener</string>
     <string name="sensorsInfo">Sensoren werden beim Start einer Aufzeichnung automatisch verbunden und beim Beenden der Aufzeichnung wieder getrennt.
@@ -1228,7 +1228,7 @@
     <string name="speechAltitude">Höhe: %1$s</string>
     <string name="speechIncreasing">Ansteigend</string>
     <string name="speechDecreasing">Abfallend</string>
-    <string name="facebookRemovedInfo">Facebook unterstützt das Teilen von Fitness-Aktivitäten nicht mehr, deshalb haben wir die Facebook-Unterstützung aus der App entfernt.</string>
+    <string name="facebookRemovedInfo">Wir haben die Facebook-Unterstützung aus der App entfernt, da das Teilen von Fitness-Aktivitäten durch Facebook nicht mehr unterstützt wird.</string>
     <string name="subscriptionPerMonth">%1$s pro Monat</string>
     <string name="subscriptionPer1y">Zahlung von %1$s alle 12 Monate</string>
     <string name="subscriptionPer6m">Zahlung von %1$s alle 6 Monate</string>
@@ -1248,7 +1248,7 @@
     <string name="trackUploadActivityTypes_10">Anderes</string>
     <string name="rewardedAdPriceFree">In dieser Sitzung kostenlos</string>
     <string name="cautionTitle">Vorsicht</string>
-    <string name="dialogActivityRecognitionPermissionRequestTitle">Berechtigung für physische Aktivität</string>
+    <string name="dialogActivityRecognitionPermissionRequestTitle">Berechtigung für körperliche Aktivität</string>
     <string name="dialogActivityRecognitionPermissionRequest">Diese Berechtigung wird benötigt, damit die App integrierte Sensoren wie z.B. den Schrittzähler verwenden kann.</string>
     <string name="unitSteps">Schritte</string>
     <string name="meterModeStepCadence">Schrittfrequenz</string>
@@ -1263,7 +1263,7 @@
     <string name="sensorStepDetectorName">Schritterkennung</string>
     <string name="sensorProperitesUseForSteps">Für Schrittanzahl und -frequenz verwenden</string>
     <string name="sensorProperitesEnableFiltering">Daten filtern</string>
-    <string name="sensorProperitesEnableFilteringInfo">Wenn diese Option aktiviert ist, werden zusätzliche Filterschritte auf die Sensordaten angewendet. Dies kann die Genauigkeit verbessern, wird allerdings die Sensorlatenz um einige Sekunden erhöhen. Standardmäßig deaktiviert.</string>
+    <string name="sensorProperitesEnableFilteringInfo">Wenn diese Option aktiviert ist, werden zusätzliche Filterschritte auf die Sensordaten angewendet. Dies kann die Genauigkeit verbessern, wird allerdings die Sensorverzögerung um einige Sekunden erhöhen. Standardmäßig deaktiviert.</string>
     <string name="pref_soundeffects_tally_steps_title">Schritte</string>
     <string name="pref_soundeffects_tally_steps_dialog_title">Schritt-Zwischenstand</string>
     <string name="prefProhibitLocationAlertInfo">Die Standortbestimmung wird während sämtlicher Aktivitäten weder eingeschaltet noch verwendet, daher ist die Kartenfunktion nicht verfügbar.
@@ -1290,4 +1290,14 @@
     <string name="pref_mapsWeatherAnimate_title">Animation</string>
     <string name="pref_mapsWeatherAnimate_summary">Radardaten der letzten Stunde animieren, um den Niederschlags-Trend besser erfassen zu können</string>
     <string name="pref_mapsWeatherAnimate_info">Animierte Radardaten benötigen die 5-fache Datenmenge im Vergleich zu statischen Radarbildern.</string>
+    <string name="menuMeterStart">Starten</string>
+    <string name="menuMeterStop">Anhalten</string>
+    <string name="dialogScreenshotTitle">Bildschirmfoto</string>
+    <string name="dialogGoogleMapTermsViolation">Da der Inhalt von Google-Karten nicht aufgenommen kann, muss für die Aufnahme der Kartentyp gewechselt werden.
+\n
+\nJetzt zu Stamen-Karten wechseln\?</string>
+    <string name="dialogWaitTitle">Bitte warten</string>
+    <string name="dialogScreenshotPreparing">Bildschirmfoto wird vorbereitet…</string>
+    <string name="mapMarkerMyLocation">Mein Standort</string>
+    <string name="pref_roaring_type_entries_3">Elektrofahrzeug</string>
 </resources>
