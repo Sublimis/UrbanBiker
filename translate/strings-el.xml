@@ -23,7 +23,7 @@
     <string name="buttonNewTrack">Τερματισμός</string>
     <string name="menuControlPanel">Πίνακας Ελέγχου</string>
     <string name="menuSettings">Ρυθμίσεις</string>
-    <string name="menuSummary">Περίληψη</string>
+    <string name="menuSummary">Ζωντανή περίληψη</string>
     <string name="menuTracksHistory">Ιστορικό</string>
     <string name="menuTracksHistoryResume">Επαναφορά</string>
     <string name="menuMeterLock">Κλείδωμα</string>
@@ -102,7 +102,7 @@
     <string name="toastProfileButtonClickInfo">Διαρκές πάτημα για εναλλαγή προφίλ</string>
     <string name="toastContrastButtonClickInfo">Αυτόματο οπτικό θέμα ενεργοποιήθηκε</string>
     <string name="toastFlashlightButtonClickInfo">Παρατεταμένη πίεση για εναλλαγή σε φακό</string>
-    <string name="toastRoarButtonClickInfo">Παρατεταμένη πίεση για εναλλαγή σε βοή</string>
+    <string name="toastRoarButtonClickInfo">Παρατεταμένη πίεση για εναλλαγή σε AVAS</string>
     <string name="toastMapButtonClickInfo">Παρατεταμένη πίεση για εναλλαγή σε χάρτη</string>
     <string name="toastMapFollowingOn">Ακολουθία ενεργή</string>
     <string name="toastMapFollowingAutorotate">Αυτόματη περιστροφή ενεργή</string>
@@ -132,7 +132,7 @@
     <string name="dialog_default_color_text">Θα φορτωθούν τα προεπιλεγμένα χρώματα. Είστε σίγουροι;</string>
     <string name="dialog_defaultConfirmation">Είστε σίγουροι;</string>
     <string name="dialog_volume_bell_text">Κουδούνι</string>
-    <string name="dialog_volume_roaring_text">Βοή</string>
+    <string name="dialog_volume_roaring_text">AVAS</string>
     <string name="dialog_volume_effects_text">Εφέ</string>
     <string name="dialog_volume_tallies_text">Ορόσημα</string>
     <string name="dialog_volume_alarms_text">Ειδοποιήσεις</string>
@@ -200,10 +200,10 @@
     <string name="dialogResetMessage">Αποθήκευση αυτής της διαδρομής και προετοιμασία για νέα;</string>
     <string name="dialogResetNoTrackMessage">Δεν καταγράφηκε καμία διαδρομή. Επαναφορά των μετρητών τώρα;</string>
     <string name="dialogScreenHudMode">Λειτουργία καθρέφτη HUD</string>
-    <string name="dialogScreenOrientationAuto">Αυτόματος προσανατολισμός</string>
+    <string name="dialogScreenOrientationAuto">Αυτόματη</string>
     <string name="dialogScreenOrientationPortrait">Πορτρέτο</string>
     <string name="dialogScreenOrientationLandscape">Τοπίο</string>
-    <string name="dialogScreenBrightnessOverride">Υπέρβαση της φωτεινότητας</string>
+    <string name="dialogScreenBrightnessOverride">Φωτεινότητα</string>
     <string name="dialogScreenAutoTheme">Αυτόματο θέμα</string>
     <string name="dialogMapsOffline">Χάρτες εκτός σύνδεσης</string>
     <string name="dialogMapsLayerTraffic">Κυκλοφορία</string>
@@ -383,7 +383,7 @@
     <string name="meterTextAvg">μέση</string>
     <string name="meterTextTotal">Σύνολο</string>
     <string name="controlPanelSoundAutoBell">Αυτόματο κουδούνι</string>
-    <string name="controlPanelSoundRoar">Βοή</string>
+    <string name="controlPanelSoundRoar">AVAS</string>
     <string name="controlPanelSoundEffects">Εφέ</string>
     <string name="controlPanelSoundAlarms">Ειδοποιήσεις</string>
     <string name="controlPanelSoundTallies">Ορόσημα</string>
@@ -508,7 +508,7 @@
     <string name="pref_category_tracking_title">Εντοπισμός</string>
     <string name="pref_category_tracking_gps_title">Εντοπισμός / GPS</string>
     <string name="pref_category_bell_title">Κουδούνι</string>
-    <string name="pref_category_roaring_title">Βοή</string>
+    <string name="pref_category_roaring_title">AVAS</string>
     <string name="pref_category_roaringConstantMode_title">Συνεχής λειτουργία</string>
     <string name="pref_category_effects_title">Εφέ</string>
     <string name="pref_category_alarms_title">Ειδοποιήσεις</string>
@@ -586,8 +586,8 @@
     <string name="pref_bell_shake_summary">Ανακινήστε τη συσκευή για να χτυπάει το κουδούνι</string>
     <string name="pref_bell_shake_sensitivity_title">Ευαισθησία ανακίνησης</string>
     <string name="pref_roaring_type_title">Τύπος</string>
-    <string name="pref_roaring_type_dialog_title">Τύπος βουητού</string>
-    <string name="pref_volume_summary_text">Κουδούνι: %1$s, Βουητό: %2$s
+    <string name="pref_roaring_type_dialog_title">Τύπος AVAS</string>
+    <string name="pref_volume_summary_text">Κουδούνι: %1$s, AVAS: %2$s 
 \n, Ορόσημα: %3$s, Εφέ: %4$s, Ειδοποιήσεις: %5$s, Ομιλία: %6$s</string>
     <string name="pref_bg_color_title">Χρώμα παρασκηνίου</string>
     <string name="pref_bg_color_summary">Επιλογή επιθυμητού χρώματος για παρασκήνιο εφαρμογής</string>
@@ -610,8 +610,8 @@
     <string name="pref_obey_audio_focus_disable_summary">Συνέχιση παραγωγής ήχων, ακόμη και αν η εστίαση ήχου χάθεί (από κοινοποίησεις συστήματος ή άλλη εφαρμογή)</string>
     <string name="pref_audio_force_loudspeaker_title">Εξαναγκασμός μεγαφώνου</string>
     <string name="pref_audio_force_loudspeaker_summary">Προειδοποίηση: Πειραματική λειτουργία, μπορεί να μην λειτουργήσει. Προσπαθεια δρομολόγησης όλων των ήχων από το μεγάφωνο όταν είναι συνδεδεμένα τα ακουστικά, εκτός από τις φωνητικές κλήσεις.</string>
-    <string name="pref_duck_roaring_on_bell_title">Ήχος βουητού στο κουδούνισμα</string>
-    <string name="pref_duck_roaring_on_bell_summary">Μείωση έντασης βουητού όταν χτυπάει το κουδούνι</string>
+    <string name="pref_duck_roaring_on_bell_title">Ήχος AVAS στο κουδούνισμα</string>
+    <string name="pref_duck_roaring_on_bell_summary">Μείωση έντασης AVAS όταν χτυπάει το κουδούνι</string>
     <string name="pref_relaunchAfterReboot_title">Επανέναρξη μετά την επανεκκίνηση</string>
     <string name="pref_relaunchAfterReboot_summary">(Όλα τα προφίλ) Επαναφορά εντοπισμού μετά από αναγκαστική επανεκκίνηση της συσκευής, εάν η μπαταρία είναι 10% ή περισσότερο</string>
     <string name="pref_resetPrompt_title">Προτροπή επαναφοράς</string>
@@ -622,15 +622,15 @@
     <string name="pref_passive_gps_button_summary">Ενεργοποίηση παθητικής λειτουργίας GPS στην πίεση του πλήκτρου GPS</string>
     <string name="pref_digital_font_title">Ψηφιακή γραμματοσειρά</string>
     <string name="pref_digital_font_summary">(Όλα τα προφίλ) Χρησιμοποιήση ψηφιακής γραμματοσειράς LCD για την απεικόνιση των δεδομένων του υπολογιστή ποδηλάτου</string>
-    <string name="pref_roaring_state_title">Ήχος βοής</string>
-    <string name="pref_roaring_state_summary">Παραγωγή ήχων ειδοποίησης καθώς κινείστε</string>
+    <string name="pref_roaring_state_title">Ήχος AVAS</string>
+    <string name="pref_roaring_state_summary">"Παραγωγή ήχων  Ακουστικού Συστήματος Ειδοποίησης Οχημάτων (AVAS) καθώς κινείστε"</string>
     <string name="pref_roaring_mode_title">Λειτουργία</string>
-    <string name="pref_roaring_mode_dialog_title">Λειτουργία βοής</string>
+    <string name="pref_roaring_mode_dialog_title">Λειτουργία AVAS</string>
     <string name="pref_roaring_constant_mode_title">Συνεχής λειτουργία</string>
-    <string name="pref_roaring_constant_mode_summary">Παραγωγή σταθερών ήχων βοής ανά πάσα στιγμή, ανεξάρτητα από την κίνηση σας ή την κατάσταση GPS</string>
+    <string name="pref_roaring_constant_mode_summary">Παραγωγή σταθερών ήχων AVAS ανά πάσα στιγμή, ανεξάρτητα από την κίνηση σας ή την κατάσταση GPS</string>
     <string name="pref_roar_threshold_speed_title">Κατώτατη ταχύτητα</string>
     <string name="pref_roarConstantModeButton_title">Πλήκτρο εναλλαγής</string>
-    <string name="pref_roarConstantModeButton_summary">Εναλλαγή σταθερής λειτουργίας με το κλικ ενός κουμπιού, ενώ η βοή είναι ενεργοποιημένη</string>
+    <string name="pref_roarConstantModeButton_summary">Εναλλαγή σταθερής λειτουργίας με το κλικ ενός κουμπιού, ενώ το AVAS είναι ενεργοποιημένο</string>
     <string name="pref_fenceguard_title">Περίφραξη ιδιωτικότητας</string>
     <string name="pref_fenceguard_summary">Προστατέψτε την τοποθεσία του σπιτιού σας, ή άλλα σημαντικά σημεία από την έκθεση, σε καταγεγραμμένες διαδρομές</string>
     <string name="pref_autopause_mode_dialog_title">Αυτόματη παύση</string>
@@ -705,8 +705,8 @@
     <string name="pref_button_flashlight_show_summary">Εμφάνιση του πλήκτρου φακού (εάν υπάρχει φακός διαθέσιμος)</string>
     <string name="pref_button_contrast_show_title">Επίπεδο αντίθεσης/χάρτη</string>
     <string name="pref_button_contrast_show_summary">Εμφάνιση του πλήκτρου εναλλαγής αντίθεσης/χάρτη</string>
-    <string name="pref_button_roar_show_title">Βοή</string>
-    <string name="pref_button_roar_show_summary">Εμφάνιση του πλήκτρου βοής</string>
+    <string name="pref_button_roar_show_title">AVAS</string>
+    <string name="pref_button_roar_show_summary">Εμφάνιση του πλήκτρου AVAS</string>
     <string name="pref_button_menu_show_title">Κατάλογος</string>
     <string name="pref_button_menu_show_summary">Εμφάνιση του κουμπιού Μενού</string>
     <string name="pref_meter_enable_title">Ενεργοποίηση</string>
@@ -952,7 +952,7 @@
     <string name="prefUnitsPowerEntries_2">[Χιλιοθερμίδες/ώρα]</string>
     <string name="prefUnitsPowerEntries_3">[Κιλοτζάουλ/ώρα]</string>
     <!-- prefUnitsSlopeEntries -->
-    <string name="prefUnitsSlopeEntries_0">Τοις εκατό [\uff05]</string>
+    <string name="prefUnitsSlopeEntries_0">Τοις Εκατό [％]</string>
     <string name="prefUnitsSlopeEntries_1">Μοίρες [°]</string>
     <string name="prefUnitsSlopeEntries_2">Τοις χιλίοις [‰]</string>
     <!-- pref_hud_axis_entries -->
@@ -1079,7 +1079,7 @@
     <string name="sensorProperitesStrideLenNotSet">Δεν ρυθμίστηκε</string>
     <string name="sensorProperitesTriggersCountInfo">Αριθμός διακοπτών(π.χ. μαγνητών) που χρησιμοποιούνται από τον αισθητήρα. Οι αισθητήρες χωρίς εξωτερικούς διακόπτες έχουν συνήθως έναν εσωτερικό.</string>
     <string name="pref_category_map_colors_title">Χρώματα χάρτη</string>
-    <string name="pref_roar_threshold_speed_info">Το βουητό θα ηχήσει μόνο όταν πηγαίνετε πιο γρήγορα από την ταχύτητα κατωφλίου. Χρήσιμο π.χ. για κατηφόρες.</string>
+    <string name="pref_roar_threshold_speed_info">Το AVAS θα ηχήσει μόνο όταν πηγαίνετε πιο γρήγορα από την ταχύτητα κατωφλίου. Χρήσιμο π.χ. για κατηφόρες.</string>
     <string name="pref_background_pattern_dialog_title">Σχέδιο φόντου μενού</string>
     <string name="pref_maps_routes_draw_summary">Το επιλεγμένο διάγραμμα με διαδρομές GPX ως διακεκομμένες γραμμές πάνω από τον χάρτη</string>
     <string name="prefMapTrackColorTitle">Χρώμα διαδρομής</string>
@@ -1287,4 +1287,31 @@
     <string name="meterModes_27">Βήματα</string>
     <string name="meterModes_28">Ρυθμός βημάτων</string>
     <string name="speechSteps">Βήματα: %1$s</string>
+    <string name="menuExpand">Επέκταση</string>
+    <string name="menuCollapse">Κατάρρευση</string>
+    <string name="dialogMapsWeatherRadar">Ραντάρ κατακρήμνισης</string>
+    <string name="dialogOpenRainviewerText">Να ανοίξτε την ιστοσελίδα www.rainviewer.com τώρα;</string>
+    <string name="pref_category_maps_weather_title">Καιρός</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_title">Ραντάρ κατακρήμνισης</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_summary">Εμφάνιση στρώματος ραντάρ κατακρήμνισης</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_info">Τα δεδομένα ραντάρ κατεβάζονται από το Internet, ακόμη και όταν χρησιμοποιούνται χάρτες εκτός σύνδεσης. Ανανεώνεται αυτόματα κάθε 10 λεπτά ενώ ο χάρτης είναι ορατός. Η πηγή δεδομένων είναι το RainViewer.com.</string>
+    <string name="dialogScreenOrientationReversePortrait">Πορτρέτο (αντίστροφη)</string>
+    <string name="dialogScreenOrientationReverseLandscape">Τοπίο (αντίστροφο)</string>
+    <string name="controlPanelScreenOrientation">Προσανατολισμός οθόνης</string>
+    <string name="pref_mapsWeatherAnimate_title">κίνηση</string>
+    <string name="pref_mapsWeatherAnimate_summary">Δώστε κίνηση την τελευταία 1 ώρα δεδομένων ραντάρ, για να σας βοηθήσουν να απεικονίσετε την τάση κατακρήμνισης</string>
+    <string name="pref_mapsWeatherAnimate_info">Η κινούμενη εικόνα ραντάρ χρησιμοποιεί 5 φορές περισσότερα δεδομένα Internet από μια στατική εικόνα ραντάρ.</string>
+    <string name="menuMeterStart">Εκκίνηση</string>
+    <string name="menuMeterStop">Διακοπή</string>
+    <string name="dialogScreenshotTitle">Στιγμιότυπο</string>
+    <string name="dialogGoogleMapTermsViolation">Δεν επιτρέπεται η καταγραφή των περιεχομένων ενός χάρτη Google, επομένως ο τύπος χαρτών πρέπει πρώτα να αλλάξει σε οποιονδήποτε άλλο.
+\n
+\nΜετάβαση στο χάρτη Stamen τώρα;</string>
+    <string name="dialogWaitTitle">Παρακαλώ περιμένετε</string>
+    <string name="dialogScreenshotPreparing">Προετοιμασία στιγμιότυπου οθόνης …</string>
+    <string name="mapMarkerMyLocation">Η τοποθεσία μου</string>
+    <string name="pref_roaring_type_entries_3">Ηλεκτρικό όχημα</string>
+    <string name="dialogMapsAutoZoom">Αυτόματο ζουμ</string>
+    <string name="controlPanelUnitsButtonTitle">Μονάδες μέτρησης</string>
+    <string name="controlPanelUnitsButtonSubtitle">Κάντε κλικ για να αλλάξετε μονάδες</string>
 </resources>
