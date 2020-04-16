@@ -23,7 +23,7 @@
     <string name="buttonNewTrack">ゴール</string>
     <string name="menuControlPanel">コントロール パネル</string>
     <string name="menuSettings">設定</string>
-    <string name="menuSummary">簡易表示</string>
+    <string name="menuSummary">ライブサマリ</string>
     <string name="menuTracksHistory">履歴</string>
     <string name="menuTracksHistoryResume">再開する</string>
     <string name="menuMeterLock">ロックする</string>
@@ -100,7 +100,7 @@
     <string name="toastProfileButtonClickInfo">長押しでプロファイルを切り替え</string>
     <string name="toastContrastButtonClickInfo">自動テーマが有効</string>
     <string name="toastFlashlightButtonClickInfo">長押しでライトを切り替え</string>
-    <string name="toastRoarButtonClickInfo">長押しで走行音を切り替え</string>
+    <string name="toastRoarButtonClickInfo">長押しで車両接近通報音を切り替え</string>
     <string name="toastMapButtonClickInfo">長押しでマップを切り替え</string>
     <string name="toastMapFollowingOn">追跡オン</string>
     <string name="toastMapFollowingAutorotate">自動回転オン</string>
@@ -294,7 +294,7 @@
     <string name="pref_speedo_display_mode_entries_2">数字</string>
     <string name="toastTrackingRecordingPassive">パッシブ記録</string>
     <string name="toastMapClickInfo">長押しで地図設定</string>
-    <string name="dialog_volume_roaring_text">走行音</string>
+    <string name="dialog_volume_roaring_text">車両接近通報装置</string>
     <string name="dialog_volume_tallies_text">一定間隔</string>
     <string name="dialogMapsTrackColor">アクティビティ表示の色:</string>
     <string name="dialogFencesAdd">ここを保護エリアに追加する</string>
@@ -396,7 +396,7 @@
     <string name="meterTextMax">最大</string>
     <string name="meterTextAvg">平均</string>
     <string name="controlPanelSoundAutoBell">自動ベル</string>
-    <string name="controlPanelSoundRoar">走行音</string>
+    <string name="controlPanelSoundRoar">車両接近通報装置</string>
     <string name="controlPanelSoundEffects">効果音</string>
     <string name="controlPanelSoundAlarms">アラーム音</string>
     <string name="controlPanelSoundTallies">一定間隔</string>
@@ -433,7 +433,7 @@
     <string name="summaryEndedDatetime">終了時刻</string>
     <string name="summaryTotalTime">総時間</string>
     <string name="pref_roar_threshold_speed_title">速度・閾値</string>
-    <string name="pref_roar_threshold_speed_info">閾値より高速になると走行音が出ます。ダウンヒルなどで有効です。</string>
+    <string name="pref_roar_threshold_speed_info">閾値より高速になると車両接近通報音が出ます。ダウンヒルなどで有効です。</string>
     <string name="pref_roarConstantModeButton_title">オン・オフ　ボタン</string>
     <string name="pref_maps_offline_file_title">ファイルまたはフォルダーを選択</string>
     <string name="pref_maps_offline_file_dialog_title">オフライン地図フォルダーを選択</string>
@@ -705,7 +705,7 @@
     <string name="pref_category8_title">説明</string>
     <string name="pref_category_gps_interval_title">GPS 測定間隔</string>
     <string name="pref_category_autopause_title">自動ポーズ</string>
-    <string name="pref_category_roaring_title">走行音</string>
+    <string name="pref_category_roaring_title">車両接近通報装置</string>
     <string name="pref_category_roaringConstantMode_title">定常モード</string>
     <string name="pref_category_effects_title">効果</string>
     <string name="pref_category_alarms_title">アラーム音</string>
@@ -874,9 +874,8 @@
     <string name="pref_bell_shake_summary">スマートフォンを振ってベルを鳴らします</string>
     <string name="pref_bell_shake_sensitivity_title">振動感度</string>
     <string name="pref_roaring_type_title">型（タイプ）</string>
-    <string name="pref_roaring_type_dialog_title">走行音の種類</string>
-    <string name="pref_volume_summary_text">ベル: %1$s, 走行音: %2$s 
-\n, 一定間隔: %3$s, 効果: %4$s, アラーム: %5$s, 音声ガイド: %6$s</string>
+    <string name="pref_roaring_type_dialog_title">車両接近通報装音の種類</string>
+    <string name="pref_volume_summary_text">ベル: %1$s, 車両接近通報音: %2$s , 一定間隔: %3$s, 効果: %4$s, アラーム: %5$s, 音声ガイド: %6$s</string>
     <string name="pref_bg_color_title">背景色</string>
     <string name="pref_bg_color_summary">アプリの背景色を選んでください</string>
     <string name="pref_fg_color_title">文字の色</string>
@@ -895,8 +894,8 @@
     <string name="pref_obey_audio_focus_disable_summary">（システム通知または別のアプリによって）アプリのフォーカスが失われても、音を出しつづけます</string>
     <string name="pref_audio_force_loudspeaker_title">無条件に大音量</string>
     <string name="pref_audio_force_loudspeaker_summary">警告：実験レベルで、動作しない場合があります。 ヘッドフォンが接続されている場合、音声通話を除くすべてのサウンドをスピーカー出力へ変更してください。</string>
-    <string name="pref_duck_roaring_on_bell_title">ベル時に、走行音を下げる</string>
-    <string name="pref_duck_roaring_on_bell_summary">ベルを鳴らすとき、走行音の音量を下げます</string>
+    <string name="pref_duck_roaring_on_bell_title">ベル時に、車両接近通報音を下げる</string>
+    <string name="pref_duck_roaring_on_bell_summary">ベルを鳴らすとき、車両接近通報音の音量を下げます</string>
     <string name="pref_relaunchAfterReboot_title">再起動後にアプリを再始動</string>
     <string name="pref_relaunchAfterReboot_summary">(全プロファイル) バッテリー残量が 10% 以上あれば、スマートフォンを強制再起動したのち、走行記録を再開します</string>
     <string name="pref_resetPrompt_title">プロンプトをリセット</string>
@@ -906,13 +905,13 @@
     <string name="pref_passive_gps_button_title">パッシブ GPS ボタンモード</string>
     <string name="pref_digital_font_title">電卓文字フォント</string>
     <string name="pref_digital_font_summary">(全プロファイル) 電卓文字で、計測値を表示します</string>
-    <string name="pref_roaring_state_title">走行音</string>
-    <string name="pref_roaring_state_summary">移動すると警告音が鳴ります</string>
+    <string name="pref_roaring_state_title">車両接近通報装置</string>
+    <string name="pref_roaring_state_summary">移動に合わせてAVAS(車両接近通報装置)の音を出します</string>
     <string name="pref_roaring_mode_title">モード</string>
-    <string name="pref_roaring_mode_dialog_title">走行音モード</string>
+    <string name="pref_roaring_mode_dialog_title">車両接近通報音モード</string>
     <string name="pref_roaring_constant_mode_title">コンスタントモード</string>
-    <string name="pref_roaring_constant_mode_summary">移動、GPS 状態によらず、常時走行音が鳴り続けます</string>
-    <string name="pref_roarConstantModeButton_summary">走行音がオンのとき、このボタンで連続モードのオン・オフを切り替えます</string>
+    <string name="pref_roaring_constant_mode_summary">移動、GPS 状態によらず、常時車両接近通報音が鳴り続けます</string>
+    <string name="pref_roarConstantModeButton_summary">車両接近通報音がオンのとき、このボタンで連続モードのオン・オフを切り替えます</string>
     <string name="pref_autopause_mode_dialog_title">自動ポース</string>
     <string name="pref_speedometer_limit_title">上限値</string>
     <string name="pref_speedometer_limit_dialog_title">速度計の上限</string>
@@ -964,8 +963,8 @@
     <string name="pref_button_flashlight_show_summary">ライトボタンを表示（有効な場合）</string>
     <string name="pref_button_contrast_show_title">コントラスト/地図レイヤー</string>
     <string name="pref_button_contrast_show_summary">コントラスト/地図レイヤー 切り替えボタン表示</string>
-    <string name="pref_button_roar_show_title">走行音</string>
-    <string name="pref_button_roar_show_summary">走行音ボタン表示</string>
+    <string name="pref_button_roar_show_title">車両接近通報装置</string>
+    <string name="pref_button_roar_show_summary">車両接近通報音ボタン表示</string>
     <string name="pref_button_menu_show_title">メニュー</string>
     <string name="pref_button_menu_show_summary">メニューボタン表示</string>
     <string name="pref_meter_enable_summary">この計測器を表示・非表示</string>
@@ -1268,4 +1267,12 @@
     <string name="dialogScreenshotTitle">スクリーンショット</string>
     <string name="dialogWaitTitle">お待ちください</string>
     <string name="dialogScreenshotPreparing">スクリーンショットを準備中…</string>
+    <string name="dialogGoogleMapTermsViolation">Googleマップの内容をキャプチャすることは許可されていませんので、まずマップタイプを他のものに変更する必要があります。
+\n
+\n今すぐStamenマップに切り替えますか\?</string>
+    <string name="mapMarkerMyLocation">マイロケーション</string>
+    <string name="pref_roaring_type_entries_3">電動車両</string>
+    <string name="dialogMapsAutoZoom">自動拡大</string>
+    <string name="controlPanelUnitsButtonTitle">計測単位</string>
+    <string name="controlPanelUnitsButtonSubtitle">クリックして単位を変更</string>
 </resources>
