@@ -96,7 +96,7 @@
     <string name="toastTrackResumeGpsActiveError">Спочатку вимкніть або призупиніть GPS</string>
     <string name="toastContrastButtonClickInfo">Автоматичну тему вибрано</string>
     <string name="toastFlashlightButtonClickInfo">Довге натискання для перемикання ліхтарика</string>
-    <string name="toastRoarButtonClickInfo">Довге натискання для активації шумілки</string>
+    <string name="toastRoarButtonClickInfo">Довге натискання для активації якогось звуку</string>
     <string name="toastMapButtonClickInfo">Довге натискання для активації карти</string>
     <string name="toastMapFollowingOn">Слідування увімкнено</string>
     <string name="toastMapFollowingAutorotate">Автоматичне обертання увімкнуто</string>
@@ -121,7 +121,7 @@
     <string name="dialog_default_color_text">Буде завантажено стандартну схему кольорів. Продовжити\?</string>
     <string name="dialog_defaultConfirmation">Ви впевнені\?</string>
     <string name="dialog_volume_bell_text">Дзвінок</string>
-    <string name="dialog_volume_roaring_text">Шумілка</string>
+    <string name="dialog_volume_roaring_text">Сигнал</string>
     <string name="dialog_volume_effects_text">Ефекти</string>
     <string name="dialog_volume_tallies_text">Проміжки</string>
     <string name="dialog_volume_alarms_text">Попередження</string>
@@ -349,7 +349,7 @@
     <string name="meterTextAvg">сер</string>
     <string name="meterTextTotal">разом</string>
     <string name="controlPanelSoundAutoBell">Автоматичний дзвінок</string>
-    <string name="controlPanelSoundRoar">Шумілка</string>
+    <string name="controlPanelSoundRoar">AVAS</string>
     <string name="controlPanelSoundEffects">Ефекти</string>
     <string name="controlPanelSoundAlarms">Попередження</string>
     <string name="controlPanelSoundTallies">Підказки</string>
@@ -460,7 +460,7 @@
     <string name="pref_category_tracking_title">Ведення треку</string>
     <string name="pref_category_tracking_gps_title">Ведення треку, GPS</string>
     <string name="pref_category_bell_title">Дзвінок</string>
-    <string name="pref_category_roaring_title">Крякалка</string>
+    <string name="pref_category_roaring_title">Сигнал</string>
     <string name="pref_category_roaringConstantMode_title">Постійний режим</string>
     <string name="pref_category_effects_title">Ефекти</string>
     <string name="pref_category_alarms_title">Попередження</string>
@@ -537,8 +537,8 @@
     <string name="pref_bell_shake_summary">Струшуйте пристрій щоб активувати дзвоник</string>
     <string name="pref_bell_shake_sensitivity_title">Чутливість до струшування</string>
     <string name="pref_roaring_type_title">Тип</string>
-    <string name="pref_roaring_type_dialog_title">Тип шумілки</string>
-    <string name="pref_volume_summary_text">Дзвінок: %1$s, Шумілка: %2$s, Проміжки: %3$s, Ефекти: %4$s, Попередження: %5$s, Мовлення: %6$s</string>
+    <string name="pref_roaring_type_dialog_title">Тип дзвінка</string>
+    <string name="pref_volume_summary_text">Дзвінок: %1$s, Сигнал: %2$s, Проміжки: %3$s, Ефекти: %4$s, Попередження: %5$s, Мовлення: %6$s</string>
     <string name="pref_bg_color_title">Колір фону</string>
     <string name="pref_bg_color_summary">Виберіть колір для фону додатка</string>
     <string name="pref_fg_color_title">Колір тексту</string>
@@ -560,8 +560,8 @@
     <string name="pref_obey_audio_focus_disable_summary">Продовжувати генерування звуків навіть якщо аудіо фокус втрачено (через появу системного повідомлення або іншої програмки)</string>
     <string name="pref_audio_force_loudspeaker_title">Примусово вмикати динаміки</string>
     <string name="pref_audio_force_loudspeaker_summary">Увага! Експеримент, може не працювати. Спробувати перекидати всі звуки на динаміки навіть коли ввімкнено навушники, крім голосових дзвінків.</string>
-    <string name="pref_duck_roaring_on_bell_title">Крякалка замість дзвінка</string>
-    <string name="pref_duck_roaring_on_bell_summary">Понизити звук шумілки на час активування дзвінка</string>
+    <string name="pref_duck_roaring_on_bell_title">Крякалка на дзвінку</string>
+    <string name="pref_duck_roaring_on_bell_summary">Понизити звук крякалки на час активування дзвінка</string>
     <string name="pref_relaunchAfterReboot_title">Перезапустити після перезавантаження</string>
     <string name="pref_resetPrompt_title">Підтвердження скидання</string>
     <string name="pref_resetPrompt_summary">Запропонувати почати новий трек, якщо попередній пишеться вже більше чотирьох годин</string>
@@ -571,15 +571,15 @@
     <string name="pref_passive_gps_button_summary">Активувати пасивний режим GPS при натисканні на кнопку GPS</string>
     <string name="pref_digital_font_title">Цифровий шрифт</string>
     <string name="pref_digital_font_summary">(Всі профілі) Використовувати сегметний LCD шрифт для показу датих циклометра</string>
-    <string name="pref_roaring_state_title">Звук шумілки</string>
+    <string name="pref_roaring_state_title">Крякалка</string>
     <string name="pref_roaring_state_summary">Генерувати попереджувальні звуки під час руху</string>
     <string name="pref_roaring_mode_title">Режим</string>
-    <string name="pref_roaring_mode_dialog_title">Режим шумілки</string>
+    <string name="pref_roaring_mode_dialog_title">Режим крякалки</string>
     <string name="pref_roaring_constant_mode_title">Постійний режим</string>
-    <string name="pref_roaring_constant_mode_summary">Генерувати звук шумілки увесь час, незалежно від ваших переміщень чи режиму GPS</string>
+    <string name="pref_roaring_constant_mode_summary">Генерувати звук крякалки увесь час, незалежно від ваших переміщень чи режиму GPS</string>
     <string name="pref_roar_threshold_speed_title">Мін. межа швидкості</string>
     <string name="pref_roarConstantModeButton_title">Кнопка у режимі перемикання</string>
-    <string name="pref_roarConstantModeButton_summary">Вмикати постійний режим після натискання на кнопку, якщо шумілка увімкнена</string>
+    <string name="pref_roarConstantModeButton_summary">Вмикати постійний режим після натискання на кнопку, якщо сигнал увімкнений</string>
     <string name="pref_fenceguard_title">Приватна зона</string>
     <string name="pref_fenceguard_summary">Захистіть координати свого дому або інших важливих місць від потрапляння у записані треки</string>
     <string name="pref_autopause_mode_dialog_title">Автоматичне призупинення</string>
@@ -654,8 +654,8 @@
     <string name="pref_button_flashlight_show_summary">Показати кнопку ліхтарика (якщо такий є в наявності)</string>
     <string name="pref_button_contrast_show_title">Контраст/шар карти</string>
     <string name="pref_button_contrast_show_summary">Показати кнопку перемикання контрасту/шару мапи</string>
-    <string name="pref_button_roar_show_title">Шумілка</string>
-    <string name="pref_button_roar_show_summary">Показати кнопку шумілки</string>
+    <string name="pref_button_roar_show_title">Сигнал</string>
+    <string name="pref_button_roar_show_summary">Показати кнопку сигналу</string>
     <string name="pref_button_menu_show_title">Меню</string>
     <string name="pref_button_menu_show_summary">Показати кнопку меню</string>
     <string name="pref_meter_enable_title">Увімкнути</string>
@@ -965,7 +965,7 @@
     <!-- prefAdModes -->
     <string name="prefAdModes_0">Всі</string>
     <string name="prefAdModes_1">Google</string>
-    <string name="prefAdModes_2">AppBrain</string>
+    <string name="prefAdModes_2">Програмний мозок</string>
     <string name="prefAdModes_3">Немає</string>
     <string name="menuMeterReset">Завершити</string>
     <string name="menuViewWith">Переглянути у</string>
@@ -1041,7 +1041,7 @@
     <string name="pref_category_map_colors_title">Кольори мапи</string>
     <string name="pref_category_cloudAccounts_title">Обліковки</string>
     <string name="pref_relaunchAfterReboot_summary">(Всі профілі) Відновити запис після примусового перезавантаження пристрою, якщо є більше 10% заряду</string>
-    <string name="pref_roar_threshold_speed_info">Шум буде звучати тільки при перевищенні встановленої межі швидкості. Зручно для даунхілу.</string>
+    <string name="pref_roar_threshold_speed_info">Сигнал буде звучати тільки при перевищенні встановленої межі швидкості. Зручно для даунхілу.</string>
     <string name="pref_background_pattern_dialog_title">Візерунок фону меню</string>
     <string name="pref_maps_routes_draw_summary">Зобразити обрані GPX шляхи пунктирними лініями на мапі</string>
     <string name="proLicenseFeatures">🔹 Без реклами</string>
@@ -1135,7 +1135,7 @@
     <string name="meterModes_23">Температура</string>
     <string name="meterModes_24">Тиск</string>
     <string name="meterModes_25">Одометр</string>
-    <string name="prefUnitsSlopeEntries_0">Відсоток [％]</string>
+    <string name="prefUnitsSlopeEntries_0">Процент [％]</string>
     <string name="prefUnitsSlopeEntries_1">Градус [°]</string>
     <string name="prefUnitsSlopeEntries_2">Проміле [‰]</string>
     <string name="trackUploadActivityTypes_0">Велосипед</string>
@@ -1298,4 +1298,13 @@
     <string name="menuMeterStop">Стоп</string>
     <string name="dialogWaitTitle">Почекайте</string>
     <string name="mapMarkerMyLocation">Моя локація</string>
+    <string name="dialogScreenshotTitle">Знімок екрану</string>
+    <string name="dialogGoogleMapTermsViolation">Захоплення вмісту карти Google заборонено, тому тип карти спочатку потрібно змінити на будь-який інший.
+\n
+\nПерейти на карту Stamen зараз\?</string>
+    <string name="dialogScreenshotPreparing">Підготовка знімку екрану…</string>
+    <string name="pref_roaring_type_entries_3">Електричка</string>
+    <string name="dialogMapsAutoZoom">Авто зближення\\віддалення</string>
+    <string name="controlPanelUnitsButtonTitle">Одиниці виміру</string>
+    <string name="controlPanelUnitsButtonSubtitle">Клацніть для зміни одиниць</string>
 </resources>
