@@ -83,7 +83,7 @@
     <string name="toastFenceGuardFenceUpdatingError">Obszar chroniony: Błąd aktualizacji ogrodzenia</string>
     <string name="toastFenceGuardFenceRemoved">Obszar chroniony: Obszar %1$s usunięty%1$s usunięty</string>
     <string name="toastFenceGuardFenceRemovingError">Obszar chroniony: Błąd usuwania ogrodzenia</string>
-    <string name="toastFenceGuardOutsideTheFence">Obszar chroniony: Jesteś obecnie poza Ogrodzeniem</string>
+    <string name="toastFenceGuardOutsideTheFence">Obszar chroniony: Jesteś obecnie poza ogrodzeniem</string>
     <string name="toastFenceGuardLocationUnavailable">Obszar chroniony: Twoja lokalizacja jest nadal niedostępna</string>
     <string name="toastProfilesListProfileCreated">Profil został utworzony</string>
     <string name="toastProfilesListProfileDeleted">Profil został usunięty</string>
@@ -132,7 +132,7 @@
     <string name="dialog_fenceguard_add_text2">Ogrodzenie zostanie utworzone wokół twojej obecnej lokalizacji, aby nie zostało zarejestrowane na zapisanej trasie.</string>
     <string name="dialog_fenceguard_update_title">Aktualizacja ogrodzenia</string>
     <string name="dialog_fenceguard_update_text">Nazwa Ogrodzenia:</string>
-    <string name="dialog_fenceguard_update_text2">Ogrodzenie zostało utworzone wokół twojej lokalizacji, aby nie zostało zarejestrowane na zapisanej trasie.</string>
+    <string name="dialog_fenceguard_update_text2">Ogrodzenie utworzone wokół Twojej lokalizacji chroni ją ujawnieniem na nagranych trasach.</string>
     <string name="dialog_fenceguard_remove_title">Usuń Ogrodzenie</string>
     <string name="dialog_fenceguard_remove_defaultText">Czy na pewno chcesz usunąć Ogrodzenie\?</string>
     <string name="dialog_fenceguard_remove_formatText">Czy na pewno usunąć granice obszaru %1$s\?%1$s\?</string>
@@ -184,7 +184,7 @@
     <string name="dialogMapsShowRoutes">Wskazówki tras</string>
     <string name="dialogMapsFollowMode">Śledź</string>
     <string name="dialogMapsAutoRotate">Autoobrót</string>
-    <string name="dialogMapsHighResolution">Mapa wysokiej rozdzielczości</string>
+    <string name="dialogMapsHighResolution">Mapa w wysokiej rozdzielczości</string>
     <string name="dialogMapsRenderTerrain">Render terenu</string>
     <string name="dialogFencesAdd">Dodaj Ogrodzenie tutaj</string>
     <string name="dialogFencesUpdate">Aktualizuj położenie Ogrodzenia</string>
@@ -329,15 +329,15 @@
     <string name="pref_category_tracking_title">Śledzenie</string>
     <string name="pref_category_tracking_gps_title">Śledzenie / GPS</string>
     <string name="pref_category_bell_title">Dzwonek</string>
-    <string name="pref_category_roaring_title">Napęd (AVAS)</string>
+    <string name="pref_category_roaring_title">AVAS</string>
     <string name="pref_category_effects_title">Efekty</string>
     <string name="pref_category_alarms_title">Alarmy</string>
     <string name="pref_category_tallies_title">Etapy</string>
     <string name="pref_category_select_title">Wybierz...</string>
     <string name="pref_category_fonts_title">Czcionka</string>
     <string name="pref_category_buttons_title">Przyciski</string>
-    <string name="pref_category_meters_title">Jednostki pomiaru</string>
-    <string name="pref_group_meters_title">Jednostki pomiaru</string>
+    <string name="pref_category_meters_title">Metry</string>
+    <string name="pref_group_meters_title">Metry</string>
     <string name="pref_group_meter_modes_title">Tryby licznika</string>
     <string name="pref_category_meter1_title">Licznik 1</string>
     <string name="pref_category_meter2_title">Licznik 2</string>
@@ -410,7 +410,7 @@
     <string name="pref_obey_audio_focus_disable_summary">Kontynuuj odtwarzanie dźwięków, nawet jeśli ostrość dźwięku zostanie utracona (poprzez system lub inne aplikacje)</string>
     <string name="pref_audio_force_loudspeaker_title">Wymuś głośnik</string>
     <string name="pref_audio_force_loudspeaker_summary">Ostrzeżenie: Funkcja eksperymentalna, może nie działać. Spróbuj przekierować wszystkie dźwięki na głośnik gdy słuchawki są podłączone, z wyjątkiem połączeń głosowych.</string>
-    <string name="pref_duck_roaring_on_bell_title">Wycisz dźwięk AVAS przy dzwonieniu dzwonkiem</string>
+    <string name="pref_duck_roaring_on_bell_title">Wycisz dźwięk AVAS kiedy dzwoni telefon</string>
     <string name="pref_duck_roaring_on_bell_summary">Zmniejsz głośność dźwięku AVAS kiedy dzwoni dzwonek</string>
     <string name="pref_relaunchAfterReboot_title">Uruchom ponownie po restarcie urządzenia</string>
     <string name="pref_resetPrompt_title">Potwierdź reset</string>
@@ -475,7 +475,7 @@
     <string name="pref_button_contrast_show_title">Kontrast/Warstwa mapy</string>
     <string name="pref_button_contrast_show_summary">Pokaż przełącznik Kontrast/Warstwa mapy</string>
     <string name="pref_button_roar_show_title">AVAS</string>
-    <string name="pref_button_roar_show_summary">Pokaż przycisk dźwięku napędu</string>
+    <string name="pref_button_roar_show_summary">Pokaż przycisk dźwięku AVAS</string>
     <string name="pref_button_menu_show_title">Menu</string>
     <string name="pref_button_menu_show_summary">Pokaż przycisk Menu</string>
     <string name="pref_meter_enable_title">Włącz</string>
@@ -1086,4 +1086,32 @@
     <string name="dialogWaitTitle">Proszę czekać</string>
     <string name="dialogScreenshotPreparing">Przygotowuję zrzut ekranu…</string>
     <string name="mapMarkerMyLocation">Moja lokalizacja</string>
+    <string name="dialogThermoBarometerNoticeMessage">Dokładność termometru zależy od temperatury powietrza na zewnątrz.
+\n
+\nNie używaj go w zamkniętych lub klimatyzowanych pomieszczeniach, takich jak niektóre pojazdy i samoloty.</string>
+    <string name="meterModeElapsedTimeShort">upłynęło</string>
+    <string name="summaryBasalMetabolicRate">Podstawowa przemiana materii</string>
+    <string name="pref_category_haptic_title">Dotykowa opinia</string>
+    <string name="pref_soundeffects_alarm_gpsPause_summary">Alarm rozlegnie się po wykryciu zauważalnego ruchu, gdy śledzenie jest wstrzymane</string>
+    <string name="pref_powermeter_parameters_info_summary">Aby uzyskać dokładne odczyty mocy i energii, upewnij się, że te parametry są prawidłowe!</string>
+    <string name="prefTemperatureSensorDerivedTitle">Użyj czujnika pochodnego</string>
+    <string name="prefTemperatureSensorDerivedSummary">To urządzenie nie ma czujnika temperatury otoczenia, ale można je uzyskać za pomocą innych czujników. Przeczytaj więcej w Pomocy.</string>
+    <string name="ultimateLicenseDescription">Najlepsza licencja dla najlepszych wrażeń.</string>
+    <string name="unitJoule">J</string>
+    <string name="unitJoulePerHour">J/h</string>
+    <string name="unitJoulePerKg">J/kg</string>
+    <string name="unitJoulePerLb">J/funt</string>
+    <string name="sensorsInfo">Czujniki łączą się automatycznie, gdy nagrywanie jest aktywne, i rozłączają się po zatrzymaniu nagrywania.
+\n
+\nNie można ręcznie nawiązać połączenia z czujnikiem.</string>
+    <string name="pref_maps_offline_usage_summary">Użycie: Wybierz pobrany plik mapy z opcją powyżej.</string>
+    <string name="sensorProperitesUseForSteps">Służy do liczenia kroków i rytmu</string>
+    <string name="dialogGoogleMapTermsViolation">Przechwytywanie zawartości mapy Google jest niedozwolone, dlatego typ mapy należy najpierw zmienić na inny.
+\n
+\nCzy przełączyć teraz na mapę Stamen\?</string>
+    <string name="dialogMapsAutoZoom">Automatyczny zoom</string>
+    <string name="controlPanelUnitsButtonTitle">Jednostki miary</string>
+    <string name="controlPanelUnitsButtonSubtitle">Kliknij żeby zmienić jednostki</string>
+    <string name="controlPanelSensorsButtonTitle">Czujniki</string>
+    <string name="controlPanelSensorsButtonSubtitle">Kliknij żeby zarządzać czujnikami</string>
 </resources>
