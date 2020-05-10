@@ -911,7 +911,7 @@
     <string name="aboutScreenFacebookLink">Urban Biker na Facebooku</string>
     <string name="aboutScreenTranslationsTitle">Tłumaczenia</string>
     <string name="aboutScreenTranslationsText">Pomóż tłumaczyć tę aplikację i uzyskaj darmową licencję! Więcej info:</string>
-    <string name="disclaimerTitle">Disclaimer</string>
+    <string name="disclaimerTitle">Zrzeczenie się</string>
     <string name="disclaimerText2">Używaj tej aplikacji odpowiedzialnie. NIE obsługuj aplikacji podczas prowadzenia samochodu, motocykla, roweru ani żadnego innego pojazdu.</string>
     <string name="disclaimerText3">Zawsze patrz na drogę.</string>
     <string name="licenseDialogMapsTab">Mapy</string>
@@ -1078,4 +1078,174 @@
     <string name="controlPanelUnitsButtonSubtitle">Kliknij żeby zmienić jednostki</string>
     <string name="controlPanelSensorsButtonTitle">Czujniki</string>
     <string name="controlPanelSensorsButtonSubtitle">Kliknij żeby zarządzać czujnikami</string>
+    <string name="prefPressureSensorOffsetTitle">Przesunięcie barometru</string>
+    <string name="prefPressureSensorOffsetInfo">Stała ta jest dodawana do odczytów barometru i może być wykorzystana do zmniejszenia błędu barometru, jeśli wystąpił</string>
+    <string name="prefNotificationAlwaysTitle">Trwałe powiadomienie</string>
+    <string name="prefNotificationAlwaysSummary">Przez cały czas wyświetlaj ikonę powiadomienia aplikacji na pasku stanu systemu, nie tylko wtedy, gdy śledzenie jest aktywne.</string>
+    <string name="prefMapDiskCacheSizeSummary">Podczas przeglądania mapy, zarówno online, jak i offline, części mapy są buforowane lokalnie, aby zmniejszyć potrzebę powtarzania pobierania lub odtwarzania. Przyspiesza to ładowanie mapy i oszczędza baterię. (Wszystkie profile)</string>
+    <string name="prefProhibitLocationSummary">Blokuj GPS podczas aktywności</string>
+    <string name="infoMeterModeDurationMsg">Czas trwania podróży, możliwie wykluczając wszelkie przerwy lub postoje.</string>
+    <string name="infoMeterModeElapsedTitle">Upływ czasu</string>
+    <string name="infoMeterModeElapsedMsg">Czas, który upłynął, w tym wszystkie przerwy, ale z wyłączeniem zatrzymań.</string>
+    <string name="infoMeterModeEfficacyTitle">Skuteczność (skumulowana)</string>
+    <string name="infoMeterModeEfficacyMsg">Część zużytej energii, która wystarczyłaby na tę samą podróż, poruszając się ze stałą prędkością równą średniej prędkości. Wyższy wynik jest lepszy.</string>
+    <string name="infoMeterModeAscentMsg">Łączny przyrost wysokości (wznoszenie).</string>
+    <string name="infoMeterModeDescentMsg">Skumulowana utrata wysokości (spadek).</string>
+    <string name="infoMeterModeWriggleMsg">Miara odchylenia trasy od linii prostej, tj. jaki wypełniasz obszar w porównaniu do jazdy prosto. Niższy jest zwykle lepszy.</string>
+    <string name="infoMeterModeAltitudeMsg">Wysokość powyżej średniego poziomu morza (geoidy) - bieżąca, maksymalna i minimalna.
+\n
+\nUwaga: może to być opóźnione w czasie rzeczywistym ze względu na nieuniknione opóźnienia filtrowania cyfrowego.</string>
+    <string name="infoMeterModeSlopeMsg">Nachylenie (gradient), liczba opisująca pochylenie terenu, gdzie zero jest w poziomie. Wyższa liczba oznacza bardziej stromy wjazd, a ujemna oznacza zjazd.
+\n
+\nUwaga: może to być opóźnione w czasie rzeczywistym o około minutę, z powodu nieuniknionych opóźnień filtrowania cyfrowego.</string>
+    <string name="infoMeterModePaceMsg">Prędkość odwrotna - bieżąca, maksymalna i średnia.</string>
+    <string name="infoMeterModeAccelerationMsg">Wskaźnik zmiany prędkości - bieżący, maksymalny i minimalny.
+\n
+\nUjemny oznacza spowolnienie.</string>
+    <string name="infoMeterModePowerMsg">Moc wywierana przez siły oporu, zmianę wysokości itp. - Bieżąca, maksymalna i średnia.
+\n
+\nUjemna oznacza wzrost mocy, np. podczas zjazdu lub hamowania.
+\n
+\nW kcal / h lub kJ / h, uwzględnia również wydajność i BMR (wskaźnik podstawowej przemiany materii).
+\n
+\nUwaga: może to być opóźnione w czasie rzeczywistym o około minutę, ze względu na nieuniknione opóźnienia filtrowania cyfrowego.</string>
+    <string name="infoMeterModeAvgActivePowerTitle">Średnia moc aktywna</string>
+    <string name="infoMeterModeAvgActivePowerMsg">Średnia moc uzyskiwana podczas aktywności, nie licząc interwałów, w których moc była niewidoczna lub naprawdę niewielka (zjazd, hamowanie, wybieg).
+\n
+\nPodczas intensywnego treningu będzie to zasadniczo Twój FTP (Funkcjonalna Moc Progowa).</string>
+    <string name="infoMeterModeVerticalPowerTitle">Moc pionowa</string>
+    <string name="infoMeterModeVerticalPowerMsg">Strata lub wzrost mocy podczas jazdy w górę lub jazdy w dół - aktualna, maksymalna i minimalna.
+\n
+\nUjemna wartość oznacza wzrost mocy (malejąco).
+\n
+\nW przypadku kcal / h lub kJ / h uwzględnia również wydajność.
+\n
+\nUwaga: może to być opóźnione w czasie rzeczywistym o około minutę, ze względu na nieuniknione opóźnienia filtrowania cyfrowego.</string>
+    <string name="infoMeterModeTemperatureMsg">Temperatura otoczenia mierzona za pomocą urządzenia - aktualna, maksymalna i minimalna.</string>
+    <string name="infoMeterModePressureTitle">Ciśnienie</string>
+    <string name="infoMeterModePressureMsg">Ciśnienie otoczenia mierzone za pomocą urządzenia - aktualne, maksymalne i minimalne.</string>
+    <string name="infoMeterModeClockMsg">Aktualna pora dnia.</string>
+    <string name="infoMeterModeCadenceTitle">Rytm</string>
+    <string name="infoMeterModeCadenceMsg">Liczba obrotów korby na minutę, tj. tempo pedałowania.</string>
+    <string name="infoMeterModeHeartRateTitle">Tętno</string>
+    <string name="infoMeterModeHeartRateMsg">Liczba uderzeń serca na minutę.</string>
+    <string name="infoMeterModeGearRatioTitle">Przełożenie</string>
+    <string name="infoMeterModeGearRatioMsg">Stosunek obrotów kół do liczby obrotów pedału na jednostkę czasu, tj. stosunek wielkości koła przedniego i koła tylnego. Wyższa liczba oznacza wyższy bieg.</string>
+    <string name="infoAutopauseForcedRelaxed">Uwaga: Automatyczna Pauza wyłączona</string>
+    <string name="infoAutopauseForcedOff">Uwaga: wymuszono wyłączenie Automatycznej Pauzy</string>
+    <string name="defaultProfileNameIndoor">Wewnątrz 🏠</string>
+    <string name="trackUploadDescriptionDefault">Śledzone za pomocą aplikacji mobilnej Urban Biker</string>
+    <string name="licenseItemAlreadyOwned">Element licencji jest już zakupiony</string>
+    <string name="timePeriod_perWeek">na tydzień</string>
+    <string name="timePeriod_perMonth">na miesiąc</string>
+    <string name="timePeriod_per3Months">na 3 miesiące</string>
+    <string name="timePeriod_per6Months">na 6 miesięcy</string>
+    <string name="timePeriod_perYear">na rok</string>
+    <string name="meterModes_2">Prędkość</string>
+    <string name="meterModes_3">Wysokość</string>
+    <string name="meterModes_4">Wznoszenie</string>
+    <string name="meterModes_5">Obniżanie</string>
+    <string name="meterModes_7">Energia</string>
+    <string name="meterModes_8">Skuteczność</string>
+    <string name="meterModes_9">Moc</string>
+    <string name="meterModes_10">Moc aktywna</string>
+    <string name="meterModes_11">Moc pionowa</string>
+    <string name="meterModes_12">Prędkość pionowa</string>
+    <string name="meterModes_13">Przyspieszenie</string>
+    <string name="meterModes_14">Prędkość średnia</string>
+    <string name="meterModes_15">Moc średnia</string>
+    <string name="meterModes_16">Czas który upłynął</string>
+    <string name="meterModes_18">Rytm</string>
+    <string name="meterModes_19">Tętno</string>
+    <string name="meterModes_20">Przełożenie</string>
+    <string name="meterModes_21">Zegar</string>
+    <string name="meterModes_22">Kręcenie</string>
+    <string name="meterModes_23">Temperatura</string>
+    <string name="meterModes_24">Ciśnienie</string>
+    <string name="meterModes_25">Drogomierz</string>
+    <string name="pref_gps_update_freq_entries_0">Najszybszy</string>
+    <string name="pref_gps_update_freq_entries_1">0.5 sekundy</string>
+    <string name="pref_gps_update_freq_entries_3">1 sekunda</string>
+    <string name="pref_gps_update_freq_entries_4">2 sekundy</string>
+    <string name="pref_gps_update_freq_entries_5">3 sekundy</string>
+    <string name="pref_gps_update_freq_entries_6">4 sekundy</string>
+    <string name="pref_gps_update_freq_entries_7">5 sekund</string>
+    <string name="pref_gps_update_freq_entries_8">10 sekund</string>
+    <string name="pref_gps_update_freq_entries_9">15 sekund</string>
+    <string name="pref_gps_update_freq_entries_10">20 sekund</string>
+    <string name="pref_gps_update_freq_entries_11">30 sekund</string>
+    <string name="pref_gps_update_freq_entries_12">45 sekund</string>
+    <string name="pref_gps_update_freq_entries_13">1 minuta</string>
+    <string name="pref_gps_update_freq_entries_14">2 minuty</string>
+    <string name="pref_gps_update_freq_entries_15">3 minuty</string>
+    <string name="pref_gps_update_freq_entries_16">4 minuty</string>
+    <string name="pref_gps_update_freq_entries_17">5 minut</string>
+    <string name="pref_gps_update_freq_entries_18">10 minut</string>
+    <string name="pref_gps_update_freq_entries_19">15 minut</string>
+    <string name="pref_gps_update_freq_entries_20">20 minut</string>
+    <string name="pref_gps_update_freq_entries_21">30 minut</string>
+    <string name="pref_gps_update_freq_entries_22">45 minut</string>
+    <string name="pref_gps_update_freq_entries_23">1 godzina</string>
+    <string name="pref_autopause_modes_explanation_0">Odrzuć wszystkie przerwy dłuższe niż kilka sekund</string>
+    <string name="pref_autopause_modes_explanation_1">Odrzuć tylko pauzy dłuższe niż 5 minut</string>
+    <string name="pref_autopause_modes_explanation_2">Zachowaj wszystkie pauzy (chyba że zostaną wstrzymane ręcznie)</string>
+    <string name="pref_flashlightBlinkModes_1">Szybko</string>
+    <string name="pref_flashlightBlinkModes_2">Brak / Stały</string>
+    <string name="pref_roaring_mode_entries_0">Automatyczna ocena i głośność</string>
+    <string name="pref_roaring_mode_entries_1">Automatyczna ocena</string>
+    <string name="pref_roaring_mode_entries_2">Automatyczna głośność</string>
+    <string name="pref_roaring_mode_entries_3">Stała podczas ruchu</string>
+    <string name="pref_roaring_mode_entries_4">Aktywna powyżej prędkości progowej</string>
+    <string name="prefMapOnlineModeEntries_0">Online</string>
+    <string name="prefMapOnlineModeEntries_1">Offline</string>
+    <string name="prefBackKeyModeEntries_0">Normalny</string>
+    <string name="prefBackKeyModeEntries_1">Żaden</string>
+    <string name="prefBackKeyModeEntries_2">Kliknij dwukrotnie żeby wyjść</string>
+    <string name="prefMapOfflineLayerButtonActionEntries_0">Zmień wygląd</string>
+    <string name="prefMapOfflineLayerButtonActionEntries_1">Przełącz plik</string>
+    <string name="prefMapOfflineLayerButtonActionEntries_2">Żaden</string>
+    <string name="prefMapDiskCacheSizeEntries_0">10 MB</string>
+    <string name="prefMapDiskCacheSizeEntries_1">50 MB</string>
+    <string name="prefMapDiskCacheSizeEntries_3">200 MB</string>
+    <string name="prefMapDiskCacheSizeEntries_4">300 MB</string>
+    <string name="prefMapDiskCacheSizeEntries_5">400 MB</string>
+    <string name="prefMapDiskCacheSizeEntries_6">500 MB</string>
+    <string name="prefMapDiskCacheSizeEntries_7">1 GB</string>
+    <string name="prefMapDiskCacheSizeEntries_8">2 GB</string>
+    <string name="prefMapDiskCacheSizeEntries_9">3 GB</string>
+    <string name="prefMapDiskCacheSizeEntries_10">4 GB</string>
+    <string name="prefMapDiskCacheSizeEntries_11">5 GB</string>
+    <string name="trackUploadActivityTypes_0">Rower</string>
+    <string name="trackUploadActivityTypes_1">Bieg</string>
+    <string name="trackUploadActivityTypes_2">Spacer</string>
+    <string name="prefAdModes_0">Dowolne</string>
+    <string name="prefAdModes_1">Google</string>
+    <string name="prefAdModes_2">Mózg aplikacji</string>
+    <string name="prefAdModes_3">Żaden</string>
+    <string name="disclaimerText1">Ta aplikacja jest dostarczana w stanie, w jakim się znajduje, i używasz jej na własne ryzyko. My, wydawca, nie będziemy ponosić odpowiedzialności za jakiekolwiek nieszczęście, utratę posiadania, obrażenia lub gorsze związane z tobą lub osobą trzecią, wynikające z korzystania z aplikacji podczas jazdy lub w inny sposób.</string>
+    <string name="infoMeterModeKineticEnergyTitle">Energia kinetyczna</string>
+    <string name="infoMeterModeKineticEnergyMsg">Wysokość nad poziomem ziemii, gdzie twoja energia potencjalna byłaby równa twojej obecnej energii kinetycznej.
+\n
+\nInnymi słowy, twoja prędkość jest równa prędkości, którą miałbyś po upadku z tej wysokości (niezależnie od oporu powietrza).
+\n
+\nAnalogicznie, jest to wysokość, którą osiągnąłbyś, idąc prosto w górę, używając tylko swojej energii kinetycznej.</string>
+    <string name="meterModes_26">Energia kinetyczna</string>
+    <string name="defaultProfileNameScooter">Hulajnoga 🛴</string>
+    <string name="defaultProfileNameSki">Narty 🎿</string>
+    <string name="trackUploadActivityTypes_3">Wycieczka górska</string>
+    <string name="trackUploadActivityTypes_4">Pływanie</string>
+    <string name="trackUploadActivityTypes_5">Surfowanie</string>
+    <string name="trackUploadActivityTypes_6">Żeglowanie</string>
+    <string name="trackUploadActivityTypes_7">Deskorolka</string>
+    <string name="trackUploadActivityTypes_8">Narty</string>
+    <string name="trackUploadActivityTypes_9">Deska snowboardowa</string>
+    <string name="trackUploadActivityTypes_10">Inne</string>
+    <string name="infoMeterModeStepCadenceTitle">Krok rytmiczny</string>
+    <string name="infoMeterModeStepCadenceMsg">Liczba kroków na minutę.</string>
+    <string name="infoMeterModeStepCountTitle">Kroki</string>
+    <string name="infoMeterModeStepCountMsg">Liczba wykonanych kroków.</string>
+    <string name="meterModes_27">Kroki</string>
+    <string name="meterModes_28">Krok rytmiczny</string>
+    <string name="pref_roaring_type_entries_3">Pojazd elektryczny</string>
+    <string name="pref_text_automatic">Automatyczny</string>
 </resources>
