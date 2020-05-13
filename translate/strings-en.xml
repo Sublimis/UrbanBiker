@@ -621,6 +621,8 @@
     <string name="sensorProperitesTriggersCountInfo">Number of triggers (e.g. magnets) used by the sensor. Sensors with no external triggers usually have a single internal trigger.</string>
     <string name="sensorProperitesEnableFiltering">Data filtering</string>
     <string name="sensorProperitesEnableFilteringInfo">This will perform additional filtering on sensor data, possibly improving accuracy, but introducing a few seconds of delay. Disabled by default.</string>
+    <string name="sensorProperitesActivityRecognition">Physical activity recognition</string>
+    <string name="sensorProperitesActivityRecognitionInfo">Sensor will provide data only when your physical activity is recognized to be compatible with sensor purpose. For example, Step sensor will count steps while walking or running, not while riding a bike. Note, this may not be 100% accurate and can be laggy. Google Play services are required.</string>
 
     <string name="sensorStatusConnected">Connected</string>
     <string name="sensorStatusConnecting">Connecting…</string>
