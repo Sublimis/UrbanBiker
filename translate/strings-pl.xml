@@ -8,12 +8,12 @@
     <string name="widget_3_description">Rowerzysta: Kompletny</string>
     <string name="proLicenseLabel">Pro</string>
     <string name="proPlusLicenseLabel">Pro+</string>
-    <string name="ultimateLicenseLabel">Ultimate</string>
-    <string name="proLicenseTitle">Pro License</string>
-    <string name="proLicenseDescription">Remove ads</string>
-    <string name="proPlusLicenseTitle">Pro Plus License</string>
-    <string name="proPlusLicenseDescription">Remove ads and unlock all non-subscription features we may add in the future</string>
-    <string name="ultimateLicenseTitle">Ultimate License</string>
+    <string name="ultimateLicenseLabel">Najwyższy</string>
+    <string name="proLicenseTitle">Licencja Pro</string>
+    <string name="proLicenseDescription">Usuń reklamy</string>
+    <string name="proPlusLicenseTitle">Licencja Pro Plus</string>
+    <string name="proPlusLicenseDescription">Usuń reklamy i odblokuj wszystkie funkcje niebędące subskrypcjami, które możemy dodać w przyszłości</string>
+    <string name="ultimateLicenseTitle">Najwyższa licencja</string>
     <string name="ok">OK</string>
     <string name="yes">Tak</string>
     <string name="no">Nie</string>
@@ -27,8 +27,8 @@
     <string name="menuTracksHistoryResume">Wznów</string>
     <string name="menuMeterLock">Zablokuj</string>
     <string name="menuMeterLockAll">Zablokuj wszystko</string>
-    <string name="menuMeterMode">Jednostki metryczne</string>
-    <string name="menuMeterChooseModes">Wybierz tryb...</string>
+    <string name="menuMeterMode">Tryb licznika</string>
+    <string name="menuMeterChooseModes">Wybierz tryby</string>
     <string name="menuMeterNewTrack">Nowa trasa</string>
     <string name="menuMeterResetMinMax">Resetuj min/max</string>
     <string name="menuMeterParameters">Parametry…</string>
@@ -72,7 +72,7 @@
     <string name="toastTrackWritingError">Błąd zapisu trasy do pamięci! Spróbuj zresetować ponownie.</string>
     <string name="toastTrackZippingError">Błąd pakowania trasy! Spróbuj zresetować ponownie.</string>
     <string name="toastTrackMovingError">Bład przeniesienia danych trasy na pamięć USB! Spróbuj zresetować ponownie.</string>
-    <string name="toastPressAgainToExit">Wciśnij ponownie by wyjść.</string>
+    <string name="toastPressAgainToExit">Naciśnij ponownie żeby wyjść.</string>
     <string name="toastTrackingRecording">Nagrywanie</string>
     <string name="toastTrackingRecordingPassive">Nagrywanie pasywne</string>
     <string name="toastTrackingPaused">Pauza</string>
@@ -92,7 +92,7 @@
     <string name="toastTrackDeleted">Trasy usunięte</string>
     <string name="toastTrackDeleteError">Błąd kasowania tras</string>
     <string name="toastTrackResumed">Wznów ścieżkę</string>
-    <string name="toastTrackResumeGpsActiveError">Śledzenie pozycji jest aktywne. Proszę wyłącz lub wstrzymaj wcześniej GPS.</string>
+    <string name="toastTrackResumeGpsActiveError">Proszę wyłącz lub wstrzymaj wcześniej GPS.</string>
     <string name="toastContrastButtonClickInfo">Automatyczny motyw wizualny jest aktywny</string>
     <string name="toastFlashlightButtonClickInfo">Przytrzymaj aby włączyć latarkę</string>
     <string name="toastRoarButtonClickInfo">Przytrzymaj aby przełączyć dźwięk AVAS</string>
@@ -124,7 +124,7 @@
     <string name="dialog_volume_effects_text">Efekty</string>
     <string name="dialog_volume_tallies_text">Etapy</string>
     <string name="dialog_volume_alarms_text">Alarmy</string>
-    <string name="dialog_volume_message">Info: Użyj przycisku głośności, aby ustawić ogólny poziom dźwięku</string>
+    <string name="dialog_volume_message">Uwaga: Użyj przycisku głośności w urządzeniu, aby ustawić ogólny poziom dźwięku</string>
     <string name="dialog_bell_automatic_sensitivity_title">Automatyczna czułość dzwonka</string>
     <string name="dialog_bell_shake_sensitivity_title">Czułość potrząsania</string>
     <string name="dialog_fenceguard_add_title">Dodaj Ogrodzenie</string>
@@ -163,7 +163,7 @@
     <string name="dialogTrackResumeProfileMissingMessage">Profil %1$s który utworzył tą ścieżkę już nie istnieje. Wznowić w bieżącym profilu %2$s\?</string>
     <string name="dialogTrackResumeGeneralPromptMessage">Trasa będzie wznowiona w profilu %1$s. Kontynuować\?</string>
     <string name="dialogTrackResumeGeneralErrorMessage">Wystąpił błąd. Spróbuj ponownie.</string>
-    <string name="dialogTrackResumeWaitMessage">Wznawianie, proszę czekaj...</string>
+    <string name="dialogTrackResumeWaitMessage">Wznawianie, proszę czekaj…</string>
     <string name="dialogTracksShareTitle">Udostępnij trasy</string>
     <string name="dialogTracksShareGeneralErrorMessage">Wystąpił błąd. Spróbuj ponownie.</string>
     <string name="dialogGpsSettingsPromptTitle">Lokalizacja wyłączona</string>
@@ -289,14 +289,14 @@
     </string>
     <string name="profilesListButtonResetTotals">Reset wyników</string>
     <string name="tracksHistoryListTitle">Historia tras</string>
-    <string name="tracksHistoryListLoading">Wczytuję...</string>
+    <string name="tracksHistoryListLoading">Wczytuję…</string>
     <string name="tracksHistoryListButtonView">Widok</string>
     <string name="tracksHistoryListButtonShare">Udostępnij</string>
     <string name="tracksHistoryListButtonResume">Wznów</string>
     <string name="tracksHistoryListButtonEdit">Edytuj</string>
     <string name="tracksHistoryListButtonDelete">Usuń</string>
-    <string name="tracksHistoryListShareTrackDialogTitle">Udostępnij trasę przez...</string>
-    <string name="tracksHistoryListViewTrackDialogTitle">Zobacz trasę z...</string>
+    <string name="tracksHistoryListShareTrackDialogTitle">Udostępnij trasę przez…</string>
+    <string name="tracksHistoryListViewTrackDialogTitle">Zobacz trasę w…</string>
     <string name="pref_text_off">Wyłącz</string>
     <string name="pref_text_min">Min</string>
     <string name="pref_text_medium">Średnio</string>
@@ -663,7 +663,7 @@
     <string name="unitDegree">°</string>
     <string name="unitMegabyte">MB</string>
     <string name="meterModeSpeedShort">pręd.</string>
-    <string name="meterModeSpeedVerticalShort">pion. pręd.</string>
+    <string name="meterModeSpeedVerticalShort">pr pion</string>
     <string name="meterModeSpeedAverageShort">śr. pręd.</string>
     <string name="meterModeDuration">czas trwania</string>
     <string name="meterModeElapsedTime">upłynęło</string>
@@ -1248,4 +1248,6 @@
     <string name="meterModes_28">Krok rytmiczny</string>
     <string name="pref_roaring_type_entries_3">Pojazd elektryczny</string>
     <string name="pref_text_automatic">Automatyczny</string>
+    <string name="sensorProperitesActivityRecognition">Rozpoznawanie aktywności fizycznej</string>
+    <string name="sensorProperitesActivityRecognitionInfo">Czujnik dostarczy dane tylko wtedy, gdy aktywność fizyczna zostanie uznana za zgodną z przeznaczeniem czujnika. Na przykład czujnik kroku zlicza kroki podczas chodzenia lub biegania, a nie podczas jazdy na rowerze. Uwaga: może to nie być 100% dokładne i może być opóźnione. Usługi Google Play są wymagane.</string>
 </resources>
