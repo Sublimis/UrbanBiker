@@ -2,9 +2,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="locale">cs</string>
     <string name="app_name">Urban Biker</string>
-    <string name="app_description">Sledujte a změřte své jízdy s velkou přesností. Zvyšte bezpečnost a efektivitu jízdy na kole.</string>
+    <string name="app_description">Sledujte a měřte své jízdy s velkou přesností. Zvyšte bezpečnost a efektivitu jízdy na kole.</string>
     <string name="widget_1_description">Cyklista: Cyklo zvonek</string>
-    <string name="widget_2_description">Cyklista: Zvonek + Baterka</string>
+    <string name="widget_2_description">Cyklista: Zvonek + Svítilna</string>
     <string name="widget_3_description">Cyklista: Kompletní</string>
     <string name="proLicenseLabel">Pro</string>
     <string name="proPlusLicenseLabel">Pro+</string>
@@ -12,7 +12,7 @@
     <string name="proLicenseTitle">Licence Pro</string>
     <string name="proLicenseDescription">Odstranit reklamy</string>
     <string name="proPlusLicenseTitle">Licence Pro Plus</string>
-    <string name="proPlusLicenseDescription">Odstranit reklamy a odemknout všechny případné budoucí funkce</string>
+    <string name="proPlusLicenseDescription">Odstranit reklamy a odemknout všechny případné budoucí funkce pro nepředplatitele</string>
     <string name="ultimateLicenseTitle">Licence Ultimate</string>
     <string name="ok">OK</string>
     <string name="yes">Ano</string>
@@ -23,7 +23,7 @@
     <string name="buttonNewTrack">Dokončit</string>
     <string name="menuControlPanel">Ovládací panel</string>
     <string name="menuSettings">Nastavení</string>
-    <string name="menuSummary">Přehled</string>
+    <string name="menuSummary">Živý přehled</string>
     <string name="menuTracksHistory">Historie</string>
     <string name="menuTracksHistoryResume">Pokračovat</string>
     <string name="menuMeterLock">Zamknout</string>
@@ -36,14 +36,14 @@
     <string name="menuMeterParameters">Parametry…</string>
     <string name="menuMeterPowerMode">Přepnout napájecí režim</string>
     <string name="menuFenceguard">Hlídač skrytí</string>
-    <string name="menuExit">Ukončit</string>
+    <string name="menuExit">Odejít</string>
     <string name="menuMore">Více…</string>
     <string name="menuView">Zobrazit</string>
-    <string name="menuViewWith">Zobrazit v</string>
+    <string name="menuViewWith">Zobrazit pomocí</string>
     <string name="menuProfiles">Profily</string>
     <string name="menuSensors">Senzory</string>
     <string name="menuAbout">O aplikaci</string>
-    <string name="menuHelp">Pomoc &amp; Podpora</string>
+    <string name="menuHelp">Nápověda &amp; Podpora</string>
     <string name="menuShare">Sdílet</string>
     <string name="menuUpload">Nahrát</string>
     <string name="menuSelectMode">Vybrat</string>
@@ -52,41 +52,40 @@
     <string name="menuCollapseAll">Sbalit vše</string>
     <string name="menuEdit">Upravit</string>
     <string name="menuDelete">Smazat</string>
-    <string name="menuClear">Vymazat</string>
+    <string name="menuClear">Vyčistit</string>
     <string name="menuCenterOnMap">Na střed</string>
     <string name="menuClose">Zavřít</string>
     <string name="menuInfo">Informace</string>
     <string name="menuRateAndComment">Hodnocení</string>
     <string name="menuRefresh">Obnovit</string>
-    <string name="menuSwitchProfile">Přepnout na</string>
+    <string name="menuSwitchProfile">Přepnout do</string>
     <string name="share_title">Poslat přes</string>
     <string name="pick_a_color">Vybrat barvu</string>
     <string name="fence_name_default">Moje místo</string>
     <string name="profileNameDefault">Nový profil</string>
-    <string name="featureNotAvailable">Omlouváme se, funkce není dostupná na tomto zařízení</string>
+    <string name="featureNotAvailable">"Omlouváme se,  funkce není na tomto zařízení dostupná"</string>
     <string name="farFromHere">Daleko odtud</string>
-    <string name="toastRestartRequired">Změna se projeví až po restartu, prosím restartujte</string>
-    <string name="toastActiveProfile">Profil: %1$s%1$s
-    </string>
+    <string name="toastRestartRequired">Restartujte aplikaci pro provedení změn</string>
+    <string name="toastActiveProfile">Profil: %1$s</string>
     <string name="toastProfileSavingError">Chyba ukládání dat profilu. Zkuste to prosím znovu.</string>
     <string name="toastProfileChangeError">Nelze přepnout profil. Zkuste to prosím znovu.</string>
     <string name="toastGpsEnabled">GPS zapnuta</string>
     <string name="toastTrackSaved">Trasa uložena.</string>
     <string name="toastTrackDiscarded">Trasa zrušena.</string>
-    <string name="toastTrackSavingError">Chyba ukládání trasy! Zkuste prosím znovu.</string>
-    <string name="toastTrackWritingError">Chyba ukládání trasy! Zkuste to prosím znovu.</string>
-    <string name="toastTrackZippingError">Chyba ukládání trasy do zipu. Zkuste to prosím znovu.</string>
-    <string name="toastTrackMovingError">Chyba přesunu trasy na paměťové zařízení USB. Zkuste to prosím znovu.</string>
-    <string name="toastPressAgainToExit">Stiskněto znovu pro ukončení</string>
+    <string name="toastTrackSavingError">Chyba ukládání trasy! Zkuste to prosím znovu.</string>
+    <string name="toastTrackWritingError">Chyba ukládání trasy do úložiště! Zkuste to prosím znovu.</string>
+    <string name="toastTrackZippingError">Chyba ukládání trasy do Zip souboru. Zkuste to prosím znovu.</string>
+    <string name="toastTrackMovingError">Chyba přesunu trasy na USB paměťové zařízení. Zkuste to prosím znovu.</string>
+    <string name="toastPressAgainToExit">Stiskněte znovu pro ukončení</string>
     <string name="toastTrackingRecording">Záznam</string>
     <string name="toastTrackingRecordingPassive">Pasivní záznam</string>
     <string name="toastTrackingPaused">Pozastaveno</string>
     <string name="toastTrackingStopped">Zastaveno</string>
-    <string name="toastFenceGuardFenceAdded">Soukromé zóny: Zóna %1$s nastavena%1$s nastavena</string>
+    <string name="toastFenceGuardFenceAdded">Soukromé zóny: Zóna %1$s přidána</string>
     <string name="toastFenceGuardFenceAddingError">Soukromé zóny: Chyba při nastavení zóny</string>
-    <string name="toastFenceGuardFenceUpdated">Soukromé zóny: Zóna %1$s upravena%1$s upravena</string>
+    <string name="toastFenceGuardFenceUpdated">Soukromé zóny: Zóna %1$s aktualizována</string>
     <string name="toastFenceGuardFenceUpdatingError">Soukromé zóny: Chyba při úpravě nastavení zóny</string>
-    <string name="toastFenceGuardFenceRemoved">Soukromé zóny: Zóna %1$s odstraněna%1$s odstraněna</string>
+    <string name="toastFenceGuardFenceRemoved">Soukormé zóny: Zóna %1$s odstraněna</string>
     <string name="toastFenceGuardFenceRemovingError">Soukromé zóny: Chyba při odebrání zóny</string>
     <string name="toastFenceGuardOutsideTheFence">Soukromé zóny: Momentálně se nenacházíte v soukromé zóně</string>
     <string name="toastFenceGuardLocationUnavailable">Soukromé zóny: Vaše poloha není dostupná</string>
@@ -101,7 +100,7 @@
     <string name="toastTrackResumeGpsActiveError">Nejdříve vypněte nebo pozastavte GPS</string>
     <string name="toastProfileButtonClickInfo">Dlouhé kliknutí pro změnu profilu</string>
     <string name="toastContrastButtonClickInfo">Aktivní je automatické téma</string>
-    <string name="toastFlashlightButtonClickInfo">Podržením zapnete baterku</string>
+    <string name="toastFlashlightButtonClickInfo">Podržením zapnete svítilnu</string>
     <string name="toastRoarButtonClickInfo">Podržením zapnete zvuk rachotu</string>
     <string name="toastMapButtonClickInfo">Podržením zapnete mapu</string>
     <string name="toastMapFollowingOn">Sledování zapnuto</string>
@@ -122,9 +121,8 @@
     <string name="toastSensorDisabled">Senzor zakázán</string>
     <string name="toastAutoThemeActivated">Aktivováno automatické téma</string>
     <string name="toastCancelled">Zrušeno</string>
-    <string name="notificationTitleAdvancedPaused">Pozastaveno: %1$s%1$s
-    </string>
-    <string name="licenseSuccessDialogMessage">Aplikace zakoupena. Děkujeme Vám za podporu!</string>
+    <string name="notificationTitleAdvancedPaused">Pozastaveno: %1$s</string>
+    <string name="licenseSuccessDialogMessage">Licence aplikace zakoupena. Děkujeme Vám za podporu!</string>
     <string name="ongoingNotificationChannelName">Průběžné oznámení</string>
     <string name="ongoingNotificationChannelDescription">Poskytnutí řízení služeb na popředí a snadný přístup k aplikaci</string>
     <string name="dialog_default_color_light_title">Světlé téma</string>
@@ -136,7 +134,7 @@
     <string name="dialog_volume_effects_text">Efekty</string>
     <string name="dialog_volume_tallies_text">Záznamy</string>
     <string name="dialog_volume_alarms_text">Upozornění</string>
-    <string name="dialog_volume_message">Poznámka: Na změnu celkové hlasitosti použijte tlačítka na ovládání hlasitosti.</string>
+    <string name="dialog_volume_message">Poznámka: Na změnu celkové hlasitosti použijte tlačítka zařízení na ovládání hlasitosti.</string>
     <string name="dialog_bell_automatic_sensitivity_title">Citlivost automatického zvonku</string>
     <string name="dialog_bell_shake_sensitivity_title">Citlivost třesení</string>
     <string name="dialog_fenceguard_add_title">Přidat soukromou zónu</string>
@@ -147,74 +145,63 @@
     <string name="dialog_fenceguard_update_text2">Na Vaší současné pozici bude nastavena zóna, která se nebude zobrazovat v záznamech aktivit.</string>
     <string name="dialog_fenceguard_remove_title">Odstranit zónu</string>
     <string name="dialog_fenceguard_remove_defaultText">Opravdu chcete zónu odstranit\?</string>
-    <string name="dialog_fenceguard_remove_formatText">Opravdu chcete zónu %1$s odstranit\?%1$s odstranit\?</string>
+    <string name="dialog_fenceguard_remove_formatText">Opravdu chcete zónu %1$s odstranit\?</string>
     <string name="dialog_track_save_text">Vzdálenost %1$.3f %2$s
 \nČas %3$s
-\n%4$s
+\n(%4$s)
 \n
-\nTrasa se zdá být velmi krátká, opravdu ji chcete uložit\?%1$.3f %2$s
-\nČas%3$s
-\n
-        (%4$s)
-\n
-\nTrasa se zdá být velmi krátká, opravdu ji chcete uložit\?</string>
+\nTrasa se zdá být velmi krátká. Chcete ji uložit\?</string>
     <string name="dialog_exit_msg">Upozornění: Sledování je aktivní a bude zastaveno.</string>
     <string name="dialogProfileDeleteTitle">Smazat profil</string>
-    <string name="dialogProfileDeleteMessage">Varování: Tímto vymažete nastavení profilu a data čítačů. Uložené trasy zůstanou zachovány.
-\n
-\nSmazat profil %1$s\?%1$s\?</string>
+    <string name="dialogProfileDeleteMessage">Varování: Tímto vymažete nastavení profilu a data čítačů. Uložené trasy zůstanou zachovány. 
+\n 
+\nSmazat profil %1$s\?</string>
     <string name="dialogProfileAddTitle">Nový profil</string>
     <string name="dialogProfileAddInfo">Nový profil bude mít nastavení zkopírováno z aktuálního profilu</string>
     <string name="dialogProfileEditTitle">Upravit profil</string>
     <string name="dialogProfileEditTotals">Souhrn:</string>
     <string name="dialogProfileTotalsResetMessage">Vynulovat čítače v profilu\?</string>
     <string name="dialogProfileSwitchTitle">Přepnout profil</string>
-    <string name="dialogProfileSwitchMessage">Je spuštěný záznam trasy. Opravdu chcete přepnout profil %1$s\?%1$s\?</string>
+    <string name="dialogProfileSwitchMessage">Je spuštěný záznam trasy. Opravdu chcete přepnout do profilu %1$s\?</string>
     <string name="dialogTracksDeleteTitle">Smazat trasy</string>
     <string name="dialogTracksDeleteMessage">Upozornění: Tuto akci nelze vrátit zpět.
 \n
 \nSmazat vybrané trasy\?</string>
-    <string name="dialogTrackDeleteMessage">Varování: Akci nelze vzít zpět.
-\n
-\nSmazat trasu %1$s\?%1$s\?</string>
+    <string name="dialogTrackDeleteMessage">Varování: Akci nelze vzít zpět. 
+\n 
+\nSmazat trasu %1$s\?</string>
     <string name="dialogTrackResumeTitle">Obnovení trasy</string>
-    <string name="dialogTrackResumeGpsActiveMessage">Záznam trasy je aktivní. Nejdřív vypněte nebo pozastavte GPS.</string>
-    <string name="dialogTrackResumeProfileNotBlankMessage">Cílový profil %1$s není prázdný. Nejdřív ho přenastavte.%1$s není prázdný. Nejdřív ho vymažte.</string>
-    <string name="dialogTrackResumeProfileSwitchMessage">Aktivní profil bude přepnut z %1$s na %2$s. Pokračovat\?%1$s to %2$s. Chcete pokračovat\?</string>
-    <string name="dialogTrackResumeProfileMissingMessage">Profil %1$s, ve kterém byla trasa uložena již neexistuje. Pokračovat v aktuálním profilu %2$s\?%1$s ve kterém byla trasa uložena již nexistuje. Obnovit v tomto profilu %2$s\?</string>
-    <string name="dialogTrackResumeGeneralPromptMessage">Trasa bude zaznamenávána v profilu %1$s. Pokračovat\?%1$s. Chcete pokračovat\?</string>
+    <string name="dialogTrackResumeGpsActiveMessage">Záznam trasy je aktivní. Nejdříve vypněte nebo pozastavte GPS.</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">Cílový profil %1$s není prázdný. Nejdřív ho přenastavte.</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">Aktivní profil bude přepnut z %1$s na %2$s. Pokračovat\?</string>
+    <string name="dialogTrackResumeProfileMissingMessage">Profil %1$s, ve kterém byla trasa uložena již neexistuje. Pokračovat v aktuálním profilu %2$s\?</string>
+    <string name="dialogTrackResumeGeneralPromptMessage">Trasa bude zaznamenávána v profilu %1$s. Pokračovat\?</string>
     <string name="dialogTrackResumeGeneralErrorMessage">Chyba operace. Zkuste prosím znovu.</string>
     <string name="dialogTrackResumeWaitMessage">Obnovuji, čekejte prosím…</string>
     <string name="dialogTracksShareTitle">Sdílet trasy</string>
-    <string name="dialogTracksShareGeneralErrorMessage">Chyba operace. Zkuste prosím znovu.</string>
+    <string name="dialogTracksShareGeneralErrorMessage">Chyba operace. Zkuste to prosím znovu.</string>
     <string name="dialogTracksShareCountExceeded">Nelze sdílet více než 100 tras najednou.</string>
-    <string name="dialogGpsSettingsPromptTitle">Umístění je vypnuté</string>
+    <string name="dialogGpsSettingsPromptTitle">Poloha je vypnutá</string>
     <string name="dialogBaroAltitudePromptTitle">Problém barometrické výšky</string>
-    <string name="dialogBaroAltitudePromptMessage">Barometrická nadmořská výška byla násilně vypnuta kvůli nesouladu s GPS nadmořskou výškou!
-\n
-\nNepoužívejte v uzavřených nebo klimatizovaných prostorech!
-\n
+    <string name="dialogBaroAltitudePromptMessage">Barometrická nadmořská výška byla násilně vypnuta kvůli nesouladu s GPS nadmořskou výškou! 
+\n 
 \nNepoužívejte v uzavřených nebo klimatizovaných prostorech!</string>
-    <string name="dialogBaroAltitudeNoticeTitle">Upozornění</string>
-    <string name="dialogBaroAltitudeNoticeMessage">Barometrická výška funguje pouze venku.
-\n
-\nNepoužívejte v uzavřených nebo klimatizovaných prostorech, jako jsou některá vozidla a letadla.
-\n
+    <string name="dialogBaroAltitudeNoticeTitle">Poznámka</string>
+    <string name="dialogBaroAltitudeNoticeMessage">Barometrická výška funguje pouze venku. 
+\n 
 \nNepoužívejte v uzavřených nebo klimatizovaných prostorech, jako jsou některá vozidla a letadla.</string>
-    <string name="dialogThermoBarometerNoticeTitle">Oznámení</string>
-    <string name="dialogThermoBarometerNoticeMessage">Přesnost teplotního barometru závisí na venkovní teplotě vzduchu.
-\n
-\nNepoužívejte v uzavřených nebo klimatizovaných prostorech, jako jsou některá vozidla a letadla.
-\n
+    <string name="dialogThermoBarometerNoticeTitle">Poznámka</string>
+    <string name="dialogThermoBarometerNoticeMessage">Přesnost teplotního barometru závisí na venkovní teplotě vzduchu. 
+\n 
 \nNepoužívejte v uzavřených nebo klimatizovaných prostorech, jako jsou některá vozidla a letadla.</string>
     <string name="dialogResetTitle">Dokončit</string>
     <string name="dialogResetMessage">Uložit tuto trasu a připravit se na novou\?</string>
-    <string name="dialogResetNoTrackMessage">Nebyla zaznamenána žádná trasa. Obnovit měřiče nyní\?</string>
+    <string name="dialogResetNoTrackMessage">Nebyla zaznamenána žádná trasa. Vynulovat měřiče nyní\?</string>
     <string name="dialogScreenHudMode">Zrcadlový režim HUD</string>
     <string name="dialogScreenOrientationAuto">Automatická orientace</string>
     <string name="dialogScreenOrientationPortrait">Na výšku</string>
     <string name="dialogScreenOrientationLandscape">Na šířku</string>
-    <string name="dialogScreenBrightnessOverride">Potlačit nastavení jasu</string>
+    <string name="dialogScreenBrightnessOverride">Jas</string>
     <string name="dialogScreenAutoTheme">Automatické téma</string>
     <string name="dialogMapsOffline">Offline mapy</string>
     <string name="dialogMapsLayerTraffic">Provoz</string>
@@ -228,11 +215,11 @@
     <string name="dialogFencesAdd">Přidat zónu</string>
     <string name="dialogFencesUpdate">Upravit pozici zóny</string>
     <string name="dialogFencesEdit">Upravit zónu</string>
-    <string name="dialogFencesRemove">Odstranit zóny</string>
+    <string name="dialogFencesRemove">Odstranit zónu</string>
     <string name="dialogFencesShowFences">Zborazit zóny</string>
     <string name="dialogPowerWeightsTitle">Hmotnosti</string>
     <string name="dialogPowerWeightsRotInertiaTitle">Rotační setrvačnost</string>
-    <string name="dialogPowerWeightsWeightRider">Řidič</string>
+    <string name="dialogPowerWeightsWeightRider">Jezdec</string>
     <string name="dialogPowerWeightsWeightVehicle">Vozidlo</string>
     <string name="dialogPowerWeightsWeightCargo">Náklad</string>
     <string name="dialogPowerWeightsWeightPassengers">Počet osob</string>
@@ -256,30 +243,26 @@
     <string name="dialogTrackUploadUpdateButton">Aktualizovat</string>
     <string name="dialogTrackUploadActivityType">Typ aktivity</string>
     <string name="dialogTrackUploadPlatform">Online služby</string>
-    <string name="dialogTrackUploadStravaIsCommute">Dojíždět</string>
+    <string name="dialogTrackUploadStravaIsCommute">Dojíždění</string>
     <string name="dialogSvgTitle">SVG grafy</string>
     <string name="dialogGpsIntervalTitle">Interval aktualizace GPS</string>
-    <string name="dialogGpsIntervalNote">Upozornění: Pro přesné měření nedoporučujeme zadávat vyšší hodnotu jak 3 sekundy!</string>
-    <string name="dialogGpsIntervalLabelMore">Větší přesnost=větší spotřeba baterie◀
-\nVětší přesnost=větší spotřeba baterie</string>
-    <string name="dialogGpsIntervalLabelLess">Menší přesnost=menší spotřeba baterie▶
-\nMenší přesnost=menší spotřeba baterie</string>
+    <string name="dialogGpsIntervalNote">Abyste dostali nejpřesnější čtení a konsistentní chování, ponechte tuto hodnotu pod 3 sekundami!</string>
+    <string name="dialogGpsIntervalLabelMore">◀
+\nVětší přesnost, větší spotřeba baterie</string>
+    <string name="dialogGpsIntervalLabelLess">▶
+\nMenší přesnost, menší spotřeba baterie</string>
     <string name="dialogSliderLess">◀</string>
     <string name="dialogSliderMore">▶</string>
     <string name="dialogLocationPermissionRequestTitle">Oprávnění pro sledování polohy</string>
-    <string name="dialogLocationPermissionRequest">Aplikace musí přistupovat k vaší poloze k zaznamenání vašich outdoorových aktivit.</string>
+    <string name="dialogLocationPermissionRequest">Aplikace musí přistupovat k vaší poloze pro zaznamenání vašich outdoorových aktivit.</string>
     <string name="dialogStoragePermissionRequestTitle">Oprávnění k ukládání</string>
-    <string name="dialogStoragePermissionRequest">Aplikace potřebuje přístup k úložišti, aby mohla ukládat nebo obnovovat trasy a nastavení.
-\n
-\nBez udělení oprávnění nebudete mít možnost sledovat historii tras nebo sdílet trasy a můžete ztratit data..
-\n
-\nBez udělení oprávnění nebudete mít možnost sledovat historii tras nebo sdílet trasy a můžete ztratit data..</string>
+    <string name="dialogStoragePermissionRequest">Aplikace potřebuje přístup k úložišti, aby mohla ukládat nebo obnovovat trasy a nastavení. 
+\n 
+\nBez udělení oprávnění nebudete mít možnost sledovat historii tras nebo sdílet trasy a můžete ztratit data.</string>
     <string name="dialogCameraPermissionRequestTitle">Oprávnění k fotoaparátu</string>
     <string name="dialogCameraPermissionRequest">Je potřeba oprávnění, aby aplikace mohla aktivovat blesk.</string>
-    <string name="dialogPermissionProblemMessage">Toto oprávnění je potřebné pro správnou funkci aplikace. Může být uděleno na stránce Nastavení oprávnění aplikace.
-\n
-\nJít tam\?
-\n
+    <string name="dialogPermissionProblemMessage">Toto oprávnění je potřebné pro správnou funkci aplikace. Může být uděleno na stránce Nastavení oprávnění aplikace. 
+\n 
 \nJít tam\?</string>
     <string name="mapLayerStreet">Ulice</string>
     <string name="mapLayerTerrain">Terén</string>
@@ -303,7 +286,7 @@
     <string name="unitM">m</string>
     <string name="unitMillimeter">mm</string>
     <string name="unitMxM">m²</string>
-    <string name="unitIn">v</string>
+    <string name="unitIn">p</string>
     <string name="unitFt">st</string>
     <string name="unitFtxFt">st²</string>
     <string name="unitKg">kg</string>
@@ -386,7 +369,7 @@
     <string name="meterModeAltitudeSlope">sklon</string>
     <string name="meterModeAltitudeSlopeShort">sklon</string>
     <string name="meterModeCadence">kadence</string>
-    <string name="meterModeCadenceShort">cad</string>
+    <string name="meterModeCadenceShort">kad</string>
     <string name="meterModeHeartRate">tepová frekvence</string>
     <string name="meterModeHeartRateShort">hod</string>
     <string name="meterModeGearRatio">poměr převodů</string>
@@ -403,29 +386,24 @@
     <string name="controlPanelSoundAlarms">Upozornění</string>
     <string name="controlPanelSoundTallies">Výsledky</string>
     <string name="controlPanelSoundVolume">Objemy</string>
-    <string name="controlPanelEnergyParams">Výkon/Energie parametry</string>
+    <string name="controlPanelEnergyParams">Parametry Výkon/Energie</string>
     <string name="profilesListTitle">Profily</string>
     <string name="profilesListTitleSelectProfile">Přepnout profil</string>
     <string name="profilesListAddProfile">Nový profil</string>
-    <string name="profilesListRowTotalsSince">Celkem od: %1$s%1$s
-    </string>
+    <string name="profilesListRowTotalsSince">Celkem od: %1$s</string>
     <string name="profilesListButtonResetTotals">Vynulovat čítače</string>
     <string name="profilesListProfileNotUsed">(nepoužitý)</string>
     <string name="profilesListLoading">Načítám…</string>
     <string name="cloudAccountsTitle">Účty</string>
-    <string name="cloudAccountsInfo">Připojením na cloud služby se zjednoduší nahrávání a sdílení tratí s ostatními.
-\n
-\nNikdy neodesíláme nic bez vašeho svolení.
-\n
-\nNikdy neodesíláme nic bez Vašeho svolení.</string>
+    <string name="cloudAccountsInfo">Připojením na cloud služby se zjednoduší nahrávání a sdílení tratí s ostatními. 
+\n 
+\nNikdy neodesíláme nic bez vašeho svolení.</string>
     <string name="accountDisconnect">Odpojení</string>
-    <string name="googleFitConnectButton">Propojit s Google FitGoogle Fit
-    </string>
-    <string name="stravaTrackPrivacyInfo">Trať zdědí výchozí nastavení soukromí nastavené v aplikaci StravaStrava
-    </string>
+    <string name="googleFitConnectButton">Propojit s Google Fit</string>
+    <string name="stravaTrackPrivacyInfo">Trať zdědí výchozí nastavení soukromí nastavené v aplikaci Strava</string>
     <string name="tracksHistoryListTitle">Historie tras</string>
     <string name="tracksHistoryListTitleSelect">Zvolit</string>
-    <string name="tracksHistoryListEmpty">Prázdný seznam. Správný čas začít!</string>
+    <string name="tracksHistoryListEmpty">Neexistují žádné trasy. Je správný čas začít se zaznamenáváním!</string>
     <string name="tracksHistoryListLoading">Nahrávám…</string>
     <string name="tracksHistoryListButtonView">Prohlížet</string>
     <string name="tracksHistoryListButtonShare">Sdílet</string>
@@ -433,7 +411,7 @@
     <string name="tracksHistoryListButtonResume">Obnovit</string>
     <string name="tracksHistoryListButtonEdit">Upravit</string>
     <string name="tracksHistoryListButtonDelete">Smazat</string>
-    <string name="tracksHistoryListShareTrackDialogTitle">Sdílej trasu s…</string>
+    <string name="tracksHistoryListShareTrackDialogTitle">Sdílet trasu do…</string>
     <string name="tracksHistoryListViewTrackDialogTitle">Prohlížet trasu v…</string>
     <string name="summaryTotalWeight">Váha celkem</string>
     <string name="summaryWheelsWeight">Váha kol</string>
@@ -477,7 +455,7 @@
     <string name="sensorPurposeDuration">Čas</string>
     <string name="sensorPurposePower">Výkon</string>
     <string name="sensorPurposeHeartRate">Srdeční tep</string>
-    <string name="sensorProperitesProfileInfo">Vlastnosti senzorů jsou pod správou profilu. Vlastnosti zde upravujete pouze pro aktivní profil (%1$s).%1$s).</string>
+    <string name="sensorProperitesProfileInfo">Vlastnosti senzorů jsou pod správou profilu. Vlastnosti zde upravujete pouze pro aktivní profil (%1$s).</string>
     <string name="sensorProperitesUseForSpeed">Použít pro rychlost</string>
     <string name="sensorProperitesUseForCadence">Použít pro kadenci</string>
     <string name="sensorProperitesUseForDistance">Použít pro vzdálenost a čas</string>
@@ -486,7 +464,7 @@
     <string name="sensorProperitesWheelPerimeter">Obvod kola</string>
     <string name="sensorProperitesIsAutoPerimeter">Automatické</string>
     <string name="sensorProperitesIsAutoPerimeterInfo">Toto provede automatické měření obvodu při jízdě.</string>
-    <string name="sensorProperitesWheelPerimeterNotSet">Není nastaveno</string>
+    <string name="sensorProperitesWheelPerimeterNotSet">Nenastaveno</string>
     <string name="sensorProperitesSpeedTriggers">Rychlost pro spouštění</string>
     <string name="sensorProperitesCadenceTriggers">Kadence pro spouštění</string>
     <string name="sensorStatusConnected">Připojeno</string>
@@ -520,7 +498,7 @@
     <string name="pref_category7_title">Sdílet</string>
     <string name="pref_category8_title">O aplikaci</string>
     <string name="pref_category_gps_interval_title">Interval aktualizace GPS</string>
-    <string name="pref_category_stationary_exercise_title">Stojící cvičení</string>
+    <string name="pref_category_stationary_exercise_title">Pevné cvičení</string>
     <string name="pref_category_autopause_title">Automatická pauza</string>
     <string name="pref_category_resetPrompt_title">Požadavek na nulování</string>
     <string name="pref_category_tracking_title">Záznam trasy</string>
@@ -530,13 +508,13 @@
     <string name="pref_category_roaringConstantMode_title">Konstantní režim</string>
     <string name="pref_category_effects_title">Efekty</string>
     <string name="pref_category_alarms_title">Upozornění</string>
-    <string name="pref_category_tallies_title">Hlášení</string>
+    <string name="pref_category_tallies_title">Výsledky</string>
     <string name="pref_category_select_title">Vybrat…</string>
     <string name="pref_category_fonts_title">Písmo</string>
     <string name="pref_category_buttons_title">Tlačítka</string>
     <string name="pref_category_meters_title">Měřiče</string>
     <string name="pref_group_meters_title">Měřiče</string>
-    <string name="pref_group_meter_modes_title">Funkce</string>
+    <string name="pref_group_meter_modes_title">Módy měření</string>
     <string name="pref_category_meter1_title">Měřič 1</string>
     <string name="pref_category_meter2_title">Měřič 2</string>
     <string name="pref_category_meter3_title">Měřič 3</string>
@@ -555,7 +533,7 @@
     <string name="pref_category_app_features_title">Funkce aplikace</string>
     <string name="pref_category_wakelock_title">Politika uspání procesoru</string>
     <string name="pref_category_gps_boost_title">Politika posílení aktualizace GPS</string>
-    <string name="pref_group_flashlight_title">Baterka</string>
+    <string name="pref_group_flashlight_title">Svítilna</string>
     <string name="pref_category_flashlightBlinkMode_title">Blikání</string>
     <string name="pref_category_flashlightAutoPocketMode_title">Kapesní mód</string>
     <string name="pref_category_gpsInaccuracyIndicator_title">Indikátor důvěry</string>
@@ -571,7 +549,7 @@
     <string name="prefAllProfilesInfoSummary">Tato nastavení se aplikují na všechny profily.</string>
     <string name="pref_app_language_summary">(Všechny profily)</string>
     <string name="pref_app_language_dialog_title">Jazyk</string>
-    <string name="pref_app_language_translate_title">Pomoci s překladem</string>
+    <string name="pref_app_language_translate_title">Pomoc s překladem</string>
     <string name="pref_app_language_translate_summary">Klikněte zde, jestli chcete pomoci překládat tuto aplikaci do jiného jazyka</string>
     <string name="pref_back_key_mode_summary">(Všechny profily)</string>
     <string name="pref_back_key_mode_dialog_title">Mód klávesy zpět</string>
@@ -601,47 +579,44 @@
     <string name="pref_bell_automatic_summary">Zazvonit při významném zpomalení</string>
     <string name="pref_bell_automatic_sensitivity_title">Citlivost automatického zvonku</string>
     <string name="pref_bell_shake_title">Zazvonit třesením</string>
-    <string name="pref_bell_shake_summary">Zatřesením zařízením zazní zvonek</string>
+    <string name="pref_bell_shake_summary">Zatřesením zařízení zazní zvonek</string>
     <string name="pref_bell_shake_sensitivity_title">Citlivost třesení</string>
     <string name="pref_roaring_type_title">Typ</string>
     <string name="pref_roaring_type_dialog_title">Typ rachotu</string>
-    <string name="pref_volume_summary_text">Zvonek: %1$s, Rachot: %2$s
-\nHlášení: %3$s, Efekty: %4$s, Poplachy: %5$s %1$s, Rachot: %2$s
-\nHlášení: %3$s, Efekty: %4$s, Poplach: %5$s
-    </string>
+    <string name="pref_volume_summary_text">Zvonek: %1$s, Rachot: %2$s, Výsledky: %3$s, Efekty: %4$s, Upozornění: %5$s, Řeč: %6$s</string>
     <string name="pref_bg_color_title">Barva pozadí</string>
     <string name="pref_bg_color_summary">Vybrat požadovanou barvu pro pozadí aplikace</string>
     <string name="pref_fg_color_title">Barva textu</string>
     <string name="pref_fg_color_summary">Vybrat požadovanou barvu pro text a ikony</string>
-    <string name="pref_visualThemeAutoSummary">Použi světlou nebo tmavou tému na základe intenzity světla v prostředí</string>
+    <string name="pref_visualThemeAutoSummary">"Použit světlý nebo tmavý vzhled  na základě intenzity světla v prostředí"</string>
     <string name="pref_screen_keep_on_title">Ponechat displej zapnutý</string>
     <string name="pref_screen_keep_on_summary">Displej bude zapnutý, když bude aplikace používána</string>
-    <string name="pref_screen_allow_off_inactive_title">Povolit vypnutí když je neaktivní</string>
+    <string name="pref_screen_allow_off_inactive_title">Povolit vypnutí, když je neaktivní</string>
     <string name="pref_screen_allow_off_inactive_summary">Povolit vypnutí displeje po několika minutách bez aktivity</string>
     <string name="pref_above_lockscreen_title">Podržet na popředí i při zamčené obrazovce</string>
-    <string name="pref_above_lockscreen_summary">Aplikace zůstane viditelná i když se zařízení uzamkne</string>
+    <string name="pref_above_lockscreen_summary">Aplikace zůstane viditelná, i když se zařízení uzamkne</string>
     <string name="pref_screenAutoPocketMode_title">Kapesní mód</string>
-    <string name="pref_screenAutoPocketMode_summary">(Všechny profily) Použij senzor priblížení k vypnutí displeje pokud se nepoužívá</string>
+    <string name="pref_screenAutoPocketMode_summary">(Všechny profily) Použij senzor přiblížení k vypnutí displeje, pokud se nepoužívá</string>
     <string name="pref_ring_on_stop_title">Zvonit při zastavení</string>
     <string name="pref_ring_on_stop_summary">Automaticky zvonit také když se rychlost blíží nule</string>
     <string name="pref_disable_bell_button_title">Zakázat tlačítko zvonku</string>
     <string name="pref_disable_bell_button_summary">Zakázat zvonění zvonku kliknutím na měřič rychlosti</string>
     <string name="pref_obey_audio_focus_disable_title">Zakázat ztrátu zvuku</string>
     <string name="pref_obey_audio_focus_disable_summary">Pokračuje se zvuky i když ztratí zvukový přístup (od systémové nebo jiné aplikace)</string>
-    <string name="pref_audio_force_loudspeaker_title">Vnutit Repoduktor</string>
-    <string name="pref_audio_force_loudspeaker_summary">Upozornéní: Experimentálni funkce, nemusí pracovat správné. Když jsou připojeny sluchátka, přesměrujte všechny zvuky přes reproduktor, kromě hovorů.</string>
-    <string name="pref_duck_roaring_on_bell_title">Snížit vrčení při použití zvonku</string>
+    <string name="pref_audio_force_loudspeaker_title">Vnutit repoduktor</string>
+    <string name="pref_audio_force_loudspeaker_summary">Upozornéní: Experimentální funkce, nemusí pracovat správné. Když jsou připojeny sluchátka, přesměrujte všechny zvuky přes reproduktor, kromě hovorů.</string>
+    <string name="pref_duck_roaring_on_bell_title">Snížit rachot při použití zvonku</string>
     <string name="pref_duck_roaring_on_bell_summary">Snížená hlasitost zvuku vrčení při použití zvonku</string>
     <string name="pref_relaunchAfterReboot_title">Znovu spustit po restartu zařízení</string>
     <string name="pref_relaunchAfterReboot_summary">(Všechny profily) Pokračovat v záznamu trasy po vynuceném restartu zařízení pokud baterie dosahuje alespoň 10%</string>
     <string name="pref_resetPrompt_title">Požadavek na nulování</string>
-    <string name="pref_resetPrompt_summary">Navrhnout začít novou trasu pokud poslední aktivita byla před 4h ve vzdálené lokalitě</string>
+    <string name="pref_resetPrompt_summary">Navrhnout začátek nové trasy, pokud poslední aktivita byla před 4h nebo ve vzdálené lokalitě</string>
     <string name="pref_auto_launch_on_gps_title">Automatícké zapnutí GPS</string>
     <string name="pref_auto_launch_on_gps_summary">Spustit aplikaci (v pasivním režimu) když je GPS zapnuta</string>
     <string name="pref_passive_gps_button_title">Tlačítko pasivního GPS režimu</string>
     <string name="pref_passive_gps_button_summary">Povolit pasivní GPS režim kliknutím na tlačítko GPS</string>
-    <string name="pref_digital_font_title">Digitální font</string>
-    <string name="pref_digital_font_summary">(Všechny profily) Použít pro zobrazení dat segmentový LCD font</string>
+    <string name="pref_digital_font_title">Písmo číslic</string>
+    <string name="pref_digital_font_summary">(Všechny profily) Použít pro zobrazení číslic segmentové LCD písmo</string>
     <string name="pref_roaring_state_title">Zvuk rachotu</string>
     <string name="pref_roaring_state_summary">Při pohybu generuj zvuk upozornění</string>
     <string name="pref_roaring_mode_title">Režim</string>
@@ -651,24 +626,22 @@
     <string name="pref_roar_threshold_speed_title">Prahová rychlost</string>
     <string name="pref_roarConstantModeButton_title">Přepínání tlačítkem</string>
     <string name="pref_roarConstantModeButton_summary">Přepínat konstantní režim stisknutím tlačítka, když je zapnutý zvuk</string>
-    <string name="pref_fenceguard_title">Hlídač skrytí</string>
+    <string name="pref_fenceguard_title">Hlídač zón</string>
     <string name="pref_fenceguard_summary">Chránit polohu svého domu nebo jiných důležitých míst, aby se nezobrazovaly v nahraných trasách</string>
     <string name="pref_autopause_mode_dialog_title">Automatická pauza</string>
     <string name="pref_speedometer_limit_title">Ukazatel max</string>
     <string name="pref_speedometer_limit_dialog_title">Ukazatel rychlosti max</string>
     <string name="pref_speed_calculate_mode_title">Přepočítat rychlost</string>
-    <string name="pref_speed_calculate_mode_summary">(Všechny profily) Přepočítat rychlost ze vzdáleností, nepoužívat příé hodnoty z GPS. Toto může poskytnout stabilnější čtení rychlosti přes GPS hodnoty (Doppler).</string>
+    <string name="pref_speed_calculate_mode_summary">(Všechny profily) Přepočítat rychlost ze vzdáleností, nepoužívat přímé hodnoty z GPS. Toto může poskytnout stabilnější čtení rychlosti přes GPS hodnoty (Doppler).</string>
     <string name="pref_soundeffects_title">Povolit</string>
     <string name="pref_soundeffects_fence_enterleave_title">Skrytí</string>
-    <string name="pref_soundeffects_fence_enterleave_summary">Zvukové znamení pokud vstupujete do či vystupujete ze skrytí</string>
+    <string name="pref_soundeffects_fence_enterleave_summary">Zvukové znamení pokud vstupujete do či vystupujete ze zóny</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
     <string name="pref_soundeffects_gps_signal_summary">Zvuk při změně stavu GPS (dobrá, špatná/zastavená)</string>
     <string name="pref_soundeffects_countdown_title">Odpočítávání</string>
     <string name="pref_soundeffects_countdown_summary">Zvuk při odpočítávání před odstartováním trasy (…3, 2, 1, GO!)</string>
     <string name="pref_soundeffects_tally_title">Povolit</string>
-    <string name="pref_soundeffects_tally_value_summary">Každý %1$s %2$s%1$s
-        %2$s
-    </string>
+    <string name="pref_soundeffects_tally_value_summary">Každý %1$s %2$s</string>
     <string name="pref_soundeffects_tally_distance_title">Vzdálenost</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">Hlášení vzdálenosti</string>
     <string name="pref_soundeffects_tally_duration_title">Čas</string>
@@ -679,27 +652,24 @@
     <string name="pref_soundeffects_tally_descent_dialog_title">Hlášení klesání</string>
     <string name="pref_soundeffects_alarm_title">Povolit</string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Zapomenutá pauza</string>
-    <string name="pref_soundeffects_alarm_gpsPause_summary">Zvuk upozornění na detekci výraznýho pohybu počas režimu Pauza záznamu trasy</string>
+    <string name="pref_soundeffects_alarm_gpsPause_summary">Zvuk upozornění při detekci významného pohybu, při vypnutém záznamu trasy</string>
     <string name="pref_ads_mode_title">Zobrazit reklamy</string>
     <string name="pref_ads_mode_dialog_title">Typ inzerce</string>
     <string name="pref_maps_disable_title">Zakázat mapy</string>
     <string name="pref_maps_track_draw_title">Zakreslovat trasu</string>
     <string name="pref_maps_track_draw_summary">Graf vašeho pohybu po mapě</string>
-    <string name="pref_maps_fences_draw_title">Skrytí</string>
-    <string name="pref_maps_fences_draw_summary">Zobrazit chráněné oblasti FenceGuard na mapě</string>
+    <string name="pref_maps_fences_draw_title">Zóny</string>
+    <string name="pref_maps_fences_draw_summary">Zobrazit chráněné zóny na mapě</string>
     <string name="pref_maps_animate_title">Animace</string>
-    <string name="pref_maps_animate_summary">(Všechny profily) Vypněte pro snížení zatížení baterie, zvlástě při těchto módech</string>
+    <string name="pref_maps_animate_summary">(Všechny profily) Vypněte pro snížení spotřeby baterie, zvláště při sledovacím módu</string>
     <string name="pref_maps_online_mode_summary">(Všechny profily)</string>
     <string name="pref_maps_online_mode_dialog_title">Zdroj map</string>
-    <string name="pref_maps_offline_file_title">Vybrat složku nebo soubor</string>
+    <string name="pref_maps_offline_file_title">Vybrat soubor nebo složku</string>
     <string name="pref_maps_offline_file_dialog_title">Vybrat složku pro offline mapy</string>
-    <string name="pref_maps_offline_file_summary">(Všechny profily) %1$s%1$s
-    </string>
+    <string name="pref_maps_offline_file_summary">(Všechny profily) %1$s</string>
     <string name="pref_maps_offline_file_noFolderSelected">Není vybraná žádná složka.</string>
-    <string name="pref_maps_offline_info_title">Stáhnout teď</string>
-    <string name="pref_maps_offline_info_summary">Jsou podporovány vektory Mapsforge (.map) a rastry Rmaps (.sqlitedb) map.. Dostupné na download.mapsforge.org.
-\n
-\nPoužití: Zvolte mapu ke stažení dle parametrů výše.</string>
+    <string name="pref_maps_offline_info_title">Stáhnout</string>
+    <string name="pref_maps_offline_info_summary">Jsou podporovány vektory Mapsforge (.map) a rastry Rmaps (.sqlitedb) map.. Dostupné na download.mapsforge.org.</string>
     <string name="pref_maps_offline_warning_summary">Upozornění: Některá data online mohou být načtena i v režimu offline. Před použitím map prosím deaktivujte mobilní internet.</string>
     <string name="pref_maps_routes_draw_title">Trasový průvodce</string>
     <string name="pref_maps_routes_info_title">Poznámka!</string>
@@ -714,9 +684,7 @@
     <string name="pref_maps_offline_terrain_title">Vykreslit terén</string>
     <string name="pref_maps_offline_terrain_summary">(Všechny profily) Stínovat terén. Mapa bude vypadat více realistická, avšak bude pomalejší. Vyžadovány jsou DEM (.hgt) soubory ve složce map.</string>
     <string name="pref_maps_offline_terrain_info_title">Stáhnout nyní</string>
-    <string name="pref_maps_offline_terrain_info_summary">"Otevřete stránku ke stažení na  viewfinderpanoramas.org.
-\n
-\nPoužití: Rozbalte soubory .hgt ze staženého ZIP souboru a umístěte je do stejné složky jako jsou offline mapy (nepoužívejte podsložky)."</string>
+    <string name="pref_maps_offline_terrain_info_summary">"Otevřete stránku ke stažení na  viewfinderpanoramas.org."</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Akce tlačítka vrstvy</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Všechny profily) Vyberte činnost při stisku tlačítka vrstvy</string>
     <string name="pref_button_autoring_enable_title">Přepínač automatického zvonění</string>
@@ -725,7 +693,7 @@
     <string name="pref_button_profile_show_summary">Zobrazit tlačítko Profily</string>
     <string name="pref_button_map_show_title">Mapa</string>
     <string name="pref_button_map_show_summary">Zobrazit tlačítko Mapa</string>
-    <string name="pref_button_flashlight_show_title">Baterka</string>
+    <string name="pref_button_flashlight_show_title">Svítilna</string>
     <string name="pref_button_flashlight_show_summary">Zobrazit tlačítko svítilny (pokud je svítilna dostupná na vašem zařízení)</string>
     <string name="pref_button_contrast_show_title">Kontrast/Mapová vrstva</string>
     <string name="pref_button_contrast_show_summary">Zobrazit tlačítko přepínaní kontrastu/mapy</string>
@@ -735,46 +703,41 @@
     <string name="pref_button_menu_show_summary">Zobrazit tlačítko Menu</string>
     <string name="pref_meter_enable_title">Povolit</string>
     <string name="pref_meter_enable_summary">Zobrazit nebo odstránit měřič</string>
-    <string name="pref_meter_lock_title">Režim zámku</string>
-    <string name="pref_meter_lock_summary">Zabránit změne módu při kliknutí</string>
-    <string name="pref_meter_modes_select_title">Vyberte dostupné režimy…</string>
+    <string name="pref_meter_lock_title">Mód zámku</string>
+    <string name="pref_meter_lock_summary">Zabránit změně módu při kliknutí</string>
+    <string name="pref_meter_modes_select_title">Vyberte dostupné módy…</string>
     <string name="pref_speedo_display_mode_title">Vzhled</string>
     <string name="pref_speedo_display_mode_dialog_title">Vzhled rychloměru</string>
-    <string name="pref_speedo_indicator_needle_title">Jehla</string>
+    <string name="pref_speedo_indicator_needle_title">Ručička</string>
     <string name="pref_speedo_indicator_needle_summary">Zobrazovat ručičku v rychloměru</string>
     <string name="pref_powermeter_display_mode_dialog_title">Režim zobrazení výkonu</string>
-    <string name="pref_powermeter_parameters_info_summary">Vyplňte přesně tyto parametry, aby byl výkon a energie správně!</string>
+    <string name="pref_powermeter_parameters_info_summary">Vyplňte parametry co nejpřesněji, aby byl výkon a energie správně!</string>
     <string name="pref_power_weights_title">Hmotnosti</string>
-    <string name="pref_power_weights_summary">Řidič: %1$s, Vozidlo: %2$s, Náklad: %3$s, Cestující: %4$s, Kola: %5$s%1$s, Vozidlo: %2$s, Náklad: %3$s, Osob: %4$s, Kola: %5$s
-    </string>
+    <string name="pref_power_weights_summary">Řidič: %1$s, Vozidlo: %2$s, Náklad: %3$s, Cestující: %4$s, Kola: %5$s</string>
     <string name="pref_power_coefs_title">Koeficienty</string>
-    <string name="pref_power_coefs_summary">Oblast přetažení: %1$s
-\nOdolnost rolování: %2$s%1$s
-\nOdolnost rolování: %2$s
-    </string>
+    <string name="pref_power_coefs_summary">Oblast přetažení: %1$s 
+\nOdolnost rolování: %2$s</string>
     <string name="pref_energy_params_title">Energetické parametry</string>
-    <string name="pref_energy_params_summary">Efektivita: %1$s
-\nMetabolismus: %2$s%1$s
-\nMetabolism: %2$s
-    </string>
+    <string name="pref_energy_params_summary">Efektivita: %1$s 
+\nMetabolismus: %2$s</string>
     <string name="pref_svg_data_enable_title">Vytvořit grafy</string>
     <string name="pref_svg_data_enable_summary">Vygenerovat soubor SVG obsahující grafy pro různé parametry jízdy</string>
     <string name="pref_svg_data_modes_select_title">Vyberte typ grafu…</string>
     <string name="pref_flashlightAutoPocketMode_title">Kapesní mód</string>
-    <string name="pref_flashlightAutoPocketMode_summary">Použi senzor priblížení k vypnutí svítilny pokud se nepoužívá</string>
-    <string name="pref_flashlightBlinkMode_title">Režim</string>
+    <string name="pref_flashlightAutoPocketMode_summary">Použít senzor přiblížení k vypnutí svítilny, pokud se nepoužívá</string>
+    <string name="pref_flashlightBlinkMode_title">Mód</string>
     <string name="pref_flashlightBlinkMode_dialogTitle">Blikající svítilna</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Přepínání tlačítkem</string>
-    <string name="pref_flashlightBlinkModeToggleEnable_summary">Kliknutím na tlačítko můžete přepnout režim blikání pokud je svítilna aktivní</string>
+    <string name="pref_flashlightBlinkModeToggleEnable_summary">Kliknutím na tlačítko můžete přepnout režim blikání, pokud je svítilna aktivní</string>
     <string name="pref_gpsInaccuracyIndicator_title">Indikátor důvěry</string>
-    <string name="pref_gpsInaccuracyIndicator_summary">Zobrazuje stárnutí hodnoty rychlosti s přibývajíci nepřesností</string>
-    <string name="pref_paceIndicator_title">Rychlost ukazatele</string>
-    <string name="pref_paceIndicator_summary">Ukazuje, když jedeš rychleji nebo pomaleji než průměrná rychlost</string>
+    <string name="pref_gpsInaccuracyIndicator_summary">Zobrazuje stárnutí hodnoty rychlosti s přibývající nepřesností</string>
+    <string name="pref_paceIndicator_title">Indikátor tempa</string>
+    <string name="pref_paceIndicator_summary">Ukazuje, když jedete rychleji nebo pomaleji než průměrná rychlost</string>
     <string name="pref_haptic_feedback_title">Vibrovat při doteku</string>
     <string name="pref_haptic_feedback_intensity_title">Intenzita vibrování</string>
     <string name="pref_soundsMasterSwitch_title">Všechny zvuky</string>
     <string name="prefBarometricAltitudeTitle">Barometrická nadmořská výška</string>
-    <string name="prefBarometricAltitudeSummary">Použijte vestavěný barometr pro zvýšení přesnosti výšky</string>
+    <string name="prefBarometricAltitudeSummary">Použít vestavěný barometr pro zvýšení přesnosti výšky</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Teplotní barometr</string>
     <string name="prefBaroAltitudeUsesTemperatureSummary">Použít data snímače teploty pro přesnější barometrické výšky</string>
     <string name="prefBarometricAltitudeNoteSummary">Používejte tyto pouze v otevřených prostorech! Zakažte, prosím, v tlakových, uzavřených nebo klimatizovaných vozidlech, jako jsou auta nebo letadla!</string>
@@ -782,17 +745,17 @@
     <string name="prefTemperatureSensorDerivedSummary">Toto zařízení neobsahuje snímač teploty okolí, ale může být odvozen z jiných senzorů. Další informace naleznete v nápovědě.</string>
     <string name="prefTemperatureSensorDerivedTypeDialogTitle">Typ senzoru</string>
     <string name="prefTemperatureSensorDerivedType1Title">Typ A</string>
-    <string name="prefTemperatureSensorDerivedType1Summary">Pracuje nejlépe pro Samsung, společnosti LG, Sony (regulérní), Xiaomi a podobně</string>
+    <string name="prefTemperatureSensorDerivedType1Summary">Pracuje nejlépe se značkou Samsung, LG, Sony, Xiaomi a podobně</string>
     <string name="prefTemperatureSensorDerivedType2Title">Typ B</string>
-    <string name="prefTemperatureSensorDerivedType2Summary">Pracuje nejlépe pro Motorola, HTC, Sony (kompaktní) a podobně</string>
+    <string name="prefTemperatureSensorDerivedType2Summary">Pracuje nejlépe se značkou Motorola, HTC, Sony (kompaktní) a podobně</string>
     <string name="prefPressureSensorOffsetTitle">Posun barometru</string>
     <string name="prefPressureSensorOffsetInfo">Tato konstanta se přidává k barometrům a může být použita k zmírnění zkreslení barometru, pokud je přítomen</string>
     <string name="prefNotificationAlwaysTitle">Stálá oznámení</string>
     <string name="prefNotificationAlwaysSummary">Zobrazovat neustále notifikační ikonu ve status baru nezávisle na tom, zda je aktivní sledování.</string>
     <string name="prefMapDiskCacheSizeTitle">Limit mezipaměti map</string>
     <string name="prefMapDiskCacheSizeSummary">Při prohlížení online i offline map jsou části map ukládány do mezipaměti. To zrychlí načítání map a šetří baterii. (Všechny profily)</string>
-    <string name="prefProhibitLocationTitle">Nepoužívat GPS</string>
-    <string name="prefProhibitLocationSummary">Toto bude používat data pouze z bezdrátových senzorů (síla, rychlost, kadence, srdeční tep) a nepustí GPS</string>
+    <string name="prefProhibitLocationTitle">Nepoužívat polohu</string>
+    <string name="prefProhibitLocationSummary">Nepoužívat GPS v průběhu aktivity</string>
     <string name="infoMeterModeDistanceTitle">Vzdálenost</string>
     <string name="infoMeterModeDistanceMsg">Ujetá vzdálenost.</string>
     <string name="infoMeterModeDistanceOdoTitle">Tachometr</string>
@@ -802,11 +765,11 @@
     <string name="infoMeterModeElapsedTitle">Uplynulý čas</string>
     <string name="infoMeterModeElapsedMsg">Uplynulý čas včetně všech pauz ale bez zastávek.</string>
     <string name="infoMeterModeEnergyTitle">Energie</string>
-    <string name="infoMeterModeEnergyMsg">Energie vynaložená na výlet s ohledem na BMR a effektivitu.</string>
+    <string name="infoMeterModeEnergyMsg">Energie vynaložená na aktivitu s ohledem na BMR a efektivitu.</string>
     <string name="infoMeterModeEfficacyTitle">Účinnost (kumulativní)</string>
-    <string name="infoMeterModeEfficacyMsg">Část použité energie, která by postačovala na ten samej výlet pŕi pohybu konstantní rychlostí rovné průměrné rychlosti. Vyšší hodnota je lepší.</string>
+    <string name="infoMeterModeEfficacyMsg">Část použité energie, která by postačovala na stejnou aktivitu při pohybu konstantní rychlostí rovné průměrné rychlosti. Vyšší hodnota je lepší.</string>
     <string name="infoMeterModeAscentTitle">Stoupání</string>
-    <string name="infoMeterModeAscentMsg">Kumulativní zisk nadmořské výšky (lezeni nahoru).</string>
+    <string name="infoMeterModeAscentMsg">Kumulativní zisk nadmořské výšky (stoupání).</string>
     <string name="infoMeterModeDescentTitle">Klesání</string>
     <string name="infoMeterModeDescentMsg">Kumulativní ztráta nadmořské výšky (klesání).</string>
     <string name="infoMeterModeWriggleTitle">Klikatost</string>
@@ -818,17 +781,13 @@
     <string name="infoMeterModePaceTitle">Tempo</string>
     <string name="infoMeterModePaceMsg">Zpomalení — Okamžité, Maximální a Průměrné.</string>
     <string name="infoMeterModeAccelerationTitle">Zrychlení</string>
-    <string name="infoMeterModeAccelerationMsg">Úroveň změny rychlosti — Aktuální, Maximální a Minimální.
-\n
-\nNegativní znamená zpomalení.
-\n
-\nNegativní znamená zpomalení.</string>
+    <string name="infoMeterModeAccelerationMsg">Úroveň změny rychlosti — Aktuální, Maximální a Minimální. 
+\n 
+\nZáporná znamená zpomalení.</string>
     <string name="infoMeterModePowerTitle">Výkon</string>
     <string name="infoMeterModeAvgActivePowerTitle">Průměrný činný výkon</string>
-    <string name="infoMeterModeAvgActivePowerMsg">Průměrný výkon vyvíjený během činnosti, bez počítání intervalů, kdy nebyl výkon žádný nebo opravdu malý (sjezd, brzdění, dojezd).
-\n
-\nKdyž děláte namáhavé cvičení, bude to v podstatě váš FPV (funkční prahový výkon).
-\n
+    <string name="infoMeterModeAvgActivePowerMsg">Průměrný výkon vyvíjený během činnosti, bez počítání intervalů, kdy nebyl výkon žádný nebo opravdu malý (sjezd, brzdění, dojezd). 
+\n 
 \nKdyž děláte namáhavé cvičení, bude to v podstatě váš FPV (funkční prahový výkon).</string>
     <string name="infoMeterModeVerticalPowerTitle">Vertikální síla</string>
     <string name="infoMeterModeTemperatureTitle">Teplota</string>
@@ -852,7 +811,7 @@
     <string name="svgCopyright">Vytvořeno aplikací Urban Biker</string>
     <string name="trackUploadDescriptionDefault">Táto aktivita byla zaznamenána mobilní aplikací Urban Biker</string>
     <string name="menuLicense">Koupit licenci</string>
-    <string name="licenseItemAlreadyOwned">Položku licence již vlastníte</string>
+    <string name="licenseItemAlreadyOwned">Licenci již vlastníte</string>
     <string name="timePeriod_perWeek">/týden</string>
     <string name="timePeriod_perMonth">/měsíc</string>
     <string name="timePeriod_per3Months">/3 měs</string>
@@ -861,10 +820,10 @@
     <string name="generalError">Došlo k chybě. Zkuste prosím akci opakovat.</string>
     <string name="openSourceLicensesTitle">Licence Open source</string>
     <!-- dialog_fenceguard_add_entries -->
-    <string name="dialog_fenceguard_add_entries_0">Přidat skrytí</string>
+    <string name="dialog_fenceguard_add_entries_0">Přidat zónu</string>
     <!-- dialog_fenceguard_update_entries -->
-    <string name="dialog_fenceguard_update_entries_0">Upravit skrytí</string>
-    <string name="dialog_fenceguard_update_entries_1">Smazat skrytí</string>
+    <string name="dialog_fenceguard_update_entries_0">Upravit zónu</string>
+    <string name="dialog_fenceguard_update_entries_1">Odstranit zónu</string>
     <!-- dialogTracksShareChoices -->
     <string name="dialogTracksShareChoices_0">ZIPy (kompletní)</string>
     <string name="dialogTracksShareChoices_1">Pouze GPX</string>
@@ -925,9 +884,9 @@
     <string name="pref_gps_boost_modes_1">Displej zapnutý</string>
     <string name="pref_gps_boost_modes_2">Vypnutý</string>
     <!-- pref_gps_boost_modes_explanation -->
-    <string name="pref_gps_boost_modes_explanation_0">Vynucujte časté aktualizace GPS, když je mapa viditelná</string>
-    <string name="pref_gps_boost_modes_explanation_1">Vynucujte časté aktualizace GPS, když je obrazovka zapnutá</string>
-    <string name="pref_gps_boost_modes_explanation_2">Nikdy nestahovat časté aktualizace GPS</string>
+    <string name="pref_gps_boost_modes_explanation_0">Vynucuje časté aktualizace GPS, když je mapa viditelná</string>
+    <string name="pref_gps_boost_modes_explanation_1">Vynucuje časté aktualizace GPS, když je obrazovka zapnutá</string>
+    <string name="pref_gps_boost_modes_explanation_2">Nikdy nevnucovat časté aktualizace GPS</string>
     <!-- pref_autopause_modes -->
     <string name="pref_autopause_modes_0">Realný čas (výchozí)</string>
     <string name="pref_autopause_modes_1">Uvolněný</string>
@@ -947,24 +906,24 @@
     <string name="pref_wakelock_modes_explanation_2">Povolit CPU spát mezi aktualizacemi polohy. Může spotřebovat méně baterie, ale ve výjimečných případech může aktualizaci přeskočit.</string>
     <string name="pref_wakelock_modes_explanation_3">Dodržovat chování nastavené systémem a/nebo jinými aplikacemi. Upozornění: Může způsobit vysoce nepravidelné aktualizace polohy nebo je dokonce odmítnout. Nedoporučeno.</string>
     <!-- pref_locationProvider_modes -->
-    <string name="pref_locationProvider_modes_0">GPS subsystem (výchozí)</string>
+    <string name="pref_locationProvider_modes_0">GPS subsystém (výchozí)</string>
     <string name="pref_locationProvider_modes_1">Služby Google Play</string>
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Všechny profily) Použít subsystém GPS přímo. Stabilní, méně složitý model, žádný prostředník. Může také použít méně zdrojů než jiný poskytovatel.</string>
-    <string name="pref_locationProvider_modes_explanation_1">(Všechny profily) Použijte poskytovatele \ "Fused \" ze služeb Google Play, pokud jsou k dispozici. Teoreticky to může někdy poskytnout rychlejší a přesnější umístění. Vyzkoušejte si, zda to prospěje.</string>
+    <string name="pref_locationProvider_modes_explanation_1">"(Všechny profily) Použijte poskytovatele  \"Fused\" ze služeb Google Play, pokud jsou k dispozici. Teoreticky to může někdy poskytnout rychlejší a přesnější umístění. Vyzkoušejte si, zda to prospěje."</string>
     <!-- pref_flashlightBlinkModes -->
     <string name="pref_flashlightBlinkModes_0">Pomalu (výchozí)</string>
     <string name="pref_flashlightBlinkModes_1">Rychle</string>
     <string name="pref_flashlightBlinkModes_2">Žádné / Stabilní</string>
     <!-- pref_units_distance_entries -->
     <string name="pref_units_distance_entries_0">Metrické [m, km]</string>
-    <string name="pref_units_distance_entries_1">Imperiální [ft, mi]</string>
+    <string name="pref_units_distance_entries_1">Imperiální [st, mi]</string>
     <!-- pref_units_speed_entries -->
     <string name="pref_units_speed_entries_0">Metrické [km/h]</string>
     <string name="pref_units_speed_entries_1">Imperiální [mph]</string>
     <!-- pref_units_altitude_entries -->
     <string name="pref_units_altitude_entries_0">Metrické [m]</string>
-    <string name="pref_units_altitude_entries_1">Imperiální [ft]</string>
+    <string name="pref_units_altitude_entries_1">Imperiální [st]</string>
     <!-- pref_units_weight_entries -->
     <string name="pref_units_weight_entries_0">Metrické [kg]</string>
     <string name="pref_units_weight_entries_1">Imperiální [lb]</string>
@@ -987,7 +946,7 @@
     <string name="prefUnitsSlopeEntries_2">Za míli [‰]</string>
     <!-- pref_hud_axis_entries -->
     <string name="pref_hud_axis_entries_0">Výchozí — Stavový řádek na normální pozici</string>
-    <string name="pref_hud_axis_entries_1">Uložení dolů - Více praktické zacházení se zařízením</string>
+    <string name="pref_hud_axis_entries_1">Vzhůru nohama - praktičtější zacházení se zařízením</string>
     <!-- pref_bell_mode_entries -->
     <string name="pref_bell_mode_entries_0">Cink</string>
     <string name="pref_bell_mode_entries_1">Crrrrr-crrrrr</string>
@@ -1024,13 +983,13 @@
     <string name="pref_powermeter_display_mode_entries_1">Watty na kg/lb</string>
     <!-- prefMapOnlineModeEntries -->
     <string name="prefMapOnlineModeEntries_0">Online</string>
-    <string name="prefMapOnlineModeEntries_1">Mimo síť</string>
+    <string name="prefMapOnlineModeEntries_1">Offline</string>
     <!-- prefBackKeyModeEntries -->
     <string name="prefBackKeyModeEntries_0">Normální</string>
     <string name="prefBackKeyModeEntries_1">Žádná</string>
     <string name="prefBackKeyModeEntries_2">Ukončit dvojklikem</string>
     <!-- prefMapOfflineLayerButtonActionEntries -->
-    <string name="prefMapOfflineLayerButtonActionEntries_0">Změna téma</string>
+    <string name="prefMapOfflineLayerButtonActionEntries_0">Změna vzhledu</string>
     <string name="prefMapOfflineLayerButtonActionEntries_1">Změna souboru</string>
     <string name="prefMapOfflineLayerButtonActionEntries_2">Nic</string>
     <!-- prefMapDiskCacheSizeEntries -->
@@ -1082,8 +1041,8 @@
     <string name="infoMeterModeAltitudeMsg">Nadmořská výška (geoid) — Aktuální, Maximální a Minimální.
 \n
 \nPoznámka: Může to být trochu opožděno díky neovlivnitelným zpožděním digitálních filtrů.</string>
-    <string name="infoMeterModeSlopeMsg">Sklon (spád) je číslo popisující naklonění terénu kde 0 znamená horizont. Vyšší číslo znamená stoupání a negativní číslo je klesání.
-\n
+    <string name="infoMeterModeSlopeMsg">Sklon (spád) je číslo popisující naklonění terénu kde 0 znamená horizont. Vyšší číslo znamená stoupání a záporné číslo je klesání. 
+\n 
 \nPoznámka: Může docházet ke zpoždění (v řádu minut) díky neovlivnitelným zpožděním digitálních filtrů.</string>
     <string name="infoMeterModeVerticalSpeedMsg">Rychlost ve směru nahoru (pozitivní) nebo dolů (negativní) — Aktuální, Maximální a Minimální.
 \n
@@ -1121,15 +1080,20 @@
     <string name="aboutScreenTranslationsText">Pomozte s překladem této aplikace a získejte licenci zdarma! Více informací:</string>
     <string name="disclaimerTitle">Vyloučení odpovědnosti</string>
     <string name="disclaimerText1">Tato aplikace je poskytována tak jak je a používáte ji na vlastní zodpovědnost. My, vydavatelé, neneseme zodpovědnost za jakoukoliv nehodu, ztrátu na majetku, zranění a podobně na Vás nebo třetí osobě, které vzniklo při použití této aplikace při jízdě nebo jiné aktivitě.</string>
-    <string name="disclaimerText2">Prosím používejte tuto aplikaci s rozmyslem a NEOVLÁDEJTE jí při řízení automobilu, motocyklu, bicyklu, nebo jiného dopravním prostředku.</string>
+    <string name="disclaimerText2">Prosím používejte tuto aplikaci s rozmyslem a NEOVLÁDEJTE jí při řízení automobilu, motocyklu, kola nebo jiného dopravním prostředku.</string>
     <string name="disclaimerText3">Vždy se dívejte na cestu.</string>
     <string name="licenseDialogMapsTab">Mapy</string>
     <string name="ultimateLicenseDescription">Nejvyšší licence pro ultimátní zážitek.</string>
-    <string name="ultimateLicenseFeatures">✔ Bez reklam ✔ Všechny mapy ✔ Všechny funkce</string>
-    <string name="proPlusLicenseFeatures">✔ Bez reklam ✔ Všechny funkce</string>
-    <string name="proLicenseFeatures">✔ Bez reklam</string>
-    <string name="thunderforestMapsFeatures">✔ Bez reklam ✔ Thunderforest mapy</string>
-    <string name="mapboxMapsFeatures">✔ Bez reklam ✔ Mapbox mapy</string>
+    <string name="ultimateLicenseFeatures">🔹 Všechny mapy
+\n🔹 Všechny funkce
+\n🔹 Bez reklam</string>
+    <string name="proPlusLicenseFeatures">🔹 Bez reklam
+\n🔹 Speciální příspěvek</string>
+    <string name="proLicenseFeatures">🔹 Bez reklam</string>
+    <string name="thunderforestMapsFeatures">🔹 Thunderforest mapy
+\n🔹 Bez reklam</string>
+    <string name="mapboxMapsFeatures">🔹 Mapbox mapy
+\n🔹 Bez reklam</string>
     <string name="priceFree">ZDARMA</string>
     <string name="rewardedAdLoading">Nahrávám reklamu…</string>
     <string name="na">Nedostupné</string>
@@ -1143,10 +1107,10 @@
     <string name="pref_screenWaveOnOffMode_summary">Ztlumit a zamknout obrazovku dvojitým mávnutím před obrazovkou. Mávnout znovu pro rozjasnění a odemknutí.</string>
     <string name="pref_soundeffects_screenOff_title">Ztlumit/vypnout obrazovku</string>
     <string name="pref_soundeffects_screenOff_summary">Zvuk a vibrace při ztlumené nebo dočasně vypnuté obrazovce</string>
-    <string name="rewardedAdDescription">Tato aktivita (podívejte se na reklamu)</string>
-    <string name="rewardedLicenseSuccess">Licence úspěšně darována</string>
-    <string name="pref_soundeffects_proximity_title">Senzor přihlášení</string>
-    <string name="pref_soundeffects_proximity_summary">Zvuk kliknutí když je aktivován senzor přiblížení</string>
+    <string name="rewardedAdDescription">Klikněte zde a nejdříve se podívejte na reklamu</string>
+    <string name="rewardedLicenseSuccess">Licence úspěšně předána</string>
+    <string name="pref_soundeffects_proximity_title">Senzor přiblížení</string>
+    <string name="pref_soundeffects_proximity_summary">Zvuk kliknutí, když je aktivován senzor přiblížení</string>
     <string name="unitMetersAboveGroundLevel">m n.z</string>
     <string name="unitFeetsAboveGroundLevel">st n.z</string>
     <string name="meterModeKineticEnergy">kinetická energie</string>
@@ -1163,8 +1127,8 @@
 \nPodobně, je to výška které dosáhnete při výskoku vzhůru pouze s využitím kinetické energie.</string>
     <string name="meterModes_26">Kinetická energie</string>
     <string name="mapMarkerStart">Start</string>
-    <string name="mapMarkerFinish">Cíl</string>
-    <string name="pref_speechMasterSwitch_title">Řeč</string>
+    <string name="mapMarkerFinish">Konec</string>
+    <string name="pref_speechMasterSwitch_title">Povolit</string>
     <string name="pref_speechMasterSwitch_summary">Použít hlas pro hodnocení a odpočet</string>
     <string name="defaultProfileNameScooter">Koloběžka 🛴</string>
     <string name="defaultProfileNameSki">Lyže 🎿</string>
@@ -1186,5 +1150,118 @@
     <string name="speechUnitOneMinute">Minuta</string>
     <string name="speechUnitTwoMinutes">Minuty</string>
     <string name="speechUnitManyMinutes">Minut</string>
-    <string name="speechCountdownGo">Start</string>
+    <string name="speechCountdownGo">Start!</string>
+    <string name="dialog_volume_speech_text">Řeč</string>
+    <string name="controlPanelSoundSpeech">Řeč</string>
+    <string name="pref_category_speech_title">Řeč</string>
+    <string name="pref_soundeffects_tally_clock_title">Hodiny</string>
+    <string name="pref_soundeffects_tally_clock_dialog_title">Hlášení hodin</string>
+    <string name="pref_speechProfileName_title">Jméno profilu</string>
+    <string name="pref_speechProfileName_summary">(Všechny profily) Při přepnutí profilu řekne jeho jméno</string>
+    <string name="pref_speechTrackingStatus_title">Sledování</string>
+    <string name="pref_speechTrackingStatus_summary">Řekne, když se sledování spustí, zastaví nebo přeruší</string>
+    <string name="pref_speechTallies_title">Výsledky</string>
+    <string name="pref_speechTallies_summary">Říkat výsledky</string>
+    <string name="pref_speechToasts_title">Krátké poznámky</string>
+    <string name="pref_speechToasts_summary">Říkat různé krátké poznámky</string>
+    <string name="pref_speechCountdown_title">Počítadlo</string>
+    <string name="pref_speechCountdown_summary">Odpočítávat nahlas</string>
+    <string name="speechAscent">Stoupání: %1$s</string>
+    <string name="speechDescent">Klesání: %1$s</string>
+    <string name="speechClock">Hodiny: %1$s</string>
+    <string name="speechTrackingPause">Pauza</string>
+    <string name="speechTrackingStop">Zastavení</string>
+    <string name="speechTrackingGpsOk">GPS OK</string>
+    <string name="speechTrackingGpsWeak">Bez GPS</string>
+    <string name="dialogTrackEditTitleHint">Název</string>
+    <string name="dialogTrackEditNotesHint">Poznámky</string>
+    <string name="summaryProfileName">Profil</string>
+    <string name="summaryDeviceName">Zařízení</string>
+    <string name="pref_soundeffects_tally_altitude_title">Nadmořská výška</string>
+    <string name="pref_soundeffects_tally_altitude_dialog_title">Hlášení nadmořské výšky</string>
+    <string name="pref_maps_offline_usage_summary">Použití: Zvolte stažený soubor s mapou s volbami výše.</string>
+    <string name="pref_maps_offline_terrain_usage_summary">Použití: Rozbalte soubory .hgt ze staženého ZIP souboru a umístěte je do stejné složky jako jsou offline mapy (nepoužívejte podsložky).</string>
+    <string name="speechAltitude">Nadmořská výška: %1$s</string>
+    <string name="speechIncreasing">Stoupání</string>
+    <string name="speechDecreasing">Klesání</string>
+    <string name="facebookRemovedInfo">Facebook již nepodporuje sdílení aktivit, proto jsme jej odstranili z aplikace.</string>
+    <string name="subscriptionPerMonth">%1$s /měsíčně</string>
+    <string name="subscriptionPer1y">%1$s placeno jednou za 12 měsíců</string>
+    <string name="subscriptionPer6m">%1$s placeno jednou za 6 měsíců</string>
+    <string name="subscriptionPer3m">%1$s placeno jednou za 3 měsíce</string>
+    <string name="subscriptionPer1m">%1$s placeno měsíčně</string>
+    <string name="subscriptionPer1w">%1$s placeno týdně</string>
+    <string name="paymentOnce">Jednorázová platba</string>
+    <string name="manageSubscriptions">Správa předplatných</string>
+    <string name="loading">Nahrávám…</string>
+    <string name="trackUploadActivityTypes_3">Túra</string>
+    <string name="trackUploadActivityTypes_4">Plavání</string>
+    <string name="trackUploadActivityTypes_5">Serfování</string>
+    <string name="trackUploadActivityTypes_6">Plachtění</string>
+    <string name="trackUploadActivityTypes_7">Skate</string>
+    <string name="trackUploadActivityTypes_8">Lyžování</string>
+    <string name="trackUploadActivityTypes_9">Snowboard</string>
+    <string name="trackUploadActivityTypes_10">Jiné</string>
+    <string name="rewardedAdPriceFree">ZDARMA (platné pro toto sezení)</string>
+    <string name="cautionTitle">Opatrně</string>
+    <string name="dialogActivityRecognitionPermissionRequestTitle">Oprávnění pro přístup k fyzické aktivitě</string>
+    <string name="dialogActivityRecognitionPermissionRequest">Oprávnění je nutné k tomu, aby aplikace mohla používat vestavěné senzory jako např. detektor kroků.</string>
+    <string name="unitSteps">kroky</string>
+    <string name="meterModeStepCadence">kroková kadence</string>
+    <string name="meterModeStepCadenceShort">krok kad</string>
+    <string name="meterModeStepCount">kroků</string>
+    <string name="meterModeStepCountShort">kroků</string>
+    <string name="controlPanelLocationButton">Poloha</string>
+    <string name="tracksHistoryListNoMap">Mapa nebyla nahrávána.</string>
+    <string name="summaryStepCount">Kroků</string>
+    <string name="sensorStepLengthNotSetWarning">Nebyla nastavena délka kroku</string>
+    <string name="sensorPurposeSteps">Kroky</string>
+    <string name="sensorStepDetectorName">Čítač kroků</string>
+    <string name="sensorProperitesUseForSteps">Použít pro počítání kroků a kadenci</string>
+    <string name="sensorProperitesEnableFiltering">Filtrování dat</string>
+    <string name="sensorProperitesEnableFilteringInfo">Toto provede dodatečné filtrování dat senzoru, patrně vylepší přesnost, ale přinese několik sekund zpoždění. Ve výchozím stavu vypnuto.</string>
+    <string name="pref_soundeffects_tally_steps_title">Kroky</string>
+    <string name="pref_soundeffects_tally_steps_dialog_title">Hlášení kroků</string>
+    <string name="prefProhibitLocationAlertInfo">Poloha nebude nikdy zapnuta nebo používána v průběhu aktivity, takže mapa nebude dostupná.
+\n
+\nData budou získávána výhradně z pohybových a tělových senzorů (Síla, Rychlost, Kadence, Srdeční tep, Kroky).</string>
+    <string name="infoMeterModeStepCadenceTitle">Kadence kroků</string>
+    <string name="infoMeterModeStepCadenceMsg">Počet kroků za minutu.</string>
+    <string name="infoMeterModeStepCountTitle">Kroky</string>
+    <string name="infoMeterModeStepCountMsg">Počet ušlých kroků.</string>
+    <string name="meterModes_27">Kroky</string>
+    <string name="meterModes_28">Kadence kroků</string>
+    <string name="speechSteps">Kroky: %1$s</string>
+    <string name="menuExpand">Rozbalit</string>
+    <string name="menuCollapse">Sbalit</string>
+    <string name="dialogMapsWeatherRadar">Srážkový radar</string>
+    <string name="dialogOpenRainviewerText">Otevřít stránku www.rainviewer.com\?</string>
+    <string name="pref_category_maps_weather_title">Počasí</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_title">Srážkový radar</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_summary">Ukázat vrstvu srážkového radaru</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_info">Radarová data jsou stahována z internetu, i když se používají offline mapy. Jsou aktualizována každých 10 minut, pokud je mapa viditelná. Zdrojem dat je RainViewwer.com.</string>
+    <string name="dialogScreenOrientationReversePortrait">Na šířku (obráceně)</string>
+    <string name="dialogScreenOrientationReverseLandscape">Na šířku (obráceně)</string>
+    <string name="controlPanelScreenOrientation">Orientace obrazovky</string>
+    <string name="pref_mapsWeatherAnimate_title">Animace</string>
+    <string name="pref_mapsWeatherAnimate_summary">Animovat 1 hodinu dat radaru pro lepší vizualizaci srážkového trendu</string>
+    <string name="pref_mapsWeatherAnimate_info">Radarová animace používá 5x více dat než statický radarový obrázek.</string>
+    <string name="menuMeterStart">Start</string>
+    <string name="menuMeterStop">Konec</string>
+    <string name="dialogScreenshotTitle">Snímek obrazovky</string>
+    <string name="dialogGoogleMapTermsViolation">Snímání Google mapy není povoleno, proto musíte mapu nejdříve změnit za jinou.
+\n
+\nPřepnout na mapy Stamen\?</string>
+    <string name="dialogWaitTitle">Prosím čekejte</string>
+    <string name="dialogScreenshotPreparing">Připravuji snímek…</string>
+    <string name="mapMarkerMyLocation">Má poloha</string>
+    <string name="pref_roaring_type_entries_3">Elektrické auto</string>
+    <string name="dialogMapsAutoZoom">Automatické zvětšování</string>
+    <string name="controlPanelUnitsButtonTitle">Jednotky</string>
+    <string name="controlPanelUnitsButtonSubtitle">Klikněte pro změnu jednotek</string>
+    <string name="controlPanelSensorsButtonTitle">Senzory</string>
+    <string name="controlPanelSensorsButtonSubtitle">Klikněte pro správu senzorů</string>
+    <string name="pref_text_automatic">Automaticky</string>
+    <string name="sensorProperitesActivityRecognition">Rozpoznání fyzické aktivity</string>
+    <string name="sensorProperitesActivityRecognitionInfo">Senzor dá nějaká data pouze když rozpozná aktivitu kompatibilní se senzorem. Např. čítač kroků bude počítat kroky pouze když běžíte nebo jdete, ale ne když jedete na kole. Nemusí to však být přesné a může se zpožďovat. Vyžaduje služby Google Play.</string>
 </resources>
