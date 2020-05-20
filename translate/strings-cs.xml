@@ -11,14 +11,14 @@
     <string name="ultimateLicenseLabel">Ultimate</string>
     <string name="proLicenseTitle">Licence Pro</string>
     <string name="proLicenseDescription">Odstranit reklamy</string>
-    <string name="proPlusLicenseTitle">Licence Pro Plus</string>
+    <string name="proPlusLicenseTitle">Licence Pro+</string>
     <string name="proPlusLicenseDescription">Odstranit reklamy a odemknout všechny případné budoucí funkce pro nepředplatitele</string>
     <string name="ultimateLicenseTitle">Licence Ultimate</string>
     <string name="ok">OK</string>
     <string name="yes">Ano</string>
     <string name="no">Ne</string>
     <string name="cancel">Zrušit</string>
-    <string name="buttonUnderstand">Chápu</string>
+    <string name="buttonUnderstand">Rozumím</string>
     <string name="buttonResumeTrack">Pokračovat</string>
     <string name="buttonNewTrack">Dokončit</string>
     <string name="menuControlPanel">Ovládací panel</string>
@@ -32,10 +32,10 @@
     <string name="menuMeterChooseModes">Nabízená měřidla…</string>
     <string name="menuMeterNewTrack">Nová trasa</string>
     <string name="menuMeterResetMinMax">Vynulovat min/max</string>
-    <string name="menuMeterReset">Dokončit</string>
+    <string name="menuMeterReset">Ukončit</string>
     <string name="menuMeterParameters">Parametry…</string>
     <string name="menuMeterPowerMode">Přepnout napájecí režim</string>
-    <string name="menuFenceguard">Hlídač skrytí</string>
+    <string name="menuFenceguard">Soukromé zóny</string>
     <string name="menuExit">Odejít</string>
     <string name="menuMore">Více…</string>
     <string name="menuView">Zobrazit</string>
@@ -43,7 +43,7 @@
     <string name="menuProfiles">Profily</string>
     <string name="menuSensors">Senzory</string>
     <string name="menuAbout">O aplikaci</string>
-    <string name="menuHelp">Nápověda &amp; Podpora</string>
+    <string name="menuHelp">Nápověda a Podpora</string>
     <string name="menuShare">Sdílet</string>
     <string name="menuUpload">Nahrát</string>
     <string name="menuSelectMode">Vybrat</string>
@@ -76,15 +76,15 @@
     <string name="toastTrackWritingError">Chyba ukládání trasy do úložiště! Zkuste to prosím znovu.</string>
     <string name="toastTrackZippingError">Chyba ukládání trasy do Zip souboru. Zkuste to prosím znovu.</string>
     <string name="toastTrackMovingError">Chyba přesunu trasy na USB paměťové zařízení. Zkuste to prosím znovu.</string>
-    <string name="toastPressAgainToExit">Stiskněte znovu pro ukončení</string>
+    <string name="toastPressAgainToExit">Klikněte znovu pro ukončení</string>
     <string name="toastTrackingRecording">Záznam</string>
     <string name="toastTrackingRecordingPassive">Pasivní záznam</string>
     <string name="toastTrackingPaused">Pozastaveno</string>
     <string name="toastTrackingStopped">Zastaveno</string>
     <string name="toastFenceGuardFenceAdded">Soukromé zóny: Zóna %1$s přidána</string>
-    <string name="toastFenceGuardFenceAddingError">Soukromé zóny: Chyba při nastavení zóny</string>
+    <string name="toastFenceGuardFenceAddingError">Soukromé zóny: Chyba přidávání zóny</string>
     <string name="toastFenceGuardFenceUpdated">Soukromé zóny: Zóna %1$s aktualizována</string>
-    <string name="toastFenceGuardFenceUpdatingError">Soukromé zóny: Chyba při úpravě nastavení zóny</string>
+    <string name="toastFenceGuardFenceUpdatingError">Soukromé zóny: Chyba při aktualizaci zóny</string>
     <string name="toastFenceGuardFenceRemoved">Soukormé zóny: Zóna %1$s odstraněna</string>
     <string name="toastFenceGuardFenceRemovingError">Soukromé zóny: Chyba při odebrání zóny</string>
     <string name="toastFenceGuardOutsideTheFence">Soukromé zóny: Momentálně se nenacházíte v soukromé zóně</string>
@@ -348,8 +348,8 @@
     <string name="meterModeAccelerationShort">zrych</string>
     <string name="meterModeDistance">vzdálenost</string>
     <string name="meterModeDistanceShort">vzd</string>
-    <string name="meterModeOdo">tachometr</string>
-    <string name="meterModeOdoShort">tacho</string>
+    <string name="meterModeOdo">odometr</string>
+    <string name="meterModeOdoShort">odo</string>
     <string name="meterModeEnergy">energie</string>
     <string name="meterModeEnergyShort">ene</string>
     <string name="meterModeEfficacy">účinnost</string>
@@ -634,7 +634,7 @@
     <string name="pref_speed_calculate_mode_title">Přepočítat rychlost</string>
     <string name="pref_speed_calculate_mode_summary">(Všechny profily) Přepočítat rychlost ze vzdáleností, nepoužívat přímé hodnoty z GPS. Toto může poskytnout stabilnější čtení rychlosti přes GPS hodnoty (Doppler).</string>
     <string name="pref_soundeffects_title">Povolit</string>
-    <string name="pref_soundeffects_fence_enterleave_title">Skrytí</string>
+    <string name="pref_soundeffects_fence_enterleave_title">Zóna</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Zvukové znamení pokud vstupujete do či vystupujete ze zóny</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
     <string name="pref_soundeffects_gps_signal_summary">Zvuk při změně stavu GPS (dobrá, špatná/zastavená)</string>
@@ -758,7 +758,7 @@
     <string name="prefProhibitLocationSummary">Nepoužívat GPS v průběhu aktivity</string>
     <string name="infoMeterModeDistanceTitle">Vzdálenost</string>
     <string name="infoMeterModeDistanceMsg">Ujetá vzdálenost.</string>
-    <string name="infoMeterModeDistanceOdoTitle">Tachometr</string>
+    <string name="infoMeterModeDistanceOdoTitle">Odometr</string>
     <string name="infoMeterModeDistanceOdoMsg">Celková ujetá vzdálenost od prvního použití profilu.</string>
     <string name="infoMeterModeDurationTitle">Čas</string>
     <string name="infoMeterModeDurationMsg">Doba trvání cesty, případně s výjimkou případných pauz nebo zastávek.</string>
@@ -853,7 +853,7 @@
     <string name="meterModes_22">Klikatost</string>
     <string name="meterModes_23">Teplota</string>
     <string name="meterModes_24">Tlak</string>
-    <string name="meterModes_25">Tachometr</string>
+    <string name="meterModes_25">Odometr</string>
     <!-- pref_gps_update_freq_entries -->
     <string name="pref_gps_update_freq_entries_0">Nejrychlejší</string>
     <string name="pref_gps_update_freq_entries_1">0.5 s</string>
@@ -1083,7 +1083,7 @@
     <string name="disclaimerText2">Prosím používejte tuto aplikaci s rozmyslem a NEOVLÁDEJTE jí při řízení automobilu, motocyklu, kola nebo jiného dopravním prostředku.</string>
     <string name="disclaimerText3">Vždy se dívejte na cestu.</string>
     <string name="licenseDialogMapsTab">Mapy</string>
-    <string name="ultimateLicenseDescription">Nejvyšší licence pro ultimátní zážitek.</string>
+    <string name="ultimateLicenseDescription">Nejvyšší licence pro maximální zážitek.</string>
     <string name="ultimateLicenseFeatures">🔹 Všechny mapy
 \n🔹 Všechny funkce
 \n🔹 Bez reklam</string>
@@ -1108,7 +1108,7 @@
     <string name="pref_soundeffects_screenOff_title">Ztlumit/vypnout obrazovku</string>
     <string name="pref_soundeffects_screenOff_summary">Zvuk a vibrace při ztlumené nebo dočasně vypnuté obrazovce</string>
     <string name="rewardedAdDescription">Klikněte zde a nejdříve se podívejte na reklamu</string>
-    <string name="rewardedLicenseSuccess">Licence úspěšně předána</string>
+    <string name="rewardedLicenseSuccess">Licence úspěšně získána</string>
     <string name="pref_soundeffects_proximity_title">Senzor přiblížení</string>
     <string name="pref_soundeffects_proximity_summary">Zvuk kliknutí, když je aktivován senzor přiblížení</string>
     <string name="unitMetersAboveGroundLevel">m n.z</string>
@@ -1246,8 +1246,8 @@
     <string name="pref_mapsWeatherAnimate_title">Animace</string>
     <string name="pref_mapsWeatherAnimate_summary">Animovat 1 hodinu dat radaru pro lepší vizualizaci srážkového trendu</string>
     <string name="pref_mapsWeatherAnimate_info">Radarová animace používá 5x více dat než statický radarový obrázek.</string>
-    <string name="menuMeterStart">Start</string>
-    <string name="menuMeterStop">Konec</string>
+    <string name="menuMeterStart">Spustit</string>
+    <string name="menuMeterStop">Zastavit</string>
     <string name="dialogScreenshotTitle">Snímek obrazovky</string>
     <string name="dialogGoogleMapTermsViolation">Snímání Google mapy není povoleno, proto musíte mapu nejdříve změnit za jinou.
 \n
