@@ -98,7 +98,7 @@
     <string name="toastTrackDeleteError">Chyba mazání tras</string>
     <string name="toastTrackResumed">Trasa obnovena</string>
     <string name="toastTrackResumeGpsActiveError">Nejdříve vypněte nebo pozastavte GPS</string>
-    <string name="toastProfileButtonClickInfo">Dlouhé kliknutí pro změnu profilu</string>
+    <string name="toastProfileButtonClickInfo">Podržení pro změnu profilu</string>
     <string name="toastContrastButtonClickInfo">Aktivní je automatické téma</string>
     <string name="toastFlashlightButtonClickInfo">Podržením zapnete svítilnu</string>
     <string name="toastRoarButtonClickInfo">Podržením zapnete zvuk rachotu</string>
@@ -109,10 +109,10 @@
     <string name="toastMapLayerTrafficOn">Provoz zapnutý</string>
     <string name="toastMapLayerTrafficOff">Provoz vypnutý</string>
     <string name="toastErrorCreatingOfflineMap">Chyba při vytváření offline mapy</string>
-    <string name="toastErrorAccessingExternalStorage">Chyba přístupu do externí paměti</string>
-    <string name="toastErrorPowerParametersVoid">Prosím vyplňte parametry výkonu v nastaveních</string>
+    <string name="toastErrorAccessingExternalStorage">Chyba přístupu do externího úložiště</string>
+    <string name="toastErrorPowerParametersVoid">Prosím vyplňte Parametry výkonu v Nastaveních</string>
     <string name="toastSharingSuccess">Úspěšně posláno</string>
-    <string name="toastSharingError">Chyba při sdílení akcí</string>
+    <string name="toastSharingError">Chyba při sdílení</string>
     <string name="toastSharingPermissionsError">Chyba odeslání, zkontrolujte práva</string>
     <string name="toastUpdatingSuccess">Úspěšně aktualizováno</string>
     <string name="toastSoundsEnabled">Zvuky povoleny</string>
@@ -137,7 +137,7 @@
     <string name="dialog_volume_message">Poznámka: Na změnu celkové hlasitosti použijte tlačítka zařízení na ovládání hlasitosti.</string>
     <string name="dialog_bell_automatic_sensitivity_title">Citlivost automatického zvonku</string>
     <string name="dialog_bell_shake_sensitivity_title">Citlivost třesení</string>
-    <string name="dialog_fenceguard_add_title">Přidat soukromou zónu</string>
+    <string name="dialog_fenceguard_add_title">Přidat zónu</string>
     <string name="dialog_fenceguard_add_text">Název zóny:</string>
     <string name="dialog_fenceguard_add_text2">Na Vaší současné pozici bude nastavena zóna, která se nebude zobrazovat v záznamech aktivit.</string>
     <string name="dialog_fenceguard_update_title">Upravit zónu</string>
@@ -151,15 +151,15 @@
 \n(%4$s)
 \n
 \nTrasa se zdá být velmi krátká. Chcete ji uložit\?</string>
-    <string name="dialog_exit_msg">Upozornění: Sledování je aktivní a bude zastaveno.</string>
+    <string name="dialog_exit_msg">Upozornění: Zaznamenávání je aktivní a bude zastaveno.</string>
     <string name="dialogProfileDeleteTitle">Smazat profil</string>
     <string name="dialogProfileDeleteMessage">Varování: Tímto vymažete nastavení profilu a data čítačů. Uložené trasy zůstanou zachovány. 
 \n 
 \nSmazat profil %1$s\?</string>
     <string name="dialogProfileAddTitle">Nový profil</string>
-    <string name="dialogProfileAddInfo">Nový profil bude mít nastavení zkopírováno z aktuálního profilu</string>
+    <string name="dialogProfileAddInfo">Nový profil bude mít nastavení zkopírované z aktuálního profilu</string>
     <string name="dialogProfileEditTitle">Upravit profil</string>
-    <string name="dialogProfileEditTotals">Souhrn:</string>
+    <string name="dialogProfileEditTotals">Souhrny:</string>
     <string name="dialogProfileTotalsResetMessage">Vynulovat čítače v profilu\?</string>
     <string name="dialogProfileSwitchTitle">Přepnout profil</string>
     <string name="dialogProfileSwitchMessage">Je spuštěný záznam trasy. Opravdu chcete přepnout do profilu %1$s\?</string>
@@ -176,7 +176,7 @@
     <string name="dialogTrackResumeProfileSwitchMessage">Aktivní profil bude přepnut z %1$s na %2$s. Pokračovat\?</string>
     <string name="dialogTrackResumeProfileMissingMessage">Profil %1$s, ve kterém byla trasa uložena již neexistuje. Pokračovat v aktuálním profilu %2$s\?</string>
     <string name="dialogTrackResumeGeneralPromptMessage">Trasa bude zaznamenávána v profilu %1$s. Pokračovat\?</string>
-    <string name="dialogTrackResumeGeneralErrorMessage">Chyba operace. Zkuste prosím znovu.</string>
+    <string name="dialogTrackResumeGeneralErrorMessage">Chyba operace. Zkuste to prosím znovu.</string>
     <string name="dialogTrackResumeWaitMessage">Obnovuji, čekejte prosím…</string>
     <string name="dialogTracksShareTitle">Sdílet trasy</string>
     <string name="dialogTracksShareGeneralErrorMessage">Chyba operace. Zkuste to prosím znovu.</string>
@@ -185,20 +185,20 @@
     <string name="dialogBaroAltitudePromptTitle">Problém barometrické výšky</string>
     <string name="dialogBaroAltitudePromptMessage">Barometrická nadmořská výška byla násilně vypnuta kvůli nesouladu s GPS nadmořskou výškou! 
 \n 
-\nNepoužívejte v uzavřených nebo klimatizovaných prostorech!</string>
+\nNepoužívejte v uzavřených nebo klimatizovaných prostorách!</string>
     <string name="dialogBaroAltitudeNoticeTitle">Poznámka</string>
     <string name="dialogBaroAltitudeNoticeMessage">Barometrická výška funguje pouze venku. 
 \n 
-\nNepoužívejte v uzavřených nebo klimatizovaných prostorech, jako jsou některá vozidla a letadla.</string>
+\nNepoužívejte v uzavřených nebo klimatizovaných prostorách, jako jsou některá vozidla a letadla.</string>
     <string name="dialogThermoBarometerNoticeTitle">Poznámka</string>
     <string name="dialogThermoBarometerNoticeMessage">Přesnost teplotního barometru závisí na venkovní teplotě vzduchu. 
 \n 
-\nNepoužívejte v uzavřených nebo klimatizovaných prostorech, jako jsou některá vozidla a letadla.</string>
+\nNepoužívejte v uzavřených nebo klimatizovaných prostorách, jako jsou některá vozidla a letadla.</string>
     <string name="dialogResetTitle">Dokončit</string>
     <string name="dialogResetMessage">Uložit tuto trasu a připravit se na novou\?</string>
-    <string name="dialogResetNoTrackMessage">Nebyla zaznamenána žádná trasa. Vynulovat měřiče nyní\?</string>
+    <string name="dialogResetNoTrackMessage">Nebyla zaznamenána žádná trasa. Vynulovat měřidla\?</string>
     <string name="dialogScreenHudMode">Zrcadlový režim HUD</string>
-    <string name="dialogScreenOrientationAuto">Automatická orientace</string>
+    <string name="dialogScreenOrientationAuto">Automatická</string>
     <string name="dialogScreenOrientationPortrait">Na výšku</string>
     <string name="dialogScreenOrientationLandscape">Na šířku</string>
     <string name="dialogScreenBrightnessOverride">Jas</string>
@@ -384,7 +384,7 @@
     <string name="controlPanelSoundRoar">Rachot</string>
     <string name="controlPanelSoundEffects">Efekty</string>
     <string name="controlPanelSoundAlarms">Upozornění</string>
-    <string name="controlPanelSoundTallies">Výsledky</string>
+    <string name="controlPanelSoundTallies">Záznamy</string>
     <string name="controlPanelSoundVolume">Objemy</string>
     <string name="controlPanelEnergyParams">Parametry Výkon/Energie</string>
     <string name="profilesListTitle">Profily</string>
@@ -508,7 +508,7 @@
     <string name="pref_category_roaringConstantMode_title">Konstantní režim</string>
     <string name="pref_category_effects_title">Efekty</string>
     <string name="pref_category_alarms_title">Upozornění</string>
-    <string name="pref_category_tallies_title">Výsledky</string>
+    <string name="pref_category_tallies_title">Záznamy</string>
     <string name="pref_category_select_title">Vybrat…</string>
     <string name="pref_category_fonts_title">Písmo</string>
     <string name="pref_category_buttons_title">Tlačítka</string>
@@ -583,7 +583,7 @@
     <string name="pref_bell_shake_sensitivity_title">Citlivost třesení</string>
     <string name="pref_roaring_type_title">Typ</string>
     <string name="pref_roaring_type_dialog_title">Typ rachotu</string>
-    <string name="pref_volume_summary_text">Zvonek: %1$s, Rachot: %2$s, Výsledky: %3$s, Efekty: %4$s, Upozornění: %5$s, Řeč: %6$s</string>
+    <string name="pref_volume_summary_text">Zvonek: %1$s, Rachot: %2$s, Záznamy: %3$s, Efekty: %4$s, Upozornění: %5$s, Řeč: %6$s</string>
     <string name="pref_bg_color_title">Barva pozadí</string>
     <string name="pref_bg_color_summary">Vybrat požadovanou barvu pro pozadí aplikace</string>
     <string name="pref_fg_color_title">Barva textu</string>
@@ -1097,8 +1097,8 @@
     <string name="priceFree">ZDARMA</string>
     <string name="rewardedAdLoading">Nahrávám reklamu…</string>
     <string name="na">Nedostupné</string>
-    <string name="toastScreenPocketModeActive">Aktivován režim \'v kapse\'</string>
-    <string name="toastScreenWavingModeActive">Aktivní režim \'mávání\'</string>
+    <string name="toastScreenPocketModeActive">Aktivován režim \'V kapse\'</string>
+    <string name="toastScreenWavingModeActive">Aktivní režim \'Mávání\'</string>
     <string name="unitJoule">J</string>
     <string name="unitJoulePerHour">J/h</string>
     <string name="unitJoulePerKg">J/kg</string>
@@ -1160,8 +1160,8 @@
     <string name="pref_speechProfileName_summary">(Všechny profily) Při přepnutí profilu řekne jeho jméno</string>
     <string name="pref_speechTrackingStatus_title">Sledování</string>
     <string name="pref_speechTrackingStatus_summary">Řekne, když se sledování spustí, zastaví nebo přeruší</string>
-    <string name="pref_speechTallies_title">Výsledky</string>
-    <string name="pref_speechTallies_summary">Říkat výsledky</string>
+    <string name="pref_speechTallies_title">Záznamy</string>
+    <string name="pref_speechTallies_summary">Ćíst záznamy</string>
     <string name="pref_speechToasts_title">Krátké poznámky</string>
     <string name="pref_speechToasts_summary">Říkat různé krátké poznámky</string>
     <string name="pref_speechCountdown_title">Počítadlo</string>
