@@ -280,6 +280,7 @@
     <string name="dialogMapsTrackColor">Track hue:</string>
     <string name="dialogMapsTrackColorAltitude" translatable="false">@string/infoMeterModeAltitudeTitle</string>
     <string name="dialogMapsTrackColorSpeed" translatable="false">@string/infoMeterModeSpeedTitle</string>
+    <string name="dialogMapsTrackColorPace" translatable="false">@string/infoMeterModePaceTitle</string>
     <string name="dialogMapsTrackColorDuration" translatable="false">@string/infoMeterModeDurationTitle</string>
     <string name="dialogMapsTrackColorElapsed" translatable="false">@string/summaryTotalTime</string>
     <string name="dialogMapsTrackColorHeartRate" translatable="false">@string/infoMeterModeHeartRateTitle</string>
@@ -432,7 +433,6 @@
 
     <string name="valueTimesCount">×</string>
 
-    <string name="meterGPS">GPS</string>
     <string name="meterModeSpeed">speed</string>
     <string name="meterModeSpeedShort">spd</string>
     <string name="meterModeSpeedVertical">vertical speed</string>
@@ -453,7 +453,8 @@
     <string name="meterModePowerShort">pwr</string>
     <string name="meterModePowerAverage">average power</string>
     <string name="meterModePowerAverageShort">av pwr</string>
-    <string name="meterModeFTP">act pwr</string>
+    <string name="meterModeFTPower">ft pwr</string>
+    <string name="meterModeFTPowerShort">ftp</string>
     <string name="meterModeAcceleration">acceleration</string>
     <string name="meterModeAccelerationShort">acc</string>
     <string name="meterModeDistance">distance</string>
@@ -519,7 +520,6 @@
     <string name="profilesListRowTotalsSince">Totals since: %1$s</string>
     <string name="profilesListButtonResetTotals">Reset totals</string>
     <string name="profilesListProfileNotUsed">(unused)</string>
-    <string name="profilesListLoading">Loading…</string>
 
     <string name="cloudAccountsTitle">Accounts</string>
     <string name="cloudAccountsInfo">Connecting to a cloud service makes it easier for you to upload and share your tracks with others.\n\nWe\'ll never post anything without your permission.</string>
@@ -543,25 +543,40 @@
     <string name="tracksHistoryListViewTrackDialogTitle">View track with…</string>
 
     <string name="summaryProfileName">Profile</string>
+    <string name="summaryProfileNameInfo">Profile used to record this track.</string>
     <string name="summaryDeviceName">Device</string>
+    <string name="summaryDeviceNameInfo">Device used to record this track.</string>
     <string name="summaryTotalWeight">Total weight</string>
+    <string name="summaryTotalWeightInfo">Sum of all weights used while recording this track (rider, vehicle, cargo, …).</string>
     <string name="summaryWheelsWeight">Wheels weight</string>
+    <string name="summaryWheelsWeightInfo">Sum of weights of all wheels on the vehicle used on this track.</string>
     <string name="summaryEfficiency">Efficiency</string>
+    <string name="summaryEfficiencyInfo">Overall thermal efficiency of the track\'s powerhouse.</string>
     <string name="summaryDragArea">Drag area</string>
+    <string name="summaryDragAreaInfo">Air drag area (Cd·A).</string>
     <string name="summaryRollResistCoef">Roll resist coef.</string>
+    <string name="summaryRollResistCoefInfo">Rolling resistance coefficient.</string>
     <string name="summaryBasalMetabolicRate">Basal metabolic rate</string>
+    <string name="summaryBasalMetabolicRateInfo">Basal metabolic rate (BMR).</string>
     <string name="summaryLocationInterval">Location interval</string>
+    <string name="summaryLocationIntervalInfo">Average time interval between two location updates on this track.</string>
     <string name="summaryDeviceRestartsCount">Forced restarts</string>
+    <string name="summaryDeviceRestartsCountInfo">Number of times the app was force-closed or the device stopped working during this activity.</string>
     <string name="summaryEnergyParams" translatable="false">@string/controlPanelEnergyParams</string>
     <string name="summaryStartedDatetime">Started</string>
     <string name="summaryEndedDatetime">Ended</string>
     <string name="summaryTotalTime">Total time</string>
+    <string name="summaryTotalTimeInfo">Time interval between the start time and the end time of this track.</string>
     <string name="summaryStoppedTime">Stopped time</string>
-    <string name="summaryHeartBeats">Heart beats</string>
+    <string name="summaryStoppedTimeInfo">Time spent pausing, either manually or while using the auto-pause.</string>
+    <string name="summaryHeartBeats">Heartbeats</string>
+    <string name="summaryHeartBeatsInfo">Number of heartbeats detected during activity.</string>
     <string name="summaryCadenceStrokes">Pedal strokes</string>
+    <string name="summaryCadenceStrokesInfo">Number of pedal strokes detected during activity.</string>
     <string name="summarySpecific">Specific</string>
-    <string name="summaryMechEnergy">Mech. energy</string>
-    <string name="summaryStepCount">Steps</string>
+    <string name="summaryMechWork">Mech. work</string>
+    <string name="summaryMechWorkInfo">Purely mechanical work spent for this activity (disregarding thermal efficiency and BMR).</string>
+    <string name="summaryActivePower">Active power</string>
 
     <string name="sensorsTitle">Sensors</string>
     <string name="sensorsTabUsed">Used</string>
@@ -647,7 +662,6 @@
     <string name="pref_category_params_title">Parameters</string>
     <string name="pref_group_units_title">Units</string>
     <string name="pref_category_units_title">Units of measure</string>
-    <string name="pref_category_colors_title">Colors</string>
     <string name="pref_category_colors_light_title">Light theme</string>
     <string name="pref_category_colors_dark_title">Dark theme</string>
     <string name="pref_category_map_colors_title">Map colors</string>
@@ -656,9 +670,6 @@
     <string name="pref_category_advanced_title">Advanced</string>
     <string name="pref_group_advanced_title">Advanced…</string>
     <string name="pref_category_other_title">Other</string>
-    <string name="pref_category6_title">Help</string>
-    <string name="pref_category7_title">Share</string>
-    <string name="pref_category8_title">About</string>
     <string name="pref_category_gps_interval_title">GPS update interval</string>
     <string name="pref_category_stationary_exercise_title">Stationary activity</string>
     <string name="pref_category_autopause_title">Auto pause</string>
@@ -721,7 +732,6 @@
     <string name="pref_back_key_mode_title" translatable="false">@null</string>
     <string name="pref_back_key_mode_summary">(All profiles)</string>
     <string name="pref_back_key_mode_dialog_title">Back key mode</string>
-    <string name="pref_info_title">Info</string>
     <string name="pref_resetToDefault">Reset to default</string>
     <string name="pref_units_distance_title">Distance</string>
     <string name="pref_units_distance_dialog_title">Distance units</string>
@@ -1011,7 +1021,7 @@
     <string name="infoMeterModeDurationTitle">Duration</string>
     <string name="infoMeterModeDurationMsg">Duration of the trip, possibly excluding any pauses or stops.</string>
     <string name="infoMeterModeElapsedTitle">Elapsed time</string>
-    <string name="infoMeterModeElapsedMsg">Elapsed time, including all pauses but excluding stops.</string>
+    <string name="infoMeterModeElapsedMsg">Duration of the trip, including all pauses but excluding stops.</string>
     <string name="infoMeterModeEnergyTitle">Energy</string>
     <string name="infoMeterModeEnergyMsg">Energy spent for the trip, taking efficiency and BMR into account.</string>
     <string name="infoMeterModeEfficacyTitle">Efficacy (cumulative)</string>
@@ -1023,27 +1033,29 @@
     <string name="infoMeterModeWriggleTitle">Wriggle</string>
     <string name="infoMeterModeWriggleMsg">Measure of route deviation from a straight line, i.e. how much it fills the area instead of going straight. Lower is usually better.</string>
     <string name="infoMeterModeAltitudeTitle">Altitude</string>
-    <string name="infoMeterModeAltitudeMsg">Height above mean sea level (geoid) — Current, Maximum and Minimum.\n\nPlease note: This can be delayed from the real time, due to inevitable digital filtering delays.</string>
+    <string name="infoMeterModeAltitudeMsg">Height above mean sea level (geoid).</string>
     <string name="infoMeterModeSlopeTitle">Slope</string>
-    <string name="infoMeterModeSlopeMsg">Slope (gradient), a number describing terrain tilt where zero is horizontal. Higher number means steeper ascent, and negative is for descent.\n\nPlease note: This can be delayed from the real time by a minute or so, due to inevitable digital filtering delays.</string>
+    <string name="infoMeterModeSlopeMsg">Slope (gradient), a number describing terrain tilt where zero is horizontal. Higher number means steeper ascent, and negative is for descent.</string>
     <string name="infoMeterModeSpeedTitle">Speed</string>
-    <string name="infoMeterModeSpeedMsg">Speed — Current, Maximum and Average.</string>
+    <string name="infoMeterModeSpeedMsg">Instantaneous distance covered per unit of time.</string>
     <string name="infoMeterModeVerticalSpeedTitle">Vertical Speed</string>
-    <string name="infoMeterModeVerticalSpeedMsg">Speed in the up (positive) or down (negative) direction — Current, Maximum and Minimum.\n\nPlease note: This can be delayed from the real time, due to inevitable digital filtering delays.</string>
+    <string name="infoMeterModeVerticalSpeedMsg">Speed in the up (positive) or down (negative) vertical direction.</string>
     <string name="infoMeterModePaceTitle">Pace</string>
-    <string name="infoMeterModePaceMsg">Inverse speed — Current, Maximum and Average.</string>
+    <string name="infoMeterModePaceMsg">Inverse speed, i.e. time elapsed per unit of distance.</string>
     <string name="infoMeterModeAccelerationTitle">Acceleration</string>
-    <string name="infoMeterModeAccelerationMsg">Rate of change of speed — Current, Maximum and Minimum.\n\nNegative means deceleration.</string>
+    <string name="infoMeterModeAccelerationMsg">Rate of change of speed in time.\n\nNegative means deceleration.</string>
     <string name="infoMeterModePowerTitle">Power</string>
-    <string name="infoMeterModePowerMsg">Power exerted due to drag forces, altitude change, etc. — Current, Maximum and Average.\n\nNegative means power gain, e.g. when going downhill or braking.\n\nWhen in kcal/h or kJ/h, it also takes efficiency and BMR into account.\n\nPlease note: This can be delayed from the real time by a minute or so, due to inevitable digital filtering delays.</string>
+    <string name="infoMeterModePowerMsg">Power exerted during activity, due to drag forces, altitude change, etc.\n\nNegative means power gain, e.g. when going downhill or braking.\n\nWhen in kcal/h or kJ/h, it also takes efficiency and BMR into account.</string>
+    <string name="infoMeterModeFuncThresholdPowerTitle">Functional Threshold Power</string>
+    <string name="infoMeterModeFuncThresholdPowerMsg">Estimated maximum power that can be maintained for longer time periods.\n\nThe estimate highly depends on type and duration of this activity.</string>
     <string name="infoMeterModeAvgActivePowerTitle">Average Active Power</string>
-    <string name="infoMeterModeAvgActivePowerMsg">Average power exerted during activity, not counting intervals where power was absent or really small (downhill, braking, coasting).\n\nWhen doing a strenuous workout, this will basically be your FTP (Functional Threshold Power).</string>
+    <string name="infoMeterModeAvgActivePowerMsg">Average power exerted during activity, not counting time intervals where power was absent (downhill, braking, coasting).</string>
     <string name="infoMeterModeVerticalPowerTitle">Vertical Power</string>
-    <string name="infoMeterModeVerticalPowerMsg">Power loss or gain while ascending or descending — Current, Maximum and Minimum.\n\nNegative means power gain (descending).\n\nWhen in kcal/h or kJ/h, it also takes efficiency into account.\n\nPlease note: This can be delayed from the real time by a minute or so, due to inevitable digital filtering delays.</string>
+    <string name="infoMeterModeVerticalPowerMsg">Power loss or gain while ascending or descending.\n\nNegative means power gain (descending).\n\nWhen in kcal/h or kJ/h, it also takes efficiency into account.</string>
     <string name="infoMeterModeTemperatureTitle">Temperature</string>
-    <string name="infoMeterModeTemperatureMsg">Ambient temperature measured with the device — Current, Maximum and Minimum.</string>
+    <string name="infoMeterModeTemperatureMsg">Ambient temperature as measured with the device.</string>
     <string name="infoMeterModePressureTitle">Pressure</string>
-    <string name="infoMeterModePressureMsg">Ambient pressure measured with the device — Current, Maximum and Minimum.</string>
+    <string name="infoMeterModePressureMsg">Ambient pressure as measured with the device.</string>
     <string name="infoMeterModeClockTitle">Clock</string>
     <string name="infoMeterModeClockMsg">Current time of the day.</string>
     <string name="infoMeterModeCadenceTitle">Cadence</string>
@@ -1061,6 +1073,8 @@
 
     <string name="infoAutopauseForcedRelaxed">Note: Auto Pause forced to Relaxed</string>
     <string name="infoAutopauseForcedOff">Note: Auto Pause forced to Off</string>
+
+    <string name="infoDigitalFilterNotice">Please note: This can be delayed from the real time by a minute or so, due to inevitable digital filtering delays.</string>
 
     <string name="defaultProfileNameBike1">Bike 1 🚴</string>
     <string name="defaultProfileNameBike2">Bike 2 🚵</string>
@@ -1085,7 +1099,7 @@
     <string name="meterModes_7">Energy</string>
     <string name="meterModes_8">Efficacy</string>
     <string name="meterModes_9">Power</string>
-    <string name="meterModes_10">Active power</string>
+    <string name="meterModes_29">FT power</string>
     <string name="meterModes_11">Vert. power</string>
     <string name="meterModes_12">Vert. speed</string>
     <string name="meterModes_13">Acceleration</string>
@@ -1108,7 +1122,6 @@
 
     <!-- pref_gps_update_freq_entries -->
     <string name="pref_gps_update_freq_entries_0">Fastest</string>
-    <string name="pref_gps_update_freq_entries_1">0.5 sec</string>
     <string name="pref_gps_update_freq_entries_2">Default</string>
     <string name="pref_gps_update_freq_entries_3">1 sec</string>
     <string name="pref_gps_update_freq_entries_4">2 sec</string>
@@ -1121,16 +1134,6 @@
     <string name="pref_gps_update_freq_entries_11">30 sec</string>
     <string name="pref_gps_update_freq_entries_12">45 sec</string>
     <string name="pref_gps_update_freq_entries_13">1 min</string>
-    <string name="pref_gps_update_freq_entries_14">2 min</string>
-    <string name="pref_gps_update_freq_entries_15">3 min</string>
-    <string name="pref_gps_update_freq_entries_16">4 min</string>
-    <string name="pref_gps_update_freq_entries_17">5 min</string>
-    <string name="pref_gps_update_freq_entries_18">10 min</string>
-    <string name="pref_gps_update_freq_entries_19">15 min</string>
-    <string name="pref_gps_update_freq_entries_20">20 min</string>
-    <string name="pref_gps_update_freq_entries_21">30 min</string>
-    <string name="pref_gps_update_freq_entries_22">45 min</string>
-    <string name="pref_gps_update_freq_entries_23">1 hour</string>
 
     <!-- pref_gps_boost_modes -->
     <string name="pref_gps_boost_modes_0">Map shown (default)</string>
