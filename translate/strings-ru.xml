@@ -334,7 +334,6 @@
     <string name="unitDegree">°</string>
     <string name="unitMegabyte">МБ</string>
     <string name="valueTimesCount">×</string>
-    <string name="meterGPS">GPS</string>
     <string name="meterModeSpeed">скорость</string>
     <string name="meterModeSpeedShort">скор</string>
     <string name="meterModeSpeedVertical">вертикальная скорость</string>
@@ -355,7 +354,6 @@
     <string name="meterModePowerShort">мощ</string>
     <string name="meterModePowerAverage">средняя мощность</string>
     <string name="meterModePowerAverageShort">ср мощ</string>
-    <string name="meterModeFTP">акт мощ</string>
     <string name="meterModeAcceleration">ускорение</string>
     <string name="meterModeAccelerationShort">уск</string>
     <string name="meterModeDistance">расстояние</string>
@@ -406,7 +404,6 @@
     </string>
     <string name="profilesListButtonResetTotals">Сбросить итоги</string>
     <string name="profilesListProfileNotUsed">(не использованный)</string>
-    <string name="profilesListLoading">Загрузка…</string>
     <string name="cloudAccountsTitle">Учётные записи</string>
     <string name="cloudAccountsInfo">Подключение к облачным службам позволяет вам легче загружать и делиться треками. 
 \n 
@@ -442,7 +439,6 @@
     <string name="summaryHeartBeats">Удары сердца</string>
     <string name="summaryCadenceStrokes">Ход педалей</string>
     <string name="summarySpecific">Заданная</string>
-    <string name="summaryMechEnergy">Механическая энергия</string>
     <string name="sensorsTitle">Датчики</string>
     <string name="sensorsTabUsed">Используемые</string>
     <string name="sensorsTabFound">Найденные</string>
@@ -500,7 +496,6 @@
     <string name="pref_category_params_title">Параметры</string>
     <string name="pref_group_units_title">Единицы измерения</string>
     <string name="pref_category_units_title">Единицы измерения</string>
-    <string name="pref_category_colors_title">Цвета</string>
     <string name="pref_category_colors_light_title">Светлая тема</string>
     <string name="pref_category_colors_dark_title">Тёмная тема</string>
     <string name="pref_category_map_colors_title">Цвета карты</string>
@@ -509,9 +504,6 @@
     <string name="pref_category_advanced_title">Дополнительные</string>
     <string name="pref_group_advanced_title">Дополнительно…</string>
     <string name="pref_category_other_title">Другое</string>
-    <string name="pref_category6_title">Справка</string>
-    <string name="pref_category7_title">Поделиться</string>
-    <string name="pref_category8_title">О приложении</string>
     <string name="pref_category_gps_interval_title">Интервал обновления GPS</string>
     <string name="pref_category_stationary_exercise_title">Активность на тренажёре</string>
     <string name="pref_category_autopause_title">Автоматическая пауза</string>
@@ -568,7 +560,6 @@
     <string name="pref_app_language_translate_summary">Нажмите здесь, если вы хотите помочь перевести это приложение на другой язык</string>
     <string name="pref_back_key_mode_summary">(Все профили)</string>
     <string name="pref_back_key_mode_dialog_title">Действие кнопки «Назад»</string>
-    <string name="pref_info_title">Информация</string>
     <string name="pref_resetToDefault">Сбросить настройки</string>
     <string name="pref_units_distance_title">Расстояние</string>
     <string name="pref_units_distance_dialog_title">Единицы расстояния</string>
@@ -860,7 +851,6 @@
     <string name="meterModes_7">Энергия</string>
     <string name="meterModes_8">Эффективность</string>
     <string name="meterModes_9">Мощность</string>
-    <string name="meterModes_10">Активная мощность</string>
     <string name="meterModes_11">Вертикальная мощность</string>
     <string name="meterModes_12">Вертикальная скорость</string>
     <string name="meterModes_13">Ускорение</string>
@@ -878,7 +868,6 @@
     <string name="meterModes_25">Одометр</string>
     <!-- pref_gps_update_freq_entries -->
     <string name="pref_gps_update_freq_entries_0">Самый быстрый</string>
-    <string name="pref_gps_update_freq_entries_1">0.5 секунды</string>
     <string name="pref_gps_update_freq_entries_2">По умолчанию</string>
     <string name="pref_gps_update_freq_entries_3">1 секунда</string>
     <string name="pref_gps_update_freq_entries_4">2 секунды</string>
@@ -891,16 +880,6 @@
     <string name="pref_gps_update_freq_entries_11">30 секунд</string>
     <string name="pref_gps_update_freq_entries_12">45 секунд</string>
     <string name="pref_gps_update_freq_entries_13">1 минута</string>
-    <string name="pref_gps_update_freq_entries_14">2 минуты</string>
-    <string name="pref_gps_update_freq_entries_15">3 минуты</string>
-    <string name="pref_gps_update_freq_entries_16">4 минуты</string>
-    <string name="pref_gps_update_freq_entries_17">5 минут</string>
-    <string name="pref_gps_update_freq_entries_18">10 минут</string>
-    <string name="pref_gps_update_freq_entries_19">15 минут</string>
-    <string name="pref_gps_update_freq_entries_20">20 минут</string>
-    <string name="pref_gps_update_freq_entries_21">30 минут</string>
-    <string name="pref_gps_update_freq_entries_22">45 минут</string>
-    <string name="pref_gps_update_freq_entries_23">1 час</string>
     <!-- pref_gps_boost_modes -->
     <string name="pref_gps_boost_modes_0">Отображается карта (по умолчанию)</string>
     <string name="pref_gps_boost_modes_1">Экран включён</string>
@@ -1224,7 +1203,6 @@
     <string name="meterModeStepCountShort">шаги</string>
     <string name="controlPanelLocationButton">Местоположение</string>
     <string name="tracksHistoryListNoMap">Карта не записана.</string>
-    <string name="summaryStepCount">Шаги</string>
     <string name="sensorStepLengthNotSetWarning">Длина шага не указана</string>
     <string name="sensorPurposeSteps">Шаги</string>
     <string name="sensorStepDetectorName">Датчик шагов</string>

@@ -321,7 +321,6 @@
     <string name="unitDegree">°</string>
     <string name="unitMegabyte">Mb</string>
     <string name="valueTimesCount">×</string>
-    <string name="meterGPS">GPS</string>
     <string name="meterModeSpeed">sebesség</string>
     <string name="meterModeSpeedShort">seb</string>
     <string name="meterModeSpeedVertical">függőleges sebesség</string>
@@ -342,7 +341,6 @@
     <string name="meterModePowerShort">erő</string>
     <string name="meterModePowerAverage">átlagos erőkifejtés</string>
     <string name="meterModePowerAverageShort">átl.erő</string>
-    <string name="meterModeFTP">pill.erő</string>
     <string name="meterModeAcceleration">gyorsulás</string>
     <string name="meterModeAccelerationShort">gyorsulás</string>
     <string name="meterModeDistance">távolság</string>
@@ -392,7 +390,6 @@
     <string name="profilesListRowTotalsSince">Összesen %1$sóta</string>
     <string name="profilesListButtonResetTotals">Minden alapra állítása</string>
     <string name="profilesListProfileNotUsed">felhasználatlan</string>
-    <string name="profilesListLoading">Betöltés…</string>
     <string name="cloudAccountsTitle">Felhasználói fiók</string>
     <string name="cloudAccountsInfo">A felhőszolgáltatáshoz való csatlakozás megkönnyíti az adatok feltöltését és megosztását másokkal.
 \n
@@ -429,7 +426,6 @@
     <string name="summaryHeartBeats">Szívverés</string>
     <string name="summaryCadenceStrokes">Pedál fordulat</string>
     <string name="summarySpecific">Jellemző</string>
-    <string name="summaryMechEnergy">Mechanikus erő</string>
     <string name="sensorsTitle">Jeladók</string>
     <string name="sensorsTabUsed">Használt</string>
     <string name="sensorsTabFound">Találat</string>
@@ -487,7 +483,6 @@
     <string name="pref_category_params_title">Paraméterek</string>
     <string name="pref_group_units_title">Mértékegység</string>
     <string name="pref_category_units_title">Mértékegység</string>
-    <string name="pref_category_colors_title">Szinek</string>
     <string name="pref_category_colors_light_title">Világos sablon</string>
     <string name="pref_category_colors_dark_title">Sötét sablon</string>
     <string name="pref_category_map_colors_title">Térkép színe</string>
@@ -496,9 +491,6 @@
     <string name="pref_category_advanced_title">Haladó</string>
     <string name="pref_group_advanced_title">Haladó…</string>
     <string name="pref_category_other_title">Egyéb</string>
-    <string name="pref_category6_title">Segítség</string>
-    <string name="pref_category7_title">Megosztás</string>
-    <string name="pref_category8_title">Rólunk</string>
     <string name="pref_category_gps_interval_title">GPS frissítés gyakorisága</string>
     <string name="pref_category_stationary_exercise_title">Helyhez kötött</string>
     <string name="pref_category_autopause_title">Automata megállítás</string>
@@ -555,7 +547,6 @@
     <string name="pref_app_language_translate_summary">Koppints ide ha szeretnél segíteni az alkalmazás más nyelvre fordításában</string>
     <string name="pref_back_key_mode_summary">(Minden profil)</string>
     <string name="pref_back_key_mode_dialog_title">Vissza gomb funkciója</string>
-    <string name="pref_info_title">Információ</string>
     <string name="pref_resetToDefault">Gyári beállítások</string>
     <string name="pref_units_distance_title">Távolság</string>
     <string name="pref_units_distance_dialog_title">Távolság mértékegysége</string>
@@ -839,7 +830,6 @@
     <string name="dialogTracksShareChoices_1">Csak GPX</string>
     <!-- pref_gps_update_freq_entries -->
     <string name="pref_gps_update_freq_entries_0">Leggyorsabb</string>
-    <string name="pref_gps_update_freq_entries_1">0.5 mp</string>
     <string name="pref_gps_update_freq_entries_2">Javasolt</string>
     <string name="pref_gps_update_freq_entries_3">1 mp</string>
     <string name="pref_gps_update_freq_entries_4">2 mp</string>
@@ -852,16 +842,6 @@
     <string name="pref_gps_update_freq_entries_11">30 mp</string>
     <string name="pref_gps_update_freq_entries_12">45 mp</string>
     <string name="pref_gps_update_freq_entries_13">1 perc</string>
-    <string name="pref_gps_update_freq_entries_14">2 perc</string>
-    <string name="pref_gps_update_freq_entries_15">3 perc</string>
-    <string name="pref_gps_update_freq_entries_16">4 perc</string>
-    <string name="pref_gps_update_freq_entries_17">5 perc</string>
-    <string name="pref_gps_update_freq_entries_18">10 perc</string>
-    <string name="pref_gps_update_freq_entries_19">15 perc</string>
-    <string name="pref_gps_update_freq_entries_20">20 perc</string>
-    <string name="pref_gps_update_freq_entries_21">30 perc</string>
-    <string name="pref_gps_update_freq_entries_22">45 perc</string>
-    <string name="pref_gps_update_freq_entries_23">1 óra</string>
     <!-- pref_gps_boost_modes -->
     <string name="pref_gps_boost_modes_0">Térkép megjelenítése (ajánlott)</string>
     <string name="pref_gps_boost_modes_1">Képernyő be</string>
@@ -1042,7 +1022,6 @@
     <string name="meterModes_7">Energia</string>
     <string name="meterModes_8">Hatékonyság</string>
     <string name="meterModes_9">Teljesítmény</string>
-    <string name="meterModes_10">Hatásos teljesítmény</string>
     <string name="meterModes_11">Függ. telj</string>
     <string name="meterModes_12">Függ. seb.</string>
     <string name="meterModes_13">Gyorsulás</string>
@@ -1194,7 +1173,6 @@
     <string name="meterModeStepCountShort">lépésszám</string>
     <string name="controlPanelLocationButton">Hely adatok</string>
     <string name="tracksHistoryListNoMap">Térkép nem rögzíthető.</string>
-    <string name="summaryStepCount">Lépésszám</string>
     <string name="sensorStepLengthNotSetWarning">Lépéshossz nincs megadva</string>
     <string name="sensorPurposeSteps">Lépések</string>
     <string name="sensorStepDetectorName">Lépésszámláló</string>

@@ -352,7 +352,6 @@
     <string name="unitDegree">°</string>
     <string name="unitMegabyte">MB</string>
     <string name="valueTimesCount">×</string>
-    <string name="meterGPS">GPS</string>
     <string name="meterModeSpeed">velocità</string>
     <string name="meterModeSpeedShort">vel</string>
     <string name="meterModeSpeedVertical">velocità verticale</string>
@@ -373,7 +372,6 @@
     <string name="meterModePowerShort">pot</string>
     <string name="meterModePowerAverage">potenza media</string>
     <string name="meterModePowerAverageShort">pot m</string>
-    <string name="meterModeFTP">pot att</string>
     <string name="meterModeAcceleration">accelerazione</string>
     <string name="meterModeAccelerationShort">acc</string>
     <string name="meterModeDistance">distanza</string>
@@ -424,7 +422,6 @@
     </string>
     <string name="profilesListButtonResetTotals">Azzera totali</string>
     <string name="profilesListProfileNotUsed">(non utilizzato)</string>
-    <string name="profilesListLoading">Caricamento…</string>
     <string name="cloudAccountsTitle">Account</string>
     <string name="cloudAccountsInfo">La connessione a un servizio cloud rende più semplice il caricamento e la condivisione dei tuoi percorsi con gli altri.
 \n
@@ -463,7 +460,6 @@
     <string name="summaryHeartBeats">Battiti cardiaci</string>
     <string name="summaryCadenceStrokes">Pedalate</string>
     <string name="summarySpecific">Specifica</string>
-    <string name="summaryMechEnergy">Energia mecc.</string>
     <string name="sensorsTitle">Sensori</string>
     <string name="sensorsTabUsed">Utilizzati</string>
     <string name="sensorsTabFound">Trovati</string>
@@ -528,7 +524,6 @@
     <string name="pref_category_params_title">Parametri</string>
     <string name="pref_group_units_title">Unità</string>
     <string name="pref_category_units_title">Unità di misura</string>
-    <string name="pref_category_colors_title">Colori</string>
     <string name="pref_category_colors_light_title">Tema chiaro</string>
     <string name="pref_category_colors_dark_title">Tema scuro</string>
     <string name="pref_category_map_colors_title">Colori mappa</string>
@@ -537,9 +532,6 @@
     <string name="pref_category_advanced_title">Avanzato</string>
     <string name="pref_group_advanced_title">Avanzate…</string>
     <string name="pref_category_other_title">Altro</string>
-    <string name="pref_category6_title">Aiuto</string>
-    <string name="pref_category7_title">Condividi</string>
-    <string name="pref_category8_title">Info</string>
     <string name="pref_category_gps_interval_title">Intervallo aggiornamento GPS</string>
     <string name="pref_category_stationary_exercise_title">Attività da fermo</string>
     <string name="pref_category_autopause_title">Pausa automatica</string>
@@ -596,7 +588,6 @@
     <string name="pref_app_language_translate_summary">Fai clic qui se vuoi collaborare a tradurre questa app in un\'altra lingua</string>
     <string name="pref_back_key_mode_summary">(Tutti i profili)</string>
     <string name="pref_back_key_mode_dialog_title">Modo tasto Indietro</string>
-    <string name="pref_info_title">Info</string>
     <string name="pref_resetToDefault">Ripristina ai valori predefiniti</string>
     <string name="pref_units_distance_title">Distanza</string>
     <string name="pref_units_distance_dialog_title">Unità distanza</string>
@@ -945,7 +936,6 @@
     <string name="meterModes_7">Energia</string>
     <string name="meterModes_8">Efficacia</string>
     <string name="meterModes_9">Potenza</string>
-    <string name="meterModes_10">Potenza attiva</string>
     <string name="meterModes_11">Potenza vert.</string>
     <string name="meterModes_12">Velocità vert.</string>
     <string name="meterModes_13">Accelerazione</string>
@@ -963,7 +953,6 @@
     <string name="meterModes_25">Odometro</string>
     <!-- pref_gps_update_freq_entries -->
     <string name="pref_gps_update_freq_entries_0">Il più veloce</string>
-    <string name="pref_gps_update_freq_entries_1">0,5 sec</string>
     <string name="pref_gps_update_freq_entries_2">Predefinito</string>
     <string name="pref_gps_update_freq_entries_3">1 sec</string>
     <string name="pref_gps_update_freq_entries_4">2 sec</string>
@@ -976,16 +965,6 @@
     <string name="pref_gps_update_freq_entries_11">30 sec</string>
     <string name="pref_gps_update_freq_entries_12">45 sec</string>
     <string name="pref_gps_update_freq_entries_13">1 min</string>
-    <string name="pref_gps_update_freq_entries_14">2 min</string>
-    <string name="pref_gps_update_freq_entries_15">3 min</string>
-    <string name="pref_gps_update_freq_entries_16">4 min</string>
-    <string name="pref_gps_update_freq_entries_17">5 min</string>
-    <string name="pref_gps_update_freq_entries_18">10 min</string>
-    <string name="pref_gps_update_freq_entries_19">15 min</string>
-    <string name="pref_gps_update_freq_entries_20">20 min</string>
-    <string name="pref_gps_update_freq_entries_21">30 min</string>
-    <string name="pref_gps_update_freq_entries_22">45 min</string>
-    <string name="pref_gps_update_freq_entries_23">1 ora</string>
     <!-- pref_gps_boost_modes -->
     <string name="pref_gps_boost_modes_0">Mappa mostrata (predefinito)</string>
     <string name="pref_gps_boost_modes_1">Schermo attivo</string>
@@ -1269,7 +1248,6 @@
     <string name="meterModeStepCountShort">passi</string>
     <string name="controlPanelLocationButton">Posizione</string>
     <string name="tracksHistoryListNoMap">La mappa non è stata registrata.</string>
-    <string name="summaryStepCount">Passi</string>
     <string name="sensorStepLengthNotSetWarning">Non è stata impostata la lunghezza dei passi</string>
     <string name="sensorPurposeSteps">Passi</string>
     <string name="sensorStepDetectorName">Rilevamento passi</string>
