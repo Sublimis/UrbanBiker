@@ -728,9 +728,8 @@
     <string name="pref_power_coefs_summary">Зона сопротивления воздуха: %1$s 
 \nСопротивление качению: %2$s</string>
     <string name="pref_energy_params_title">Параметры энергии</string>
-    <string name="pref_energy_params_summary">Эффективность: %1$s
-\nМетаболизм: %2$s
-    </string>
+    <string name="pref_energy_params_summary">Эффективность: %1$s 
+\nОбмен веществ: %2$s</string>
     <string name="pref_svg_data_enable_title">Создание диаграмм</string>
     <string name="pref_svg_data_enable_summary">Создавать файлы SVG с диаграммами различных параметров поездки</string>
     <string name="pref_svg_data_modes_select_title">Выбор типов диаграмм…</string>
@@ -775,7 +774,7 @@
     <string name="infoMeterModeDurationTitle">Продолжительность</string>
     <string name="infoMeterModeDurationMsg">Продолжительность трека, вероятно, исключая паузы или остановки.</string>
     <string name="infoMeterModeElapsedTitle">Прошедшее время</string>
-    <string name="infoMeterModeElapsedMsg">Прошедшее время, включая все паузы, но не включая остановки.</string>
+    <string name="infoMeterModeElapsedMsg">Продолжительность трека, включая все паузы, но не включая остановки.</string>
     <string name="infoMeterModeEnergyTitle">Энергия</string>
     <string name="infoMeterModeEnergyMsg">Энергия, потраченная в пути (в расчёт берётся эффективность и BMR).</string>
     <string name="infoMeterModeEfficacyTitle">Эффективность (совокупная)</string>
@@ -788,19 +787,17 @@
     <string name="infoMeterModeAltitudeTitle">Высота</string>
     <string name="infoMeterModeSlopeTitle">Уклон</string>
     <string name="infoMeterModeSpeedTitle">Скорость</string>
-    <string name="infoMeterModeSpeedMsg">Скорость — текущая, максимальная и средняя.</string>
+    <string name="infoMeterModeSpeedMsg">Мгновенное расстояние, пройденное за единицу времени.</string>
     <string name="infoMeterModeVerticalSpeedTitle">Вертикальная скорость</string>
     <string name="infoMeterModePaceTitle">Темп</string>
-    <string name="infoMeterModePaceMsg">Обратная скорость — текущая, максимальная и минимальная.</string>
+    <string name="infoMeterModePaceMsg">Обратная скорость, т. е. время, затраченное на единицу расстояния.</string>
     <string name="infoMeterModeAccelerationTitle">Ускорение</string>
-    <string name="infoMeterModeAccelerationMsg">Изменение скорости — текущее, максимальное и минимальное.
-\n
-\nОтрицательное значение говорит о замедлении.</string>
+    <string name="infoMeterModeAccelerationMsg">Изменение скорости во времени. 
+\n 
+\nОтрицательная величина означает замедление.</string>
     <string name="infoMeterModePowerTitle">Мощность</string>
     <string name="infoMeterModeAvgActivePowerTitle">Средняя активная мощность</string>
-    <string name="infoMeterModeAvgActivePowerMsg">Средняя мощность, приложенная во время активности, без учёта периодов, когда мощность отсутствовала или была действительно небольшой (спуск, торможение, выбег).
-\n
-\nПри выполнении напряжённой тренировки это будет в основном ваша ФПМ (функциональная пороговая мощность).</string>
+    <string name="infoMeterModeAvgActivePowerMsg">Средняя мощность, приложенная во время активности, без учёта периодов времени, когда мощность отсутствовала (спуск, торможение, выбег).</string>
     <string name="infoMeterModeVerticalPowerTitle">Вертикальная мощность</string>
     <string name="infoMeterModeTemperatureTitle">Температура</string>
     <string name="infoMeterModePressureTitle">Давление</string>
@@ -1029,31 +1026,21 @@
     <string name="pref_maps_routes_draw_summary">Рисовать выбранные маршруты GPX пунктирными линиями на карте</string>
     <string name="prefMapGuideRouteColorTitle">Руководство по цвету маршрута</string>
     <string name="infoMeterModeWriggleMsg">Измеряет, насколько путь отклоняется от прямой линии, т.е. насколько сильно вы петляете вместо того, чтобы ехать прямо. Обычно чем ниже, тем лучше.</string>
-    <string name="infoMeterModeAltitudeMsg">Высота над средним уровнем моря (геоид) — текущая, максимальная и минимальная.
+    <string name="infoMeterModeAltitudeMsg">Высота над средним уровнем моря (геоид).</string>
+    <string name="infoMeterModeSlopeMsg">Уклон (постепенный) — число, описывающее характер рельефа местности, где ноль означает горизонтальную поверхность. Большие числа означают крутой подъём, а отрицательные — спуск.</string>
+    <string name="infoMeterModeVerticalSpeedMsg">Скорость подъёма (положительная) или спуска (отрицательная) в вертикальном направлении.</string>
+    <string name="infoMeterModePowerMsg">Потеря или приобретение мощности во время активности из-за смены высоты, сил сопротивлений и т.д.
 \n
-\nОбратите внимание: она может отставать от реального значения из-за неизбежных задержек цифровой фильтрации.</string>
-    <string name="infoMeterModeSlopeMsg">Уклон (постепенный) — число, описывающее характер рельефа местности, где ноль означает горизонтальную поверхность. Большие числа означают крутой подъём, а отрицательные — спуск.
+\nОтрицательная величина означает приобретение мощности (от гравитации, торможения…).
 \n
-\nОбратите внимание: он может отставать от реального значения на минуту или около того из-за неизбежных задержек цифровой фильтрации.</string>
-    <string name="infoMeterModeVerticalSpeedMsg">Скорость подъёма (положительная) или спуска (отрицательная) — текущая, максимальная и минимальная.
+\nКогда учёт в ккал/ч или кДж/ч, также принимается в расчёт эффективность и BMR.</string>
+    <string name="infoMeterModeVerticalPowerMsg">Потеря или приобретение мощности во время подъёма или спуска.
 \n
-\nОбратите внимание: она может отставать от реального значения из-за неизбежных задержек цифровой фильтрации.</string>
-    <string name="infoMeterModePowerMsg">Потеря или приобретение мощности из-за смены высоты, сил сопротивлений и т.д. — текущая, максимальная и минимальная.
+\nОтрицательная величина означает потерю мощности (спуск).
 \n
-\nОтрицательное значение говорит о приобретении силы (от гравитации, торможения…).
-\n
-\nКогда учёт в ккал/ч или кДж/ч, также принимается в расчёт эффективность и BMR.
-\n
-\nОбратите внимание: она может отставать от реального значения на минуту или около того из-за неизбежных задержек цифровой фильтрации.</string>
-    <string name="infoMeterModeVerticalPowerMsg">Потеря или приобретение мощности во время подъёма или спуска — текущая, максимальная и минимальная.
-\n
-\nОтрицательное значение говорит о потери мощности (спуск).
-\n
-\nКогда учёт в ккал/ч или кДж/ч, также принимается в расчёт эффективность.
-\n
-\nОбратите внимание: она может отставать от реального значения на минуту или около того из-за неизбежных задержек цифровой фильтрации.</string>
-    <string name="infoMeterModeTemperatureMsg">Температура окружающей среды, полученная от датчика устройства — текущая, максимальная и минимальная.</string>
-    <string name="infoMeterModePressureMsg">Давление окружающей среды, полученное от датчика устройства — текущее, максимальное и минимальное.</string>
+\nКогда учёт в ккал/ч или кДж/ч, также принимается в расчёт эффективность.</string>
+    <string name="infoMeterModeTemperatureMsg">Температура окружающей среды, полученная от датчика устройства.</string>
+    <string name="infoMeterModePressureMsg">Давление окружающей среды, полученное от датчика устройства.</string>
     <string name="infoMeterModeGearRatioMsg">Соотношение оборотов колеса к обороту педалей за единицу времени, т.е. соотношение размеров передней и задней звёздочки. Чем выше число, тем выше передача.</string>
     <string name="dialogReviewNudgeMessage">Вам нравится Urban Biker\?</string>
     <string name="dialogAppOptimizedPromptTitle">Экономия батареи</string>
@@ -1253,4 +1240,29 @@
     <string name="pref_text_automatic">Автоматически</string>
     <string name="sensorProperitesActivityRecognition">Распознавание физической активности</string>
     <string name="sensorProperitesActivityRecognitionInfo">Датчик будет предоставлять данные только тогда, когда ваша физическая активность будет признана совместимой с назначением датчика. Например, шагометр будет считать шаги во время ходьбы или бега, но не во время езды на велосипеде. Обратите внимание, что результат работы этой функции может быть не 100% точным и может запаздывать. Требуются сервисы Google Play.</string>
+    <string name="meterModeFTPower">мощ ft</string>
+    <string name="meterModeFTPowerShort">м ft</string>
+    <string name="summaryProfileNameInfo">Профиль, используемый для записи трека.</string>
+    <string name="summaryDeviceNameInfo">Устройство, используемое для записи трека.</string>
+    <string name="summaryTotalWeightInfo">Суммарный вес, используемый при записи трека (водитель, автомобиль, груз, ...).</string>
+    <string name="summaryWheelsWeightInfo">Суммарный вес всех колёс транспортного средства, используемого при записи трека.</string>
+    <string name="summaryEfficiencyInfo">Общая тепловая эффективность на треке.</string>
+    <string name="summaryDragAreaInfo">Зона сопротивления воздуха (Cd·A).</string>
+    <string name="summaryRollResistCoefInfo">Коэффициент сопротивления качению.</string>
+    <string name="summaryBasalMetabolicRateInfo">Основной обмен веществ (BMR).</string>
+    <string name="summaryLocationIntervalInfo">Средний промежуток времени между обновлениями местоположения трека.</string>
+    <string name="summaryDeviceRestartsCountInfo">Сколько раз приложение было принудительно закрыто или устройство переставало работать во время этой активности.</string>
+    <string name="summaryTotalTimeInfo">Промежуток времени между началом и окончанием трека.</string>
+    <string name="summaryStoppedTimeInfo">Время, затраченное на остановки (вручную, либо с использованием автопаузы).</string>
+    <string name="summaryHeartBeatsInfo">Количество ударов сердца, обнаруженное во время активности.</string>
+    <string name="summaryCadenceStrokesInfo">Количество нажиманий педалей, обнаруженное во время активности..</string>
+    <string name="summaryMechWork">Механическая работа</string>
+    <string name="summaryMechWorkInfo">Только механическая работа, затраченная на эту активность (без учёта тепловой эффективности и BMR).</string>
+    <string name="summaryActivePower">Активная мощность</string>
+    <string name="infoMeterModeFuncThresholdPowerTitle">Функциональная пороговая мощность</string>
+    <string name="infoMeterModeFuncThresholdPowerMsg">Расчётная максимальная мощность, которая может поддерживаться в течение длительного периода времени.
+\n
+\nОценка сильно зависит от вида и продолжительности активности.</string>
+    <string name="infoDigitalFilterNotice">Обратите внимание: возможно отставание от реального значения на минуту или около того из-за неизбежных задержек цифровой фильтрации.</string>
+    <string name="meterModes_29">Мощность FT</string>
 </resources>
