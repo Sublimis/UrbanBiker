@@ -231,7 +231,7 @@
     <string name="dialogPowerWeightsWeightPassengers">Passageiros</string>
     <string name="dialogPowerWeightsWeightWheels">Rodas</string>
     <string name="dialogPowerParamsTitle">Coeficientes de perda de Potência</string>
-    <string name="dialogPowerParamsDragArea">Área de arrasto do ar (Cd·A)</string>
+    <string name="dialogPowerParamsDragArea">Área de atrito do ar (Cd·A)</string>
     <string name="dialogPowerParamsRollResist">Coeficiente de Resistência de Rolagem (Crr)</string>
     <string name="dialogEnergyParamsTitle">Parâmetros de energia</string>
     <string name="dialogEnergyParamsEfficiency">Eficiência Termodinâmica Geral (η)</string>
@@ -422,7 +422,7 @@
     <string name="summaryTotalWeight">Peso Total</string>
     <string name="summaryWheelsWeight">Peso das Rodas</string>
     <string name="summaryEfficiency">Eficiência (η)</string>
-    <string name="summaryDragArea">Área de Arrasto</string>
+    <string name="summaryDragArea">Área de Atrito</string>
     <string name="summaryRollResistCoef">Coef. de Resistência de Rolagem</string>
     <string name="summaryBasalMetabolicRate">Taxa Metabólica Basal</string>
     <string name="summaryLocationInterval">Intervalo de Localização</string>
@@ -726,7 +726,7 @@
     <string name="pref_power_weights_title">Pesos</string>
     <string name="pref_power_weights_summary">Condutor: %1$s, Veículo: %2$s, Carga: %3$s, Passageiros: %4$s, Rodas: %5$s</string>
     <string name="pref_power_coefs_title">Coeficientes</string>
-    <string name="pref_power_coefs_summary">Área de arrasto: %1$s
+    <string name="pref_power_coefs_summary">Área de atrito: %1$s 
 \nResist. de Rolagem: %2$s</string>
     <string name="pref_energy_params_title">Parâmetros de energia</string>
     <string name="pref_energy_params_summary">Eficiência Termodinâmica (η): %1$s
@@ -776,7 +776,7 @@
     <string name="infoMeterModeDurationTitle">Duração</string>
     <string name="infoMeterModeDurationMsg">Duração do percurso, excluindo eventuais pausas ou paragens.</string>
     <string name="infoMeterModeElapsedTitle">Tempo Decorrido</string>
-    <string name="infoMeterModeElapsedMsg">Tempo decorrido, incluindo todas as pausas, mas excluindo as paragens.</string>
+    <string name="infoMeterModeElapsedMsg">Duração do percurso, incluindo todas as pausas, mas excluindo as paragens.</string>
     <string name="infoMeterModeEnergyTitle">Energia</string>
     <string name="infoMeterModeEnergyMsg">Energia gasta no percurso, tendo em conta a Eficiência Termodinâmica (η) e a TMB.</string>
     <string name="infoMeterModeEfficacyTitle">Eficácia (Cumulativa)</string>
@@ -788,51 +788,37 @@
     <string name="infoMeterModeWriggleTitle">Curva</string>
     <string name="infoMeterModeWriggleMsg">Medida de desvio do percurso de uma linha reta. Ou seja, quanto preenche uma área em vez de ser um percurso reto. Valores menores, geralmente são melhores.</string>
     <string name="infoMeterModeAltitudeTitle">Altitude</string>
-    <string name="infoMeterModeAltitudeMsg">Altura acima do nível médio do mar (Geóide) — Atual, Máximo e Mínimo.
-\n
-\nPor favor note: Isto pode ser atrasado em tempo real, devido a inevitáveis atrasos na filtragem digital.</string>
+    <string name="infoMeterModeAltitudeMsg">Altura acima do nível médio do mar (geóide).</string>
     <string name="infoMeterModeSlopeTitle">Inclinação</string>
-    <string name="infoMeterModeSlopeMsg">Inclinação (gradiente), um número que descreve a inclinação do terreno, onde zero é horizontal. Um número mais alto significa subida mais acentuada e negativo é para descida.
-\n
-\nPor favor note: Isto pode ser atrasado em tempo real em um minuto ou mais, devido a inevitáveis atrasos de filtragem digital.</string>
+    <string name="infoMeterModeSlopeMsg">Inclinação (gradiente), um número que descreve a inclinação do terreno, onde zero é horizontal. Um número mais alto significa subida mais acentuada e negativo é para descida.</string>
     <string name="infoMeterModeSpeedTitle">Velocidade</string>
-    <string name="infoMeterModeSpeedMsg">Velocidade — Atual, Máxima e Média.</string>
+    <string name="infoMeterModeSpeedMsg">Distância instantânea percorrida por unidade de tempo.</string>
     <string name="infoMeterModeVerticalSpeedTitle">Velocidade Vertical</string>
-    <string name="infoMeterModeVerticalSpeedMsg">Velocidade na direção ascendente (Positiva) ou descendente (Negativa) — Atual, Máxima e Mínima.
-\n
-\nPor favor note: Isto pode ser atrasado em tempo real, devido a inevitáveis atrasos na filtragem digital.</string>
+    <string name="infoMeterModeVerticalSpeedMsg">Velocidade na direção vertical para cima (Positiva) ou para baixo (Negativa).</string>
     <string name="infoMeterModePaceTitle">Ritmo</string>
-    <string name="infoMeterModePaceMsg">Velocidade Inversa — Atual, Máxima e Média.</string>
+    <string name="infoMeterModePaceMsg">Ritmo ou Velocidade Inversa, isto é, tempo decorrido por unidade de distância.</string>
     <string name="infoMeterModeAccelerationTitle">Aceleração</string>
-    <string name="infoMeterModeAccelerationMsg">Taxa de mudança de velocidade — Atual, Máximo e Mínimo.
-\n
-\nNegativo significa desaceleração.
+    <string name="infoMeterModeAccelerationMsg">Taxa de mudança de velocidade no tempo.
 \n
 \nNegativo significa desaceleração.</string>
     <string name="infoMeterModePowerTitle">Potência</string>
-    <string name="infoMeterModePowerMsg">Potência exercida devido a forças de atrito, mudança de altitude, etc. — Atual, Máxima e Média.
-\n
-\nNegativo significa ganho de Potência, por exemplo em descida ou ao travar.
-\n
-\nQuando em Kcal/h ou KJ/h, também tem em conta a Eficiência e a TMB.
-\n
-\nPor favor note: Isto pode ser atrasado em cerca de um minuto em tempo real, devido a inevitáveis atrasos na filtragem digital.</string>
+    <string name="infoMeterModePowerMsg">Potência exercida durante a atividade, devido a forças de atrito, mudança de altitude, etc.
+\n 
+\nNegativo significa ganho de Potência, por exemplo em descida ou ao travar. 
+\n 
+\nQuando em Kcal/h ou KJ/h, também tem em conta a Eficiência e a TMB.</string>
     <string name="infoMeterModeAvgActivePowerTitle">Potência Ativa Média</string>
-    <string name="infoMeterModeAvgActivePowerMsg">Potência Média exercida durante a atividade, sem contar os intervalos em que a Potência estava ausente ou muito baixa (em descida, travagem ou por inércia).
-\n
-\nAo fazer um treino intenso, esta será basicamente a sua PLF (Potência de Limite Funcional).</string>
+    <string name="infoMeterModeAvgActivePowerMsg">Potência média exercida durante a atividade, sem contar os intervalos de tempo em que a energia estava ausente (descida, travagem, inércia).</string>
     <string name="infoMeterModeVerticalPowerTitle">Potência Vertical</string>
-    <string name="infoMeterModeVerticalPowerMsg">Perda ou ganho de Potência ao subir ou descer — Atual, Máximo e Mínimo.
-\n
-\nNegativo significa ganho de Potência (Descida).
-\n
-\nQuando em Kcal/h ou KJ/h, também tem em conta a Eficiência.
-\n
-\nPor favor note: Isto pode ser atrasado em tempo real em um minuto ou mais, devido a inevitáveis atrasos na filtragem digital.</string>
+    <string name="infoMeterModeVerticalPowerMsg">Perda ou ganho de Potência ao subir ou descer.
+\n 
+\nNegativo significa ganho de Potência (Descida). 
+\n 
+\nQuando em Kcal/h ou KJ/h, também tem em conta a Eficiência.</string>
     <string name="infoMeterModeTemperatureTitle">Temperatura</string>
-    <string name="infoMeterModeTemperatureMsg">Temperatura ambiente medida com o dispositivo — Actual, Máxima e Mínima.</string>
+    <string name="infoMeterModeTemperatureMsg">Temperatura ambiente medida com o dispositivo.</string>
     <string name="infoMeterModePressureTitle">Pressão Atmosférica</string>
-    <string name="infoMeterModePressureMsg">Pressão Atmosférica medida com o dispositivo — Atual, Máxima e Mínima.</string>
+    <string name="infoMeterModePressureMsg">Pressão Atmosférica medida com o dispositivo.</string>
     <string name="infoMeterModeClockTitle">Relógio</string>
     <string name="infoMeterModeClockMsg">Hora atual.</string>
     <string name="infoMeterModeCadenceTitle">Cadência</string>
@@ -1244,4 +1230,29 @@
     <string name="pref_text_automatic">Automático</string>
     <string name="sensorProperitesActivityRecognition">Reconhecimento de atividade física</string>
     <string name="sensorProperitesActivityRecognitionInfo">O sensor fornecerá dados apenas quando a sua atividade física for reconhecida como compatível com a finalidade do sensor. Por exemplo, o Sensor de Passos conta os passos enquanto caminha ou corre, e não conta enquanto anda de bicicleta. Note que isso pode não ser 100% exato e pode estar lento. Os Serviços do Google Play são necessários.</string>
+    <string name="meterModeFTPower">Potência de Limiar Funcional</string>
+    <string name="meterModeFTPowerShort">Pot. Lim. Func.</string>
+    <string name="summaryProfileNameInfo">Perfil usado para gravar este percurso.</string>
+    <string name="summaryDeviceNameInfo">Dispositivo usado para gravar este percurso.</string>
+    <string name="summaryTotalWeightInfo">Soma de todos os pesos utilizados durante a gravação deste percurso (atleta, veículo, carga, ...).</string>
+    <string name="summaryWheelsWeightInfo">Soma dos pesos de todas as rodas do veículo usado neste percurso.</string>
+    <string name="summaryEfficiencyInfo">Eficiência térmica geral apurada durante o percurso.</string>
+    <string name="summaryDragAreaInfo">Área de atrito do ar (Cd·A).</string>
+    <string name="summaryRollResistCoefInfo">Coeficiente de resistência de rolagem.</string>
+    <string name="summaryBasalMetabolicRateInfo">Taxa Metabólica Basal (TMB).</string>
+    <string name="summaryLocationIntervalInfo">Intervalo médio de tempo entre duas atualizações de local neste percurso.</string>
+    <string name="summaryDeviceRestartsCountInfo">Número de vezes que a aplicação foi forçada a fechar ou o dispositivo parou de funcionar durante esta atividade.</string>
+    <string name="summaryTotalTimeInfo">Intervalo de tempo entre a hora de início e a hora de término deste percurso.</string>
+    <string name="summaryStoppedTimeInfo">Tempo gasto numa pausa, manualmente ou durante a pausa automática.</string>
+    <string name="summaryHeartBeatsInfo">Número de batimentos cardíacos detetados durante a atividade.</string>
+    <string name="summaryCadenceStrokesInfo">Número de pedaladas detetadas durante a atividade.</string>
+    <string name="summaryMechWork">Trabalho Mecânico</string>
+    <string name="summaryMechWorkInfo">Trabalho puramente mecânico gasto para esta atividade (desconsiderando a eficiência térmica e a TMB).</string>
+    <string name="summaryActivePower">Potência Ativa</string>
+    <string name="infoMeterModeFuncThresholdPowerTitle">Potência de Limiar Funcional</string>
+    <string name="infoMeterModeFuncThresholdPowerMsg">Potência máxima estimada que pode ser mantida por períodos mais longos. 
+\n
+\nA estimativa depende muito do tipo e duração da atividade.</string>
+    <string name="infoDigitalFilterNotice">Observação: isto pode ser atrasado em tempo real em mais ou menos um minuto, devido a inevitáveis atrasos na filtragem digital.</string>
+    <string name="meterModes_29">Potência de Limiar Funcional</string>
 </resources>
