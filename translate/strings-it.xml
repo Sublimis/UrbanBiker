@@ -810,7 +810,7 @@
     <string name="infoMeterModeDurationTitle">Durata</string>
     <string name="infoMeterModeDurationMsg">Durata del viaggio, possibilmente con esclusione delle soste o le fermate.</string>
     <string name="infoMeterModeElapsedTitle">Tempo trascorso</string>
-    <string name="infoMeterModeElapsedMsg">Tempo trascorso, incluse tutte le soste ma escluse le fermate.</string>
+    <string name="infoMeterModeElapsedMsg">Durata del viaggio, incluse tutte le soste ma escluse le fermate.</string>
     <string name="infoMeterModeEnergyTitle">Energia</string>
     <string name="infoMeterModeEnergyMsg">Energia consumata per il viaggio, considerando efficienza e BMR.</string>
     <string name="infoMeterModeEfficacyTitle">Efficacia (cumulativa)</string>
@@ -822,71 +822,37 @@
     <string name="infoMeterModeWriggleTitle">Fuori rotta</string>
     <string name="infoMeterModeWriggleMsg">Misura di una deviazione di rotta da una linea diritta, ossia quanto riempie l\'area anziché andare diritta. Un valore più basso è in genere migliore.</string>
     <string name="infoMeterModeAltitudeTitle">Altitudine</string>
-    <string name="infoMeterModeAltitudeMsg">Altezza sopra il livello del mare (id geografico) — Attuale, massimo e minimo.
-\n
-\nNota: può essere ritardato rispetto al tempo reale, a causa di ritardi dei filtri digitali.
-\n
-\nNota: può essere ritardato rispetto al tempo reale, a causa di ritardi dei filtri digitali.</string>
+    <string name="infoMeterModeAltitudeMsg">Altezza sopra il livello medio del mare (id geografico).</string>
     <string name="infoMeterModeSlopeTitle">Pendenza</string>
-    <string name="infoMeterModeSlopeMsg">Pendenza (gradiente), numero che descrive l\'inclinazione del terreno dove zero è orizzontale. Un numero più alto indica una salita più ripida, un numero negativo indica discesa.
-\n
-\nNota: può essere ritardato rispetto al tempo reale di un minuto circa, a causa di ritardi dei filtri digitali.
-\n
-\nNota: può essere ritardato rispetto al tempo reale di un minuto circa, a causa di ritardi dei filtri digitali.</string>
+    <string name="infoMeterModeSlopeMsg">Pendenza (gradiente), numero che descrive l\'inclinazione del terreno dove zero è orizzontale. Un numero più alto indica una salita più ripida, un numero negativo indica discesa.</string>
     <string name="infoMeterModeSpeedTitle">Velocità</string>
-    <string name="infoMeterModeSpeedMsg">Velocità — Attuale, massima e media.</string>
+    <string name="infoMeterModeSpeedMsg">Distanza istantanea percorsa per unità di tempo.</string>
     <string name="infoMeterModeVerticalSpeedTitle">Velocità verticale</string>
-    <string name="infoMeterModeVerticalSpeedMsg">Velocità verso l\'alto (positiva) o verso il basso (negativa) — Attuale, massima e minima.
-\n
-\nNota: può essere ritardato rispetto al tempo reale, a causa di ritardi dei filtri digitali.
-\n
-\nNota: può essere ritardato rispetto al tempo reale, a causa di ritardi dei filtri digitali.</string>
+    <string name="infoMeterModeVerticalSpeedMsg">Velocità verso l\'alto (verticale positiva) o verso il basso (verticale negativa).</string>
     <string name="infoMeterModePaceTitle">Andatura</string>
-    <string name="infoMeterModePaceMsg">Velocità inversa — Attuale, massima e media.</string>
+    <string name="infoMeterModePaceMsg">Velocità inversa, ossia tempo trascorso per unità di distanza.</string>
     <string name="infoMeterModeAccelerationTitle">Accelerazione</string>
-    <string name="infoMeterModeAccelerationMsg">Tasso del cambio di velocità — Attuale, massima e minima.
-\n
-\nNegativo indica decelerazione.
-\n
+    <string name="infoMeterModeAccelerationMsg">Tasso del cambio di velocità, in tempo.
+\n 
 \nNegativo indica decelerazione.</string>
     <string name="infoMeterModePowerTitle">Potenza</string>
-    <string name="infoMeterModePowerMsg">Potenza esercitata da forze aerodinamiche, cambio di altitudine, ecc. — Attuale, massima e media.
-\n
-\nNegativa indica guadagno di potenza, per es. quando sei in discesa o in frenata.
-\n
-\nSe in kcal/h o kJ/h, considera anche efficienza e BMR.
-\n
-\nNota: può essere in ritardo rispetto al tempo reale di circa un minuto, a causa di inevitabili ritardi dei filtri digitali.
-\n
-\nNegativa indica guadagno di potenza, per es. quando sei in discesa o in frenata.
-\n
-\nSe in kcal/h o kJ/h, considera anche efficienza e BMR.
-\n
-\nNota: può essere in ritardo rispetto al tempo reale di circa un minuto, a causa di inevitabili ritardi dei filtri digitali.</string>
+    <string name="infoMeterModePowerMsg">Potenza esercitata durante l\'attività da forze aerodinamiche, cambio di altitudine, ecc.
+\n 
+\nNegativa indica guadagno di potenza, per es. quando sei in discesa o in frenata. 
+\n 
+\nSe in kcal/h o kJ/h, considera anche efficienza e MB.</string>
     <string name="infoMeterModeAvgActivePowerTitle">Potenza attiva media</string>
-    <string name="infoMeterModeAvgActivePowerMsg">La potenza media esercitata durante l\'attività, non considerando gli intervalli dove la potenza è assente o davvero bassa (downhill, frenate, coasting).
-\n
-\nQuando esegui un allenamento intenso, questa sarà fondamentalmente la tua FTP (Functional Threshold Power, \'Potenza alla soglia funzionale\' ).
-\n
-\nQuando esegui un allenamento intenso, questa sarà fondamentalmente la tua (Functional Threshold Power, \'Potenza di soglia funzionale\' ).</string>
+    <string name="infoMeterModeAvgActivePowerMsg">La potenza media esercitata durante l\'attività, non considerando gli intervalli di tempo dove la potenza era assente (downhill, frenate, coasting).</string>
     <string name="infoMeterModeVerticalPowerTitle">Potenza verticale</string>
-    <string name="infoMeterModeVerticalPowerMsg">Perdita o guadagno di potenza durante la salita o la discesa — Attuale, massima e minima.
+    <string name="infoMeterModeVerticalPowerMsg">Perdita o guadagno di potenza durante la salita o la discesa.
 \n
 \nNegativo significa guadagno di potenza (discesa).
 \n
-\nSe in kcal/h o kJ/h, considera anche l\'efficienza.
-\n
-\nNota: può essere in ritardo rispetto al tempo reale di circa un minuto, a causa di inevitabili ritardi dei filtri digitali.
-\n
-\nNegativo significa guadagno di potenza (discesa).
-\n
-\nSe in kcal/h o kJ/h, considera anche l\'efficienza.
-\n
-\nNota: può essere in ritardo rispetto al tempo reale di circa un minuto, a causa di inevitabili ritardi dei filtri digitali.</string>
+\nSe in kcal/h o kJ/h, considera anche l\'efficienza.</string>
     <string name="infoMeterModeTemperatureTitle">Temperatura</string>
-    <string name="infoMeterModeTemperatureMsg">Temperatura ambientale misurata col dispositivo — Attuale, massima e minima.</string>
+    <string name="infoMeterModeTemperatureMsg">Temperatura ambientale come misurata col dispositivo.</string>
     <string name="infoMeterModePressureTitle">Pressione</string>
-    <string name="infoMeterModePressureMsg">Pressione ambientale misurata col dispositivo — Attuale, massima e minima.</string>
+    <string name="infoMeterModePressureMsg">Pressione ambientale come misurata col dispositivo.</string>
     <string name="infoMeterModeClockTitle">Orologio</string>
     <string name="infoMeterModeClockMsg">Ora attuale del giorno.</string>
     <string name="infoMeterModeCadenceTitle">Cadenza</string>
@@ -1298,4 +1264,29 @@
     <string name="pref_text_automatic">Automatico</string>
     <string name="sensorProperitesActivityRecognition">Riconoscimento di attività fisica</string>
     <string name="sensorProperitesActivityRecognitionInfo">Il sensore fornirà dati solo quando riconosce che la tua attività fisica è compatibile. Per esempio, il sensore dei passi conterà i passi durante la camminata o la corsa e non durante un allenamento in bicicletta. Nota che questo potrebbe non essere preciso al 100% e funzionare con ritardi. Sono richiesti i servizi Google Play.</string>
+    <string name="meterModeFTPower">pot ft</string>
+    <string name="meterModeFTPowerShort">ftp</string>
+    <string name="summaryProfileNameInfo">Profilo utilizzato per registrare questo percorso.</string>
+    <string name="summaryDeviceNameInfo">Dispositivo utilizzato per registrare questo percorso.</string>
+    <string name="summaryTotalWeightInfo">Somma di tutti i pesi utilizzati durante la registrazione di questo percorso (persona, veicolo, carico, …).</string>
+    <string name="summaryWheelsWeightInfo">Somma dei pesi di tutte le ruote del veicolo utilizzato in questo percorso.</string>
+    <string name="summaryEfficiencyInfo">Efficienza termina complessiva della potenza del percorso.</string>
+    <string name="summaryDragAreaInfo">Area di resistenza dell\'aria (Cd·A).</string>
+    <string name="summaryRollResistCoefInfo">Coefficiente di resistenza del rotolamento.</string>
+    <string name="summaryBasalMetabolicRateInfo">Metabolismo basale (MB).</string>
+    <string name="summaryLocationIntervalInfo">Intervallo di tempo medio tra gli aggiornamenti di due posizioni in questo percorso.</string>
+    <string name="summaryDeviceRestartsCountInfo">Numero di volte in cui è stata forzata la chiusura dell\'app o fermato il dispositivo durante questa attività.</string>
+    <string name="summaryTotalTimeInfo">Intervallo di tempo tra l\'inizio e la fine di questo percorso.</string>
+    <string name="summaryStoppedTimeInfo">Tempo trascorso in pausa, sia manuale sia automatica.</string>
+    <string name="summaryHeartBeatsInfo">Numero di battiti cardiaci rilevati durante l\'attività.</string>
+    <string name="summaryCadenceStrokesInfo">Numero di pedalate rilevate durante l\'attività.</string>
+    <string name="summaryMechWork">Lavoro meccanico</string>
+    <string name="summaryMechWorkInfo">Lavoro meccanico puro speso per questa attività (non considerando l\'efficienza termica e il MB).</string>
+    <string name="summaryActivePower">Potenza attiva</string>
+    <string name="infoMeterModeFuncThresholdPowerTitle">Potenza alla soglia funzionale</string>
+    <string name="infoMeterModeFuncThresholdPowerMsg">Potenza massima stimata percorribile per periodi più lunghi.
+\n
+\nLa stima dipende soprattutto dal tipo e la durata di questa attività.</string>
+    <string name="infoDigitalFilterNotice">Nota: si può verificare un ritardo di circa un minuto rispetto al tempo reale, dovuto ai ritardi inevitabili dei filtri digitali.</string>
+    <string name="meterModes_29">Potenza FT</string>
 </resources>
