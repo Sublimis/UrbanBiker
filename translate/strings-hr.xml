@@ -776,7 +776,7 @@
     <string name="infoMeterModeDurationTitle">Trajanje</string>
     <string name="infoMeterModeDurationMsg">Trajanje putovanja, eventualno isključujući pauze i stajanja.</string>
     <string name="infoMeterModeElapsedTitle">Proteklo vrijeme</string>
-    <string name="infoMeterModeElapsedMsg">Proteklo vrijeme, uključujući sve pauze, ali ne i zaustavljanja.</string>
+    <string name="infoMeterModeElapsedMsg">Trajanje putovanja, uključujući sve pauze, ali ne i zaustavljanja.</string>
     <string name="infoMeterModeEnergyTitle">Energija</string>
     <string name="infoMeterModeEnergyMsg">Energija utrošena na putovanje, uzimajući u obzir efikasnost i BMR.</string>
     <string name="infoMeterModeEfficacyTitle">Efikasnost (kumulativna)</string>
@@ -788,49 +788,37 @@
     <string name="infoMeterModeWriggleTitle">Vijuganje</string>
     <string name="infoMeterModeWriggleMsg">Mjera odstupanja staze od ravne linije, tj. koliko staza ispunjava površinu umjesto da ide ravno. Manje je najčešće bolje.</string>
     <string name="infoMeterModeAltitudeTitle">Visina</string>
-    <string name="infoMeterModeAltitudeMsg">Nadmorska visina (geoid) — Trenutna, maksimalna i minimalna.
-\n
-\nNapomena: Ovo može kasniti u odnosu na stvarno vrijeme, zbog neizbježnih kašnjenja u digitalnom filtriranju.</string>
+    <string name="infoMeterModeAltitudeMsg">Nadmorska visina (geoid).</string>
     <string name="infoMeterModeSlopeTitle">Nagib</string>
-    <string name="infoMeterModeSlopeMsg">Nagib (gradijent), broj koji opisuje nagnutost terena gdje je nula vodoravno. Veći broj znači strmiju uzbrdicu, a negativno je za nizbrdicu.
-\n
-\nNapomena: Ovo može kasniti i do jedne minute u odnosu na stvarno vrijeme, zbog neizbježnih kašnjenja u digitalnom filtriranju.</string>
+    <string name="infoMeterModeSlopeMsg">Nagib (gradijent), broj koji opisuje nagnutost terena gdje je nula vodoravno. Veći broj znači strmiju uzbrdicu, a negativno je za nizbrdicu.</string>
     <string name="infoMeterModeSpeedTitle">Brzina</string>
-    <string name="infoMeterModeSpeedMsg">Brzina — Trenutna, maksimalna i minimalna.</string>
+    <string name="infoMeterModeSpeedMsg">Trenutna prijeđena udaljenost po jedinici vremena.</string>
     <string name="infoMeterModeVerticalSpeedTitle">Vertikalna brzina</string>
-    <string name="infoMeterModeVerticalSpeedMsg">Brzina u smjeru gore (pozitivno) ili dolje (negativno) — Trenutna, maksimalna i minimalna.
-\n
-\nNapomena: Ovo može kasniti u odnosu na stvarno vrijeme, zbog neizbježnih kašnjenja u digitalnom filtriranju.</string>
+    <string name="infoMeterModeVerticalSpeedMsg">Brzina u vertikalnom smjeru gore (pozitivno) ili dolje (negativno).</string>
     <string name="infoMeterModePaceTitle">Tempo</string>
-    <string name="infoMeterModePaceMsg">Inverzna brzina — Trenutna, maksimalna i prosječna.</string>
+    <string name="infoMeterModePaceMsg">Obrnuta brzina, tj. vrijeme proteklo po jedinici udaljenosti.</string>
     <string name="infoMeterModeAccelerationTitle">Ubrzanje</string>
-    <string name="infoMeterModeAccelerationMsg">Stopa promjene brzine — Trenutna, maksimalna i minimalna.
-\n
+    <string name="infoMeterModeAccelerationMsg">Stopa promjene brzine u vremenu. 
+\n 
 \nNegativno označava deceleraciju.</string>
     <string name="infoMeterModePowerTitle">Snaga</string>
-    <string name="infoMeterModePowerMsg">Snaga zbog sila trenja, promjene visine, itd. — Trenutna, maksimalna i prosječna.
-\n
-\nNegativno znači dobitak snage, npr. tijekom spusta ili kočenja.
-\n
-\nKad su jedinice kcal/h ili kJ/h, također uzima u obzir efikasnost i BMR.
-\n
-\nNapomena: Ovo može kasniti i do jedne minute u odnosu na stvarno vrijeme, zbog neizbježnih kašnjenja u digitalnom filtriranju.</string>
+    <string name="infoMeterModePowerMsg">Snaga izdana zbog sila trenja, promjene visine, itd.
+\n 
+\nNegativno znači dobitak snage, npr. tijekom spusta ili kočenja. 
+\n 
+\nKad su jedinice kcal/h ili kJ/h, također uzima u obzir efikasnost i BMR.</string>
     <string name="infoMeterModeAvgActivePowerTitle">Srednja aktivna snaga</string>
-    <string name="infoMeterModeAvgActivePowerMsg">Srednja snaga tijekom aktivnosti, ne računajući intervale u kojima je snaga bila odsutna ili jako mala (nizbrdica, kočenje, klizanje).
-\n
-\nKad radite naporan trening, to će u osnovi biti vaš FTP (snaga funkcionalnog praga).</string>
+    <string name="infoMeterModeAvgActivePowerMsg">Srednja snaga tijekom aktivnosti, ne računajući vremenske intervale u kojima je snaga bila odsutna (nizbrdica, kočenje, klizanje).</string>
     <string name="infoMeterModeVerticalPowerTitle">Vertikalna snaga</string>
-    <string name="infoMeterModeVerticalPowerMsg">Gubitak ili dobitak snage tijekom uspona ili spusta — Trenutni, maksimalni i minimalni.
-\n
-\nNegativno označava dobitak snage (spuštanje).
-\n
-\nKada su jedinice kcal/h ili kJ/h, također uzima u obzir efikasnost.
-\n
-\nNapomena: Ovo može kasniti i do jedne minute u odnosu na stvarno vrijeme, zbog neizbježnih kašnjenja u digitalnom filtriranju.</string>
+    <string name="infoMeterModeVerticalPowerMsg">Gubitak ili dobitak snage tijekom uspona ili spusta. 
+\n 
+\nNegativno označava dobitak snage (spuštanje). 
+\n 
+\nKada su jedinice kcal/h ili kJ/h, također uzima u obzir efikasnost.</string>
     <string name="infoMeterModeTemperatureTitle">Temperatura</string>
-    <string name="infoMeterModeTemperatureMsg">Temperatura okoline izmjerena uređajem — Trenutna, maksimalna i minimalna.</string>
+    <string name="infoMeterModeTemperatureMsg">Temperatura okoline izmjerena uređajem.</string>
     <string name="infoMeterModePressureTitle">Tlak</string>
-    <string name="infoMeterModePressureMsg">Atmosferski tlak izmjeren uređajem — Trenutni, maksimalni i minimalni.</string>
+    <string name="infoMeterModePressureMsg">Atmosferski tlak izmjeren uređajem.</string>
     <string name="infoMeterModeClockTitle">Sat</string>
     <string name="infoMeterModeClockMsg">Trenutno doba dana.</string>
     <string name="infoMeterModeCadenceTitle">Kadenca</string>
@@ -1242,4 +1230,29 @@
     <string name="pref_text_automatic">Automatski</string>
     <string name="sensorProperitesActivityRecognition">Prepoznavanje tjelesne aktivnosti</string>
     <string name="sensorProperitesActivityRecognitionInfo">Senzor će pružati podatke samo ako se prepozna da su vaše fizičke aktivnosti kompatibilne sa svrhom senzora. Na primjer, senzor koraka brojati će korake dok hodate ili trčite, a ne dok vozite bicikl. Napomena, ovo možda neće biti 100% točno, i može sporo reagirati. Potrebne su usluge Google Play.</string>
+    <string name="meterModeFTPower">ftp</string>
+    <string name="meterModeFTPowerShort">ftp</string>
+    <string name="summaryProfileNameInfo">Profil korišten za snimanje ove staze.</string>
+    <string name="summaryDeviceNameInfo">Uređaj korišten za snimanje ove staze.</string>
+    <string name="summaryTotalWeightInfo">Zbroj svih težina koje su se koristile pri snimanju ove staze (vozač, vozilo, teret,…).</string>
+    <string name="summaryWheelsWeightInfo">Zbroj težina svih kotača na vozilu koje se koristilo pri snimanju ove staze.</string>
+    <string name="summaryEfficiencyInfo">Ukupna toplinska učinkovitost osobe odnosno mašine.</string>
+    <string name="summaryDragAreaInfo">Površina otporu zraka (Cd·A).</string>
+    <string name="summaryRollResistCoefInfo">Koeficijent otpora kotrljanja.</string>
+    <string name="summaryBasalMetabolicRateInfo">Stopa bazalnog metabolizma (BMR).</string>
+    <string name="summaryLocationIntervalInfo">Prosječni vremenski interval između dva ažuriranja lokacije na ovoj stazi.</string>
+    <string name="summaryDeviceRestartsCountInfo">Koliko puta je aplikacija bila prisilno zatvorena ili je uređaj prestao raditi tijekom ove aktivnosti.</string>
+    <string name="summaryTotalTimeInfo">Vremenski interval između početnog i završnog vremena ove staze.</string>
+    <string name="summaryStoppedTimeInfo">Vrijeme provedeno pauzirajući, bilo ručno ili tijekom upotrebe automatske stanke.</string>
+    <string name="summaryHeartBeatsInfo">Broj otkucaja srca tijekom aktivnosti.</string>
+    <string name="summaryCadenceStrokesInfo">Broj okreta pedala tijekom aktivnosti.</string>
+    <string name="summaryMechWork">Meh. rad</string>
+    <string name="summaryMechWorkInfo">Čisto mehanički rad utrošen na ovu aktivnost (zanemarujući toplinsku učinkovitost i BMR).</string>
+    <string name="summaryActivePower">Aktivna snaga</string>
+    <string name="infoMeterModeFuncThresholdPowerTitle">Funkcionalna snaga praga</string>
+    <string name="infoMeterModeFuncThresholdPowerMsg">Procijenjena maksimalna snaga koja se može održavati u dužim vremenskim razdobljima.
+\n
+\nProcjena uvelike ovisi o vrsti i trajanju ove aktivnosti.</string>
+    <string name="infoDigitalFilterNotice">Napomena: Ovo može kasniti i do jedne minute u odnosu na stvarno vrijeme, zbog neizbježnih kašnjenja pri digitalnom filtriranju.</string>
+    <string name="meterModes_29">FTP</string>
 </resources>
