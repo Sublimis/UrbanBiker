@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="locale">pl-PL</string>
-    <string name="app_name">Urban Biker</string>
+    <string name="app_name">Miejski rower</string>
     <string name="app_description">Śledź i mierz swoje przejazdy z dużą dokładnością. Zwiększ swoją efektwność i bezpieczeństwo jazdy.</string>
     <string name="widget_1_description">Rowerzysta: Dzwonek rowerowy</string>
     <string name="widget_2_description">Rowerzysta: Dzwonek + latarka</string>
     <string name="widget_3_description">Rowerzysta: Kompletny</string>
     <string name="proLicenseLabel">Pro</string>
-    <string name="proPlusLicenseLabel">Pro+</string>
+    <string name="proPlusLicenseLabel">Prof+</string>
     <string name="ultimateLicenseLabel">Najwyższy</string>
     <string name="proLicenseTitle">Licencja Pro</string>
     <string name="proLicenseDescription">Usuń reklamy</string>
@@ -27,8 +27,8 @@
     <string name="menuTracksHistoryResume">Wznów</string>
     <string name="menuMeterLock">Zablokuj</string>
     <string name="menuMeterLockAll">Zablokuj wszystko</string>
-    <string name="menuMeterMode">Tryb licznika</string>
-    <string name="menuMeterChooseModes">Wybierz tryby</string>
+    <string name="menuMeterMode">Tryb licznika..</string>
+    <string name="menuMeterChooseModes">Wybierz tryb…</string>
     <string name="menuMeterNewTrack">Nowa trasa</string>
     <string name="menuMeterResetMinMax">Resetuj min/max</string>
     <string name="menuMeterParameters">Parametry…</string>
@@ -299,7 +299,7 @@
     <string name="pref_text_off">Wyłącz</string>
     <string name="pref_text_min">Min</string>
     <string name="pref_text_medium">Średnio</string>
-    <string name="pref_text_max">Max</string>
+    <string name="pref_text_max">Maks</string>
     <string name="pref_category1_title">Dźwięki</string>
     <string name="pref_category2_title">Wyświetlacz</string>
     <string name="pref_category_general_title">Ogólne</string>
@@ -316,7 +316,7 @@
     <string name="pref_category_visualThemeAuto">Automatyczny motyw</string>
     <string name="pref_category4_title">Głośność (relatywnie)</string>
     <string name="pref_category_advanced_title">Zaawansowane</string>
-    <string name="pref_group_advanced_title">Zaawansowane</string>
+    <string name="pref_group_advanced_title">Zaawansowane…</string>
     <string name="pref_category_other_title">Inne</string>
     <string name="pref_category_gps_interval_title">Częstotliwość aktualizacji GPS</string>
     <string name="pref_category_autopause_title">Automatyczna pauza</string>
@@ -328,7 +328,7 @@
     <string name="pref_category_effects_title">Efekty</string>
     <string name="pref_category_alarms_title">Alarmy</string>
     <string name="pref_category_tallies_title">Etapy</string>
-    <string name="pref_category_select_title">Wybierz...</string>
+    <string name="pref_category_select_title">Wybierz…</string>
     <string name="pref_category_fonts_title">Czcionka</string>
     <string name="pref_category_buttons_title">Przyciski</string>
     <string name="pref_category_meters_title">Liczniki</string>
@@ -474,7 +474,7 @@
     <string name="pref_button_menu_show_summary">Pokaż przycisk Menu</string>
     <string name="pref_meter_enable_title">Włącz</string>
     <string name="pref_meter_enable_summary">Pokaż lub ukryj ten licznik</string>
-    <string name="pref_meter_modes_select_title">Wybierz dostępne tryby...</string>
+    <string name="pref_meter_modes_select_title">Wybierz dostępne tryby…</string>
     <string name="pref_speedo_display_mode_title">Wygląd</string>
     <string name="pref_powermeter_display_mode_dialog_title">Tryb wyświetlacza mocy</string>
     <string name="pref_power_weights_title">Wagi</string>
@@ -483,7 +483,7 @@
     <string name="pref_power_coefs_title">Współczynniki</string>
     <string name="pref_energy_params_title">Parametry Energetyczne</string>
     <string name="pref_svg_data_enable_title">Wygeneruj wykresy</string>
-    <string name="pref_svg_data_modes_select_title">Wybierz typ wykresu...</string>
+    <string name="pref_svg_data_modes_select_title">Wybierz typ wykresu…</string>
     <string name="pref_flashlightAutoPocketMode_title">Tryb kieszeniowy</string>
     <string name="pref_flashlightAutoPocketMode_summary">Użyj czujnika zbliżeniowego do wyłączenia latarki kiedy niepotrzebna</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Przycisk przełączający</string>
@@ -710,18 +710,18 @@
     <string name="summaryStartedDatetime">Początek</string>
     <string name="summaryEndedDatetime">Zakończenie</string>
     <string name="summaryTotalTime">Czas całkowity</string>
-    <string name="summaryStoppedTime">Czas zatrzymania</string>
+    <string name="summaryStoppedTime">Czas postoju</string>
     <string name="summaryHeartBeats">Uderzeń serca</string>
     <string name="summaryCadenceStrokes">Obroty pedału</string>
     <string name="summarySpecific">Specyficzny</string>
-    <string name="sensorsTitle">Sensory</string>
-    <string name="sensorsTabUsed">Użyte</string>
+    <string name="sensorsTitle">Czujniki</string>
+    <string name="sensorsTabUsed">Używane czujniki</string>
     <string name="sensorsTabFound">Znalezione</string>
     <string name="sensorsSectionUsedInProfile">Użyte w profilu</string>
     <string name="sensorsSectionSupported">Wspierane</string>
     <string name="sensorsSectionUnsupported">Nie wspierane</string>
-    <string name="sensorsEmptyList">Pusta lista</string>
-    <string name="sensorsMenuScan">Skan</string>
+    <string name="sensorsEmptyList">"Pusta lista  czujników"</string>
+    <string name="sensorsMenuScan">Szukam czujników</string>
     <string name="sensorMenuAddToProfile">Dodaj do profilu</string>
     <string name="sensorMenuRemoveFromProfile">Usuń z profilu</string>
     <string name="sensorMenuProperties">Właściwości</string>
@@ -729,10 +729,10 @@
     <string name="sensorMenuDisable">Wyłącz</string>
     <string name="sensorMenuDelete">Zapomnij</string>
     <string name="sensorRemoveConfirmDialogMsg">Usunąć z profilu\?</string>
-    <string name="sensorDeleteConfirmDialogMsg">Zapomnieć ten sensor\?</string>
-    <string name="sensorAddedMsg">Sensor dodany do profilu</string>
-    <string name="sensorRemovedMsg">Sensor usunięto z profilu</string>
-    <string name="sensorDeletedMsg">Sensor zapomniano</string>
+    <string name="sensorDeleteConfirmDialogMsg">Zapomnieć ten czujnik\?</string>
+    <string name="sensorAddedMsg">Czujnik dodany do profilu</string>
+    <string name="sensorRemovedMsg">Czujnik usunięto z profilu</string>
+    <string name="sensorDeletedMsg">Czujnik zapomniano</string>
     <string name="sensorPurposeNone">(Brak celu)</string>
     <string name="sensorPurposeCadence">Kadencja</string>
     <string name="sensorPurposeSpeed">Prędkość</string>
@@ -751,7 +751,7 @@
     <string name="sensorProperitesWheelPerimeter">Obwód koła</string>
     <string name="sensorProperitesIsAutoPerimeter">Automatyczny</string>
     <string name="sensorProperitesIsAutoPerimeterInfo">Zostanie przeprowadzony automatyczny pomiar obwodu koła podczas jazdy.</string>
-    <string name="sensorProperitesWheelPerimeterNotSet">Nie ustawione</string>
+    <string name="sensorProperitesWheelPerimeterNotSet">Właściwości Czujnika. Wielkość kół nie ustawiona</string>
     <string name="sensorProperitesStrideLen">Długość kroku</string>
     <string name="sensorProperitesIsAutoStrideLen">Automatyczny</string>
     <string name="sensorProperitesStrideLenNotSet">Nie ustawiono</string>
@@ -1111,7 +1111,7 @@
 \nW przypadku kcal / h lub kJ / h uwzględnia również wydajność.
 \n
 \nUwaga: może to być opóźnione w czasie rzeczywistym o około minutę, ze względu na nieuniknione opóźnienia filtrowania cyfrowego.</string>
-    <string name="infoMeterModeTemperatureMsg">Temperatura otoczenia mierzona za pomocą urządzenia - aktualna, maksymalna i minimalna.</string>
+    <string name="infoMeterModeTemperatureMsg">Temperatura otoczenia mierzona za pomocą urządzenia</string>
     <string name="infoMeterModePressureTitle">Ciśnienie</string>
     <string name="infoMeterModePressureMsg">Ciśnienie otoczenia mierzone za pomocą urządzenia - aktualne, maksymalne i minimalne.</string>
     <string name="infoMeterModeClockMsg">Aktualna pora dnia.</string>
@@ -1232,4 +1232,26 @@
     <string name="summaryDeviceNameInfo">Urządzenie, na którym nagrywasz trasę.</string>
     <string name="controlPanelMapSettingsButtonTitle">Ustawienia mapy</string>
     <string name="controlPanelMapSettingsButtonSubtitle">Kliknij Ustawienia mapy</string>
+    <string name="meterModeFTPower">ft pwr</string>
+    <string name="meterModeFTPowerShort">fmp funkcjonalna moc progowa</string>
+    <string name="summaryTotalWeightInfo">Suma wszystkich obciążeń użytych podczas rejestrowania tej trasy (jadący, pojazd, z ładunkiem, …).</string>
+    <string name="summaryWheelsWeightInfo">Suma masy wszystkich kół na pojazdach używanych na tej trasie.</string>
+    <string name="summaryEfficiencyInfo">Ogólna efektywność termiczna trasy.</string>
+    <string name="summaryDragAreaInfo">Obszar ciągłości powietrznej (Cd●A).</string>
+    <string name="summaryRollResistCoefInfo">Obrotowy współczynnik oporu.</string>
+    <string name="summaryBasalMetabolicRateInfo">Wskaźnik metaboliczny Basal (BMR).</string>
+    <string name="summaryLocationIntervalInfo">Średni odstęp czasu między dwoma lokalizacjami na tej trasie.</string>
+    <string name="summaryDeviceRestartsCountInfo">Liczba razy aplikacja była zamknięta lub urządzenie przestało działać podczas tej aktywności.</string>
+    <string name="summaryTotalTimeInfo">Międzyczas trasy od startu do zakończenia tej trasy.</string>
+    <string name="summaryStoppedTimeInfo">Czas spędzony na przerwie ręcznie, albo używając auto-pauzy.</string>
+    <string name="summaryHeartBeatsInfo">Liczba uderzeń serca wykrytych podczas aktywności.</string>
+    <string name="summaryCadenceStrokesInfo">Ruch pedałowy podczas działania.</string>
+    <string name="summaryMechWork">Praca mechaniczna</string>
+    <string name="summaryMechWorkInfo">Działania mechaniczne przeznaczone na tę działalność (nie odnoszące się do efektywności termicznej i BMR).</string>
+    <string name="summaryActivePower">Aktywna moc</string>
+    <string name="infoMeterModeFuncThresholdPowerTitle">Funkcjonalna Moc Progowa</string>
+    <string name="infoMeterModeFuncThresholdPowerMsg">Szacowana maksymalna moc, która może być utrzymana przez dłuższy okres czasu.
+\n
+\nSzacunki są bardzo zależne od rodzaju i czasu trwania tej działalności.</string>
+    <string name="infoDigitalFilterNotice">Proszę zauważyć: można to opóźnić od czasu rzeczywistego o minutę, z powodu nieuniknionych opóźnień cyfrowych.</string>
 </resources>
