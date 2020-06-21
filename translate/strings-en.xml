@@ -164,7 +164,7 @@
     <string name="toastFlashlightButtonClickInfo">Long-click to toggle the flashlight</string>
     <string name="toastRoarButtonClickInfo">Long-click to toggle the AVAS sound</string>
     <string name="toastMapButtonClickInfo">Long-click to toggle the map</string>
-    <string name="toastMapClickInfo">Long-tap for map settings</string>
+    <string name="toastMapClickInfo">Long-tap for map options</string>
     <string name="toastMapFollowingOn">Follow on</string>
     <string name="toastMapFollowingAutorotate">Auto-rotate on</string>
     <string name="toastMapFollowingOff">Follow off</string>
@@ -344,7 +344,7 @@
     <string name="dialogActivityRecognitionPermissionRequestTitle">Physical activity permission</string>
     <string name="dialogActivityRecognitionPermissionRequest">Permission is needed so the app can use built-in sensors like Step Detector sensor.</string>
     <string name="dialogScreenshotTitle">Screenshot</string>
-    <string name="dialogGoogleMapTermsViolation">Capturing the contents of a Google map is not permitted, so map type must first be changed to any other.\n\nChange map type now?</string>
+    <string name="dialogGoogleMapTermsViolation">Google does not permit capturing contents of their maps, so map type must first be changed to any other.\n\nChange map type now?</string>
     <string name="dialogWaitTitle">Please wait</string>
     <string name="dialogScreenshotPreparing">Preparing screenshot…</string>
 
@@ -512,8 +512,8 @@
     <string name="controlPanelUnitsButtonSubtitle">Click to change units</string>
     <string name="controlPanelSensorsButtonTitle">Sensors</string>
     <string name="controlPanelSensorsButtonSubtitle">Click to manage sensors</string>
-    <string name="controlPanelMapSettingsButtonTitle">Map settings</string>
-    <string name="controlPanelMapSettingsButtonSubtitle">Click for map settings</string>
+    <string name="controlPanelMapSettingsButtonTitle">Map options</string>
+    <string name="controlPanelMapSettingsButtonSubtitle">Click for map options</string>
 
     <string name="profilesListTitle">Profiles</string>
     <string name="profilesListTitleSelectProfile">Switch Profile</string>
@@ -789,7 +789,9 @@
     <string name="pref_screenAutoPocketMode_title">Pocket mode</string>
     <string name="pref_screenAutoPocketMode_summary">(All profiles) Use proximity sensor to keep the display off while not needed</string>
     <string name="pref_screenWaveOnOffMode_title">Waving mode</string>
-    <string name="pref_screenWaveOnOffMode_summary">Dim and app-lock the display by waving twice in front of it. Wave again to brighten and unlock.</string>
+    <string name="pref_screenWaveOnOffMode_summary">App-lock the display by waving twice in front of it. Wave again to unlock.</string>
+    <string name="pref_screenWaveDim_title">Dim display</string>
+    <string name="pref_screenWaveDim_summary">Display will also be dimmed, to save battery</string>
     <string name="pref_ring_on_stop_title">Ring on stop</string>
     <string name="pref_ring_on_stop_summary">Ring the automatic bell when the speed drops to zero, too</string>
     <string name="pref_disable_bell_button_title">Disable bell button</string>
