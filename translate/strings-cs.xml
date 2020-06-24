@@ -589,7 +589,7 @@
     <string name="pref_screenAutoPocketMode_title">Kapesní mód</string>
     <string name="pref_screenAutoPocketMode_summary">(Všechny profily) Použij senzor přiblížení k vypnutí displeje, pokud se nepoužívá</string>
     <string name="pref_ring_on_stop_title">Zvonit při zastavení</string>
-    <string name="pref_ring_on_stop_summary">Automaticky zvonit také když se rychlost blíží nule</string>
+    <string name="pref_ring_on_stop_summary">Automaticky zvonit také, když se rychlost blíží nule</string>
     <string name="pref_disable_bell_button_title">Zakázat tlačítko zvonku</string>
     <string name="pref_disable_bell_button_summary">Zakázat zvonění zvonku kliknutím na měřič rychlosti</string>
     <string name="pref_obey_audio_focus_disable_title">Zakázat ztrátu zvuku</string>
@@ -1066,8 +1066,7 @@
     <string name="ultimateLicenseFeatures">🔹 Všechny mapy
 \n🔹 Všechny funkce
 \n🔹 Bez reklam</string>
-    <string name="proPlusLicenseFeatures">🔹 Bez reklam
-\n🔹 Speciální příspěvek</string>
+    <string name="proPlusLicenseFeatures">✔ Bez reklam ✔ Extra příspěvek</string>
     <string name="proLicenseFeatures">🔹 Bez reklam</string>
     <string name="thunderforestMapsFeatures">🔹 Thunderforest mapy
 \n🔹 Bez reklam</string>
@@ -1227,9 +1226,9 @@
     <string name="menuMeterStart">Spustit</string>
     <string name="menuMeterStop">Zastavit</string>
     <string name="dialogScreenshotTitle">Snímek obrazovky</string>
-    <string name="dialogGoogleMapTermsViolation">Snímání Google mapy není povoleno, proto musíte mapu nejdříve změnit za jinou.
-\n
-\nPřepnout na mapy Stamen\?</string>
+    <string name="dialogGoogleMapTermsViolation">Snímání Google mapy není povoleno, proto musíte mapu nejdříve změnit za jinou. 
+\n 
+\nPřepnout na jiný styl mapy\?</string>
     <string name="dialogWaitTitle">Prosím čekejte</string>
     <string name="dialogScreenshotPreparing">Připravuji snímek…</string>
     <string name="mapMarkerMyLocation">Má poloha</string>
@@ -1242,4 +1241,11 @@
     <string name="pref_text_automatic">Automaticky</string>
     <string name="sensorProperitesActivityRecognition">Rozpoznání fyzické aktivity</string>
     <string name="sensorProperitesActivityRecognitionInfo">Senzor dá nějaká data pouze když rozpozná aktivitu kompatibilní se senzorem. Např. čítač kroků bude počítat kroky pouze když běžíte nebo jdete, ale ne když jedete na kole. Nemusí to však být přesné a může se zpožďovat. Vyžaduje služby Google Play.</string>
+    <string name="summaryTotalTimeInfo">Časový interval mezi počátečním a konečným časem této trasy.</string>
+    <string name="summaryHeartBeatsInfo">Počet srdečních tepů zjištěných během aktivity.</string>
+    <string name="summaryCadenceStrokesInfo">Počet záběrů pedálů zjištěných během aktivity.</string>
+    <string name="summaryMechWork">Mech. práce</string>
+    <string name="summaryActivePower">Aktivní síla</string>
+    <string name="pref_screenWaveDim_title">Ztmavit displej</string>
+    <string name="pref_screenWaveDim_summary">Displej bude ztmaven za účelem šetření baterie</string>
 </resources>
