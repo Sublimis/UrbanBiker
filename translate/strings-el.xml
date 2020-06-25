@@ -765,7 +765,7 @@
     <string name="infoMeterModeDurationTitle">Διάρκεια</string>
     <string name="infoMeterModeDurationMsg">Διάρκεια του ταξιδιού, ενδεχομένως εξαιρουμένων οποιονδήποτε παύσεων ή στάσεων.</string>
     <string name="infoMeterModeElapsedTitle">Υπολειπόμενος χρόνος</string>
-    <string name="infoMeterModeElapsedMsg">Χρόνος που έχει παρέλθει, συμπεριλαμβανομένων όλων των παύσεων, αλλά εξαιρουμένων των στάσεων.</string>
+    <string name="infoMeterModeElapsedMsg">Διάρκεια διαδρομής, συμπεριλαμβανομένων όλων των παύσεων, αλλά εξαιρουμένων των στάσεων.</string>
     <string name="infoMeterModeEnergyTitle">Ενέργεια</string>
     <string name="infoMeterModeEnergyMsg">Η ενέργεια που δαπανάται για το ταξίδι, λαμβάνοντας υπόψη την αποδοτικότητα και τον βασικό ρυθμό μεταβολισμού.</string>
     <string name="infoMeterModeEfficacyTitle">Αποτελεσματικότητα (σωρευτικά)</string>
@@ -778,19 +778,17 @@
     <string name="infoMeterModeAltitudeTitle">Υψόμετρο</string>
     <string name="infoMeterModeSlopeTitle">Κλίση</string>
     <string name="infoMeterModeSpeedTitle">Ταχύτητα</string>
-    <string name="infoMeterModeSpeedMsg">Ταχύτητα - Τρέχουσα, Μέγιστη και Μέση.</string>
+    <string name="infoMeterModeSpeedMsg">Στιγμιαία απόσταση που καλύπτεται ανά μονάδα χρόνου.</string>
     <string name="infoMeterModeVerticalSpeedTitle">Κάθετη ταχύτητα</string>
     <string name="infoMeterModePaceTitle">Ρυθμός</string>
-    <string name="infoMeterModePaceMsg">Αντίστροφη ταχύτητα - Τρέχουσα, Μέγιστη και Μέση.</string>
+    <string name="infoMeterModePaceMsg">Αντίστροφη ταχύτητα, δηλ. Χρόνος που έχει παρέλθει ανά μονάδα απόστασης.</string>
     <string name="infoMeterModeAccelerationTitle">Επιτάχυνση</string>
-    <string name="infoMeterModeAccelerationMsg">Ρυθμός μεταβολής της ταχύτητας - Τρέχουσα, μέγιστη και ελάχιστη.
-\n
-\nΑρνητική σημαίνει επιβράδυνση.</string>
+    <string name="infoMeterModeAccelerationMsg">"Ρυθμός μεταβολής της ταχύτητας  ανά μονάδα χρόνου. 
+\n 
+\nΑρνητική σημαίνει επιβράδυνση."</string>
     <string name="infoMeterModePowerTitle">Ισχύς</string>
     <string name="infoMeterModeAvgActivePowerTitle">Μέση ενεργή ισχύς</string>
-    <string name="infoMeterModeAvgActivePowerMsg">Μέση ισχύς που ασκήθηκε κατά τη διάρκεια της δραστηριότητας, χωρίς να υπολογίζονται χρονικά διαστήματα όπου η ισχύς απουσίαζε ή ήταν πραγματικά μικρή (κατηφόρα, φρενάρισμα, ρολάρισμα).
-\n
-\nFTP (λειτουργική ισχύς κατωφλίου).</string>
+    <string name="infoMeterModeAvgActivePowerMsg">Μέση ισχύς που ασκήθηκε κατά τη διάρκεια της δραστηριότητας, χωρίς να υπολογίζονται χρονικά διαστήματα όπου η ισχύς απουσίαζε (κατηφόρα, φρενάρισμα, ρολάρισμα).</string>
     <string name="infoMeterModeVerticalPowerTitle">Κάθετη Ισχύς</string>
     <string name="infoMeterModeTemperatureTitle">Θερμοκρασία</string>
     <string name="infoMeterModePressureTitle">Πίεση</string>
@@ -1028,31 +1026,21 @@
     <string name="prefMapTrackColorTitle">Χρώμα διαδρομής</string>
     <string name="prefMapGuideRouteColorTitle">Χρώμα διαδρομής οδηγού</string>
     <string name="infoMeterModeWriggleMsg">Μέτρο της απόκλισης της διαδρομής από μια ευθεία γραμμή, δηλαδή πόσο γεμίζει την περιοχή αντί να πηγαίνει ευθεία. Χαμηλότερα είναι συνήθως καλύτερα.</string>
-    <string name="infoMeterModeAltitudeMsg">Ύψος πάνω από τη μέση στάθμη της θάλασσας (γεωδαιτικό) - Τρέχον, μέγιστο και ελάχιστο. 
+    <string name="infoMeterModeAltitudeMsg">Ύψος πάνω από τη μέση στάθμη της θάλασσας (γεωδαιτικό).</string>
+    <string name="infoMeterModeSlopeMsg">Κλίση (βαθμίδα), ένας αριθμός που περιγράφει την κλίση του εδάφους όπου το μηδέν είναι οριζόντιο. Υψηλότερος αριθμός σημαίνει ανάβαση, και αρνητικός είναι για την κάθοδο.</string>
+    <string name="infoMeterModeVerticalSpeedMsg">Κάθετη ταχύτητα προς τα πάνω (θετική) ή προς τα κάτω (αρνητική).</string>
+    <string name="infoMeterModePowerMsg">Ισχύς που ασκείται κατά τη διάρκεια της δραστηριότητας, λόγω δυνάμεων οπισθέλκουσας, αλλαγής υψομέτρου κλπ.
 \n 
-\nΣημείωση: Μπορεί να υπάρχει καθυστέρηση από την πραγματική ώρα, λόγω των αναπόφευκτων καθυστερήσεων του ψηφιακού φιλτραρίσματος.</string>
-    <string name="infoMeterModeSlopeMsg">Κλίση (βαθμίδα), ένας αριθμός που περιγράφει την κλίση του εδάφους όπου το μηδέν είναι οριζόντιο. Υψηλότερος αριθμός σημαίνει ανάβαση, και αρνητικός είναι για την κάθοδο.
-\n
-\nΣημείωση: Αυτό μπορεί να καθυστερήσει από το πραγματικό χρόνο κατά ένα λεπτό περίπου, λόγω των αναπόφευκτων καθυστερήσεων του ψηφιακού φιλτραρίσματος.</string>
-    <string name="infoMeterModeVerticalSpeedMsg">Ταχύτητα προς τα πάνω (θετική) ή προς τα κάτω (αρνητική) - Τρέχουσα, Μέγιστη και Ελάχιστη.
-\n
-\nΣημείωση: Μπορεί να υπάρχει καθυστέρηση από την πραγματική ώρα, λόγω των αναπόφευκτων καθυστερήσεων του ψηφιακού φιλτραρίσματος.</string>
-    <string name="infoMeterModePowerMsg">Ισχύς που ασκείται λόγω δυνάμεων οπισθέλκουσας, αλλαγής υψομέτρου κλπ. - Τρέχουσα, μέγιστη και μέσος όρος.
-\n
-\nΑρνητικό σημαίνει κέρδος ισχύος, π.χ. όταν πηγαίνετε σε κατηφόρα ή φρενάρετε.
-\n
-\nΌταν είναι σε χιλιοθερμίδες/ώρα ή κιλιοτζάουλ/ώρα, λαμβάνεται επίσης υπόψη η αποτελεσματικότητα και ο βασικός μεταβολικός ρυθμός.
-\n
-\nΣημείωση: Αυτό μπορεί να καθυστερήσει από το πραγματικό χρόνο κατά ένα λεπτό περίπου, λόγω των αναπόφευκτων καθυστερήσεων του ψηφιακού φιλτραρίσματος.</string>
-    <string name="infoMeterModeVerticalPowerMsg">Απώλεια ισχύος ή κέρδος κατά την άνοδο ή την κάθοδο- τρέχουσα, μέγιστη και ελάχιστη.
-\n
-\nΤο αρνητικό σημαίνει κέρδος ισχύος (φθίνουσα).
-\n
-\nΌταν είναι σε χιλιοθερμίδες/ώρα ή κιλιοτζάουλ/ώρα, λαμβάνεται επίσης υπόψη η αποτελεσματικότητα και ο βασικός μεταβολικός ρυθμός.
-\n
-\nΣημείωση: Αυτό μπορεί να καθυστερήσει από το πραγματικό χρόνο κατά ένα λεπτό περίπου, λόγω των αναπόφευκτων καθυστερήσεων του ψηφιακού φιλτραρίσματος.</string>
-    <string name="infoMeterModeTemperatureMsg">Θερμοκρασία περιβάλλοντος μετρημένη με τη συσκευή - τρέχουσα, μέγιστη και ελάχιστη.</string>
-    <string name="infoMeterModePressureMsg">Η πίεση περιβάλλοντος που μετράται με τη συσκευή - τρέχουσα, μέγιστη και ελάχιστη.</string>
+\nΑρνητικό σημαίνει κέρδος ισχύος, π.χ. όταν πηγαίνετε σε κατηφόρα ή φρενάρετε. 
+\n 
+\nΌταν είναι σε χιλιοθερμίδες/ώρα ή κιλιοτζάουλ/ώρα, λαμβάνεται επίσης υπόψη η αποτελεσματικότητα και ο βασικός μεταβολικός ρυθμός.</string>
+    <string name="infoMeterModeVerticalPowerMsg">Απώλεια ισχύος ή κέρδος κατά την άνοδο ή την κάθοδο
+\n 
+\nΤο αρνητικό σημαίνει κέρδος ισχύος (φθίνουσα). 
+\n 
+\nΌταν είναι σε χιλιοθερμίδες/ώρα ή κιλιοτζάουλ/ώρα, λαμβάνεται επίσης υπόψη η αποτελεσματικότητα και ο βασικός μεταβολικός ρυθμός.</string>
+    <string name="infoMeterModeTemperatureMsg">Θερμοκρασία περιβάλλοντος ως μετρούμενη με τη συσκευή.</string>
+    <string name="infoMeterModePressureMsg">Η πίεση περιβάλλοντος που μετράται με τη συσκευή.</string>
     <string name="infoMeterModeCadenceMsg">Αριθμός στροφών του στροφάλου ανά λεπτό, δηλ. Ταχύτητα πεντάλ.</string>
     <string name="infoMeterModeGearRatioMsg">Αναλογία των περιστροφών τροχού έναντι του πεντάλ ανά μονάδα χρόνου, δηλαδή αναλογία μπροστινού γραναζιού και του πίσω αλυσοτροχού. Μεγαλύτερος αριθμός σημαίνει υψηλότερη ταχύτητα.</string>
     <string name="dialogReviewNudgeMessage">Απολαμβάνετε το Urban Biker;</string>
@@ -1096,7 +1084,7 @@
     <string name="unitJoulePerKg">Tζάουλ/κιλό</string>
     <string name="unitJoulePerLb">Tζάουλ/λίβρα</string>
     <string name="pref_screenWaveOnOffMode_title">Λειτουργία νεύματος</string>
-    <string name="pref_screenWaveOnOffMode_summary">Απενεργοποιήστε και κλειδώστε την οθόνη γνέφοντας δυο φορές μπροστά της. Επαναλάβετε ξανά για να φωτίσετε και να ξεκλειδώσετε.</string>
+    <string name="pref_screenWaveOnOffMode_summary">Κλειδώστε την οθόνη γνέφοντας δυο φορές μπροστά της. Επαναλάβετε ξανά για να να ξεκλειδώσετε.</string>
     <string name="pref_soundeffects_screenOff_title">Απενεργοποίηση οθόνης/εκτός</string>
     <string name="pref_soundeffects_screenOff_summary">Ήχος και δόνηση όταν η οθόνη είναι απενεργοποιημένη ή προσωρινά απενεργοποιημένη</string>
     <string name="pref_soundeffects_proximity_title">Αισθητήρας εγγύτητας</string>
@@ -1238,7 +1226,7 @@
     <string name="menuMeterStart">Εκκίνηση</string>
     <string name="menuMeterStop">Διακοπή</string>
     <string name="dialogScreenshotTitle">Στιγμιότυπο</string>
-    <string name="dialogGoogleMapTermsViolation">Δεν επιτρέπεται η καταγραφή των περιεχομένων ενός χάρτη Google, επομένως ο τύπος χαρτών πρέπει πρώτα να αλλάξει σε οποιονδήποτε άλλο. 
+    <string name="dialogGoogleMapTermsViolation">Η Google δεν επιτρέπει την καταγραφή περιεχομένου των χαρτών της, επομένως ο τύπος χάρτη πρέπει πρώτα να αλλάξει σε οποιονδήποτε άλλο
 \n 
 \nΜετάβαση στο χάρτη τώρα;</string>
     <string name="dialogWaitTitle">Παρακαλώ περιμένετε</string>
@@ -1253,7 +1241,7 @@
     <string name="pref_text_automatic">Αυτόματο</string>
     <string name="sensorProperitesActivityRecognition">Αναγνώριση σωματικής δραστηριότητας</string>
     <string name="sensorProperitesActivityRecognitionInfo">Ο αισθητήρας παρέχει δεδομένα μόνο όταν η φυσική σας δραστηριότητα αναγνωρίζεται ότι είναι συμβατή με τον σκοπό του αισθητήρα. Για παράδειγμα, ο αισθητήρας βημάτων μετράει τα βήματα ενώ περπατάτε ή τρέχετε, όχι ενώ οδηγείτε ποδήλατο. Σημειώστε ότι αυτό μπορεί να μην είναι 100% ακριβές και μπορεί να έχει καθυστερήσεις. Απαιτούνται υπηρεσίες Google Play.</string>
-    <string name="summaryProfileNameInfo">Το προφίλ χρησιμοποιήθηκε για την καταγραφή αυτής της διαδρομής</string>
+    <string name="summaryProfileNameInfo">Το προφίλ χρησιμοποιήθηκε για την καταγραφή αυτής της διαδρομής.</string>
     <string name="summaryDeviceNameInfo">Συσκευή που χρησιμοποιήθηκε για την εγγραφή αυτής της διαδρομής.</string>
     <string name="summaryTotalWeightInfo">Άθροισμα όλων των μαζών που χρησιμοποιήθηκαν κατά την καταγραφή αυτού του κομματιού (αναβάτης, όχημα, φορτίο,…).</string>
     <string name="summaryWheelsWeightInfo">Άθροισμα μάζας όλων των τροχών στο όχημα που χρησιμοποιήθηκε σε αυτήν την διαδρομή.</string>
@@ -1261,4 +1249,25 @@
     <string name="summaryRollResistCoefInfo">Συντελεστής αντίστασης κύλισης.</string>
     <string name="controlPanelMapSettingsButtonTitle">Ρυθμίσεις χάρτη</string>
     <string name="controlPanelMapSettingsButtonSubtitle">Πατήστε για επιλογές χάρτη</string>
+    <string name="meterModeFTPower">Πρόθυρα λειτουργικής ισχύος</string>
+    <string name="meterModeFTPowerShort">Πρόθυρα λειτουργικής ισχύος</string>
+    <string name="summaryDragAreaInfo">Οπισθέλκουσα (Cd·A).</string>
+    <string name="summaryBasalMetabolicRateInfo">Βασικός μεταβολικός ρυθμός (BMR).</string>
+    <string name="summaryLocationIntervalInfo">Μέσο χρονικό διάστημα μεταξύ δύο τοποθεσιών σε αυτή τη διαδρομή.</string>
+    <string name="summaryDeviceRestartsCountInfo">Πόσες φορές η εφαρμογή έκλεισε αναγκαστικά ή η συσκευή σταμάτησε να λειτουργεί κατά τη διάρκεια αυτής της δραστηριότητας.</string>
+    <string name="summaryTotalTimeInfo">Χρονικό διάστημα μεταξύ της ώρας έναρξης και της ώρας λήξης αυτής του διαδρομής.</string>
+    <string name="summaryStoppedTimeInfo">Χρόνος παύσης, είτε χειροκίνητα είτε κατά τη χρήση της αυτόματης παύσης.</string>
+    <string name="summaryHeartBeatsInfo">Αριθμός καρδιακών παλμών που ανιχνεύθηκαν κατά τη διάρκεια της δραστηριότητας.</string>
+    <string name="summaryCadenceStrokesInfo">Αριθμός πεταλιών που εντοπίστηκαν κατά τη διάρκεια της δραστηριότητας.</string>
+    <string name="summaryMechWork">Μηχ. εργασία</string>
+    <string name="summaryMechWorkInfo">Αμιγώς μηχανική εργασία που δαπανάται για αυτήν τη δραστηριότητα (χωρίς να λαμβάνεται υπόψη η θερμική απόδοση και το BMR).</string>
+    <string name="summaryActivePower">Ενεργή ισχύς</string>
+    <string name="infoMeterModeFuncThresholdPowerTitle">Πρόθυρα λειτουργικής ισχύς</string>
+    <string name="infoMeterModeFuncThresholdPowerMsg">Εκτιμώμενη μέγιστη ισχύς που μπορεί να διατηρηθεί για μεγαλύτερες χρονικές περιόδους.
+\n
+\nΗ εκτίμηση εξαρτάται σε μεγάλο βαθμό από τον τύπο και τη διάρκεια αυτής της δραστηριότητας.</string>
+    <string name="infoDigitalFilterNotice">Σημείωση: Αυτό μπορεί να καθυστερήσει από τον πραγματικό χρόνο κατά ένα λεπτό περίπου, λόγω αναπόφευκτων καθυστερήσεων ψηφιακού φιλτραρίσματος.</string>
+    <string name="meterModes_29">Προθ. λειτ. ισχύος</string>
+    <string name="pref_screenWaveDim_title">Σκοτείνιασμα οθόνη</string>
+    <string name="pref_screenWaveDim_summary">Η οθόνη θα σκοτεινιάσει επίσης, για εξοικονόμηση μπαταρίας</string>
 </resources>
