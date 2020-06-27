@@ -292,7 +292,7 @@
     <string name="pref_speedo_display_mode_entries_1">メーター</string>
     <string name="pref_speedo_display_mode_entries_2">数字</string>
     <string name="toastTrackingRecordingPassive">パッシブ記録</string>
-    <string name="toastMapClickInfo">長押しで地図設定</string>
+    <string name="toastMapClickInfo">長押しで地図オプション</string>
     <string name="dialog_volume_roaring_text">車両接近通報装置</string>
     <string name="dialog_volume_tallies_text">一定間隔</string>
     <string name="dialogMapsTrackColor">アクティビティ表示の色:</string>
@@ -767,7 +767,7 @@
     <string name="menuViewWith">アプリで表示 :</string>
     <string name="controlPanelEnergyParams">パワー・エネルギー 係数</string>
     <string name="tracksHistoryListViewTrackDialogTitle">走行記録を表示…</string>
-    <string name="summaryDragArea">抗力面積（ドラッグエリア）</string>
+    <string name="summaryDragArea">空気抵抗計算時の(正面)見付面積</string>
     <string name="summaryRollResistCoef">転がり抵抗係数。</string>
     <string name="summaryLocationInterval">測位間隔</string>
     <string name="summarySpecific">詳細</string>
@@ -1211,4 +1211,19 @@
     <string name="controlPanelUnitsButtonSubtitle">クリックして単位を変更</string>
     <string name="controlPanelSensorsButtonTitle">センサー</string>
     <string name="controlPanelSensorsButtonSubtitle">センサーをクリック</string>
+    <string name="meterModeFTPower">フィート パワー</string>
+    <string name="meterModeFTPowerShort">フィートパワー ショート</string>
+    <string name="summaryProfileNameInfo">この走行記録を通常記録するプロファイル</string>
+    <string name="summaryDeviceNameInfo">この走行記録を通常記録するデバイス</string>
+    <string name="summaryTotalWeightInfo">走行を記録中に使用した全ての重量の総計（走行者、車両、荷物、など）</string>
+    <string name="summaryWheelsWeightInfo">この走行記録で使用された総ホイール重量</string>
+    <string name="summaryDragAreaInfo">空気抵抗計算時の抗力係数ｘ見付面積</string>
+    <string name="summaryRollResistCoefInfo">転がり抵抗係数</string>
+    <string name="summaryDeviceRestartsCountInfo">強制終了もしくはデバイス停止の回数</string>
+    <string name="summaryHeartBeatsInfo">心拍数が検知された回数</string>
+    <string name="summaryCadenceStrokesInfo">ペダルストロークが検知された回数</string>
+    <string name="summaryMechWork">メカニカル ワーク</string>
+    <string name="summaryMechWorkInfo">この活動に使われた純メカニカルワーク(熱効率とBMRは無視)</string>
+    <string name="controlPanelMapSettingsButtonTitle">地図オプション</string>
+    <string name="controlPanelMapSettingsButtonSubtitle">クリックで地図オプション</string>
 </resources>
