@@ -582,7 +582,7 @@
     <string name="infoMeterModeDistanceOdoTitle">Odómetro</string>
     <string name="infoMeterModeDistanceOdoMsg">Distancia total recorrida desde el primer uso del perfil.</string>
     <string name="infoMeterModeDurationTitle">Duración</string>
-    <string name="infoMeterModeElapsedMsg">Tiempo transcurrido, incluye todas las pausas (excepto las paradas).</string>
+    <string name="infoMeterModeElapsedMsg">Duración del recorrido, incluye todas las pausas (excepto las paradas).</string>
     <string name="infoMeterModeEnergyTitle">Energía</string>
     <string name="infoMeterModeEnergyMsg">Energía gastada durante el viaje, teniendo en cuenta la eficiencia y el TMB.</string>
     <string name="infoMeterModeEfficacyTitle">Eficacia (acumulado)</string>
@@ -595,13 +595,13 @@
     <string name="infoMeterModeAltitudeTitle">Altitud</string>
     <string name="infoMeterModeSlopeTitle">Pendiente</string>
     <string name="infoMeterModeSpeedTitle">Velocidad</string>
-    <string name="infoMeterModeSpeedMsg">Velocidad — Actual, Máxima y Media.</string>
+    <string name="infoMeterModeSpeedMsg">Distancia instantánea recorrida por unidad de tiempo.</string>
     <string name="infoMeterModeVerticalSpeedTitle">Velocidad Vertical</string>
     <string name="infoMeterModePaceTitle">Ritmo</string>
-    <string name="infoMeterModePaceMsg">Velocidad inversa — Actual, Máxima y Promedio.</string>
+    <string name="infoMeterModePaceMsg">Ritmo o velocidad inversa, esto es, el tiempo transcurrido por unidad de distancia.</string>
     <string name="infoMeterModeAccelerationTitle">Aceleración</string>
-    <string name="infoMeterModeAccelerationMsg">Proporción de cambio de velocidad — Actual, Máxima y Mínima.
-\n
+    <string name="infoMeterModeAccelerationMsg">Proporción de cambio de velocidad en el tiempo.
+\n 
 \nNegativo significa des-aceleración.</string>
     <string name="infoMeterModePowerTitle">Potencia</string>
     <string name="infoMeterModeTemperatureTitle">Temperatura</string>
@@ -732,7 +732,7 @@
     <string name="toastTrackingStopped">Parado</string>
     <string name="toastProfilesListNonemptyDelete">Imposible borrar — ¡El perfil tiene datos sin guardar! Por favor, complételo primero.</string>
     <string name="toastProfileButtonClickInfo">Pulsación larga para cambiar de perfil</string>
-    <string name="toastMapClickInfo">Pulsación larga para configuración del mapa</string>
+    <string name="toastMapClickInfo">Pulsación larga para opciones de mapa</string>
     <string name="toastSharingSuccess">Publicado satisfactoriamente</string>
     <string name="toastSharingError">Error durante la acción de compartir</string>
     <string name="toastSharingPermissionsError">Error publicando, por favor compruebe los permisos</string>
@@ -972,37 +972,25 @@
     <string name="infoMeterModeDurationMsg">Duración del viaje, posiblemente excluyendo cualquier pausa o parada.</string>
     <string name="infoMeterModeElapsedTitle">Tiempo transcurrido</string>
     <string name="infoMeterModeWriggleMsg">Mide la desviación de ruta de una línea recta, es decir, cuánto llena el área en lugar de ir en línea recta. Entre más bajo, mejor.</string>
-    <string name="infoMeterModeAltitudeMsg">Altura sobre el nivel medio del mar (geoide): actual, máxima y mínima.
-\n
-\nTenga en cuenta que esto puede retrasarse en tiempo real debido a los inevitables retrasos en el filtrado digital.</string>
-    <string name="infoMeterModeSlopeMsg">Pendiente (gradiente), un número que describe la inclinación del terreno donde cero es horizontal. Entre más alto sea el número más pronunciado es el ascenso, mientras que valores negativos son para el descenso.
-\n
-\nTenga en cuenta: esto puede retrasarse en tiempo real en aproximadamente un minuto, debido a los inevitables retrasos en el filtrado digital.</string>
-    <string name="infoMeterModeVerticalSpeedMsg">Velocidad en dirección hacia arriba (positiva) o hacia abajo (negativa): Actual, Máxima y Mínima.
-\n
-\nTenga en cuenta que esto puede retrasarse en tiempo real debido a los inevitables retrasos en el filtrado digital.</string>
-    <string name="infoMeterModePowerMsg">Potencia ejercida debido a las fuerzas de resistencia, cambio de altitud, etc. - Actual, Máximo y Promedio.
-\n
-\nValores negativos significan ganancia de potencia, p. cuando va cuesta abajo o frena.
-\n
-\nCuando está en kcal/h o kJ/h, también tiene en cuenta la eficiencia y el TMB.
-\n
-\nTenga en cuenta: esto puede retrasarse en tiempo real en aproximadamente un minuto, debido a los inevitables retrasos en el filtrado digital.</string>
+    <string name="infoMeterModeAltitudeMsg">Altura sobre el nivel medio del mar (geoide).</string>
+    <string name="infoMeterModeSlopeMsg">Pendiente (gradiente), un número que describe la inclinación del terreno donde cero es horizontal. Entre más alto sea el número más pronunciado es el ascenso, mientras que valores negativos son para el descenso.</string>
+    <string name="infoMeterModeVerticalSpeedMsg">Velocidad en dirección vertical hacia arriba (positiva) o hacia abajo (negativa).</string>
+    <string name="infoMeterModePowerMsg">Potencia ejercida durante la actividad, debido a las fuerzas de resistencia, cambio de altitud, etc.
+\n 
+\nValores negativos significan ganancia de potencia, p. cuando va cuesta abajo o frena. 
+\n 
+\nCuando está en kcal/h o kJ/h, también tiene en cuenta la eficiencia y el TMB.</string>
     <string name="infoMeterModeAvgActivePowerTitle">Potencia activa promedio</string>
-    <string name="infoMeterModeAvgActivePowerMsg">Potencia media ejercida durante la actividad, sin contar los intervalos en los que la potencia estaba ausente o era realmente pequeña (cuesta abajo, frenado, inercia).
-\n
-\nAl hacer un ejercicio extenuante, este será básicamente su FTP (umbral de potencia funcional).</string>
+    <string name="infoMeterModeAvgActivePowerMsg">Potencia media ejercida durante la actividad, sin contar los intervalos de tiempo en los que la potencia estaba ausente (cuesta abajo, frenado, inercia).</string>
     <string name="infoMeterModeVerticalPowerTitle">Potencia vertical</string>
-    <string name="infoMeterModeVerticalPowerMsg">Pérdida o ganancia de potencia al ascender o descender: actual, máxima y mínima.
-\n
+    <string name="infoMeterModeVerticalPowerMsg">Pérdida o ganancia de potencia al ascender o descender. 
+\n 
 \nValores negativos significan ganancia de potencia (descendente).
-\n
-\nCuando está en kcal/h o kJ/h, también tiene en cuenta la eficiencia.
-\n
-\nTenga en cuenta: esto puede retrasarse en tiempo real en aproximadamente un minuto, debido a los inevitables retrasos en el filtrado digital.</string>
-    <string name="infoMeterModeTemperatureMsg">Temperatura ambiente medida con el dispositivo — Actual, Máxima y Mínima.</string>
+\n 
+\nCuando está en kcal/h o kJ/h, también tiene en cuenta la eficiencia.</string>
+    <string name="infoMeterModeTemperatureMsg">Temperatura ambiente medida con el dispositivo.</string>
     <string name="infoMeterModePressureTitle">Presión</string>
-    <string name="infoMeterModePressureMsg">Presión ambiental medida con el dispositivo — Actual, Máxima y Mínima.</string>
+    <string name="infoMeterModePressureMsg">Presión ambiental medida con el dispositivo.</string>
     <string name="infoMeterModeCadenceMsg">Número de revoluciones de las bielas por minuto, es decir, velocidad de pedaleo.</string>
     <string name="infoMeterModeGearRatioTitle">Relación de transmisión</string>
     <string name="infoMeterModeGearRatioMsg">Relación de revoluciones de la rueda frente a giros del pedal por unidad de tiempo, es decir, relación de los tamaños de la catalina y piñón. Mayor número significa mayor velocidad.</string>
@@ -1084,7 +1072,7 @@
     <string name="unitJoulePerKg">J/kg</string>
     <string name="unitJoulePerLb">J/lb</string>
     <string name="pref_screenWaveOnOffMode_title">Modo de saludo</string>
-    <string name="pref_screenWaveOnOffMode_summary">"Atenúa y bloquea la aplicación al agitar la mano dos veces delante de la pantalla.  Agite nuevamente para iluminar y desbloquear."</string>
+    <string name="pref_screenWaveOnOffMode_summary">"Bloquea la aplicación al agitar la mano dos veces delante de la pantalla.  Agite nuevamente para desbloquear."</string>
     <string name="pref_soundeffects_screenOff_title">Pantalla tenue/apagada</string>
     <string name="pref_soundeffects_screenOff_summary">Sonar y vibrar cuando la pantalla se atenúa o apaga temporalmente</string>
     <string name="pref_soundeffects_proximity_title">Sensor de proximidad</string>
@@ -1225,9 +1213,9 @@
     <string name="menuMeterStart">Iniciar</string>
     <string name="menuMeterStop">Parar</string>
     <string name="dialogScreenshotTitle">Captura de pantalla</string>
-    <string name="dialogGoogleMapTermsViolation">No está permitido capturar el contenido de un mapa de Google, por lo que primero se debe cambiar el tipo de mapa.
-\n
-\n¿Cambiar al mapa Stamen ahora\?</string>
+    <string name="dialogGoogleMapTermsViolation">Google no permite capturar el contenido de sus mapas, por lo que primero se debe cambiar el tipo de mapa. 
+\n 
+\n¿Cambiar el tipo de mapa ahora\?</string>
     <string name="dialogWaitTitle">Por favor, espere</string>
     <string name="dialogScreenshotPreparing">Preparando captura de pantalla…</string>
     <string name="mapMarkerMyLocation">Mi localización</string>
@@ -1240,4 +1228,33 @@
     <string name="pref_text_automatic">Automático</string>
     <string name="sensorProperitesActivityRecognition">Reconocimiento de la actividad física</string>
     <string name="sensorProperitesActivityRecognitionInfo">El sensor proporcionará datos solo cuando se reconozca que su actividad física es compatible con el propósito del mismo. Por ejemplo, el sensor de pasos contará los pasos al caminar o correr, no al andar en bicicleta. Tenga en cuenta que esto puede no ser 100% exacto y puede ser lento. Los servicios de Google Play son necesarios.</string>
+    <string name="meterModeFTPower">Potencia Lim. Func.</string>
+    <string name="meterModeFTPowerShort">ftp</string>
+    <string name="summaryProfileNameInfo">Perfil usado para grabar este recorrido.</string>
+    <string name="summaryDeviceNameInfo">Dispositivo usado para grabar este recorrido.</string>
+    <string name="summaryTotalWeightInfo">Suma de todos los pesos usados durante la grabación de este recorrido (atleta, vehículo, carga, ....).</string>
+    <string name="summaryWheelsWeightInfo">Suma de los pesos de todas las ruedas del vehículo usado en este recorrido.</string>
+    <string name="summaryEfficiencyInfo">Eficiencia térmica general respecto a la potencia del recorrido.</string>
+    <string name="summaryDragAreaInfo">Área de resistencia al aire (Cd·A).</string>
+    <string name="summaryRollResistCoefInfo">"Coeficiente de resistencia a  la rodadura."</string>
+    <string name="summaryBasalMetabolicRateInfo">Tasa Metabólica basal (TMB).</string>
+    <string name="summaryLocationIntervalInfo">Intervalo de tiempo promedio entre actualizaciones de ubicación durante el recorrido.</string>
+    <string name="summaryDeviceRestartsCountInfo">Número de veces que la aplicación se cerró a la fuerza o el dispositivo dejó de funcionar durante esta actividad.</string>
+    <string name="summaryTotalTimeInfo">Intervalo de tiempo entre la hora de inicio y la hora de finalización del recorrido.</string>
+    <string name="summaryStoppedTimeInfo">Tiempo transcurrido en pausa, ya sea manualmente o mediante la función automática.</string>
+    <string name="summaryHeartBeatsInfo">Número de pulsaciones detectadas durante la actividad.</string>
+    <string name="summaryCadenceStrokesInfo">Número de pedaladas detectadas durante la actividad.</string>
+    <string name="summaryMechWork">Trabajo mecánico</string>
+    <string name="summaryMechWorkInfo">Trabajo puramente mecánico dedicado a esta actividad (sin tener en cuenta la eficiencia térmica y TMB).</string>
+    <string name="summaryActivePower">Potencia activa</string>
+    <string name="infoMeterModeFuncThresholdPowerTitle">Umbral de Potencia Funcional (FTP)</string>
+    <string name="infoMeterModeFuncThresholdPowerMsg">Potencia máxima estimada que puede ser mantenida por largos períodos de tiempo.
+\n
+\nLa estimación depende en gran medida del tipo y la duración de la actividad.</string>
+    <string name="infoDigitalFilterNotice">Tenga en cuenta: esto puede retrasarse en tiempo real en aproximadamente un minuto, debido a retrasos inevitables del filtrado digital.</string>
+    <string name="meterModes_29">Umbral de Potencia Funcional (FTP)</string>
+    <string name="controlPanelMapSettingsButtonTitle">Opciones de mapa</string>
+    <string name="controlPanelMapSettingsButtonSubtitle">Hacer click para opciones de mapa</string>
+    <string name="pref_screenWaveDim_title">Atenuar pantalla</string>
+    <string name="pref_screenWaveDim_summary">La pantalla también se oscurecerá para ahorrar batería</string>
 </resources>
