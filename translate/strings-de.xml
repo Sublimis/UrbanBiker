@@ -704,7 +704,7 @@
     <string name="infoMeterModeDurationTitle">Dauer</string>
     <string name="infoMeterModeDurationMsg">Dauer der Fahrt, je nach Einstellung abzüglich aller Pausen oder Stopps.</string>
     <string name="infoMeterModeElapsedTitle">Verstrichene Zeit</string>
-    <string name="infoMeterModeElapsedMsg">Verstrichene Zeit, mit Pausen aber ohne Stopps.</string>
+    <string name="infoMeterModeElapsedMsg">Fahrtdauer, mit Pausen aber ohne Stopps.</string>
     <string name="infoMeterModeEnergyTitle">Energie</string>
     <string name="infoMeterModeEnergyMsg">Während der Fahrt verbrauchte Energie unter Einbeziehung von Effizienz und Grundumsatz.</string>
     <string name="infoMeterModeEfficacyTitle">Effektivität (kumuliert)</string>
@@ -717,12 +717,12 @@
     <string name="infoMeterModeAltitudeTitle">Höhe</string>
     <string name="infoMeterModeSlopeTitle">Neigung</string>
     <string name="infoMeterModeSpeedTitle">Geschwindigkeit</string>
-    <string name="infoMeterModeSpeedMsg">Geschwindigkeit — Momentan, Maximum und Durchschnitt.</string>
+    <string name="infoMeterModeSpeedMsg">Zurückgelegte Strecke pro Zeiteinheit.</string>
     <string name="infoMeterModeVerticalSpeedTitle">Vertikale Geschwindigkeit</string>
     <string name="infoMeterModePaceTitle">Pace</string>
-    <string name="infoMeterModePaceMsg">Kehrwert der Geschwindigkeit — Momentan, Maximum und Durchschnitt.</string>
+    <string name="infoMeterModePaceMsg">Kehrwert der Geschwindigkeit, d.h. vergangene Zeit pro Streckeneinheit.</string>
     <string name="infoMeterModeAccelerationTitle">Beschleunigung</string>
-    <string name="infoMeterModeAccelerationMsg">Rate der Geschwindigkeitsänderung — Momentan, Maximum und Minimum. 
+    <string name="infoMeterModeAccelerationMsg">Rate der Geschwindigkeitsänderung über die Zeit.
 \n 
 \nNegative Werte bedeuten Abbremsen.</string>
     <string name="infoMeterModePowerTitle">Leistung</string>
@@ -872,7 +872,7 @@
     <string name="prefAdModes_1">Google</string>
     <string name="prefAdModes_2">AppBrain</string>
     <string name="prefAdModes_3">Keine</string>
-    <string name="toastMapClickInfo">Für Karteneinstellungen lange gedrückt halten</string>
+    <string name="toastMapClickInfo">Für Kartenoptionen lange gedrückt halten</string>
     <string name="dialog_default_map_track_colors_title">Farbe der Strecke auf der Karte</string>
     <string name="dialogGpsSettingsPromptMessage">Ohne Ortungsdienste können die meisten Funktionen dieser App nicht genutzt werden. 
 \n 
@@ -989,36 +989,24 @@
     <string name="prefMapTrackColorTitle">Streckenfarbe</string>
     <string name="prefMapGuideRouteColorTitle">Farbe der Wegweiser-Route</string>
     <string name="infoMeterModeWriggleMsg">Eine Messgröße, die die Abweichung der Strecke von einer geraden Linie, d.h. wie stark die befahrene Fläche von der Strecke gefüllt wird, misst. Niedrige Werte sind üblicherweise besser.</string>
-    <string name="infoMeterModeAltitudeMsg">Höhe über dem Meeresspiegel - momentan, Maximum und Minimum.
-\n
-\nHinweis: Dieser Wert kann auf Grund von Verzögerungen durch unvermeidliche digitale Filter im Vergleich zum realen Wert verzögert erscheinen.</string>
-    <string name="infoMeterModeSlopeMsg">Die Neigung beschreibt die Schrägheit des Geländes, wobei 0 die Horizontale beschreibt. Höhere Zahlen bedeuten einen stärkeren Anstieg, und negative Zahlen beschreiben Gefälle.
-\n
-\nHinweis: Auf Grund von Verzögerungen durch unvermeidliche digitale Filter kann dieser Wert im Vergleich zum Realwert bis zu einer Minute verzögert erscheinen.</string>
-    <string name="infoMeterModeVerticalSpeedMsg">Aufstiegs- (positiv) und Abstiegsgeschwindigkeit (negativ) — Momentan, Maximum und Minimum.
-\n
-\nHinweis: Auf Grund von Verzögerungen durch unvermeidliche digitale Filter kann dieser Wert im Vergleich zum Realwelt verzögert erscheinen.</string>
-    <string name="infoMeterModePowerMsg">Auf Grund von Luftwiderstand, Höhenänderung usw. ausgeübte Leistung — Momentan, Maximum und Durchschnitt.
-\n
-\nNegative Werte bedeuten Leistungsgewinn, z.B. bei der Abfahrt oder beim Bremsen.
-\n
-\nIn den Einheiten kcal/h oder kJ/h gemessene Werte berücksichtigen auch Effizienz und Grundumsatz.
-\n
-\nHinweis: Auf Grund von Verzögerungen durch unvermeidliche digitale Filter kann dieser Wert im Vergleich zum Realwert bis zu eine Minute verzögert erscheinen.</string>
+    <string name="infoMeterModeAltitudeMsg">Höhe über dem Meeresspiegel.</string>
+    <string name="infoMeterModeSlopeMsg">Die Neigung beschreibt die Schrägheit des Geländes, wobei 0 die Horizontale beschreibt. Höhere Zahlen bedeuten einen stärkeren Anstieg, und negative Zahlen beschreiben Gefälle.</string>
+    <string name="infoMeterModeVerticalSpeedMsg">Aufstiegs- (positiv) und Abstiegsgeschwindigkeit (negativ).</string>
+    <string name="infoMeterModePowerMsg">Auf Grund von Luftwiderstand, Höhenänderung usw. während der Aktivität ausgeübte Leistung
+\n 
+\nNegative Werte bedeuten Leistungsgewinn, z.B. bei der Abfahrt oder beim Bremsen. 
+\n 
+\nIn den Einheiten kcal/h oder kJ/h gemessene Werte berücksichtigen auch Effizienz und Grundumsatz.</string>
     <string name="infoMeterModeAvgActivePowerTitle">Durchschnittliche Wirkleistung</string>
-    <string name="infoMeterModeAvgActivePowerMsg">Durchschnittliche während Aktivität aufgewandte Leistung. Perioden geringer oder fehlender Leistung (Abfahrt, Bremsen) werden dabei nicht berücksichtigt.
-\n
-\nWährend eines anstrengenden Trainings entspricht dieser Wert im Prinzip der funktionalen Leistungsschwelle (FTP).</string>
+    <string name="infoMeterModeAvgActivePowerMsg">Durchschnittliche während Aktivität aufgewandte Leistung. Perioden fehlender Leistung (Abfahrt, Bremsen) werden dabei nicht berücksichtigt.</string>
     <string name="infoMeterModeVerticalPowerTitle">Vertikale Leistung</string>
-    <string name="infoMeterModeVerticalPowerMsg">Leistungsverlust bzw. -Gewinn durch Aufstieg oder Abfahrt — Momentan, Maximum und Minimum.
-\n
-\nNegative Werte bedeuten Leistungsgewinn (Abfahrt).
-\n
-\nIn den Einheiten kcal/h oder kJ/h gemessene Werte berücksichtigen auch die Effektivität.
-\n
-\nHinweis: Auf Grund von Verzögerungen durch unvermeidliche digitale Filter kann dieser Wert im Vergleich zum Realwert bis zu einer Minute verzögert erscheinen.</string>
-    <string name="infoMeterModeTemperatureMsg">Umgebungstemperatur des Gerätes — Momentan, Maximum und Minimum.</string>
-    <string name="infoMeterModePressureMsg">Durch das Gerät gemessener Luftdruck — Momentan, Maximum und Minimum.</string>
+    <string name="infoMeterModeVerticalPowerMsg">Leistungsverlust bzw. -Gewinn durch Aufstieg oder Abfahrt
+\n 
+\nNegative Werte bedeuten Leistungsgewinn (Abfahrt). 
+\n 
+\nIn den Einheiten kcal/h oder kJ/h gemessene Werte berücksichtigen auch die Effektivität.</string>
+    <string name="infoMeterModeTemperatureMsg">Durch das Gerät gemessene Umgebungstemperatur.</string>
+    <string name="infoMeterModePressureMsg">Durch das Gerät gemessener Luftdruck.</string>
     <string name="infoMeterModeCadenceMsg">Anzahl der Kurbelumdrehungen pro Minute.</string>
     <string name="infoMeterModeGearRatioTitle">Übersetzung</string>
     <string name="infoMeterModeGearRatioMsg">Verhältnis von Rad- und Pedalumdrehungen, d.h. Verhältnis der Größe des vorderen und hinteren Zahnkranzes. Je größer die Zahl ist, desto höher ist der gewählte Gang.</string>
@@ -1086,7 +1074,7 @@
     <string name="unitJoulePerKg">J/kg</string>
     <string name="unitJoulePerLb">J/lb</string>
     <string name="pref_screenWaveOnOffMode_title">Winkmodus</string>
-    <string name="pref_screenWaveOnOffMode_summary">Zweimaliges Winken vor dem Bildschirm dunkelt ihn ab und sperrt die App. Nochmaliges Winken macht diese Einstellung rückgängig.</string>
+    <string name="pref_screenWaveOnOffMode_summary">Zweimaliges Winken vor dem Bildschirm sperrt die App. Nochmaliges Winken entsperrt die App wieder.</string>
     <string name="pref_soundeffects_screenOff_title">Bildschirm abgedunkelt/aus</string>
     <string name="pref_soundeffects_screenOff_summary">Ton und Vibration beim Abdunkeln und vorübergehenden Abschalten des Bildschirms</string>
     <string name="pref_soundeffects_proximity_title">Näherungssensor</string>
@@ -1227,9 +1215,9 @@
     <string name="menuMeterStart">Starten</string>
     <string name="menuMeterStop">Anhalten</string>
     <string name="dialogScreenshotTitle">Bildschirmfoto</string>
-    <string name="dialogGoogleMapTermsViolation">Da der Inhalt von Google-Karten nicht aufgenommen kann, muss für die Aufnahme der Kartentyp gewechselt werden.
-\n
-\nJetzt zu Stamen-Karten wechseln\?</string>
+    <string name="dialogGoogleMapTermsViolation">Da Google die Aufnahme des Inhalts ihrer Karten nicht gestattet, muss für die Aufnahme der Kartentyp gewechselt werden. 
+\n 
+\nKartentyp jetzt wechseln\?</string>
     <string name="dialogWaitTitle">Bitte warten</string>
     <string name="dialogScreenshotPreparing">Bildschirmfoto wird vorbereitet…</string>
     <string name="mapMarkerMyLocation">Mein Standort</string>
@@ -1242,4 +1230,33 @@
     <string name="pref_text_automatic">Automatisch</string>
     <string name="sensorProperitesActivityRecognition">Aktivitätserkennung</string>
     <string name="sensorProperitesActivityRecognitionInfo">Sensordaten nur dann verwenden, wenn die erkannte Aktivität dem Sensorzweck entspricht - zum Beispiel würde der Schrittzähler nur beim Gehen oder Laufen zählen, aber nicht beim Radfahren. Hinweis: Diese Funktion arbeitet unter Umständen ungenau und verzögert. Google Play-Dienste werden benötigt.</string>
+    <string name="meterModeFTPower">FTP</string>
+    <string name="meterModeFTPowerShort">FTP</string>
+    <string name="summaryProfileNameInfo">Für die Aufzeichnung dieser Strecke verwendetes Profil.</string>
+    <string name="summaryDeviceNameInfo">Für die Aufzeichnung dieser Strecke verwendetes Gerät.</string>
+    <string name="summaryTotalWeightInfo">Gesamtgewicht, das während der Aufzeichnung berücksichtigt wurde (Fahrer, Fahrzeug, Zuladung,...).</string>
+    <string name="summaryWheelsWeightInfo">Summe der Gewichte aller Räder des Fahrzeugs, das auf dieser Strecke verwendet wurde.</string>
+    <string name="summaryEfficiencyInfo">Gesamte thermische Effizienz des auf dieser Strecke verwendeten Antriebs.</string>
+    <string name="summaryDragAreaInfo">Luftwiderstandsfläche (Cd·A).</string>
+    <string name="summaryRollResistCoefInfo">Rollwiderstandskoeffizient.</string>
+    <string name="summaryBasalMetabolicRateInfo">Basale Stoffwechselrate.</string>
+    <string name="summaryLocationIntervalInfo">Durchschnittliches Zeitintervall zwischen zwei Standort-Aktualisierungen auf dieser Strecke.</string>
+    <string name="summaryDeviceRestartsCountInfo">Häufigkeit des Neustarts der Aufzeichnung auf Grund von erzwungenem Beenden der App (\'Force Close\') oder Fehlfunktion des Gerätes.</string>
+    <string name="summaryTotalTimeInfo">Zeitintervall zwischen Startzeit und Endzeit dieser Strecke.</string>
+    <string name="summaryStoppedTimeInfo">Zeit, während der die Aufnahme manuell oder durch die Auto-Pause-Funktion pausiert war.</string>
+    <string name="summaryHeartBeatsInfo">Anzahl an erkannten Herzschlägen während der Aktivität.</string>
+    <string name="summaryCadenceStrokesInfo">Anzahl der erkannten Pedalumdrehungen während der Aktivität.</string>
+    <string name="summaryMechWork">Mechanische Arbeit</string>
+    <string name="summaryMechWorkInfo">Reine mechanische Leistung, die für diese Aktivität aufgewendet wurde (ohne Berücksichtigung von thermischer Effizienz und Stoffwechselrate).</string>
+    <string name="summaryActivePower">Wirkleistung</string>
+    <string name="infoMeterModeFuncThresholdPowerTitle">Funktionelle Leistungsschwelle</string>
+    <string name="infoMeterModeFuncThresholdPowerMsg">Geschätzte Maximalleistung, die über einen längeren Zeitraum durchgehalten werden kann.
+\n
+\nDie Schätzung hängt stark von Typ und Dauer der Aktivität ab.</string>
+    <string name="infoDigitalFilterNotice">Hinweis: Auf Grund von Verzögerungen durch unvermeidliche digitale Filter kann dieser Wert im Vergleich zum Realwert bis zu einer Minute verzögert erscheinen.</string>
+    <string name="meterModes_29">Funkt. Leistungsschwelle</string>
+    <string name="controlPanelMapSettingsButtonTitle">Kartenoptionen</string>
+    <string name="controlPanelMapSettingsButtonSubtitle">Hier berühren, um die Karte zu konfigurieren</string>
+    <string name="pref_screenWaveDim_title">Bildschirm abdunkeln</string>
+    <string name="pref_screenWaveDim_summary">Der Bildschirm wird zusätzlich abgedunkelt, um den Akku zu schonen</string>
 </resources>
