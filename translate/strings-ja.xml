@@ -243,7 +243,7 @@
     <string name="pref_screen_allow_off_inactive_summary">数分間操作しない場合スクリーンをオフにします</string>
     <string name="pref_above_lockscreen_summary">端末がロック状態であってもアプリを表示します</string>
     <string name="pref_passive_gps_button_summary">GPSボタンを押すとパッシブ GPS モード(他の優先アプリが取得したGPSデータを利用するモード)にする機能を有効にする</string>
-    <string name="pref_fenceguard_title">フェンスガード</string>
+    <string name="pref_fenceguard_title">保護エリア</string>
     <string name="pref_fenceguard_summary">自宅・職場など公開したくない場所の位置情報を、走行記録から見えないようにします</string>
     <string name="pref_soundeffects_tally_distance_title">距離</string>
     <string name="pref_soundeffects_tally_duration_title">経過時間</string>
@@ -261,12 +261,12 @@
     <string name="infoMeterModeWriggleTitle">蛇行</string>
     <string name="infoMeterModeAltitudeTitle">高度</string>
     <string name="infoMeterModeSpeedTitle">速度</string>
-    <string name="infoMeterModeSpeedMsg">速度 ー (中央)現在の速度 (左)最大速度 (右)平均速度.</string>
-    <string name="infoMeterModePaceMsg">ペース ー (中央)現在 (左)最速 (右)平均.</string>
+    <string name="infoMeterModeSpeedMsg">単位時間あたりの獲得距離</string>
+    <string name="infoMeterModePaceMsg">逆の速度。つまり単位距離あたりの経過時間</string>
     <string name="infoMeterModeAccelerationTitle">加速度</string>
-    <string name="infoMeterModeAccelerationMsg">速度の変化率 — (中央)現在 (左)最大 (右)最小. 
+    <string name="infoMeterModeAccelerationMsg">速度の変化率。
 \n 
-\n減速時はマイナスになります。</string>
+\n負の値は減速を表します。</string>
     <string name="infoMeterModeClockTitle">時計</string>
     <string name="infoMeterModeClockMsg">現在時刻 ー (中央)現在時刻 (左)距離 (右)移動時間.</string>
     <!-- pref_units_distance_entries -->
@@ -451,9 +451,9 @@
     <string name="pref_maps_offline_terrain_title">地形描画</string>
     <string name="pref_maps_offline_terrain_info_title">ただちにダウンロード</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">レイヤーボタン実行</string>
-    <string name="infoMeterModeTemperatureMsg">デバイスで測定された環境温度 - 現在、最高、最低。</string>
+    <string name="infoMeterModeTemperatureMsg">デバイスで測定された環境温度</string>
     <string name="infoMeterModePressureTitle">気圧</string>
-    <string name="infoMeterModePressureMsg">"デバイスで測定された環境気圧 -  現在、最高、最低。"</string>
+    <string name="infoMeterModePressureMsg">デバイスで測定された環境気圧</string>
     <string name="infoMeterModeCadenceTitle">ケイデンス</string>
     <string name="infoMeterModeHeartRateTitle">心拍数</string>
     <string name="infoMeterModeHeartRateMsg">1分間の心拍数。</string>
@@ -562,11 +562,11 @@
     <string name="unitMillimeter">mm</string>
     <string name="unitMxM">m²</string>
     <string name="unitKg">kg</string>
-    <string name="unitW">ワット</string>
-    <string name="unitKW">キロワット</string>
+    <string name="unitW">W</string>
+    <string name="unitKW">kW</string>
     <string name="unitHP">馬力</string>
-    <string name="unitKWH">キロワット時</string>
-    <string name="unitMiliW">ミリワット</string>
+    <string name="unitKWH">kW時</string>
+    <string name="unitMiliW">mW</string>
     <string name="unitWKg">W/kg</string>
     <string name="unitWLb">W/lb</string>
     <string name="unitKj">キロジュール</string>
@@ -974,38 +974,26 @@
     <string name="infoMeterModeAscentTitle">上昇</string>
     <string name="infoMeterModeDescentTitle">下降</string>
     <string name="infoMeterModeWriggleMsg">直線ルートからの逸脱を測定。逸脱した範囲の面積を計算する、一般的に小さい値が望ましい。</string>
-    <string name="infoMeterModeAltitudeMsg">海抜標高(geoid) — 現在、最高、最低.
-\n
-\n注意： 計算に時間を要すため、標高表示は遅延が生じうることを承知ください。</string>
+    <string name="infoMeterModeAltitudeMsg">海抜標高(ジオイド)</string>
     <string name="infoMeterModeSlopeTitle">傾斜</string>
-    <string name="infoMeterModeSlopeMsg">傾斜（勾配）、ゼロが水平を表し、正の数値が大きいほど急上昇を意味し、負は降下を意味します。
-\n
-\n注意：デジタルフィルタリングの遅延は避けられないため、これはリアルタイムから1分程度遅れることがあります。</string>
+    <string name="infoMeterModeSlopeMsg">傾斜（勾配）。ゼロは水平、正の値は上昇を意味し、負の値は降下を表します。</string>
     <string name="infoMeterModeVerticalSpeedTitle">垂直方向の速度</string>
-    <string name="infoMeterModeVerticalSpeedMsg">速度：上昇なら正の値、下降なら負の値 — 現在、最高値、最低値
-\n
-\n注意:計算に時間がかかるため、表示に遅延が生じることがあります。</string>
+    <string name="infoMeterModeVerticalSpeedMsg">垂直方向速度：上昇なら正の値、下降なら負の値</string>
     <string name="infoMeterModePaceTitle">ペース</string>
     <string name="infoMeterModePowerTitle">パワー</string>
-    <string name="infoMeterModePowerMsg">抗力負荷、高度変化などにより発揮されるパワー 現在、最大、平均。
-\n
-\n負はパワー獲得を意味します。たとえば 下り坂やブレーキングのとき。
-\n
-\nkcal / hまたはkJ / hの場合、効率とBMRも考慮されます。
-\n
-\n注意：デジタルフィルタリングの遅延は避けられないため、これはリアルタイムから1分程度遅れることがあります。</string>
+    <string name="infoMeterModePowerMsg">空気抵抗、標高の変化などにより発揮されるパワー。
+\n 
+\n負の値はパワー獲得を意味します。たとえば 下り坂やブレーキングのとき。
+\n 
+\n単位がkcal/hまたはkJ/hの場合、効率とBMRも考慮されます。</string>
     <string name="infoMeterModeAvgActivePowerTitle">平均実効パワー</string>
-    <string name="infoMeterModeAvgActivePowerMsg">運動中に発揮される平均パワー。パワーが存在しないか非常に小さい（下り坂、ブレーキ中、惰行運転中）場合は計算しません。
-\n
-\n激しいトレーニングを行う場合、この数値が FTP（Functional Threshold Power）に相当します。</string>
+    <string name="infoMeterModeAvgActivePowerMsg">活動中に発揮される平均パワー。ゼロまたは非常に小さい場合は計算しません（下り坂、ブレーキ中、惰行運転中）。</string>
     <string name="infoMeterModeVerticalPowerTitle">垂直方向のパワー</string>
-    <string name="infoMeterModeVerticalPowerMsg">「上り」または「下り」でのパワーロスまたはゲイン—現在、最大、最小。
+    <string name="infoMeterModeVerticalPowerMsg">上り/下りでのパワー消費/獲得。
 \n
-\n負は、ゲイン（下り）を意味します。
-\n
-\nkcal/h または kJ/h で表示する場合、効率も考慮されます。
-\n
-\n注意：デジタルフィルタリングの遅延は避けられないため、これはリアルタイムから1分程度遅れることがあります。</string>
+\n負の値はパワー獲得（下り）を表します。 
+\n 
+\nkcal/h または kJ/h で表示する場合、効率も考慮されます。</string>
     <string name="infoMeterModeCadenceMsg">1分間のクランクの回転数。ペダリング数と同義。</string>
     <string name="infoMeterModeGearRatioMsg">時間単位あたりのホイール回転数とペダル回転数の比率、つまりフロントスプロケットとリアスプロケットのサイズの比率。 数値が大きいほどギアが高くなります。</string>
     <string name="infoAutopauseForcedRelaxed">メモ : 自動ポーズは解除されています</string>
@@ -1057,7 +1045,7 @@
     <string name="unitJoulePerKg">J/Kg</string>
     <string name="unitJoulePerLb">J/ポンド</string>
     <string name="pref_screenWaveOnOffMode_title">ジェスチャーモード</string>
-    <string name="pref_screenWaveOnOffMode_summary">ディスプレイの前で手を2度振る(ジェスチャー)と、アプリをロックし画面を暗くします。もう一度手を振るとアプリをアンロックし画面を明るくします。</string>
+    <string name="pref_screenWaveOnOffMode_summary">ディスプレイの前で手を2度振る(ジェスチャー)と、アプリをロックします。もう一度手を振るとロックを解除します。</string>
     <string name="pref_soundeffects_screenOff_title">スクリーンを暗くする/オフにする</string>
     <string name="pref_soundeffects_screenOff_summary">画面が暗くなるまたは一時的にオフされたときに音を鳴らし振動させる</string>
     <string name="pref_soundeffects_proximity_title">近くにあるセンサー</string>
@@ -1201,9 +1189,9 @@
     <string name="dialogScreenshotTitle">スクリーンショット</string>
     <string name="dialogWaitTitle">お待ちください</string>
     <string name="dialogScreenshotPreparing">スクリーンショットを準備中…</string>
-    <string name="dialogGoogleMapTermsViolation">Googleマップの内容をキャプチャすることは許可されていませんので、まずマップタイプを他のものに変更する必要があります。
-\n
-\n今すぐStamenマップに切り替えますか\?</string>
+    <string name="dialogGoogleMapTermsViolation">Googleはマップのキャプチャを許可していませんので、マップを何か他のものに変える必要があります。 
+\n 
+\n今すぐマップを切り替えますか\?</string>
     <string name="mapMarkerMyLocation">マイロケーション</string>
     <string name="pref_roaring_type_entries_3">電動車両</string>
     <string name="dialogMapsAutoZoom">自動拡大</string>
@@ -1213,11 +1201,11 @@
     <string name="controlPanelSensorsButtonSubtitle">センサーをクリック</string>
     <string name="meterModeFTPower">フィート パワー</string>
     <string name="meterModeFTPowerShort">フィートパワー ショート</string>
-    <string name="summaryProfileNameInfo">この走行記録を通常記録するプロファイル</string>
-    <string name="summaryDeviceNameInfo">この走行記録を通常記録するデバイス</string>
-    <string name="summaryTotalWeightInfo">走行を記録中に使用した全ての重量の総計（走行者、車両、荷物、など）</string>
+    <string name="summaryProfileNameInfo">この走行を記録していたプロファイル</string>
+    <string name="summaryDeviceNameInfo">この走行記録を記録していたデバイス</string>
+    <string name="summaryTotalWeightInfo">走行記録中に使用した全重量の総計（走行者、車両、荷物、など）</string>
     <string name="summaryWheelsWeightInfo">この走行記録で使用された総ホイール重量</string>
-    <string name="summaryDragAreaInfo">空気抵抗計算時の抗力係数ｘ見付面積</string>
+    <string name="summaryDragAreaInfo">空気抵抗面積(抗力係数ｘ見付面積)</string>
     <string name="summaryRollResistCoefInfo">転がり抵抗係数</string>
     <string name="summaryDeviceRestartsCountInfo">強制終了もしくはデバイス停止の回数</string>
     <string name="summaryHeartBeatsInfo">心拍数が検知された回数</string>
@@ -1226,4 +1214,18 @@
     <string name="summaryMechWorkInfo">この活動に使われた純メカニカルワーク(熱効率とBMRは無視)</string>
     <string name="controlPanelMapSettingsButtonTitle">地図オプション</string>
     <string name="controlPanelMapSettingsButtonSubtitle">クリックで地図オプション</string>
+    <string name="pref_text_automatic">自動</string>
+    <string name="sensorProperitesActivityRecognitionInfo">センサーは、活動がセンサーの目的に適合していると認識された場合にのみデータを提供します。例えば、歩数検出センサーは自転車に乗っている時ではなく、歩いている時や走っている時の歩数をカウントします。100%正確ではない場合があり、ラグが発生する可能性があるので注意してください。Google Playのサービスが必要です。</string>
+    <string name="summaryBasalMetabolicRateInfo">基礎代謝率(BMR)</string>
+    <string name="summaryTotalTimeInfo">この走行記録の開始時刻から終了時刻までの時間</string>
+    <string name="summaryStoppedTimeInfo">手動または自動で記録を一時停止していた時間</string>
+    <string name="infoMeterModeFuncThresholdPowerMsg">長時間維持できる最大パワーの推定値。
+\n
+\n推定値は活動のタイプと期間に大きく依存します。</string>
+    <string name="infoDigitalFilterNotice">注意: デジタルフィルタリングの遅延が避けられないため、リアルタイムから1分ほど遅れることがあります。</string>
+    <string name="pref_screenWaveDim_title">ディスプレイを暗くする</string>
+    <string name="pref_screenWaveDim_summary">バッテリー節約のため、ディスプレイを暗くします</string>
+    <string name="cloudAccountsPowerUploadPolicyTitle">パワーデータのアップロード条件</string>
+    <string name="cloudAccountsPowerUploadPolicy_0">常に (デフォルト)</string>
+    <string name="cloudAccountsPowerUploadPolicy_1">パワーメーターが使用されているときのみアップロードする</string>
 </resources>
