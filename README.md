@@ -27,7 +27,7 @@ If you've found an issue with Urban Biker, or think a new feature would be usefu
 3. File a new issue including the info listed below
 4. Thanks a ton for helping make Urban Biker higher quality!
 
-_**When filing a new bug, please include:**_
+_**When filing a new issue, please include:**_
 
 - [x] **Descriptive title** - use keywords so others can find your bug (avoiding duplicates)
 - [x] **Steps** to trigger the problem that are specific, and repeatable
@@ -39,6 +39,6 @@ _**When filing a new bug, please include:**_
 
 Feel free to file new feature requests as an _issue_ on GitHub.
 
-We will respond to you as soon as possible, likely within 24 or 48 hours. If we have any further questions, expect a response back.
+We will respond as soon as possible, likely within 24 or 48 hours. If we have any further questions, expect a response back.
 
 **IMPORTANT:** Issues and feature requests here are public. Please write to our e-mail for more private communication: contact@urban-bike-computer.com.
