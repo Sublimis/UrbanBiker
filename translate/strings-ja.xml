@@ -21,7 +21,7 @@
     <string name="buttonUnderstand">了解</string>
     <string name="buttonResumeTrack">再開</string>
     <string name="buttonNewTrack">ゴール</string>
-    <string name="menuControlPanel">コントロール パネル</string>
+    <string name="menuControlPanel">コントロールパネル</string>
     <string name="menuSettings">設定</string>
     <string name="menuSummary">ライブサマリ</string>
     <string name="menuTracksHistory">履歴</string>
@@ -47,11 +47,11 @@
     <string name="menuUpload">アップロード</string>
     <string name="menuSelectMode">選択</string>
     <string name="menuSelectAll">すべて選択</string>
-    <string name="menuExpandAll">すべて広げる</string>
+    <string name="menuExpandAll">すべて展開</string>
     <string name="menuCollapseAll">すべてたたむ</string>
     <string name="menuEdit">編集</string>
     <string name="menuDelete">削除</string>
-    <string name="menuClear">クリアー</string>
+    <string name="menuClear">クリア</string>
     <string name="menuCenterOnMap">中央</string>
     <string name="menuClose">閉じる</string>
     <string name="menuInfo">情報</string>
@@ -67,15 +67,15 @@
     <string name="toastRestartRequired">反映するには、アプリを再起動してください</string>
     <string name="toastActiveProfile">プロファイル : %1$s
     </string>
-    <string name="toastProfileSavingError">プロファイル データの保存でエラー！　再試行してください。</string>
-    <string name="toastProfileChangeError">プロファイルの切り替えができません！　再試行してください。</string>
+    <string name="toastProfileSavingError">プロファイル データの保存でエラー! 再試行してください。</string>
+    <string name="toastProfileChangeError">プロファイルの切り替えができません! 再試行してください。</string>
     <string name="toastGpsEnabled">GPS オン</string>
     <string name="toastTrackSaved">走行記録を保存しました。</string>
     <string name="toastTrackDiscarded">走行記録を破棄しました。</string>
-    <string name="toastTrackSavingError">走行記録の保存でエラー！　再試行してください。</string>
-    <string name="toastTrackWritingError">走行記録データのストレージへの書き込みでエラー！　再試行してください。</string>
-    <string name="toastTrackZippingError">走行記録のZip圧縮でエラー！　再試行してください。</string>
-    <string name="toastTrackMovingError">走行記録のUSBメディアへの移動でエラー！　再試行してください。</string>
+    <string name="toastTrackSavingError">走行記録の保存でエラー! 再試行してください。</string>
+    <string name="toastTrackWritingError">走行記録データのストレージへの書き込みでエラー! 再試行してください。</string>
+    <string name="toastTrackZippingError">走行記録のZip圧縮でエラー! 再試行してください。</string>
+    <string name="toastTrackMovingError">走行記録のUSBメディアへの移動でエラー! 再試行してください。</string>
     <string name="toastPressAgainToExit">もう一度押すと終了</string>
     <string name="toastTrackingRecording">記録中</string>
     <string name="toastTrackingPaused">一時停止中</string>
@@ -88,7 +88,7 @@
     <string name="toastFenceGuardFenceRemovingError">保護エリア: エリアの削除でエラーが発生しました</string>
     <string name="toastFenceGuardOutsideTheFence">保護エリア: 現在地は設定エリア外です</string>
     <string name="toastFenceGuardLocationUnavailable">保護エリア : 現在地が取得できません</string>
-    <string name="toastProfilesListNonemptyDelete">削除できません — プロファイルに未保存のデータがあります！　先に処理してください。</string>
+    <string name="toastProfilesListNonemptyDelete">削除できません — プロファイルに未保存のデータがあります! 先に処理してください。</string>
     <string name="toastProfilesListProfileCreated">プロファイルを作成しました</string>
     <string name="toastProfilesListProfileDeleted">プロファイルを削除しました</string>
     <string name="toastProfilesListProfileDeleteError">プロファイルの削除でエラー</string>
@@ -112,7 +112,7 @@
     <string name="toastErrorPowerParametersVoid">設定の「パワー」でパラメーターを入力してください</string>
     <string name="toastSharingSuccess">投稿しました</string>
     <string name="toastSharingError">共有操作でエラー</string>
-    <string name="toastSharingPermissionsError">投稿でエラー！　権限を確認してください</string>
+    <string name="toastSharingPermissionsError">投稿でエラー! 権限を確認してください</string>
     <string name="toastUpdatingSuccess">更新しました</string>
     <string name="toastSoundsEnabled">サウンド有効</string>
     <string name="toastSoundsDisabled">サウンド無効</string>
@@ -122,7 +122,7 @@
     <string name="toastCancelled">キャンセルしました</string>
     <string name="notificationTitleAdvancedPaused">一時停止 : %1$s
     </string>
-    <string name="licenseSuccessDialogMessage">アプリのライセンスを受けつけました。ご支援に感謝します！</string>
+    <string name="licenseSuccessDialogMessage">アプリのライセンスを受けつけました。ご支援に感謝します!</string>
     <string name="ongoingNotificationChannelName">通知の継続的な表示</string>
     <string name="ongoingNotificationChannelDescription">実行中のサービスへのコントロールを提供するとともに、アプリへのアクセスが簡単になります</string>
     <string name="dialog_default_color_light_title">ライト テーマ</string>
@@ -216,8 +216,8 @@
     <string name="dialogMapsHighResolution">高解像地図</string>
     <string name="dialogMapsRenderTerrain">ルートを描画</string>
     <string name="meterModeSpeed">速度</string>
-    <string name="meterModeAltitude">高度</string>
-    <string name="meterModeAltitudeShort">高度</string>
+    <string name="meterModeAltitude">標高</string>
+    <string name="meterModeAltitudeShort">標高</string>
     <string name="meterModeAcceleration">加速度</string>
     <string name="meterModeDistance">距離</string>
     <string name="meterModeOdoShort">積算走行距離</string>
@@ -231,7 +231,7 @@
     <string name="pref_units_distance_title">距離</string>
     <string name="pref_units_distance_dialog_title">距離の単位</string>
     <string name="pref_units_speed_title">速度</string>
-    <string name="pref_units_altitude_title">高度</string>
+    <string name="pref_units_altitude_title">標高</string>
     <string name="pref_units_altitude_dialog_title">高度の単位</string>
     <string name="pref_units_weight_title">質量</string>
     <string name="pref_units_other_title">その他</string>
@@ -246,7 +246,7 @@
     <string name="pref_fenceguard_title">保護エリア</string>
     <string name="pref_fenceguard_summary">自宅・職場など公開したくない場所の位置情報を、走行記録から見えないようにします</string>
     <string name="pref_soundeffects_tally_distance_title">距離</string>
-    <string name="pref_soundeffects_tally_duration_title">経過時間</string>
+    <string name="pref_soundeffects_tally_duration_title">経過時間(停止時間を除く)</string>
     <string name="pref_meter_enable_title">有効</string>
     <string name="pref_flashlightAutoPocketMode_summary">スマートフォンの近接センサーをもとに、ライトが不要な場合はオフにします</string>
     <string name="infoMeterModeDistanceTitle">距離</string>
@@ -259,7 +259,7 @@
     <string name="infoMeterModeAscentMsg">累積上昇高度 (登り).</string>
     <string name="infoMeterModeDescentMsg">累積下降高度 (下り).</string>
     <string name="infoMeterModeWriggleTitle">蛇行</string>
-    <string name="infoMeterModeAltitudeTitle">高度</string>
+    <string name="infoMeterModeAltitudeTitle">標高</string>
     <string name="infoMeterModeSpeedTitle">速度</string>
     <string name="infoMeterModeSpeedMsg">単位時間あたりの獲得距離</string>
     <string name="infoMeterModePaceMsg">逆の速度。つまり単位距離あたりの経過時間</string>
@@ -300,7 +300,7 @@
     <string name="dialogFencesUpdate">保護エリアの場所を更新する</string>
     <string name="dialogFencesEdit">保護エリアを編集する</string>
     <string name="dialogFencesRemove">保護エリアを削除する</string>
-    <string name="dialogFencesShowFences">フェンスを表示する</string>
+    <string name="dialogFencesShowFences">保護エリアを表示する</string>
     <string name="dialogPowerWeightsRotInertiaTitle">回転慣性</string>
     <string name="dialogPowerWeightsWeightCargo">荷物</string>
     <string name="dialogPowerWeightsWeightPassengers">同乗者</string>
@@ -308,7 +308,7 @@
     <string name="dialogPowerParamsTitle">パワーロス係数</string>
     <string name="dialogPowerParamsRollResist">転がり抵抗係数 (Crr)</string>
     <string name="dialogEnergyParamsBmr">基礎代謝率 (BMR)</string>
-    <string name="dialogFileChooseSelectFolder">このフォルダーを選ぶ</string>
+    <string name="dialogFileChooseSelectFolder">このフォルダーを選択</string>
     <string name="dialogMapsDownloadTitle">オフライン地図をダウンロード</string>
     <string name="dialogMapsDownloadText">ダウンロードサイトにアクセスしますか？</string>
     <string name="dialogMapsTerrainDownloadTitle">地形図ダウンロード</string>
@@ -318,7 +318,7 @@
     <string name="dialogTrackUploadDescriptionHint">アイデアを教えてください …</string>
     <string name="dialogTrackUploadShareButton">共有</string>
     <string name="dialogTrackUploadShareAgainButton">再度、共有</string>
-    <string name="dialogTrackUploadUpdateButton">アップデート</string>
+    <string name="dialogTrackUploadUpdateButton">更新</string>
     <string name="dialogTrackUploadActivityType">活動型</string>
     <string name="dialogTrackUploadPlatform">オンラインサービス</string>
     <string name="dialogSvgTitle">SVG グラフ</string>
@@ -330,9 +330,9 @@
 \n正確さはやや劣りますが、バッテリーの消費は少なくなります</string>
     <string name="dialogLocationPermissionRequestTitle">位置情報許諾</string>
     <string name="dialogLocationPermissionRequest">戸外活動を記録するために、位置情報が必要です。</string>
-    <string name="dialogLocationPermissionRequestForBt">ブルートゥース機器との接続のため、位置情報開示が必要です。
-\n
-\n位置情報がなければ、ブルートゥース機器は接続されません。</string>
+    <string name="dialogLocationPermissionRequestForBt">Bluetooth機器との接続のため、位置情報開示が必要です。 
+\n 
+\n位置情報がなければ、Bluetooth機器は接続されません。</string>
     <string name="dialogStoragePermissionRequestTitle">保存許可</string>
     <string name="dialogStoragePermissionRequest">走行記録・設定内容を保存するため、記憶領域へのアクセスが必要です。 
 \n 
@@ -342,7 +342,7 @@
     <string name="mapLayerTerrain">地形図</string>
     <string name="mapLayerSatellite">衛星</string>
     <string name="unitKm">km</string>
-    <string name="unitKmh">km/h</string>
+    <string name="unitKmh">km/時</string>
     <string name="unitMiles">マイル</string>
     <string name="unitMph">マイル/時</string>
     <string name="unitMinPerKm">分/km</string>
@@ -353,7 +353,7 @@
     <string name="unitMeterPerMin">m/分</string>
     <string name="unitFeetPerMin">フィート/分</string>
     <string name="unitTimeHrMinSec">時:分:秒</string>
-    <string name="unitTimeHour">時</string>
+    <string name="unitTimeHour">時間</string>
     <string name="unitTimeMinute">分</string>
     <string name="unitTimeSecond">秒</string>
     <string name="unitIn">インチ</string>
@@ -366,8 +366,8 @@
     <string name="meterModeSpeedAverageShort">平均速度</string>
     <string name="meterModePace">ペース</string>
     <string name="meterModePaceShort">ペース</string>
-    <string name="meterModeDuration">継続時間</string>
-    <string name="meterModeDurationShort">継続時間</string>
+    <string name="meterModeDuration">経過時間</string>
+    <string name="meterModeDurationShort">経過時間</string>
     <string name="meterModeElapsedTime">経過時間</string>
     <string name="meterModeElapsedTimeShort">経過</string>
     <string name="meterModePower">パワー</string>
@@ -378,11 +378,11 @@
     <string name="meterModeTemperatureShort">気温</string>
     <string name="meterModePressure">気圧</string>
     <string name="meterModePressureShort">気圧</string>
-    <string name="meterModeAltitudeAscent">上昇（上り）</string>
-    <string name="meterModeAltitudeAscentShort">上り</string>
-    <string name="meterModeAltitudeDescent">下降（下り）</string>
-    <string name="meterModeAltitudeDescentShort">下り</string>
-    <string name="meterModeAltitudeSlope">傾斜</string>
+    <string name="meterModeAltitudeAscent">上昇高度</string>
+    <string name="meterModeAltitudeAscentShort">上昇高度</string>
+    <string name="meterModeAltitudeDescent">下降高度</string>
+    <string name="meterModeAltitudeDescentShort">下降高度</string>
+    <string name="meterModeAltitudeSlope">勾配</string>
     <string name="meterModeCadence">ケイデンス</string>
     <string name="meterModeCadenceShort">ケイデンス</string>
     <string name="meterModeHeartRate">心拍数</string>
@@ -472,10 +472,10 @@
     <string name="meterModes_0">経過時間</string>
     <string name="meterModes_1">距離</string>
     <string name="meterModes_2">速度</string>
-    <string name="meterModes_3">高度</string>
-    <string name="meterModes_4">上昇（上り）</string>
-    <string name="meterModes_5">下降（下り）</string>
-    <string name="meterModes_6">傾斜</string>
+    <string name="meterModes_3">標高</string>
+    <string name="meterModes_4">上昇高度</string>
+    <string name="meterModes_5">下降高度</string>
+    <string name="meterModes_6">勾配</string>
     <string name="meterModes_7">エネルギー</string>
     <string name="meterModes_8">効率</string>
     <string name="meterModes_9">パワー</string>
@@ -516,7 +516,7 @@
     <string name="pref_wakelock_modes_0">自動(デフォルト)</string>
     <string name="pref_wakelock_modes_1">常にオン</string>
     <string name="pref_wakelock_modes_3">オフ</string>
-    <string name="prefUnitsEnergyEntries_0">キロカロリー[kcal]</string>
+    <string name="prefUnitsEnergyEntries_0">[kcal]</string>
     <string name="prefUnitsEnergyEntries_1">キロジュール[kJ]</string>
     <string name="prefUnitsEnergyEntries_2">キロワット時[kWh]</string>
     <string name="prefUnitsEnergyEntries_3">ガソリン１リットル相当[Liters of petrol]</string>
@@ -569,24 +569,24 @@
     <string name="unitMiliW">mW</string>
     <string name="unitWKg">W/kg</string>
     <string name="unitWLb">W/lb</string>
-    <string name="unitKj">キロジュール</string>
+    <string name="unitKj">kJ</string>
     <string name="unitKjH">kJ/時</string>
-    <string name="unitKjKg">キロジュール/kg</string>
-    <string name="unitKjLb">キロジュール/ポンド</string>
-    <string name="unitKcal">キロカロリー</string>
-    <string name="unitKcalH">kcal毎時</string>
-    <string name="unitKcalKG">キロカロリー/kg</string>
+    <string name="unitKjKg">kJ/kg</string>
+    <string name="unitKjLb">kJ/ポンド</string>
+    <string name="unitKcal">kcal</string>
+    <string name="unitKcalH">kcal/時</string>
+    <string name="unitKcalKG">kcal/kg</string>
     <string name="unitKcalLb">kcal/ポンド</string>
     <string name="unitDegC">°C</string>
     <string name="unitDegF">°F</string>
-    <string name="unitHPa">ヘクトパスカル</string>
+    <string name="unitHPa">hPa</string>
     <string name="unitPetrolLit">リットルのガソリン相当.</string>
     <string name="unitKmPerLit">km/L</string>
     <string name="unitMiPerGal">マイル/1ガロンのガソリン</string>
     <string name="unitPerHundredKm">/100km</string>
     <string name="unitPerHundredMi">/100mi</string>
-    <string name="unitPerMinute">毎分</string>
-    <string name="unitPerHour">毎時</string>
+    <string name="unitPerMinute">/分</string>
+    <string name="unitPerHour">/時</string>
     <string name="unitPercent">%</string>
     <string name="unitPerMille">‰</string>
     <string name="unitMilliseconds">ms</string>
@@ -594,16 +594,16 @@
     <string name="unitMegabyte">MB</string>
     <string name="valueTimesCount">×</string>
     <string name="meterModeSpeedShort">スピード</string>
-    <string name="meterModeVerticalPower">垂直方向のパワー</string>
-    <string name="meterModeVerticalPowerShort">垂直方向のパワー</string>
+    <string name="meterModeVerticalPower">垂直方向パワー</string>
+    <string name="meterModeVerticalPowerShort">垂直方向パワー</string>
     <string name="meterModePowerShort">パワー</string>
     <string name="meterModePowerAverageShort">平均パワー</string>
-    <string name="meterModeAccelerationShort">加速</string>
-    <string name="meterModeOdo">積算走行距離計</string>
+    <string name="meterModeAccelerationShort">加速度</string>
+    <string name="meterModeOdo">積算走行距離</string>
     <string name="meterModeEnergyShort">エネルギー</string>
     <string name="meterModeClockShort">時計</string>
     <string name="meterModeWriggleShort">蛇行</string>
-    <string name="meterModeAltitudeSlopeShort">傾斜</string>
+    <string name="meterModeAltitudeSlopeShort">勾配</string>
     <string name="meterTextTotal">合計</string>
     <string name="cloudAccountsTitle">アカウント連携</string>
     <string name="tracksHistoryListButtonView">表示</string>
@@ -726,7 +726,7 @@
     <string name="dialogReviewNudgeMessage2">ありがとうございます。Google Play Store での良い評価、高得点を期待しています。</string>
     <string name="dialogButtonRateOnPlayStore">Google Play ストアで評価をお願いします</string>
     <string name="dialog_fenceguard_add_entries_0">保護エリアの追加</string>
-    <string name="dialog_fenceguard_update_entries_0">保護エリアを更新する</string>
+    <string name="dialog_fenceguard_update_entries_0">保護エリアの更新</string>
     <string name="dialogTracksShareChoices_0">ZIP圧縮(完全版)</string>
     <string name="meterModes_22">ジグザグ走行</string>
     <string name="prefMapOnlineModeEntries_0">オンライン</string>
@@ -765,10 +765,10 @@
     <string name="disclaimerText2">アプリは常識の範囲でご利用ください。自動車運転中、バイクや自転車などすべての乗り物への乗車中にアプリを操作することは厳禁です。</string>
     <string name="disclaimerText3">運転中は（アプリ画面ではなく）道路に眼をむけてください。</string>
     <string name="menuViewWith">アプリで表示 :</string>
-    <string name="controlPanelEnergyParams">パワー・エネルギー 係数</string>
+    <string name="controlPanelEnergyParams">パワー/エネルギー係数</string>
     <string name="tracksHistoryListViewTrackDialogTitle">走行記録を表示…</string>
     <string name="summaryDragArea">空気抵抗計算時の(正面)見付面積</string>
-    <string name="summaryRollResistCoef">転がり抵抗係数。</string>
+    <string name="summaryRollResistCoef">転がり抵抗係数</string>
     <string name="summaryLocationInterval">測位間隔</string>
     <string name="summarySpecific">詳細</string>
     <string name="sensorProperitesProfileInfo">センサー特性はプロファイルごとに管理されます。ここに表示される特性は、現在使用中のプロファイルだけに影響します(%1$s).</string>
@@ -807,7 +807,7 @@
     <string name="pref_units_other_dialog_title">他の測定値の単位</string>
     <string name="pref_units_power_title">総パワー</string>
     <string name="pref_units_power_dialog_title">総パワーの単位</string>
-    <string name="pref_units_slope_title">傾斜</string>
+    <string name="pref_units_slope_title">勾配</string>
     <string name="pref_units_slope_dialog_title">傾斜の単位</string>
     <string name="pref_bell_mode_title">ベルの種類</string>
     <string name="pref_bell_mode_dialog_title">ベルの種類</string>
@@ -875,7 +875,7 @@
     <string name="pref_soundeffects_tally_duration_dialog_title">経過時間刻み</string>
     <string name="pref_soundeffects_tally_ascent_title">登り</string>
     <string name="pref_soundeffects_tally_ascent_dialog_title">登り</string>
-    <string name="pref_soundeffects_tally_descent_title">下降（下り）</string>
+    <string name="pref_soundeffects_tally_descent_title">下降高度</string>
     <string name="pref_soundeffects_tally_descent_dialog_title">下り</string>
     <string name="pref_soundeffects_alarm_title">有効</string>
     <string name="pref_soundeffects_alarm_gpsPause_title">一時停止解除忘れ</string>
@@ -885,7 +885,7 @@
     <string name="pref_maps_disable_title">地図無効</string>
     <string name="pref_maps_track_draw_title">走行記録を描く</string>
     <string name="pref_maps_track_draw_summary">地図上に移動の様子を表示する</string>
-    <string name="pref_maps_fences_draw_title">フェンス</string>
+    <string name="pref_maps_fences_draw_title">保護エリア</string>
     <string name="pref_maps_fences_draw_summary">地図上にフェンスで守られた範囲を描く</string>
     <string name="pref_maps_animate_title">アニメーション</string>
     <string name="pref_maps_animate_summary">(すべてのプロファイル）特にフォローモードにおいて、バッテリー使用量を減らすために表示を消す</string>
@@ -975,7 +975,7 @@
     <string name="infoMeterModeDescentTitle">下降</string>
     <string name="infoMeterModeWriggleMsg">直線ルートからの逸脱を測定。逸脱した範囲の面積を計算する、一般的に小さい値が望ましい。</string>
     <string name="infoMeterModeAltitudeMsg">海抜標高(ジオイド)</string>
-    <string name="infoMeterModeSlopeTitle">傾斜</string>
+    <string name="infoMeterModeSlopeTitle">勾配</string>
     <string name="infoMeterModeSlopeMsg">傾斜（勾配）。ゼロは水平、正の値は上昇を意味し、負の値は降下を表します。</string>
     <string name="infoMeterModeVerticalSpeedTitle">垂直方向の速度</string>
     <string name="infoMeterModeVerticalSpeedMsg">垂直方向速度：上昇なら正の値、下降なら負の値</string>
@@ -1053,7 +1053,7 @@
     <string name="unitMetersAboveGroundLevel">m (高さ)</string>
     <string name="unitFeetsAboveGroundLevel">フィート (高さ)</string>
     <string name="meterModeKineticEnergy">運動エネルギー</string>
-    <string name="meterModeKineticEnergyShort">運動en</string>
+    <string name="meterModeKineticEnergyShort">運動エネルギー</string>
     <string name="sensorsInfo">記録の開始/終了に合わせて、センサーと自動的に接続します。
 \n
 \n手動でセンサーと接続することはできません。</string>
@@ -1116,11 +1116,11 @@
     <string name="dialogTrackEditNotesHint">メモ</string>
     <string name="summaryProfileName">プロファイル</string>
     <string name="summaryDeviceName">デバイス</string>
-    <string name="pref_soundeffects_tally_altitude_title">高度</string>
-    <string name="pref_soundeffects_tally_altitude_dialog_title">高度</string>
+    <string name="pref_soundeffects_tally_altitude_title">標高</string>
+    <string name="pref_soundeffects_tally_altitude_dialog_title">標高</string>
     <string name="pref_maps_offline_usage_summary">使用方法: 上記のオプションでダウンロードしたマップファイルを選択してください。</string>
     <string name="pref_maps_offline_terrain_usage_summary">使用方法: ダウンロードしたzipファイルから.hgtファイルを取り出し、オフラインマップファイルと同じフォルダに格納してください(個別のサブフォルダは使用しないでください)。</string>
-    <string name="speechAltitude">高度: %1$s</string>
+    <string name="speechAltitude">標高: %1$s</string>
     <string name="speechIncreasing">上昇</string>
     <string name="speechDecreasing">低下</string>
     <string name="facebookRemovedInfo">Facebookはアクティビティの共有サポートを止めたため、アプリからFacebook連携を削除しました。</string>
@@ -1148,7 +1148,7 @@
     <string name="meterModeStepCadence">歩数</string>
     <string name="meterModeStepCadenceShort">歩数</string>
     <string name="meterModeStepCount">歩数</string>
-    <string name="meterModeStepCountShort">歩</string>
+    <string name="meterModeStepCountShort">歩数</string>
     <string name="controlPanelLocationButton">位置</string>
     <string name="tracksHistoryListNoMap">マップは記録されていません。</string>
     <string name="sensorStepLengthNotSetWarning">歩幅が設定されていません</string>
@@ -1199,8 +1199,8 @@
     <string name="controlPanelUnitsButtonSubtitle">クリックして単位を変更</string>
     <string name="controlPanelSensorsButtonTitle">センサー</string>
     <string name="controlPanelSensorsButtonSubtitle">センサーをクリック</string>
-    <string name="meterModeFTPower">フィート パワー</string>
-    <string name="meterModeFTPowerShort">フィートパワー ショート</string>
+    <string name="meterModeFTPower">ftp (持続可能パワー)</string>
+    <string name="meterModeFTPowerShort">ftp</string>
     <string name="summaryProfileNameInfo">この走行を記録していたプロファイル</string>
     <string name="summaryDeviceNameInfo">この走行記録を記録していたデバイス</string>
     <string name="summaryTotalWeightInfo">走行記録中に使用した全重量の総計（走行者、車両、荷物、など）</string>
