@@ -425,8 +425,8 @@
     <string name="summaryTotalWeight">総重量</string>
     <string name="summaryWheelsWeight">ホイール重量</string>
     <string name="summaryEfficiency">効率</string>
-    <string name="summaryBasalMetabolicRate">基礎代謝率</string>
-    <string name="summaryDeviceRestartsCount">強制再開</string>
+    <string name="summaryBasalMetabolicRate">基礎代謝量</string>
+    <string name="summaryDeviceRestartsCount">強制リスタート</string>
     <string name="summaryStartedDatetime">開始時刻</string>
     <string name="summaryEndedDatetime">終了時刻</string>
     <string name="summaryTotalTime">総時間</string>
@@ -767,9 +767,9 @@
     <string name="menuViewWith">アプリで表示 :</string>
     <string name="controlPanelEnergyParams">パワー/エネルギー係数</string>
     <string name="tracksHistoryListViewTrackDialogTitle">走行記録を表示…</string>
-    <string name="summaryDragArea">空気抵抗計算時の(正面)見付面積</string>
-    <string name="summaryRollResistCoef">転がり抵抗係数</string>
-    <string name="summaryLocationInterval">測位間隔</string>
+    <string name="summaryDragArea">効力面積</string>
+    <string name="summaryRollResistCoef">転がり抵抗係数。</string>
+    <string name="summaryLocationInterval">位置測位間隔</string>
     <string name="summarySpecific">詳細</string>
     <string name="sensorProperitesProfileInfo">センサー特性はプロファイルごとに管理されます。ここに表示される特性は、現在使用中のプロファイルだけに影響します(%1$s).</string>
     <string name="sensorProperitesIsAutoPerimeterInfo">走行中に自動でタイヤ周長を計測します。</string>
@@ -1205,9 +1205,9 @@
     <string name="summaryDeviceNameInfo">この走行記録を記録していたデバイス</string>
     <string name="summaryTotalWeightInfo">走行記録中に使用した全重量の総計（走行者、車両、荷物、など）</string>
     <string name="summaryWheelsWeightInfo">この走行記録で使用された総ホイール重量</string>
-    <string name="summaryDragAreaInfo">空気抵抗面積(抗力係数ｘ見付面積)</string>
-    <string name="summaryRollResistCoefInfo">転がり抵抗係数</string>
-    <string name="summaryDeviceRestartsCountInfo">強制終了もしくはデバイス停止の回数</string>
+    <string name="summaryDragAreaInfo">効力面積 (Cd-A、空気抵抗係数 × 前方投影面積)。</string>
+    <string name="summaryRollResistCoefInfo">転がり抵抗係数。</string>
+    <string name="summaryDeviceRestartsCountInfo">この走行記録の間に発生した強制終了、またはデバイス停止の回数。</string>
     <string name="summaryHeartBeatsInfo">心拍数が検知された回数</string>
     <string name="summaryCadenceStrokesInfo">ペダルストロークが検知された回数</string>
     <string name="summaryMechWork">メカニカル ワーク</string>
@@ -1216,7 +1216,7 @@
     <string name="controlPanelMapSettingsButtonSubtitle">クリックで地図オプション</string>
     <string name="pref_text_automatic">自動</string>
     <string name="sensorProperitesActivityRecognitionInfo">センサーは、活動がセンサーの目的に適合していると認識された場合にのみデータを提供します。例えば、歩数検出センサーは自転車に乗っている時ではなく、歩いている時や走っている時の歩数をカウントします。100%正確ではない場合があり、ラグが発生する可能性があるので注意してください。Google Playのサービスが必要です。</string>
-    <string name="summaryBasalMetabolicRateInfo">基礎代謝率(BMR)</string>
+    <string name="summaryBasalMetabolicRateInfo">基礎代謝量 (BMR)。</string>
     <string name="summaryTotalTimeInfo">この走行記録の開始時刻から終了時刻までの時間</string>
     <string name="summaryStoppedTimeInfo">手動または自動で記録を一時停止していた時間</string>
     <string name="infoMeterModeFuncThresholdPowerMsg">長時間維持できる最大パワーの推定値。
@@ -1228,4 +1228,6 @@
     <string name="cloudAccountsPowerUploadPolicyTitle">パワーデータのアップロード条件</string>
     <string name="cloudAccountsPowerUploadPolicy_0">常に (デフォルト)</string>
     <string name="cloudAccountsPowerUploadPolicy_1">パワーメーターが使用されているときのみアップロードする</string>
+    <string name="summaryEfficiencyInfo">この走行記録に対するバッテリーパックの全体的な熱効果です。</string>
+    <string name="summaryLocationIntervalInfo">この走行記録での2点の位置情報更新の平均時間間隔。</string>
 </resources>
