@@ -246,7 +246,7 @@
     <string name="pref_fenceguard_title">保護エリア</string>
     <string name="pref_fenceguard_summary">自宅・職場など公開したくない場所の位置情報を、走行記録から見えないようにします</string>
     <string name="pref_soundeffects_tally_distance_title">距離</string>
-    <string name="pref_soundeffects_tally_duration_title">経過時間(停止時間を除く)</string>
+    <string name="pref_soundeffects_tally_duration_title">移動時間(停止時間を除く)</string>
     <string name="pref_meter_enable_title">有効</string>
     <string name="pref_flashlightAutoPocketMode_summary">スマートフォンの近接センサーをもとに、ライトが不要な場合はオフにします</string>
     <string name="infoMeterModeDistanceTitle">距離</string>
@@ -261,8 +261,8 @@
     <string name="infoMeterModeWriggleTitle">蛇行</string>
     <string name="infoMeterModeAltitudeTitle">標高</string>
     <string name="infoMeterModeSpeedTitle">速度</string>
-    <string name="infoMeterModeSpeedMsg">単位時間あたりの獲得距離</string>
-    <string name="infoMeterModePaceMsg">逆の速度。つまり単位距離あたりの経過時間</string>
+    <string name="infoMeterModeSpeedMsg">単位時間あたりの獲得距離。</string>
+    <string name="infoMeterModePaceMsg">速度の逆数、つまり単位距離あたりの経過時間。</string>
     <string name="infoMeterModeAccelerationTitle">加速度</string>
     <string name="infoMeterModeAccelerationMsg">速度の変化率。
 \n 
@@ -366,7 +366,7 @@
     <string name="meterModeSpeedAverageShort">平均速度</string>
     <string name="meterModePace">ペース</string>
     <string name="meterModePaceShort">ペース</string>
-    <string name="meterModeDuration">経過時間</string>
+    <string name="meterModeDuration">移動時間</string>
     <string name="meterModeDurationShort">経過時間</string>
     <string name="meterModeElapsedTime">経過時間</string>
     <string name="meterModeElapsedTimeShort">経過</string>
@@ -451,9 +451,9 @@
     <string name="pref_maps_offline_terrain_title">地形描画</string>
     <string name="pref_maps_offline_terrain_info_title">ただちにダウンロード</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">レイヤーボタン実行</string>
-    <string name="infoMeterModeTemperatureMsg">デバイスで測定された環境温度</string>
+    <string name="infoMeterModeTemperatureMsg">デバイスで測定された環境温度。</string>
     <string name="infoMeterModePressureTitle">気圧</string>
-    <string name="infoMeterModePressureMsg">デバイスで測定された環境気圧</string>
+    <string name="infoMeterModePressureMsg">デバイスで測定された環境気圧。</string>
     <string name="infoMeterModeCadenceTitle">ケイデンス</string>
     <string name="infoMeterModeHeartRateTitle">心拍数</string>
     <string name="infoMeterModeHeartRateMsg">1分間の心拍数。</string>
@@ -469,7 +469,7 @@
     <string name="defaultProfileNameOther">その他</string>
     <string name="dialog_fenceguard_update_entries_1">保護エリアの削除</string>
     <string name="dialogTracksShareChoices_1">GPX 限定</string>
-    <string name="meterModes_0">経過時間</string>
+    <string name="meterModes_0">移動時間</string>
     <string name="meterModes_1">距離</string>
     <string name="meterModes_2">速度</string>
     <string name="meterModes_3">標高</string>
@@ -516,7 +516,7 @@
     <string name="pref_wakelock_modes_0">自動(デフォルト)</string>
     <string name="pref_wakelock_modes_1">常にオン</string>
     <string name="pref_wakelock_modes_3">オフ</string>
-    <string name="prefUnitsEnergyEntries_0">[kcal]</string>
+    <string name="prefUnitsEnergyEntries_0">キロカロリー[kcal]</string>
     <string name="prefUnitsEnergyEntries_1">キロジュール[kJ]</string>
     <string name="prefUnitsEnergyEntries_2">キロワット時[kWh]</string>
     <string name="prefUnitsEnergyEntries_3">ガソリン１リットル相当[Liters of petrol]</string>
@@ -546,7 +546,7 @@
     <string name="pref_background_pattern_entries_8">蜂の巣模様</string>
     <string name="dialogPowerWeightsTitle">重量</string>
     <string name="dialogPowerWeightsWeightRider">ライダーの体重</string>
-    <string name="dialogPowerWeightsWeightVehicle">自転車</string>
+    <string name="dialogPowerWeightsWeightVehicle">車重</string>
     <string name="dialogPowerParamsDragArea">空気抵抗領域 (Cd·A)</string>
     <string name="dialogEnergyParamsTitle">エネルギー</string>
     <string name="dialogEnergyParamsEfficiency">全温度効率 (η)</string>
@@ -608,8 +608,8 @@
     <string name="cloudAccountsTitle">アカウント連携</string>
     <string name="tracksHistoryListButtonView">表示</string>
     <string name="summaryStoppedTime">停止時間</string>
-    <string name="summaryHeartBeats">心拍数</string>
-    <string name="summaryCadenceStrokes">ペダル・ストローク</string>
+    <string name="summaryHeartBeats">総心拍回数</string>
+    <string name="summaryCadenceStrokes">ペダルストローク</string>
     <string name="sensorsTitle">センサー</string>
     <string name="sensorsTabUsed">使用中</string>
     <string name="sensorsTabFound">発見</string>
@@ -629,16 +629,16 @@
     <string name="sensorAddedMsg">センサーがプロファイルに追加されました</string>
     <string name="sensorRemovedMsg">プロファイルからセンサーを削除しました</string>
     <string name="sensorDeletedMsg">センサーの登録を解除しました</string>
-    <string name="sensorPurposeNone">(意図なし)</string>
+    <string name="sensorPurposeNone">(用途なし)</string>
     <string name="sensorPurposeCadence">ケイデンス</string>
     <string name="sensorPurposeSpeed">スピード</string>
     <string name="sensorPurposeDistance">距離</string>
-    <string name="sensorPurposeDuration">持続時間</string>
+    <string name="sensorPurposeDuration">移動時間</string>
     <string name="sensorPurposePower">パワー</string>
     <string name="sensorPurposeHeartRate">心拍数</string>
     <string name="sensorProperitesUseForSpeed">スピード測定に使用</string>
     <string name="sensorProperitesUseForCadence">ケイデンス測定に使用</string>
-    <string name="sensorProperitesUseForDistance">距離・持続時間測定に使用</string>
+    <string name="sensorProperitesUseForDistance">距離・移動時間測定に使用</string>
     <string name="sensorProperitesUseForPower">パワー測定に使用</string>
     <string name="sensorProperitesUseForHeartRate">心拍数測定に使用</string>
     <string name="sensorProperitesIsInverted">スピードとケイデンスを逆に</string>
@@ -768,9 +768,9 @@
     <string name="controlPanelEnergyParams">パワー/エネルギー係数</string>
     <string name="tracksHistoryListViewTrackDialogTitle">走行記録を表示…</string>
     <string name="summaryDragArea">効力面積</string>
-    <string name="summaryRollResistCoef">転がり抵抗係数。</string>
+    <string name="summaryRollResistCoef">転がり抵抗係数</string>
     <string name="summaryLocationInterval">位置測位間隔</string>
-    <string name="summarySpecific">詳細</string>
+    <string name="summarySpecific">単位重量あたり</string>
     <string name="sensorProperitesProfileInfo">センサー特性はプロファイルごとに管理されます。ここに表示される特性は、現在使用中のプロファイルだけに影響します(%1$s).</string>
     <string name="sensorProperitesIsAutoPerimeterInfo">走行中に自動でタイヤ周長を計測します。</string>
     <string name="sensorProperitesIsAutoStrideLenInfo">自動的に歩幅を計測して、走行を記録します。</string>
@@ -872,7 +872,7 @@
     <string name="pref_soundeffects_tally_title">有効化</string>
     <string name="pref_soundeffects_tally_value_summary">%1$s %2$s ごとに</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">距離</string>
-    <string name="pref_soundeffects_tally_duration_dialog_title">経過時間刻み</string>
+    <string name="pref_soundeffects_tally_duration_dialog_title">移動時間刻み</string>
     <string name="pref_soundeffects_tally_ascent_title">登り</string>
     <string name="pref_soundeffects_tally_ascent_dialog_title">登り</string>
     <string name="pref_soundeffects_tally_descent_title">下降高度</string>
@@ -967,18 +967,18 @@
     <string name="prefMapTrackColorTitle">走行記録の色</string>
     <string name="prefMapGuideRouteColorTitle">ルートガイドの色</string>
     <string name="infoMeterModeDistanceOdoTitle">オドメーター</string>
-    <string name="infoMeterModeDurationMsg">移動時間、ただし休憩・中断の時間を除く。</string>
+    <string name="infoMeterModeDurationMsg">移動時間。経過時間から停止している時間を除いたもの。</string>
     <string name="infoMeterModeElapsedTitle">経過時間</string>
-    <string name="infoMeterModeElapsedMsg">経過時間、すべての休憩を含むが、中断は除く。</string>
+    <string name="infoMeterModeElapsedMsg">経過時間。すべての休憩を含むが、中断は除く。</string>
     <string name="infoMeterModeEfficacyTitle">効率（総合）</string>
     <string name="infoMeterModeAscentTitle">上昇</string>
     <string name="infoMeterModeDescentTitle">下降</string>
     <string name="infoMeterModeWriggleMsg">直線ルートからの逸脱を測定。逸脱した範囲の面積を計算する、一般的に小さい値が望ましい。</string>
-    <string name="infoMeterModeAltitudeMsg">海抜標高(ジオイド)</string>
+    <string name="infoMeterModeAltitudeMsg">海抜標高(ジオイド)。</string>
     <string name="infoMeterModeSlopeTitle">勾配</string>
     <string name="infoMeterModeSlopeMsg">傾斜（勾配）。ゼロは水平、正の値は上昇を意味し、負の値は降下を表します。</string>
     <string name="infoMeterModeVerticalSpeedTitle">垂直方向の速度</string>
-    <string name="infoMeterModeVerticalSpeedMsg">垂直方向速度：上昇なら正の値、下降なら負の値</string>
+    <string name="infoMeterModeVerticalSpeedMsg">垂直方向の速度で、正の値なら上昇、負の値なら下降。</string>
     <string name="infoMeterModePaceTitle">ペース</string>
     <string name="infoMeterModePowerTitle">パワー</string>
     <string name="infoMeterModePowerMsg">空気抵抗、標高の変化などにより発揮されるパワー。
@@ -1144,32 +1144,32 @@
     <string name="rewardedAdPriceFree">無料 (このセッションのみ有効)</string>
     <string name="cautionTitle">注意</string>
     <string name="dialogActivityRecognitionPermissionRequest">アプリが歩数検出センサーなどの組み込みセンサーを使用できるようにするには、許可が必要です。</string>
-    <string name="unitSteps">歩数</string>
-    <string name="meterModeStepCadence">歩数</string>
+    <string name="unitSteps">総歩数</string>
+    <string name="meterModeStepCadence">1分あたりの歩数</string>
     <string name="meterModeStepCadenceShort">歩数</string>
-    <string name="meterModeStepCount">歩数</string>
-    <string name="meterModeStepCountShort">歩数</string>
+    <string name="meterModeStepCount">総歩数</string>
+    <string name="meterModeStepCountShort">総歩数</string>
     <string name="controlPanelLocationButton">位置</string>
     <string name="tracksHistoryListNoMap">マップは記録されていません。</string>
     <string name="sensorStepLengthNotSetWarning">歩幅が設定されていません</string>
-    <string name="sensorPurposeSteps">歩数</string>
+    <string name="sensorPurposeSteps">総歩数</string>
     <string name="sensorStepDetectorName">歩数検出</string>
-    <string name="sensorProperitesUseForSteps">歩数/歩幅の検出に使用</string>
+    <string name="sensorProperitesUseForSteps">歩数の検出に使用</string>
     <string name="sensorProperitesEnableFiltering">データのフィルタリング</string>
     <string name="sensorProperitesEnableFilteringInfo">センサーデータで追加のフィルタリングが実行され、精度が向上する可能性がありますが、数秒の遅延が生じます。 デフォルトでは無効です。</string>
-    <string name="pref_soundeffects_tally_steps_title">歩数</string>
+    <string name="pref_soundeffects_tally_steps_title">総歩数</string>
     <string name="pref_soundeffects_tally_steps_dialog_title">歩数</string>
-    <string name="infoMeterModeStepCadenceTitle">歩数</string>
+    <string name="infoMeterModeStepCadenceTitle">1分あたり歩数</string>
     <string name="infoMeterModeStepCadenceMsg">1分あたりの歩数。</string>
     <string name="infoMeterModeStepCountTitle">歩数</string>
     <string name="infoMeterModeStepCountMsg">総歩数。</string>
-    <string name="meterModes_27">歩数</string>
-    <string name="meterModes_28">歩数</string>
+    <string name="meterModes_27">総歩数</string>
+    <string name="meterModes_28">1分あたり歩数</string>
     <string name="speechSteps">歩数: %1$s</string>
     <string name="dialogActivityRecognitionPermissionRequestTitle">身体活動許可</string>
-    <string name="prefProhibitLocationAlertInfo">活動中に位置情報がオンになったり使用されたりすることはないため、マップは使用できません。
-\n
-\nデータは、モーションセンサとボディセンサ（パワー、速度、ケイデンス、心拍数、歩数）からのみ取得されます。</string>
+    <string name="prefProhibitLocationAlertInfo">活動中に位置情報がオンになったり使用されたりすることはないため、マップは使用できません。 
+\n 
+\nデータは、モーションセンサとボディセンサ(パワー、速度、ケイデンス、心拍数、歩数)からのみ取得されます。</string>
     <string name="menuExpand">展開</string>
     <string name="menuCollapse">折りたたむ</string>
     <string name="dialogMapsWeatherRadar">降水レーダー</string>
@@ -1201,24 +1201,24 @@
     <string name="controlPanelSensorsButtonSubtitle">センサーをクリック</string>
     <string name="meterModeFTPower">ftp (持続可能パワー)</string>
     <string name="meterModeFTPowerShort">ftp</string>
-    <string name="summaryProfileNameInfo">この走行を記録していたプロファイル</string>
-    <string name="summaryDeviceNameInfo">この走行記録を記録していたデバイス</string>
-    <string name="summaryTotalWeightInfo">走行記録中に使用した全重量の総計（走行者、車両、荷物、など）</string>
-    <string name="summaryWheelsWeightInfo">この走行記録で使用された総ホイール重量</string>
+    <string name="summaryProfileNameInfo">この走行を記録していたプロファイル。</string>
+    <string name="summaryDeviceNameInfo">この走行記録を記録していたデバイス。</string>
+    <string name="summaryTotalWeightInfo">走行記録中に使用した全重量の総計(走行者、車両、荷物など)。</string>
+    <string name="summaryWheelsWeightInfo">この走行記録で使用された総ホイール重量。</string>
     <string name="summaryDragAreaInfo">効力面積 (Cd-A、空気抵抗係数 × 前方投影面積)。</string>
     <string name="summaryRollResistCoefInfo">転がり抵抗係数。</string>
     <string name="summaryDeviceRestartsCountInfo">この走行記録の間に発生した強制終了、またはデバイス停止の回数。</string>
-    <string name="summaryHeartBeatsInfo">心拍数が検知された回数</string>
-    <string name="summaryCadenceStrokesInfo">ペダルストロークが検知された回数</string>
+    <string name="summaryHeartBeatsInfo">この走行記録で検知された心拍の総回数。</string>
+    <string name="summaryCadenceStrokesInfo">ペダルストロークが検知された回数。</string>
     <string name="summaryMechWork">メカニカル ワーク</string>
-    <string name="summaryMechWorkInfo">この活動に使われた純メカニカルワーク(熱効率とBMRは無視)</string>
+    <string name="summaryMechWorkInfo">この活動に使われた純メカニカルワーク(熱効率とBMRは無視)。</string>
     <string name="controlPanelMapSettingsButtonTitle">地図オプション</string>
     <string name="controlPanelMapSettingsButtonSubtitle">クリックで地図オプション</string>
     <string name="pref_text_automatic">自動</string>
     <string name="sensorProperitesActivityRecognitionInfo">センサーは、活動がセンサーの目的に適合していると認識された場合にのみデータを提供します。例えば、歩数検出センサーは自転車に乗っている時ではなく、歩いている時や走っている時の歩数をカウントします。100%正確ではない場合があり、ラグが発生する可能性があるので注意してください。Google Playのサービスが必要です。</string>
     <string name="summaryBasalMetabolicRateInfo">基礎代謝量 (BMR)。</string>
-    <string name="summaryTotalTimeInfo">この走行記録の開始時刻から終了時刻までの時間</string>
-    <string name="summaryStoppedTimeInfo">手動または自動で記録を一時停止していた時間</string>
+    <string name="summaryTotalTimeInfo">この走行記録の開始時刻から終了時刻までの時間。</string>
+    <string name="summaryStoppedTimeInfo">手動または自動で記録を一時停止していた時間。</string>
     <string name="infoMeterModeFuncThresholdPowerMsg">長時間維持できる最大パワーの推定値。
 \n
 \n推定値は活動のタイプと期間に大きく依存します。</string>
@@ -1230,4 +1230,11 @@
     <string name="cloudAccountsPowerUploadPolicy_1">パワーメーターが使用されているときのみアップロードする</string>
     <string name="summaryEfficiencyInfo">この走行記録に対するバッテリーパックの全体的な熱効果です。</string>
     <string name="summaryLocationIntervalInfo">この走行記録での2点の位置情報更新の平均時間間隔。</string>
+    <string name="sensorProperitesActivityRecognition">身体活動認識</string>
+    <string name="summaryActivePower">実効パワー</string>
+    <string name="infoMeterModeFuncThresholdPowerTitle">実効パワーしきい値</string>
+    <string name="meterModes_29">実効パワーしきい値</string>
+    <string name="hereMapsFeatures">🔹 HEREマップを利用可能
+\n🔹 広告無し</string>
+    <string name="dialogMapsMapCount">%1$s マップ</string>
 </resources>
