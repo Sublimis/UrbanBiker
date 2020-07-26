@@ -30,7 +30,7 @@
     <string name="menuMeterNewTrack">Nieuwe rit</string>
     <string name="menuMeterResetMinMax">Reset min/max</string>
     <string name="menuMeterParameters">Parameters…</string>
-    <string name="menuMeterPowerMode">Vermogens instellingen aan/uit</string>
+    <string name="menuMeterPowerMode">Power mode aan/uit</string>
     <string name="menuFenceguard">Anonimiteit instellingen</string>
     <string name="menuExit">Sluiten</string>
     <string name="menuMore">Meer…</string>
@@ -619,7 +619,7 @@
     <string name="toastTrackingStopped">Gestopt</string>
     <string name="toastProfilesListNonemptyDelete">Kan niet verwijderen - Profiel bevat niet opgeslagen data! Druk op finish.</string>
     <string name="toastProfileButtonClickInfo">Houd ingedrukt om van profiel te veranderen</string>
-    <string name="toastMapClickInfo">Lang indrukken om kaartinstellingen te openen</string>
+    <string name="toastMapClickInfo">Lang indrukken voor kaartinstellingen</string>
     <string name="toastSharingSuccess">Succesvol geplaatst</string>
     <string name="toastSharingError">Foutmelding: Delen niet gelukt</string>
     <string name="toastSharingPermissionsError">Plaatsen niet gelukt, kijk app-permissies na</string>
@@ -662,4 +662,72 @@
     <string name="menuCollapse">Dichtklappen</string>
     <string name="menuMeterStart">Start</string>
     <string name="menuMeterStop">Stop</string>
+    <string name="dialogGpsSettingsPromptMessage">Je kan de meeste functies van deze app niet gebruiken zonder Locatie.
+\n
+\n
+\nZorg er voor dat Locatie is geactiveerd en ingesteld op \'Hoge nauwkeurigheid
+\n
+\nLocatie instellingen nu openen\?</string>
+    <string name="dialogBaroAltitudePromptTitle">Barometrisch hoogte probleem</string>
+    <string name="dialogBaroAltitudePromptMessage">"Barometrische Hoogte is uitgezet vanwege verschillen met de GPS hoogte!
+\n
+\nGebruik het niet in gesloten ruimtes of  in ruimtes met airconditioning!"</string>
+    <string name="dialogBaroAltitudeNoticeMessage">Barometrische Hoogte werkt alleen buitenshuis.
+\n
+\nGebruik het niet in afgesloten ruimtes of ruimtes met airconditioning zoals sommige auto\'s en vliegtuigen.</string>
+    <string name="dialogThermoBarometerNoticeTitle">Mededeling</string>
+    <string name="dialogThermoBarometerNoticeMessage">Barometrische Hoogte is van de buitenlucht temperatuur afhankelijk voor nauwkeurigheid.
+\n
+\nGebruik het niet in afgesloten ruimtes of ruimtes met airconditioning zoals sommige auto\'s en vliegtuigen.</string>
+    <string name="dialogResetTitle">Einde</string>
+    <string name="dialogResetMessage">Deze activiteit bewaren en een nieuwe voorbereiden\?</string>
+    <string name="dialogResetNoTrackMessage">Er was geen activiteit opgeslagen. De meters nu resetten\?</string>
+    <string name="dialogScreenBrightnessOverride">Helderheid</string>
+    <string name="dialogMapsFollowMode">Volg</string>
+    <string name="dialogMapsAutoRotate">Vanzelf draaien</string>
+    <string name="dialogMapsHighResolution">Hoge resolutie kaart</string>
+    <string name="dialogMapsRenderTerrain">Terrein creëren</string>
+    <string name="dialogMapsTrackColor">Activiteit schijnsel:</string>
+    <string name="dialogMapsTerrainDownloadTitle">Terrein download</string>
+    <string name="dialogTrackUploadWaitTitle">Aub wachten</string>
+    <string name="dialogTrackUploadPreparing">Voorbereiding activiteit gegevens…</string>
+    <string name="dialogTrackUploadSending">Verzenden…</string>
+    <string name="dialogTrackUploadDescriptionHint">Deel uw suggesties…</string>
+    <string name="dialogTrackUploadShareButton">Deel</string>
+    <string name="dialogTrackUploadShareAgainButton">Deel opnieuw</string>
+    <string name="dialogTrackUploadUpdateButton">Update</string>
+    <string name="dialogTrackUploadActivityType">Activiteit type</string>
+    <string name="dialogTrackUploadPlatform">Online dienst</string>
+    <string name="dialogTrackUploadStravaIsCommute">Woon-werkverkeer</string>
+    <string name="dialogGpsIntervalNote">Houd deze waarde onder3 sec voor de meest nauwkeurige resultaten en consistent gedrag!</string>
+    <string name="dialogGpsIntervalLabelMore">◀
+\nHogere nauwkeurigheid gebruikt meer batterij</string>
+    <string name="dialogGpsIntervalLabelLess">▶
+\nLage nauwkeurigheid gebruikt minder batterij</string>
+    <string name="dialogSliderLess">◀</string>
+    <string name="dialogSliderMore">▶</string>
+    <string name="dialogLocationPermissionRequestTitle">Locatie toestemming</string>
+    <string name="dialogLocationPermissionRequest">De app heeft toegang nodig tot je locatie om je buitenactiviteiten vast te leggen.</string>
+    <string name="dialogLocationPermissionRequestForBt">Locatie toestemming is vereist om Bluetooth apparaten te vinden.
+\n
+\nBluetooth apparaten kunnen niet gevonden worden zonder toestemming.</string>
+    <string name="dialogStoragePermissionRequestTitle">Opslagruimte toestemming</string>
+    <string name="dialogCameraPermissionRequestTitle">Camera toestemming</string>
+    <string name="dialogCameraPermissionRequest">Toestemming is vereist om de app de flitser te laten activeren.</string>
+    <string name="dialogPermissionProblemMessage">Deze toestemming is nodig om de app goed te laten werken. Het kan worden gegeven in de App toestemmingen instellingen pagina.
+\n
+\nDaar nu naar toe gaan\?</string>
+    <string name="dialogTrackEditTitleHint">Titel</string>
+    <string name="dialogTrackEditNotesHint">Aantekeningen</string>
+    <string name="dialogActivityRecognitionPermissionRequestTitle">Fysieke activiteiten toestemming</string>
+    <string name="dialogActivityRecognitionPermissionRequest">Toestemming is nodig zodat de app ingebouwde sensors zoals Step Detector kan gebruiken.</string>
+    <string name="dialogMapsWeatherRadar">Neerslag radar</string>
+    <string name="dialogOpenRainviewerText">Nu www.rainviewer.com web pagina openen\?</string>
+    <string name="dialogScreenOrientationReversePortrait">Portret (omgedraaid)</string>
+    <string name="dialogScreenOrientationReverseLandscape">Landschap (omgedraaid)</string>
+    <string name="dialogScreenshotTitle">Schermafdruk</string>
+    <string name="dialogMapsAutoZoom">Vanzelf zoomen</string>
+    <string name="hereMapsFeatures">🔹 HERE kaarten
+\n🔹 Geen advertenties</string>
+    <string name="dialogMapsMapCount">%1$s kaarten</string>
 </resources>
