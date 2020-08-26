@@ -23,7 +23,7 @@
     <string name="buttonNewTrack">Finalitza</string>
     <string name="menuControlPanel">Panell de control</string>
     <string name="menuSettings">Configuració</string>
-    <string name="menuSummary">Resum</string>
+    <string name="menuSummary">Resum en viu</string>
     <string name="menuTracksHistory">Històric</string>
     <string name="menuTracksHistoryResume">Continua</string>
     <string name="menuMeterLock">Bloca</string>
@@ -102,7 +102,7 @@
     <string name="toastProfileButtonClickInfo">Mantingueu premut per canviar el perfil</string>
     <string name="toastContrastButtonClickInfo">El tema visual automàtic està actiu</string>
     <string name="toastFlashlightButtonClickInfo">Mantingueu pitjat per alternar llum de flash</string>
-    <string name="toastRoarButtonClickInfo">Mantingueu pitjat per alternar el so del clàxon</string>
+    <string name="toastRoarButtonClickInfo">Mantingueu pitjat per alternar el so SAAV</string>
     <string name="toastMapButtonClickInfo">Mantingueu pitjar per alternar el mapa</string>
     <string name="toastMapFollowingOn">Seguiment activat</string>
     <string name="toastMapFollowingAutorotate">Auto-rotació activada</string>
@@ -132,7 +132,7 @@
     <string name="dialog_default_color_text">Això carregarà els colors per defecte, n\'esteu segur\?</string>
     <string name="dialog_defaultConfirmation">N\'estàs segur\?</string>
     <string name="dialog_volume_bell_text">Timbre</string>
-    <string name="dialog_volume_roaring_text">Clàxon</string>
+    <string name="dialog_volume_roaring_text">SAAV</string>
     <string name="dialog_volume_effects_text">Efectes</string>
     <string name="dialog_volume_tallies_text">Recomptes</string>
     <string name="dialog_volume_alarms_text">Alarmes</string>
@@ -199,7 +199,7 @@
     <string name="dialogResetMessage">Vols desar aquest recorregut i preparar-ne un de nou\?</string>
     <string name="dialogResetNoTrackMessage">No s\'ha enregistrat cap recorregut. Vols restablir ara els comptadors\?</string>
     <string name="dialogScreenHudMode">HUD mode mirall</string>
-    <string name="dialogScreenOrientationAuto">Auto orientació</string>
+    <string name="dialogScreenOrientationAuto">Automàtica</string>
     <string name="dialogScreenOrientationPortrait">Vertical</string>
     <string name="dialogScreenOrientationLandscape">Horitzontal</string>
     <string name="dialogScreenBrightnessOverride">Anul·la brillantor</string>
@@ -944,4 +944,49 @@
     <string name="prefAdModes_2">AppBrain</string>
     <string name="prefAdModes_3">Cap</string>
     <string name="licenseDialogMapsTab">Mapes</string>
+    <string name="toastMapClickInfo">Mantingueu pitjat per opcions de mapa</string>
+    <string name="dialog_default_map_track_colors_title">Color de l\'recorregut al mapa</string>
+    <string name="dialogGpsSettingsPromptMessage">No podrà fer servir la majoria de característiques d\'aquesta app sense Localització.
+\n 
+\nSi us plau comprovi que la Localització està habilitada i configurada en mode \"Alta precisió\".
+\n 
+\n¿Obrir la configuració de Localització\?</string>
+    <string name="ultimateLicenseDescription">La llicència més poderosa per a la millor experiència.</string>
+    <string name="ultimateLicenseFeatures">🔹 Tots els mapes
+\n🔹 Totes les característiques
+\n🔹 Sense publicitat</string>
+    <string name="proPlusLicenseFeatures">🔹 Sense publicitat
+\n🔹 Donació extra</string>
+    <string name="proLicenseFeatures">🔹 Sense publicitat</string>
+    <string name="thunderforestMapsFeatures">🔹 Mapes Thunderforest
+\n🔹 Sense publicitat</string>
+    <string name="mapboxMapsFeatures">🔹 Mapes MapBox
+\n🔹 Sense publicitat</string>
+    <string name="priceFree">GRATUÏT</string>
+    <string name="rewardedAdDescription">Cliqueu aquí per primer veure un anunci</string>
+    <string name="rewardedAdLoading">Carregant anunci …</string>
+    <string name="rewardedLicenseSuccess">Llicència atorgada amb èxit</string>
+    <string name="na">N/A</string>
+    <string name="toastScreenPocketModeActive">Mode butxaca habilitat</string>
+    <string name="toastScreenWavingModeActive">Mode agitació habilitat</string>
+    <string name="dialog_volume_speech_text">Diàlegs de veu</string>
+    <string name="subscriptionPerMonth">%1$s /mes</string>
+    <string name="subscriptionPer1y">%1$s facturats un cop cada 12 mesos</string>
+    <string name="subscriptionPer6m">%1$s facturats un cop cada 6 mesos</string>
+    <string name="subscriptionPer3m">%1$s facturats un cop cada 3 mesos</string>
+    <string name="subscriptionPer1m">%1$s facturats un cop cada mes</string>
+    <string name="subscriptionPer1w">%1$s facturats un cop cada setmana</string>
+    <string name="paymentOnce">Pagament únic</string>
+    <string name="manageSubscriptions">Gestionar subscripcions</string>
+    <string name="loading">Carregant…</string>
+    <string name="rewardedAdPriceFree">GRATUÏT (vàlid per a aquesta sessió)</string>
+    <string name="cautionTitle">Atenció</string>
+    <string name="menuExpand">Expandir</string>
+    <string name="menuCollapse">Contraure</string>
+    <string name="menuMeterStart">Iniciar</string>
+    <string name="menuMeterStop">Aturar</string>
+    <string name="hereMapsFeatures">🔹 Mapes HERE
+\n🔹 Sense publicitat</string>
+    <string name="maptilerMapsFeatures">🔹 Mapes de MapTiler
+\n🔹 Sense publicitat</string>
 </resources>
