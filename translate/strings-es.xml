@@ -33,7 +33,7 @@
     <string name="menuMeterResetMinMax">Reiniciar mín/máx</string>
     <string name="menuMeterParameters">Parámetros…</string>
     <string name="menuMeterPowerMode">Alternar modo de potencia</string>
-    <string name="menuFenceguard">Zonas seguras</string>
+    <string name="menuFenceguard">Zonas privadas</string>
     <string name="menuExit">Salir</string>
     <string name="menuMore">Más…</string>
     <string name="menuView">Ver</string>
@@ -66,19 +66,19 @@
     <string name="toastGpsEnabled">GPS activado</string>
     <string name="toastTrackSaved">Recorrido guardado.</string>
     <string name="toastTrackDiscarded">Recorrido descartado.</string>
-    <string name="toastTrackSavingError">¡Error guardando recorrido! Intente restablecer de nuevo.</string>
-    <string name="toastTrackWritingError">¡Error al escribir el recorrido en el almacenamiento! Intente restablecer de nuevo.</string>
-    <string name="toastTrackZippingError">¡Error comprimiendo el recorrido! Intente restablecer de nuevo.</string>
-    <string name="toastTrackMovingError">¡Error moviendo el recorrido a USB! Intente restablecer de nuevo.</string>
+    <string name="toastTrackSavingError">¡Error guardando recorrido! Intente de nuevo.</string>
+    <string name="toastTrackWritingError">¡Error al escribir el recorrido en el almacenamiento! Intente de nuevo.</string>
+    <string name="toastTrackZippingError">¡Error comprimiendo el recorrido! Intente de nuevo.</string>
+    <string name="toastTrackMovingError">¡Error moviendo el recorrido a USB! Intente de nuevo.</string>
     <string name="toastPressAgainToExit">Pulse de nuevo para salir</string>
-    <string name="toastFenceGuardFenceAdded">Zona segura %1$s añadida</string>
-    <string name="toastFenceGuardFenceAddingError">Error añadiendo zona segura</string>
-    <string name="toastFenceGuardFenceUpdated">Zona segura %1$s actualizada</string>
-    <string name="toastFenceGuardFenceUpdatingError">Error actualizando zona segura</string>
-    <string name="toastFenceGuardFenceRemoved">Zona segura %1$s eliminada</string>
-    <string name="toastFenceGuardFenceRemovingError">Error eliminando zona segura</string>
-    <string name="toastFenceGuardOutsideTheFence">Actualmente no estás dentro de la zona segura</string>
-    <string name="toastFenceGuardLocationUnavailable">Zona Segura: Tu ubicación sigue sin estar disponible</string>
+    <string name="toastFenceGuardFenceAdded">Zonas Privadas: Área %1$s añadida</string>
+    <string name="toastFenceGuardFenceAddingError">Zonas Privadas: Error agregando área</string>
+    <string name="toastFenceGuardFenceUpdated">Zonas Privadas: Área %1$s actualizada</string>
+    <string name="toastFenceGuardFenceUpdatingError">Zonas Privadas: Error actualizando área</string>
+    <string name="toastFenceGuardFenceRemoved">Zonas Privadas: Área %1$s eliminada</string>
+    <string name="toastFenceGuardFenceRemovingError">Zonas Privadas: Error eliminando área</string>
+    <string name="toastFenceGuardOutsideTheFence">Zonas Privadas: Actualmente no estás dentro del área</string>
+    <string name="toastFenceGuardLocationUnavailable">Zonas Privadas: Tu ubicación sigue sin estar disponible</string>
     <string name="toastProfilesListProfileCreated">El perfil ha sido creado</string>
     <string name="toastProfilesListProfileDeleted">El perfil ha sido eliminado</string>
     <string name="toastProfilesListProfileDeleteError">Error eliminando el perfil</string>
@@ -115,19 +115,18 @@
     <string name="dialog_volume_message">Nota: Utilice los botones de volumen del dispositivo para ajustar el volumen general de sonido.</string>
     <string name="dialog_bell_automatic_sensitivity_title">Sensibilidad del timbre automático</string>
     <string name="dialog_bell_shake_sensitivity_title">Sensibilidad de sacudida</string>
-    <string name="dialog_fenceguard_add_title">Añadir zona segura</string>
-    <string name="dialog_fenceguard_add_text">Nombrar una nueva zona segura:</string>
-    <string name="dialog_fenceguard_add_text2">Se levantará una zona segura alrededor de tu ubicación actual para evitar que quede expuesta en los recorridos guardados.</string>
-    <string name="dialog_fenceguard_update_title">Actualizar zona segura</string>
-    <string name="dialog_fenceguard_update_text">Nombre de la zona segura:</string>
-    <string name="dialog_fenceguard_update_text2">La zona segura levantada alrededor de su ubicación le protegen de quedar expuesto en los recorridos guardados.</string>
-    <string name="dialog_fenceguard_remove_title">Eliminar zona segura</string>
-    <string name="dialog_fenceguard_remove_defaultText">¿Está seguro/a de eliminar la zona segura\?</string>
-    <string name="dialog_fenceguard_remove_formatText">¿Está seguro/a de eliminar la zona segura %1$s\?</string>
+    <string name="dialog_fenceguard_add_title">Añadir zona privada</string>
+    <string name="dialog_fenceguard_add_text">Nombrar una nueva zona privada:</string>
+    <string name="dialog_fenceguard_add_text2">Se levantará una zona privada alrededor de tu ubicación actual para evitar que quede expuesta en los recorridos guardados.</string>
+    <string name="dialog_fenceguard_update_title">Actualizar zona privada</string>
+    <string name="dialog_fenceguard_update_text">Nombre de la zona privada:</string>
+    <string name="dialog_fenceguard_update_text2">La zona privada levantada alrededor de su ubicación le protegen de quedar expuesto en los recorridos guardados.</string>
+    <string name="dialog_fenceguard_remove_title">Eliminar zona privada</string>
+    <string name="dialog_fenceguard_remove_defaultText">¿Está seguro/a de eliminar la zona privada\?</string>
+    <string name="dialog_fenceguard_remove_formatText">¿Está seguro/a de eliminar la zona privada %1$s\?</string>
     <string name="dialog_track_save_text">Distancia %1$.3f %2$s
 \nDuración %3$s
-\n
-        (%4$s)
+\n(%4$s)
 \n
 \nEl recorrido parece muy corto. ¿Quieres guardarlo\?</string>
     <string name="dialogProfileDeleteTitle">Eliminar perfil</string>
@@ -166,10 +165,10 @@
     <string name="dialogMapsFollowMode">Seguir</string>
     <string name="dialogMapsAutoRotate">Auto-rotación</string>
     <string name="dialogMapsTrackColor">Tono del recorrido:</string>
-    <string name="dialogFencesAdd">Añadir zona segura aquí</string>
-    <string name="dialogFencesUpdate">Actualizar ubicación de la zona segura</string>
-    <string name="dialogFencesEdit">Editar zona segura</string>
-    <string name="dialogFencesRemove">Eliminar zona segura</string>
+    <string name="dialogFencesAdd">Añadir zona privada aquí</string>
+    <string name="dialogFencesUpdate">Actualizar ubicación de la zona privada</string>
+    <string name="dialogFencesEdit">Editar zona privada</string>
+    <string name="dialogFencesRemove">Eliminar zona privada</string>
     <string name="dialogFencesShowFences">Mostrar zonas seguras</string>
     <string name="dialogPowerWeightsTitle">Pesos</string>
     <string name="dialogPowerWeightsWeightRider">Conductor</string>
@@ -470,8 +469,8 @@
     <string name="pref_speed_calculate_mode_title">Recalcular velocidad</string>
     <string name="pref_speed_calculate_mode_summary">(Todos los perfiles) Recalcular la velocidad usando distancias, no usar el valor GPS directamente. Esto puede producir lecturas de velocidad más estables que valores GPS (Doppler).</string>
     <string name="pref_soundeffects_title">Habilitar</string>
-    <string name="pref_soundeffects_fence_enterleave_title">Zona segura</string>
-    <string name="pref_soundeffects_fence_enterleave_summary">Sonar al entrar o abandonar una zona segura</string>
+    <string name="pref_soundeffects_fence_enterleave_title">Zona privada</string>
+    <string name="pref_soundeffects_fence_enterleave_summary">Sonar al entrar o abandonar una zona privada</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
     <string name="pref_soundeffects_gps_signal_summary">Sonar al cambiar el estado GPS (bueno, malo/parada)</string>
     <string name="pref_soundeffects_countdown_title">Cuenta atrás</string>
@@ -620,10 +619,10 @@
     <string name="svgCopyright">Creado con Urban Biker</string>
     <string name="menuLicense">Actualizar licencia</string>
     <!-- dialog_fenceguard_add_entries -->
-    <string name="dialog_fenceguard_add_entries_0">Añadir zona segura</string>
+    <string name="dialog_fenceguard_add_entries_0">Añadir zona privada</string>
     <!-- dialog_fenceguard_update_entries -->
-    <string name="dialog_fenceguard_update_entries_0">Actualizar zona segura</string>
-    <string name="dialog_fenceguard_update_entries_1">Eliminar zona segura</string>
+    <string name="dialog_fenceguard_update_entries_0">Actualizar zona privada</string>
+    <string name="dialog_fenceguard_update_entries_1">Eliminar zona privada</string>
     <!-- dialogTracksShareChoices -->
     <string name="dialogTracksShareChoices_0">ZIPs (completados)</string>
     <string name="dialogTracksShareChoices_1">Solo GPX</string>
@@ -724,13 +723,13 @@
     <string name="menuMeterReset">Terminar</string>
     <string name="menuViewWith">Ver con</string>
     <string name="menuUpload">Subir</string>
-    <string name="menuClear">Borrar</string>
+    <string name="menuClear">Limpiar</string>
     <string name="menuRateAndComment">Valóranos</string>
     <string name="toastTrackingRecording">Grabando</string>
     <string name="toastTrackingRecordingPassive">Grabación pasiva</string>
     <string name="toastTrackingPaused">Pausado</string>
     <string name="toastTrackingStopped">Parado</string>
-    <string name="toastProfilesListNonemptyDelete">Imposible borrar — ¡El perfil tiene datos sin guardar! Por favor, complételo primero.</string>
+    <string name="toastProfilesListNonemptyDelete">Imposible borrar — ¡El perfil tiene datos sin guardar! Por favor, complétalo primero.</string>
     <string name="toastProfileButtonClickInfo">Pulsación larga para cambiar de perfil</string>
     <string name="toastMapClickInfo">Pulsación larga para opciones de mapa</string>
     <string name="toastSharingSuccess">Publicado satisfactoriamente</string>
@@ -762,8 +761,7 @@
     <string name="dialogBaroAltitudeNoticeMessage">La altitud barométrica sólo funciona en exteriores. 
 \n 
 \nPor favor, no la use en espacios cerrados o con aire acondicionado tales como vehículos o aviones.</string>
-    <string name="dialogThermoBarometerNoticeMessage">La exactitud de la temperatura barométrica depende de la temperatura del aire exterior. 
-\n
+    <string name="dialogThermoBarometerNoticeMessage">La exactitud de la temperatura barométrica depende de la temperatura del aire exterior.
 \n
 \nPor favor, no la use en espacios cerrados o con aire acondicionado tales como vehículo o aviones.</string>
     <string name="dialogResetTitle">Terminar</string>
@@ -845,7 +843,8 @@
     <string name="dialogTrackUploadPlatform">Servicio en línea</string>
     <string name="dialogGpsIntervalLabelMore">◀ 
 \nMayor precisión, usa más batería</string>
-    <string name="dialogGpsIntervalLabelLess">Menor precisión, usa menos batería</string>
+    <string name="dialogGpsIntervalLabelLess">▶
+\nMenor precisión, usa menos batería</string>
     <string name="dialogSliderLess">◀</string>
     <string name="dialogSliderMore">▶</string>
     <string name="dialogCameraPermissionRequest">Se necesita permiso para que la app pueda encender la linterna.</string>
@@ -1199,7 +1198,7 @@
     <string name="menuExpand">Expandir</string>
     <string name="menuCollapse">Contraer</string>
     <string name="dialogMapsWeatherRadar">Radar meterológico</string>
-    <string name="dialogOpenRainviewerText">Abrir la página web www.rainviewer.com ahora\?</string>
+    <string name="dialogOpenRainviewerText">¿Abrir la página web www.rainviewer.com ahora\?</string>
     <string name="pref_category_maps_weather_title">Metereología</string>
     <string name="pref_mapsWeatherPrecipitationRadar_title">Radar de precipitaciones</string>
     <string name="pref_mapsWeatherPrecipitationRadar_summary">Mostrar la capa de radar de precipitaciones</string>
