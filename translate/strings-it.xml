@@ -84,7 +84,7 @@
     <string name="toastTrackingStopped">Fermato</string>
     <string name="toastFenceGuardFenceAdded">Barriera difensiva: barriera %1$s aggiunta%1$s aggiunta</string>
     <string name="toastFenceGuardFenceAddingError">Barriera difensiva: errore durante l\'aggiunta di una barriera</string>
-    <string name="toastFenceGuardFenceUpdated">Barriera difensiva: barriera %1$s aggiornata%1$s aggiornata</string>
+    <string name="toastFenceGuardFenceUpdated">Barriera difensiva: barriera %1$s aggiornata</string>
     <string name="toastFenceGuardFenceUpdatingError">Barriera difensiva: errore durante l\'aggiornamento della barriera</string>
     <string name="toastFenceGuardFenceRemoved">Barriera difensiva: barriera %1$s rimossa%1$s rimossa</string>
     <string name="toastFenceGuardFenceRemovingError">Barriera difensiva: errore durante la rimozione della barriera</string>
@@ -210,8 +210,6 @@
     <string name="dialogThermoBarometerNoticeTitle">Avviso</string>
     <string name="dialogThermoBarometerNoticeMessage">Il termobarometro deriva la sua precisione dalla temperatura esterna dell\'aria.
 \n
-\nNon usare la funzione in ambienti chiusi o condizionati quali alcuni tipi di veicoli e gli aerei.
-\n
 \nNon usare la funzione in ambienti chiusi o condizionati quali alcuni tipi di veicoli e gli aerei.</string>
     <string name="dialogResetTitle">Termina</string>
     <string name="dialogResetMessage">Salvare questo percorso e prepararne uno nuovo\?</string>
@@ -266,11 +264,9 @@
     <string name="dialogSvgTitle">Grafico SVG</string>
     <string name="dialogGpsIntervalTitle">Intervallo aggiornamento GPS</string>
     <string name="dialogGpsIntervalNote">Mantieni questo valore sotto i 3 sec per ottenere letture accurate e un comportamento più coerente!</string>
-    <string name="dialogGpsIntervalLabelMore">◀
-\nPiù precisione, usa più batteria◀
+    <string name="dialogGpsIntervalLabelMore">◀ 
 \nPiù precisione, usa più batteria</string>
-    <string name="dialogGpsIntervalLabelLess">▶
-\nMeno precisione, usa meno batteria▶
+    <string name="dialogGpsIntervalLabelLess">▶ 
 \nMeno precisione, usa meno batteria</string>
     <string name="dialogSliderLess">◀</string>
     <string name="dialogSliderMore">▶</string>
@@ -283,8 +279,6 @@
 \nSe tale permesso viene negato, non sarà individuato alcun dispositivo Bluetooth.</string>
     <string name="dialogStoragePermissionRequestTitle">Permesso per la fotocamera</string>
     <string name="dialogStoragePermissionRequest">Per salvare o ripristinare i tuoi percorsi e le impostazioni, l\'app deve accedere alla memoria.
-\n
-\nSe non concedi il permesso non potrai visualizzare la cronologia dei percorsi o condividerli e potresti perdere i tuoi dati.
 \n
 \nSe non concedi il permesso non potrai visualizzare la cronologia dei percorsi o condividerli e potresti perdere i tuoi dati.</string>
     <string name="dialogCameraPermissionRequestTitle">Permesso per la fotocamera</string>
