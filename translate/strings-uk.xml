@@ -29,7 +29,7 @@
     <string name="menuMeterLockAll">Блокувати усе</string>
     <string name="menuMeterMode">Режим лічильника…</string>
     <string name="menuMeterChooseModes">Вибір режиму…</string>
-    <string name="menuMeterNewTrack">Новий трек</string>
+    <string name="menuMeterNewTrack">Новий слід</string>
     <string name="menuMeterResetMinMax">Скинути мін/макс</string>
     <string name="menuMeterParameters">Параметри…</string>
     <string name="menuMeterPowerMode">Перемкнути режим потужності</string>
@@ -67,12 +67,12 @@
     <string name="toastProfileSavingError">Помилка при збережені інформації! Спробуйте ще раз.</string>
     <string name="toastProfileChangeError">Не вдалося змінити профіль! Спробуйте ще раз.</string>
     <string name="toastGpsEnabled">GPS увімкнено</string>
-    <string name="toastTrackSaved">Трек збережено.</string>
-    <string name="toastTrackDiscarded">Трек скасовано.</string>
-    <string name="toastTrackSavingError">Не вдалося зберегти трек! Спробуйте скинути знову.</string>
-    <string name="toastTrackWritingError">Не вдалося зберегти дані треку на носій! Спробуйте скинути знову.</string>
-    <string name="toastTrackZippingError">Не вдалося архівувати трек! Спробуйте скинути знову.</string>
-    <string name="toastTrackMovingError">Не вдалося перемістити трек на носій USB! Спробуйте скинути знову.</string>
+    <string name="toastTrackSaved">Слід збережено.</string>
+    <string name="toastTrackDiscarded">Слід скасовано.</string>
+    <string name="toastTrackSavingError">Не вдалося зберегти слід! Спробуйте скинути знову.</string>
+    <string name="toastTrackWritingError">Не вдалося зберегти дані сліду на носій! Спробуйте скинути знову.</string>
+    <string name="toastTrackZippingError">Не вдалося архівувати слід! Спробуйте скинути знову.</string>
+    <string name="toastTrackMovingError">Не вдалося перемістити слід на носій USB! Спробуйте скинути знову.</string>
     <string name="toastPressAgainToExit">Натисніть ще раз для виходу</string>
     <string name="toastTrackingRecording">Записується</string>
     <string name="toastTrackingRecordingPassive">Пасивний запис</string>
@@ -90,9 +90,9 @@
     <string name="toastProfilesListProfileDeleted">Профіль видалено</string>
     <string name="toastProfilesListProfileDeleteError">Помилка вилучення профіля</string>
     <string name="toastProfilesListProfileUpdated">Профіль оновлено</string>
-    <string name="toastTrackDeleted">Треки вилучено</string>
-    <string name="toastTrackDeleteError">Помилка стирання треків</string>
-    <string name="toastTrackResumed">Трек відновлено</string>
+    <string name="toastTrackDeleted">Сліди вилучено</string>
+    <string name="toastTrackDeleteError">Помилка стирання слідів</string>
+    <string name="toastTrackResumed">Слід відновлено</string>
     <string name="toastTrackResumeGpsActiveError">Спочатку вимкніть або призупиніть GPS</string>
     <string name="toastContrastButtonClickInfo">Автоматичну тему вибрано</string>
     <string name="toastFlashlightButtonClickInfo">Довге натискання для перемикання ліхтарика</string>
@@ -130,22 +130,22 @@
     <string name="dialog_bell_shake_sensitivity_title">Чутливість до струшування</string>
     <string name="dialog_fenceguard_add_title">Додати приватну зону</string>
     <string name="dialog_fenceguard_add_text">Назвіть нову приватну зону:</string>
-    <string name="dialog_fenceguard_add_text2">Приватну зону буде активовано навколо вашої теперішньої позиції, щоб вона не потрапила у записані треки.</string>
+    <string name="dialog_fenceguard_add_text2">Приватну зону буде активовано навколо вашої теперішньої позиції, щоб вона не потрапила у записані сліди.</string>
     <string name="dialog_fenceguard_update_title">Оновити приватну зону</string>
     <string name="dialog_fenceguard_update_text">Назва приватної зони:</string>
-    <string name="dialog_fenceguard_update_text2">Приватну зону активовано навколо вашої теперішньої позиції, щоб вона не потрапила у записані треки.</string>
+    <string name="dialog_fenceguard_update_text2">Приватну зону активовано навколо вашої теперішньої позиції, щоб вона не потрапила у записані сліди.</string>
     <string name="dialog_fenceguard_remove_title">Вилучити приватну зону</string>
     <string name="dialog_fenceguard_remove_defaultText">Ви дійсно хочете вилучити приватну зону\?</string>
     <string name="dialog_fenceguard_remove_formatText">Ви дійсно хочете вилучити приватну зону %1$s\?</string>
-    <string name="dialog_track_save_text">Відстань %1$.3f %2$s
-\nТривалість %3$s
-\n(%4$s)
-\n
-\nТрек виглядає надто коротким. Зберегти його\?</string>
-    <string name="dialog_exit_msg">Увага: йде запис треку, і зараз він буде припинений.</string>
+    <string name="dialog_track_save_text">Відстань %1$.3f %2$s 
+\nТривалість %3$s 
+\n(%4$s) 
+\n 
+\nСлід виглядає надто коротким. Зберегти його\?</string>
+    <string name="dialog_exit_msg">Увага: йде запис сліду, і зараз він буде припинений.</string>
     <string name="dialogProfileDeleteTitle">Вилучити профіль</string>
-    <string name="dialogProfileDeleteMessage">Увага: Ця дія вилучить всі дані профілю та статистику. Збережені треки все ж залишаться. 
-\n
+    <string name="dialogProfileDeleteMessage">Увага: Ця дія вилучить всі дані профілю та статистику. Збережені сліди все ж залишаться. 
+\n 
 \nДійсно вилучити профіль %1$s\?</string>
     <string name="dialogProfileAddTitle">Новий профіль</string>
     <string name="dialogProfileAddInfo">Налаштування нового профілю будуть скопійовані з активного на даний момент</string>
@@ -153,23 +153,23 @@
     <string name="dialogProfileEditTotals">Підсумки:</string>
     <string name="dialogProfileTotalsResetMessage">Скинути підсумки профіля\?</string>
     <string name="dialogProfileSwitchTitle">Перемкнути профіль</string>
-    <string name="dialogProfileSwitchMessage">Триває запис треку. Точно перемкнутися на %1$s\?</string>
-    <string name="dialogTracksDeleteTitle">Вилучити треки</string>
-    <string name="dialogTracksDeleteMessage">Увага: цю дію неможливо скасувати.
-\n
-\nВилучити вибрані треки\?</string>
-    <string name="dialogTrackDeleteMessage">Увага: Цю дію неможливо скасувати.
-\n
-\nВилучити трек %1$s\?</string>
-    <string name="dialogTrackResumeTitle">Продовжити трек</string>
-    <string name="dialogTrackResumeGpsActiveMessage">Запис треку активний. Спочатку вимкніть або призупиніть запис GPS.</string>
+    <string name="dialogProfileSwitchMessage">Триває запис сліду. Точно перемкнутися на %1$s\?</string>
+    <string name="dialogTracksDeleteTitle">Вилучити сліди</string>
+    <string name="dialogTracksDeleteMessage">Увага: цю дію неможливо скасувати. 
+\n 
+\nВилучити обрані сліди\?</string>
+    <string name="dialogTrackDeleteMessage">Увага: Цю дію неможливо скасувати. 
+\n 
+\nВилучити слід %1$s\?</string>
+    <string name="dialogTrackResumeTitle">Продовжити слід</string>
+    <string name="dialogTrackResumeGpsActiveMessage">Запис сліду активний. Спочатку вимкніть або призупиніть запис GPS.</string>
     <string name="dialogTrackResumeProfileNotBlankMessage">Профіль %1$s не порожній. Скиньте його спочатку.</string>
     <string name="dialogTrackResumeProfileSwitchMessage">Активний профіль буде переключено з %1$s на %2$s. Продовжити\?</string>
-    <string name="dialogTrackResumeProfileMissingMessage">Профіль %1$s, під яким було створено цей трек, більше не існує. Продовжити в поточному профілі %2$s\?</string>
-    <string name="dialogTrackResumeGeneralPromptMessage">Трек буде відновлено у профілі %1$s. Продовжити\?</string>
+    <string name="dialogTrackResumeProfileMissingMessage">Профіль %1$s, під яким було створено цей слід, більше не існує. Продовжити в поточному профілі %2$s\?</string>
+    <string name="dialogTrackResumeGeneralPromptMessage">Слід буде відновлено у профілі %1$s. Продовжити\?</string>
     <string name="dialogTrackResumeGeneralErrorMessage">Сталися невідомі помилки. Спробуйте ще раз.</string>
     <string name="dialogTrackResumeWaitMessage">Відновлюю, прошу зачекати…</string>
-    <string name="dialogTracksShareTitle">Поділитися треками</string>
+    <string name="dialogTracksShareTitle">Поділитися слідами</string>
     <string name="dialogTracksShareGeneralErrorMessage">Сталася невідома помилка. Спробуйте ще раз.</string>
     <string name="dialogGpsSettingsPromptTitle">Визначення місцезнаходження вимкнуте</string>
     <string name="dialogBaroAltitudePromptTitle">Проблеми з барометричною висотою</string>
@@ -184,8 +184,8 @@
     <string name="dialogThermoBarometerNoticeMessage">Термо-барометр покладається на покази вуличної температури для підвищення точності.
 \n
 \nНе використовуйте його у закритих або вентильованих приміщеннях, в автомобілях та літаках.</string>
-    <string name="dialogResetMessage">Зберегти цей трек і підготуватися до нового\?</string>
-    <string name="dialogResetNoTrackMessage">Трек записувався. Дійсно обнулити лічильники\?</string>
+    <string name="dialogResetMessage">Зберегти цей слід і підготуватися до нового\?</string>
+    <string name="dialogResetNoTrackMessage">Слід записувався. Дійсно обнулити лічильники\?</string>
     <string name="dialogScreenHudMode">Режим віддзеркалення HUD</string>
     <string name="dialogScreenOrientationAuto">Автоматична</string>
     <string name="dialogScreenOrientationPortrait">Книжковий</string>
@@ -199,7 +199,7 @@
     <string name="dialogMapsFollowMode">Слідування</string>
     <string name="dialogMapsAutoRotate">Автоматичне обертання</string>
     <string name="dialogMapsRenderTerrain">Підсвічувати рельєф</string>
-    <string name="dialogMapsTrackColor">Відтінок трека:</string>
+    <string name="dialogMapsTrackColor">Відтінок сліду:</string>
     <string name="dialogFencesAdd">Додати приватну зону тут</string>
     <string name="dialogFencesUpdate">Оновити положення приватної зони</string>
     <string name="dialogFencesEdit">Змінити приватну зону</string>
@@ -228,9 +228,9 @@
     <string name="dialogLocationPermissionRequestTitle">Доступ до геоданих</string>
     <string name="dialogLocationPermissionRequest">Програма потребує доступу до геоданих щоб відслідковувати ваші переміщення.</string>
     <string name="dialogStoragePermissionRequestTitle">Доступ до сховища даних</string>
-    <string name="dialogStoragePermissionRequest">Програма потребує доступу до сховища даних, щоб мати можливість зберігати та відновлювати ваші треки й налаштування.
-\n
-\nБез цього дозволу ви не зможете бачити історію треків та ділитися треками з іншими. Також ви можете втратити свої дані.</string>
+    <string name="dialogStoragePermissionRequest">Програма потребує доступу до сховища даних, щоб мати можливість зберігати та відновлювати ваші сліди й налаштування. 
+\n 
+\nБез цього дозволу ви не зможете бачити історію слідів та ділитися слідами з іншими. Також ви можете втратити свої дані.</string>
     <string name="dialogCameraPermissionRequestTitle">Доступ до камери</string>
     <string name="dialogCameraPermissionRequest">Цей доступ потрібен щоб програма могла вмикати ліхтарик.</string>
     <string name="dialogPermissionProblemMessage">Цей дозвіл потрібний програмі для правильної роботи. Його можна надати на сторінці налаштувань доступів.
@@ -361,16 +361,16 @@
     </string>
     <string name="profilesListButtonResetTotals">Обнулити підсумки</string>
     <string name="profilesListProfileNotUsed">(не використ.)</string>
-    <string name="tracksHistoryListTitle">Історія треків</string>
-    <string name="tracksHistoryListEmpty">Треків ще не записано. Саме час записати перший!</string>
+    <string name="tracksHistoryListTitle">Історія слідів</string>
+    <string name="tracksHistoryListEmpty">Слідів ще нема. Саме час записати перший!</string>
     <string name="tracksHistoryListLoading">Завантажую…</string>
     <string name="tracksHistoryListButtonView">Перегляд</string>
     <string name="tracksHistoryListButtonShare">Поділитися</string>
     <string name="tracksHistoryListButtonResume">Продовжити</string>
     <string name="tracksHistoryListButtonEdit">Редагувати</string>
     <string name="tracksHistoryListButtonDelete">Вилучити</string>
-    <string name="tracksHistoryListShareTrackDialogTitle">Поділитися треком…</string>
-    <string name="tracksHistoryListViewTrackDialogTitle">Переглянути трек у…</string>
+    <string name="tracksHistoryListShareTrackDialogTitle">Поділитися слідом…</string>
+    <string name="tracksHistoryListViewTrackDialogTitle">Переглянути слід у…</string>
     <string name="summaryTotalWeight">Повна маса</string>
     <string name="summaryWheelsWeight">Маса коліс</string>
     <string name="summaryEfficiency">Ефективність</string>
@@ -451,8 +451,8 @@
     <string name="pref_category_stationary_exercise_title">Стаціонарна активність</string>
     <string name="pref_category_autopause_title">Автоматичне призупинення</string>
     <string name="pref_category_resetPrompt_title">Підтвердження скидання</string>
-    <string name="pref_category_tracking_title">Ведення треку</string>
-    <string name="pref_category_tracking_gps_title">Ведення треку, GPS</string>
+    <string name="pref_category_tracking_title">Слідкування</string>
+    <string name="pref_category_tracking_gps_title">Ведення сліду, GPS</string>
     <string name="pref_category_bell_title">Дзвінок</string>
     <string name="pref_category_roaring_title">Сигнал</string>
     <string name="pref_category_roaringConstantMode_title">Постійний режим</string>
@@ -476,7 +476,7 @@
     <string name="pref_group_maps_offline_title">Налаштування офлайн мап…</string>
     <string name="pref_category_maps_offline_terrain_title">Рельєф</string>
     <string name="pref_category_maps_routes_title">План маршруту</string>
-    <string name="pref_category_maps_track_title">Лінія трека</string>
+    <string name="pref_category_maps_track_title">Лінія сліду</string>
     <string name="pref_category_hud_title">HUD</string>
     <string name="pref_category_back_key_title">Режим кнопки назад</string>
     <string name="pref_category_haptic_title">Вібрувати</string>
@@ -557,7 +557,7 @@
     <string name="pref_duck_roaring_on_bell_summary">Понизити звук крякалки на час активування дзвінка</string>
     <string name="pref_relaunchAfterReboot_title">Перезапустити після перезавантаження</string>
     <string name="pref_resetPrompt_title">Підтвердження скидання</string>
-    <string name="pref_resetPrompt_summary">Запропонувати почати новий трек, якщо попередній пишеться вже більше чотирьох годин</string>
+    <string name="pref_resetPrompt_summary">Запропонувати почати новий слід, якщо попередній пишеться вже більше чотирьох годин</string>
     <string name="pref_auto_launch_on_gps_title">Автоматично запускати по GPS</string>
     <string name="pref_auto_launch_on_gps_summary">Запускати додаток (в пасивному режимі) якщо було помічено активність на GPS</string>
     <string name="pref_passive_gps_button_title">Режим кнопки пасивного GPS</string>
@@ -574,7 +574,7 @@
     <string name="pref_roarConstantModeButton_title">Кнопка у режимі перемикання</string>
     <string name="pref_roarConstantModeButton_summary">Вмикати постійний режим після натискання на кнопку, якщо сигнал увімкнений</string>
     <string name="pref_fenceguard_title">Приватна зона</string>
-    <string name="pref_fenceguard_summary">Захистіть координати свого дому або інших важливих місць від потрапляння у записані треки</string>
+    <string name="pref_fenceguard_summary">Захистіть координати свого дому або інших важливих місць від потрапляння у записані сліди</string>
     <string name="pref_autopause_mode_dialog_title">Автоматичне призупинення</string>
     <string name="pref_speedometer_limit_title">Максимум індикації</string>
     <string name="pref_speedometer_limit_dialog_title">Максимальна швидкість на спідометрі</string>
@@ -586,7 +586,7 @@
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
     <string name="pref_soundeffects_gps_signal_summary">Сигнал про рівень сигналу GPS (хороший, поганий)</string>
     <string name="pref_soundeffects_countdown_title">Зворотній відлік</string>
-    <string name="pref_soundeffects_countdown_summary">Звук зворотнього відліку перед відновленням треку (... 3, 2, 1, СТАРТ!)</string>
+    <string name="pref_soundeffects_countdown_summary">Звук зворотнього відліку перед відновленням сліду (... 3, 2, 1, СТАРТ!)</string>
     <string name="pref_soundeffects_tally_title">Увімкнути</string>
     <string name="pref_soundeffects_tally_value_summary">Кожні %1$s
         %2$s
@@ -605,7 +605,7 @@
     <string name="pref_ads_mode_title">Показувати рекламу</string>
     <string name="pref_ads_mode_dialog_title">Тип реклами</string>
     <string name="pref_maps_disable_title">Відключити карти</string>
-    <string name="pref_maps_track_draw_title">Намалювати трек</string>
+    <string name="pref_maps_track_draw_title">Намалювати слід</string>
     <string name="pref_maps_track_draw_summary">Показувати ваше переміщення на мапі</string>
     <string name="pref_maps_fences_draw_title">Приватні зони</string>
     <string name="pref_maps_fences_draw_summary">Показувати приватні зони на мапі</string>
@@ -702,7 +702,7 @@
     <string name="prefPressureSensorOffsetTitle">Зміщення показів барометра</string>
     <string name="prefPressureSensorOffsetInfo">Ця константа плюсується до показів барометра і може використовуватися для усунення похибки вимірювання, якщо вона є</string>
     <string name="prefNotificationAlwaysTitle">Постійне сповіщення</string>
-    <string name="prefNotificationAlwaysSummary">Завжди показувати іконку програми у панелі сповіщень, не тільки під час активного трекінгу.</string>
+    <string name="prefNotificationAlwaysSummary">Завжди показувати іконку програми у панелі сповіщень, не тільки під час активного слідкування.</string>
     <string name="prefMapDiskCacheSizeTitle">Розмір кешу карт</string>
     <string name="prefMapDiskCacheSizeSummary">Під час використання онлайн та офлайн карт їхні фрагменти зберігаються на пристрої для зменшення часу завантаження та побудови. Це прискорює малювання карти і заощаджує батарею. (Всі профілі)</string>
     <string name="prefProhibitLocationTitle">Не брати локацію</string>
@@ -809,7 +809,7 @@
     <string name="pref_wakelock_modes_3">Вимк.</string>
     <!-- pref_wakelock_modes_explanation -->
     <string name="pref_wakelock_modes_explanation_0">Визначати автоматично на основі частоти оновлення GPS та інших факторів</string>
-    <string name="pref_wakelock_modes_explanation_1">Підтримувати активність процесора. Може сильніше розряджати батарею, але покращує точність трека.</string>
+    <string name="pref_wakelock_modes_explanation_1">Підтримувати активність процесора. Може сильніше розряджати батарею, але покращує точність сліду.</string>
     <string name="pref_wakelock_modes_explanation_2">Дозволити процесору засинати між оновленнями локації. Економить батарею, але може погіршити точність запису.</string>
     <string name="pref_wakelock_modes_explanation_3">Дотримуватися налаштувань системи і/або інших програм. УВАГА: може спричинити дуже неточне визначення координат або повну втрату точності позиціонування. Використання не рекомендується.</string>
     <!-- pref_locationProvider_modes -->
@@ -932,8 +932,8 @@
     <string name="toastSharingPermissionsError">Не вдалося поділитися, перевірте дозволи</string>
     <string name="toastUpdatingSuccess">Успішно оновлено</string>
     <string name="toastCancelled">Скасовано</string>
-    <string name="dialog_default_map_track_colors_title">Колір треку на карті</string>
-    <string name="dialogTracksShareCountExceeded">Не можна поділитися більше ніж сотнею треків за раз.</string>
+    <string name="dialog_default_map_track_colors_title">Колір сліду на карті</string>
+    <string name="dialogTracksShareCountExceeded">Не можна поділитися більше ніж сотнею слідів за раз.</string>
     <string name="dialogGpsSettingsPromptMessage">Ви не зможете повноцінно користуватися програмою без доступу до розташування.
 \n
 \nПереконайтеся, що визначення розташування працює і встановлене на найвищу точність.
@@ -942,7 +942,7 @@
     <string name="dialogResetTitle">Закінчити</string>
     <string name="dialogMapsHighResolution">Мапа високої роздільності</string>
     <string name="dialogTrackUploadWaitTitle">Очікуйте</string>
-    <string name="dialogTrackUploadPreparing">Підготовка даних трека…</string>
+    <string name="dialogTrackUploadPreparing">Підготовка даних сліду…</string>
     <string name="dialogTrackUploadSending">Надсилання…</string>
     <string name="dialogTrackUploadDescriptionHint">Поділіться своєю думкою…</string>
     <string name="dialogTrackUploadShareButton">Поділитися</string>
@@ -964,12 +964,12 @@
     <string name="unitTimeMinute">хв</string>
     <string name="unitTimeSecond">сек</string>
     <string name="cloudAccountsTitle">Обліковки</string>
-    <string name="cloudAccountsInfo">Приєднання до мережевого сервісу робить зручнішим відвантаження треків щоб поділитися.
-\n
+    <string name="cloudAccountsInfo">Приєднання до мережевого сервісу робить зручнішим відвантаження слідів щоб поділитися. 
+\n 
 \nМи ніколи не скористаємося цим без вашого дозволу.</string>
     <string name="accountDisconnect">Від\'єднати</string>
     <string name="googleFitConnectButton">З\'єднати із Google Fit</string>
-    <string name="stravaTrackPrivacyInfo">Трек отримає приватність за замовчуванням у Strava</string>
+    <string name="stravaTrackPrivacyInfo">Слід отримає типово встановлену приватність у Strava</string>
     <string name="tracksHistoryListTitleSelect">Обрати</string>
     <string name="tracksHistoryListButtonUpload">Вивантажити</string>
     <string name="summaryDeviceRestartsCount">Примусових рестартів</string>
@@ -1030,9 +1030,9 @@
     <string name="pref_speechProfileName_summary">(Всі профілі) Говорити назву профіля при перемиканні</string>
     <string name="pref_speechTrackingStatus_title">Відстеження</string>
     <string name="pref_speechTrackingStatus_summary">Говорити, коли стеження починається чи зупиняється</string>
-    <string name="prefMapTrackColorTitle">Колір трека</string>
-    <string name="prefMapGuideRouteColorTitle">Колір трека для слідування</string>
-    <string name="infoMeterModeWriggleMsg">Вимірює відхилення трека від прямої лінії, тобто як часто він заповнює площину замість створення прямої лінії. Нижче зазвичай краще.</string>
+    <string name="prefMapTrackColorTitle">Колір сліду</string>
+    <string name="prefMapGuideRouteColorTitle">Колір шляху для слідування</string>
+    <string name="infoMeterModeWriggleMsg">Вимірює відхилення сліду від прямої лінії, тобто як часто він заповнює площину замість створення прямої лінії. Нижче зазвичай краще.</string>
     <string name="infoMeterModeAltitudeMsg">Висота над рівнем моря — Поточна, Максимальна та Мінімальна.
 \n
 \nЗауважте: Це значення деколи може запізнюватися через неминучі затримки цифрової фільтрації.</string>
@@ -1195,7 +1195,7 @@
     <string name="meterModeStepCount">кроки</string>
     <string name="meterModeStepCountShort">крк</string>
     <string name="controlPanelLocationButton">Локація</string>
-    <string name="tracksHistoryListNoMap">Трек не був записаний.</string>
+    <string name="tracksHistoryListNoMap">Слід не був записаний.</string>
     <string name="sensorStepLengthNotSetWarning">Ширину крока не було встановлено</string>
     <string name="sensorPurposeSteps">Кроки</string>
     <string name="sensorStepDetectorName">Детектор кроків</string>
@@ -1233,9 +1233,9 @@
     <string name="dialogWaitTitle">Почекайте</string>
     <string name="mapMarkerMyLocation">Моя локація</string>
     <string name="dialogScreenshotTitle">Знімок екрану</string>
-    <string name="dialogGoogleMapTermsViolation">Захоплення вмісту карти Google заборонено, тому тип карти спочатку потрібно змінити на будь-який інший.
-\n
-\nПерейти на карту Stamen зараз\?</string>
+    <string name="dialogGoogleMapTermsViolation">Google не дозволяє захоплення вмісту своїх мап, тому тип мапи спочатку потрібно змінити на будь-який інший. 
+\n 
+\nЗмінити мапу зараз\?</string>
     <string name="dialogScreenshotPreparing">Підготовка знімку екрану…</string>
     <string name="pref_roaring_type_entries_3">Електричка</string>
     <string name="dialogMapsAutoZoom">Авто зближення\\віддалення</string>
@@ -1245,4 +1245,19 @@
     <string name="controlPanelSensorsButtonSubtitle">Клацніть для налаштування датчиків</string>
     <string name="sensorProperitesActivityRecognition">Розпізнавання активності</string>
     <string name="pref_text_automatic">Автоматично</string>
+    <string name="summaryProfileNameInfo">Профіль, застосований для запису цього сліду.</string>
+    <string name="summaryDeviceNameInfo">Пристрій, застосований для запису цього сліду.</string>
+    <string name="summaryTotalWeightInfo">Сума всіх мас, що були використані під час запису цього сліду (користувач, транспорт, вантаж тощо).</string>
+    <string name="summaryWheelsWeightInfo">Сума мас усіх коліс на транспорті, що був застосований під час запису цього сліду.</string>
+    <string name="controlPanelMapSettingsButtonTitle">Налаштування мапи</string>
+    <string name="controlPanelMapSettingsButtonSubtitle">Натисніть для налаштування мапи</string>
+    <string name="cloudAccountsPowerUploadPolicyTitle">Політика вивантаження даних про потужність</string>
+    <string name="cloudAccountsPowerUploadPolicy_0">Завжди (типово)</string>
+    <string name="cloudAccountsPowerUploadPolicy_1">Вивантажити, якщо був застосований сенсор потужності</string>
+    <string name="hereMapsFeatures">🔹 Мапи HERE
+\n🔹 Без реклами</string>
+    <string name="dialogMapsMapCount">%1$s мап</string>
+    <string name="maptilerMapsFeatures">🔹 Мапи MapTiler
+\n🔹 Без реклами</string>
+    <string name="dialogMapsChooseTitle">Оберіти мапу</string>
 </resources>
