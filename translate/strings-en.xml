@@ -649,6 +649,7 @@
     <string name="sensorProperitesTriggersCountInfo">Number of triggers (e.g. magnets) used by the sensor. Sensors with no external triggers usually have a single internal trigger.</string>
     <string name="sensorProperitesEnableFiltering">Data filtering</string>
     <string name="sensorProperitesEnableFilteringInfo">This will perform additional filtering on sensor data, possibly improving accuracy, but introducing a few seconds of delay. Disabled by default.</string>
+    <string name="sensorProperitesFilterIntervalInfo">Filter interval, i.e. strength of the filter. Larger values will filter more, but will also introduce more delay.</string>
     <string name="sensorProperitesActivityRecognition">Physical activity recognition</string>
     <string name="sensorProperitesActivityRecognitionInfo">Sensor will provide data only when your physical activity is recognized to be compatible with sensor purpose. For example, Step sensor will count steps while walking or running, not while riding a bike. Note, this may not be 100% accurate and can be laggy. Google Play services are required.</string>
 
@@ -1339,6 +1340,15 @@
     <string name="trackUploadActivityTypes_8">Ski</string>
     <string name="trackUploadActivityTypes_9">Snowboard</string>
     <string name="trackUploadActivityTypes_10">Other</string>
+
+    <!-- sensorFilterInterval -->
+    <string name="sensorFilterInterval_0">3 seconds (default)</string>
+    <string name="sensorFilterInterval_1">5 seconds</string>
+    <string name="sensorFilterInterval_2">7 seconds</string>
+    <string name="sensorFilterInterval_3">10 seconds</string>
+    <string name="sensorFilterInterval_4">15 seconds</string>
+    <string name="sensorFilterInterval_5">20 seconds</string>
+    <string name="sensorFilterInterval_6">30 seconds</string>
 
     <!-- prefAdModes -->
     <string name="prefAdModes_0">Any</string>
