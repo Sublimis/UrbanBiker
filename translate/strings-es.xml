@@ -460,7 +460,7 @@
     <string name="pref_roaring_constant_mode_summary">Producir sonidos SAAV constantes en todo momento, independientemente de su estado de movimiento o del GPS</string>
     <string name="pref_roar_threshold_speed_title">Umbral de velocidad</string>
     <string name="pref_roarConstantModeButton_title">Botón de alternancia</string>
-    <string name="pref_roarConstantModeButton_summary">Cambiar el modo constante con un clic de botón mientras SAAV está encendido</string>
+    <string name="pref_roarConstantModeButton_summary">Cambiar el modo constante con un click de botón mientras SAAV está encendido</string>
     <string name="pref_fenceguard_title">Zonas seguras</string>
     <string name="pref_fenceguard_summary">Protege la ubicación de su hogar, o de otros lugares importantes, de quedar expuestos en los recorridos grabados</string>
     <string name="pref_autopause_mode_dialog_title">Pausa automática</string>
@@ -555,7 +555,7 @@
     <string name="pref_flashlightBlinkMode_title">Modo</string>
     <string name="pref_flashlightBlinkMode_dialogTitle">Parpadeo de linterna</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Botón de alternancia</string>
-    <string name="pref_flashlightBlinkModeToggleEnable_summary">Activar parpadeo con un clic de botón, mientras la linterna este encendida</string>
+    <string name="pref_flashlightBlinkModeToggleEnable_summary">Activar parpadeo con un click de botón, mientras la linterna este encendida</string>
     <string name="pref_gpsInaccuracyIndicator_title">Indicador de precisión</string>
     <string name="pref_gpsInaccuracyIndicator_summary">Indica el envejecimiento del valor de la velocidad, ya que ésta se vuelve más incierta con el tiempo</string>
     <string name="pref_paceIndicator_title">Indicador de ritmo</string>
@@ -713,7 +713,7 @@
     <!-- prefBackKeyModeEntries -->
     <string name="prefBackKeyModeEntries_0">Normal</string>
     <string name="prefBackKeyModeEntries_1">Ninguna</string>
-    <string name="prefBackKeyModeEntries_2">Doble clic para salir</string>
+    <string name="prefBackKeyModeEntries_2">Doble click para salir</string>
     <!-- prefAdModes -->
     <string name="prefAdModes_0">Cualquiera</string>
     <string name="prefAdModes_1">Google</string>
@@ -1075,7 +1075,7 @@
     <string name="pref_soundeffects_screenOff_title">Pantalla tenue/apagada</string>
     <string name="pref_soundeffects_screenOff_summary">Sonar y vibrar cuando la pantalla se atenúa o apaga temporalmente</string>
     <string name="pref_soundeffects_proximity_title">Sensor de proximidad</string>
-    <string name="pref_soundeffects_proximity_summary">Sonido de clic cuando se dispara el sensor de proximidad</string>
+    <string name="pref_soundeffects_proximity_summary">Sonido de click cuando se dispara el sensor de proximidad</string>
     <string name="unitMetersAboveGroundLevel">m (s.n.m.)</string>
     <string name="unitFeetsAboveGroundLevel">ft (s.n.m.)</string>
     <string name="meterModeKineticEnergy">energía cinética</string>
@@ -1221,9 +1221,9 @@
     <string name="pref_roaring_type_entries_3">Vehículo eléctrico</string>
     <string name="dialogMapsAutoZoom">Zoom automático</string>
     <string name="controlPanelUnitsButtonTitle">Unidades de medida</string>
-    <string name="controlPanelUnitsButtonSubtitle">Haga clic para cambiar las unidades</string>
+    <string name="controlPanelUnitsButtonSubtitle">Haga click para cambiar las unidades</string>
     <string name="controlPanelSensorsButtonTitle">Sensores</string>
-    <string name="controlPanelSensorsButtonSubtitle">Hacer clic para gestionar los sensores</string>
+    <string name="controlPanelSensorsButtonSubtitle">Hacer click para gestionar los sensores</string>
     <string name="pref_text_automatic">Automático</string>
     <string name="sensorProperitesActivityRecognition">Reconocimiento de la actividad física</string>
     <string name="sensorProperitesActivityRecognitionInfo">El sensor proporcionará datos solo cuando se reconozca que su actividad física es compatible con el propósito del mismo. Por ejemplo, el sensor de pasos contará los pasos al caminar o correr, no al andar en bicicleta. Tenga en cuenta que esto puede no ser 100% exacto y puede ser lento. Los servicios de Google Play son necesarios.</string>
@@ -1265,4 +1265,17 @@
     <string name="maptilerMapsFeatures">🔹 Mapas de MapTiler
 \n🔹 Sin publicidad</string>
     <string name="dialogMapsChooseTitle">Seleccione mapa</string>
+    <string name="meterModeDisplacement">desplazamiento</string>
+    <string name="meterModeDisplacementShort">dsplaz</string>
+    <string name="infoMeterModeDisplacementTitle">Desplazamiento</string>
+    <string name="infoMeterModeDisplacementMsg">Distancia en línea recta entre la posición inicial y final del recorrido.</string>
+    <string name="meterModes_30">Desplazamiento</string>
+    <string name="sensorProperitesFilterIntervalInfo">"Intervalo de filtro, es decir, fuerza del filtro.  Los valores más grandes filtrarán más, pero también introducirán más demoras."</string>
+    <string name="sensorFilterInterval_0">3 segundos (por defecto)</string>
+    <string name="sensorFilterInterval_1">5 segundos</string>
+    <string name="sensorFilterInterval_2">7 segundos</string>
+    <string name="sensorFilterInterval_3">10 segundos</string>
+    <string name="sensorFilterInterval_4">15 segundos</string>
+    <string name="sensorFilterInterval_5">20 segundos</string>
+    <string name="sensorFilterInterval_6">30 segundos</string>
 </resources>
