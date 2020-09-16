@@ -22,7 +22,7 @@
     <string name="buttonResumeTrack">Continuar</string>
     <string name="menuControlPanel">Painel de controle</string>
     <string name="menuSettings">Ajustes</string>
-    <string name="menuSummary">Resumo</string>
+    <string name="menuSummary">Resumo ao vivo</string>
     <string name="menuTracksHistory">Histórico</string>
     <string name="menuTracksHistoryResume">Prosseguir</string>
     <string name="menuMeterLock">Travar</string>
@@ -96,7 +96,7 @@
     <string name="toastTrackResumeGpsActiveError">Por favor desligue ou pause o GPS primeiro</string>
     <string name="toastContrastButtonClickInfo">Tema automático ativado</string>
     <string name="toastFlashlightButtonClickInfo">Toque e segure para ligar a lanterna</string>
-    <string name="toastRoarButtonClickInfo">Toque e segure para ligar o sinal sonoro</string>
+    <string name="toastRoarButtonClickInfo">Clique longo para alternar o som AVAS</string>
     <string name="toastMapButtonClickInfo">Toque e segure para ligar o mapa</string>
     <string name="toastMapFollowingOn">Seguir ligado</string>
     <string name="toastMapFollowingAutorotate">Auto-rotação ligado</string>
@@ -121,7 +121,7 @@
     <string name="dialog_default_color_text">Isto irá carregar o padrão de cores. Você está certo disso\?</string>
     <string name="dialog_defaultConfirmation">Tem certeza\?</string>
     <string name="dialog_volume_bell_text">Campanhia</string>
-    <string name="dialog_volume_roaring_text">Rugir</string>
+    <string name="dialog_volume_roaring_text">AVAS</string>
     <string name="dialog_volume_effects_text">Efeitos</string>
     <string name="dialog_volume_tallies_text">Contagens</string>
     <string name="dialog_volume_alarms_text">Alarmes</string>
@@ -188,10 +188,10 @@
     <string name="dialogResetMessage">Salvar este percurso e preparar novo\?</string>
     <string name="dialogResetNoTrackMessage">Nenhum percurso registrado. Redefinir medidores agora\?</string>
     <string name="dialogScreenHudMode">HUB em modo espelhado</string>
-    <string name="dialogScreenOrientationAuto">Orientação automática</string>
+    <string name="dialogScreenOrientationAuto">Automática</string>
     <string name="dialogScreenOrientationPortrait">Retrato</string>
     <string name="dialogScreenOrientationLandscape">Paisagem</string>
-    <string name="dialogScreenBrightnessOverride">Sobrepor brilho</string>
+    <string name="dialogScreenBrightnessOverride">Brilho</string>
     <string name="dialogScreenAutoTheme">Tema automático</string>
     <string name="dialogMapsOffline">Mapas Offline</string>
     <string name="dialogMapsLayerTraffic">Tráfego</string>
@@ -225,7 +225,7 @@
     <string name="dialogMapsTerrainDownloadTitle">Carregar terreno</string>
     <string name="dialogSvgTitle">Gráficos em SVG</string>
     <string name="dialogGpsIntervalTitle">Intervalo de atualização do GPS</string>
-    <string name="dialogGpsIntervalNote">Nota: Mantenha este valor abaixo de 3 segundos para obter leituras mais precisas e comportamento mais consistente!</string>
+    <string name="dialogGpsIntervalNote">Mantenha este valor abaixo de 3 seg para obter leituras mais precisas e comportamento consistente!</string>
     <string name="dialogLocationPermissionRequestTitle">Permissão de localização</string>
     <string name="dialogLocationPermissionRequest">Este aplicativo necessita acessar sua localização para registrar suas atividades ao ar livre.</string>
     <string name="dialogStoragePermissionRequestTitle">Permissão de armazenamento</string>
@@ -852,4 +852,83 @@
 \n🔹 Todos os recursos
 \n🔹 Sem anúncios</string>
     <string name="proLicenseFeatures">🔹 Sem anúncios</string>
+    <string name="buttonNewTrack">Encerrar</string>
+    <string name="menuMeterReset">Encerrar</string>
+    <string name="menuViewWith">Ver com</string>
+    <string name="menuUpload">Enviar</string>
+    <string name="toastProfilesListNonemptyDelete">Impossível apagar - O perfil contêm dados não salvos! Por favor, encerre antes.</string>
+    <string name="toastProfileButtonClickInfo">Clique longo para trocar de perfil</string>
+    <string name="toastMapClickInfo">Clique longo para opções de mapas</string>
+    <string name="toastSharingSuccess">Publicado com sucesso</string>
+    <string name="toastSharingError">Erro durante compartilhamento</string>
+    <string name="toastSharingPermissionsError">Erro ao publicar, por favor verifique permissões</string>
+    <string name="toastUpdatingSuccess">Atualizado com sucesso</string>
+    <string name="toastCancelled">Cancelado</string>
+    <string name="dialog_default_map_track_colors_title">Cor do percurso no mapa</string>
+    <string name="dialogTracksShareCountExceeded">Não é possível compartilhar mais de 100 percursos de uma vez.</string>
+    <string name="dialogGpsSettingsPromptMessage">Você não poderá usar a maioria dos recursos deste app sem Localização.
+\n
+\nPor favor assegure-se de que a Localização está habilitada e no modo \'Alta Precisão\'.
+\n
+\nAbrir Configurações de Localização agora\?</string>
+    <string name="dialogResetTitle">Encerrar</string>
+    <string name="dialogMapsHighResolution">Mapa em alta resolução</string>
+    <string name="dialogTrackUploadWaitTitle">Por favor aguarde</string>
+    <string name="dialogTrackUploadPreparing">Preparando dados…</string>
+    <string name="dialogTrackUploadSending">Enviando…</string>
+    <string name="dialogTrackUploadDescriptionHint">Compartilhe seus pensamentos…</string>
+    <string name="dialogTrackUploadShareButton">Compartilhar</string>
+    <string name="dialogTrackUploadShareAgainButton">Compartilhar novamente</string>
+    <string name="dialogTrackUploadUpdateButton">Atualizar</string>
+    <string name="dialogTrackUploadActivityType">Tipo da atividade</string>
+    <string name="dialogTrackUploadPlatform">Serviço on-line</string>
+    <string name="dialogTrackUploadStravaIsCommute">Commute (Strava)</string>
+    <string name="dialogGpsIntervalLabelMore">◀
+\nMais precisão, usa mais bateria</string>
+    <string name="dialogGpsIntervalLabelLess">▶
+\nMenor precisão, usa menos bateria</string>
+    <string name="dialogSliderLess">◀</string>
+    <string name="dialogSliderMore">▶</string>
+    <string name="proPlusLicenseFeatures">🔹 Sem anúncios
+\n🔹 Doação extra</string>
+    <string name="thunderforestMapsFeatures">🔹 Mapas Thunderforest
+\n🔹 Sem anúncios</string>
+    <string name="mapboxMapsFeatures">🔹 Mapas Mapbox
+\n🔹 Sem anúncios</string>
+    <string name="priceFree">GRÁTIS</string>
+    <string name="rewardedAdDescription">Clique aqui para antes ver um anúncio</string>
+    <string name="rewardedAdLoading">Carregando anúncio…</string>
+    <string name="rewardedLicenseSuccess">Licença concedida com êxito</string>
+    <string name="na">N/D</string>
+    <string name="toastScreenPocketModeActive">Modo de bolso habilitado</string>
+    <string name="toastScreenWavingModeActive">Modo acenar habilitado</string>
+    <string name="dialog_volume_speech_text">Áudio</string>
+    <string name="dialogTrackEditTitleHint">Título</string>
+    <string name="dialogTrackEditNotesHint">Notas</string>
+    <string name="subscriptionPerMonth">%1$s /mês</string>
+    <string name="subscriptionPer1y">%1$s cobrados uma vez a cada 12 meses</string>
+    <string name="subscriptionPer6m">%1$s cobrados uma vez a cada 6 meses</string>
+    <string name="subscriptionPer3m">%1$s cobrados uma vez a cada 3 meses</string>
+    <string name="subscriptionPer1m">%1$s cobrados a cada mês</string>
+    <string name="subscriptionPer1w">%1$s cobrados a cada semana</string>
+    <string name="paymentOnce">Pagamento único</string>
+    <string name="manageSubscriptions">Gerenciar subscrições</string>
+    <string name="loading">Carregando…</string>
+    <string name="rewardedAdPriceFree">GRÁTIS (váiido para esta sessão)</string>
+    <string name="cautionTitle">Atenção</string>
+    <string name="menuExpand">Expandir</string>
+    <string name="menuCollapse">Contrair</string>
+    <string name="dialogMapsWeatherRadar">Radar de chuva</string>
+    <string name="dialogOpenRainviewerText">Abrir a página www.rainviewer.com agora\?</string>
+    <string name="dialogScreenOrientationReversePortrait">Retrato (reverso)</string>
+    <string name="dialogScreenOrientationReverseLandscape">Paisagem (reverso)</string>
+    <string name="menuMeterStart">Iniciar</string>
+    <string name="menuMeterStop">Parar</string>
+    <string name="dialogMapsAutoZoom">Zoom automático</string>
+    <string name="hereMapsFeatures">🔹 Mapas HERE
+\n🔹 Sem anúncios</string>
+    <string name="dialogMapsMapCount">%1$s mapas</string>
+    <string name="maptilerMapsFeatures">🔹 Mapas do MapTiler
+\n🔹 Sem anúncios</string>
+    <string name="dialogMapsChooseTitle">Escolher mapa</string>
 </resources>
