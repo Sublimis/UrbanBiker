@@ -475,7 +475,7 @@
     <string name="infoMeterModeAltitudeTitle">Yükseklik</string>
     <string name="infoMeterModeSlopeTitle">Eğim</string>
     <string name="infoMeterModeSpeedTitle">Hız</string>
-    <string name="infoMeterModeSpeedMsg">Hız — Geçerli, Maksimum ve Ortalama.</string>
+    <string name="infoMeterModeSpeedMsg">Birim zamanda katedilen anlık mesafe.</string>
     <string name="infoMeterModeVerticalSpeedTitle">Dikey Hız</string>
     <string name="infoMeterModePaceTitle">Tempo</string>
     <string name="infoMeterModeAccelerationTitle">Hızlanma</string>
@@ -583,7 +583,7 @@
     <string name="toastProfilesListNonemptyDelete">Silinemiyor - Profil kaydedilmemiş veriler içeriyor! Lütfen önce kaydedin.</string>
     <string name="toastTrackDeleteError">Hata! Rota silinemiyor</string>
     <string name="toastProfileButtonClickInfo">Kullanıcı değiştirmek için basılı tutun</string>
-    <string name="toastMapClickInfo">Harita ayarları için basılı tutun</string>
+    <string name="toastMapClickInfo">Harita seçenekleri için basılı tutun</string>
     <string name="toastSharingSuccess">Başarıyla yayınlandı</string>
     <string name="toastSharingError">Aktivite paylaşılırken hata gerçekleşti</string>
     <string name="toastSharingPermissionsError">Gönderi hatası. Lütfen izinleri kontrol edin</string>
@@ -616,7 +616,7 @@
     <string name="tracksHistoryListEmpty">Burada kayıt yok. Dışarı çık ve bir rota kaydet!</string>
     <string name="tracksHistoryListButtonUpload">Yükle</string>
     <string name="summaryEfficiency">Verimlilik</string>
-    <string name="summaryRollResistCoef">Yuvarlanma direnci katsayısı.</string>
+    <string name="summaryRollResistCoef">Yuv dir kts.</string>
     <string name="summaryBasalMetabolicRate">Bazal metabolizma hızı</string>
     <string name="summaryLocationInterval">Konum aralığı</string>
     <string name="summaryDeviceRestartsCount">Zorlu yeniden başlatma</string>
@@ -678,8 +678,8 @@
     <string name="dialogTrackResumeGeneralPromptMessage">Rota %1$s profilinde devam ettirilecek. Devam\?</string>
     <string name="dialogResetTitle">Bitiş</string>
     <string name="pref_maps_offline_file_title">Dosya/klasör seç</string>
-    <string name="infoMeterModeTemperatureMsg">Cihazla ölçülen ortam sıcaklığı - Şimdiki, En Yüksek ve En Düşük.</string>
-    <string name="infoMeterModePressureMsg">Cihazla ölçülen ortam basıncı- Şimdiki, En Yüksek ve En Düşük.</string>
+    <string name="infoMeterModeTemperatureMsg">Cihazla ölçülen ortam sıcaklığı.</string>
+    <string name="infoMeterModePressureMsg">Cihazla ölçülen ortam basıncı.</string>
     <string name="infoMeterModeCadenceTitle">Kadans</string>
     <string name="infoMeterModeHeartRateTitle">Nabız</string>
     <string name="infoMeterModeHeartRateMsg">Nabız.</string>
@@ -938,44 +938,32 @@
     <string name="infoMeterModeDistanceOdoMsg">Profilin ilk kullanımından beri kaydedilen toplam mesafe.</string>
     <string name="infoMeterModeDurationMsg">Yolculuk süresi (muhtemelen durma ve duraklamalar hariç).</string>
     <string name="infoMeterModeElapsedTitle">Geçen Süre</string>
-    <string name="infoMeterModeElapsedMsg">Geçen süre duraklamaları içerir fakat durdurmaları içermez.</string>
+    <string name="infoMeterModeElapsedMsg">Geçen süre, duraklamaları içerir fakat durdurmaları içermez.</string>
     <string name="infoMeterModeEnergyMsg">Verimlilik ve BMR dikkate alınarak hesaplanan, rotada harcanan toplam enerji.</string>
     <string name="infoMeterModeEfficacyMsg">"Harcanan enerjinin bir kısmı, ortalama hıza yakın sabit bir hızda gidildiğinde aynı gezintiyi yapmak için yeterli olabilir.  Ortalama hız ne kadar yüksekse o kadar iyidir."</string>
     <string name="infoMeterModeAscentMsg">Birikimli yükseklik kazancı (tırmanış).</string>
     <string name="infoMeterModeDescentMsg">Birikimli yükseklik kaybı(iniş).</string>
     <string name="infoMeterModeWriggleMsg">"Rotanın düz bir çizgiden sapmasının ölçülmesi yani rotanın düz bir çizgi çizip çizmediği değil alanı ne kadar doldurduğudur.  Düşük olması çoğunlukla daha iyidir."</string>
-    <string name="infoMeterModeAltitudeMsg">Deniz seviyesinden yükseklik(rakım)- Şimdiki, En Yüksek ve En Düşük.
-\n
-\nAklınızda bulundurun: Bu kaçınılmaz dijital filtreleme gecikmeleri nedeniyle gerçek zamana göre biraz gecikebilir.</string>
-    <string name="infoMeterModeSlopeMsg">"Eğim(derece),  sıfırın yatay olduğunu kabul edlerek arazi meyilini belirten sayıdır. Yüksek sayı daha dik bir çıkış anlamına gelirken negatif sayı inişi belirtir. 
-\n
-\nLütfen göz önünde bulundurun: Bu, kaçınılmaz dijital filtreleme gecikmeleri nedeniyle gerçek zamana göre birkaç dakika sapabilir."</string>
-    <string name="infoMeterModeVerticalSpeedMsg">Yukarı(pozitif) ya da aşağı(negatif) yönde hız -Şimdiki, En Yüksek ve En Düşük.
-\n
-\nLütfen göz önünde bulundurun: Bu, kaçınılmaz dijital filtreleme gecikmeleri nedeniyle gerçek zamana göre gecikebilir.</string>
-    <string name="infoMeterModePaceMsg">Devrik Hız - Şimdiki, En Yüksek ve Ortalama.</string>
-    <string name="infoMeterModeAccelerationMsg">Hız değişim oranı - Şimdiki, En Yüksek ve En Düşük.
-\n
+    <string name="infoMeterModeAltitudeMsg">Deniz seviyesinden yükseklik(rakım).</string>
+    <string name="infoMeterModeSlopeMsg">"Eğim(derece),  sıfırın yatay olduğu kabul edilerek arazi meyilini belirten sayıdır. Yüksek sayı daha dik bir çıkış anlamına gelirken negatif sayı inişi belirtir."</string>
+    <string name="infoMeterModeVerticalSpeedMsg">Yukarı(pozitif) ya da aşağı(negatif) dikey yönde hız.</string>
+    <string name="infoMeterModePaceMsg">Devrik hız, yani birim mesafe başına geçen süre.</string>
+    <string name="infoMeterModeAccelerationMsg">Zaman içinde hızın değişim oranı.
+\n 
 \nNegatif olması yavaşlama anlamına gelir.</string>
-    <string name="infoMeterModePowerMsg">Sarfedilen Güç (sürükleme kuvveti, yükseklik değişikliği vs. nedeniyle) -Şimdiki, En Yüksek ve Ortalama.
-\n
-\nNegatif olması güç kazancı anlamına gelir örneğin yokuş aşağı ya da frenlemede.
-\n
-\nKcal/h veya kJ/h , hesaplamalarında verimliliği ve BMR\'yi de dikkate alır.
-\n
-\nUyarı: Kaçınılmaz dijital filtreleme gecikmeleri nedeniyle, gerçek zamandan birkaç dakika sapabilir.</string>
+    <string name="infoMeterModePowerMsg">Aktivite sırasında sarfedilen güç (sürükleme kuvveti, yükseklik değişikliği vs. nedeniyle)
+\n 
+\nNegatif olması güç kazancı anlamına gelir örneğin yokuş aşağı ya da frenlemede. 
+\n 
+\nKcal/h veya kJ/h , hesaplamalarında verimliliği ve BMH\'yi de dikkate alır.</string>
     <string name="infoMeterModeAvgActivePowerTitle">Ortalama Aktif Güç</string>
-    <string name="infoMeterModeAvgActivePowerMsg">Aktivite sırasında harcanan ortalama güç, gücün olmadığı veya çok küçük olduğu zaman aralıklarını saymaz(yokuş aşağı, frenleme).
-\n
-\nAğır bir egzersiz yaparken, bu temel olarak FTP\'niz olacaktır (İşlevsel Eşik Gücü).</string>
+    <string name="infoMeterModeAvgActivePowerMsg">Aktivite sırasında harcanan ortalama güç, gücün olmadığı veya çok küçük olduğu zaman aralıklarını saymaz(yokuş aşağı, frenleme).</string>
     <string name="infoMeterModeVerticalPowerTitle">Dikey Güç</string>
-    <string name="infoMeterModeVerticalPowerMsg">Yükselirken ya da alçalırken oluşan gün kaybı/kazancı - Şimdiki, En Yüksek ve En Düşük.
-\n
-\nNegatif olması güç kazancı anlamına gelir (alçalma).
-\n
-\nKcal/h veya kJ/h , hesaplamalarında verimliliği de dikkate alır.
-\n
-\nUyarı: Kaçınılmaz dijital filtreleme gecikmeleri nedeniyle, gerçek zamandan birkaç dakika sapabilir.</string>
+    <string name="infoMeterModeVerticalPowerMsg">Yükselirken ya da alçalırken oluşan gün kaybı/kazancı - 
+\n 
+\nNegatif olması güç kazancı anlamına gelir (alçalma). 
+\n 
+\nKcal/h veya kJ/h , hesaplamalarında verimliliği de dikkate alır.</string>
     <string name="infoMeterModeCadenceMsg">Dakikadaki krank çevirme sayısı yani pedallama.</string>
     <string name="infoMeterModeGearRatioTitle">Dişli Oranı</string>
     <string name="infoMeterModeGearRatioMsg">Teker devir oranı vs birim zamandaki pedallama yani öndeki dişlinin arkadakine oranı. Yüksek sayı yüksek vites anlamına gelir.</string>
@@ -1055,7 +1043,7 @@
     <string name="priceFree">Ücretsiz</string>
     <string name="toastScreenPocketModeActive">Cep modu aktif</string>
     <string name="unitJoule">J</string>
-    <string name="pref_screenWaveOnOffMode_summary">"Yakınlık sensörüne iki kez el salladığınızda uygulamayı kapatır ve kilitler.  Uygulamayı açmak için aynı hareketi tekrar yapmanız yeterlidir."</string>
+    <string name="pref_screenWaveOnOffMode_summary">"Yakınlık sensörüne iki kez el salladığınızda uygulamayı kapatır.  Uygulamayı açmak için aynı hareketi tekrar yapmanız yeterlidir."</string>
     <string name="pref_soundeffects_proximity_title">Yakınlık sensörü</string>
     <string name="sensorsInfo">Sensörler kayıt aktifken otomatik olarak bağlanır, kayıt durduğunda otomatik olarak bağlantıyı keser.
 \n
@@ -1184,9 +1172,9 @@
     <string name="menuMeterStart">Başla</string>
     <string name="menuMeterStop">Durdur</string>
     <string name="dialogScreenshotTitle">Ekran görüntüsü</string>
-    <string name="dialogGoogleMapTermsViolation">"Google haritası içeriğinin yakalanmasına izin verilmiyor,  bu yüzden önce harita türü değiştirilmeli.
-\n
-\nStamen haritasına geçilsin mi\?"</string>
+    <string name="dialogGoogleMapTermsViolation">"Google, haritalarının içeriğinin yakalanmasına izin vermiyor,  bu yüzden önce harita türü değiştirilmeli. 
+\n 
+\nHarita türü değiştirilsin mi\?"</string>
     <string name="dialogWaitTitle">Lütfen bekleyin</string>
     <string name="dialogScreenshotPreparing">Ekran görüntüsü hazırlanıyor…</string>
     <string name="mapMarkerMyLocation">Konumum</string>
@@ -1205,4 +1193,56 @@
     <string name="controlPanelSensorsButtonTitle">Sensörler</string>
     <string name="controlPanelSensorsButtonSubtitle">Sensörleri yönetmek için tıklayın</string>
     <string name="pref_text_automatic">Otomatik</string>
+    <string name="speechUnitTwoMeters">Metre</string>
+    <string name="speechUnitOneMile">Mil</string>
+    <string name="speechUnitTwoMiles">Mil</string>
+    <string name="speechUnitManyMiles">Mil</string>
+    <string name="speechUnitOneHour">Saat</string>
+    <string name="speechUnitTwoHours">Saat</string>
+    <string name="speechUnitManyHours">Saat</string>
+    <string name="speechUnitOneMinute">Dakika</string>
+    <string name="speechUnitTwoMinutes">Dakika</string>
+    <string name="speechTrackingGpsWeak">GPS yok</string>
+    <string name="speechAltitude">Rakım: %1$s</string>
+    <string name="sensorProperitesActivityRecognition">Fiziksel aktivite tanımlama</string>
+    <string name="sensorProperitesActivityRecognitionInfo">"Sensör; sadece fiziksel aktiviteniz, sensörün amacına uygun  kabul edildiğinde veri sağlayacaktır. Örneğin adım sensörü bisiklet sürerken değil, yürürken veya koşarken adımları sayar. Bunun %100 doğru olmayabileceğini ve gecikmeli olabileceğini unutmayın. Google Play Hizmetleri gereklidir."</string>
+    <string name="summaryProfileNameInfo">Bu rotayı kaydetmek için kullanılan profil.</string>
+    <string name="summaryDeviceNameInfo">Bu rotayı kaydetmek için kullanılan cihaz.</string>
+    <string name="summaryTotalWeightInfo">Bu rotayı kaydederken kullanılan tüm ağırlıkların toplamı (sürücü, araç, yük,…).</string>
+    <string name="summaryRollResistCoefInfo">Yuvarlanma direnci katsayısı.</string>
+    <string name="summaryBasalMetabolicRateInfo">Bazal metobalizma hızı(BMH).</string>
+    <string name="summaryLocationIntervalInfo">Bu kayıttaki iki konum güncellemesi arasındaki ortalama zaman aralığı.</string>
+    <string name="summaryDeviceRestartsCountInfo">Bu aktivite sırasında uygulamanın zorla kapatılma ya da cihazın çalışmayı durdurma sayısı.</string>
+    <string name="summaryTotalTimeInfo">"Bu kayıtın başlangıç  ve bitiş zamanı arasındaki zaman aralığı."</string>
+    <string name="summaryStoppedTimeInfo">Elle ya da otomatik yapılan duraklatma sırasında harcanan süre.</string>
+    <string name="summaryHeartBeatsInfo">Aktivite sırasında kaydedilen kalp atışı sayısı.</string>
+    <string name="summaryCadenceStrokesInfo">Aktivite sırasında kaydedilen pedal çevirme sayısı.</string>
+    <string name="infoMeterModeFuncThresholdPowerTitle">İşlevsel Eşik Gücü</string>
+    <string name="infoMeterModeFuncThresholdPowerMsg">Daha uzun süreler boyunca korunabilecek tahmini maksimum güç.
+\n
+\nTahmin, büyük ölçüde bu aktivitenin türüne ve süresine bağlıdır.</string>
+    <string name="infoDigitalFilterNotice">Lütfen dikkat: Bu, kaçınılmaz dijital filtreleme gecikmeleri nedeniyle gerçek zamandan bir dakika kadar gecikebilir.</string>
+    <string name="controlPanelMapSettingsButtonTitle">Harita seçenekleri</string>
+    <string name="controlPanelMapSettingsButtonSubtitle">Harita seçenekleri için tıklayın</string>
+    <string name="pref_screenWaveDim_title">Ekranı karart</string>
+    <string name="pref_screenWaveDim_summary">Pil tasarrufu için ekran da karartılır</string>
+    <string name="cloudAccountsPowerUploadPolicy_0">Her zaman(varsayılan)</string>
+    <string name="hereMapsFeatures">🔹 HERE haritaları
+\n🔹 Reklam yok</string>
+    <string name="maptilerMapsFeatures">🔹 MapTiler haritaları
+\n🔹 Reklam yok</string>
+    <string name="dialogMapsChooseTitle">Harita seç</string>
+    <string name="meterModeDisplacement">değiştirme</string>
+    <string name="meterModeDisplacementShort">dğştir</string>
+    <string name="infoMeterModeDisplacementTitle">Değiştirme</string>
+    <string name="infoMeterModeDisplacementMsg">Kayıtın başlangıç ve bitiş noktaları arasındaki kuşuçumu mesafe.</string>
+    <string name="meterModes_30">Değiştirme</string>
+    <string name="sensorProperitesFilterIntervalInfo">Filtre aralığı, yani filtrenin gücü. Daha büyük değerler, daha fazla filtre uygular ancak daha fazla gecikmeye neden olur.</string>
+    <string name="sensorFilterInterval_0">3 saniye (varsayılan)</string>
+    <string name="sensorFilterInterval_1">5 saniye</string>
+    <string name="sensorFilterInterval_2">7 saniye</string>
+    <string name="sensorFilterInterval_3">10 saniye</string>
+    <string name="sensorFilterInterval_4">15 saniye</string>
+    <string name="sensorFilterInterval_5">20 saniye</string>
+    <string name="sensorFilterInterval_6">30 saniye</string>
 </resources>
