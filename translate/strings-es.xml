@@ -114,7 +114,7 @@
     <string name="dialog_volume_alarms_text">Alarmas</string>
     <string name="dialog_volume_message">Nota: Utilice los botones de volumen del dispositivo para ajustar el volumen general de sonido.</string>
     <string name="dialog_bell_automatic_sensitivity_title">Sensibilidad del timbre automático</string>
-    <string name="dialog_bell_shake_sensitivity_title">Sensibilidad de sacudida</string>
+    <string name="dialog_bell_shake_sensitivity_title">Sensibilidad de agitación</string>
     <string name="dialog_fenceguard_add_title">Añadir zona privada</string>
     <string name="dialog_fenceguard_add_text">Nombrar una nueva zona privada:</string>
     <string name="dialog_fenceguard_add_text2">Se levantará una zona privada alrededor de tu ubicación actual para evitar que quede expuesta en los recorridos guardados.</string>
@@ -374,9 +374,9 @@
     <string name="pref_category_haptic_title">Respuesta háptica</string>
     <string name="pref_category_app_features_title">Funcionalidades de la app</string>
     <string name="pref_category_wakelock_title">Política de suspensión CPU</string>
-    <string name="pref_category_gps_boost_title">Política de actualizaciones GPS</string>
+    <string name="pref_category_gps_boost_title">Política de actualizaciones forzadas del GPS</string>
     <string name="pref_group_flashlight_title">Linterna</string>
-    <string name="pref_category_flashlightBlinkMode_title">Parpadeo</string>
+    <string name="pref_category_flashlightBlinkMode_title">Parpadeante</string>
     <string name="pref_category_flashlightAutoPocketMode_title">Modo bolsillo</string>
     <string name="pref_category_gpsInaccuracyIndicator_title">Indicador de precisión</string>
     <string name="pref_category_paceIndicator_title">Indicador de ritmo</string>
@@ -416,9 +416,9 @@
     <string name="pref_bell_automatic_title">Automático</string>
     <string name="pref_bell_automatic_summary">Tocar el timbre al aminorar significativamente</string>
     <string name="pref_bell_automatic_sensitivity_title">Sensibilidad del timbre automático</string>
-    <string name="pref_bell_shake_title">Sacudir para sonar</string>
-    <string name="pref_bell_shake_summary">Sacudir el dispositivo para tocar el timbre</string>
-    <string name="pref_bell_shake_sensitivity_title">Sensibilidad de sacudida</string>
+    <string name="pref_bell_shake_title">Agitar para sonar</string>
+    <string name="pref_bell_shake_summary">Agitar el dispositivo para tocar el timbre</string>
+    <string name="pref_bell_shake_sensitivity_title">Sensibilidad de agitación</string>
     <string name="pref_roaring_type_title">Tipo</string>
     <string name="pref_roaring_type_dialog_title">Tipo de SAAV</string>
     <string name="pref_bg_color_title">Color de fondo</string>
@@ -1071,7 +1071,7 @@
     <string name="unitJoulePerKg">J/kg</string>
     <string name="unitJoulePerLb">J/lb</string>
     <string name="pref_screenWaveOnOffMode_title">Modo de saludo</string>
-    <string name="pref_screenWaveOnOffMode_summary">"Bloquea la aplicación al agitar la mano dos veces delante de la pantalla.  Agite nuevamente para desbloquear."</string>
+    <string name="pref_screenWaveOnOffMode_summary">Bloquea la aplicación al agitar la mano dos veces delante de la pantalla. Agite nuevamente para desbloquear.</string>
     <string name="pref_soundeffects_screenOff_title">Pantalla tenue/apagada</string>
     <string name="pref_soundeffects_screenOff_summary">Sonar y vibrar cuando la pantalla se atenúa o apaga temporalmente</string>
     <string name="pref_soundeffects_proximity_title">Sensor de proximidad</string>
@@ -1225,7 +1225,7 @@
     <string name="controlPanelSensorsButtonSubtitle">Hacer click para gestionar los sensores</string>
     <string name="pref_text_automatic">Automático</string>
     <string name="sensorProperitesActivityRecognition">Reconocimiento de la actividad física</string>
-    <string name="sensorProperitesActivityRecognitionInfo">El sensor proporcionará datos solo cuando se reconozca que su actividad física es compatible con el propósito del mismo. Por ejemplo, el sensor de pasos contará los pasos al caminar o correr, no al andar en bicicleta. Tenga en cuenta que esto puede no ser 100% exacto y puede ser lento. Los servicios de Google Play son necesarios.</string>
+    <string name="sensorProperitesActivityRecognitionInfo">El sensor proporcionará datos solo cuando se reconozca que su actividad física es compatible con el propósito del mismo. Por ejemplo, el sensor de pasos contará los pasos al caminar o correr, no al andar en bicicleta. Tenga en cuenta que esto puede no ser exacto y puede ser lento. Los servicios de Google Play son necesarios.</string>
     <string name="meterModeFTPower">Potencia ft</string>
     <string name="meterModeFTPowerShort">ftp</string>
     <string name="summaryProfileNameInfo">Perfil usado para grabar este recorrido.</string>
@@ -1267,7 +1267,7 @@
     <string name="meterModeDisplacement">desplazamiento</string>
     <string name="meterModeDisplacementShort">dsplaz</string>
     <string name="infoMeterModeDisplacementTitle">Desplazamiento</string>
-    <string name="infoMeterModeDisplacementMsg">Distancia en línea recta entre la posición inicial y final del recorrido.</string>
+    <string name="infoMeterModeDisplacementMsg">Distancia en línea recta desde la posición inicial del recorrido.</string>
     <string name="meterModes_30">Desplazamiento</string>
     <string name="sensorProperitesFilterIntervalInfo">Intervalo de filtro, es decir, fuerza del filtro. A valor más grande filtrado mayor, pero también se introducirán más demoras.</string>
     <string name="sensorFilterInterval_0">3 segundos (por defecto)</string>
