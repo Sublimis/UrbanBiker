@@ -448,10 +448,10 @@
     <string name="pref_resetPrompt_title">Aviso de reinicio</string>
     <string name="pref_auto_launch_on_gps_title">Lanzar automáticamente con GPS</string>
     <string name="pref_auto_launch_on_gps_summary">Lanzar la app (en modo Pasivo) cuando se detecta actividad GPS</string>
-    <string name="pref_passive_gps_button_title">Modo del botón de GPS pasivo</string>
+    <string name="pref_passive_gps_button_title">Botón de GPS en modo pasivo</string>
     <string name="pref_passive_gps_button_summary">Activar modo de GPS Pasivo al pulsar el botón GPS</string>
     <string name="pref_digital_font_title">Fuente digital</string>
-    <string name="pref_digital_font_summary">(Todos los perfiles) Usa fuente LCD digital segmentada para la visualización del velocímetro</string>
+    <string name="pref_digital_font_summary">(Todos los perfiles) Usa fuente LCD digital segmentada para la visualización de datos del velocímetro</string>
     <string name="pref_roaring_state_title">Sonido SAAV</string>
     <string name="pref_roaring_state_summary">Producir sonidos del Sistema de Alerta Acústica para Vehículos (SAAV) mientras se está en movimiento</string>
     <string name="pref_roaring_mode_title">Modo</string>
@@ -465,7 +465,7 @@
     <string name="pref_fenceguard_summary">Protege la ubicación de su hogar, o de otros lugares importantes, de quedar expuestos en los recorridos grabados</string>
     <string name="pref_autopause_mode_dialog_title">Pausa automática</string>
     <string name="pref_speedometer_limit_title">Indicador máx</string>
-    <string name="pref_speedometer_limit_dialog_title">Velocidad máxima del indicador</string>
+    <string name="pref_speedometer_limit_dialog_title">Indicador de velocidad máxima</string>
     <string name="pref_speed_calculate_mode_title">Recalcular velocidad</string>
     <string name="pref_speed_calculate_mode_summary">(Todos los perfiles) Recalcular la velocidad usando distancias, no usar el valor GPS directamente. Esto puede producir lecturas de velocidad más estables que valores GPS (Doppler).</string>
     <string name="pref_soundeffects_title">Habilitar</string>
@@ -474,7 +474,7 @@
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
     <string name="pref_soundeffects_gps_signal_summary">Sonar al cambiar el estado GPS (bueno, malo/parada)</string>
     <string name="pref_soundeffects_countdown_title">Cuenta atrás</string>
-    <string name="pref_soundeffects_countdown_summary">Sonar en cuenta atrás antes de continuar el recorrido (…3, 2, 1, GO!)</string>
+    <string name="pref_soundeffects_countdown_summary">Sonar en cuenta atrás antes de continuar el recorrido (…3, 2, 1, VAMOS!)</string>
     <string name="pref_soundeffects_tally_title">Habilitar</string>
     <string name="pref_soundeffects_tally_value_summary">Cada %1$s
         %2$s
@@ -944,7 +944,7 @@
     <string name="pref_volume_summary_text">Timbre: %1$s, SAAV: %2$s, Recuentos: %3$s, Efectos: %4$s, Alarmas: %5$s, Diálogos: %6$s</string>
     <string name="pref_relaunchAfterReboot_summary">(Todos los perfiles) Reanudar el seguimiento después de un reinicio forzado del dispositivo, si la batería es del 10% o más</string>
     <string name="pref_resetPrompt_summary">Solicitar iniciar una nuevo recorrido si el último activo fue hace más de 4 horas o es en una ubicación distante</string>
-    <string name="pref_roar_threshold_speed_info">"Los sonidos SAAV sonarán solo cuando vaya más rápido que el umbral de velocidad límite.  Útil por ejemplo en descensos."</string>
+    <string name="pref_roar_threshold_speed_info">Los sonidos SAAV sonarán solo cuando vaya más rápido que el umbral/límite de velocidad. Útil por ejemplo en descensos.</string>
     <string name="pref_background_pattern_dialog_title">Patrón de fondo del menú</string>
     <string name="pref_maps_fences_draw_summary">Mostrar Zonas Seguras sobre el mapa</string>
     <string name="pref_maps_animate_summary">(Todos los perfiles) Apague para reducir el uso de la batería, especialmente mientras el modo Seguir esté activado</string>
