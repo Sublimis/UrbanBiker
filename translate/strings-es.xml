@@ -160,7 +160,7 @@
     <string name="dialogScreenAutoTheme">Tema automático</string>
     <string name="dialogMapsOffline">Mapas sin conexión</string>
     <string name="dialogMapsLayerTraffic">Tráfico</string>
-    <string name="dialogMapsShowFences">Zonas seguras</string>
+    <string name="dialogMapsShowFences">Zonas privadas</string>
     <string name="dialogMapsShowRoutes">Rutas guiadas</string>
     <string name="dialogMapsFollowMode">Seguir</string>
     <string name="dialogMapsAutoRotate">Auto-rotación</string>
@@ -169,7 +169,7 @@
     <string name="dialogFencesUpdate">Actualizar ubicación de la zona privada</string>
     <string name="dialogFencesEdit">Editar zona privada</string>
     <string name="dialogFencesRemove">Eliminar zona privada</string>
-    <string name="dialogFencesShowFences">Mostrar zonas seguras</string>
+    <string name="dialogFencesShowFences">Mostrar zonas privadas</string>
     <string name="dialogPowerWeightsTitle">Pesos</string>
     <string name="dialogPowerWeightsWeightRider">Conductor</string>
     <string name="dialogPowerWeightsWeightVehicle">Vehículo</string>
@@ -461,7 +461,7 @@
     <string name="pref_roar_threshold_speed_title">Umbral de velocidad</string>
     <string name="pref_roarConstantModeButton_title">Botón de alternancia</string>
     <string name="pref_roarConstantModeButton_summary">Cambiar el modo constante con un click de botón mientras SAAV está encendido</string>
-    <string name="pref_fenceguard_title">Zonas seguras</string>
+    <string name="pref_fenceguard_title">Zonas privadas</string>
     <string name="pref_fenceguard_summary">Protege la ubicación de su hogar, o de otros lugares importantes, de quedar expuestos en los recorridos grabados</string>
     <string name="pref_autopause_mode_dialog_title">Pausa automática</string>
     <string name="pref_speedometer_limit_title">Indicador máx</string>
@@ -480,22 +480,22 @@
         %2$s
     </string>
     <string name="pref_soundeffects_tally_distance_title">Distancia</string>
-    <string name="pref_soundeffects_tally_distance_dialog_title">Distancia total</string>
+    <string name="pref_soundeffects_tally_distance_dialog_title">Contador de distancia</string>
     <string name="pref_soundeffects_tally_duration_title">Duración</string>
-    <string name="pref_soundeffects_tally_duration_dialog_title">Duración total</string>
+    <string name="pref_soundeffects_tally_duration_dialog_title">Contador de duración</string>
     <string name="pref_soundeffects_tally_ascent_title">Ascenso</string>
-    <string name="pref_soundeffects_tally_ascent_dialog_title">Ascenso total</string>
+    <string name="pref_soundeffects_tally_ascent_dialog_title">Contador de ascenso</string>
     <string name="pref_soundeffects_tally_descent_title">Descenso</string>
-    <string name="pref_soundeffects_tally_descent_dialog_title">Descenso total</string>
+    <string name="pref_soundeffects_tally_descent_dialog_title">Contador de descenso</string>
     <string name="pref_soundeffects_alarm_title">Habilitar</string>
-    <string name="pref_soundeffects_alarm_gpsPause_title">Pausa automática</string>
+    <string name="pref_soundeffects_alarm_gpsPause_title">Pausa olvidada</string>
     <string name="pref_soundeffects_alarm_gpsPause_summary">La alarma sonará cuando un movimiento significativo sea detectado mientras el seguimiento está en pausa</string>
     <string name="pref_ads_mode_title">Mostrar publicidad</string>
     <string name="pref_ads_mode_dialog_title">Tipo de publicidad</string>
     <string name="pref_maps_disable_title">Deshabilitar mapas</string>
     <string name="pref_maps_track_draw_title">Dibujar el recorrido</string>
     <string name="pref_maps_track_draw_summary">Trazar tus movimientos sobre el mapa</string>
-    <string name="pref_maps_fences_draw_title">Zonas seguras</string>
+    <string name="pref_maps_fences_draw_title">Zonas privadas</string>
     <string name="pref_maps_animate_title">Animación</string>
     <string name="pref_maps_online_mode_summary">(Todos los perfiles)</string>
     <string name="pref_maps_online_mode_dialog_title">Origen de los mapas</string>
@@ -946,7 +946,7 @@
     <string name="pref_resetPrompt_summary">Solicitar iniciar una nuevo recorrido si el último activo fue hace más de 4 horas o es en una ubicación distante</string>
     <string name="pref_roar_threshold_speed_info">Los sonidos SAAV sonarán solo cuando vaya más rápido que el umbral/límite de velocidad. Útil por ejemplo en descensos.</string>
     <string name="pref_background_pattern_dialog_title">Patrón de fondo del menú</string>
-    <string name="pref_maps_fences_draw_summary">Mostrar Zonas Seguras sobre el mapa</string>
+    <string name="pref_maps_fences_draw_summary">Mostrar Zonas Privadas sobre el mapa</string>
     <string name="pref_maps_animate_summary">(Todos los perfiles) Apague para reducir el uso de la batería, especialmente mientras el modo Seguir esté activado</string>
     <string name="pref_maps_routes_draw_summary">Trazar como líneas de puntos sobre el mapa aquellas rutas GPX seleccionadas</string>
     <string name="pref_maps_quickZoom_title">Botones Zoom Rápido</string>
@@ -1118,7 +1118,7 @@
     <string name="controlPanelSoundSpeech">Diálogos</string>
     <string name="pref_category_speech_title">Diálogos</string>
     <string name="pref_soundeffects_tally_clock_title">Reloj</string>
-    <string name="pref_soundeffects_tally_clock_dialog_title">Reloj total</string>
+    <string name="pref_soundeffects_tally_clock_dialog_title">Contador de reloj</string>
     <string name="pref_speechProfileName_title">Nombre del perfil</string>
     <string name="pref_speechProfileName_summary">(Todos los perfiles) Pronuncia el nombre del perfil al cambiar de perfil</string>
     <string name="pref_speechTrackingStatus_title">Seguimiento</string>
