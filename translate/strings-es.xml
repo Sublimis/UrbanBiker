@@ -88,9 +88,9 @@
     <string name="toastTrackResumed">Recorrido reanudado</string>
     <string name="toastTrackResumeGpsActiveError">Por favor, apague o pause el GPS antes</string>
     <string name="toastContrastButtonClickInfo">Tema visual automático activado</string>
-    <string name="toastFlashlightButtonClickInfo">Pulsación larga para alternar la linterna</string>
-    <string name="toastRoarButtonClickInfo">Pulsación larga para alternar sonido SAAV</string>
-    <string name="toastMapButtonClickInfo">Pulsación larga para alternar mapa</string>
+    <string name="toastFlashlightButtonClickInfo">Clic largo para alternar la linterna</string>
+    <string name="toastRoarButtonClickInfo">Clic largo para alternar sonido SAAV</string>
+    <string name="toastMapButtonClickInfo">Clic largo para alternar mapa</string>
     <string name="toastMapFollowingOn">Seguimiento activado</string>
     <string name="toastMapFollowingAutorotate">Rotación automática activada</string>
     <string name="toastMapFollowingOff">Seguimiento desactivado</string>
@@ -389,7 +389,7 @@
     <string name="pref_app_language_summary">(Todos los perfiles)</string>
     <string name="pref_app_language_dialog_title">Idioma</string>
     <string name="pref_app_language_translate_title">Ayuda a traducir</string>
-    <string name="pref_app_language_translate_summary">Pulsa aquí si te gustaría ayudar a traducir esta app a otro idioma</string>
+    <string name="pref_app_language_translate_summary">Clic aquí si te gustaría ayudar a traducir esta app a otro idioma</string>
     <string name="pref_back_key_mode_summary">(Todos los perfiles)</string>
     <string name="pref_back_key_mode_dialog_title">Comportamiento del botón volver</string>
     <string name="pref_resetToDefault">Restablecer valores por defecto</string>
@@ -460,7 +460,7 @@
     <string name="pref_roaring_constant_mode_summary">Producir sonidos SAAV constantes en todo momento, independientemente de su estado de movimiento o del GPS</string>
     <string name="pref_roar_threshold_speed_title">Umbral de velocidad</string>
     <string name="pref_roarConstantModeButton_title">Botón de alternancia</string>
-    <string name="pref_roarConstantModeButton_summary">Cambiar el modo constante con un click de botón mientras SAAV está encendido</string>
+    <string name="pref_roarConstantModeButton_summary">Alternar el modo constante con un clic de botón mientras SAAV esté encendido</string>
     <string name="pref_fenceguard_title">Zonas privadas</string>
     <string name="pref_fenceguard_summary">Protege la ubicación de su hogar, o de otros lugares importantes, de quedar expuestos en los recorridos grabados</string>
     <string name="pref_autopause_mode_dialog_title">Pausa automática</string>
@@ -515,13 +515,13 @@
     <string name="pref_maps_routes_files_noFolderSelected">Ninguna carpeta seleccionada.</string>
     <string name="pref_maps_quickZoomInvert_title">Invertido</string>
     <string name="pref_button_autoring_enable_title">Alternar Timbre Auto</string>
-    <string name="pref_button_autoring_enable_summary">Habilitar el cambio de modo de timbre automático con una pulsación larga en el velocímetro</string>
+    <string name="pref_button_autoring_enable_summary">Habilitar alternancia del modo de timbre automático mediante clic largo en el velocímetro</string>
     <string name="pref_button_profile_show_title">Perfil</string>
     <string name="pref_button_profile_show_summary">Mostrar el botón de Perfil</string>
     <string name="pref_button_map_show_title">Mapa</string>
     <string name="pref_button_map_show_summary">Mostrar el botón de Mapa</string>
     <string name="pref_button_flashlight_show_title">Linterna</string>
-    <string name="pref_button_flashlight_show_summary">Mostrar botón de Linterna (si está disponible la linterna)</string>
+    <string name="pref_button_flashlight_show_summary">Mostrar botón de Linterna (si está disponible la luz de flash)</string>
     <string name="pref_button_contrast_show_title">Capa Contraste/Mapa</string>
     <string name="pref_button_contrast_show_summary">Mostrar el botón de alternar capa Contraste/Mapa</string>
     <string name="pref_button_roar_show_title">SAAV</string>
@@ -531,8 +531,8 @@
     <string name="pref_meter_enable_title">Habilitar</string>
     <string name="pref_meter_enable_summary">Mostrar u ocultar este medidor</string>
     <string name="pref_meter_lock_title">Modo bloqueo</string>
-    <string name="pref_meter_lock_summary">Prevenir cambio de modo al hacer click</string>
-    <string name="pref_meter_modes_select_title">Cambiar modos disponibles…</string>
+    <string name="pref_meter_lock_summary">Previene el cambio de modo al hacer clic</string>
+    <string name="pref_meter_modes_select_title">Escoja modos disponibles…</string>
     <string name="pref_speedo_display_mode_title">Apariencia</string>
     <string name="pref_speedo_display_mode_dialog_title">Apariencia del velocímetro</string>
     <string name="pref_speedo_indicator_needle_title">Aguja</string>
@@ -543,19 +543,19 @@
     <string name="pref_power_weights_summary">Conductor: %1$s, Vehículo: %2$s, Carga: %3$s, Pasajeros: %4$s, Ruedas: %5$s
     </string>
     <string name="pref_power_coefs_title">Coeficientes</string>
-    <string name="pref_power_coefs_summary">Área de rozamiento: %1$s 
+    <string name="pref_power_coefs_summary">Área de rozamiento: %1$s
 \nResistencia a la rodadura: %2$s</string>
     <string name="pref_energy_params_title">Parámetros de energía</string>
-    <string name="pref_energy_params_summary">Eficiencia: %1$s 
+    <string name="pref_energy_params_summary">Eficiencia: %1$s
 \nMetabolismo: %2$s</string>
-    <string name="pref_svg_data_enable_title">Generar gráfica</string>
+    <string name="pref_svg_data_enable_title">Generar gráficas</string>
     <string name="pref_svg_data_modes_select_title">Seleccionar tipo de gráfica…</string>
     <string name="pref_flashlightAutoPocketMode_title">Modo de bolsillo</string>
     <string name="pref_flashlightAutoPocketMode_summary">Utilizar el sensor de proximidad para mantener la linterna apagada mientras no sea necesaria</string>
     <string name="pref_flashlightBlinkMode_title">Modo</string>
     <string name="pref_flashlightBlinkMode_dialogTitle">Parpadeo de linterna</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Botón de alternancia</string>
-    <string name="pref_flashlightBlinkModeToggleEnable_summary">Activar parpadeo con un click de botón, mientras la linterna este encendida</string>
+    <string name="pref_flashlightBlinkModeToggleEnable_summary">Alternar parpadeo mediante clic de botón, mientras la linterna esté encendida</string>
     <string name="pref_gpsInaccuracyIndicator_title">Indicador de precisión</string>
     <string name="pref_gpsInaccuracyIndicator_summary">Indica el envejecimiento del valor de la velocidad, ya que ésta se vuelve más incierta con el tiempo</string>
     <string name="pref_paceIndicator_title">Indicador de ritmo</string>
@@ -713,7 +713,7 @@
     <!-- prefBackKeyModeEntries -->
     <string name="prefBackKeyModeEntries_0">Normal</string>
     <string name="prefBackKeyModeEntries_1">Ninguna</string>
-    <string name="prefBackKeyModeEntries_2">Doble click para salir</string>
+    <string name="prefBackKeyModeEntries_2">Doble clic para salir</string>
     <!-- prefAdModes -->
     <string name="prefAdModes_0">Cualquiera</string>
     <string name="prefAdModes_1">Google</string>
@@ -730,7 +730,7 @@
     <string name="toastTrackingPaused">Pausado</string>
     <string name="toastTrackingStopped">Parado</string>
     <string name="toastProfilesListNonemptyDelete">Imposible borrar — ¡El perfil tiene datos sin guardar! Por favor, complétalo primero.</string>
-    <string name="toastProfileButtonClickInfo">Pulsación larga para cambiar de perfil</string>
+    <string name="toastProfileButtonClickInfo">Clic largo para cambiar de perfil</string>
     <string name="toastMapClickInfo">Pulsación larga para opciones de mapa</string>
     <string name="toastSharingSuccess">Publicado satisfactoriamente</string>
     <string name="toastSharingError">Error durante la acción de compartir</string>
@@ -1075,7 +1075,7 @@
     <string name="pref_soundeffects_screenOff_title">Pantalla tenue/apagada</string>
     <string name="pref_soundeffects_screenOff_summary">Sonar y vibrar cuando la pantalla se atenúa o apaga temporalmente</string>
     <string name="pref_soundeffects_proximity_title">Sensor de proximidad</string>
-    <string name="pref_soundeffects_proximity_summary">Sonido de click cuando se dispara el sensor de proximidad</string>
+    <string name="pref_soundeffects_proximity_summary">Sonido de clic cuando se dispara el sensor de proximidad</string>
     <string name="unitMetersAboveGroundLevel">m (s.n.m.)</string>
     <string name="unitFeetsAboveGroundLevel">ft (s.n.m.)</string>
     <string name="meterModeKineticEnergy">energía cinética</string>
@@ -1220,9 +1220,9 @@
     <string name="pref_roaring_type_entries_3">Vehículo eléctrico</string>
     <string name="dialogMapsAutoZoom">Zoom automático</string>
     <string name="controlPanelUnitsButtonTitle">Unidades de medida</string>
-    <string name="controlPanelUnitsButtonSubtitle">Haga click para cambiar las unidades</string>
+    <string name="controlPanelUnitsButtonSubtitle">Haga clic para cambiar las unidades</string>
     <string name="controlPanelSensorsButtonTitle">Sensores</string>
-    <string name="controlPanelSensorsButtonSubtitle">Hacer click para gestionar los sensores</string>
+    <string name="controlPanelSensorsButtonSubtitle">Hacer clic para gestionar los sensores</string>
     <string name="pref_text_automatic">Automático</string>
     <string name="sensorProperitesActivityRecognition">Reconocimiento de la actividad física</string>
     <string name="sensorProperitesActivityRecognitionInfo">El sensor proporcionará datos solo cuando se reconozca que su actividad física es compatible con el propósito del mismo. Por ejemplo, el sensor de pasos contará los pasos al caminar o correr, no al andar en bicicleta. Tenga en cuenta que esto puede no ser exacto y puede ser lento. Los servicios de Google Play son necesarios.</string>
@@ -1252,7 +1252,7 @@
     <string name="infoDigitalFilterNotice">Tenga en cuenta: esto puede retrasarse en tiempo real en aproximadamente un minuto, debido a retrasos inevitables del filtrado digital.</string>
     <string name="meterModes_29">Umbral de Potencia Funcional (FTP)</string>
     <string name="controlPanelMapSettingsButtonTitle">Opciones de mapa</string>
-    <string name="controlPanelMapSettingsButtonSubtitle">Hacer click para opciones de mapa</string>
+    <string name="controlPanelMapSettingsButtonSubtitle">Hacer clic para opciones de mapa</string>
     <string name="pref_screenWaveDim_title">Atenuar pantalla</string>
     <string name="pref_screenWaveDim_summary">La pantalla también se oscurecerá para ahorrar batería</string>
     <string name="cloudAccountsPowerUploadPolicyTitle">Política de subida de datos de Potencia</string>
