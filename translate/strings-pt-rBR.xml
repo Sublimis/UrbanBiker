@@ -223,7 +223,6 @@
     <string name="dialogMapsDownloadTitle">Download de mapas off-line</string>
     <string name="dialogMapsDownloadText">Abrir página de downloads na internet agora\?</string>
     <string name="dialogMapsTerrainDownloadTitle">Carregar terreno</string>
-    <string name="dialogSvgTitle">Gráficos em SVG</string>
     <string name="dialogGpsIntervalTitle">Intervalo de atualização do GPS</string>
     <string name="dialogGpsIntervalNote">Mantenha este valor abaixo de 3 seg para obter leituras mais precisas e comportamento consistente!</string>
     <string name="dialogLocationPermissionRequestTitle">Permissão de localização</string>
@@ -675,9 +674,6 @@
     <string name="pref_energy_params_summary">Eficiência: %1$s
 \nMetabolismo: %2$s
     </string>
-    <string name="pref_svg_data_enable_title">Gerar gráficos</string>
-    <string name="pref_svg_data_enable_summary">Gerar arquivos de dados gráficos SVG para vários parâmetros de percurso</string>
-    <string name="pref_svg_data_modes_select_title">Escolher tipos de gráficos…</string>
     <string name="pref_flashlightAutoPocketMode_title">Modo portátil</string>
     <string name="pref_flashlightAutoPocketMode_summary">Use o sensor de proximidade para manter a lanterna desligada enquanto não for necessária</string>
     <string name="pref_flashlightBlinkMode_title">Modo</string>
@@ -969,7 +965,6 @@
     <string name="controlPanelSoundSpeech">Áudio</string>
     <string name="summaryProfileName">Perfil</string>
     <string name="summaryDeviceName">Dispositivo</string>
-    <string name="facebookRemovedInfo">Facebook não suporta mais o compartilhamento de atividades físicas, então retiramos o Facebook do app.</string>
     <string name="dialogActivityRecognitionPermissionRequestTitle">Permissão de atividade física</string>
     <string name="dialogActivityRecognitionPermissionRequest">É necessária permissão para que o app possa usar sensores embutidos tal como o sensor de Deteção de Passos.</string>
     <string name="unitSteps">passos</string>
@@ -1019,8 +1014,6 @@
     <string name="cloudAccountsPowerUploadPolicyTitle">Política de upload de dados de potência</string>
     <string name="cloudAccountsPowerUploadPolicy_0">Sempre (padrão)</string>
     <string name="cloudAccountsPowerUploadPolicy_1">Enviar dados de potência só quando usar medidor de potência</string>
-    <string name="meterModeDisplacement">deslocamento</string>
-    <string name="meterModeDisplacementShort">desloc</string>
     <string name="sensorProperitesIsAutoStrideLenInfo">Isto fará medições automáticas do comprimento dos passos durante corridas ou caminhadas rápidas.</string>
     <string name="sensorProperitesStrideLenNotSet">Não definido</string>
     <string name="sensorProperitesTriggersCountInfo">Número de disparadores (ex. imãs) usados pelo sensor. Sensores sem disparadores externos normalmente possuem um único disparador interno.</string>
@@ -1270,8 +1263,6 @@
     <string name="meterModes_29">Potência funcional</string>
     <string name="pref_screenWaveDim_title">Diminuir o brilho da tela</string>
     <string name="pref_screenWaveDim_summary">A tela também reduzirá o brilho para economizar bateria</string>
-    <string name="infoMeterModeDisplacementTitle">Deslocamento</string>
-    <string name="infoMeterModeDisplacementMsg">Distância em linha reta entre os pontos inicial e final do percurso.</string>
     <string name="meterModes_30">Deslocamento</string>
     <string name="sensorProperitesFilterIntervalInfo">Intervalo do filtro, isto é, a força do filtro. Valores maiores filtrarão mais, porém introduzirão mais atraso.</string>
     <string name="sensorFilterInterval_0">3 segundos (padrão)</string>
