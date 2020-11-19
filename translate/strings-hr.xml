@@ -812,9 +812,9 @@
 \n 
 \nKada su jedinice kcal/h ili kJ/h, također uzima u obzir efikasnost.</string>
     <string name="infoMeterModeTemperatureTitle">Temperatura</string>
-    <string name="infoMeterModeTemperatureMsg">Temperatura okoline izmjerena uređajem.</string>
+    <string name="infoMeterModeTemperatureMsg">Temperatura okoline izmjerena uređajem ili vanjskim senzorom.</string>
     <string name="infoMeterModePressureTitle">Tlak</string>
-    <string name="infoMeterModePressureMsg">Atmosferski tlak izmjeren uređajem.</string>
+    <string name="infoMeterModePressureMsg">Atmosferski tlak izmjeren uređajem ili vanjskim senzorom.</string>
     <string name="infoMeterModeClockTitle">Sat</string>
     <string name="infoMeterModeClockMsg">Trenutno doba dana.</string>
     <string name="infoMeterModeCadenceTitle">Kadenca</string>
@@ -1182,9 +1182,9 @@
     <string name="sensorProperitesEnableFilteringInfo">Ovo će obavljati dodatno filtriranje podataka senzora, možda popravljajući točnost, ali uvodeći nekoliko sekundi kašnjenja. Onemogućeno kao zadano.</string>
     <string name="pref_soundeffects_tally_steps_title">Koraci</string>
     <string name="pref_soundeffects_tally_steps_dialog_title">Oznaka koraka</string>
-    <string name="prefProhibitLocationAlertInfo">Lokacija se nikada neće uključiti ili koristiti tijekom aktivnosti, tako da karta neće biti dostupna.
-\n
-\nPodaci će se prikupljati isključivo pomoću senzora pokreta i tijela ako su dostupni (snaga, brzina, kadenca, otkucaji srca, koraci).</string>
+    <string name="prefProhibitLocationAlertInfo">Lokacija se nikada neće uključiti niti koristiti tijekom aktivnosti, tako da karta neće biti dostupna. 
+\n 
+\nPodaci će se prikupljati isključivo pomoću ostalih senzora ako su dostupni (snaga, brzina, kadenca, otkucaji srca, koraci, okolina).</string>
     <string name="infoMeterModeStepCadenceTitle">Kadenca koraka</string>
     <string name="infoMeterModeStepCadenceMsg">Broj koraka u minuti.</string>
     <string name="infoMeterModeStepCountTitle">Koraci</string>
@@ -1262,7 +1262,7 @@
     <string name="maptilerMapsFeatures">🔹 MapTiler mape
 \n🔹 Nema oglasa</string>
     <string name="dialogMapsChooseTitle">Odaberite mapu</string>
-    <string name="meterModes_30">Pomak</string>
+    <string name="meterModes_30">Radius</string>
     <string name="sensorProperitesFilterIntervalInfo">Interval filtra, tj. jačina filtra. Veće vrijednosti filtrirat će više, ali uvest će i više kašnjenja.</string>
     <string name="sensorFilterInterval_0">3 sekunde (zadano)</string>
     <string name="sensorFilterInterval_1">5 sekundi</string>
@@ -1271,4 +1271,33 @@
     <string name="sensorFilterInterval_4">15 sekundi</string>
     <string name="sensorFilterInterval_5">20 sekundi</string>
     <string name="sensorFilterInterval_6">30 sekundi</string>
+    <string name="dialogChartDataTypesTitle">Vrste grafova</string>
+    <string name="dialogLoginUsernameHint">Korisničko ime</string>
+    <string name="dialogLoginPasswordHint">Lozinka</string>
+    <string name="dialogCloudAccountDisconnectMessage">Odspojiti ovaj račun\?</string>
+    <string name="meterModeHumidity">vlažnost</string>
+    <string name="meterModeHumidityShort">vla</string>
+    <string name="meterModeRadius">radius</string>
+    <string name="meterModeRadiusShort">rad</string>
+    <string name="veloHeroConnectButton">Poveži s Velo Hero</string>
+    <string name="chartsTitle">Grafovi</string>
+    <string name="tracksHistoryChartEmptyInfo">Ništa za pokazati</string>
+    <string name="sensorPurposePressure">Tlak</string>
+    <string name="sensorPurposeTemperature">Temperatura</string>
+    <string name="sensorPurposeHumidity">Vlažnost</string>
+    <string name="sensorProperitesUseForPressure">Koristi za tlak</string>
+    <string name="sensorProperitesUseForTemperature">Koristi za temperaturu</string>
+    <string name="sensorProperitesUseForHumidity">Koristi za vlažnost</string>
+    <string name="pref_category_tracking_charts_title">Grafovi</string>
+    <string name="pref_soundeffects_tally_radius_title">Radius</string>
+    <string name="pref_soundeffects_tally_radius_dialog_title">Oznaka radijusa</string>
+    <string name="pref_track_charts_title">Vrste grafova…</string>
+    <string name="pref_track_charts_summary">Odaberite razne parametre aktivnosti koji će se spremiti kao grafovi uz svaku stazu. Podaci o brzini i nadmorskoj visini uvijek se spremaju.</string>
+    <string name="infoMeterModeHumidityTitle">Vlažnost</string>
+    <string name="infoMeterModeHumidityMsg">Relativna vlažnost zraka izmjerena uređajem ili vanjskim senzorom.</string>
+    <string name="infoMeterModeRadiusTitle">Radius</string>
+    <string name="infoMeterModeRadiusMsg">Zračna udaljenost od početnog položaja staze, tj. pomak.</string>
+    <string name="meterModes_None">Ništa</string>
+    <string name="meterModes_31">Vlažnost</string>
+    <string name="speechRadius">Radius: %1$s</string>
 </resources>
