@@ -1035,8 +1035,8 @@
 \nΤο αρνητικό σημαίνει κέρδος ισχύος (φθίνουσα). 
 \n 
 \nΌταν είναι σε χιλιοθερμίδες/ώρα ή κιλιοτζάουλ/ώρα, λαμβάνεται επίσης υπόψη η αποτελεσματικότητα και ο βασικός μεταβολικός ρυθμός.</string>
-    <string name="infoMeterModeTemperatureMsg">Θερμοκρασία περιβάλλοντος ως μετρούμενη με τη συσκευή.</string>
-    <string name="infoMeterModePressureMsg">Η πίεση περιβάλλοντος που μετράται με τη συσκευή.</string>
+    <string name="infoMeterModeTemperatureMsg">Θερμοκρασία περιβάλλοντος ως μετρούμενη με τη συσκευή ή έναν εξωτερικό αισθητήρα.</string>
+    <string name="infoMeterModePressureMsg">Η πίεση περιβάλλοντος που μετράται με τη συσκευή ή έναν εξωτερικό αισθητήρα.</string>
     <string name="infoMeterModeCadenceMsg">Αριθμός στροφών του στροφάλου ανά λεπτό, δηλ. Ταχύτητα πεντάλ.</string>
     <string name="infoMeterModeGearRatioMsg">Αναλογία των περιστροφών τροχού έναντι του πεντάλ ανά μονάδα χρόνου, δηλαδή αναλογία μπροστινού γραναζιού και του πίσω αλυσοτροχού. Μεγαλύτερος αριθμός σημαίνει υψηλότερη ταχύτητα.</string>
     <string name="dialogReviewNudgeMessage">Απολαμβάνετε το Urban Biker;</string>
@@ -1193,9 +1193,9 @@
     <string name="sensorProperitesEnableFilteringInfo">Αυτό θα πραγματοποιήσει πρόσθετο φιλτράρισμα στα δεδομένα αισθητήρα, ενδεχομένως βελτιώνοντας την ακρίβεια, αλλά εισάγοντας μερικά δευτερόλεπτα καθυστέρησης. Απενεργοποιημένη από προεπιλογή.</string>
     <string name="pref_soundeffects_tally_steps_title">Βήματα</string>
     <string name="pref_soundeffects_tally_steps_dialog_title">Ορόσημα βημάτων</string>
-    <string name="prefProhibitLocationAlertInfo">Η τοποθεσία δεν ενεργοποιείται ποτέ ή δεν χρησιμοποιείται κατά τη διάρκεια της δραστηριότητας, επομένως δεν θα υπάρχει διαθέσιμος χάρτης.
-\n
-\nΤα δεδομένα θα αποκτηθούν αποκλειστικά από τους αισθητήρες κίνησης και του σώματος, αν υπάρχουν (ισχύς, ταχύτητα, ρυθμός, καρδιακός ρυθμός, βήματα).</string>
+    <string name="prefProhibitLocationAlertInfo">Η τοποθεσία δεν ενεργοποιείται ποτέ ούτε χρησιμοποιείται κατά τη διάρκεια της δραστηριότητας, επομένως δεν θα υπάρχει διαθέσιμος χάρτης. 
+\n 
+\nΤα δεδομένα θα αποκτηθούν αποκλειστικά από άλλους αισθητήρες, αν υπάρχουν (Ισχύς, Ταχύτητα, Ρυθμός, Καρδιακός ρυθμός, Βήματα, Περιβάλλον).</string>
     <string name="infoMeterModeStepCadenceTitle">Ρυθμός βημάτων</string>
     <string name="infoMeterModeStepCadenceMsg">Αριθμός βημάτων ανά λεπτό.</string>
     <string name="infoMeterModeStepCountTitle">Βήματα</string>
@@ -1273,7 +1273,7 @@
     <string name="maptilerMapsFeatures">🔹 MapTiler maps
 \n🔹 Χωρίς διαφημίσεις</string>
     <string name="dialogMapsChooseTitle">Επιλέξτε χάρτη</string>
-    <string name="meterModes_30">Μετατόπιση</string>
+    <string name="meterModes_30">Ακτίνα κύκλου</string>
     <string name="sensorProperitesFilterIntervalInfo">"Ανανέωση φίλτρου, δηλ. ισχύς του φίλτρου.  Οι μεγαλύτερες τιμές θα φιλτράρουν περισσότερο, αλλά θα επιφέρουν επίσης μεγαλύτερη καθυστέρηση."</string>
     <string name="sensorFilterInterval_0">3 δευτερόλεπτα (προεπιλογή)</string>
     <string name="sensorFilterInterval_1">5 δευτερόλεπτα</string>
@@ -1282,4 +1282,33 @@
     <string name="sensorFilterInterval_4">15 δευτερόλεπτα</string>
     <string name="sensorFilterInterval_5">20 δευτερόλεπτα</string>
     <string name="sensorFilterInterval_6">30 δευτερόλεπτα</string>
+    <string name="dialogChartDataTypesTitle">Τύποι γραφημάτων</string>
+    <string name="dialogLoginUsernameHint">Όνομα χρήστη</string>
+    <string name="dialogLoginPasswordHint">Κωδικός πρόσβασης</string>
+    <string name="dialogCloudAccountDisconnectMessage">Αποσύνδεση αυτού του λογαριασμού;</string>
+    <string name="meterModeHumidity">υγρασία</string>
+    <string name="meterModeHumidityShort">Υγρ.</string>
+    <string name="meterModeRadius">ακτίνα κύκλου</string>
+    <string name="meterModeRadiusShort">ακτ.</string>
+    <string name="veloHeroConnectButton">Συνδεθείτε με τον Velo Hero</string>
+    <string name="chartsTitle">Διαγράμματα</string>
+    <string name="tracksHistoryChartEmptyInfo">Τίποτα για εμφάνιση</string>
+    <string name="sensorPurposePressure">Πίεση</string>
+    <string name="sensorPurposeTemperature">Θερμοκρασία</string>
+    <string name="sensorPurposeHumidity">Υγρασία</string>
+    <string name="sensorProperitesUseForPressure">Χρησιμοποιήστε για πίεση</string>
+    <string name="sensorProperitesUseForTemperature">Χρήση για θερμοκρασία</string>
+    <string name="sensorProperitesUseForHumidity">Χρησιμοποιήστε για υγρασία</string>
+    <string name="pref_category_tracking_charts_title">Διαγράμματα</string>
+    <string name="pref_soundeffects_tally_radius_title">Ακτίνα</string>
+    <string name="pref_soundeffects_tally_radius_dialog_title">Ακτίνα Ορόσημου</string>
+    <string name="pref_track_charts_title">Τύποι γραφημάτων…</string>
+    <string name="pref_track_charts_summary">"Επιλέξτε διάφορες παραμέτρους δραστηριότητας για αποθήκευση ως γραφήματα με κάθε διαδρομή.  Τα δεδομένα ταχύτητας και υψομέτρου αποθηκεύονται πάντα."</string>
+    <string name="infoMeterModeHumidityTitle">Υγρασία</string>
+    <string name="infoMeterModeHumidityMsg">Σχετική υγρασία περιβάλλοντος όπως μετριέται με τη συσκευή ή έναν εξωτερικό αισθητήρα.</string>
+    <string name="infoMeterModeRadiusTitle">Ακτίνα κύκλου</string>
+    <string name="infoMeterModeRadiusMsg">Συντομότερη απόσταση από την αρχική θέση της διαδρομής, δηλαδή μετατόπιση.</string>
+    <string name="meterModes_None">Κανένας</string>
+    <string name="meterModes_31">Υγρασία</string>
+    <string name="speechRadius">Ακτίνα κύκλου: %1$s</string>
 </resources>
