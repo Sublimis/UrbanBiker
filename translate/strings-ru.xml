@@ -408,8 +408,7 @@
 \n 
 \nМы не будем ничего публиковать без вашего разрешения.</string>
     <string name="accountDisconnect">Отключить</string>
-    <string name="googleFitConnectButton">Соединить с Google Fit
-    </string>
+    <string name="googleFitConnectButton">Связать с Google Fit</string>
     <string name="stravaTrackPrivacyInfo">Трек унаследует настройки конфиденциальности, которые вы выставили в Strava</string>
     <string name="tracksHistoryListTitle">История треков</string>
     <string name="tracksHistoryListTitleSelect">Выбрать</string>
@@ -547,7 +546,7 @@
     <string name="pref_category_locationProvider_title">Поставщик GPS</string>
     <string name="pref_category_altitude_adjustments_title">Высота</string>
     <string name="pref_category_temperature_title">Температура</string>
-    <string name="pref_category_pressure_title">Давление</string>
+    <string name="pref_category_pressure_title">Встроенный датчик давления</string>
     <string name="pref_category_sensors_title">Датчики</string>
     <string name="pref_category_cloudAccounts_title">Учётные записи</string>
     <string name="pref_category_mapsQuickZoom">БыстроеПриближение</string>
@@ -743,7 +742,7 @@
     <string name="pref_haptic_feedback_intensity_title">Длительность вибрации</string>
     <string name="pref_soundsMasterSwitch_title">Все звуки</string>
     <string name="prefBarometricAltitudeTitle">Барометрическая высота</string>
-    <string name="prefBarometricAltitudeSummary">Использовать встроенный барометр для улучшения точности определения высоты над уровнем моря</string>
+    <string name="prefBarometricAltitudeSummary">Использовать данные встроенного датчика давления для улучшения точности определения высоты над уровнем моря</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Гипсотермометр</string>
     <string name="prefBaroAltitudeUsesTemperatureSummary">Использовать встроенный датчик температуры для более точного определения барометрической высоты</string>
     <string name="prefBarometricAltitudeNoteSummary">Используйте эту функцию только на открытом воздухе! Пожалуйста, отключайте её в закрытых или кондиционируемых помещениях, таких как автомобили и самолёты!</string>
@@ -754,8 +753,8 @@
     <string name="prefTemperatureSensorDerivedType1Summary">Лучше работает на Samsung, LG, Sony (обычных), Xiaomi и похожих</string>
     <string name="prefTemperatureSensorDerivedType2Title">Тип Б</string>
     <string name="prefTemperatureSensorDerivedType2Summary">Лучше работает на Motorola, HTC, Sony (компактных) и похожих</string>
-    <string name="prefPressureSensorOffsetTitle">Корректировка барометра</string>
-    <string name="prefPressureSensorOffsetInfo">Это значение добавляется к показаниям барометра и может использоваться для смягчения неточности показаний, если таковые имеются.</string>
+    <string name="prefPressureSensorOffsetTitle">Корректировка давления</string>
+    <string name="prefPressureSensorOffsetInfo">Это значение добавляется к показаниям и может использоваться для смягчения неточности данных датчика давления, если таковые имеются.</string>
     <string name="prefNotificationAlwaysTitle">Постоянное уведомление</string>
     <string name="prefNotificationAlwaysSummary">Показывать значок приложения в строке состояния постоянно, а не только когда идёт запись трека</string>
     <string name="prefMapDiskCacheSizeTitle">Ограничение размера кеша карт</string>
@@ -1035,8 +1034,8 @@
 \nОтрицательная величина означает потерю мощности (спуск).
 \n
 \nКогда учёт в ккал/ч или кДж/ч, также принимается в расчёт эффективность.</string>
-    <string name="infoMeterModeTemperatureMsg">Температура окружающей среды, полученная от датчика устройства.</string>
-    <string name="infoMeterModePressureMsg">Давление окружающей среды, полученное от датчика устройства.</string>
+    <string name="infoMeterModeTemperatureMsg">Температура окружающей среды, полученная от встроенного или внешнего датчика.</string>
+    <string name="infoMeterModePressureMsg">Давление окружающей среды, полученное от встроенного или внешнего датчика.</string>
     <string name="infoMeterModeGearRatioMsg">Соотношение оборотов колеса к обороту педалей за единицу времени, т.е. соотношение размеров передней и задней звёздочки. Чем выше число, тем выше передача.</string>
     <string name="dialogReviewNudgeMessage">Вам нравится Urban Biker\?</string>
     <string name="dialogAppOptimizedPromptTitle">Экономия батареи</string>
@@ -1192,9 +1191,9 @@
     <string name="sensorProperitesEnableFilteringInfo">Будет выполняться дополнительная фильтрация данных датчиков, возможно, повысив точность, но введя несколько секунд задержки. По умолчанию отключено.</string>
     <string name="pref_soundeffects_tally_steps_title">Шаги</string>
     <string name="pref_soundeffects_tally_steps_dialog_title">Учёт шагов</string>
-    <string name="prefProhibitLocationAlertInfo">Местоположение не будет определяться или использоваться во время активности, поэтому карта не будет доступна.
-\n
-\nДанные будут получаться исключительно от датчиков движения и нательных, если таковые имеются (мощность, скорость, частота сердцебиения, шаги).</string>
+    <string name="prefProhibitLocationAlertInfo">Местоположение не будет определяться и использоваться во время активности, поэтому карта не будет доступна. 
+\n 
+\nДанные будут получаться исключительно от других датчиков, если они доступны (мощность, скорость, частота сердцебиения, шаги, окружающая среда).</string>
     <string name="infoMeterModeStepCadenceTitle">Каденс шага</string>
     <string name="infoMeterModeStepCadenceMsg">Количество шагов в минуту.</string>
     <string name="infoMeterModeStepCountTitle">Шаги</string>
@@ -1272,7 +1271,7 @@
     <string name="maptilerMapsFeatures">🔹 Карты MapTiler
 \n🔹 Нет рекламы</string>
     <string name="dialogMapsChooseTitle">Выбор карты</string>
-    <string name="meterModes_30">Перемещение</string>
+    <string name="meterModes_30">Радиус</string>
     <string name="sensorProperitesFilterIntervalInfo">Интервал фильтрации, т. е. сила фильтра. Чем больше значение, тем больше будет отфильтровано, но также будет большее запаздывание.</string>
     <string name="sensorFilterInterval_0">3 секунды (по умолчанию)</string>
     <string name="sensorFilterInterval_1">5 секунд</string>
@@ -1281,4 +1280,33 @@
     <string name="sensorFilterInterval_4">15 секунд</string>
     <string name="sensorFilterInterval_5">20 секунд</string>
     <string name="sensorFilterInterval_6">30 секунд</string>
+    <string name="dialogChartDataTypesTitle">Типы диаграмм</string>
+    <string name="dialogLoginUsernameHint">Пользователь</string>
+    <string name="dialogLoginPasswordHint">Пароль</string>
+    <string name="dialogCloudAccountDisconnectMessage">Отключить учётную запись\?</string>
+    <string name="meterModeHumidity">влажность</string>
+    <string name="meterModeHumidityShort">влж</string>
+    <string name="meterModeRadius">радиус</string>
+    <string name="meterModeRadiusShort">рад</string>
+    <string name="veloHeroConnectButton">Связать с Velo Hero</string>
+    <string name="chartsTitle">Диаграммы</string>
+    <string name="tracksHistoryChartEmptyInfo">Нечего показывать</string>
+    <string name="sensorPurposePressure">Давление</string>
+    <string name="sensorPurposeTemperature">Температура</string>
+    <string name="sensorPurposeHumidity">Влажность</string>
+    <string name="sensorProperitesUseForPressure">Использовать для давления</string>
+    <string name="sensorProperitesUseForTemperature">Использовать для температуры</string>
+    <string name="sensorProperitesUseForHumidity">Использовать для влажности</string>
+    <string name="pref_category_tracking_charts_title">Диаграммы</string>
+    <string name="pref_soundeffects_tally_radius_title">Радиус</string>
+    <string name="pref_soundeffects_tally_radius_dialog_title">Учёт радиуса</string>
+    <string name="pref_track_charts_title">Типы диаграмм…</string>
+    <string name="pref_track_charts_summary">Выберите параметры активности, которые будут сохраняться в виде диаграмм с каждым треком. Данные о скорости и высоте сохраняются всегда.</string>
+    <string name="infoMeterModeHumidityTitle">Влажность</string>
+    <string name="infoMeterModeHumidityMsg">Относительная влажность окружающей среды, полученная от встроенного или внешнего датчика.</string>
+    <string name="infoMeterModeRadiusTitle">Радиус</string>
+    <string name="infoMeterModeRadiusMsg">Расстояние от начального положения трека, т.е. смещение.</string>
+    <string name="meterModes_None">Нет</string>
+    <string name="meterModes_31">Влажность</string>
+    <string name="speechRadius">Радиус: %1$s</string>
 </resources>
