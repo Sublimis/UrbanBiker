@@ -549,7 +549,7 @@
     <string name="pref_category_locationProvider_title">Provedor de GPS</string>
     <string name="pref_category_altitude_adjustments_title">Altitudes</string>
     <string name="pref_category_temperature_title">Temperatura</string>
-    <string name="pref_category_pressure_title">Pressão Atmosférica</string>
+    <string name="pref_category_pressure_title">Sensor de Pressão Atmosférica interno</string>
     <string name="pref_category_sensors_title">Sensores</string>
     <string name="pref_category_cloudAccounts_title">Contas</string>
     <string name="pref_category_mapsQuickZoom">Zoom Rápido</string>
@@ -744,7 +744,7 @@
     <string name="pref_haptic_feedback_intensity_title">Intensidade de vibração</string>
     <string name="pref_soundsMasterSwitch_title">Todos os sons</string>
     <string name="prefBarometricAltitudeTitle">Altitude barométrica</string>
-    <string name="prefBarometricAltitudeSummary">Usar o barómetro interno para alcançar mais precisão na altitude</string>
+    <string name="prefBarometricAltitudeSummary">Usar os dados do sensor de Pressão Atmosférica para melhorar a precisão da altitude</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Termobarómetro</string>
     <string name="prefBaroAltitudeUsesTemperatureSummary">Usar os dados do sensor de temperatura para altitudes barométricas mais precisas</string>
     <string name="prefBarometricAltitudeNoteSummary">Usar isto unicamente em atmosfera aberta. Por favor desativar quando pressurizado, fechado ou em veículos com ar condicionado como automóveis ou aviões!</string>
@@ -755,8 +755,8 @@
     <string name="prefTemperatureSensorDerivedType1Summary">Melhor desempenho em Samsung, LG, Sony (Regular), Xiaomi, e similares</string>
     <string name="prefTemperatureSensorDerivedType2Title">Tipo B</string>
     <string name="prefTemperatureSensorDerivedType2Summary">Melhor desempenho em Motorola, HTC, Sony (compact), e similares</string>
-    <string name="prefPressureSensorOffsetTitle">Deslocamento do barómetro</string>
-    <string name="prefPressureSensorOffsetInfo">Esta constante é adicionada às leituras do barómetro e pode ser usada para diminuir a obliquidade do barómetro, se estiver presente</string>
+    <string name="prefPressureSensorOffsetTitle">Compensação de Pressão Atmosférica</string>
+    <string name="prefPressureSensorOffsetInfo">Esta constante é adicionada às leituras de Pressão Atmosférica e pode ser usada para diminuir a obliquidade do sensor, se estiver presente.</string>
     <string name="prefNotificationAlwaysTitle">Notificação persistente</string>
     <string name="prefNotificationAlwaysSummary">Mostrar sempre o ícone de notificação da Aplicação na barra de status. (Não apenas quando um percurso estiver ativo).</string>
     <string name="prefMapDiskCacheSizeTitle">Limite do tamanho da cache do mapa</string>
