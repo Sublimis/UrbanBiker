@@ -743,7 +743,7 @@
     <string name="pref_category_locationProvider_title">GPS provider</string>
     <string name="pref_category_altitude_adjustments_title">Altitudes</string>
     <string name="pref_category_temperature_title">Temperature</string>
-    <string name="pref_category_pressure_title">Pressure</string>
+    <string name="pref_category_pressure_title">Inbuilt pressure sensor</string>
     <string name="pref_category_sensors_title">Sensors</string>
     <string name="pref_category_cloudAccounts_title">Accounts</string>
     <string name="pref_category_goto_title" translatable="false">@null</string>
@@ -1021,7 +1021,7 @@
     <string name="pref_speechCountdown_title">Countdown</string>
     <string name="pref_speechCountdown_summary">Speak countdown</string>
     <string name="prefBarometricAltitudeTitle">Barometric altitude</string>
-    <string name="prefBarometricAltitudeSummary">Use inbuilt barometer to enhance altitude accuracy</string>
+    <string name="prefBarometricAltitudeSummary">Use pressure sensor data to enhance altitude accuracy</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Thermo barometer</string>
     <string name="prefBaroAltitudeUsesTemperatureSummary">Use temperature sensor data for more accurate barometric altitudes</string>
     <string name="prefBarometricAltitudeNoteSummary">Use these only in the open atmosphere! Please disable while in pressurized, closed or air-conditioned vehicles like cars or airplanes!</string>
@@ -1032,8 +1032,8 @@
     <string name="prefTemperatureSensorDerivedType1Summary">Works best for Samsung, LG, Sony (regular), Xiaomi, and the like</string>
     <string name="prefTemperatureSensorDerivedType2Title">Type B</string>
     <string name="prefTemperatureSensorDerivedType2Summary">Works best for Motorola, HTC, Sony (compact), and the like</string>
-    <string name="prefPressureSensorOffsetTitle">Barometer offset</string>
-    <string name="prefPressureSensorOffsetInfo">This constant is added to barometer readouts and can be used to mitigate barometer bias, if present</string>
+    <string name="prefPressureSensorOffsetTitle">Pressure offset</string>
+    <string name="prefPressureSensorOffsetInfo">This constant is added to pressure readouts and can be used to mitigate sensor bias, if present.</string>
     <string name="prefNotificationAlwaysTitle">Persistent notification</string>
     <string name="prefNotificationAlwaysSummary">Show app notification icon in system status bar at all times, not only when tracking is active.</string>
     <string name="prefMapDiskCacheSizeTitle">Map cache size limit</string>
