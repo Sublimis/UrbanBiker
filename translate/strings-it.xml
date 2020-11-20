@@ -418,8 +418,7 @@
 \n 
 \nNon pubblicheremo mai nulla senza il tuo permesso.</string>
     <string name="accountDisconnect">Disconnetti</string>
-    <string name="googleFitConnectButton">Collegati con Google FitGoogle Fit
-    </string>
+    <string name="googleFitConnectButton">Collegati con Google Fit</string>
     <string name="stravaTrackPrivacyInfo">Il percorso erediterà la privacy predefinita che hai impostato in Strava</string>
     <string name="tracksHistoryListTitle">Cronologia percorsi</string>
     <string name="tracksHistoryListTitleSelect">Seleziona</string>
@@ -564,7 +563,7 @@
     <string name="pref_category_locationProvider_title">Segnale GPS</string>
     <string name="pref_category_altitude_adjustments_title">Altitudini</string>
     <string name="pref_category_temperature_title">Temperatura</string>
-    <string name="pref_category_pressure_title">Pressione</string>
+    <string name="pref_category_pressure_title">Sensore di pressione interno</string>
     <string name="pref_category_sensors_title">Sensori</string>
     <string name="pref_category_cloudAccounts_title">Account</string>
     <string name="pref_category_mapsQuickZoom">Zoom rapido</string>
@@ -762,7 +761,7 @@
     <string name="pref_haptic_feedback_intensity_title">Intensità vibrazione</string>
     <string name="pref_soundsMasterSwitch_title">Tutti i suoni</string>
     <string name="prefBarometricAltitudeTitle">Altitudine barometrica</string>
-    <string name="prefBarometricAltitudeSummary">Usa il barometro incorporato per migliorare la precisione dell\'altidudine</string>
+    <string name="prefBarometricAltitudeSummary">Usa i dati del sensore di pressione per migliorare la precisione dell\'altidudine</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Barometro termico</string>
     <string name="prefBaroAltitudeUsesTemperatureSummary">Usa i dati del sensore di temperatura per ottenere altitudini barometriche più precise</string>
     <string name="prefBarometricAltitudeNoteSummary">Usa queste opzioni solo all\'aperto! Disabilitale quando ti trovi in veicoli condizionati, chiusi o pressurizzati tipo autovetture o aerei!</string>
@@ -773,8 +772,8 @@
     <string name="prefTemperatureSensorDerivedType1Summary">Funziona meglio con Samsung, LG, Sony (regolare), Xiaomi e simili</string>
     <string name="prefTemperatureSensorDerivedType2Title">Tipo B</string>
     <string name="prefTemperatureSensorDerivedType2Summary">Funziona meglio con Motorola, HTC, Sony (compatto) e simili</string>
-    <string name="prefPressureSensorOffsetTitle">Scostamento barometro</string>
-    <string name="prefPressureSensorOffsetInfo">Questa costante è aggiunta alle letture barometriche e può essere usata per mitigare gli errori del barometro, se presenti</string>
+    <string name="prefPressureSensorOffsetTitle">Scostamento pressione</string>
+    <string name="prefPressureSensorOffsetInfo">Questa costante è aggiunta alle letture di pressione e può essere usata per mitigare gli errori del sensore, se presenti.</string>
     <string name="prefNotificationAlwaysTitle">Notifica persistente</string>
     <string name="prefNotificationAlwaysSummary">Mostra sempre l\'icona di notifica dell\'app nella barra di stato, non solo quando il tracciamento è attivo.</string>
     <string name="prefMapDiskCacheSizeTitle">Limite cache mappa</string>
@@ -830,9 +829,9 @@
 \n
 \nSe in kcal/h o kJ/h, considera anche l\'efficienza.</string>
     <string name="infoMeterModeTemperatureTitle">Temperatura</string>
-    <string name="infoMeterModeTemperatureMsg">Temperatura ambientale come misurata col dispositivo.</string>
+    <string name="infoMeterModeTemperatureMsg">Temperatura ambientale come misurata col dispositivo o con un sensore esterno.</string>
     <string name="infoMeterModePressureTitle">Pressione</string>
-    <string name="infoMeterModePressureMsg">Pressione ambientale come misurata col dispositivo.</string>
+    <string name="infoMeterModePressureMsg">Pressione ambientale come misurata col dispositivo o con un sensore esterno.</string>
     <string name="infoMeterModeClockTitle">Orologio</string>
     <string name="infoMeterModeClockMsg">Ora attuale del giorno.</string>
     <string name="infoMeterModeCadenceTitle">Cadenza</string>
@@ -1280,7 +1279,7 @@
     <string name="maptilerMapsFeatures">🔹 Mappe MapTiler
 \n🔹 Senza pubblicità</string>
     <string name="dialogMapsChooseTitle">Scegli la mappa</string>
-    <string name="meterModes_30">Spostamento</string>
+    <string name="meterModes_30">Raggio</string>
     <string name="sensorProperitesFilterIntervalInfo">Intervallo del filtro, ossia l\'intensità del filtro. Valori maggiori filtreranno di più ma causeranno più ritardo.</string>
     <string name="sensorFilterInterval_0">3 secondi (predefinito)</string>
     <string name="sensorFilterInterval_1">5 secondi</string>
@@ -1289,4 +1288,33 @@
     <string name="sensorFilterInterval_4">15 secondi</string>
     <string name="sensorFilterInterval_5">20 secondi</string>
     <string name="sensorFilterInterval_6">30 secondi</string>
+    <string name="dialogChartDataTypesTitle">Tipi di grafico</string>
+    <string name="dialogLoginUsernameHint">Nome utente</string>
+    <string name="dialogLoginPasswordHint">Password</string>
+    <string name="dialogCloudAccountDisconnectMessage">Disconnettere questo account\?</string>
+    <string name="meterModeHumidity">umidità</string>
+    <string name="meterModeHumidityShort">umid.</string>
+    <string name="meterModeRadius">raggio</string>
+    <string name="meterModeRadiusShort">r.</string>
+    <string name="veloHeroConnectButton">Collegati con Velo Hero</string>
+    <string name="chartsTitle">Grafici</string>
+    <string name="tracksHistoryChartEmptyInfo">Nulla da mostrare</string>
+    <string name="sensorPurposePressure">Pressione</string>
+    <string name="sensorPurposeTemperature">Temperatura</string>
+    <string name="sensorPurposeHumidity">Umidità</string>
+    <string name="sensorProperitesUseForPressure">Usa per pressione</string>
+    <string name="sensorProperitesUseForTemperature">Usa per temperatura</string>
+    <string name="sensorProperitesUseForHumidity">Usa per umidità</string>
+    <string name="pref_category_tracking_charts_title">Grafici</string>
+    <string name="pref_soundeffects_tally_radius_title">Raggio</string>
+    <string name="pref_soundeffects_tally_radius_dialog_title">Conteggio raggio</string>
+    <string name="pref_track_charts_title">Tipi di grafico…</string>
+    <string name="pref_track_charts_summary">Scegli i parametri delle varie attività da salvare come grafici a ogni percorso. I dati di velocità e altitudine sono sempre salvati.</string>
+    <string name="infoMeterModeHumidityTitle">Umidità</string>
+    <string name="infoMeterModeHumidityMsg">Umidità relativa ambientale come misurata col dispositivo o con un sensore esterno.</string>
+    <string name="infoMeterModeRadiusTitle">Raggio</string>
+    <string name="infoMeterModeRadiusMsg">Distanza in linea d\'aria dalla posizione di partenza del percorso (spostamento).</string>
+    <string name="meterModes_None">Nessuno</string>
+    <string name="meterModes_31">Umidità</string>
+    <string name="speechRadius">Raggio: %1$s</string>
 </resources>
