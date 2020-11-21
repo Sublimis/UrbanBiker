@@ -549,7 +549,7 @@
     <string name="pref_category_locationProvider_title">GPS provider</string>
     <string name="pref_category_altitude_adjustments_title">Visina</string>
     <string name="pref_category_temperature_title">Temperatura</string>
-    <string name="pref_category_pressure_title">Tlak</string>
+    <string name="pref_category_pressure_title">Ugrađeni senzor tlaka</string>
     <string name="pref_category_sensors_title">Senzori</string>
     <string name="pref_category_cloudAccounts_title">Računi</string>
     <string name="pref_category_mapsQuickZoom">Brzi zoom</string>
@@ -744,7 +744,7 @@
     <string name="pref_haptic_feedback_intensity_title">Intenzitet vibracije</string>
     <string name="pref_soundsMasterSwitch_title">Svi zvukovi</string>
     <string name="prefBarometricAltitudeTitle">Barometarska visina</string>
-    <string name="prefBarometricAltitudeSummary">Koristi ugrađeni barometar za poboljšanje točnosti visine</string>
+    <string name="prefBarometricAltitudeSummary">Koristi podatke senzora tlaka za poboljšanje točnosti nadmorske visine</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Termo barometar</string>
     <string name="prefBaroAltitudeUsesTemperatureSummary">Koristi podatke senzora temperature za točniju barometarsku visinu</string>
     <string name="prefBarometricAltitudeNoteSummary">Koristite ovo jedino u otvorenoj atmosferi! Molimo onemogućite u zatvorenim, klimatiziranim ili vozilima pod pritiskom poput aviona ili automobila!</string>
@@ -755,8 +755,8 @@
     <string name="prefTemperatureSensorDerivedType1Summary">Najbolje radi sa Samsung, LG, Sony (pune veličine), Xiaomi, i sličnim uređajima</string>
     <string name="prefTemperatureSensorDerivedType2Title">Tip B</string>
     <string name="prefTemperatureSensorDerivedType2Summary">Najbolje radi s Motorola, HTC, Sony (compact), i sličnim uređajima</string>
-    <string name="prefPressureSensorOffsetTitle">Ofset barometra</string>
-    <string name="prefPressureSensorOffsetInfo">Ova konstanta pribraja se očitanjima barometra i koristi se za ublažavanje pristranosti barometra, ukoliko je prisutna</string>
+    <string name="prefPressureSensorOffsetTitle">Ofset tlaka</string>
+    <string name="prefPressureSensorOffsetInfo">Ova konstanta pribraja se očitanjima tlaka i koristi se za ublažavanje pristranosti senzora, ako postoji.</string>
     <string name="prefNotificationAlwaysTitle">Trajna notifikacija</string>
     <string name="prefNotificationAlwaysSummary">Uvijek prikazuj notifikacijsku ikonu aplikacije u statusnoj traci sustava, ne samo kada je praćenje aktivno.</string>
     <string name="prefMapDiskCacheSizeTitle">Veličina predmemorije mape</string>
