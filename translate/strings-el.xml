@@ -536,7 +536,7 @@
     <string name="pref_category_locationProvider_title">Πάροχος GPS</string>
     <string name="pref_category_altitude_adjustments_title">Υψόμετρα</string>
     <string name="pref_category_temperature_title">Θερμοκρασία</string>
-    <string name="pref_category_pressure_title">Πίεση</string>
+    <string name="pref_category_pressure_title">Ενσωματωμένος αισθητήρας πίεσης</string>
     <string name="pref_category_sensors_title">Αισθητήρες</string>
     <string name="pref_category_cloudAccounts_title">Λογαριασμοί</string>
     <string name="pref_category_mapsQuickZoom">Γρήγορη μεγέθυνση</string>
@@ -735,7 +735,7 @@
     <string name="pref_haptic_feedback_intensity_title">Ένταση δόνησης</string>
     <string name="pref_soundsMasterSwitch_title">Όλοι οι ήχοι</string>
     <string name="prefBarometricAltitudeTitle">Βαρομετρικό υψόμετρο</string>
-    <string name="prefBarometricAltitudeSummary">Χρησιμοποιήστε το ενσωματωμένο βαρόμετρο για να αυξήσετε την ακρίβεια του ύψους</string>
+    <string name="prefBarometricAltitudeSummary">Χρησιμοποιήστε δεδομένα αισθητήρα πίεσης για να βελτιώσετε την ακρίβεια του υψομέτρου</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Θερμοβαρόμετρο</string>
     <string name="prefBaroAltitudeUsesTemperatureSummary">Χρησιμοποιήστε δεδομένα αισθητήρα θερμοκρασίας για πιο ακριβή βαρομετρικά υψόμετρα</string>
     <string name="prefBarometricAltitudeNoteSummary">Χρησιμοποιήστε τα μόνο στην ανοιχτή ατμόσφαιρα! Παρακαλούμε απενεργοποιήστε τα σε υπό πίεση, κλειστά ή κλιματιζόμενα οχήματα όπως τα αυτοκίνητα ή τα αεροπλάνα!</string>
@@ -746,8 +746,8 @@
     <string name="prefTemperatureSensorDerivedType1Summary">Λειτουργεί καλύτερα για Samsung, LG, Sony (απλά), Xiaomi, και παρόμοια</string>
     <string name="prefTemperatureSensorDerivedType2Title">Τύπος Β</string>
     <string name="prefTemperatureSensorDerivedType2Summary">Λειτουργεί καλύτερα για Motorola, HTC, Sony (συμπαγή), και παρόμοια</string>
-    <string name="prefPressureSensorOffsetTitle">Αντιστάθμισμα βαρόμετρου</string>
-    <string name="prefPressureSensorOffsetInfo">Αυτή η σταθερά προστίθεται στις αναγνώσεις βαρομέτρου και μπορεί να χρησιμοποιηθεί για να μετριάσει τη μεροληψία βαρομέτρου, εάν υπάρχει</string>
+    <string name="prefPressureSensorOffsetTitle">Αντιστάθμισμα πίεσης</string>
+    <string name="prefPressureSensorOffsetInfo">Αυτή η σταθερά προστίθεται στις αναγνώσεις πίεσης και μπορεί να χρησιμοποιηθεί για να μετριάσει τη μεροληψία αισθητήρα, εάν υπάρχει.</string>
     <string name="prefNotificationAlwaysTitle">Συνεχής ειδοποίηση</string>
     <string name="prefNotificationAlwaysSummary">Εμφανίστε το εικονίδιο ειδοποίησης εφαρμογής στη γραμμή κατάστασης του συστήματος ανά πάσα στιγμή, όχι μόνο όταν η παρακολούθηση είναι ενεργή.</string>
     <string name="prefMapDiskCacheSizeTitle">Όριο μεγέθους της προσωρινής μνήμης χάρτη</string>
@@ -806,7 +806,7 @@
     <string name="defaultProfileNameOther">Λοιπά</string>
     <string name="svgCopyright">Δημιουργήθηκε με το Urban Biker</string>
     <string name="trackUploadDescriptionDefault">Καταγράφηκε χρησιμοποιώντας την εφαρμογή Urban Biker για κινητά</string>
-    <string name="menuLicense">Αναβαθμίση</string>
+    <string name="menuLicense">Αναβάθμιση</string>
     <string name="licenseItemAlreadyOwned">Το στοιχείο της άδειας είναι ήδη διαθέσιμο</string>
     <string name="timePeriod_perWeek">ανά εβδομάδα</string>
     <string name="timePeriod_perMonth">ανά μήνα</string>
@@ -1053,8 +1053,8 @@
     <string name="aboutScreenTranslationsTitle">Μεταφράσεις</string>
     <string name="aboutScreenTranslationsText">Βοηθήστε να μεταφράσετε αυτήν την εφαρμογή και να λάβετε μια δωρεάν άδεια! Περισσότερες πληροφορίες:</string>
     <string name="disclaimerTitle">Αποποίηση ευθυνών</string>
-    <string name="disclaimerText1">Η εφαρμογή αυτή παρέχεται ως έχει, και μπορείτε να τη χρησιμοποιήσετε με δική σας ευθύνη. Εμείς, οι εκδότες, δεν θα θεωρούμε υπεύθυνοι για τυχόν ατυχήματα, απώλειες κατοχής, τραυματισμούς ή χειρότερα που αφορούν εσάς ή ένα τρίτο πρόσωπο, που προκύπτουν από τη χρήση της εφαρμογής κατά τη διάρκεια μιας διαδρομής ή σε διαφορετική περίπτωση.</string>
-    <string name="disclaimerText2">Χρησιμοποιήστε αυτή την εφαρμογή με σύνεση και ΜΗΝ την χρησιμοποιείτε κατά την οδήγηση αυτοκινήτου, την οδήγηση μοτοσικλέτας, ποδηλάτου ή οποιουδήποτε άλλου οχήματος.</string>
+    <string name="disclaimerText1">Η εφαρμογή αυτή παρέχεται ως έχει, και μπορείτε να τη χρησιμοποιήσετε με δική σας ευθύνη. Εμείς, οι εκδότες, δεν θα θεωρηθούμε υπεύθυνοι για τυχόν ατυχήματα, απώλειες κατοχής, τραυματισμούς ή χειρότερα που αφορούν εσάς ή ένα τρίτο πρόσωπο, που προκύπτουν από τη χρήση της εφαρμογής κατά τη διάρκεια μιας διαδρομής ή σε διαφορετική περίπτωση.</string>
+    <string name="disclaimerText2">Χρησιμοποιήστε αυτή την εφαρμογή με σύνεση και ΜΗΝ την χρησιμοποιείτε κατά την οδήγηση αυτοκινήτου, μοτοσικλέτας, ποδηλάτου ή οποιουδήποτε άλλου οχήματος.</string>
     <string name="disclaimerText3">Πάντα κρατάτε τα μάτια σας στο δρόμο.</string>
     <string name="licenseDialogMapsTab">Χάρτες</string>
     <string name="ultimateLicenseDescription">Πιο ισχυρή άδεια για την απόλυτη εμπειρία.</string>
