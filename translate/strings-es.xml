@@ -382,7 +382,7 @@
     <string name="pref_category_locationProvider_title">Proveedor de GPS</string>
     <string name="pref_category_altitude_adjustments_title">Altitudes</string>
     <string name="pref_category_temperature_title">Temperatura</string>
-    <string name="pref_category_pressure_title">Presión</string>
+    <string name="pref_category_pressure_title">Sensor de presión incorporado</string>
     <string name="pref_category_sensors_title">Sensores</string>
     <string name="prefAllProfilesInfoSummary">Estas preferencias se aplican a todos los perfiles.</string>
     <string name="pref_app_language_summary">(Todos los perfiles)</string>
@@ -561,7 +561,7 @@
     <string name="pref_haptic_feedback_intensity_title">Intensidad de la vibración</string>
     <string name="pref_soundsMasterSwitch_title">Todos los sonidos</string>
     <string name="prefBarometricAltitudeTitle">Altitud barométrica</string>
-    <string name="prefBarometricAltitudeSummary">Usar el barómetro incorporado para mejorar la precisión de la altitud</string>
+    <string name="prefBarometricAltitudeSummary">Usar el sensor de presión incorporado para mejorar la precisión de la altitud</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Barómetro térmico</string>
     <string name="prefBaroAltitudeUsesTemperatureSummary">Usar los datos del sensor de temperatura para una mejor precisión de la altitud barométrica</string>
     <string name="prefBarometricAltitudeNoteSummary">¡Usar solo en atmósfera abierta! Por favor ¡deshabilítelo mientras esté en vehículos presurizados, cerrados o con aire acondicionado, tales como automóviles o aviones!</string>
@@ -570,7 +570,7 @@
     <string name="prefTemperatureSensorDerivedTypeDialogTitle">Tipo de sensor</string>
     <string name="prefTemperatureSensorDerivedType1Title">Tipo A</string>
     <string name="prefTemperatureSensorDerivedType2Title">Tipo B</string>
-    <string name="prefPressureSensorOffsetTitle">Compensación barométrica</string>
+    <string name="prefPressureSensorOffsetTitle">Compensación de presión</string>
     <string name="prefNotificationAlwaysTitle">Notificación persistente</string>
     <string name="prefNotificationAlwaysSummary">Mostrar siempre el ícono de notificación de la app en la barra de estado del sistema, no solo cuando el seguimiento esté activo.</string>
     <string name="infoMeterModeDistanceTitle">Distancia</string>
@@ -957,7 +957,7 @@
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Todos los perfiles) Elija qué hacer cuando se presiona el botón de capa</string>
     <string name="prefTemperatureSensorDerivedType1Summary">Funciona mejor para Samsung, LG, Sony (regular), Xiaomi, y similares</string>
     <string name="prefTemperatureSensorDerivedType2Summary">Funciona mejor para Motorola, HTC, Sony (compacto), y similares</string>
-    <string name="prefPressureSensorOffsetInfo">Esta constante se agrega a las lecturas del barómetro y se puede usar para mitigar el sesgo del barómetro, si está presente</string>
+    <string name="prefPressureSensorOffsetInfo">Esta constante se agrega a las lecturas de presión y se puede usar para mitigar el sesgo del sensor, si está presente</string>
     <string name="prefMapDiskCacheSizeTitle">Límite de tamaño de caché de mapa</string>
     <string name="prefMapDiskCacheSizeSummary">Al ver un mapa, tanto en línea como sin conexión, las partes se almacenan en caché localmente para reducir la necesidad de descargas o recreaciones repetidas. Esto acelera la carga del mapa y ahorra batería. (Todos los perfiles)</string>
     <string name="prefProhibitLocationTitle">No usar localización</string>
@@ -983,9 +983,9 @@
 \nValores negativos significan ganancia de potencia (descendente).
 \n
 \nCuando está en kcal/h o kJ/h, también tiene en cuenta la eficiencia.</string>
-    <string name="infoMeterModeTemperatureMsg">Temperatura ambiente medida con el dispositivo.</string>
+    <string name="infoMeterModeTemperatureMsg">Temperatura ambiente medida con el dispositivo o mediante sensor externo.</string>
     <string name="infoMeterModePressureTitle">Presión</string>
-    <string name="infoMeterModePressureMsg">Presión ambiental medida con el dispositivo.</string>
+    <string name="infoMeterModePressureMsg">Presión ambiental medida con el dispositivo o mediante sensor externo.</string>
     <string name="infoMeterModeCadenceMsg">Número de revoluciones de las bielas por minuto, es decir, velocidad de pedaleo.</string>
     <string name="infoMeterModeGearRatioTitle">Relación de transmisión</string>
     <string name="infoMeterModeGearRatioMsg">Relación de revoluciones de la rueda frente a giros del pedal por unidad de tiempo, es decir, relación de los tamaños de la catalina y piñón. Mayor número significa mayor velocidad.</string>
@@ -1259,7 +1259,7 @@
     <string name="maptilerMapsFeatures">🔹 Mapas de MapTiler
 \n🔹 Sin publicidad</string>
     <string name="dialogMapsChooseTitle">Seleccione mapa</string>
-    <string name="meterModes_30">Desplazamiento</string>
+    <string name="meterModes_30">Radio</string>
     <string name="sensorProperitesFilterIntervalInfo">Intervalo de filtro, es decir, fuerza del filtro. A valor más grande filtrado mayor, pero también se introducirán más demoras.</string>
     <string name="sensorFilterInterval_0">3 segundos (por defecto)</string>
     <string name="sensorFilterInterval_1">5 segundos</string>
@@ -1268,4 +1268,34 @@
     <string name="sensorFilterInterval_4">15 segundos</string>
     <string name="sensorFilterInterval_5">20 segundos</string>
     <string name="sensorFilterInterval_6">30 segundos</string>
+    <string name="dialogChartDataTypesTitle">Tipos de gráfica</string>
+    <string name="dialogLoginUsernameHint">Nombre de usuario</string>
+    <string name="dialogLoginPasswordHint">Contraseña</string>
+    <string name="dialogCloudAccountDisconnectMessage">¿Desconectar esta cuenta\?</string>
+    <string name="meterModeHumidity">humedad</string>
+    <string name="meterModeHumidityShort">hum</string>
+    <string name="meterModeRadius">radio</string>
+    <string name="meterModeRadiusShort">rad</string>
+    <string name="veloHeroConnectButton">Conectar con Velo Hero</string>
+    <string name="chartsTitle">Gráficas</string>
+    <string name="tracksHistoryChartEmptyInfo">Nada que mostrar</string>
+    <string name="sensorPurposePressure">Presión</string>
+    <string name="sensorPurposeTemperature">Temperatura</string>
+    <string name="sensorPurposeHumidity">Humedad</string>
+    <string name="sensorProperitesUseForPressure">Usar para presión</string>
+    <string name="sensorProperitesUseForTemperature">Usar para temperatura</string>
+    <string name="sensorProperitesUseForHumidity">Usar para humedad</string>
+    <string name="pref_category_tracking_charts_title">Gráficas</string>
+    <string name="pref_soundeffects_tally_radius_title">radio</string>
+    <string name="pref_soundeffects_tally_radius_dialog_title">Contador de radio</string>
+    <string name="pref_track_charts_title">Tipos de gráfico…</string>
+    <string name="pref_track_charts_summary">Elija varios parámetros de actividad para guardarse como gráficas junto a cada recorrido. Los datos de velocidad y altitud siempre son guardados.</string>
+    <string name="infoMeterModeHumidityTitle">Humedad</string>
+    <string name="infoMeterModeHumidityMsg">Humedad relativa ambiental medida con el dispositivo o mediante sensor externo.</string>
+    <string name="infoMeterModeRadiusTitle">Radio</string>
+    <string name="infoMeterModeRadiusMsg">Distancia en línea recta desde la posición inicial del recorrido, es decir, el desplazamiento.</string>
+    <string name="meterModes_None">Ninguno</string>
+    <string name="meterModes_31">Humedad</string>
+    <string name="speechRadius">Radio: %1$s</string>
+    <string name="buttonLater">Más tarde</string>
 </resources>
