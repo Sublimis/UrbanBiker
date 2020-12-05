@@ -679,7 +679,7 @@
     <string name="pref_category_locationProvider_title">Provedor de GPS</string>
     <string name="pref_category_altitude_adjustments_title">Altitudes</string>
     <string name="pref_category_temperature_title">Temperatura</string>
-    <string name="pref_category_pressure_title">Presión</string>
+    <string name="pref_category_pressure_title">Sensor de presión incorporado</string>
     <string name="pref_category_sensors_title">Sensores</string>
     <string name="pref_category_cloudAccounts_title">Contas</string>
     <string name="pref_category_mapsQuickZoom">Zoom rápido</string>
@@ -835,7 +835,7 @@
     <string name="pref_maps_quickZoomInvert_title">Investido</string>
     <string name="pref_maps_quickZoomInvert_summary">Intercambie as posicións do botón para achegar/afastar</string>
     <string name="pref_maps_offline_terrain_title">Debuxar terreo</string>
-    <string name="pref_maps_offline_terrain_summary">"(Todos os perfís) Debuxar as sombras de elevación do terreo.  O mapa verase máis realista, pero probablemente sexa máis lento. Require de arquivos DEM (.hgt) presentes no cartafol do mapa."</string>
+    <string name="pref_maps_offline_terrain_summary">(Todos os perfís) Debuxar as sombras de elevación do terreo. O mapa verase máis realista, pero probablemente sexa máis lento. Require de arquivos DEM (.hgt) presentes no cartafol do mapa.</string>
     <string name="pref_maps_offline_terrain_info_title">Descargar agora</string>
     <string name="pref_maps_offline_terrain_info_summary">Abra a páxina de descarga en viewfinderpanoramas.org.</string>
     <string name="pref_maps_offline_terrain_usage_summary">Uso: Extraia os arquivos .hgt dos zip descargados e colóqueos no mesmo cartafol onde reside o arquivo de mapa sen conexión (non use un sub-cartafol separado).</string>
@@ -905,7 +905,7 @@
     <string name="pref_speechCountdown_title">Conta atrás</string>
     <string name="pref_speechCountdown_summary">Dicir unha conta atrás</string>
     <string name="prefBarometricAltitudeTitle">Altitude barométrica</string>
-    <string name="prefBarometricAltitudeSummary">Usar o barómetro incorporado para mellorar a precisión da altitude</string>
+    <string name="prefBarometricAltitudeSummary">Usar o sensor de presión incorporado para mellorar a precisión da altitude</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Barómetro térmico</string>
     <string name="prefBaroAltitudeUsesTemperatureSummary">Usar os datos do sensor de temperatura para unha mellor precisión da altitude barométrica</string>
     <string name="prefBarometricAltitudeNoteSummary">¡Usar só en atmosfera aberta! Por favor ¡deshabilítelo mentres estea en vehículos presurizados, pechados ou con aire acondicionado, tales como automóbiles ou avións!</string>
@@ -916,8 +916,8 @@
     <string name="prefTemperatureSensorDerivedType1Summary">Funciona mellor para Samsung, LG, Sony (regular), Xiaomi, e similares</string>
     <string name="prefTemperatureSensorDerivedType2Title">Tipo B</string>
     <string name="prefTemperatureSensorDerivedType2Summary">Funciona mellor para Motorola, HTC, Sony (compacto), e similares</string>
-    <string name="prefPressureSensorOffsetTitle">Compensación barométrica</string>
-    <string name="prefPressureSensorOffsetInfo">Esta constante engándese ás lecturas do barómetro e pódese usar para mitigar o sesgo do barómetro, se está presente</string>
+    <string name="prefPressureSensorOffsetTitle">Compensación de presión</string>
+    <string name="prefPressureSensorOffsetInfo">Esta constante agrégase ás lecturas de presión e pódese usar para mitigar os erros do sensor, si está presente.</string>
     <string name="prefNotificationAlwaysTitle">Notificación persistente</string>
     <string name="prefNotificationAlwaysSummary">Mostrar sempre a ícona de notificacións da app na barra de estado do sistema, non só cando o seguimento estea activo.</string>
     <string name="prefMapDiskCacheSizeTitle">Límite de tamaño da caché do mapa</string>
@@ -976,9 +976,9 @@
 \n
 \nCando está en kcal/h ou kJ/h, tamén ten en conta a eficiencia.</string>
     <string name="infoMeterModeTemperatureTitle">Temperatura</string>
-    <string name="infoMeterModeTemperatureMsg">Temperatura ambiente medida co dispositivo.</string>
+    <string name="infoMeterModeTemperatureMsg">Temperatura ambiente medida co dispositivo ou mediante sensor externo.</string>
     <string name="infoMeterModePressureTitle">Presión</string>
-    <string name="infoMeterModePressureMsg">Presión ambiental medida co dispositivo.</string>
+    <string name="infoMeterModePressureMsg">Presión ambiental medida co dispositivo ou mediante sensor externo.</string>
     <string name="infoMeterModeClockTitle">Reloxo</string>
     <string name="infoMeterModeClockMsg">Hora actual do día.</string>
     <string name="infoMeterModeCadenceTitle">Cadencia</string>
@@ -1225,7 +1225,7 @@
 \nA estimación depende en gran parte do tipo e duración da actividade.</string>
     <string name="infoDigitalFilterNotice">Ten en conta: que isto pode demorarse en tempo real aproximadamente un minuto, debido aos atrasos inevitables do filtrado dixital.</string>
     <string name="meterModes_29">Limiar de potencia funcional (FTP)</string>
-    <string name="meterModes_30">Desprazamento</string>
+    <string name="meterModes_30">Radio</string>
     <string name="sensorFilterInterval_0">3 segundos (por defecto)</string>
     <string name="sensorFilterInterval_1">5 segundos</string>
     <string name="sensorFilterInterval_2">7 segundos</string>
@@ -1233,4 +1233,34 @@
     <string name="sensorFilterInterval_4">15 segundos</string>
     <string name="sensorFilterInterval_5">20 segundos</string>
     <string name="sensorFilterInterval_6">30 segundos</string>
+    <string name="dialogChartDataTypesTitle">Tipos de gráfica</string>
+    <string name="dialogLoginUsernameHint">Nome de usuario</string>
+    <string name="dialogLoginPasswordHint">Contrasinal</string>
+    <string name="dialogCloudAccountDisconnectMessage">¿Desconectarse desta conta\?</string>
+    <string name="meterModeHumidity">humidade</string>
+    <string name="meterModeHumidityShort">hum</string>
+    <string name="meterModeRadius">radio</string>
+    <string name="meterModeRadiusShort">rad</string>
+    <string name="veloHeroConnectButton">Conectar con Veo Hero</string>
+    <string name="chartsTitle">Gráficas</string>
+    <string name="tracksHistoryChartEmptyInfo">Nada que mostrar</string>
+    <string name="sensorPurposePressure">Presión</string>
+    <string name="sensorPurposeTemperature">Temperatura</string>
+    <string name="sensorPurposeHumidity">Humidade</string>
+    <string name="sensorProperitesUseForPressure">Usar para presión</string>
+    <string name="sensorProperitesUseForTemperature">Usar para temperatura</string>
+    <string name="sensorProperitesUseForHumidity">Usar para humidade</string>
+    <string name="pref_category_tracking_charts_title">Gráficas</string>
+    <string name="pref_soundeffects_tally_radius_title">Radio</string>
+    <string name="pref_soundeffects_tally_radius_dialog_title">Contador de radio</string>
+    <string name="pref_track_charts_title">Tipos de gráfica…</string>
+    <string name="pref_track_charts_summary">Elixa varios parámetros de actividade para gardarse como gráficas xunto a cada percorrido. Os datos de velocidade e altitude sempre son gardados.</string>
+    <string name="infoMeterModeHumidityTitle">Humidade</string>
+    <string name="infoMeterModeHumidityMsg">Humidade relativa ambiental medida co dispositivo ou mediante sensor externo.</string>
+    <string name="infoMeterModeRadiusTitle">Radio</string>
+    <string name="infoMeterModeRadiusMsg">Distancia en liña recta desde a posición inicial do percorrido, é dicir, o desprazamento.</string>
+    <string name="meterModes_None">Ningunho</string>
+    <string name="meterModes_31">Humidade</string>
+    <string name="speechRadius">Radio: %1$s</string>
+    <string name="buttonLater">Mais tarde</string>
 </resources>
