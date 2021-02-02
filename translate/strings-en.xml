@@ -262,6 +262,8 @@
     <string name="dialogBaroAltitudeNoticeMessage">Barometric Altitude works only outdoors.\n\nPlease do not use it in closed or air-conditioned spaces like some vehicles and airplanes.</string>
     <string name="dialogThermoBarometerNoticeTitle">Notice</string>
     <string name="dialogThermoBarometerNoticeMessage">Thermo Barometer depends on outdoor air temperature for accuracy.\n\nPlease do not use it in closed or air-conditioned spaces like some vehicles and airplanes.</string>
+<!--    <string name="dialogBatteryFreezingNoticeTitle">Freezing temperature</string>-->
+<!--    <string name="dialogBatteryFreezingNoticeMessage">Battery is freezing! This can drastically reduce battery capacity. Please place the phone closer to your body if possible, e.g. to an inside pocket.</string>-->
     <string name="dialogResetTitle">Finish</string>
     <string name="dialogResetMessage">Save this track and prepare for a new one?</string>
     <string name="dialogResetNoTrackMessage">No track was recorded. Reset the meters now?</string>
@@ -642,6 +644,7 @@
     <string name="sensorProperitesUseForSpeed">Use for speed</string>
     <string name="sensorProperitesUseForCadence">Use for cadence</string>
     <string name="sensorProperitesUseForDistance">Use for distance and duration</string>
+    <string name="sensorProperitesUseForDuration">Use for duration</string>
     <string name="sensorProperitesUseForPower">Use for power</string>
     <string name="sensorProperitesUseForHeartRate">Use for heart rate</string>
     <string name="sensorProperitesUseForSteps">Use for step count and cadence</string>
@@ -1029,11 +1032,6 @@
     <string name="prefBarometricAltitudeNoteSummary">Use these only in the open atmosphere! Please disable while in pressurized, closed or air-conditioned vehicles like cars or airplanes!</string>
     <string name="prefTemperatureSensorDerivedTitle">Use derived sensor</string>
     <string name="prefTemperatureSensorDerivedSummary">This device lacks ambient temperature sensor, but it can be derived using other sensors. Please read more in Help.</string>
-    <string name="prefTemperatureSensorDerivedTypeDialogTitle">Sensor type</string>
-    <string name="prefTemperatureSensorDerivedType1Title">Type A</string>
-    <string name="prefTemperatureSensorDerivedType1Summary">Works best for Samsung, LG, Sony (regular), Xiaomi, and the like</string>
-    <string name="prefTemperatureSensorDerivedType2Title">Type B</string>
-    <string name="prefTemperatureSensorDerivedType2Summary">Works best for Motorola, HTC, Sony (compact), and the like</string>
     <string name="prefPressureSensorOffsetTitle">Pressure offset</string>
     <string name="prefPressureSensorOffsetInfo">This constant is added to pressure readouts and can be used to mitigate sensor bias, if present.</string>
     <string name="prefNotificationAlwaysTitle">Persistent notification</string>
@@ -1312,14 +1310,6 @@
     <string name="mapLayerTypes_0" translatable="false">@string/mapLayerStreet</string>
     <string name="mapLayerTypes_1" translatable="false">@string/mapLayerTerrain</string>
     <string name="mapLayerTypes_2" translatable="false">@string/mapLayerSatellite</string>
-
-    <!-- derivedTemperatureSensorTypes -->
-    <string name="derivedTemperatureSensorTypes_0" translatable="false">@string/prefTemperatureSensorDerivedType1Title</string>
-    <string name="derivedTemperatureSensorTypes_1" translatable="false">@string/prefTemperatureSensorDerivedType2Title</string>
-
-    <!-- derivedTemperatureSensorTypesInfo -->
-    <string name="derivedTemperatureSensorTypesInfo_0" translatable="false">@string/prefTemperatureSensorDerivedType1Summary</string>
-    <string name="derivedTemperatureSensorTypesInfo_1" translatable="false">@string/prefTemperatureSensorDerivedType2Summary</string>
 
     <!-- prefMapOfflineLayerButtonActionEntries -->
     <string name="prefMapOfflineLayerButtonActionEntries_0">Switch theme</string>
