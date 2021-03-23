@@ -28,8 +28,8 @@
     <string name="menuTracksHistoryResume">Obnoviť</string>
     <string name="menuMeterLock">Zamknúť</string>
     <string name="menuMeterLockAll">Zamknúť všetko</string>
-    <string name="menuMeterMode">Funkcia...</string>
-    <string name="menuMeterChooseModes">Vybrať funkcie...</string>
+    <string name="menuMeterMode">Funkcia…</string>
+    <string name="menuMeterChooseModes">Vybrať funkcie…</string>
     <string name="menuMeterNewTrack">Nová trasa</string>
     <string name="menuMeterResetMinMax">Vynulovať min./max.</string>
     <string name="menuMeterReset">Ukončiť</string>
@@ -102,7 +102,7 @@
     <string name="toastProfileButtonClickInfo">Prepnúť profil podržaním tlačidla</string>
     <string name="toastContrastButtonClickInfo">Je aktívna automatická kombinácia</string>
     <string name="toastFlashlightButtonClickInfo">Zapnúť svetlo podržaním tlačidla</string>
-    <string name="toastRoarButtonClickInfo">Zapnúť vrčanie podržaním tlačidla</string>
+    <string name="toastRoarButtonClickInfo">Zapnúť zvuk AVAS podržaním tlačidla</string>
     <string name="toastMapButtonClickInfo">Prepnúť na mapu podržaním tlačidla</string>
     <string name="toastMapFollowingOn">Sledovanie zapnuté</string>
     <string name="toastMapFollowingAutorotate">Autorotácia zapnutá</string>
@@ -132,7 +132,7 @@
     <string name="dialog_default_color_text">Nastavenie uplatní predvolené farby. Pokračovať\?</string>
     <string name="dialog_defaultConfirmation">Naozaj\?</string>
     <string name="dialog_volume_bell_text">Zvonček</string>
-    <string name="dialog_volume_roaring_text">Vrčanie</string>
+    <string name="dialog_volume_roaring_text">AVAS</string>
     <string name="dialog_volume_effects_text">Efekty</string>
     <string name="dialog_volume_tallies_text">Hlásenia</string>
     <string name="dialog_volume_alarms_text">Upozornenia</string>
@@ -204,7 +204,7 @@
     <string name="dialogScreenOrientationAuto">Automatické otáčanie</string>
     <string name="dialogScreenOrientationPortrait">Zvislo</string>
     <string name="dialogScreenOrientationLandscape">Vodorovne</string>
-    <string name="dialogScreenBrightnessOverride">Nastaviť osvetlenie</string>
+    <string name="dialogScreenBrightnessOverride">Osvetlenie</string>
     <string name="dialogScreenAutoTheme">Aut. kombinácia</string>
     <string name="dialogMapsOffline">Offline-mapy</string>
     <string name="dialogMapsLayerTraffic">Cestná premávka</string>
@@ -248,7 +248,7 @@
     <string name="dialogTrackUploadPlatform">Online služba</string>
     <string name="dialogTrackUploadStravaIsCommute">Dochádzanie</string>
     <string name="dialogGpsIntervalTitle">Interval aktualizácie GPS</string>
-    <string name="dialogGpsIntervalNote">Poznámka: Pre získavanie čo najpresnejších údajov je potrebné zachovať frekvenciu do 3 sekúnd.</string>
+    <string name="dialogGpsIntervalNote">Pre získavanie čo najpresnejších údajov je potrebné zachovať frekvenciu do 3 sekúnd.</string>
     <string name="dialogGpsIntervalLabelMore">
         ◀
 \nVäčšia presnosť a menšia výdrž batérie</string>
@@ -383,7 +383,7 @@
     <string name="meterTextAvg">priem.</string>
     <string name="meterTextTotal">tot</string>
     <string name="controlPanelSoundAutoBell">Automatický zvonček</string>
-    <string name="controlPanelSoundRoar">Vrčanie</string>
+    <string name="controlPanelSoundRoar">AVAS</string>
     <string name="controlPanelSoundEffects">Efekty</string>
     <string name="controlPanelSoundAlarms">Upozornenia</string>
     <string name="controlPanelSoundTallies">Hlásenia</string>
@@ -458,8 +458,8 @@
     <string name="sensorPurposePower">Výkon</string>
     <string name="sensorPurposeHeartRate">Srdcový tep</string>
     <string name="sensorProperitesProfileInfo">Vlastnosti snímača sa nastavujú pre každý profil zvlášť. Tie aktuálne platia len pre práve aktívny profil (%1$s).</string>
-    <string name="sensorProperitesUseForSpeed">Pre rýchlosť</string>
-    <string name="sensorProperitesUseForCadence">Pre kadenciu</string>
+    <string name="sensorProperitesUseForSpeed">Používať pre rýchlosť</string>
+    <string name="sensorProperitesUseForCadence">Používať pre kadenciu</string>
     <string name="sensorProperitesUseForDistance">Používať pre vzdialenosť a trvanie</string>
     <string name="sensorProperitesIsInverted">Pre rýchlosť alebo kadenciu</string>
     <string name="sensorProperitesIsInvertedInfo">Používať snímač kadencie na meranie rychlosti alebo naopak.</string>
@@ -502,7 +502,7 @@
     <string name="pref_category_tracking_title">Trasovanie</string>
     <string name="pref_category_tracking_gps_title">Trasovanie / GPS</string>
     <string name="pref_category_bell_title">Zvonček</string>
-    <string name="pref_category_roaring_title">Vrčanie</string>
+    <string name="pref_category_roaring_title">AVAS</string>
     <string name="pref_category_roaringConstantMode_title">Konštantný mód</string>
     <string name="pref_category_effects_title">Efekty</string>
     <string name="pref_category_alarms_title">Upozornenia</string>
@@ -539,7 +539,7 @@
     <string name="pref_category_locationProvider_title">Poskytovateľ GPS</string>
     <string name="pref_category_altitude_adjustments_title">Nadmorská výška</string>
     <string name="pref_category_temperature_title">Teplota</string>
-    <string name="pref_category_pressure_title">Tlak vzduchu</string>
+    <string name="pref_category_pressure_title">Vstavaný snímač tlaku</string>
     <string name="pref_category_sensors_title">Snímače</string>
     <string name="pref_category_cloudAccounts_title">Účty</string>
     <string name="pref_category_mapsQuickZoom">Rýchly zoom</string>
@@ -579,10 +579,8 @@
     <string name="pref_bell_shake_summary">Zvonenie potrasením zariadenia</string>
     <string name="pref_bell_shake_sensitivity_title">Citlivosť zatrasenia</string>
     <string name="pref_roaring_type_title">Typ</string>
-    <string name="pref_roaring_type_dialog_title">Typ vrčania</string>
-    <string name="pref_volume_summary_text">Zvonček: %1$s, Vrčanie: %2$s
-\nHlásenia: %3$s, Efekty: %4$s, Upozornenia: %5$s
-    </string>
+    <string name="pref_roaring_type_dialog_title">Druh AVAS</string>
+    <string name="pref_volume_summary_text">Zvonček: %1$s, AVAS: %2$s, Hlásenia: %3$s, Efekty: %4$s, Upozornenia: %5$s, Hlas: %6$s</string>
     <string name="pref_bg_color_title">Farba pozadia</string>
     <string name="pref_bg_color_summary">Vybrať požadovanú farbu pozadia</string>
     <string name="pref_fg_color_title">Farba znakov</string>
@@ -604,8 +602,8 @@
     <string name="pref_obey_audio_focus_disable_summary">Prehrávať zvuky bez prerušenia, aj keď do behu aplikácie zasiahne upozornenie inej aplikácie</string>
     <string name="pref_audio_force_loudspeaker_title">Vynútiť reproduktor</string>
     <string name="pref_audio_force_loudspeaker_summary">Upozornenie: Experimentálna funkcia, nemusí pracovať správne! Možno skúsiť výstup zvukov, okrem volaní, cez reproduktor pri zapojených slúchadlách.</string>
-    <string name="pref_duck_roaring_on_bell_title">Stlmiť vrčanie</string>
-    <string name="pref_duck_roaring_on_bell_summary">Znížiť hlasitosť vrčania pri zvonení</string>
+    <string name="pref_duck_roaring_on_bell_title">Káčer AVAS ako zvonček</string>
+    <string name="pref_duck_roaring_on_bell_summary">Znížiť hlasitosť zvukov AVAS pri zvonení</string>
     <string name="pref_relaunchAfterReboot_title">Spustiť po reštartovaní</string>
     <string name="pref_relaunchAfterReboot_summary">(Všetky profily) Obnoviť trasovanie po vynútenom reštarte aplikácie, ak zostáva 10% a viac kapacity batérie</string>
     <string name="pref_resetPrompt_title">Vynútiť vynulovanie</string>
@@ -616,15 +614,15 @@
     <string name="pref_passive_gps_button_summary">Umožniť voľbu pasívneho GPS-režimu vrámci tlačidla GPS</string>
     <string name="pref_digital_font_title">Digitálne písmo</string>
     <string name="pref_digital_font_summary">(Všetky profily) Používať klasické digitálne prevedenie cyklopočítača</string>
-    <string name="pref_roaring_state_title">Zvuk vrčania</string>
-    <string name="pref_roaring_state_summary">Prehrávať výstražné zvuky počas pohybu</string>
+    <string name="pref_roaring_state_title">AVAS</string>
+    <string name="pref_roaring_state_summary">Prehrávať výstražné zvuky počas pohybu (AVAS - Acoustic Vehicle Alerting System)</string>
     <string name="pref_roaring_mode_title">Spôsob</string>
-    <string name="pref_roaring_mode_dialog_title">Spôsob vrčania</string>
+    <string name="pref_roaring_mode_dialog_title">Spôsob AVAS</string>
     <string name="pref_roaring_constant_mode_title">Konštantný mód</string>
-    <string name="pref_roaring_constant_mode_summary">Prehrávať sprievodné zvuky neustále, bez ohľadu na stav GPS</string>
+    <string name="pref_roaring_constant_mode_summary">Prehrávať sprievodné zvuky AVAS neustále, bez ohľadu na pohyb a stav GPS</string>
     <string name="pref_roar_threshold_speed_title">Prahová rýchlosť</string>
     <string name="pref_roarConstantModeButton_title">Prepínač</string>
-    <string name="pref_roarConstantModeButton_summary">Prepínať na konštantný mód jednoduchým ťuknutím</string>
+    <string name="pref_roarConstantModeButton_summary">Prepínať na konštantný mód jednoduchým ťuknutím, ak je aktívny AVAS</string>
     <string name="pref_fenceguard_title">FenceGuard</string>
     <string name="pref_fenceguard_summary">Skrývať domácu polohu alebo polohu dôležitých miest</string>
     <string name="pref_autopause_mode_dialog_title">Automatické pozastavenie</string>
@@ -671,7 +669,7 @@
     </string>
     <string name="pref_maps_offline_file_noFolderSelected">Nie je zvolený žiadny priečinok.</string>
     <string name="pref_maps_offline_info_title">Stiahnuť</string>
-    <string name="pref_maps_offline_info_summary">Podporované formáty vektorových (.map) a rastrových (.sqlitedb) máp si možno stiahnuť na download.mapsforge.org alebo vytvoriť pomocou programu Mobac (mobac.sourceforge.net)</string>
+    <string name="pref_maps_offline_info_summary">Podporované formáty vektorových (.map) a rastrových (.sqlitedb) máp si možno stiahnuť na download.mapsforge.org alebo vytvoriť pomocou programu Mobac (mobac.sourceforge.net).</string>
     <string name="pref_maps_offline_warning_summary">Upozornenie: Môžu sa načítavať online-dáta pri zapnutom mobilnom internete.</string>
     <string name="pref_maps_routes_draw_title">Zadané trasy</string>
     <string name="pref_maps_routes_info_title">Poznámka!</string>
@@ -686,7 +684,7 @@
     <string name="pref_maps_offline_terrain_title">Vyobrazovať terén</string>
     <string name="pref_maps_offline_terrain_summary">(Všetky profily) Zobrazovať vrstevnice na mape prostredníctvom súborov DEM (.hgt)</string>
     <string name="pref_maps_offline_terrain_info_title">Stiahnuť súbory...</string>
-    <string name="pref_maps_offline_terrain_info_summary">viewfinderpanoramas.org</string>
+    <string name="pref_maps_offline_terrain_info_summary">Prejsť na viewfinderpanoramas.org</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Tlačidlo vrstiev</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Všetky profily) Definovanie funkcie tlačidla vrstiev pri zobrazovaní mapy</string>
     <string name="pref_button_autoring_enable_title">Prepínač aut. zvonenia</string>
@@ -970,16 +968,21 @@
     <string name="prefAdModes_1">Google</string>
     <string name="prefAdModes_2">AppBrain</string>
     <string name="prefAdModes_3">Žiadna</string>
-    <string name="toastMapClickInfo">Podržať tlačidlo pre prístup k nastaveniam</string>
+    <string name="toastMapClickInfo">Podržať tlačidlo pre prístup k mapám</string>
     <string name="dialog_default_map_track_colors_title">Farby trasy</string>
     <string name="licenseDialogMapsTab">Mapy</string>
     <string name="ultimateLicenseDescription">Plná verzia so všetkými dostupnými funkciami.</string>
-    <string name="ultimateLicenseFeatures">✔ žiadna reklama ✔ všetky mapy ✔ všetky funkcie</string>
-    <string name="proPlusLicenseFeatures">✔ žiadna reklama ✔ všetky funkcie</string>
-    <string name="proLicenseFeatures">✔ žiadna reklama</string>
-    <string name="thunderforestMapsFeatures">✔ žiadna reklama ✔ mapy Thunderforest</string>
-    <string name="mapboxMapsFeatures">✔ žiadna reklama ✔ mapy Mapbox</string>
-    <string name="priceFree">zadarmo</string>
+    <string name="ultimateLicenseFeatures">🔹 Všetky mapy
+\n🔹 Všetky funkcie
+\n🔹 Žiadna reklama</string>
+    <string name="proPlusLicenseFeatures">🔹 Žiadna reklama
+\n🔹 Príspevok</string>
+    <string name="proLicenseFeatures">🔹 Žiadna reklama</string>
+    <string name="thunderforestMapsFeatures">🔹 Mapy Thunderforest
+\n🔹 Žiadna reklama</string>
+    <string name="mapboxMapsFeatures">🔹 Mapy Mapbox
+\n🔹 Žiadna reklama</string>
+    <string name="priceFree">ZADARMO</string>
     <string name="rewardedAdLoading">Načítava sa reklama…</string>
     <string name="rewardedLicenseSuccess">Licencia bola pridelená</string>
     <string name="na">N/A</string>
@@ -995,7 +998,7 @@
     <string name="unitJoulePerLb">J/lb</string>
     <string name="meterModeKineticEnergy">kinetická energia</string>
     <string name="meterModeKineticEnergyShort">kin en</string>
-    <string name="mapMarkerStart"/>
+    <string name="mapMarkerStart">Začiatok</string>
     <string name="speechUnitOneMile">Míľa</string>
     <string name="speechUnitTwoMiles"/>
     <string name="speechUnitManyMiles"/>
@@ -1009,4 +1012,150 @@
     <string name="speechTrackingGpsWeak">Žiadne GPS</string>
     <string name="dialogTrackEditNotesHint">Poznámky</string>
     <string name="summaryProfileName">Profil</string>
+    <string name="dialogLocationPermissionRequestForBt">Pre vyhľadávanie zariadení Bluetooth sa vyžaduje povolenie na získavanie polohy.
+\n
+\nPri neudelení povolenia nie je možné vyhľadávanie.</string>
+    <string name="summarySpecific">Osobitne</string>
+    <string name="sensorProperitesUseForPower">Používať pre výkon</string>
+    <string name="sensorProperitesUseForHeartRate">Používať pre srdcový tep</string>
+    <string name="sensorProperitesStrideLen">Dĺžka kroku</string>
+    <string name="sensorProperitesIsAutoStrideLen">Automaticky</string>
+    <string name="sensorProperitesIsAutoStrideLenInfo">Atomatické meranie dĺžky kroku pri behu alebo chôdzi.</string>
+    <string name="sensorProperitesStrideLenNotSet">Nenastavené</string>
+    <string name="sensorProperitesTriggersCountInfo">Počet spúšťačov (napr. magnetov) používaných snímačom. Snímače bez vonkajších spúšťačov zvyčajne používajú vlastný vnútorný spúšťač.</string>
+    <string name="pref_category_map_colors_title">Farby mapy</string>
+    <string name="pref_roar_threshold_speed_info">AVAS sa aktivuje len pri prekročení hraničnej rýchlosti.</string>
+    <string name="pref_background_pattern_dialog_title">Vzor pozadia Menu</string>
+    <string name="pref_maps_routes_draw_summary">Zobrazovať na mape vybraté trasy GPX</string>
+    <string name="rewardedAdDescription">Treba prejsť cez reklamu</string>
+    <string name="pref_screenWaveOnOffMode_title">Mód mávnutia</string>
+    <string name="pref_screenWaveOnOffMode_summary">Zamknúť dvojitým mávnutím a odomknúť ďalším.</string>
+    <string name="pref_soundeffects_screenOff_title">Ztmaviť/Vypnúť obrazovku</string>
+    <string name="pref_soundeffects_screenOff_summary">Zvuk a vibrácia pri stmavení alebo vypnutí obrazovky</string>
+    <string name="pref_soundeffects_proximity_title">Snímač priblíženia</string>
+    <string name="pref_soundeffects_proximity_summary">Zvuk kliknutia pri reakcii snímača priblíženia</string>
+    <string name="unitMetersAboveGroundLevel">m nad m.</string>
+    <string name="unitFeetsAboveGroundLevel">st. nad m.</string>
+    <string name="sensorsInfo">Snímače sú aktivované automaticky pri nahrávaní.
+\n
+\nNie je možné zapojiť snímač do činnosti nezávisle.</string>
+    <string name="sensorWheelCircNotSetWarning">Obvod kolesa nebol nastavený</string>
+    <string name="mapMarkerFinish">Koniec</string>
+    <string name="pref_category_speech_title">Hlas</string>
+    <string name="pref_soundeffects_tally_clock_title">Hodiny</string>
+    <string name="pref_soundeffects_tally_clock_dialog_title">Hlásenie hodín</string>
+    <string name="dialogTrackEditTitleHint">Názov</string>
+    <string name="summaryDeviceName">Zariadenie</string>
+    <string name="pref_soundeffects_tally_altitude_title">Nadmorská výška</string>
+    <string name="pref_soundeffects_tally_altitude_dialog_title">Hlásenie nadmorskej výšky</string>
+    <string name="pref_maps_offline_usage_summary">Zvoliť uložený súbor mapy.</string>
+    <string name="subscriptionPerMonth">%1$s /mesiac</string>
+    <string name="subscriptionPer1y">%1$s účtované raz za 12 mesiacov</string>
+    <string name="subscriptionPer6m">%1$s účtované raz za 6 mesiacov</string>
+    <string name="subscriptionPer3m">%1$s účtované raz za 3 mesiace</string>
+    <string name="subscriptionPer1m">%1$s účtované raz za mesiac</string>
+    <string name="subscriptionPer1w">%1$s účtované raz za týždeň</string>
+    <string name="paymentOnce">Jednorazová platba</string>
+    <string name="manageSubscriptions">Spravovať registrácie</string>
+    <string name="loading">Načítava sa…</string>
+    <string name="rewardedAdPriceFree">ZADARMO (platné pre toto prihlásenie)</string>
+    <string name="cautionTitle">Upozornenie</string>
+    <string name="dialogActivityRecognitionPermissionRequestTitle">Povolenie sledovať fyzickú aktivitu</string>
+    <string name="dialogActivityRecognitionPermissionRequest">Používanie vstavaných snímačov vyžaduje udelenie povolenia.</string>
+    <string name="unitSteps">kroky</string>
+    <string name="meterModeStepCadence">kadencia krokov</string>
+    <string name="meterModeStepCadenceShort">kad. krok.</string>
+    <string name="meterModeStepCount">kroky</string>
+    <string name="meterModeStepCountShort">kroky</string>
+    <string name="controlPanelLocationButton">Poloha</string>
+    <string name="tracksHistoryListNoMap">Mapa nebola nahratá.</string>
+    <string name="sensorStepLengthNotSetWarning">Dĺžka kroku nebola nastavená</string>
+    <string name="sensorPurposeSteps">Kroky</string>
+    <string name="sensorStepDetectorName">Snímač krokov</string>
+    <string name="sensorProperitesUseForSteps">Používať pre počítanie krokov a kadenciu</string>
+    <string name="sensorProperitesEnableFiltering">Filtrovanie dát</string>
+    <string name="sensorProperitesEnableFilteringInfo">Dodatočné filtrovanie snímaných dát pre vyladenie presnosti, spôsobujúce niekoľkosekundové omeškanie. Predvolene nepovolené.</string>
+    <string name="pref_soundeffects_tally_steps_title">Kroky</string>
+    <string name="pref_soundeffects_tally_steps_dialog_title">Hlásenie krokov</string>
+    <string name="menuExpand">Otvoriť</string>
+    <string name="menuCollapse">Zavrieť</string>
+    <string name="dialogMapsWeatherRadar">Predpoveď zrážok</string>
+    <string name="dialogOpenRainviewerText">Prejsť na stránku www.rainviewer.com\?</string>
+    <string name="pref_category_maps_weather_title">Počasie</string>
+    <string name="dialogScreenOrientationReversePortrait">Zvislo (obrátenie)</string>
+    <string name="dialogScreenOrientationReverseLandscape">Vodorovne (obrátenie)</string>
+    <string name="controlPanelScreenOrientation">Zobrazenie</string>
+    <string name="menuMeterStart">Štart</string>
+    <string name="menuMeterStop">Stop</string>
+    <string name="dialogScreenshotTitle">Snímok obrazovky</string>
+    <string name="dialogGoogleMapTermsViolation">Google nepodporuje snímanie vlastných máp.
+\n
+\nZmeniť mapu\?</string>
+    <string name="dialogWaitTitle">Prosím, počkať...</string>
+    <string name="dialogScreenshotPreparing">Pripravuje sa snímok…</string>
+    <string name="mapMarkerMyLocation">Moja poloha</string>
+    <string name="dialogMapsAutoZoom">Auto zoom</string>
+    <string name="controlPanelUnitsButtonTitle">Jednotky</string>
+    <string name="controlPanelUnitsButtonSubtitle">Zmeniť jednotky</string>
+    <string name="controlPanelSensorsButtonTitle">Snímače</string>
+    <string name="controlPanelSensorsButtonSubtitle">Spravovať snímače</string>
+    <string name="pref_text_automatic">Automaticky</string>
+    <string name="sensorProperitesActivityRecognition">Rozpoznávanie fyzickej aktivity</string>
+    <string name="sensorProperitesActivityRecognitionInfo">Snímač poskytuje údaje len o fyzickej aktivite kompatibilnej s jeho účelom. Vyžaduje sa Google Play services.</string>
+    <string name="meterModeFTPower">Výkon stôp</string>
+    <string name="meterModeFTPowerShort">Stopy</string>
+    <string name="summaryProfileNameInfo">Profil použitý pre nahratie trasy.</string>
+    <string name="summaryDeviceNameInfo">Zariadenie použité pre nahratie trasy.</string>
+    <string name="summaryTotalWeightInfo">Súčet všetkých záťaží použitých pri nahravaní trasy (jazdec, vozidlo, náklad,...).</string>
+    <string name="summaryWheelsWeightInfo">Súčet všetkých záťaží kolies vozidla použitom na tejto trase.</string>
+    <string name="summaryEfficiencyInfo">Celková teplotná účinnosť podľa výkonu na trase.</string>
+    <string name="summaryDragAreaInfo">Súčiniteľ odporu vzduchu (Cd·A).</string>
+    <string name="summaryRollResistCoefInfo">Súčiniteľ valivého trenia.</string>
+    <string name="summaryBasalMetabolicRateInfo">Hodnota bazálneho metabolizmu (BMR).</string>
+    <string name="summaryLocationIntervalInfo">Priemerný interval aktualizácie polohy na trase.</string>
+    <string name="summaryDeviceRestartsCountInfo">Počet vynútených vypnutí aplikácie počas aktivity.</string>
+    <string name="summaryTotalTimeInfo">Čas medzi začiatkom a koncom trasy.</string>
+    <string name="summaryStoppedTimeInfo">Čas uplynulý pri oddychovaní.</string>
+    <string name="summaryHeartBeatsInfo">Srdcový tep zaznamenaný počas aktivity.</string>
+    <string name="summaryCadenceStrokesInfo">Počet otáčok pedálov zaznamenaný počas aktivity.</string>
+    <string name="summaryMechWork">Mechanická práca</string>
+    <string name="summaryMechWorkInfo">Čistá mechanická práca vyvinutá počas aktivity (nezávisle od teplotnej účinnosti a BMR).</string>
+    <string name="summaryActivePower">Aktívny výkon</string>
+    <string name="controlPanelMapSettingsButtonTitle">Možnosti máp</string>
+    <string name="controlPanelMapSettingsButtonSubtitle">Možnosti</string>
+    <string name="pref_screenWaveDim_title">Stmaviť obrazovku</string>
+    <string name="pref_screenWaveDim_summary">Obrazovka sa stmaví, čím sa šetrí kapacita batérie</string>
+    <string name="cloudAccountsPowerUploadPolicyTitle">Pravidlá sprístupňovania dát</string>
+    <string name="cloudAccountsPowerUploadPolicy_0">Vždy (predvolené)</string>
+    <string name="cloudAccountsPowerUploadPolicy_1">Načítavať dáta len pri meraní</string>
+    <string name="hereMapsFeatures">🔹 Mapy HERE
+\n🔹 Žiadna reklama</string>
+    <string name="dialogMapsMapCount">%1$s mapy</string>
+    <string name="maptilerMapsFeatures">🔹 Mapy MapTiler
+\n🔹 Žiadna reklama</string>
+    <string name="dialogMapsChooseTitle">Vybrať mapu</string>
+    <string name="sensorProperitesFilterIntervalInfo">Hodnota filtrovania. Vyššia hodnota znamená väčšiu presnosť, avšak aj väčšie omeškanie.</string>
+    <string name="dialogChartDataTypesTitle">Druhy grafov</string>
+    <string name="dialogLoginUsernameHint">Používateľské meno</string>
+    <string name="dialogLoginPasswordHint">Heslo</string>
+    <string name="dialogCloudAccountDisconnectMessage">Odhlásiť sa\?</string>
+    <string name="meterModeHumidity">vlhkosť</string>
+    <string name="meterModeHumidityShort">vlh</string>
+    <string name="meterModeRadius">rádius</string>
+    <string name="meterModeRadiusShort">rad</string>
+    <string name="veloHeroConnectButton">Pripojiť sa s Velo Hero</string>
+    <string name="chartsTitle">Grafy</string>
+    <string name="tracksHistoryChartEmptyInfo">Prázdne</string>
+    <string name="sensorPurposePressure">Tlak</string>
+    <string name="sensorPurposeTemperature">Teplota</string>
+    <string name="sensorPurposeHumidity">Vlhkosť</string>
+    <string name="sensorProperitesUseForPressure">Používať pre tlak</string>
+    <string name="sensorProperitesUseForTemperature">Používať pre teplotu</string>
+    <string name="sensorProperitesUseForHumidity">Používať pre vlhkosť</string>
+    <string name="pref_category_tracking_charts_title">Grafy</string>
+    <string name="pref_soundeffects_tally_radius_title">Rádius</string>
+    <string name="pref_soundeffects_tally_radius_dialog_title">Hlásenie</string>
+    <string name="buttonLater">Neskôr</string>
+    <string name="toastSharingNoGpxError">Chyba, žiadny súbor GPX vrámci trasy</string>
+    <string name="sensorProperitesUseForDuration">Používať pre trvanie</string>
 </resources>
