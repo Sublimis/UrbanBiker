@@ -70,6 +70,7 @@
     <string name="cancel">Cancel</string>
     <string name="buttonUnderstand">I understand</string>
     <string name="buttonLater">Later</string>
+    <string name="buttonShow">Show</string>
 
     <string name="na">N/A</string>
     <string name="loading">Loading…</string>
@@ -79,14 +80,14 @@
 
     <string name="menuControlPanel">Control Panel</string>
     <string name="menuSettings">Settings</string>
-    <string name="menuSummary">Live summary</string>
+    <string name="menuSummary">Overview</string>
     <string name="menuTracksHistory">History</string>
     <string name="menuTracksHistoryResume">Resume</string>
     <string name="menuMeterLock">Lock</string>
     <string name="menuMeterLockAll">Lock all</string>
     <string name="menuMeterMode">Meter mode…</string>
     <string name="menuMeterChooseModes">Choose modes…</string>
-    <string name="menuMeterNewTrack">New track</string>
+    <string name="menuMeterClockShowSeconds">Show seconds</string>
     <string name="menuMeterResetMinMax">Reset min/max</string>
     <string name="menuMeterStart">Start</string>
     <string name="menuMeterStop">Stop</string>
@@ -527,8 +528,14 @@
     <string name="controlPanelUnitsButtonSubtitle">Click to change units</string>
     <string name="controlPanelSensorsButtonTitle">Sensors</string>
     <string name="controlPanelSensorsButtonSubtitle">Click to manage sensors</string>
+    <string name="controlPanelMapShowButtonTitle">Show map</string>
+    <string name="controlPanelMapShowButtonSubtitle">Click to show the map</string>
+    <string name="controlPanelMapHideButtonTitle">Hide map</string>
+    <string name="controlPanelMapHideButtonSubtitle">Click to hide the map</string>
     <string name="controlPanelMapSettingsButtonTitle">Map options</string>
     <string name="controlPanelMapSettingsButtonSubtitle">Click for map options</string>
+    <string name="controlPanelScreenshotButtonTitle">Screenshot</string>
+    <string name="controlPanelScreenshotButtonSubtitle">Click to share screenshot</string>
 
     <string name="profilesListTitle">Profiles</string>
     <string name="profilesListTitleSelectProfile">Switch Profile</string>
@@ -600,6 +607,16 @@
     <string name="summaryMechWork">Mech. work</string>
     <string name="summaryMechWorkInfo">Purely mechanical work spent for this activity (disregarding thermal efficiency and BMR).</string>
     <string name="summaryActivePower">Active power</string>
+    <string name="summaryClimbing">Climbing</string>
+    <string name="summaryClimbingEnergyInfo">Percentage of the energy that was used to overcome gravity.</string>
+    <string name="summaryDragging">Dragging</string>
+    <string name="summaryDraggingEnergyInfo">Percentage of the energy that was used to overcome air drag resistance.</string>
+    <string name="summaryAccelerating">Accelerating</string>
+    <string name="summaryAcceleratingEnergyInfo">Percentage of the energy that was used for accelerating.</string>
+    <string name="summaryRolling">Rolling</string>
+    <string name="summaryRollingEnergyInfo">Percentage of the energy that was used to overcome rolling resistance.</string>
+    <string name="summaryBasal">Basal</string>
+    <string name="summaryBasalEnergyInfo">Percentage of the energy that was used for basal metabolism.</string>
 
     <string name="sensorsTitle">Sensors</string>
     <string name="sensorsTabUsed">Used</string>
@@ -1354,9 +1371,6 @@
     <string name="sensorFilterInterval_1">5 seconds</string>
     <string name="sensorFilterInterval_2">7 seconds</string>
     <string name="sensorFilterInterval_3">10 seconds</string>
-    <string name="sensorFilterInterval_4">15 seconds</string>
-    <string name="sensorFilterInterval_5">20 seconds</string>
-    <string name="sensorFilterInterval_6">30 seconds</string>
 
     <!-- prefAdModes -->
     <string name="prefAdModes_0">Any</string>
