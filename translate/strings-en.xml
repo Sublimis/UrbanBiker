@@ -572,12 +572,23 @@
     <string name="tracksHistoryListViewTrackDialogTitle">View track with…</string>
     <string name="tracksHistoryChartEmptyInfo">Nothing to show</string>
 
+    <string name="powerSourceWeightTitle">Power source weight</string>
+    <string name="powerSourceWeightInfo">When translating power (watts) into specific power (watts per unit weight), a weight must be given.\n\nThis is usually the weight of the entity providing a driving force.\n\nNote: Vertical power is always computed using Total weight.</string>
+    <string name="powerSourceWeight_0">Total</string>
+    <string name="powerSourceWeight_1">Driver</string>
+    <string name="powerSourceWeight_2">Vehicle</string>
+    <string name="powerSourceWeight_3">Driver + Vehicle</string>
+
     <string name="summaryProfileName">Profile</string>
     <string name="summaryProfileNameInfo">Profile used to record this track.</string>
     <string name="summaryDeviceName">Device</string>
     <string name="summaryDeviceNameInfo">Device used to record this track.</string>
     <string name="summaryTotalWeight">Total weight</string>
     <string name="summaryTotalWeightInfo">Sum of all weights used while recording this track (rider, vehicle, cargo, …).</string>
+    <string name="summaryDriverWeight">Driver weight</string>
+    <string name="summaryDriverWeightInfo">Weight of the driver (or rider) used while recording this track.</string>
+    <string name="summaryVehicleWeight">Vehicle weight</string>
+    <string name="summaryVehicleWeightInfo">Weight of the vehicle used while recording this track.</string>
     <string name="summaryWheelsWeight">Wheels weight</string>
     <string name="summaryWheelsWeightInfo">Sum of weights of all wheels on the vehicle used on this track.</string>
     <string name="summaryEfficiency">Efficiency</string>
@@ -901,6 +912,8 @@
     <string name="pref_soundeffects_gps_signal_summary">Sound on GPS status change (good, bad)</string>
     <string name="pref_soundeffects_countdown_title">Countdown</string>
     <string name="pref_soundeffects_countdown_summary">Sound on countdown before resuming the track (…3, 2, 1, GO!)</string>
+    <string name="pref_soundeffects_autopause_title">Auto pause</string>
+    <string name="pref_soundeffects_autopause_summary">Sound on automatic pause and resume detection</string>
     <string name="pref_soundeffects_screenOff_title">Screen dim/off</string>
     <string name="pref_soundeffects_screenOff_summary">Sound and vibrate when screen is dimmed or temporarily turned off</string>
     <string name="pref_soundeffects_proximity_title">Proximity sensor</string>
