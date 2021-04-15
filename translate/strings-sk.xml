@@ -1183,4 +1183,73 @@
     <string name="summaryAcceleratingEnergyInfo">Percento energie, ktorá sa použila na zrýchlenie.</string>
     <string name="summaryRollingEnergyInfo">Percento energie, ktorá sa použila na prekonanie valivého odporu.</string>
     <string name="summaryBasalEnergyInfo">Percento energie, ktorá sa použila na bazálny metabolizmus.</string>
+    <string name="prefMapTrackColorTitle">Farba trasy</string>
+    <string name="prefMapGuideRouteColorTitle">Farba navádzania</string>
+    <string name="infoMeterModeWriggleMsg">Meria odklon od priamej línie trasy.</string>
+    <string name="infoMeterModeAltitudeMsg">Výška nad priemernou morskou hladinou (geoid).</string>
+    <string name="infoMeterModeSlopeMsg">Sklon (gradient), kladná hodnota značí stúpanie, záporná klesanie.</string>
+    <string name="infoMeterModeVerticalSpeedMsg">Rýchlosť vo zvislom smere, hore kladná, dole záporná.</string>
+    <string name="infoMeterModePowerMsg">Výkon počas aktivity, započítavajúc odpor, trenie, nadm. výšku...
+\n
+\nZáporná hodnota znamená naberanie energie, pri klesaní alebo brzdení.
+\n
+\nPri kcal/h alebo kJ/h sa berú do úvahy účinnosť a BMR.</string>
+    <string name="infoMeterModeAvgActivePowerMsg">Priemerný výkon počas aktivity, nepočítajúc prestávky alebo klesanie či brzdenie.</string>
+    <string name="infoMeterModeVerticalPowerMsg">Strata výkonu pri stúpaní alebo jeho naberanie pri klesaní.
+\n
+\nZáporná hodnota znamená naberanie výkonu (klesanie).
+\n
+\nPri kcal/h alebo kJ/h sa berú do úvahy účinnosť a BMR.</string>
+    <string name="infoMeterModeTemperatureMsg">Teplota vzduchu meraná vstavaným alebo iným snímačom.</string>
+    <string name="infoMeterModePressureMsg">Tlak vzduchu meraný vstavaným alebo iným snímačom.</string>
+    <string name="infoMeterModeCadenceMsg">Počet otáčok pedálov za minútu, tempo pedálovania.</string>
+    <string name="infoMeterModeGearRatioMsg">Pomer medzi otáčkami kolies a pedálov za jednotku času. Vyššia hodnota znamená vyšší prevod.</string>
+    <string name="infoMeterModeKineticEnergyTitle">Pohybová energia</string>
+    <string name="infoMeterModeKineticEnergyMsg">Výška, pri ktorej sa potenciálna energia môže rovnať pohybovej.
+\n
+\nZodpovedajúca rýchlosť sa rovná rýchlosti voľného pádu z danej výšky (neberúc do úvahy odpor vzduchu).
+\n
+\nVýška dosiahnuteľná pri priamom stúpaní čerpajúc naplno len z pohybovej energie.</string>
+    <string name="pref_speechProfileName_title">Názov profilu</string>
+    <string name="pref_speechProfileName_summary">(Všetky profily) Oznámiť názov pri prepnutí profilu</string>
+    <string name="pref_speechTallies_title">Hlásenia</string>
+    <string name="pref_speechTallies_summary">Hlásiť</string>
+    <string name="pref_speechToasts_summary">Hlásiť rôzne krátke informácie</string>
+    <string name="pref_speechCountdown_summary">Hlásiť odpočítavanie</string>
+    <string name="prefProhibitLocationAlertInfo">Získavanie polohy nebude zapnuté, mapa zostane nedostupná.
+\n
+\nDáta sa budú získavať z iných dostupných snímačov.</string>
+    <string name="infoMeterModeStepCadenceTitle">Kadencia krokov</string>
+    <string name="infoMeterModeStepCadenceMsg">Počet krokov za minútu.</string>
+    <string name="infoMeterModeStepCountTitle">Kroky</string>
+    <string name="infoMeterModeStepCountMsg">Počet vykonaných krokov.</string>
+    <string name="infoMeterModeFuncThresholdPowerTitle">Funkčný prah výkonu</string>
+    <string name="infoMeterModeFuncThresholdPowerMsg">Predpokladaný výkon udržateľný pri dlhšej záťaži.
+\n
+\nZávisí od druhu a času záťaže.</string>
+    <string name="pref_track_charts_title">Druhy grafov…</string>
+    <string name="pref_track_charts_summary">Vybrať parametre do grafov pre každú trasu. Rýchlosť a nadmorská výška sú vždy zahrnuté.</string>
+    <string name="infoMeterModeHumidityTitle">Vlhkosť</string>
+    <string name="infoMeterModeHumidityMsg">Vlhkosť vzduchu meraná vstavaným alebo iným snímačom.</string>
+    <string name="infoMeterModeRadiusTitle">Polomer</string>
+    <string name="infoMeterModeRadiusMsg">Priama vzdialenosť od počiatočnej polohy.</string>
+    <string name="summaryClimbing">Stúpanie</string>
+    <string name="summaryDragging">Odpor</string>
+    <string name="summaryRolling">Trenie</string>
+    <string name="powerSourceWeightTitle">Hmotnosť hnacieho subjektu</string>
+    <string name="powerSourceWeightInfo">Pri prevádzaní výkonu (watty) na špecifický výkon (watty na jednotku hmotnosti) treba zadať hmotnosť.
+\n
+\nIde o hmotnosť subjektu, ktorý je zdrojom hnacej sily.
+\n
+\nPoznámka: Vertikálny výkon sa vždy počíta z Celkovej hmotnosti.</string>
+    <string name="powerSourceWeight_0">Celková</string>
+    <string name="powerSourceWeight_1">Vodič</string>
+    <string name="powerSourceWeight_2">Vozidlo</string>
+    <string name="powerSourceWeight_3">Vodič + vozidlo</string>
+    <string name="summaryDriverWeight">Hmotnosť vodiča</string>
+    <string name="summaryDriverWeightInfo">Hmotnosť vodiča pri nahrávaní trasy.</string>
+    <string name="summaryVehicleWeight">Hmotnosť vozidla</string>
+    <string name="summaryVehicleWeightInfo">Hmotnosť vozidla pri náhrávaní trasy.</string>
+    <string name="pref_soundeffects_autopause_title">Automatická prestávka</string>
+    <string name="pref_soundeffects_autopause_summary">Zvuk pri prerušení a obnovení</string>
 </resources>
