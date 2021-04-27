@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="locale">pl-PL</string>
-    <string name="app_name">Miejski rower</string>
+    <string name="locale">Angielski</string>
+    <string name="app_name">Miejski rowerzysta</string>
     <string name="app_description">Śledź i mierz swoje przejazdy z dużą dokładnością. Zwiększ swoją efektwność i bezpieczeństwo jazdy.</string>
     <string name="widget_1_description">Rowerzysta: Dzwonek rowerowy</string>
     <string name="widget_2_description">Rowerzysta: Dzwonek + latarka</string>
     <string name="widget_3_description">Rowerzysta: Kompletny</string>
-    <string name="proLicenseLabel">Pro</string>
+    <string name="proLicenseLabel">Profesjonalny</string>
     <string name="proPlusLicenseLabel">Prof+</string>
     <string name="ultimateLicenseLabel">Najwyższy</string>
     <string name="proLicenseTitle">Licencja Pro</string>
@@ -22,12 +22,12 @@
     <string name="buttonResumeTrack">Wznów</string>
     <string name="menuControlPanel">Panel sterowania</string>
     <string name="menuSettings">Ustawienia</string>
-    <string name="menuSummary">Podsumowanie</string>
+    <string name="menuSummary">Przegląd</string>
     <string name="menuTracksHistory">Historia</string>
     <string name="menuTracksHistoryResume">Wznów</string>
     <string name="menuMeterLock">Zablokuj</string>
     <string name="menuMeterLockAll">Zablokuj wszystko</string>
-    <string name="menuMeterMode">Tryb licznika..</string>
+    <string name="menuMeterMode">Tryb miernika…</string>
     <string name="menuMeterChooseModes">Wybierz tryby…</string>
     <string name="menuMeterResetMinMax">Resetuj min/max</string>
     <string name="menuMeterParameters">Parametry…</string>
@@ -71,7 +71,7 @@
     <string name="toastTrackWritingError">Błąd zapisu trasy do pamięci! Spróbuj zresetować ponownie.</string>
     <string name="toastTrackZippingError">Błąd pakowania trasy! Spróbuj zresetować ponownie.</string>
     <string name="toastTrackMovingError">Bład przeniesienia danych trasy na pamięć USB! Spróbuj zresetować ponownie.</string>
-    <string name="toastPressAgainToExit">Naciśnij ponownie żeby wyjść.</string>
+    <string name="toastPressAgainToExit">Naciśnij ponownie, aby wyjść</string>
     <string name="toastTrackingRecording">Nagrywanie</string>
     <string name="toastTrackingRecordingPassive">Nagrywanie pasywne</string>
     <string name="toastTrackingPaused">Pauza</string>
@@ -91,7 +91,7 @@
     <string name="toastTrackDeleted">Trasy usunięte</string>
     <string name="toastTrackDeleteError">Błąd kasowania tras</string>
     <string name="toastTrackResumed">Wznów ścieżkę</string>
-    <string name="toastTrackResumeGpsActiveError">Proszę wyłącz lub wstrzymaj wcześniej GPS.</string>
+    <string name="toastTrackResumeGpsActiveError">Proszę wyłącz lub wstrzymaj wcześniej GPS</string>
     <string name="toastContrastButtonClickInfo">Automatyczny motyw wizualny jest aktywny</string>
     <string name="toastFlashlightButtonClickInfo">Przytrzymaj aby włączyć latarkę</string>
     <string name="toastRoarButtonClickInfo">Przytrzymaj aby przełączyć dźwięk AVAS</string>
@@ -123,7 +123,7 @@
     <string name="dialog_volume_effects_text">Efekty</string>
     <string name="dialog_volume_tallies_text">Etapy</string>
     <string name="dialog_volume_alarms_text">Alarmy</string>
-    <string name="dialog_volume_message">Uwaga: Użyj przycisku głośności w urządzeniu, aby ustawić ogólny poziom dźwięku</string>
+    <string name="dialog_volume_message">Uwaga: użyj przycisków głośności na urządzeniu, aby dostosować ogólną głośność dźwięku.</string>
     <string name="dialog_bell_automatic_sensitivity_title">Automatyczna czułość dzwonka</string>
     <string name="dialog_bell_shake_sensitivity_title">Czułość potrząsania</string>
     <string name="dialog_fenceguard_add_title">Dodaj Ogrodzenie</string>
@@ -231,7 +231,7 @@
     <string name="unitW">W</string>
     <string name="unitKW">kW</string>
     <string name="unitHP">KM</string>
-    <string name="unitKWH">kWh</string>
+    <string name="unitKWH">Kilowatogodzina</string>
     <string name="unitMiliW">mW</string>
     <string name="unitWKg">W/kg</string>
     <string name="unitWLb">W/lb</string>
@@ -239,13 +239,13 @@
     <string name="unitKjH">kJ/h</string>
     <string name="unitKjKg">kJ/kg</string>
     <string name="unitKjLb">kJ/lb</string>
-    <string name="unitKcal">kcal</string>
-    <string name="unitKcalH">kcal/h</string>
-    <string name="unitKcalKG">kcal/kg</string>
-    <string name="unitKcalLb">kcal/lb</string>
+    <string name="unitKcal">Kalorie</string>
+    <string name="unitKcalH">Kalorie/godzinę</string>
+    <string name="unitKcalKG">kalorie/kilogramy</string>
+    <string name="unitKcalLb">Kalorie/funty</string>
     <string name="unitDegC">°C</string>
     <string name="unitDegF">°F</string>
-    <string name="unitHPa">hPa</string>
+    <string name="unitHPa">Hektopascal</string>
     <string name="unitPetrolLit">l paliwa.</string>
     <string name="unitKmPerLit">km/L</string>
     <string name="unitMiPerGal">mph</string>
@@ -491,7 +491,7 @@
     <string name="infoMeterModeDistanceOdoTitle">Dystansomierz</string>
     <string name="infoMeterModeDurationTitle">Czas trwania</string>
     <string name="infoMeterModeEnergyTitle">Energia</string>
-    <string name="infoMeterModeEnergyMsg">Energia zużyta w trakcie podróży, biorąc pod uwagę efektywność oraz współczynnik BMR</string>
+    <string name="infoMeterModeEnergyMsg">Energia wydana na podróż z uwzględnieniem wydajności i BMR.</string>
     <string name="infoMeterModeAscentTitle">Wzniesienie</string>
     <string name="infoMeterModeDescentTitle">Spadek</string>
     <string name="infoMeterModeWriggleTitle">Zakręty</string>
@@ -553,14 +553,14 @@
     <string name="pref_units_other_entries_0">Metryczny</string>
     <string name="pref_units_other_entries_1">Imperialny</string>
     <!-- prefUnitsEnergyEntries -->
-    <string name="prefUnitsEnergyEntries_0">[kcal]</string>
+    <string name="prefUnitsEnergyEntries_0">[kalorie]</string>
     <string name="prefUnitsEnergyEntries_1">[kJ]</string>
-    <string name="prefUnitsEnergyEntries_2">[kWh]</string>
+    <string name="prefUnitsEnergyEntries_2">[kilowatogodzina]</string>
     <string name="prefUnitsEnergyEntries_3">[Litrów paliwa]</string>
     <!-- prefUnitsPowerEntries -->
     <string name="prefUnitsPowerEntries_0">[W]</string>
     <string name="prefUnitsPowerEntries_1">[HP]</string>
-    <string name="prefUnitsPowerEntries_2">[kcal/h]</string>
+    <string name="prefUnitsPowerEntries_2">[kalorie/godzinę]</string>
     <string name="prefUnitsPowerEntries_3">[kJ/h]</string>
     <!-- pref_hud_axis_entries -->
     <string name="pref_hud_axis_entries_0">Domyślny - Pasek stanu w naturalnej pozycji</string>
@@ -599,7 +599,7 @@
     <string name="menuUpload">Prześlij</string>
     <string name="toastProfilesListNonemptyDelete">Nie można skasować - Profil zawiera niezapisane dane! Proszę zakończ wcześniej.</string>
     <string name="toastProfileButtonClickInfo">Przytrzymaj dłużej aby zmienić profil</string>
-    <string name="toastMapClickInfo">Przytrzymaj dłużej dla ustawień mapy</string>
+    <string name="toastMapClickInfo">Przytrzymaj długo , aby wyświetlić opcje mapy</string>
     <string name="toastSharingSuccess">Post utworzony pomyślnie</string>
     <string name="toastSharingError">Błąd podczas udostępniania</string>
     <string name="toastSharingPermissionsError">Błąd tworzenia postu, proszę sprawdź uprawnienia</string>
@@ -654,11 +654,11 @@
     <string name="unitMegabyte">MB</string>
     <string name="meterModeSpeedShort">pręd.</string>
     <string name="meterModeSpeedVerticalShort">pr pion</string>
-    <string name="meterModeSpeedAverageShort">śr. pręd.</string>
+    <string name="meterModeSpeedAverageShort">średnia prędkość</string>
     <string name="meterModeDuration">czas trwania</string>
     <string name="meterModeElapsedTime">upłynęło</string>
     <string name="meterModeVerticalPower">Moc wznoszenia</string>
-    <string name="meterModeVerticalPowerShort">moc wznosz.</string>
+    <string name="meterModeVerticalPowerShort">moc wznoszenia</string>
     <string name="meterModePowerShort">moc</string>
     <string name="meterModePowerAverageShort">moc śr.</string>
     <string name="meterModeAccelerationShort">przyśp.</string>
@@ -678,7 +678,7 @@
     <string name="meterModeHeartRate">puls</string>
     <string name="meterModeHeartRateShort">puls</string>
     <string name="meterModeGearRatio">przełożenie</string>
-    <string name="meterModeGearRatioShort">przełoż.</string>
+    <string name="meterModeGearRatioShort">przełożenie</string>
     <string name="meterTextTotal">całk.</string>
     <string name="controlPanelSoundAutoBell">Automatyczny dzwonek</string>
     <string name="controlPanelSoundRoar">AVAS</string>
@@ -766,7 +766,7 @@
     <string name="pref_category_paceIndicator_title">Wskaźnik tempa</string>
     <string name="pref_category_altitude_adjustments_title">Wysokość</string>
     <string name="pref_category_temperature_title">Temperatura</string>
-    <string name="pref_category_pressure_title">Ciśnienie</string>
+    <string name="pref_category_pressure_title">Wbudowany czujnik ciśnienia</string>
     <string name="pref_category_sensors_title">Sensory</string>
     <string name="pref_category_cloudAccounts_title">Konta</string>
     <string name="pref_category_mapsQuickZoom">Szybkie zbliżenie</string>
@@ -785,7 +785,7 @@
     <string name="meterModeDurationShort">czas</string>
     <string name="tracksHistoryListEmpty">Nie ma żadnych śladów. Wyjdź z domu i zacznij rejestrować aktywność!</string>
     <string name="summaryDragArea">powierzchnia natarcia</string>
-    <string name="summaryRollResistCoef">Współczynnik oporu toczenia</string>
+    <string name="summaryRollResistCoef">Współczynnik oporu toczenia.</string>
     <string name="summaryDeviceRestartsCount">Wymuszone restarty</string>
     <string name="sensorProperitesIsAutoStrideLenInfo">Zostanie przeprowadzona automatyczna kalibracja długości kroku podczas biegu lub szybkiego chodu.</string>
     <string name="sensorProperitesTriggersCountInfo">Ilość magnesów używanych do wzbudzania sensora. Sensory bez zewnętrznych magnesów zazwyczaj używają jednego wyzwalacza.</string>
@@ -845,7 +845,7 @@
     <string name="pref_paceIndicator_summary">Pokazuje czy twoja średnia prędkość wzrasta czy spada</string>
     <string name="pref_soundsMasterSwitch_title">Wszystkie dźwięki</string>
     <string name="prefBarometricAltitudeTitle">Barometryczny odczyt wysokości</string>
-    <string name="prefBarometricAltitudeSummary">Użyj wbudowanego barometru do poprawienia dokładności odczytu wysokości</string>
+    <string name="prefBarometricAltitudeSummary">Użyj danych czujnika ciśnienia, aby zwiększyć dokładność wysokości</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Termobarometryczny odczyt wysokości</string>
     <string name="prefBaroAltitudeUsesTemperatureSummary">Użyj czujnika temperatury aby zwiększyć precyzję odczytu barometrycznego</string>
     <string name="prefBarometricAltitudeNoteSummary">Używaj tylko na otwartej przestrzeni! Wyłącz w pomieszczeniach zamknietych i klimatyzowanych pojazdach!</string>
@@ -914,7 +914,7 @@
     <string name="toastScreenPocketModeActive">Tryb kieszeniowy aktywny</string>
     <string name="toastScreenWavingModeActive">Tryb machania aktywny</string>
     <string name="pref_screenWaveOnOffMode_title">Tryb machania</string>
-    <string name="pref_screenWaveOnOffMode_summary">Zablokuj i przyciemnij ekran machając przed nim dwukrotnie. Machnij ponownie aby rozjaśnić i odblokować</string>
+    <string name="pref_screenWaveOnOffMode_summary">Zablokuj ekran aplikacji, dwukrotnie machając przed nim. Pomachaj ponownie, aby odblokować.</string>
     <string name="pref_soundeffects_screenOff_title">Wygaszenie/wyłączenie ekranu</string>
     <string name="pref_soundeffects_screenOff_summary">Dźwięk i wibracje gdy ekran jest tymczasowo wygaszony lub wyłączony</string>
     <string name="pref_soundeffects_proximity_title">Czujnik zbliżeniowy</string>
@@ -1005,9 +1005,7 @@
     <string name="sensorProperitesEnableFilteringInfo">Wykona dodatkowe filtrowanie danych. Możliwe zwiększenie dokładności okupione kilkusekundowym opóźnieniem. Domyślnie wyłączone.</string>
     <string name="pref_soundeffects_tally_steps_title">Kroki</string>
     <string name="pref_soundeffects_tally_steps_dialog_title">Etap - kroki</string>
-    <string name="prefProhibitLocationAlertInfo">Lokalizacja nie zostanie włączona, więcmapa nie będzie dostępna
-\n
-\nDane będą pozyskiwane wyłącznie z sensorów (Moc, Prędkość, Kadencja, Tętno, Kroki).</string>
+    <string name="prefProhibitLocationAlertInfo">Lokalizacja nigdy nie będzie włączona ani używana podczas aktywności, więc mapa nie będzie dostępna. Dane będą pobierane wyłącznie z innych dostępnych czujników (moc, prędkość, rytm, tętno, kroki, środowisko).</string>
     <string name="speechSteps">Kroki: %1$s</string>
     <string name="menuExpand">Rozwiń</string>
     <string name="menuCollapse">Zwiń</string>
@@ -1049,16 +1047,16 @@
 \nNie można ręcznie nawiązać połączenia z czujnikiem.</string>
     <string name="pref_maps_offline_usage_summary">Użycie: Wybierz pobrany plik mapy z opcją powyżej.</string>
     <string name="sensorProperitesUseForSteps">Służy do liczenia kroków i rytmu</string>
-    <string name="dialogGoogleMapTermsViolation">Przechwytywanie zawartości mapy Google jest niedozwolone, dlatego typ mapy należy najpierw zmienić na inny. 
-\n 
-\nCzy przełączyć teraz na mapę\?</string>
+    <string name="dialogGoogleMapTermsViolation">Google nie zezwala na przechwytywanie zawartości ich map, więc typ mapy należy najpierw zmienić na inny.
+\n
+\nZmienić teraz typ mapy\?</string>
     <string name="dialogMapsAutoZoom">Automatyczny zoom</string>
     <string name="controlPanelUnitsButtonTitle">Jednostki miary</string>
     <string name="controlPanelUnitsButtonSubtitle">Kliknij żeby zmienić jednostki</string>
     <string name="controlPanelSensorsButtonTitle">Czujniki</string>
     <string name="controlPanelSensorsButtonSubtitle">Kliknij żeby zarządzać czujnikami</string>
-    <string name="prefPressureSensorOffsetTitle">Przesunięcie barometru</string>
-    <string name="prefPressureSensorOffsetInfo">Stała ta jest dodawana do odczytów barometru i może być wykorzystana do zmniejszenia błędu barometru, jeśli wystąpił</string>
+    <string name="prefPressureSensorOffsetTitle">Przesunięcie ciśnienia</string>
+    <string name="prefPressureSensorOffsetInfo">Ta stała jest dodawana do odczytów ciśnienia i może być użyta do złagodzenia obciążenia czujnika, jeśli występuje.</string>
     <string name="prefNotificationAlwaysTitle">Trwałe powiadomienie</string>
     <string name="prefNotificationAlwaysSummary">Przez cały czas wyświetlaj ikonę powiadomienia aplikacji na pasku stanu systemu, nie tylko wtedy, gdy śledzenie jest aktywne.</string>
     <string name="prefMapDiskCacheSizeSummary">Podczas przeglądania mapy, zarówno online, jak i offline, części mapy są buforowane lokalnie, aby zmniejszyć potrzebę powtarzania pobierania lub odtwarzania. Przyspiesza to ładowanie mapy i oszczędza baterię. (Wszystkie profile)</string>
@@ -1100,9 +1098,9 @@
 \nW przypadku kcal / h lub kJ / h uwzględnia również wydajność.
 \n
 \nUwaga: może to być opóźnione w czasie rzeczywistym o około minutę, ze względu na nieuniknione opóźnienia filtrowania cyfrowego.</string>
-    <string name="infoMeterModeTemperatureMsg">Temperatura otoczenia mierzona za pomocą urządzenia</string>
+    <string name="infoMeterModeTemperatureMsg">Temperatura otoczenia mierzona za pomocą urządzenia lub czujnika zewnętrznego.</string>
     <string name="infoMeterModePressureTitle">Ciśnienie</string>
-    <string name="infoMeterModePressureMsg">Ciśnienie otoczenia mierzone za pomocą urządzenia - aktualne, maksymalne i minimalne.</string>
+    <string name="infoMeterModePressureMsg">Ciśnienie otoczenia mierzone za pomocą urządzenia lub czujnika zewnętrznego.</string>
     <string name="infoMeterModeClockMsg">Aktualna pora dnia.</string>
     <string name="infoMeterModeCadenceTitle">Kadencja</string>
     <string name="infoMeterModeCadenceMsg">Liczba obrotów korby na minutę, tj. tempo pedałowania.</string>
@@ -1216,12 +1214,12 @@
     <string name="pref_roaring_type_entries_3">Pojazd elektryczny</string>
     <string name="pref_text_automatic">Automatyczny</string>
     <string name="sensorProperitesActivityRecognition">Rozpoznawanie aktywności fizycznej</string>
-    <string name="sensorProperitesActivityRecognitionInfo">Czujnik dostarczy dane tylko wtedy, gdy aktywność fizyczna zostanie uznana za zgodną z przeznaczeniem czujnika. Na przykład czujnik kroku zlicza kroki podczas chodzenia lub biegania, a nie podczas jazdy na rowerze. Uwaga: może to nie być 100% dokładne i może być opóźnione. Usługi Google Play są wymagane.</string>
+    <string name="sensorProperitesActivityRecognitionInfo">Czujnik dostarczy dane tylko wtedy, gdy Twoja aktywność fizyczna zostanie uznana za zgodną z przeznaczeniem czujnika. Na przykład czujnik krokowy będzie liczył kroki podczas chodzenia lub biegania, a nie podczas jazdy na rowerze. Uwaga, może to być niedokładne i opóźnione. Wymagane są usługi Google Play.</string>
     <string name="summaryProfileNameInfo">Profil, dla którego nagrywasz trasę.</string>
     <string name="summaryDeviceNameInfo">Urządzenie, na którym nagrywasz trasę.</string>
-    <string name="controlPanelMapSettingsButtonTitle">Ustawienia mapy</string>
-    <string name="controlPanelMapSettingsButtonSubtitle">Kliknij Ustawienia mapy</string>
-    <string name="meterModeFTPower">ft pwr</string>
+    <string name="controlPanelMapSettingsButtonTitle">Ustawienia map</string>
+    <string name="controlPanelMapSettingsButtonSubtitle">Naciśnij, aby wyświetlić opcje map</string>
+    <string name="meterModeFTPower">ft moc</string>
     <string name="meterModeFTPowerShort">fmp funkcjonalna moc progowa</string>
     <string name="summaryTotalWeightInfo">Suma wszystkich obciążeń użytych podczas rejestrowania tej trasy (jadący, pojazd, z ładunkiem, …).</string>
     <string name="summaryWheelsWeightInfo">Suma masy wszystkich kół na pojazdach używanych na tej trasie.</string>
@@ -1245,4 +1243,88 @@
     <string name="infoDigitalFilterNotice">Proszę zauważyć: można to opóźnić od czasu rzeczywistego o minutę, z powodu nieuniknionych opóźnień cyfrowych.</string>
     <string name="hereMapsFeatures">🔹 mapy HERE
 \n🔹 Bez reklam</string>
+    <string name="meterModes_29">Moc FT</string>
+    <string name="pref_screenWaveDim_title">Przyciemniony wyświetlacz</string>
+    <string name="pref_screenWaveDim_summary">Wyświetlacz również zostanie przyciemniony, aby oszczędzać baterię</string>
+    <string name="cloudAccountsPowerUploadPolicyTitle">Zasady przesyłania danych dotyczących zasilania</string>
+    <string name="cloudAccountsPowerUploadPolicy_0">Zawsze (domyślnie)</string>
+    <string name="cloudAccountsPowerUploadPolicy_1">Przesyłaj dane mocy tylko wtedy, gdy używany był miernik mocy</string>
+    <string name="dialogMapsMapCount">Mapy% 1 $ s</string>
+    <string name="maptilerMapsFeatures">Układanie map
+\nBez reklam</string>
+    <string name="dialogMapsChooseTitle">Wybierz mapę</string>
+    <string name="meterModes_30">Zasięg</string>
+    <string name="sensorProperitesFilterIntervalInfo">Interwał filtracji, czyli siła filtra. Większe wartości będą filtrować więcej, ale także wprowadzą większe opóźnienie.</string>
+    <string name="sensorFilterInterval_0">3 sekundy (domyślnie)</string>
+    <string name="sensorFilterInterval_1">5 sekund</string>
+    <string name="sensorFilterInterval_2">7 sekund</string>
+    <string name="sensorFilterInterval_3">10 sekund</string>
+    <string name="dialogChartDataTypesTitle">Typy wykresów</string>
+    <string name="dialogLoginUsernameHint">Nazwa Użytkownika</string>
+    <string name="dialogLoginPasswordHint">Hasło</string>
+    <string name="dialogCloudAccountDisconnectMessage">Odłączyć to konto\?</string>
+    <string name="meterModeHumidity">Wilgotność</string>
+    <string name="meterModeHumidityShort">szum</string>
+    <string name="meterModeRadius">promień</string>
+    <string name="meterModeRadiusShort">Rad</string>
+    <string name="veloHeroConnectButton">Połąc się z Velo Hero</string>
+    <string name="chartsTitle">Wykresy</string>
+    <string name="tracksHistoryChartEmptyInfo">Nic do pokazania</string>
+    <string name="sensorPurposePressure">Ciśnienie</string>
+    <string name="sensorPurposeTemperature">Temperatura</string>
+    <string name="sensorPurposeHumidity">Wilgotność</string>
+    <string name="sensorProperitesUseForPressure">Użyj do nacisku</string>
+    <string name="sensorProperitesUseForTemperature">Użyj do temperatury</string>
+    <string name="sensorProperitesUseForHumidity">Używaj do wilgoci</string>
+    <string name="pref_category_tracking_charts_title">Wykresy</string>
+    <string name="pref_soundeffects_tally_radius_title">zasięg</string>
+    <string name="pref_soundeffects_tally_radius_dialog_title">zestawienie zasięgu</string>
+    <string name="pref_track_charts_title">Typy wykresów…</string>
+    <string name="pref_track_charts_summary">Wybierz różne parametry aktywności, które mają być zapisywane jako wykresy dla każdej ścieżki. Dane dotyczące prędkości i wysokości są zawsze zapisywane.</string>
+    <string name="infoMeterModeHumidityTitle">Wilgotność</string>
+    <string name="infoMeterModeHumidityMsg">Wilgotność względna otoczenia mierzona za pomocą urządzenia lub czujnika zewnętrznego.</string>
+    <string name="infoMeterModeRadiusTitle">Promień</string>
+    <string name="infoMeterModeRadiusMsg">Odległość w linii prostej od początkowego położenia toru, tj. Przemieszczenie.</string>
+    <string name="meterModes_None">Żaden</string>
+    <string name="meterModes_31">Wilgotność</string>
+    <string name="speechRadius">Zasięg: %1$s</string>
+    <string name="buttonLater">Później</string>
+    <string name="toastSharingNoGpxError">Błąd, brak pliku GPX w ścieżce</string>
+    <string name="sensorProperitesUseForDuration">Używaj na czas</string>
+    <string name="buttonShow">Pokazać</string>
+    <string name="menuMeterClockShowSeconds">Pokaż sekundy</string>
+    <string name="controlPanelMapShowButtonTitle">Pokaż mapę</string>
+    <string name="controlPanelMapShowButtonSubtitle">Kliknij, aby wyświetlić mapę</string>
+    <string name="controlPanelMapHideButtonTitle">Schowaj mapę</string>
+    <string name="controlPanelMapHideButtonSubtitle">Naciśnij , aby schować mapę</string>
+    <string name="controlPanelScreenshotButtonTitle">Zrzut ekranu</string>
+    <string name="controlPanelScreenshotButtonSubtitle">Kliknij, aby udostępnić zrzut ekranu</string>
+    <string name="summaryClimbing">pięcie się w górę</string>
+    <string name="summaryClimbingEnergyInfo">Procent energii użytej do pokonania grawitacji.</string>
+    <string name="summaryDragging">pogłębianie</string>
+    <string name="summaryDraggingEnergyInfo">Procent energii użytej do pokonania oporu powietrza.</string>
+    <string name="summaryAccelerating">Przyspieszanie</string>
+    <string name="summaryAcceleratingEnergyInfo">Procent energii użytej do przyspieszenia.</string>
+    <string name="summaryRolling">toczenie się</string>
+    <string name="summaryRollingEnergyInfo">Procent energii wykorzystanej do pokonania oporu toczenia.</string>
+    <string name="summaryBasal">Podstawowy</string>
+    <string name="summaryBasalEnergyInfo">Procent energii wykorzystanej do podstawowego metabolizmu.</string>
+    <string name="powerSourceWeightTitle">Waga źródła zasilania</string>
+    <string name="powerSourceWeightInfo">Przy przeliczaniu mocy (watów) na moc właściwą (waty na jednostkę masy) należy podać wagę. Zwykle jest to waga podmiotu stanowiącego siłę napędową. Uwaga: moc pionowa jest zawsze obliczana przy użyciu wagi całkowitej.</string>
+    <string name="powerSourceWeight_0">Całość</string>
+    <string name="powerSourceWeight_1">Kierowca</string>
+    <string name="powerSourceWeight_2">Pojazd</string>
+    <string name="powerSourceWeight_3">Kierowca + pojazd</string>
+    <string name="summaryDriverWeight">Waga kierowcy</string>
+    <string name="summaryDriverWeightInfo">Waga kierowcy (lub jeźdźca) użytego podczas nagrywania tego toru.</string>
+    <string name="summaryVehicleWeight">Masa pojazdu</string>
+    <string name="summaryVehicleWeightInfo">Waga pojazdu używanego podczas nagrywania tej trasy.</string>
+    <string name="pref_soundeffects_autopause_title">Auto pauza</string>
+    <string name="pref_soundeffects_autopause_summary">Dźwięk przy automatycznej pauzie i wznowieniu wykrywania</string>
+    <string name="pref_speechAutoPause_title">Auto pauza</string>
+    <string name="pref_speechAutoPause_summary">Mów przy automatycznej pauzie i wznowieniu wykrywania</string>
+    <string name="pref_speechGnssStatus_title">GPS</string>
+    <string name="pref_speechGnssStatus_summary">Mów o zmianie statusu GPS (dobrze, źle)</string>
+    <string name="speechTrackingStart">Start</string>
+    <string name="speechTrackingResume">Udać się</string>
 </resources>
