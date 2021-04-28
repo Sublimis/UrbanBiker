@@ -22,7 +22,7 @@
     <string name="buttonResumeTrack">Continuar</string>
     <string name="menuControlPanel">Panel de Control</string>
     <string name="menuSettings">Preferencias</string>
-    <string name="menuSummary">Resumen en vivo</string>
+    <string name="menuSummary">Resumen general</string>
     <string name="menuTracksHistory">Historial</string>
     <string name="menuTracksHistoryResume">Continuar</string>
     <string name="menuMeterLock">Bloquear</string>
@@ -1085,7 +1085,7 @@
     <string name="mapMarkerFinish">Final</string>
     <string name="pref_speechMasterSwitch_title">Habilitar</string>
     <string name="defaultProfileNameScooter">Patinete 🛴</string>
-    <string name="defaultProfileNameSki">Ski 🎿</string>
+    <string name="defaultProfileNameSki">Esquí 🎿</string>
     <string name="speechUnitOneMeter">Metro</string>
     <string name="speechUnitTwoMeters">Metros</string>
     <string name="speechUnitManyMeters">Metros</string>
@@ -1216,7 +1216,7 @@
     <string name="sensorProperitesActivityRecognition">Reconocimiento de la actividad física</string>
     <string name="sensorProperitesActivityRecognitionInfo">El sensor proporcionará datos solo cuando se reconozca que su actividad física es compatible con el propósito del mismo. Por ejemplo, el sensor de pasos contará los pasos al caminar o correr, no al andar en bicicleta. Tenga en cuenta que esto puede no ser exacto y puede ser lento. Los servicios de Google Play son necesarios.</string>
     <string name="meterModeFTPower">Potencia ft</string>
-    <string name="meterModeFTPowerShort">ftp</string>
+    <string name="meterModeFTPowerShort">pft</string>
     <string name="summaryProfileNameInfo">Perfil usado para grabar este recorrido.</string>
     <string name="summaryDeviceNameInfo">Dispositivo usado para grabar este recorrido.</string>
     <string name="summaryTotalWeightInfo">Suma de todos los pesos usados durante la grabación de este recorrido (atleta, vehículo, carga, ....).</string>
@@ -1291,4 +1291,44 @@
     <string name="buttonLater">Más tarde</string>
     <string name="toastSharingNoGpxError">Error, ningún fichero GPX en el recorrido</string>
     <string name="sensorProperitesUseForDuration">Usar para duración</string>
+    <string name="buttonShow">Mostrar</string>
+    <string name="menuMeterClockShowSeconds">Mostrar segundos</string>
+    <string name="controlPanelMapShowButtonTitle">Mostrar mapa</string>
+    <string name="controlPanelMapShowButtonSubtitle">Haga clic para mostrar el mapa</string>
+    <string name="controlPanelMapHideButtonTitle">Ocultar mapa</string>
+    <string name="controlPanelMapHideButtonSubtitle">Haga clic para ocultar el mapa</string>
+    <string name="controlPanelScreenshotButtonTitle">Captura de pantalla</string>
+    <string name="controlPanelScreenshotButtonSubtitle">Haga clic para compartir la captura de pantalla</string>
+    <string name="summaryClimbing">Escalada</string>
+    <string name="summaryClimbingEnergyInfo">Porcentaje de la energía que se utilizó para vencer la gravedad.</string>
+    <string name="summaryDragging">Arrastrando</string>
+    <string name="summaryDraggingEnergyInfo">Porcentaje de la energía que se utilizó para superar la resistencia al arrastre del aire.</string>
+    <string name="summaryAccelerating">Acelerador</string>
+    <string name="summaryAcceleratingEnergyInfo">Porcentaje de la energía que se utilizó para acelerar.</string>
+    <string name="summaryRolling">Rodadura</string>
+    <string name="summaryRollingEnergyInfo">Porcentaje de la energía que se utilizó para superar la resistencia a la rodadura.</string>
+    <string name="summaryBasal">Basal</string>
+    <string name="summaryBasalEnergyInfo">Porcentaje de la energía que se utilizó para el metabolismo basal.</string>
+    <string name="powerSourceWeightTitle">Peso de la fuente de energía</string>
+    <string name="powerSourceWeightInfo">Al convertir la potencia (vatios) en potencia específica (vatios por unidad de peso), se debe dar un peso.
+\n
+\nEste suele ser el peso de la entidad que proporciona una fuerza impulsora.
+\n
+\nNota: la potencia vertical siempre se calcula utilizando el peso total.</string>
+    <string name="powerSourceWeight_0">Total</string>
+    <string name="powerSourceWeight_1">Conductor</string>
+    <string name="powerSourceWeight_2">Vehículo</string>
+    <string name="powerSourceWeight_3">Conductor + Vehículo</string>
+    <string name="summaryDriverWeight">Peso del conductor</string>
+    <string name="summaryDriverWeightInfo">Peso del conductor (o ciclista) utilizado durante la grabación de esta pista.</string>
+    <string name="summaryVehicleWeight">Peso del vehiculo</string>
+    <string name="summaryVehicleWeightInfo">Peso del vehículo utilizado durante la grabación de esta pista.</string>
+    <string name="pref_soundeffects_autopause_title">Pausa automática</string>
+    <string name="pref_soundeffects_autopause_summary">Sonido en pausa automática y detección de reanudación</string>
+    <string name="pref_speechAutoPause_title">Pausa automática</string>
+    <string name="pref_speechAutoPause_summary">Hablar en pausa automática y reanudar la detección</string>
+    <string name="pref_speechGnssStatus_title">GPS</string>
+    <string name="pref_speechGnssStatus_summary">Hablar sobre el cambio de estado del GPS (bueno, malo)</string>
+    <string name="speechTrackingStart">Comienzo</string>
+    <string name="speechTrackingResume">Ir</string>
 </resources>
