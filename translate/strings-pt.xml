@@ -231,7 +231,7 @@
     <string name="dialogPowerWeightsWeightWheels">Rodas</string>
     <string name="dialogPowerParamsTitle">Coeficientes de perda de Potência</string>
     <string name="dialogPowerParamsDragArea">Área de Resistência Aerodinâmica (Cd·A)</string>
-    <string name="dialogPowerParamsRollResist">Coeficiente de Resistência ao Rolamento (Crr)</string>
+    <string name="dialogPowerParamsRollResist">Coef. de Resistência ao Rolamento (Crr)</string>
     <string name="dialogEnergyParamsTitle">Parâmetros de energia</string>
     <string name="dialogEnergyParamsEfficiency">Eficiência Termodinâmica Geral (η)</string>
     <string name="dialogEnergyParamsBmr">Taxa Metabólica Basal (TMB)</string>
@@ -330,33 +330,33 @@
     <string name="unitMegabyte">MB</string>
     <string name="valueTimesCount">×</string>
     <string name="meterModeSpeed">velocidade</string>
-    <string name="meterModeSpeedShort">Velocidade</string>
+    <string name="meterModeSpeedShort">Vel.</string>
     <string name="meterModeSpeedVertical">velocidade vertical</string>
-    <string name="meterModeSpeedVerticalShort">Velocid. Vertical</string>
+    <string name="meterModeSpeedVerticalShort">Vel. Vert.</string>
     <string name="meterModeSpeedAverage">velocidade média</string>
-    <string name="meterModeSpeedAverageShort">Velocidade Méd.</string>
+    <string name="meterModeSpeedAverageShort">Vel. Méd.</string>
     <string name="meterModePace">Ritmo</string>
     <string name="meterModePaceShort">Ritmo</string>
     <string name="meterModeDuration">Duração</string>
     <string name="meterModeDurationShort">Dur.</string>
     <string name="meterModeElapsedTime">Decorrido</string>
-    <string name="meterModeElapsedTimeShort">Decorr.</string>
+    <string name="meterModeElapsedTimeShort">Decor.</string>
     <string name="meterModeAltitude">altitude</string>
     <string name="meterModeAltitudeShort">Alt.</string>
     <string name="meterModeVerticalPower">Potência Vertical</string>
-    <string name="meterModeVerticalPowerShort">Pot. Vertical</string>
+    <string name="meterModeVerticalPowerShort">Pot. Vert.</string>
     <string name="meterModePower">potência</string>
-    <string name="meterModePowerShort">Potência</string>
+    <string name="meterModePowerShort">Pot.</string>
     <string name="meterModePowerAverage">potência média</string>
-    <string name="meterModePowerAverageShort">Potência Méd.</string>
+    <string name="meterModePowerAverageShort">Pot. Méd.</string>
     <string name="meterModeAcceleration">aceleração</string>
-    <string name="meterModeAccelerationShort">Aceler.</string>
+    <string name="meterModeAccelerationShort">Acel.</string>
     <string name="meterModeDistance">distância</string>
     <string name="meterModeDistanceShort">Dist.</string>
     <string name="meterModeOdo">odómetro</string>
     <string name="meterModeOdoShort">Odo.</string>
     <string name="meterModeEnergy">energia</string>
-    <string name="meterModeEnergyShort">Energia</string>
+    <string name="meterModeEnergyShort">Energ.</string>
     <string name="meterModeEfficacy">eficácia</string>
     <string name="meterModeEfficacyShort">Eficác.</string>
     <string name="meterModeTemperature">temperatura</string>
@@ -378,7 +378,7 @@
     <string name="meterModeHeartRate">frequência cardíaca</string>
     <string name="meterModeHeartRateShort">FC</string>
     <string name="meterModeGearRatio">Taxa da Transmissão</string>
-    <string name="meterModeGearRatioShort">Tx. Transmissão</string>
+    <string name="meterModeGearRatioShort">Tx. Trans.</string>
     <string name="bellRingAuto">auto</string>
     <string name="roarModeConstant">const</string>
     <string name="meterTextMin">Min</string>
@@ -421,7 +421,7 @@
     <string name="summaryWheelsWeight">Peso das Rodas</string>
     <string name="summaryEfficiency">Eficiência (η)</string>
     <string name="summaryDragArea">Área de Resistência Aerodinâmica</string>
-    <string name="summaryRollResistCoef">Coef. de Resistência ao Rolamento</string>
+    <string name="summaryRollResistCoef">Coef. de Resist. ao Rolamento</string>
     <string name="summaryBasalMetabolicRate">Taxa Metabólica Basal</string>
     <string name="summaryLocationInterval">Intervalo de Localização</string>
     <string name="summaryDeviceRestartsCount">Reiniciações Forçadas</string>
@@ -724,8 +724,8 @@
     <string name="pref_power_weights_title">Pesos</string>
     <string name="pref_power_weights_summary">Condutor: %1$s, Veículo: %2$s, Carga: %3$s, Passageiros: %4$s, Rodas: %5$s</string>
     <string name="pref_power_coefs_title">Coeficientes</string>
-    <string name="pref_power_coefs_summary">Resist. Aerodinâmica: %1$s 
-\nResist. ao Rolamento: %2$s</string>
+    <string name="pref_power_coefs_summary">Resist. Aero.: %1$s 
+\nResist. ao Rolam.: %2$s</string>
     <string name="pref_energy_params_title">Parâmetros de energia</string>
     <string name="pref_energy_params_summary">Eficiência Termodinâmica (η): %1$s
 \nMetabolismo: %2$s</string>
@@ -1218,8 +1218,8 @@
     <string name="pref_text_automatic">Automático</string>
     <string name="sensorProperitesActivityRecognition">Reconhecimento de atividade física</string>
     <string name="sensorProperitesActivityRecognitionInfo">O sensor fornecerá dados apenas quando a sua atividade física for reconhecida como compatível com a finalidade do sensor. Por exemplo, o Sensor de Passos conta os passos enquanto caminha ou corre, e não conta enquanto anda de bicicleta. Note que isso pode não ser exato e pode ser lento. Os Serviços do Google Play são necessários.</string>
-    <string name="meterModeFTPower">FTP - Pot. Lim. Func.</string>
-    <string name="meterModeFTPowerShort">FTP - Pot. Lim. Func.</string>
+    <string name="meterModeFTPower">FTP</string>
+    <string name="meterModeFTPowerShort">FTP</string>
     <string name="summaryProfileNameInfo">Perfil usado para gravar este percurso.</string>
     <string name="summaryDeviceNameInfo">Dispositivo usado para gravar este percurso.</string>
     <string name="summaryTotalWeightInfo">Soma de todos os pesos utilizados durante a gravação deste percurso (atleta, veículo, carga, ...).</string>
@@ -1237,12 +1237,12 @@
     <string name="summaryMechWork">Trabalho Mecânico</string>
     <string name="summaryMechWorkInfo">Trabalho puramente mecânico gasto para esta atividade (desconsiderando a eficiência térmica e a TMB).</string>
     <string name="summaryActivePower">Potência Ativa</string>
-    <string name="infoMeterModeFuncThresholdPowerTitle">FTP - Potência de Limiar Funcional</string>
+    <string name="infoMeterModeFuncThresholdPowerTitle">FTP - Limiar Funcional de Potência</string>
     <string name="infoMeterModeFuncThresholdPowerMsg">Potência máxima estimada que pode ser mantida por longos períodos de tempo. 
 \n 
 \nA estimativa depende muito do tipo e duração da atividade.</string>
     <string name="infoDigitalFilterNotice">Observação: isto pode ser atrasado em tempo real em mais ou menos um minuto, devido a inevitáveis atrasos na filtragem digital.</string>
-    <string name="meterModes_29">FTP - Potência de Limiar Funcional</string>
+    <string name="meterModes_29">FTP - Limiar Funcional de Potência</string>
     <string name="controlPanelMapSettingsButtonTitle">Opções do mapa</string>
     <string name="controlPanelMapSettingsButtonSubtitle">Clicar para opções do mapa</string>
     <string name="pref_screenWaveDim_title">Ecrã escurecido</string>
