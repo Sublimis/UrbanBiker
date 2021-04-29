@@ -1122,7 +1122,7 @@
     <string name="speechAscent">Ascenso: %1$s</string>
     <string name="speechDescent">Descenso: %1$s</string>
     <string name="speechClock">Reloj: %1$s</string>
-    <string name="speechTrackingPause">Pausado</string>
+    <string name="speechTrackingPause">En pausa</string>
     <string name="speechTrackingStop">Parado</string>
     <string name="speechTrackingGpsOk">GPS OK</string>
     <string name="speechTrackingGpsWeak">Sin GPS</string>
@@ -1216,7 +1216,7 @@
     <string name="sensorProperitesActivityRecognition">Reconocimiento de la actividad física</string>
     <string name="sensorProperitesActivityRecognitionInfo">El sensor proporcionará datos solo cuando se reconozca que su actividad física es compatible con el propósito del mismo. Por ejemplo, el sensor de pasos contará los pasos al caminar o correr, no al andar en bicicleta. Tenga en cuenta que esto puede no ser exacto y puede ser lento. Los servicios de Google Play son necesarios.</string>
     <string name="meterModeFTPower">Potencia ft</string>
-    <string name="meterModeFTPowerShort">pft</string>
+    <string name="meterModeFTPowerShort">ftp</string>
     <string name="summaryProfileNameInfo">Perfil usado para grabar este recorrido.</string>
     <string name="summaryDeviceNameInfo">Dispositivo usado para grabar este recorrido.</string>
     <string name="summaryTotalWeightInfo">Suma de todos los pesos usados durante la grabación de este recorrido (atleta, vehículo, carga, ....).</string>
@@ -1299,11 +1299,11 @@
     <string name="controlPanelMapHideButtonSubtitle">Haga clic para ocultar el mapa</string>
     <string name="controlPanelScreenshotButtonTitle">Captura de pantalla</string>
     <string name="controlPanelScreenshotButtonSubtitle">Haga clic para compartir la captura de pantalla</string>
-    <string name="summaryClimbing">Escalada</string>
+    <string name="summaryClimbing">Ascenso</string>
     <string name="summaryClimbingEnergyInfo">Porcentaje de la energía que se utilizó para vencer la gravedad.</string>
-    <string name="summaryDragging">Arrastrando</string>
-    <string name="summaryDraggingEnergyInfo">Porcentaje de la energía que se utilizó para superar la resistencia al arrastre del aire.</string>
-    <string name="summaryAccelerating">Acelerador</string>
+    <string name="summaryDragging">Resistencia aerodinámica</string>
+    <string name="summaryDraggingEnergyInfo">Porcentaje de la energía que se utilizó para superar la resistencia aerodinámica.</string>
+    <string name="summaryAccelerating">Aceleración</string>
     <string name="summaryAcceleratingEnergyInfo">Porcentaje de la energía que se utilizó para acelerar.</string>
     <string name="summaryRolling">Rodadura</string>
     <string name="summaryRollingEnergyInfo">Porcentaje de la energía que se utilizó para superar la resistencia a la rodadura.</string>
@@ -1320,15 +1320,15 @@
     <string name="powerSourceWeight_2">Vehículo</string>
     <string name="powerSourceWeight_3">Conductor + Vehículo</string>
     <string name="summaryDriverWeight">Peso del conductor</string>
-    <string name="summaryDriverWeightInfo">Peso del conductor (o ciclista) utilizado durante la grabación de esta pista.</string>
-    <string name="summaryVehicleWeight">Peso del vehiculo</string>
+    <string name="summaryDriverWeightInfo">Peso del conductor (o ciclista) utilizado durante la grabación del recorrido.</string>
+    <string name="summaryVehicleWeight">Peso del vehículo</string>
     <string name="summaryVehicleWeightInfo">Peso del vehículo utilizado durante la grabación de esta pista.</string>
     <string name="pref_soundeffects_autopause_title">Pausa automática</string>
     <string name="pref_soundeffects_autopause_summary">Sonido en pausa automática y detección de reanudación</string>
     <string name="pref_speechAutoPause_title">Pausa automática</string>
-    <string name="pref_speechAutoPause_summary">Hablar en pausa automática y reanudar la detección</string>
+    <string name="pref_speechAutoPause_summary">Hablar al detectar pausa automática y reanudar la detención</string>
     <string name="pref_speechGnssStatus_title">GPS</string>
-    <string name="pref_speechGnssStatus_summary">Hablar sobre el cambio de estado del GPS (bueno, malo)</string>
-    <string name="speechTrackingStart">Comienzo</string>
-    <string name="speechTrackingResume">Ir</string>
+    <string name="pref_speechGnssStatus_summary">Hablar cuando cambie de estado del GPS (bueno, malo)</string>
+    <string name="speechTrackingStart">En curso</string>
+    <string name="speechTrackingResume">Adelante</string>
 </resources>
