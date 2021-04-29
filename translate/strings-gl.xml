@@ -50,7 +50,7 @@
     <string name="buttonNewTrack">Finalizar</string>
     <string name="menuControlPanel">Panel de control</string>
     <string name="menuSettings">Preferencias</string>
-    <string name="menuSummary">Resumo en directo</string>
+    <string name="menuSummary">Resumo xeral</string>
     <string name="menuTracksHistory">Rexistro</string>
     <string name="menuTracksHistoryResume">Continuar</string>
     <string name="menuMeterLock">Bloquear</string>
@@ -1256,4 +1256,44 @@
     <string name="buttonLater">Mais tarde</string>
     <string name="toastSharingNoGpxError">Erro, ningún ficheiro GPX no percorrido</string>
     <string name="sensorProperitesUseForDuration">Empregar para duración</string>
+    <string name="buttonShow">Mostrar</string>
+    <string name="menuMeterClockShowSeconds">Mostrar segundos</string>
+    <string name="controlPanelMapShowButtonTitle">Mostrar mapa</string>
+    <string name="controlPanelMapShowButtonSubtitle">Fai clic para amosar o mapa</string>
+    <string name="controlPanelMapHideButtonTitle">Ocultar mapa</string>
+    <string name="controlPanelMapHideButtonSubtitle">Fai clic para ocultar o mapa</string>
+    <string name="controlPanelScreenshotButtonTitle">Captura de pantalla</string>
+    <string name="controlPanelScreenshotButtonSubtitle">Fai clic para compartir a captura de pantalla</string>
+    <string name="summaryClimbing">Escalada</string>
+    <string name="summaryClimbingEnergyInfo">Porcentaxe de enerxía que se usou para superar a gravidade.</string>
+    <string name="summaryDragging">Resistencia aerodinámica</string>
+    <string name="summaryDraggingEnergyInfo">Porcentaxe de enerxía que se usou para superar o arrastre aerodinámico.</string>
+    <string name="summaryAccelerating">Aceleración</string>
+    <string name="summaryAcceleratingEnergyInfo">Porcentaxe de enerxía que se usou para acelerar.</string>
+    <string name="summaryRolling">Rodadura</string>
+    <string name="summaryRollingEnergyInfo">Porcentaxe de enerxía que se usou para superar a resistencia o rodamento.</string>
+    <string name="summaryBasal">Basal</string>
+    <string name="summaryBasalEnergyInfo">Porcentaxe de enerxía que se usou para o metabolismo basal.</string>
+    <string name="powerSourceWeightTitle">Peso da fonte de enerxía</string>
+    <string name="powerSourceWeightInfo">Ao converter potencia (vatios) a potencia específica (vatios por unidade de peso), débese dar un peso.
+\n
+\nEste é normalmente o peso da entidade que proporciona a forza motriz.
+\n
+\nNota: a potencia vertical sempre é calculada usando o peso total.</string>
+    <string name="powerSourceWeight_0">Total</string>
+    <string name="powerSourceWeight_1">Conductor</string>
+    <string name="powerSourceWeight_2">Vehículo</string>
+    <string name="powerSourceWeight_3">Conductor + Vehículo</string>
+    <string name="summaryDriverWeight">Peso do condutor</string>
+    <string name="summaryDriverWeightInfo">Peso do condutor (ou piloto) usado durante a gravación do percorrido.</string>
+    <string name="summaryVehicleWeight">Peso do vehículo</string>
+    <string name="summaryVehicleWeightInfo">Peso do vehículo usado durante a gravación do percorrido.</string>
+    <string name="pref_soundeffects_autopause_title">Pausa automática</string>
+    <string name="pref_soundeffects_autopause_summary">Sonido ao detectar pausa automática ou reanudación</string>
+    <string name="pref_speechAutoPause_title">Pausa automática</string>
+    <string name="pref_speechAutoPause_summary">Falar ao detectar a pausa automática e retoma a parada</string>
+    <string name="pref_speechGnssStatus_title">GPS</string>
+    <string name="pref_speechGnssStatus_summary">Fala cando cambia o estado do GPS (bo, malo)</string>
+    <string name="speechTrackingStart">En progreso</string>
+    <string name="speechTrackingResume">Adiante</string>
 </resources>
