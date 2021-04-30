@@ -13,7 +13,7 @@
     <string name="proLicenseDescription">Entfernt Werbung</string>
     <string name="proPlusLicenseTitle">Pro Plus-Lizenz</string>
     <string name="proPlusLicenseDescription">Entfernt Werbung und entsperrt alle nicht abo-basierten Funktionen, die in Zukunft hinzugefügt werden könnten</string>
-    <string name="ultimateLicenseTitle">Ultimate Lizenz</string>
+    <string name="ultimateLicenseTitle">Ultimate-Lizenz</string>
     <string name="ok">OK</string>
     <string name="yes">Ja</string>
     <string name="no">Nein</string>
@@ -23,7 +23,7 @@
     <string name="buttonNewTrack">Beenden</string>
     <string name="menuControlPanel">Schnelleinstellungen</string>
     <string name="menuSettings">Einstellungen</string>
-    <string name="menuSummary">Live-Zusammenfassung</string>
+    <string name="menuSummary">Übersicht</string>
     <string name="menuTracksHistory">Verlauf</string>
     <string name="menuTracksHistoryResume">Fortsetzen</string>
     <string name="menuMeterLock">Sperren</string>
@@ -487,7 +487,7 @@
     <string name="pref_category_locationProvider_title">GPS-Provider</string>
     <string name="pref_category_altitude_adjustments_title">Höhen</string>
     <string name="pref_category_temperature_title">Temperatur</string>
-    <string name="pref_category_pressure_title">Druck</string>
+    <string name="pref_category_pressure_title">Integrierter Drucksensor</string>
     <string name="pref_category_sensors_title">Sensoren</string>
     <string name="pref_category_mapsQuickZoom">Schnell-Zoom</string>
     <string name="prefAllProfilesInfoSummary">Diese Einstellungen werden auf alle Profile angewendet.</string>
@@ -677,14 +677,14 @@
     <string name="pref_haptic_feedback_intensity_title">Vibrationsdauer</string>
     <string name="pref_soundsMasterSwitch_title">Alle Töne</string>
     <string name="prefBarometricAltitudeTitle">Barometrische Höhe</string>
-    <string name="prefBarometricAltitudeSummary">Das geräteeigene Barometer zur Verbesserung der Genauigkeit der Höhenmessung verwenden</string>
+    <string name="prefBarometricAltitudeSummary">Drucksensordaten zur Verbesserung der Genauigkeit der Höhenmessung verwenden</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Thermo-Barometer</string>
     <string name="prefBaroAltitudeUsesTemperatureSummary">Daten des Temperatursensors für genauere barometrische Höhenmessung nutzen</string>
     <string name="prefBarometricAltitudeNoteSummary">Benutze diese Funktionen nur unter freiem Himmel! In unter Druck stehenden, geschlossenen oder klimatisierten Fahrzeugen wie Autos oder Flugzeugen solltest du sie deaktivieren!</string>
     <string name="prefTemperatureSensorDerivedTitle">Abgeleiteten Sensor nutzen</string>
     <string name="prefTemperatureSensorDerivedSummary">Dieses Gerät hat keinen Temperatursensor, die Temperatur kann aber aus anderen Sensorwerten abgeleitet werden. Bitte in der Hilfe nachlesen.</string>
-    <string name="prefPressureSensorOffsetTitle">Barometer-Anpassung</string>
-    <string name="prefPressureSensorOffsetInfo">Dieser konstante Wert wird zu den ausgelesenen Barometer-Werten hinzuaddiert und kann verwendet werden, um eventuelle Barometer-Ungenauigkeiten auszugleichen</string>
+    <string name="prefPressureSensorOffsetTitle">Druck-Anpassung</string>
+    <string name="prefPressureSensorOffsetInfo">Dieser konstante Wert wird zu den ausgelesenen Drucksensor-Werten hinzuaddiert und kann verwendet werden, um eventuelle Ungenauigkeiten des Sensors auszugleichen.</string>
     <string name="prefNotificationAlwaysTitle">Dauerhafte Benachrichtigung</string>
     <string name="prefNotificationAlwaysSummary">Die App-Benachrichtigung in der Statuszeile auch dann anzeigen, wenn die Aufzeichnung nicht aktiv ist.</string>
     <string name="infoMeterModeDistanceTitle">Entfernung</string>
@@ -995,8 +995,8 @@
 \nNegative Werte bedeuten Leistungsgewinn (Abfahrt). 
 \n 
 \nIn den Einheiten kcal/h oder kJ/h gemessene Werte berücksichtigen auch die Effektivität.</string>
-    <string name="infoMeterModeTemperatureMsg">Durch das Gerät gemessene Umgebungstemperatur.</string>
-    <string name="infoMeterModePressureMsg">Durch das Gerät gemessener Luftdruck.</string>
+    <string name="infoMeterModeTemperatureMsg">Durch das Gerät oder einen externen Sensor gemessene Umgebungstemperatur.</string>
+    <string name="infoMeterModePressureMsg">Durch das Gerät oder einen externen Sensor gemessener Luftdruck.</string>
     <string name="infoMeterModeCadenceMsg">Anzahl der Kurbelumdrehungen pro Minute.</string>
     <string name="infoMeterModeGearRatioTitle">Übersetzung</string>
     <string name="infoMeterModeGearRatioMsg">Verhältnis von Rad- und Pedalumdrehungen, d.h. Verhältnis der Größe des vorderen und hinteren Zahnkranzes. Je größer die Zahl ist, desto höher ist der gewählte Gang.</string>
@@ -1177,9 +1177,9 @@
     <string name="sensorProperitesEnableFilteringInfo">Wenn diese Option aktiviert ist, werden zusätzliche Filterschritte auf die Sensordaten angewendet. Dies kann die Genauigkeit verbessern, wird allerdings die Sensorverzögerung um einige Sekunden erhöhen. Standardmäßig deaktiviert.</string>
     <string name="pref_soundeffects_tally_steps_title">Schritte</string>
     <string name="pref_soundeffects_tally_steps_dialog_title">Schritt-Zwischenstand</string>
-    <string name="prefProhibitLocationAlertInfo">Die Standortbestimmung wird während sämtlicher Aktivitäten weder eingeschaltet noch verwendet, daher ist die Kartenfunktion nicht verfügbar.
-\n
-\nBewegungsdaten werden ausschließlich über die Bewegungs- und Körpersensoren ermittelt (Leistung, Geschwindigkeit, Trittfrequenz, Puls, Schritte).</string>
+    <string name="prefProhibitLocationAlertInfo">Die Standortbestimmung wird während sämtlicher Aktivitäten weder eingeschaltet noch verwendet, daher ist die Kartenfunktion nicht verfügbar. 
+\n 
+\nBewegungsdaten werden ausschließlich über andere verfügbare Sensoren (Leistung, Geschwindigkeit, Trittfrequenz, Puls, Schritte, Umgebung) ermittelt.</string>
     <string name="infoMeterModeStepCadenceTitle">Schrittfrequenz</string>
     <string name="infoMeterModeStepCadenceMsg">Anzahl an Schritten pro Minute.</string>
     <string name="infoMeterModeStepCountTitle">Schritte</string>
@@ -1251,4 +1251,88 @@
     <string name="cloudAccountsPowerUploadPolicyTitle">Leistungsdaten-Upload</string>
     <string name="cloudAccountsPowerUploadPolicy_0">Immer (Standard)</string>
     <string name="cloudAccountsPowerUploadPolicy_1">Nur bei Verwendung eines Leistungsmeßgerätes</string>
+    <string name="hereMapsFeatures">🔹 HERE-Karten
+\n🔹 Keine Werbung</string>
+    <string name="dialogMapsMapCount">%1$s Karten</string>
+    <string name="maptilerMapsFeatures">🔹 MapTiler-Karten
+\n🔹 Keine Werbung</string>
+    <string name="dialogMapsChooseTitle">Karte auswählen</string>
+    <string name="meterModes_30">Radius</string>
+    <string name="sensorProperitesFilterIntervalInfo">Filterintervall, d.h. die Stärke des Filters. Größere Werte filtern stärker, führen aber auch zu einer größeren Verzögerung.</string>
+    <string name="sensorFilterInterval_0">3 Sekunden (Standard)</string>
+    <string name="sensorFilterInterval_1">5 Sekunden</string>
+    <string name="sensorFilterInterval_2">7 Sekunden</string>
+    <string name="sensorFilterInterval_3">10 Sekunden</string>
+    <string name="dialogChartDataTypesTitle">Diagrammtypen</string>
+    <string name="dialogLoginUsernameHint">Benutzername</string>
+    <string name="dialogLoginPasswordHint">Passwort</string>
+    <string name="dialogCloudAccountDisconnectMessage">Soll die Kontoverbindung wirklich getrennt werden\?</string>
+    <string name="meterModeHumidity">Luftfeuchtigkeit</string>
+    <string name="meterModeHumidityShort">LF</string>
+    <string name="meterModeRadius">Radius</string>
+    <string name="meterModeRadiusShort">Rad</string>
+    <string name="veloHeroConnectButton">Mit Velo Hero verbinden</string>
+    <string name="chartsTitle">Diagramme</string>
+    <string name="tracksHistoryChartEmptyInfo">Keine Daten verfügbar</string>
+    <string name="sensorPurposePressure">Druck</string>
+    <string name="sensorPurposeTemperature">Temperatur</string>
+    <string name="sensorPurposeHumidity">Luftfeuchtigkeit</string>
+    <string name="sensorProperitesUseForPressure">Für Druck verwenden</string>
+    <string name="sensorProperitesUseForTemperature">Für Temperatur verwenden</string>
+    <string name="sensorProperitesUseForHumidity">Für Luftfeuchtigkeit verwenden</string>
+    <string name="pref_category_tracking_charts_title">Diagramme</string>
+    <string name="pref_soundeffects_tally_radius_title">Radius</string>
+    <string name="pref_soundeffects_tally_radius_dialog_title">Radius-Zwischenstand</string>
+    <string name="pref_track_charts_title">Diagrammtypen…</string>
+    <string name="pref_track_charts_summary">Wähle, welche Aktivitätsparameter bei der Aufzeichnung als Diagramme mit gespeichert werden sollen. Geschwindigkeit und Höhe werden immer gespeichert.</string>
+    <string name="infoMeterModeHumidityTitle">Luftfeuchtigkeit</string>
+    <string name="infoMeterModeHumidityMsg">Durch das Gerät oder einen externen Sensor gemessene Umgebungsluftfeuchte.</string>
+    <string name="infoMeterModeRadiusTitle">Radius</string>
+    <string name="infoMeterModeRadiusMsg">Luftlinien-Entfernung vom Startpunkt der Strecke.</string>
+    <string name="meterModes_None">Keine Anzeige</string>
+    <string name="meterModes_31">Luftfeuchtigkeit</string>
+    <string name="speechRadius">Radius: %1$s</string>
+    <string name="buttonLater">Später</string>
+    <string name="toastSharingNoGpxError">Fehler: Strecke enthält keine GPX-Datei</string>
+    <string name="sensorProperitesUseForDuration">Für Zeitdauer verwenden</string>
+    <string name="buttonShow">Anzeigen</string>
+    <string name="menuMeterClockShowSeconds">Sekunden anzeigen</string>
+    <string name="controlPanelMapShowButtonTitle">Karte anzeigen</string>
+    <string name="controlPanelMapShowButtonSubtitle">Hier berühren, um die Karte anzuzeigen</string>
+    <string name="controlPanelMapHideButtonTitle">Karte verbergen</string>
+    <string name="controlPanelMapHideButtonSubtitle">Hier berühren, um die Karte zu verbergen</string>
+    <string name="controlPanelScreenshotButtonTitle">Bildschirmfoto</string>
+    <string name="controlPanelScreenshotButtonSubtitle">Hier berühren, um ein Bildschirmfoto zu teilen</string>
+    <string name="summaryClimbing">Anstieg</string>
+    <string name="summaryClimbingEnergyInfo">Für das Überwinden der Erdanziehung aufgewendeter Energieanteil.</string>
+    <string name="summaryDragging">Luftwiderstand</string>
+    <string name="summaryDraggingEnergyInfo">Für das Überwinden des Luftwiderstandes aufgewendeter Energieanteil.</string>
+    <string name="summaryAccelerating">Beschleunigung</string>
+    <string name="summaryAcceleratingEnergyInfo">Für beschleunigung aufgewendeter Energieanteil.</string>
+    <string name="summaryRolling">Rollen</string>
+    <string name="summaryRollingEnergyInfo">Für das Überwinden des Rollwiderstandes aufgewendeter Energieanteil.</string>
+    <string name="summaryBasal">Grundumsatz</string>
+    <string name="summaryBasalEnergyInfo">Für den Grundumsatz des Stoffwechsels aufgewendeter Energieanteil.</string>
+    <string name="powerSourceWeightTitle">Gewicht der Energiequelle</string>
+    <string name="powerSourceWeightInfo">Für die Übersetzung von Leistung (Watt) zu spezifischer Leistung (Watt pro kg) wird ein Gewicht benötigt.
+\n
+\nÜblicherweise ist dies das Gewicht der Person oder des Gerätes, die/das die Antriebskraft aufbringt.
+\n
+\nHinweis: Für die Berechnung der vertikalen Leistung wird immer das Gesamtgewicht verwendet.</string>
+    <string name="powerSourceWeight_0">Gesamt</string>
+    <string name="powerSourceWeight_1">Fahrer</string>
+    <string name="powerSourceWeight_2">Fahrzeug</string>
+    <string name="powerSourceWeight_3">Fahrer + Fahrzeug</string>
+    <string name="summaryDriverWeight">Gewicht des Fahrers</string>
+    <string name="summaryDriverWeightInfo">Gewicht des Fahrers, das während der Aufzeichnung berücksichtigt wurde.</string>
+    <string name="summaryVehicleWeight">Fahrzeuggewicht</string>
+    <string name="summaryVehicleWeightInfo">Gewicht des auf dieser Strecke verwendeten Fahrzeugs.</string>
+    <string name="pref_soundeffects_autopause_title">Automatisches Pausieren</string>
+    <string name="pref_soundeffects_autopause_summary">Ton bei automatischer Erkennung von Pause und Weiterfahrt</string>
+    <string name="pref_speechAutoPause_title">Automatisches Pausieren</string>
+    <string name="pref_speechAutoPause_summary">Automatische Erkennung von Pause und Weiterfahrt ansagen</string>
+    <string name="pref_speechGnssStatus_title">GPS</string>
+    <string name="pref_speechGnssStatus_summary">Änderungen in GPS-Signalqualität ansagen</string>
+    <string name="speechTrackingStart">Start</string>
+    <string name="speechTrackingResume">Los</string>
 </resources>
