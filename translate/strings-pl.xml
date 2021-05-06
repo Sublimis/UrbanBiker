@@ -78,9 +78,9 @@
     <string name="toastTrackingStopped">Zatrzymany</string>
     <string name="toastFenceGuardFenceAdded">Obszar chroniony: Obszar %1$s dodany</string>
     <string name="toastFenceGuardFenceAddingError">Obszar chroniony: Błąd dodania ogrodzenia</string>
-    <string name="toastFenceGuardFenceUpdated">Obszar chroniony: Obszar %1$s uaktualniony%1$s uaktualniony</string>
+    <string name="toastFenceGuardFenceUpdated">Obszar chroniony: Obszar %1$s uaktualniony</string>
     <string name="toastFenceGuardFenceUpdatingError">Obszar chroniony: Błąd aktualizacji ogrodzenia</string>
-    <string name="toastFenceGuardFenceRemoved">Obszar chroniony: Obszar %1$s usunięty%1$s usunięty</string>
+    <string name="toastFenceGuardFenceRemoved">Obszar chroniony: Obszar %1$s usunięty</string>
     <string name="toastFenceGuardFenceRemovingError">Obszar chroniony: Błąd usuwania ogrodzenia</string>
     <string name="toastFenceGuardOutsideTheFence">Obszar chroniony: Jesteś obecnie poza ogrodzeniem</string>
     <string name="toastFenceGuardLocationUnavailable">Obszar chroniony: Twoja lokalizacja jest nadal niedostępna</string>
@@ -109,8 +109,7 @@
     <string name="toastSensorEnabled">Czujnik włączony</string>
     <string name="toastSensorDisabled">Czujnik wyłączony</string>
     <string name="toastAutoThemeActivated">Automatyczny motyw wizualny aktywowany</string>
-    <string name="notificationTitleAdvancedPaused">Pauza: %1$s%1$s
-    </string>
+    <string name="notificationTitleAdvancedPaused">Pauza: %1$s</string>
     <string name="licenseSuccessDialogMessage">Appka została pomyślnie licencjonowana. Dziękujemy za wsparcie!</string>
     <string name="ongoingNotificationChannelName">Trwające powiadomienie</string>
     <string name="ongoingNotificationChannelDescription">Kontrola nad usługą zawsze na wierzchu i łatwy dostęp do aplikacji</string>
@@ -134,8 +133,12 @@
     <string name="dialog_fenceguard_update_text2">Ogrodzenie utworzone wokół Twojej lokalizacji chroni ją ujawnieniem na nagranych trasach.</string>
     <string name="dialog_fenceguard_remove_title">Usuń Ogrodzenie</string>
     <string name="dialog_fenceguard_remove_defaultText">Czy na pewno chcesz usunąć Ogrodzenie\?</string>
-    <string name="dialog_fenceguard_remove_formatText">Czy na pewno usunąć granice obszaru %1$s\?%1$s\?</string>
-    <string name="dialog_track_save_text">Dystans: %1$.3f %2$sCzas %3$s (%4$s)Trasa wydaje się być bardzo krótka. Zapisać\?</string>
+    <string name="dialog_fenceguard_remove_formatText">Czy na pewno usunąć granice obszaru %1$s\?</string>
+    <string name="dialog_track_save_text">Dystans: %1$.3f %2$s
+\nCzas %3$s
+\n(%4$s)
+\n
+\nTrasa wydaje się być bardzo krótka. Zapisać\?</string>
     <string name="dialog_exit_msg">Uwaga: Śledzenie jest aktywne i będzie zatrzymane.</string>
     <string name="dialogProfileDeleteTitle">Usuń profil</string>
     <string name="dialogProfileDeleteMessage">Ostrzeżenie: Ta operacja usunie wszystkie ustawienia i dane profilu. Zapisane trasy nie zostaną usunięte.
@@ -1249,7 +1252,7 @@
     <string name="cloudAccountsPowerUploadPolicyTitle">Zasady przesyłania danych dotyczących zasilania</string>
     <string name="cloudAccountsPowerUploadPolicy_0">Zawsze (domyślnie)</string>
     <string name="cloudAccountsPowerUploadPolicy_1">Przesyłaj dane mocy tylko wtedy, gdy używany był miernik mocy</string>
-    <string name="dialogMapsMapCount">Mapy% 1 $ s</string>
+    <string name="dialogMapsMapCount">Mapy %1$s</string>
     <string name="maptilerMapsFeatures">Układanie map
 \nBez reklam</string>
     <string name="dialogMapsChooseTitle">Wybierz mapę</string>
