@@ -65,8 +65,7 @@
     <string name="featureNotAvailable">Spiacenti, la caratteristica non è disponibile in questo dispositivo</string>
     <string name="farFromHere">Lontano da qui</string>
     <string name="toastRestartRequired">Riavvia l\'applicazione affinché questa azione abbia effetto</string>
-    <string name="toastActiveProfile">Profilo: %1$s%1$s
-    </string>
+    <string name="toastActiveProfile">Profilo: %1$s</string>
     <string name="toastProfileSavingError">Errore durante il salvataggio dei dati del profilo! Riprova.</string>
     <string name="toastProfileChangeError">Impossibile cambiare il profilo! Riprova.</string>
     <string name="toastGpsEnabled">GPS acceso</string>
@@ -81,11 +80,11 @@
     <string name="toastTrackingRecordingPassive">Registrazione passiva</string>
     <string name="toastTrackingPaused">In pausa</string>
     <string name="toastTrackingStopped">Fermato</string>
-    <string name="toastFenceGuardFenceAdded">Barriera difensiva: barriera %1$s aggiunta%1$s aggiunta</string>
+    <string name="toastFenceGuardFenceAdded">Barriera difensiva: barriera %1$s aggiunta</string>
     <string name="toastFenceGuardFenceAddingError">Barriera difensiva: errore durante l\'aggiunta di una barriera</string>
     <string name="toastFenceGuardFenceUpdated">Barriera difensiva: barriera %1$s aggiornata</string>
     <string name="toastFenceGuardFenceUpdatingError">Barriera difensiva: errore durante l\'aggiornamento della barriera</string>
-    <string name="toastFenceGuardFenceRemoved">Barriera difensiva: barriera %1$s rimossa%1$s rimossa</string>
+    <string name="toastFenceGuardFenceRemoved">Barriera difensiva: barriera %1$s rimossa</string>
     <string name="toastFenceGuardFenceRemovingError">Barriera difensiva: errore durante la rimozione della barriera</string>
     <string name="toastFenceGuardOutsideTheFence">Barriera difensiva: non sei al momento dentro la barriera</string>
     <string name="toastFenceGuardLocationUnavailable">Barriera difensiva: la tua posizione non è ancora disponibile</string>
@@ -121,8 +120,7 @@
     <string name="toastSensorDisabled">Sensore disabilitato</string>
     <string name="toastAutoThemeActivated">Tema di visuale automatica attivato</string>
     <string name="toastCancelled">Annullato</string>
-    <string name="notificationTitleAdvancedPaused">In pausa: %1$s%1$s
-    </string>
+    <string name="notificationTitleAdvancedPaused">In pausa: %1$s</string>
     <string name="licenseSuccessDialogMessage">L\'app ha caricato correttamente la licenza. Grazie per il supporto!</string>
     <string name="ongoingNotificationChannelName">Notifica in corso</string>
     <string name="ongoingNotificationChannelDescription">Fornisce il controllo dei servizi in primo piano e un facile accesso all\'app</string>
@@ -147,22 +145,17 @@
     <string name="dialog_fenceguard_update_text2">La barriera eretta rende la tua posizione invisibile nei percorsi registrati.</string>
     <string name="dialog_fenceguard_remove_title">Rimuovi barriera</string>
     <string name="dialog_fenceguard_remove_defaultText">Vuoi davvero rimuovere la barriera\?</string>
-    <string name="dialog_fenceguard_remove_formatText">Vuoi davvero rimuovere la barriera %1$s\?%1$s\?</string>
-    <string name="dialog_track_save_text">Distanza %1$.3f %2$s
-\nDurata %3$s
-\n(%4$s)
-\n
-\nIl percorso sembra molto breve. Salvarlo\?%1$.3f %2$s
-\nDurata %3$s
-\n
-        (%4$s)
-\n
-\nIl percorso sembra molto breve. Salvare\?</string>
+    <string name="dialog_fenceguard_remove_formatText">Vuoi davvero rimuovere la barriera %1$s\?</string>
+    <string name="dialog_track_save_text">Distanza %1$.3f %2$s 
+\nDurata %3$s 
+\n(%4$s) 
+\n 
+\nIl percorso sembra molto breve. Salvarlo\?</string>
     <string name="dialog_exit_msg">Attenzione: la tracciatura è attiva e sarà fermata.</string>
     <string name="dialogProfileDeleteTitle">Elimina il profilo</string>
-    <string name="dialogProfileDeleteMessage">Attenzione: questa azione rimuoverà le impostazioni del profilo e i dati dei totali. I percorsi salvati non verranno modificati.
-\n
-\nEliminare il profilo %1$s\?%1$s\?</string>
+    <string name="dialogProfileDeleteMessage">Attenzione: questa azione rimuoverà le impostazioni del profilo e i dati dei totali. I percorsi salvati non verranno modificati. 
+\n 
+\nEliminare il profilo %1$s\?</string>
     <string name="dialogProfileAddTitle">Nuovo profilo</string>
     <string name="dialogProfileAddInfo">Il nuovo profilo copierà le impostazioni dal profilo attualmente attivo</string>
     <string name="dialogProfileEditTitle">Modifica il profilo</string>
@@ -174,15 +167,15 @@
     <string name="dialogTracksDeleteMessage">Attenzione: quest\'azione non può essere annullata.
 \n
 \nEliminare i percorsi selezionati\?</string>
-    <string name="dialogTrackDeleteMessage">Attenzione: questa azione non può essere annullata.
-\n
-\nEliminare il percorso %1$s\?%1$s\?</string>
+    <string name="dialogTrackDeleteMessage">Attenzione: questa azione non può essere annullata. 
+\n 
+\nEliminare il percorso %1$s\?</string>
     <string name="dialogTrackResumeTitle">Riprendi percorso</string>
     <string name="dialogTrackResumeGpsActiveMessage">La tracciatura è attiva. Spegni o metti in pausa prima il GPS.</string>
-    <string name="dialogTrackResumeProfileNotBlankMessage">Il profilo di destinazione %1$s non è vuoto. Prima azzeralo.%1$s non è vuoto. Prima azzeralo.</string>
-    <string name="dialogTrackResumeProfileSwitchMessage">Il profilo attivo passerà da %1$s a %2$s. Continuare\?%1$s a %2$s. Continuare\?</string>
-    <string name="dialogTrackResumeProfileMissingMessage">Il profilo %1$s che ha creato questo percorso non esiste più. Riprendere nell\'attuale profilo %2$s\?%1$s che ha creato questo percorso non esiste più. Riprendere nell\'attuale profilo %2$s\?</string>
-    <string name="dialogTrackResumeGeneralPromptMessage">Il percorso riprenderà nel profilo %1$s. Continuare\?%1$s. Continuare\?</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">Il profilo di destinazione %1$s non è vuoto. Prima azzeralo.</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">Il profilo attivo passerà da %1$s a %2$s. Continuare\?</string>
+    <string name="dialogTrackResumeProfileMissingMessage">Il profilo %1$s che ha creato questo percorso non esiste più. Riprendere nell\'attuale profilo %2$s\?</string>
+    <string name="dialogTrackResumeGeneralPromptMessage">Il percorso riprenderà nel profilo %1$s. Continuare\?</string>
     <string name="dialogTrackResumeGeneralErrorMessage">Si è verificato un errore. Riprovare.</string>
     <string name="dialogTrackResumeWaitMessage">Ripresa in corso, attendere…</string>
     <string name="dialogTracksShareTitle">Condividi percorsi</string>
@@ -408,8 +401,7 @@
     <string name="profilesListTitle">Profili</string>
     <string name="profilesListTitleSelectProfile">Cambia profilo</string>
     <string name="profilesListAddProfile">Nuovo profilo</string>
-    <string name="profilesListRowTotalsSince">Totali da: %1$s%1$s
-    </string>
+    <string name="profilesListRowTotalsSince">Totali da: %1$s</string>
     <string name="profilesListButtonResetTotals">Azzera totali</string>
     <string name="profilesListProfileNotUsed">(non utilizzato)</string>
     <string name="cloudAccountsTitle">Account</string>
@@ -663,9 +655,7 @@
     <string name="pref_soundeffects_countdown_title">Conto alla rovescia</string>
     <string name="pref_soundeffects_countdown_summary">Suono al conto alla rovescia prima di riprendere il tragitto (…3, 2, 1, VIA!)</string>
     <string name="pref_soundeffects_tally_title">Attiva</string>
-    <string name="pref_soundeffects_tally_value_summary">Ogni %1$s %2$s%1$s
-        %2$s
-    </string>
+    <string name="pref_soundeffects_tally_value_summary">Ogni %1$s %2$s</string>
     <string name="pref_soundeffects_tally_distance_title">Distanza</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">Conteggio distanza</string>
     <string name="pref_soundeffects_tally_duration_title">Durata</string>
@@ -690,8 +680,7 @@
     <string name="pref_maps_online_mode_dialog_title">Fonte mappe</string>
     <string name="pref_maps_offline_file_title">Seleziona file o cartella</string>
     <string name="pref_maps_offline_file_dialog_title">Scegli la cartella delle mappe fuori linea</string>
-    <string name="pref_maps_offline_file_summary">(Tutti i profili) %1$s%1$s
-    </string>
+    <string name="pref_maps_offline_file_summary">(Tutti i profili) %1$s</string>
     <string name="pref_maps_offline_file_noFolderSelected">Nessuna cartella selezionata.</string>
     <string name="pref_maps_offline_info_title">Scarica ora</string>
     <string name="pref_maps_offline_info_summary">Sono supportate le mappe vettoriali Mapsforge (.map) e raster Rmaps (.sqlitedb). Disponibili all\'indirizzo download.mapsforge.org.</string>
