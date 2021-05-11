@@ -12,7 +12,7 @@
 
  - #### More info
 
-[http://urban-bike-computer.com/translate/](http://urban-bike-computer.com/translate/)
+[https://urban-bike-computer.com/translate/](https://urban-bike-computer.com/translate/)
 
 
 
