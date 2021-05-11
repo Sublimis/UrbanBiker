@@ -18,4 +18,4 @@ APKs here are provided only as a convenience for devices without the Play Store 
 
 #### Complete change log
 
-http://urban-bike-computer.com/help/changelog/
+https://urban-bike-computer.com/help/changelog/
