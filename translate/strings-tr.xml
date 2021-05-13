@@ -329,7 +329,7 @@
     <string name="pref_category_app_features_title">Uygulama özellikleri</string>
     <string name="pref_group_flashlight_title">Flaş Işık</string>
     <string name="pref_category_temperature_title">Sıcaklık</string>
-    <string name="pref_category_pressure_title">Basınç</string>
+    <string name="pref_category_pressure_title">Dahili basınç sensörü</string>
     <string name="pref_category_sensors_title">Sensörler</string>
     <string name="pref_app_language_summary">(Tüm Profiller)</string>
     <string name="pref_app_language_dialog_title">Dil</string>
@@ -668,8 +668,8 @@
     <string name="dialogTrackResumeGeneralPromptMessage">Rota %1$s profilinde devam ettirilecek. Devam\?</string>
     <string name="dialogResetTitle">Bitiş</string>
     <string name="pref_maps_offline_file_title">Dosya/klasör seç</string>
-    <string name="infoMeterModeTemperatureMsg">Cihazla ölçülen ortam sıcaklığı.</string>
-    <string name="infoMeterModePressureMsg">Cihazla ölçülen ortam basıncı.</string>
+    <string name="infoMeterModeTemperatureMsg">Cihazla veya harici bir sensörle ölçülen ortam sıcaklığı.</string>
+    <string name="infoMeterModePressureMsg">Cihazla veya harici bir sensörle ölçülen ortam basıncı.</string>
     <string name="infoMeterModeCadenceTitle">Kadans</string>
     <string name="infoMeterModeHeartRateTitle">Nabız</string>
     <string name="infoMeterModeHeartRateMsg">Nabız.</string>
@@ -904,14 +904,14 @@
     <string name="pref_haptic_feedback_title">Dokunulduğunda titret</string>
     <string name="pref_haptic_feedback_intensity_title">Titreme şiddeti</string>
     <string name="prefBarometricAltitudeTitle">Barometrik Yükseklik</string>
-    <string name="prefBarometricAltitudeSummary">Yükseklik doğruluğunu arttırmak için dahili barometreyi kullan</string>
+    <string name="prefBarometricAltitudeSummary">Yükseklik doğruluğunu artırmak için basınç sensörü verilerini kullan</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Termo barometre</string>
     <string name="prefBaroAltitudeUsesTemperatureSummary">Daha doğru barometrik yükseklik için sıcaklık sensörü verilerini kullan</string>
     <string name="prefBarometricAltitudeNoteSummary">Bunları sadece açık havada kullanın! Araba ve uçak gibi basınçlı, kapalı veya klimalı araçlarda lütfen kapatın!</string>
     <string name="prefTemperatureSensorDerivedTitle">Harici sensör kullan</string>
     <string name="prefTemperatureSensorDerivedSummary">Bu cihazda ortam sıcaklığı sensörü yok fakat veri harici sensörlerle elde edilebilir. Daha fazlası için Yardım.</string>
-    <string name="prefPressureSensorOffsetTitle">Barometre dengeleme</string>
-    <string name="prefPressureSensorOffsetInfo">Bu sabit, barometre okumalarına eklenir ve varsa barometre yanlılığını azaltmak için kullanılabilir</string>
+    <string name="prefPressureSensorOffsetTitle">Basınç dengesi</string>
+    <string name="prefPressureSensorOffsetInfo">Bu sabit, basınç okumalarına eklenir ve varsa sensör yanlılığını azaltmak için kullanılabilir.</string>
     <string name="prefNotificationAlwaysTitle">Durum çubuğu bildirimleri</string>
     <string name="prefNotificationAlwaysSummary">Bildirim simgesini sadece rota kaydedilirken değil her zaman durum çubuğunda göster.</string>
     <string name="prefMapDiskCacheSizeTitle">Harita önbelleği boyut sınırı</string>
@@ -1069,9 +1069,9 @@
     <string name="sensorPurposeSteps">Adım</string>
     <string name="sensorProperitesEnableFilteringInfo">Bu, sensör verileri üzerinde ek filtreleme gerçekleştirir, muhtemelen doğruluğu artırır ama birkaç saniye gecikmeye neden olur. Varsayılan olarak devre dışıdır.</string>
     <string name="pref_soundeffects_tally_steps_title">Adım</string>
-    <string name="prefProhibitLocationAlertInfo">Etkinlik sırasında konum asla açılmaz veya kullanılmaz, bu nedenle harita kullanılamaz.
+    <string name="prefProhibitLocationAlertInfo">Etkinlik sırasında konum hiçbir zaman açılmayacak veya kullanılmayacaktır, bu nedenle harita kullanılamayacaktır.
 \n
-\nBu yalnızca kablosuz sensörlerden veri toplar (Güç, Hız, Kadans, Nabız).</string>
+\nVeriler, mevcut olduğunda diğer sensörlerden özel olarak alınacaktır (Güç, Hız, Tempo, Kalp atış hızı, Adımlar, Çevre).</string>
     <string name="infoMeterModeStepCadenceMsg">Dakika başına adım.</string>
     <string name="infoMeterModeStepCountTitle">Adım</string>
     <string name="meterModes_27">Adım</string>
@@ -1217,7 +1217,7 @@
     <string name="maptilerMapsFeatures">🔹 MapTiler haritaları
 \n🔹 Reklam yok</string>
     <string name="dialogMapsChooseTitle">Harita seç</string>
-    <string name="meterModes_30">Değiştirme</string>
+    <string name="meterModes_30">Yarıçap</string>
     <string name="sensorProperitesFilterIntervalInfo">Filtre aralığı, yani filtrenin gücü. Daha büyük değerler, daha fazla filtre uygular ancak daha fazla gecikmeye neden olur.</string>
     <string name="sensorFilterInterval_0">3 saniye (varsayılan)</string>
     <string name="sensorFilterInterval_1">5 saniye</string>
@@ -1267,4 +1267,57 @@
     <string name="powerSourceWeight_3">Sürücü + Taşıt</string>
     <string name="summaryDriverWeight">Sürücü ağırlığı</string>
     <string name="summaryVehicleWeight">Taşıt ağırlığı</string>
+    <string name="meterModes_22">Sıyrılma</string>
+    <string name="pref_gps_boost_modes_1">Ekran açık</string>
+    <string name="speechUnitOneFeet">Foot</string>
+    <string name="speechUnitTwoFeets">Feet</string>
+    <string name="speechUnitManyFeets">Feet</string>
+    <string name="pref_speechTallies_title">Çeteleler</string>
+    <string name="pref_speechTallies_summary">Çeteleleri seslendir</string>
+    <string name="speechTrackingGpsOk">GPS iyi</string>
+    <string name="meterModeFTPower">ft güç</string>
+    <string name="meterModeFTPowerShort">ftg</string>
+    <string name="summaryWheelsWeightInfo">Bu parkurda kullanılan araçtaki tüm tekerleklerin ağırlıklarının toplamı.</string>
+    <string name="summaryEfficiencyInfo">Pistin güç merkezinin genel termal verimliliği.</string>
+    <string name="summaryDragAreaInfo">Hava sürükleme alanı (Cd·A).</string>
+    <string name="summaryMechWork">Mek. iş</string>
+    <string name="summaryMechWorkInfo">Bu aktivite için harcanan tamamen mekanik iş (termal verimlilik ve BMR göz ardı edilerek).</string>
+    <string name="meterModes_29">FT gücü</string>
+    <string name="cloudAccountsPowerUploadPolicyTitle">Güç verisi yükleme politikası</string>
+    <string name="cloudAccountsPowerUploadPolicy_1">Güç verilerini yalnızca güç ölçer kullanıldığında karşıya yükleyin</string>
+    <string name="dialogMapsMapCount">%1$s harita</string>
+    <string name="dialogCloudAccountDisconnectMessage">Bu hesabın bağlantısı kesilsin mi\?</string>
+    <string name="pref_soundeffects_tally_radius_title">Yarıçap</string>
+    <string name="pref_soundeffects_tally_radius_dialog_title">Yarıçap çetelesi</string>
+    <string name="pref_track_charts_summary">"Her rota için çizelge olarak kaydedilecek çeşitli etkinlik parametrelerini seçin.  Hız ve irtifa verileri her zaman kaydedilir."</string>
+    <string name="infoMeterModeHumidityMsg">Cihazla veya harici bir sensörle ölçülen ortam bağıl nemi.</string>
+    <string name="infoMeterModeRadiusTitle">Yarıçap</string>
+    <string name="infoMeterModeRadiusMsg">Parkurun başlangıç konumundan kestirme mesafe, yani yer değiştirme.</string>
+    <string name="meterModes_None">Yok</string>
+    <string name="speechRadius">Yarıçap: %1$s</string>
+    <string name="sensorProperitesUseForDuration">Süre için kullanın</string>
+    <string name="summaryClimbingEnergyInfo">Yerçekimine karşı kullanılan enerjinin yüzdesi.</string>
+    <string name="summaryDragging">Sürtünme</string>
+    <string name="summaryDraggingEnergyInfo">Hava sürtünme direncine karşı kullanılan enerjinin yüzdesi.</string>
+    <string name="summaryAccelerating">Hızlanma</string>
+    <string name="summaryAcceleratingEnergyInfo">Hızlanma için kullanılan enerjinin yüzdesi.</string>
+    <string name="summaryRolling">Yuvarlanma</string>
+    <string name="summaryRollingEnergyInfo">Yuvarlanma direncine karşı kullanılan enerjinin yüzdesi.</string>
+    <string name="summaryBasalEnergyInfo">Bazal metabolizma için kullanılan enerjinin yüzdesi.</string>
+    <string name="powerSourceWeightTitle">Güç kaynağı ağırlığı</string>
+    <string name="powerSourceWeightInfo">Gücü (watt) belirli güce (birim ağırlık başına watt) çevirirken bir ağırlık verilmelidir.
+\n
+\nBu genellikle bir itici güç sağlayan varlığın ağırlığıdır.
+\n
+\nNot: Dikey güç her zaman Toplam ağırlık kullanılarak hesaplanır.</string>
+    <string name="summaryDriverWeightInfo">Bu parkuru kaydederken kullanılan sürücünün ağırlığı.</string>
+    <string name="summaryVehicleWeightInfo">Bu parkuru kaydederken kullanılan aracın ağırlığı.</string>
+    <string name="pref_soundeffects_autopause_title">Otomatik duraklama</string>
+    <string name="pref_soundeffects_autopause_summary">Otomatik duraklatma ve algılamaya devam etme sesi</string>
+    <string name="pref_speechAutoPause_title">Otomatik duraklama</string>
+    <string name="pref_speechAutoPause_summary">Otomatik duraklama ve devam etme işlemini seslendir</string>
+    <string name="pref_speechGnssStatus_title">GPS</string>
+    <string name="pref_speechGnssStatus_summary">GPS durumu değişikliğini seslendir (iyi, kötü)</string>
+    <string name="speechTrackingStart">Başlat</string>
+    <string name="speechTrackingResume">Başla</string>
 </resources>
