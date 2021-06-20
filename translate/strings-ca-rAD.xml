@@ -23,7 +23,7 @@
     <string name="buttonNewTrack">Finalitza</string>
     <string name="menuControlPanel">Panell de control</string>
     <string name="menuSettings">Configuració</string>
-    <string name="menuSummary">Resum en viu</string>
+    <string name="menuSummary">Visió general</string>
     <string name="menuTracksHistory">Històric</string>
     <string name="menuTracksHistoryResume">Continua</string>
     <string name="menuMeterLock">Bloca</string>
@@ -418,7 +418,7 @@
     <string name="summaryWheelsWeight">Pes de les rodes</string>
     <string name="summaryEfficiency">Eficiència</string>
     <string name="summaryDragArea">Sup. de fregament</string>
-    <string name="summaryRollResistCoef">Coef. resist. rodament</string>
+    <string name="summaryRollResistCoef">Coef. resist. rodament.</string>
     <string name="summaryBasalMetabolicRate">Taxa metabòlica basal</string>
     <string name="summaryLocationInterval">Interval d\'ubicació</string>
     <string name="summaryDeviceRestartsCount">Força el reinici</string>
@@ -578,8 +578,7 @@
     <string name="pref_bell_shake_sensitivity_title">Sensibilitat de sacseig</string>
     <string name="pref_roaring_type_title">Tipus</string>
     <string name="pref_roaring_type_dialog_title">Tipus de SAAV</string>
-    <string name="pref_volume_summary_text">Timbre: %1$s, SAAV: %2$s 
-\nComptadors: %3$s, Efectes: %4$s, Alarmes: %5$s</string>
+    <string name="pref_volume_summary_text">Timbre: %1$s, SAAV: %2$s, Comptadors: %3$s, Efectes: %4$s, Alarmes: %5$s, Diàlegs: %6$s</string>
     <string name="pref_bg_color_title">Color de fons</string>
     <string name="pref_bg_color_summary">Tria el color desitjat pel fons de l\'app</string>
     <string name="pref_fg_color_title">Color del text</string>
@@ -741,7 +740,7 @@
     <string name="prefTemperatureSensorDerivedTitle">Feu servir sensor derivat</string>
     <string name="prefTemperatureSensorDerivedSummary">A aquest dispositiu li manca el sensor de temperatura ambient, però pot ser derivat fent servir un altre sensor. Si us plau, llegui-ne més a l\'Ajuda.</string>
     <string name="prefPressureSensorOffsetTitle">Calibrar baròmetre</string>
-    <string name="prefPressureSensorOffsetInfo">Aquesta constant s\'afegeix a les lectures del baròmetre i pot ser emprat per mitigar desviacions si està informada</string>
+    <string name="prefPressureSensorOffsetInfo">Aquesta constant s\'afegeix a les lectures de pressió i pot ser emprat per mitigar desviacions del sensor, si està informada.</string>
     <string name="prefNotificationAlwaysTitle">Notificació permanent</string>
     <string name="prefNotificationAlwaysSummary">Mostra la icona de notificació de l\'App a la barra d\'estat del sistema tota l\'estona, no només quan l\'enregistrament està actiu.</string>
     <string name="prefMapDiskCacheSizeTitle">Estableix la mida límit de memòria cau</string>
