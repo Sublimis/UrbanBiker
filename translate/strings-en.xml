@@ -120,6 +120,7 @@
     <string name="menuRateAndComment">Rate us</string>
     <string name="menuRefresh">Refresh</string>
     <string name="menuSwitchProfile">Switch to</string>
+    <string name="menuScreenshot">Screenshot</string>
 
     <string name="share_title">Send via</string>
     <string name="share_subject" translatable="false">@string/app_name</string>
@@ -736,6 +737,8 @@
     <string name="pref_category_tracking_title">Tracking</string>
     <string name="pref_category_tracking_gps_title">Tracking / GPS</string>
     <string name="pref_category_tracking_charts_title">Charts</string>
+    <string name="pref_categoryPrivacyTitle">Privacy</string>
+    <string name="pref_categoryActivityRecognitionTitle">Physical activity recognition</string>
     <string name="pref_category_bell_title">Bell</string>
     <string name="pref_category_roaring_title">AVAS</string>
     <string name="pref_category_roaringConstantMode_title">Constant mode</string>
@@ -952,6 +955,8 @@
     <string name="pref_maps_fences_draw_summary">Show FenceGuard protected regions over the map</string>
     <string name="pref_maps_animate_title">Animation</string>
     <string name="pref_maps_animate_summary">(All profiles) Turn off to reduce battery usage, especially while the Follow mode is on</string>
+    <string name="pref_mapsShowAttribution_title">Show attribution</string>
+    <string name="pref_mapsShowAttribution_summary">(All profiles) Show attribution text for online maps other than Google. Disable to prevent accidental click on a link.</string>
     <string name="pref_maps_online_mode_title" translatable="false">@null</string>
     <string name="pref_maps_online_mode_summary">(All profiles)</string>
     <string name="pref_maps_online_mode_dialog_title">Maps source</string>
@@ -1060,9 +1065,9 @@
     <string name="pref_speechCountdown_title">Countdown</string>
     <string name="pref_speechCountdown_summary">Speak countdown</string>
     <string name="prefBarometricAltitudeTitle">Barometric altitude</string>
-    <string name="prefBarometricAltitudeSummary">Use pressure sensor data to enhance altitude accuracy</string>
+    <string name="prefBarometricAltitudeSummary">Use pressure sensor data to enhance altitude accuracy, if available</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Thermo barometer</string>
-    <string name="prefBaroAltitudeUsesTemperatureSummary">Use temperature sensor data for more accurate barometric altitudes</string>
+    <string name="prefBaroAltitudeUsesTemperatureSummary">Use temperature sensor data for more accurate barometric altitudes, if available</string>
     <string name="prefBarometricAltitudeNoteSummary">Use these only in the open atmosphere! Please disable while in pressurized, closed or air-conditioned vehicles like cars or airplanes!</string>
     <string name="prefTemperatureSensorDerivedTitle">Use derived sensor</string>
     <string name="prefTemperatureSensorDerivedSummary">This device lacks ambient temperature sensor, but it can be derived using other sensors. Please read more in Help.</string>
@@ -1072,11 +1077,17 @@
     <string name="prefNotificationAlwaysSummary">Show app notification icon in system status bar at all times, not only when tracking is active.</string>
     <string name="prefMapDiskCacheSizeTitle">Map cache size limit</string>
     <string name="prefMapDiskCacheSizeSummary">When viewing a map, both online and offline, parts are being cached locally to reduce the need for repeated download or recreation. This speeds up map loading and saves battery. (All profiles)</string>
+    <string name="prefMapDiskCacheAgeTitle">Map cache age limit</string>
     <string name="prefProhibitLocationTitle">Do not use Location</string>
     <string name="prefProhibitLocationSummary">Prevent GPS during activity</string>
     <string name="prefProhibitLocationAlertInfo">Location will never be turned on nor used during activity, so map will not be available.\n\nData will be acquired exclusively from other sensors where available (Power, Speed, Cadence, Heart rate, Steps, Environment).</string>
     <string name="prefMapTrackColorTitle">Track color</string>
     <string name="prefMapGuideRouteColorTitle">Guide route color</string>
+    <string name="prefActivityRecognitionNoteSummary">These options rely on Android\'s physical activity recognition feature. It may not be accurate and can be laggy, use only if you are okay with that. Will work best when a speed sensor is used for distance and duration.</string>
+    <string name="prefGnssActivityRecognitionTitle">Reduce location noise</string>
+    <string name="prefGnssActivityRecognitionSummary">Recognize standing still vs. moving for GPS. May introduce delays and some lost distance after a break, but will prevent most GPS noise.</string>
+    <string name="prefGnssAutomaticSleepTitle">GPS automatic sleep</string>
+    <string name="prefGnssAutomaticSleepSummary">Turn off location automatically while being still, and back on when movement starts. This reduces battery usage on longer breaks, without the need to stop the tracking.</string>
 
     <string name="infoMeterModeDistanceTitle">Distance</string>
     <string name="infoMeterModeDistanceMsg">Distance traveled.</string>
@@ -1239,12 +1250,12 @@
     <string name="pref_wakelock_modes_explanation_3">Obey behaviour imposed by the system and/or other apps. Warning: May cause highly irregular location updates or even reject them all. Not recommended.</string>
 
     <!-- pref_locationProvider_modes -->
-    <string name="pref_locationProvider_modes_0">GPS subsystem (default)</string>
+    <string name="pref_locationProvider_modes_0">GPS subsystem</string>
     <string name="pref_locationProvider_modes_1">Google Play services</string>
 
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(All profiles) Use GPS subsystem directly. Stable, less complex model, no middleman. May also use less resources than the other provider.</string>
-    <string name="pref_locationProvider_modes_explanation_1">(All profiles) Use \"Fused\" provider from Google Play services, if available. In theory this may provide faster and more accurate locations sometimes. Try it out to see if it benefits you.</string>
+    <string name="pref_locationProvider_modes_explanation_1">(All profiles) Use \"Fused\" provider from Google Play services, if available. In theory this may provide faster and more accurate locations sometimes.</string>
 
     <!-- pref_flashlightBlinkModes -->
     <string name="pref_flashlightBlinkModes_0">Slow (default)</string>
@@ -1363,6 +1374,16 @@
     <string name="prefMapDiskCacheSizeEntries_9">3 GB</string>
     <string name="prefMapDiskCacheSizeEntries_10">4 GB</string>
     <string name="prefMapDiskCacheSizeEntries_11">5 GB</string>
+
+    <!-- prefMapDiskCacheAgeEntries -->
+    <string name="prefMapDiskCacheAgeEntries_0">1 day</string>
+    <string name="prefMapDiskCacheAgeEntries_1">5 days</string>
+    <string name="prefMapDiskCacheAgeEntries_2">10 days (default)</string>
+    <string name="prefMapDiskCacheAgeEntries_3">15 days</string>
+    <string name="prefMapDiskCacheAgeEntries_4">30 days</string>
+    <string name="prefMapDiskCacheAgeEntries_5">45 days</string>
+    <string name="prefMapDiskCacheAgeEntries_6">60 days</string>
+    <string name="prefMapDiskCacheAgeEntries_7">90 days</string>
 
 
     <string name="svgCopyright">Created with Urban Biker</string>
