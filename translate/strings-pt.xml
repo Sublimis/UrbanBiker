@@ -249,7 +249,7 @@
     <string name="dialogTrackUploadActivityType">Tipo de atividade</string>
     <string name="dialogTrackUploadPlatform">Serviço online</string>
     <string name="dialogTrackUploadStravaIsCommute">Trajeto / Viagem Diária</string>
-    <string name="dialogGpsIntervalTitle">Intervalo de atualização do GPS</string>
+    <string name="dialogGpsIntervalTitle">Intervalo de Atualização do GPS</string>
     <string name="dialogGpsIntervalNote">Mantenha este valor abaixo de 3 seg para obter leituras mais precisas e um comportamento consistente!</string>
     <string name="dialogGpsIntervalLabelMore">◀
 \nMais precisão, usa mais bateria</string>
@@ -504,7 +504,7 @@
     <string name="pref_category_advanced_title">Avançado</string>
     <string name="pref_group_advanced_title">Avançado…</string>
     <string name="pref_category_other_title">Outro</string>
-    <string name="pref_category_gps_interval_title">Intervalo de atualização do GPS</string>
+    <string name="pref_category_gps_interval_title">Intervalo de Atualização do GPS</string>
     <string name="pref_category_stationary_exercise_title">Atividade Estacionária</string>
     <string name="pref_category_autopause_title">Pausa Automática</string>
     <string name="pref_category_resetPrompt_title">Redefinir prompt</string>
@@ -743,9 +743,9 @@
     <string name="pref_haptic_feedback_intensity_title">Intensidade de vibração</string>
     <string name="pref_soundsMasterSwitch_title">Todos os sons</string>
     <string name="prefBarometricAltitudeTitle">Altitude barométrica</string>
-    <string name="prefBarometricAltitudeSummary">Usar os dados do sensor de pressão atmosférica para melhorar a precisão da altitude</string>
+    <string name="prefBarometricAltitudeSummary">Usar os dados do sensor de pressão atmosférica para melhorar a precisão da altitude, se disponível</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Termobarómetro</string>
-    <string name="prefBaroAltitudeUsesTemperatureSummary">Usar os dados do sensor de temperatura para altitudes barométricas mais precisas</string>
+    <string name="prefBaroAltitudeUsesTemperatureSummary">Usar os dados do sensor de temperatura para altitudes barométricas mais precisas, se disponível</string>
     <string name="prefBarometricAltitudeNoteSummary">Usar isto unicamente em atmosfera aberta. Por favor desativar quando pressurizado, fechado ou em veículos com ar condicionado como automóveis ou aviões!</string>
     <string name="prefTemperatureSensorDerivedTitle">Usar sensor de deriva</string>
     <string name="prefTemperatureSensorDerivedSummary">(Todos os Perfis) Este aparelho não possui sensor de temperatura ambiente, mas esta leitura pode ser obtida usando outros sensores. Por favor leia mais acerca disto na Ajuda.</string>
@@ -922,11 +922,11 @@
     <string name="pref_wakelock_modes_explanation_2">Permitir que o CPU repouse entre as atualizações de localização. Pode usar menos bateria, mas pode ignorar uma atualização em uma ocasião rara.</string>
     <string name="pref_wakelock_modes_explanation_3">Obedecer ao comportamento imposto pelo sistema e/ou outras aplicações. Aviso: pode causar atualizações de localização altamente irregulares ou mesmo rejeitá-las todas. Não recomendado.</string>
     <!-- pref_locationProvider_modes -->
-    <string name="pref_locationProvider_modes_0">Subsistema de GPS (padrão)</string>
+    <string name="pref_locationProvider_modes_0">Subsistema de GPS</string>
     <string name="pref_locationProvider_modes_1">Serviços do Google Play</string>
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Todos os perfis) Use o subsistema de GPS diretamente. Modelo estável, menos complexo, sem intermediário. Também pode usar menos recursos do que o outro provedor.</string>
-    <string name="pref_locationProvider_modes_explanation_1">(Todos os perfis) Use o provedor \"Fused\" dos Serviços do Google Play, se disponível. Em teoria, isso pode fornecer locais mais rápidos e precisos. Experimente para ver se isso o beneficia.</string>
+    <string name="pref_locationProvider_modes_explanation_1">(Todos os perfis) Use o provedor \"Fused\" dos Serviços do Google Play, se disponível. Em teoria, isso pode fornecer locais mais rápidos e precisos.</string>
     <!-- pref_flashlightBlinkModes -->
     <string name="pref_flashlightBlinkModes_0">Lento (padrão)</string>
     <string name="pref_flashlightBlinkModes_1">Rápido</string>
@@ -1334,4 +1334,23 @@
     <string name="pref_speechGnssStatus_summary">Falar aquando a mudança de status do GPS (bom, mau)</string>
     <string name="speechTrackingStart">Início</string>
     <string name="speechTrackingResume">Partida</string>
+    <string name="pref_categoryPrivacyTitle">Privacidade</string>
+    <string name="prefMapDiskCacheAgeEntries_7">90 dias</string>
+    <string name="pref_categoryActivityRecognitionTitle">Reconhecimento de Atividade Física</string>
+    <string name="menuScreenshot">Screenshot</string>
+    <string name="prefMapDiskCacheAgeEntries_5">45 dias</string>
+    <string name="prefMapDiskCacheAgeTitle">Limite de idade do cache de mapas</string>
+    <string name="pref_mapsShowAttribution_summary">(Todos os perfis) Mostrar texto de atribuição para mapas online que não sejam do Google. Desative para evitar clique acidental num link.</string>
+    <string name="prefActivityRecognitionNoteSummary">Estas opções contam com o recurso de Reconhecimento de Atividade Física do Android. Poderá não ter precisão e pode ser lento. Use unicamente se você concordar com isso. Funcionará melhor quando um sensor de velocidade for usado para distância e duração.</string>
+    <string name="prefGnssActivityRecognitionSummary">Reconhecer estar parado ou em movimento para GPS. Pode causar atrasos e perda de distância após uma pausa, mas evita a maioria das interferências do GPS.</string>
+    <string name="prefMapDiskCacheAgeEntries_6">60 dias</string>
+    <string name="prefMapDiskCacheAgeEntries_0">1 dia</string>
+    <string name="prefMapDiskCacheAgeEntries_2">10 dias (Padrão)</string>
+    <string name="prefGnssActivityRecognitionTitle">Reduzir interferências de localização</string>
+    <string name="prefGnssAutomaticSleepSummary">Desligar a localização automaticamente enquanto estiver parado e ligar novamente quando o movimento começar. Isso reduz o uso da bateria em pausas mais longas, sem a necessidade de interromper o registo de um percurso.</string>
+    <string name="prefMapDiskCacheAgeEntries_1">5 dias</string>
+    <string name="prefMapDiskCacheAgeEntries_3">15 dias</string>
+    <string name="pref_mapsShowAttribution_title">Mostrar atribuição</string>
+    <string name="prefGnssAutomaticSleepTitle">Hibernação Automática de GPS</string>
+    <string name="prefMapDiskCacheAgeEntries_4">30 dias</string>
 </resources>
