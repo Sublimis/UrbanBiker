@@ -743,9 +743,9 @@
     <string name="pref_haptic_feedback_intensity_title">Intenzitet vibracije</string>
     <string name="pref_soundsMasterSwitch_title">Svi zvukovi</string>
     <string name="prefBarometricAltitudeTitle">Barometarska visina</string>
-    <string name="prefBarometricAltitudeSummary">Koristi podatke senzora tlaka za poboljšanje točnosti nadmorske visine</string>
+    <string name="prefBarometricAltitudeSummary">Koristi podatke senzora tlaka za poboljšanje točnosti nadmorske visine, ako su dostupni</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Termo barometar</string>
-    <string name="prefBaroAltitudeUsesTemperatureSummary">Koristi podatke senzora temperature za točniju barometarsku visinu</string>
+    <string name="prefBaroAltitudeUsesTemperatureSummary">Koristi podatke senzora temperature za točniju barometarsku visinu, ako su dostupni</string>
     <string name="prefBarometricAltitudeNoteSummary">Koristite ovo jedino u otvorenoj atmosferi! Molimo onemogućite u zatvorenim, klimatiziranim ili vozilima pod pritiskom poput aviona ili automobila!</string>
     <string name="prefTemperatureSensorDerivedTitle">Koristi izvedeni senzor</string>
     <string name="prefTemperatureSensorDerivedSummary">Ovaj uređaj nema zasebni senzor temperature, ali se on može izvesti upotrebom drugih senzora. Molimo pročitajte više u Pomoći.</string>
@@ -922,11 +922,11 @@
     <string name="pref_wakelock_modes_explanation_2">Dozvoli CPU da spava između ažuriranja lokacije. Može rabiti manje baterije, ali katkad i propustiti ažuriranje lokacije.</string>
     <string name="pref_wakelock_modes_explanation_3">Pokori se ponašnju nametnutom od strane sistema i/ili ostalih aplikacija. Upozorenje: Može uzrokovati vrlo neredovita ažuriranja ili ih čak odbaciti sva. Ne preporuča se.</string>
     <!-- pref_locationProvider_modes -->
-    <string name="pref_locationProvider_modes_0">GPS podsistem (default)</string>
+    <string name="pref_locationProvider_modes_0">GPS podsistem</string>
     <string name="pref_locationProvider_modes_1">Google Play servisi</string>
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Svi profili) Koristi GPS podsistem izravno. Stabilan, manje složen model, bez posrednika. Također može trošiti manje resursa od drugog providera.</string>
-    <string name="pref_locationProvider_modes_explanation_1">(Svi profili) Koristi \"Fused\" provider iz Google Play servisa, ako je dostupno. U teoriji ovo može pružiti brže i preciznije lokacije ponekad. Isprobajte da saznate ima li prednosti.</string>
+    <string name="pref_locationProvider_modes_explanation_1">(Svi profili) Koristi \"Fused\" provider iz Google Play servisa, ako je dostupno. U teoriji to ponekad može pružiti brže i preciznije lokacije.</string>
     <!-- pref_flashlightBlinkModes -->
     <string name="pref_flashlightBlinkModes_0">Sporo (default)</string>
     <string name="pref_flashlightBlinkModes_1">Brzo</string>
@@ -1344,4 +1344,13 @@
     <string name="prefGnssActivityRecognitionTitle">Smanjite smetnje lokacije</string>
     <string name="pref_mapsShowAttribution_title">Prikaži atribuciju</string>
     <string name="prefGnssAutomaticSleepTitle">GPS automatsko spavanje</string>
+    <string name="prefMapDiskCacheAgeEntries_7">90 dana</string>
+    <string name="prefMapDiskCacheAgeEntries_5">45 dana</string>
+    <string name="prefMapDiskCacheAgeEntries_6">60 dana</string>
+    <string name="prefMapDiskCacheAgeEntries_0">1 dan</string>
+    <string name="prefMapDiskCacheAgeEntries_2">10 dana (zadano)</string>
+    <string name="prefGnssAutomaticSleepSummary">Automatski isključi lokaciju dok mirujete i ponovno uključi kad kretanje započne. To smanjuje potrošnju baterije na dužim stankama, bez potrebe za zaustavljanjem praćenja.</string>
+    <string name="prefMapDiskCacheAgeEntries_1">5 dana</string>
+    <string name="prefMapDiskCacheAgeEntries_3">15 dana</string>
+    <string name="prefMapDiskCacheAgeEntries_4">30 dana</string>
 </resources>
