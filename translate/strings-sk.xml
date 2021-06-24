@@ -736,7 +736,7 @@
     <string name="prefBarometricAltitudeTitle">Barometrická nadm. výška</string>
     <string name="prefBarometricAltitudeSummary">Používať dáta zo snímača tlaku pre presnejšie určovanie nadmorskej výšky</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Termobarometer</string>
-    <string name="prefBaroAltitudeUsesTemperatureSummary">Používať teplotný snímač v súčinnosti s barometrickým určovaním nadm. výšky</string>
+    <string name="prefBaroAltitudeUsesTemperatureSummary">Používať teplotný snímač v súčinnosti s barometrickým určovaním nadmorskej výšky</string>
     <string name="prefBarometricAltitudeNoteSummary">Používanie funkcie je vhodné len v otvorenom voľnom atmosferickom priestore.</string>
     <string name="prefTemperatureSensorDerivedTitle">Používať odvodený snímač</string>
     <string name="prefTemperatureSensorDerivedSummary">Zariadenie nemá teplotný snímač. Teplota okolia však môže byť odvodená použitím iných snímačov. Viac informácií v Pomoci.</string>
@@ -857,11 +857,11 @@
     <string name="pref_wakelock_modes_explanation_2">Povoliť CPU-spánok medzi aktualizáciami polohy, čo vyžaduje menej energie, avšak môže spôsobiť zriedkavé vynechanie polohy.</string>
     <string name="pref_wakelock_modes_explanation_3">Riadiť sa nastavením systému a/alebo iných aplikácií, čo však môže spôsobiť veľmi nepravidelnú komunikáciu alebo odmietnutie všetkých aktualizácií polohy.</string>
     <!-- pref_locationProvider_modes -->
-    <string name="pref_locationProvider_modes_0">Podsystém GPS (predvolené)</string>
+    <string name="pref_locationProvider_modes_0">Podsystém GPS</string>
     <string name="pref_locationProvider_modes_1">Google Play services</string>
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Všetky profily) Používať priamy stály zabudovaný podsystém.</string>
-    <string name="pref_locationProvider_modes_explanation_1">(Všetky profily) Používať komplexnejší systém teoreticky poskytujúci rýchlejšiu a presnejšiu lokalizáciu.</string>
+    <string name="pref_locationProvider_modes_explanation_1">(Všetky profily) Používať komplexnejší systém, v súčinnosti s Google Play Services, teoreticky poskytujúci rýchlejšiu a presnejšiu lokalizáciu.</string>
     <!-- pref_flashlightBlinkModes -->
     <string name="pref_flashlightBlinkModes_0">Pomalé (predvolené)</string>
     <string name="pref_flashlightBlinkModes_1">Rýchle</string>
@@ -1345,4 +1345,23 @@
     <string name="pref_speechGnssStatus_summary">Oznámiť zmenu stavu GPS</string>
     <string name="speechTrackingStart">Štart</string>
     <string name="speechTrackingResume">Pokračovanie</string>
+    <string name="pref_categoryPrivacyTitle">Súkromie</string>
+    <string name="prefMapDiskCacheAgeEntries_7">90 dní</string>
+    <string name="pref_categoryActivityRecognitionTitle">Rozpoznávanie fyzickej aktivity</string>
+    <string name="menuScreenshot">Screenshot</string>
+    <string name="prefMapDiskCacheAgeEntries_5">45 dní</string>
+    <string name="prefMapDiskCacheAgeTitle">Vyrovnávacia pamäť pre mapy</string>
+    <string name="pref_mapsShowAttribution_summary">(Všetky profily) Zobrazovať pridelený text ako odkaz online-máp iných ako Google.</string>
+    <string name="prefActivityRecognitionNoteSummary">Vyhodnocovanie nemusí byť presné, je dobré mať aktívne funkcie merania vzdialenosti a trvania.</string>
+    <string name="prefGnssActivityRecognitionSummary">Rozpoznávanie státia a pohybu. Môže spôsobovať omeškanie a odchýlku merania času a vzdialenosti, avšak pomáha redukovať chyby GPS.</string>
+    <string name="prefMapDiskCacheAgeEntries_6">60 dní</string>
+    <string name="prefMapDiskCacheAgeEntries_0">1 deň</string>
+    <string name="prefMapDiskCacheAgeEntries_2">10 dní (prednastavené)</string>
+    <string name="prefGnssActivityRecognitionTitle">Znižovať lokalizačnú odchýlku</string>
+    <string name="prefGnssAutomaticSleepSummary">Automatické vypínanie GPS pri zastavení a obnovovanie pri pohybe. Pomáha šetriť kapacitu batérie a predchádzať nutnosti prerušenia trasovania pri dlhších prestávkach.</string>
+    <string name="prefMapDiskCacheAgeEntries_1">5 dní</string>
+    <string name="prefMapDiskCacheAgeEntries_3">15 dní</string>
+    <string name="pref_mapsShowAttribution_title">Zobrazovať pridelenie</string>
+    <string name="prefGnssAutomaticSleepTitle">Automatické pozastavenie GPS</string>
+    <string name="prefMapDiskCacheAgeEntries_4">30 dní</string>
 </resources>
