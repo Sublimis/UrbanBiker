@@ -904,9 +904,9 @@
     <string name="pref_haptic_feedback_title">Dokunulduğunda titret</string>
     <string name="pref_haptic_feedback_intensity_title">Titreme şiddeti</string>
     <string name="prefBarometricAltitudeTitle">Barometrik Yükseklik</string>
-    <string name="prefBarometricAltitudeSummary">Yükseklik doğruluğunu artırmak için basınç sensörü verilerini kullan</string>
+    <string name="prefBarometricAltitudeSummary">Yükseklik doğruluğunu artırmak için (varsa) basınç sensörü verilerini kullan</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Termo barometre</string>
-    <string name="prefBaroAltitudeUsesTemperatureSummary">Daha doğru barometrik yükseklik için sıcaklık sensörü verilerini kullan</string>
+    <string name="prefBaroAltitudeUsesTemperatureSummary">Daha doğru barometrik yükseklik için (varsa) sıcaklık sensörü verilerini kullan</string>
     <string name="prefBarometricAltitudeNoteSummary">Bunları sadece açık havada kullanın! Araba ve uçak gibi basınçlı, kapalı veya klimalı araçlarda lütfen kapatın!</string>
     <string name="prefTemperatureSensorDerivedTitle">Harici sensör kullan</string>
     <string name="prefTemperatureSensorDerivedSummary">Bu cihazda ortam sıcaklığı sensörü yok fakat veri harici sensörlerle elde edilebilir. Daha fazlası için Yardım.</string>
@@ -998,10 +998,10 @@
     <string name="pref_wakelock_modes_explanation_3">Sadece sistemin ya da diğer uygulamaların koyduğu davranışları geçerli kıl.
 \n
 \nUyarı: Düzensiz konum güncellemelerine neden olabilir veya hepsini reddedebilir. Önerilmez.</string>
-    <string name="pref_locationProvider_modes_0">GPS alt sistemi (varsayılan)</string>
+    <string name="pref_locationProvider_modes_0">GPS alt sistemi</string>
     <string name="pref_locationProvider_modes_1">Google Play Hizmetleri</string>
     <string name="pref_locationProvider_modes_explanation_0">(Tüm profiller) Doğrudan GPS alt sistemini kullan. Kararlı, daha az karmaşık model, aracı yok. Ayrıca diğer sağlayıcılardan daha az kaynak kullanabilir.</string>
-    <string name="pref_locationProvider_modes_explanation_1">"(Tüm profiller) Varsa, Google Play hizmetlerinden \"Kaynaşık\" sağlayıcıyı kullan. Teoride bu bazen daha hızlı ve daha doğru konum bilgisi  sağlayabilir. Size yararı olup olmadığını görmek için deneyin."</string>
+    <string name="pref_locationProvider_modes_explanation_1">"(Tüm profiller) Varsa, Google Play hizmetlerinden \"Kaynaşık\" sağlayıcıyı kullan. Teoride bu bazen daha hızlı ve daha doğru konum bilgisi  sağlayabilir."</string>
     <string name="pref_flashlightBlinkModes_0">Yavaş (Varsayılan)</string>
     <string name="pref_flashlightBlinkModes_1">Hızlı</string>
     <string name="pref_flashlightBlinkModes_2">Yok/ Sabit</string>
@@ -1320,4 +1320,23 @@
     <string name="pref_speechGnssStatus_summary">GPS durumu değişikliğini seslendir (iyi, kötü)</string>
     <string name="speechTrackingStart">Başlat</string>
     <string name="speechTrackingResume">Başla</string>
+    <string name="pref_categoryPrivacyTitle">Gizlilik</string>
+    <string name="prefMapDiskCacheAgeEntries_7">90 gün</string>
+    <string name="pref_categoryActivityRecognitionTitle">Fiziksel hareketlilik tanıma</string>
+    <string name="menuScreenshot">Ekran görüntüsü</string>
+    <string name="prefMapDiskCacheAgeEntries_5">45 gün</string>
+    <string name="prefMapDiskCacheAgeTitle">Harita önbelleği yaş sınırı</string>
+    <string name="pref_mapsShowAttribution_summary">(Tüm profiller) Google dışındaki çevrimiçi haritalar için ilişkilendirme metnini göster. Bir bağlantıya yanlışlıkla tıklamayı önlemek için devre dışı bırakın.</string>
+    <string name="prefActivityRecognitionNoteSummary">Bu seçenekler, Android\'in fiziksel aktivite tanıma özelliğine dayanır. Doğru olmayabilir ve gecikmeli olabilir, yalnızca bu durum sizin için sorun değilse kullanın. Mesafe ve süre için bir hız sensörü kullanıldığında en iyi sonucu verir.</string>
+    <string name="prefGnssActivityRecognitionSummary">GPS için hareketsiz durmayı ve hareketli olmayı ayırt edin. Bir aradan sonra gecikmelere ve bir miktar mesafe kaybına neden olabilir, ancak çoğu GPS gürültüsünü önleyecektir.</string>
+    <string name="prefMapDiskCacheAgeEntries_6">60 gün</string>
+    <string name="prefMapDiskCacheAgeEntries_0">1 gün</string>
+    <string name="prefMapDiskCacheAgeEntries_2">10 gün (varsayılan)</string>
+    <string name="prefGnssActivityRecognitionTitle">Konum gürültüsünü azaltın</string>
+    <string name="prefGnssAutomaticSleepSummary">Hareketsizken konumu otomatik olarak kapatın ve hareket başladığında tekrar açın. Bu, izlemeyi durdurmaya gerek kalmadan daha uzun molalarda pil kullanımını azaltır.</string>
+    <string name="prefMapDiskCacheAgeEntries_1">5 gün</string>
+    <string name="prefMapDiskCacheAgeEntries_3">15 gün</string>
+    <string name="pref_mapsShowAttribution_title">İlişkilendirmeyi göster</string>
+    <string name="prefGnssAutomaticSleepTitle">GPS otomatik uyku</string>
+    <string name="prefMapDiskCacheAgeEntries_4">30 gün</string>
 </resources>
