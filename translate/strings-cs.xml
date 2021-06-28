@@ -62,7 +62,7 @@
     <string name="pick_a_color">Vybrat barvu</string>
     <string name="fence_name_default">Moje místo</string>
     <string name="profileNameDefault">Nový profil</string>
-    <string name="featureNotAvailable">"Omlouváme se,  funkce není na tomto zařízení dostupná"</string>
+    <string name="featureNotAvailable">Omlouváme se, funkce není na tomto zařízení dostupná</string>
     <string name="farFromHere">Daleko odtud</string>
     <string name="toastRestartRequired">Restartujte aplikaci pro provedení změn</string>
     <string name="toastActiveProfile">Profil: %1$s</string>
@@ -412,7 +412,7 @@
     <string name="summaryWheelsWeight">Váha kol</string>
     <string name="summaryEfficiency">Účinnost</string>
     <string name="summaryDragArea">Označit oblast</string>
-    <string name="summaryRollResistCoef">Koef. odolnosti převrácení</string>
+    <string name="summaryRollResistCoef">Koef. součinitele valivého odporu</string>
     <string name="summaryBasalMetabolicRate">Bazální metabolismus (BMR)</string>
     <string name="summaryLocationInterval">Doba zaměření</string>
     <string name="summaryDeviceRestartsCount">Nucený restart</string>
@@ -531,7 +531,7 @@
     <string name="pref_category_locationProvider_title">GPS poskytovatel</string>
     <string name="pref_category_altitude_adjustments_title">Nadmořské výšky</string>
     <string name="pref_category_temperature_title">Teplota</string>
-    <string name="pref_category_pressure_title">Tlak</string>
+    <string name="pref_category_pressure_title">Zabudovaný senzor tlaku</string>
     <string name="pref_category_sensors_title">Senzory</string>
     <string name="pref_category_cloudAccounts_title">Účty</string>
     <string name="pref_category_mapsQuickZoom">Přiblížení</string>
@@ -577,7 +577,7 @@
     <string name="pref_bg_color_summary">Vybrat požadovanou barvu pro pozadí aplikace</string>
     <string name="pref_fg_color_title">Barva textu</string>
     <string name="pref_fg_color_summary">Vybrat požadovanou barvu pro text a ikony</string>
-    <string name="pref_visualThemeAutoSummary">"Použit světlý nebo tmavý vzhled  na základě intenzity světla v prostředí"</string>
+    <string name="pref_visualThemeAutoSummary">Použít světlý nebo tmavý vzhled na základě intenzity světla v prostředí</string>
     <string name="pref_screen_keep_on_title">Ponechat displej zapnutý</string>
     <string name="pref_screen_keep_on_summary">Displej bude zapnutý, když bude aplikace používána</string>
     <string name="pref_screen_allow_off_inactive_title">Povolit vypnutí, když je neaktivní</string>
@@ -673,7 +673,7 @@
     <string name="pref_maps_offline_terrain_title">Vykreslit terén</string>
     <string name="pref_maps_offline_terrain_summary">(Všechny profily) Stínovat terén. Mapa bude vypadat více realistická, avšak bude pomalejší. Vyžadovány jsou DEM (.hgt) soubory ve složce map.</string>
     <string name="pref_maps_offline_terrain_info_title">Stáhnout nyní</string>
-    <string name="pref_maps_offline_terrain_info_summary">"Otevřete stránku ke stažení na  viewfinderpanoramas.org."</string>
+    <string name="pref_maps_offline_terrain_info_summary">Otevřete stránku ke stažení na viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Akce tlačítka vrstvy</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Všechny profily) Vyberte činnost při stisku tlačítka vrstvy</string>
     <string name="pref_button_autoring_enable_title">Přepínač automatického zvonění</string>
@@ -723,14 +723,14 @@
     <string name="pref_haptic_feedback_intensity_title">Intenzita vibrování</string>
     <string name="pref_soundsMasterSwitch_title">Všechny zvuky</string>
     <string name="prefBarometricAltitudeTitle">Barometrická nadmořská výška</string>
-    <string name="prefBarometricAltitudeSummary">Použít vestavěný barometr pro zvýšení přesnosti výšky</string>
+    <string name="prefBarometricAltitudeSummary">Použít senzor tlaku pro zvýšení přesnosti výšky, pokud je dostupný</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Teplotní barometr</string>
-    <string name="prefBaroAltitudeUsesTemperatureSummary">Použít data snímače teploty pro přesnější barometrické výšky</string>
+    <string name="prefBaroAltitudeUsesTemperatureSummary">Použít snímač teploty pro přesnější barometrické výšky, pokud je dostupný</string>
     <string name="prefBarometricAltitudeNoteSummary">Používejte tyto pouze v otevřených prostorech! Zakažte, prosím, v tlakových, uzavřených nebo klimatizovaných vozidlech, jako jsou auta nebo letadla!</string>
     <string name="prefTemperatureSensorDerivedTitle">Použít získaný senzor</string>
     <string name="prefTemperatureSensorDerivedSummary">Toto zařízení neobsahuje snímač teploty okolí, ale může být odvozen z jiných senzorů. Další informace naleznete v nápovědě.</string>
-    <string name="prefPressureSensorOffsetTitle">Posun barometru</string>
-    <string name="prefPressureSensorOffsetInfo">Tato konstanta se přidává k barometrům a může být použita k zmírnění zkreslení barometru, pokud je přítomen</string>
+    <string name="prefPressureSensorOffsetTitle">Posun tlaku</string>
+    <string name="prefPressureSensorOffsetInfo">Tato konstanta se přidává k barometrickým měřením a může být použita k zmírnění zkreslení barometru, pokud je přítomná.</string>
     <string name="prefNotificationAlwaysTitle">Stálá oznámení</string>
     <string name="prefNotificationAlwaysSummary">Zobrazovat neustále notifikační ikonu ve status baru nezávisle na tom, zda je aktivní sledování.</string>
     <string name="prefMapDiskCacheSizeTitle">Limit mezipaměti map</string>
@@ -744,7 +744,7 @@
     <string name="infoMeterModeDurationTitle">Čas</string>
     <string name="infoMeterModeDurationMsg">Doba trvání cesty, případně s výjimkou případných pauz nebo zastávek.</string>
     <string name="infoMeterModeElapsedTitle">Uplynulý čas</string>
-    <string name="infoMeterModeElapsedMsg">Uplynulý čas včetně všech pauz ale bez zastávek.</string>
+    <string name="infoMeterModeElapsedMsg">Celkový čas včetně všech pauz, kromě zastávek.</string>
     <string name="infoMeterModeEnergyTitle">Energie</string>
     <string name="infoMeterModeEnergyMsg">Energie vynaložená na aktivitu s ohledem na BMR a efektivitu.</string>
     <string name="infoMeterModeEfficacyTitle">Účinnost (kumulativní)</string>
@@ -757,10 +757,10 @@
     <string name="infoMeterModeAltitudeTitle">Nadmořská výška</string>
     <string name="infoMeterModeSlopeTitle">Sklon</string>
     <string name="infoMeterModeSpeedTitle">Rychlost</string>
-    <string name="infoMeterModeSpeedMsg">Rychlost — Aktuální, Maximální a Průměrná.</string>
+    <string name="infoMeterModeSpeedMsg">Okamžitá ujetá vzdálenost za jednotku času.</string>
     <string name="infoMeterModeVerticalSpeedTitle">Vertikální rychlost</string>
     <string name="infoMeterModePaceTitle">Tempo</string>
-    <string name="infoMeterModePaceMsg">Zpomalení — Okamžité, Maximální a Průměrné.</string>
+    <string name="infoMeterModePaceMsg">Inverzní rychlost, tj. čas uplynulý na jednotku vzdálenosti.</string>
     <string name="infoMeterModeAccelerationTitle">Zrychlení</string>
     <string name="infoMeterModeAccelerationMsg">Úroveň změny rychlosti v času.
 \n
@@ -877,7 +877,7 @@
     <string name="pref_locationProvider_modes_1">Služby Google Play</string>
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Všechny profily) Použít subsystém GPS přímo. Stabilní, méně složitý model, žádný prostředník. Může také použít méně zdrojů než jiný poskytovatel.</string>
-    <string name="pref_locationProvider_modes_explanation_1">"(Všechny profily) Použijte poskytovatele  \"Fused\" ze služeb Google Play, pokud jsou k dispozici. Teoreticky to může někdy poskytnout rychlejší a přesnější umístění."</string>
+    <string name="pref_locationProvider_modes_explanation_1">(Všechny profily) Použije poskytovatele \"Fused\" ze služeb Google Play, pokud jsou k dispozici. Teoreticky to může někdy poskytnout rychlejší a přesnější umístění.</string>
     <!-- pref_flashlightBlinkModes -->
     <string name="pref_flashlightBlinkModes_0">Pomalu (výchozí)</string>
     <string name="pref_flashlightBlinkModes_1">Rychle</string>
@@ -983,11 +983,11 @@
     <string name="prefAdModes_3">Žádná</string>
     <string name="toastMapClickInfo">Dlouhý stisk pro nastavení mapy</string>
     <string name="dialog_default_map_track_colors_title">Barvy stopy v mapě</string>
-    <string name="dialogGpsSettingsPromptMessage">"Bez Polohy nebudete moci používat většinu funkcí aplikace.
+    <string name="dialogGpsSettingsPromptMessage">Bez Polohy nebudete moci používat většinu funkcí aplikace.
 \n
-\nZkontrolujte, že Poloha je zapnutá a přepnuta do módu  \'Nejvyšší přesnost\'.
+\nZkontrolujte, že Poloha je zapnutá a přepnuta do módu \'Nejvyšší přesnost\'.
 \n
-\nMám otevřít nastavení Polohy\?"</string>
+\nMám otevřít nastavení Polohy\?</string>
     <string name="dialogLocationPermissionRequestForBt">Přístup k Poloze je zapotřebí pro nalezení Bluetooth zařízení.
 \n
 \nŽádné nebude nalezeno, pokud použití Polohy zakážete.</string>
@@ -1013,11 +1013,11 @@
 \nZáporný znamená zisk energie, např. při jízdě z kopce nebo při brzdění.
 \n
 \nPokud je v kcal / h nebo kJ / h bere v úvahu také účinnost a BMR.</string>
-    <string name="infoMeterModeVerticalPowerMsg">Ztráta výkonu nebo zisk při stoupání nebo klesání - Aktuální, Maximální a Minimální.
+    <string name="infoMeterModeVerticalPowerMsg">Ztráta výkonu nebo zisk při stoupání nebo klesání.
 \n
 \nZáporný znamená zisk energie (sestup).
 \n
-\nPokud je v kcal / h nebo kJ / h bere v úvahu také účinnost</string>
+\nPokud je v kcal / h nebo kJ / h bere v úvahu také účinnost.</string>
     <string name="infoMeterModeTemperatureMsg">Okolní teplota změřená zařízenímnebo externím senzorem.</string>
     <string name="infoMeterModePressureMsg">Okolní tlak změřený zařízením nebo externím senzorem.</string>
     <string name="infoMeterModeCadenceMsg">Počet otáček kliky za minutu, tj. rychlost šlapání.</string>
@@ -1314,4 +1314,43 @@
     <string name="meterModes_31">Vlhkost</string>
     <string name="meterModes_30">Poloměr</string>
     <string name="meterModes_None">Nic</string>
+    <string name="infoMeterModeHumidityMsg">Relativní vlhkost vzduchu změřená zařízením nebo externím senzorem.</string>
+    <string name="sensorProperitesUseForTemperature">Použít pro teplotu</string>
+    <string name="pref_categoryPrivacyTitle">Soukromí</string>
+    <string name="sensorProperitesUseForHumidity">Použít pro vlhkost</string>
+    <string name="pref_categoryActivityRecognitionTitle">Rozpoznání fyzické aktivity</string>
+    <string name="sensorProperitesUseForPressure">Použít pro tlak</string>
+    <string name="infoMeterModeFuncThresholdPowerMsg">Odhadovaný udržitelný maximální výkon pro delší časové období.
+\n
+\nOdhad velmi záleží na typu a době trvání této aktivity.</string>
+    <string name="pref_speechGnssStatus_title">GPS</string>
+    <string name="sensorPurposeHumidity">Vlhkost</string>
+    <string name="infoMeterModeFuncThresholdPowerTitle">Funkční prah výkonu</string>
+    <string name="prefMapDiskCacheAgeTitle">Čas, kdy vyprší vyrovnávací pamět pro mapy</string>
+    <string name="sensorPurposeTemperature">Teplota</string>
+    <string name="pref_mapsShowAttribution_summary">(Všechny profily) Zobrazovat přidělený text pro online-mapy jiné než Google. Deaktivujte pro zabránění náhodnému kliku na odkaz.</string>
+    <string name="prefActivityRecognitionNoteSummary">Tyto volby spoléhají na schopnost rozeznat fyzickou aktivitu systému Android. Nemusí být přesné a mohou mít prodlevy, proto je využijte pouze pokud to nevadí. Nejlepší volbou je senzor rychlosti použitý pro vzdálenost a dobu trvání.</string>
+    <string name="pref_soundeffects_autopause_summary">Zvuk při automatické pauze a detekce obnovení</string>
+    <string name="infoMeterModeRadiusMsg">Vzdušná vzdálenost od původní pozice na trati, tj přemístění.</string>
+    <string name="prefGnssActivityRecognitionSummary">Rozpoznávání stání nebo pohybu pro GPS. Může způsobit prodlevy a po přestávce i nějakou ztrátu vzdálenosti, ale zabrání většině GPS šumu.</string>
+    <string name="pref_speechAutoPause_summary">Oznámit začátek a konec automatické pauzy</string>
+    <string name="sensorProperitesUseForDuration">Použít pro trvání</string>
+    <string name="sensorPurposePressure">Tlak</string>
+    <string name="pref_soundeffects_tally_radius_dialog_title">Střední poloměr</string>
+    <string name="prefGnssActivityRecognitionTitle">Zmenšit lokalizační odchylku</string>
+    <string name="prefGnssAutomaticSleepSummary">Vypnout automaticky lokalizování když nedochází k pohybu a zapnout při pohybu. Pomáhá šetřit kapacitu baterie při delších přestávkách bez nutnosti přerušit sledování.</string>
+    <string name="pref_mapsShowAttribution_title">Zobrazit uvedení zdroje</string>
+    <string name="prefGnssAutomaticSleepTitle">Automatické uspání GPS</string>
+    <string name="pref_track_charts_title">Typy grafů…</string>
+    <string name="pref_track_charts_summary">Vyberte různé parametry aktivity které se uloží jak graf pro každou trasu. Rychlost a výška se ukládají vždy.</string>
+    <string name="pref_soundeffects_autopause_title">Automatická pauza</string>
+    <string name="pref_category_tracking_charts_title">Grafy</string>
+    <string name="summaryBasalEnergyInfo">Procento energie použiré pro bazální metabolizmus.</string>
+    <string name="pref_soundeffects_tally_radius_title">Poloměr</string>
+    <string name="pref_speechAutoPause_title">Automatická pauza</string>
+    <string name="summaryBasal">Bazální</string>
+    <string name="infoMeterModeRadiusTitle">Poloměr</string>
+    <string name="pref_speechGnssStatus_summary">Oznámit změnu stavu GPS (dobrý, špatný)</string>
+    <string name="infoMeterModeHumidityTitle">Vlhkost</string>
+    <string name="sensorProperitesFilterIntervalInfo">Hodnota filtrování neboli sílu filtru. Vyšší hodnota znamená větší přesnost, ale také větší zpoždění.</string>
 </resources>
