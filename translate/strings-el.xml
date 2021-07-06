@@ -734,9 +734,9 @@
     <string name="pref_haptic_feedback_intensity_title">Ένταση δόνησης</string>
     <string name="pref_soundsMasterSwitch_title">Όλοι οι ήχοι</string>
     <string name="prefBarometricAltitudeTitle">Βαρομετρικό υψόμετρο</string>
-    <string name="prefBarometricAltitudeSummary">Χρησιμοποιήστε δεδομένα αισθητήρα πίεσης για να βελτιώσετε την ακρίβεια του υψομέτρου</string>
+    <string name="prefBarometricAltitudeSummary">Χρησιμοποιήστε δεδομένα αισθητήρα πίεσης για να βελτιώσετε την ακρίβεια του υψομέτρου, εάν είναι διαθέσιμα</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Θερμοβαρόμετρο</string>
-    <string name="prefBaroAltitudeUsesTemperatureSummary">Χρησιμοποιήστε δεδομένα αισθητήρα θερμοκρασίας για πιο ακριβή βαρομετρικά υψόμετρα</string>
+    <string name="prefBaroAltitudeUsesTemperatureSummary">Χρησιμοποιήστε δεδομένα αισθητήρα θερμοκρασίας για πιο ακριβή βαρομετρικά υψόμετρα, εάν είναι διαθέσιμα</string>
     <string name="prefBarometricAltitudeNoteSummary">Χρησιμοποιήστε τα μόνο στην ανοιχτή ατμόσφαιρα! Παρακαλούμε απενεργοποιήστε τα σε υπό πίεση, κλειστά ή κλιματιζόμενα οχήματα όπως τα αυτοκίνητα ή τα αεροπλάνα!</string>
     <string name="prefTemperatureSensorDerivedTitle">Χρησιμοποιήστε τον συμπληρωματικό αισθητήρα</string>
     <string name="prefTemperatureSensorDerivedSummary">Αυτή η συσκευή δεν έχει αισθητήρα θερμοκρασίας περιβάλλοντος, αλλά μπορεί να ληφθεί με άλλους αισθητήρες. Διαβάστε περισσότερα στην Βοήθεια.</string>
@@ -884,11 +884,11 @@
     <string name="pref_wakelock_modes_explanation_2">Διατήρηση της CPU ανενεργής κατά τη διάρκεια της ανανέωσης τοποθεσίας. Μπορεί να χρησιμοποιεί λιγότερη μπαταρία, αλλά ίσως να παραλείψει ενημέρωσεις τοποθεσίας σε εξαιρετικές περιπτώσεις.</string>
     <string name="pref_wakelock_modes_explanation_3">Να ακολουθεί την συμπεριφορά που επιβάλλεται από το σύστημα ή/και από άλλες εφαρμογές. Προειδοποίηση: Μπορεί να προκαλέσει πολύ ακανόνιστες ενημερώσεις τοποθεσίας ή απόρριψη τους. Δεν προτείνεται.</string>
     <!-- pref_locationProvider_modes -->
-    <string name="pref_locationProvider_modes_0">Υποσύστημα GPS (Προκαθορισμένο)</string>
+    <string name="pref_locationProvider_modes_0">Υποσύστημα GPS</string>
     <string name="pref_locationProvider_modes_1">Υπηρεσία Google Play</string>
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Όλα τα προφίλ) Χρήση υποσυστήματος GPS απευθείας. Σταθερό, λιγότερο περίπλοκο μοντέλο, χωρίς μεσολάβηση. Μπορούν επίσης να χρησιμοποιει λιγότερους πόρους από ό,τι με άλλο πάροχο.</string>
-    <string name="pref_locationProvider_modes_explanation_1">(Όλα τα προφίλ) Χρησιμοποιήστε "μικτή" παροχή των υπηρεσιών Google Play, εάν είναι διαθέσιμη. Θεωρητικά αυτή μπορεί να παρέχει ταχύτερη και πιο ακριβή θέση μερικές φορές. Δοκιμάστε το για να δείτε αν σας ωφελεί.</string>
+    <string name="pref_locationProvider_modes_explanation_1">"(Όλα τα προφίλ) Χρησιμοποίηση  \"μικτής\" παροχής των υπηρεσιών Google Play, εάν είναι διαθέσιμη. Θεωρητικά αυτή μπορεί να παρέχει ταχύτερη και πιο ακριβή θέση μερικές φορές."</string>
     <!-- pref_flashlightBlinkModes -->
     <string name="pref_flashlightBlinkModes_0">Αργό (προεπιλογή)</string>
     <string name="pref_flashlightBlinkModes_1">Γρήγορο</string>
@@ -1345,4 +1345,24 @@
     <string name="pref_speechGnssStatus_summary">Ομιλία για αλλαγή κατάστασης GPS (καλό, κακό)</string>
     <string name="speechTrackingStart">Εκκίνηση</string>
     <string name="speechTrackingResume">Επαναφορά</string>
+    <string name="pref_categoryPrivacyTitle">Ιδιωτικότητα</string>
+    <string name="prefMapDiskCacheAgeEntries_7">90 ημέρες</string>
+    <string name="pref_categoryActivityRecognitionTitle">Αναγνώριση σωματικής δραστηριότητας</string>
+    <string name="menuScreenshot">Στιγμιότυπο</string>
+    <string name="prefMapDiskCacheAgeEntries_5">45 ημέρες</string>
+    <string name="prefMapDiskCacheAgeTitle">Χρονικό όριο κρυφής μνήμης χάρτη</string>
+    <string name="pref_mapsShowAttribution_summary">(Όλα τα προφίλ) Εμφάνιση κειμένου απόδοσης για διαδικτυακούς χάρτες εκτός του Google.
+\nΑπενεργοποιήστε για να αποφύγετε τυχαίο κλικ σε έναν σύνδεσμο.</string>
+    <string name="prefActivityRecognitionNoteSummary">"Αυτές οι επιλογές βασίζονται στη δυνατότητα αναγνώρισης φυσικής δραστηριότητας του Android.  Μπορεί να μην είναι ακριβές και να είναι καθυστερημένο, χρησιμοποιήστε μόνο εάν είστε εντάξει με αυτό.  Λειτουργεί καλύτερα όταν χρησιμοποιείται ένας αισθητήρας ταχύτητας για απόσταση και διάρκεια."</string>
+    <string name="prefGnssActivityRecognitionSummary">"Αναγνώριση της στάσης έναντι της κίνησης για το GPS.  Μπορεί να προκαλέσει καθυστερήσεις και κάποια χαμένη απόσταση μετά από ένα διάλειμμα, αλλά θα αποτρέψει τον περισσότερο θόρυβο GPS."</string>
+    <string name="prefMapDiskCacheAgeEntries_6">60 ημέρες</string>
+    <string name="prefMapDiskCacheAgeEntries_0">1 μέρα</string>
+    <string name="prefMapDiskCacheAgeEntries_2">10 ημέρες (προεπιλογή)</string>
+    <string name="prefGnssActivityRecognitionTitle">Μειώση θόρυβου τοποθεσίας</string>
+    <string name="prefGnssAutomaticSleepSummary">"Αυτόματη  απενεργοποιήση  της τοποθεσίας ενώ είστε ακίνητοι και ενεργοποιήση ξανά όταν ξεκινά η κίνηση.  Αυτό μειώνει τη χρήση της μπαταρίας σε μεγαλύτερα διαλείμματα, χωρίς να χρειάζεται να σταματήσετε την παρακολούθηση."</string>
+    <string name="prefMapDiskCacheAgeEntries_1">5 μέρες</string>
+    <string name="prefMapDiskCacheAgeEntries_3">15 μέρες</string>
+    <string name="pref_mapsShowAttribution_title">Εμφάνιση απόδοσης</string>
+    <string name="prefGnssAutomaticSleepTitle">Αυτόματη αναστολή λειτουργίας GPS</string>
+    <string name="prefMapDiskCacheAgeEntries_4">30 μέρες</string>
 </resources>
