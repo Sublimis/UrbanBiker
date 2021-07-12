@@ -560,9 +560,9 @@
     <string name="pref_haptic_feedback_intensity_title">Intensidad de la vibración</string>
     <string name="pref_soundsMasterSwitch_title">Todos los sonidos</string>
     <string name="prefBarometricAltitudeTitle">Altitud barométrica</string>
-    <string name="prefBarometricAltitudeSummary">Usar el sensor de presión incorporado para mejorar la precisión de la altitud</string>
+    <string name="prefBarometricAltitudeSummary">Cuando esté disponible, usar el sensor de presión incorporado para mejorar la precisión de la altitud</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Barómetro térmico</string>
-    <string name="prefBaroAltitudeUsesTemperatureSummary">Usar los datos del sensor de temperatura para una mejor precisión de la altitud barométrica</string>
+    <string name="prefBaroAltitudeUsesTemperatureSummary">Cuando esté disponible, usar los datos del sensor de temperatura para una mejor precisión de la altitud barométrica</string>
     <string name="prefBarometricAltitudeNoteSummary">¡Usar solo en atmósfera abierta! Por favor ¡deshabilítelo mientras esté en vehículos presurizados, cerrados o con aire acondicionado, tales como automóviles o aviones!</string>
     <string name="prefTemperatureSensorDerivedTitle">Usar sensor derivado</string>
     <string name="prefTemperatureSensorDerivedSummary">Este dispositivo no cuenta con sensor de temperatura ambiente, pero se puede obtener usando otros sensores. Por favor, lea más en Ayuda.</string>
@@ -642,11 +642,11 @@
     <string name="pref_wakelock_modes_explanation_2">Permitir al CPU suspender entre actualizaciones de ubicación. Usa menos batería, pero puede omitir alguna actualización en raras ocasiones.</string>
     <string name="pref_wakelock_modes_explanation_3">Cumplir el comportamiento impuesto por el sistema y/o otras aplicaciones. Advertencia: Puede causar muchas actualizaciones irregulares de ubicación o incluso rechazarlas todas. No recomendado.</string>
     <!-- pref_locationProvider_modes -->
-    <string name="pref_locationProvider_modes_0">Subsistema GPS (Predeterminado)</string>
+    <string name="pref_locationProvider_modes_0">Subsistema GPS</string>
     <string name="pref_locationProvider_modes_1">Servicios de Google Play</string>
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Todos los perfiles) Usar subsistema de GPS directamente. Estable, modelos menos complejos, sin intermediarios. Puede usar menos recursos que otro proveedor.</string>
-    <string name="pref_locationProvider_modes_explanation_1">(Todos los perfiles) Usa el proveedor \"Fusionado\" de Google Play services, si está disponible. En teoría éste debe proveer de ubicaciones más rápidas y precisas, en ocasiones. Pruébalo para ver si te beneficia.</string>
+    <string name="pref_locationProvider_modes_explanation_1">(Todos los perfiles) Usa el proveedor \"Fusionado\" de Google Play services, si está disponible. En teoría esto debe proveer de ubicaciones más rápidas y precisas, en ocasiones. Pruébalo para ver si te beneficia.</string>
     <!-- pref_units_distance_entries -->
     <string name="pref_units_distance_entries_0">Métrico [m, km]</string>
     <string name="pref_units_distance_entries_1">Imperial [ft, mi]</string>
@@ -1331,4 +1331,23 @@
     <string name="pref_speechGnssStatus_summary">Hablar cuando cambie de estado del GPS (bueno, malo)</string>
     <string name="speechTrackingStart">En curso</string>
     <string name="speechTrackingResume">Adelante</string>
+    <string name="pref_categoryPrivacyTitle">Privacidad</string>
+    <string name="prefMapDiskCacheAgeEntries_7">90 días</string>
+    <string name="pref_categoryActivityRecognitionTitle">Reconocimiento de actividad física</string>
+    <string name="menuScreenshot">Captura de pantalla</string>
+    <string name="prefMapDiskCacheAgeEntries_5">45 días</string>
+    <string name="prefMapDiskCacheAgeTitle">Límite de antigüedad para la caché de mapas</string>
+    <string name="pref_mapsShowAttribution_summary">(Todos los perfiles) Muestra el texto de atribución para mapas en línea que no sean de Google. Desactívarlo para evitar hacer clic accidentalmente en los enlaces.</string>
+    <string name="prefActivityRecognitionNoteSummary">Estas opciones se basan en la función de reconocimiento de actividad física de Android. Puede que no sea exacto y puede ser lento, utilícelo solo si está de acuerdo con eso. Funcionará mejor cuando se utilice un sensor de velocidad para distancia y duración.</string>
+    <string name="prefGnssActivityRecognitionSummary">Reconozcer si se está parado o en movimiento mediante el GPS. Puede provocar retrasos y cierta pérdida de distancia después de un descanso, pero evitará la mayor parte de las perturbaciones del GPS.</string>
+    <string name="prefMapDiskCacheAgeEntries_6">60 días</string>
+    <string name="prefMapDiskCacheAgeEntries_0">1 día</string>
+    <string name="prefMapDiskCacheAgeEntries_2">10 días (por defecto)</string>
+    <string name="prefGnssActivityRecognitionTitle">Reducir interferencias de ubicación</string>
+    <string name="prefGnssAutomaticSleepSummary">Autoapagar la ubicación mientras se está parado y volverla a encender cuando comience el movimiento. Esto reduce el uso de la batería en descansos más largos, sin necesidad de detener el seguimiento.</string>
+    <string name="prefMapDiskCacheAgeEntries_1">5 días</string>
+    <string name="prefMapDiskCacheAgeEntries_3">15 días</string>
+    <string name="pref_mapsShowAttribution_title">Mostrar atribución</string>
+    <string name="prefGnssAutomaticSleepTitle">Hibernación automática de GPS</string>
+    <string name="prefMapDiskCacheAgeEntries_4">30 días</string>
 </resources>
