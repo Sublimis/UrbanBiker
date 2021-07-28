@@ -604,6 +604,8 @@
     <string name="summaryLocationIntervalInfo">Average time interval between two location updates on this track.</string>
     <string name="summaryDeviceRestartsCount">Forced restarts</string>
     <string name="summaryDeviceRestartsCountInfo">Number of times the app was force-closed or the device stopped working during this activity.</string>
+    <string name="summaryDeviceAutoPauseCount">Auto-pause count</string>
+    <string name="summaryDeviceAutoPauseCountInfo">Number of times auto-pause was activated during this activity.</string>
     <string name="summaryEnergyParams" translatable="false">@string/controlPanelEnergyParams</string>
     <string name="summaryStartedDatetime">Started</string>
     <string name="summaryEndedDatetime">Ended</string>
@@ -698,6 +700,8 @@
     <string name="sensorProperitesFilterIntervalInfo">Filter interval, i.e. strength of the filter. Larger values will filter more, but will also introduce more delay.</string>
     <string name="sensorProperitesActivityRecognition">Physical activity recognition</string>
     <string name="sensorProperitesActivityRecognitionInfo">Sensor will provide data only when your physical activity is recognized to be compatible with sensor purpose. For example, Step sensor will count steps while walking or running, not while riding a bike. Note, this may not be accurate and can be laggy. Google Play services are required.</string>
+    <string name="sensorProperitesNoAlarm">Do not alarm</string>
+    <string name="sensorProperitesNoAlarmInfo">Use the sensor if available, but do not notify or alarm when unavailable. Useful for unimportant sensors that are not essential for an activity. Disabled by default.</string>
 
     <string name="sensorStatusConnected">Connected</string>
     <string name="sensorStatusConnecting">Connecting…</string>
@@ -849,6 +853,8 @@
     <string name="pref_above_lockscreen_summary">App will remain visible even if the device is locked</string>
     <string name="pref_screenAutoPocketMode_title">Pocket mode</string>
     <string name="pref_screenAutoPocketMode_summary">(All profiles) Use proximity sensor to keep the display off while not needed</string>
+    <string name="pref_screenAutoPocketModeDelay_title">Delay</string>
+    <string name="pref_screenAutoPocketModeDelay_summary">This will delay turning the display off after proximity sensor is activated</string>
     <string name="pref_screenWaveOnOffMode_title">Waving mode</string>
     <string name="pref_screenWaveOnOffMode_summary">App-lock the display by waving twice in front of it. Wave again to unlock.</string>
     <string name="pref_screenWaveDim_title">Dim display</string>
@@ -994,6 +1000,8 @@
     <string name="pref_mapsWeatherPrecipitationRadar_info">Radar data is downloaded from the Internet, even when offline maps are used. It is automatically refreshed every 10 minutes while map is visible. Data source is RainViewer.com.</string>
     <string name="pref_mapsWeatherAnimate_title">Animate</string>
     <string name="pref_mapsWeatherAnimate_summary">Animate last 1 hour of radar data, to help you visualize the precipitation trend</string>
+    <string name="pref_mapsWeatherAnimateForecast_title">Forecast</string>
+    <string name="pref_mapsWeatherAnimateForecast_summary">Also animate 30 minutes of radar forecast in different colors</string>
     <string name="pref_mapsWeatherAnimate_info">Radar animation uses 5x more Internet data than a static radar image.</string>
     <string name="pref_button_autoring_enable_title">Auto Ring toggle</string>
     <string name="pref_button_autoring_enable_summary">Enable the Auto Ring mode toggle on speedometer long-click</string>
@@ -1384,6 +1392,16 @@
     <string name="prefMapDiskCacheAgeEntries_5">45 days</string>
     <string name="prefMapDiskCacheAgeEntries_6">60 days</string>
     <string name="prefMapDiskCacheAgeEntries_7">90 days</string>
+
+    <!-- prefScreenPocketModeDelayEntries -->
+    <string name="prefScreenPocketModeDelayEntries_0">No delay (default)</string>
+    <string name="prefScreenPocketModeDelayEntries_1">0.10 seconds</string>
+    <string name="prefScreenPocketModeDelayEntries_2">0.20 seconds</string>
+    <string name="prefScreenPocketModeDelayEntries_3">0.30 seconds</string>
+    <string name="prefScreenPocketModeDelayEntries_4">0.40 seconds</string>
+    <string name="prefScreenPocketModeDelayEntries_5">0.50 seconds</string>
+    <string name="prefScreenPocketModeDelayEntries_6">0.75 seconds</string>
+    <string name="prefScreenPocketModeDelayEntries_7">1 second</string>
 
 
     <string name="svgCopyright">Created with Urban Biker</string>
