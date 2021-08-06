@@ -2,7 +2,7 @@
 <resources>
     <string name="locale">bg</string>
     <string name="app_name">Urban Biker</string>
-    <string name="widget_1_description"/>
+    <string name="widget_1_description">Колоездач: Велосипеден звънец</string>
     <string name="widget_2_description">Biker: Звънец + Фар</string>
     <string name="widget_3_description">Biker: Пълен</string>
     <string name="proLicenseLabel">Про</string>
@@ -138,10 +138,10 @@
     <string name="dialog_bell_automatic_sensitivity_title">Чувствителност на Авто-звънеца</string>
     <string name="dialog_bell_shake_sensitivity_title">Чувствителност при разклащане</string>
     <string name="dialog_fenceguard_add_title">Добави зона</string>
-    <string name="dialog_fenceguard_add_text">Име на новата зона</string>
+    <string name="dialog_fenceguard_add_text">Име на новата зона:</string>
     <string name="dialog_fenceguard_add_text2">Скритата зона ще бъде зададена около текущото ви местоположение, за да я предпази от разкриване върху записаните трасета.</string>
     <string name="dialog_fenceguard_update_title">Актуализиране на скритата зона</string>
-    <string name="dialog_fenceguard_update_text">Име на скритата зона</string>
+    <string name="dialog_fenceguard_update_text">Име на скритата зона:</string>
     <string name="dialog_fenceguard_update_text2">Скритата зона създадена около вашето местоположение я защитава от разкриване върху записаните трасета.</string>
     <string name="dialog_fenceguard_remove_title">Премахни скрита зона</string>
     <string name="dialog_fenceguard_remove_defaultText">Сигурни ли сте, че искате да премахнете скритата зона\?</string>
@@ -159,7 +159,7 @@
     <string name="dialogProfileAddTitle">Нов профил</string>
     <string name="dialogProfileAddInfo">Настройките за новия профил ще бъдат копирани от текущия активен профил.</string>
     <string name="dialogProfileEditTitle">Редактирайте профил</string>
-    <string name="dialogProfileEditTotals">Резултати</string>
+    <string name="dialogProfileEditTotals">Резултати:</string>
     <string name="dialogProfileTotalsResetMessage">Нулиране на резултатите от профила\?</string>
     <string name="dialogProfileSwitchMessage">Има активно записване на проследяване. Сигурни ли сте, че искате да превключите към профил %1$s\?</string>
     <string name="dialogTracksDeleteTitle">Изтриване на трасета</string>
@@ -215,7 +215,7 @@
     <string name="dialogMapsAutoRotate">Автоматична ориентация</string>
     <string name="dialogMapsHighResolution">Карта с висока резолюция</string>
     <string name="dialogMapsRenderTerrain">Покажи релеф</string>
-    <string name="dialogMapsTrackColor">Цвят на трасето</string>
+    <string name="dialogMapsTrackColor">Цвят на трасето:</string>
     <string name="dialogFencesAdd">Добави скрита зона тук</string>
     <string name="dialogFencesUpdate">Обновяване на локацията на скритата зона</string>
     <string name="dialogFencesEdit">Редактирай скрита зона</string>
@@ -249,7 +249,7 @@
     <string name="dialogTrackUploadPlatform">Онлайн услуга</string>
     <string name="dialogTrackUploadStravaIsCommute">До работа</string>
     <string name="dialogGpsIntervalTitle">GPS интервал на опресняване</string>
-    <string name="dialogGpsIntervalNote">Забележка: Запазете тази стойност под 3 сек за да получите най-точните и последователни данни!</string>
+    <string name="dialogGpsIntervalNote">Запазете тази стойност под 3 сек за да получите най-точните и последователни данни!</string>
     <string name="dialogGpsIntervalLabelMore">◀
 \nПо-голяма точност, използва повече батерия</string>
     <string name="dialogGpsIntervalLabelLess">▶
@@ -474,9 +474,9 @@
     <string name="sensorProperitesIsAutoPerimeter">Автоматичен</string>
     <string name="sensorProperitesIsAutoPerimeterInfo">Това ще извърши автоматично измерване на обиколката по време на каране.</string>
     <string name="sensorProperitesWheelPerimeterNotSet">Не е зададено</string>
-    <string name="sensorProperitesStrideLen">Дължина на крака</string>
+    <string name="sensorProperitesStrideLen">Дължина на крачка</string>
     <string name="sensorProperitesIsAutoStrideLen">Автоматичен</string>
-    <string name="sensorProperitesIsAutoStrideLenInfo">Това ще извърши автоматично измерване на дължината на крака по време на каране.</string>
+    <string name="sensorProperitesIsAutoStrideLenInfo">Това ще извърши автоматично измерване на дължината на крачката по време на тичане или скоростно ходене.</string>
     <string name="sensorProperitesStrideLenNotSet">Не е зададено</string>
     <string name="sensorProperitesSpeedTriggers">Активатор за скорост</string>
     <string name="sensorProperitesCadenceTriggers">Активатор за темпо</string>
@@ -509,7 +509,7 @@
     <string name="pref_group_advanced_title">Разширени…</string>
     <string name="pref_category_other_title">Други</string>
     <string name="pref_category_gps_interval_title">GPS интервал на опресняване</string>
-    <string name="pref_category_stationary_exercise_title">Упражнение на тренажор</string>
+    <string name="pref_category_stationary_exercise_title">Стационарна дейност</string>
     <string name="pref_category_autopause_title">Автоматична пауза</string>
     <string name="pref_category_resetPrompt_title">Напомняне за нулиране</string>
     <string name="pref_category_tracking_title">Проследяване</string>
@@ -552,7 +552,7 @@
     <string name="pref_category_locationProvider_title">GPS доставчик</string>
     <string name="pref_category_altitude_adjustments_title">Височини</string>
     <string name="pref_category_temperature_title">Температура</string>
-    <string name="pref_category_pressure_title">Налягане</string>
+    <string name="pref_category_pressure_title">Вграден сензор за налягане</string>
     <string name="pref_category_sensors_title">Сензори</string>
     <string name="pref_category_cloudAccounts_title">Акаунти</string>
     <string name="pref_category_mapsQuickZoom">Бързо приближение</string>
@@ -593,8 +593,7 @@
     <string name="pref_bell_shake_sensitivity_title">Чувствителност при разклащане</string>
     <string name="pref_roaring_type_title">Тип</string>
     <string name="pref_roaring_type_dialog_title">Тип на звука при движение</string>
-    <string name="pref_volume_summary_text">Звънец: %1$s, Шум при движ.: %2$s
-\nИзвестия: %3$s, Ефекти: %4$s, Аларми: %5$s</string>
+    <string name="pref_volume_summary_text">Звънец: %1$s, Шум при движ.: %2$s, Известия: %3$s, Ефекти: %4$s, Аларми: %5$s, Говор: %6$s</string>
     <string name="pref_bg_color_title">Цвят на фона</string>
     <string name="pref_bg_color_summary">Изберете желания цвят за фона на приложението</string>
     <string name="pref_fg_color_title">Цвят на текста</string>
@@ -629,7 +628,7 @@
     <string name="pref_digital_font_title">Цифров шрифт</string>
     <string name="pref_digital_font_summary">(Всички профили) Използване на сегментиран цифров шрифт за дисплея на оборотомера</string>
     <string name="pref_roaring_state_title">Звук при движение</string>
-    <string name="pref_roaring_state_summary">Издаване на предупредителни звуци при движение</string>
+    <string name="pref_roaring_state_summary">Възпроизвеждане на предупредителни звуци докато се движиш</string>
     <string name="pref_roaring_mode_title">Режим</string>
     <string name="pref_roaring_mode_dialog_title">Режим на звука при движение</string>
     <string name="pref_roaring_constant_mode_title">Постоянен режим</string>
@@ -682,9 +681,7 @@
     <string name="pref_maps_offline_file_summary">(Всички профили) %1$s</string>
     <string name="pref_maps_offline_file_noFolderSelected">Няма избрана папка.</string>
     <string name="pref_maps_offline_info_title">Свали сега</string>
-    <string name="pref_maps_offline_info_summary">Mapsforge вектор (.map) и Rmaps растер (.sqlitedb) се поддържат. Достъпни на download.mapsforge.org.
-\n
-\nИзползване: Изберете сваленият файл с карти с опциите отгоре.</string>
+    <string name="pref_maps_offline_info_summary">Mapsforge вектор (.map) и Rmaps растер (.sqlitedb) се поддържат. Достъпни на download.mapsforge.org.</string>
     <string name="pref_maps_offline_warning_summary">Внимание: Даже и в офлайн режим е възможно свалянето на известно количество онлайн информация. Моля, изключете мобилният си интернет ако това ви притеснява.</string>
     <string name="pref_maps_routes_draw_title">Пътеводители</string>
     <string name="pref_maps_routes_draw_summary">Начертай избраните GPX маршрути като пунктирани линии върху картата</string>
@@ -700,9 +697,7 @@
     <string name="pref_maps_offline_terrain_title">Покажи релеф</string>
     <string name="pref_maps_offline_terrain_summary">(Всички профили) Покажи нюанси на издигане на терена. Картата ще изглежда по-реалистична, но вероятно по-бавна. Изисква DEM (.hgt) файлове, присъстващи в папката на картата.</string>
     <string name="pref_maps_offline_terrain_info_title">Свали сега</string>
-    <string name="pref_maps_offline_terrain_info_summary">Отворете страницата за изтегляне на viewfinderpanoramas.org.
-\n
-\nИзползване: Извлечете .hgt файловете от свалените zip файлове и ги поставете в същата папка, в която присъства офлайн файлът на картата (не използвайте отделни подпапки).</string>
+    <string name="pref_maps_offline_terrain_info_summary">Отворете страницата за изтегляне на viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Действие на бутон на Слой</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Всички профили) Изберете какво да прави бутон Слой, когато бъде натиснат</string>
     <string name="pref_button_autoring_enable_title">Бутон Автоматично звънене</string>
@@ -752,20 +747,20 @@
     <string name="pref_haptic_feedback_intensity_title">Интензивност на вибрацията</string>
     <string name="pref_soundsMasterSwitch_title">Всички звуци</string>
     <string name="prefBarometricAltitudeTitle">Барометрична височина</string>
-    <string name="prefBarometricAltitudeSummary">Използвайте вграденият барометър за подобряване точността на височината</string>
+    <string name="prefBarometricAltitudeSummary">Използвайте информацията от вграденият барометър за подобряване точността на височината</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Термо барометър</string>
-    <string name="prefBaroAltitudeUsesTemperatureSummary">Използвайте информацията от сензора за температура за по-точни барометрични височини</string>
+    <string name="prefBaroAltitudeUsesTemperatureSummary">Използвайте информацията от сензора за температура за по-точни барометрични височини ако е наличен</string>
     <string name="prefBarometricAltitudeNoteSummary">Използвайте тази функция само на открито! Моля, деактивирайте в затворени или климатизирани пространства, като коли и самолети!</string>
     <string name="prefTemperatureSensorDerivedTitle">Използвай вграденият сензор</string>
     <string name="prefTemperatureSensorDerivedSummary">На това устройство липсва сензор за околна температура, но тя може да бъде получена чрез други сензори. Моля, прочетете повече в Помощ.</string>
-    <string name="prefPressureSensorOffsetTitle">Корекция на барометъра</string>
-    <string name="prefPressureSensorOffsetInfo">Тази константа се добавя към показанията на барометъра и може да се използва за смекчаване на отклоненията на барометъра, ако има такива</string>
+    <string name="prefPressureSensorOffsetTitle">Корекция на налягането</string>
+    <string name="prefPressureSensorOffsetInfo">Тази константа се добавя към показанията за налягането и може да се използва за смекчаване на отклоненията на сензора, ако има такива</string>
     <string name="prefNotificationAlwaysTitle">Постоянно известяване</string>
     <string name="prefNotificationAlwaysSummary">Показвай иконата за известяване на приложението в лентата на състоянието на системата постоянно, не само когато проследяването е активно.</string>
     <string name="prefMapDiskCacheSizeTitle">Лимит за размера на кеша на картата</string>
     <string name="prefMapDiskCacheSizeSummary">При гледане на карта, онлайн и офлайн, частите се кешират локално, за да се намали нуждата от многократно изтегляне или чертане. Това ускорява зареждането на картата и спестява батерията. (Всички профили)</string>
-    <string name="prefProhibitLocationTitle">Не използвай GPS</string>
-    <string name="prefProhibitLocationSummary">Това ще добие данни само от безжичните сензори (Мощност, Скорост, Темпо, Пулс) и няма да включва GPS</string>
+    <string name="prefProhibitLocationTitle">Не използвай Местоположение</string>
+    <string name="prefProhibitLocationSummary">Предотвратява GPS по време на активност</string>
     <string name="prefMapTrackColorTitle">Цвят на трасето</string>
     <string name="prefMapGuideRouteColorTitle">Цвят на пътеводителя</string>
     <string name="infoMeterModeDistanceTitle">Разстояние</string>
@@ -775,7 +770,7 @@
     <string name="infoMeterModeDurationTitle">Продължителност</string>
     <string name="infoMeterModeDurationMsg">Продължителност на пътуването, възможно изключване на паузи или спирки.</string>
     <string name="infoMeterModeElapsedTitle">Изминало време</string>
-    <string name="infoMeterModeElapsedMsg">Изминало време, включително всички паузи, но без спирките.</string>
+    <string name="infoMeterModeElapsedMsg">Продължителността на пътуването, включително всички паузи, но без спирките.</string>
     <string name="infoMeterModeEnergyTitle">Енергия</string>
     <string name="infoMeterModeEnergyMsg">Енергия изразходвана за пътуването, като се вземе предвид ефективността и скоростта на обмяна на веществата (BMR) от акаунта .</string>
     <string name="infoMeterModeEfficacyTitle">Ефективност (натрупана)</string>
@@ -787,8 +782,62 @@
     <string name="infoMeterModeWriggleTitle">Въртене</string>
     <string name="infoMeterModeWriggleMsg">Измерване на отклонение на маршрута от права линия, напр. колко се отдалечавате от зоната, вместо да се движите направо. По-ниското обикновено е по-добро.</string>
     <string name="infoMeterModeAltitudeTitle">Височина</string>
-    <string name="infoMeterModeAltitudeMsg">Височина над средното морско ниво (геоид) — Текуща, Максимална и Минимална.
-\n
-\nЗабележка: Това може да се забави от реалното време, поради неизбежните закъснения на цифровото филтриране.</string>
+    <string name="infoMeterModeAltitudeMsg">Височина над средното морско ниво (геоид).</string>
     <string name="infoMeterModeSlopeTitle">Наклон</string>
+    <string name="app_description">Проследявайте и измервайте вашите карания с голяма точност. Повишете безопасността и ефективността на вашето колоездене.</string>
+    <string name="dialogMapsWeatherRadar">Радар за валежи</string>
+    <string name="proLicenseFeatures">🔹 Без реклами</string>
+    <string name="menuMeterClockShowSeconds">Покажи секунди</string>
+    <string name="mapboxMapsFeatures">🔹 Карти Mapbox
+\n🔹 Без реклами</string>
+    <string name="menuScreenshot">Екранна снимка</string>
+    <string name="dialogScreenOrientationReverseLandscape">Пейзаж (обратен)</string>
+    <string name="toastScreenPocketModeActive">Активен джобен режим</string>
+    <string name="subscriptionPer1y">%1$s таксува се веднъж на 12 месеца</string>
+    <string name="subscriptionPer1m">%1$s таксува се веднъж месечно</string>
+    <string name="dialogScreenOrientationReversePortrait">Портрет (обратен)</string>
+    <string name="paymentOnce">Еднократно плащане</string>
+    <string name="toastSharingNoGpxError">Грешка, няма GPX файл в записа</string>
+    <string name="rewardedAdDescription">Щракнете тук, за да гледате първо реклама</string>
+    <string name="subscriptionPer1w">%1$s таксува се веднъж седмично</string>
+    <string name="hereMapsFeatures">🔹 Карти на HERE
+\n🔹 Без реклами</string>
+    <string name="thunderforestMapsFeatures">🔹 Карти на Thunderforest
+\n🔹 Без реклами</string>
+    <string name="proPlusLicenseFeatures">🔹 Без реклами
+\n🔹 Допълнително дарение</string>
+    <string name="maptilerMapsFeatures">🔹 Карти на MapTiler
+\n🔹 Без реклами</string>
+    <string name="buttonLater">по-късно</string>
+    <string name="priceFree">БЕЗПЛАТНО</string>
+    <string name="dialogMapsChooseTitle">Изберете карта</string>
+    <string name="ultimateLicenseDescription">Най-функционалният лиценз за максимално изживяване.</string>
+    <string name="menuCollapse">Свий</string>
+    <string name="dialog_volume_speech_text">Говор</string>
+    <string name="buttonShow">Покажи</string>
+    <string name="menuMeterStart">Старт</string>
+    <string name="menuExpand">Разгъни</string>
+    <string name="licenseDialogMapsTab">Карти</string>
+    <string name="dialogProfileSwitchTitle">Превключване на профил</string>
+    <string name="menuMeterStop">Спри</string>
+    <string name="subscriptionPer6m">%1$s таксува се веднъж на 6 месеца</string>
+    <string name="dialogChartDataTypesTitle">Видове диаграми</string>
+    <string name="ultimateLicenseFeatures">🔹 Всички карти
+\n🔹 Всички функции
+\n🔹 Без реклами</string>
+    <string name="dialogMapsAutoZoom">Автоматично увеличение</string>
+    <string name="rewardedAdPriceFree">БЕЗПЛАТНО (валидно за тази сесия)</string>
+    <string name="cautionTitle">Внимание</string>
+    <string name="toastScreenWavingModeActive">Режимът на махане с ръка е активен</string>
+    <string name="dialogTrackEditTitleHint">Заглавие</string>
+    <string name="subscriptionPer3m">%1$s таксува се веднъж на 3 месеца</string>
+    <string name="loading">Зареждане…</string>
+    <string name="dialogTrackEditNotesHint">Бележки</string>
+    <string name="subscriptionPerMonth">%1$s /на месец</string>
+    <string name="manageSubscriptions">Управление на абонаменти</string>
+    <string name="dialogMapsMapCount">%1$s карти</string>
+    <string name="rewardedAdLoading">Рекламата се зарежда…</string>
+    <string name="rewardedLicenseSuccess">Лицензът е успешно спечелен</string>
+    <string name="dialogOpenRainviewerText">Отворете уеб страницата www.rainviewer.com сега\?</string>
+    <string name="na">Не е приложимо</string>
 </resources>
