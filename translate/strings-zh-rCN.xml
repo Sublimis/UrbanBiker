@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="locale">zh</string>
     <string name="app_name">Urban Biker</string>
-    <string name="app_description">Track and measure your rides with great accuracy. Increase your cycling safety and efficiency.</string>
+    <string name="app_description">非常準確地追踪和測量您的騎行。 提高您的騎行安全性和效率。</string>
     <string name="widget_1_description">類別: 自行車鈴聲</string>
     <string name="widget_2_description">類別: 鈴聲 + 電燈</string>
     <string name="widget_3_description">Biker: Complete</string>
@@ -81,8 +81,8 @@
     <string name="dialog_default_color_light_title">淺色主題</string>
     <string name="dialog_default_color_dark_title">深色主題</string>
     <string name="dialog_default_color_text">加載默認顏色。 確定？</string>
-    <string name="dialog_volume_bell_text">響安</string>
-    <string name="dialog_bell_automatic_sensitivity_title">自動響安靈敏度</string>
+    <string name="dialog_volume_bell_text">鈴聲</string>
+    <string name="dialog_bell_automatic_sensitivity_title">自動鈴聲靈敏度</string>
     <string name="dialog_bell_shake_sensitivity_title">搖動靈敏度</string>
     <string name="dialogProfileDeleteTitle">刪除使用者</string>
     <string name="dialogProfileDeleteMessage">警告：這將刪除使用者個人資料設置和總計數據。已保存的記錄將保持不變。
@@ -101,7 +101,7 @@
     <string name="dialogTrackResumeGeneralPromptMessage">記錄將會恢復至使用者 %1$s。 繼續？</string>
     <string name="dialogTrackResumeGeneralErrorMessage">錯誤。 請重試。</string>
     <string name="dialogTrackResumeWaitMessage">正在恢復中，請稍候...</string>
-    <string name="dialogTracksShareTitle">分享記錄</string>
+    <string name="dialogTracksShareTitle">分享追蹤紀錄</string>
     <string name="dialogScreenOrientationAuto">自動定向</string>
     <string name="dialogScreenOrientationPortrait">頭像</string>
     <string name="dialogScreenAutoTheme">自動主題</string>
@@ -328,4 +328,162 @@
     <string name="pref_speedo_display_mode_entries_0">圖形 &amp; 數字</string>
     <string name="pref_speedo_display_mode_entries_1">圖形</string>
     <string name="pref_speedo_display_mode_entries_2">數字</string>
+    <string name="dialog_fenceguard_remove_title">移除圍欄</string>
+    <string name="farFromHere">離這里遠</string>
+    <string name="dialogGpsSettingsPromptMessage">如果沒有位置訊息，您將無法使用此應用的大部分功能。
+\n
+\n請確保GPS已啟用並設置為“高精準”模式。
+\n
+\n現在打開GPS位置設置？</string>
+    <string name="dialogMapsTrackColor">追蹤色調：</string>
+    <string name="dialogProfileAddInfo">新配置文件的設置將從當前活動的配置文件中複製</string>
+    <string name="dialogScreenOrientationLandscape">風景</string>
+    <string name="dialogMapsWeatherRadar">降水雷達</string>
+    <string name="menuFenceguard">柵欄守衛</string>
+    <string name="menuMeterPowerMode">切換省電模式</string>
+    <string name="dialog_volume_tallies_text">相符</string>
+    <string name="dialog_volume_effects_text">效果</string>
+    <string name="proLicenseFeatures">🔹無廣告</string>
+    <string name="dialogMapsRenderTerrain">渲染地形</string>
+    <string name="menuHelp">幫助 &amp; 支援</string>
+    <string name="menuMeterClockShowSeconds">顯示秒數</string>
+    <string name="mapboxMapsFeatures">🔹 Mapbox 地圖
+\n🔹無廣告</string>
+    <string name="menuScreenshot">截圖</string>
+    <string name="menuSwitchProfile">切換到</string>
+    <string name="dialogTrackResumeGpsActiveMessage">追蹤處於活動狀態。 請先關閉或暫停 GPS。</string>
+    <string name="toastAutoThemeActivated">自動視覺主題激活</string>
+    <string name="toastTrackingPaused">暫停</string>
+    <string name="dialogScreenOrientationReverseLandscape">橫向（反向）</string>
+    <string name="toastScreenPocketModeActive">口袋模式激活</string>
+    <string name="dialogResetNoTrackMessage">沒有記錄任何追蹤。 現在重置碼表？</string>
+    <string name="subscriptionPer1y">%1$s 每 12 個月計費一次</string>
+    <string name="dialogResetMessage">儲存此追蹤紀錄並準備新的追蹤？</string>
+    <string name="dialogGpsSettingsPromptTitle">定位已關閉</string>
+    <string name="subscriptionPer1m">%1$s 每月計費一次</string>
+    <string name="menuEdit">編輯</string>
+    <string name="dialogScreenOrientationReversePortrait">縱向（反向）</string>
+    <string name="dialog_fenceguard_update_title">更新圍欄</string>
+    <string name="dialog_fenceguard_add_text2">圍欄將圍繞您的當前位置升高，以防止其暴露在追蹤紀錄中。</string>
+    <string name="dialogThermoBarometerNoticeTitle">注意</string>
+    <string name="toastSensorEnabled">啟用傳感器</string>
+    <string name="toastFenceGuardFenceRemoved">圍欄防護:柵欄 %1$s 已移除</string>
+    <string name="dialogTracksDeleteMessage">警告：此操作無法復原。
+\n
+\n刪除所選追蹤？</string>
+    <string name="dialog_exit_msg">警告：追蹤處於活動狀態，並將停止。</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">活動配置文件將從 %1$s 切換到 %2$s。 繼續？</string>
+    <string name="licenseSuccessDialogMessage">該應用程序已成功獲得許可。 感謝您的支持！</string>
+    <string name="toastFenceGuardOutsideTheFence">圍欄防護: 您當前不在圍欄內</string>
+    <string name="menuAbout">關於</string>
+    <string name="paymentOnce">一次性支付</string>
+    <string name="toastSharingNoGpxError">錯誤，追蹤中沒有 GPX 文件</string>
+    <string name="dialogMapsShowRoutes">路況導航</string>
+    <string name="dialog_volume_message">注意：使用設備上的音量按鈕調節整體音量。</string>
+    <string name="rewardedAdDescription">點擊此處先觀看廣告</string>
+    <string name="subscriptionPer1w">%1$s 每週計費一次</string>
+    <string name="hereMapsFeatures">🔹這裡有地圖
+\n🔹無廣告</string>
+    <string name="thunderforestMapsFeatures">🔹 雷霆森林地圖
+\n🔹無廣告</string>
+    <string name="proPlusLicenseFeatures">🔹無廣告
+\n🔹額外捐款</string>
+    <string name="dialogTrackResumeProfileMissingMessage">創建此追蹤的配置文件 %1$s 不再存在。 在當前配置文件 %2$s 中恢復？</string>
+    <string name="menuRateAndComment">評價我們</string>
+    <string name="maptilerMapsFeatures">🔹 MapTiler 地圖
+\n🔹無廣告</string>
+    <string name="dialogBaroAltitudePromptMessage">由於與 GPS 高度不一致，氣壓高度已被強制關閉！
+\n
+\n請不要在封閉或有空調的空間內使用！</string>
+    <string name="toastFenceGuardFenceAdded">圍欄防護：已添加%1$s圍欄</string>
+    <string name="toastSharingError">共享操作期間出錯</string>
+    <string name="ongoingNotificationChannelDescription">提供對前台服務的控制和對應用程序的輕鬆訪問</string>
+    <string name="dialog_fenceguard_add_text">命名一個新的圍欄：</string>
+    <string name="buttonLater">晚點</string>
+    <string name="toastSharingSuccess">發布成功</string>
+    <string name="buttonNewTrack">完成</string>
+    <string name="menuViewWith">查看方式</string>
+    <string name="priceFree">免費</string>
+    <string name="menuClear">清除</string>
+    <string name="menuMeterReset">完成</string>
+    <string name="dialogScreenBrightnessOverride">亮度</string>
+    <string name="toastFenceGuardFenceUpdatingError">圍欄防護: 更新圍欄時出錯</string>
+    <string name="toastTrackingStopped">停止</string>
+    <string name="toastFenceGuardFenceAddingError">圍欄防護：添加圍欄時出錯</string>
+    <string name="dialogBaroAltitudeNoticeMessage">氣壓高度僅適用於戶外。
+\n
+\n請不要在某些車輛和飛機等封閉或空調空間中使用它。</string>
+    <string name="dialog_fenceguard_remove_defaultText">你確定要拆除圍欄嗎？</string>
+    <string name="dialog_fenceguard_update_text">圍欄名稱：</string>
+    <string name="ultimateLicenseDescription">最強大的終極體驗許可證。</string>
+    <string name="toastContrastButtonClickInfo">自動視覺圖示處於活動狀態</string>
+    <string name="dialogResetTitle">完成</string>
+    <string name="dialog_fenceguard_update_text2">在您的位置周圍豎起圍欄可防止其暴露在追蹤紀錄中。</string>
+    <string name="buttonUnderstand">我瞭解</string>
+    <string name="menuCollapse">坍塌</string>
+    <string name="dialogMapsFollowMode">跟隨</string>
+    <string name="toastFenceGuardLocationUnavailable">圍欄防護: 您的位置仍然不可用</string>
+    <string name="dialogTracksShareCountExceeded">一次不能分享超過 100 個追蹤紀錄。</string>
+    <string name="dialog_volume_speech_text">報告</string>
+    <string name="toastMapClickInfo">長按地圖選項</string>
+    <string name="dialog_fenceguard_remove_formatText">您確定要移除圍欄 %1$s 嗎？</string>
+    <string name="dialogTracksShareGeneralErrorMessage">發生了一些錯誤。 請再試一次。</string>
+    <string name="dialog_track_save_text">距離 %1$.3f %2$s
+\n持續時間 %3$s
+\n(%4$s)
+\n
+\n追蹤似乎很短。 保存此追蹤？</string>
+    <string name="buttonShow">顯示</string>
+    <string name="menuMeterStart">開始</string>
+    <string name="menuExpand">擴大</string>
+    <string name="dialogMapsHighResolution">高解析地圖</string>
+    <string name="licenseDialogMapsTab">地圖</string>
+    <string name="notificationTitleAdvancedPaused">已暫停：%1$s</string>
+    <string name="toastSharingPermissionsError">發布錯誤，請檢查權限</string>
+    <string name="dialog_volume_alarms_text">警報</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">目標配置文件 %1$s 不為空。 請先重置。</string>
+    <string name="menuMeterStop">停止</string>
+    <string name="dialog_default_map_track_colors_title">地圖追蹤顏色</string>
+    <string name="dialog_volume_roaring_text">汽車</string>
+    <string name="toastFenceGuardFenceRemovingError">圍欄防護:移除圍欄時出錯</string>
+    <string name="subscriptionPer6m">%1$s 每 6 個月計費一次</string>
+    <string name="dialogBaroAltitudeNoticeTitle">注意</string>
+    <string name="dialogThermoBarometerNoticeMessage">溫度氣壓計的準確性取決於室外空氣溫度。
+\n
+\n請不要在某些車輛和飛機等封閉或空調空間中使用它。</string>
+    <string name="dialogMapsAutoRotate">自動旋轉</string>
+    <string name="toastProfilesListNonemptyDelete">無法刪除 — 配置文件包含一些未保存的資料！ 請先完成。</string>
+    <string name="toastUpdatingSuccess">成功更新</string>
+    <string name="ultimateLicenseFeatures">🔹所有地圖
+\n🔹所有功能
+\n🔹無廣告</string>
+    <string name="menuSelectMode">選擇</string>
+    <string name="dialogMapsAutoZoom">自動縮放</string>
+    <string name="dialogMapsShowFences">圍欄</string>
+    <string name="rewardedAdPriceFree">免費（本次會議有效）</string>
+    <string name="cautionTitle">警告</string>
+    <string name="toastScreenWavingModeActive">揮手模式激活</string>
+    <string name="toastSensorDisabled">關閉傳感器</string>
+    <string name="menuProfiles">簡介</string>
+    <string name="menuRefresh">更新</string>
+    <string name="subscriptionPer3m">%1$s 每 3 個月計費一次</string>
+    <string name="loading">載入中…</string>
+    <string name="menuControlPanel">控制面板</string>
+    <string name="subscriptionPerMonth">%1$s /月</string>
+    <string name="menuCenterOnMap">中心</string>
+    <string name="manageSubscriptions">管理訂閱</string>
+    <string name="menuUpload">上傳</string>
+    <string name="toastTrackingRecording">記錄中</string>
+    <string name="toastProfileButtonClickInfo">長按切換配置文件</string>
+    <string name="rewardedAdLoading">正在加載廣告…</string>
+    <string name="rewardedLicenseSuccess">成功頒發執照</string>
+    <string name="toastFenceGuardFenceUpdated">圍欄防護: 圍欄%1$s已更新</string>
+    <string name="dialogScreenHudMode">HUD鏡像模式</string>
+    <string name="dialog_defaultConfirmation">你確定嗎？</string>
+    <string name="toastTrackingRecordingPassive">被動紀錄中</string>
+    <string name="menuSensors">傳感器</string>
+    <string name="dialog_fenceguard_add_title">添加圍欄</string>
+    <string name="na">不適用</string>
+    <string name="toastCancelled">取消</string>
+    <string name="ongoingNotificationChannelName">持續通知</string>
 </resources>
