@@ -157,7 +157,7 @@
 \n
 \nИзтриване на профил %1$s\?</string>
     <string name="dialogProfileAddTitle">Нов профил</string>
-    <string name="dialogProfileAddInfo">Настройките за новия профил ще бъдат копирани от текущия активен профил.</string>
+    <string name="dialogProfileAddInfo">Настройките за новия профил ще бъдат копирани от текущия активен профил</string>
     <string name="dialogProfileEditTitle">Редактирайте профил</string>
     <string name="dialogProfileEditTotals">Резултати:</string>
     <string name="dialogProfileTotalsResetMessage">Нулиране на резултатите от профила\?</string>
@@ -320,7 +320,7 @@
     <string name="unitDegC">°C</string>
     <string name="unitDegF">°F</string>
     <string name="unitHPa">hPa</string>
-    <string name="unitPetrolLit">Лит. бензин</string>
+    <string name="unitPetrolLit">Литър бензин.</string>
     <string name="unitKmPerLit">км/л</string>
     <string name="unitMiPerGal">мили/галон</string>
     <string name="unitPerHundredKm">/100км</string>
@@ -425,7 +425,7 @@
     <string name="summaryWheelsWeight">Тегло на колелата</string>
     <string name="summaryEfficiency">Ефективност</string>
     <string name="summaryDragArea">Зона на съпротивление</string>
-    <string name="summaryRollResistCoef">Коефициент на съпротивление при търкаляне</string>
+    <string name="summaryRollResistCoef">Коефициент на съпротивление при търкаляне.</string>
     <string name="summaryBasalMetabolicRate">Скорост на обмен на веществата</string>
     <string name="summaryLocationInterval">Интервал на местоположението</string>
     <string name="summaryDeviceRestartsCount">Принудителни рестартирания</string>
@@ -638,7 +638,7 @@
     <string name="pref_roarConstantModeButton_title">Бутон</string>
     <string name="pref_roarConstantModeButton_summary">Включи постоянен режим с клик в/у бутон, докато звукът за движение е включен</string>
     <string name="pref_fenceguard_title">Скрита зона</string>
-    <string name="pref_fenceguard_summary">Защитете местоположението на вашият дом или други важни места от разкриване при записването на трасета.</string>
+    <string name="pref_fenceguard_summary">Защитете местоположението на вашият дом или други важни места от разкриване при записването на трасета</string>
     <string name="pref_autopause_mode_dialog_title">Автоматична пауза</string>
     <string name="pref_speedometer_limit_title">Индикатор Макс</string>
     <string name="pref_speedometer_limit_dialog_title">Индикатор за максимална скорост</string>
@@ -691,7 +691,7 @@
     <string name="pref_maps_routes_files_dialog_title">Изберете папка или файл с маршрути</string>
     <string name="pref_maps_routes_files_noFolderSelected">Няма избрана папка.</string>
     <string name="pref_maps_quickZoom_title">Бутон Бързо Приближение</string>
-    <string name="pref_maps_quickZoom_summary">(Всички профили) Активирайте невидими бутони за бързо приближение в долната част на картата. Подобрява вашата ориентация.</string>
+    <string name="pref_maps_quickZoom_summary">(Всички профили) Активирайте невидими бутони за бързо приближение в долната част на картата. Подобрява вашата ориентация</string>
     <string name="pref_maps_quickZoomInvert_title">Обърнати</string>
     <string name="pref_maps_quickZoomInvert_summary">Разменете позицията на бутона за приближаване и отдалечаване</string>
     <string name="pref_maps_offline_terrain_title">Покажи релеф</string>
@@ -754,7 +754,7 @@
     <string name="prefTemperatureSensorDerivedTitle">Използвай вграденият сензор</string>
     <string name="prefTemperatureSensorDerivedSummary">На това устройство липсва сензор за околна температура, но тя може да бъде получена чрез други сензори. Моля, прочетете повече в Помощ.</string>
     <string name="prefPressureSensorOffsetTitle">Корекция на налягането</string>
-    <string name="prefPressureSensorOffsetInfo">Тази константа се добавя към показанията за налягането и може да се използва за смекчаване на отклоненията на сензора, ако има такива</string>
+    <string name="prefPressureSensorOffsetInfo">Тази константа се добавя към показанията за налягането и може да се използва за смекчаване на отклоненията на сензора, ако има такива.</string>
     <string name="prefNotificationAlwaysTitle">Постоянно известяване</string>
     <string name="prefNotificationAlwaysSummary">Показвай иконата за известяване на приложението в лентата на състоянието на системата постоянно, не само когато проследяването е активно.</string>
     <string name="prefMapDiskCacheSizeTitle">Лимит за размера на кеша на картата</string>
@@ -914,4 +914,58 @@
     <string name="sensorProperitesActivityRecognitionInfo">Сензорът ще предоставя данни само когато вашата физическа активност е разпозната като съвместима с целта на сензора. Например, сензорът за стъпки ще брои стъпките, докато ходите или бягате, а не докато карате колело. Обърнете внимание, че това може да не е точно и може да работи забавено. Изискват се услуги на Google Play.</string>
     <string name="sensorProperitesNoAlarmInfo">Използвайте сензора, ако има такъв, но не уведомявайте и не алармирайте, когато не е наличен. Полезно за маловажни сензори, които не са от съществено значение за дадена дейност. Деактивирано по подразбиране.</string>
     <string name="sensorProperitesFilterIntervalInfo">Интервал на филтриране, т.е. силата на филтъра. По -големите стойности ще филтрират повече, но също така ще въведат повече забавяне.</string>
+    <string name="meterModeKineticEnergy">Кинетична енергия</string>
+    <string name="pref_screenWaveDim_title">Затъмняване на дисплея</string>
+    <string name="dialogCloudAccountDisconnectMessage">Да се прекрати ли връзката с този акаунт\?</string>
+    <string name="meterModeFTPowerShort">фт мощ кратко</string>
+    <string name="controlPanelUnitsButtonSubtitle">Щракнете, за да промените мерните единици</string>
+    <string name="meterModeStepCount">стъпки</string>
+    <string name="pref_category_maps_weather_title">Метеорологично време</string>
+    <string name="meterModeKineticEnergyShort">Кин ен</string>
+    <string name="pref_soundeffects_tally_altitude_title">Надморска височина</string>
+    <string name="pref_screenWaveDim_summary">Дисплеят също ще бъде затъмнен, за да се спести батерията</string>
+    <string name="controlPanelScreenOrientation">Ориентация на екрана</string>
+    <string name="pref_screenWaveOnOffMode_title">Режим на ръкомахане</string>
+    <string name="dialogActivityRecognitionPermissionRequest">Необходимо е разрешение, за да може приложението да използва вградени сензори като сензор за стъпки.</string>
+    <string name="dialogScreenshotPreparing">Екранната снимка се подготвя…</string>
+    <string name="dialogGoogleMapTermsViolation">Google не разрешава заснемането на съдържанието на техните карти, така че първо трябва да се промени типът на картата на друг.
+\n
+\nДа се промени ли типа на картата сега\?</string>
+    <string name="meterModeFTPower">фт мощ</string>
+    <string name="unitJoulePerLb">Джаул/Паунд</string>
+    <string name="pref_soundeffects_autopause_summary">Звук при автоматична пауза и продължаване на отчитането</string>
+    <string name="dialogWaitTitle">Моля, изчакайте</string>
+    <string name="controlPanelUnitsButtonTitle">Мерни единици</string>
+    <string name="dialogLoginUsernameHint">Потребителско име</string>
+    <string name="dialogLoginPasswordHint">Парола</string>
+    <string name="unitJoulePerKg">Джаул/кг</string>
+    <string name="pref_screenWaveOnOffMode_summary">Приложението заключва дисплея, като махнете два пъти с ръка пред него. Махнете отново, за да го отключите.</string>
+    <string name="meterModeStepCadence">ритъм на стъпка</string>
+    <string name="pref_screenAutoPocketModeDelay_summary">Това ще забави изключването на дисплея след активиране на сензора за близост</string>
+    <string name="meterModeRadiusShort">рад</string>
+    <string name="dialogScreenshotTitle">Екранна снимка</string>
+    <string name="mapMarkerStart">Начало</string>
+    <string name="unitFeetsAboveGroundLevel">Фут/Надм. равн</string>
+    <string name="unitSteps">Стъпки</string>
+    <string name="controlPanelLocationButton">Местоположение</string>
+    <string name="pref_screenAutoPocketModeDelay_title">Забавяне</string>
+    <string name="mapMarkerMyLocation">Моето местоположение</string>
+    <string name="pref_soundeffects_autopause_title">Автоматична пауза</string>
+    <string name="unitJoulePerHour">Джаул/час</string>
+    <string name="meterModeHumidityShort">Влаж</string>
+    <string name="meterModeStepCountShort">стъпки</string>
+    <string name="controlPanelSoundSpeech">Говор</string>
+    <string name="unitJoule">Джаул</string>
+    <string name="pref_category_speech_title">Говор</string>
+    <string name="pref_soundeffects_proximity_title">Сензор за близост</string>
+    <string name="unitMetersAboveGroundLevel">Мет/Надм. равн</string>
+    <string name="dialogActivityRecognitionPermissionRequestTitle">Разрешение за физическа активност</string>
+    <string name="pref_soundeffects_proximity_summary">Щракащ звук, когато сензора за близост е активиран</string>
+    <string name="meterModeHumidity">Влажност</string>
+    <string name="pref_soundeffects_screenOff_title">Затъмняване/изключване на екрана</string>
+    <string name="meterModeStepCadenceShort">рит стъп</string>
+    <string name="mapMarkerFinish">Край</string>
+    <string name="controlPanelSensorsButtonTitle">Сензори</string>
+    <string name="meterModeRadius">радиус</string>
+    <string name="pref_soundeffects_screenOff_summary">Звук и вибриране, когато екранът е затъмнен или временно изключен</string>
 </resources>
