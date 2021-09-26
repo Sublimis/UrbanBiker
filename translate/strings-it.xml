@@ -309,10 +309,10 @@
     <string name="unitKjH">kJ/h</string>
     <string name="unitKjKg">kJ/kg</string>
     <string name="unitKjLb">kJ/lb</string>
-    <string name="unitKcal">kcal</string>
-    <string name="unitKcalH">kcal/h</string>
-    <string name="unitKcalKG">kcal/kg</string>
-    <string name="unitKcalLb">kcal/lb</string>
+    <string name="unitKcal">Kcal</string>
+    <string name="unitKcalH">Kcal/h</string>
+    <string name="unitKcalKG">Kcal/kg</string>
+    <string name="unitKcalLb">Kcal/lb</string>
     <string name="unitDegC">°C</string>
     <string name="unitDegF">°F</string>
     <string name="unitHPa">hPa</string>
@@ -480,7 +480,7 @@
     <string name="sensorStatusConnected">Connesso</string>
     <string name="sensorStatusConnecting">Connessione in corso…</string>
     <string name="sensorStatusDisconnected">Disconnesso</string>
-    <string name="pref_text_off">Off</string>
+    <string name="pref_text_off">Spento</string>
     <string name="pref_text_min">Min</string>
     <string name="pref_text_medium">Medio</string>
     <string name="pref_text_max">Max</string>
@@ -825,7 +825,7 @@
     <string name="defaultProfileNameRun">Corsa 🏃</string>
     <string name="defaultProfileNameCar">Auto 🚘</string>
     <string name="defaultProfileNamePlane">Aereo 🛩️</string>
-    <string name="defaultProfileNameIndoor">Indoor 🏠</string>
+    <string name="defaultProfileNameIndoor">De interni 🏠</string>
     <string name="defaultProfileNameOther">Altro</string>
     <string name="svgCopyright">Creato con Urban Biker</string>
     <string name="trackUploadDescriptionDefault">Registrata utilizzando l\'app mobile Urban Biker</string>
@@ -898,7 +898,7 @@
     <!-- pref_autopause_modes -->
     <string name="pref_autopause_modes_0">Tempo reale (predefinito)</string>
     <string name="pref_autopause_modes_1">Relax</string>
-    <string name="pref_autopause_modes_2">Off</string>
+    <string name="pref_autopause_modes_2">Spento</string>
     <!-- pref_autopause_modes_explanation -->
     <string name="pref_autopause_modes_explanation_0">Scarta tutte le pause più lunghe di pochi secondi</string>
     <string name="pref_autopause_modes_explanation_1">Scarta solo le pause più lunghe di 5 minuti</string>
@@ -907,7 +907,7 @@
     <string name="pref_wakelock_modes_0">Automatico (predefinito)</string>
     <string name="pref_wakelock_modes_1">Totalmente attivo</string>
     <string name="pref_wakelock_modes_2">Parziale</string>
-    <string name="pref_wakelock_modes_3">Off</string>
+    <string name="pref_wakelock_modes_3">Spento</string>
     <!-- pref_wakelock_modes_explanation -->
     <string name="pref_wakelock_modes_explanation_0">Scelta automatica basata su intervallo di aggiornamento GPS e altri fattori</string>
     <string name="pref_wakelock_modes_explanation_1">Mantieni la CPU attiva durante la tracciatura. Usa più batteria ma assicura l\'aggiornamento completo delle posizioni.</string>
@@ -939,14 +939,14 @@
     <string name="pref_units_other_entries_0">Metrico dec</string>
     <string name="pref_units_other_entries_1">Anglosassone</string>
     <!-- prefUnitsEnergyEntries -->
-    <string name="prefUnitsEnergyEntries_0">[kcal]</string>
+    <string name="prefUnitsEnergyEntries_0">[Kcal]</string>
     <string name="prefUnitsEnergyEntries_1">[kJ]</string>
     <string name="prefUnitsEnergyEntries_2">[kWh]</string>
     <string name="prefUnitsEnergyEntries_3">[Litri di benzina]</string>
     <!-- prefUnitsPowerEntries -->
     <string name="prefUnitsPowerEntries_0">[W]</string>
     <string name="prefUnitsPowerEntries_1">[HP]</string>
-    <string name="prefUnitsPowerEntries_2">[kcal/h]</string>
+    <string name="prefUnitsPowerEntries_2">[Kcal/h]</string>
     <string name="prefUnitsPowerEntries_3">[kJ/h]</string>
     <!-- prefUnitsSlopeEntries -->
     <string name="prefUnitsSlopeEntries_0">Percentuale [\uff05]</string>
@@ -1353,4 +1353,20 @@
     <string name="pref_mapsShowAttribution_title">Mostra assegnazione</string>
     <string name="prefGnssAutomaticSleepTitle">Sospensione automatica del GPS</string>
     <string name="prefMapDiskCacheAgeEntries_4">30 giorni</string>
+    <string name="prefScreenPocketModeDelayEntries_4">0.40 secondi</string>
+    <string name="prefScreenPocketModeDelayEntries_0">Nessun ritardo (predefinito)</string>
+    <string name="sensorProperitesNoAlarm">Nessun allarme</string>
+    <string name="pref_screenAutoPocketModeDelay_summary">Consente di ritardare lo spegnimento dello schermo dopo l\'attivazione del sensore di prossimità</string>
+    <string name="prefScreenPocketModeDelayEntries_3">0.30 secondi</string>
+    <string name="summaryDeviceAutoPauseCount">Conteggio pausa automatica</string>
+    <string name="prefScreenPocketModeDelayEntries_1">0.10 secondi</string>
+    <string name="pref_mapsWeatherAnimateForecast_title">Previsioni</string>
+    <string name="pref_screenAutoPocketModeDelay_title">Ritardo</string>
+    <string name="prefScreenPocketModeDelayEntries_5">0.50 secondi</string>
+    <string name="summaryDeviceAutoPauseCountInfo">Numero di volte in cui è stata attivata la pausa automatica durante questa attività.</string>
+    <string name="pref_mapsWeatherAnimateForecast_summary">Anima anche in diversi colori 30 minuti delle previsioni del radar meteorologico</string>
+    <string name="prefScreenPocketModeDelayEntries_7">1 secondi</string>
+    <string name="prefScreenPocketModeDelayEntries_2">0.20 secondi</string>
+    <string name="prefScreenPocketModeDelayEntries_6">0.75 secondi</string>
+    <string name="sensorProperitesNoAlarmInfo">Usa il sensore se disponibile, ma non avvisare o avvisare quando non è disponibile. Utile per sensori non importanti che non sono essenziali per un\'attività. Disabilitato per impostazione predefinita.</string>
 </resources>
