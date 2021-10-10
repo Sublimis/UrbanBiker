@@ -7,11 +7,11 @@
     <string name="widget_2_description">Biker: ベル＋ライト</string>
     <string name="widget_3_description">Biker: すべて</string>
     <string name="proLicenseLabel">プロフェッショナル版</string>
-    <string name="proPlusLicenseLabel">プロフェッショナル・プラス版</string>
+    <string name="proPlusLicenseLabel">プロフェッショナル･プラス版</string>
     <string name="ultimateLicenseLabel">最上位版</string>
     <string name="proLicenseTitle">プロフェショナル版 ライセンス</string>
     <string name="proLicenseDescription">広告を消す</string>
-    <string name="proPlusLicenseTitle">プロフェッショナル・プラス版 ライセンス</string>
+    <string name="proPlusLicenseTitle">プロフェッショナル･プラス版 ライセンス</string>
     <string name="proPlusLicenseDescription">広告表示を消し,定期購入者向けに追加されるすべての機能が使用可能</string>
     <string name="ultimateLicenseTitle">最上位版ライセンス</string>
     <string name="ok">OK</string>
@@ -20,7 +20,7 @@
     <string name="cancel">キャンセル</string>
     <string name="buttonUnderstand">了解</string>
     <string name="buttonResumeTrack">再開</string>
-    <string name="buttonNewTrack">ゴール</string>
+    <string name="buttonNewTrack">終了</string>
     <string name="menuControlPanel">コントロールパネル</string>
     <string name="menuSettings">設定</string>
     <string name="menuSummary">概要</string>
@@ -30,8 +30,8 @@
     <string name="menuMeterLockAll">すべてロックする</string>
     <string name="menuMeterMode">メーター選択…</string>
     <string name="menuMeterChooseModes">使用するメーターを絞る…</string>
-    <string name="menuMeterResetMinMax">最小値・最大値を初期化</string>
-    <string name="menuMeterReset">完了</string>
+    <string name="menuMeterResetMinMax">最小値･最大値を初期化</string>
+    <string name="menuMeterReset">終了</string>
     <string name="menuMeterParameters">パラメーター…</string>
     <string name="menuMeterPowerMode">パワーモード切り替え</string>
     <string name="menuFenceguard">保護エリア</string>
@@ -130,8 +130,8 @@
     <string name="dialog_default_color_text">標準の色設定に戻します.よろしいですか\?</string>
     <string name="dialog_defaultConfirmation">よろしいですか\?</string>
     <string name="dialog_volume_bell_text">ベル</string>
-    <string name="dialog_volume_effects_text">エフェクト</string>
-    <string name="dialog_volume_alarms_text">警報</string>
+    <string name="dialog_volume_effects_text">効果音</string>
+    <string name="dialog_volume_alarms_text">アラーム</string>
     <string name="dialog_volume_message">注 : 全体の音量を設定するには,スマートフォンの音量ボタンを使ってください.</string>
     <string name="dialog_bell_automatic_sensitivity_title">自動ベルの感度</string>
     <string name="dialog_bell_shake_sensitivity_title">シェイクの感度</string>
@@ -150,7 +150,7 @@
 \n
 \nこの走行記録は短すぎます.保存しますか\?</string>
     <string name="dialog_exit_msg">注意 : 記録中ですが,停止します.</string>
-    <string name="dialogProfileDeleteTitle">プロファイルの削除</string>
+    <string name="dialogProfileDeleteTitle">プロファイルを削除</string>
     <string name="dialogProfileDeleteMessage">注意 : プロファイルの設定と集計データを削除します.保存済みの走行記録は削除されません.
 \n
 \nプロファイル : %1$s を削除しますか\?</string>
@@ -161,7 +161,7 @@
     <string name="dialogProfileTotalsResetMessage">プロファイルの総走行距離を 0 にリセットしますか\?</string>
     <string name="dialogProfileSwitchTitle">プロファイル切り替え</string>
     <string name="dialogProfileSwitchMessage">記録中ですが,プロファイルを %1$s に切り替えます.よろしいですか\?</string>
-    <string name="dialogTracksDeleteTitle">走行記録の削除</string>
+    <string name="dialogTracksDeleteTitle">走行記録を削除</string>
     <string name="dialogTracksDeleteMessage">注意 : この操作は取り消しできません.
 \n
 \n選択した走行記録を削除してよろしいですか\?</string>
@@ -194,10 +194,10 @@
 \n
 \n屋内,乗り物や航空機など空調が効いた空間では,使用しないでください.</string>
     <string name="dialogThermoBarometerNoticeTitle">注意</string>
-    <string name="dialogThermoBarometerNoticeMessage">温度・気圧計は,屋外で正確に測定されます.
+    <string name="dialogThermoBarometerNoticeMessage">温度･気圧計は,屋外で正確に測定されます.
 \n
 \n 屋内,または乗り物や航空機など空調が効いた空間では,使用しないでください.</string>
-    <string name="dialogResetTitle">ゴール</string>
+    <string name="dialogResetTitle">終了</string>
     <string name="dialogResetMessage">この走行記録を保存し,次に備えますか\?</string>
     <string name="dialogResetNoTrackMessage">ライディングが記録されていません.今すぐメーターをリセットしますか\?</string>
     <string name="dialogScreenHudMode">HUD 反転モード</string>
@@ -231,8 +231,8 @@
     <string name="pref_units_distance_dialog_title">距離の単位</string>
     <string name="pref_units_speed_title">速度</string>
     <string name="pref_units_altitude_title">標高</string>
-    <string name="pref_units_altitude_dialog_title">高度の単位</string>
-    <string name="pref_units_weight_title">質量</string>
+    <string name="pref_units_altitude_dialog_title">標高の単位</string>
+    <string name="pref_units_weight_title">重量</string>
     <string name="pref_units_other_title">その他</string>
     <string name="pref_units_energy_title">エネルギー</string>
     <string name="pref_units_energy_dialog_title">エネルギーの単位</string>
@@ -243,7 +243,7 @@
     <string name="pref_above_lockscreen_summary">端末がロック状態であってもアプリを表示します</string>
     <string name="pref_passive_gps_button_summary">GPSボタンを押すとパッシブ GPS モード(他の優先アプリが取得したGPSデータを利用するモード)にする機能を有効にする</string>
     <string name="pref_fenceguard_title">保護エリア</string>
-    <string name="pref_fenceguard_summary">自宅・職場など公開したくない場所の位置情報を,走行記録から見えないようにします</string>
+    <string name="pref_fenceguard_summary">自宅･職場など公開したくない場所の位置情報を,走行記録から見えないようにします</string>
     <string name="pref_soundeffects_tally_distance_title">距離</string>
     <string name="pref_soundeffects_tally_duration_title">移動時間(停止時間を除く)</string>
     <string name="pref_meter_enable_title">有効</string>
@@ -269,20 +269,20 @@
     <string name="infoMeterModeClockTitle">時計</string>
     <string name="infoMeterModeClockMsg">現在時刻 ー (中央)現在時刻 (左)距離 (右)移動時間.</string>
     <!-- pref_units_distance_entries -->
-    <string name="pref_units_distance_entries_0">メートル, キロメートル [m, km]</string>
-    <string name="pref_units_distance_entries_1">フィート, マイル [ft, mi]</string>
+    <string name="pref_units_distance_entries_0">メートル法 [m, km]</string>
+    <string name="pref_units_distance_entries_1">ヤード･ポンド法 [ft, mi]</string>
     <!-- pref_units_speed_entries -->
-    <string name="pref_units_speed_entries_0">キロメートル毎時 [km/h]</string>
-    <string name="pref_units_speed_entries_1">マイル毎時 [mph]</string>
+    <string name="pref_units_speed_entries_0">メートル法 [km/h]</string>
+    <string name="pref_units_speed_entries_1">ヤード･ポンド法 [mph]</string>
     <!-- pref_units_altitude_entries -->
-    <string name="pref_units_altitude_entries_0">メートル [m]</string>
-    <string name="pref_units_altitude_entries_1">フィート [ft]</string>
+    <string name="pref_units_altitude_entries_0">メートル法 [m]</string>
+    <string name="pref_units_altitude_entries_1">ヤード･ポンド法 [ft]</string>
     <!-- pref_units_weight_entries -->
-    <string name="pref_units_weight_entries_0">キログラム [kg]</string>
-    <string name="pref_units_weight_entries_1">ポンド [lb]</string>
+    <string name="pref_units_weight_entries_0">メートル法 [kg]</string>
+    <string name="pref_units_weight_entries_1">ヤード･ポンド法 [lb]</string>
     <!-- pref_units_other_entries -->
     <string name="pref_units_other_entries_0">メートル法</string>
-    <string name="pref_units_other_entries_1">ヤード·ポンド法</string>
+    <string name="pref_units_other_entries_1">ヤード･ポンド法</string>
     <!-- pref_hud_axis_entries -->
     <string name="pref_hud_axis_entries_0">デフォルト ー 左右反転</string>
     <string name="pref_hud_axis_entries_1">実用的なデバイス ― 上下左右反転</string>
@@ -295,7 +295,7 @@
     <string name="dialog_volume_roaring_text">車両接近通報装置</string>
     <string name="dialog_volume_tallies_text">一定間隔</string>
     <string name="dialogMapsTrackColor">アクティビティ表示の色:</string>
-    <string name="dialogFencesAdd">ここを保護エリアに追加する</string>
+    <string name="dialogFencesAdd">ここを保護エリアに追加</string>
     <string name="dialogFencesUpdate">保護エリアの場所を更新する</string>
     <string name="dialogFencesEdit">保護エリアを編集する</string>
     <string name="dialogFencesRemove">保護エリアを削除する</string>
@@ -318,10 +318,10 @@
     <string name="dialogTrackUploadShareButton">共有</string>
     <string name="dialogTrackUploadShareAgainButton">再度,共有</string>
     <string name="dialogTrackUploadUpdateButton">更新</string>
-    <string name="dialogTrackUploadActivityType">活動型</string>
+    <string name="dialogTrackUploadActivityType">活動の種類</string>
     <string name="dialogTrackUploadPlatform">オンラインサービス</string>
-    <string name="dialogGpsIntervalTitle">GPS 受信間隔</string>
-    <string name="dialogGpsIntervalNote">3秒以下に設定すると,正確・確実です!</string>
+    <string name="dialogGpsIntervalTitle">GPS 更新間隔</string>
+    <string name="dialogGpsIntervalNote">3秒以下に設定すると,正確･確実です!</string>
     <string name="dialogGpsIntervalLabelMore">◀
 \nより正確になりますが,バッテリーを消費します</string>
     <string name="dialogGpsIntervalLabelLess">▶
@@ -332,9 +332,9 @@
 \n
 \n位置情報がなければ,Bluetooth機器は接続されません.</string>
     <string name="dialogStoragePermissionRequestTitle">保存許可</string>
-    <string name="dialogStoragePermissionRequest">走行記録・設定内容を保存するため,記憶領域へのアクセスが必要です.
+    <string name="dialogStoragePermissionRequest">走行記録･設定内容を保存するため,記憶領域へのアクセスが必要です.
 \n
-\n記憶領域へのアクセス権がない場合は,走行記録・共有ルート・設定内容を記録,再生することができません.</string>
+\n記憶領域へのアクセス権がない場合は,走行記録･共有ルート･設定内容を記録,再生することができません.</string>
     <string name="dialogCameraPermissionRequestTitle">カメラ許可</string>
     <string name="dialogCameraPermissionRequest">フラッシュを使用するため,許可が必要です.</string>
     <string name="mapLayerTerrain">地形図</string>
@@ -365,9 +365,9 @@
     <string name="meterModePace">ペース</string>
     <string name="meterModePaceShort">ペース</string>
     <string name="meterModeDuration">移動時間</string>
-    <string name="meterModeDurationShort">経過時間</string>
+    <string name="meterModeDurationShort">移動時間</string>
     <string name="meterModeElapsedTime">経過時間</string>
-    <string name="meterModeElapsedTimeShort">経過</string>
+    <string name="meterModeElapsedTimeShort">経過時間</string>
     <string name="meterModePower">パワー</string>
     <string name="meterModePowerAverage">平均パワー</string>
     <string name="meterModeDistanceShort">距離</string>
@@ -395,7 +395,7 @@
     <string name="controlPanelSoundAutoBell">自動ベル</string>
     <string name="controlPanelSoundRoar">車両接近通報装置</string>
     <string name="controlPanelSoundEffects">効果音</string>
-    <string name="controlPanelSoundAlarms">アラーム音</string>
+    <string name="controlPanelSoundAlarms">アラーム</string>
     <string name="controlPanelSoundTallies">一定間隔</string>
     <string name="controlPanelSoundVolume">音量</string>
     <string name="profilesListTitle">プロファイル</string>
@@ -408,7 +408,7 @@
 \n
 \nユーザの許可なく,データを使用することはありません.</string>
     <string name="accountDisconnect">連携解除</string>
-    <string name="googleFitConnectButton">Google Fit と連携します</string>
+    <string name="googleFitConnectButton">Google Fit と連携</string>
     <string name="stravaTrackPrivacyInfo">走行記録にはStravaのプライバシー設定が適用されます</string>
     <string name="tracksHistoryListTitle">走行記録履歴</string>
     <string name="tracksHistoryListTitleSelect">選択</string>
@@ -428,14 +428,14 @@
     <string name="summaryStartedDatetime">開始時刻</string>
     <string name="summaryEndedDatetime">終了時刻</string>
     <string name="summaryTotalTime">総時間</string>
-    <string name="pref_roar_threshold_speed_title">速度・閾値</string>
+    <string name="pref_roar_threshold_speed_title">速度･閾値</string>
     <string name="pref_roar_threshold_speed_info">閾値より高速になると車両接近通報音が出ます.ダウンヒルなどで有効です.</string>
-    <string name="pref_roarConstantModeButton_title">オン・オフ　ボタン</string>
+    <string name="pref_roarConstantModeButton_title">オン･オフ　ボタン</string>
     <string name="pref_maps_offline_file_title">ファイルまたはフォルダーを選択</string>
     <string name="pref_maps_offline_file_dialog_title">オフライン地図フォルダーを選択</string>
     <string name="pref_maps_offline_file_summary">(全プロファイル) %1$s</string>
     <string name="pref_maps_offline_file_noFolderSelected">フォルダー未選択.</string>
-    <string name="pref_maps_offline_info_title">ただちにダウンロード</string>
+    <string name="pref_maps_offline_info_title">今すぐダウンロード</string>
     <string name="pref_maps_offline_info_summary">Mapsforge ベクター地図 (.map),Rmaps ビットマップ地図 (.sqlitedb) が使えます.いずれも download.mapsforge.org からダウンロード可能です.</string>
     <string name="pref_maps_routes_draw_title">ナビゲーション</string>
     <string name="pref_maps_routes_draw_summary">指定した GPX ルートを,地図上に破線で表示します</string>
@@ -443,11 +443,11 @@
     <string name="pref_maps_routes_files_title">ファイルまたはフォルダーを選択</string>
     <string name="pref_maps_routes_files_dialog_title">ルートフォルダーまたはファイルを選択</string>
     <string name="pref_maps_routes_files_noFolderSelected">フォルダーが指定されていません.</string>
-    <string name="pref_maps_quickZoom_title">クイック・ズーム　ボタン</string>
+    <string name="pref_maps_quickZoom_title">クイック･ズーム　ボタン</string>
     <string name="pref_maps_quickZoomInvert_title">画像反転</string>
     <string name="pref_maps_quickZoomInvert_summary">ズームイン/アウト ボタンの位置を交換</string>
     <string name="pref_maps_offline_terrain_title">地形描画</string>
-    <string name="pref_maps_offline_terrain_info_title">ただちにダウンロード</string>
+    <string name="pref_maps_offline_terrain_info_title">今すぐダウンロード</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">レイヤーボタン実行</string>
     <string name="infoMeterModeTemperatureMsg">デバイスまたは外部センサーで測定された環境温度.</string>
     <string name="infoMeterModePressureTitle">気圧</string>
@@ -477,7 +477,7 @@
     <string name="meterModes_7">エネルギー</string>
     <string name="meterModes_8">効率</string>
     <string name="meterModes_9">パワー</string>
-    <string name="meterModes_13">加速</string>
+    <string name="meterModes_13">加速度</string>
     <string name="meterModes_14">平均速度</string>
     <string name="meterModes_15">平均パワー</string>
     <string name="meterModes_16">経過時間</string>
@@ -504,9 +504,9 @@
     <string name="pref_gps_update_freq_entries_13">1 分</string>
     <string name="pref_gps_boost_modes_1">画面表示</string>
     <string name="pref_gps_boost_modes_2">無効</string>
-    <string name="pref_gps_boost_modes_explanation_0">地図が表示されていれば,GPS を頻回に更新します</string>
-    <string name="pref_gps_boost_modes_explanation_1">画面が表示されていれば,GPSを頻回に更新します</string>
-    <string name="pref_gps_boost_modes_explanation_2">強制的なGPS情報更新を行いません</string>
+    <string name="pref_gps_boost_modes_explanation_0">地図表示中はGPSの更新間隔を短くします</string>
+    <string name="pref_gps_boost_modes_explanation_1">画面表示中はGPS更新間隔を短くします</string>
+    <string name="pref_gps_boost_modes_explanation_2">強制的なGPS更新を行いません</string>
     <string name="pref_autopause_modes_2">オフ</string>
     <string name="pref_autopause_modes_explanation_0">数秒以上のポーズを無視します</string>
     <string name="pref_autopause_modes_explanation_1">5分以上のポーズを無視します</string>
@@ -517,7 +517,7 @@
     <string name="prefUnitsEnergyEntries_0">[kcal]</string>
     <string name="prefUnitsEnergyEntries_1">[kJ]</string>
     <string name="prefUnitsEnergyEntries_2">[kWh]</string>
-    <string name="prefUnitsEnergyEntries_3">ガソリン１リットル相当[Liters of petrol]</string>
+    <string name="prefUnitsEnergyEntries_3">ガソリン1リットル相当[Liters of petrol]</string>
     <string name="prefUnitsPowerEntries_0">ワット[W]</string>
     <string name="prefUnitsPowerEntries_1">馬力[HP]</string>
     <string name="prefUnitsPowerEntries_2">キロカロリー毎時[kcal/h]</string>
@@ -525,12 +525,12 @@
     <string name="prefUnitsSlopeEntries_0">パーセント [％]</string>
     <string name="prefUnitsSlopeEntries_1">度 [°]</string>
     <string name="prefUnitsSlopeEntries_2">パーミル [‰]</string>
-    <string name="pref_bell_mode_entries_0">リン・リン</string>
-    <string name="pref_bell_mode_entries_1">チリン・チリン</string>
-    <string name="pref_bell_mode_entries_2">ブッ・ブー</string>
+    <string name="pref_bell_mode_entries_0">リン･リン</string>
+    <string name="pref_bell_mode_entries_1">チリン･チリン</string>
+    <string name="pref_bell_mode_entries_2">ブッ･ブー</string>
     <string name="pref_bell_mode_entries_3">ヨーホー</string>
     <string name="pref_roaring_type_entries_0">フリーハブ</string>
-    <string name="pref_roaring_type_entries_1">ブッ・ブー</string>
+    <string name="pref_roaring_type_entries_1">ブッ･ブー</string>
     <string name="pref_roaring_mode_entries_2">自動音量</string>
     <string name="pref_roaring_mode_entries_3">移動中,一定音量</string>
     <string name="pref_roaring_mode_entries_4">速度が閾値以上になると動作する</string>
@@ -619,8 +619,8 @@
     <string name="sensorMenuAddToProfile">プロファイルに追加</string>
     <string name="sensorMenuRemoveFromProfile">プロファイルから削除</string>
     <string name="sensorMenuProperties">特性</string>
-    <string name="sensorMenuEnable">有効にする</string>
-    <string name="sensorMenuDisable">無効に</string>
+    <string name="sensorMenuEnable">有効</string>
+    <string name="sensorMenuDisable">無効</string>
     <string name="sensorMenuDelete">登録解除</string>
     <string name="sensorRemoveConfirmDialogMsg">プロファイルから削除しますか\?</string>
     <string name="sensorDeleteConfirmDialogMsg">このセンサーを無視しますか\?</string>
@@ -636,10 +636,10 @@
     <string name="sensorPurposeHeartRate">心拍数</string>
     <string name="sensorProperitesUseForSpeed">スピード測定に使用</string>
     <string name="sensorProperitesUseForCadence">ケイデンス測定に使用</string>
-    <string name="sensorProperitesUseForDistance">距離・移動時間測定に使用</string>
+    <string name="sensorProperitesUseForDistance">距離･移動時間測定に使用</string>
     <string name="sensorProperitesUseForPower">パワー測定に使用</string>
     <string name="sensorProperitesUseForHeartRate">心拍数測定に使用</string>
-    <string name="sensorProperitesIsInverted">スピードとケイデンスを逆に</string>
+    <string name="sensorProperitesIsInverted">スピードとケイデンスを入れ替え</string>
     <string name="sensorProperitesIsInvertedInfo">ケイデンスセンサーでスピードを計測,またはその逆. 普通はオフのままで.</string>
     <string name="sensorProperitesWheelPerimeter">タイヤ周長</string>
     <string name="sensorProperitesIsAutoPerimeter">自動</string>
@@ -663,7 +663,7 @@
     <string name="pref_category_language_title">言語</string>
     <string name="pref_category_appearance_title">体裁</string>
     <string name="pref_category_speedo_title">速度計</string>
-    <string name="pref_group_powermeter_title">パワー・エネルギー</string>
+    <string name="pref_group_powermeter_title">パワー･エネルギー</string>
     <string name="pref_category_power_mode_title">パワー表示モード</string>
     <string name="pref_category_params_title">係数</string>
     <string name="pref_group_units_title">単位</string>
@@ -675,12 +675,12 @@
     <string name="pref_category4_title">音量(相対的)</string>
     <string name="pref_group_advanced_title">高度な設定…</string>
     <string name="pref_category_other_title">その他</string>
-    <string name="pref_category_gps_interval_title">GPS 測定間隔</string>
+    <string name="pref_category_gps_interval_title">GPS 更新間隔</string>
     <string name="pref_category_autopause_title">自動中断</string>
     <string name="pref_category_roaring_title">車両接近通報装置</string>
     <string name="pref_category_roaringConstantMode_title">定常モード</string>
-    <string name="pref_category_effects_title">効果</string>
-    <string name="pref_category_alarms_title">アラーム音</string>
+    <string name="pref_category_effects_title">効果音</string>
+    <string name="pref_category_alarms_title">アラーム</string>
     <string name="pref_category_tallies_title">一定間隔</string>
     <string name="pref_category_select_title">選択…</string>
     <string name="pref_category_fonts_title">フォント</string>
@@ -758,7 +758,7 @@
     <string name="aboutScreenTranslationsTitle">翻訳</string>
     <string name="aboutScreenTranslationsText">アプリの翻訳を手伝って,無料ライセンスを獲得しましょう! くわしくは以下を:</string>
     <string name="disclaimerTitle">免責事項(以下の事項につき,本ソフトは責任をとれません.納得のうえ　お使いください.)</string>
-    <string name="disclaimerText1">このアプリは,｢現状｣のまま提供されます.使用者の責任でお使いください.私たち,アプリの作成者は,本アプリ使用中・あるいは非使用中に発生した,以下の事項につき責任をとることはできません.すなわち,不運・不幸な事故,紛失,使用者の外傷,第3者への加害など.</string>
+    <string name="disclaimerText1">このアプリは,｢現状｣のまま提供されます.使用者の責任でお使いください.私たち,アプリの作成者は,本アプリ使用中･あるいは非使用中に発生した,以下の事項につき責任をとることはできません.すなわち,不運･不幸な事故,紛失,使用者の外傷,第3者への加害など.</string>
     <string name="disclaimerText2">アプリは常識の範囲でご利用ください.自動車運転中,バイクや自転車などすべての乗り物への乗車中にアプリを操作することは厳禁です.</string>
     <string name="disclaimerText3">運転中は(アプリ画面ではなく)道路に眼をむけてください.</string>
     <string name="menuViewWith">アプリで表示 :</string>
@@ -781,7 +781,7 @@
     <string name="pref_category_haptic_title">触覚フィードバック</string>
     <string name="pref_category_app_features_title">アプリの機能</string>
     <string name="pref_category_wakelock_title">CPU スリープ移行方針</string>
-    <string name="pref_category_gps_boost_title">GPS 更新加速方針</string>
+    <string name="pref_category_gps_boost_title">GPS 更新頻度</string>
     <string name="pref_category_gpsInaccuracyIndicator_title">信頼性表示</string>
     <string name="pref_category_paceIndicator_title">ペース表示</string>
     <string name="pref_category_locationProvider_title">GPS 供給元</string>
@@ -812,15 +812,15 @@
     <string name="pref_bell_automatic_summary">急に速度を落とすとベルが鳴ります</string>
     <string name="pref_bell_automatic_sensitivity_title">自動ベルの感度調整</string>
     <string name="pref_bell_shake_title">振ってベル</string>
-    <string name="pref_bell_shake_summary">スマートフォンを振ってベルを鳴らします</string>
+    <string name="pref_bell_shake_summary">スマートフォンを振ってベルを鳴らす</string>
     <string name="pref_bell_shake_sensitivity_title">振動感度</string>
-    <string name="pref_roaring_type_title">型(タイプ)</string>
+    <string name="pref_roaring_type_title">種類</string>
     <string name="pref_roaring_type_dialog_title">車両接近通報音の種類</string>
-    <string name="pref_volume_summary_text">ベル: %1$s, 車両接近通報音: %2$s , 一定間隔: %3$s, 効果: %4$s, アラーム: %5$s, 音声ガイド: %6$s</string>
+    <string name="pref_volume_summary_text">ベル: %1$s, 車両接近通報音: %2$s , 一定間隔: %3$s, 効果音: %4$s, アラーム: %5$s, 音声案内: %6$s</string>
     <string name="pref_bg_color_title">背景色</string>
     <string name="pref_bg_color_summary">アプリの背景色を選んでください</string>
     <string name="pref_fg_color_title">文字の色</string>
-    <string name="pref_fg_color_summary">文字・アイコンの色を選んでください</string>
+    <string name="pref_fg_color_summary">文字･アイコンの色を選んでください</string>
     <string name="pref_visualThemeAutoSummary">周囲の明るさに応じて,背景の明暗を変えます</string>
     <string name="pref_screen_keep_on_title">常時表示</string>
     <string name="pref_screen_allow_off_inactive_title">非活動時にはオフ</string>
@@ -829,9 +829,9 @@
     <string name="pref_screenAutoPocketMode_summary">(全プロファイル) 近接センサーを使用して,画面オフを維持します</string>
     <string name="pref_ring_on_stop_title">停止時にベル</string>
     <string name="pref_ring_on_stop_summary">停止するまで速度を落とした際も,ベルを鳴らします</string>
-    <string name="pref_disable_bell_button_title">ベルボタンを無効に</string>
-    <string name="pref_disable_bell_button_summary">速度計をクリックしても,ベルを鳴らしません</string>
-    <string name="pref_obey_audio_focus_disable_title">音声のフォーカスを無効に</string>
+    <string name="pref_disable_bell_button_title">ベルボタンを無効</string>
+    <string name="pref_disable_bell_button_summary">速度計をクリックしたときのベルを無効</string>
+    <string name="pref_obey_audio_focus_disable_title">音声のフォーカスを無効</string>
     <string name="pref_obey_audio_focus_disable_summary">(システム通知または別のアプリによって)アプリのフォーカスが失われても,音を出しつづけます</string>
     <string name="pref_audio_force_loudspeaker_title">無条件に大音量</string>
     <string name="pref_audio_force_loudspeaker_summary">警告:実験レベルで,動作しない場合があります. ヘッドフォンが接続されている場合,音声通話を除くすべてのサウンドをスピーカー出力へ変更してください.</string>
@@ -852,21 +852,21 @@
     <string name="pref_roaring_mode_dialog_title">車両接近通報音モード</string>
     <string name="pref_roaring_constant_mode_title">コンスタントモード</string>
     <string name="pref_roaring_constant_mode_summary">移動,GPS 状態によらず,常時車両接近通報音が鳴り続けます</string>
-    <string name="pref_roarConstantModeButton_summary">車両接近通報音がオンのとき,このボタンで連続モードのオン・オフを切り替えます</string>
-    <string name="pref_autopause_mode_dialog_title">自動ポース</string>
+    <string name="pref_roarConstantModeButton_summary">車両接近通報音がオンのとき,このボタンで連続モードのオン･オフを切り替えます</string>
+    <string name="pref_autopause_mode_dialog_title">自動中断</string>
     <string name="pref_speedometer_limit_title">上限値</string>
     <string name="pref_speedometer_limit_dialog_title">速度計の上限</string>
     <string name="pref_speed_calculate_mode_title">速度を再計算</string>
     <string name="pref_speed_calculate_mode_summary">(全プロファイル) GPS値を直接使用せず,距離から速度を再計算します.これにより,GPS(ドップラー)値よりも安定した速度の読み取りが可能になります.</string>
     <string name="pref_background_pattern_dialog_title">メニュー背景パターン</string>
-    <string name="pref_soundeffects_title">有効化</string>
+    <string name="pref_soundeffects_title">有効</string>
     <string name="pref_soundeffects_fence_enterleave_title">保護エリア</string>
-    <string name="pref_soundeffects_fence_enterleave_summary">保護エリアに進入・退出時に音を鳴らす</string>
-    <string name="pref_soundeffects_gps_signal_title">GPS(汎地球測位方式)</string>
+    <string name="pref_soundeffects_fence_enterleave_summary">保護エリアに進入･退出時に音を鳴らす</string>
+    <string name="pref_soundeffects_gps_signal_title">GPS</string>
     <string name="pref_soundeffects_gps_signal_summary">GPS 状態の変化時に音(良好,不良)</string>
     <string name="pref_soundeffects_countdown_title">カウントダウン</string>
     <string name="pref_soundeffects_countdown_summary">走行記録再開前にカウントダウン (…3, 2, 1, スタート!)</string>
-    <string name="pref_soundeffects_tally_title">有効化</string>
+    <string name="pref_soundeffects_tally_title">有効</string>
     <string name="pref_soundeffects_tally_value_summary">%1$s %2$s ごとに</string>
     <string name="pref_soundeffects_tally_distance_dialog_title">距離</string>
     <string name="pref_soundeffects_tally_duration_dialog_title">移動時間刻み</string>
@@ -875,15 +875,15 @@
     <string name="pref_soundeffects_tally_descent_title">下降高度</string>
     <string name="pref_soundeffects_tally_descent_dialog_title">下り</string>
     <string name="pref_soundeffects_alarm_title">有効</string>
-    <string name="pref_soundeffects_alarm_gpsPause_title">一時停止解除忘れ</string>
+    <string name="pref_soundeffects_alarm_gpsPause_title">中断解除忘れ</string>
     <string name="pref_soundeffects_alarm_gpsPause_summary">一時停止のまま一定距離を移動すると警告します</string>
     <string name="pref_ads_mode_title">広告表示</string>
     <string name="pref_ads_mode_dialog_title">広告の種類</string>
-    <string name="pref_maps_disable_title">地図無効</string>
+    <string name="pref_maps_disable_title">地図表示を無効</string>
     <string name="pref_maps_track_draw_title">走行記録を描く</string>
     <string name="pref_maps_track_draw_summary">地図上に移動の様子を表示する</string>
     <string name="pref_maps_fences_draw_title">保護エリア</string>
-    <string name="pref_maps_fences_draw_summary">地図上にフェンスで守られた範囲を描く</string>
+    <string name="pref_maps_fences_draw_summary">地図上に保護エリアで守られた範囲を描く</string>
     <string name="pref_maps_animate_title">アニメーション</string>
     <string name="pref_maps_animate_summary">(すべてのプロファイル)特にフォローモードにおいて,バッテリー使用量を減らすために表示を消す</string>
     <string name="pref_maps_online_mode_summary">(全プロファイル)</string>
@@ -894,8 +894,8 @@
     <string name="pref_maps_offline_terrain_summary">(全プロファイル) 地形の高低を描きます.地図はよりリアルになりますが,描画が遅くなります.地図フォルダーに DEM (.hgt) ファイルが必要です.</string>
     <string name="pref_maps_offline_terrain_info_summary">viewfinderpanoramas.orgでダウンロードページを開きます.</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(全プロファイル) レイヤーボタンでの動作を選択</string>
-    <string name="pref_button_autoring_enable_title">自動ベルのオン・オフ</string>
-    <string name="pref_button_autoring_enable_summary">速度計長押しでの自動ベルオン・オフ切り替えを有効に</string>
+    <string name="pref_button_autoring_enable_title">自動ベルのオン･オフ</string>
+    <string name="pref_button_autoring_enable_summary">速度計長押しでの自動ベルオン･オフ切り替えを有効</string>
     <string name="pref_button_profile_show_title">プロファイル</string>
     <string name="pref_button_profile_show_summary">プロファイルボタン表示</string>
     <string name="pref_button_map_show_title">地図</string>
@@ -908,7 +908,7 @@
     <string name="pref_button_roar_show_summary">車両接近通報音ボタン表示</string>
     <string name="pref_button_menu_show_title">メニュー</string>
     <string name="pref_button_menu_show_summary">メニューボタン表示</string>
-    <string name="pref_meter_enable_summary">この計測器を表示・非表示</string>
+    <string name="pref_meter_enable_summary">この計測器を表示･非表示</string>
     <string name="pref_meter_lock_title">ロックモード</string>
     <string name="pref_meter_lock_summary">クリックだけでモードで変わることがないようにします</string>
     <string name="pref_meter_modes_select_title">モードを選んでください…</string>
@@ -940,9 +940,9 @@
     <string name="pref_soundsMasterSwitch_title">すべてのサウンド</string>
     <string name="prefBarometricAltitudeTitle">気圧から推定される標高</string>
     <string name="prefBarometricAltitudeSummary">標高データの精度向上に,利用可能なら気圧センサーのデータを使用します</string>
-    <string name="prefBaroAltitudeUsesTemperatureTitle">気温・気圧計</string>
+    <string name="prefBaroAltitudeUsesTemperatureTitle">気温･気圧計</string>
     <string name="prefBaroAltitudeUsesTemperatureSummary">気圧から標高を推定するために,利用可能なら気温センサーを使用します</string>
-    <string name="prefBarometricAltitudeNoteSummary">ここの数値は,解放空間でのみ有効です.自動車内・航空機内など閉鎖・与圧・空調環境では機能を無効にしてください!</string>
+    <string name="prefBarometricAltitudeNoteSummary">ここの数値は,解放空間でのみ有効です.自動車内･航空機内など閉鎖･与圧･空調環境では機能を無効にしてください!</string>
     <string name="prefTemperatureSensorDerivedTitle">他のセンサーを使用</string>
     <string name="prefTemperatureSensorDerivedSummary">この装置には温度センサーがありませんが,他のセンサーから推定が可能です.ヘルプを参照.</string>
     <string name="prefPressureSensorOffsetTitle">気圧校正(オフセット)</string>
@@ -950,7 +950,7 @@
     <string name="prefNotificationAlwaysTitle">連続通知</string>
     <string name="prefNotificationAlwaysSummary">トラッキング中でなくても,ステータスバーに通知アイコンを表示します.</string>
     <string name="prefMapDiskCacheSizeTitle">地図用キャッシュの上限</string>
-    <string name="prefMapDiskCacheSizeSummary">(オンラインでもオフラインでも)地図の一部はメモリーに保存され,再ダウンロード・再描画の負荷を軽減します.これにより地図描画の高速化,バッテリー負荷を軽減します(すべてのプロファイルで有効)</string>
+    <string name="prefMapDiskCacheSizeSummary">(オンラインでもオフラインでも)地図の一部はメモリーに保存され,再ダウンロード･再描画の負荷を軽減します.これにより地図描画の高速化,バッテリー負荷を軽減します(すべてのプロファイルで有効)</string>
     <string name="prefProhibitLocationTitle">位置情報を利用しない</string>
     <string name="prefProhibitLocationSummary">活動中にGPS動作を抑制します</string>
     <string name="prefMapTrackColorTitle">走行記録の色</string>
@@ -1004,7 +1004,7 @@
     <string name="pref_flashlightBlinkModes_1">高速</string>
     <string name="pref_flashlightBlinkModes_2">オフ / 持続オン</string>
     <string name="pref_roaring_type_entries_2">オートバイ音</string>
-    <string name="pref_roaring_mode_entries_0">自動レート・ボリューム</string>
+    <string name="pref_roaring_mode_entries_0">自動レート･ボリューム</string>
     <string name="pref_roaring_mode_entries_1">自動レート</string>
     <string name="pref_powermeter_display_mode_entries_0">総パワー</string>
     <string name="pref_powermeter_display_mode_entries_1">重量比パワー(W/kg または W/lb)</string>
@@ -1012,15 +1012,15 @@
     <string name="prefMapOfflineLayerButtonActionEntries_2">なし</string>
     <string name="licenseDialogMapsTab">地図</string>
     <string name="ultimateLicenseDescription">最上位の経験ができるもっともパワフルなライセンスです.</string>
-    <string name="ultimateLicenseFeatures">🔹 すべてのマップ
+    <string name="ultimateLicenseFeatures">🔹 すべての地図
 \n🔹 すべての機能
 \n🔹 広告無し</string>
     <string name="proPlusLicenseFeatures">🔹 広告無し
 \n🔹 追加の寄付</string>
     <string name="proLicenseFeatures">🔹 広告無し</string>
-    <string name="thunderforestMapsFeatures">🔹 Thunderforestマップを利用可能
+    <string name="thunderforestMapsFeatures">🔹 Thunderforest地図を利用可能
 \n🔹 広告無し</string>
-    <string name="mapboxMapsFeatures">🔹 Mapboxマップを利用可能
+    <string name="mapboxMapsFeatures">🔹 Mapbox地図を利用可能
 \n🔹 広告無し</string>
     <string name="priceFree">無料</string>
     <string name="rewardedAdDescription">ここをクリックして広告を視聴</string>
@@ -1056,7 +1056,7 @@
     <string name="meterModes_26">運動エネルギー</string>
     <string name="mapMarkerStart">開始</string>
     <string name="mapMarkerFinish">終了</string>
-    <string name="pref_speechMasterSwitch_title">オン</string>
+    <string name="pref_speechMasterSwitch_title">有効</string>
     <string name="defaultProfileNameScooter">スクーター</string>
     <string name="defaultProfileNameSki">スキー</string>
     <string name="speechUnitOneMeter">メートル</string>
@@ -1078,9 +1078,9 @@
     <string name="speechUnitTwoMinutes">分</string>
     <string name="speechUnitManyMinutes">分</string>
     <string name="speechCountdownGo">スタート!</string>
-    <string name="dialog_volume_speech_text">音声ガイド</string>
-    <string name="controlPanelSoundSpeech">音声ガイド</string>
-    <string name="pref_category_speech_title">音声ガイド</string>
+    <string name="dialog_volume_speech_text">音声案内</string>
+    <string name="controlPanelSoundSpeech">音声案内</string>
+    <string name="pref_category_speech_title">音声案内</string>
     <string name="pref_soundeffects_tally_clock_title">時刻</string>
     <string name="pref_soundeffects_tally_clock_dialog_title">時刻</string>
     <string name="pref_speechProfileName_title">プロファイル名</string>
@@ -1096,7 +1096,7 @@
     <string name="speechAscent">登り: %1$s</string>
     <string name="speechDescent">下り: %1$s</string>
     <string name="speechClock">時刻: %1$s</string>
-    <string name="speechTrackingPause">一時停止</string>
+    <string name="speechTrackingPause">中断</string>
     <string name="speechTrackingStop">停止</string>
     <string name="speechTrackingGpsOk">GPS OK</string>
     <string name="speechTrackingGpsWeak">GPS ×</string>
@@ -1132,7 +1132,7 @@
     <string name="cautionTitle">注意</string>
     <string name="dialogActivityRecognitionPermissionRequest">アプリが歩数検出センサーなどの組み込みセンサーを使用できるようにするには,許可が必要です.</string>
     <string name="unitSteps">総歩数</string>
-    <string name="meterModeStepCadence">1分あたりの歩数</string>
+    <string name="meterModeStepCadence">1分あたり歩数</string>
     <string name="meterModeStepCadenceShort">歩数</string>
     <string name="meterModeStepCount">総歩数</string>
     <string name="meterModeStepCountShort">総歩数</string>
@@ -1141,7 +1141,7 @@
     <string name="sensorStepLengthNotSetWarning">歩幅が設定されていません</string>
     <string name="sensorPurposeSteps">総歩数</string>
     <string name="sensorStepDetectorName">歩数検出</string>
-    <string name="sensorProperitesUseForSteps">歩数の検出に使用</string>
+    <string name="sensorProperitesUseForSteps">歩数検出に使用</string>
     <string name="sensorProperitesEnableFiltering">データのフィルタリング</string>
     <string name="sensorProperitesEnableFilteringInfo">センサーデータで追加のフィルタリングが実行され,精度が向上する可能性がありますが,数秒の遅延が生じます. デフォルトでは無効です.</string>
     <string name="pref_soundeffects_tally_steps_title">総歩数</string>
@@ -1164,7 +1164,7 @@
     <string name="pref_category_maps_weather_title">天気</string>
     <string name="pref_mapsWeatherPrecipitationRadar_title">降水レーダー</string>
     <string name="pref_mapsWeatherPrecipitationRadar_summary">降水レーダーのレイヤーを表示します</string>
-    <string name="pref_mapsWeatherPrecipitationRadar_info">レーターのデータは,オフラインマップを使用する場合でもインターネットからダウンロードされます.マップが表示されている間10分ごとに自動更新されます.データの取得元は RainViewer.com です.</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_info">レーダーのデータは,オフライン地図を使用する場合でもインターネットからダウンロードされます.マップが表示されている間10分ごとに自動更新されます.データの取得元は RainViewer.com です.</string>
     <string name="dialogScreenOrientationReversePortrait">縦 (反転)</string>
     <string name="dialogScreenOrientationReverseLandscape">横 (反転)</string>
     <string name="controlPanelScreenOrientation">画面の向き</string>
@@ -1176,9 +1176,9 @@
     <string name="dialogScreenshotTitle">スクリーンショット</string>
     <string name="dialogWaitTitle">お待ちください</string>
     <string name="dialogScreenshotPreparing">スクリーンショットを準備中…</string>
-    <string name="dialogGoogleMapTermsViolation">Googleはマップのキャプチャを許可していませんので,マップを何か他のものに変える必要があります.
+    <string name="dialogGoogleMapTermsViolation">Googleは地図のキャプチャを許可していませんので,地図の種類を何か他のものに変える必要があります.
 \n
-\n今すぐマップを切り替えますか\?</string>
+\n今すぐ地図の種類を切り替えますか\?</string>
     <string name="mapMarkerMyLocation">マイロケーション</string>
     <string name="pref_roaring_type_entries_3">電動車両</string>
     <string name="dialogMapsAutoZoom">自動拡大</string>
@@ -1205,10 +1205,10 @@
     <string name="sensorProperitesActivityRecognitionInfo">センサーは,活動がセンサーの目的に適合していると認識された場合にのみデータを提供します.例えば,歩数検出センサーは自転車に乗っている時ではなく,歩いている時や走っている時の歩数をカウントします.注: 正確ではない場合があり,ラグが発生する可能性があるので注意してください.Google Playのサービスが必要です.</string>
     <string name="summaryBasalMetabolicRateInfo">基礎代謝率 (BMR).</string>
     <string name="summaryTotalTimeInfo">この走行記録の開始時刻から終了時刻までの時間.</string>
-    <string name="summaryStoppedTimeInfo">手動または自動で記録を一時停止していた時間.</string>
+    <string name="summaryStoppedTimeInfo">手動または自動で記録を中断していた時間.</string>
     <string name="infoMeterModeFuncThresholdPowerMsg">長時間維持できる最大パワーの推定値.
 \n
-\n推定値は活動のタイプと期間に大きく依存します.</string>
+\n推定値は活動の種類と期間に大きく依存します.</string>
     <string name="infoDigitalFilterNotice">注意: デジタルフィルタリングの遅延が避けられないため,リアルタイムから1分ほど遅れることがあります.</string>
     <string name="pref_screenWaveDim_title">ディスプレイを暗くする</string>
     <string name="pref_screenWaveDim_summary">バッテリー節約のため,ディスプレイを暗くします</string>
@@ -1221,11 +1221,11 @@
     <string name="summaryActivePower">実効パワー</string>
     <string name="infoMeterModeFuncThresholdPowerTitle">実効パワーしきい値</string>
     <string name="meterModes_29">実効パワーしきい値</string>
-    <string name="hereMapsFeatures">🔹 HEREマップを利用可能
+    <string name="hereMapsFeatures">🔹 HERE地図を利用可能
 \n🔹 広告無し</string>
     <string name="dialogMapsMapCount">%1$s 地図</string>
     <string name="speechRadius">半径: %1$s</string>
-    <string name="dialogCloudAccountDisconnectMessage">このアカウントを接続切断しますか\?</string>
+    <string name="dialogCloudAccountDisconnectMessage">このアカウントを連携解除しますか\?</string>
     <string name="pref_categoryPrivacyTitle">プライバシー</string>
     <string name="prefMapDiskCacheAgeEntries_7">90日</string>
     <string name="speechTrackingStart">開始</string>
@@ -1240,11 +1240,11 @@
     <string name="summaryVehicleWeight">車両の重量</string>
     <string name="sensorPurposeHumidity">湿度</string>
     <string name="controlPanelMapHideButtonSubtitle">クリックしてマップを非表示</string>
-    <string name="summaryDriverWeight">ドライバーの重量</string>
+    <string name="summaryDriverWeight">ドライバーの体重</string>
     <string name="sensorPurposeTemperature">気温</string>
     <string name="toastSharingNoGpxError">エラー: 走行記録にGPXファイルがありません</string>
     <string name="prefScreenPocketModeDelayEntries_0">遅延なし (デフォルト)</string>
-    <string name="maptilerMapsFeatures">🔹 MapTiler 地図
+    <string name="maptilerMapsFeatures">🔹 MapTiler 地図を利用可能
 \n🔹 広告無し</string>
     <string name="dialogLoginUsernameHint">ユーザ名</string>
     <string name="powerSourceWeight_3">ドライバー + 車両</string>
@@ -1296,8 +1296,8 @@
     <string name="prefScreenPocketModeDelayEntries_6">0.75秒</string>
     <string name="meterModeHumidity">湿度</string>
     <string name="meterModes_None">なし</string>
-    <string name="summaryDriverWeightInfo">トラックを記録する際のドライバー(またはライダー)の重量.</string>
-    <string name="veloHeroConnectButton">Velo Heroと接続</string>
+    <string name="summaryDriverWeightInfo">走行記録中のドライバー(またはライダー)の体重.</string>
+    <string name="veloHeroConnectButton">Velo Heroと連携</string>
     <string name="chartsTitle">チャート</string>
     <string name="infoMeterModeHumidityTitle">湿度</string>
     <string name="meterModeRadius">半径</string>
@@ -1306,14 +1306,14 @@
 \nこれは通常,駆動力を与える物体の重量です.
 \n
 \n注: 垂直方向パワーは常に総重量を用いて計算されます.</string>
-    <string name="infoMeterModeHumidityMsg">デバイスまたは外部センサーで測定した相対湿度.</string>
+    <string name="infoMeterModeHumidityMsg">デバイスまたは外部センサーで測定された相対湿度.</string>
     <string name="sensorProperitesUseForTemperature">気温測定に使用</string>
     <string name="sensorProperitesUseForHumidity">湿度測定に使用</string>
     <string name="pref_categoryActivityRecognitionTitle">身体活動認識</string>
     <string name="summaryDragging">ドラッグ</string>
     <string name="sensorProperitesUseForPressure">気圧測定に使用</string>
     <string name="prefMapDiskCacheAgeTitle">地図キャッシュ有効期限</string>
-    <string name="pref_mapsShowAttribution_summary">(全プロファイル) Google以外のオンラインマップでテキストを表示します.無効にすると,誤ってリンクをクリックしてしまうことを防止できます.</string>
+    <string name="pref_mapsShowAttribution_summary">(全プロファイル) Google以外のオンライン地図でテキストを表示します.無効にすると,誤ってリンクをクリックしてしまうことを防止できます.</string>
     <string name="summaryAccelerating">加速</string>
     <string name="prefActivityRecognitionNoteSummary">これらのオプションは,Androidの身体活動認識機能に依存しています.正確性に欠け,ラグ発生の可能性があるため,それを許容できる場合にのみ使用してください.距離と時間については,スピードセンサーを使用した場合に最も効果的です.</string>
     <string name="pref_soundeffects_autopause_summary">自動中断/再開時に音を鳴らす</string>
@@ -1321,7 +1321,7 @@
     <string name="summaryClimbingEnergyInfo">重力に抵抗するために使われたエネルギーの割合.</string>
     <string name="sensorProperitesNoAlarm">アラームを鳴らさない</string>
     <string name="prefGnssActivityRecognitionSummary">GPSで停止と移動を認識します.遅れが生じたり、休憩後に距離を失ったりすることがありますが,ほとんどのGPSノイズを防止できます.</string>
-    <string name="pref_speechAutoPause_summary">一時中断/再開時に音声案内する</string>
+    <string name="pref_speechAutoPause_summary">中断/再開時に音声案内する</string>
     <string name="sensorProperitesUseForDuration">時間測定に使用</string>
     <string name="pref_screenAutoPocketModeDelay_summary">近接センサーが有効になった後,ディスプレイをオフにするのを遅らせます</string>
     <string name="summaryRollingEnergyInfo">転がり抵抗を克服するために使われたエネルギーの割合.</string>
