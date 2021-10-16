@@ -730,6 +730,8 @@
     <string name="pref_category_colors_dark_title">Dark theme</string>
     <string name="pref_category_map_colors_title">Map colors</string>
     <string name="pref_category_visualThemeAuto">Automatic theme</string>
+    <string name="pref_category_mainScreenVisualTheme">Main screen</string>
+    <string name="pref_category_appVisualTheme" translatable="false">@string/prefAppVisualThemeDialogTitle</string>
     <string name="pref_category4_title">Volume (relative)</string>
     <string name="pref_category_advanced_title">Advanced</string>
     <string name="pref_group_advanced_title">Advanced…</string>
@@ -1003,6 +1005,8 @@
     <string name="pref_mapsWeatherAnimateForecast_title">Forecast</string>
     <string name="pref_mapsWeatherAnimateForecast_summary">Also animate 30 minutes of radar forecast in different colors</string>
     <string name="pref_mapsWeatherAnimate_info">Radar animation uses 5x more Internet data than a static radar image.</string>
+    <string name="pref_mapsWeatherCoverage_title">Coverage mask</string>
+    <string name="pref_mapsWeatherCoverage_summary">Shade areas where there is no precipitation radar coverage</string>
     <string name="pref_button_autoring_enable_title">Auto Ring toggle</string>
     <string name="pref_button_autoring_enable_summary">Enable the Auto Ring mode toggle on speedometer long-click</string>
     <string name="pref_button_profile_show_title">Profile</string>
@@ -1096,6 +1100,9 @@
     <string name="prefGnssActivityRecognitionSummary">Recognize standing still vs. moving for GPS. May introduce delays and some lost distance after a break, but will prevent most GPS noise.</string>
     <string name="prefGnssAutomaticSleepTitle">GPS automatic sleep</string>
     <string name="prefGnssAutomaticSleepSummary">Turn off location automatically while being still, and back on when movement starts. This reduces battery usage on longer breaks, without the need to stop the tracking.</string>
+    <string name="prefAppVisualThemeSummary">(All profiles)</string>
+    <string name="prefAppVisualThemeTitle" translatable="false">@null</string>
+    <string name="prefAppVisualThemeDialogTitle">App visual theme</string>
 
     <string name="infoMeterModeDistanceTitle">Distance</string>
     <string name="infoMeterModeDistanceMsg">Distance traveled.</string>
@@ -1402,6 +1409,11 @@
     <string name="prefScreenPocketModeDelayEntries_5">0.50 seconds</string>
     <string name="prefScreenPocketModeDelayEntries_6">0.75 seconds</string>
     <string name="prefScreenPocketModeDelayEntries_7">1 second</string>
+
+    <!-- prefAppVisualThemeEntries -->
+    <string name="prefAppVisualThemeEntries_0">System default</string>
+    <string name="prefAppVisualThemeEntries_1">Light</string>
+    <string name="prefAppVisualThemeEntries_2">Dark</string>
 
 
     <string name="svgCopyright">Created with Urban Biker</string>
