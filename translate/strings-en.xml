@@ -193,6 +193,7 @@
     <string name="toastCancelled">Canceled</string>
     <string name="toastScreenPocketModeActive">Pocket mode active</string>
     <string name="toastScreenWavingModeActive">Waving mode active</string>
+    <string name="toastScreensaverModeActive">Screensaver mode active</string>
 
     <string name="notificationTitle" translatable="false">@string/app_name</string>
     <string name="notificationTitleAdvanced" translatable="false">%1$s</string>
@@ -313,7 +314,7 @@
     <string name="dialogPowerWeightsWeightWheels">Wheels</string>
     <string name="dialogPowerParamsTitle">Power loss coefficients</string>
     <string name="dialogPowerParamsDragArea">Air drag area (Cd·A)</string>
-    <string name="dialogPowerParamsRollResist">Rolling resistance coef. (Crr)</string>
+    <string name="dialogPowerParamsRollResist">Rolling resistance coef. (Cᵣᵣ)</string>
     <string name="dialogEnergyParamsTitle">Energy parameters</string>
     <string name="dialogEnergyParamsEfficiency">Overall thermal efficiency (η)</string>
     <string name="dialogEnergyParamsBmr">Basal metabolic rate (BMR)</string>
@@ -382,14 +383,19 @@
 
 	<string name="unitKm">km</string>
     <string name="unitKmh">km/h</string>
+    <string name="unitKmhPerSec">kph/s</string>
     <string name="unitMiles">mi</string>
     <string name="unitMph">mph</string>
+    <string name="unitMphPerSec">mph/s</string>
     <string name="unitMinPerKm">min/km</string>
     <string name="unitMinPerKmShort">/km</string>
     <string name="unitMinPerMile">min/mi</string>
     <string name="unitMinPerMileShort">/mi</string>
     <string name="unitMSxS">m/s²</string>
     <string name="unitFtSxS">ft/s²</string>
+    <string name="unitNewtonPerKg">N/kg</string>
+    <string name="unitNewtonPerLb">N/lb</string>
+    <string name="unitGAccel">g</string>
     <string name="unitMeterPerMin">m/min</string>
     <string name="unitFeetPerMin">ft/min</string>
     <string name="unitTimeHrMinSec">h:m:s</string>
@@ -598,6 +604,8 @@
     <string name="summaryDragAreaInfo">Air drag area (Cd·A).</string>
     <string name="summaryRollResistCoef">Roll resist coef.</string>
     <string name="summaryRollResistCoefInfo">Rolling resistance coefficient.</string>
+    <string name="summaryRollResistCoefAverage">Roll resist coef. average</string>
+    <string name="summaryRollResistCoefAverageInfo">Average rolling resistance coefficient, if the coefficient was changing during the activity.</string>
     <string name="summaryBasalMetabolicRate">Basal metabolic rate</string>
     <string name="summaryBasalMetabolicRateInfo">Basal metabolic rate (BMR).</string>
     <string name="summaryLocationInterval">Location interval</string>
@@ -631,6 +639,7 @@
     <string name="summaryRollingEnergyInfo">Percentage of the energy that was used to overcome rolling resistance.</string>
     <string name="summaryBasal">Basal</string>
     <string name="summaryBasalEnergyInfo">Percentage of the energy that was used for basal metabolism.</string>
+    <string name="summaryVibrations">Vibrations</string>
 
     <string name="sensorsTitle">Sensors</string>
     <string name="sensorsTabUsed">Used</string>
@@ -721,6 +730,7 @@
     <string name="pref_category_appearance_title">Appearance</string>
     <string name="pref_category_background_title" translatable="false">@string/pref_background_pattern_dialog_title</string>
     <string name="pref_category_speedo_title">Speedometer</string>
+    <string name="pref_group_activityRecognition_title">Activity recognition</string>
     <string name="pref_group_powermeter_title">Power and Energy</string>
     <string name="pref_category_power_mode_title">Power display mode</string>
     <string name="pref_category_params_title">Parameters</string>
@@ -861,6 +871,13 @@
     <string name="pref_screenWaveOnOffMode_summary">App-lock the display by waving twice in front of it. Wave again to unlock.</string>
     <string name="pref_screenWaveDim_title">Dim display</string>
     <string name="pref_screenWaveDim_summary">Display will also be dimmed, to save battery</string>
+    <string name="pref_screensaverEnable_title">Screensaver</string>
+    <string name="pref_screensaverEnable_summary">(All profiles) Dim the display after a timeout, to save battery. Touch the display to unlock.</string>
+    <string name="pref_screensaverTimeout_title">Timeout</string>
+    <string name="pref_screensaverTimeout_summary">Time period with no user interaction until the screensaver is activated.</string>
+    <string name="pref_screensaverDimBrightness_title">Dim brightness</string>
+    <string name="pref_screensaverDimBrightness_summary" translatable="false">@null</string>
+    <string name="pref_screensaverDimBrightnessDialogTitle">Screensaver dim brightness</string>
     <string name="pref_ring_on_stop_title">Ring on stop</string>
     <string name="pref_ring_on_stop_summary">Ring the automatic bell when the speed drops to zero, too</string>
     <string name="pref_disable_bell_button_title">Disable bell button</string>
@@ -1035,6 +1052,7 @@
     <string name="pref_powermeter_display_mode_summary" translatable="false">@null</string>
     <string name="pref_powermeter_display_mode_dialog_title">Power display mode</string>
     <string name="pref_powermeter_parameters_info_summary">For accurate power and energy readings, please make sure these parameters are correct!</string>
+    <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ ranges from 0 to 10%, default is 1%. If using the AutoTerrain feature, assume a baseline value for smooth terrain (lower limit), as the app will generally increase the coefficient on rougher terrain.</string>
     <string name="pref_power_weights_title">Weights</string>
     <string name="pref_power_weights_summary">Driver: %1$s, Vehicle: %2$s, Cargo: %3$s, Passengers: %4$s, Wheels: %5$s</string>
     <string name="pref_power_coefs_title">Coefficients</string>
@@ -1081,6 +1099,7 @@
     <string name="prefBaroAltitudeUsesTemperatureTitle">Thermo barometer</string>
     <string name="prefBaroAltitudeUsesTemperatureSummary">Use temperature sensor data for more accurate barometric altitudes, if available</string>
     <string name="prefBarometricAltitudeNoteSummary">Use these only in the open atmosphere! Please disable while in pressurized, closed or air-conditioned vehicles like cars or airplanes!</string>
+    <string name="prefBarometricAltitudeDisableAlert">Disable barometric altitude?</string>
     <string name="prefTemperatureSensorDerivedTitle">Use derived sensor</string>
     <string name="prefTemperatureSensorDerivedSummary">This device lacks ambient temperature sensor, but it can be derived using other sensors. Please read more in Help.</string>
     <string name="prefPressureSensorOffsetTitle">Pressure offset</string>
@@ -1103,6 +1122,10 @@
     <string name="prefAppVisualThemeSummary">(All profiles)</string>
     <string name="prefAppVisualThemeTitle" translatable="false">@null</string>
     <string name="prefAppVisualThemeDialogTitle">App visual theme</string>
+    <string name="prefAutoTerrainTitle">AutoTerrain</string>
+    <string name="prefAutoTerrainSummary">Sense terrain roughness by measuring vibrations, and adjust the rolling resistance coefficient (Cᵣᵣ) accordingly when computing power.</string>
+    <string name="prefAutoTerrainNote1Summary">Device should be held fixed to a vehicle (e.g. on a bike handlebars), and not in a hand or in a pocket while using this.</string>
+    <string name="prefAutoTerrainNote2Summary">Powers obtained using a power sensor are not affected by this feature.</string>
 
     <string name="infoMeterModeDistanceTitle">Distance</string>
     <string name="infoMeterModeDistanceMsg">Distance traveled.</string>
@@ -1164,6 +1187,8 @@
     <string name="infoMeterModeStepCountMsg">Number of steps taken.</string>
     <string name="infoMeterModeRadiusTitle">Radius</string>
     <string name="infoMeterModeRadiusMsg">Beeline distance from the initial position of the track, i.e. displacement.</string>
+    <string name="infoMeterModeVibrationsTitle">Vibrations</string>
+    <string name="infoMeterModeVibrationsMsg">Vibrations as measured with the device. Useful when the device is held fixed to a vehicle (e.g. on a bike handlebars), and not in a hand or in a pocket.</string>
 
     <string name="infoAutopauseForcedRelaxed">Note: Auto Pause forced to Relaxed</string>
     <string name="infoAutopauseForcedOff">Note: Auto Pause forced to Off</string>
@@ -1410,6 +1435,24 @@
     <string name="prefScreenPocketModeDelayEntries_6">0.75 seconds</string>
     <string name="prefScreenPocketModeDelayEntries_7">1 second</string>
 
+    <!-- prefScreensaverTimeoutEntries -->
+    <string name="prefScreensaverTimeoutEntries_0">5 seconds</string>
+    <string name="prefScreensaverTimeoutEntries_1">10 seconds</string>
+    <string name="prefScreensaverTimeoutEntries_2">15 seconds</string>
+    <string name="prefScreensaverTimeoutEntries_3">20 seconds (default)</string>
+    <string name="prefScreensaverTimeoutEntries_4">30 seconds</string>
+    <string name="prefScreensaverTimeoutEntries_5">45 seconds</string>
+    <string name="prefScreensaverTimeoutEntries_6">1 minute</string>
+    <string name="prefScreensaverTimeoutEntries_7">2 minutes</string>
+    <string name="prefScreensaverTimeoutEntries_8">5 minutes</string>
+
+    <!-- prefScreensaverDimModeEntries -->
+    <string name="prefScreensaverDimBrightnessEntries_0">Minimum</string>
+    <string name="prefScreensaverDimBrightnessEntries_1">⅕ of the current brightness</string>
+    <string name="prefScreensaverDimBrightnessEntries_2">⅓ of the current brightness (default)</string>
+    <string name="prefScreensaverDimBrightnessEntries_3">½ of the current brightness </string>
+    <string name="prefScreensaverDimBrightnessEntries_4">Leave as is</string>
+
     <!-- prefAppVisualThemeEntries -->
     <string name="prefAppVisualThemeEntries_0">System default</string>
     <string name="prefAppVisualThemeEntries_1">Light</string>
@@ -1515,6 +1558,7 @@
     <string name="speechTrackingStop">Stop</string>
     <string name="speechTrackingPause">Pause</string>
     <string name="speechTrackingResume">Go</string>
+    <string name="speechPromptTrackingResume">Resume or finish?</string>
 
     <string name="speechTrackingGpsOk">GPS OK</string>
     <string name="speechTrackingGpsWeak">No GPS</string>
