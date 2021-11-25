@@ -153,7 +153,7 @@
         (%4$s)
 \n
 \nNahratá trasa sa zdá krátka. Uložiť\?</string>
-    <string name="dialog_exit_msg">Upozornenie: Je aktívne trasovanie, ktoré bude ukončené!</string>
+    <string name="dialog_exit_msg">Upozornenie: Je aktívne sledovanie trasy, ktoré bude ukončené!</string>
     <string name="dialogProfileDeleteTitle">Vymazať profil</string>
     <string name="dialogProfileDeleteMessage">Upozornenie: Vymažú sa všetky údaje a nastavenia profilu! Uložené trasy zostanú nezmenené.
 \n
@@ -164,7 +164,7 @@
     <string name="dialogProfileEditTotals">Celkom:</string>
     <string name="dialogProfileTotalsResetMessage">Vymazať údaje profilu\?</string>
     <string name="dialogProfileSwitchTitle">Prepnúť profil</string>
-    <string name="dialogProfileSwitchMessage">Trasovanie je aktívne. Naozaj prepnúť na profil %1$s\?</string>
+    <string name="dialogProfileSwitchMessage">Sledovanie trasy je aktívne. Prepnúť na profil %1$s\?</string>
     <string name="dialogTracksDeleteTitle">Odstrániť trasy</string>
     <string name="dialogTracksDeleteMessage">Upozornenie: Akcia je nezvratná!
 \n
@@ -173,7 +173,7 @@
 \n
 \nOdstrániť trasu %1$s\?</string>
     <string name="dialogTrackResumeTitle">Obnoviť trasu</string>
-    <string name="dialogTrackResumeGpsActiveMessage">Treba najskôr vypnúť trasovanie alebo pozastaviť GPS.</string>
+    <string name="dialogTrackResumeGpsActiveMessage">Treba najskôr vypnúť alebo pozastaviť GPS.</string>
     <string name="dialogTrackResumeProfileNotBlankMessage">Vybratý profil %1$s treba najskôr vynulovať.</string>
     <string name="dialogTrackResumeProfileSwitchMessage">Aktuálny profil %1$s bude prepnutý na %2$s. Pokračovať\?</string>
     <string name="dialogTrackResumeProfileMissingMessage">Profil %1$s, v ktorom vznikla trasa, už neexistuje. Obnoviť v aktuálnom profile %2$s\?</string>
@@ -228,7 +228,7 @@
     <string name="dialogPowerWeightsWeightWheels">Kolesá</string>
     <string name="dialogPowerParamsTitle">Súčinitele straty výkonu</string>
     <string name="dialogPowerParamsDragArea">Plocha čelného odporu (Cd·A)</string>
-    <string name="dialogPowerParamsRollResist">Súčiniteľ valivého trenia (Crr)</string>
+    <string name="dialogPowerParamsRollResist">Súčiniteľ valivého trenia (Crrᵣᵣ)</string>
     <string name="dialogEnergyParamsTitle">Parametre energie</string>
     <string name="dialogEnergyParamsEfficiency">Celková teplotná účinnosť (η)</string>
     <string name="dialogEnergyParamsBmr">Bazálny metabolizmus (BMR)</string>
@@ -496,8 +496,8 @@
     <string name="pref_category_stationary_exercise_title">Cvičenie na mieste</string>
     <string name="pref_category_autopause_title">Automatické pozastavenie</string>
     <string name="pref_category_resetPrompt_title">Vynútenie vynulovania</string>
-    <string name="pref_category_tracking_title">Trasovanie</string>
-    <string name="pref_category_tracking_gps_title">Trasovanie / GPS</string>
+    <string name="pref_category_tracking_title">Sledovanie trasy</string>
+    <string name="pref_category_tracking_gps_title">Sledovanie trasy / GPS</string>
     <string name="pref_category_bell_title">Zvonček</string>
     <string name="pref_category_roaring_title">AVAS</string>
     <string name="pref_category_roaringConstantMode_title">Konštantný mód</string>
@@ -602,7 +602,7 @@
     <string name="pref_duck_roaring_on_bell_title">Káčer AVAS ako zvonček</string>
     <string name="pref_duck_roaring_on_bell_summary">Znížiť hlasitosť zvukov AVAS pri zvonení</string>
     <string name="pref_relaunchAfterReboot_title">Spustiť po reštartovaní</string>
-    <string name="pref_relaunchAfterReboot_summary">(Všetky profily) Obnoviť trasovanie po vynútenom reštarte aplikácie, ak zostáva 10% a viac kapacity batérie</string>
+    <string name="pref_relaunchAfterReboot_summary">(Všetky profily) Obnoviť sledovanie trasy po vynútenom reštarte aplikácie, ak zostáva 10% a viac kapacity batérie.</string>
     <string name="pref_resetPrompt_title">Vynútiť vynulovanie</string>
     <string name="pref_resetPrompt_summary">Začať novú trasu po viac ako 4 hodinách nečinnosti alebo pri vzdialenej polohe</string>
     <string name="pref_auto_launch_on_gps_title">Aut. zapnutie pri GPS</string>
@@ -648,7 +648,7 @@
     <string name="pref_soundeffects_tally_descent_dialog_title">Hlásenie klesania</string>
     <string name="pref_soundeffects_alarm_title">Povoliť</string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Zabudnutá prestávka</string>
-    <string name="pref_soundeffects_alarm_gpsPause_summary">Prehrať upozornenie pri zaznamenaní výraznejšieho pohybu, ak je trasovanie pozastavené</string>
+    <string name="pref_soundeffects_alarm_gpsPause_summary">Prehrať upozornenie pri zaznamenaní výraznejšieho pohybu, ak je sledovanie trasy pozastavené</string>
     <string name="pref_ads_mode_title">Zobrazovať reklamu</string>
     <string name="pref_ads_mode_dialog_title">Reklama</string>
     <string name="pref_maps_disable_title">Zakázať Mapy</string>
@@ -743,7 +743,7 @@
     <string name="prefPressureSensorOffsetTitle">Barometrické ladenie</string>
     <string name="prefPressureSensorOffsetInfo">Ak je to potrebné, používaná konštanta môže zmenšovať odchýlku jednotlivých barometrických meraní.</string>
     <string name="prefNotificationAlwaysTitle">Stále oznámenie</string>
-    <string name="prefNotificationAlwaysSummary">Zobrazovať stálu ikonu aplikácie na paneli oznámení nezávisle od stavu trasovania.</string>
+    <string name="prefNotificationAlwaysSummary">Zobrazovať stálu ikonu aplikácie na paneli oznámení nezávisle od stavu sledovania trasy.</string>
     <string name="prefMapDiskCacheSizeTitle">Veľkosť vyrovnávacej pamäte</string>
     <string name="prefMapDiskCacheSizeSummary">Pri otvorených mapách sa ukladajú informácie, ktoré umožňujú rýchle zobrazenie mapy pri jej ďalšom otvorení, čím sa šetria kapacita batérie a dáta. (Všetky profily)</string>
     <string name="prefProhibitLocationTitle">Nepoužívať GPS</string>
@@ -853,7 +853,7 @@
     <string name="pref_wakelock_modes_3">Vypnuté</string>
     <!-- pref_wakelock_modes_explanation -->
     <string name="pref_wakelock_modes_explanation_0">Automaticky určovať podľa intervalu aktualizácie GPS a iných faktorov</string>
-    <string name="pref_wakelock_modes_explanation_1">Ponechať CPU v plnom režime počas trasovania, čo môže vyžadovať viac energie, ale zaisťuje neustálu aktualizáciu polohy.</string>
+    <string name="pref_wakelock_modes_explanation_1">Ponechať CPU v plnom režime počas sledovania trasy, čo môže vyžadovať viac energie, ale zaisťuje neustálu aktualizáciu polohy.</string>
     <string name="pref_wakelock_modes_explanation_2">Povoliť CPU-spánok medzi aktualizáciami polohy, čo vyžaduje menej energie, avšak môže spôsobiť zriedkavé vynechanie polohy.</string>
     <string name="pref_wakelock_modes_explanation_3">Riadiť sa nastavením systému a/alebo iných aplikácií, čo však môže spôsobiť veľmi nepravidelnú komunikáciu alebo odmietnutie všetkých aktualizácií polohy.</string>
     <!-- pref_locationProvider_modes -->
@@ -1158,8 +1158,8 @@
     <string name="toastSharingNoGpxError">Chyba, žiadny súbor GPX vrámci trasy</string>
     <string name="sensorProperitesUseForDuration">Používať pre trvanie</string>
     <string name="pref_speechMasterSwitch_title">Povoliť</string>
-    <string name="pref_speechTrackingStatus_title">Sledovať</string>
-    <string name="pref_speechTrackingStatus_summary">Hovorí, keď sa sledovanie spustí, zastaví a pozastaví</string>
+    <string name="pref_speechTrackingStatus_title">Sledovanie trasy</string>
+    <string name="pref_speechTrackingStatus_summary">Upozornenie pri spustení, pozastavení alebo zastavení sledovania trasy</string>
     <string name="pref_speechToasts_title">Krátke poznámky</string>
     <string name="pref_speechCountdown_title">Odpočítavanie</string>
     <string name="pref_maps_offline_terrain_usage_summary">Použitie: Extrahujte súbory .hgt zo stiahnutých súborov zip a umiestnite ich do rovnakého priečinka, kde je uložený offline mapový súbor (nepoužívajte samostatný podpriečinok).</string>
@@ -1358,7 +1358,7 @@
     <string name="prefMapDiskCacheAgeEntries_0">1 deň</string>
     <string name="prefMapDiskCacheAgeEntries_2">10 dní (prednastavené)</string>
     <string name="prefGnssActivityRecognitionTitle">Znižovať lokalizačnú odchýlku</string>
-    <string name="prefGnssAutomaticSleepSummary">Automatické vypínanie GPS pri zastavení a obnovovanie pri pohybe. Pomáha šetriť kapacitu batérie a predchádzať nutnosti prerušenia trasovania pri dlhších prestávkach.</string>
+    <string name="prefGnssAutomaticSleepSummary">Automatické vypínanie GPS pri zastavení a obnovovanie pri pohybe. Pomáha šetriť kapacitu batérie a predchádzať nutnosti prerušenia sledovania trasy pri dlhších prestávkach.</string>
     <string name="prefMapDiskCacheAgeEntries_1">5 dní</string>
     <string name="prefMapDiskCacheAgeEntries_3">15 dní</string>
     <string name="pref_mapsShowAttribution_title">Zobrazovať pridelenie</string>
@@ -1388,4 +1388,43 @@
     <string name="pref_category_mainScreenVisualTheme">Hlavná obrazovka</string>
     <string name="pref_mapsWeatherCoverage_title">Meteorologické pokrytie</string>
     <string name="prefAppVisualThemeDialogTitle">Visuálne prevedenie aplikácie</string>
+    <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ je v rozsahu od 0 do 10%, predvolená hodnota je 1%. Pri používaní funkcie AutoTerrain sa vychádza zo základnej hodnoty pre ľahký terén (nižší stupeň), pričom v ťažsom teréne sa súčiniteľ automaticky zvýši.</string>
+    <string name="prefScreensaverDimBrightnessEntries_2">⅓ aktualného osvetlenia (predvolené)</string>
+    <string name="prefBarometricAltitudeDisableAlert">Zakázať barometrickú nadmorskú výšku\?</string>
+    <string name="pref_screensaverDimBrightnessDialogTitle">Úroveň stmavenia obrazovky</string>
+    <string name="pref_screensaverTimeout_summary">Čas, po uplynutí ktorého sa automaticky uzamkne obrazovka.</string>
+    <string name="prefScreensaverTimeoutEntries_4">30 sekúnd</string>
+    <string name="prefAutoTerrainNote2Summary">Hodnoty výkonu získavané snímačom výkonu nie sú ovplyvnené touto funkciou.</string>
+    <string name="summaryVibrations">Otrasy</string>
+    <string name="unitNewtonPerKg">N/kg</string>
+    <string name="speechPromptTrackingResume">Obnoviť alebo skončiť\?</string>
+    <string name="prefScreensaverDimBrightnessEntries_1">⅕ aktualného osvetlenia</string>
+    <string name="prefScreensaverDimBrightnessEntries_3">½ aktualného osvetlenia</string>
+    <string name="summaryRollResistCoefAverageInfo">Priemerný súčiniteľ valivého trenia, ak bol súčiniteľ počas aktivity premenný.</string>
+    <string name="prefScreensaverDimBrightnessEntries_4">Nestmaviť</string>
+    <string name="prefScreensaverTimeoutEntries_0">5 sekúnd</string>
+    <string name="prefAutoTerrainTitle">AutoTerrain</string>
+    <string name="pref_screensaverEnable_summary">(Všetky profily) Stmaviť a uzamknúť obrazovku po istom čase. Dotykom odomknúť.</string>
+    <string name="unitNewtonPerLb">N/lb</string>
+    <string name="prefAutoTerrainNote1Summary">Zariadenie musí byť pevne uchytené (napríklad na riadidlách bicykla), nie umiestnené vo vrecku alebo držané v ruke.</string>
+    <string name="pref_screensaverEnable_title">Šetrič obrazovky</string>
+    <string name="prefScreensaverTimeoutEntries_7">2 minúty</string>
+    <string name="unitMphPerSec">mph/s</string>
+    <string name="prefScreensaverTimeoutEntries_8">5 minút</string>
+    <string name="infoMeterModeVibrationsMsg">Otrasy vyhodnocované pri pevnom uchytení zariadenia, nie vo vrecku alebo v ruke.</string>
+    <string name="prefScreensaverTimeoutEntries_1">10 sekúnd</string>
+    <string name="prefScreensaverDimBrightnessEntries_0">Minimum</string>
+    <string name="toastScreensaverModeActive">Šetrič obrazovky aktivovaný</string>
+    <string name="prefScreensaverTimeoutEntries_2">15 sekúnd</string>
+    <string name="infoMeterModeVibrationsTitle">Otrasy</string>
+    <string name="unitKmhPerSec">kph/s</string>
+    <string name="summaryRollResistCoefAverage">Súčiniteľ valivého trenia, priemer</string>
+    <string name="prefScreensaverTimeoutEntries_6">1 minúta</string>
+    <string name="prefScreensaverTimeoutEntries_3">20 sekúnd (predvolené)</string>
+    <string name="prefAutoTerrainSummary">Vyhodnocovanie náročnosti terénu podľa úrovne otrasov a prispôsobovanie súčiniteľa valivého trenia (Cᵣᵣ) úmerne výpočtom výkonu.</string>
+    <string name="pref_group_activityRecognition_title">Rozpoznávanie činnosti</string>
+    <string name="pref_screensaverTimeout_title">Čas zhasnutia</string>
+    <string name="prefScreensaverTimeoutEntries_5">45 sekúnd</string>
+    <string name="pref_screensaverDimBrightness_title">Úroveň stmavenia</string>
+    <string name="unitGAccel">g</string>
 </resources>
