@@ -265,7 +265,7 @@
     <string name="dialogStoragePermissionRequestTitle">Permissão de armazenamento</string>
     <string name="dialogStoragePermissionRequest">A aplicação precisa de ter acesso ao armazenamento para que possa guardar ou restaurar os seus percursos e configurações.
 \n
-\nSem dar permissão, não poderá ver o histórico de percursos ou partilhá-los, e poderá perder os seus dados.</string>
+\nSem dar permissão, não poderá ver o histórico de percursos e poderá perder os seus dados.</string>
     <string name="dialogCameraPermissionRequestTitle">Permissão da câmara</string>
     <string name="dialogCameraPermissionRequest">A permissão é necessária para que a aplicação possa ativar a lanterna.</string>
     <string name="dialogPermissionProblemMessage">Esta permissão é necessária para que a aplicação funcione corretamente. Esta pode ser garantida na página de configurações de permissões da aplicação.
@@ -1198,7 +1198,7 @@
     <string name="controlPanelScreenOrientation">Orientação do ecrã</string>
     <string name="pref_mapsWeatherAnimate_title">Animar</string>
     <string name="pref_mapsWeatherAnimate_summary">Animar a última hora de dados de radar, para ajudar a visualizar a tendência de precipitação</string>
-    <string name="pref_mapsWeatherAnimate_info">A animação de radar usa 5x mais dados da Internet do que uma imagem de radar estática.</string>
+    <string name="pref_mapsWeatherAnimate_info">A animação de radar pode usar 5x mais dados da Internet do que uma imagem de radar estática.</string>
     <string name="menuMeterStart">Iniciar</string>
     <string name="menuMeterStop">Parar</string>
     <string name="dialogScreenshotTitle">Captura de Ecrã</string>
@@ -1392,7 +1392,7 @@
     <string name="prefScreensaverDimBrightnessEntries_4">Deixar como está</string>
     <string name="prefScreensaverTimeoutEntries_0">5 segundos</string>
     <string name="prefAutoTerrainTitle">AutoTerrain</string>
-    <string name="pref_screensaverEnable_summary">(Todos os perfis) Escurecer o ecrã após um tempo limite para economizar bateria. Tocar no ecrã para desbloquear.</string>
+    <string name="pref_screensaverEnable_summary">Escurecer o ecrã após um tempo limite para economizar bateria. Tocar no ecrã para desbloquear.</string>
     <string name="unitNewtonPerLb">N/lb</string>
     <string name="prefAutoTerrainNote1Summary">O dispositivo deve ser mantido fixo a um veículo (por exemplo, no guiador de uma bicicleta), e não na mão ou no bolso durante o uso.</string>
     <string name="pref_screensaverEnable_title">Protetor de ecrã</string>
@@ -1415,4 +1415,24 @@
     <string name="prefScreensaverTimeoutEntries_5">45 segundos</string>
     <string name="pref_screensaverDimBrightness_title">Brilho escuro</string>
     <string name="unitGAccel">g</string>
+    <string name="dialogRevokeAccessPromptMessage">Revogar acesso\?</string>
+    <string name="menuRevokeAccess">Revogar acesso</string>
+    <string name="menuSelectOther">Selecionar outra</string>
+    <string name="dialogBluetoothPermissionRequest">A permissão é necessária para que a aplicação possa encontrar e ligar-se a sensores wireless.</string>
+    <string name="dialogCopyingMessage">A copiar…</string>
+    <string name="dialogOfflineMapsChooseMessage">Ficheiro de mapa não encontrado ou não acessível. Escolher outro ficheiro/pasta de mapas agora\?</string>
+    <string name="menuChooseFolder">Pasta</string>
+    <string name="menuCustomTracksFolder">Pasta de percursos personalizados</string>
+    <string name="dialogOfflineMapsChooseTitle">Problema de mapas offline</string>
+    <string name="dialogBluetoothPermissionRequestTitle">Permissão de Bluetooth</string>
+    <string name="menuChooseFile">Ficheiro</string>
+    <string name="dialogOfflineMapsFolderCopyMessage">O conteúdo selecionado deve ser copiado para a pasta de mapas, específica da aplicação, para ser usado.
+\n
+\nFazer isso agora\?</string>
+    <string name="infoContentSize">Tamanho do conteúdo: %1$d MB</string>
+    <string name="menuSelect">Selecionar</string>
+    <string name="pref_category_units_common_title">Unidades de medida (Todos os perfis)</string>
+    <string name="tracksHistoryGrantAccess">Clique aqui para conceder acesso de \"somente leitura\" a uma pasta de percursos personalizada …</string>
+    <string name="pref_category_units_per_profile_title">Unidades de medida (Por perfil)</string>
+    <string name="dialogOfflineMapsFolderCopyTitle">Copiar para a pasta de mapas</string>
 </resources>
