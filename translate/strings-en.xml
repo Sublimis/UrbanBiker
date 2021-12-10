@@ -121,6 +121,12 @@
     <string name="menuRefresh">Refresh</string>
     <string name="menuSwitchProfile">Switch to</string>
     <string name="menuScreenshot">Screenshot</string>
+    <string name="menuChooseFile">File</string>
+    <string name="menuChooseFolder">Folder</string>
+    <string name="menuCustomTracksFolder">Custom tracks folder</string>
+    <string name="menuSelect">Select</string>
+    <string name="menuSelectOther">Select other</string>
+    <string name="menuRevokeAccess">Revoke access</string>
 
     <string name="share_title">Send via</string>
     <string name="share_subject" translatable="false">@string/app_name</string>
@@ -348,12 +354,14 @@
     <string name="dialogLocationPermissionRequest">The app needs to access your location to record your outdoor activities.</string>
     <string name="dialogLocationPermissionRequestForBt">Location permission is needed to find Bluetooth devices.\n\nNo Bluetooth devices will be found if the permission is rejected.</string>
     <string name="dialogStoragePermissionRequestTitle">Storage permission</string>
-    <string name="dialogStoragePermissionRequest">The app needs to access the storage so it can save or restore your tracks and settings.\n\nWithout giving the permission you won\'t be able to see tracks history or share tracks, and you could loose your data.</string>
+    <string name="dialogStoragePermissionRequest">The app needs to access the storage so it can save or restore your tracks and settings.\n\nWithout giving the permission you may not be able to see your tracks history, and you could loose your data.</string>
     <string name="dialogCameraPermissionRequestTitle">Camera permission</string>
     <string name="dialogCameraPermissionRequest">Permission is needed so the app can activate the flashlight.</string>
     <string name="dialogPermissionProblemMessage">This permission is needed for the app to function properly. It can be granted in the App permissions settings page.\n\nGo there now?</string>
     <string name="dialogActivityRecognitionPermissionRequestTitle">Physical activity permission</string>
     <string name="dialogActivityRecognitionPermissionRequest">Permission is needed so the app can use built-in sensors like Step Detector sensor.</string>
+    <string name="dialogBluetoothPermissionRequestTitle">Bluetooth permission</string>
+    <string name="dialogBluetoothPermissionRequest">Permission is needed so the app can find and connect with wireless sensors.</string>
     <string name="dialogScreenshotTitle">Screenshot</string>
     <string name="dialogGoogleMapTermsViolation">Google does not permit capturing contents of their maps, so map type must first be changed to any other.\n\nChange map type now?</string>
     <string name="dialogWaitTitle">Please wait</string>
@@ -361,6 +369,12 @@
     <string name="dialogLoginUsernameHint">Username</string>
     <string name="dialogLoginPasswordHint">Password</string>
     <string name="dialogCloudAccountDisconnectMessage">Disconnect this account?</string>
+    <string name="dialogOfflineMapsChooseTitle">Offline maps problem</string>
+    <string name="dialogOfflineMapsChooseMessage">Map file not found or is not accessible. Choose some other maps file/folder now?</string>
+    <string name="dialogOfflineMapsFolderCopyTitle">Copy to maps folder</string>
+    <string name="dialogOfflineMapsFolderCopyMessage">Selected content must be copied to the app-specific maps folder in order to be used.\n\nDo this now?</string>
+    <string name="dialogCopyingMessage">Copying…</string>
+    <string name="dialogRevokeAccessPromptMessage">Revoke access?</string>
 
     <!-- dialog_fenceguard_add_entries -->
     <string name="dialog_fenceguard_add_entries_0">Add fence</string>
@@ -568,6 +582,7 @@
     <string name="tracksHistoryListTitleSelect">Select</string>
     <string name="tracksHistoryListEmpty">No tracks here. Go out and record an activity!</string>
     <string name="tracksHistoryListLoading">Loading…</string>
+    <string name="tracksHistoryGrantAccess">Click here to grant read-only access to a custom tracks folder…</string>
     <string name="tracksHistoryListNoMap">Map was not recorded.</string>
     <string name="tracksHistoryListButtonView">View</string>
     <string name="tracksHistoryListButtonShare">Share</string>
@@ -735,7 +750,8 @@
     <string name="pref_category_power_mode_title">Power display mode</string>
     <string name="pref_category_params_title">Parameters</string>
     <string name="pref_group_units_title">Units</string>
-    <string name="pref_category_units_title">Units of measure</string>
+    <string name="pref_category_units_common_title">Units of measure (all profiles)</string>
+    <string name="pref_category_units_per_profile_title">Units of measure (per profile)</string>
     <string name="pref_category_colors_light_title">Light theme</string>
     <string name="pref_category_colors_dark_title">Dark theme</string>
     <string name="pref_category_map_colors_title">Map colors</string>
@@ -872,7 +888,7 @@
     <string name="pref_screenWaveDim_title">Dim display</string>
     <string name="pref_screenWaveDim_summary">Display will also be dimmed, to save battery</string>
     <string name="pref_screensaverEnable_title">Screensaver</string>
-    <string name="pref_screensaverEnable_summary">(All profiles) Dim the display after a timeout, to save battery. Touch the display to unlock.</string>
+    <string name="pref_screensaverEnable_summary">Dim the display after a timeout, to save battery. Touch the display to unlock.</string>
     <string name="pref_screensaverTimeout_title">Timeout</string>
     <string name="pref_screensaverTimeout_summary">Time period with no user interaction until the screensaver is activated.</string>
     <string name="pref_screensaverDimBrightness_title">Dim brightness</string>
@@ -1021,7 +1037,7 @@
     <string name="pref_mapsWeatherAnimate_summary">Animate last 1 hour of radar data, to help you visualize the precipitation trend</string>
     <string name="pref_mapsWeatherAnimateForecast_title">Forecast</string>
     <string name="pref_mapsWeatherAnimateForecast_summary">Also animate 30 minutes of radar forecast in different colors</string>
-    <string name="pref_mapsWeatherAnimate_info">Radar animation uses 5x more Internet data than a static radar image.</string>
+    <string name="pref_mapsWeatherAnimate_info">Radar animation can use up to 5x more Internet data than a static radar image.</string>
     <string name="pref_mapsWeatherCoverage_title">Coverage mask</string>
     <string name="pref_mapsWeatherCoverage_summary">Shade areas where there is no precipitation radar coverage</string>
     <string name="pref_button_autoring_enable_title">Auto Ring toggle</string>
@@ -1194,6 +1210,8 @@
     <string name="infoAutopauseForcedOff">Note: Auto Pause forced to Off</string>
 
     <string name="infoDigitalFilterNotice">Please note: This can be delayed from the real time by a minute or so, due to inevitable digital filtering delays.</string>
+
+    <string name="infoContentSize">Content size: %1$d MB</string>
 
     <string name="defaultProfileNameBike1">Bike 1 🚴</string>
     <string name="defaultProfileNameBike2">Bike 2 🚵</string>
