@@ -257,9 +257,9 @@
     <string name="dialogLocationPermissionRequestTitle">Lokalizačné oprávnenie</string>
     <string name="dialogLocationPermissionRequest">Aby mohli byť nahrávané trasy, aplikácia potrebuje vyhodnocovať informácie o aktuálnej polohe.</string>
     <string name="dialogStoragePermissionRequestTitle">Pamäťové oprávnenie</string>
-    <string name="dialogStoragePermissionRequest">Aplikácia potrebuje prístup do pamäte, aby mohli byť ukladné a obnovované trasy a nastavenia.
+    <string name="dialogStoragePermissionRequest">Aplikácia potrebuje prístup do pamäte, aby mohli byť ukladané alebo obnovované trasy a nastavenia.
 \n
-\nBez tohto oprávnenia nie je mozné ziskavať prehľad trás, zdieľať trasy alebo ukladať akékoľvek dáta.</string>
+\nBez tohto oprávnenia nie je možné získavať prehľad trás, zdieľať trasy alebo ukladať akékoľvek dáta.</string>
     <string name="dialogCameraPermissionRequestTitle">Oprávnenie používať kameru</string>
     <string name="dialogCameraPermissionRequest">Možnosť používať svetlo vrámci aplikácie spravuje toto oprávnenie.</string>
     <string name="dialogPermissionProblemMessage">Oprávnenia sú nevyhnutné pre správne fungovanie aplikácie.
@@ -1167,7 +1167,7 @@
     <string name="pref_mapsWeatherPrecipitationRadar_info">Radarové údaje sa sťahujú z internetu, aj keď sa používajú offline mapy. Automaticky sa obnovujú každých 10 minút, kým je mapa viditeľná. Zdrojom údajov je RainViewer.com.</string>
     <string name="pref_mapsWeatherAnimate_title">Animovať</string>
     <string name="pref_mapsWeatherAnimate_summary">Animujte poslednú hodinu radarových údajov, ktoré vám pomôžu vizualizovať trend zrážok</string>
-    <string name="pref_mapsWeatherAnimate_info">Radarová animácia využíva 5x viac údajov z internetu ako statický radarový obraz.</string>
+    <string name="pref_mapsWeatherAnimate_info">Radarová animácia využíva až 5x viac dát ako statický radarový obrázok.</string>
     <string name="buttonShow">Zobraz</string>
     <string name="menuMeterClockShowSeconds">Zobraz sekundy</string>
     <string name="controlPanelMapShowButtonTitle">Zobraz mapu</string>
@@ -1403,7 +1403,7 @@
     <string name="prefScreensaverDimBrightnessEntries_4">Nestmaviť</string>
     <string name="prefScreensaverTimeoutEntries_0">5 sekúnd</string>
     <string name="prefAutoTerrainTitle">AutoTerrain</string>
-    <string name="pref_screensaverEnable_summary">(Všetky profily) Stmaviť a uzamknúť obrazovku po istom čase. Dotykom odomknúť.</string>
+    <string name="pref_screensaverEnable_summary">Stmaviť a uzamknúť obrazovku po istom čase, a dotykom opäť odomknúť.</string>
     <string name="unitNewtonPerLb">N/lb</string>
     <string name="prefAutoTerrainNote1Summary">Zariadenie musí byť pevne uchytené (napríklad na riadidlách bicykla), nie umiestnené vo vrecku alebo držané v ruke.</string>
     <string name="pref_screensaverEnable_title">Šetrič obrazovky</string>
@@ -1426,4 +1426,27 @@
     <string name="prefScreensaverTimeoutEntries_5">45 sekúnd</string>
     <string name="pref_screensaverDimBrightness_title">Úroveň stmavenia</string>
     <string name="unitGAccel">g</string>
+    <string name="dialogRevokeAccessPromptMessage">Odvolať prístup\?</string>
+    <string name="menuRevokeAccess">Odvolať prístup</string>
+    <string name="menuSelectOther">Vybrať iný priečinok</string>
+    <string name="dialogBluetoothPermissionRequest">Je potrebné oprávnenie pre bezdrôtovú komunikáciu so snímačmi.</string>
+    <string name="dialogCopyingMessage">Kopíruje sa…</string>
+    <string name="dialogOfflineMapsChooseMessage">Súbor mapy sa nenašiel alebo je neprístupný. Vybrať iný súbor/priečinok\?</string>
+    <string name="menuChooseFolder">Priečinok</string>
+    <string name="menuCustomTracksFolder">Iný priečinok trás</string>
+    <string name="dialogOfflineMapsChooseTitle">Chyba offline-mapy</string>
+    <string name="dialogBluetoothPermissionRequestTitle">Povoliť Bluetooth</string>
+    <string name="menuChooseFile">Súbor</string>
+    <string name="dialogCustomTracksFolderInfoMessage">Funkcia umožňuje čítať súbory trás z iného priečinka, ako je predvolený priečinok trás.
+\n
+\n(Také súbory sú však len na čítanie a zdieľanie, nemôžu byť upravované , obnovované alebo vymazané v aplikácii.)</string>
+    <string name="dialogOfflineMapsFolderCopyMessage">Súbory treba skopírovať do priečinka s mapami, aby bol ich obsah použiteľný v aplikácii.
+\n
+\nUmiestniť súbory\?</string>
+    <string name="infoContentSize">Veľkosť obsahu: %1$d MB</string>
+    <string name="menuSelect">Vybrať</string>
+    <string name="pref_category_units_common_title">Fyzikálne jednotky (všetky profily)</string>
+    <string name="tracksHistoryGrantAccess">Potvrdiť prístupové právo na čítanie trás z iného priečinka…</string>
+    <string name="pref_category_units_per_profile_title">Fyzikálne jednotky (podľa profilu)</string>
+    <string name="dialogOfflineMapsFolderCopyTitle">Kopírovať do priečinka máp</string>
 </resources>
