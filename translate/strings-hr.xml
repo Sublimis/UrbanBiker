@@ -231,7 +231,7 @@
     <string name="dialogPowerWeightsWeightWheels">Kotači</string>
     <string name="dialogPowerParamsTitle">Koeficijenti gubitka snage</string>
     <string name="dialogPowerParamsDragArea">Površina otporu zraka (Cd·A)</string>
-    <string name="dialogPowerParamsRollResist">Koef. otpora kotrljanju (Crr)</string>
+    <string name="dialogPowerParamsRollResist">Koef. otpora kotrljanju (Cᵣᵣ)</string>
     <string name="dialogEnergyParamsTitle">Parametri energije</string>
     <string name="dialogEnergyParamsEfficiency">Ukupna termička efikasnost (η)</string>
     <string name="dialogEnergyParamsBmr">Stopa bazalnog metabolizma (BMR)</string>
@@ -263,9 +263,9 @@
 \n
 \nBluetooth uređaji se neće pronaći ako je dozvola odbijena.</string>
     <string name="dialogStoragePermissionRequestTitle">Dozvola za pohranu</string>
-    <string name="dialogStoragePermissionRequest">Aplikacija treba pristup pohrani kako bi mogla spremiti ili vratiti vaše staze i postavke. 
-\n 
-\nBez davanja dozvole nećete moći vidjeti povijest staza niti podijeliti staze, i mogli bi izgubiti podatke.</string>
+    <string name="dialogStoragePermissionRequest">Aplikacija treba pristup pohrani kako bi mogla spremiti ili vratiti vaše staze i postavke.
+\n
+\nBez davanja dopuštenja možda nećete moći vidjeti povijest svojih staza, i mogli biste izgubiti svoje podatke.</string>
     <string name="dialogCameraPermissionRequestTitle">Dozvola za kameru</string>
     <string name="dialogCameraPermissionRequest">Potrebna je dozvola kako bi aplikacija mogla aktivirati bljeskalicu.</string>
     <string name="dialogPermissionProblemMessage">Ova dozvola je potrebna kako bi aplikacija pravilno radila. Može se dodijeliti na stranici Dozvole aplikacija u Postavkama.
@@ -1198,7 +1198,7 @@
     <string name="controlPanelScreenOrientation">Orijentacija zaslona</string>
     <string name="pref_mapsWeatherAnimate_title">Animiraj</string>
     <string name="pref_mapsWeatherAnimate_summary">Animirajte radarske podatke u zadnjih 1 sat, kako bi vam pomoglo vizualizirati trend oborina</string>
-    <string name="pref_mapsWeatherAnimate_info">Radarska animacija koristi 5x više internetskih podataka od statičke radarske slike.</string>
+    <string name="pref_mapsWeatherAnimate_info">Radarska animacija može koristiti do 5x više internetskih podataka od statične radarske slike.</string>
     <string name="menuMeterStart">Start</string>
     <string name="menuMeterStop">Stop</string>
     <string name="dialogScreenshotTitle">Snimka zaslona</string>
@@ -1382,4 +1382,60 @@
     <string name="toastScreensaverModeActive">Čuvara zaslona je aktivan</string>
     <string name="unitKmhPerSec">kph/s</string>
     <string name="unitGAccel">g</string>
+    <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ se kreće od 0 do 10%, zadana vrijednost je 1%. Ako koristite značajku AutoTerrain, pretpostavite osnovnu vrijednost za glatki teren (donja granica), jer će aplikacija općenito povećavati koeficijent na grubljem terenu.</string>
+    <string name="prefScreensaverDimBrightnessEntries_2">⅓ trenutne svjetline (zadano)</string>
+    <string name="prefBarometricAltitudeDisableAlert">Onemogućiti barometarsku visinu\?</string>
+    <string name="pref_screensaverDimBrightnessDialogTitle">Svjetlina zatamnjenja čuvara zaslona</string>
+    <string name="pref_screensaverTimeout_summary">Vremensko razdoblje bez interakcije korisnika dok se čuvar zaslona ne aktivira.</string>
+    <string name="prefScreensaverTimeoutEntries_4">30 sekundi</string>
+    <string name="prefAutoTerrainNote2Summary">Ova značajka ne utječe na snage dobivene pomoću senzora snage.</string>
+    <string name="dialogRevokeAccessPromptMessage">Opozvati pristup\?</string>
+    <string name="summaryVibrations">Vibracije</string>
+    <string name="menuRevokeAccess">Opozovi pristup</string>
+    <string name="speechPromptTrackingResume">Nastaviti ili završiti\?</string>
+    <string name="menuSelectOther">Odaberi drugi</string>
+    <string name="prefScreensaverDimBrightnessEntries_1">⅕ trenutne svjetline</string>
+    <string name="prefScreensaverDimBrightnessEntries_3">½ trenutne svjetline</string>
+    <string name="dialogBluetoothPermissionRequest">Potrebno je dopuštenje kako bi aplikacija mogla pronaći i povezati se s bežičnim senzorima.</string>
+    <string name="dialogCopyingMessage">Kopiranje…</string>
+    <string name="summaryRollResistCoefAverageInfo">Prosječni koeficijent otpora kotrljanja, ako se koeficijent mijenjao tijekom aktivnosti.</string>
+    <string name="dialogOfflineMapsChooseMessage">Datoteka mape nije pronađena ili nije dostupna. Odabrati neku drugu datoteku/folder mape\?</string>
+    <string name="prefScreensaverDimBrightnessEntries_4">Ostavi kako jest</string>
+    <string name="prefScreensaverTimeoutEntries_0">5 sekundi</string>
+    <string name="menuChooseFolder">Folder</string>
+    <string name="menuCustomTracksFolder">Prilagođeni folder staza</string>
+    <string name="dialogOfflineMapsChooseTitle">Problem s offline mapom</string>
+    <string name="prefAutoTerrainTitle">AutoTerrain</string>
+    <string name="pref_screensaverEnable_summary">Zatamniti zaslon nakon isteka vremena radi uštede baterije. Dodirnite zaslon za otključavanje.</string>
+    <string name="dialogBluetoothPermissionRequestTitle">Bluetooth dopuštenje</string>
+    <string name="prefAutoTerrainNote1Summary">Uređaj treba držati pričvršćen za vozilo (npr. na upravljaču bicikla), a ne u ruci ili džepu dok ovo koristite.</string>
+    <string name="pref_screensaverEnable_title">Čuvar zaslona</string>
+    <string name="menuChooseFile">Datoteka</string>
+    <string name="prefScreensaverTimeoutEntries_7">2 minute</string>
+    <string name="prefScreensaverTimeoutEntries_8">5 minuta</string>
+    <string name="infoMeterModeVibrationsMsg">Vibracije mjerene uređajem. Korisno kada se uređaj drži pričvršćen za vozilo (npr. na upravljaču bicikla), a ne u ruci ili džepu.</string>
+    <string name="prefScreensaverTimeoutEntries_1">10 sekundi</string>
+    <string name="dialogCustomTracksFolderInfoMessage">Ova značajka omogućuje aplikaciji čitanje staza iz foldera po vašem izboru, povrh zadanog folder staza.
+\n
+\nTakve staze su samo za čitanje: mogu se pregledavati i dijeliti, ali se ne mogu uređivati, nastavljati niti brisati.</string>
+    <string name="prefScreensaverDimBrightnessEntries_0">Minimum</string>
+    <string name="prefScreensaverTimeoutEntries_2">15 sekundi</string>
+    <string name="infoMeterModeVibrationsTitle">Vibracije</string>
+    <string name="dialogOfflineMapsFolderCopyMessage">Odabrani sadržaj mora se kopirati u folder mapa specifičan za aplikaciju da bi se mogao koristiti.
+\n
+\nUčiniti ovo sada\?</string>
+    <string name="summaryRollResistCoefAverage">Prosječni koef. otpora kotrljanju</string>
+    <string name="infoContentSize">Veličina sadržaja: %1$d MB</string>
+    <string name="prefScreensaverTimeoutEntries_6">1 minuta</string>
+    <string name="menuSelect">Odaberi</string>
+    <string name="prefScreensaverTimeoutEntries_3">20 sekundi (zadano)</string>
+    <string name="prefAutoTerrainSummary">Osjetiti hrapavost terena mjerenjem vibracija i prilagoditi koeficijent otpora kotrljanja (Cᵣᵣ) u skladu s tim pri računanju snage.</string>
+    <string name="pref_category_units_common_title">Mjerne jedinice (svi profili)</string>
+    <string name="pref_group_activityRecognition_title">Prepoznavanje aktivnosti</string>
+    <string name="pref_screensaverTimeout_title">Pauza</string>
+    <string name="prefScreensaverTimeoutEntries_5">45 sekundi</string>
+    <string name="pref_screensaverDimBrightness_title">Svjetlina zatamnjenja</string>
+    <string name="tracksHistoryGrantAccess">Kliknite ovdje da dodijelite pristup samo za čitanje prilagođenom folderu staza…</string>
+    <string name="pref_category_units_per_profile_title">Mjerne jedinice (po profilu)</string>
+    <string name="dialogOfflineMapsFolderCopyTitle">Kopiraj u folder mapa</string>
 </resources>
