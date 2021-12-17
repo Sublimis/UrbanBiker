@@ -256,9 +256,9 @@
     <string name="dialogLocationPermissionRequestTitle">Άδεια τοποθεσίας</string>
     <string name="dialogLocationPermissionRequest">Η εφαρμογή πρέπει να έχει πρόσβαση στην τοποθεσία σας για να καταγράψει τις υπαίθριες δραστηριότητες σας.</string>
     <string name="dialogStoragePermissionRequestTitle">Άδεια αποθήκευσης</string>
-    <string name="dialogStoragePermissionRequest">Η εφαρμογή χρειάζεται να έχει πρόσβαση στο χώρο αποθήκευσης, ώστε να μπορεί να αποθηκεύσει ή να επαναφέρει τις διαδρομές και τις ρυθμίσεις σας.
+    <string name="dialogStoragePermissionRequest">Η εφαρμογή πρέπει να έχει πρόσβαση στο χώρο αποθήκευσης, ώστε να μπορεί να αποθηκεύσει ή να επαναφέρει τα κομμάτια και τις ρυθμίσεις σας.
 \n
-\nΧωρίς να δώσετε την άδεια, δεν θα μπορείτε να βλέπετε το ιστορικό των διαδρομών σας ή να μοιράζεστε διαδρομές και θα μπορούσατε να χάσετε τα δεδομένα σας.</string>
+\nΧωρίς να δώσετε την άδεια, ενδέχεται να μην μπορείτε να δείτε το ιστορικό των κομματιών σας και μπορεί να χάσετε τα δεδομένα σας.</string>
     <string name="dialogCameraPermissionRequestTitle">Άδεια φωτογραφικής μηχανής</string>
     <string name="dialogCameraPermissionRequest">Χρειάζεται άδεια, ώστε η εφαρμογή να μπορεί να ενεργοποιήσει το φακό.</string>
     <string name="dialogPermissionProblemMessage">Αυτή η άδεια είναι απαραίτητη για την σωστή λειτουργία της εφαρμογής. Μπορεί να χορηγηθεί στη σελίδα Ρυθμίσεις δικαιωμάτων εφαρμογής..
@@ -1208,7 +1208,7 @@
     <string name="controlPanelScreenOrientation">Προσανατολισμός οθόνης</string>
     <string name="pref_mapsWeatherAnimate_title">κίνηση</string>
     <string name="pref_mapsWeatherAnimate_summary">Δώστε κίνηση την τελευταία 1 ώρα δεδομένων ραντάρ, για να σας βοηθήσουν να απεικονίσετε την τάση κατακρήμνισης</string>
-    <string name="pref_mapsWeatherAnimate_info">Η κινούμενη εικόνα ραντάρ χρησιμοποιεί 5 φορές περισσότερα δεδομένα Internet από μια στατική εικόνα ραντάρ.</string>
+    <string name="pref_mapsWeatherAnimate_info">Η κινούμενη εικόνα ραντάρ μπορεί να χρησιμοποιεί έως και 5 φορές περισσότερα δεδομένα Διαδικτύου από μια στατική εικόνα ραντάρ.</string>
     <string name="menuMeterStart">Εκκίνηση</string>
     <string name="menuMeterStop">Διακοπή</string>
     <string name="dialogScreenshotTitle">Στιγμιότυπο</string>
@@ -1402,7 +1402,7 @@
     <string name="prefScreensaverDimBrightnessEntries_4">Αφήστε όπως είναι</string>
     <string name="prefScreensaverTimeoutEntries_0">5 δευτερόλεπτα</string>
     <string name="prefAutoTerrainTitle">Αυτόματο Έδαφος</string>
-    <string name="pref_screensaverEnable_summary">(Όλα τα προφίλ) Χαμηλώστε τη φωτεινότητα της οθόνης μετά από ένα χρονικό όριο, για εξοικονόμηση μπαταρίας. Αγγίξτε την οθόνη για ξεκλείδωμα.</string>
+    <string name="pref_screensaverEnable_summary">Χαμηλώστε τη φωτεινότητα της οθόνης μετά από ένα χρονικό όριο, για εξοικονόμηση μπαταρίας. Αγγίξτε την οθόνη για ξεκλείδωμα.</string>
     <string name="unitNewtonPerLb">Νιούτον/Λίβρα</string>
     <string name="prefAutoTerrainNote1Summary">Η συσκευή θα πρέπει να κρατιέται στερεωμένη σε ένα όχημα (π.χ. στο τιμόνι του ποδηλάτου) και όχι στο χέρι ή σε μια τσέπη ενώ τη χρησιμοποιείτε.</string>
     <string name="pref_screensaverEnable_title">Προφύλαξη οθόνης</string>
@@ -1425,4 +1425,27 @@
     <string name="prefScreensaverTimeoutEntries_5">45 δευτερόλεπτα</string>
     <string name="pref_screensaverDimBrightness_title">Μειωμένη φωτεινότητα</string>
     <string name="unitGAccel">g</string>
+    <string name="dialogRevokeAccessPromptMessage">Ανάκληση πρόσβασης;</string>
+    <string name="menuRevokeAccess">Ανάκληση πρόσβασης</string>
+    <string name="menuSelectOther">Επιλέξτε άλλο</string>
+    <string name="dialogBluetoothPermissionRequest">Απαιτείται άδεια ώστε η εφαρμογή να μπορεί να βρει και να συνδεθεί με ασύρματους αισθητήρες.</string>
+    <string name="dialogCopyingMessage">Αντιγραφή…</string>
+    <string name="dialogOfflineMapsChooseMessage">Το αρχείο χάρτη δεν βρέθηκε ή δεν είναι προσβάσιμο. Επιλέξτε κάποιο άλλο αρχείο/φάκελο χαρτών τώρα;</string>
+    <string name="menuChooseFolder">Φάκελος</string>
+    <string name="menuCustomTracksFolder">Φάκελος προσαρμοσμένων διαδρομών</string>
+    <string name="dialogOfflineMapsChooseTitle">Πρόβλημα με χάρτες εκτός σύνδεσης</string>
+    <string name="dialogBluetoothPermissionRequestTitle">Άδεια Bluetooth</string>
+    <string name="menuChooseFile">Αρχείο</string>
+    <string name="dialogCustomTracksFolderInfoMessage">Αυτή η δυνατότητα επιτρέπει στην εφαρμογή να διαβάζει διαδρομές από έναν φάκελο της επιλογής σας, εκτός από τον προεπιλεγμένο φάκελο διαδρομών.
+\n
+\nΤέτοιες διαδρομές είναι μόνο για ανάγνωση: Μπορούν να προβληθούν και να κοινοποιηθούν, αλλά δεν είναι δυνατή η επεξεργασία, η επαναφορά ή η διαγραφή τους.</string>
+    <string name="dialogOfflineMapsFolderCopyMessage">Το επιλεγμένο αρχείο πρέπει να αντιγραφεί στον φάκελο χαρτών της εφαρμογής για να χρησιμοποιηθεί.
+\n
+\nΣυνέχεια;</string>
+    <string name="infoContentSize">Μέγεθος περιεχομένου: %1$d MB</string>
+    <string name="menuSelect">Επιλογή</string>
+    <string name="pref_category_units_common_title">Μονάδες μέτρησης (όλα τα προφίλ)</string>
+    <string name="tracksHistoryGrantAccess">Κάντε κλικ εδώ για να παραχωρήσετε πρόσβαση μόνο για ανάγνωση σε έναν φάκελο προσαρμοσμένων διαδρομών…</string>
+    <string name="pref_category_units_per_profile_title">Μονάδες μέτρησης (ανά προφίλ)</string>
+    <string name="dialogOfflineMapsFolderCopyTitle">Αντιγραφή στο φάκελο χαρτών</string>
 </resources>
