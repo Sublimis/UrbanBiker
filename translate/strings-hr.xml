@@ -882,7 +882,7 @@
     <string name="meterModes_25">Odometar</string>
     <!-- pref_gps_update_freq_entries -->
     <string name="pref_gps_update_freq_entries_0">Najbrže</string>
-    <string name="pref_gps_update_freq_entries_2">Default</string>
+    <string name="pref_gps_update_freq_entries_2">Prilagodljivo (zadano)</string>
     <string name="pref_gps_update_freq_entries_3">1 sek</string>
     <string name="pref_gps_update_freq_entries_4">2 sek</string>
     <string name="pref_gps_update_freq_entries_5">3 sek</string>
@@ -1415,9 +1415,11 @@
     <string name="prefScreensaverTimeoutEntries_8">5 minuta</string>
     <string name="infoMeterModeVibrationsMsg">Vibracije mjerene uređajem. Korisno kada se uređaj drži pričvršćen za vozilo (npr. na upravljaču bicikla), a ne u ruci ili džepu.</string>
     <string name="prefScreensaverTimeoutEntries_1">10 sekundi</string>
-    <string name="dialogCustomTracksFolderInfoMessage">Ova značajka omogućuje aplikaciji čitanje staza iz foldera po vašem izboru, povrh zadanog folder staza.
+    <string name="dialogCustomTracksFolderInfoMessage">Ova značajka omogućuje aplikaciji čitanje staza iz foldera po vašem izboru, povrh zadanog foldera staza — čija se lokacija nedavno promijenila.
 \n
-\nTakve staze su samo za čitanje: mogu se pregledavati i dijeliti, ali se ne mogu uređivati, nastavljati niti brisati.</string>
+\nTakve staze su samo za čitanje: mogu se pregledavati i dijeliti, ali se ne mogu uređivati, nastavljati niti brisati.
+\n
+\nAko niste sigurni, pokušajte pronaći mapu \"Documents-UrbanBiker-tracks\" na sljedećem zaslonu.</string>
     <string name="prefScreensaverDimBrightnessEntries_0">Minimum</string>
     <string name="prefScreensaverTimeoutEntries_2">15 sekundi</string>
     <string name="infoMeterModeVibrationsTitle">Vibracije</string>
@@ -1435,7 +1437,8 @@
     <string name="pref_screensaverTimeout_title">Pauza</string>
     <string name="prefScreensaverTimeoutEntries_5">45 sekundi</string>
     <string name="pref_screensaverDimBrightness_title">Svjetlina zatamnjenja</string>
-    <string name="tracksHistoryGrantAccess">Kliknite ovdje da dodijelite pristup samo za čitanje prilagođenom folderu staza…</string>
+    <string name="tracksHistoryGrantAccess">Nedostaju staze\?
+\nKliknite ovdje da dodijelite pristup samo za čitanje prilagođenom folderu staza…</string>
     <string name="pref_category_units_per_profile_title">Mjerne jedinice (po profilu)</string>
     <string name="dialogOfflineMapsFolderCopyTitle">Kopiraj u folder mapa</string>
 </resources>
