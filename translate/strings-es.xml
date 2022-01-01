@@ -804,7 +804,7 @@
     <string name="meterModes_23">Temperatura</string>
     <string name="meterModes_24">Presión</string>
     <string name="meterModes_25">Odómetro</string>
-    <string name="pref_gps_update_freq_entries_2">Por omisión</string>
+    <string name="pref_gps_update_freq_entries_2">Adaptativo (por omisión)</string>
     <string name="pref_gps_update_freq_entries_3">1 seg</string>
     <string name="pref_gps_update_freq_entries_4">2 seg</string>
     <string name="pref_gps_update_freq_entries_5">3 seg</string>
@@ -1195,7 +1195,7 @@
     <string name="controlPanelScreenOrientation">Orientación de pantalla</string>
     <string name="pref_mapsWeatherAnimate_title">Animar</string>
     <string name="pref_mapsWeatherAnimate_summary">Animar la última hora de los datos de radar, para ayudarte a visualizar la tendencia de precipitaciones</string>
-    <string name="pref_mapsWeatherAnimate_info">La animación del radar utiliza 5x más datos de Internet que la de una imagen de radar estática.</string>
+    <string name="pref_mapsWeatherAnimate_info">La animación del radar podría usar hasta 5x más datos de Internet que la de una imagen de radar estática.</string>
     <string name="menuMeterStart">Iniciar</string>
     <string name="menuMeterStop">Parar</string>
     <string name="dialogScreenshotTitle">Captura de pantalla</string>
@@ -1389,7 +1389,7 @@
     <string name="prefScreensaverDimBrightnessEntries_4">Dejar tal cual</string>
     <string name="prefScreensaverTimeoutEntries_0">5 segundos</string>
     <string name="prefAutoTerrainTitle">AutoTerreno</string>
-    <string name="pref_screensaverEnable_summary">(Todos los perfiles) Atenuar la pantalla después de un cierto tiempo de espera y así ahorrar batería. Tocar la pantalla para desbloquear.</string>
+    <string name="pref_screensaverEnable_summary">Atenuar la pantalla después de un cierto tiempo de espera y así ahorrar batería. Tocar la pantalla para desbloquear.</string>
     <string name="unitNewtonPerLb">N/lb</string>
     <string name="prefAutoTerrainNote1Summary">El dispositivo debe mantenerse fijo al vehículo (por ejemplo, en el manillar de una bicicleta), y no en mano o un bolsillo mientras se usa.</string>
     <string name="pref_screensaverEnable_title">Protector de pantalla</string>
@@ -1423,4 +1423,19 @@
     <string name="dialogOfflineMapsChooseTitle">Problema con los mapas offline</string>
     <string name="dialogBluetoothPermissionRequestTitle">Permiso de Bluetooth</string>
     <string name="dialogOfflineMapsFolderCopyTitle">Copiar a la carpeta de mapas</string>
+    <string name="dialogRevokeAccessPromptMessage">¿Revocar acceso\?</string>
+    <string name="dialogCopyingMessage">Copia en progreso…</string>
+    <string name="dialogCustomTracksFolderInfoMessage">Esta función permite que la aplicación lea recorridos de una carpeta a su elección, además de aquella ya predeterminada por la aplicación — cuya ubicación ha cambiado recientemente.
+\n
+\nEstos recorridos son de solo lectura: se pueden ver y compartir, pero no es posible editar, reanudar ni eliminarlos.
+\n
+\nSi no está seguro, intente buscar la carpeta \"Documentos-UrbanBiker-tracks\" en la siguiente pantalla.</string>
+    <string name="dialogOfflineMapsFolderCopyMessage">Para poder utilizarse, el contenido seleccionado debe copiarse en la carpeta específica de la aplicación donde residen los mapas.
+\n
+\n¿Hacemos la copia ahora\?</string>
+    <string name="infoContentSize">Tamaño contenido: %1$d MB</string>
+    <string name="pref_category_units_common_title">Unidades de medida (todos los perfiles)</string>
+    <string name="tracksHistoryGrantAccess">¿Los recorridos personalizados no aparecen\?
+\nHaga clic aquí para otorgar acceso de solo lectura a la carpeta donde se almacenan…</string>
+    <string name="pref_category_units_per_profile_title">Unidades de medida (por perfil)</string>
 </resources>
