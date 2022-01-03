@@ -874,7 +874,7 @@
     <string name="meterModes_25">Odometro</string>
     <!-- pref_gps_update_freq_entries -->
     <string name="pref_gps_update_freq_entries_0">Il più veloce</string>
-    <string name="pref_gps_update_freq_entries_2">Predefinito</string>
+    <string name="pref_gps_update_freq_entries_2">Adattativo (predefinito)</string>
     <string name="pref_gps_update_freq_entries_3">1 sec</string>
     <string name="pref_gps_update_freq_entries_4">2 sec</string>
     <string name="pref_gps_update_freq_entries_5">3 sec</string>
@@ -1431,11 +1431,14 @@
 \nEseguire adesso\?</string>
     <string name="menuSelect">Seleziona</string>
     <string name="dialogOfflineMapsFolderCopyTitle">Copia nella cartella delle mappe</string>
-    <string name="dialogCustomTracksFolderInfoMessage">In aggiunta alla cartella dei percorsi predefinita, questa funzionalità permette all\'app di leggere i percorsi da una cartella a tua scelta.
+    <string name="dialogCustomTracksFolderInfoMessage">In aggiunta alla cartella dei percorsi predefinita, questa funzionalità permette all\'app di leggere i percorsi da una cartella a tua scelta (la cui posizione è stata cambiata di recente).
 \n
-\nQuesti percorsi sono di sola lettura: puoi visualizzarli e condividerli, ma non puoi modificarli, riprenderli o eliminarli.</string>
+\nQuesti percorsi sono di sola lettura: puoi visualizzarli e condividerli, ma non puoi modificarli, riprenderli o eliminarli.
+\n
+\nSe non sei sicuro/a, prova a cercare la cartella \"Documents-UrbanBiker-tracks\" nella schermata successiva.</string>
     <string name="infoContentSize">Dimensione del contenuto: %1$d MB</string>
     <string name="pref_category_units_common_title">Unità di misura (tutti i profili)</string>
-    <string name="tracksHistoryGrantAccess">Fai clic qui per consentire l\'accesso in sola lettura a una cartella dei percorsi personalizzati…</string>
+    <string name="tracksHistoryGrantAccess">Percorsi mancanti\?
+\nFai clic qui per consentire l\'accesso in sola lettura a una cartella dei percorsi personalizzati…</string>
     <string name="pref_category_units_per_profile_title">Unità di misura (per profilo)</string>
 </resources>
