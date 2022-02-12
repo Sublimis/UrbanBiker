@@ -843,7 +843,7 @@
     <string name="meterModes_25">Οδόμετρο</string>
     <!-- pref_gps_update_freq_entries -->
     <string name="pref_gps_update_freq_entries_0">Τάχιστο</string>
-    <string name="pref_gps_update_freq_entries_2">Προκαθορισμένο</string>
+    <string name="pref_gps_update_freq_entries_2">Προκαθορισμένο (προεπιλογή)</string>
     <string name="pref_gps_update_freq_entries_3">1 δευτ</string>
     <string name="pref_gps_update_freq_entries_4">2 δευτ</string>
     <string name="pref_gps_update_freq_entries_5">3 δευτ</string>
@@ -1436,16 +1436,19 @@
     <string name="dialogOfflineMapsChooseTitle">Πρόβλημα με χάρτες εκτός σύνδεσης</string>
     <string name="dialogBluetoothPermissionRequestTitle">Άδεια Bluetooth</string>
     <string name="menuChooseFile">Αρχείο</string>
-    <string name="dialogCustomTracksFolderInfoMessage">Αυτή η δυνατότητα επιτρέπει στην εφαρμογή να διαβάζει διαδρομές από έναν φάκελο της επιλογής σας, εκτός από τον προεπιλεγμένο φάκελο διαδρομών.
+    <string name="dialogCustomTracksFolderInfoMessage">Αυτή η δυνατότητα επιτρέπει στην εφαρμογή να διαβάζει διαδρομές από έναν φάκελο της επιλογής σας, επιπλέον του προεπιλεγμένου φακέλου κομματιών — του οποίου η τοποθεσία άλλαξε πρόσφατα.
 \n
-\nΤέτοιες διαδρομές είναι μόνο για ανάγνωση: Μπορούν να προβληθούν και να κοινοποιηθούν, αλλά δεν είναι δυνατή η επεξεργασία, η επαναφορά ή η διαγραφή τους.</string>
+\nΤέτοιες διαδρομές είναι μόνο για ανάγνωση: Μπορούν να προβληθούν και να κοινοποιηθούν, αλλά δεν είναι δυνατή η επεξεργασία, η συνέχιση ή η διαγραφή τους.
+\n
+\nΕάν δεν είστε σίγουροι, δοκιμάστε να βρείτε τον φάκελο \"Documents-UrbanBiker-tracks\" στην επόμενη οθόνη.</string>
     <string name="dialogOfflineMapsFolderCopyMessage">Το επιλεγμένο αρχείο πρέπει να αντιγραφεί στον φάκελο χαρτών της εφαρμογής για να χρησιμοποιηθεί.
 \n
 \nΣυνέχεια;</string>
     <string name="infoContentSize">Μέγεθος περιεχομένου: %1$d MB</string>
     <string name="menuSelect">Επιλογή</string>
     <string name="pref_category_units_common_title">Μονάδες μέτρησης (όλα τα προφίλ)</string>
-    <string name="tracksHistoryGrantAccess">Κάντε κλικ εδώ για να παραχωρήσετε πρόσβαση μόνο για ανάγνωση σε έναν φάκελο προσαρμοσμένων διαδρομών…</string>
+    <string name="tracksHistoryGrantAccess">Λείπουν διαδρομές;
+\nΚάντε κλικ εδώ για να παραχωρήσετε πρόσβαση μόνο για ανάγνωση σε έναν φάκελο προσαρμοσμένων διαδρομών…</string>
     <string name="pref_category_units_per_profile_title">Μονάδες μέτρησης (ανά προφίλ)</string>
     <string name="dialogOfflineMapsFolderCopyTitle">Αντιγραφή στο φάκελο χαρτών</string>
 </resources>
