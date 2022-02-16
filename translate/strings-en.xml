@@ -85,7 +85,7 @@
     <string name="menuTracksHistoryResume">Resume</string>
     <string name="menuMeterLock">Lock</string>
     <string name="menuMeterLockAll">Lock all</string>
-    <string name="menuMeterMode">Meter mode…</string>
+    <string name="menuMeterMode">Meter mode</string>
     <string name="menuMeterChooseModes">Choose modes…</string>
     <string name="menuMeterClockShowSeconds">Show seconds</string>
     <string name="menuMeterResetMinMax">Reset min/max</string>
@@ -94,6 +94,17 @@
     <string name="menuMeterReset">Finish</string>
     <string name="menuMeterParameters">Parameters…</string>
     <string name="menuMeterPowerMode">Toggle power mode</string>
+    <string name="menuMeterShowValue">Value</string>
+    <string name="menuMeterShowChart">Chart</string>
+    <string name="menuSpeedoAppearance">Appearance</string>
+    <string name="menuSpeedoDisplayMode">Display mode</string>
+    <string name="menuSpeedoNeedle">Show needle</string>
+    <string name="menuSpeedoIndicatorMax">Indicator max</string>
+    <string name="menuSpeedoStallIndicator">Stall indicator</string>
+    <string name="menuSpeedoPaceIndicator">Pace indicator</string>
+    <string name="menuSpeedoBellButton">Bell button</string>
+    <string name="menuAutomaticBell">Automatic bell</string>
+    <string name="menuBell">Bell</string>
     <string name="menuFenceguard">FenceGuard</string>
     <string name="menuExit">Exit</string>
     <string name="menuMore">More…</string>
@@ -127,6 +138,7 @@
     <string name="menuSelect">Select</string>
     <string name="menuSelectOther">Select other</string>
     <string name="menuRevokeAccess">Revoke access</string>
+    <string name="menuAdvanced">Advanced</string>
 
     <string name="share_title">Send via</string>
     <string name="share_subject" translatable="false">@string/app_name</string>
@@ -376,6 +388,7 @@
     <string name="dialogCopyingMessage">Copying…</string>
     <string name="dialogRevokeAccessPromptMessage">Revoke access?</string>
     <string name="dialogCustomTracksFolderInfoMessage">This feature allows the app to read tracks from a folder of your choice, in addition to the default tracks folder — whose location has recently changed.\n\nSuch tracks are read-only: They can be viewed and shared, but cannot be edited, resumed nor deleted.\n\nIf you are unsure, try finding the \"Documents-UrbanBiker-tracks\" folder on the next screen.</string>
+    <string name="dialogMeterModesTitle">Choose available modes</string>
 
     <!-- dialog_fenceguard_add_entries -->
     <string name="dialog_fenceguard_add_entries_0">Add fence</string>
@@ -529,7 +542,6 @@
     <string name="meterModeStepCountShort">steps</string>
     <string name="meterModeRadius">radius</string>
     <string name="meterModeRadiusShort">rad</string>
-    <string name="bellRingAuto">auto</string>
     <string name="roarModeConstant">const</string>
     <string name="meterTextMin">min</string>
     <string name="meterTextMax">max</string>
@@ -630,6 +642,8 @@
     <string name="summaryDeviceRestartsCountInfo">Number of times the app was force-closed or the device stopped working during this activity.</string>
     <string name="summaryDeviceAutoPauseCount">Auto-pause count</string>
     <string name="summaryDeviceAutoPauseCountInfo">Number of times auto-pause was activated during this activity.</string>
+    <string name="summaryInaccurateLocationZoneCount">Inaccuracy zones</string>
+    <string name="summaryInaccurateLocationZoneCountInfo">Number of times the app started rejecting location updates due to their inaccuracy.\n\nNote, areas where there are no location updates at all (e.g. indoors) do not affect this number.</string>
     <string name="summaryEnergyParams" translatable="false">@string/controlPanelEnergyParams</string>
     <string name="summaryStartedDatetime">Started</string>
     <string name="summaryEndedDatetime">Ended</string>
@@ -745,7 +759,6 @@
     <string name="pref_category_language_title">Language</string>
     <string name="pref_category_appearance_title">Appearance</string>
     <string name="pref_category_background_title" translatable="false">@string/pref_background_pattern_dialog_title</string>
-    <string name="pref_category_speedo_title">Speedometer</string>
     <string name="pref_group_activityRecognition_title">Activity recognition</string>
     <string name="pref_group_powermeter_title">Power and Energy</string>
     <string name="pref_category_power_mode_title">Power display mode</string>
@@ -784,7 +797,7 @@
     <string name="pref_category_buttons_title">Buttons</string>
     <string name="pref_category_meters_title">Meters</string>
     <string name="pref_group_meters_title">Meters</string>
-    <string name="pref_group_meter_modes_title">Meter modes</string>
+    <string name="pref_meterTitle">Meter</string>
     <string name="pref_category_meter1_title">Meter 1</string>
     <string name="pref_category_meter2_title">Meter 2</string>
     <string name="pref_category_meter3_title">Meter 3</string>
@@ -807,8 +820,6 @@
     <string name="pref_group_flashlight_title">Flashlight</string>
     <string name="pref_category_flashlightBlinkMode_title">Flickering</string>
     <string name="pref_category_flashlightAutoPocketMode_title">Pocket mode</string>
-    <string name="pref_category_gpsInaccuracyIndicator_title">Confidence indicator</string>
-    <string name="pref_category_paceIndicator_title">Pace indicator</string>
     <string name="pref_category_locationProvider_title">GPS provider</string>
     <string name="pref_category_altitude_adjustments_title">Altitudes</string>
     <string name="pref_category_temperature_title">Temperature</string>
@@ -897,8 +908,6 @@
     <string name="pref_screensaverDimBrightnessDialogTitle">Screensaver dim brightness</string>
     <string name="pref_ring_on_stop_title">Ring on stop</string>
     <string name="pref_ring_on_stop_summary">Ring the automatic bell when the speed drops to zero, too</string>
-    <string name="pref_disable_bell_button_title">Disable bell button</string>
-    <string name="pref_disable_bell_button_summary">Disable bell ring on speedometer click</string>
     <string name="pref_obey_audio_focus_disable_title">Disable audio focus</string>
     <string name="pref_obey_audio_focus_disable_summary">Continue producing sounds even if audio focus is lost (by system notification or another app)</string>
     <string name="pref_audio_force_loudspeaker_title">Force loudspeaker</string>
@@ -942,8 +951,6 @@
     <string name="pref_locationProviderMode_title" translatable="false">%1$s</string>
     <string name="pref_locationProviderMode_summary" translatable="false">@null</string>
     <string name="pref_locationProviderMode_dialog_title" translatable="false">@string/pref_category_locationProvider_title</string>
-    <string name="pref_speedometer_limit_title">Indicator max</string>
-    <string name="pref_speedometer_limit_dialog_title">Speed indicator max</string>
     <string name="pref_speed_calculate_mode_title">Recalculate speed</string>
     <string name="pref_speed_calculate_mode_summary">(All profiles) Recalculate speed from distances, do not use GPS value directly. This may provide more stable speed readings over GPS (Doppler) values.</string>
     <string name="pref_background_pattern_title" translatable="false">@null</string>
@@ -1041,8 +1048,6 @@
     <string name="pref_mapsWeatherAnimate_info">Radar animation can use up to 5x more Internet data than a static radar image.</string>
     <string name="pref_mapsWeatherCoverage_title">Coverage mask</string>
     <string name="pref_mapsWeatherCoverage_summary">Shade areas where there is no precipitation radar coverage</string>
-    <string name="pref_button_autoring_enable_title">Auto Ring toggle</string>
-    <string name="pref_button_autoring_enable_summary">Enable the Auto Ring mode toggle on speedometer long-click</string>
     <string name="pref_button_profile_show_title">Profile</string>
     <string name="pref_button_profile_show_summary">Show the Profile button</string>
     <string name="pref_button_map_show_title">Map</string>
@@ -1060,11 +1065,8 @@
     <string name="pref_meter_lock_title">Lock mode</string>
     <string name="pref_meter_lock_summary">Prevents change of mode on click</string>
     <string name="pref_meter_modes_select_title">Choose available modes…</string>
-    <string name="pref_speedo_display_mode_title">Appearance</string>
-    <string name="pref_speedo_display_mode_summary" translatable="false">@null</string>
     <string name="pref_speedo_display_mode_dialog_title">Speedo appearance</string>
-    <string name="pref_speedo_indicator_needle_title">Needle</string>
-    <string name="pref_speedo_indicator_needle_summary">Show the needle in graphic indicator</string>
+    <string name="pref_speedometer_limit_dialog_title">Speed indicator max</string>
     <string name="pref_powermeter_display_mode_title" translatable="false">@null</string>
     <string name="pref_powermeter_display_mode_summary" translatable="false">@null</string>
     <string name="pref_powermeter_display_mode_dialog_title">Power display mode</string>
@@ -1085,10 +1087,6 @@
     <string name="pref_flashlightBlinkMode_dialogTitle">Flashlight flickering</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Button toggle</string>
     <string name="pref_flashlightBlinkModeToggleEnable_summary">Toggle flickering mode with a button click while the flashlight is turned on</string>
-    <string name="pref_gpsInaccuracyIndicator_title">Confidence indicator</string>
-    <string name="pref_gpsInaccuracyIndicator_summary">Indicates aging of the speed value, as it becomes more uncertain with time</string>
-    <string name="pref_paceIndicator_title">Pace indicator</string>
-    <string name="pref_paceIndicator_summary">Shows when you are going faster or slower than the average speed</string>
     <string name="pref_haptic_feedback_title">Vibrate on touch</string>
     <string name="pref_haptic_feedback_summary" translatable="false">@null</string>
     <string name="pref_haptic_feedback_intensity_title">Vibration intensity</string>
@@ -1143,6 +1141,7 @@
     <string name="prefAutoTerrainSummary">Sense terrain roughness by measuring vibrations, and adjust the rolling resistance coefficient (Cᵣᵣ) accordingly when computing power.</string>
     <string name="prefAutoTerrainNote1Summary">Device should be held fixed to a vehicle (e.g. on a bike handlebars), and not in a hand or in a pocket while using this.</string>
     <string name="prefAutoTerrainNote2Summary">Powers obtained using a power sensor are not affected by this feature.</string>
+    <string name="prefMeterSettingsNoteSummary">More settings are available via a menu accessed by long-clicking on a meter field.</string>
 
     <string name="infoMeterModeDistanceTitle">Distance</string>
     <string name="infoMeterModeDistanceMsg">Distance traveled.</string>
@@ -1206,6 +1205,8 @@
     <string name="infoMeterModeRadiusMsg">Beeline distance from the initial position of the track, i.e. displacement.</string>
     <string name="infoMeterModeVibrationsTitle">Vibrations</string>
     <string name="infoMeterModeVibrationsMsg">Vibrations as measured with the device. Useful when the device is held fixed to a vehicle (e.g. on a bike handlebars), and not in a hand or in a pocket.</string>
+    <string name="infoSpeedometerTitle">Speedometer</string>
+    <string name="infoSpeedometerMsg">Shows your current, maximum and average speed.\n\nStall indicator indicates when the speed value wasn\'t updated in a while and can\'t be trusted.\n\nPace indicator are small arrows near the speed value that show when the current speed is above or below the average speed.</string>
 
     <string name="infoAutopauseForcedRelaxed">Note: Auto Pause forced to Relaxed</string>
     <string name="infoAutopauseForcedOff">Note: Auto Pause forced to Off</string>
