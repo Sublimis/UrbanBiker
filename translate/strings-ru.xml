@@ -28,7 +28,7 @@
     <string name="menuTracksHistoryResume">Возобновить</string>
     <string name="menuMeterLock">Блокировка</string>
     <string name="menuMeterLockAll">Блокировать всё</string>
-    <string name="menuMeterMode">Режим счётчика…</string>
+    <string name="menuMeterMode">Режим счётчика</string>
     <string name="menuMeterChooseModes">Выбрать режимы…</string>
     <string name="menuMeterResetMinMax">Сбросить максимумы</string>
     <string name="menuMeterReset">Закончить</string>
@@ -534,7 +534,6 @@
     <string name="pref_group_flashlight_title">Фонарик</string>
     <string name="pref_category_flashlightBlinkMode_title">Мигание</string>
     <string name="pref_category_flashlightAutoPocketMode_title">Карманный режим</string>
-    <string name="pref_category_paceIndicator_title">Индикатор темпа</string>
     <string name="pref_category_locationProvider_title">Поставщик GPS</string>
     <string name="pref_category_altitude_adjustments_title">Высота</string>
     <string name="pref_category_temperature_title">Температура</string>
@@ -595,7 +594,6 @@
     <string name="pref_screenAutoPocketMode_summary">(Все профили) Использовать датчик приближения, чтобы отключать экран, когда он не нужен</string>
     <string name="pref_ring_on_stop_title">Звонок при остановке</string>
     <string name="pref_ring_on_stop_summary">Автоматический звонок при резкой остановке</string>
-    <string name="pref_disable_bell_button_summary">Отключать звонок при нажатии на спидометр</string>
     <string name="pref_obey_audio_focus_disable_title">Игнорировать фокус звука</string>
     <string name="pref_obey_audio_focus_disable_summary">Продолжать подавать сигнал, даже если фокус звука забран (системным уведомлением или другим приложением)</string>
     <string name="pref_audio_force_loudspeaker_title">Принудительный внешний динамик</string>
@@ -684,7 +682,6 @@
     <string name="pref_maps_offline_terrain_info_summary">Открыть страницу загрузки сайта viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Действие кнопки «Слои»</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Все профили) Выберите, что будет происходить при нажатии кнопки «Слои»</string>
-    <string name="pref_button_autoring_enable_summary">Включать автозвонок при длительном нажатии на спидометр</string>
     <string name="pref_button_profile_show_title">Профиль</string>
     <string name="pref_button_profile_show_summary">Показывать кнопку «Профили»</string>
     <string name="pref_button_map_show_title">Карта</string>
@@ -703,7 +700,6 @@
     <string name="pref_meter_lock_summary">Не даёт сменять режим нажатием</string>
     <string name="pref_meter_modes_select_title">Выбор доступных режимов…</string>
     <string name="pref_speedo_display_mode_dialog_title">Внешний вид спидометра</string>
-    <string name="pref_speedo_indicator_needle_summary">Показывать стрелку на графическом индикаторе</string>
     <string name="pref_powermeter_display_mode_dialog_title">Режим отображения мощности</string>
     <string name="pref_powermeter_parameters_info_summary">Чтобы показатели мощности и энергии были точными, убедитесь, что эти параметры заданы правильно!</string>
     <string name="pref_power_weights_title">Вес</string>
@@ -720,7 +716,6 @@
     <string name="pref_flashlightBlinkMode_dialogTitle">Мигание фонарика</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Переключение кнопкой</string>
     <string name="pref_flashlightBlinkModeToggleEnable_summary">Переключать режим мигания нажатием кнопки при включённом фонарике</string>
-    <string name="pref_gpsInaccuracyIndicator_summary">Показывать устаревание параметра скорости, когда оно со временем становится менее точным</string>
     <string name="pref_paceIndicator_summary">Показывать, когда вы передвигаетесь быстрее или медленнее вашей средней скорости</string>
     <string name="pref_haptic_feedback_title">Вибрация при нажатии</string>
     <string name="pref_haptic_feedback_intensity_title">Длительность вибрации</string>
@@ -1436,4 +1431,29 @@
 \n
 \nЕсли не уверены, попробуйте найти папку «Documents»→«UrbanBiker»→«tracks»на следующем экране.</string>
     <string name="unitGAccel">g</string>
+    <string name="infoSpeedometerTitle">Спидометр</string>
+    <string name="menuAutomaticBell">Автоматический звонок</string>
+    <string name="menuSpeedoPaceIndicator">Индикатор темпа</string>
+    <string name="infoSpeedometerMsg">Показывает текущую, максимальную и среднюю скорость.
+\n
+\nИндикатор остановки указывает на то, что значение скорости не обновлялось в течение некоторого времени и ему нельзя доверять.
+\n
+\nИндикатор темпа — это маленькие стрелки рядом со значением скорости, которые показывают, когда текущая скорость выше или ниже средней скорости.</string>
+    <string name="menuMeterShowValue">Значение</string>
+    <string name="menuSpeedoNeedle">Показывать стрелку</string>
+    <string name="menuMeterShowChart">Диаграмма</string>
+    <string name="menuSpeedoStallIndicator">Индикатор остановки</string>
+    <string name="dialogMeterModesTitle">Выбор доступных режимов</string>
+    <string name="prefMeterSettingsNoteSummary">Дополнительные настройки доступны через меню, доступ к которому осуществляется длительным нажатием на поле счётчика.</string>
+    <string name="menuSpeedoIndicatorMax">Индикатор максимума</string>
+    <string name="menuSpeedoBellButton">Кнопка звонка</string>
+    <string name="summaryInaccurateLocationZoneCountInfo">Количество случаев, когда приложение начинало отклонять обновления местоположения из-за их неточности.
+\n
+\nОбратите внимание, что области, где обновления местоположения вообще отсутствуют (например, в помещении) не влияют на это число.</string>
+    <string name="menuBell">Звонок</string>
+    <string name="menuSpeedoAppearance">Внешний вид</string>
+    <string name="menuAdvanced">Дополнительно</string>
+    <string name="summaryInaccurateLocationZoneCount">Зоны неточности</string>
+    <string name="pref_meterTitle">Счётчик</string>
+    <string name="menuSpeedoDisplayMode">Режим отображения</string>
 </resources>
