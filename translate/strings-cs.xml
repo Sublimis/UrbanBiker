@@ -370,7 +370,6 @@
     <string name="meterModeHeartRateShort">hod</string>
     <string name="meterModeGearRatio">poměr převodů</string>
     <string name="meterModeGearRatioShort">přev</string>
-    <string name="bellRingAuto">auto</string>
     <string name="roarModeConstant">konst</string>
     <string name="meterTextMin">min</string>
     <string name="meterTextMax">max</string>
@@ -474,7 +473,6 @@
     <string name="pref_category_general_title">Obecné</string>
     <string name="pref_category_language_title">Jazyk</string>
     <string name="pref_category_appearance_title">Vzhled</string>
-    <string name="pref_category_speedo_title">Rychloměr</string>
     <string name="pref_group_powermeter_title">Výkon a Energie</string>
     <string name="pref_category_power_mode_title">Mód zobrazení výkonu</string>
     <string name="pref_category_params_title">Parametry</string>
@@ -503,7 +501,6 @@
     <string name="pref_category_buttons_title">Tlačítka</string>
     <string name="pref_category_meters_title">Měřiče</string>
     <string name="pref_group_meters_title">Měřiče</string>
-    <string name="pref_group_meter_modes_title">Módy měření</string>
     <string name="pref_category_meter1_title">Měřič 1</string>
     <string name="pref_category_meter2_title">Měřič 2</string>
     <string name="pref_category_meter3_title">Měřič 3</string>
@@ -525,7 +522,6 @@
     <string name="pref_group_flashlight_title">Svítilna</string>
     <string name="pref_category_flashlightBlinkMode_title">Blikání</string>
     <string name="pref_category_flashlightAutoPocketMode_title">Kapesní mód</string>
-    <string name="pref_category_gpsInaccuracyIndicator_title">Indikátor důvěry</string>
     <string name="pref_category_paceIndicator_title">Rychlost ukazatele</string>
     <string name="pref_category_locationProvider_title">GPS poskytovatel</string>
     <string name="pref_category_altitude_adjustments_title">Nadmořské výšky</string>
@@ -587,7 +583,6 @@
     <string name="pref_screenAutoPocketMode_summary">(Všechny profily) Použij senzor přiblížení k vypnutí displeje, pokud se nepoužívá</string>
     <string name="pref_ring_on_stop_title">Zvonit při zastavení</string>
     <string name="pref_ring_on_stop_summary">Automaticky zvonit také, když se rychlost blíží nule</string>
-    <string name="pref_disable_bell_button_title">Zakázat tlačítko zvonku</string>
     <string name="pref_disable_bell_button_summary">Zakázat zvonění zvonku kliknutím na měřič rychlosti</string>
     <string name="pref_obey_audio_focus_disable_title">Zakázat ztrátu zvuku</string>
     <string name="pref_obey_audio_focus_disable_summary">Pokračuje se zvuky i když ztratí zvukový přístup (od systémové nebo jiné aplikace)</string>
@@ -617,7 +612,6 @@
     <string name="pref_fenceguard_title">Hlídač zón</string>
     <string name="pref_fenceguard_summary">Chránit polohu svého domu nebo jiných důležitých míst, aby se nezobrazovaly v nahraných trasách</string>
     <string name="pref_autopause_mode_dialog_title">Automatická pauza</string>
-    <string name="pref_speedometer_limit_title">Ukazatel max</string>
     <string name="pref_speedometer_limit_dialog_title">Ukazatel rychlosti max</string>
     <string name="pref_speed_calculate_mode_title">Přepočítat rychlost</string>
     <string name="pref_speed_calculate_mode_summary">(Všechny profily) Přepočítat rychlost ze vzdáleností, nepoužívat přímé hodnoty z GPS. Toto může poskytnout stabilnější čtení rychlosti přes GPS hodnoty (Doppler).</string>
@@ -675,7 +669,6 @@
     <string name="pref_maps_offline_terrain_info_summary">Otevřete stránku ke stažení na viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Akce tlačítka vrstvy</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Všechny profily) Vyberte činnost při stisku tlačítka vrstvy</string>
-    <string name="pref_button_autoring_enable_title">Přepínač automatického zvonění</string>
     <string name="pref_button_autoring_enable_summary">Povolit automatické zvonění podržením na rychloměru</string>
     <string name="pref_button_profile_show_title">Profil</string>
     <string name="pref_button_profile_show_summary">Zobrazit tlačítko Profily</string>
@@ -694,9 +687,7 @@
     <string name="pref_meter_lock_title">Mód zámku</string>
     <string name="pref_meter_lock_summary">Zabránit změně módu při kliknutí</string>
     <string name="pref_meter_modes_select_title">Vyberte dostupné módy…</string>
-    <string name="pref_speedo_display_mode_title">Vzhled</string>
     <string name="pref_speedo_display_mode_dialog_title">Vzhled rychloměru</string>
-    <string name="pref_speedo_indicator_needle_title">Ručička</string>
     <string name="pref_speedo_indicator_needle_summary">Zobrazovat ručičku v rychloměru</string>
     <string name="pref_powermeter_display_mode_dialog_title">Režim zobrazení výkonu</string>
     <string name="pref_powermeter_parameters_info_summary">Vyplňte parametry co nejpřesněji, aby byl výkon a energie správně!</string>
@@ -714,9 +705,7 @@
     <string name="pref_flashlightBlinkMode_dialogTitle">Blikající svítilna</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Přepínání tlačítkem</string>
     <string name="pref_flashlightBlinkModeToggleEnable_summary">Kliknutím na tlačítko můžete přepnout režim blikání, pokud je svítilna aktivní</string>
-    <string name="pref_gpsInaccuracyIndicator_title">Indikátor důvěry</string>
     <string name="pref_gpsInaccuracyIndicator_summary">Zobrazuje stárnutí hodnoty rychlosti s přibývající nepřesností</string>
-    <string name="pref_paceIndicator_title">Indikátor tempa</string>
     <string name="pref_paceIndicator_summary">Ukazuje, když jedete rychleji nebo pomaleji než průměrná rychlost</string>
     <string name="pref_haptic_feedback_title">Vibrovat při doteku</string>
     <string name="pref_haptic_feedback_intensity_title">Intenzita vibrování</string>

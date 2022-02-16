@@ -379,7 +379,6 @@
     <string name="meterModeHeartRateShort">hr</string>
     <string name="meterModeGearRatio">omjer prijenosa</string>
     <string name="meterModeGearRatioShort">o prij</string>
-    <string name="bellRingAuto">auto</string>
     <string name="roarModeConstant">konst</string>
     <string name="meterTextMin">min</string>
     <string name="meterTextMax">maks</string>
@@ -490,7 +489,6 @@
     <string name="pref_category_general_title">Općenito</string>
     <string name="pref_category_language_title">Jezik</string>
     <string name="pref_category_appearance_title">Izgled</string>
-    <string name="pref_category_speedo_title">Brzinomjer</string>
     <string name="pref_group_powermeter_title">Snaga i Energija</string>
     <string name="pref_category_power_mode_title">Način prikaza snage</string>
     <string name="pref_category_params_title">Parametri</string>
@@ -520,7 +518,6 @@
     <string name="pref_category_buttons_title">Tipke</string>
     <string name="pref_category_meters_title">Mjerači</string>
     <string name="pref_group_meters_title">Mjerači</string>
-    <string name="pref_group_meter_modes_title">Modovi mjerača</string>
     <string name="pref_category_meter1_title">Mjerač 1</string>
     <string name="pref_category_meter2_title">Mjerač 2</string>
     <string name="pref_category_meter3_title">Mjerač 3</string>
@@ -542,7 +539,6 @@
     <string name="pref_group_flashlight_title">Svjetiljka</string>
     <string name="pref_category_flashlightBlinkMode_title">Bljeskanje</string>
     <string name="pref_category_flashlightAutoPocketMode_title">Džepni način</string>
-    <string name="pref_category_gpsInaccuracyIndicator_title">Indikator pouzdanosti</string>
     <string name="pref_category_paceIndicator_title">Indikator tempa</string>
     <string name="pref_category_locationProvider_title">GPS provider</string>
     <string name="pref_category_altitude_adjustments_title">Visina</string>
@@ -604,7 +600,6 @@
     <string name="pref_screenAutoPocketMode_summary">(Svi profili) Koristi senzor blizine kako bi držao ekran ugašenim kad nije potreban</string>
     <string name="pref_ring_on_stop_title">Pozvoni pri zaustavljanju</string>
     <string name="pref_ring_on_stop_summary">Pozvoni automatskim zvoncem i kada brzina padne na nulu</string>
-    <string name="pref_disable_bell_button_title">Onemogući tipku zvonca</string>
     <string name="pref_disable_bell_button_summary">Onemogući zvonjavu zvonca pritiskom na brzinomjer</string>
     <string name="pref_obey_audio_focus_disable_title">Onemogući audio fokus</string>
     <string name="pref_obey_audio_focus_disable_summary">Nastavi proizvoditi zvukove i kada se izgubi audio fokus (od strane sistemske obavijesti ili druge aplikacije)</string>
@@ -635,7 +630,6 @@
     <string name="pref_fenceguard_title">ČuvarOgrade</string>
     <string name="pref_fenceguard_summary">Zaštitite lokaciju vašeg doma ili drugih važnih mjesta od objavljivanja u snimljenim stazama</string>
     <string name="pref_autopause_mode_dialog_title">Auto pauziranje</string>
-    <string name="pref_speedometer_limit_title">Max indikatora</string>
     <string name="pref_speedometer_limit_dialog_title">Max indikatora brzine</string>
     <string name="pref_speed_calculate_mode_title">Preračunaj brzinu</string>
     <string name="pref_speed_calculate_mode_summary">(Svi profili) Preračunaj brzinu pomoću udaljenosti, ne koristi GPS vrijednost izravno. To može pružiti stabilnija očitanja brzine nego preko GPS (Doppler) vrijednosti.</string>
@@ -695,7 +689,6 @@
     <string name="pref_maps_offline_terrain_info_summary">Otvoriti web stranicu za preuzimanje na viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Akcija gumba sloja</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Svi profili) Odaberite što učiniti kad pritisnete gumb sloja</string>
-    <string name="pref_button_autoring_enable_title">Automatsko zvonce</string>
     <string name="pref_button_autoring_enable_summary">Omogući prebacivanje automatskog zvonca dugim klikom na brzinomjer</string>
     <string name="pref_button_profile_show_title">Profil</string>
     <string name="pref_button_profile_show_summary">Prikaži tipku profila</string>
@@ -714,9 +707,7 @@
     <string name="pref_meter_lock_title">Zakoči način</string>
     <string name="pref_meter_lock_summary">Sprečava promjenu načina klikom</string>
     <string name="pref_meter_modes_select_title">Odaberi dostupne načine…</string>
-    <string name="pref_speedo_display_mode_title">Izgled</string>
     <string name="pref_speedo_display_mode_dialog_title">Izgled brzinomjera</string>
-    <string name="pref_speedo_indicator_needle_title">Kazaljka</string>
     <string name="pref_speedo_indicator_needle_summary">Prikaži kazaljku grafičkog indikatora</string>
     <string name="pref_powermeter_display_mode_dialog_title">Način prikaza snage</string>
     <string name="pref_powermeter_parameters_info_summary">Za točna mjerenja snage i energije, molimo osigurajte ispravnost ovih parametara!</string>
@@ -734,9 +725,7 @@
     <string name="pref_flashlightBlinkMode_dialogTitle">Bljeskanje svjetiljke</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Odabir gumbom</string>
     <string name="pref_flashlightBlinkModeToggleEnable_summary">Odaberi bljeskanje pritiskom na gumb dok je svjetiljka upaljena</string>
-    <string name="pref_gpsInaccuracyIndicator_title">Indikator pouzdanosti</string>
     <string name="pref_gpsInaccuracyIndicator_summary">Naznačuje starost podatka o brzini, koji postaje nepouzdaniji s protekom vremena</string>
-    <string name="pref_paceIndicator_title">Indikator tempa</string>
     <string name="pref_paceIndicator_summary">Prikazuje kada idete brže ili sporije od prosječne brzine</string>
     <string name="pref_haptic_feedback_title">Vibriraj na dodir</string>
     <string name="pref_haptic_feedback_intensity_title">Intenzitet vibracije</string>

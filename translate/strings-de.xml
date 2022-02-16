@@ -347,7 +347,6 @@
     <string name="meterModeHeartRate">Puls</string>
     <string name="meterModeHeartRateShort">HF</string>
     <string name="meterModeGearRatio">Übersetzung</string>
-    <string name="bellRingAuto">Automatisch</string>
     <string name="roarModeConstant">Konstant</string>
     <string name="meterTextMin">min.</string>
     <string name="meterTextMax">max.</string>
@@ -433,7 +432,6 @@
     <string name="pref_category_general_title">Allgemein</string>
     <string name="pref_category_language_title">Sprache</string>
     <string name="pref_category_appearance_title">Aussehen</string>
-    <string name="pref_category_speedo_title">Tachometer</string>
     <string name="pref_group_powermeter_title">Leistung und Energie</string>
     <string name="pref_category_power_mode_title">Modus der Leistungsanzeige</string>
     <string name="pref_category_params_title">Parameter</string>
@@ -461,7 +459,6 @@
     <string name="pref_category_buttons_title">Schaltflächen</string>
     <string name="pref_category_meters_title">Anzeigen</string>
     <string name="pref_group_meters_title">Anzeigen</string>
-    <string name="pref_group_meter_modes_title">Anzeigemodi</string>
     <string name="pref_category_meter1_title">Anzeige 1</string>
     <string name="pref_category_meter2_title">Anzeige 2</string>
     <string name="pref_category_meter3_title">Anzeige 3</string>
@@ -481,7 +478,6 @@
     <string name="pref_group_flashlight_title">Taschenlampe</string>
     <string name="pref_category_flashlightBlinkMode_title">Blinken</string>
     <string name="pref_category_flashlightAutoPocketMode_title">Taschenmodus</string>
-    <string name="pref_category_gpsInaccuracyIndicator_title">Genauigkeitsanzeige</string>
     <string name="pref_category_paceIndicator_title">Pace-Anzeige</string>
     <string name="pref_category_locationProvider_title">GPS-Provider</string>
     <string name="pref_category_altitude_adjustments_title">Höhen</string>
@@ -542,7 +538,6 @@
     <string name="pref_screenAutoPocketMode_summary">(Alle Profile) Näherungssensor nutzen, um den Bildschirm auszuschalten, wenn er nicht benötigt wird</string>
     <string name="pref_ring_on_stop_title">Klingelton bei Stopp</string>
     <string name="pref_ring_on_stop_summary">Automatischer Klingelton beim Anhalten</string>
-    <string name="pref_disable_bell_button_title">Klingelknopf deaktivieren</string>
     <string name="pref_disable_bell_button_summary">Klingelton nicht nach Klick auf den Tachometer abspielen</string>
     <string name="pref_obey_audio_focus_disable_title">Audio-Fokus deaktivieren</string>
     <string name="pref_obey_audio_focus_disable_summary">Töne immer abspielen, auch wenn der Audio-Fokus verloren wird (durch Systembenachrichtigung oder eine andere App)</string>
@@ -571,7 +566,6 @@
     <string name="pref_fenceguard_title">Sichtschutz</string>
     <string name="pref_fenceguard_summary">Verberge den Standort deines Zuhauses oder anderer wichtiger Orte vor der Streckenaufzeichnung</string>
     <string name="pref_autopause_mode_dialog_title">Automatisches Pausieren</string>
-    <string name="pref_speedometer_limit_title">Maximum der Anzeige</string>
     <string name="pref_speedometer_limit_dialog_title">Maximale Geschwindigkeit</string>
     <string name="pref_speed_calculate_mode_title">Geschwindigkeit selbst berechnen</string>
     <string name="pref_speed_calculate_mode_summary">(Alle Profile) Geschwindigkeit aus den Entfernungswerten berechnen, anstatt den GPS-Wert zu verwenden. Dies könnte stabilere Geschwindigkeitswerte als die GPS-(Doppler-)Werte bieten.</string>
@@ -626,7 +620,6 @@
     <string name="pref_maps_quickZoom_summary">(Alle Profile) Unsichtbare Schnell-Zoom-Schaltflächen im unteren Bereich der Karte aktivieren - verbessert die Orientierung</string>
     <string name="pref_maps_quickZoomInvert_title">Invertiert</string>
     <string name="pref_maps_quickZoomInvert_summary">Schaltflächen für Herein- und Herauszoomen vertauschen</string>
-    <string name="pref_button_autoring_enable_title">Auto-Klingel-Umschalter</string>
     <string name="pref_button_autoring_enable_summary">Aktiviert das Umschalten des Auto-Klingel-Modus durch einen langen Druck auf den Tachometer</string>
     <string name="pref_button_profile_show_title">Profil</string>
     <string name="pref_button_profile_show_summary">Profilschaltfläche anzeigen</string>
@@ -645,9 +638,7 @@
     <string name="pref_meter_lock_title">Sperrmodus</string>
     <string name="pref_meter_lock_summary">Modusänderungen bei einfachem Klick verhindern</string>
     <string name="pref_meter_modes_select_title">Verfügbare Modi auswählen…</string>
-    <string name="pref_speedo_display_mode_title">Darstellung</string>
     <string name="pref_speedo_display_mode_dialog_title">Tacho-Darstellung</string>
-    <string name="pref_speedo_indicator_needle_title">Zeiger</string>
     <string name="pref_speedo_indicator_needle_summary">Zusätzlichen Zeiger in der Analoganzeige anzeigen</string>
     <string name="pref_powermeter_display_mode_dialog_title">Leistungsanzeige-Modus</string>
     <string name="pref_powermeter_parameters_info_summary">Die angezeigten Leistungs- und Energiewerte können nur dann genau sein, wenn diese Parameter korrekt sind!</string>
@@ -668,9 +659,7 @@
     <string name="pref_flashlightBlinkMode_dialogTitle">Blinkmodus</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Umschalter</string>
     <string name="pref_flashlightBlinkModeToggleEnable_summary">Blinklicht mit Knopfdruck umschalten, wenn die Taschenlampe eingeschaltet ist</string>
-    <string name="pref_gpsInaccuracyIndicator_title">Vertrauensanzeiger</string>
     <string name="pref_gpsInaccuracyIndicator_summary">Das Alter des Geschwindigkeits-Wertes anzeigen, wenn dieser mit der Zeit ungenau wird</string>
-    <string name="pref_paceIndicator_title">Pace-Anzeige</string>
     <string name="pref_paceIndicator_summary">Zeigt an, wenn du schneller oder langsamer als die durchschnittliche Geschwindigkeit bist</string>
     <string name="pref_haptic_feedback_title">Beim Berühren vibrieren</string>
     <string name="pref_haptic_feedback_intensity_title">Vibrationsdauer</string>

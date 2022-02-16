@@ -380,7 +380,6 @@
     <string name="meterModeHeartRateShort">серд</string>
     <string name="meterModeGearRatio">передаточное число</string>
     <string name="meterModeGearRatioShort">пер число</string>
-    <string name="bellRingAuto">авто</string>
     <string name="roarModeConstant">постоянно</string>
     <string name="meterTextMin">мин</string>
     <string name="meterTextMax">макс</string>
@@ -485,7 +484,6 @@
     <string name="pref_category_general_title">Общие</string>
     <string name="pref_category_language_title">Язык</string>
     <string name="pref_category_appearance_title">Вид</string>
-    <string name="pref_category_speedo_title">Спидометр</string>
     <string name="pref_group_powermeter_title">Мощность и энергия</string>
     <string name="pref_category_power_mode_title">Режим отображения мощности</string>
     <string name="pref_category_params_title">Параметры</string>
@@ -515,7 +513,6 @@
     <string name="pref_category_buttons_title">Кнопки</string>
     <string name="pref_category_meters_title">Счётчики</string>
     <string name="pref_group_meters_title">Счётчики</string>
-    <string name="pref_group_meter_modes_title">Режимы счётчиков</string>
     <string name="pref_category_meter1_title">Счётчик 1</string>
     <string name="pref_category_meter2_title">Счётчик 2</string>
     <string name="pref_category_meter3_title">Счётчик 3</string>
@@ -537,7 +534,6 @@
     <string name="pref_group_flashlight_title">Фонарик</string>
     <string name="pref_category_flashlightBlinkMode_title">Мигание</string>
     <string name="pref_category_flashlightAutoPocketMode_title">Карманный режим</string>
-    <string name="pref_category_gpsInaccuracyIndicator_title">Индикатор доверия</string>
     <string name="pref_category_paceIndicator_title">Индикатор темпа</string>
     <string name="pref_category_locationProvider_title">Поставщик GPS</string>
     <string name="pref_category_altitude_adjustments_title">Высота</string>
@@ -599,7 +595,6 @@
     <string name="pref_screenAutoPocketMode_summary">(Все профили) Использовать датчик приближения, чтобы отключать экран, когда он не нужен</string>
     <string name="pref_ring_on_stop_title">Звонок при остановке</string>
     <string name="pref_ring_on_stop_summary">Автоматический звонок при резкой остановке</string>
-    <string name="pref_disable_bell_button_title">Отключать звонок кнопкой</string>
     <string name="pref_disable_bell_button_summary">Отключать звонок при нажатии на спидометр</string>
     <string name="pref_obey_audio_focus_disable_title">Игнорировать фокус звука</string>
     <string name="pref_obey_audio_focus_disable_summary">Продолжать подавать сигнал, даже если фокус звука забран (системным уведомлением или другим приложением)</string>
@@ -629,7 +624,6 @@
     <string name="pref_fenceguard_title">Скрытая зона</string>
     <string name="pref_fenceguard_summary">Не показывать местоположение вашего дома и других личных объектов в записанных треках</string>
     <string name="pref_autopause_mode_dialog_title">Автопауза</string>
-    <string name="pref_speedometer_limit_title">Индикатор максимума</string>
     <string name="pref_speedometer_limit_dialog_title">Индикатор максимальной скорости</string>
     <string name="pref_speed_calculate_mode_title">Пересчёт скорости</string>
     <string name="pref_speed_calculate_mode_summary">(Все профили) Выполнять перерасчёт скорости, используя пройденный путь, а не непосредственные значения GPS. Может дать более стабильные данные скорости по сравнению со значениями GPS (Допплера).</string>
@@ -690,7 +684,6 @@
     <string name="pref_maps_offline_terrain_info_summary">Открыть страницу загрузки сайта viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Действие кнопки «Слои»</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Все профили) Выберите, что будет происходить при нажатии кнопки «Слои»</string>
-    <string name="pref_button_autoring_enable_title">Режим автозвонка</string>
     <string name="pref_button_autoring_enable_summary">Включать автозвонок при длительном нажатии на спидометр</string>
     <string name="pref_button_profile_show_title">Профиль</string>
     <string name="pref_button_profile_show_summary">Показывать кнопку «Профили»</string>
@@ -709,9 +702,7 @@
     <string name="pref_meter_lock_title">Блокировка режима</string>
     <string name="pref_meter_lock_summary">Не даёт сменять режим нажатием</string>
     <string name="pref_meter_modes_select_title">Выбор доступных режимов…</string>
-    <string name="pref_speedo_display_mode_title">Внешний вид</string>
     <string name="pref_speedo_display_mode_dialog_title">Внешний вид спидометра</string>
-    <string name="pref_speedo_indicator_needle_title">Стрелка</string>
     <string name="pref_speedo_indicator_needle_summary">Показывать стрелку на графическом индикаторе</string>
     <string name="pref_powermeter_display_mode_dialog_title">Режим отображения мощности</string>
     <string name="pref_powermeter_parameters_info_summary">Чтобы показатели мощности и энергии были точными, убедитесь, что эти параметры заданы правильно!</string>
@@ -729,9 +720,7 @@
     <string name="pref_flashlightBlinkMode_dialogTitle">Мигание фонарика</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Переключение кнопкой</string>
     <string name="pref_flashlightBlinkModeToggleEnable_summary">Переключать режим мигания нажатием кнопки при включённом фонарике</string>
-    <string name="pref_gpsInaccuracyIndicator_title">Индикатор доверия</string>
     <string name="pref_gpsInaccuracyIndicator_summary">Показывать устаревание параметра скорости, когда оно со временем становится менее точным</string>
-    <string name="pref_paceIndicator_title">Индикатор темпа</string>
     <string name="pref_paceIndicator_summary">Показывать, когда вы передвигаетесь быстрее или медленнее вашей средней скорости</string>
     <string name="pref_haptic_feedback_title">Вибрация при нажатии</string>
     <string name="pref_haptic_feedback_intensity_title">Длительность вибрации</string>

@@ -383,7 +383,6 @@
     <string name="meterModeHeartRateShort">сърд рит</string>
     <string name="meterModeGearRatio">предавателно число</string>
     <string name="meterModeGearRatioShort">пред чис</string>
-    <string name="bellRingAuto">авто</string>
     <string name="roarModeConstant">постоянен</string>
     <string name="meterTextMin">мин</string>
     <string name="meterTextMax">макс</string>
@@ -494,7 +493,6 @@
     <string name="pref_category_general_title">Общо</string>
     <string name="pref_category_language_title">Език</string>
     <string name="pref_category_appearance_title">Вид</string>
-    <string name="pref_category_speedo_title">Скоростомер</string>
     <string name="pref_group_powermeter_title">Мощност и Енергия</string>
     <string name="pref_category_power_mode_title">Режим на показване на мощност</string>
     <string name="pref_category_params_title">Параметри</string>
@@ -524,7 +522,6 @@
     <string name="pref_category_buttons_title">Бутони</string>
     <string name="pref_category_meters_title">Броячи</string>
     <string name="pref_group_meters_title">Броячи</string>
-    <string name="pref_group_meter_modes_title">Режими на броячи</string>
     <string name="pref_category_meter1_title">Брояч 1</string>
     <string name="pref_category_meter2_title">Брояч 2</string>
     <string name="pref_category_meter3_title">Брояч 3</string>
@@ -546,7 +543,6 @@
     <string name="pref_group_flashlight_title">Фенерче</string>
     <string name="pref_category_flashlightBlinkMode_title">Премигване</string>
     <string name="pref_category_flashlightAutoPocketMode_title">Джобен режим</string>
-    <string name="pref_category_gpsInaccuracyIndicator_title">Индикатор за увереност</string>
     <string name="pref_category_paceIndicator_title">Индикатор Темпо</string>
     <string name="pref_category_locationProvider_title">GPS доставчик</string>
     <string name="pref_category_altitude_adjustments_title">Височини</string>
@@ -608,7 +604,6 @@
     <string name="pref_screenAutoPocketMode_summary">(Всички профили) Използване на сензора за близост да държи дисплея изключен, когато не е нужен</string>
     <string name="pref_ring_on_stop_title">Звънене при спиране</string>
     <string name="pref_ring_on_stop_summary">Автоматичен звънец, също когато скоростта спадне до нула</string>
-    <string name="pref_disable_bell_button_title">Изключи бутона на звънеца</string>
     <string name="pref_disable_bell_button_summary">Изключи звъненето при кликване на скоростомера</string>
     <string name="pref_obey_audio_focus_disable_title">Изключи фокуса на звука</string>
     <string name="pref_obey_audio_focus_disable_summary">Продължаване на възпроизвеждането на звуци, дори когато аудио фокуса е изгубен (от системни известия или друго приложение)</string>
@@ -639,7 +634,6 @@
     <string name="pref_fenceguard_title">Скрита зона</string>
     <string name="pref_fenceguard_summary">Защитете местоположението на вашият дом или други важни места от разкриване при записването на трасета</string>
     <string name="pref_autopause_mode_dialog_title">Автоматична пауза</string>
-    <string name="pref_speedometer_limit_title">Индикатор Макс</string>
     <string name="pref_speedometer_limit_dialog_title">Индикатор за максимална скорост</string>
     <string name="pref_speed_calculate_mode_title">Преизчисляване на скоростта</string>
     <string name="pref_speed_calculate_mode_summary">(Всички профили) Преизчисляване на скоростта от изминатият път, а не директно от GPS стойности. Това може да предостави по-стабилни показания на скоростта в сравнение с GPS (Доплер) стойностите.</string>
@@ -699,7 +693,6 @@
     <string name="pref_maps_offline_terrain_info_summary">Отворете страницата за изтегляне на viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Действие на бутон на Слой</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Всички профили) Изберете какво да прави бутон Слой, когато бъде натиснат</string>
-    <string name="pref_button_autoring_enable_title">Бутон Автоматично звънене</string>
     <string name="pref_button_autoring_enable_summary">Активирайте автоматично звънене при дълго натискане на скоростомера</string>
     <string name="pref_button_profile_show_title">Профил</string>
     <string name="pref_button_profile_show_summary">Покажи бутон Профил</string>
@@ -718,9 +711,7 @@
     <string name="pref_meter_lock_title">Режим на заключване</string>
     <string name="pref_meter_lock_summary">Предотвратява промяната на режима при натискане</string>
     <string name="pref_meter_modes_select_title">Изберете налични режими…</string>
-    <string name="pref_speedo_display_mode_title">Външен вид</string>
     <string name="pref_speedo_display_mode_dialog_title">Външен вид на скоростомера</string>
-    <string name="pref_speedo_indicator_needle_title">Стрелка</string>
     <string name="pref_speedo_indicator_needle_summary">Покажете стрелката в графичен индикатор</string>
     <string name="pref_powermeter_display_mode_dialog_title">Режим за показване на мощност</string>
     <string name="pref_powermeter_parameters_info_summary">За точни показания на мощност и енергия, моля, уверете се, че тези параметри са правилни!</string>
@@ -738,9 +729,7 @@
     <string name="pref_flashlightBlinkMode_dialogTitle">Мигането на фенерчето</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Бутон за превключване</string>
     <string name="pref_flashlightBlinkModeToggleEnable_summary">Включи мигащият режим с клик върху бутон докато фенерчето е включено</string>
-    <string name="pref_gpsInaccuracyIndicator_title">Индикатор за увереност</string>
     <string name="pref_gpsInaccuracyIndicator_summary">Указва стареене на параметъра на скоростта тъй като с времето става по-несигурна</string>
-    <string name="pref_paceIndicator_title">Индикатор Темпо</string>
     <string name="pref_paceIndicator_summary">Показва, когато вървите по-бързо или по-бавно от средната скорост</string>
     <string name="pref_haptic_feedback_title">Вибриране при докосване</string>
     <string name="pref_haptic_feedback_intensity_title">Интензивност на вибрацията</string>

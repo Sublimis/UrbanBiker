@@ -461,7 +461,6 @@
     <string name="meterModeStepCadenceShort">cad pasos</string>
     <string name="meterModeStepCount">pasos</string>
     <string name="meterModeStepCountShort">pasos</string>
-    <string name="bellRingAuto">auto</string>
     <string name="roarModeConstant">const</string>
     <string name="meterTextMin">mín</string>
     <string name="meterTextMax">máx</string>
@@ -614,7 +613,6 @@
     <string name="pref_category_general_title">Xeral</string>
     <string name="pref_category_language_title">Linguaxe</string>
     <string name="pref_category_appearance_title">Aparencia</string>
-    <string name="pref_category_speedo_title">Velocímetro</string>
     <string name="pref_group_powermeter_title">Potencia e Enerxía</string>
     <string name="pref_category_power_mode_title">Modo de visualización de potencia</string>
     <string name="pref_category_params_title">Parámetros</string>
@@ -645,7 +643,6 @@
     <string name="pref_category_buttons_title">Botóns</string>
     <string name="pref_category_meters_title">Indicadores</string>
     <string name="pref_group_meters_title">Indicadores</string>
-    <string name="pref_group_meter_modes_title">Modos de medida</string>
     <string name="pref_category_meter1_title">Indicador 1</string>
     <string name="pref_category_meter2_title">Indicador 2</string>
     <string name="pref_category_meter3_title">Indicador 3</string>
@@ -672,7 +669,6 @@
     <string name="pref_group_flashlight_title">Lanterna</string>
     <string name="pref_category_flashlightBlinkMode_title">Parpadeante</string>
     <string name="pref_category_flashlightAutoPocketMode_title">Modo de peto</string>
-    <string name="pref_category_gpsInaccuracyIndicator_title">Indicador de confianza</string>
     <string name="pref_category_paceIndicator_title">Indicador de ritmo</string>
     <string name="pref_category_locationProvider_title">Provedor de GPS</string>
     <string name="pref_category_altitude_adjustments_title">Altitudes</string>
@@ -736,7 +732,6 @@
     <string name="pref_screenWaveOnOffMode_summary">Bloquea a aplicación ao axitar a man dúas veces diante da pantalla. Axite novamente para desbloquear.</string>
     <string name="pref_ring_on_stop_title">Timbre ao parar</string>
     <string name="pref_ring_on_stop_summary">Tamén tocar o timbre automaticamente cando a velocidade redúcese a cero</string>
-    <string name="pref_disable_bell_button_title">Desactivar botón timbre</string>
     <string name="pref_disable_bell_button_summary">Desactivar o timbre ao pulsar sobre o velocímetro</string>
     <string name="pref_obey_audio_focus_disable_title">Desactivar o foco de son</string>
     <string name="pref_obey_audio_focus_disable_summary">Continuar producindo sons mesmo ao perder o foco de audio (por notificación do sistema ou outra app)</string>
@@ -769,7 +764,6 @@
     <string name="pref_fenceguard_title">Zonas seguras</string>
     <string name="pref_fenceguard_summary">Protexe a localización do seu fogar, ou doutros lugares importantes, de quedar expostos nos percorridos gravados</string>
     <string name="pref_autopause_mode_dialog_title">Pausa automática</string>
-    <string name="pref_speedometer_limit_title">Indicador máx</string>
     <string name="pref_speedometer_limit_dialog_title">Indicador de velocidade máxima</string>
     <string name="pref_speed_calculate_mode_title">Recalcular velocidade</string>
     <string name="pref_speed_calculate_mode_summary">(Todos os perfís) Recalcular a velocidade usando distancias, non usar o valor GPS directamente. Isto pode proporcionar lecturas de velocidade máis estables sobre valores GPS (Doppler).</string>
@@ -845,7 +839,6 @@
     <string name="pref_mapsWeatherAnimate_title">Animar</string>
     <string name="pref_mapsWeatherAnimate_summary">Animar a última hora dos datos de radar, para axudarche a visualizar a tendencia de precipitacións</string>
     <string name="pref_mapsWeatherAnimate_info">A animación do radar utiliza 5x máis datos da internet que a dunha imaxe de radar estática.</string>
-    <string name="pref_button_autoring_enable_title">Alternar Timbre Auto</string>
     <string name="pref_button_autoring_enable_summary">Habilitar alternancia do modo de timbre automático mediante pulsación longa no velocímetro</string>
     <string name="pref_button_profile_show_title">Perfil</string>
     <string name="pref_button_profile_show_summary">Mostrar o botón de Perfil</string>
@@ -864,9 +857,7 @@
     <string name="pref_meter_lock_title">Modo bloqueo</string>
     <string name="pref_meter_lock_summary">Prevén o cambio de modo ao facer clic</string>
     <string name="pref_meter_modes_select_title">Escolla os modos dispoñibles…</string>
-    <string name="pref_speedo_display_mode_title">Apariencia</string>
     <string name="pref_speedo_display_mode_dialog_title">Aparencia do velocímetro</string>
-    <string name="pref_speedo_indicator_needle_title">Agulla</string>
     <string name="pref_speedo_indicator_needle_summary">Mostrar a agulla no indicador gráfico</string>
     <string name="pref_powermeter_display_mode_dialog_title">Modo de visualización de potencia</string>
     <string name="pref_powermeter_parameters_info_summary">Para lecturas precisas de potencia e enerxía, por favor, ¡asegúrese de que estes parámetros son correctos!</string>
@@ -884,9 +875,7 @@
     <string name="pref_flashlightBlinkMode_dialogTitle">Parpadeo da lanterna</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Botón de alternancia</string>
     <string name="pref_flashlightBlinkModeToggleEnable_summary">Alternar parpadeo mediante clic de botón, mentres a lanterna estea acesa</string>
-    <string name="pref_gpsInaccuracyIndicator_title">Indicador de precisión</string>
     <string name="pref_gpsInaccuracyIndicator_summary">Indica o envellecemento do valor da velocidade, xa que ésta vólvese máis incerta co tempo</string>
-    <string name="pref_paceIndicator_title">Indicador de ritmo</string>
     <string name="pref_paceIndicator_summary">Mostra cando se vai máis rápido ou máis lento que a velocidade media</string>
     <string name="pref_haptic_feedback_title">Vibrar ao tocar</string>
     <string name="pref_haptic_feedback_intensity_title">Intensidade da vibración</string>

@@ -372,7 +372,6 @@
     <string name="meterModeHeartRateShort">rc</string>
     <string name="meterModeGearRatio">raport transmisie</string>
     <string name="meterModeGearRatioShort">rap tr</string>
-    <string name="bellRingAuto">auto</string>
     <string name="roarModeConstant">const</string>
     <string name="meterTextMin">min</string>
     <string name="meterTextMax">max</string>
@@ -461,7 +460,6 @@
     <string name="pref_category_general_title">General</string>
     <string name="pref_category_language_title">Limbă</string>
     <string name="pref_category_appearance_title">Aspect</string>
-    <string name="pref_category_speedo_title">Vitezometru</string>
     <string name="pref_group_powermeter_title">Putere și energie</string>
     <string name="pref_category_power_mode_title">Mod afișare putere</string>
     <string name="pref_category_params_title">Parametri</string>
@@ -489,7 +487,6 @@
     <string name="pref_category_buttons_title">Butoane</string>
     <string name="pref_category_meters_title">Măsurări</string>
     <string name="pref_group_meters_title">Măsurări</string>
-    <string name="pref_group_meter_modes_title">Moduri măsurare</string>
     <string name="pref_category_meter1_title">Măsurătoare 1</string>
     <string name="pref_category_meter2_title">Măsurătoare 2</string>
     <string name="pref_category_meter3_title">Măsurătoare 3</string>
@@ -511,7 +508,6 @@
     <string name="pref_group_flashlight_title">Lanternă</string>
     <string name="pref_category_flashlightBlinkMode_title">Pâlpâire</string>
     <string name="pref_category_flashlightAutoPocketMode_title">Mod buzunar</string>
-    <string name="pref_category_gpsInaccuracyIndicator_title">Indicator încredere</string>
     <string name="pref_category_paceIndicator_title">Indicator ritm</string>
     <string name="pref_category_locationProvider_title">Furnizor GPS</string>
     <string name="pref_category_altitude_adjustments_title">Altitudini</string>
@@ -573,7 +569,6 @@
     <string name="pref_screenAutoPocketMode_summary">(Toate profilele) Folosește senzorul de proximitate pentru a opri ecranul cat timp nu este necesar</string>
     <string name="pref_ring_on_stop_title">Sună la oprire</string>
     <string name="pref_ring_on_stop_summary">Sună clopoțelul automat când viteza scade la zero, de asemenea</string>
-    <string name="pref_disable_bell_button_title">Oprește butonul de clopoțel</string>
     <string name="pref_disable_bell_button_summary">Dezactivați sunetul clopoțelului când dați click pe speedometer</string>
     <string name="pref_obey_audio_focus_disable_title">Dezactivează focalizarea automată</string>
     <string name="pref_obey_audio_focus_disable_summary">Continuați să produceți sunete chiar dacă focalizarea audio este pierdută (prin notificare de sistem sau prin altă aplicație)</string>
@@ -602,7 +597,6 @@
     <string name="pref_fenceguard_title">FenceGuard</string>
     <string name="pref_fenceguard_summary">Protejați locația casei dumneavoastră, sau alte locuri importante pentru a nu fi expuse in curse înregistrate</string>
     <string name="pref_autopause_mode_dialog_title">Pauză automată</string>
-    <string name="pref_speedometer_limit_title">Indicator maxim</string>
     <string name="pref_speedometer_limit_dialog_title">Indicator maxim viteză</string>
     <string name="pref_speed_calculate_mode_title">Recalculați viteza</string>
     <string name="pref_speed_calculate_mode_summary">(Toate profilele) Recalculează viteza din dinstanță, nu folosi valorile GPS direct. Acest lucru poate oferi citiri mai stabile ale vitezei peste valorile GPS (Doppler).</string>
@@ -663,7 +657,6 @@
     <string name="pref_maps_offline_terrain_info_summary">Deschide pagina de descărcare la viewfinderpanoramas.org</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Acțiunea butonului strat</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Toate profilele) Alege ce să facă atunci când butonul de strat este apăsat</string>
-    <string name="pref_button_autoring_enable_title">Comutare clopoțel automat</string>
     <string name="pref_button_autoring_enable_summary">Activați modul Clopoțel Automat cu comutarea rapidă pe vitezometru</string>
     <string name="pref_button_profile_show_title">Profil</string>
     <string name="pref_button_profile_show_summary">Afișează butonul de Profil</string>
@@ -682,9 +675,7 @@
     <string name="pref_meter_lock_title">Mod blocare</string>
     <string name="pref_meter_lock_summary">Previne schimbarea modului la click</string>
     <string name="pref_meter_modes_select_title">Alege mod disponibil...</string>
-    <string name="pref_speedo_display_mode_title">Aspect</string>
     <string name="pref_speedo_display_mode_dialog_title">Aspect Speedo</string>
-    <string name="pref_speedo_indicator_needle_title">Ac</string>
     <string name="pref_speedo_indicator_needle_summary">Afișează acul în indicatorul grafic</string>
     <string name="pref_powermeter_display_mode_dialog_title">Mod afișare putere</string>
     <string name="pref_powermeter_parameters_info_summary">Pentru o citire exactă a puterii și energiei, vă rugăm să vă asigurați că acești parametri sunt corecți!</string>
@@ -705,9 +696,7 @@
     <string name="pref_flashlightBlinkMode_dialogTitle">Pâlpâire lanternă</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Comutare buton</string>
     <string name="pref_flashlightBlinkModeToggleEnable_summary">Comută mod pălpâire cu un click pe buton cât timp lanterna este pornită</string>
-    <string name="pref_gpsInaccuracyIndicator_title">Indicator încredere</string>
     <string name="pref_gpsInaccuracyIndicator_summary">Indică îmbătrânirea valorii de viteză, cu cât devine mai incertă în timp</string>
-    <string name="pref_paceIndicator_title">Indicator ritm</string>
     <string name="pref_paceIndicator_summary">Afișează când mergi mai repede sau mai încet decat viteza medie</string>
     <string name="pref_haptic_feedback_title">Vibrează la atingere</string>
     <string name="pref_haptic_feedback_intensity_title">Intensitate vibrație</string>

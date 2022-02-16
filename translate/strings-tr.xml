@@ -252,7 +252,6 @@
     <string name="meterModeAltitudeDescent">iniş</string>
     <string name="meterModeAltitudeSlope">eğim</string>
     <string name="meterModeHeartRateShort">st</string>
-    <string name="bellRingAuto">otomatik</string>
     <string name="meterTextMin">min</string>
     <string name="meterTextMax">max</string>
     <string name="controlPanelSoundEffects">Efektler</string>
@@ -294,7 +293,6 @@
     <string name="pref_category_general_title">Genel</string>
     <string name="pref_category_language_title">Dil</string>
     <string name="pref_category_appearance_title">Görünüm</string>
-    <string name="pref_category_speedo_title">Hızölçer</string>
     <string name="pref_category_power_mode_title">Güç gösterim modu</string>
     <string name="pref_category_params_title">Parametreler</string>
     <string name="pref_group_units_title">Birimler</string>
@@ -314,7 +312,6 @@
     <string name="pref_category_buttons_title">Butonlar</string>
     <string name="pref_category_meters_title">Göstergeler</string>
     <string name="pref_group_meters_title">Göstergeler</string>
-    <string name="pref_group_meter_modes_title">Gösterge Modları</string>
     <string name="pref_category_meter1_title">Gösterge 1</string>
     <string name="pref_category_meter2_title">Gösterge 2</string>
     <string name="pref_category_meter3_title">Gösterge 3</string>
@@ -376,7 +373,6 @@
     <string name="pref_above_lockscreen_summary">Kilitliyken açılırsa uygulama direk açılır</string>
     <string name="pref_ring_on_stop_title">Durunca zil çal</string>
     <string name="pref_ring_on_stop_summary">Hız sıfıra düştüğünde zil çalar</string>
-    <string name="pref_disable_bell_button_title">Zil tuşunu devre dışı bırak</string>
     <string name="pref_disable_bell_button_summary">Hız sayacına tıklayınca zil çalmasın</string>
     <string name="pref_obey_audio_focus_disable_title">Ses Odaklamayı Devre dışı bırak</string>
     <string name="pref_obey_audio_focus_disable_summary">Ses çıkarmaya devam eder ( bildirim sesi veya başka uygulama ile çakıştığında)</string>
@@ -396,7 +392,6 @@
     <string name="pref_fenceguard_title">FenceGuard</string>
     <string name="pref_fenceguard_summary">Ev, iş yeri gibi yerlerde konumuzunu korur</string>
     <string name="pref_autopause_mode_dialog_title">Oto duraklama</string>
-    <string name="pref_speedometer_limit_title">En Yüksek Gösterge Değeri</string>
     <string name="pref_speedometer_limit_dialog_title">gösterilecek en fazla hız</string>
     <string name="pref_soundeffects_title">Aktif</string>
     <string name="pref_soundeffects_fence_enterleave_title">Fence</string>
@@ -428,7 +423,6 @@
     <string name="pref_maps_routes_info_title">Not!</string>
     <string name="pref_maps_routes_files_dialog_title">Rotalar klasörünü/dosyasını seçin</string>
     <string name="pref_maps_routes_files_noFolderSelected">Klasör seçilmedi.</string>
-    <string name="pref_button_autoring_enable_title">Otomatik zil açık</string>
     <string name="pref_button_autoring_enable_summary">Hız göstergesine uzun tıklayarak otomatik zili açın</string>
     <string name="pref_button_profile_show_title">Profil</string>
     <string name="pref_button_profile_show_summary">Profil butonunu göster</string>
@@ -444,7 +438,6 @@
     <string name="pref_button_menu_show_summary">Menü butonunu göster</string>
     <string name="pref_meter_enable_title">Aç</string>
     <string name="pref_meter_modes_select_title">Kullanılabilir modları seçin…</string>
-    <string name="pref_speedo_display_mode_title">Görünüm</string>
     <string name="pref_powermeter_display_mode_dialog_title">Güç göstergesi modu</string>
     <string name="pref_power_weights_title">Ağırlıklar</string>
     <string name="pref_power_weights_summary">Sürücü: %1$s, Araç: %2$s, Yük: %3$s, Yolcular: %4$s, Tekerlekler: %5$s
@@ -830,7 +823,6 @@
     <string name="pref_category_gps_boost_title">GPS Tazeleme hızı Politikası</string>
     <string name="pref_category_flashlightBlinkMode_title">Titreşiyor</string>
     <string name="pref_category_flashlightAutoPocketMode_title">Cep Modu</string>
-    <string name="pref_category_gpsInaccuracyIndicator_title">Güven Göstergesi</string>
     <string name="pref_category_paceIndicator_title">Sakinlik Göstergesi</string>
     <string name="pref_category_locationProvider_title">GPS Sağlayıcı</string>
     <string name="pref_category_altitude_adjustments_title">Rakım</string>
@@ -884,7 +876,6 @@
     <string name="pref_meter_lock_title">Kilit modu</string>
     <string name="pref_meter_lock_summary">Tıklamayla oluşacak mod değişimini önler</string>
     <string name="pref_speedo_display_mode_dialog_title">Hızölçeri göster</string>
-    <string name="pref_speedo_indicator_needle_title">İbre</string>
     <string name="pref_speedo_indicator_needle_summary">Grafiksel göstergede ibreyi göster</string>
     <string name="pref_powermeter_parameters_info_summary">Hatasız güç ve enerji ölçümleri için lütfen bu değerlerin doğru olduğundan emin olun!</string>
     <string name="pref_power_coefs_summary">"Direnç alanı  %1$s
@@ -896,9 +887,7 @@
     <string name="pref_flashlightBlinkMode_dialogTitle">Flaş titreşimi</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Geçiş Butonu</string>
     <string name="pref_flashlightBlinkModeToggleEnable_summary">Flaş açıkken bir düğmeye tıklayarak titreşim moduna geçin</string>
-    <string name="pref_gpsInaccuracyIndicator_title">Güven endeksi</string>
     <string name="pref_gpsInaccuracyIndicator_summary">"Zamanla  belirsiz hale geldiğinden, hız değerinin yaşlanmasını gösterir"</string>
-    <string name="pref_paceIndicator_title">Tempo Göstergesi</string>
     <string name="pref_paceIndicator_summary">Ortalama hızdan yavaş ya da hızlı gittiğinde gösterilir</string>
     <string name="pref_haptic_feedback_title">Dokunulduğunda titret</string>
     <string name="pref_haptic_feedback_intensity_title">Titreme şiddeti</string>

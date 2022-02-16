@@ -379,7 +379,6 @@
     <string name="meterModeHeartRateShort">val</string>
     <string name="meterModeGearRatio">pavarų perdavimo laipsnis</string>
     <string name="meterModeGearRatioShort">pav perd</string>
-    <string name="bellRingAuto">Auto</string>
     <string name="roarModeConstant">konst</string>
     <string name="meterTextMin">min</string>
     <string name="meterTextMax">max</string>
@@ -490,7 +489,6 @@
     <string name="pref_category_general_title">Bendras</string>
     <string name="pref_category_language_title">Kalba</string>
     <string name="pref_category_appearance_title">Išvaizda</string>
-    <string name="pref_category_speedo_title">Spidometras</string>
     <string name="pref_group_powermeter_title">Galia ir Energija</string>
     <string name="pref_category_power_mode_title">Galios ekrano režimas</string>
     <string name="pref_category_params_title">Parametrai</string>
@@ -520,7 +518,6 @@
     <string name="pref_category_buttons_title">Mygtukai</string>
     <string name="pref_category_meters_title">Matavimai</string>
     <string name="pref_group_meters_title">Matavimai</string>
-    <string name="pref_group_meter_modes_title">Skaitliuko režimai</string>
     <string name="pref_category_meter1_title">Skaitliukas 1</string>
     <string name="pref_category_meter2_title">Skaitliukas 2</string>
     <string name="pref_category_meter3_title">Skaitliukas 3</string>
@@ -542,7 +539,6 @@
     <string name="pref_group_flashlight_title">Žibintuvėlis</string>
     <string name="pref_category_flashlightBlinkMode_title">Mirgėjimas</string>
     <string name="pref_category_flashlightAutoPocketMode_title">Kišenės režimas</string>
-    <string name="pref_category_gpsInaccuracyIndicator_title">Saugumo indikatorius</string>
     <string name="pref_category_paceIndicator_title">Tempo indikatorius</string>
     <string name="pref_category_locationProvider_title">GPS tiekėjas</string>
     <string name="pref_category_altitude_adjustments_title">Aukščiai</string>
@@ -604,7 +600,6 @@
     <string name="pref_screenAutoPocketMode_summary">(Visiems profiliams) Use proximity sensor to keep the display off while not needed</string>
     <string name="pref_ring_on_stop_title">Skambinti sustabdymui</string>
     <string name="pref_ring_on_stop_summary">Skambinti automatiniu skambučiu ir tada, kai greitis sumažės iki nulio</string>
-    <string name="pref_disable_bell_button_title">Deaktyvuoti skambučio mygtuką</string>
     <string name="pref_disable_bell_button_summary">Deaktyvuoti skambučio mygtuką, paspaudus spidometrą</string>
     <string name="pref_obey_audio_focus_disable_title">Deaktyvuoti audio fokusą</string>
     <string name="pref_obey_audio_focus_disable_summary">Tęsiamas garso generavimas net jei kita programa naudoja garsą (sistemos pranešimas ar kitos programos)</string>
@@ -634,7 +629,6 @@
     <string name="pref_fenceguard_title">Apsaugos laukas</string>
     <string name="pref_fenceguard_summary">Apsaugo namų ar kitos svarbios vietos rodymą Trasos įraše</string>
     <string name="pref_autopause_mode_dialog_title">Automatinės pauzės</string>
-    <string name="pref_speedometer_limit_title">Indikatoriaus maksimumas</string>
     <string name="pref_speedometer_limit_dialog_title">Greičio indikatoriaus maksimumas</string>
     <string name="pref_speed_calculate_mode_title">Perskaičiuoti greitį</string>
     <string name="pref_speed_calculate_mode_summary">(Visi profiliai) Perskaičiuoti greitį naudojant atstumus ir nenaudojant GPS. Tai gali užtikrinti stabilesnius greičio rodmenis nei naudojant GPS (Doplerio) vertes.</string>
@@ -696,7 +690,6 @@
     <string name="pref_maps_offline_terrain_info_summary">Atidaryti stsisiuntimų puslapį viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Sluoksnio mygtuko veiksmas</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Visi profiliai) Pasirinkite, ką daryti, kai paspausite sluoksnio mygtuką</string>
-    <string name="pref_button_autoring_enable_title">Automatinio skambučio jungiklis</string>
     <string name="pref_button_autoring_enable_summary">Aktyvuoti Auto Ring režimo jungiklį ilgai palaikius paspaustą spidometrą</string>
     <string name="pref_button_profile_show_title">Profilis</string>
     <string name="pref_button_profile_show_summary">Rodyti profilio mygtuką</string>
@@ -715,9 +708,7 @@
     <string name="pref_meter_lock_title">Užrakinimo režimas</string>
     <string name="pref_meter_lock_summary">Apsaugo nuo režimo pakeitimų paspaudus</string>
     <string name="pref_meter_modes_select_title">Pasirinkti galimus režimus…</string>
-    <string name="pref_speedo_display_mode_title">Išvaizda</string>
     <string name="pref_speedo_display_mode_dialog_title">Spidometro išvaizda</string>
-    <string name="pref_speedo_indicator_needle_title">Adata</string>
     <string name="pref_speedo_indicator_needle_summary">Rodyti adatą grafiniame atvaizdavime</string>
     <string name="pref_powermeter_display_mode_dialog_title">Galios ekrano režimas</string>
     <string name="pref_powermeter_parameters_info_summary">Šie duomenys turi būti teisingi, jei norite teisingų galios ir energijos parodymų!</string>
@@ -738,9 +729,7 @@
     <string name="pref_flashlightBlinkMode_dialogTitle">Žibintuvėlio mirgėjimas</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Mygtuko jungiklis</string>
     <string name="pref_flashlightBlinkModeToggleEnable_summary">Įjungti mirgėjimą mygtuko paspaudimu, kai žibintuvėlis jau įjungtas</string>
-    <string name="pref_gpsInaccuracyIndicator_title">Saugumo indikatorius</string>
     <string name="pref_gpsInaccuracyIndicator_summary">Informuoja ape greičio reikšmės senėjimą, nes jis su laiku tampa vis mažiau patikimas</string>
-    <string name="pref_paceIndicator_title">Tempo indikatorius</string>
     <string name="pref_paceIndicator_summary">Rodo, kai judama greičiau ar lėčiau nei vidutinis greitis</string>
     <string name="pref_haptic_feedback_title">Vibruoja palietus</string>
     <string name="pref_haptic_feedback_intensity_title">Vibravimo intensyvumas</string>

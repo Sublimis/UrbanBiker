@@ -457,7 +457,6 @@
     <string name="meterModeStepCadenceShort">tr cad</string>
     <string name="meterModeStepCount">trin</string>
     <string name="meterModeStepCountShort">trin</string>
-    <string name="bellRingAuto">automatisk</string>
     <string name="roarModeConstant">konstant</string>
     <string name="meterTextMin">min</string>
     <string name="meterTextMax">maks</string>
@@ -614,7 +613,6 @@
     <string name="pref_category_general_title">Generel</string>
     <string name="pref_category_language_title">Sprog</string>
     <string name="pref_category_appearance_title">Fremtoning</string>
-    <string name="pref_category_speedo_title">Hastighedsmåler</string>
     <string name="pref_group_powermeter_title">Effekt og energi</string>
     <string name="pref_category_power_mode_title">Effekt visning metode</string>
     <string name="pref_category_params_title">Parametre</string>
@@ -645,7 +643,6 @@
     <string name="pref_category_buttons_title">Knapper</string>
     <string name="pref_category_meters_title">Målere</string>
     <string name="pref_group_meters_title">Målere</string>
-    <string name="pref_group_meter_modes_title">Målere indstillinger</string>
     <string name="pref_category_meter1_title">Viser 1</string>
     <string name="pref_category_meter2_title">Viser 2</string>
     <string name="pref_category_meter3_title">Viser 3</string>
@@ -668,7 +665,6 @@
     <string name="pref_group_flashlight_title">Lommelygte</string>
     <string name="pref_category_flashlightBlinkMode_title">Blinkende</string>
     <string name="pref_category_flashlightAutoPocketMode_title">Lomme tilstand</string>
-    <string name="pref_category_gpsInaccuracyIndicator_title">Tillidsindikator</string>
     <string name="pref_category_paceIndicator_title">Tempoindikator</string>
     <string name="pref_category_locationProvider_title">GPS-udbyder</string>
     <string name="pref_category_altitude_adjustments_title">Højder</string>
@@ -734,7 +730,6 @@
     <string name="pref_screenWaveDim_summary">Displayet dæmpes også for at spare på batteriet</string>
     <string name="pref_ring_on_stop_title">Ring ved stop</string>
     <string name="pref_ring_on_stop_summary">Ring med den automatiske klokke, når hastigheden falder til nul</string>
-    <string name="pref_disable_bell_button_title">Deaktiver klokkeknap</string>
     <string name="pref_disable_bell_button_summary">Deaktiver klokke ring ved speedometer klik</string>
     <string name="pref_obey_audio_focus_disable_title">Deaktiver lydfokus</string>
     <string name="pref_obey_audio_focus_disable_summary">Fortsæt med at producere lyde, selvom lydfokus går tabt (ved systemmeddelelse eller en anden app)</string>
@@ -765,7 +760,6 @@
     <string name="pref_fenceguard_title">FenceGuard</string>
     <string name="pref_fenceguard_summary">Beskyt placeringen af dit hjem eller andre vigtige steder mod at blive eksponeret i indspillede spor</string>
     <string name="pref_autopause_mode_dialog_title">Automatisk pause</string>
-    <string name="pref_speedometer_limit_title">Indikator maks</string>
     <string name="pref_speedometer_limit_dialog_title">Hastighed indikator maks</string>
     <string name="pref_speed_calculate_mode_title">Genberegn hastighed</string>
     <string name="pref_speed_calculate_mode_summary">(Alle profiler) Genberegn hastighed fra afstande, brug ikke GPS-værdi direkte. Dette kan give mere stabile hastighedsaflæsninger over GPS-værdier (Doppler).</string>
@@ -843,7 +837,6 @@
     <string name="pref_mapsWeatherAnimate_title">Animér</string>
     <string name="pref_mapsWeatherAnimate_summary">Animer de sidste 1 times radardata for at hjælpe dig med at visualisere nedbørstrenden</string>
     <string name="pref_mapsWeatherAnimate_info">Radaranimation bruger 5 gange mere internetdata end et statisk radarbillede.</string>
-    <string name="pref_button_autoring_enable_title">Skift mellem automatisk ringning</string>
     <string name="pref_button_autoring_enable_summary">Aktivér Auto Ring-tilstand, på speedometer med et langt klik</string>
     <string name="pref_button_profile_show_title">Profil</string>
     <string name="pref_button_profile_show_summary">Vis profil knappen</string>
@@ -862,9 +855,7 @@
     <string name="pref_meter_lock_title">Låse tilstand</string>
     <string name="pref_meter_lock_summary">Forhindrer ændring af tilstand ved klik</string>
     <string name="pref_meter_modes_select_title">Vælg tilgængelige tilstande …</string>
-    <string name="pref_speedo_display_mode_title">Fremtoning</string>
     <string name="pref_speedo_display_mode_dialog_title">Speedo udseende</string>
-    <string name="pref_speedo_indicator_needle_title">Nål</string>
     <string name="pref_speedo_indicator_needle_summary">Vis nålen i grafisk indikation</string>
     <string name="pref_powermeter_display_mode_dialog_title">Effekt visning tilstand</string>
     <string name="pref_powermeter_parameters_info_summary">For nøjagtige strøm- og energilæsninger skal du sørge for, at disse parametre er korrekte!</string>
@@ -882,9 +873,7 @@
     <string name="pref_flashlightBlinkMode_dialogTitle">Blinkende Lommelygte</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Skift af knap</string>
     <string name="pref_flashlightBlinkModeToggleEnable_summary">Skift flimrende tilstand med et knap-klik, mens lommelygten er tændt</string>
-    <string name="pref_gpsInaccuracyIndicator_title">Tillidsindikator</string>
     <string name="pref_gpsInaccuracyIndicator_summary">Angiver aldring af hastighedsværdien, da den bliver mere usikker med tiden</string>
-    <string name="pref_paceIndicator_title">Tempoindikator</string>
     <string name="pref_paceIndicator_summary">Viser, når du kører hurtigere eller langsommere end gennemsnitshastigheden</string>
     <string name="pref_haptic_feedback_title">Vibrer ved berøring</string>
     <string name="pref_haptic_feedback_intensity_title">Vibrationsintensitet</string>

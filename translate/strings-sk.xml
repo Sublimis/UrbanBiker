@@ -373,7 +373,6 @@
     <string name="meterModeHeartRateShort">tep</string>
     <string name="meterModeGearRatio">prevodový pomer</string>
     <string name="meterModeGearRatioShort">prev. pomer</string>
-    <string name="bellRingAuto">auto</string>
     <string name="roarModeConstant">konšt.</string>
     <string name="meterTextMin">min.</string>
     <string name="meterTextMax">max.</string>
@@ -479,7 +478,6 @@
     <string name="pref_category_general_title">Všeobecné</string>
     <string name="pref_category_language_title">Jazyk</string>
     <string name="pref_category_appearance_title">Vzhľad</string>
-    <string name="pref_category_speedo_title">Rýchlomer</string>
     <string name="pref_group_powermeter_title">Výkon a Energia</string>
     <string name="pref_category_power_mode_title">Určovanie výkonu</string>
     <string name="pref_category_params_title">Parametre</string>
@@ -508,7 +506,6 @@
     <string name="pref_category_buttons_title">Tlačidlá</string>
     <string name="pref_category_meters_title">Merania</string>
     <string name="pref_group_meters_title">Merania</string>
-    <string name="pref_group_meter_modes_title">Funkcie</string>
     <string name="pref_category_meter1_title">Meranie 1</string>
     <string name="pref_category_meter2_title">Meranie 2</string>
     <string name="pref_category_meter3_title">Meranie 3</string>
@@ -530,7 +527,6 @@
     <string name="pref_group_flashlight_title">Svetlo</string>
     <string name="pref_category_flashlightBlinkMode_title">Blikanie</string>
     <string name="pref_category_flashlightAutoPocketMode_title">Vreckový mód</string>
-    <string name="pref_category_gpsInaccuracyIndicator_title">Indikátor spoľahlivosti</string>
     <string name="pref_category_paceIndicator_title">Ukazovateľ tempa</string>
     <string name="pref_category_locationProvider_title">Poskytovateľ GPS</string>
     <string name="pref_category_altitude_adjustments_title">Nadmorská výška</string>
@@ -592,7 +588,6 @@
     <string name="pref_screenAutoPocketMode_summary">Používať snímač priblíženia na zhasnutie obrazovky</string>
     <string name="pref_ring_on_stop_title">Zvoniť pri zastavení</string>
     <string name="pref_ring_on_stop_summary">Automaticky zazvoniť, ak rýchlosť klesne na nulu</string>
-    <string name="pref_disable_bell_button_title">Zakázať tlačidlo zvončeka</string>
     <string name="pref_disable_bell_button_summary">Neumožniť zvonček pri ťuknutí na rýchlomer</string>
     <string name="pref_obey_audio_focus_disable_title">Zakázať audio focus</string>
     <string name="pref_obey_audio_focus_disable_summary">Prehrávať zvuky bez prerušenia, aj keď do behu aplikácie zasiahne upozornenie inej aplikácie</string>
@@ -622,7 +617,6 @@
     <string name="pref_fenceguard_title">FenceGuard</string>
     <string name="pref_fenceguard_summary">Skrývať domácu polohu alebo polohu dôležitých miest</string>
     <string name="pref_autopause_mode_dialog_title">Automatické pozastavenie</string>
-    <string name="pref_speedometer_limit_title">Ukazovateľ max.</string>
     <string name="pref_speedometer_limit_dialog_title">Ukazovateľ rýchlosti max.</string>
     <string name="pref_speed_calculate_mode_title">Vypočítavať rýchlosť</string>
     <string name="pref_speed_calculate_mode_summary">(Všetky profily) Vypočítavať rýchlosť zo vzdialeností namiesto priameho používania GPS-hodnôt, čo môže poskytovať presnejšie údaje vyhodnocujúc hodnoty Dopplerovho javu.</string>
@@ -683,7 +677,6 @@
     <string name="pref_maps_offline_terrain_info_summary">Prejsť na viewfinderpanoramas.org</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Tlačidlo vrstiev</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Všetky profily) Definovanie funkcie tlačidla vrstiev pri zobrazovaní mapy</string>
-    <string name="pref_button_autoring_enable_title">Prepínač aut. zvonenia</string>
     <string name="pref_button_autoring_enable_summary">Prepínať automatický zvonček podržaním rýchlomera</string>
     <string name="pref_button_profile_show_title">Profil</string>
     <string name="pref_button_profile_show_summary">Zobrazovať tlačidlo Profilu</string>
@@ -702,9 +695,7 @@
     <string name="pref_meter_lock_title">Uzamknutie</string>
     <string name="pref_meter_lock_summary">Zabraňuje zmeniť funkciu pri dotyku</string>
     <string name="pref_meter_modes_select_title">Zvoliť funkcie…</string>
-    <string name="pref_speedo_display_mode_title">Vzhľad</string>
     <string name="pref_speedo_display_mode_dialog_title">Vzhľad rýchlomera</string>
-    <string name="pref_speedo_indicator_needle_title">Ručička rýchlomera</string>
     <string name="pref_speedo_indicator_needle_summary">Zobrazovať ručičku rýchlomera</string>
     <string name="pref_powermeter_display_mode_dialog_title">Určovanie výkonu</string>
     <string name="pref_powermeter_parameters_info_summary">Pre získavanie čo najpresnejších hodnôt výkonu a energie treba zadávať správne parametre na vyhodnocovanie.</string>
@@ -725,9 +716,7 @@
     <string name="pref_flashlightBlinkMode_dialogTitle">Blikanie svetla</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Prepínač</string>
     <string name="pref_flashlightBlinkModeToggleEnable_summary">Prepínať blikanie svetla jednoduchým ťuknutím</string>
-    <string name="pref_gpsInaccuracyIndicator_title">Indikátor spoľahlivosti</string>
     <string name="pref_gpsInaccuracyIndicator_summary">Naznačuje oneskorenie hodnoty rýchlosti vzhľadom na plynúci čas</string>
-    <string name="pref_paceIndicator_title">Ukazovateľ tempa</string>
     <string name="pref_paceIndicator_summary">Zobrazuje či je aktuálna rýchlosť vyššia alebo nižšia ako priemerná rýchlosť</string>
     <string name="pref_haptic_feedback_title">Vibrovať pri dotyku</string>
     <string name="pref_haptic_feedback_intensity_title">Intenzita vibrácie</string>
