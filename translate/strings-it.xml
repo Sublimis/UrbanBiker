@@ -28,7 +28,7 @@
     <string name="menuTracksHistoryResume">Riprendi</string>
     <string name="menuMeterLock">Blocca</string>
     <string name="menuMeterLockAll">Blocca tutto</string>
-    <string name="menuMeterMode">Modo contatore…</string>
+    <string name="menuMeterMode">Modo contatore</string>
     <string name="menuMeterChooseModes">Scegli modo…</string>
     <string name="menuMeterResetMinMax">Azzera min/max</string>
     <string name="menuMeterReset">Termina</string>
@@ -539,7 +539,6 @@
     <string name="pref_group_flashlight_title">Luce</string>
     <string name="pref_category_flashlightBlinkMode_title">Intermittente</string>
     <string name="pref_category_flashlightAutoPocketMode_title">Modo Tasca</string>
-    <string name="pref_category_paceIndicator_title">Indicatore andatura</string>
     <string name="pref_category_locationProvider_title">Segnale GPS</string>
     <string name="pref_category_altitude_adjustments_title">Altitudini</string>
     <string name="pref_category_temperature_title">Temperatura</string>
@@ -600,7 +599,6 @@
     <string name="pref_screenAutoPocketMode_summary">(Tutti i profili) Usa il sensore di prossimità per tenere spento lo schermo quando non necessario</string>
     <string name="pref_ring_on_stop_title">Suona allo stop</string>
     <string name="pref_ring_on_stop_summary">Il campanello automatico suona anche quando la velocità scende a zero</string>
-    <string name="pref_disable_bell_button_summary">Disattiva il campanello al clic sul tachimetro</string>
     <string name="pref_obey_audio_focus_disable_title">Disattiva selezione audio</string>
     <string name="pref_obey_audio_focus_disable_summary">Continua a produrre suoni anche se la selezione audio viene persa (a causa di notifiche di sistema o altra app)</string>
     <string name="pref_audio_force_loudspeaker_title">Forza altoparlante</string>
@@ -689,7 +687,6 @@
     <string name="pref_maps_offline_terrain_info_summary">Apri la pagina di scaricamento in viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Azione del pulsante Livello</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Tutti i profili) Scegli cosa fare quando premi il pulsante Livello</string>
-    <string name="pref_button_autoring_enable_summary">Abilita l\'attivazione/disattivazione del campanello automatico alla pressione prolungata sul tachimetro</string>
     <string name="pref_button_profile_show_title">Profilo</string>
     <string name="pref_button_profile_show_summary">Mostra il pulsante Profilo</string>
     <string name="pref_button_map_show_title">Mappa</string>
@@ -708,7 +705,6 @@
     <string name="pref_meter_lock_summary">Previene le modifiche dei modi al clic</string>
     <string name="pref_meter_modes_select_title">Scegli i modi disponibili…</string>
     <string name="pref_speedo_display_mode_dialog_title">Aspetto indicatore</string>
-    <string name="pref_speedo_indicator_needle_summary">Mostra la lancetta nell\'indicatore grafico</string>
     <string name="pref_powermeter_display_mode_dialog_title">Modo visualizzatore potenza</string>
     <string name="pref_powermeter_parameters_info_summary">Per letture accurate della potenza e dell\'energia, assicurati che questi parametri siano corretti!</string>
     <string name="pref_power_weights_title">Pesi</string>
@@ -725,7 +721,6 @@
     <string name="pref_flashlightBlinkMode_dialogTitle">Intermittenza della luce</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Pulsante di attivazione</string>
     <string name="pref_flashlightBlinkModeToggleEnable_summary">Un clic del pulsante attiva l\'intermittenza quando la luce è accesa</string>
-    <string name="pref_gpsInaccuracyIndicator_summary">Indica l\'invecchiamento del valore della velocità, poiché diventa più incerto col tempo</string>
     <string name="pref_paceIndicator_summary">Mostra quando stai andando più o meno veloce della velocità media</string>
     <string name="pref_haptic_feedback_title">Vibra al tocco</string>
     <string name="pref_haptic_feedback_intensity_title">Intensità vibrazione</string>
@@ -1076,7 +1071,7 @@
     <string name="pref_speechMasterSwitch_title">Abilita</string>
     <string name="defaultProfileNameScooter">Scooter 🛴</string>
     <string name="defaultProfileNameSki">Sci 🎿</string>
-    <string name="speechUnitOneMeter">Metro</string>
+    <string name="speechUnitOneMeter">Contatore</string>
     <string name="speechUnitTwoMeters">Metri</string>
     <string name="speechUnitManyMeters">Metri</string>
     <string name="speechUnitOneKilometer">Chilometro</string>
@@ -1430,4 +1425,29 @@
     <string name="tracksHistoryGrantAccess">Percorsi mancanti\?
 \nFai clic qui per consentire l\'accesso in sola lettura a una cartella dei percorsi personalizzati…</string>
     <string name="pref_category_units_per_profile_title">Unità di misura (per profilo)</string>
+    <string name="infoSpeedometerTitle">Tachimetro</string>
+    <string name="menuAutomaticBell">Campanello automatico</string>
+    <string name="menuSpeedoPaceIndicator">Indicatore andatura</string>
+    <string name="infoSpeedometerMsg">Mostra la velocità corrente, massima e media.
+\n
+\nL\'indicatore spento indica quando il valore della velocità non viene aggiornato da un po\' e non è considerato affidabile.
+\n
+\nLe piccole frecce accanto al valore della velocità rappresentano l\'indicatore andatura e mostrano quando la velocità corrente è sopra o sotto la velocità media.</string>
+    <string name="menuMeterShowValue">Valore</string>
+    <string name="menuSpeedoNeedle">Mostra lancetta</string>
+    <string name="menuMeterShowChart">Grafico</string>
+    <string name="menuSpeedoStallIndicator">Indicatore spento</string>
+    <string name="dialogMeterModesTitle">Scegli i modi disponibili</string>
+    <string name="prefMeterSettingsNoteSummary">Sono disponibili ulteriori impostazioni tramite il menu accessibile con clic prolungato su un campo contatore.</string>
+    <string name="menuSpeedoIndicatorMax">Indicatore max</string>
+    <string name="menuSpeedoBellButton">Pulsante campanello</string>
+    <string name="summaryInaccurateLocationZoneCountInfo">Numero di volte in cui l\'app ha iniziato a rifiutare gli aggiornamenti della posizione a causa della loro imprecisione.
+\n
+\nNota: le aree per le quali non è presente alcun aggiornamento di posizione (es. indoor) non influenzano questo numero.</string>
+    <string name="menuBell">Campanello</string>
+    <string name="menuSpeedoAppearance">Aspetto</string>
+    <string name="menuAdvanced">Avanzato</string>
+    <string name="summaryInaccurateLocationZoneCount">Zone di imprecisione</string>
+    <string name="pref_meterTitle">Contatore</string>
+    <string name="menuSpeedoDisplayMode">Modo schermo</string>
 </resources>
