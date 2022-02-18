@@ -28,7 +28,7 @@
     <string name="menuTracksHistoryResume">Retomar</string>
     <string name="menuMeterLock">Bloquear</string>
     <string name="menuMeterLockAll">Bloquear tudo</string>
-    <string name="menuMeterMode">Modo do medidor…</string>
+    <string name="menuMeterMode">Modo do medidor</string>
     <string name="menuMeterChooseModes">Escolher modos…</string>
     <string name="menuMeterResetMinMax">Repor min/máx</string>
     <string name="menuMeterReset">Terminar</string>
@@ -539,7 +539,6 @@
     <string name="pref_group_flashlight_title">Lanterna</string>
     <string name="pref_category_flashlightBlinkMode_title">Cintilação</string>
     <string name="pref_category_flashlightAutoPocketMode_title">Modo de bolso</string>
-    <string name="pref_category_paceIndicator_title">Indicador de Ritmo</string>
     <string name="pref_category_locationProvider_title">Provedor de GPS</string>
     <string name="pref_category_altitude_adjustments_title">Altitudes</string>
     <string name="pref_category_temperature_title">Temperatura</string>
@@ -600,7 +599,6 @@
     <string name="pref_screenAutoPocketMode_summary">(Todos os perfis) Usar o sensor de proximidade para manter o ecrã desligado quando não necessário</string>
     <string name="pref_ring_on_stop_title">Tocar a cada paragem</string>
     <string name="pref_ring_on_stop_summary">Tocar também a campainha Automática quando a velocidade caír para zero</string>
-    <string name="pref_disable_bell_button_summary">Desativar o toque da campainha ao clicar no velocímetro</string>
     <string name="pref_obey_audio_focus_disable_title">Desativar o foco audio</string>
     <string name="pref_obey_audio_focus_disable_summary">Continuar a produzir sons mesmo se o foco audio se perder (por notificação do sistema ou por outra aplicação)</string>
     <string name="pref_audio_force_loudspeaker_title">Forçar o altifalante</string>
@@ -689,7 +687,6 @@
     <string name="pref_maps_offline_terrain_info_summary">Abrir a página de download em viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Ação do botão de camada</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Todos os perfis) Escolher o que fazer quando o botão de camada for pressionado</string>
-    <string name="pref_button_autoring_enable_summary">Ativar o modo de alternância de campainha automática no velocímetro através de clique longo</string>
     <string name="pref_button_profile_show_title">Perfil</string>
     <string name="pref_button_profile_show_summary">Mostrar o botão de Perfil</string>
     <string name="pref_button_map_show_title">Mapa</string>
@@ -708,7 +705,6 @@
     <string name="pref_meter_lock_summary">Previne a mudança de modo ao clicar</string>
     <string name="pref_meter_modes_select_title">Escolha os modos disponíveis…</string>
     <string name="pref_speedo_display_mode_dialog_title">Aparência do velocímetro</string>
-    <string name="pref_speedo_indicator_needle_summary">Mostrar a agulha no indicador gráfico</string>
     <string name="pref_powermeter_display_mode_dialog_title">Modo de exibição de Potência</string>
     <string name="pref_powermeter_parameters_info_summary">Para leituras mais precisas de Potência e Energia, por favor certifique-se de que estes parâmetros estão corretos!</string>
     <string name="pref_power_weights_title">Pesos</string>
@@ -725,7 +721,6 @@
     <string name="pref_flashlightBlinkMode_dialogTitle">Lanterna a piscar</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Botão de alternância</string>
     <string name="pref_flashlightBlinkModeToggleEnable_summary">Alternar entre modo de piscar com um clique no botão enquando a lanterna estiver ligada</string>
-    <string name="pref_gpsInaccuracyIndicator_summary">Indica a duração dos valores de velocidade, que se tornam mais incertos com o passar do tempo</string>
     <string name="pref_paceIndicator_summary">Mostra quando vai mais rápido ou mais lento do que a velocidade média</string>
     <string name="pref_haptic_feedback_title">Vibrar ao tocar</string>
     <string name="pref_haptic_feedback_intensity_title">Intensidade de vibração</string>
@@ -1430,4 +1425,29 @@
 \nEsses percursos são só de leitura: eles podem ser visualizados e compartilhados, mas não podem ser editados, retomados ou excluídos.
 \n
 \nSe você não tiver certeza, tente encontrar a pasta \"Documents-UrbanBiker-tracks\" no próximo ecrã.</string>
+    <string name="infoSpeedometerTitle">Velocímetro</string>
+    <string name="menuAutomaticBell">Campainha automática</string>
+    <string name="menuSpeedoPaceIndicator">Indicador de ritmo</string>
+    <string name="infoSpeedometerMsg">Mostra sua velocidade atual, máxima e média.
+\n
+\nO indicador de paragem indica quando o valor da velocidade não foi atualizado por um tempo e não pode ser confiável.
+\n
+\nO indicador de ritmo são pequenas setas próximas ao valor da velocidade que mostram quando a velocidade atual está acima ou abaixo da velocidade média.</string>
+    <string name="menuMeterShowValue">Valor</string>
+    <string name="menuSpeedoNeedle">Mostrar agulha</string>
+    <string name="menuMeterShowChart">Gráfico</string>
+    <string name="menuSpeedoStallIndicator">Indicador de paragem</string>
+    <string name="dialogMeterModesTitle">Escolha os modos disponíveis</string>
+    <string name="prefMeterSettingsNoteSummary">Mais configurações estão disponíveis através de um menu que é acessado com um clique longo no campo do medidor.</string>
+    <string name="menuSpeedoIndicatorMax">Indicador máx.</string>
+    <string name="menuSpeedoBellButton">Botão de campainha</string>
+    <string name="summaryInaccurateLocationZoneCountInfo">Número de vezes que a Aplicação começou a rejeitar atualizações de local devido à imprecisão.
+\n
+\nNote que as áreas onde não há atualizações de localização (por exemplo, dentro de casa) não afetam este número.</string>
+    <string name="menuBell">Campainha</string>
+    <string name="menuSpeedoAppearance">Aparência</string>
+    <string name="menuAdvanced">Avançado</string>
+    <string name="summaryInaccurateLocationZoneCount">Zonas de imprecisão</string>
+    <string name="pref_meterTitle">Medidor</string>
+    <string name="menuSpeedoDisplayMode">Modo do ecrã</string>
 </resources>
