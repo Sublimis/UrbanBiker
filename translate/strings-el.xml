@@ -711,7 +711,6 @@
     <string name="pref_flashlightBlinkMode_dialogTitle">Αναλαμπή φακού</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Πλήκτρο εναλλαγής</string>
     <string name="pref_flashlightBlinkModeToggleEnable_summary">Αλλάξτε τη λειτουργία αναλαμπής με το πάτημα ενός κουμπιού ενώ ο φακός είναι ενεργοποιημένος</string>
-    <string name="pref_paceIndicator_summary">Δείχνει όταν πηγαίνετε πιο γρήγορα ή πιο αργά από τη μέση ταχύτητα</string>
     <string name="pref_haptic_feedback_title">Δόνηση κατά την αφή</string>
     <string name="pref_haptic_feedback_intensity_title">Ένταση δόνησης</string>
     <string name="pref_soundsMasterSwitch_title">Όλοι οι ήχοι</string>
@@ -1438,7 +1437,26 @@
     <string name="menuMeterShowValue">Τιμή</string>
     <string name="menuSpeedoNeedle">Προβολή βελόνας</string>
     <string name="menuMeterShowChart">Διάγραμμα</string>
-    <string name="menuSpeedoIndicatorMax">Μέγιστη ένδειξη</string>
+    <string name="menuSpeedoIndicatorMax">Ένδειξη μέγιστου</string>
     <string name="menuSpeedoAppearance">Εμφάνιση</string>
     <string name="menuSpeedoDisplayMode">Λειτουργία προβολής</string>
+    <string name="infoSpeedometerTitle">Ταχύμετρο</string>
+    <string name="menuAutomaticBell">Αυτόματο κουδούνι</string>
+    <string name="menuSpeedoPaceIndicator">Ένδειξη ρυθμού</string>
+    <string name="infoSpeedometerMsg">Δείχνει την τρέχουσα, τη μέγιστη και τη μέση ταχύτητά σας.
+\n
+\nΗ ένδειξη ανακρίβειας υποδεικνύει πότε η τιμή της ταχύτητας δεν ενημερώθηκε για λίγο και δεν είναι αξιόπιστη.
+\n
+\nΗ ένδειξη ρυθμού είναι μικρά βέλη κοντά στην τιμή της ταχύτητας που δείχνουν πότε η τρέχουσα ταχύτητα είναι πάνω ή κάτω από τη μέση ταχύτητα.</string>
+    <string name="menuSpeedoStallIndicator">Ένδειξη ανακρίβειας</string>
+    <string name="dialogMeterModesTitle">Επιλέξτε διαθέσιμους τρόπους λειτουργίας</string>
+    <string name="prefMeterSettingsNoteSummary">Περισσότερες ρυθμίσεις είναι διαθέσιμες μέσω ενός μενού στο οποίο έχετε πρόσβαση κάνοντας παρατεταμένο κλικ σε ένα πεδίο μετρητή.</string>
+    <string name="menuSpeedoBellButton">Κουμπί κουδουνιού</string>
+    <string name="summaryInaccurateLocationZoneCountInfo">Πόσες φορές η εφαρμογή αρχίζει να απορρίπτει ενημερώσεις τοποθεσίας λόγω της ανακρίβειας τους.
+\n
+\nΣημείωση, οι περιοχές όπου δεν υπάρχουν καθόλου ενημερώσεις τοποθεσίας (π.χ. σε εσωτερικούς χώρους) δεν επηρεάζουν αυτόν τον αριθμό.</string>
+    <string name="menuBell">Κουδούνι</string>
+    <string name="menuAdvanced">Προηγμένες</string>
+    <string name="summaryInaccurateLocationZoneCount">Ζώνες ανακρίβειας</string>
+    <string name="pref_meterTitle">Μετρητής</string>
 </resources>
