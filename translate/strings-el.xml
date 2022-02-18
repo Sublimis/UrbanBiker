@@ -28,7 +28,7 @@
     <string name="menuTracksHistoryResume">Επαναφορά</string>
     <string name="menuMeterLock">Κλείδωμα</string>
     <string name="menuMeterLockAll">Κλείδωμα όλων</string>
-    <string name="menuMeterMode">Λειτουργία μετρητή …</string>
+    <string name="menuMeterMode">Λειτουργία μετρητή</string>
     <string name="menuMeterChooseModes">Λειτουργία επιλογής …</string>
     <string name="menuMeterResetMinMax">Επαναφορά ελάχιστου/μέγιστου</string>
     <string name="menuMeterReset">Τερματισμός</string>
@@ -526,7 +526,6 @@
     <string name="pref_group_flashlight_title">Φακός</string>
     <string name="pref_category_flashlightBlinkMode_title">Αναλαμπή</string>
     <string name="pref_category_flashlightAutoPocketMode_title">Λειτουργία τσέπης</string>
-    <string name="pref_category_paceIndicator_title">Δείκτης ρυθμού</string>
     <string name="pref_category_locationProvider_title">Πάροχος GPS</string>
     <string name="pref_category_altitude_adjustments_title">Υψόμετρα</string>
     <string name="pref_category_temperature_title">Θερμοκρασία</string>
@@ -587,7 +586,6 @@
     <string name="pref_screenAutoPocketMode_summary">(Όλα τα προφίλ) Χρησιμοποιήστε τον αισθητήρα εγγύτητας για να απενεργοποιήσετε την οθόνη ενώ δεν είναι απαραίτητη</string>
     <string name="pref_ring_on_stop_title">Κουδούνισμα σε στάση</string>
     <string name="pref_ring_on_stop_summary">Χρήση αυτόματου κουδουνιού όταν μηδενιστεί η ταχύτητα, επίσης</string>
-    <string name="pref_disable_bell_button_summary">Απενεργοποίηση κουδούνιου με κλικ στο ταχύμετρο</string>
     <string name="pref_obey_audio_focus_disable_title">Απενεργοποίηση εστίασης ήχου</string>
     <string name="pref_obey_audio_focus_disable_summary">Συνέχιση παραγωγής ήχων, ακόμη και αν η εστίαση ήχου χάθεί (από κοινοποίησεις συστήματος ή άλλη εφαρμογή)</string>
     <string name="pref_audio_force_loudspeaker_title">Εξαναγκασμός μεγαφώνου</string>
@@ -676,7 +674,6 @@
     <string name="pref_maps_offline_terrain_info_summary">Ανοίξτε τη σελίδα λήψης στο viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Λειτουργία πλήκτρου επιπέδων</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Όλα τα προφίλ) Επιλέξτε την λειτουργία του πλήκτρου επιπέδων</string>
-    <string name="pref_button_autoring_enable_summary">Ενεργοποίηση της εναλλαγής λειτουργίας αυτόματου κουδουνιού στο ταχύμετρο με παρατεταμένο κλικ</string>
     <string name="pref_button_profile_show_title">Προφίλ</string>
     <string name="pref_button_profile_show_summary">Εμφάνιση του πλήκτρου προφίλ</string>
     <string name="pref_button_map_show_title">Χάρτης</string>
@@ -695,7 +692,6 @@
     <string name="pref_meter_lock_summary">Αποτροπή της αλλαγής λειτουργίας με κλικ</string>
     <string name="pref_meter_modes_select_title">Επιλέξτε διαθέσιμες λειτουργίες …</string>
     <string name="pref_speedo_display_mode_dialog_title">Εμφάνιση ταχυμέτρου</string>
-    <string name="pref_speedo_indicator_needle_summary">Εμφάνιση της βελόνας ταχυμέτρου στην ένδειξη γραφικών</string>
     <string name="pref_powermeter_display_mode_dialog_title">Λειτουργία προβολής ενέργειας</string>
     <string name="pref_powermeter_parameters_info_summary">Για ακριβείς μετρήσεις ισχύος και ενέργειας, βεβαιωθείτε ότι αυτές οι παράμετροι είναι σωστές!</string>
     <string name="pref_power_weights_title">Σταθμά</string>
@@ -715,7 +711,6 @@
     <string name="pref_flashlightBlinkMode_dialogTitle">Αναλαμπή φακού</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Πλήκτρο εναλλαγής</string>
     <string name="pref_flashlightBlinkModeToggleEnable_summary">Αλλάξτε τη λειτουργία αναλαμπής με το πάτημα ενός κουμπιού ενώ ο φακός είναι ενεργοποιημένος</string>
-    <string name="pref_gpsInaccuracyIndicator_summary">Δείχνει την αλλοίωση της τιμής της ταχύτητας, καθώς γίνεται όλο και πιο αβέβαιη με το χρόνο</string>
     <string name="pref_paceIndicator_summary">Δείχνει όταν πηγαίνετε πιο γρήγορα ή πιο αργά από τη μέση ταχύτητα</string>
     <string name="pref_haptic_feedback_title">Δόνηση κατά την αφή</string>
     <string name="pref_haptic_feedback_intensity_title">Ένταση δόνησης</string>
@@ -1440,4 +1435,10 @@
 \nΚάντε κλικ εδώ για να παραχωρήσετε πρόσβαση μόνο για ανάγνωση σε έναν φάκελο προσαρμοσμένων διαδρομών…</string>
     <string name="pref_category_units_per_profile_title">Μονάδες μέτρησης (ανά προφίλ)</string>
     <string name="dialogOfflineMapsFolderCopyTitle">Αντιγραφή στο φάκελο χαρτών</string>
+    <string name="menuMeterShowValue">Τιμή</string>
+    <string name="menuSpeedoNeedle">Προβολή βελόνας</string>
+    <string name="menuMeterShowChart">Διάγραμμα</string>
+    <string name="menuSpeedoIndicatorMax">Μέγιστη ένδειξη</string>
+    <string name="menuSpeedoAppearance">Εμφάνιση</string>
+    <string name="menuSpeedoDisplayMode">Λειτουργία προβολής</string>
 </resources>
