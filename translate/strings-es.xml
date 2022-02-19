@@ -27,7 +27,7 @@
     <string name="menuTracksHistoryResume">Continuar</string>
     <string name="menuMeterLock">Bloquear</string>
     <string name="menuMeterLockAll">Bloquear todo</string>
-    <string name="menuMeterMode">Sistema de medida…</string>
+    <string name="menuMeterMode">Sistema de medida</string>
     <string name="menuMeterChooseModes">Seleccionar modos…</string>
     <string name="menuMeterResetMinMax">Reiniciar mín/máx</string>
     <string name="menuMeterParameters">Parámetros…</string>
@@ -372,7 +372,6 @@
     <string name="pref_group_flashlight_title">Linterna</string>
     <string name="pref_category_flashlightBlinkMode_title">Parpadeante</string>
     <string name="pref_category_flashlightAutoPocketMode_title">Modo bolsillo</string>
-    <string name="pref_category_paceIndicator_title">Indicador de ritmo</string>
     <string name="pref_category_locationProvider_title">Proveedor de GPS</string>
     <string name="pref_category_altitude_adjustments_title">Altitudes</string>
     <string name="pref_category_temperature_title">Temperatura</string>
@@ -429,7 +428,6 @@
     <string name="pref_screenAutoPocketMode_summary">(Todos los perfiles) Utilice el sensor de proximidad para mantener la pantalla apagada mientras no sea necesario</string>
     <string name="pref_ring_on_stop_title">Timbre al parar</string>
     <string name="pref_ring_on_stop_summary">También tocar el timbre automáticamente cuando la velocidad se reduce a cero</string>
-    <string name="pref_disable_bell_button_summary">Deshabilitar el timbre al pulsar sobre el velocímetro</string>
     <string name="pref_obey_audio_focus_disable_title">Deshabilitar foco de audio</string>
     <string name="pref_obey_audio_focus_disable_summary">Continuar produciendo sonidos incluso al perder el foco de audio (por notificación del sistema u otra app)</string>
     <string name="pref_audio_force_loudspeaker_title">Forzar altavoz potente</string>
@@ -505,7 +503,6 @@
     <string name="pref_maps_routes_files_dialog_title">Seleccionar carpeta o fichero de rutas</string>
     <string name="pref_maps_routes_files_noFolderSelected">Ninguna carpeta seleccionada.</string>
     <string name="pref_maps_quickZoomInvert_title">Invertido</string>
-    <string name="pref_button_autoring_enable_summary">Habilitar alternancia del modo de timbre automático mediante clic largo en el velocímetro</string>
     <string name="pref_button_profile_show_title">Perfil</string>
     <string name="pref_button_profile_show_summary">Mostrar el botón de Perfil</string>
     <string name="pref_button_map_show_title">Mapa</string>
@@ -524,7 +521,6 @@
     <string name="pref_meter_lock_summary">Previene el cambio de modo al hacer clic</string>
     <string name="pref_meter_modes_select_title">Escoja modos disponibles…</string>
     <string name="pref_speedo_display_mode_dialog_title">Apariencia del velocímetro</string>
-    <string name="pref_speedo_indicator_needle_summary">Mostrar la aguja en el indicador gráfico</string>
     <string name="pref_powermeter_display_mode_dialog_title">Modo de visualización de potencia</string>
     <string name="pref_powermeter_parameters_info_summary">Para lecturas precisas de potencia y energía, por favor, ¡asegúrese de que estos parámetros son correctos!</string>
     <string name="pref_power_weights_title">Pesos</string>
@@ -542,7 +538,6 @@
     <string name="pref_flashlightBlinkMode_dialogTitle">Parpadeo de linterna</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Botón de alternancia</string>
     <string name="pref_flashlightBlinkModeToggleEnable_summary">Alternar parpadeo mediante clic de botón, mientras la linterna esté encendida</string>
-    <string name="pref_gpsInaccuracyIndicator_summary">Indica el envejecimiento del valor de la velocidad, ya que ésta se vuelve más incierta con el tiempo</string>
     <string name="pref_paceIndicator_summary">Muestra cuando se va más rápido o más lento que la velocidad media</string>
     <string name="pref_haptic_feedback_title">Vibrar al tocar</string>
     <string name="pref_haptic_feedback_intensity_title">Intensidad de la vibración</string>
@@ -1427,4 +1422,29 @@
     <string name="tracksHistoryGrantAccess">¿Los recorridos personalizados no aparecen\?
 \nHaga clic aquí para otorgar acceso de solo lectura a la carpeta donde se almacenan…</string>
     <string name="pref_category_units_per_profile_title">Unidades de medida (por perfil)</string>
+    <string name="infoSpeedometerTitle">Velocímetro</string>
+    <string name="menuAutomaticBell">Timbre automático</string>
+    <string name="menuSpeedoPaceIndicator">Indicador de ritmo</string>
+    <string name="infoSpeedometerMsg">Muestra tu velocidad actual, máxima y media.
+\n
+\nEl indicador de bloqueo indica cuándo el valor de velocidad lleva sin actualizarse durante tiempo y, por tanto, no se puede confiar en él.
+\n
+\nLos indicadores de ritmo son pequeñas flechas cerca del valor de velocidad que representan cuándo la velocidad actual está, respectivamente, por encima o por debajo de la velocidad media.</string>
+    <string name="menuMeterShowValue">Valor</string>
+    <string name="menuSpeedoNeedle">Mostrar aguja</string>
+    <string name="menuMeterShowChart">Gráfico</string>
+    <string name="menuSpeedoStallIndicator">Indicador de parada</string>
+    <string name="dialogMeterModesTitle">Elija modos disponibles</string>
+    <string name="prefMeterSettingsNoteSummary">Hay más configuraciones disponibles a través de un menú al que se accede mediante clic largo sobre un campo contador.</string>
+    <string name="menuSpeedoIndicatorMax">Indicador máx</string>
+    <string name="menuSpeedoBellButton">Botón de timbre</string>
+    <string name="summaryInaccurateLocationZoneCountInfo">Número de veces que la aplicación comenzó a rechazar las actualizaciones de ubicación debido a su inexactitud.
+\n
+\nTenga en cuenta que este número no es afectado por las áreas donde no hay actualizaciones de ubicación (por ejemplo, en interiores).</string>
+    <string name="menuBell">Timbre</string>
+    <string name="menuSpeedoAppearance">Apariencia</string>
+    <string name="menuAdvanced">Avanzado</string>
+    <string name="summaryInaccurateLocationZoneCount">Zonas imprecisas</string>
+    <string name="pref_meterTitle">Contador</string>
+    <string name="menuSpeedoDisplayMode">Modo de visualización</string>
 </resources>
