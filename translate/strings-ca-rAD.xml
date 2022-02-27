@@ -28,7 +28,7 @@
     <string name="menuTracksHistoryResume">Continua</string>
     <string name="menuMeterLock">Bloca</string>
     <string name="menuMeterLockAll">Bloca-ho tot</string>
-    <string name="menuMeterMode">Sistema de mesura…</string>
+    <string name="menuMeterMode">Sistema de mesura</string>
     <string name="menuMeterChooseModes">Selecciona mode…</string>
     <string name="menuMeterResetMinMax">Restableix mín/màx</string>
     <string name="menuMeterReset">Finalitza</string>
@@ -42,7 +42,7 @@
     <string name="menuProfiles">Perfils</string>
     <string name="menuSensors">Sensors</string>
     <string name="menuAbout">Quant a</string>
-    <string name="menuHelp">Ajuda &amp; Suport</string>
+    <string name="menuHelp">Ajuda i Suport</string>
     <string name="menuShare">Comparteix</string>
     <string name="menuUpload">Puja</string>
     <string name="menuSelectMode">Selecciona</string>
@@ -259,7 +259,7 @@
     <string name="dialogStoragePermissionRequestTitle">Permís d\'emagatzematge</string>
     <string name="dialogStoragePermissionRequest">L\'app necessita accedir a l\'emmagatzematge per a poder desar i recuperar les vostres rutes i configuracions.
 \n
-\nSense donar aquests permisos no podreu veure l\'historial de rutes ni compartir-les i podries perdre les teves dades.</string>
+\nSense donar aquests permisos no podreu veure l\'historial de rutes ni compartir-les i podríeu perdre les vostres dades.</string>
     <string name="dialogCameraPermissionRequestTitle">Permis de càmera</string>
     <string name="dialogCameraPermissionRequest">El permís és necessari per a poder activar el flaix.</string>
     <string name="dialogPermissionProblemMessage">Aquest permís es necessita per part de l\'aplicació per a funcionar correctament. Aquest pot ser concedit des de la pàgina de permisos d\'Aplicacions.
@@ -711,7 +711,6 @@
     <string name="pref_flashlightBlinkMode_dialogTitle">Llanterna pampalluguejant</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Commuta botó</string>
     <string name="pref_flashlightBlinkModeToggleEnable_summary">Commuta el mode pampalluguejant pitjant el botó mentre el mode de llanterna està engegat</string>
-    <string name="pref_paceIndicator_summary">Mostra quan es va més ràpid o més lent que la velocitat mitja</string>
     <string name="pref_haptic_feedback_title">Vibrar en tocar</string>
     <string name="pref_haptic_feedback_intensity_title">Intensitat de la vibració</string>
     <string name="pref_soundsMasterSwitch_title">Tots els sons</string>
@@ -1037,7 +1036,7 @@
     <string name="meterModes_19">Ritme cardíac</string>
     <string name="trackUploadActivityTypes_1">Córrer</string>
     <string name="dialogLoginUsernameHint">Nom d\'usuari</string>
-    <string name="disclaimerText3">Mantingueu sempre els ulls a la carretera</string>
+    <string name="disclaimerText3">Mantingueu sempre els ulls a la carretera.</string>
     <string name="prefScreensaverTimeoutEntries_0">5 segons</string>
     <string name="summaryDeviceName">Dispositiu</string>
     <string name="powerSourceWeight_3">Conductor + Vehicle</string>
@@ -1177,4 +1176,54 @@
     <string name="controlPanelSensorsButtonTitle">Sensors</string>
     <string name="disclaimerTitle">Avís legal</string>
     <string name="meterModeRadius">radi</string>
+    <string name="meterModeKineticEnergyShort">en cin</string>
+    <string name="menuAutomaticBell">Timbre automàtic</string>
+    <string name="menuSpeedoPaceIndicator">Indicador de ritme</string>
+    <string name="menuMeterShowValue">Valor</string>
+    <string name="dialogRevokeAccessPromptMessage">Revocar accés\?</string>
+    <string name="menuRevokeAccess">Revocar accés</string>
+    <string name="menuSpeedoNeedle">Mostrar agulla</string>
+    <string name="menuMeterShowChart">Gràfic</string>
+    <string name="menuSpeedoStallIndicator">Indicador de parada</string>
+    <string name="menuSelectOther">Seleccionar un altre</string>
+    <string name="dialogBluetoothPermissionRequest">Es necessita permís perquè l\'app pugui cercar i connectar amb sensors sense fils.</string>
+    <string name="dialogCopyingMessage">Copiant…</string>
+    <string name="summaryRollResistCoefAverageInfo">Mitjana del coeficient de resistència al rodament si aquest ha canviat durant l\'activitat.</string>
+    <string name="dialogOfflineMapsChooseMessage">L\'arxiu del mapa no es troba o no és accessible. Desitges escollir un altre arxiu o carpeta ara\?</string>
+    <string name="menuChooseFolder">Carpeta</string>
+    <string name="summaryBasalMetabolicRateInfo">Taxa metabòlica basal (BMR).</string>
+    <string name="menuCustomTracksFolder">Carpeta de recorreguts personalitzats</string>
+    <string name="dialogOfflineMapsChooseTitle">Problema amb mapes offline</string>
+    <string name="dialogBluetoothPermissionRequestTitle">Permís Bluetooth</string>
+    <string name="dialogMeterModesTitle">Escull modes disponibles</string>
+    <string name="menuChooseFile">Arxiu</string>
+    <string name="summaryWheelsWeightInfo">Suma dels pesos de totes les rodes del vehicle utilitzat en aquest recorregut.</string>
+    <string name="menuSpeedoIndicatorMax">Indicador màx</string>
+    <string name="menuSpeedoBellButton">Botó de timbre</string>
+    <string name="dialogCustomTracksFolderInfoMessage">Aquesta funció permet que l\'aplicació llegeixi recorreguts d\'una carpeta a la teva elecció, a més a més d\'aquella ja predeterminada per l\'aplicació—l\'aplicació de la qual ha canviat recentment.
+\n
+\nAquests recorreguts són només de lectura: poden veure\'s i compartir-se, però no és possible editar, reprendre ni eliminar-los.
+\n
+\nSi no estàs segur, intenta cercar la carpeta \"Documents-UrbanBiker-tracks\" en la pantalla a continuació.</string>
+    <string name="summaryRollResistCoefInfo">Coeficient de resistència al rodament.</string>
+    <string name="dialogOfflineMapsFolderCopyMessage">Per a poder ser utilitzat, el contingut seleccionat ha de copiar-se en la carpeta específica de l\'aplicació on hi ha els mapes.
+\n
+\nFem la còpia ara\?</string>
+    <string name="summaryRollResistCoefAverage">Mitjana del coeficient de resistència al rodament</string>
+    <string name="menuBell">Timbre</string>
+    <string name="menuSelect">Seleccionar</string>
+    <string name="menuSpeedoAppearance">Aparença</string>
+    <string name="summaryDragAreaInfo">Àrea de resistència a l\'aire (Cd·A).</string>
+    <string name="summaryEfficiencyInfo">Eficiència tèrmica general respecte a la potència del recorregut.</string>
+    <string name="menuAdvanced">Avançat</string>
+    <string name="summaryTotalWeightInfo">Suma de tots els pesos utilitzats durant la gravació d\'aquest recorregut (atleta, vehicle, càrrega …).</string>
+    <string name="tracksHistoryGrantAccess">Els recorreguts personalitzats no apareixen\?
+\nClica qui per concedir accés de només lectura a la carpeta on s\'emmagatzemen…</string>
+    <string name="menuSpeedoDisplayMode">Estil de visualització</string>
+    <string name="dialogOfflineMapsFolderCopyTitle">Copiar a la carpeta de mapes</string>
+    <string name="powerSourceWeightInfo">En convertir la potència (watts) en potència específica (watts per unitat de pes), ha de donar-se un pes.
+\n
+\nAquest acostuma a ser el pes de l\'entitat que proporciona una força impulsora.
+\n
+\nNota: la potència vertical sempre es calcula utilitzant el pes total.</string>
 </resources>
