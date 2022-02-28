@@ -275,7 +275,7 @@
     <string name="dialogPowerWeightsWeightWheels">Rodas</string>
     <string name="dialogPowerParamsTitle">Coeficientes de perda de potencia</string>
     <string name="dialogPowerParamsDragArea">Área de resistenza aerodinámica ( Cd·A)</string>
-    <string name="dialogPowerParamsRollResist">Coef. de resistencia a rodadura (Crr)</string>
+    <string name="dialogPowerParamsRollResist">Coef. de resistencia a rodadura (Cᵣᵣ)</string>
     <string name="dialogEnergyParamsTitle">Parámetros de enerxía</string>
     <string name="dialogEnergyParamsEfficiency">Eficiencia térmica total (η)</string>
     <string name="dialogEnergyParamsBmr">Taxa metabólica basal (TMB)</string>
@@ -312,7 +312,7 @@
     <string name="dialogStoragePermissionRequestTitle">Permiso de almacenamento</string>
     <string name="dialogStoragePermissionRequest">A aplicación necesita acceder ao almacenamento para poder gardar ou restaurar os seus percorridos e configuracións.
 \n
-\nSen dar o devandito permiso, non poderá ver o historial de percorridos nin compartilos, e podería perder datos.</string>
+\nSen dar o devandito permiso, é posible que non sexa capaz de ver o historial de percorridos, e podería perder os teus datos.</string>
     <string name="dialogCameraPermissionRequestTitle">Permisos de cámara</string>
     <string name="dialogCameraPermissionRequest">Necesítase permiso para que a app poida acender a lanterna.</string>
     <string name="dialogPermissionProblemMessage">Este permiso é necesario para que a aplicación funcione correctamente. Pódese outorgar na páxina de configuración de permisos da aplicación.
@@ -836,7 +836,7 @@
     <string name="pref_mapsWeatherPrecipitationRadar_info">Os datos de radar son descargados da internet, incluso utilizando mapas fóra de liña. Actualízanse automáticamente cada 10 minutos mentres o mapa está visible. A fonte de datos é RainViewer.com.</string>
     <string name="pref_mapsWeatherAnimate_title">Animar</string>
     <string name="pref_mapsWeatherAnimate_summary">Animar a última hora dos datos de radar, para axudarche a visualizar a tendencia de precipitacións</string>
-    <string name="pref_mapsWeatherAnimate_info">A animación do radar utiliza 5x máis datos da internet que a dunha imaxe de radar estática.</string>
+    <string name="pref_mapsWeatherAnimate_info">A animación do radar pode utilizar 5x máis datos da internet que a dunha imaxe de radar estática.</string>
     <string name="pref_button_profile_show_title">Perfil</string>
     <string name="pref_button_profile_show_summary">Mostrar o botón de Perfil</string>
     <string name="pref_button_map_show_title">Mapa</string>
@@ -1014,7 +1014,7 @@
     <string name="meterModes_27">Pasos</string>
     <string name="meterModes_28">Cadencia de paso</string>
     <string name="pref_gps_update_freq_entries_0">Máis rápido</string>
-    <string name="pref_gps_update_freq_entries_2">Por omisión</string>
+    <string name="pref_gps_update_freq_entries_2">Adaptativo (por omisión)</string>
     <string name="pref_gps_update_freq_entries_3">1 seg</string>
     <string name="pref_gps_update_freq_entries_4">2 seg</string>
     <string name="pref_gps_update_freq_entries_5">3 seg</string>
@@ -1357,4 +1357,15 @@
     <string name="pref_mapsWeatherCoverage_summary">Sombrear áreas onde non haxa cobertura do radar de precipitacións</string>
     <string name="pref_mapsWeatherCoverage_title">Máscara de cobertura</string>
     <string name="pref_screensaverDimBrightness_title">Atenuar brillo</string>
+    <string name="menuAutomaticBell">Timbre automático</string>
+    <string name="menuSpeedoPaceIndicator">Indicador de ritmo</string>
+    <string name="menuMeterShowValue">Valor</string>
+    <string name="menuSpeedoNeedle">Mostrar agulla</string>
+    <string name="menuMeterShowChart">Gráfica</string>
+    <string name="menuSpeedoStallIndicator">Indicador de parada</string>
+    <string name="menuSpeedoIndicatorMax">Indicador máx</string>
+    <string name="menuSpeedoBellButton">Botón de timbre</string>
+    <string name="menuBell">Timbre</string>
+    <string name="menuSpeedoAppearance">Aspecto</string>
+    <string name="menuSpeedoDisplayMode">Modo de visualización</string>
 </resources>
