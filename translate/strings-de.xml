@@ -28,7 +28,7 @@
     <string name="menuTracksHistoryResume">Fortsetzen</string>
     <string name="menuMeterLock">Sperren</string>
     <string name="menuMeterLockAll">Alles sperren</string>
-    <string name="menuMeterMode">Anzeigemodus…</string>
+    <string name="menuMeterMode">Anzeigemodus</string>
     <string name="menuMeterChooseModes">Modi wählen…</string>
     <string name="menuMeterResetMinMax">Min/Max zurücksetzen</string>
     <string name="menuMeterReset">Aufzeichnung beenden</string>
@@ -143,7 +143,7 @@
     <string name="dialog_fenceguard_add_text2">Der Bereich um deinen momentanen Standort wird als Schutzzone markiert, um ihn bei der Streckenaufzeichnung zu verbergen.</string>
     <string name="dialog_fenceguard_update_title">Schutzzone aktualisieren</string>
     <string name="dialog_fenceguard_update_text">Name der Schutzzone:</string>
-    <string name="dialog_fenceguard_update_text2">"Der Bereich um deinen momentanen Standort wird durch die Markierung als Schutzzone  von der Streckenaufzeichnung ausgeschlossen."</string>
+    <string name="dialog_fenceguard_update_text2">Der Bereich um deinen momentanen Standort wird durch die Markierung als Schutzzone von der Streckenaufzeichnung ausgeschlossen.</string>
     <string name="dialog_fenceguard_remove_title">Schutzzone entfernen</string>
     <string name="dialog_fenceguard_remove_defaultText">Bist du sicher, dass du die Schutzzone entfernen möchtest\?</string>
     <string name="dialog_fenceguard_remove_formatText">Bist du sicher, dass du die Schutzzone %1$s entfernen möchtest\?</string>
@@ -177,7 +177,7 @@
     <string name="dialogTrackResumeProfileNotBlankMessage">Zielprofil %1$s ist nicht leer. Bitte erst zurücksetzen.</string>
     <string name="dialogTrackResumeProfileSwitchMessage">Aktives Profil wird von %1$s zu %2$s gewechselt. Fortsetzen\?</string>
     <string name="dialogTrackResumeProfileMissingMessage">Das Profil %1$s, mit dem die Strecke aufgezeichnet wurde, existiert nicht mehr. Im aktuellen Profil %2$s fortfahren\?</string>
-    <string name="dialogTrackResumeGeneralPromptMessage">"Strecke wird im Profil %1$s  wieder aufgenommen. Fortsetzen\?"</string>
+    <string name="dialogTrackResumeGeneralPromptMessage">Strecke wird im Profil %1$s wieder aufgenommen. Fortsetzen\?</string>
     <string name="dialogTrackResumeGeneralErrorMessage">Ein Fehler ist aufgetreten. Bitte noch einmal versuchen.</string>
     <string name="dialogTrackResumeWaitMessage">Wird fortgesetzt, bitte warten…</string>
     <string name="dialogTracksShareTitle">Strecken teilen</string>
@@ -228,7 +228,7 @@
     <string name="dialogPowerWeightsWeightWheels">Räder</string>
     <string name="dialogPowerParamsTitle">Koeff. des Leistungsverlusts</string>
     <string name="dialogPowerParamsDragArea">Strömungswiderstandskoeff. (Cd-A)</string>
-    <string name="dialogPowerParamsRollResist">Rollwiderstandskoeff. (Crr)</string>
+    <string name="dialogPowerParamsRollResist">Rollwiderstandskoeff. (Cᵣᵣ)</string>
     <string name="dialogEnergyParamsTitle">Energieparameter</string>
     <string name="dialogEnergyParamsEfficiency">Gesamt-Effizienz (η)</string>
     <string name="dialogEnergyParamsBmr">Basale Stoffwechselrate</string>
@@ -250,9 +250,9 @@
     <string name="dialogLocationPermissionRequestTitle">Berechtigung zur Standortermittlung</string>
     <string name="dialogLocationPermissionRequest">Die App muss auf Ihren Standort zugreifen dürfen, um Outdoor-Aktivitäten aufzeichnen zu können.</string>
     <string name="dialogStoragePermissionRequestTitle">Speicherzugriffsberechtigung</string>
-    <string name="dialogStoragePermissionRequest">Die App muss auf den Speicher zugreifen können, damit Strecken und Einstellungen gespeichert und wiederhergestellt werden können. 
-\n 
-\nOhne diese Berechtigung kannst du weder auf den Streckenverlauf zugreifen noch Strecken teilen, und Datenverlust kann die Folge sein.</string>
+    <string name="dialogStoragePermissionRequest">Die App muss auf den Speicher zugreifen können, damit Strecken und Einstellungen gespeichert und wiederhergestellt werden können.
+\n
+\nOhne diese Berechtigung kannst du unter Umständern nicht auf den Streckenverlauf zugreifen, und Datenverlust kann die Folge sein.</string>
     <string name="dialogCameraPermissionRequestTitle">Kamerazugriffsberechtigung</string>
     <string name="dialogCameraPermissionRequest">Diese Berechtigung wird benötigt, damit die App die Taschenlampe aktivieren kann.</string>
     <string name="dialogPermissionProblemMessage">Diese Berechtigung ist zur korrekten Funktion der App notwendig. Sie kann in den Berechtigungseinstellungen für die App erteilt werden. 
@@ -520,8 +520,7 @@
     <string name="pref_bell_shake_sensitivity_title">Schüttelempfindlichkeit</string>
     <string name="pref_roaring_type_title">Typ</string>
     <string name="pref_roaring_type_dialog_title">AVAS-Typ</string>
-    <string name="pref_volume_summary_text">Klingel: %1$s, AVAS: %2$s 
-\nZwischenstände: %3$s, Effekte: %4$s, Alarme: %5$s, Sprache: %6$s</string>
+    <string name="pref_volume_summary_text">Klingel: %1$s, AVAS: %2$s, Zwischenstände: %3$s, Effekte: %4$s, Alarme: %5$s, Sprache: %6$s</string>
     <string name="pref_bg_color_title">Hintergrundfarbe</string>
     <string name="pref_bg_color_summary">Wähle die gewünschte Farbe für den App-Hintergrund</string>
     <string name="pref_fg_color_title">Textfarbe</string>
@@ -659,9 +658,9 @@
     <string name="pref_haptic_feedback_intensity_title">Vibrationsdauer</string>
     <string name="pref_soundsMasterSwitch_title">Alle Töne</string>
     <string name="prefBarometricAltitudeTitle">Barometrische Höhe</string>
-    <string name="prefBarometricAltitudeSummary">Drucksensordaten zur Verbesserung der Genauigkeit der Höhenmessung verwenden</string>
+    <string name="prefBarometricAltitudeSummary">Drucksensordaten zur Verbesserung der Genauigkeit der Höhenmessung verwenden, wenn verfügbar</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Thermo-Barometer</string>
-    <string name="prefBaroAltitudeUsesTemperatureSummary">Daten des Temperatursensors für genauere barometrische Höhenmessung nutzen</string>
+    <string name="prefBaroAltitudeUsesTemperatureSummary">Daten des Temperatursensors für genauere barometrische Höhenmessung nutzen, wenn verfügbar</string>
     <string name="prefBarometricAltitudeNoteSummary">Benutze diese Funktionen nur unter freiem Himmel! In unter Druck stehenden, geschlossenen oder klimatisierten Fahrzeugen wie Autos oder Flugzeugen solltest du sie deaktivieren!</string>
     <string name="prefTemperatureSensorDerivedTitle">Abgeleiteten Sensor nutzen</string>
     <string name="prefTemperatureSensorDerivedSummary">Dieses Gerät hat keinen Temperatursensor, die Temperatur kann aber aus anderen Sensorwerten abgeleitet werden. Bitte in der Hilfe nachlesen.</string>
@@ -726,7 +725,7 @@
     <string name="dialogTracksShareChoices_1">Nur GPX</string>
     <!-- pref_gps_update_freq_entries -->
     <string name="pref_gps_update_freq_entries_0">Schnellste</string>
-    <string name="pref_gps_update_freq_entries_2">Standard</string>
+    <string name="pref_gps_update_freq_entries_2">Adaptiv (Standard)</string>
     <string name="pref_gps_update_freq_entries_3">1 Sekunde</string>
     <string name="pref_gps_update_freq_entries_4">2 Sekunden</string>
     <string name="pref_gps_update_freq_entries_5">3 Sekunden</string>
@@ -761,11 +760,11 @@
     <string name="pref_wakelock_modes_explanation_2">Erlaubt der CPU zwischen den Standortaktualisierungen in den Schlafmodus zu wechseln. Weniger Akkuverbrauch möglich, regelmäßige Standortaktualisierung könnte ausbleiben.</string>
     <string name="pref_wakelock_modes_explanation_3">Verhalten vom System und/oder anderen Apps abhängig machen. Warnung: Könnte unkorrekte oder sogar fehlende Standortaktualisierungen verursachen. Nicht empfohlen.</string>
     <!-- pref_locationProvider_modes -->
-    <string name="pref_locationProvider_modes_0">GPS-Subsystem (Standard)</string>
+    <string name="pref_locationProvider_modes_0">GPS-Subsystem</string>
     <string name="pref_locationProvider_modes_1">Google Play-Dienste</string>
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Alle Profile) GPS-Subsystem direkt verwenden. Stabil, weniger komplexes Modell, keine Zwischenschicht. Könnte auch weniger Ressourcen als andere Provider benötigen.</string>
-    <string name="pref_locationProvider_modes_explanation_1">(Alle Profile) \"Fused\"-Provider der Google Play-Dienste verwenden, wenn verfügbar. Theoretisch bietet dies manchmal schnellere und genauere Standortbestimmung. Probiere einfach aus, wie gut es bei dir funktioniert.</string>
+    <string name="pref_locationProvider_modes_explanation_1">(Alle Profile) \"Fused\"-Provider der Google Play-Dienste verwenden, wenn verfügbar. Theoretisch bietet dies manchmal schnellere und genauere Standortbestimmung.</string>
     <!-- pref_flashlightBlinkModes -->
     <string name="pref_flashlightBlinkModes_0">Langsam (Standard)</string>
     <string name="pref_flashlightBlinkModes_1">Schnell</string>
@@ -852,8 +851,10 @@
 \n 
 \nJetzt die Standort-Einstellungen öffnen\?</string>
     <string name="dialogTrackUploadStravaIsCommute">Pendelstrecke</string>
-    <string name="dialogGpsIntervalLabelMore">Höhere Genauigkeit, benötigt mehr Akkuleistung</string>
-    <string name="dialogGpsIntervalLabelLess">Geringere Genauigkeit, benötigt geringere Akkuleistung</string>
+    <string name="dialogGpsIntervalLabelMore">◀
+\nHöhere Genauigkeit, benötigt mehr Akkuleistung</string>
+    <string name="dialogGpsIntervalLabelLess">▶
+\nGeringere Genauigkeit, benötigt geringere Akkuleistung</string>
     <string name="dialogLocationPermissionRequestForBt">Die Berechtigung für Ortungsdienste wird benötigt, um Bluetooth-Geräte finden zu können. 
 \n 
 \nOhne die Berechtigung können keine Bluetooth-Geräte gefunden werden.</string>
@@ -884,8 +885,10 @@
     <string name="proPlusLicenseFeatures">🔹 Keine Werbung
 \n🔹Zusätzliche Spende</string>
     <string name="proLicenseFeatures">🔹Keine Werbung</string>
-    <string name="thunderforestMapsFeatures">✔ Keine Werbung ✔ Thunderforest-Karten</string>
-    <string name="mapboxMapsFeatures">✔ Keine Werbung ✔ Mapbox-Karten</string>
+    <string name="thunderforestMapsFeatures">🔹Keine Werbung
+\n🔹Thunderforest-Karten</string>
+    <string name="mapboxMapsFeatures">🔹Mapbox-Karten
+\n🔹Keine Werbung</string>
     <string name="priceFree">kostenlos</string>
     <string name="rewardedAdDescription">Hier berühren, um eine Anzeige anzusehen</string>
     <string name="rewardedAdLoading">Lade Anzeige…</string>
@@ -1182,7 +1185,7 @@
     <string name="controlPanelScreenOrientation">Bildschirmausrichtung</string>
     <string name="pref_mapsWeatherAnimate_title">Animation</string>
     <string name="pref_mapsWeatherAnimate_summary">Radardaten der letzten Stunde animieren, um den Niederschlags-Trend besser erfassen zu können</string>
-    <string name="pref_mapsWeatherAnimate_info">Animierte Radardaten benötigen die 5-fache Datenmenge im Vergleich zu statischen Radarbildern.</string>
+    <string name="pref_mapsWeatherAnimate_info">Animierte Radardaten können bis zu 5 mal mehr Daten im Vergleich zu statischen Radarbildern benötigen.</string>
     <string name="menuMeterStart">Starten</string>
     <string name="menuMeterStop">Anhalten</string>
     <string name="dialogScreenshotTitle">Bildschirmfoto</string>
@@ -1238,7 +1241,7 @@
     <string name="dialogMapsMapCount">%1$s Karten</string>
     <string name="maptilerMapsFeatures">🔹 MapTiler-Karten
 \n🔹 Keine Werbung</string>
-    <string name="dialogMapsChooseTitle">Karte auswählen</string>
+    <string name="dialogMapsChooseTitle">Karte wählen</string>
     <string name="meterModes_30">Radius</string>
     <string name="sensorProperitesFilterIntervalInfo">Filterintervall, d.h. die Stärke des Filters. Größere Werte filtern stärker, führen aber auch zu einer größeren Verzögerung.</string>
     <string name="sensorFilterInterval_0">3 Sekunden (Standard)</string>
@@ -1317,4 +1320,91 @@
     <string name="pref_speechGnssStatus_summary">Änderungen in GPS-Signalqualität ansagen</string>
     <string name="speechTrackingStart">Start</string>
     <string name="speechTrackingResume">Los</string>
+    <string name="pref_categoryPrivacyTitle">Privatsphäre</string>
+    <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ hat einen Wertebereich zwischen 0 und 10%; der Standardwert ist 1%. Wenn du die AutoTerrain-Funktion verwendest, trage einen Ausgangswert für ebenes Gelände ein, da die App im Allgemeinen den Koeffizienten in unebenem Gelände erhöht.</string>
+    <string name="pref_categoryActivityRecognitionTitle">Aktivitätserkennung</string>
+    <string name="prefBarometricAltitudeDisableAlert">Den Drucksensor nicht mehr zur Höhenmessung verwenden\?</string>
+    <string name="menuScreenshot">Bildschirmfoto</string>
+    <string name="menuAutomaticBell">Automatische Klingel</string>
+    <string name="menuSpeedoPaceIndicator">Tendenzanzeige</string>
+    <string name="pref_screensaverDimBrightnessDialogTitle">Abgedunkelte Helligkeit</string>
+    <string name="pref_screensaverTimeout_summary">Zeit ohne Nutzeraktionen, nach der der Bildschirm abgedunkelt wird.</string>
+    <string name="menuMeterShowValue">Wert</string>
+    <string name="dialogRevokeAccessPromptMessage">Zugriff widerrufen\?</string>
+    <string name="summaryVibrations">Vibrationen</string>
+    <string name="unitNewtonPerKg">N/kg</string>
+    <string name="menuRevokeAccess">Zugriff widerrufen</string>
+    <string name="menuSpeedoNeedle">Nadel anzeigen</string>
+    <string name="menuMeterShowChart">Graph</string>
+    <string name="menuSpeedoStallIndicator">Stillstandsanzeige</string>
+    <string name="menuSelectOther">Anderen Ordner auswählen</string>
+    <string name="prefMapDiskCacheAgeTitle">Max. Karten-Cache-Alter</string>
+    <string name="pref_mapsShowAttribution_summary">(Alle Profile) Name des Kartenherstellers für Online-Karten, die nicht von Google stammen, anzeigen. Ausschalten, um versehentliches Öffnen von Links zu verhindern.</string>
+    <string name="prefActivityRecognitionNoteSummary">Diese Funktionen verwenden die in Android eingebaute Aktivitätserkennung. Diese kann ungenau oder verzögert sein, also verwende diese Funktionen nur, wenn du damit leben kannst. Am besten funktioniert es, wenn ein Geschwindigkeitssensor für Entfernung und Dauer verwendet wird.</string>
+    <string name="dialogBluetoothPermissionRequest">Diese Berechtigung wird benötigt, um kabellose Sensoren zu finden und zu verbinden.</string>
+    <string name="sensorProperitesNoAlarm">Nicht alarmieren</string>
+    <string name="prefGnssActivityRecognitionSummary">Stillstand und Bewegung in GPS-Positionen erkennen. Dies verhindert Sprünge in der GPS-Position durch Messungenauigkeiten, kann allerdings Verzögerungen verursachen und dazu führen, dass Streckenabschnitte nach einer Pause nicht aufgezeichnet werden.</string>
+    <string name="dialogCopyingMessage">Kopiere…</string>
+    <string name="summaryRollResistCoefAverageInfo">Durchschnittlicher Rollwiderstandskoeffizient, falls sich der Koeffizient während der Aktivität verändert hat.</string>
+    <string name="dialogOfflineMapsChooseMessage">Die Karten-Datei wurde nicht gefunden oder kann nicht geöffnet werden. Möchtest du eine andere Karten-Datei oder -Ordner auswählen\?</string>
+    <string name="menuChooseFolder">Ordner</string>
+    <string name="menuCustomTracksFolder">Ordner für eigene Strecken</string>
+    <string name="dialogOfflineMapsChooseTitle">Problem mit Offline-Karte</string>
+    <string name="pref_mapsWeatherCoverage_summary">Gebiete, die vom Niederschlagsradar nicht abgedeckt sind, schraffiert darstellen</string>
+    <string name="pref_screenAutoPocketModeDelay_summary">Das Abschalten des Bildschirms erfolgt nach dem Abdecken des Annährungssensors nicht sofort, sondern wird um die hier eingestellte Zeit verzögert</string>
+    <string name="prefAppVisualThemeSummary">(Alle Profile)</string>
+    <string name="prefAutoTerrainTitle">AutoTerrain</string>
+    <string name="prefGnssActivityRecognitionTitle">Positionserkennung entrauschen</string>
+    <string name="prefGnssAutomaticSleepSummary">GPS bei Stillstand automatisch abschalten und bei Bewegung wieder anschalten, wodurch bei längeren Pausen Strom gespart wird, ohne dass hierfür die Aufzeichnung gestoppt werden muss.</string>
+    <string name="pref_screensaverEnable_summary">Bildschirm nach einiger Zeit abdunkeln, um Strom zu sparen. Bildschirm berühren, um zu entsperren.</string>
+    <string name="dialogBluetoothPermissionRequestTitle">Bluetooth-Berechtigung</string>
+    <string name="dialogMeterModesTitle">Anzeigemodi auswählen</string>
+    <string name="unitNewtonPerLb">N/lb</string>
+    <string name="summaryDeviceAutoPauseCount">Automatische Pausen</string>
+    <string name="pref_screensaverEnable_title">Bilschirmschoner</string>
+    <string name="menuChooseFile">Datei</string>
+    <string name="menuSpeedoIndicatorMax">Skalenende</string>
+    <string name="menuSpeedoBellButton">Klingel-Schaltfläche</string>
+    <string name="unitMphPerSec">mph/s</string>
+    <string name="pref_mapsWeatherAnimateForecast_title">Vorhersage</string>
+    <string name="pref_mapsShowAttribution_title">Kartenhersteller anzeigen</string>
+    <string name="pref_category_mainScreenVisualTheme">Hauptbildschirm</string>
+    <string name="pref_mapsWeatherCoverage_title">Abdeckung anzeigen</string>
+    <string name="summaryInaccurateLocationZoneCountInfo">Häufigkeit von Positionsaktualisierungen, die von der App wegen zu großer Ungenauigkeit verworfen wurden.
+\n
+\nHinweis: Orte, an denen gar keine Positionsaktualisierungen vorkommen (z.B. Innenräume), beeinflussen diese Zahl nicht.</string>
+    <string name="dialogCustomTracksFolderInfoMessage">Diese Funktion erlaubt der App - zusätzlich zum Standardordner, dessen Speicherort sich vor kurzem geändert hat - auf Streckendateien in einem Ordner deiner Wahl zuzugreifen.
+\n
+\nDiese Streckendateien werden nur zum Lesen geöffnet: sie können angesehen und geteilt, aber nicht bearbeitet, fortgesetzt oder gelöscht werden.
+\n
+\nWenn du unsicher bist, versuche in der nächsten Ansicht den Ordner \"Documents-UrbanBiker-tracks\" zu finden.</string>
+    <string name="prefGnssAutomaticSleepTitle">GPS automatisch abschalten</string>
+    <string name="toastScreensaverModeActive">Bildschirmschoner aktiv</string>
+    <string name="dialogOfflineMapsFolderCopyMessage">Die ausgewählten Inhalte müssen in den App-spezifischen Kartenordner kopiert werden, bevor sie verwendet werden können.
+\n
+\nSoll dies jetzt getan werden\?</string>
+    <string name="pref_screenAutoPocketModeDelay_title">Verzögerung</string>
+    <string name="unitKmhPerSec">kmh/s</string>
+    <string name="summaryRollResistCoefAverage">Durchschn. Rollwiderstandskoeffizient</string>
+    <string name="summaryDeviceAutoPauseCountInfo">Häufigkeit der automatischen Pausierung der Aufzeichnung während der Aktivität.</string>
+    <string name="pref_mapsWeatherAnimateForecast_summary">Zusätzlich 30 Minuten an Radar-Vorhersagen in unterschiedlichen Farben anzeigen</string>
+    <string name="menuBell">Klingel</string>
+    <string name="menuSelect">Auswählen</string>
+    <string name="menuSpeedoAppearance">Darstellung</string>
+    <string name="prefAutoTerrainSummary">Geländerauheit durch Vibrationsmessung erkennen und den Rollwiderstandskoeffizienten (Cᵣᵣ) bei der Leistungsberechnung entsprechend anpassen.</string>
+    <string name="pref_category_units_common_title">Maßeinheiten (alle Profile)</string>
+    <string name="pref_group_activityRecognition_title">Aktivitätserkennung</string>
+    <string name="menuAdvanced">Erweitert</string>
+    <string name="pref_screensaverTimeout_title">Wartezeit</string>
+    <string name="summaryInaccurateLocationZoneCount">Ungenaue Zonen</string>
+    <string name="pref_screensaverDimBrightness_title">Abgedunkelte Helligkeit</string>
+    <string name="tracksHistoryGrantAccess">Es fehlen Strecken\?
+\nHier berühren, um Nur-Lese-Zugriff auf einen eigenen Strecken-Ordner zu erlauben…</string>
+    <string name="prefAppVisualThemeDialogTitle">App-Farbschema</string>
+    <string name="pref_meterTitle">Anzeige</string>
+    <string name="unitGAccel">g</string>
+    <string name="pref_category_units_per_profile_title">Maßeinheiten (profilabhängig)</string>
+    <string name="sensorProperitesNoAlarmInfo">Den Sensor verwenden, wenn möglich, aber keine Warnungen oder Benachrichtigungen ausgeben, wenn er nicht verfügbar ist. Dies ist nützlich für weniger wichtige Sensoren, die für eine Aktivität nicht zwingend benötigt werden. Standardmäßig deaktiviert.</string>
+    <string name="menuSpeedoDisplayMode">Anzeigemodus</string>
+    <string name="dialogOfflineMapsFolderCopyTitle">In Kartenordner kopieren</string>
 </resources>
