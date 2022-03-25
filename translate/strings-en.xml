@@ -83,6 +83,7 @@
     <string name="menuSummary">Overview</string>
     <string name="menuTracksHistory">History</string>
     <string name="menuTracksHistoryResume">Resume</string>
+    <string name="menuMeter">Meter</string>
     <string name="menuMeterLock">Lock</string>
     <string name="menuMeterLockAll">Lock all</string>
     <string name="menuMeterMode">Meter mode</string>
@@ -95,10 +96,15 @@
     <string name="menuMeterParameters">Parameters…</string>
     <string name="menuMeterPowerMode">Toggle power mode</string>
     <string name="menuMeterShowValue">Value</string>
+    <string name="menuMeterShowSubValues">Sub-values</string>
     <string name="menuMeterShowChart">Chart</string>
+    <string name="menuMeterShowIcon">Icon</string>
+    <string name="menuSpeedo">Speedometer</string>
     <string name="menuSpeedoAppearance">Appearance</string>
     <string name="menuSpeedoDisplayMode">Display mode</string>
-    <string name="menuSpeedoNeedle">Show needle</string>
+    <string name="menuSpeedoScale">Scale</string>
+    <string name="menuSpeedoValue">Value</string>
+    <string name="menuSpeedoNeedle">Needle</string>
     <string name="menuSpeedoIndicatorMax">Indicator max</string>
     <string name="menuSpeedoStallIndicator">Stall indicator</string>
     <string name="menuSpeedoPaceIndicator">Pace indicator</string>
@@ -139,6 +145,17 @@
     <string name="menuSelectOther">Select other</string>
     <string name="menuRevokeAccess">Revoke access</string>
     <string name="menuAdvanced">Advanced</string>
+    <string name="menuLayout">Layout</string>
+    <string name="menuInsert">Insert</string>
+    <string name="menuInsertLeft">Left</string>
+    <string name="menuInsertRight">Right</string>
+    <string name="menuInsertAbove">Above</string>
+    <string name="menuInsertBelow">Below</string>
+    <string name="menuInsertMeter">Insert meter</string>
+    <string name="menuInsertSpeedo">Insert speedometer</string>
+    <string name="menuRemove">Remove</string>
+    <string name="menuReset">Reset</string>
+    <string name="menuProperties">Properties…</string>
 
     <string name="share_title">Send via</string>
     <string name="share_subject" translatable="false">@string/app_name</string>
@@ -150,6 +167,8 @@
 
     <string name="featureNotAvailable">Sorry, the feature is not available on this device</string>
     <string name="farFromHere">Far from here</string>
+
+    <string name="meterHorizontalWeight">Horizontal weight</string>
 
     <string name="toastRestartRequired">Please restart the app for this to take effect</string>
     <string name="toastActiveProfile">Profile: %1$s</string>
@@ -389,6 +408,10 @@
     <string name="dialogRevokeAccessPromptMessage">Revoke access?</string>
     <string name="dialogCustomTracksFolderInfoMessage">This feature allows the app to read tracks from a folder of your choice, in addition to the default tracks folder — whose location has recently changed.\n\nSuch tracks are read-only: They can be viewed and shared, but cannot be edited, resumed nor deleted.\n\nIf you are unsure, try finding the \"Documents-UrbanBiker-tracks\" folder on the next screen.</string>
     <string name="dialogMeterModesTitle">Choose available modes</string>
+    <string name="dialogLayoutChooseTitle">Choose display layout</string>
+    <string name="dialogLayoutChoosePrompt">Current layout will be overwritten.\n\nApply the selected layout?</string>
+    <string name="dialogLayoutEmptyInfoTitle">Layout</string>
+    <string name="dialogLayoutEmptyInfoMessage">There should be at least one meter present in the layout.</string>
 
     <!-- dialog_fenceguard_add_entries -->
     <string name="dialog_fenceguard_add_entries_0">Add fence</string>
@@ -796,13 +819,9 @@
     <string name="pref_category_fonts_title">Font</string>
     <string name="pref_category_buttons_title">Buttons</string>
     <string name="pref_category_meters_title">Meters</string>
+    <string name="pref_categoryTrackingButtonTitle">Tracking button</string>
     <string name="pref_group_meters_title">Meters</string>
     <string name="pref_meterTitle">Meter</string>
-    <string name="pref_category_meter1_title">Meter 1</string>
-    <string name="pref_category_meter2_title">Meter 2</string>
-    <string name="pref_category_meter3_title">Meter 3</string>
-    <string name="pref_category_meter4_title">Meter 4</string>
-    <string name="pref_category_meter5_title">Meter 5</string>
     <string name="pref_group_maps_title">Maps</string>
     <string name="pref_category_maps_online_mode_title">Maps source</string>
     <string name="pref_category_maps_offline_title">Offline maps</string>
@@ -837,7 +856,6 @@
     <string name="pref_app_language_translate_title">Help translate</string>
     <string name="pref_app_language_translate_summary">Click here if you would like to help translate this app to another language</string>
     <string name="pref_back_key_mode_title" translatable="false">@null</string>
-    <string name="pref_back_key_mode_summary">(All profiles)</string>
     <string name="pref_back_key_mode_dialog_title">Back key mode</string>
     <string name="pref_resetToDefault">Reset to default</string>
     <string name="pref_units_distance_title">Distance</string>
@@ -1060,8 +1078,6 @@
     <string name="pref_button_roar_show_summary">Show the AVAS button</string>
     <string name="pref_button_menu_show_title">Menu</string>
     <string name="pref_button_menu_show_summary">Show the Menu button</string>
-    <string name="pref_meter_enable_title">Enable</string>
-    <string name="pref_meter_enable_summary">Show or hide this meter</string>
     <string name="pref_meter_lock_title">Lock mode</string>
     <string name="pref_meter_lock_summary">Prevents change of mode on click</string>
     <string name="pref_meter_modes_select_title">Choose available modes…</string>
@@ -1142,6 +1158,8 @@
     <string name="prefAutoTerrainNote1Summary">Device should be held fixed to a vehicle (e.g. on a bike handlebars), and not in a hand or in a pocket while using this.</string>
     <string name="prefAutoTerrainNote2Summary">Powers obtained using a power sensor are not affected by this feature.</string>
     <string name="prefMeterSettingsNoteSummary">More settings are available via a menu accessed by long-clicking on a meter field.</string>
+    <string name="prefTrackingButtonModeTitle">Alternative behavior</string>
+    <string name="prefTrackingButtonModeSummary">Click or long-click for Pause, separate button for Stop.</string>
 
     <string name="infoMeterModeDistanceTitle">Distance</string>
     <string name="infoMeterModeDistanceMsg">Distance traveled.</string>
@@ -1310,8 +1328,8 @@
     <string name="pref_wakelock_modes_explanation_3">Obey behaviour imposed by the system and/or other apps. Warning: May cause highly irregular location updates or even reject them all. Not recommended.</string>
 
     <!-- pref_locationProvider_modes -->
+    <string name="pref_locationProvider_modes_1">Google Play services (default)</string>
     <string name="pref_locationProvider_modes_0">GPS subsystem</string>
-    <string name="pref_locationProvider_modes_1">Google Play services</string>
 
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(All profiles) Use GPS subsystem directly. Stable, less complex model, no middleman. May also use less resources than the other provider.</string>
