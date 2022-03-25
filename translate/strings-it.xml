@@ -518,7 +518,6 @@
     <string name="pref_category_buttons_title">Pulsanti</string>
     <string name="pref_category_meters_title">Contatori</string>
     <string name="pref_group_meters_title">Contatori</string>
-    <string name="pref_category_meter2_title">Contatore 2</string>
     <string name="pref_category_meter4_title">Contatore 4</string>
     <string name="pref_group_maps_title">Mappe</string>
     <string name="pref_category_maps_online_mode_title">Fonte mappe</string>
@@ -695,7 +694,6 @@
     <string name="pref_button_roar_show_summary">Mostra il pulsante AVAS</string>
     <string name="pref_button_menu_show_title">Menu</string>
     <string name="pref_button_menu_show_summary">Mostra il pulsante Menu</string>
-    <string name="pref_meter_enable_summary">Mostra o nascondi questo contatore</string>
     <string name="pref_meter_lock_title">Modo Blocca</string>
     <string name="pref_meter_lock_summary">Previene le modifiche dei modi al clic</string>
     <string name="pref_meter_modes_select_title">Scegli i modi disponibili…</string>
@@ -892,7 +890,7 @@
     <string name="pref_wakelock_modes_explanation_3">Rispetta il comportamento imposto dal sistema e/o da altre applicazioni. Può causare frequenti aggiornamenti irregolari della posizione o anche rifiutarli tutti. Non consigliato.</string>
     <!-- pref_locationProvider_modes -->
     <string name="pref_locationProvider_modes_0">Sottosistema GPS</string>
-    <string name="pref_locationProvider_modes_1">Servizi Google Play</string>
+    <string name="pref_locationProvider_modes_1">Servizi Google Play (predefinito)</string>
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Tutti i profili) Usa direttamente il sottosistema GPS. Stabile, modello meno complesso, nessun intermediario. Puo anche usare meno risorse dell\'altro sistema.</string>
     <string name="pref_locationProvider_modes_explanation_1">(Tutti i profili) Usa il sistema \"Fused\" dai servizi Google Play, se disponibile. In teoria, può fornire, a volte, posizioni più veloci e precise.</string>
@@ -1428,7 +1426,7 @@
 \n
 \nLe piccole frecce accanto al valore della velocità rappresentano l\'indicatore andatura e mostrano quando la velocità corrente è sopra o sotto la velocità media.</string>
     <string name="menuMeterShowValue">Valore</string>
-    <string name="menuSpeedoNeedle">Mostra lancetta</string>
+    <string name="menuSpeedoNeedle">Lancetta</string>
     <string name="menuMeterShowChart">Grafico</string>
     <string name="menuSpeedoStallIndicator">Indicatore spento</string>
     <string name="dialogMeterModesTitle">Scegli i modi disponibili</string>
@@ -1444,4 +1442,31 @@
     <string name="summaryInaccurateLocationZoneCount">Zone di imprecisione</string>
     <string name="pref_meterTitle">Contatore</string>
     <string name="menuSpeedoDisplayMode">Modo schermo</string>
+    <string name="dialogLayoutEmptyInfoMessage">Nel layout deve essere presente almeno un contatore.</string>
+    <string name="pref_categoryTrackingButtonTitle">Pulsante tracciamento</string>
+    <string name="menuInsertAbove">Sopra</string>
+    <string name="menuProperties">Proprietà…</string>
+    <string name="dialogLayoutChooseTitle">Scegli layout schermo</string>
+    <string name="meterHorizontalWeight">Peso orizzontale</string>
+    <string name="menuInsertMeter">Inserisci contatore</string>
+    <string name="menuSpeedo">Tachimetro</string>
+    <string name="menuMeterShowSubValues">Valori secondari</string>
+    <string name="prefTrackingButtonModeTitle">Comportamento alternativo</string>
+    <string name="dialogLayoutChoosePrompt">Il layout sarà sovrascritto.
+\n
+\nApplicare il layout selezionato\?</string>
+    <string name="prefTrackingButtonModeSummary">Clic o clic lungo per Pausa, pulsante separato per Stop.</string>
+    <string name="menuInsertBelow">Sotto</string>
+    <string name="menuMeter">Contatore</string>
+    <string name="dialogLayoutEmptyInfoTitle">Layout</string>
+    <string name="menuInsertSpeedo">Inserisci tachimetro</string>
+    <string name="menuInsertLeft">Sinistra</string>
+    <string name="menuMeterShowIcon">Icona</string>
+    <string name="menuReset">Azzera</string>
+    <string name="menuRemove">Rimuovi</string>
+    <string name="menuInsertRight">Destra</string>
+    <string name="menuSpeedoScale">Scala</string>
+    <string name="menuLayout">Layout</string>
+    <string name="menuInsert">Inserisci</string>
+    <string name="menuSpeedoValue">Valore</string>
 </resources>
