@@ -506,7 +506,6 @@
     <string name="pref_category_buttons_title">Tlačidlá</string>
     <string name="pref_category_meters_title">Merania</string>
     <string name="pref_group_meters_title">Merania</string>
-    <string name="pref_category_meter2_title">Meranie 2</string>
     <string name="pref_category_meter4_title">Meranie 4</string>
     <string name="pref_group_maps_title">Mapy</string>
     <string name="pref_category_maps_online_mode_title">Zdroj máp</string>
@@ -683,7 +682,6 @@
     <string name="pref_button_roar_show_summary">Zobraziť tlačidlo AVAS</string>
     <string name="pref_button_menu_show_title">Menu</string>
     <string name="pref_button_menu_show_summary">Zobrazovať tlačidlo menu</string>
-    <string name="pref_meter_enable_summary">Zobrazovať meranie</string>
     <string name="pref_meter_lock_title">Uzamknutie</string>
     <string name="pref_meter_lock_summary">Zabraňuje zmeniť funkciu pri dotyku</string>
     <string name="pref_meter_modes_select_title">Zvoliť funkcie…</string>
@@ -835,7 +833,7 @@
     <string name="pref_wakelock_modes_explanation_3">Riadiť sa nastavením systému a/alebo iných aplikácií, čo však môže spôsobiť veľmi nepravidelnú komunikáciu alebo odmietnutie všetkých aktualizácií polohy.</string>
     <!-- pref_locationProvider_modes -->
     <string name="pref_locationProvider_modes_0">Podsystém GPS</string>
-    <string name="pref_locationProvider_modes_1">Google Play services</string>
+    <string name="pref_locationProvider_modes_1">Google Play services (predvolené)</string>
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Všetky profily) Používať priamy stály zabudovaný podsystém.</string>
     <string name="pref_locationProvider_modes_explanation_1">(Všetky profily) Používať komplexnejší systém, v súčinnosti s Google Play Services, teoreticky poskytujúci rýchlejšiu a presnejšiu lokalizáciu.</string>
@@ -1439,7 +1437,7 @@
 \n
 \nIndikátor tempa znázorňuje pomocou šípok stav aktuálnej rýchlosti vzhľadom na priemernú rýchlosť.</string>
     <string name="menuMeterShowValue">Hodnota</string>
-    <string name="menuSpeedoNeedle">Zobrazovať ukazovateľ</string>
+    <string name="menuSpeedoNeedle">Ukazovateľ</string>
     <string name="menuMeterShowChart">Graf</string>
     <string name="menuSpeedoStallIndicator">Indikátor zaseknutia</string>
     <string name="dialogMeterModesTitle">Vybrať z dostupných funkcií</string>
@@ -1455,4 +1453,31 @@
     <string name="summaryInaccurateLocationZoneCount">Oblasti s nepresným lokalizovaním</string>
     <string name="pref_meterTitle">Meranie</string>
     <string name="menuSpeedoDisplayMode">Spôsob zobrazenia</string>
+    <string name="dialogLayoutEmptyInfoMessage">Malo by byť vybrané aspoň jedno meranie na zobrazovanie.</string>
+    <string name="pref_categoryTrackingButtonTitle">Tlačidlo GPS</string>
+    <string name="menuInsertAbove">Hore</string>
+    <string name="menuProperties">Vlastnosti…</string>
+    <string name="dialogLayoutChooseTitle">Rozloženie obrazovky</string>
+    <string name="meterHorizontalWeight">Vodorovná váha</string>
+    <string name="menuInsertMeter">Pridať meranie</string>
+    <string name="menuSpeedo">Rýchlomer</string>
+    <string name="menuMeterShowSubValues">Hodnoty</string>
+    <string name="prefTrackingButtonModeTitle">Alternatívna funkcia</string>
+    <string name="dialogLayoutChoosePrompt">Aktuálne rozloženie bude nahradené.
+\n
+\nZvoliť vybrané rozloženie\?</string>
+    <string name="prefTrackingButtonModeSummary">Kliknutie alebo podržanie tlačidla pre Zastavenie, samostatné tlačidlo pre Ukončenie.</string>
+    <string name="menuInsertBelow">Dole</string>
+    <string name="menuMeter">Merania</string>
+    <string name="dialogLayoutEmptyInfoTitle">Rozloženie</string>
+    <string name="menuInsertSpeedo">Pridať rýchlomer</string>
+    <string name="menuInsertLeft">Vľavo</string>
+    <string name="menuMeterShowIcon">Ikona</string>
+    <string name="menuReset">Obnoviť</string>
+    <string name="menuRemove">Odstrániť</string>
+    <string name="menuInsertRight">Vpravo</string>
+    <string name="menuSpeedoScale">Mierka</string>
+    <string name="menuLayout">Layout</string>
+    <string name="menuInsert">Pridať</string>
+    <string name="menuSpeedoValue">Hodnota</string>
 </resources>
