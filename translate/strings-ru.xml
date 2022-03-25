@@ -513,7 +513,6 @@
     <string name="pref_category_buttons_title">Кнопки</string>
     <string name="pref_category_meters_title">Счётчики</string>
     <string name="pref_group_meters_title">Счётчики</string>
-    <string name="pref_category_meter2_title">Счётчик 2</string>
     <string name="pref_category_meter4_title">Счётчик 4</string>
     <string name="pref_group_maps_title">Карты</string>
     <string name="pref_category_maps_online_mode_title">Источник карт</string>
@@ -690,7 +689,6 @@
     <string name="pref_button_roar_show_summary">Показывать кнопку «AVAS»</string>
     <string name="pref_button_menu_show_title">Меню</string>
     <string name="pref_button_menu_show_summary">Показывать кнопку «Меню»</string>
-    <string name="pref_meter_enable_summary">Показать/скрыть этот счётчик</string>
     <string name="pref_meter_lock_title">Блокировка режима</string>
     <string name="pref_meter_lock_summary">Не даёт сменять режим нажатием</string>
     <string name="pref_meter_modes_select_title">Выбор доступных режимов…</string>
@@ -868,7 +866,7 @@
     <string name="pref_wakelock_modes_explanation_3">Соблюдать условия, наложенные системой и/или другими приложениями. Внимание: может привести к очень редким обновлениям местоположения или даже к полному их неполучению. Не рекомендуется.</string>
     <!-- pref_locationProvider_modes -->
     <string name="pref_locationProvider_modes_0">Подсистема GPS</string>
-    <string name="pref_locationProvider_modes_1">Сервисы Google Play</string>
+    <string name="pref_locationProvider_modes_1">Сервисы Google Play (по умолчанию)</string>
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Все профили) Использовать подсистему GPS напрямую. Стабильнее, более простая модель, нет посредников. Также может расходовать меньше ресурсов, чем другие поставщики координат.</string>
     <string name="pref_locationProvider_modes_explanation_1">(Все профили) Если доступно, использовать «встроенного» поставщика из сервисов Google Play. В теории иногда может давать быстрое и более точное определение местоположения.</string>
@@ -1434,7 +1432,7 @@
 \n
 \nИндикатор темпа — это маленькие стрелки рядом со значением скорости, которые показывают, когда текущая скорость выше или ниже средней скорости.</string>
     <string name="menuMeterShowValue">Значение</string>
-    <string name="menuSpeedoNeedle">Показывать стрелку</string>
+    <string name="menuSpeedoNeedle">Стрелка</string>
     <string name="menuMeterShowChart">Диаграмма</string>
     <string name="menuSpeedoStallIndicator">Индикатор остановки</string>
     <string name="dialogMeterModesTitle">Выбор доступных режимов</string>
@@ -1450,4 +1448,31 @@
     <string name="summaryInaccurateLocationZoneCount">Зоны неточности</string>
     <string name="pref_meterTitle">Счётчик</string>
     <string name="menuSpeedoDisplayMode">Режим отображения</string>
+    <string name="dialogLayoutEmptyInfoMessage">Должен присутствовать по крайней мере один счётчик.</string>
+    <string name="pref_categoryTrackingButtonTitle">Кнопка записи трека</string>
+    <string name="menuInsertAbove">Сверху</string>
+    <string name="menuProperties">Свойства…</string>
+    <string name="dialogLayoutChooseTitle">Настройка компоновки экрана</string>
+    <string name="meterHorizontalWeight">Горизонтальный вес</string>
+    <string name="menuInsertMeter">Вставить счётчик</string>
+    <string name="menuSpeedo">Спидометр</string>
+    <string name="menuMeterShowSubValues">Доп. значения</string>
+    <string name="prefTrackingButtonModeTitle">Альтернативное поведение</string>
+    <string name="dialogLayoutChoosePrompt">Текущее расположение будет заменено.
+\n
+\nПрименить выбранное расположение\?</string>
+    <string name="prefTrackingButtonModeSummary">Нажатие или удержание для паузы, отдельная кнопка для остановки.</string>
+    <string name="menuInsertBelow">Снизу</string>
+    <string name="menuMeter">Счётчик</string>
+    <string name="dialogLayoutEmptyInfoTitle">Расположение</string>
+    <string name="menuInsertSpeedo">Вставить спидометр</string>
+    <string name="menuInsertLeft">Слева</string>
+    <string name="menuMeterShowIcon">Значок</string>
+    <string name="menuReset">Сброс</string>
+    <string name="menuRemove">Удалить</string>
+    <string name="menuInsertRight">Справа</string>
+    <string name="menuSpeedoScale">Шкала</string>
+    <string name="menuLayout">Расположение</string>
+    <string name="menuInsert">Вставить</string>
+    <string name="menuSpeedoValue">Значение</string>
 </resources>
