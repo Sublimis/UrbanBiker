@@ -518,7 +518,6 @@
     <string name="pref_category_buttons_title">Botões</string>
     <string name="pref_category_meters_title">Medidores</string>
     <string name="pref_group_meters_title">Medidores</string>
-    <string name="pref_category_meter2_title">Medidor 2</string>
     <string name="pref_category_meter4_title">Medidor 4</string>
     <string name="pref_group_maps_title">Mapas</string>
     <string name="pref_category_maps_online_mode_title">Fonte dos Mapas</string>
@@ -695,7 +694,6 @@
     <string name="pref_button_roar_show_summary">Mostrar o botão de SAAV</string>
     <string name="pref_button_menu_show_title">Menu</string>
     <string name="pref_button_menu_show_summary">Mostrar o botão de Menu</string>
-    <string name="pref_meter_enable_summary">Mostrar ou esconder este medidor</string>
     <string name="pref_meter_lock_title">Modo bloqueado</string>
     <string name="pref_meter_lock_summary">Previne a mudança de modo ao clicar</string>
     <string name="pref_meter_modes_select_title">Escolha os modos disponíveis…</string>
@@ -900,7 +898,7 @@
     <string name="pref_wakelock_modes_explanation_3">Obedecer ao comportamento imposto pelo sistema e/ou outras aplicações. Aviso: pode causar atualizações de localização altamente irregulares ou mesmo rejeitá-las todas. Não recomendado.</string>
     <!-- pref_locationProvider_modes -->
     <string name="pref_locationProvider_modes_0">Subsistema de GPS</string>
-    <string name="pref_locationProvider_modes_1">Serviços do Google Play</string>
+    <string name="pref_locationProvider_modes_1">Serviços do Google Play (padrão)</string>
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Todos os perfis) Use o subsistema de GPS diretamente. Modelo estável, menos complexo, sem intermediário. Também pode usar menos recursos do que o outro provedor.</string>
     <string name="pref_locationProvider_modes_explanation_1">(Todos os perfis) Use o provedor \"Fused\" dos Serviços do Google Play, se disponível. Em teoria, isso pode fornecer locais mais rápidos e precisos.</string>
@@ -1428,7 +1426,7 @@
 \n
 \nO indicador de ritmo são pequenas setas próximas ao valor da velocidade que mostram quando a velocidade atual está acima ou abaixo da velocidade média.</string>
     <string name="menuMeterShowValue">Valor</string>
-    <string name="menuSpeedoNeedle">Mostrar agulha</string>
+    <string name="menuSpeedoNeedle">Agulha</string>
     <string name="menuMeterShowChart">Gráfico</string>
     <string name="menuSpeedoStallIndicator">Indicador de paragem</string>
     <string name="dialogMeterModesTitle">Escolha os modos disponíveis</string>
@@ -1444,4 +1442,31 @@
     <string name="summaryInaccurateLocationZoneCount">Zonas de imprecisão</string>
     <string name="pref_meterTitle">Medidor</string>
     <string name="menuSpeedoDisplayMode">Modo do ecrã</string>
+    <string name="dialogLayoutEmptyInfoMessage">Deve haver pelo menos um medidor presente no layout.</string>
+    <string name="pref_categoryTrackingButtonTitle">Botão de registo</string>
+    <string name="menuInsertAbove">Acima</string>
+    <string name="menuProperties">Propriedades…</string>
+    <string name="dialogLayoutChooseTitle">Escolher o layout de exibição</string>
+    <string name="meterHorizontalWeight">Peso horizontal</string>
+    <string name="menuInsertMeter">Inserir medidor</string>
+    <string name="menuSpeedo">Velocímetro</string>
+    <string name="menuMeterShowSubValues">Subvalores</string>
+    <string name="prefTrackingButtonModeTitle">Comportamento alternativo</string>
+    <string name="dialogLayoutChoosePrompt">O layout atual será substituído.
+\n
+\nAplicar o layout selecionado\?</string>
+    <string name="prefTrackingButtonModeSummary">Clique ou clique longo para Pausar, botão separado para Parar.</string>
+    <string name="menuInsertBelow">Abaixo</string>
+    <string name="menuMeter">Medidor</string>
+    <string name="dialogLayoutEmptyInfoTitle">Layout</string>
+    <string name="menuInsertSpeedo">Inserir velocímetro</string>
+    <string name="menuInsertLeft">Esquerda</string>
+    <string name="menuMeterShowIcon">Ícone</string>
+    <string name="menuReset">Repor</string>
+    <string name="menuRemove">Remover</string>
+    <string name="menuInsertRight">Direita</string>
+    <string name="menuSpeedoScale">Escala</string>
+    <string name="menuLayout">Layout</string>
+    <string name="menuInsert">Inserir</string>
+    <string name="menuSpeedoValue">Valor</string>
 </resources>
