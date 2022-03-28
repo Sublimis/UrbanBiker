@@ -518,7 +518,6 @@
     <string name="pref_category_buttons_title">Tipke</string>
     <string name="pref_category_meters_title">Mjerači</string>
     <string name="pref_group_meters_title">Mjerači</string>
-    <string name="pref_category_meter2_title">Mjerač 2</string>
     <string name="pref_category_meter4_title">Mjerač 4</string>
     <string name="pref_group_maps_title">Mape</string>
     <string name="pref_category_maps_online_mode_title">Izvor mapa</string>
@@ -695,7 +694,6 @@
     <string name="pref_button_roar_show_summary">Pokaži tipku AVAS</string>
     <string name="pref_button_menu_show_title">Meni</string>
     <string name="pref_button_menu_show_summary">Prikaži tipku menija</string>
-    <string name="pref_meter_enable_summary">Prikaži ili sakrij ovaj mjerač</string>
     <string name="pref_meter_lock_title">Zakoči način</string>
     <string name="pref_meter_lock_summary">Sprečava promjenu načina klikom</string>
     <string name="pref_meter_modes_select_title">Odaberi dostupne načine…</string>
@@ -900,7 +898,7 @@
     <string name="pref_wakelock_modes_explanation_3">Pokori se ponašnju nametnutom od strane sistema i/ili ostalih aplikacija. Upozorenje: Može uzrokovati vrlo neredovita ažuriranja ili ih čak odbaciti sva. Ne preporuča se.</string>
     <!-- pref_locationProvider_modes -->
     <string name="pref_locationProvider_modes_0">GPS podsistem</string>
-    <string name="pref_locationProvider_modes_1">Google Play servisi</string>
+    <string name="pref_locationProvider_modes_1">Google Play usluge (zadano)</string>
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Svi profili) Koristi GPS podsistem izravno. Stabilan, manje složen model, bez posrednika. Također može trošiti manje resursa od drugog providera.</string>
     <string name="pref_locationProvider_modes_explanation_1">(Svi profili) Koristi \"Fused\" provider iz Google Play servisa, ako je dostupno. U teoriji to ponekad može pružiti brže i preciznije lokacije.</string>
@@ -1428,7 +1426,7 @@
 \n
 \nIndikator tempa male su strelice u blizini vrijednosti brzine koje pokazuju kada je trenutna brzina iznad ili ispod prosječne brzine.</string>
     <string name="menuMeterShowValue">Vrijednost</string>
-    <string name="menuSpeedoNeedle">Pokaži kazaljku</string>
+    <string name="menuSpeedoNeedle">Kazaljka</string>
     <string name="menuMeterShowChart">Graf</string>
     <string name="menuSpeedoStallIndicator">Indikator zastoja</string>
     <string name="dialogMeterModesTitle">Odaberi dostupne načine</string>
@@ -1444,4 +1442,31 @@
     <string name="summaryInaccurateLocationZoneCount">Zone netočnosti</string>
     <string name="pref_meterTitle">Mjerač</string>
     <string name="menuSpeedoDisplayMode">Način prikaza</string>
+    <string name="dialogLayoutEmptyInfoMessage">U rasporedu bi trebao biti prisutan najmanje jedan mjerač.</string>
+    <string name="pref_categoryTrackingButtonTitle">Gumb za praćenje</string>
+    <string name="menuInsertAbove">Iznad</string>
+    <string name="menuProperties">Svojstva…</string>
+    <string name="dialogLayoutChooseTitle">Odaberite izgled zaslona</string>
+    <string name="meterHorizontalWeight">Horizontalna težina</string>
+    <string name="menuInsertMeter">Umetni mjerač</string>
+    <string name="menuSpeedo">Brzinomjer</string>
+    <string name="menuMeterShowSubValues">Podvrijednosti</string>
+    <string name="prefTrackingButtonModeTitle">Alternativno ponašanje</string>
+    <string name="dialogLayoutChoosePrompt">Trenutni izgled će biti prepisan.
+\n
+\nPrimijeniti odabrani izgled\?</string>
+    <string name="prefTrackingButtonModeSummary">Kliknite ili dugo kliknite za Pauzu, odvojeni gumb za Stop.</string>
+    <string name="menuInsertBelow">Ispod</string>
+    <string name="menuMeter">Mjerač</string>
+    <string name="dialogLayoutEmptyInfoTitle">Izgled</string>
+    <string name="menuInsertSpeedo">Umetni brzinomjer</string>
+    <string name="menuInsertLeft">Lijevo</string>
+    <string name="menuMeterShowIcon">Ikona</string>
+    <string name="menuReset">Resetiraj</string>
+    <string name="menuRemove">Ukloni</string>
+    <string name="menuInsertRight">Desno</string>
+    <string name="menuSpeedoScale">Skala</string>
+    <string name="menuLayout">Izgled</string>
+    <string name="menuInsert">Umetni</string>
+    <string name="menuSpeedoValue">Vrijednost</string>
 </resources>
