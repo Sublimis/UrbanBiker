@@ -28,7 +28,7 @@
     <string name="menuTracksHistoryResume">Pokračovat</string>
     <string name="menuMeterLock">Zamknout</string>
     <string name="menuMeterLockAll">Zamknout vše</string>
-    <string name="menuMeterMode">Výběr měřidla…</string>
+    <string name="menuMeterMode">Výběr měřidla</string>
     <string name="menuMeterChooseModes">Nabízená měřidla…</string>
     <string name="menuMeterResetMinMax">Vynulovat min/max</string>
     <string name="menuMeterReset">Ukončit</string>
@@ -225,7 +225,7 @@
     <string name="dialogPowerWeightsWeightWheels">Počet kol</string>
     <string name="dialogPowerParamsTitle">Koeficienty výkonové ztráty</string>
     <string name="dialogPowerParamsDragArea">Plošný odpor vzduchu (Cd·A)</string>
-    <string name="dialogPowerParamsRollResist">Koeficient valivého odporu. (Crr)</string>
+    <string name="dialogPowerParamsRollResist">Koeficient valivého odporu. (Cᵣᵣ)</string>
     <string name="dialogEnergyParamsTitle">Energetické parametry</string>
     <string name="dialogEnergyParamsEfficiency">Celková účinnost (η)</string>
     <string name="dialogEnergyParamsBmr">Bazální metabolismus (BMR)</string>
@@ -254,9 +254,9 @@
     <string name="dialogLocationPermissionRequestTitle">Oprávnění pro sledování polohy</string>
     <string name="dialogLocationPermissionRequest">Aplikace musí přistupovat k vaší poloze pro zaznamenání vašich outdoorových aktivit.</string>
     <string name="dialogStoragePermissionRequestTitle">Oprávnění k ukládání</string>
-    <string name="dialogStoragePermissionRequest">Aplikace potřebuje přístup k úložišti, aby mohla ukládat nebo obnovovat trasy a nastavení. 
-\n 
-\nBez udělení oprávnění nebudete mít možnost sledovat historii tras nebo sdílet trasy a můžete ztratit data.</string>
+    <string name="dialogStoragePermissionRequest">Aplikace potřebuje přístup k úložišti, aby mohla ukládat nebo obnovovat trasy a nastavení.
+\n
+\nBez udělení oprávnění nebudete mít možnost sledovat historii tras a můžete ztratit data.</string>
     <string name="dialogCameraPermissionRequestTitle">Oprávnění k fotoaparátu</string>
     <string name="dialogCameraPermissionRequest">Je potřeba oprávnění, aby aplikace mohla aktivovat blesk.</string>
     <string name="dialogPermissionProblemMessage">Toto oprávnění je potřebné pro správnou funkci aplikace. Může být uděleno na stránce Nastavení oprávnění aplikace. 
@@ -501,7 +501,6 @@
     <string name="pref_category_buttons_title">Tlačítka</string>
     <string name="pref_category_meters_title">Měřiče</string>
     <string name="pref_group_meters_title">Měřiče</string>
-    <string name="pref_category_meter2_title">Měřič 2</string>
     <string name="pref_category_meter4_title">Měřič 4</string>
     <string name="pref_group_maps_title">Mapy</string>
     <string name="pref_category_maps_online_mode_title">Zdroj map</string>
@@ -675,7 +674,6 @@
     <string name="pref_button_roar_show_summary">Zobrazit tlačítko Rachot</string>
     <string name="pref_button_menu_show_title">Menu</string>
     <string name="pref_button_menu_show_summary">Zobrazit tlačítko Menu</string>
-    <string name="pref_meter_enable_summary">Zobrazit nebo odstránit měřič</string>
     <string name="pref_meter_lock_title">Mód zámku</string>
     <string name="pref_meter_lock_summary">Zabránit změně módu při kliknutí</string>
     <string name="pref_meter_modes_select_title">Vyberte dostupné módy…</string>
@@ -811,7 +809,7 @@
     <string name="meterModes_25">Odometr</string>
     <!-- pref_gps_update_freq_entries -->
     <string name="pref_gps_update_freq_entries_0">Nejrychlejší</string>
-    <string name="pref_gps_update_freq_entries_2">Výchozí</string>
+    <string name="pref_gps_update_freq_entries_2">Adaptivní (výchozí)</string>
     <string name="pref_gps_update_freq_entries_3">1 s</string>
     <string name="pref_gps_update_freq_entries_4">2 s</string>
     <string name="pref_gps_update_freq_entries_5">3 s</string>
@@ -851,7 +849,7 @@
     <string name="pref_wakelock_modes_explanation_3">Dodržovat chování nastavené systémem a/nebo jinými aplikacemi. Upozornění: Může způsobit vysoce nepravidelné aktualizace polohy nebo je dokonce odmítnout. Nedoporučeno.</string>
     <!-- pref_locationProvider_modes -->
     <string name="pref_locationProvider_modes_0">GPS subsystém</string>
-    <string name="pref_locationProvider_modes_1">Služby Google Play</string>
+    <string name="pref_locationProvider_modes_1">Služby Google Play (výchozí)</string>
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Všechny profily) Použít subsystém GPS přímo. Stabilní, méně složitý model, žádný prostředník. Může také použít méně zdrojů než jiný poskytovatel.</string>
     <string name="pref_locationProvider_modes_explanation_1">(Všechny profily) Použije poskytovatele \"Fused\" ze služeb Google Play, pokud jsou k dispozici. Teoreticky to může někdy poskytnout rychlejší a přesnější umístění.</string>
@@ -1176,7 +1174,7 @@
     <string name="controlPanelScreenOrientation">Orientace obrazovky</string>
     <string name="pref_mapsWeatherAnimate_title">Animace</string>
     <string name="pref_mapsWeatherAnimate_summary">Animovat 1 hodinu dat radaru pro lepší vizualizaci srážkového trendu</string>
-    <string name="pref_mapsWeatherAnimate_info">Radarová animace používá 5x více dat než statický radarový obrázek.</string>
+    <string name="pref_mapsWeatherAnimate_info">Radarová animace může využít až 5x více dat než statický radarový obrázek.</string>
     <string name="menuMeterStart">Spustit</string>
     <string name="menuMeterStop">Zastavit</string>
     <string name="dialogScreenshotTitle">Snímek obrazovky</string>
