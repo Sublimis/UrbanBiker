@@ -89,7 +89,7 @@
     <string name="toastFenceGuardFenceRemovingError">FenceGuard: Chyba pri odstraňovaní chránenej oblasti</string>
     <string name="toastFenceGuardOutsideTheFence">FenceGuard: Momentálna poloha je mimo nastavenej chránenej oblasti</string>
     <string name="toastFenceGuardLocationUnavailable">FenceGuard: Poloha stále nedostupná</string>
-    <string name="toastProfilesListNonemptyDelete">Nemožno vymazať dáta — Profil obsahuje neuložené údaje! Najskôr treba zvoliť ukončenie.</string>
+    <string name="toastProfilesListNonemptyDelete">Nemožno vymazať dáta — Profil obsahuje neuložené údaje! Najskôr treba ukončiť trasu.</string>
     <string name="toastProfilesListProfileCreated">Profil vytvorený</string>
     <string name="toastProfilesListProfileDeleted">Profil odstránený</string>
     <string name="toastProfilesListProfileDeleteError">Chyba pri vymazávaní profilu</string>
@@ -97,7 +97,7 @@
     <string name="toastTrackDeleted">Trasy odstránené</string>
     <string name="toastTrackDeleteError">Chyba pri odstraňovaní trás</string>
     <string name="toastTrackResumed">Trasa obnovená</string>
-    <string name="toastTrackResumeGpsActiveError">Treba najskôr vypnúť trasovanie alebo pozastaviť GPS</string>
+    <string name="toastTrackResumeGpsActiveError">Treba najskôr vypnúť alebo pozastaviť GPS</string>
     <string name="toastProfileButtonClickInfo">Prepnúť profil podržaním tlačidla</string>
     <string name="toastContrastButtonClickInfo">Je aktívna automatická kombinácia</string>
     <string name="toastFlashlightButtonClickInfo">Zapnúť svetlo podržaním tlačidla</string>
@@ -159,7 +159,7 @@
 \n
 \nOdstrániť profil %1$s\?</string>
     <string name="dialogProfileAddTitle">Nový profil</string>
-    <string name="dialogProfileAddInfo">Nový profil bude nastavený ako aktuálny profil</string>
+    <string name="dialogProfileAddInfo">Nový profil bude nastavený podľa aktuálneho profilu</string>
     <string name="dialogProfileEditTitle">Upraviť profil</string>
     <string name="dialogProfileEditTotals">Celkom:</string>
     <string name="dialogProfileTotalsResetMessage">Vymazať údaje profilu\?</string>
@@ -173,7 +173,7 @@
 \n
 \nOdstrániť trasu %1$s\?</string>
     <string name="dialogTrackResumeTitle">Obnoviť trasu</string>
-    <string name="dialogTrackResumeGpsActiveMessage">Treba najskôr vypnúť alebo pozastaviť GPS.</string>
+    <string name="dialogTrackResumeGpsActiveMessage">Sledovanie trasy je aktívne. Treba najskôr vypnúť alebo pozastaviť GPS.</string>
     <string name="dialogTrackResumeProfileNotBlankMessage">Vybratý profil %1$s treba najskôr vynulovať.</string>
     <string name="dialogTrackResumeProfileSwitchMessage">Aktuálny profil %1$s bude prepnutý na %2$s. Pokračovať\?</string>
     <string name="dialogTrackResumeProfileMissingMessage">Profil %1$s, v ktorom vznikla trasa, už neexistuje. Obnoviť v aktuálnom profile %2$s\?</string>
@@ -422,7 +422,7 @@
     <string name="summaryLocationInterval">Lokalizačný interval</string>
     <string name="summaryDeviceRestartsCount">Vynútené reštartovanie</string>
     <string name="summaryStartedDatetime">Začatie</string>
-    <string name="summaryEndedDatetime">Ukončenie</string>
+    <string name="summaryEndedDatetime">Ukončené</string>
     <string name="summaryTotalTime">Celkový čas</string>
     <string name="summaryStoppedTime">Zastavenie</string>
     <string name="summaryHeartBeats">Srdcový tep</string>
@@ -486,8 +486,8 @@
     <string name="pref_category_colors_dark_title">Kombinácia 2</string>
     <string name="pref_category_visualThemeAuto">Automatická kombinácia</string>
     <string name="pref_category4_title">Hlasitosť (relatívna)</string>
-    <string name="pref_category_advanced_title">Pokročilé</string>
-    <string name="pref_group_advanced_title">Pokročilé…</string>
+    <string name="pref_category_advanced_title">Ďalšie</string>
+    <string name="pref_group_advanced_title">Ďalšie…</string>
     <string name="pref_category_other_title">Iné</string>
     <string name="pref_category_gps_interval_title">Interval aktualizácie GPS</string>
     <string name="pref_category_stationary_exercise_title">Cvičenie na mieste</string>
@@ -1457,7 +1457,7 @@
     <string name="menuInsertAbove">Hore</string>
     <string name="menuProperties">Vlastnosti…</string>
     <string name="dialogLayoutChooseTitle">Rozloženie obrazovky</string>
-    <string name="meterHorizontalWeight">Vodorovná váha</string>
+    <string name="meterHorizontalWeight">Vodorovný pomer</string>
     <string name="menuInsertMeter">Pridať meranie</string>
     <string name="menuSpeedo">Rýchlomer</string>
     <string name="menuMeterShowSubValues">Hodnoty</string>
