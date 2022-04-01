@@ -1210,7 +1210,7 @@
     <string name="dialogMapsChooseTitle">Vyber mapu</string>
     <string name="dialogCloudAccountDisconnectMessage">Odpojit tento účet\?</string>
     <string name="meterModeFTPowerShort">stp</string>
-    <string name="menuMeterClockShowSeconds">Zobrazit vteřiny</string>
+    <string name="menuMeterClockShowSeconds">Zobrazit sekundy</string>
     <string name="menuScreenshot">Snímek obrazovky</string>
     <string name="controlPanelMapHideButtonSubtitle">Kliknout pro skrytí mapy</string>
     <string name="toastSharingNoGpxError">Chyba, žádný GPX soubor v trase</string>
@@ -1351,4 +1351,105 @@
     <string name="prefScreenPocketModeDelayEntries_2">0,2 s</string>
     <string name="prefScreenPocketModeDelayEntries_6">0,75 s</string>
     <string name="prefAppVisualThemeDialogTitle">Téma vzhledu aplikace</string>
+    <string name="dialogLayoutEmptyInfoMessage">V rozvržení musí být přiřazený alespoň jeden měřič.</string>
+    <string name="infoSpeedometerTitle">Rychloměr</string>
+    <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ se pohybuje od 0 do 10 %, výchozí hodnota je 1 %. Používáte-li funkci Automatický terén, předpokládejte základní hodnotu pro hladký terén (spodní hranice), protože v drsnějším terénu aplikace koeficient zpravidla zvýší.</string>
+    <string name="pref_categoryTrackingButtonTitle">Sledovací tlačítko</string>
+    <string name="menuInsertAbove">Nad</string>
+    <string name="menuProperties">Vlastnosti…</string>
+    <string name="prefBarometricAltitudeDisableAlert">Vypnout barometrickou výšku\?</string>
+    <string name="menuAutomaticBell">Automatický zvonek</string>
+    <string name="dialogLayoutChooseTitle">Zvolte rozvržení obrazovky</string>
+    <string name="menuSpeedoPaceIndicator">Indikátor tempa</string>
+    <string name="pref_screensaverDimBrightnessDialogTitle">Tlumení jasu spořiče obrazovky</string>
+    <string name="meterHorizontalWeight">Vodorovná váha</string>
+    <string name="infoSpeedometerMsg">Zobrazuje vaši aktuální, maximální a průměrnou rychlost.
+\n
+\nIndikátor zdržení indikuje, že hodnota rychlosti nebyla dlouho aktualizována a nelze jí věřit.
+\n
+\nIndikátor tempa jsou malé šipky u hodnoty rychlosti, které ukazují, kdy je aktuální rychlost vyšší nebo nižší než průměrná rychlost.</string>
+    <string name="pref_screensaverTimeout_summary">Časový úsek bez interakce s uživatelem až do aktivace spořiče obrazovky.</string>
+    <string name="menuInsertMeter">Vložit měřič</string>
+    <string name="prefAutoTerrainNote2Summary">Výkon získaný pomocí snímače výkonu není touto funkcí ovlivněn.</string>
+    <string name="menuMeterShowValue">Hodnota</string>
+    <string name="dialogRevokeAccessPromptMessage">Zrušit přístup\?</string>
+    <string name="menuSpeedo">Rychloměr</string>
+    <string name="summaryVibrations">Vibrace</string>
+    <string name="unitNewtonPerKg">N/kg</string>
+    <string name="menuRevokeAccess">Zrušit přístup</string>
+    <string name="menuSpeedoNeedle">Ručička</string>
+    <string name="menuMeterShowChart">Graf</string>
+    <string name="menuSpeedoStallIndicator">Indikátor zastavení</string>
+    <string name="menuMeterShowSubValues">Dílčí hodnoty</string>
+    <string name="menuSelectOther">Zvolit jiné</string>
+    <string name="dialogBluetoothPermissionRequest">Oprávnění je nutné, aby aplikace mohla vyhledat bezdrátové senzory a připojit se k nim.</string>
+    <string name="prefTrackingButtonModeTitle">Náhradní chování</string>
+    <string name="dialogLayoutChoosePrompt">Aktuální rozvržení bude přepsáno.
+\n
+\nSkutečně aplikovat zvolené rozvržení\?</string>
+    <string name="dialogCopyingMessage">Kopíruji…</string>
+    <string name="summaryRollResistCoefAverageInfo">Průměrný koeficient valivého odporu, pokud se koeficient během činnosti měnil.</string>
+    <string name="dialogOfflineMapsChooseMessage">Soubor mapy nebyl nalezen nebo není přístupný. Zvolit nyní nějaký jiný soubor/složku s mapami\?</string>
+    <string name="menuChooseFolder">Složka</string>
+    <string name="menuCustomTracksFolder">Složka s vlastními trasami</string>
+    <string name="prefTrackingButtonModeSummary">Kliknutím nebo dlouhým kliknutím zapnout pozastavení, samostatné tlačítko pro zastavení.</string>
+    <string name="menuInsertBelow">Pod</string>
+    <string name="menuMeter">Měřič</string>
+    <string name="dialogLayoutEmptyInfoTitle">Rozvržení</string>
+    <string name="dialogOfflineMapsChooseTitle">Problém s offline mapami</string>
+    <string name="prefAutoTerrainTitle">Automatický terén</string>
+    <string name="pref_screensaverEnable_summary">Po uplynutí časového limitu se displej ztlumí, aby se šetřila baterie. Dotykem jej odemknete.</string>
+    <string name="dialogBluetoothPermissionRequestTitle">Povolení Bluetooth</string>
+    <string name="dialogMeterModesTitle">Zvolte dostupné módy</string>
+    <string name="prefMeterSettingsNoteSummary">Další nastavení jsou k dispozici v nabídce, do které se dostanete dlouhým kliknutím na pole měřiče.</string>
+    <string name="unitNewtonPerLb">N/lb</string>
+    <string name="prefAutoTerrainNote1Summary">Zařízení by mělo být připevněné k vozidlu (např. na řídítkách kola), nikoli být v ruce nebo v kapse.</string>
+    <string name="menuInsertSpeedo">Vložit rychloměr</string>
+    <string name="pref_screensaverEnable_title">Šetřič obrazovky</string>
+    <string name="menuChooseFile">Soubor</string>
+    <string name="menuSpeedoIndicatorMax">Ukazatel max</string>
+    <string name="menuSpeedoBellButton">Tlačítko zvonku</string>
+    <string name="unitMphPerSec">mph/s</string>
+    <string name="menuInsertLeft">Vlevo</string>
+    <string name="menuMeterShowIcon">Ikona</string>
+    <string name="summaryInaccurateLocationZoneCountInfo">Počet případů, kdy aplikace začala odmítat aktualizace polohy kvůli jejich nepřesnosti.
+\n
+\nVšimněte si, že oblasti, kde se aktualizace polohy vůbec neprovádějí (např. v interiéru), toto číslo neovlivňují.</string>
+    <string name="infoMeterModeVibrationsMsg">Vibrace naměřené přístrojem. Užitečné, pokud je zařízení pevně na vozidle (např. na řídítkách kola), a nikoli v ruce nebo v kapse.</string>
+    <string name="dialogCustomTracksFolderInfoMessage">Tato funkce umožňuje aplikaci načítat trasy z vámi zvolené složky, kromě výchozí složky s trasami, jejíž umístění se nedávno změnilo.
+\n
+\nTyto trasy jsou určeny pouze ke čtení - lze je prohlížet a sdílet, ale nelze je upravovat, obnovovat ani odstraňovat.
+\n
+\nPokud si nejste jisti, zkuste na další obrazovce najít složku \"Documents-UrbanBiker-tracks\".</string>
+    <string name="menuReset">Přenastavit</string>
+    <string name="toastScreensaverModeActive">Aktivní režim spořiče obrazovky</string>
+    <string name="infoMeterModeVibrationsTitle">Vibrace</string>
+    <string name="dialogOfflineMapsFolderCopyMessage">Aby bylo možné vybraný obsah použít, musí být zkopírován do složky map specifické pro danou aplikaci.
+\n
+\nUdělat to nyní\?</string>
+    <string name="unitKmhPerSec">kmh/s</string>
+    <string name="summaryRollResistCoefAverage">Prům. koef. val. odporu</string>
+    <string name="menuRemove">Odstranit</string>
+    <string name="menuBell">Zvonek</string>
+    <string name="menuInsertRight">Vpravo</string>
+    <string name="menuSpeedoScale">Stupnice</string>
+    <string name="menuSelect">Vybrat</string>
+    <string name="menuLayout">Uspořádání</string>
+    <string name="menuSpeedoAppearance">Vzhled</string>
+    <string name="prefAutoTerrainSummary">Měřením vibrací zjišťuje nerovnosti terénu a podle toho upravuje koeficient valivého odporu (Cᵣᵣ) při výpočtu výkonu.</string>
+    <string name="pref_category_units_common_title">Měrné jednotky (všechny profily)</string>
+    <string name="menuInsert">Vložit</string>
+    <string name="pref_group_activityRecognition_title">Rozpoznání aktivity</string>
+    <string name="menuSpeedoValue">Hodnota</string>
+    <string name="menuAdvanced">Pokročilé</string>
+    <string name="pref_screensaverTimeout_title">Časový limit</string>
+    <string name="summaryInaccurateLocationZoneCount">Zóny nepřesnosti</string>
+    <string name="pref_screensaverDimBrightness_title">Tlumený jas</string>
+    <string name="tracksHistoryGrantAccess">Chybějící trasy\?
+\nKlikněte zde pro přidělení přístupu k vlastním trasám v módu pouze pro čtení…</string>
+    <string name="pref_meterTitle">Měřič</string>
+    <string name="unitGAccel">g</string>
+    <string name="pref_category_units_per_profile_title">Měrné jednotky (dle profilu)</string>
+    <string name="menuSpeedoDisplayMode">Mód zobrazení</string>
+    <string name="dialogOfflineMapsFolderCopyTitle">Kopírovat do složky map</string>
 </resources>
