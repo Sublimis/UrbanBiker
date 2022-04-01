@@ -505,7 +505,6 @@
     <string name="pref_category_buttons_title">Πλήκτρα</string>
     <string name="pref_category_meters_title">Μετρητές</string>
     <string name="pref_group_meters_title">Μετρητές</string>
-    <string name="pref_category_meter4_title">Μετρητής 4</string>
     <string name="pref_group_maps_title">Χάρτες</string>
     <string name="pref_category_maps_online_mode_title">Πηγή χαρτών</string>
     <string name="pref_category_maps_offline_title">Χάρτες εκτός σύνδεσης</string>
@@ -859,7 +858,7 @@
     <string name="pref_wakelock_modes_explanation_3">Να ακολουθεί την συμπεριφορά που επιβάλλεται από το σύστημα ή/και από άλλες εφαρμογές. Προειδοποίηση: Μπορεί να προκαλέσει πολύ ακανόνιστες ενημερώσεις τοποθεσίας ή απόρριψη τους. Δεν προτείνεται.</string>
     <!-- pref_locationProvider_modes -->
     <string name="pref_locationProvider_modes_0">Υποσύστημα GPS</string>
-    <string name="pref_locationProvider_modes_1">Υπηρεσία Google Play</string>
+    <string name="pref_locationProvider_modes_1">Υπηρεσία Google Play (Προκαθορισμένο)</string>
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Όλα τα προφίλ) Χρήση υποσυστήματος GPS απευθείας. Σταθερό, λιγότερο περίπλοκο μοντέλο, χωρίς μεσολάβηση. Μπορούν επίσης να χρησιμοποιει λιγότερους πόρους από ό,τι με άλλο πάροχο.</string>
     <string name="pref_locationProvider_modes_explanation_1">(Όλα τα προφίλ) Χρησιμοποίηση \"μικτής\" παροχής των υπηρεσιών Google Play, εάν είναι διαθέσιμη. Θεωρητικά αυτή μπορεί να παρέχει ταχύτερη και πιο ακριβή θέση μερικές φορές.</string>
@@ -1428,7 +1427,7 @@
     <string name="pref_category_units_per_profile_title">Μονάδες μέτρησης (ανά προφίλ)</string>
     <string name="dialogOfflineMapsFolderCopyTitle">Αντιγραφή στο φάκελο χαρτών</string>
     <string name="menuMeterShowValue">Τιμή</string>
-    <string name="menuSpeedoNeedle">Προβολή βελόνας</string>
+    <string name="menuSpeedoNeedle">Βελόνα</string>
     <string name="menuMeterShowChart">Διάγραμμα</string>
     <string name="menuSpeedoIndicatorMax">Ένδειξη μέγιστου</string>
     <string name="menuSpeedoAppearance">Εμφάνιση</string>
@@ -1452,4 +1451,31 @@
     <string name="menuAdvanced">Προηγμένες</string>
     <string name="summaryInaccurateLocationZoneCount">Ζώνες ανακρίβειας</string>
     <string name="pref_meterTitle">Μετρητής</string>
+    <string name="dialogLayoutEmptyInfoMessage">Θα πρέπει να υπάρχει τουλάχιστον ένας μετρητής στη διάταξη.</string>
+    <string name="pref_categoryTrackingButtonTitle">Κουμπί ακολουθίας</string>
+    <string name="menuInsertAbove">Επάνω</string>
+    <string name="menuProperties">Ιδιότητες…</string>
+    <string name="dialogLayoutChooseTitle">Επιλέξτε διάταξη οθόνης</string>
+    <string name="meterHorizontalWeight">Οριζόντια διάταξη</string>
+    <string name="menuInsertMeter">Εισαγωγή μετρητή</string>
+    <string name="menuSpeedo">Ταχύμετρο</string>
+    <string name="menuMeterShowSubValues">Υποτιμές</string>
+    <string name="prefTrackingButtonModeTitle">Εναλλακτική συμπεριφορά</string>
+    <string name="dialogLayoutChoosePrompt">Η τρέχουσα διάταξη θα αντικατασταθεί.
+\n
+\nΕφαρμογή της επιλεγμένης διάταξης;</string>
+    <string name="prefTrackingButtonModeSummary">Κάντε κλικ ή παρατεταμένο κλικ για Παύση, ξεχωριστό κουμπί για Διακοπή.</string>
+    <string name="menuInsertBelow">Κάτω</string>
+    <string name="menuMeter">Μετρητής</string>
+    <string name="dialogLayoutEmptyInfoTitle">Διάταξη</string>
+    <string name="menuInsertSpeedo">Εισαγωγή ταχύμετρου</string>
+    <string name="menuInsertLeft">Αριστερά</string>
+    <string name="menuMeterShowIcon">Εικονίδιο</string>
+    <string name="menuReset">Επαναφορά</string>
+    <string name="menuRemove">Αφαίρεση</string>
+    <string name="menuInsertRight">Δεξιά</string>
+    <string name="menuSpeedoScale">Κλίμακα</string>
+    <string name="menuLayout">Διάταξη</string>
+    <string name="menuInsert">Εισαγωγή</string>
+    <string name="menuSpeedoValue">Τιμές</string>
 </resources>
