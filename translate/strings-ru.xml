@@ -618,7 +618,7 @@
     <string name="pref_autopause_mode_dialog_title">Автопауза</string>
     <string name="pref_speedometer_limit_dialog_title">Индикатор максимальной скорости</string>
     <string name="pref_speed_calculate_mode_title">Пересчёт скорости</string>
-    <string name="pref_speed_calculate_mode_summary">(Все профили) Выполнять перерасчёт скорости, используя пройденный путь, а не непосредственные значения GPS. Может дать более стабильные данные скорости по сравнению со значениями GPS (Допплера).</string>
+    <string name="pref_speed_calculate_mode_summary">(Все профили) Выполнять перерасчёт скорости, используя пройденный путь, а не непосредственные значения GPS. Может дать более стабильные данные скорости по сравнению со значениями GPS (Допплера). По умолчанию ОТКЛЮЧЕНО.</string>
     <string name="pref_soundeffects_title">Включить</string>
     <string name="pref_soundeffects_fence_enterleave_title">Скрытая зона</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Сигнал при входе/выходе в скрытую зону</string>
@@ -825,7 +825,7 @@
     <string name="meterModes_25">Одометр</string>
     <!-- pref_gps_update_freq_entries -->
     <string name="pref_gps_update_freq_entries_0">Самый быстрый</string>
-    <string name="pref_gps_update_freq_entries_2">Адаптивно (по умолчанию)</string>
+    <string name="pref_gps_update_freq_entries_2">По умолчанию</string>
     <string name="pref_gps_update_freq_entries_3">1 секунда</string>
     <string name="pref_gps_update_freq_entries_4">2 секунды</string>
     <string name="pref_gps_update_freq_entries_5">3 секунды</string>
@@ -1474,4 +1474,5 @@
     <string name="menuLayout">Компоновка</string>
     <string name="menuInsert">Вставить</string>
     <string name="menuSpeedoValue">Значение</string>
+    <string name="pref_gps_update_freq_entries_1">Адаптивный</string>
 </resources>
