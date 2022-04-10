@@ -970,7 +970,7 @@
     <string name="pref_locationProviderMode_summary" translatable="false">@null</string>
     <string name="pref_locationProviderMode_dialog_title" translatable="false">@string/pref_category_locationProvider_title</string>
     <string name="pref_speed_calculate_mode_title">Recalculate speed</string>
-    <string name="pref_speed_calculate_mode_summary">(All profiles) Recalculate speed from distances, do not use GPS value directly. This may provide more stable speed readings over GPS (Doppler) values.</string>
+    <string name="pref_speed_calculate_mode_summary">(All profiles) Recalculate speed from distances, do not use GPS value directly. This may provide more stable speed readings over GPS (Doppler) values. Default is OFF.</string>
     <string name="pref_background_pattern_title" translatable="false">@null</string>
     <string name="pref_background_pattern_summary" translatable="false">@null</string>
     <string name="pref_background_pattern_dialog_title">Menu background pattern</string>
@@ -1282,7 +1282,8 @@
 
     <!-- pref_gps_update_freq_entries -->
     <string name="pref_gps_update_freq_entries_0">Fastest</string>
-    <string name="pref_gps_update_freq_entries_2">Adaptive (default)</string>
+    <string name="pref_gps_update_freq_entries_1">Adaptive</string>
+    <string name="pref_gps_update_freq_entries_2">Default</string>
     <string name="pref_gps_update_freq_entries_3">1 sec</string>
     <string name="pref_gps_update_freq_entries_4">2 sec</string>
     <string name="pref_gps_update_freq_entries_5">3 sec</string>
