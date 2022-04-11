@@ -624,7 +624,7 @@
     <string name="pref_autopause_mode_dialog_title">Auto pauziranje</string>
     <string name="pref_speedometer_limit_dialog_title">Max indikatora brzine</string>
     <string name="pref_speed_calculate_mode_title">Preračunaj brzinu</string>
-    <string name="pref_speed_calculate_mode_summary">(Svi profili) Preračunaj brzinu pomoću udaljenosti, ne koristi GPS vrijednost izravno. To može pružiti stabilnija očitanja brzine nego preko GPS (Doppler) vrijednosti.</string>
+    <string name="pref_speed_calculate_mode_summary">(Svi profili) Ponovno izračunajte brzinu iz udaljenosti, nemojte izravno koristiti GPS vrijednost. To može osigurati stabilnija očitanja brzine u odnosu na GPS (Doppler) vrijednosti. Zadana postavka je OFF.</string>
     <string name="pref_background_pattern_dialog_title">Pozadinski uzorak menija</string>
     <string name="pref_soundeffects_title">Omogući</string>
     <string name="pref_soundeffects_fence_enterleave_title">Ograda</string>
@@ -857,7 +857,7 @@
     <string name="meterModes_25">Odometar</string>
     <!-- pref_gps_update_freq_entries -->
     <string name="pref_gps_update_freq_entries_0">Najbrže</string>
-    <string name="pref_gps_update_freq_entries_2">Prilagodljivo (zadano)</string>
+    <string name="pref_gps_update_freq_entries_2">Zadano</string>
     <string name="pref_gps_update_freq_entries_3">1 sek</string>
     <string name="pref_gps_update_freq_entries_4">2 sek</string>
     <string name="pref_gps_update_freq_entries_5">3 sek</string>
@@ -1468,4 +1468,5 @@
     <string name="menuLayout">Izgled</string>
     <string name="menuInsert">Umetni</string>
     <string name="menuSpeedoValue">Vrijednost</string>
+    <string name="pref_gps_update_freq_entries_1">Prilagodljivo</string>
 </resources>
