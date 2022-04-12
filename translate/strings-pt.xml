@@ -624,7 +624,7 @@
     <string name="pref_autopause_mode_dialog_title">Pausa Automática</string>
     <string name="pref_speedometer_limit_dialog_title">Indicador de velocidade máx.</string>
     <string name="pref_speed_calculate_mode_title">Recalcular velocidade</string>
-    <string name="pref_speed_calculate_mode_summary">(Todos os perfis) Recalcular a velocidade a partir das distâncias, não usa o valor do GPS diretamente. Isso pode fornecer leituras de velocidade mais estáveis sobre os valores de GPS (Doppler).</string>
+    <string name="pref_speed_calculate_mode_summary">(Todos os perfis) Recalcular a velocidade a partir das distâncias, não usa o valor do GPS diretamente. Isso pode fornecer leituras de velocidade mais estáveis sobre os valores de GPS (Doppler). O padrão é DESLIGADO.</string>
     <string name="pref_background_pattern_dialog_title">Padrão de Fundo do Menu</string>
     <string name="pref_soundeffects_title">Ativo</string>
     <string name="pref_soundeffects_fence_enterleave_title">Zona privada</string>
@@ -857,7 +857,7 @@
     <string name="meterModes_25">Odómetro</string>
     <!-- pref_gps_update_freq_entries -->
     <string name="pref_gps_update_freq_entries_0">Mais rápido</string>
-    <string name="pref_gps_update_freq_entries_2">Adapatativo (Padrão)</string>
+    <string name="pref_gps_update_freq_entries_2">Padrão</string>
     <string name="pref_gps_update_freq_entries_3">1 seg</string>
     <string name="pref_gps_update_freq_entries_4">2 seg</string>
     <string name="pref_gps_update_freq_entries_5">3 seg</string>
@@ -1468,4 +1468,5 @@
     <string name="menuLayout">Layout</string>
     <string name="menuInsert">Inserir</string>
     <string name="menuSpeedoValue">Valor</string>
+    <string name="pref_gps_update_freq_entries_1">Adaptativo</string>
 </resources>
