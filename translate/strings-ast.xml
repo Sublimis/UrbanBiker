@@ -762,7 +762,7 @@
     <string name="pref_autopause_mode_dialog_title">Posa automática</string>
     <string name="pref_speedometer_limit_dialog_title">Indicador de velocidá máxima</string>
     <string name="pref_speed_calculate_mode_title">Recalcular velocidá</string>
-    <string name="pref_speed_calculate_mode_summary">(Tolos perfiles) Recalcular la velocidá usando distancies, nun usar el valor GPS directamente. Esto puede apurrir llectures de velocidá más estables sobro los valores GPS (Doppler).</string>
+    <string name="pref_speed_calculate_mode_summary">(Tolos perfiles) Recalcular la velocidá usando distancies, nun usar el valor GPS directamente. Esto puede apurrir llectures de velocidá más estables sobro los valores GPS (Doppler). Por defectu é APAGÁU.</string>
     <string name="pref_background_pattern_dialog_title">Patrón de fondu del menú</string>
     <string name="pref_soundeffects_title">Habilitar</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
@@ -1012,7 +1012,7 @@
     <string name="meterModes_27">Pasos</string>
     <string name="meterModes_28">Cadencia de pasos</string>
     <string name="pref_gps_update_freq_entries_0">Más rápida</string>
-    <string name="pref_gps_update_freq_entries_2">Adaptativu (por defectu)</string>
+    <string name="pref_gps_update_freq_entries_2">Por defectu</string>
     <string name="pref_gps_update_freq_entries_3">1 seg</string>
     <string name="pref_gps_update_freq_entries_4">2 seg</string>
     <string name="pref_gps_update_freq_entries_5">3 seg</string>
@@ -1045,7 +1045,7 @@
     <string name="pref_wakelock_modes_explanation_2">Dexar al CPU suspender ente actualizaciones d\'allugamientu. Usa menos batería, pero puede omitir dalguna actualización en rares ocasiones.</string>
     <string name="pref_wakelock_modes_explanation_3">Cumplir el comportamientu impuestu pol sistema y/o otres aplicaciones. Alvertencia: Puede causar munches actualizaciones irregulares d\'allugamientu o inclusive refugales toes. Non encamentáu.</string>
     <string name="pref_locationProvider_modes_0">Subsistema GPS</string>
-    <string name="pref_locationProvider_modes_1">Servicios de Google Play</string>
+    <string name="pref_locationProvider_modes_1">Servicios de Google Play (por defectu)</string>
     <string name="pref_locationProvider_modes_explanation_0">(Tolos perfiles) Usar subsistema de GPS directamente. Estable, modelos menos complexos, ensin intermediarios. Puede usar menos recursos qu\'otru provisor.</string>
     <string name="pref_locationProvider_modes_explanation_1">(Tolos perfiles) Usa\'l provisor \"Fundíu\" de Google Play services, si ta disponible. En teoría, ésti tien d\'aprovir n\'ocasiones d\'allugamientos más rápidos y precises.</string>
     <string name="pref_flashlightBlinkModes_0">Lentu (por defectu)</string>
@@ -1352,7 +1352,7 @@
     <string name="menuAutomaticBell">Timbre automáticu</string>
     <string name="menuSpeedoPaceIndicator">Indicador de ritmu</string>
     <string name="menuMeterShowValue">Valor</string>
-    <string name="menuSpeedoNeedle">Amosar aguya</string>
+    <string name="menuSpeedoNeedle">Aguya</string>
     <string name="menuMeterShowChart">Gráficu</string>
     <string name="menuSpeedoStallIndicator">Indicador de parada</string>
     <string name="menuSpeedoIndicatorMax">Indicador máx</string>
@@ -1403,4 +1403,5 @@
     <string name="prefScreensaverDimBrightnessEntries_0">Mínimu</string>
     <string name="prefScreensaverTimeoutEntries_6">1 minutu</string>
     <string name="prefScreensaverTimeoutEntries_5">45 segundos</string>
+    <string name="menuMeter">Midida</string>
 </resources>
