@@ -451,7 +451,7 @@
     <string name="pref_autopause_mode_dialog_title">Pausa automática</string>
     <string name="pref_speedometer_limit_dialog_title">Indicador de velocidad máxima</string>
     <string name="pref_speed_calculate_mode_title">Recalcular velocidad</string>
-    <string name="pref_speed_calculate_mode_summary">(Todos los perfiles) Recalcular la velocidad usando distancias, no usar el valor GPS directamente. Esto puede proporcionar lecturas de velocidad más estables sobre valores GPS (Doppler).</string>
+    <string name="pref_speed_calculate_mode_summary">(Todos los perfiles) Recalcular la velocidad usando distancias, no usar el valor GPS directamente. Esto puede proporcionar lecturas de velocidad más estables sobre valores GPS (Doppler). Por defecto está APAGADO.</string>
     <string name="pref_soundeffects_title">Habilitar</string>
     <string name="pref_soundeffects_fence_enterleave_title">Zona privada</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Sonar al entrar o abandonar una zona privada</string>
@@ -780,7 +780,7 @@
     <string name="meterModes_23">Temperatura</string>
     <string name="meterModes_24">Presión</string>
     <string name="meterModes_25">Odómetro</string>
-    <string name="pref_gps_update_freq_entries_2">Adaptativo (por omisión)</string>
+    <string name="pref_gps_update_freq_entries_2">Por defecto</string>
     <string name="pref_gps_update_freq_entries_3">1 seg</string>
     <string name="pref_gps_update_freq_entries_4">2 seg</string>
     <string name="pref_gps_update_freq_entries_5">3 seg</string>
@@ -1465,4 +1465,5 @@
     <string name="menuLayout">Disposición</string>
     <string name="menuInsert">Insertar</string>
     <string name="menuSpeedoValue">Valor</string>
+    <string name="pref_gps_update_freq_entries_1">Adaptativo</string>
 </resources>
