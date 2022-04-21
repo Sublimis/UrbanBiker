@@ -609,7 +609,7 @@
     <string name="pref_fenceguard_summary">Προστατέψτε την τοποθεσία του σπιτιού σας, ή άλλα σημαντικά σημεία από την έκθεση, σε καταγεγραμμένες διαδρομές</string>
     <string name="pref_autopause_mode_dialog_title">Αυτόματη παύση</string>
     <string name="pref_speed_calculate_mode_title">Επαναυπολογισμός της ταχύτητας</string>
-    <string name="pref_speed_calculate_mode_summary">(Όλα τα προφίλ) Επαναυπολογίζει την ταχύτητα από τις αποστάσεις, χωρίς να χρησιμοποιεί απευθείας την τιμή GPS. Αυτό μπορεί να παρέχει πιο σταθερές αναγνώσεις ταχύτητας από τις τιμές GPS (Doppler).</string>
+    <string name="pref_speed_calculate_mode_summary">(Όλα τα προφίλ) Επαναυπολογίζει την ταχύτητα από τις αποστάσεις, χωρίς να χρησιμοποιεί απευθείας την τιμή GPS. Αυτό μπορεί να παρέχει πιο σταθερές αναγνώσεις ταχύτητας από τις τιμές GPS (Doppler).Η προεπιλογή είναι OFF.</string>
     <string name="pref_soundeffects_title">Ενεργοποίηση</string>
     <string name="pref_soundeffects_fence_enterleave_title">Περίφραξη</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Ήχος όταν εισέρχεστε ή εξέρχεστε της περίφραξη</string>
@@ -817,7 +817,7 @@
     <string name="meterModes_25">Οδόμετρο</string>
     <!-- pref_gps_update_freq_entries -->
     <string name="pref_gps_update_freq_entries_0">Τάχιστο</string>
-    <string name="pref_gps_update_freq_entries_2">Προκαθορισμένο (προεπιλογή)</string>
+    <string name="pref_gps_update_freq_entries_2">Προεπιλογή</string>
     <string name="pref_gps_update_freq_entries_3">1 δευτ</string>
     <string name="pref_gps_update_freq_entries_4">2 δευτ</string>
     <string name="pref_gps_update_freq_entries_5">3 δευτ</string>
@@ -1477,4 +1477,7 @@
     <string name="menuLayout">Διάταξη</string>
     <string name="menuInsert">Εισαγωγή</string>
     <string name="menuSpeedoValue">Τιμές</string>
+    <string name="meterVerticalWeight">Κάθετο βάρος</string>
+    <string name="menuSendDebugFeedback">Αναφέρετε ένα πρόβλημα</string>
+    <string name="pref_gps_update_freq_entries_1">Προσαρμοστικότητα</string>
 </resources>
