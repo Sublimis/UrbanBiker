@@ -392,7 +392,7 @@
     <string name="dialogCameraPermissionRequest">Permission is needed so the app can activate the flashlight.</string>
     <string name="dialogPermissionProblemMessage">This permission is needed for the app to function properly. It can be granted in the App permissions settings page.\n\nGo there now?</string>
     <string name="dialogActivityRecognitionPermissionRequestTitle">Physical activity permission</string>
-    <string name="dialogActivityRecognitionPermissionRequest">Permission is needed so the app can use built-in sensors like Step Detector sensor.</string>
+    <string name="dialogActivityRecognitionPermissionRequest">Permission is needed so the app can use the built-in Step Detector sensor, and perform other useful actions when motion is detected.</string>
     <string name="dialogBluetoothPermissionRequestTitle">Bluetooth permission</string>
     <string name="dialogBluetoothPermissionRequest">Permission is needed so the app can find and connect with wireless sensors.</string>
     <string name="dialogScreenshotTitle">Screenshot</string>
@@ -684,13 +684,13 @@
     <string name="summaryMechWork">Mech. work</string>
     <string name="summaryMechWorkInfo">Purely mechanical work spent for this activity (disregarding thermal efficiency and BMR).</string>
     <string name="summaryActivePower">Active power</string>
-    <string name="summaryClimbing">Climbing</string>
+    <string name="summaryClimbing">Climb</string>
     <string name="summaryClimbingEnergyInfo">Percentage of the energy that was used to overcome gravity.</string>
-    <string name="summaryDragging">Dragging</string>
+    <string name="summaryDragging">Drag</string>
     <string name="summaryDraggingEnergyInfo">Percentage of the energy that was used to overcome air drag resistance.</string>
-    <string name="summaryAccelerating">Accelerating</string>
-    <string name="summaryAcceleratingEnergyInfo">Percentage of the energy that was used for accelerating.</string>
-    <string name="summaryRolling">Rolling</string>
+    <string name="summaryAccelerating">Accelerate</string>
+    <string name="summaryAcceleratingEnergyInfo">Percentage of the energy that was used to accelerate.</string>
+    <string name="summaryRolling">Roll</string>
     <string name="summaryRollingEnergyInfo">Percentage of the energy that was used to overcome rolling resistance.</string>
     <string name="summaryBasal">Basal</string>
     <string name="summaryBasalEnergyInfo">Percentage of the energy that was used for basal metabolism.</string>
@@ -1233,6 +1233,9 @@
     <string name="infoDigitalFilterNotice">Please note: This can be delayed from the real time by a minute or so, due to inevitable digital filtering delays.</string>
 
     <string name="infoContentSize">Content size: %1$d MB</string>
+
+    <string name="infoAppUpdateMessage">The update is ready.</string>
+    <string name="infoAppUpdateAction">Restart</string>
 
     <string name="defaultProfileNameBike1">Bike 1 🚴</string>
     <string name="defaultProfileNameBike2">Bike 2 🚵</string>
