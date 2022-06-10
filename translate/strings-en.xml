@@ -410,10 +410,15 @@
     <string name="dialogRevokeAccessPromptMessage">Revoke access?</string>
     <string name="dialogCustomTracksFolderInfoMessage">This feature allows the app to read tracks from a folder of your choice, in addition to the default tracks folder — whose location has recently changed.\n\nSuch tracks are read-only: They can be viewed and shared, but cannot be edited, resumed nor deleted.\n\nIf you are unsure, try finding the \"Documents-UrbanBiker-tracks\" folder on the next screen.</string>
     <string name="dialogMeterModesTitle">Choose available modes</string>
-    <string name="dialogLayoutChooseTitle">Choose display layout</string>
+    <string name="dialogLayoutChooseTitle">Layout</string>
+    <string name="dialogLayoutChooseSubtitle">Choose display layout</string>
     <string name="dialogLayoutChoosePrompt">Current layout will be overwritten.\n\nApply the selected layout?</string>
     <string name="dialogLayoutEmptyInfoTitle">Layout</string>
     <string name="dialogLayoutEmptyInfoMessage">There should be at least one meter present in the layout.</string>
+    <string name="dialogLayoutsInfoTitle">Layouts</string>
+    <string name="dialogLayoutsInfoMessage">Quickly change the display layout from a set of predefined layouts.\n\nThen long-click any field to further customize the view via the pop-up menus.</string>
+    <string name="dialogWeatherInfoTitle" translatable="false">@string/dialogMapsWeatherRadar</string>
+    <string name="dialogWeatherInfoMessage">Radar data is updated every 10 minutes. Filled icon indicates fresh data, empty icon means an update is near.\n\nYellow and red colors show areas of more precipitation.\n\nLast 1 hour of radar data can be animated to reveal precipitation trends.</string>
 
     <!-- dialog_fenceguard_add_entries -->
     <string name="dialog_fenceguard_add_entries_0">Add fence</string>
