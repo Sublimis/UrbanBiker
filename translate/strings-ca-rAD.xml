@@ -9,11 +9,11 @@
     <string name="proLicenseLabel">Pro</string>
     <string name="proPlusLicenseLabel">Pro+</string>
     <string name="ultimateLicenseLabel">Ultimate</string>
-    <string name="proLicenseTitle">Pro License</string>
-    <string name="proLicenseDescription">Remove ads</string>
-    <string name="proPlusLicenseTitle">Pro Plus License</string>
-    <string name="proPlusLicenseDescription">Remove ads and unlock all non-subscription features we may add in the future</string>
-    <string name="ultimateLicenseTitle">Ultimate License</string>
+    <string name="proLicenseTitle">Llicència Pro</string>
+    <string name="proLicenseDescription">Elimina els anuncis</string>
+    <string name="proPlusLicenseTitle">Llicència Pro Plus</string>
+    <string name="proPlusLicenseDescription">Elimineu els anuncis i desbloquegeu totes les funcions sense subscripció que podem afegir en el futur</string>
+    <string name="ultimateLicenseTitle">Llicència Ultimate</string>
     <string name="ok">OK</string>
     <string name="yes">Sí</string>
     <string name="no">No</string>
@@ -373,11 +373,11 @@
     <string name="meterModeHeartRateShort">fc</string>
     <string name="meterModeGearRatio">relació de transmitió</string>
     <string name="meterModeGearRatioShort">rel trans</string>
-    <string name="roarModeConstant">const</string>
+    <string name="roarModeConstant">Constant</string>
     <string name="meterTextMin">min.</string>
     <string name="meterTextMax">màx.</string>
     <string name="meterTextAvg">mit.</string>
-    <string name="meterTextTotal">tot</string>
+    <string name="meterTextTotal">Tot</string>
     <string name="controlPanelSoundAutoBell">Timbre automàtic</string>
     <string name="controlPanelSoundRoar">SAAV</string>
     <string name="controlPanelSoundEffects">Efectes</string>
@@ -611,7 +611,7 @@
     <string name="pref_fenceguard_summary">Protegeix la ubicació de la vostra casa, o d\'altres llocs importants, d\'estar exposats als trajectes enregistrats</string>
     <string name="pref_autopause_mode_dialog_title">Pausant automàticament</string>
     <string name="pref_speed_calculate_mode_title">Recalcula velocitat</string>
-    <string name="pref_speed_calculate_mode_summary">(Tots els perfils) Recalcular la velocitat a través de les distàncies no fa servir directaments els valors del GPS. Això donarà lectures més estables per valors del GPS (Doppler).</string>
+    <string name="pref_speed_calculate_mode_summary">(Tots els perfils) Recalcular la velocitat a través de les distàncies no fa servir directament els valors del GPS. Això donarà lectures més estables per valors del GPS (Doppler).</string>
     <string name="pref_soundeffects_title">Activa</string>
     <string name="pref_soundeffects_fence_enterleave_title">Àrea</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Sona quan entreu o sortiu d\'una àrea</string>
@@ -763,10 +763,10 @@
     <string name="infoAutopauseForcedOff">Nota: Auto Pausa forçada a Aturat</string>
     <string name="defaultProfileNameBike1">Bicicleta 1 🚴</string>
     <string name="defaultProfileNameBike2">Bicicleta 2 🚵</string>
-    <string name="defaultProfileNameWalk">Caminar</string>
-    <string name="defaultProfileNameRun">Correr</string>
-    <string name="defaultProfileNameCar">Cotxe</string>
-    <string name="defaultProfileNamePlane">Avió</string>
+    <string name="defaultProfileNameWalk">Caminar 👣</string>
+    <string name="defaultProfileNameRun">Córrer 🏃</string>
+    <string name="defaultProfileNameCar">Cotxe 🚘</string>
+    <string name="defaultProfileNamePlane">Avió 🛩️</string>
     <string name="defaultProfileNameOther">Altres</string>
     <string name="svgCopyright">Creat amb Urban Biker</string>
     <string name="menuLicense">Actualitzar la licència</string>
@@ -780,7 +780,7 @@
     <string name="dialogTracksShareChoices_1">Només GPX</string>
     <!-- pref_gps_update_freq_entries -->
     <string name="pref_gps_update_freq_entries_0">Més ràpid</string>
-    <string name="pref_gps_update_freq_entries_2">Defecte</string>
+    <string name="pref_gps_update_freq_entries_2">Per defecte</string>
     <string name="pref_gps_update_freq_entries_3">1 seg</string>
     <string name="pref_gps_update_freq_entries_4">2 seg</string>
     <string name="pref_gps_update_freq_entries_5">3 seg</string>
@@ -816,7 +816,7 @@
     <string name="pref_wakelock_modes_explanation_3">Obeeix a un comportament imposat pel sistema i/o altres app. Atenció: Pot causar actualitzacions molt irregulars o fins i tot descartar-les totalment. No recomanat.</string>
     <!-- pref_locationProvider_modes -->
     <string name="pref_locationProvider_modes_0">Subsistema de GPS</string>
-    <string name="pref_locationProvider_modes_1">Serveis de Google Play</string>
+    <string name="pref_locationProvider_modes_1">Serveis de Google Play (per defecte)</string>
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Tots el perfils) Usa el subsistema GPS directament. Estable, model menys complex, sense intermediari. Pot també emprar menys recursos que altres proveïdors.</string>
     <string name="pref_locationProvider_modes_explanation_1">(Tots els perfils) Empra un proveidor fusionat des dels serveis de Google Play, si està disponible, En teoria això pot proveir sovint ubicacions més ràpidament i més acurades.</string>
@@ -965,7 +965,7 @@
     <string name="prefScreensaverDimBrightnessEntries_2">⅓ de la brillantor actual (predefinit)</string>
     <string name="sensorFilterInterval_2">7 segons</string>
     <string name="sensorFilterInterval_1">5 segons</string>
-    <string name="dialogReviewNudgeMessage2">¡Gràcies! Si us plau escriviu una bona ressenya o posi 5 estrelles en Play Store.</string>
+    <string name="dialogReviewNudgeMessage2">Gràcies! Si us plau, escriviu una bona ressenya o poseu 5 estrelles a la Play Store.</string>
     <string name="timePeriod_per3Months">per 3 mesos</string>
     <string name="dialogLocationPermissionRequestForBt">Es necesari permís d\'ubicació per trobar els dispositius Bluetooth.
 \n
@@ -981,11 +981,11 @@
     <string name="dialogScreenOrientationReverseLandscape">Horitzontal (inversa)</string>
     <string name="prefScreenPocketModeDelayEntries_4">0.40 segons</string>
     <string name="controlPanelScreenOrientation">Orientació de pantalla</string>
-    <string name="dialogActivityRecognitionPermissionRequest">Son necessaris permisos per que l\'aplicació faci servir els sensors incorporats, com per exemple el sensor de detecció de passos.</string>
+    <string name="dialogActivityRecognitionPermissionRequest">Són necessaris permisos perquè l\'aplicació faci servir els sensors incorporats, com per exemple el sensor de detecció de passos.</string>
     <string name="prefAppVisualThemeEntries_1">Clar</string>
     <string name="prefScreensaverTimeoutEntries_4">30 segons</string>
     <string name="timePeriod_perWeek">per setmana</string>
-    <string name="pref_autopause_modes_explanation_2">Manté totes les pauses (llevat que es pausi manualmente)</string>
+    <string name="pref_autopause_modes_explanation_2">Manté totes les pauses (llevat que es posi en pausa manualment)</string>
     <string name="licenseItemAlreadyOwned">En possessió d\'una llicència</string>
     <string name="dialogScreenOrientationReversePortrait">Vertical (inversa)</string>
     <string name="summaryVehicleWeightInfo">Pes del vehicle utilitzat durant la gravació del recorregut.</string>
@@ -1173,7 +1173,7 @@
     <string name="menuMeterShowValue">Valor</string>
     <string name="dialogRevokeAccessPromptMessage">Revocar accés\?</string>
     <string name="menuRevokeAccess">Revocar accés</string>
-    <string name="menuSpeedoNeedle">Mostrar agulla</string>
+    <string name="menuSpeedoNeedle">Mostrar indicador</string>
     <string name="menuMeterShowChart">Gràfic</string>
     <string name="menuSpeedoStallIndicator">Indicador de parada</string>
     <string name="menuSelectOther">Seleccionar un altre</string>
@@ -1217,4 +1217,116 @@
 \nAquest acostuma a ser el pes de l\'entitat que proporciona una força impulsora.
 \n
 \nNota: la potència vertical sempre es calcula utilitzant el pes total.</string>
+    <string name="dialogLayoutEmptyInfoMessage">Hi ha d\'haver com a mínim un paràmetre present en el traçat.</string>
+    <string name="menuInsertAbove">Damunt</string>
+    <string name="menuProperties">Propietats…</string>
+    <string name="pref_autopause_modes_explanation_1">Descarta només les pauses de més de 5 minuts</string>
+    <string name="meterVerticalWeight">Ample vertical</string>
+    <string name="summaryStoppedTimeInfo">Temps dedicat a la pausa, ja sigui manualment o mentre s\'utilitza la pausa automàtica.</string>
+    <string name="dialogLayoutChooseTitle">Graella</string>
+    <string name="meterHorizontalWeight">Ample horitzontal</string>
+    <string name="summaryDragging">Arrossegament</string>
+    <string name="meterModes_18">Cadència</string>
+    <string name="meterModes_0">Duració</string>
+    <string name="meterModes_14">Velocitat mitjana</string>
+    <string name="menuInsertMeter">Inserir mesura</string>
+    <string name="menuSpeedo">Velocímetre</string>
+    <string name="summaryVibrations">Vibracions</string>
+    <string name="disclaimerText1">Aquesta aplicació es proporciona tal com és, utilitzeu-la sota el vostre propi risc i responsabilitat. Nosaltres, els editors, no serem responsables de cap contratemps, pèrdua, lesió o cap altra circumstància derivada de l\'ús de l\'aplicació durant una sortida, viatge o qualsevol altra situació, que l\'involucri a vostè o a una tercera persona.</string>
+    <string name="meterModes_11">Potència vertical</string>
+    <string name="speechUnitOneMile">Milla</string>
+    <string name="sensorPurposeHumidity">Humitat</string>
+    <string name="meterModes_13">Acceleració</string>
+    <string name="menuMeterShowSubValues">Sub-valor</string>
+    <string name="sensorPurposeTemperature">Temperatura</string>
+    <string name="sensorStepDetectorName">Detector de passos</string>
+    <string name="summaryAccelerating">Acceleració</string>
+    <string name="summaryLocationIntervalInfo">Interval de temps mitjà entre dues actualitzacions d\'ubicació en aquest track.</string>
+    <string name="infoAppUpdateMessage">L\'actualització està preparada.</string>
+    <string name="summaryClimbingEnergyInfo">Percentatge de l\'energia que es va utilitzar per vèncer la gravetat.</string>
+    <string name="sensorProperitesNoAlarm">Sense alarma</string>
+    <string name="dialogLayoutChoosePrompt">La graella actual serà sobreescrita.
+\n
+\nVols aplicar la graella seleccionada\?</string>
+    <string name="dialogWeatherInfoMessage">Les dades del radar s\'actualitzen cada 10 minuts. La icona plena indica dades noves, la icona buida significa que hi ha una actualització pròximament.
+\n
+\nEls colors groc i vermell mostren zones de més precipitació.
+\n
+\nLes dades de radar de l\'última hora es poden animar per revelar les tendències de precipitació.</string>
+    <string name="meterModes_8">Eficàcia</string>
+    <string name="prefScreensaverDimBrightnessEntries_4">Deixa-ho com està</string>
+    <string name="meterModes_7">Energia</string>
+    <string name="summaryDeviceRestartsCountInfo">Nombre de vegades que l\'aplicació s\'ha tancat forçat o que el dispositiu ha deixat de funcionar durant aquesta activitat.</string>
+    <string name="dialogLayoutsInfoTitle">Graelles</string>
+    <string name="menuInsertBelow">Sota</string>
+    <string name="infoDigitalFilterNotice">Tingueu en compte: això es pot retardar un minut més o menys des del temps real, a causa dels inevitables retards del filtratge digital.</string>
+    <string name="menuMeter">Metre</string>
+    <string name="meterModes_29">FT potència</string>
+    <string name="dialogLayoutEmptyInfoTitle">Graella</string>
+    <string name="summaryRollingEnergyInfo">Percentatge de l\'energia que s\'utilitzava per superar la resistència al rodament.</string>
+    <string name="menuSendDebugFeedback">Reporta una falla</string>
+    <string name="sensorPurposePressure">Pressió</string>
+    <string name="menuInsertSpeedo">Inserir velocímetre</string>
+    <string name="summaryDeviceAutoPauseCount">Comptador auto-pausat</string>
+    <string name="summaryCadenceStrokesInfo">Nombre de cops de pedal detectats durant l\'activitat.</string>
+    <string name="pref_autopause_modes_explanation_0">Descarta totes les pauses superiors a pocs segons</string>
+    <string name="disclaimerText2">Si us plau, utilitzeu aquesta aplicació amb prudència i NO l\'utilitzeu mentre conduïu un cotxe, conduïu una moto, una bicicleta o qualsevol altre vehicle.</string>
+    <string name="menuInsertLeft">Esquerra</string>
+    <string name="defaultProfileNameSki">Esquí 🎿</string>
+    <string name="meterModes_4">Ascens</string>
+    <string name="menuMeterShowIcon">Icona</string>
+    <string name="summaryInaccurateLocationZoneCountInfo">Nombre de vegades que l\'aplicació va començar a rebutjar actualitzacions d\'ubicació a causa de la seva inexactitud.
+\n
+\nTingueu en compte que les àrees on no hi ha cap actualització d\'ubicació (p. ex., en interiors) no afecten aquest número.</string>
+    <string name="prefScreensaverDimBrightnessEntries_0">Mínim</string>
+    <string name="meterModes_5">Descens</string>
+    <string name="menuReset">Reiniciar</string>
+    <string name="dialogLayoutsInfoMessage">Canvieu ràpidament el disseny de la graella a partir d\'un conjunt de dissenys predefinits.
+\n
+\nA continuació, feu clic llarg a qualsevol camp per personalitzar encara més la vista mitjançant els menús emergents.</string>
+    <string name="meterModes_2">Velocitat</string>
+    <string name="infoContentSize">Mida del contingut: %1$d MB</string>
+    <string name="meterModes_26">Energia cinètica</string>
+    <string name="menuRemove">Eliminar</string>
+    <string name="sensorStepLengthNotSetWarning">La longitud del pas no s\'ha establert</string>
+    <string name="summaryDeviceAutoPauseCountInfo">Nombre de vegades que s\'ha activat la pausa automàtica durant aquesta activitat.</string>
+    <string name="meterModes_9">Potència</string>
+    <string name="pref_soundeffects_autopause_title">Pausa automàtica</string>
+    <string name="menuInsertRight">Dreta</string>
+    <string name="menuSpeedoScale">Escala</string>
+    <string name="menuLayout">Graella</string>
+    <string name="meterModes_6">Inclinació</string>
+    <string name="sensorPurposeSteps">Passos</string>
+    <string name="dialogLayoutChooseSubtitle">Escull disposició de la graella</string>
+    <string name="summaryBasalEnergyInfo">Percentatge de l\'energia que s\'utilitzava per al metabolisme basal.</string>
+    <string name="menuInsert">Inserta</string>
+    <string name="defaultProfileNameScooter">Patinet 🛴</string>
+    <string name="summaryBasal">Basal</string>
+    <string name="summaryActivePower">Potència activa</string>
+    <string name="menuSpeedoValue">Valor</string>
+    <string name="summaryMechWork">Treball mecànic</string>
+    <string name="meterModes_1">Distància</string>
+    <string name="summaryClimbing">Escalada</string>
+    <string name="sensorsInfo">Els sensors es connecten automàticament mentre la gravació està activa i es desconnecten quan atureu la gravació.
+\n
+\nNo és possible establir una connexió de sensor manualment.</string>
+    <string name="pref_soundeffects_proximity_title">Sensor de proximitat</string>
+    <string name="summaryInaccurateLocationZoneCount">Zones imprecises</string>
+    <string name="summaryAcceleratingEnergyInfo">Percentatge de l\'energia que s\'ha utilitzat per accelerar.</string>
+    <string name="summaryDraggingEnergyInfo">Percentatge de l\'energia que es va utilitzar per superar la resistència a l\'arrossegament de l\'aire.</string>
+    <string name="dialogAppOptimizedPromptMessage">Urban Biker hauria d\'estar exempt de les optimitzacions de la bateria, en cas contrari pot no funcionar correctament.
+\n
+\nObro la configuració ara\?</string>
+    <string name="pref_gps_update_freq_entries_1">Adaptatiu</string>
+    <string name="meterModes_12">Velocitat vertical</string>
+    <string name="summaryRolling">Rodament</string>
+    <string name="summaryTotalTimeInfo">Interval de temps entre l\'hora d\'inici i l\'hora de finalització d\'aquest track.</string>
+    <string name="meterModes_None">Cap mode</string>
+    <string name="meterModes_15">Potència mitjana</string>
+    <string name="summaryHeartBeatsInfo">Nombre de batecs cardíacs detectats durant l\'activitat.</string>
+    <string name="summaryMechWorkInfo">Treballs purament mecànics destinats a aquesta activitat (sense tenir en compte l\'eficiència tèrmica i el BMR).</string>
+    <string name="defaultProfileNameIndoor">Interior 🏠</string>
+    <string name="sensorProperitesNoAlarmInfo">Utilitzeu el sensor si està disponible, però no avisa ni alarma quan no estigui disponible. Útil per a sensors sense importància que no són essencials per a una activitat. Desactivat per defecte.</string>
+    <string name="meterModes_3">Altitud</string>
+    <string name="sensorWheelCircNotSetWarning">La circumferència de la roda no s\'ha establert</string>
 </resources>
