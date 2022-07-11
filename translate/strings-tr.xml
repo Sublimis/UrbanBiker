@@ -27,7 +27,7 @@
     <string name="menuTracksHistoryResume">Devam ettir</string>
     <string name="menuMeterLock">Kilitle</string>
     <string name="menuMeterLockAll">Hepsini Kilitle</string>
-    <string name="menuMeterMode">Metre Modu…</string>
+    <string name="menuMeterMode">Metre Modu</string>
     <string name="menuMeterChooseModes">Mod Seçin…</string>
     <string name="menuMeterResetMinMax">Sıfırla Min/Max</string>
     <string name="menuMeterParameters">Parametreler…</string>
@@ -121,10 +121,10 @@
     <string name="dialog_bell_automatic_sensitivity_title">Otomatik zil hassaslığı</string>
     <string name="dialog_fenceguard_add_title">Fence(yer) ekle</string>
     <string name="dialog_fenceguard_add_text">Yeni Fence adı:</string>
-    <string name="dialog_fenceguard_add_text2">"Fence kaydedilen rotada  görünmemesi için güncel konumunuz etrafında koruma alanı oluşturacak."</string>
+    <string name="dialog_fenceguard_add_text2">Fence kaydedilen rotada görünmemesi için güncel konumunuz etrafında koruma alanı oluşturacak.</string>
     <string name="dialog_fenceguard_update_title">Fence\'i güncelle</string>
     <string name="dialog_fenceguard_update_text">Fence adı:</string>
-    <string name="dialog_fenceguard_update_text2">"Fence kaydedilen rotada  görünmemesi için güncel konumunuz etrafında koruma alanı oluşturacak."</string>
+    <string name="dialog_fenceguard_update_text2">Fence kaydedilen rotada görünmemesi için güncel konumunuz etrafında koruma alanı oluşturacak.</string>
     <string name="dialog_fenceguard_remove_title">Fence\'i sil</string>
     <string name="dialog_fenceguard_remove_defaultText">Fence\'i silmek istediğinize emin misiniz\?</string>
     <string name="dialog_fenceguard_remove_formatText">%1$s\? adlı fence\'i kaldırmak istediğinizden emin misiniz\?</string>
@@ -168,7 +168,7 @@
     <string name="dialogPowerWeightsWeightWheels">Tekerlekler</string>
     <string name="dialogPowerParamsTitle">Güç kaybı katsayısı</string>
     <string name="dialogPowerParamsDragArea">Havayla sürtünme alanı (Cd·A)</string>
-    <string name="dialogPowerParamsRollResist">Dönüş sürtünme katsayısı. (Crr)</string>
+    <string name="dialogPowerParamsRollResist">Dönüş sürtünme katsayısı.(Cᵣᵣ)</string>
     <string name="dialogEnergyParamsBmr">Bazal Metobolizma Oranı (BMR)</string>
     <string name="dialogFileChooseSelectFolder">Bu dosyayı seç</string>
     <string name="dialogMapsDownloadTitle">Çevrimdışı harita indir</string>
@@ -566,9 +566,9 @@
     <string name="dialog_default_map_track_colors_title">Mevcut rota rengi yazısı</string>
     <string name="dialog_bell_shake_sensitivity_title">Sarsıntı hassaslığı</string>
     <string name="dialog_exit_msg">Uyarı: Kayıt aktif ve şimdi duracak.</string>
-    <string name="dialogProfileDeleteMessage">"Uyarı: Profil ayarları ve  tüm veriler kaldırılacak.  Kaydedilmiş rotalar silinmez.
+    <string name="dialogProfileDeleteMessage">Uyarı: Profil ayarları ve tüm veriler kaldırılacak. Kaydedilmiş rotalar silinmez.
 \n
-\nProfili sil\?"</string>
+\nProfili sil %1$s\?</string>
     <string name="dialogProfileAddInfo">Yeni profil ayarları kullanımdaki profil ayarlarından kopyalanacak</string>
     <string name="dialogTracksDeleteMessage">Uyarı: Bu eylem geri alınamaz.
 \n
@@ -583,7 +583,7 @@
     <string name="dialogBaroAltitudePromptTitle">Barometrik yükseklik sorunu</string>
     <string name="dialogBaroAltitudeNoticeTitle">Uyarı</string>
     <string name="dialogThermoBarometerNoticeTitle">Uyarı</string>
-    <string name="dialogResetNoTrackMessage">"Herhangi bir rota kaydedilmedi.  Ölçümleri sıfırla\?"</string>
+    <string name="dialogResetNoTrackMessage">Herhangi bir rota kaydedilmedi. Ölçümleri sıfırla\?</string>
     <string name="stravaTrackPrivacyInfo">Kayıt Strava\'da belirlediğiniz gizliliği kullanacak</string>
     <string name="tracksHistoryListTitleSelect">Seç</string>
     <string name="tracksHistoryListEmpty">Burada kayıt yok. Dışarı çık ve bir rota kaydet!</string>
@@ -615,7 +615,7 @@
     <string name="sensorPurposeDistance">Mesafe</string>
     <string name="sensorPurposeDuration">Süre</string>
     <string name="sensorPurposeHeartRate">Nabız</string>
-    <string name="sensorProperitesProfileInfo">"Sensör özellikleri her profil için ayrı işler.  Buradaki özellikler sadece belirtilen güncel profil için geçerlidir."</string>
+    <string name="sensorProperitesProfileInfo">Sensör özellikleri her profil için ayrı işler. Buradaki özellikler sadece belirtilen güncel profil için geçerlidir.</string>
     <string name="sensorProperitesUseForSpeed">Hız için kullan</string>
     <string name="sensorProperitesUseForCadence">Kadans için kullan</string>
     <string name="sensorProperitesUseForDistance">Mesafe ve süre için kullan</string>
@@ -624,7 +624,7 @@
     <string name="sensorProperitesIsInverted">Hız ve kadansı değiştir</string>
     <string name="sensorProperitesIsInvertedInfo">Hız ile ilgili değerlendirmeler için kadans sensörü kullanın. Normalde devre dışıdır.</string>
     <string name="sensorProperitesWheelPerimeter">Teker çevresi</string>
-    <string name="sensorProperitesIsAutoPerimeterInfo">"Sürüş sırasında  teker çevresini otomatik ölçer."</string>
+    <string name="sensorProperitesIsAutoPerimeterInfo">Sürüş sırasında teker çevresini otomatik ölçer.</string>
     <string name="sensorProperitesWheelPerimeterNotSet">Ayarlanmamış</string>
     <string name="sensorProperitesStrideLen">Adım uzunluğu</string>
     <string name="sensorProperitesIsAutoStrideLen">Otomatik</string>
@@ -646,7 +646,7 @@
     <string name="toastFenceGuardFenceRemoved">FenceGuard: Fence %1$s kaldırıldı</string>
     <string name="dialog_track_save_text">Rota çok kısa. Bu rotayı kaydetmek ister misiniz\?</string>
     <string name="dialogTrackResumeProfileNotBlankMessage">Hedefteki %1$s profili boş değil. Önce lütfen resetleyin...</string>
-    <string name="dialogTrackResumeProfileSwitchMessage">"Aktif profil  %1$s, %2$s ile değiştirilecek. Devam\?"</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">Aktif profil %1$s, %2$s ile değiştirilecek. Devam\?</string>
     <string name="dialogTrackResumeProfileMissingMessage">Bu rotanın kaydedildiği %1$s profili artık yok. Kullanımdaki profille devam etmek ister misiniz\?</string>
     <string name="dialogTrackResumeGeneralPromptMessage">Rota %1$s profilinde devam ettirilecek. Devam\?</string>
     <string name="dialogResetTitle">Bitiş</string>
@@ -730,7 +730,7 @@
     <string name="dialogTrackUploadPlatform">Çevrimiçi Servis</string>
     <string name="dialogTrackUploadStravaIsCommute">Hafiflet</string>
     <string name="dialogGpsIntervalTitle">GPS tazeleme hızı</string>
-    <string name="dialogGpsIntervalNote">"En doğru ve en tutarlı  sonuçları elde etmek için bu değeri 3 sn\'nin altında tutun!"</string>
+    <string name="dialogGpsIntervalNote">En doğru ve en tutarlı sonuçları elde etmek için bu değeri 3 saniyenin altında tutun!</string>
     <string name="dialogGpsIntervalLabelMore">◀
 \n Daha fazla doğruluk, daha fazla pil kullanır</string>
     <string name="dialogGpsIntervalLabelLess">▶
@@ -743,14 +743,14 @@
 \n
 \nİzin reddedilirse hiçbir Bluetooth cihazı bulunmaz.</string>
     <string name="dialogStoragePermissionRequestTitle">Depolama izni</string>
-    <string name="dialogStoragePermissionRequest">Uygulamanın depolamaya erişmesi gerekir; böylece rotalarınızı ve ayarlarınızı kaydedebilir veya geri yükleyebilirsiniz.
+    <string name="dialogStoragePermissionRequest">Rotalarınızı ve ayarlarınızı kaydetmek, değiştirmek ya da yedeklemek için uygulamanın belleğe erişmesi gerekiyor.
 \n
-\nİzin vermeden rota geçmişini göremez veya rotalarınızı paylaşamazsınız ve verilerinizi kaybedebilirsiniz.</string>
+\nİzin vermediğiniz takdirde rota geçmişinizi göremeyeceksiniz ve verilerinizi kaybedeceksiniz.</string>
     <string name="dialogCameraPermissionRequestTitle">Kamera izni</string>
     <string name="dialogCameraPermissionRequest">Uygulamanın el fenerini aktif edebilmesi için izin gereklidir.</string>
-    <string name="dialogPermissionProblemMessage">"Bu izin, uygulamanın düzgün çalışması için gereklidir.  İzinler uygulama ayarlar sayfasında verilebilir.
+    <string name="dialogPermissionProblemMessage">Bu izin, uygulamanın düzgün çalışması için gereklidir. Uygulama izinleri, ayarlar sayfasında verilebilir.
 \n
-\n Şimdi oraya git\?"</string>
+\nŞimdi oraya git\?</string>
     <string name="unitTimeHour">Sa</string>
     <string name="unitTimeMinute">Dk</string>
     <string name="unitTimeSecond">Sn</string>
@@ -799,7 +799,7 @@
     <string name="summaryDragArea">Alana Sürükle</string>
     <string name="sensorProperitesSpeedTriggers">Hız Tetikleyicileri</string>
     <string name="sensorProperitesCadenceTriggers">Tempo Tetikleyicileri</string>
-    <string name="sensorProperitesTriggersCountInfo">"Sensör tarafından kullanılan tetikleyici sayısı (örneğin mıknatıslar).  Harici tetikleyici olmayan sensörlerde genellikle tek bir dahili tetikleyici bulunur."</string>
+    <string name="sensorProperitesTriggersCountInfo">Sensör tarafından kullanılan tetikleyici sayısı (örneğin mıknatıslar). Harici tetikleyici olmayan sensörlerde genellikle tek bir dahili tetikleyici bulunur.</string>
     <string name="pref_category_gps_interval_title">GPS Tazeleme Hızı</string>
     <string name="pref_category_stationary_exercise_title">Sabit Egzersiz</string>
     <string name="pref_category_resetPrompt_title">Komutu sıfırla</string>
@@ -837,7 +837,7 @@
     <string name="pref_roarConstantModeButton_title">Geçiş Düğmesi</string>
     <string name="pref_roarConstantModeButton_summary">Sesli İkaz açıkken tıkladığınızda sabit moda geçer</string>
     <string name="pref_speed_calculate_mode_title">Hızı yeniden hesapla</string>
-    <string name="pref_speed_calculate_mode_summary">"(Tüm profiller) Hızları mesafelerden yeniden hesaplayın, doğrudan GPS değerini kullanmayın.  Bu, GPS (Doppler) değerleri üzerinden daha kararlı hız okumaları sağlayabilir."</string>
+    <string name="pref_speed_calculate_mode_summary">"(Tüm profiller) Hızları mesafelerden yeniden hesaplayın, doğrudan GPS değerini kullanmayın.  Bu, GPS (Doppler) değerleri üzerinden daha kararlı hız okumaları sağlayabilir. Varsayılan kapalı."</string>
     <string name="pref_background_pattern_dialog_title">Menü arka plan deseni</string>
     <string name="pref_soundeffects_alarm_title">Etkinleştir</string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Unutulmuş duraklama</string>
@@ -972,7 +972,7 @@
 \n
 \nUyarı: Düzensiz konum güncellemelerine neden olabilir veya hepsini reddedebilir. Önerilmez.</string>
     <string name="pref_locationProvider_modes_0">GPS alt sistemi</string>
-    <string name="pref_locationProvider_modes_1">Google Play Hizmetleri</string>
+    <string name="pref_locationProvider_modes_1">Google Play Hizmetleri (varsayılan)</string>
     <string name="pref_locationProvider_modes_explanation_0">(Tüm profiller) Doğrudan GPS alt sistemini kullan. Kararlı, daha az karmaşık model, aracı yok. Ayrıca diğer sağlayıcılardan daha az kaynak kullanabilir.</string>
     <string name="pref_locationProvider_modes_explanation_1">"(Tüm profiller) Varsa, Google Play hizmetlerinden \"Kaynaşık\" sağlayıcıyı kullan. Teoride bu bazen daha hızlı ve daha doğru konum bilgisi  sağlayabilir."</string>
     <string name="pref_flashlightBlinkModes_0">Yavaş (Varsayılan)</string>
@@ -1034,7 +1034,7 @@
     <string name="pref_maps_offline_usage_summary">Kullanım: Yukarıdaki seçenek ile indirilen haritayı seç.</string>
     <string name="pref_maps_offline_terrain_usage_summary">Kullanım: İndirilen zip\'lerden .hgt dosyalarını çıkart ve çevrimdışı harita dosyalarının bulunduğu klasöre yerleştir (ayrı bir alt klasör açma).</string>
     <string name="dialogActivityRecognitionPermissionRequestTitle">Fiziksel aktivite izni</string>
-    <string name="dialogActivityRecognitionPermissionRequest">Uygulamanın Adım Dedektörü sensörü gibi yerleşik sensörleri kullanabilmesi için izin gereklidir.</string>
+    <string name="dialogActivityRecognitionPermissionRequest">Uygulamanın Adım Dedektörü sensörü gibi yerleşik sensörleri kullanabilmesi ve hareket tespit ettiğinde diğer işlevleri yerine getirebilmesi için izin gereklidir.</string>
     <string name="unitSteps">Adım</string>
     <string name="meterModeStepCount">Adım</string>
     <string name="controlPanelLocationButton">Konum</string>
@@ -1058,10 +1058,10 @@
     <string name="controlPanelScreenOrientation">Ekran yönü</string>
     <string name="pref_mapsWeatherAnimate_title">Animasyon</string>
     <string name="pref_mapsWeatherAnimate_summary">Son 1 saatlik radar verilerini görselleştir, bu yağış eğilimini yorumlamanıza yardımcı olur</string>
-    <string name="pref_mapsWeatherAnimate_info">Radar animasyonları durgun radar görüntülerinden 5 kat daha fazla internet verisi kullanır.</string>
+    <string name="pref_mapsWeatherAnimate_info">Radar animasyonları durgun radar görüntülerinden 5 kata kadar daha fazla internet verisi kullanabilir.</string>
     <string name="meterModes_11">Yty güç</string>
     <string name="meterModes_12">Yty hız</string>
-    <string name="rewardedAdDescription">"Reklamı izlemek için  tıklayın"</string>
+    <string name="rewardedAdDescription">Reklamı izlemek için tıklayın</string>
     <string name="rewardedAdLoading">Reklam yükleniyor…</string>
     <string name="rewardedLicenseSuccess">Lisans başarıyla yüklendi</string>
     <string name="na">N/A</string>
@@ -1130,9 +1130,9 @@
     <string name="menuMeterStart">Başla</string>
     <string name="menuMeterStop">Durdur</string>
     <string name="dialogScreenshotTitle">Ekran görüntüsü</string>
-    <string name="dialogGoogleMapTermsViolation">"Google, haritalarının içeriğinin yakalanmasına izin vermiyor,  bu yüzden önce harita türü değiştirilmeli. 
-\n 
-\nHarita türü değiştirilsin mi\?"</string>
+    <string name="dialogGoogleMapTermsViolation">Google, haritalarının içeriğinin yakalanmasına izin vermiyor, bu yüzden önce harita türü değiştirilmeli.
+\n
+\nHarita türü değiştirilsin mi\?</string>
     <string name="dialogWaitTitle">Lütfen bekleyin</string>
     <string name="dialogScreenshotPreparing">Ekran görüntüsü hazırlanıyor…</string>
     <string name="mapMarkerMyLocation">Konumum</string>
@@ -1171,7 +1171,7 @@
     <string name="summaryBasalMetabolicRateInfo">Bazal metobalizma hızı(BMH).</string>
     <string name="summaryLocationIntervalInfo">Bu kayıttaki iki konum güncellemesi arasındaki ortalama zaman aralığı.</string>
     <string name="summaryDeviceRestartsCountInfo">Bu aktivite sırasında uygulamanın zorla kapatılma ya da cihazın çalışmayı durdurma sayısı.</string>
-    <string name="summaryTotalTimeInfo">"Bu kayıtın başlangıç  ve bitiş zamanı arasındaki zaman aralığı."</string>
+    <string name="summaryTotalTimeInfo">Bu kaydın başlangıç ve bitiş zamanı arasındaki zaman aralığı.</string>
     <string name="summaryStoppedTimeInfo">Elle ya da otomatik yapılan duraklatma sırasında harcanan süre.</string>
     <string name="summaryHeartBeatsInfo">Aktivite sırasında kaydedilen kalp atışı sayısı.</string>
     <string name="summaryCadenceStrokesInfo">Aktivite sırasında kaydedilen pedal çevirme sayısı.</string>
@@ -1295,7 +1295,7 @@
     <string name="speechTrackingResume">Başla</string>
     <string name="pref_categoryPrivacyTitle">Gizlilik</string>
     <string name="prefMapDiskCacheAgeEntries_7">90 gün</string>
-    <string name="pref_categoryActivityRecognitionTitle">Fiziksel hareketlilik tanıma</string>
+    <string name="pref_categoryActivityRecognitionTitle">Fiziksel etkinlik tanıma</string>
     <string name="menuScreenshot">Ekran görüntüsü</string>
     <string name="prefMapDiskCacheAgeEntries_5">45 gün</string>
     <string name="prefMapDiskCacheAgeTitle">Harita önbelleği yaş sınırı</string>
@@ -1306,10 +1306,108 @@
     <string name="prefMapDiskCacheAgeEntries_0">1 gün</string>
     <string name="prefMapDiskCacheAgeEntries_2">10 gün (varsayılan)</string>
     <string name="prefGnssActivityRecognitionTitle">Konum gürültüsünü azaltın</string>
-    <string name="prefGnssAutomaticSleepSummary">Hareketsizken konumu otomatik olarak kapatın ve hareket başladığında tekrar açın. Bu, izlemeyi durdurmaya gerek kalmadan daha uzun molalarda pil kullanımını azaltır.</string>
+    <string name="prefGnssAutomaticSleepSummary">Hareketsizken konumu otomatik olarak kapatır ve hareket başladığında tekrar açar. Bu, uzun molalarda kaydı durdurmaya gerek kalmadan pil kullanımını azaltır.</string>
     <string name="prefMapDiskCacheAgeEntries_1">5 gün</string>
     <string name="prefMapDiskCacheAgeEntries_3">15 gün</string>
     <string name="pref_mapsShowAttribution_title">İlişkilendirmeyi göster</string>
     <string name="prefGnssAutomaticSleepTitle">GPS otomatik uyku</string>
     <string name="prefMapDiskCacheAgeEntries_4">30 gün</string>
+    <string name="pref_categoryTrackingButtonTitle">Kayıt</string>
+    <string name="menuInsertAbove">Üst</string>
+    <string name="menuProperties">Özellikler…</string>
+    <string name="menuAutomaticBell">Otomatik zil</string>
+    <string name="prefScreenPocketModeDelayEntries_4">0.40 saniye</string>
+    <string name="dialogLayoutChooseTitle">Düzen</string>
+    <string name="prefAppVisualThemeEntries_1">Açık</string>
+    <string name="pref_screensaverTimeout_summary">Ekran koruyucunun aktif olmasına kadar geçen kullanıcı hareketi olmayan zaman dilimi.</string>
+    <string name="prefScreensaverTimeoutEntries_4">30 saniye</string>
+    <string name="menuMeterShowValue">Değer</string>
+    <string name="dialogRevokeAccessPromptMessage">Erişimi kaldır\?</string>
+    <string name="menuSpeedo">Hız Göstergesi</string>
+    <string name="summaryVibrations">Titreşim</string>
+    <string name="menuRevokeAccess">Erişimi engelle</string>
+    <string name="menuSpeedoNeedle">İbre</string>
+    <string name="menuMeterShowChart">Çizelge</string>
+    <string name="speechPromptTrackingResume">Devam ettir ya da bitir\?</string>
+    <string name="menuMeterShowSubValues">Alt değerler</string>
+    <string name="prefScreensaverDimBrightnessEntries_1">Şimdiki parlaklığın %20si</string>
+    <string name="infoAppUpdateMessage">Güncelleme hazır .</string>
+    <string name="dialogBluetoothPermissionRequest">Uygulamanın kablosuz sensörleri bulması ve sensörlere bağlanması için izin vermeniz gerekir.</string>
+    <string name="prefAppVisualThemeEntries_0">Sistem varsayılanı</string>
+    <string name="dialogLayoutChoosePrompt">Ekran düzeni değişecek.
+\n
+\nSeçilen düzeni uygulamak istiyor musunuz\?</string>
+    <string name="dialogWeatherInfoMessage">Radar verisi 10 dakikada bir güncellenir. Dolu simge verinin güncel olduğunu, boş simge ise güncellemenin yakın olduğunu belirtir.
+\n
+\nSarı ve kırmızı renk yağışın fazla olduğu yerleri gösterir.
+\n
+\nSon bir saatin radar verisi yağış tahmini için görselleştirilebilir.</string>
+    <string name="dialogCopyingMessage">Kopyalanıyor…</string>
+    <string name="dialogOfflineMapsChooseMessage">Harita dosyası yok ya da erişilebilir değil. Başka harita dosyası seçmek istiyor musunuz\?</string>
+    <string name="prefScreensaverDimBrightnessEntries_4">Olduğu gibi kalsın</string>
+    <string name="prefScreensaverTimeoutEntries_0">5 saniye</string>
+    <string name="menuChooseFolder">Klasör</string>
+    <string name="prefAppVisualThemeEntries_2">Karanlık</string>
+    <string name="menuInsertBelow">Alt</string>
+    <string name="menuMeter">Metre</string>
+    <string name="dialogLayoutEmptyInfoTitle">Düzen</string>
+    <string name="dialogOfflineMapsChooseTitle">Çevrimdışı harita sorunu</string>
+    <string name="prefAppVisualThemeSummary">(Tüm profiller için)</string>
+    <string name="prefScreenPocketModeDelayEntries_3">0.30 saniye</string>
+    <string name="menuSendDebugFeedback">Sorun bildir</string>
+    <string name="pref_screensaverEnable_summary">Pil tasarrufu için ekran ışığını kısar.</string>
+    <string name="dialogBluetoothPermissionRequestTitle">Bluetooth erişim izni</string>
+    <string name="prefMeterSettingsNoteSummary">Metre alanına uzun tıklanıldığında açılan menüden daha fazla düzenleme yapılabilir.</string>
+    <string name="summaryDeviceAutoPauseCount">Oto-duraklama sayısı</string>
+    <string name="pref_screensaverEnable_title">Erkan koruyucu</string>
+    <string name="menuChooseFile">Dosya</string>
+    <string name="menuSpeedoIndicatorMax">Gösterge en yüksek</string>
+    <string name="infoAppUpdateAction">Yeniden başlat</string>
+    <string name="prefScreensaverTimeoutEntries_7">2 dakika</string>
+    <string name="menuSpeedoBellButton">Zil</string>
+    <string name="prefScreenPocketModeDelayEntries_1">0.10 saniye</string>
+    <string name="pref_mapsWeatherAnimateForecast_title">Yağış tahmini</string>
+    <string name="menuInsertLeft">Sol</string>
+    <string name="menuMeterShowIcon">Simge</string>
+    <string name="pref_category_mainScreenVisualTheme">Ana ekran</string>
+    <string name="prefScreensaverTimeoutEntries_8">5 dakika</string>
+    <string name="prefScreensaverTimeoutEntries_1">10 saniye</string>
+    <string name="dialogCustomTracksFolderInfoMessage">Bu özellik, uygulamanın, yakınlarda yeri değiştirilmiş varsayılan kayıt dosyasına ek olarak seçtiğin başka bir klasörden rotaları okuyabilmesine izin verir.
+\n
+\nBu okunabilir rota dosyaları görüntülenebilir ve paylaşılabilir ama düzenlenemez, devam ettirilemez ve silinemez.
+\n
+\nEğer emin değilseniz sonraki ekranda \"Documents-UrbanBiker-tracks\" klasörünü bulmayı deneyin.</string>
+    <string name="prefScreensaverDimBrightnessEntries_0">En düşük</string>
+    <string name="menuReset">Sıfırla</string>
+    <string name="toastScreensaverModeActive">Ekran koruyucu mod aktif</string>
+    <string name="prefScreensaverTimeoutEntries_2">15 saniye</string>
+    <string name="infoMeterModeVibrationsTitle">Titreşimler</string>
+    <string name="pref_screenAutoPocketModeDelay_title">Ertele</string>
+    <string name="prefScreenPocketModeDelayEntries_5">0.50 saniye</string>
+    <string name="infoContentSize">İçerik boyutu%1$d MB</string>
+    <string name="menuRemove">Kaldır</string>
+    <string name="prefScreensaverTimeoutEntries_6">1 dakika</string>
+    <string name="summaryDeviceAutoPauseCountInfo">Etkinlik süresince kaç defa oto-pause olduğunu gösterir.</string>
+    <string name="menuBell">Zil</string>
+    <string name="menuInsertRight">Sağ</string>
+    <string name="menuSelect">Seç</string>
+    <string name="menuLayout">Düzen</string>
+    <string name="prefScreensaverTimeoutEntries_3">20 saniye (varsayılan)</string>
+    <string name="menuSpeedoAppearance">Görünüm</string>
+    <string name="prefScreenPocketModeDelayEntries_7">1 saniye</string>
+    <string name="dialogLayoutChooseSubtitle">Ekran düzeni seçin</string>
+    <string name="pref_category_units_common_title">Ölçü birimleri (Tüm profiller için)</string>
+    <string name="prefScreenPocketModeDelayEntries_2">0.20 saniye</string>
+    <string name="pref_group_activityRecognition_title">Etkinlik tanıma</string>
+    <string name="menuSpeedoValue">Değer</string>
+    <string name="menuAdvanced">Gelişmiş</string>
+    <string name="pref_screensaverTimeout_title">Zaman aşımı</string>
+    <string name="prefScreensaverTimeoutEntries_5">45 saniye</string>
+    <string name="summaryInaccurateLocationZoneCount">Hata bölgeleri</string>
+    <string name="prefScreenPocketModeDelayEntries_6">0.75 saniye</string>
+    <string name="prefAppVisualThemeDialogTitle">Görsel temayı uygula</string>
+    <string name="pref_meterTitle">Metre</string>
+    <string name="pref_category_units_per_profile_title">Ölçü birimleri (seçili profil için)</string>
+    <string name="menuSpeedoDisplayMode">Ekran modu</string>
+    <string name="dialogOfflineMapsFolderCopyTitle">Harita klasörüne kopyala</string>
 </resources>
