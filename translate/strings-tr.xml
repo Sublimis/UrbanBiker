@@ -27,7 +27,7 @@
     <string name="menuTracksHistoryResume">Devam ettir</string>
     <string name="menuMeterLock">Kilitle</string>
     <string name="menuMeterLockAll">Hepsini Kilitle</string>
-    <string name="menuMeterMode">Metre Modu</string>
+    <string name="menuMeterMode">Gösterge modu</string>
     <string name="menuMeterChooseModes">Mod Seçin…</string>
     <string name="menuMeterResetMinMax">Sıfırla Min/Max</string>
     <string name="menuMeterParameters">Parametreler…</string>
@@ -326,7 +326,7 @@
     <string name="pref_app_language_summary">(Tüm Profiller)</string>
     <string name="pref_app_language_dialog_title">Dil</string>
     <string name="pref_app_language_translate_title">Çeviriye Yardım et</string>
-    <string name="pref_app_language_translate_summary">"Uygulamanın çevrilmesine yardım etmek için  buraya tıklayınız"</string>
+    <string name="pref_app_language_translate_summary">Uygulamanın çevrilmesine yardım etmek için buraya tıklayınız</string>
     <string name="pref_back_key_mode_dialog_title">Geri tuş modu</string>
     <string name="pref_resetToDefault">Varsayılana ayarla</string>
     <string name="pref_units_distance_title">Mesafe</string>
@@ -412,7 +412,7 @@
     <string name="pref_maps_offline_file_summary">(Tüm Profiller) %1$s</string>
     <string name="pref_maps_offline_file_noFolderSelected">Seçili dosya yok.</string>
     <string name="pref_maps_offline_info_title">Şimdi indir</string>
-    <string name="pref_maps_offline_info_summary">"Harita birleşim vektörü (.map) ve Rmaps raster (.sqlitedb) haritaları desteklenir.  download.mapsforge.org adresinde mevcuttur."</string>
+    <string name="pref_maps_offline_info_summary">Harita birleşim vektörü (.map) ve Rmaps raster (.sqlitedb) haritaları desteklenir. download.mapsforge.org adresinde mevcuttur.</string>
     <string name="pref_maps_routes_info_title">Not!</string>
     <string name="pref_maps_routes_files_dialog_title">Rotalar klasörünü/dosyasını seçin</string>
     <string name="pref_maps_routes_files_noFolderSelected">Klasör seçilmedi.</string>
@@ -615,7 +615,7 @@
     <string name="sensorPurposeDistance">Mesafe</string>
     <string name="sensorPurposeDuration">Süre</string>
     <string name="sensorPurposeHeartRate">Nabız</string>
-    <string name="sensorProperitesProfileInfo">Sensör özellikleri her profil için ayrı işler. Buradaki özellikler sadece belirtilen güncel profil için geçerlidir.</string>
+    <string name="sensorProperitesProfileInfo">Sensör özellikleri her profil için ayrı işler. Buradaki özellikler sadece belirtilen (%1$s) profili için geçerlidir.</string>
     <string name="sensorProperitesUseForSpeed">Hız için kullan</string>
     <string name="sensorProperitesUseForCadence">Kadans için kullan</string>
     <string name="sensorProperitesUseForDistance">Mesafe ve süre için kullan</string>
@@ -644,10 +644,14 @@
     <string name="pref_maps_offline_terrain_info_title">Şimdi indir</string>
     <string name="openSourceLicensesTitle">Açık kaynak lisansları</string>
     <string name="toastFenceGuardFenceRemoved">FenceGuard: Fence %1$s kaldırıldı</string>
-    <string name="dialog_track_save_text">Rota çok kısa. Bu rotayı kaydetmek ister misiniz\?</string>
+    <string name="dialog_track_save_text">Distance %1$.3f %2$s
+\nDuration %3$s
+\n(%4$s)
+\n
+\nRota çok kısa. Bu rotayı kaydetmek ister misiniz\?</string>
     <string name="dialogTrackResumeProfileNotBlankMessage">Hedefteki %1$s profili boş değil. Önce lütfen resetleyin...</string>
     <string name="dialogTrackResumeProfileSwitchMessage">Aktif profil %1$s, %2$s ile değiştirilecek. Devam\?</string>
-    <string name="dialogTrackResumeProfileMissingMessage">Bu rotanın kaydedildiği %1$s profili artık yok. Kullanımdaki profille devam etmek ister misiniz\?</string>
+    <string name="dialogTrackResumeProfileMissingMessage">Bu rotanın kaydedildiği %1$s profili artık yok. Kullanımdaki %2$s profilliyle devam etmek ister misiniz\?</string>
     <string name="dialogTrackResumeGeneralPromptMessage">Rota %1$s profilinde devam ettirilecek. Devam\?</string>
     <string name="dialogResetTitle">Bitiş</string>
     <string name="pref_maps_offline_file_title">Dosya/klasör seç</string>
@@ -694,7 +698,7 @@
     <string name="trackUploadActivityTypes_2">Yürüyüş</string>
     <string name="prefAdModes_1">Google</string>
     <string name="prefAdModes_2">AppBrain</string>
-    <string name="aboutScreenWarmWelcome">"Umarız  uygulamayı beğenmişsinizdir 😊"</string>
+    <string name="aboutScreenWarmWelcome">Umarız uygulamayı beğenirsiniz😊</string>
     <string name="aboutScreenFacebookLink">Facebook\'ta Urban Biker</string>
     <string name="aboutScreenTranslationsTitle">Çeviriler</string>
     <string name="aboutScreenTranslationsText">Bu uygulamanın çevirisine yardım et ve ücretsiz lisans kazan! Daha fazla bilgi için:</string>
@@ -820,11 +824,11 @@
     <string name="pref_category_mapsCache">Önbellek</string>
     <string name="prefAllProfilesInfoSummary">Buradaki tercihler tüm profillere uygulanır.</string>
     <string name="pref_units_power_dialog_title">Toplam güç birimleri</string>
-    <string name="pref_volume_summary_text">Zil: %1$s, Sesli İkaz: %2$s 
-\nKat edilen Mesafeler: %3$s, Etkiler: %4$s, Alarmlar: %5$s</string>
+    <string name="pref_volume_summary_text">Zil: %1$s, Sesli Uyarı: %2$s
+\nKat edilen Mesafeler: %3$s, Etkiler: %4$s, Alarmlar: %5$s, Sesli Bildiri: %6$s</string>
     <string name="pref_visualThemeAutoSummary">Çevre aydınlatmasına bağlı olarak açık veya koyu temalar uygulayın</string>
     <string name="pref_screenAutoPocketMode_title">Cep Modu</string>
-    <string name="pref_screenAutoPocketMode_summary">(Tüm profiller) Gerekmiyorken ekranı kapalı tutmak için yakınlık sensörünü kullanın</string>
+    <string name="pref_screenAutoPocketMode_summary">(Tüm profiller için) Gerekmediğinde ekranı kapalı tutmak için yakınlık sensörünü kullanın</string>
     <string name="pref_relaunchAfterReboot_summary">(Tüm profiller) %10 veya daha fazla pil varsa, cihaz zorlayeniden başlatıldıktan sonra roataya devam edin</string>
     <string name="pref_resetPrompt_title">Komutu Sıfırla</string>
     <string name="pref_resetPrompt_summary">4 saatten daha uzun bir süre önce aktif olan son rotanız varsa veya uzak bir yerdeyseniz yeni bir rota başlatmanız isteniyor</string>
@@ -833,11 +837,11 @@
     <string name="pref_roaring_constant_mode_title">Sabit Mod</string>
     <string name="pref_roaring_constant_mode_summary">Hareketiniz veya GPS durumunuzdan bağımsız olarak sürekli ikaz sesleri üretir</string>
     <string name="pref_roar_threshold_speed_title">Eşik Hızı</string>
-    <string name="pref_roar_threshold_speed_info">"İkaz sesleri yalnızca eşik hızından daha hızlı giderken çalacaktır. Faydalı örn.  Yokuş aşağı."</string>
-    <string name="pref_roarConstantModeButton_title">Geçiş Düğmesi</string>
+    <string name="pref_roar_threshold_speed_info">İkaz sesleri yalnızca eşik hızından daha hızlı giderken çalacaktır. Faydalı örn. Yokuş aşağı.</string>
+    <string name="pref_roarConstantModeButton_title">Geçiş</string>
     <string name="pref_roarConstantModeButton_summary">Sesli İkaz açıkken tıkladığınızda sabit moda geçer</string>
     <string name="pref_speed_calculate_mode_title">Hızı yeniden hesapla</string>
-    <string name="pref_speed_calculate_mode_summary">"(Tüm profiller) Hızları mesafelerden yeniden hesaplayın, doğrudan GPS değerini kullanmayın.  Bu, GPS (Doppler) değerleri üzerinden daha kararlı hız okumaları sağlayabilir. Varsayılan kapalı."</string>
+    <string name="pref_speed_calculate_mode_summary">(Tüm profiller) Hızları mesafelerden yeniden hesaplayın, doğrudan GPS değerini kullanmayın. Bu, GPS (Doppler) değerleri üzerinden daha kararlı hız okumaları sağlayabilir. Varsayılan kapalı.</string>
     <string name="pref_background_pattern_dialog_title">Menü arka plan deseni</string>
     <string name="pref_soundeffects_alarm_title">Etkinleştir</string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Unutulmuş duraklama</string>
@@ -849,30 +853,28 @@
     <string name="pref_maps_animate_title">Animasyon</string>
     <string name="pref_maps_animate_summary">(Tüm profiller) Batarya kullanımını azaltmak için, özellikle Takip modu açıkken kapatın</string>
     <string name="pref_maps_offline_warning_summary">Uyarı: Bazı çevrimiçi veriler çevrimdışı olunsa bile alınabilir. Gerekli görüyorsanız lütfen harita kullanmadan önce mobil interneti kapatın.</string>
-    <string name="pref_maps_routes_draw_summary">Seçili GPX rotalarını harita üzerinde noktali çizgi olarak göster</string>
+    <string name="pref_maps_routes_draw_summary">Seçili GPX rotalarını harita üzerinde noktalı çizgi olarak göster</string>
     <string name="pref_maps_routes_info_summary">Rota navigasyonunu kolaylaştırmak için başka görsel veya işitsel ipucu verilmeyecek</string>
-    <string name="pref_maps_quickZoom_summary">"(Tüm profiller)  Haritanın altındaki görülmez hızlı yaklaştırma botonlarını etkinleştir. Yöneliminizi geliştirir"</string>
+    <string name="pref_maps_quickZoom_summary">(Tüm profiller) Haritanın altındaki görülmez hızlı yaklaştırma butonlarını etkinleştir. Yöneliminizi geliştirir.</string>
     <string name="pref_maps_quickZoomInvert_title">Tersine Çevir</string>
     <string name="pref_maps_quickZoomInvert_summary">Yakınlaştırma/uzaklaştırma butonlarının yerlerini değiştir</string>
     <string name="pref_maps_offline_terrain_title">Arazi oluştur</string>
     <string name="pref_maps_offline_terrain_summary">(Tüm profiller) Arazi yükseklik tonları oluştur. Harita daha gerçekçi görünür ama yavaşlayabilir. Harita klasöründe DEM (.hgt) dosyaları gerektirir.</string>
-    <string name="pref_maps_offline_terrain_info_summary">"viewfinderpanoramas.org.\'dan indirme sayfasını aç. 
-\n
-\nKullanım: İndirilen zip\'lerden .hgt dosyalarını çıkart ve çevrimdışı harita  dosyalarının bulunduğu klasöre yerleştir (ayrı bir alt klasör açma)."</string>
+    <string name="pref_maps_offline_terrain_info_summary">viewfinderpanoramas.org.\'dan indirme sayfasını aç.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Katman Butonu Eylemi</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">(Tüm profiller) Katman butonuna tıklandığında ne olacağını seç</string>
     <string name="pref_meter_lock_title">Kilit modu</string>
     <string name="pref_meter_lock_summary">Tıklamayla oluşacak mod değişimini önler</string>
     <string name="pref_speedo_display_mode_dialog_title">Hızölçeri göster</string>
     <string name="pref_powermeter_parameters_info_summary">Hatasız güç ve enerji ölçümleri için lütfen bu değerlerin doğru olduğundan emin olun!</string>
-    <string name="pref_power_coefs_summary">"Direnç alanı  %1$s
-\nDönüş direnci: %2$s"</string>
+    <string name="pref_power_coefs_summary">Direnç alanı %1$s
+\nDönüş direnci: %2$s</string>
     <string name="pref_energy_params_summary">Verim: %1$s
 \nMetabolizma: %2$s</string>
     <string name="pref_flashlightAutoPocketMode_title">Cep Modu</string>
-    <string name="pref_flashlightAutoPocketMode_summary">"Gerekmediğinde  flaşı kapatmak için yakınlık sensörünü kullan"</string>
+    <string name="pref_flashlightAutoPocketMode_summary">Gerekmediğinde flaşı kapatmak için yakınlık sensörünü kullan</string>
     <string name="pref_flashlightBlinkMode_dialogTitle">Flaş titreşimi</string>
-    <string name="pref_flashlightBlinkModeToggleEnable_title">Geçiş Butonu</string>
+    <string name="pref_flashlightBlinkModeToggleEnable_title">Geçiş</string>
     <string name="pref_flashlightBlinkModeToggleEnable_summary">Flaş açıkken bir düğmeye tıklayarak titreşim moduna geçin</string>
     <string name="pref_haptic_feedback_title">Dokunulduğunda titret</string>
     <string name="pref_haptic_feedback_intensity_title">Titreme şiddeti</string>
@@ -899,12 +901,12 @@
     <string name="infoMeterModeElapsedTitle">Geçen Süre</string>
     <string name="infoMeterModeElapsedMsg">Geçen süre, duraklamaları içerir fakat durdurmaları içermez.</string>
     <string name="infoMeterModeEnergyMsg">Verimlilik ve BMR dikkate alınarak hesaplanan, rotada harcanan toplam enerji.</string>
-    <string name="infoMeterModeEfficacyMsg">"Harcanan enerjinin bir kısmı, ortalama hıza yakın sabit bir hızda gidildiğinde aynı gezintiyi yapmak için yeterli olabilir.  Ortalama hız ne kadar yüksekse o kadar iyidir."</string>
+    <string name="infoMeterModeEfficacyMsg">Harcanan enerjinin bir kısmı, ortalama hıza yakın sabit bir hızda gidildiğinde aynı gezintiyi yapmak için yeterli olabilir. Ortalama hız ne kadar yüksekse o kadar iyidir.</string>
     <string name="infoMeterModeAscentMsg">Birikimli yükseklik kazancı (tırmanış).</string>
     <string name="infoMeterModeDescentMsg">Birikimli yükseklik kaybı(iniş).</string>
-    <string name="infoMeterModeWriggleMsg">"Rotanın düz bir çizgiden sapmasının ölçülmesi yani rotanın düz bir çizgi çizip çizmediği değil alanı ne kadar doldurduğudur.  Düşük olması çoğunlukla daha iyidir."</string>
+    <string name="infoMeterModeWriggleMsg">Rotanın düz bir çizgiden sapmasının ölçülmesi yani rotanın düz bir çizgi çizip çizmediği değil alanı ne kadar doldurduğudur. Düşük olması çoğunlukla daha iyidir.</string>
     <string name="infoMeterModeAltitudeMsg">Deniz seviyesinden yükseklik(rakım).</string>
-    <string name="infoMeterModeSlopeMsg">"Eğim(derece),  sıfırın yatay olduğu kabul edilerek arazi meyilini belirten sayıdır. Yüksek sayı daha dik bir çıkış anlamına gelirken negatif sayı inişi belirtir."</string>
+    <string name="infoMeterModeSlopeMsg">Eğim(derece), sıfırın yatay olduğu kabul edilerek arazi meyilini belirten sayıdır. Yüksek sayı daha dik bir çıkış anlamına gelirken negatif sayı inişi belirtir.</string>
     <string name="infoMeterModeVerticalSpeedMsg">Yukarı(pozitif) ya da aşağı(negatif) dikey yönde hız.</string>
     <string name="infoMeterModePaceMsg">Devrik hız, yani birim mesafe başına geçen süre.</string>
     <string name="infoMeterModeAccelerationMsg">Zaman içinde hızın değişim oranı.
@@ -967,18 +969,16 @@
     <string name="pref_wakelock_modes_3">Kapalı</string>
     <string name="pref_wakelock_modes_explanation_0">GPS güncelleme aralığına ve diğer faktörlere göre otomatik olarak karar ver</string>
     <string name="pref_wakelock_modes_explanation_1">Kayıt sırasında CPU\'yu uyanık tutun. Daha fazla pil kullanabilir, ancak konum güncellemesinin atlanmamasını sağlar.</string>
-    <string name="pref_wakelock_modes_explanation_2">"CPU\'nun konum güncellemeleri arasında uyumasına izin ver. Daha az pil kullanır fakat  nadir durumlarda bir güncelleme atlayabilir."</string>
-    <string name="pref_wakelock_modes_explanation_3">Sadece sistemin ya da diğer uygulamaların koyduğu davranışları geçerli kıl.
-\n
-\nUyarı: Düzensiz konum güncellemelerine neden olabilir veya hepsini reddedebilir. Önerilmez.</string>
+    <string name="pref_wakelock_modes_explanation_2">CPU\'nun konum güncellemeleri arasında uyumasına izin ver. Daha az pil kullanır fakat nadir durumlarda güncelleme atlayabilir.</string>
+    <string name="pref_wakelock_modes_explanation_3">Sadece sistemin ya da diğer uygulamaların koyduğu davranışları geçerli kıl. Uyarı: Düzensiz konum güncellemelerine neden olabilir veya hepsini reddedebilir. Önerilmez.</string>
     <string name="pref_locationProvider_modes_0">GPS alt sistemi</string>
     <string name="pref_locationProvider_modes_1">Google Play Hizmetleri (varsayılan)</string>
     <string name="pref_locationProvider_modes_explanation_0">(Tüm profiller) Doğrudan GPS alt sistemini kullan. Kararlı, daha az karmaşık model, aracı yok. Ayrıca diğer sağlayıcılardan daha az kaynak kullanabilir.</string>
-    <string name="pref_locationProvider_modes_explanation_1">"(Tüm profiller) Varsa, Google Play hizmetlerinden \"Kaynaşık\" sağlayıcıyı kullan. Teoride bu bazen daha hızlı ve daha doğru konum bilgisi  sağlayabilir."</string>
+    <string name="pref_locationProvider_modes_explanation_1">(Tüm profiller) Varsa, Google Play hizmetlerinden \"Kaynaşık\" sağlayıcıyı kullan. Teoride bu bazen daha hızlı ve daha doğru konum bilgisi sağlayabilir.</string>
     <string name="pref_flashlightBlinkModes_0">Yavaş (Varsayılan)</string>
     <string name="pref_flashlightBlinkModes_1">Hızlı</string>
     <string name="pref_flashlightBlinkModes_2">Yok/ Sabit</string>
-    <string name="prefUnitsSlopeEntries_0">"Yüzde  [％]"</string>
+    <string name="prefUnitsSlopeEntries_0">Yüzde [％]</string>
     <string name="prefUnitsSlopeEntries_1">Derece [°]</string>
     <string name="prefUnitsSlopeEntries_2">1 Milde [‰]</string>
     <string name="pref_roaring_mode_entries_2">Otomatik Ses Düzeyi</string>
@@ -989,8 +989,8 @@
     <string name="prefAdModes_0">Herhangi</string>
     <string name="prefAdModes_3">Hiçbiri</string>
     <string name="aboutScreenChangeLogLink">Sürüm Güncelleme Notları</string>
-    <string name="disclaimerText1">"Bu uygulama bu haliyle kullanıma sunulmuştur  ve uygulamayı kullanmanın sorumluluğu size aittir. Uygulamanın sağlayıcıları olarak bizler uygulamayı kullanım sırasında sizin ya da üçüncü kişilerin karıştığı herhangi bir kaza, aksilik, hak kaybı, yaralanma ya da daha kötü durumlar için sorumluluk kabul etmemekteyiz."</string>
-    <string name="disclaimerText2">"Lütfen bu uygulamayı akıllıca kullanın ve araba, motorsiklet, bisiklet veya herhangi bir araç kullanırken dikkatinizi sürüşünüze  verin."</string>
+    <string name="disclaimerText1">Bu uygulama bu haliyle kullanıma sunulmuştur ve uygulamayı kullanmanın sorumluluğu size aittir. Uygulamanın sağlayıcıları olarak bizler uygulamayı kullanım sırasında sizin ya da üçüncü kişilerin karıştığı herhangi bir kaza, aksilik, hak kaybı, yaralanma ya da daha kötü durumlar için sorumluluk kabul etmemekteyiz.</string>
+    <string name="disclaimerText2">Lütfen bu uygulamayı akıllıca kullanın ve araba, motorsiklet, bisiklet veya herhangi bir araç kullanırken dikkatinizi sürüşünüze verin.</string>
     <string name="licenseDialogMapsTab">Harita</string>
     <string name="ultimateLicenseDescription">Üst düzey bir deneyim için en iyisi.</string>
     <string name="ultimateLicenseFeatures">🔹 Tüm haritalar 
@@ -1002,7 +1002,7 @@
     <string name="priceFree">Ücretsiz</string>
     <string name="toastScreenPocketModeActive">Cep modu aktif</string>
     <string name="unitJoule">J</string>
-    <string name="pref_screenWaveOnOffMode_summary">"Yakınlık sensörüne iki kez el salladığınızda uygulamayı kapatır.  Uygulamayı açmak için aynı hareketi tekrar yapmanız yeterlidir."</string>
+    <string name="pref_screenWaveOnOffMode_summary">Yakınlık sensörüne iki kez el salladığınızda uygulamayı kapatır. Uygulamayı açmak için aynı hareketi tekrar yapmanız yeterlidir.</string>
     <string name="pref_soundeffects_proximity_title">Yakınlık sensörü</string>
     <string name="sensorsInfo">Sensörler kayıt aktifken otomatik olarak bağlanır, kayıt durduğunda otomatik olarak bağlantıyı keser.
 \n
@@ -1054,7 +1054,7 @@
     <string name="pref_category_maps_weather_title">Hava</string>
     <string name="pref_mapsWeatherPrecipitationRadar_title">Yağış radarı</string>
     <string name="pref_mapsWeatherPrecipitationRadar_summary">Yağış radarını göster</string>
-    <string name="pref_mapsWeatherPrecipitationRadar_info">"Radar verileri, çevrimdışı haritalar kullanılsa bile İnternet\'ten indirilir.  Harita görünür durumdayken her 10 dakikada bir otomatik olarak yenilenir.  Veri kaynağı RainViewer.com\'dur."</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_info">Radar verileri, çevrimdışı haritalar kullanılsa bile internetten indirilir. Harita görünür durumdayken her 10 dakikada bir otomatik olarak yenilenir. Veri kaynağı RainViewer.com\'dur.</string>
     <string name="controlPanelScreenOrientation">Ekran yönü</string>
     <string name="pref_mapsWeatherAnimate_title">Animasyon</string>
     <string name="pref_mapsWeatherAnimate_summary">Son 1 saatlik radar verilerini görselleştir, bu yağış eğilimini yorumlamanıza yardımcı olur</string>
@@ -1163,7 +1163,7 @@
     <string name="speechTrackingGpsWeak">GPS yok</string>
     <string name="speechAltitude">Rakım: %1$s</string>
     <string name="sensorProperitesActivityRecognition">Fiziksel aktivite tanımlama</string>
-    <string name="sensorProperitesActivityRecognitionInfo">"Sensör; sadece fiziksel aktiviteniz, sensörün amacına uygun  kabul edildiğinde veri sağlayacaktır. Örneğin adım sensörü bisiklet sürerken değil, yürürken veya koşarken adımları sayar. Bunun  doğru olmayabileceğini ve gecikmeli olabileceğini unutmayın. Google Play Hizmetleri gereklidir."</string>
+    <string name="sensorProperitesActivityRecognitionInfo">Sensör; sadece fiziksel aktiviteniz, sensörün amacına uygun kabul edildiğinde veri sağlayacaktır. Örneğin adım sensörü bisiklet sürerken değil, yürürken veya koşarken adımları sayar. Bunun doğru olmayabileceğini ve gecikmeli olabileceğini unutmayın. Google Play Hizmetleri gereklidir.</string>
     <string name="summaryProfileNameInfo">Bu rotayı kaydetmek için kullanılan profil.</string>
     <string name="summaryDeviceNameInfo">Bu rotayı kaydetmek için kullanılan cihaz.</string>
     <string name="summaryTotalWeightInfo">Bu rotayı kaydederken kullanılan tüm ağırlıkların toplamı (sürücü, araç, yük,…).</string>
@@ -1202,7 +1202,7 @@
     <string name="speechUnitTwoKilometers">Kilometre</string>
     <string name="speechUnitManyKilometers">Kilometre</string>
     <string name="summaryActivePower">Aktif Güç</string>
-    <string name="dialogChartDataTypesTitle">Gösterge Tipleri</string>
+    <string name="dialogChartDataTypesTitle">Grafik Tipleri</string>
     <string name="dialogLoginUsernameHint">Kullanıcı Adı</string>
     <string name="dialogLoginPasswordHint">Şifre</string>
     <string name="meterModeHumidity">Nemlilik</string>
@@ -1219,7 +1219,7 @@
     <string name="sensorProperitesUseForTemperature">Sıcaklık için kullan</string>
     <string name="sensorProperitesUseForHumidity">Nemlilik için kullan</string>
     <string name="pref_category_tracking_charts_title">Göstergeler</string>
-    <string name="pref_track_charts_title">Gösterge Tipleri…</string>
+    <string name="pref_track_charts_title">Grafik tipleri…</string>
     <string name="infoMeterModeHumidityTitle">Nemlilik</string>
     <string name="meterModes_31">Nemlilik</string>
     <string name="buttonLater">Daha Sonra</string>
@@ -1262,7 +1262,7 @@
     <string name="dialogCloudAccountDisconnectMessage">Bu hesabın bağlantısı kesilsin mi\?</string>
     <string name="pref_soundeffects_tally_radius_title">Yarıçap</string>
     <string name="pref_soundeffects_tally_radius_dialog_title">Yarıçap çetelesi</string>
-    <string name="pref_track_charts_summary">"Her rota için çizelge olarak kaydedilecek çeşitli etkinlik parametrelerini seçin.  Hız ve irtifa verileri her zaman kaydedilir."</string>
+    <string name="pref_track_charts_summary">Her rota için çizelge olarak kaydedilecek çeşitli etkinlik parametrelerini seçin. Hız ve irtifa verileri her zaman kaydedilir.</string>
     <string name="infoMeterModeHumidityMsg">Cihazla veya harici bir sensörle ölçülen ortam bağıl nemi.</string>
     <string name="infoMeterModeRadiusTitle">Yarıçap</string>
     <string name="infoMeterModeRadiusMsg">Parkurun başlangıç konumundan kestirme mesafe, yani yer değiştirme.</string>
@@ -1327,10 +1327,10 @@
     <string name="summaryVibrations">Titreşim</string>
     <string name="menuRevokeAccess">Erişimi engelle</string>
     <string name="menuSpeedoNeedle">İbre</string>
-    <string name="menuMeterShowChart">Çizelge</string>
+    <string name="menuMeterShowChart">Grafik</string>
     <string name="speechPromptTrackingResume">Devam ettir ya da bitir\?</string>
     <string name="menuMeterShowSubValues">Alt değerler</string>
-    <string name="prefScreensaverDimBrightnessEntries_1">Şimdiki parlaklığın %20si</string>
+    <string name="prefScreensaverDimBrightnessEntries_1">Şimdiki parlaklığın ⅕i</string>
     <string name="infoAppUpdateMessage">Güncelleme hazır .</string>
     <string name="dialogBluetoothPermissionRequest">Uygulamanın kablosuz sensörleri bulması ve sensörlere bağlanması için izin vermeniz gerekir.</string>
     <string name="prefAppVisualThemeEntries_0">Sistem varsayılanı</string>
@@ -1355,7 +1355,7 @@
     <string name="prefAppVisualThemeSummary">(Tüm profiller için)</string>
     <string name="prefScreenPocketModeDelayEntries_3">0.30 saniye</string>
     <string name="menuSendDebugFeedback">Sorun bildir</string>
-    <string name="pref_screensaverEnable_summary">Pil tasarrufu için ekran ışığını kısar.</string>
+    <string name="pref_screensaverEnable_summary">Pil tasarrufu için bir süre sonra ekran ışığını kısar. Dokunulduğunda parlaklık normale döner.</string>
     <string name="dialogBluetoothPermissionRequestTitle">Bluetooth erişim izni</string>
     <string name="prefMeterSettingsNoteSummary">Metre alanına uzun tıklanıldığında açılan menüden daha fazla düzenleme yapılabilir.</string>
     <string name="summaryDeviceAutoPauseCount">Oto-duraklama sayısı</string>
@@ -1410,4 +1410,9 @@
     <string name="pref_category_units_per_profile_title">Ölçü birimleri (seçili profil için)</string>
     <string name="menuSpeedoDisplayMode">Ekran modu</string>
     <string name="dialogOfflineMapsFolderCopyTitle">Harita klasörüne kopyala</string>
+    <string name="menuInsertMeter">Gösterge ekle</string>
+    <string name="menuInsertSpeedo">Hız göstergesi ekle</string>
+    <string name="menuSpeedoScale">Ölçek</string>
+    <string name="menuInsert">Ekle</string>
+    <string name="pref_screensaverDimBrightness_title">Sönük parlaklık</string>
 </resources>
