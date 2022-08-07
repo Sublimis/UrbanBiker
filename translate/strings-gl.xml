@@ -327,7 +327,7 @@
     <string name="dialogMapsMapCount">%1$s mapas</string>
     <string name="dialogMapsChooseTitle">Escolla mapa</string>
     <string name="dialogActivityRecognitionPermissionRequestTitle">Permisos de actividade física</string>
-    <string name="dialogActivityRecognitionPermissionRequest">É necesario permisos para que a aplicación poida usar os sensores incorporados, tales como o sensor de Detección de Pasos.</string>
+    <string name="dialogActivityRecognitionPermissionRequest">É necesario permisos para que a aplicación poida usar o sensor integrado de Detección de Pasos, así como poder executar outras accións útiles cando se determina que se está en movemento.</string>
     <string name="dialogGoogleMapTermsViolation">Google non permite capturar o contido dos seus mapas, polo que primeiro débese cambiar o tipo de mapa.
 \n
 \n¿Cambiar o tipo de mapa agora\?</string>
@@ -757,7 +757,7 @@
     <string name="pref_fenceguard_summary">Protexe a localización do seu fogar, ou doutros lugares importantes, de quedar expostos nos percorridos gravados</string>
     <string name="pref_autopause_mode_dialog_title">Pausa automática</string>
     <string name="pref_speed_calculate_mode_title">Recalcular velocidade</string>
-    <string name="pref_speed_calculate_mode_summary">(Todos os perfís) Recalcular a velocidade usando distancias, non usar o valor GPS directamente. Isto pode proporcionar lecturas de velocidade máis estables sobre valores GPS (Doppler).</string>
+    <string name="pref_speed_calculate_mode_summary">(Todos os perfís) Recalcular a velocidade usando distancias, non usar o valor GPS directamente. Isto pode proporcionar lecturas de velocidade máis estables sobre valores GPS (Doppler). Por defecto está APAGADO.</string>
     <string name="pref_background_pattern_dialog_title">Patrón de fondo do menú</string>
     <string name="pref_soundeffects_title">Habilitar</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
@@ -1005,7 +1005,7 @@
     <string name="meterModes_27">Pasos</string>
     <string name="meterModes_28">Cadencia de paso</string>
     <string name="pref_gps_update_freq_entries_0">Máis rápido</string>
-    <string name="pref_gps_update_freq_entries_2">Adaptativo (por omisión)</string>
+    <string name="pref_gps_update_freq_entries_2">Por defecto</string>
     <string name="pref_gps_update_freq_entries_3">1 seg</string>
     <string name="pref_gps_update_freq_entries_4">2 seg</string>
     <string name="pref_gps_update_freq_entries_5">3 seg</string>
@@ -1038,7 +1038,7 @@
     <string name="pref_wakelock_modes_explanation_2">Permite á CPU durmir entre as actualizacións de localización. Pode empregar menos batería, pero pode saltarse unha actualización nunha ocasión rara.</string>
     <string name="pref_wakelock_modes_explanation_3">Obedece o comportamento imposto polo sistema e/ou outras aplicacións. Aviso: pode provocar actualizacións de localización altamente irregulares ou incluso rexeitalas a todas. Non recomendado.</string>
     <string name="pref_locationProvider_modes_0">Subsistema GPS</string>
-    <string name="pref_locationProvider_modes_1">Servizos de Google Play</string>
+    <string name="pref_locationProvider_modes_1">Servizos de Google Play (por defecto)</string>
     <string name="pref_locationProvider_modes_explanation_0">(Todos os perfís) Use o subsistema GPS directamente. Modelos estables, menos complexos, sen intermediarios. Podes usar menos recursos que outro provedor.</string>
     <string name="pref_locationProvider_modes_explanation_1">(Todos os perfís) Use o provedor \"Fusionado\" dos servizos de Google Play, se está dispoñible. En teoría isto pode proporcionar situacións máis rápidas e precisas ás veces.</string>
     <string name="pref_flashlightBlinkModes_0">Lento (predeterminado)</string>
@@ -1239,7 +1239,7 @@
     <string name="controlPanelScreenshotButtonSubtitle">Fai clic para compartir a captura de pantalla</string>
     <string name="summaryClimbing">Escalada</string>
     <string name="summaryClimbingEnergyInfo">Porcentaxe de enerxía que se usou para superar a gravidade.</string>
-    <string name="summaryDragging">Resistencia aerodinámica</string>
+    <string name="summaryDragging">Fricción</string>
     <string name="summaryDraggingEnergyInfo">Porcentaxe de enerxía que se usou para superar o arrastre aerodinámico.</string>
     <string name="summaryAccelerating">Aceleración</string>
     <string name="summaryAcceleratingEnergyInfo">Porcentaxe de enerxía que se usou para acelerar.</string>
@@ -1351,7 +1351,7 @@
     <string name="menuAutomaticBell">Timbre automático</string>
     <string name="menuSpeedoPaceIndicator">Indicador de ritmo</string>
     <string name="menuMeterShowValue">Valor</string>
-    <string name="menuSpeedoNeedle">Mostrar agulla</string>
+    <string name="menuSpeedoNeedle">Agulla</string>
     <string name="menuMeterShowChart">Gráfica</string>
     <string name="menuSpeedoStallIndicator">Indicador de parada</string>
     <string name="menuSpeedoIndicatorMax">Indicador máx</string>
