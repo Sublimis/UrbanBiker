@@ -1133,7 +1133,7 @@
     <string name="rewardedAdPriceFree">BESPLATNO (vrijedi za ovu sesiju)</string>
     <string name="cautionTitle">Oprez</string>
     <string name="dialogActivityRecognitionPermissionRequestTitle">Dozvola za tjelesnu aktivnost</string>
-    <string name="dialogActivityRecognitionPermissionRequest">Potrebna je dozvola kako bi aplikacija mogla koristiti ugrađene senzore poput detektora koraka.</string>
+    <string name="dialogActivityRecognitionPermissionRequest">Potrebna je dozvola kako bi aplikacija mogla koristiti ugrađeni senzor detektora koraka, i obavljati druge korisne radnje kada se otkrije kretanje.</string>
     <string name="unitSteps">koraka</string>
     <string name="meterModeStepCadence">kadenca koraka</string>
     <string name="meterModeStepCadenceShort">kad kor</string>
@@ -1275,9 +1275,9 @@
     <string name="controlPanelMapHideButtonSubtitle">Klik za sakriti kartu</string>
     <string name="controlPanelScreenshotButtonTitle">Snimka zaslona</string>
     <string name="controlPanelScreenshotButtonSubtitle">Klik za dijeliti snimku zaslona</string>
-    <string name="summaryClimbing">Uspinjanje</string>
+    <string name="summaryClimbing">Uspon</string>
     <string name="summaryDragging">Otpor</string>
-    <string name="summaryAccelerating">Ubrzavanje</string>
+    <string name="summaryAccelerating">Ubrzanje</string>
     <string name="summaryRolling">Kotrljanje</string>
     <string name="summaryBasal">Bazalno</string>
     <string name="powerSourceWeightTitle">Težina izvora snage</string>
@@ -1294,7 +1294,7 @@
     <string name="speechTrackingResume">Kreni</string>
     <string name="summaryClimbingEnergyInfo">Postotak energije koja je utrošena za prevladavanje gravitacije.</string>
     <string name="summaryDraggingEnergyInfo">Postotak energije koja je utrošena za prevladavanje otpora zraka.</string>
-    <string name="summaryAcceleratingEnergyInfo">Postotak energije koja je utrošena za ubrzavanje.</string>
+    <string name="summaryAcceleratingEnergyInfo">Postotak energije koja je utrošena za ubrzanje.</string>
     <string name="summaryRollingEnergyInfo">Postotak energije koja je utrošena za prevladavanje otpora kotrljanja.</string>
     <string name="summaryBasalEnergyInfo">Postotak energije koja je utrošena za bazalni metabolizam.</string>
     <string name="powerSourceWeightInfo">Pri prevođenju snage (watti) u specifičnu snagu (watti po jedinici težine), težina mora biti poznata.
@@ -1440,11 +1440,11 @@
     <string name="summaryInaccurateLocationZoneCount">Zone netočnosti</string>
     <string name="pref_meterTitle">Mjerač</string>
     <string name="menuSpeedoDisplayMode">Način prikaza</string>
-    <string name="dialogLayoutEmptyInfoMessage">U rasporedu bi trebao biti prisutan najmanje jedan mjerač.</string>
+    <string name="dialogLayoutEmptyInfoMessage">U izgledu bi trebao biti prisutan najmanje jedan mjerač.</string>
     <string name="pref_categoryTrackingButtonTitle">Gumb za praćenje</string>
     <string name="menuInsertAbove">Iznad</string>
     <string name="menuProperties">Svojstva…</string>
-    <string name="dialogLayoutChooseTitle">Odaberite izgled zaslona</string>
+    <string name="dialogLayoutChooseTitle">Izgled</string>
     <string name="meterHorizontalWeight">Horizontalna težina</string>
     <string name="menuInsertMeter">Umetni mjerač</string>
     <string name="menuSpeedo">Brzinomjer</string>
@@ -1470,4 +1470,16 @@
     <string name="pref_gps_update_freq_entries_1">Prilagodljivo</string>
     <string name="meterVerticalWeight">Vertikalna težina</string>
     <string name="menuSendDebugFeedback">Prijaviti problem</string>
+    <string name="dialogLayoutsInfoTitle">Izgledi</string>
+    <string name="dialogLayoutsInfoMessage">Brzo promijenite izgled zaslona iz skupa unaprijed definiranih izgleda.
+\n
+\nZatim dugo pritisnite bilo koje polje za daljnju prilagodbu prikaza putem skočnih izbornika.</string>
+    <string name="dialogLayoutChooseSubtitle">Odaberi izgled prikaza</string>
+    <string name="infoAppUpdateMessage">Ažuriranje je spremno.</string>
+    <string name="dialogWeatherInfoMessage">Radarski podaci ažuriraju se svakih 10 minuta. Ispunjena ikona označava svježe podatke, prazna ikona znači da je ažuriranje blizu.
+\n
+\nŽuta i crvena boja pokazuju područja s više oborina.
+\n
+\nPosljednji 1 sat radarskih podataka može se animirati kako bi se otkrili trendovi padalina.</string>
+    <string name="infoAppUpdateAction">Ponovno pokreni</string>
 </resources>
