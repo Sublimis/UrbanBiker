@@ -28,7 +28,7 @@
     <string name="menuTracksHistoryResume">再開する</string>
     <string name="menuMeterLock">ロックする</string>
     <string name="menuMeterLockAll">すべてロックする</string>
-    <string name="menuMeterMode">メーター選択…</string>
+    <string name="menuMeterMode">メーターモード</string>
     <string name="menuMeterChooseModes">使用するメーターを絞る…</string>
     <string name="menuMeterResetMinMax">最小値･最大値を初期化</string>
     <string name="menuMeterReset">終了</string>
@@ -304,7 +304,7 @@
     <string name="dialogPowerWeightsWeightPassengers">同乗者</string>
     <string name="dialogPowerWeightsWeightWheels">ホイール</string>
     <string name="dialogPowerParamsTitle">パワーロス係数</string>
-    <string name="dialogPowerParamsRollResist">転がり抵抗係数 (Crr)</string>
+    <string name="dialogPowerParamsRollResist">転がり抵抗係数 (Cᵣᵣ)</string>
     <string name="dialogEnergyParamsBmr">基礎代謝率 (BMR)</string>
     <string name="dialogFileChooseSelectFolder">このフォルダーを選択</string>
     <string name="dialogMapsDownloadTitle">オフライン地図をダウンロード</string>
@@ -333,7 +333,7 @@
     <string name="dialogStoragePermissionRequestTitle">保存許可</string>
     <string name="dialogStoragePermissionRequest">走行記録･設定内容を保存するため,記憶領域へのアクセスが必要です.
 \n
-\n記憶領域へのアクセス権がない場合は,走行記録･共有ルート･設定内容を記録,再生することができません.</string>
+\n記憶領域へのアクセス権がないと,走行履歴を見ることができなくなり,データが失われる可能性があります.</string>
     <string name="dialogCameraPermissionRequestTitle">カメラ許可</string>
     <string name="dialogCameraPermissionRequest">フラッシュを使用するため,許可が必要です.</string>
     <string name="mapLayerTerrain">地形図</string>
@@ -840,7 +840,7 @@
     <string name="pref_roarConstantModeButton_summary">車両接近通報音がオンのとき,このボタンで連続モードのオン･オフを切り替えます</string>
     <string name="pref_autopause_mode_dialog_title">自動中断</string>
     <string name="pref_speed_calculate_mode_title">速度を再計算</string>
-    <string name="pref_speed_calculate_mode_summary">(全プロファイル) GPS値を直接使用せず,距離から速度を再計算します.これにより,GPS(ドップラー)値よりも安定した速度の読み取りが可能になります.</string>
+    <string name="pref_speed_calculate_mode_summary">(全プロファイル) GPS値を直接使用せず,距離から速度を再計算します.これにより,GPS(ドップラー)値よりも安定した速度の読み取りが可能になります. デフォルトはオフです.</string>
     <string name="pref_background_pattern_dialog_title">メニュー背景パターン</string>
     <string name="pref_soundeffects_title">有効</string>
     <string name="pref_soundeffects_fence_enterleave_title">保護エリア</string>
@@ -970,7 +970,7 @@
     <string name="pref_wakelock_modes_explanation_2">位置情報更新時以外は CPU をスリープさせます.バッテリーの持ちは良くなりますが,まれに位置更新が行われないことがあります.</string>
     <string name="pref_wakelock_modes_explanation_3">システムまたは他のアプリによって指定された動作に従います. 警告:非常に不規則な場所の更新が発生したり,更新そのものが実行されない場合があります. 推奨しません.</string>
     <string name="pref_locationProvider_modes_0">GPS サブシステム</string>
-    <string name="pref_locationProvider_modes_1">Google Play サービス</string>
+    <string name="pref_locationProvider_modes_1">Google Play サービス (デフォルト)</string>
     <string name="pref_locationProvider_modes_explanation_0">(全プロファイル) GPSサブシステムを直接使用します. 安定しており,それほど複雑ではなく,媒介もありません. また,他のプロバイダーに比べ,リソースの消費が少なめです.</string>
     <string name="pref_locationProvider_modes_explanation_1">(全プロファイル) 利用可能な場合,Google Play開発者サービスの｢融合｣プロバイダを使用します. 理論的には,これによってより高速で正確な位置情報が得られます.</string>
     <string name="pref_flashlightBlinkModes_0">ゆっくり(デフォルト)</string>
@@ -984,17 +984,23 @@
     <string name="prefBackKeyModeEntries_1">なし</string>
     <string name="prefMapOfflineLayerButtonActionEntries_2">なし</string>
     <string name="licenseDialogMapsTab">地図</string>
-    <string name="ultimateLicenseDescription">最上位の経験ができるもっともパワフルなライセンスです.</string>
-    <string name="ultimateLicenseFeatures">🔹 すべての地図
-\n🔹 すべての機能
-\n🔹 広告無し</string>
-    <string name="proPlusLicenseFeatures">🔹 広告無し
-\n🔹 追加の寄付</string>
-    <string name="proLicenseFeatures">🔹 広告無し</string>
-    <string name="thunderforestMapsFeatures">🔹 Thunderforest地図を利用可能
-\n🔹 広告無し</string>
-    <string name="mapboxMapsFeatures">🔹 Mapbox地図を利用可能
-\n🔹 広告無し</string>
+    <string name="ultimateLicenseDescription">最上位の経験ができるもっともパワフルなライセンスです:</string>
+    <string name="ultimateLicenseFeatures">✔️ すべての機能とフリー版地図
+\n✔️ すべてのプレミアム版地図
+\n✔️ 広告なし</string>
+    <string name="proPlusLicenseFeatures">✔️ すべての機能とフリー版地図
+\n✔️ 広告なし
+\n❌ プレミアム版地図
+\n➕ 追加の寄付</string>
+    <string name="proLicenseFeatures">✔️ すべての機能とフリー版地図
+\n✔️ 広告なし
+\n❌ プレミアム版地図</string>
+    <string name="thunderforestMapsFeatures">✔️ すべての機能とフリー版地図
+\n✔️ Thunderforest プレミアム版地図
+\n✔️ 広告なし</string>
+    <string name="mapboxMapsFeatures">✔️ すべての機能とフリー版地図
+\n✔️ Mapbox プレミアム版地図
+\n✔️ 広告なし</string>
     <string name="priceFree">無料</string>
     <string name="rewardedAdDescription">ここをクリックして広告を視聴</string>
     <string name="rewardedAdLoading">広告をロード中…</string>
@@ -1103,7 +1109,7 @@
     <string name="trackUploadActivityTypes_10">その他</string>
     <string name="rewardedAdPriceFree">無料 (このセッションのみ有効)</string>
     <string name="cautionTitle">注意</string>
-    <string name="dialogActivityRecognitionPermissionRequest">アプリが歩数検出センサーなどの組み込みセンサーを使用できるようにするには,許可が必要です.</string>
+    <string name="dialogActivityRecognitionPermissionRequest">アプリが内蔵の歩数検出センサーを使用し,モーション検出時にその他の便利なアクションを実行するために許可が必要です.</string>
     <string name="unitSteps">総歩数</string>
     <string name="meterModeStepCadence">1分あたり歩数</string>
     <string name="meterModeStepCadenceShort">歩数</string>
@@ -1194,8 +1200,9 @@
     <string name="summaryActivePower">実効パワー</string>
     <string name="infoMeterModeFuncThresholdPowerTitle">実効パワーしきい値</string>
     <string name="meterModes_29">実効パワーしきい値</string>
-    <string name="hereMapsFeatures">🔹 HERE地図を利用可能
-\n🔹 広告無し</string>
+    <string name="hereMapsFeatures">✔️ すべての機能とフリー版地図
+\n✔️ HERE プレミアム版地図
+\n✔️ 広告なし</string>
     <string name="dialogMapsMapCount">%1$s 地図</string>
     <string name="speechRadius">半径: %1$s</string>
     <string name="dialogCloudAccountDisconnectMessage">このアカウントを連携解除しますか\?</string>
@@ -1217,8 +1224,9 @@
     <string name="sensorPurposeTemperature">気温</string>
     <string name="toastSharingNoGpxError">エラー: 走行記録にGPXファイルがありません</string>
     <string name="prefScreenPocketModeDelayEntries_0">遅延なし (デフォルト)</string>
-    <string name="maptilerMapsFeatures">🔹 MapTiler 地図を利用可能
-\n🔹 広告無し</string>
+    <string name="maptilerMapsFeatures">✔️ すべての機能とフリー版地図
+\n✔️ MapTiler プレミアム版地図
+\n✔️ 広告なし</string>
     <string name="dialogLoginUsernameHint">ユーザ名</string>
     <string name="powerSourceWeight_3">ドライバー + 車両</string>
     <string name="dialogLoginPasswordHint">パスワード</string>
@@ -1324,4 +1332,81 @@
     <string name="menuSpeedoAppearance">外観</string>
     <string name="menuSpeedoValue">値</string>
     <string name="menuSpeedoDisplayMode">表示モード</string>
+    <string name="dialogLayoutEmptyInfoMessage">レイアウトにはひとつ以上のメーターが必要です.</string>
+    <string name="menuInsertAbove">上</string>
+    <string name="prefScreensaverDimBrightnessEntries_2">現在の ⅓ (デフォルト)</string>
+    <string name="menuProperties">プロパティ…</string>
+    <string name="prefBarometricAltitudeDisableAlert">気圧高度を無効にしますか\?</string>
+    <string name="dialogLayoutChooseTitle">レイアウト</string>
+    <string name="pref_screensaverDimBrightnessDialogTitle">スクリーンセーバーの明るさ</string>
+    <string name="prefAppVisualThemeEntries_1">ライト</string>
+    <string name="pref_screensaverTimeout_summary">ユーザー操作がないときにスクリーンセーバーが有効になるまでの時間です.</string>
+    <string name="prefScreensaverTimeoutEntries_4">30秒</string>
+    <string name="menuInsertMeter">メーターを挿入</string>
+    <string name="prefAutoTerrainNote2Summary">パワーセンサーで取得したパワーは,この機能の影響を受けません.</string>
+    <string name="dialogRevokeAccessPromptMessage">アクセスを取り消しますか\?</string>
+    <string name="summaryVibrations">振動</string>
+    <string name="unitNewtonPerKg">N/kg</string>
+    <string name="menuRevokeAccess">アクセス取り消し</string>
+    <string name="speechPromptTrackingResume">再開または完了しますか\?</string>
+    <string name="freeLicenseFeatures">✔️ すべての機能とフリー地図
+\n❌ プレミアム地図
+\n❌ 広告なし</string>
+    <string name="prefScreensaverDimBrightnessEntries_1">現在の ⅕</string>
+    <string name="infoAppUpdateMessage">利用可能な更新があります.</string>
+    <string name="prefScreensaverDimBrightnessEntries_3">現在の ½</string>
+    <string name="dialogBluetoothPermissionRequest">アプリがワイヤレスセンサーを見つけて接続するためには,許可が必要です.</string>
+    <string name="prefAppVisualThemeEntries_0">システムのデフォルト</string>
+    <string name="dialogLayoutChoosePrompt">現在のレイアウトは上書きされます.
+\n
+\n選択したレイアウトを適用しますか\?</string>
+    <string name="dialogCopyingMessage">コピー中…</string>
+    <string name="dialogOfflineMapsChooseMessage">マップファイルが見つからないか, アクセスできません. 他のマップファイル/フォルダを選択しますか\?</string>
+    <string name="prefScreensaverTimeoutEntries_0">5秒</string>
+    <string name="menuChooseFolder">フォルダ</string>
+    <string name="menuCustomTracksFolder">カスタムトラックフォルダ</string>
+    <string name="dialogLayoutsInfoTitle">レイアウト</string>
+    <string name="prefAppVisualThemeEntries_2">ダーク</string>
+    <string name="menuInsertBelow">下</string>
+    <string name="dialogLayoutEmptyInfoTitle">レイアウト</string>
+    <string name="dialogOfflineMapsChooseTitle">オフラインマップの問題</string>
+    <string name="prefAppVisualThemeSummary">(すべてのプロファイル)</string>
+    <string name="menuSendDebugFeedback">問題を報告</string>
+    <string name="pref_screensaverEnable_summary">バッテリー節約のため, タイムアウト経過後に表示を暗くします. 画面にタッチすれば復帰します.</string>
+    <string name="freeLicenseTitle">フリー版ライセンス</string>
+    <string name="prefMeterSettingsNoteSummary">メーターを長押しして表示されるメニューから,詳細な設定を行うことができます.</string>
+    <string name="unitNewtonPerLb">N/ポンド</string>
+    <string name="menuInsertSpeedo">スピードメーターを挿入</string>
+    <string name="pref_screensaverEnable_title">スクリーンセーバー</string>
+    <string name="menuChooseFile">ファイル</string>
+    <string name="infoAppUpdateAction">再開</string>
+    <string name="prefScreensaverTimeoutEntries_7">2分</string>
+    <string name="menuInsertLeft">左</string>
+    <string name="pref_category_mainScreenVisualTheme">メイン画面</string>
+    <string name="prefScreensaverTimeoutEntries_8">5分</string>
+    <string name="prefScreensaverTimeoutEntries_1">10秒</string>
+    <string name="prefScreensaverDimBrightnessEntries_0">最小値</string>
+    <string name="menuReset">リセット</string>
+    <string name="prefScreensaverTimeoutEntries_2">15秒</string>
+    <string name="infoMeterModeVibrationsTitle">振動</string>
+    <string name="summaryRollResistCoefAverage">平均転がり抵抗係数</string>
+    <string name="infoContentSize">コンテンツ容量: %1$d MB</string>
+    <string name="menuRemove">削除</string>
+    <string name="prefScreensaverTimeoutEntries_6">1分</string>
+    <string name="menuBell">ベル</string>
+    <string name="menuInsertRight">右</string>
+    <string name="menuSelect">選択</string>
+    <string name="menuLayout">レイアウト</string>
+    <string name="prefScreensaverTimeoutEntries_3">20秒 (デフォルト)</string>
+    <string name="dialogLayoutChooseSubtitle">表示レイアウトを選択</string>
+    <string name="pref_category_units_common_title">計測単位 (すべてのプロファイル)</string>
+    <string name="menuInsert">挿入</string>
+    <string name="pref_group_activityRecognition_title">アクティビティ認識</string>
+    <string name="pref_screensaverTimeout_title">タイムアウト</string>
+    <string name="prefScreensaverTimeoutEntries_5">45秒</string>
+    <string name="pref_screensaverDimBrightness_title">画面の明るさ</string>
+    <string name="freeLicenseLabel">フリー版</string>
+    <string name="unitGAccel">g</string>
+    <string name="pref_category_units_per_profile_title">計測単位 (プロファイルごと)</string>
+    <string name="dialogOfflineMapsFolderCopyTitle">マップフォルダにコピー</string>
 </resources>
