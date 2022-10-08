@@ -640,12 +640,11 @@
     <string name="pref_maps_fences_draw_title">Chránené oblasti</string>
     <string name="pref_maps_fences_draw_summary">Vyobrazovať vlastné chránené územia na mape</string>
     <string name="pref_maps_animate_title">Animácia mapy</string>
-    <string name="pref_maps_animate_summary">(Všetky profily) Nepovoliť pri aktívnom sledovaní zvýšiac tak kapacitu batérie</string>
+    <string name="pref_maps_animate_summary">Nepovoliť pri aktívnom sledovaní zvýšiac tak kapacitu batérie</string>
     <string name="pref_maps_online_mode_dialog_title">Zdroj máp</string>
     <string name="pref_maps_offline_file_title">Zvoliť súbor alebo priečinok</string>
     <string name="pref_maps_offline_file_dialog_title">Zvoliť priečinok offline-máp</string>
-    <string name="pref_maps_offline_file_summary">(Všetky profily) %1$s
-    </string>
+    <string name="pref_maps_offline_file_summary">%1$s</string>
     <string name="pref_maps_offline_file_noFolderSelected">Nie je zvolený žiadny priečinok.</string>
     <string name="pref_maps_offline_info_title">Stiahnuť</string>
     <string name="pref_maps_offline_info_summary">Podporované formáty vektorových (.map) a rastrových (.sqlitedb) máp si možno stiahnuť na download.mapsforge.org alebo vytvoriť pomocou programu Mobac (mobac.sourceforge.net).</string>
@@ -657,15 +656,15 @@
     <string name="pref_maps_routes_files_dialog_title">Zvoliť priečinok alebo súbor trás</string>
     <string name="pref_maps_routes_files_noFolderSelected">Nie je zvolený žiadny priečinok.</string>
     <string name="pref_maps_quickZoom_title">Tlačidlá rýchleho zoomu</string>
-    <string name="pref_maps_quickZoom_summary">(Všetky profily) Povoliť priehľadné tlacidlá rýchleho zoomu</string>
+    <string name="pref_maps_quickZoom_summary">Povoliť priehľadné tlačidlá rýchleho zoomu v dolnej časti mapy</string>
     <string name="pref_maps_quickZoomInvert_title">Tlačidlá naopak</string>
     <string name="pref_maps_quickZoomInvert_summary">Zameniť polohy tlačidiel zoomu</string>
     <string name="pref_maps_offline_terrain_title">Vyobrazovať terén</string>
-    <string name="pref_maps_offline_terrain_summary">(Všetky profily) Zobrazovať vrstevnice na mape prostredníctvom súborov DEM (.hgt).</string>
+    <string name="pref_maps_offline_terrain_summary">Zobrazovať vrstevnice na mape. Vyžaduje súbory DEM (.hgt) uložené v priečinku máp.</string>
     <string name="pref_maps_offline_terrain_info_title">Stiahnuť súbory...</string>
     <string name="pref_maps_offline_terrain_info_summary">Prejsť na viewfinderpanoramas.org</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Tlačidlo vrstiev</string>
-    <string name="pref_mapsOfflineLayerButtonActionSummary">(Všetky profily) Definovanie funkcie tlačidla vrstiev pri zobrazovaní mapy</string>
+    <string name="pref_mapsOfflineLayerButtonActionSummary">Definovanie funkcie tlačidla vrstiev pri zobrazovaní mapy</string>
     <string name="pref_button_profile_show_title">Profil</string>
     <string name="pref_button_profile_show_summary">Zobrazovať tlačidlo Profilu</string>
     <string name="pref_button_map_show_title">Mapa</string>
@@ -710,13 +709,13 @@
     <string name="prefBaroAltitudeUsesTemperatureSummary">Používať teplotný snímač v súčinnosti s barometrickým určovaním nadmorskej výšky</string>
     <string name="prefBarometricAltitudeNoteSummary">Používanie funkcie je vhodné len v otvorenom voľnom atmosferickom priestore.</string>
     <string name="prefTemperatureSensorDerivedTitle">Používať odvodený snímač</string>
-    <string name="prefTemperatureSensorDerivedSummary">Zariadenie nemá teplotný snímač. Teplota okolia však môže byť odvodená použitím iných snímačov. Viac informácií v Pomoci.</string>
+    <string name="prefTemperatureSensorDerivedSummary">Zariadenie nemá teplotný snímač. Teplota okolia môže byť prípadne odvodená použitím iných snímačov (napríklad podľa teploty CPU).</string>
     <string name="prefPressureSensorOffsetTitle">Barometrické ladenie</string>
     <string name="prefPressureSensorOffsetInfo">Ak je to potrebné, používaná konštanta môže zmenšovať odchýlku jednotlivých barometrických meraní.</string>
     <string name="prefNotificationAlwaysTitle">Stále oznámenie</string>
     <string name="prefNotificationAlwaysSummary">Zobrazovať stálu ikonu aplikácie na paneli oznámení nezávisle od stavu sledovania trasy.</string>
     <string name="prefMapDiskCacheSizeTitle">Veľkosť vyrovnávacej pamäte</string>
-    <string name="prefMapDiskCacheSizeSummary">Pri otvorených mapách sa ukladajú informácie, ktoré umožňujú rýchle zobrazenie mapy pri jej ďalšom otvorení, čím sa šetria kapacita batérie a dáta. (Všetky profily)</string>
+    <string name="prefMapDiskCacheSizeSummary">Pri prehliadaní máp sa ukladajú informácie vo výrovnávacej pamäti, ktoré umožňujú rýchle a offline zobrazenie mapy pri jej ďalšom otvorení, čím sa šetria kapacita batérie a dáta.</string>
     <string name="prefProhibitLocationTitle">Nepoužívať GPS</string>
     <string name="prefProhibitLocationSummary">Nepoužívať GPS v aplikácii</string>
     <string name="infoMeterModeDistanceTitle">Vzdialenosť</string>
@@ -1330,7 +1329,7 @@
     <string name="menuScreenshot">Screenshot</string>
     <string name="prefMapDiskCacheAgeEntries_5">45 dní</string>
     <string name="prefMapDiskCacheAgeTitle">Vyrovnávacia pamäť pre mapy</string>
-    <string name="pref_mapsShowAttribution_summary">(Všetky profily) Zobrazovať pridelený text ako odkaz online-máp iných ako Google.</string>
+    <string name="pref_mapsShowAttribution_summary">Zobrazovať pridelený text ako odkaz online-máp iných ako Google.</string>
     <string name="prefActivityRecognitionNoteSummary">Vyhodnocovanie nemusí byť presné, je dobré mať aktívne funkcie merania vzdialenosti a trvania.</string>
     <string name="prefGnssActivityRecognitionSummary">Rozpoznávanie státia a pohybu. Môže spôsobovať omeškanie a odchýlku merania času a vzdialenosti, avšak pomáha redukovať chyby GPS.</string>
     <string name="prefMapDiskCacheAgeEntries_6">60 dní</string>
@@ -1340,7 +1339,7 @@
     <string name="prefGnssAutomaticSleepSummary">Automatické vypínanie GPS pri zastavení a obnovovanie pri pohybe. Pomáha šetriť kapacitu batérie a predchádzať nutnosti prerušenia sledovania trasy pri dlhších prestávkach.</string>
     <string name="prefMapDiskCacheAgeEntries_1">5 dní</string>
     <string name="prefMapDiskCacheAgeEntries_3">15 dní</string>
-    <string name="pref_mapsShowAttribution_title">Zobrazovať pridelenie</string>
+    <string name="pref_mapsShowAttribution_title">Pridelenie</string>
     <string name="prefGnssAutomaticSleepTitle">Automatické pozastavenie GPS</string>
     <string name="prefMapDiskCacheAgeEntries_4">30 dní</string>
     <string name="prefScreenPocketModeDelayEntries_4">0,4 s</string>
@@ -1498,10 +1497,21 @@
 \nPoslednú hodinu vývoja počasia si možno pozrieť v animácii pre získanie prehľadu o vývoji poveternostných podmienok.</string>
     <string name="dialogLayoutsInfoMessage">Rýchle nastavenie rozloženia obrazovky prednastaveným rozvrhnutím.
 \n
-\nPodržanie tlačidla danej funkcie sprístupňuje ďalšie nastavenia.</string>
+\nPodržanie tlačidla danej funkcie sprístupňuje ďalšie nastavenia.
+\n
+\nZvislé a vodorovné zobrazenie majú navzájom nezávislé rozloženia.</string>
     <string name="freeLicenseFeatures">✔️ Všetky možnosti a bezplatné mapy
 \n❌ Prémiové mapy
 \n❌ Žiadna reklama</string>
     <string name="freeLicenseTitle">Bezplatná licencia</string>
     <string name="freeLicenseLabel">Zadarmo</string>
+    <string name="pref_mapsFollowMode_summary">Udržiavať vycentrovanú mapu podľa aktuálnej polohy</string>
+    <string name="menuNarrow">Zúžiť</string>
+    <string name="pref_mapsFollowAutorotateMode_summary">Zobrazovať aktuálny smer na mape v rovine so smerom pohybu</string>
+    <string name="menuMove">Presunúť</string>
+    <string name="menuWiden">Rozšíriť</string>
+    <string name="pref_mapsFollowAutoZoomMode_summary">Upravovať zoom mapy podľa aktuálnej rýchlosti</string>
+    <string name="pref_mapsLayerTraffic_summary">Zobrazovať cestnú premávku v reálnom čase</string>
+    <string name="menuShowTotals">Zobraziť celkové hodnoty</string>
+    <string name="menuHideTotals">Skryť celkové hodnoty</string>
 </resources>
