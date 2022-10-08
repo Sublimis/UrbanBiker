@@ -647,12 +647,11 @@
     <string name="pref_maps_fences_draw_title">Скрытые зоны</string>
     <string name="pref_maps_fences_draw_summary">Показывать скрытые зоны на карте</string>
     <string name="pref_maps_animate_title">Анимация</string>
-    <string name="pref_maps_animate_summary">(Все профили) Отключите для снижения расхода заряда батареи, особенно если включён режим «Следования»</string>
+    <string name="pref_maps_animate_summary">Отключите для снижения расхода заряда батареи, особенно если включён режим «Следования»</string>
     <string name="pref_maps_online_mode_dialog_title">Источник карт</string>
     <string name="pref_maps_offline_file_title">Выбор файла или папки</string>
     <string name="pref_maps_offline_file_dialog_title">Выбор папки автономных карт</string>
-    <string name="pref_maps_offline_file_summary">(Все профили) %1$s
-    </string>
+    <string name="pref_maps_offline_file_summary">%1$s</string>
     <string name="pref_maps_offline_file_noFolderSelected">Папка не выбрана.</string>
     <string name="pref_maps_offline_info_title">Загрузить</string>
     <string name="pref_maps_offline_info_summary">Поддерживаются векторные (Mapsforge .map) и растровые (Rmaps .sqlitedb) карты. Доступны на download.mapsforge.org.</string>
@@ -664,15 +663,15 @@
     <string name="pref_maps_routes_files_dialog_title">Выбор маршрутов из папки или файла</string>
     <string name="pref_maps_routes_files_noFolderSelected">Папка не выбрана.</string>
     <string name="pref_maps_quickZoom_title">Кнопки БыстрогоПриближения</string>
-    <string name="pref_maps_quickZoom_summary">(Все профили) Включает невидимые кнопки быстрого приближения в нижней части карты, облегчая ориентирование</string>
+    <string name="pref_maps_quickZoom_summary">Включает невидимые кнопки быстрого приближения в нижней части карты</string>
     <string name="pref_maps_quickZoomInvert_title">Перевёрнутые кнопки</string>
     <string name="pref_maps_quickZoomInvert_summary">Поменять местами кнопки приближения и удаления</string>
     <string name="pref_maps_offline_terrain_title">Показывать рельеф</string>
-    <string name="pref_maps_offline_terrain_summary">(Все профили) Показывать рельеф местности. Карта будет выглядеть более реалистичной, но, скорее всего, отображаться будет медленнее. Необходимо, чтобы файлы DEM (.hgt) находились в папке с картами.</string>
+    <string name="pref_maps_offline_terrain_summary">Показывать рельеф местности. Карта будет выглядеть более реалистичной, но, скорее всего, отображаться будет медленнее. Необходимо, чтобы файлы DEM (.hgt) находились в папке с картами.</string>
     <string name="pref_maps_offline_terrain_info_title">Загрузить</string>
     <string name="pref_maps_offline_terrain_info_summary">Открыть страницу загрузки сайта viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Действие кнопки «Слои»</string>
-    <string name="pref_mapsOfflineLayerButtonActionSummary">(Все профили) Выберите, что будет происходить при нажатии кнопки «Слои»</string>
+    <string name="pref_mapsOfflineLayerButtonActionSummary">Выберите, что будет происходить при нажатии кнопки «Слои»</string>
     <string name="pref_button_profile_show_title">Профиль</string>
     <string name="pref_button_profile_show_summary">Показывать кнопку «Профили»</string>
     <string name="pref_button_map_show_title">Карта</string>
@@ -714,13 +713,13 @@
     <string name="prefBaroAltitudeUsesTemperatureSummary">Использовать встроенный датчик температуры для более точного определения барометрической высоты</string>
     <string name="prefBarometricAltitudeNoteSummary">Используйте эту функцию только на открытом воздухе! Пожалуйста, отключайте её в закрытых или кондиционируемых помещениях, таких как автомобили и самолёты!</string>
     <string name="prefTemperatureSensorDerivedTitle">Имитировать датчик температуры</string>
-    <string name="prefTemperatureSensorDerivedSummary">В этом устройстве нет датчика температуры окружающей среды, но его можно имитировать, используя другие датчики. Более подробно об этом можно прочитать в справке.</string>
+    <string name="prefTemperatureSensorDerivedSummary">В этом устройстве нет датчика температуры окружающей среды, но приблизительные значения могут быть получены с помощью других внутренних датчиков (например, температуры процессора).</string>
     <string name="prefPressureSensorOffsetTitle">Корректировка давления</string>
     <string name="prefPressureSensorOffsetInfo">Это значение добавляется к показаниям и может использоваться для смягчения неточности данных датчика давления, если таковые имеются.</string>
     <string name="prefNotificationAlwaysTitle">Постоянное уведомление</string>
     <string name="prefNotificationAlwaysSummary">Показывать значок приложения в строке состояния постоянно, а не только когда идёт запись трека</string>
     <string name="prefMapDiskCacheSizeTitle">Ограничение размера кеша карт</string>
-    <string name="prefMapDiskCacheSizeSummary">(Все профили) Во время просмотра карт как по сети, так и автономных, их части кешируются, чтобы уменьшить объёмы скачивания или пересоздания. Ускоряет загрузку карт и продлевает работу батареи.</string>
+    <string name="prefMapDiskCacheSizeSummary">Во время просмотра карт как по сети, так и автономных, их части кешируются, чтобы уменьшить объёмы скачивания или пересоздания. Ускоряет загрузку карт и продлевает работу батареи.</string>
     <string name="prefProhibitLocationTitle">Не использовать местоположение</string>
     <string name="prefProhibitLocationSummary">Не использовать GPS во время активности</string>
     <string name="prefMapTrackColorTitle">Цвет трека</string>
@@ -1325,7 +1324,7 @@
     <string name="menuScreenshot">Снимок экрана</string>
     <string name="prefMapDiskCacheAgeEntries_5">45 дней</string>
     <string name="prefMapDiskCacheAgeTitle">Ограничение кеша карты по времени</string>
-    <string name="pref_mapsShowAttribution_summary">(Все профили) Показывать строку с названием поставщика для онлайн-карт, отличных от Google. Отключите, чтобы предотвратить случайное нажатие на ссылку.</string>
+    <string name="pref_mapsShowAttribution_summary">Показывать строку с названием поставщика для онлайн-карт, отличных от Google. Отключите, чтобы предотвратить случайное нажатие на ссылку.</string>
     <string name="prefActivityRecognitionNoteSummary">Эти параметры зависят от функции распознавания физической активности Android. Могут быть неточными или запаздывать. Используйте только в том случае, если вас устраивает результат. Лучшие результаты при использовании датчика скорости для измерения расстояния и продолжительности.</string>
     <string name="prefGnssActivityRecognitionSummary">Определять неподвижность и движение по GPS. Может вызвать задержки и некоторую потерю расстояния после перерыва, но предотвращает большинство помех GPS.</string>
     <string name="prefMapDiskCacheAgeEntries_6">60 дней</string>
@@ -1335,7 +1334,7 @@
     <string name="prefGnssAutomaticSleepSummary">Автоматически отключать определение местоположения при неподвижности и включать при начале движения. Снижается расход заряда батареи при длительных остановках без необходимости прерывать отслеживание.</string>
     <string name="prefMapDiskCacheAgeEntries_1">5 дней</string>
     <string name="prefMapDiskCacheAgeEntries_3">15 дней</string>
-    <string name="pref_mapsShowAttribution_title">Показывать поставщика</string>
+    <string name="pref_mapsShowAttribution_title">Поставщик</string>
     <string name="prefGnssAutomaticSleepTitle">Автозасыпание GPS</string>
     <string name="prefMapDiskCacheAgeEntries_4">30 дней</string>
     <string name="prefScreenPocketModeDelayEntries_4">0.40 секунды</string>
@@ -1492,11 +1491,22 @@
     <string name="dialogLayoutsInfoTitle">Компоновки</string>
     <string name="dialogLayoutsInfoMessage">Быстрое переключение компоновки экрана из готовых вариантов.
 \n
-\nДолгое нажатие на любое поле позволит дополнительно настроить отображение с помощью всплывающих меню.</string>
+\nДолгое нажатие на любое поле позволит дополнительно настроить отображение с помощью всплывающих меню.
+\n
+\nПортретная и альбомная ориентация экрана имеют полностью независимую компоновку.</string>
     <string name="dialogLayoutChooseSubtitle">Компоновка экрана</string>
     <string name="freeLicenseFeatures">✔️ Все возможности и бесплатные карты
 \n❌ Премиальные карты
 \n❌ Нет рекламы</string>
     <string name="freeLicenseTitle">Бесплатная лицензия</string>
     <string name="freeLicenseLabel">Бесплатная</string>
+    <string name="pref_mapsFollowMode_summary">Центрировать карту по вашему текущему местоположению</string>
+    <string name="menuNarrow">Сузить</string>
+    <string name="pref_mapsFollowAutorotateMode_summary">Поворачивать карту так, чтобы направление движения было направлено вверх</string>
+    <string name="menuMove">Переместить</string>
+    <string name="menuWiden">Расширить</string>
+    <string name="pref_mapsFollowAutoZoomMode_summary">Масштабировать карту в зависимости от текущей скорости</string>
+    <string name="pref_mapsLayerTraffic_summary">Показывать информацию о дорожном движении в реальном времени</string>
+    <string name="menuShowTotals">Показать итоги</string>
+    <string name="menuHideTotals">Скрыть итоги</string>
 </resources>
