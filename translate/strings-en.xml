@@ -158,9 +158,14 @@
     <string name="menuInsertBelow">Below</string>
     <string name="menuInsertMeter">Insert meter</string>
     <string name="menuInsertSpeedo">Insert speedometer</string>
+    <string name="menuMove">Move</string>
     <string name="menuRemove">Remove</string>
     <string name="menuReset">Reset</string>
     <string name="menuProperties">Properties…</string>
+    <string name="menuShowTotals">Show totals</string>
+    <string name="menuHideTotals">Hide totals</string>
+    <string name="menuWiden">Widen</string>
+    <string name="menuNarrow">Narrow</string>
 
     <string name="share_title">Send via</string>
     <string name="share_subject" translatable="false">@string/app_name</string>
@@ -420,7 +425,7 @@
     <string name="dialogLayoutEmptyInfoTitle">Layout</string>
     <string name="dialogLayoutEmptyInfoMessage">There should be at least one meter present in the layout.</string>
     <string name="dialogLayoutsInfoTitle">Layouts</string>
-    <string name="dialogLayoutsInfoMessage">Quickly change the display layout from a set of predefined layouts.\n\nThen long-click any field to further customize the view via the pop-up menus.</string>
+    <string name="dialogLayoutsInfoMessage">Quickly change display layout from a set of predefined layouts.\n\nThen long-click any field to further customize the display via pop-up menus.\n\nPortrait and landscape screen orientations have completely independent layouts.</string>
     <string name="dialogWeatherInfoTitle" translatable="false">@string/dialogMapsWeatherRadar</string>
     <string name="dialogWeatherInfoMessage">Radar data is updated every 10 minutes. Filled icon indicates fresh data, empty icon means an update is near.\n\nYellow and red colors show areas of more precipitation.\n\nLast 1 hour of radar data can be animated to reveal precipitation trends.</string>
 
@@ -836,7 +841,6 @@
     <string name="pref_group_maps_title">Maps</string>
     <string name="pref_category_maps_online_mode_title">Maps source</string>
     <string name="pref_category_maps_offline_title">Offline maps</string>
-    <string name="pref_group_maps_offline_title">Offline maps settings…</string>
     <string name="pref_category_maps_offline_terrain_title">Terrain</string>
     <string name="pref_category_maps_routes_title">Guide routes</string>
     <string name="pref_category_maps_track_title">Track line</string>
@@ -1032,15 +1036,15 @@
     <string name="pref_maps_fences_draw_title">Fences</string>
     <string name="pref_maps_fences_draw_summary">Show FenceGuard protected regions over the map</string>
     <string name="pref_maps_animate_title">Animation</string>
-    <string name="pref_maps_animate_summary">(All profiles) Turn off to reduce battery usage, especially while the Follow mode is on</string>
-    <string name="pref_mapsShowAttribution_title">Show attribution</string>
-    <string name="pref_mapsShowAttribution_summary">(All profiles) Show attribution text for online maps other than Google. Disable to prevent accidental click on a link.</string>
+    <string name="pref_maps_animate_summary">Turn off to reduce battery usage, especially while the Follow mode is on</string>
+    <string name="pref_mapsShowAttribution_title">Attribution</string>
+    <string name="pref_mapsShowAttribution_summary">Show attribution text for online maps other than Google. Disable to prevent accidental click on a link.</string>
     <string name="pref_maps_online_mode_title" translatable="false">@null</string>
-    <string name="pref_maps_online_mode_summary">(All profiles)</string>
+<!--    <string name="pref_maps_online_mode_summary">(All profiles)</string>-->
     <string name="pref_maps_online_mode_dialog_title">Maps source</string>
     <string name="pref_maps_offline_file_title">Select file or folder</string>
     <string name="pref_maps_offline_file_dialog_title">Choose offline maps folder</string>
-    <string name="pref_maps_offline_file_summary">(All profiles) %1$s</string>
+    <string name="pref_maps_offline_file_summary">%1$s</string>
     <string name="pref_maps_offline_file_noFolderSelected">No folder selected.</string>
     <string name="pref_maps_offline_info_title">Download now</string>
     <string name="pref_maps_offline_info_summary">Mapsforge vector (.map) and Rmaps raster (.sqlitedb) maps are supported. Available at download.mapsforge.org.</string>
@@ -1057,16 +1061,16 @@
     <string name="pref_maps_routes_files_noFolderSelected">No folder selected.</string>
     <string name="pref_maps_routes_resetToDefault_title" translatable="false">@string/pref_resetToDefault</string>
     <string name="pref_maps_quickZoom_title">QuickZoom buttons</string>
-    <string name="pref_maps_quickZoom_summary">(All profiles) Enable invisible quick zoom buttons in the bottom part of the map, improves your orientation</string>
+    <string name="pref_maps_quickZoom_summary">Enable invisible quick zoom buttons in the bottom part of the map</string>
     <string name="pref_maps_quickZoomInvert_title">Inverted</string>
     <string name="pref_maps_quickZoomInvert_summary">Exchange zoom in/out button positions</string>
     <string name="pref_maps_offline_terrain_title">Render terrain</string>
-    <string name="pref_maps_offline_terrain_summary">(All profiles) Render terrain elevation shades. Map will look more realistic, but probably slower. Requires DEM (.hgt) files present in the map folder.</string>
+    <string name="pref_maps_offline_terrain_summary">Render terrain elevation shades. Map will look more realistic, but probably slower. Requires DEM (.hgt) files present in the map folder.</string>
     <string name="pref_maps_offline_terrain_info_title">Download now</string>
     <string name="pref_maps_offline_terrain_info_summary">Open up download page at viewfinderpanoramas.org.</string>
     <string name="pref_maps_offline_terrain_usage_summary">Usage: Extract .hgt files from the downloaded zip(s) and place them in the same folder where the offline map file resides (do not use separate subfolder).</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Layer button action</string>
-    <string name="pref_mapsOfflineLayerButtonActionSummary">(All profiles) Choose what to do when layer button gets pressed</string>
+    <string name="pref_mapsOfflineLayerButtonActionSummary">Choose what to do when layer button gets pressed</string>
     <string name="pref_mapsWeatherPrecipitationRadar_title">Precipitation radar</string>
     <string name="pref_mapsWeatherPrecipitationRadar_summary">Show precipitation radar layer</string>
     <string name="pref_mapsWeatherPrecipitationRadar_info">Radar data is downloaded from the Internet, even when offline maps are used. It is automatically refreshed every 10 minutes while map is visible. Data source is RainViewer.com.</string>
@@ -1077,6 +1081,14 @@
     <string name="pref_mapsWeatherAnimate_info">Radar animation can use up to 5x more Internet data than a static radar image.</string>
     <string name="pref_mapsWeatherCoverage_title">Coverage mask</string>
     <string name="pref_mapsWeatherCoverage_summary">Shade areas where there is no precipitation radar coverage</string>
+    <string name="pref_mapsLayerTraffic_title" translatable="false">@string/dialogMapsLayerTraffic</string>
+    <string name="pref_mapsLayerTraffic_summary">Show real-time traffic information</string>
+    <string name="pref_mapsFollowMode_title" translatable="false">@string/dialogMapsFollowMode</string>
+    <string name="pref_mapsFollowMode_summary">Keep the map centered on your current location</string>
+    <string name="pref_mapsFollowAutorotateMode_title" translatable="false">@string/dialogMapsAutoRotate</string>
+    <string name="pref_mapsFollowAutorotateMode_summary">Keep the direction of travel pointing upwards</string>
+    <string name="pref_mapsFollowAutoZoomMode_title" translatable="false">@string/dialogMapsAutoZoom</string>
+    <string name="pref_mapsFollowAutoZoomMode_summary">Adjust map zoom level based on current speed</string>
     <string name="pref_button_profile_show_title">Profile</string>
     <string name="pref_button_profile_show_summary">Show the Profile button</string>
     <string name="pref_button_map_show_title">Map</string>
@@ -1142,13 +1154,13 @@
     <string name="prefBarometricAltitudeNoteSummary">Use these only in the open atmosphere! Please disable while in pressurized, closed or air-conditioned vehicles like cars or airplanes!</string>
     <string name="prefBarometricAltitudeDisableAlert">Disable barometric altitude?</string>
     <string name="prefTemperatureSensorDerivedTitle">Use derived sensor</string>
-    <string name="prefTemperatureSensorDerivedSummary">This device lacks ambient temperature sensor, but it can be derived using other sensors. Please read more in Help.</string>
+    <string name="prefTemperatureSensorDerivedSummary">This device does not have an ambient temperature sensor, but rough values can be derived using other internal sensors (such as CPU temperature).</string>
     <string name="prefPressureSensorOffsetTitle">Pressure offset</string>
     <string name="prefPressureSensorOffsetInfo">This constant is added to pressure readouts and can be used to mitigate sensor bias, if present.</string>
     <string name="prefNotificationAlwaysTitle">Persistent notification</string>
     <string name="prefNotificationAlwaysSummary">Show app notification icon in system status bar at all times, not only when tracking is active.</string>
     <string name="prefMapDiskCacheSizeTitle">Map cache size limit</string>
-    <string name="prefMapDiskCacheSizeSummary">When viewing a map, both online and offline, parts are being cached locally to reduce the need for repeated download or recreation. This speeds up map loading and saves battery. (All profiles)</string>
+    <string name="prefMapDiskCacheSizeSummary">When viewing a map, both online and offline, parts are being cached locally to reduce the need for repeated download or recreation. This speeds up map loading and saves battery.</string>
     <string name="prefMapDiskCacheAgeTitle">Map cache age limit</string>
     <string name="prefProhibitLocationTitle">Do not use Location</string>
     <string name="prefProhibitLocationSummary">Prevent GPS during activity</string>
