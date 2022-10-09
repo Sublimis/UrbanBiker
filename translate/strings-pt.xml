@@ -652,11 +652,11 @@
     <string name="pref_maps_fences_draw_title">Proteções</string>
     <string name="pref_maps_fences_draw_summary">Mostrar zonas privadas protegidas no mapa</string>
     <string name="pref_maps_animate_title">Animação</string>
-    <string name="pref_maps_animate_summary">(Todos os perfis) Desligar para reduzir o uso do CPU e da bateria enquanto o modo Seguir está ligado</string>
+    <string name="pref_maps_animate_summary">Desligar para reduzir o uso do CPU e da bateria enquanto o modo Seguir está ligado</string>
     <string name="pref_maps_online_mode_dialog_title">Fonte dos mapas</string>
     <string name="pref_maps_offline_file_title">Selecionar ficheiro ou pasta</string>
     <string name="pref_maps_offline_file_dialog_title">Escolher pasta de mapas offline</string>
-    <string name="pref_maps_offline_file_summary">(Todos os perfis) %1$s</string>
+    <string name="pref_maps_offline_file_summary">%1$s</string>
     <string name="pref_maps_offline_file_noFolderSelected">Pasta não seleccionada.</string>
     <string name="pref_maps_offline_info_title">Descarregar agora</string>
     <string name="pref_maps_offline_info_summary">Mapas Mapsforge vector (.map) e Rmaps raster (.sqlitedb) são suportados. Disponíveis em download.mapsforge.org.</string>
@@ -669,15 +669,15 @@
     <string name="pref_maps_routes_files_dialog_title">Escolher pasta de rotas ou ficheiro</string>
     <string name="pref_maps_routes_files_noFolderSelected">Não há pasta selecionada.</string>
     <string name="pref_maps_quickZoom_title">Botões de Zoom Rápido</string>
-    <string name="pref_maps_quickZoom_summary">(Todos os perfis) Ative os botões de zoom rápido invisíveis na parte inferior do mapa! Melhora a sua orientação</string>
+    <string name="pref_maps_quickZoom_summary">Ative os botões de zoom rápido invisíveis na parte inferior do mapa</string>
     <string name="pref_maps_quickZoomInvert_title">Invertido</string>
     <string name="pref_maps_quickZoomInvert_summary">Trocar as posições do botão de Zoom in/out</string>
     <string name="pref_maps_offline_terrain_title">Apresentar terreno</string>
-    <string name="pref_maps_offline_terrain_summary">(Todos os perfis) Apresentar sombras de elevação do terreno. O mapa parecerá mais realista, mas provavelmente mais lento. Requer arquivos DEM (.hgt) presentes na pasta do mapa.</string>
+    <string name="pref_maps_offline_terrain_summary">Apresentar sombras de elevação do terreno. O mapa parecerá mais realista, mas provavelmente mais lento. Requer arquivos DEM (.hgt) presentes na pasta do mapa.</string>
     <string name="pref_maps_offline_terrain_info_title">Descarregar agora</string>
     <string name="pref_maps_offline_terrain_info_summary">Abrir a página de download em viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Ação do botão de camada</string>
-    <string name="pref_mapsOfflineLayerButtonActionSummary">(Todos os perfis) Escolher o que fazer quando o botão de camada for pressionado</string>
+    <string name="pref_mapsOfflineLayerButtonActionSummary">Escolher o que fazer quando o botão de camada for pressionado</string>
     <string name="pref_button_profile_show_title">Perfil</string>
     <string name="pref_button_profile_show_summary">Mostrar o botão de Perfil</string>
     <string name="pref_button_map_show_title">Mapa</string>
@@ -719,13 +719,13 @@
     <string name="prefBaroAltitudeUsesTemperatureSummary">Usar os dados do sensor de temperatura para altitudes barométricas mais precisas, se disponível</string>
     <string name="prefBarometricAltitudeNoteSummary">Usar isto unicamente em atmosfera aberta. Por favor desativar quando pressurizado, fechado ou em veículos com ar condicionado como automóveis ou aviões!</string>
     <string name="prefTemperatureSensorDerivedTitle">Usar sensor de deriva</string>
-    <string name="prefTemperatureSensorDerivedSummary">(Todos os Perfis) Este aparelho não possui sensor de temperatura ambiente, mas esta leitura pode ser obtida usando outros sensores. Por favor leia mais acerca disto na Ajuda.</string>
+    <string name="prefTemperatureSensorDerivedSummary">Este dispositivo não possui um sensor de temperatura ambiente, mas valores aproximados podem ser obtidos usando outros sensores internos (como a temperatura do CPU).</string>
     <string name="prefPressureSensorOffsetTitle">Compensação de Pressão Atmosférica</string>
     <string name="prefPressureSensorOffsetInfo">Esta constante é adicionada às leituras de Pressão Atmosférica e pode ser usada para diminuir a polarização do sensor, se estiver presente.</string>
     <string name="prefNotificationAlwaysTitle">Notificação persistente</string>
     <string name="prefNotificationAlwaysSummary">Mostrar sempre o ícone de notificação da Aplicação na barra de status. (Não apenas quando um percurso estiver ativo).</string>
     <string name="prefMapDiskCacheSizeTitle">Limite do tamanho da cache de mapas</string>
-    <string name="prefMapDiskCacheSizeSummary">Ao visualizar um mapa, tanto on-line como off-line, as zonas são armazenadas em cache localmente para reduzir a necessidade de downloads ou recreações repetidas. Isso acelera o carregamento do mapa e economiza bateria. (Todos os Perfis)</string>
+    <string name="prefMapDiskCacheSizeSummary">Ao visualizar um mapa, tanto on-line como off-line, as zonas são armazenadas em cache localmente para reduzir a necessidade de downloads ou recreações repetidas. Isso acelera o carregamento do mapa e economiza bateria.</string>
     <string name="prefProhibitLocationTitle">Não usar Localização</string>
     <string name="prefProhibitLocationSummary">Evitar GPS durante a atividade</string>
     <string name="prefMapTrackColorTitle">Cor do Percurso</string>
@@ -1318,7 +1318,7 @@
     <string name="menuScreenshot">Screenshot</string>
     <string name="prefMapDiskCacheAgeEntries_5">45 dias</string>
     <string name="prefMapDiskCacheAgeTitle">Limite de idade da cache de mapas</string>
-    <string name="pref_mapsShowAttribution_summary">(Todos os perfis) Mostrar texto de atribuição para mapas online que não sejam do Google. Desative para evitar clique acidental num link.</string>
+    <string name="pref_mapsShowAttribution_summary">Mostrar texto de atribuição para mapas online que não sejam do Google. Desative para evitar clique acidental num link.</string>
     <string name="prefActivityRecognitionNoteSummary">Estas opções contam com o recurso de Reconhecimento de Atividade Física do Android. Poderá não ter precisão e pode ser lento. Use unicamente se você concordar com isso. Funcionará melhor quando um sensor de velocidade for usado para distância e duração.</string>
     <string name="prefGnssActivityRecognitionSummary">Reconhecer entre estar parado ou em movimento para o GPS. Pode causar atrasos e perda de distância após uma pausa, mas evita a maioria das interferências do GPS.</string>
     <string name="prefMapDiskCacheAgeEntries_6">60 dias</string>
@@ -1328,7 +1328,7 @@
     <string name="prefGnssAutomaticSleepSummary">Desligar a localização automaticamente enquanto estiver parado e ligar novamente quando o movimento começar. Isso reduz o uso da bateria em pausas mais longas, sem a necessidade de interromper o registo de um percurso.</string>
     <string name="prefMapDiskCacheAgeEntries_1">5 dias</string>
     <string name="prefMapDiskCacheAgeEntries_3">15 dias</string>
-    <string name="pref_mapsShowAttribution_title">Mostrar atribuição</string>
+    <string name="pref_mapsShowAttribution_title">Atribuição</string>
     <string name="prefGnssAutomaticSleepTitle">Hibernação Automática de GPS</string>
     <string name="prefMapDiskCacheAgeEntries_4">30 dias</string>
     <string name="prefScreenPocketModeDelayEntries_4">0.40 segundos</string>
@@ -1485,11 +1485,22 @@
     <string name="dialogLayoutsInfoTitle">Layouts</string>
     <string name="dialogLayoutsInfoMessage">Altere rapidamente o layout de exibição a partir de um conjunto de layouts predefinidos.
 \n
-\nEm seguida, clique longo em qualquer campo para personalizar ainda mais a visualização através dos menus pop-up.</string>
+\nEm seguida, clique em qualquer campo para personalizar ainda mais a exibição por meio de menus pop-up.
+\n
+\nAs orientações de ecrã, retrato e paisagem, têm layouts completamente independentes.</string>
     <string name="dialogLayoutChooseSubtitle">Escolher layout de exibição</string>
     <string name="freeLicenseFeatures">✔️ Todos os Recursos e Mapas Gratuitos
 \n❌ Mapas Premium
 \n❌ Sem Anúncios</string>
     <string name="freeLicenseTitle">Licença Gratuita</string>
     <string name="freeLicenseLabel">Grátis</string>
+    <string name="pref_mapsFollowMode_summary">Manter o mapa centrado na localização atual</string>
+    <string name="menuNarrow">Encolher</string>
+    <string name="pref_mapsFollowAutorotateMode_summary">Manter a direção de deslocamento apontando para a frente</string>
+    <string name="menuMove">Jogada</string>
+    <string name="menuWiden">Ampliar</string>
+    <string name="pref_mapsFollowAutoZoomMode_summary">Ajustar o nível de zoom do mapa com base na velocidade atual</string>
+    <string name="pref_mapsLayerTraffic_summary">Mostrar informações de trânsito em tempo real</string>
+    <string name="menuShowTotals">Mostrar Totais</string>
+    <string name="menuHideTotals">Ocultar Totais</string>
 </resources>
