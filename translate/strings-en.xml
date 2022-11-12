@@ -32,23 +32,23 @@
 
     <string name="ultimateLicenseTitle">Ultimate License</string>
     <string name="ultimateLicenseDescription">Most powerful license for ultimate experience</string>
-    <string name="ultimateLicenseFeatures">✔️ All features and free maps\n✔️ All premium maps\n✔️ No ads</string>
+    <string name="ultimateLicenseFeatures">✔️ All premium maps\n✔️ Navigation\n✔️ No ads\n✔️ All free features and maps</string>
 
     <string name="proPlusLicenseTitle">Pro Plus License</string>
     <string name="proPlusLicenseDescription">Remove ads and unlock all non-subscription features we may add in the future</string>
-    <string name="proPlusLicenseFeatures">✔️ All features and free maps\n✔️ No ads\n❌ Premium maps\n➕ Extra donation</string>
+    <string name="proPlusLicenseFeatures">❌ Premium maps\n❌ Navigation\n✔️ No ads\n✔️ All free features and maps\n➕ Extra donation</string>
 
     <string name="proLicenseTitle">Pro License</string>
     <string name="proLicenseDescription">Remove ads</string>
-    <string name="proLicenseFeatures">✔️ All features and free maps\n✔️ No ads\n❌ Premium maps</string>
+    <string name="proLicenseFeatures">❌ Premium maps\n❌ Navigation\n✔️ No ads\n✔️ All free features and maps</string>
 
     <string name="freeLicenseTitle">Free License</string>
-    <string name="freeLicenseFeatures">✔️ All features and free maps\n❌ Premium maps\n❌ No ads</string>
+    <string name="freeLicenseFeatures">❌ Premium maps\n❌ Navigation\n❌ No ads\n✔️ All free features and maps</string>
 
-    <string name="thunderforestMapsFeatures">✔️ All features and free maps\n✔️ Thunderforest premium maps\n✔️ No ads</string>
-    <string name="mapboxMapsFeatures">✔️ All features and free maps\n✔️ Mapbox premium maps\n✔️ No ads</string>
-    <string name="hereMapsFeatures">✔️ All features and free maps\n✔️ HERE premium maps\n✔️ No ads</string>
-    <string name="maptilerMapsFeatures">✔️ All features and free maps\n✔️ MapTiler premium maps\n✔️ No ads</string>
+    <string name="thunderforestMapsFeatures">✔️ Thunderforest premium maps\n✔️ Navigation\n✔️ No ads\n✔️ All free features and maps</string>
+    <string name="mapboxMapsFeatures">✔️ Mapbox premium maps\n✔️ Navigation\n✔️ No ads\n✔️ All free features and maps</string>
+    <string name="hereMapsFeatures">✔️ HERE premium maps\n✔️ Navigation\n✔️ No ads\n✔️ All free features and maps</string>
+    <string name="maptilerMapsFeatures">✔️ MapTiler premium maps\n✔️ Navigation\n✔️ No ads\n✔️ All free features and maps</string>
 
     <string name="subscriptionPerMonth">%1$s /month</string>
     <string name="subscriptionPer1y">%1$s billed once in 12 months</string>
@@ -87,6 +87,7 @@
     <string name="menuSummary">Overview</string>
     <string name="menuTracksHistory">History</string>
     <string name="menuTracksHistoryResume">Resume</string>
+    <string name="menuNavigation">Navigate</string>
     <string name="menuMeter">Meter</string>
     <string name="menuMeterLock">Lock</string>
     <string name="menuMeterLockAll">Lock all</string>
@@ -205,6 +206,7 @@
     <string name="toastFenceGuardFenceRemovingError">FenceGuard: Error removing fence</string>
     <string name="toastFenceGuardOutsideTheFence">FenceGuard: You are currently not inside the fence</string>
     <string name="toastFenceGuardLocationUnavailable">FenceGuard: Your location still not available</string>
+    <string name="toastLocationUnavailable">Your location is still not available</string>
     <string name="toastProfilesListNonemptyDelete">Cannot delete — Profile contains some unsaved data! Please finish first.</string>
     <string name="toastProfilesListProfileCreated">The profile has been created</string>
     <string name="toastProfilesListProfileDeleted">The profile has been deleted</string>
@@ -447,8 +449,11 @@
     <string name="mapMarkerMyLocation">My location</string>
     <string name="mapMarkerStart">Start</string>
     <string name="mapMarkerFinish">Finish</string>
+    <string name="mapMarkerClickInfo">Click for options</string>
 
-	<string name="unitKm">km</string>
+    <string name="mapPlaceSearch">Where to?</string>
+
+    <string name="unitKm">km</string>
     <string name="unitKmh">km/h</string>
     <string name="unitKmhPerSec">kph/s</string>
     <string name="unitMiles">mi</string>
@@ -864,6 +869,7 @@
     <string name="pref_category_mapsQuickZoom">QuickZoom</string>
     <string name="pref_category_mapsCache">Cache</string>
     <string name="prefAllProfilesInfoSummary">Preferences here are applicable to all profiles.</string>
+    <string name="prefOnlineMapsProviderTitle">Online map provider</string>
 
     <string name="pref_app_language_title" translatable="false">@null</string>
     <string name="pref_app_language_summary">(All profiles)</string>
@@ -950,7 +956,7 @@
     <string name="pref_relaunchAfterReboot_title">Relaunch after reboot</string>
     <string name="pref_relaunchAfterReboot_summary">(All profiles) Resume tracking after a forced device reboot, if battery 10% or more</string>
     <string name="pref_resetPrompt_title">Reset prompt</string>
-    <string name="pref_resetPrompt_summary">Prompt to start a new track if last active more than 4 hours ago or in distant location</string>
+    <string name="pref_resetPrompt_summary">Prompt to start a new track if the last activity was more than 4 hours ago or in a distant location (recommended)</string>
     <string name="pref_auto_launch_on_gps_title">Auto launch on GPS</string>
     <string name="pref_auto_launch_on_gps_summary">Launch the App (in Passive mode) when GPS activity is detected</string>
     <string name="pref_passive_gps_button_title">Passive GPS button mode</string>
@@ -1003,6 +1009,8 @@
     <string name="pref_soundeffects_screenOff_summary">Sound and vibrate when screen is dimmed or temporarily turned off</string>
     <string name="pref_soundeffects_proximity_title">Proximity sensor</string>
     <string name="pref_soundeffects_proximity_summary">"Click" sound when proximity sensor is tripped</string>
+    <string name="pref_soundeffects_navigation_title">Navigation</string>
+    <string name="pref_soundeffects_navigation_summary">Sound on navigation events</string>
     <string name="pref_soundeffects_tally_title">Enable</string>
     <string name="pref_soundeffects_tally_summary" translatable="false">@null</string>
     <string name="pref_soundeffects_tally_value_summary">Every %1$s %2$s</string>
@@ -1022,6 +1030,8 @@
     <string name="pref_soundeffects_tally_steps_dialog_title">Steps tally</string>
     <string name="pref_soundeffects_tally_radius_title">Radius</string>
     <string name="pref_soundeffects_tally_radius_dialog_title">Radius tally</string>
+    <string name="pref_soundeffects_tally_energy_title">Energy</string>
+    <string name="pref_soundeffects_tally_energy_dialog_title">Energy tally</string>
     <string name="pref_soundeffects_alarm_title">Enable</string>
     <string name="pref_soundeffects_alarm_summary" translatable="false">@null</string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Forgotten pause</string>
@@ -1052,9 +1062,8 @@
     <string name="pref_maps_offline_warning_summary">Warning: Some online data may be retrieved even in offline mode. Please disable mobile Internet before using maps, if concerned.</string>
     <string name="pref_maps_offline_resetToDefault_title" translatable="false">@string/pref_resetToDefault</string>
     <string name="pref_maps_routes_draw_title">Guide routes</string>
-    <string name="pref_maps_routes_draw_summary">Chart selected GPX routes as dotted lines over the map</string>
-    <string name="pref_maps_routes_info_title">Note!</string>
-    <string name="pref_maps_routes_info_summary">No other visual or audible cues will be given to facilitate the route navigation</string>
+    <string name="pref_maps_routes_draw_summary">Draw selected GPX routes over the map</string>
+    <string name="pref_maps_routes_info_summary">Guide route is simply a line drawn over the map that you can follow. For step-by-step directions, use the Navigation feature.</string>
     <string name="pref_maps_routes_files_title">Select file or folder</string>
     <string name="pref_maps_routes_files_dialog_title">Choose routes folder or file</string>
     <string name="pref_maps_routes_files_summary" translatable="false">%1$s</string>
@@ -1070,7 +1079,7 @@
     <string name="pref_maps_offline_terrain_info_summary">Open up download page at viewfinderpanoramas.org.</string>
     <string name="pref_maps_offline_terrain_usage_summary">Usage: Extract .hgt files from the downloaded zip(s) and place them in the same folder where the offline map file resides (do not use separate subfolder).</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Layer button action</string>
-    <string name="pref_mapsOfflineLayerButtonActionSummary">Choose what to do when layer button gets pressed</string>
+    <string name="pref_mapsOfflineLayerButtonActionSummary">Choose what to do when the layer button is pressed</string>
     <string name="pref_mapsWeatherPrecipitationRadar_title">Precipitation radar</string>
     <string name="pref_mapsWeatherPrecipitationRadar_summary">Show precipitation radar layer</string>
     <string name="pref_mapsWeatherPrecipitationRadar_info">Radar data is downloaded from the Internet, even when offline maps are used. It is automatically refreshed every 10 minutes while map is visible. Data source is RainViewer.com.</string>
@@ -1147,6 +1156,8 @@
     <string name="pref_speechToasts_summary">Speak various short info notes</string>
     <string name="pref_speechCountdown_title">Countdown</string>
     <string name="pref_speechCountdown_summary">Speak countdown</string>
+    <string name="pref_speechNavigation_title">Navigation</string>
+    <string name="pref_speechNavigation_summary">Speak navigation</string>
     <string name="prefBarometricAltitudeTitle">Barometric altitude</string>
     <string name="prefBarometricAltitudeSummary">Use pressure sensor data to enhance altitude accuracy, if available</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Thermo barometer</string>
@@ -1168,9 +1179,9 @@
     <string name="prefMapTrackColorTitle">Track color</string>
     <string name="prefMapGuideRouteColorTitle">Guide route color</string>
     <string name="prefActivityRecognitionNoteSummary">These options rely on Android\'s physical activity recognition feature. It may not be accurate and can be laggy, use only if you are okay with that. Will work best when a speed sensor is used for distance and duration.</string>
-    <string name="prefGnssActivityRecognitionTitle">Reduce location noise</string>
+    <string name="prefGnssActivityRecognitionTitle">Reduce GPS noise</string>
     <string name="prefGnssActivityRecognitionSummary">Recognize standing still vs. moving for GPS. May introduce delays and some lost distance after a break, but will prevent most GPS noise.</string>
-    <string name="prefGnssAutomaticSleepTitle">GPS automatic sleep</string>
+    <string name="prefGnssAutomaticSleepTitle">GPS auto sleep</string>
     <string name="prefGnssAutomaticSleepSummary">Turn off location automatically while being still, and back on when movement starts. This reduces battery usage on longer breaks, without the need to stop the tracking.</string>
     <string name="prefAppVisualThemeSummary">(All profiles)</string>
     <string name="prefAppVisualThemeTitle" translatable="false">@null</string>
@@ -1182,6 +1193,9 @@
     <string name="prefMeterSettingsNoteSummary">More settings are available via a menu accessed by long-clicking on a meter field.</string>
     <string name="prefTrackingButtonModeTitle">Alternative behavior</string>
     <string name="prefTrackingButtonModeSummary">Click or long-click for Pause, separate button for Stop.</string>
+    <string name="prefGpsBoostNoteSummary">Location updates will always be forced to the highest frequency during navigation</string>
+    <string name="prefNoSoundInsideFenceTitle">No sounds inside fence</string>
+    <string name="prefNoSoundInsideFenceSummary">Do not make sounds while inside a fence, except for the alarms.</string>
 
     <string name="infoMeterModeDistanceTitle">Distance</string>
     <string name="infoMeterModeDistanceMsg">Distance traveled.</string>
@@ -1390,7 +1404,7 @@
     <string name="prefUnitsEnergyEntries_0">[kcal]</string>
     <string name="prefUnitsEnergyEntries_1">[kJ]</string>
     <string name="prefUnitsEnergyEntries_2">[kWh]</string>
-    <string name="prefUnitsEnergyEntries_3">[Liters of petrol]</string>
+    <string name="prefUnitsEnergyEntries_3">[Liters of gasoline]</string>
 
     <!-- prefUnitsPowerEntries -->
     <string name="prefUnitsPowerEntries_0">[W]</string>
@@ -1555,6 +1569,7 @@
 
 
     <string name="menuLicense">Upgrade</string>
+    <string name="licenseUpgradeTitle">Upgrade your license</string>
 
     <string name="dialogReviewNudgeMessage">Are you enjoying Urban Biker?</string>
     <string name="dialogReviewNudgeMessage2">Thanks! Please write a nice review or rate us 5 stars on the Play Store.</string>
@@ -1607,12 +1622,17 @@
     <string name="speechUnitTwoMinutes">Minutes</string>
     <string name="speechUnitManyMinutes">Minutes</string>
 
+    <string name="speechUnitOneLiterOfGasoline">Liter of gasoline</string>
+    <string name="speechUnitTwoLitersOfGasoline">Liters of gasoline</string>
+    <string name="speechUnitManyLitersOfGasoline">Liters of gasoline</string>
+
     <string name="speechAltitude">Altitude: %1$s</string>
     <string name="speechAscent">Climb: %1$s</string>
     <string name="speechDescent">Drop: %1$s</string>
     <string name="speechClock">Clock: %1$s</string>
     <string name="speechSteps">Steps: %1$s</string>
     <string name="speechRadius">Radius: %1$s</string>
+    <string name="speechEnergy">Energy: %1$s</string>
 
     <string name="speechCountdownGo">Go!</string>
     <string name="speechIncreasing">Rising</string>
@@ -1626,5 +1646,32 @@
 
     <string name="speechTrackingGpsOk">GPS OK</string>
     <string name="speechTrackingGpsWeak">No GPS</string>
+
+    <string name="speechNavigationContinue">Continue</string>
+    <string name="speechNavigationDestinationReached">You have reached the destination</string>
+    <string name="speechNavigationGotOffRoute">You have gone off the route</string>
+    <string name="speechNavigationWrongWay">Wrong way</string>
+
+    <string name="navigationContinue">Continue</string>
+    <string name="navigationDestinationReached">Destination</string>
+    <string name="navigationGotOffRoute">Off route</string>
+    <string name="navigationWrongWay">Wrong way</string>
+
+    <string name="navigationLoadingData">Loading directions…</string>
+    <string name="navigationLoadFromFilePrompt">An error occurred while loading new directions from the Internet.\n\nDo you want to load previously used directions from a file?</string>
+    <string name="navigationStepsInfo">Navigation instructions will appear here as you move. Hide or slide this panel as desired.</string>
+    <string name="navigationRouteNotFound">Sorry, no route was found to that destination</string>
+    <string name="navigationRouteTooLong">Sorry, this destination is too far away</string>
+    <string name="navigationStopPrompt">Stop</string>
+    <string name="navigationHidePrompt">Hide</string>
+
+    <string name="navigationAvoidTolls">Avoid tolls</string>
+    <string name="navigationAvoidMotorways">Avoid motorways</string>
+    <string name="navigationAvoidFerries">Avoid ferries</string>
+    <string name="navigationAvoidIndoor">Avoid indoor</string>
+
+    <string name="dialogLicenseUpgradeMessage">This feature requires a subscription license.\n\nAlternatively, you can watch a short promo video to get free credit.</string>
+    <string name="dialogLicenseUpgradeButton1" translatable="false">@string/licenseUpgradeTitle</string>
+    <string name="dialogLicenseUpgradeButton2">Watch promo video</string>
 
 </resources>
