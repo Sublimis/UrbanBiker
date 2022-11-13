@@ -596,7 +596,7 @@
     <string name="pref_relaunchAfterReboot_title">Перезапуск после перезагрузки</string>
     <string name="pref_relaunchAfterReboot_summary">(Все профили) Возобновить запись трека после полной принудительной перезагрузки устройства, если заряд батареи 10% или больше</string>
     <string name="pref_resetPrompt_title">Быстрый сброс</string>
-    <string name="pref_resetPrompt_summary">Предлагать начать новый трек, если последний был активен более 4 часов назад или далеко отсюда</string>
+    <string name="pref_resetPrompt_summary">Предлагать начать новый трек, если последняя активность была более 4 часов назад или далеко отсюда (рекомендуется)</string>
     <string name="pref_auto_launch_on_gps_title">Автозапуск при включении GPS</string>
     <string name="pref_auto_launch_on_gps_summary">Запускать приложение (в пассивном режиме) при включении GPS</string>
     <string name="pref_passive_gps_button_title">Пассивный режим GPS</string>
@@ -657,7 +657,7 @@
     <string name="pref_maps_offline_info_summary">Поддерживаются векторные (Mapsforge .map) и растровые (Rmaps .sqlitedb) карты. Доступны на download.mapsforge.org.</string>
     <string name="pref_maps_offline_warning_summary">Внимание: даже в автономном режиме может передаваться некоторый объём данных. Если это нежелательно, отключите мобильный интернет перед использованием карт.</string>
     <string name="pref_maps_routes_draw_title">Руководство по маршрутам</string>
-    <string name="pref_maps_routes_info_summary">Никакие другие визуальные или звуковые подсказки не будут отображаться для облегчения следования по маршруту.</string>
+    <string name="pref_maps_routes_info_summary">Руководство по маршруту — это просто нарисованная на карте линия, по которой вы можете следовать. Для получения пошаговых инструкций используйте функцию навигации.</string>
     <string name="pref_maps_routes_files_title">Выбор файла или папки</string>
     <string name="pref_maps_routes_files_dialog_title">Выбор маршрутов из папки или файла</string>
     <string name="pref_maps_routes_files_noFolderSelected">Папка не выбрана.</string>
@@ -887,7 +887,7 @@
     <string name="prefUnitsEnergyEntries_0">(ккал)</string>
     <string name="prefUnitsEnergyEntries_1">(кДж)</string>
     <string name="prefUnitsEnergyEntries_2">(кВт/ч)</string>
-    <string name="prefUnitsEnergyEntries_3">(литров топлива)</string>
+    <string name="prefUnitsEnergyEntries_3">(литров бензина)</string>
     <!-- prefUnitsPowerEntries -->
     <string name="prefUnitsPowerEntries_0">(вт)</string>
     <string name="prefUnitsPowerEntries_1">(л.с.)</string>
@@ -978,8 +978,8 @@
     <string name="sensorProperitesTriggersCountInfo">Количество триггеров (например, магнитов), используемых датчиком. У датчиков без внешних триггеров обычно один внутренний.</string>
     <string name="pref_roar_threshold_speed_info">Звуки AVAS воспроизводятся только когда вы двигаетесь быстрее ограничения скорости. Полезно, например, на спусках.</string>
     <string name="pref_background_pattern_dialog_title">Фоновое изображение</string>
-    <string name="pref_maps_routes_draw_summary">Рисовать выбранные маршруты GPX пунктирными линиями на карте</string>
-    <string name="prefMapGuideRouteColorTitle">Руководство по цвету маршрута</string>
+    <string name="pref_maps_routes_draw_summary">Рисовать выбранные маршруты GPX на карте</string>
+    <string name="prefMapGuideRouteColorTitle">Цвет руководства по маршруту</string>
     <string name="infoMeterModeWriggleMsg">Измеряет, насколько путь отклоняется от прямой линии, т.е. насколько сильно вы петляете вместо того, чтобы ехать прямо. Обычно чем ниже, тем лучше.</string>
     <string name="infoMeterModeAltitudeMsg">Высота над средним уровнем моря (геоид).</string>
     <string name="infoMeterModeSlopeMsg">Уклон (постепенный) — число, описывающее характер рельефа местности, где ноль означает горизонтальную поверхность. Большие числа означают крутой подъём, а отрицательные — спуск.</string>
@@ -1016,22 +1016,27 @@
     <string name="disclaimerText3">Всегда следите за дорогой.</string>
     <string name="licenseDialogMapsTab">Карты</string>
     <string name="ultimateLicenseDescription">Самая полная лицензия для всех возможностей</string>
-    <string name="ultimateLicenseFeatures">✔️ Все возможности и бесплатные карты
-\n✔️ Все премиальные карты
-\n✔️ Нет рекламы</string>
-    <string name="proPlusLicenseFeatures">✔️ Все возможности и бесплатные карты
+    <string name="ultimateLicenseFeatures">✔️ Все премиальные карты
+\n✔️ Навигация
 \n✔️ Нет рекламы
-\n❌ Премиальные карты
+\n✔️ Все бесплатные возможности и карты</string>
+    <string name="proPlusLicenseFeatures">❌ Премиальные карты
+\n❌ Навигация
+\n✔️ Нет рекламы
+\n✔️ Все бесплатные возможности и карты
 \n➕ Дополнительное пожертвование</string>
-    <string name="proLicenseFeatures">✔️ Все возможности и бесплатные карты
+    <string name="proLicenseFeatures">❌ Премиальные карты
+\n❌ Навигация
 \n✔️ Нет рекламы
-\n❌ Премиальные карты</string>
-    <string name="thunderforestMapsFeatures">✔️ Все возможности и бесплатные карты
-\n✔️ Премиальные карты Thunderforest
-\n✔️ Нет рекламы</string>
-    <string name="mapboxMapsFeatures">✔️ Все возможности и бесплатные карты
-\n✔️ Премиальные карты Mapbox
-\n✔️ Нет рекламы</string>
+\n✔️ Все бесплатные возможности и карты</string>
+    <string name="thunderforestMapsFeatures">✔️ Премиальные карты Thunderforest
+\n✔️ Навигация
+\n✔️ Нет рекламы
+\n✔️ Все бесплатные возможности и карты</string>
+    <string name="mapboxMapsFeatures">✔️ Премиальные карты Mapbox
+\n✔️ Навигация
+\n✔️ Нет рекламы
+\n✔️ Все бесплатные возможности и карты</string>
     <string name="priceFree">БЕСПЛАТНО</string>
     <string name="rewardedAdDescription">Нажмите здесь, чтобы сначала посмотреть рекламу</string>
     <string name="rewardedAdLoading">Загрузка рекламы…</string>
@@ -1231,13 +1236,15 @@
     <string name="cloudAccountsPowerUploadPolicyTitle">Режим загрузки данных мощности</string>
     <string name="cloudAccountsPowerUploadPolicy_0">Всегда (по умолчанию)</string>
     <string name="cloudAccountsPowerUploadPolicy_1">Только при измерении мощности</string>
-    <string name="hereMapsFeatures">✔️ Все возможности и бесплатные карты
-\n✔️ Премиальные карты HERE
-\n✔️ Нет рекламы</string>
+    <string name="hereMapsFeatures">✔️ Премиальные карты HERE
+\n✔️ Навигация
+\n✔️ Нет рекламы
+\n✔️ Все бесплатные возможности и карты</string>
     <string name="dialogMapsMapCount">Карт: %1$s</string>
-    <string name="maptilerMapsFeatures">✔️ Все возможности и бесплатные карты
-\n✔️ Премиальные карты MapTiler
-\n✔️ Нет рекламы</string>
+    <string name="maptilerMapsFeatures">✔️ Премиальные карты MapTiler
+\n✔️ Навигация
+\n✔️ Нет рекламы
+\n✔️ Все бесплатные возможности и карты</string>
     <string name="dialogMapsChooseTitle">Выбор карты</string>
     <string name="meterModes_30">Радиус</string>
     <string name="sensorProperitesFilterIntervalInfo">Интервал фильтрации, т. е. сила фильтра. Чем больше значение, тем больше будет отфильтровано, но также будет большее запаздывание.</string>
@@ -1494,9 +1501,10 @@
 \n
 \nПортретная и альбомная ориентация экрана имеют полностью независимую компоновку.</string>
     <string name="dialogLayoutChooseSubtitle">Компоновка экрана</string>
-    <string name="freeLicenseFeatures">✔️ Все возможности и бесплатные карты
-\n❌ Премиальные карты
-\n❌ Нет рекламы</string>
+    <string name="freeLicenseFeatures">❌ Премиальные карты
+\n❌ Навигация
+\n❌ Нет рекламы
+\n✔️ Все бесплатные возможности и карты</string>
     <string name="freeLicenseTitle">Бесплатная лицензия</string>
     <string name="freeLicenseLabel">Бесплатная</string>
     <string name="pref_mapsFollowMode_summary">Центрировать карту по вашему текущему местоположению</string>
@@ -1508,4 +1516,48 @@
     <string name="pref_mapsLayerTraffic_summary">Показывать информацию о дорожном движении в реальном времени</string>
     <string name="menuShowTotals">Показать итоги</string>
     <string name="menuHideTotals">Скрыть итоги</string>
+    <string name="navigationStopPrompt">Стоп</string>
+    <string name="navigationAvoidIndoor">Избегать крытых мест</string>
+    <string name="pref_soundeffects_navigation_summary">Звук при навигационных событиях</string>
+    <string name="pref_speechNavigation_title">Навигация</string>
+    <string name="speechUnitManyLitersOfGasoline">Литров бензина</string>
+    <string name="navigationAvoidFerries">Избегать паромов</string>
+    <string name="speechUnitOneLiterOfGasoline">Литр бензина</string>
+    <string name="pref_speechNavigation_summary">Голосовая навигация</string>
+    <string name="navigationLoadingData">Загрузка инструкций…</string>
+    <string name="pref_soundeffects_tally_energy_title">Энергия</string>
+    <string name="speechEnergy">Энергия: %1$s</string>
+    <string name="mapMarkerClickInfo">Нажмите для настройки</string>
+    <string name="navigationContinue">Продолжить</string>
+    <string name="navigationAvoidTolls">Избегать платных дорог</string>
+    <string name="dialogLicenseUpgradeButton2">Посмотреть рекламу</string>
+    <string name="navigationLoadFromFilePrompt">Произошла ошибка при загрузке новых инструкций из интернета.
+\n
+\nЗагрузить ранее использованные инструкции из файла\?</string>
+    <string name="menuNavigation">Навигация</string>
+    <string name="speechNavigationWrongWay">Неправильное направление</string>
+    <string name="speechNavigationDestinationReached">Вы достигли места назначения</string>
+    <string name="pref_soundeffects_tally_energy_dialog_title">Учёт энергии</string>
+    <string name="prefGpsBoostNoteSummary">Обновление местоположения во время навигации всегда будет выполняться с максимальной частотой</string>
+    <string name="prefNoSoundInsideFenceSummary">При нахождении внутри скрытой зоны не воспроизводить никаких звуков, за исключением сигналов предупреждений.</string>
+    <string name="navigationDestinationReached">Место назначения</string>
+    <string name="speechNavigationGotOffRoute">Вы сошли с маршрута</string>
+    <string name="navigationAvoidMotorways">Избегать автомагистралей</string>
+    <string name="speechNavigationContinue">Продолжить</string>
+    <string name="navigationRouteTooLong">Извините, место назначения слишком далеко</string>
+    <string name="prefNoSoundInsideFenceTitle">Без звука в скрытой зоне</string>
+    <string name="mapPlaceSearch">Куда\?</string>
+    <string name="pref_soundeffects_navigation_title">Навигация</string>
+    <string name="toastLocationUnavailable">Ваше местоположение всё ещё недоступно</string>
+    <string name="navigationHidePrompt">Скрыть</string>
+    <string name="speechUnitTwoLitersOfGasoline">Литров бензина</string>
+    <string name="navigationWrongWay">Неправильное направление</string>
+    <string name="navigationStepsInfo">Навигационные инструкции будут появляться здесь по мере движения. Панель по желанию можно скрыть или переместить.</string>
+    <string name="licenseUpgradeTitle">Обновление лицензии</string>
+    <string name="navigationRouteNotFound">Извините, маршрут до места назначения не найден</string>
+    <string name="dialogLicenseUpgradeMessage">Для доступа к этой функции требуется подписка на лицензию.
+\n
+\nИли вы можете посмотреть короткое рекламное видео, чтобы получить бесплатный доступ.</string>
+    <string name="prefOnlineMapsProviderTitle">Поставщик онлайн-карт</string>
+    <string name="navigationGotOffRoute">Вне маршрута</string>
 </resources>
