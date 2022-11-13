@@ -601,7 +601,7 @@
     <string name="pref_relaunchAfterReboot_title">Pokreni nakon reboot-a</string>
     <string name="pref_relaunchAfterReboot_summary">(Svi profili) Nastavi praćenje nakon prisilnog restarta uređaja, ako je baterija na 10% ili više</string>
     <string name="pref_resetPrompt_title">Pitaj za reset</string>
-    <string name="pref_resetPrompt_summary">Pitaj za start nove staze ukoliko je zadnja aktivnost prije više od 4 sata ili na udaljenoj lokaciji</string>
+    <string name="pref_resetPrompt_summary">Zatraži pokretanje nove staze ako je zadnja aktivnost bila prije više od 4 sata ili na udaljenoj lokaciji (preporučeno)</string>
     <string name="pref_auto_launch_on_gps_title">Pokreni kad je GPS aktivan</string>
     <string name="pref_auto_launch_on_gps_summary">Pokreni aplikaciju (u načinu Pasivno) kada se detektira GPS aktivnost</string>
     <string name="pref_passive_gps_button_title">Pasivni način GPS tipke</string>
@@ -652,31 +652,31 @@
     <string name="pref_maps_fences_draw_title">Ograde</string>
     <string name="pref_maps_fences_draw_summary">Prikazuj područja zaštićena ČuvaromOgrade na mapi</string>
     <string name="pref_maps_animate_title">Animacija</string>
-    <string name="pref_maps_animate_summary">(Svi profili) Isključiti za smanjenje utroška baterije, pogotovo dok je upaljen način Praćenje</string>
+    <string name="pref_maps_animate_summary">Isključite kako biste smanjili potrošnju baterije, posebno dok je uključen način rada Praćenje</string>
     <string name="pref_maps_online_mode_dialog_title">Izvor mape</string>
     <string name="pref_maps_offline_file_title">Odaberi datoteku ili folder</string>
     <string name="pref_maps_offline_file_dialog_title">Izaberi folder offline mapa</string>
-    <string name="pref_maps_offline_file_summary">(Svi profili) %1$s</string>
+    <string name="pref_maps_offline_file_summary">%1$s</string>
     <string name="pref_maps_offline_file_noFolderSelected">Folder nije odabran.</string>
     <string name="pref_maps_offline_info_title">Preuzmi sada</string>
     <string name="pref_maps_offline_info_summary">Mapsforge vektorske (.map) i Rmaps rasterske (.sqlitedb) mape su podržane. Dostupne na download.mapsforge.org.</string>
     <string name="pref_maps_offline_warning_summary">Upozorenje: Neki online podaci se mogu dohvaćati čak i u offline načinu. Molimo onemogućite mobilni Internet prije korištenja mapa, ukoliko vas brine.</string>
     <string name="pref_maps_routes_draw_title">Trase navođenja</string>
-    <string name="pref_maps_routes_draw_summary">Iscrtaj odabrane GPX rute kao točkaste crte na karti</string>
-    <string name="pref_maps_routes_info_summary">Nijedan drugi vizualni ili zvučni signal neće biti proizveden da olakša navigaciju</string>
+    <string name="pref_maps_routes_draw_summary">Nacrtaj odabrane GPX rute preko karte</string>
+    <string name="pref_maps_routes_info_summary">Trasa navođenja jednostavno je linija nacrtana preko karte koju možete slijediti. Za upute korak po korak koristite značajku Navigacija.</string>
     <string name="pref_maps_routes_files_title">Odaberi datoteku ili folder</string>
     <string name="pref_maps_routes_files_dialog_title">Izaberi folder ili datoteku s rutama</string>
     <string name="pref_maps_routes_files_noFolderSelected">Folder nije odabran.</string>
     <string name="pref_maps_quickZoom_title">Tipke brzog zuma</string>
-    <string name="pref_maps_quickZoom_summary">(Svi profili) Omogući nevidljive tipke brzog zuma pri dnu mape, poboljšavaju vašu orijentaciju</string>
+    <string name="pref_maps_quickZoom_summary">Omogućite nevidljive gumbe za brzo zumiranje u donjem dijelu karte</string>
     <string name="pref_maps_quickZoomInvert_title">Obrnuto</string>
     <string name="pref_maps_quickZoomInvert_summary">Zamijeni položaje zumiraj/odzumiraj tipki</string>
     <string name="pref_maps_offline_terrain_title">Prikazuj teren</string>
-    <string name="pref_maps_offline_terrain_summary">(Svi profili) Prikaz sjena izdizanja terena. Mapa će izgledati realistično, ali vjerojatno biti sporija. Zahtijeva DEM (.hgt) datoteke prisutne u folderu mape.</string>
+    <string name="pref_maps_offline_terrain_summary">Iscrtaj nijanse nadmorske visine terena. Karta će izgledati realističnije, ali će se iscrtavati malo sporije. Zahtijeva DEM (.hgt) datoteke koje se nalaze u folderu karte.</string>
     <string name="pref_maps_offline_terrain_info_title">Preuzmi sada</string>
     <string name="pref_maps_offline_terrain_info_summary">Otvoriti web stranicu za preuzimanje na viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Akcija gumba sloja</string>
-    <string name="pref_mapsOfflineLayerButtonActionSummary">(Svi profili) Odaberite što učiniti kad pritisnete gumb sloja</string>
+    <string name="pref_mapsOfflineLayerButtonActionSummary">Odaberite što učiniti kada se pritisne gumb sloja</string>
     <string name="pref_button_profile_show_title">Profil</string>
     <string name="pref_button_profile_show_summary">Prikaži tipku profila</string>
     <string name="pref_button_map_show_title">Mapa</string>
@@ -718,13 +718,13 @@
     <string name="prefBaroAltitudeUsesTemperatureSummary">Koristi podatke senzora temperature za točniju barometarsku visinu, ako su dostupni</string>
     <string name="prefBarometricAltitudeNoteSummary">Koristite ovo jedino u otvorenoj atmosferi! Molimo onemogućite u zatvorenim, klimatiziranim ili vozilima pod pritiskom poput aviona ili automobila!</string>
     <string name="prefTemperatureSensorDerivedTitle">Koristi izvedeni senzor</string>
-    <string name="prefTemperatureSensorDerivedSummary">Ovaj uređaj nema zasebni senzor temperature, ali se on može izvesti upotrebom drugih senzora. Molimo pročitajte više u Pomoći.</string>
+    <string name="prefTemperatureSensorDerivedSummary">Ovaj uređaj nema senzor temperature okoline, ali grube vrijednosti mogu se izvesti pomoću drugih unutarnjih senzora (kao što je temperatura procesora).</string>
     <string name="prefPressureSensorOffsetTitle">Ofset tlaka</string>
     <string name="prefPressureSensorOffsetInfo">Ova konstanta pribraja se očitanjima tlaka i koristi se za ublažavanje pristranosti senzora, ako postoji.</string>
     <string name="prefNotificationAlwaysTitle">Trajna notifikacija</string>
     <string name="prefNotificationAlwaysSummary">Uvijek prikazuj notifikacijsku ikonu aplikacije u statusnoj traci sustava, ne samo kada je praćenje aktivno.</string>
     <string name="prefMapDiskCacheSizeTitle">Veličina predmemorije karte</string>
-    <string name="prefMapDiskCacheSizeSummary">Kada pregledavate kartu, on-line i offline, dijelovi se lokalno pohranjuju kako bi se smanjila potreba za ponovnim preuzimanjem ili rekreacijom. To ubrzava učitavanje karte i štedi bateriju. (Svi profili)</string>
+    <string name="prefMapDiskCacheSizeSummary">Prilikom gledanja karte, online i offline, dijelovi se pohranjuju lokalno u predmemoriju kako bi se smanjila potreba za ponovnim preuzimanjem ili rekreacijom. To ubrzava učitavanje karte i štedi bateriju.</string>
     <string name="prefProhibitLocationTitle">Ne koristi Lokaciju</string>
     <string name="prefProhibitLocationSummary">Spriječi GPS tijekom aktivnosti</string>
     <string name="prefMapTrackColorTitle">Boja staze</string>
@@ -920,7 +920,7 @@
     <string name="prefUnitsEnergyEntries_0">[kcal]</string>
     <string name="prefUnitsEnergyEntries_1">[kJ]</string>
     <string name="prefUnitsEnergyEntries_2">[kWh]</string>
-    <string name="prefUnitsEnergyEntries_3">[Litara benzina]</string>
+    <string name="prefUnitsEnergyEntries_3">[Litre benzina]</string>
     <!-- prefUnitsPowerEntries -->
     <string name="prefUnitsPowerEntries_0">[W]</string>
     <string name="prefUnitsPowerEntries_1">[KS]</string>
@@ -1010,17 +1010,28 @@
     <string name="disclaimerText2">Molimo razborito koristite ovu aplikaciju i NE RUKUJTE njome dok vozite automobil, motor, bicikl, ili bilo koje drugo vozilo.</string>
     <string name="disclaimerText3">Pogled neka vam je uvijek na cesti.</string>
     <string name="licenseDialogMapsTab">Mape</string>
-    <string name="ultimateLicenseDescription">Najsnažnija licenca za vrhunski doživljaj.</string>
-    <string name="ultimateLicenseFeatures">🔹 Sve mape
-\n🔹 Sve značajke
-\n🔹 Nema oglasa</string>
-    <string name="proPlusLicenseFeatures">🔹 Nema oglasa
-\n🔹 Ekstra donacija</string>
-    <string name="proLicenseFeatures">🔹 Nema oglasa</string>
-    <string name="thunderforestMapsFeatures">🔹 Thunderforest mape
-\n🔹 Nema oglasa</string>
-    <string name="mapboxMapsFeatures">🔹 Mapbox mape
-\n🔹 Nema oglasa</string>
+    <string name="ultimateLicenseDescription">Najsnažnija licenca za vrhunski doživljaj</string>
+    <string name="ultimateLicenseFeatures">✔️ Sve premium karte
+\n✔️ Navigacija
+\n✔️ Nema reklama
+\n✔️ Sve besplatne značajke i karte</string>
+    <string name="proPlusLicenseFeatures">❌ Premium karte
+\n❌ Navigacija
+\n✔️ Nema reklama
+\n✔️ Sve besplatne značajke i karte
+\n➕ Dodatna donacija</string>
+    <string name="proLicenseFeatures">❌ Premium karte
+\n❌ Navigacija
+\n✔️ Nema reklama
+\n✔️ Sve besplatne značajke i karte</string>
+    <string name="thunderforestMapsFeatures">✔️ Thunderforest premium karte
+\n✔️ Navigacija
+\n✔️ Nema reklama
+\n✔️ Sve besplatne značajke i karte</string>
+    <string name="mapboxMapsFeatures">✔️ Mapbox premium karte
+\n✔️ Navigacija
+\n✔️ Nema reklama
+\n✔️ Sve besplatne značajke i karte</string>
     <string name="priceFree">BESPLATNO</string>
     <string name="rewardedAdDescription">Kliknite ovdje za pogledati oglas</string>
     <string name="rewardedAdLoading">Učitavanje oglasa…</string>
@@ -1220,11 +1231,15 @@
     <string name="cloudAccountsPowerUploadPolicyTitle">Politika prijenosa podataka o snazi</string>
     <string name="cloudAccountsPowerUploadPolicy_0">Uvijek (zadano)</string>
     <string name="cloudAccountsPowerUploadPolicy_1">Podatke o snazi prenosi samo kada je korišten mjerač snage</string>
-    <string name="hereMapsFeatures">🔹 HERE mape
-\n🔹 Nema oglasa</string>
+    <string name="hereMapsFeatures">✔️ HERE premium karte
+\n✔️ Navigacija
+\n✔️ Nema reklama
+\n✔️ Sve besplatne značajke i karte</string>
     <string name="dialogMapsMapCount">%1$s mapa</string>
-    <string name="maptilerMapsFeatures">🔹 MapTiler mape
-\n🔹 Nema oglasa</string>
+    <string name="maptilerMapsFeatures">✔️ MapTiler premium karte
+\n✔️ Navigacija
+\n✔️ Nema reklama
+\n✔️ Sve besplatne značajke i karte</string>
     <string name="dialogMapsChooseTitle">Odaberite mapu</string>
     <string name="meterModes_30">Radius</string>
     <string name="sensorProperitesFilterIntervalInfo">Interval filtra, tj. jačina filtra. Veće vrijednosti filtrirat će više, ali uvest će i više kašnjenja.</string>
@@ -1308,11 +1323,11 @@
     <string name="pref_categoryActivityRecognitionTitle">Prepoznavanje tjelesne aktivnosti</string>
     <string name="menuScreenshot">Snimka zaslona</string>
     <string name="prefMapDiskCacheAgeTitle">Granica starosti predmemorije karte</string>
-    <string name="pref_mapsShowAttribution_summary">(Svi profili) Prikaži tekst atribucije za online karte koje nisu Googleove. Onemogućite da biste spriječili slučajni klik na vezu.</string>
+    <string name="pref_mapsShowAttribution_summary">Prikaži tekst atribucije za online karte koje nisu Google. nemogućite kako biste spriječili slučajno klikanje na vezu.</string>
     <string name="prefActivityRecognitionNoteSummary">Ove se opcije oslanjaju na Androidovu značajku prepoznavanja tjelesne aktivnosti. To može biti netočno i kasniti, koristite samo ako ste s tim u redu. Najbolje će raditi kada se senzor brzine koristi za udaljenost i trajanje.</string>
     <string name="prefGnssActivityRecognitionSummary">Prepoznajte mirno stajanje i kretanje za GPS. Može uvesti kašnjenja i izgubljenu udaljenost nakon pauze, ali spriječit će većinu GPS smetnji.</string>
-    <string name="prefGnssActivityRecognitionTitle">Smanjite smetnje lokacije</string>
-    <string name="pref_mapsShowAttribution_title">Prikaži atribuciju</string>
+    <string name="prefGnssActivityRecognitionTitle">Smanji smetnje GPS-a</string>
+    <string name="pref_mapsShowAttribution_title">Atribucija</string>
     <string name="prefGnssAutomaticSleepTitle">GPS automatsko spavanje</string>
     <string name="prefMapDiskCacheAgeEntries_7">90 dana</string>
     <string name="prefMapDiskCacheAgeEntries_5">45 dana</string>
@@ -1470,7 +1485,9 @@
     <string name="dialogLayoutsInfoTitle">Izgledi</string>
     <string name="dialogLayoutsInfoMessage">Brzo promijenite izgled zaslona iz skupa unaprijed definiranih izgleda.
 \n
-\nZatim dugo pritisnite bilo koje polje za daljnju prilagodbu prikaza putem skočnih izbornika.</string>
+\nZatim dugo pritisnite bilo koje polje za daljnju prilagodbu prikaza putem skočnih izbornika.
+\n
+\nPortretna i pejzažna orijentacija zaslona imaju potpuno neovisne izglede.</string>
     <string name="dialogLayoutChooseSubtitle">Odaberi izgled prikaza</string>
     <string name="infoAppUpdateMessage">Ažuriranje je spremno.</string>
     <string name="dialogWeatherInfoMessage">Radarski podaci ažuriraju se svakih 10 minuta. Ispunjena ikona označava svježe podatke, prazna ikona znači da je ažuriranje blizu.
@@ -1479,4 +1496,33 @@
 \n
 \nPosljednji 1 sat radarskih podataka može se animirati kako bi se otkrili trendovi padalina.</string>
     <string name="infoAppUpdateAction">Ponovno pokreni</string>
+    <string name="pref_soundeffects_navigation_summary">Zvuk pri navigacijskim događajima</string>
+    <string name="pref_speechNavigation_title">Navigacija</string>
+    <string name="pref_speechNavigation_summary">Izgovaraj navigaciju</string>
+    <string name="pref_soundeffects_tally_energy_title">Energija</string>
+    <string name="freeLicenseFeatures">❌ Premium karte
+\n❌ Navigacija
+\n❌ Nema reklama
+\n✔️ Sve besplatne značajke i karte</string>
+    <string name="pref_mapsFollowMode_summary">Drži kartu centriranom na vašoj trenutnoj lokaciji</string>
+    <string name="mapMarkerClickInfo">Kliknite za opcije</string>
+    <string name="menuNarrow">Suzi</string>
+    <string name="menuNavigation">Navigacija</string>
+    <string name="pref_soundeffects_tally_energy_dialog_title">Oznaka energije</string>
+    <string name="prefGpsBoostNoteSummary">Ažuriranja lokacije uvijek će biti prisiljena na najveću učestalost tijekom navigacije</string>
+    <string name="freeLicenseTitle">Besplatna licenca</string>
+    <string name="pref_mapsFollowAutorotateMode_summary">Neka smjer vožnje bude usmjeren prema gore</string>
+    <string name="prefNoSoundInsideFenceSummary">Ne proizvodi zvukove unutar ograde, osim za alarme.</string>
+    <string name="menuMove">Pomakni</string>
+    <string name="menuWiden">Proširi</string>
+    <string name="pref_mapsFollowAutoZoomMode_summary">Prilagodi razinu zumiranja karte na temelju trenutne brzine</string>
+    <string name="pref_mapsLayerTraffic_summary">Prikaži prometne informacije u stvarnom vremenu</string>
+    <string name="menuShowTotals">Prikaži ukupne iznose</string>
+    <string name="prefNoSoundInsideFenceTitle">Bez zvukova unutar ograde</string>
+    <string name="mapPlaceSearch">Kamo\?</string>
+    <string name="pref_soundeffects_navigation_title">Navigacija</string>
+    <string name="toastLocationUnavailable">Vaša lokacija još uvijek nije dostupna</string>
+    <string name="menuHideTotals">Sakrij ukupne iznose</string>
+    <string name="freeLicenseLabel">Besplatna</string>
+    <string name="prefOnlineMapsProviderTitle">Online pružatelj karata</string>
 </resources>
