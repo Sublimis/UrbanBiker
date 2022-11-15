@@ -601,7 +601,7 @@
     <string name="pref_relaunchAfterReboot_title">Relançamento após reinicialização</string>
     <string name="pref_relaunchAfterReboot_summary">(Todos os perfis) Continuar a registar o percurso depois de uma reinicialização forçada do aparelho, se a bateria estiver a 10% ou mais.</string>
     <string name="pref_resetPrompt_title">Redefinir prompt</string>
-    <string name="pref_resetPrompt_summary">Prompt para iniciar um novo percurso se o último estiver ativo à 4 horas atrás ou numa localização diferente</string>
+    <string name="pref_resetPrompt_summary">Avisar para iniciar um novo percurso, se a última atividade foi há mais de 4 horas ou em um local distante (recomendado)</string>
     <string name="pref_auto_launch_on_gps_title">Iniciação automática no GPS</string>
     <string name="pref_auto_launch_on_gps_summary">Iniciar a aplicação (no modo passivo) quando detectada atividade do GPS</string>
     <string name="pref_passive_gps_button_title">Botão de GPS em modo passivo</string>
@@ -662,8 +662,8 @@
     <string name="pref_maps_offline_info_summary">Mapas Mapsforge vector (.map) e Rmaps raster (.sqlitedb) são suportados. Disponíveis em download.mapsforge.org.</string>
     <string name="pref_maps_offline_warning_summary">Aviso: Alguns dados online podem ser recuperados mesmo em modo offline. Por favor desative a internet móvel antes de usar os mapas, se considerado.</string>
     <string name="pref_maps_routes_draw_title">Guia de rotas</string>
-    <string name="pref_maps_routes_draw_summary">As rotas GPX são mostradas sobre o mapa num traçado pontilhado</string>
-    <string name="pref_maps_routes_info_summary">Não serão dados outros sinais visuais ou audíveis para facilitar a navegação na rota</string>
+    <string name="pref_maps_routes_draw_summary">Desenha as rotas GPX selecionadas no mapa</string>
+    <string name="pref_maps_routes_info_summary">A Guia de Rota é simplesmente uma linha desenhada sobre o mapa que você pode seguir. Para instruções passo a passo, use o recurso de Navegação.</string>
     <string name="pref_maps_routes_files_title">Selecionar ficheiro ou pasta</string>
     <string name="pref_maps_routes_files_dialog_title">Escolher pasta de rotas ou ficheiro</string>
     <string name="pref_maps_routes_files_noFolderSelected">Não há pasta selecionada.</string>
@@ -676,7 +676,7 @@
     <string name="pref_maps_offline_terrain_info_title">Descarregar agora</string>
     <string name="pref_maps_offline_terrain_info_summary">Abrir a página de download em viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Ação do botão de camada</string>
-    <string name="pref_mapsOfflineLayerButtonActionSummary">Escolher o que fazer quando o botão de camada for pressionado</string>
+    <string name="pref_mapsOfflineLayerButtonActionSummary">Escolher o que fazer quando o botão de camada é pressionado</string>
     <string name="pref_button_profile_show_title">Perfil</string>
     <string name="pref_button_profile_show_summary">Mostrar o botão de Perfil</string>
     <string name="pref_button_map_show_title">Mapa</string>
@@ -1011,21 +1011,27 @@
     <string name="disclaimerText3">Mantenha sempre os olhos na estrada.</string>
     <string name="licenseDialogMapsTab">Mapas</string>
     <string name="ultimateLicenseDescription">Licença mais poderosa para a melhor experiência</string>
-    <string name="ultimateLicenseFeatures">✔ Todos os Recursos e Mapas Gratuitos
-\n✔ Todos os Mapas Premium
-\n✔ Sem Anúncios</string>
-    <string name="proPlusLicenseFeatures">✔ Todos os Recursos e Mapas Gratuitos
-\n✔ Sem Anúncios
-\n❌ Mapas Premium
-\n➕ Doação Extra</string>
-    <string name="proLicenseFeatures">✔️ Todos os Recursos e Mapas Gratuitos
-\n✔️ Sem Anúncios
-\n❌ Mapas Premium</string>
-    <string name="thunderforestMapsFeatures">✔️ Todos os Recursos e Mapas Gratuitos
-\n✔ Mapas Thunderforest Premium ✔ Sem anúncios</string>
-    <string name="mapboxMapsFeatures">✔️ Todos os Recursos e Mapas Gratuitos
-\n✔ Mapas Mapbox Premium
-\n✔ Sem anúncios</string>
+    <string name="ultimateLicenseFeatures">✔️ Todos os mapas premium
+\n✔️ Navegação
+\n✔️ Sem anúncios
+\n✔️ Todos os recursos e mapas gratuitos</string>
+    <string name="proPlusLicenseFeatures">❌ Mapas premium
+\n❌ Navegação
+\n✔️ Sem anúncios
+\n✔️ Todos os recursos e mapas gratuitos
+\n➕ Doação extra</string>
+    <string name="proLicenseFeatures">❌ mapas premium
+\n❌ Navegação
+\n✔️ Sem anúncios
+\n✔️ Todos os recursos e mapas gratuitos</string>
+    <string name="thunderforestMapsFeatures">✔️ Mapas Thunderforest premium
+\n✔️ Navegação
+\n✔️ Sem anúncios
+\n✔️ Todos os recursos e mapas gratuitos</string>
+    <string name="mapboxMapsFeatures">✔️ Mapas Mapbox premium
+\n✔️ Navegação
+\n✔️ Sem anúncios
+\n✔️ Todos os recursos e mapas gratuitos</string>
     <string name="priceFree">Gratuito</string>
     <string name="rewardedAdDescription">Clique aqui para ver um anúncio primeiro</string>
     <string name="rewardedAdLoading">A carregar um anúncio…</string>
@@ -1225,13 +1231,15 @@
     <string name="cloudAccountsPowerUploadPolicyTitle">Política de upload de dados de Potência</string>
     <string name="cloudAccountsPowerUploadPolicy_0">Sempre (Padrão)</string>
     <string name="cloudAccountsPowerUploadPolicy_1">Carregar dados de Potência só quando o medidor de Potência foi usado</string>
-    <string name="hereMapsFeatures">✔️ Todos os Recursos e Mapas Gratuitos
-\n✔ Mapas Here Premium
-\n✔ Sem anúncios</string>
+    <string name="hereMapsFeatures">✔️ Mapas HERE premium
+\n✔️ Navegação
+\n✔️ Sem anúncios
+\n✔️ Todos os recursos e mapas gratuitos</string>
     <string name="dialogMapsMapCount">%1$s mapas</string>
-    <string name="maptilerMapsFeatures">✔️ Todos os Recursos e Mapas Gratuitos
-\n✔ Mapas MapTiler Premium
-\n✔ Sem anúncios</string>
+    <string name="maptilerMapsFeatures">✔️ Mapas MapTiler premium
+\n✔️ Navegação
+\n✔️ Sem anúncios
+\n✔️ Todos os recursos e mapas gratuitos</string>
     <string name="dialogMapsChooseTitle">Escolher Mapa</string>
     <string name="meterModes_30">Raio</string>
     <string name="sensorProperitesFilterIntervalInfo">Intervalo ou força do filtro. Valores maiores filtrarão melhor, mas também introduzirão mais atraso.</string>
@@ -1323,12 +1331,12 @@
     <string name="prefMapDiskCacheAgeEntries_6">60 dias</string>
     <string name="prefMapDiskCacheAgeEntries_0">1 dia</string>
     <string name="prefMapDiskCacheAgeEntries_2">10 dias (Padrão)</string>
-    <string name="prefGnssActivityRecognitionTitle">Reduzir Interferências de Localização</string>
+    <string name="prefGnssActivityRecognitionTitle">Reduzir Interferências de GPS</string>
     <string name="prefGnssAutomaticSleepSummary">Desligar a localização automaticamente enquanto estiver parado e ligar novamente quando o movimento começar. Isso reduz o uso da bateria em pausas mais longas, sem a necessidade de interromper o registo de um percurso.</string>
     <string name="prefMapDiskCacheAgeEntries_1">5 dias</string>
     <string name="prefMapDiskCacheAgeEntries_3">15 dias</string>
     <string name="pref_mapsShowAttribution_title">Atribuição</string>
-    <string name="prefGnssAutomaticSleepTitle">Hibernação Automática de GPS</string>
+    <string name="prefGnssAutomaticSleepTitle">Suspensão Automática do GPS</string>
     <string name="prefMapDiskCacheAgeEntries_4">30 dias</string>
     <string name="prefScreenPocketModeDelayEntries_4">0.40 segundos</string>
     <string name="prefScreenPocketModeDelayEntries_0">Sem atraso (Padrão)</string>
@@ -1488,9 +1496,10 @@
 \n
 \nAs orientações de ecrã, retrato e paisagem, têm layouts completamente independentes.</string>
     <string name="dialogLayoutChooseSubtitle">Escolher layout de exibição</string>
-    <string name="freeLicenseFeatures">✔️ Todos os Recursos e Mapas Gratuitos
-\n❌ Mapas Premium
-\n❌ Sem Anúncios</string>
+    <string name="freeLicenseFeatures">❌ Mapas premium
+\n❌ Navegação
+\n❌ Sem anúncios
+\n✔️ Todos os recursos e mapas gratuitos</string>
     <string name="freeLicenseTitle">Licença Gratuita</string>
     <string name="freeLicenseLabel">Grátis</string>
     <string name="pref_mapsFollowMode_summary">Manter o mapa centrado na localização atual</string>
@@ -1502,4 +1511,48 @@
     <string name="pref_mapsLayerTraffic_summary">Mostrar informações de trânsito em tempo real</string>
     <string name="menuShowTotals">Mostrar Totais</string>
     <string name="menuHideTotals">Ocultar Totais</string>
+    <string name="navigationStopPrompt">Parar</string>
+    <string name="navigationAvoidIndoor">Evitar Interior</string>
+    <string name="pref_soundeffects_navigation_summary">Som em eventos de navegação</string>
+    <string name="pref_speechNavigation_title">Navegação</string>
+    <string name="speechUnitManyLitersOfGasoline">Litros de gasolina</string>
+    <string name="navigationAvoidFerries">Evitar Ferries</string>
+    <string name="speechUnitOneLiterOfGasoline">Litro de gasolina</string>
+    <string name="pref_speechNavigation_summary">Navegação relatada</string>
+    <string name="navigationLoadingData">Carregando rotas…</string>
+    <string name="pref_soundeffects_tally_energy_title">Energia</string>
+    <string name="speechEnergy">Energia: %1$s</string>
+    <string name="mapMarkerClickInfo">Clique para opções</string>
+    <string name="navigationContinue">Continuar</string>
+    <string name="navigationAvoidTolls">Evitar Portagens</string>
+    <string name="dialogLicenseUpgradeButton2">Ver vídeo promocional</string>
+    <string name="navigationLoadFromFilePrompt">Ocorreu um erro ao carregar novas rotas da Internet.
+\n
+\nDeseja carregar rotas usadas anteriormente de um arquivo\?</string>
+    <string name="menuNavigation">Navegar</string>
+    <string name="speechNavigationWrongWay">Caminho errado</string>
+    <string name="speechNavigationDestinationReached">Você chegou ao seu destino</string>
+    <string name="pref_soundeffects_tally_energy_dialog_title">Contagem de energia</string>
+    <string name="prefGpsBoostNoteSummary">As atualizações de localização serão sempre forçadas para a frequência mais alta durante a navegação</string>
+    <string name="prefNoSoundInsideFenceSummary">Não emitir sons enquanto estiver dentro de uma zona privada, exceto para os alarmes.</string>
+    <string name="navigationDestinationReached">Destino</string>
+    <string name="speechNavigationGotOffRoute">Você saiu da rota</string>
+    <string name="navigationAvoidMotorways">Evitar Autoestradas</string>
+    <string name="speechNavigationContinue">Continuar</string>
+    <string name="navigationRouteTooLong">Desculpe, este destino está muito longe</string>
+    <string name="prefNoSoundInsideFenceTitle">Nenhum som dentro da zona privada</string>
+    <string name="mapPlaceSearch">Para onde\?</string>
+    <string name="pref_soundeffects_navigation_title">Navegação</string>
+    <string name="toastLocationUnavailable">A sua localização ainda não está disponível</string>
+    <string name="navigationHidePrompt">Ocultar</string>
+    <string name="speechUnitTwoLitersOfGasoline">Litros de gasolina</string>
+    <string name="navigationWrongWay">Caminho errado</string>
+    <string name="navigationStepsInfo">As instruções de navegação aparecerão aqui conforme você se move. Oculte ou deslize este painel conforme desejar.</string>
+    <string name="licenseUpgradeTitle">Atualize a sua licença</string>
+    <string name="navigationRouteNotFound">Desculpe, nenhuma rota foi encontrada para este destino</string>
+    <string name="dialogLicenseUpgradeMessage">Este recurso requer subscrição de uma licença.
+\n
+\nComo alternativa, você pode assistir a um pequeno vídeo promocional para obter crédito gratuito.</string>
+    <string name="prefOnlineMapsProviderTitle">Fornecedor de mapas on-line</string>
+    <string name="navigationGotOffRoute">Fora da rota</string>
 </resources>
