@@ -13,7 +13,7 @@
     <string name="proLicenseDescription">Odstránenie reklamy</string>
     <string name="proPlusLicenseTitle">Pro Plus License</string>
     <string name="proPlusLicenseDescription">Odstránenie reklamy a odomknutie všetkých dostupných funkcií</string>
-    <string name="ultimateLicenseTitle">Ultimate Licencia</string>
+    <string name="ultimateLicenseTitle">Ultimate License</string>
     <string name="ok">OK</string>
     <string name="yes">Áno</string>
     <string name="no">Nie</string>
@@ -589,7 +589,7 @@
     <string name="pref_relaunchAfterReboot_title">Spustiť po reštartovaní</string>
     <string name="pref_relaunchAfterReboot_summary">(Všetky profily) Obnoviť sledovanie trasy po vynútenom reštarte aplikácie, ak zostáva 10% a viac kapacity batérie.</string>
     <string name="pref_resetPrompt_title">Vynútiť vynulovanie</string>
-    <string name="pref_resetPrompt_summary">Začať novú trasu po viac ako 4 hodinách nečinnosti alebo pri vzdialenej polohe</string>
+    <string name="pref_resetPrompt_summary">Začať novú trasu po viac ako 4 hodinách nečinnosti alebo pri novej vzdialenej polohe (doporučené)</string>
     <string name="pref_auto_launch_on_gps_title">Aut. zapnutie pri GPS</string>
     <string name="pref_auto_launch_on_gps_summary">Zapnúť aplikáciu (v pasívnom režime) pri detekovaní aktívneho GPS</string>
     <string name="pref_passive_gps_button_title">Pasívny GPS-režim</string>
@@ -650,7 +650,7 @@
     <string name="pref_maps_offline_info_summary">Podporované formáty vektorových (.map) a rastrových (.sqlitedb) máp si možno stiahnuť na download.mapsforge.org alebo vytvoriť pomocou programu Mobac (mobac.sourceforge.net).</string>
     <string name="pref_maps_offline_warning_summary">Upozornenie: Môžu sa načítavať online-dáta pri zapnutom mobilnom internete.</string>
     <string name="pref_maps_routes_draw_title">Zadané trasy</string>
-    <string name="pref_maps_routes_info_summary">Nie su podporované žiadne obrazové či zvukové upozornenia na vybočenie z trasy.</string>
+    <string name="pref_maps_routes_info_summary">Navádzacia trasa sa zobrazuje ako čiara kreslená na mape. Pre určovanie smeru treba použiť funkciu Navigácia.</string>
     <string name="pref_maps_routes_files_title">Zvoliť súbor alebo prečinok</string>
     <string name="pref_maps_routes_files_dialog_title">Zvoliť priečinok alebo súbor trás</string>
     <string name="pref_maps_routes_files_noFolderSelected">Nie je zvolený žiadny priečinok.</string>
@@ -663,7 +663,7 @@
     <string name="pref_maps_offline_terrain_info_title">Stiahnuť súbory...</string>
     <string name="pref_maps_offline_terrain_info_summary">Prejsť na viewfinderpanoramas.org</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Tlačidlo vrstiev</string>
-    <string name="pref_mapsOfflineLayerButtonActionSummary">Definovanie funkcie tlačidla vrstiev pri zobrazovaní mapy</string>
+    <string name="pref_mapsOfflineLayerButtonActionSummary">Definovanie funkcie tlačidla vrstiev</string>
     <string name="pref_button_profile_show_title">Profil</string>
     <string name="pref_button_profile_show_summary">Zobrazovať tlačidlo Profilu</string>
     <string name="pref_button_map_show_title">Mapa</string>
@@ -938,22 +938,27 @@
     <string name="dialog_default_map_track_colors_title">Farby trasy</string>
     <string name="licenseDialogMapsTab">Mapy</string>
     <string name="ultimateLicenseDescription">Plná licencia so všetkými funkciami</string>
-    <string name="ultimateLicenseFeatures">✔️ Všetky možnosti a bezplatné mapy
-\n✔️ Všetky prémiové mapy
-\n✔️ Žiadna reklama</string>
-    <string name="proPlusLicenseFeatures">✔️ Všetky možnosti a bezplatné mapy
+    <string name="ultimateLicenseFeatures">✔️ Všetky platené mapy
+\n✔️ Navigácia
 \n✔️ Žiadna reklama
-\n❌ Prémiové mapy
+\n✔️ Všetky bezplatné funkcie a mapy</string>
+    <string name="proPlusLicenseFeatures">❌ Platené mapy
+\n❌ Navigácia
+\n✔️ Žiadna reklama
+\n✔️ Všetky bezplatné funkcie a mapy
 \n➕ Extra príspevok</string>
-    <string name="proLicenseFeatures">✔️ Všetky možnosti a bezplatné mapy
+    <string name="proLicenseFeatures">❌ Platené mapy
+\n❌ Navigácia
 \n✔️ Žiadna reklama
-\n❌ Prémiové mapy</string>
-    <string name="thunderforestMapsFeatures">✔️ Všetky možnosti a bezplatné mapy
-\n✔️ Prémiové mapy Thunderforest
-\n✔️ Žiadna reklama</string>
-    <string name="mapboxMapsFeatures">✔️ Všetky možnosti a bezplatné mapy
-\n✔️ Prémiové mapy Mapbox
-\n✔️ Žiadna reklama</string>
+\n✔️ Všetky bezplatné funkcie a mapy</string>
+    <string name="thunderforestMapsFeatures">✔️ Mapy Thunderforest
+\n✔️ Navigácia
+\n✔️ Žiadna reklama
+\n✔️ Všetky bezplatné funkcie a mapy</string>
+    <string name="mapboxMapsFeatures">✔️ Mapy Mapbox
+\n✔️ Navigácia
+\n✔️ Žiadna reklama
+\n✔️ Všetky bezplatné funkcie a mapy</string>
     <string name="priceFree">ZADARMO</string>
     <string name="rewardedAdLoading">Načítava sa reklama…</string>
     <string name="rewardedLicenseSuccess">Licencia bola pridelená</string>
@@ -1030,7 +1035,7 @@
     <string name="subscriptionPer1m">%1$s účtované raz za mesiac</string>
     <string name="subscriptionPer1w">%1$s účtované raz za týždeň</string>
     <string name="paymentOnce">Jednorazová platba</string>
-    <string name="manageSubscriptions">Spravovať registrácie</string>
+    <string name="manageSubscriptions">Spravovať predplatné</string>
     <string name="loading">Načítava sa…</string>
     <string name="rewardedAdPriceFree">ZADARMO (platné pre toto prihlásenie)</string>
     <string name="cautionTitle">Upozornenie</string>
@@ -1102,13 +1107,15 @@
     <string name="cloudAccountsPowerUploadPolicyTitle">Pravidlá sprístupňovania dát</string>
     <string name="cloudAccountsPowerUploadPolicy_0">Vždy (predvolené)</string>
     <string name="cloudAccountsPowerUploadPolicy_1">Načítavať dáta len pri meraní</string>
-    <string name="hereMapsFeatures">✔️ Všetky možnosti a bezplatné mapy
-\n✔️ Prémiové mapy HERE
-\n✔️ Žiadna reklama</string>
+    <string name="hereMapsFeatures">✔️ Mapy HERE
+\n✔️ Navigácia
+\n✔️ Žiadna reklama
+\n✔️ Všetky bezplatné funkcie a mapy</string>
     <string name="dialogMapsMapCount">%1$s mapy</string>
-    <string name="maptilerMapsFeatures">✔️ Všetky možnosti a bezplatné mapy
-\n✔️ Prémiové mapy MapTiler
-\n✔️ Žiadna reklama</string>
+    <string name="maptilerMapsFeatures">✔️ Mapy MapTiler
+\n✔️ Navigácia
+\n✔️ Žiadna reklama
+\n✔️ Všetky bezplatné funkcie a mapy</string>
     <string name="dialogMapsChooseTitle">Vybrať mapu</string>
     <string name="sensorProperitesFilterIntervalInfo">Hodnota filtrovania. Vyššia hodnota znamená väčšiu presnosť, avšak aj väčšie omeškanie.</string>
     <string name="dialogChartDataTypesTitle">Druhy grafov</string>
@@ -1144,7 +1151,7 @@
     <string name="pref_mapsWeatherPrecipitationRadar_summary">Zobraziť zrážkovú radarovú vrstvu</string>
     <string name="pref_mapsWeatherPrecipitationRadar_info">Radarové údaje sa sťahujú z internetu, aj keď sa používajú offline mapy. Automaticky sa obnovujú každých 10 minút, kým je mapa viditeľná. Zdrojom údajov je RainViewer.com.</string>
     <string name="pref_mapsWeatherAnimate_title">Animovať</string>
-    <string name="pref_mapsWeatherAnimate_summary">Animujte poslednú hodinu radarových údajov, ktoré vám pomôžu vizualizovať trend zrážok</string>
+    <string name="pref_mapsWeatherAnimate_summary">Animovať poslednú hodinu radarových údajov pre lepší prehľad o vývoji zrážok</string>
     <string name="pref_mapsWeatherAnimate_info">Radarová animácia využíva až 5x viac dát ako statický radarový obrázok.</string>
     <string name="buttonShow">Zobraz</string>
     <string name="menuMeterClockShowSeconds">Zobraz sekundy</string>
@@ -1352,7 +1359,7 @@
     <string name="pref_screenAutoPocketModeDelay_title">Oneskorenie</string>
     <string name="prefScreenPocketModeDelayEntries_5">0,5 s</string>
     <string name="summaryDeviceAutoPauseCountInfo">Množstvo automatických prestávok aktivovaných počas aktivity.</string>
-    <string name="pref_mapsWeatherAnimateForecast_summary">Farebne tiež vyobrazovať 30 minút radarovej predpovede</string>
+    <string name="pref_mapsWeatherAnimateForecast_summary">Farebne vyobrazovať 30 minút radarovej predpovede</string>
     <string name="prefScreenPocketModeDelayEntries_7">1 s</string>
     <string name="prefScreenPocketModeDelayEntries_2">0,2 s</string>
     <string name="prefScreenPocketModeDelayEntries_6">0,75 s</string>
@@ -1487,7 +1494,7 @@
     <string name="menuSendDebugFeedback">Poslať odozvu</string>
     <string name="infoAppUpdateMessage">Aktualizácia je pripravená.</string>
     <string name="infoAppUpdateAction">Reštartovať</string>
-    <string name="dialogLayoutsInfoTitle">Rozloženia</string>
+    <string name="dialogLayoutsInfoTitle">Rozloženie tlačidiel</string>
     <string name="dialogLayoutChooseSubtitle">Rozvrhnutie tlačidiel</string>
     <string name="dialogWeatherInfoMessage">Radarové údaje sa aktualizujú každých 10 minút. Plná ikona znamená čerstvo aktualizované informácie, zatiaľ čo prázdna skorú aktualizáciu.
 \n
@@ -1499,9 +1506,10 @@
 \nPodržanie tlačidla danej funkcie sprístupňuje ďalšie nastavenia.
 \n
 \nZvislé a vodorovné zobrazenie majú navzájom nezávislé rozloženia.</string>
-    <string name="freeLicenseFeatures">✔️ Všetky možnosti a bezplatné mapy
-\n❌ Prémiové mapy
-\n❌ Žiadna reklama</string>
+    <string name="freeLicenseFeatures">❌ Platené mapy
+\n❌ Navigácia
+\n❌ Žiadna reklama
+\n✔️ Všetky bezplatné funkcie a mapy</string>
     <string name="freeLicenseTitle">Bezplatná licencia</string>
     <string name="freeLicenseLabel">Zadarmo</string>
     <string name="pref_mapsFollowMode_summary">Udržiavať vycentrovanú mapu podľa aktuálnej polohy</string>
@@ -1513,4 +1521,48 @@
     <string name="pref_mapsLayerTraffic_summary">Zobrazovať cestnú premávku v reálnom čase</string>
     <string name="menuShowTotals">Zobraziť celkové hodnoty</string>
     <string name="menuHideTotals">Skryť celkové hodnoty</string>
+    <string name="navigationStopPrompt">Ukončiť</string>
+    <string name="navigationAvoidIndoor">Vyhnúť sa interiérom</string>
+    <string name="pref_soundeffects_navigation_summary">Zvuky navigácie</string>
+    <string name="pref_speechNavigation_title">Navigácia</string>
+    <string name="speechUnitManyLitersOfGasoline">Litrov paliva</string>
+    <string name="navigationAvoidFerries">Vyhnúť sa lodným trasám</string>
+    <string name="speechUnitOneLiterOfGasoline">Liter paliva</string>
+    <string name="pref_speechNavigation_summary">Hlas navigácie</string>
+    <string name="navigationLoadingData">Načítavajú sa pokyny…</string>
+    <string name="pref_soundeffects_tally_energy_title">Energia</string>
+    <string name="speechEnergy">Energia: %1$s</string>
+    <string name="mapMarkerClickInfo">Možnosti</string>
+    <string name="navigationContinue">Pokračovať</string>
+    <string name="navigationAvoidTolls">Vyhnúť sa spoplatneným úsekom</string>
+    <string name="dialogLicenseUpgradeButton2">Prejsť cez reklamné video</string>
+    <string name="navigationLoadFromFilePrompt">Vyskytla sa chyba pri načítavaní smerových pokynov z internetu.
+\n
+\nNačítať predchádzajúce použité navigovanie zo súboru\?</string>
+    <string name="menuNavigation">Navigácia</string>
+    <string name="speechNavigationWrongWay">Poloha v zlom smere</string>
+    <string name="speechNavigationDestinationReached">Cieľ dosiahnutý</string>
+    <string name="pref_soundeffects_tally_energy_dialog_title">Hlásenia funkcie Energia</string>
+    <string name="prefGpsBoostNoteSummary">Frekvencia aktualizácie GPS je počas navigovania vynútene najvyššia</string>
+    <string name="prefNoSoundInsideFenceSummary">Neprehrávať zvuk, okrem výstrah, vo vlastnej predvolenej oblasti.</string>
+    <string name="navigationDestinationReached">Cieľ</string>
+    <string name="speechNavigationGotOffRoute">Poloha mimo trasy</string>
+    <string name="navigationAvoidMotorways">Vyhnúť sa rýchlostným cestám</string>
+    <string name="speechNavigationContinue">Pokračovať</string>
+    <string name="navigationRouteTooLong">Cieľ je príliš vzdialený</string>
+    <string name="prefNoSoundInsideFenceTitle">Žiadne zvuky v chránenej oblasti</string>
+    <string name="mapPlaceSearch">Vyhľadať...</string>
+    <string name="pref_soundeffects_navigation_title">Navigácia</string>
+    <string name="toastLocationUnavailable">Poloha stále nedostupná</string>
+    <string name="navigationHidePrompt">Skryť</string>
+    <string name="speechUnitTwoLitersOfGasoline">Litre paliva</string>
+    <string name="navigationWrongWay">Zlý smer</string>
+    <string name="navigationStepsInfo">Pokyny navigácie sa zobrazujú na tomto mieste počas pohybu. Panel navigácie možno posúvať alebo skryť.</string>
+    <string name="licenseUpgradeTitle">Inovovať licenciu</string>
+    <string name="navigationRouteNotFound">Nebola nájdená žiadna trasa do zadaného cieľa</string>
+    <string name="dialogLicenseUpgradeMessage">Táto funkcia je dostupná len v predplatenej licencii.
+\n
+\nPrípadne možno prejsť cez reklamné video a získať jednorazový prístup.</string>
+    <string name="prefOnlineMapsProviderTitle">Poskytovateľ online-máp</string>
+    <string name="navigationGotOffRoute">Mimo trasy</string>
 </resources>
