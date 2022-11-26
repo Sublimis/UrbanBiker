@@ -244,6 +244,9 @@
     <string name="toastScreenPocketModeActive">Pocket mode active</string>
     <string name="toastScreenWavingModeActive">Waving mode active</string>
     <string name="toastScreensaverModeActive">Screensaver mode active</string>
+    <string name="toastSteadyScreenModeActive">SteadyScreen active</string>
+    <string name="toastSteadyScreenModeIntelligentActive">SteadyScreen intelligent active</string>
+    <string name="toastSteadyScreenModeOff">SteadyScreen disabled</string>
 
     <string name="notificationTitle" translatable="false">@string/app_name</string>
     <string name="notificationTitleAdvanced" translatable="false">%1$s</string>
@@ -1196,6 +1199,9 @@
     <string name="prefGpsBoostNoteSummary">Location updates will always be forced to the highest frequency during navigation</string>
     <string name="prefNoSoundInsideFenceTitle">No sounds inside fence</string>
     <string name="prefNoSoundInsideFenceSummary">Do not make sounds while inside a fence, except for the alarms.</string>
+    <string name="prefSteadyScreenTitle">Screen stabilization</string>
+    <string name="prefSteadyScreenNote1">This feature helps you to see the screen a little more clearly while driving on bumpy terrain. The image on the screen is stabilized by applying rapid small movements that try to counteract external shaking.</string>
+    <string name="prefSteadyScreenNote2">Please don\'t expect miracles. If this feature does not work well for you, simply disable it.</string>
 
     <string name="infoMeterModeDistanceTitle">Distance</string>
     <string name="infoMeterModeDistanceMsg">Distance traveled.</string>
@@ -1536,6 +1542,12 @@
     <string name="prefAppVisualThemeEntries_1">Light</string>
     <string name="prefAppVisualThemeEntries_2">Dark</string>
 
+    <string name="prefSteadyScreenModeAuto">Intelligent active (default)</string>
+    <string name="prefSteadyScreenModeAutoInfo">Activate the SteadyScreen feature only on bumpy terrain during tracking. This is a good balance of comfort and battery use.</string>
+    <string name="prefSteadyScreenModeOn">Active</string>
+    <string name="prefSteadyScreenModeOnInfo">Keep SteadyScreen feature always active during tracking. This may consume more battery.</string>
+    <string name="prefSteadyScreenModeOff">Off</string>
+    <string name="prefSteadyScreenModeOffInfo">Never activate the SteadyScreen feature</string>
 
     <string name="svgCopyright">Created with Urban Biker</string>
 
