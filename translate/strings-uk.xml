@@ -1359,4 +1359,205 @@
 \n❌ Навігація
 \n❌ Без реклами
 \n✔️ Усі безкоштовні функції та карти</string>
+    <string name="dialogLayoutEmptyInfoMessage">У плані повинен бути присутнім хоча б один метр.</string>
+    <string name="navigationStopPrompt">СТОП</string>
+    <string name="infoSpeedometerTitle">Спідометр</string>
+    <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ коливається від 0 до 10%, за замовчуванням 1%. Якщо використовується функція AutoTerrain, припустіть базове значення для гладкої місцевості (нижня межа), оскільки програма зазвичай збільшує коефіцієнт на нерівній місцевості.</string>
+    <string name="navigationAvoidIndoor">Уникайте використання в приміщенні</string>
+    <string name="pref_categoryTrackingButtonTitle">Кнопка відстеження</string>
+    <string name="pref_soundeffects_navigation_summary">Звук подій навігації</string>
+    <string name="menuInsertAbove">вище</string>
+    <string name="prefScreensaverDimBrightnessEntries_2">⅓ поточної яскравості (за замовчуванням)</string>
+    <string name="pref_speechNavigation_title">Навігація</string>
+    <string name="menuProperties">Властивості…</string>
+    <string name="prefBarometricAltitudeDisableAlert">Вимкнути барометричну висоту\?</string>
+    <string name="menuAutomaticBell">Автоматичний дзвінок</string>
+    <string name="meterVerticalWeight">Вертикальна вага</string>
+    <string name="speechUnitManyLitersOfGasoline">Літри бензину</string>
+    <string name="prefSteadyScreenNote2">Будь ласка, не чекайте чудес. Якщо ця функція не працює, просто вимкніть її.</string>
+    <string name="navigationAvoidFerries">Уникайте поромів</string>
+    <string name="toastSteadyScreenModeActive">SteadyScreen активний</string>
+    <string name="dialogLayoutChooseTitle">Макет</string>
+    <string name="menuSpeedoPaceIndicator">Індикатор темпу</string>
+    <string name="pref_screensaverDimBrightnessDialogTitle">Заставка зменшує яскравість</string>
+    <string name="meterHorizontalWeight">Горизонтальна вага</string>
+    <string name="prefSteadyScreenModeOff">Вимкнено</string>
+    <string name="infoSpeedometerMsg">Показує поточну, максимальну та середню швидкість.
+\n
+\nІндикатор зупинки вказує, коли значення швидкості не оновлювалося протягом деякого часу і йому не можна довіряти.
+\n
+\nІндикатор темпу – це маленькі стрілки біля значення швидкості, які показують, коли поточна швидкість вище або нижче середньої швидкості.</string>
+    <string name="toastSteadyScreenModeIntelligentActive">SteadyScreen intelligent active</string>
+    <string name="pref_screensaverTimeout_summary">Період часу без взаємодії з користувачем до активації заставки.</string>
+    <string name="prefScreensaverTimeoutEntries_4">30 секунд</string>
+    <string name="menuInsertMeter">Вставте лічильник</string>
+    <string name="prefAutoTerrainNote2Summary">Ця функція не впливає на потужності, отримані за допомогою датчика потужності.</string>
+    <string name="menuMeterShowValue">Значення</string>
+    <string name="dialogRevokeAccessPromptMessage">Скасувати доступ\?</string>
+    <string name="menuSpeedo">Спідометр</string>
+    <string name="speechUnitOneLiterOfGasoline">Літр бензину</string>
+    <string name="prefSteadyScreenModeOnInfo">Тримайте функцію SteadyScreen завжди активною під час відстеження. Це може споживати більше заряду акумулятора.</string>
+    <string name="summaryVibrations">Вібрації</string>
+    <string name="unitNewtonPerKg">Н/кг</string>
+    <string name="menuRevokeAccess">Скасувати доступ</string>
+    <string name="pref_speechNavigation_summary">Озвучте навігацію</string>
+    <string name="menuSpeedoNeedle">Голка</string>
+    <string name="menuMeterShowChart">Діаграма</string>
+    <string name="navigationLoadingData">Завантаження маршрутів…</string>
+    <string name="pref_soundeffects_tally_energy_title">Енергія</string>
+    <string name="menuSpeedoStallIndicator">Індикатор зриву</string>
+    <string name="speechPromptTrackingResume">Відновити чи завершити\?</string>
+    <string name="menuMeterShowSubValues">Підзначення</string>
+    <string name="menuSelectOther">Виберіть інший</string>
+    <string name="speechEnergy">Енергія: %1$s</string>
+    <string name="pref_mapsFollowMode_summary">Тримайте карту в центрі вашого поточного місцезнаходження</string>
+    <string name="prefScreensaverDimBrightnessEntries_1">⅕ поточної яскравості</string>
+    <string name="infoAppUpdateMessage">Оновлення готове.</string>
+    <string name="prefScreensaverDimBrightnessEntries_3">½ поточної яскравості</string>
+    <string name="prefSteadyScreenModeAuto">Інтелектуальний активний (за замовчуванням)</string>
+    <string name="mapMarkerClickInfo">Натисніть для опцій</string>
+    <string name="dialogBluetoothPermissionRequest">Дозвіл потрібен, щоб програма могла знаходити бездротові датчики та підключатися до них.</string>
+    <string name="prefTrackingButtonModeTitle">Альтернативна поведінка</string>
+    <string name="dialogLayoutChoosePrompt">Поточний макет буде перезаписано.
+\n
+\nЗастосувати вибраний макет\?</string>
+    <string name="dialogWeatherInfoMessage">Дані радара оновлюються кожні 10 хвилин. Заповнений значок вказує на свіжі дані, порожній значок означає, що оновлення скоро.
+\n
+\nЖовтий і червоний кольори показують області з більшою кількістю опадів.
+\n
+\nРадарні дані за останню годину можна анімувати, щоб виявити тенденції опадів.</string>
+    <string name="dialogCopyingMessage">Копіювання…</string>
+    <string name="navigationContinue">Продовжити</string>
+    <string name="summaryRollResistCoefAverageInfo">Середній коефіцієнт опору коченню, якщо коефіцієнт змінювався під час діяльності.</string>
+    <string name="dialogOfflineMapsChooseMessage">Файл карти не знайдено або недоступний. Обрати зараз інший файл/папку карт\?</string>
+    <string name="navigationAvoidTolls">Уникайте платних проїздів</string>
+    <string name="prefScreensaverDimBrightnessEntries_4">Залиште як є</string>
+    <string name="prefScreensaverTimeoutEntries_0">5 секунд</string>
+    <string name="menuChooseFolder">Папка</string>
+    <string name="menuNarrow">вузькі</string>
+    <string name="toastSteadyScreenModeOff">SteadyScreen вимкнено</string>
+    <string name="dialogLicenseUpgradeButton2">Подивіться промо відео</string>
+    <string name="prefSteadyScreenTitle">Стабілізація екрану</string>
+    <string name="navigationLoadFromFilePrompt">Під час завантаження нових маршрутів з Інтернету сталася помилка.
+\n
+\nВи бажаєте завантажити попередньо використані маршрути з файлу\?</string>
+    <string name="prefSteadyScreenModeAutoInfo">Активуйте функцію SteadyScreen лише на вибоїстій місцевості під час стеження. Це хороший баланс комфорту та використання батареї.</string>
+    <string name="menuNavigation">Навігація</string>
+    <string name="menuCustomTracksFolder">Користувацька папка треків</string>
+    <string name="speechNavigationWrongWay">Неправильний шлях</string>
+    <string name="dialogLayoutsInfoTitle">Макети</string>
+    <string name="prefTrackingButtonModeSummary">Клацніть або утримуйте для призупинення, окрема кнопка для зупинки.</string>
+    <string name="menuInsertBelow">Нижче</string>
+    <string name="menuMeter">Метр</string>
+    <string name="dialogLayoutEmptyInfoTitle">Макет</string>
+    <string name="dialogOfflineMapsChooseTitle">Проблема з офлайн-картами</string>
+    <string name="speechNavigationDestinationReached">Ви досягли пункту призначення</string>
+    <string name="menuSendDebugFeedback">Повідомити про проблему</string>
+    <string name="prefSteadyScreenModeOffInfo">Ніколи не активуйте функцію SteadyScreen</string>
+    <string name="prefAutoTerrainTitle">AutoTerrain</string>
+    <string name="pref_screensaverEnable_summary">Щоб заощадити батарею, зменшіть яскравість дисплея після закінчення часу очікування. Торкніться дисплея, щоб розблокувати.</string>
+    <string name="pref_soundeffects_tally_energy_dialog_title">Підрахунок енергії</string>
+    <string name="dialogBluetoothPermissionRequestTitle">Дозвіл Bluetooth</string>
+    <string name="prefGpsBoostNoteSummary">Під час навігації оновлення про місцезнаходження завжди виконуватиметься з найвищою частотою</string>
+    <string name="freeLicenseTitle">Безкоштовна ліцензія</string>
+    <string name="pref_mapsFollowAutorotateMode_summary">Тримайте напрямок руху вгору</string>
+    <string name="prefNoSoundInsideFenceSummary">Не видавайте звуків, перебуваючи всередині огорожі, за винятком сигналізації.</string>
+    <string name="dialogMeterModesTitle">Виберіть доступні режими</string>
+    <string name="prefMeterSettingsNoteSummary">Більше налаштувань доступні через меню, доступ до якого здійснюється тривалим клацанням на полі лічильника.</string>
+    <string name="unitNewtonPerLb">Н/фунт</string>
+    <string name="navigationDestinationReached">Пункт призначення</string>
+    <string name="prefAutoTerrainNote1Summary">Під час використання пристрій слід тримати закріпленим на транспортному засобі (наприклад, на кермі велосипеда), а не в руці чи кишені.</string>
+    <string name="menuInsertSpeedo">Вставте спідометр</string>
+    <string name="pref_screensaverEnable_title">Заставка</string>
+    <string name="menuChooseFile">Файл</string>
+    <string name="menuSpeedoIndicatorMax">Показник макс</string>
+    <string name="infoAppUpdateAction">Перезапустіть</string>
+    <string name="prefScreensaverTimeoutEntries_7">2 хвилини</string>
+    <string name="speechNavigationGotOffRoute">Ви зійшли з маршруту</string>
+    <string name="menuSpeedoBellButton">Кнопка дзвінка</string>
+    <string name="menuMove">рухатися</string>
+    <string name="navigationAvoidMotorways">Уникайте автострад</string>
+    <string name="menuWiden">Розширити</string>
+    <string name="unitMphPerSec">миль/год/с</string>
+    <string name="menuInsertLeft">Ліворуч</string>
+    <string name="prefSteadyScreenNote1">Ця функція допомагає вам бачити екран трохи чіткіше під час руху по вибоїстій місцевості. Зображення на екрані стабілізується швидкими невеликими рухами, які намагаються нейтралізувати зовнішнє тремтіння.</string>
+    <string name="menuMeterShowIcon">значок</string>
+    <string name="speechNavigationContinue">Продовжити</string>
+    <string name="summaryInaccurateLocationZoneCountInfo">Скільки разів програма відхиляла оновлення місцезнаходження через їх неточність.
+\n
+\nЗауважте, що зони, де місцезнаходження взагалі не оновлюється (наприклад, у приміщенні), не впливають на це число.</string>
+    <string name="prefScreensaverTimeoutEntries_8">5 хвилин</string>
+    <string name="infoMeterModeVibrationsMsg">Вібрації, виміряні за допомогою пристрою. Корисно, коли пристрій тримається закріпленим на транспортному засобі (наприклад, на кермі велосипеда), а не в руці чи кишені.</string>
+    <string name="prefScreensaverTimeoutEntries_1">10 секунд</string>
+    <string name="dialogCustomTracksFolderInfoMessage">Ця функція дозволяє програмі читати треки з папки за вашим вибором на додаток до папки треків за замовчуванням, розташування якої нещодавно змінилося.
+\n
+\nТакі треки доступні лише для читання: їх можна переглядати та ділитися ними, але не можна редагувати, відновлювати чи видаляти.
+\n
+\nЯкщо ви не впевнені, спробуйте знайти папку «Documents-UrbanBiker-tracks» на наступному екрані.</string>
+    <string name="prefScreensaverDimBrightnessEntries_0">мінімум</string>
+    <string name="menuReset">Скинути</string>
+    <string name="toastScreensaverModeActive">Активний режим заставки</string>
+    <string name="prefScreensaverTimeoutEntries_2">15 секунд</string>
+    <string name="infoMeterModeVibrationsTitle">Вібрації</string>
+    <string name="dialogOfflineMapsFolderCopyMessage">Щоб використовувати вибраний вміст, його потрібно скопіювати в папку карт програми.
+\n
+\nЗробити це зараз\?</string>
+    <string name="navigationRouteTooLong">На жаль, цей пункт призначення надто далеко</string>
+    <string name="unitKmhPerSec">км/год</string>
+    <string name="summaryRollResistCoefAverage">Коефіцієнт опору перекату. середній</string>
+    <string name="pref_mapsFollowAutoZoomMode_summary">Налаштуйте масштаб карти залежно від поточної швидкості</string>
+    <string name="dialogLayoutsInfoMessage">Швидко змінюйте макет дисплея з набору попередньо визначених макетів.
+\n
+\nПотім утримуйте будь-яке поле, щоб налаштувати відображення за допомогою спливаючих меню.
+\n
+\nПортретна та альбомна орієнтації екрана мають абсолютно незалежні макети.</string>
+    <string name="infoContentSize">Розмір вмісту: %1$d Мб</string>
+    <string name="menuRemove">видалити</string>
+    <string name="pref_mapsLayerTraffic_summary">Показувати інформацію про дорожній рух у реальному часі</string>
+    <string name="menuShowTotals">Показати підсумки</string>
+    <string name="prefScreensaverTimeoutEntries_6">1 хвилина</string>
+    <string name="prefNoSoundInsideFenceTitle">Жодних звуків всередині огорожі</string>
+    <string name="menuBell">дзвоник</string>
+    <string name="menuInsertRight">правильно</string>
+    <string name="menuSpeedoScale">масштаб</string>
+    <string name="menuSelect">Виберіть</string>
+    <string name="menuLayout">Макет</string>
+    <string name="prefScreensaverTimeoutEntries_3">20 секунд (за замовчуванням)</string>
+    <string name="menuSpeedoAppearance">Зовнішній вигляд</string>
+    <string name="mapPlaceSearch">Куди\?</string>
+    <string name="prefSteadyScreenModeOn">Активний</string>
+    <string name="prefAutoTerrainSummary">Відчувайте нерівності рельєфу, вимірюючи вібрації, і відповідно регулюйте коефіцієнт опору коченню (Cᵣᵣ) під час обчислення потужності.</string>
+    <string name="pref_soundeffects_navigation_title">Навігація</string>
+    <string name="dialogLayoutChooseSubtitle">Виберіть макет дисплея</string>
+    <string name="pref_category_units_common_title">Одиниці вимірювання (всі профілі)</string>
+    <string name="toastLocationUnavailable">Ваше місцезнаходження все ще недоступне</string>
+    <string name="menuInsert">Вставка</string>
+    <string name="navigationHidePrompt">Сховати</string>
+    <string name="speechUnitTwoLitersOfGasoline">Літри бензину</string>
+    <string name="pref_group_activityRecognition_title">Розпізнавання діяльності</string>
+    <string name="menuSpeedoValue">Значення</string>
+    <string name="menuAdvanced">Просунутий</string>
+    <string name="pref_screensaverTimeout_title">Час вийшов</string>
+    <string name="prefScreensaverTimeoutEntries_5">45 секунд</string>
+    <string name="summaryInaccurateLocationZoneCount">Зони неточності</string>
+    <string name="navigationWrongWay">Неправильний шлях</string>
+    <string name="menuHideTotals">Приховати підсумки</string>
+    <string name="pref_gps_update_freq_entries_1">Адаптивний</string>
+    <string name="pref_screensaverDimBrightness_title">Приглушена яскравість</string>
+    <string name="tracksHistoryGrantAccess">Відсутні треки\?
+\nНатисніть тут, щоб надати доступ лише для читання до спеціальної папки треків…</string>
+    <string name="navigationStepsInfo">Інструкції з навігації з’являтимуться тут під час вашого руху. Сховайте або пересуньте цю панель за бажанням.</string>
+    <string name="licenseUpgradeTitle">Оновіть ліцензію</string>
+    <string name="freeLicenseLabel">безкоштовно</string>
+    <string name="pref_meterTitle">Метр</string>
+    <string name="navigationRouteNotFound">На жаль, маршрут до цього пункту призначення не знайдено</string>
+    <string name="unitGAccel">g</string>
+    <string name="dialogLicenseUpgradeMessage">Для цієї функції потрібна ліцензія на підписку.
+\n
+\nКрім того, ви можете переглянути коротке рекламне відео, щоб отримати безкоштовний кредит.</string>
+    <string name="prefOnlineMapsProviderTitle">Постачальник карт онлайн</string>
+    <string name="pref_category_units_per_profile_title">Одиниці вимірювання (на профіль)</string>
+    <string name="menuSpeedoDisplayMode">Режим відображення</string>
+    <string name="dialogOfflineMapsFolderCopyTitle">Копіювати в папку карт</string>
+    <string name="navigationGotOffRoute">Поза маршрутом</string>
 </resources>
