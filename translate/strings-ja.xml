@@ -1409,4 +1409,128 @@
     <string name="unitGAccel">g</string>
     <string name="pref_category_units_per_profile_title">計測単位 (プロファイルごと)</string>
     <string name="dialogOfflineMapsFolderCopyTitle">マップフォルダにコピー</string>
+    <string name="navigationStopPrompt">止まる</string>
+    <string name="infoSpeedometerTitle">スピードメーター</string>
+    <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ の範囲は 0 ～ 10% で、デフォルトは 1% です。 AutoTerrain 機能を使用する場合は、滑らかな地形 (下限) のベースライン値を想定してください。アプリは通常、起伏の多い地形では係数を増加させます。</string>
+    <string name="navigationAvoidIndoor">屋内は避ける</string>
+    <string name="pref_categoryTrackingButtonTitle">追跡ボタン</string>
+    <string name="pref_soundeffects_navigation_summary">ナビゲーション イベントのサウンド</string>
+    <string name="pref_speechNavigation_title">ナビゲーション</string>
+    <string name="menuAutomaticBell">自動ベル</string>
+    <string name="meterVerticalWeight">垂直重量</string>
+    <string name="speechUnitManyLitersOfGasoline">ガソリンのリットル</string>
+    <string name="prefSteadyScreenNote2">奇跡を期待しないでください。この機能がうまく機能しない場合は、単に無効にしてください。</string>
+    <string name="navigationAvoidFerries">フェリーを避ける</string>
+    <string name="toastSteadyScreenModeActive">SteadyScreen アクティブ</string>
+    <string name="menuSpeedoPaceIndicator">ペースインジケーター</string>
+    <string name="meterHorizontalWeight">水平重量</string>
+    <string name="prefSteadyScreenModeOff">オフ</string>
+    <string name="infoSpeedometerMsg">現在、最大、平均速度を表示します。
+\n
+\n失速インジケータは、速度値がしばらく更新されておらず、信頼できないことを示します。
+\n
+\nペース インジケーターは、現在の速度が平均速度を上回っているか下回っていることを示す、速度値の近くにある小さな矢印です。</string>
+    <string name="toastSteadyScreenModeIntelligentActive">SteadyScreen インテリジェント アクティブ</string>
+    <string name="speechUnitOneLiterOfGasoline">ガソリンのリットル</string>
+    <string name="prefSteadyScreenModeOnInfo">追跡中は SteadyScreen 機能を常に有効にします。これにより、より多くのバッテリーが消費される場合があります。</string>
+    <string name="pref_speechNavigation_summary">ナビを読み上げる</string>
+    <string name="navigationLoadingData">ルートを読み込んでいます…</string>
+    <string name="pref_soundeffects_tally_energy_title">エネルギー</string>
+    <string name="menuSpeedoStallIndicator">ストールインジケーター</string>
+    <string name="menuSelectOther">その他を選択</string>
+    <string name="speechEnergy">エネルギー: %1$s</string>
+    <string name="pref_mapsFollowMode_summary">現在地を中心に地図を維持する</string>
+    <string name="prefSteadyScreenModeAuto">インテリジェントアクティブ (デフォルト)</string>
+    <string name="mapMarkerClickInfo">オプションをクリック</string>
+    <string name="prefTrackingButtonModeTitle">代替行動</string>
+    <string name="dialogWeatherInfoMessage">レーダー データは 10 分ごとに更新されます。塗りつぶされたアイコンは新しいデータを示し、空のアイコンは更新が近いことを示します。
+\n
+\n黄色と赤色は降水量が多い地域を示しています。
+\n
+\n過去 1 時間のレーダー データをアニメーション化して、降水傾向を明らかにすることができます。</string>
+    <string name="navigationContinue">継続する</string>
+    <string name="summaryRollResistCoefAverageInfo">活動中に係数が変化した場合の平均転がり抵抗係数。</string>
+    <string name="navigationAvoidTolls">通行料を避ける</string>
+    <string name="prefScreensaverDimBrightnessEntries_4">そのまま放置</string>
+    <string name="menuNarrow">狭い</string>
+    <string name="toastSteadyScreenModeOff">ステディスクリーン無効</string>
+    <string name="dialogLicenseUpgradeButton2">プロモーションビデオを見る</string>
+    <string name="prefSteadyScreenTitle">画面安定化</string>
+    <string name="navigationLoadFromFilePrompt">インターネットから新しい経路を読み込んでいるときにエラーが発生しました。
+\n
+\n以前に使用したルート案内をファイルから読み込みますか\?</string>
+    <string name="prefSteadyScreenModeAutoInfo">追跡中はでこぼこした地形でのみ SteadyScreen 機能をアクティブにします。これは、快適さとバッテリー消費のバランスが取れています。</string>
+    <string name="menuNavigation">ナビゲート</string>
+    <string name="speechNavigationWrongWay">進入禁止</string>
+    <string name="prefTrackingButtonModeSummary">クリックまたはロングクリックで一時停止、別のボタンで停止します。</string>
+    <string name="pref_mapsWeatherCoverage_summary">降水レーダーが届かない日陰</string>
+    <string name="speechNavigationDestinationReached">目的地に到着しました</string>
+    <string name="prefSteadyScreenModeOffInfo">SteadyScreen 機能を有効にしない</string>
+    <string name="prefAutoTerrainTitle">自動地形</string>
+    <string name="pref_soundeffects_tally_energy_dialog_title">エネルギー集計</string>
+    <string name="dialogBluetoothPermissionRequestTitle">Bluetooth の許可</string>
+    <string name="prefGpsBoostNoteSummary">位置情報の更新は、ナビゲーション中は常に最高の頻度に強制されます</string>
+    <string name="pref_mapsFollowAutorotateMode_summary">進行方向を上向きに保つ</string>
+    <string name="prefNoSoundInsideFenceSummary">フェンス内ではアラーム以外の音を出さないでください。</string>
+    <string name="dialogMeterModesTitle">利用可能なモードを選択</string>
+    <string name="navigationDestinationReached">行き先</string>
+    <string name="prefAutoTerrainNote1Summary">デバイスは、使用中は手やポケットに入れてではなく、車両 (自転車のハンドルバーなど) に固定して保持する必要があります。</string>
+    <string name="menuSpeedoIndicatorMax">インジケータ最大</string>
+    <string name="speechNavigationGotOffRoute">ルートから外れました</string>
+    <string name="menuSpeedoBellButton">ベルボタン</string>
+    <string name="menuMove">動く</string>
+    <string name="navigationAvoidMotorways">高速道路を避ける</string>
+    <string name="menuWiden">広げる</string>
+    <string name="unitMphPerSec">時速/秒</string>
+    <string name="prefSteadyScreenNote1">この機能により、でこぼこした地形を運転しているときに、画面がもう少しはっきりと見えるようになります。画面上の画像は、外部の揺れを打ち消そうとする小さな動きをすばやく適用することで安定します。</string>
+    <string name="speechNavigationContinue">継続する</string>
+    <string name="pref_mapsWeatherCoverage_title">カバレッジマスク</string>
+    <string name="summaryInaccurateLocationZoneCountInfo">不正確な位置情報の更新をアプリが拒否し始めた回数。
+\n
+\n位置情報がまったく更新されないエリア (屋内など) は、この数値に影響しないことに注意してください。</string>
+    <string name="infoMeterModeVibrationsMsg">デバイスで測定された振動。デバイスを手やポケットではなく、車両 (自転車のハンドルバーなど) に固定して保持する場合に便利です。</string>
+    <string name="dialogCustomTracksFolderInfoMessage">この機能を使用すると、アプリはデフォルトのトラック フォルダー (場所が最近変更された) に加えて、選択したフォルダーからトラックを読み取ることができます。
+\n
+\nこのようなトラックは読み取り専用です。表示および共有はできますが、編集、再開、または削除することはできません。
+\n
+\nよくわからない場合は、次の画面で「Documents-UrbanBiker-tracks」フォルダーを探してみてください。</string>
+    <string name="toastScreensaverModeActive">スクリーンセーバー モードがアクティブです</string>
+    <string name="dialogOfflineMapsFolderCopyMessage">選択したコンテンツを使用するには、アプリ固有のマップ フォルダーにコピーする必要があります。
+\n
+\n今すぐこれを行いますか？</string>
+    <string name="navigationRouteTooLong">申し訳ありませんが、この目的地は遠すぎます</string>
+    <string name="unitKmhPerSec">時速/秒</string>
+    <string name="pref_mapsFollowAutoZoomMode_summary">現在の速度に基づいてマップのズーム レベルを調整する</string>
+    <string name="dialogLayoutsInfoMessage">あらかじめ定義された一連のレイアウトから表示レイアウトをすばやく変更します。
+\n
+\n次に、任意のフィールドを長押しして、ポップアップ メニューから表示をさらにカスタマイズします。
+\n
+\n縦向きと横向きの画面の向きには、完全に独立したレイアウトがあります。</string>
+    <string name="pref_mapsLayerTraffic_summary">リアルタイムの交通情報を表示</string>
+    <string name="menuShowTotals">合計を表示</string>
+    <string name="prefNoSoundInsideFenceTitle">フェンス内は無音</string>
+    <string name="mapPlaceSearch">どこへ？</string>
+    <string name="prefSteadyScreenModeOn">アクティブ</string>
+    <string name="prefAutoTerrainSummary">振動を測定して地形の粗さを感知し、それに応じて転がり抵抗係数 (Cᵣᵣ) を調整してパワーを計算します。</string>
+    <string name="pref_soundeffects_navigation_title">ナビゲーション</string>
+    <string name="toastLocationUnavailable">あなたの場所はまだ利用できません</string>
+    <string name="navigationHidePrompt">隠れる</string>
+    <string name="speechUnitTwoLitersOfGasoline">ガソリンのリットル</string>
+    <string name="menuAdvanced">高度</string>
+    <string name="summaryInaccurateLocationZoneCount">不正確なゾーン</string>
+    <string name="navigationWrongWay">進入禁止</string>
+    <string name="menuHideTotals">合計を非表示</string>
+    <string name="pref_gps_update_freq_entries_1">アダプティブ</string>
+    <string name="tracksHistoryGrantAccess">トラックがありませんか？
+\nカスタム トラック フォルダへの読み取り専用アクセスを許可するには、ここをクリックしてください…</string>
+    <string name="navigationStepsInfo">移動すると、ナビゲーションの指示がここに表示されます。 必要に応じて、このパネルを非表示またはスライドします。</string>
+    <string name="licenseUpgradeTitle">ライセンスをアップグレードする</string>
+    <string name="prefAppVisualThemeDialogTitle">アプリのビジュアルテーマ</string>
+    <string name="pref_meterTitle">メートル</string>
+    <string name="navigationRouteNotFound">その目的地へのルートは見つかりませんでした</string>
+    <string name="dialogLicenseUpgradeMessage">この機能にはサブスクリプション ライセンスが必要です。
+\n
+\nまたは、短いプロモーション ビデオを視聴して無料のクレジットを獲得することもできます。</string>
+    <string name="prefOnlineMapsProviderTitle">オンライン マップ プロバイダー</string>
+    <string name="navigationGotOffRoute">オフルート</string>
 </resources>
