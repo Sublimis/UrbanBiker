@@ -343,7 +343,7 @@
     <string name="pref_category_hud_title">HUD</string>
     <string name="pref_category_back_key_title">Takaisin-painikkeen toiminta</string>
     <string name="pref_category_app_features_title">Sovelluksen ominaisuudet</string>
-    <string name="pref_category_wakelock_title"/>
+    <string name="pref_category_wakelock_title">Prosessorin lepotilakäytäntö</string>
     <string name="pref_group_flashlight_title">Taskulamppu</string>
     <string name="pref_category_flashlightAutoPocketMode_title">Taskutila</string>
     <string name="pref_category_temperature_title">Lämpötila</string>
@@ -929,4 +929,593 @@
 \n❌ Navigointi
 \n❌ Ei mainoksia
 \n✔️ Kaikki ilmaiset ominaisuudet ja kartat</string>
+    <string name="pref_gps_boost_modes_0">Kartta näytetään (oletus)</string>
+    <string name="speechRadius">Säde: %1$s</string>
+    <string name="pref_screenWaveDim_title">Himmeä näyttö</string>
+    <string name="pref_maps_routes_info_summary">Opasreitti on yksinkertaisesti kartan päälle piirretty viiva, jota voit seurata. Käytä Navigointiominaisuutta saadaksesi vaiheittaiset ohjeet.</string>
+    <string name="dialogCloudAccountDisconnectMessage">Katkaistaan tämän tilin yhteys\?</string>
+    <string name="infoMeterModeHumidityMsg">Ympäristön suhteellinen kosteus mitattuna laitteella tai ulkoisella anturilla.</string>
+    <string name="sensorProperitesUseForTemperature">Käytä lämpötilaan</string>
+    <string name="dialogLayoutEmptyInfoMessage">Asettelussa tulee olla vähintään yksi metri.</string>
+    <string name="pref_autopause_modes_1">rento</string>
+    <string name="navigationStopPrompt">Lopettaa</string>
+    <string name="pref_category_maps_track_title">Rataviiva</string>
+    <string name="pref_categoryPrivacyTitle">Yksityisyys</string>
+    <string name="infoSpeedometerTitle">Nopeusmittari</string>
+    <string name="meterModeFTPowerShort">ftp</string>
+    <string name="prefMapDiskCacheAgeEntries_7">90 päivää</string>
+    <string name="pref_power_weights_title">Painot</string>
+    <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ vaihtelee välillä 0 - 10%, oletusarvo on 1%. Jos käytät AutoTerrain-ominaisuutta, oleta tasaisen maaston perusarvo (alaraja), koska sovellus yleensä lisää kerrointa epätasaisessa maastossa.</string>
+    <string name="navigationAvoidIndoor">Vältä sisätiloissa</string>
+    <string name="pref_categoryTrackingButtonTitle">Seurantapainike</string>
+    <string name="sensorProperitesIsAutoStrideLenInfo">Tämä suorittaa automaattiset askelpituuden mittaukset juoksun tai nopeuskävelyn aikana.</string>
+    <string name="pref_speedo_display_mode_dialog_title">Speedon ulkonäkö</string>
+    <string name="infoMeterModeAltitudeMsg">Korkeus keskimääräisen merenpinnan yläpuolella (geoidi).</string>
+    <string name="meterModeStepCount">askeleet</string>
+    <string name="speechTrackingStart">alkaa</string>
+    <string name="pref_soundeffects_navigation_summary">Ääni navigointitapahtumissa</string>
+    <string name="menuInsertAbove">Edellä</string>
+    <string name="sensorProperitesUseForHumidity">Käytä kosteudelle</string>
+    <string name="prefScreensaverDimBrightnessEntries_2">⅓ nykyisestä kirkkaudesta (oletus)</string>
+    <string name="pref_speechNavigation_title">Navigointi</string>
+    <string name="menuProperties">Ominaisuudet…</string>
+    <string name="sensorFilterInterval_2">7 sekuntia</string>
+    <string name="pref_autopause_modes_explanation_1">Hylkää vain yli 5 minuutin taukoja</string>
+    <string name="sensorFilterInterval_1">5 sekuntia</string>
+    <string name="dialog_volume_tallies_text">Tallies</string>
+    <string name="pref_categoryActivityRecognitionTitle">Fyysisen toiminnan tunnistus</string>
+    <string name="pref_power_weights_summary">Kuljettaja: %1$s, Ajoneuvo: %2$s, Rahti: %3$s, Matkustajat: %4$s, Pyörät: %5$s</string>
+    <string name="infoMeterModeEfficacyTitle">Teho (kumulatiivinen)</string>
+    <string name="infoMeterModeVerticalSpeedMsg">Nopeus ylös (positiivinen) tai alas (negatiivinen) pystysuunnassa.</string>
+    <string name="pref_roaring_state_title">AVAS</string>
+    <string name="menuMeterClockShowSeconds">Näytä sekuntia</string>
+    <string name="pref_obey_audio_focus_disable_summary">Jatka äänen tuottamista, vaikka äänen tarkennus katoaisi (järjestelmän ilmoituksen tai muun sovelluksen vuoksi)</string>
+    <string name="prefBarometricAltitudeDisableAlert">Poistetaanko barometrinen korkeus käytöstä\?</string>
+    <string name="menuScreenshot">Kuvakaappaus</string>
+    <string name="infoMeterModeAltitudeTitle">Korkeus</string>
+    <string name="speechAscent">Kiipeä: %1$s</string>
+    <string name="menuAutomaticBell">Automaattinen kello</string>
+    <string name="meterVerticalWeight">Pystysuuntainen paino</string>
+    <string name="pref_soundeffects_tally_altitude_title">Korkeus</string>
+    <string name="speechUnitTwoFeets">Jalat</string>
+    <string name="speechUnitManyLitersOfGasoline">Litraa bensiiniä</string>
+    <string name="speechTrackingGpsOk">GPS OK</string>
+    <string name="prefMapDiskCacheAgeEntries_5">45 päivää</string>
+    <string name="mapLayerStreet">Street</string>
+    <string name="prefSteadyScreenNote2">Älä odota ihmeitä. Jos tämä ominaisuus ei toimi hyvin, poista se käytöstä.</string>
+    <string name="summaryRollResistCoef">Kiinnitysvastuskerroin.</string>
+    <string name="pref_screenWaveDim_summary">Näyttö on myös himmennetty akun säästämiseksi</string>
+    <string name="prefScreenPocketModeDelayEntries_4">0,40 sekuntia</string>
+    <string name="navigationAvoidFerries">Vältä lauttoja</string>
+    <string name="toastSteadyScreenModeActive">SteadyScreen aktiivinen</string>
+    <string name="summaryStoppedTimeInfo">Keskeytykseen käytetty aika, joko manuaalisesti tai automaattisen tauon käytön aikana.</string>
+    <string name="dialogLayoutChooseTitle">Layout</string>
+    <string name="menuSpeedoPaceIndicator">Tahdin osoitin</string>
+    <string name="pref_screensaverDimBrightnessDialogTitle">Näytönsäästäjä himmeä kirkkaus</string>
+    <string name="dialogActivityRecognitionPermissionRequest">Lupa tarvitaan, jotta sovellus voi käyttää sisäänrakennettua Step Detector -anturia ja suorittaa muita hyödyllisiä toimintoja, kun liikettä havaitaan.</string>
+    <string name="meterHorizontalWeight">Vaakasuora paino</string>
+    <string name="summaryDragging">Raahata</string>
+    <string name="sensorProperitesUseForPressure">Käytä paineeseen</string>
+    <string name="meterModes_18">Kadenssi</string>
+    <string name="prefSteadyScreenModeOff">Vinossa</string>
+    <string name="meterModes_0">Kesto</string>
+    <string name="pref_maps_routes_draw_summary">Piirrä valitut GPX-reitit kartan päälle</string>
+    <string name="infoSpeedometerMsg">Näyttää nykyisen, suurimman ja keskimääräisen nopeuden.
+\n
+\nJumisosoitin osoittaa, kun nopeusarvoa ei ole päivitetty vähään aikaan eikä siihen voi luottaa.
+\n
+\nTahdin ilmaisin ovat pieniä nuolia lähellä nopeusarvoa, jotka osoittavat, milloin nykyinen nopeus on keskinopeuden ylä- tai alapuolella.</string>
+    <string name="pref_autopause_modes_0">Reaaliaikainen (oletus)</string>
+    <string name="toastSteadyScreenModeIntelligentActive">SteadyScreen älykäs aktiivinen</string>
+    <string name="prefAppVisualThemeEntries_1">Kevyt</string>
+    <string name="pref_screensaverTimeout_summary">Aikajakso ilman käyttäjän toimia, kunnes näytönsäästäjä on aktivoitu.</string>
+    <string name="infoMeterModeAccelerationMsg">Nopeuden muutosnopeus ajassa.
+\n
+\nNegatiivinen tarkoittaa hidastuvuutta.</string>
+    <string name="prefScreensaverTimeoutEntries_4">30 sekuntia</string>
+    <string name="menuInsertMeter">Aseta mittari</string>
+    <string name="prefAutoTerrainNote2Summary">Tämä ominaisuus ei vaikuta tehoanturin avulla saatuihin tehoihin.</string>
+    <string name="infoMeterModePaceTitle">Vauhti</string>
+    <string name="menuMeterShowValue">Arvo</string>
+    <string name="pref_autopause_modes_explanation_2">Säilytä kaikki tauot (ellei keskeytetä manuaalisesti)</string>
+    <string name="dialogRevokeAccessPromptMessage">Perutaanko käyttöoikeus\?</string>
+    <string name="menuSpeedo">Nopeusmittari</string>
+    <string name="speechUnitOneLiterOfGasoline">Litra bensaa</string>
+    <string name="pref_roaring_mode_entries_0">Automaattinen nopeus ja äänenvoimakkuus</string>
+    <string name="pref_obey_audio_focus_disable_title">Poista äänen tarkennus käytöstä</string>
+    <string name="pref_wakelock_modes_3">Vinossa</string>
+    <string name="infoMeterModeFuncThresholdPowerMsg">Arvioitu enimmäisteho, joka voidaan ylläpitää pidempiä aikoja.
+\n
+\nArvio riippuu suuresti tämän toiminnan tyypistä ja kestosta.</string>
+    <string name="pref_powermeter_display_mode_dialog_title">Virran näyttötila</string>
+    <string name="prefSteadyScreenModeOnInfo">Pidä SteadyScreen-ominaisuus aina aktiivisena seurannan aikana. Tämä voi kuluttaa enemmän akkua.</string>
+    <string name="summaryVibrations">Tärinä</string>
+    <string name="summaryVehicleWeightInfo">Tämän kappaleen tallennuksen aikana käytetyn ajoneuvon paino.</string>
+    <string name="unitNewtonPerKg">N/kg</string>
+    <string name="disclaimerText1">Tämä sovellus tarjotaan sellaisenaan, ja käytät sitä omalla vastuullasi. Me, julkaisija, emme ole vastuussa mistään onnettomuudesta, hallussapidon menetyksestä, vammasta tai pahempaa, joka koskee sinua tai kolmatta henkilöä ja jotka johtuvat sovelluksen käytöstä ajon aikana tai muuten.</string>
+    <string name="menuRevokeAccess">Peruuta käyttöoikeus</string>
+    <string name="meterModes_11">Vert. tehoa</string>
+    <string name="pref_speechNavigation_summary">Puhu navigointi</string>
+    <string name="menuSpeedoNeedle">Neula</string>
+    <string name="prefBaroAltitudeUsesTemperatureTitle">Lämpöbarometri</string>
+    <string name="pref_category_altitude_adjustments_title">Korkeudet</string>
+    <string name="pref_speechGnssStatus_title">GPS</string>
+    <string name="menuMeterShowChart">Kartoittaa</string>
+    <string name="pref_speechToasts_title">Lyhyet muistiinpanot</string>
+    <string name="speechUnitOneMile">Mailia</string>
+    <string name="sensorProperitesIsInvertedInfo">Käytä poljinnopeusanturia nopeuslukemien saamiseksi tai päinvastoin. Normaalisti pois käytöstä.</string>
+    <string name="pref_gps_boost_modes_explanation_0">Pakota GPS-päivitykset usein, kun kartta on näkyvissä</string>
+    <string name="prefUnitsPowerEntries_1">[HP]</string>
+    <string name="navigationLoadingData">Ladataan reittiohjeita…</string>
+    <string name="summaryVehicleWeight">Ajoneuvon paino</string>
+    <string name="pref_soundeffects_tally_energy_title">Energiaa</string>
+    <string name="menuSpeedoStallIndicator">Juoksen ilmaisin</string>
+    <string name="meterModePace">vauhti</string>
+    <string name="pref_powermeter_display_mode_entries_0">Kokonaisteho</string>
+    <string name="prefUnitsPowerEntries_3">[kJ/h]</string>
+    <string name="pref_units_weight_entries_1">Keisarillinen [lb]</string>
+    <string name="speechTrackingStop">Lopettaa</string>
+    <string name="sensorPurposeHumidity">Kosteus</string>
+    <string name="infoMeterModeFuncThresholdPowerTitle">Toiminnallinen kynnysteho</string>
+    <string name="pref_passive_gps_button_title">Passiivinen GPS-painiketila</string>
+    <string name="speechPromptTrackingResume">Jatka vai lopeta\?</string>
+    <string name="menuMeterShowSubValues">Aliarvot</string>
+    <string name="menuSelectOther">Valitse muu</string>
+    <string name="pref_units_distance_entries_1">Imperial [ft, mi]</string>
+    <string name="controlPanelMapHideButtonSubtitle">Napsauta piilottaaksesi kartan</string>
+    <string name="summaryDriverWeight">Kuljettajan paino</string>
+    <string name="infoMeterModeDescentMsg">Kumulatiivinen korkeuden menetys (pudotus).</string>
+    <string name="prefMapDiskCacheAgeTitle">Karttavälimuistin ikäraja</string>
+    <string name="summaryDeviceNameInfo">Tämän raidan tallentamiseen käytetty laite.</string>
+    <string name="pref_locationProvider_modes_explanation_1">(Kaikki profiilit) Käytä Fused-palveluntarjoajaa Google Play Palveluista, jos saatavilla. Teoriassa tämä voi joskus tarjota nopeammat ja tarkemmat sijainnit.</string>
+    <string name="sensorPurposeTemperature">Lämpötila</string>
+    <string name="speechEnergy">Energia: %1$s</string>
+    <string name="meterModes_20">Välityssuhde</string>
+    <string name="prefBarometricAltitudeTitle">Barometrinen korkeus</string>
+    <string name="toastSharingNoGpxError">Virhe, raidalla ei ole GPX-tiedostoa</string>
+    <string name="pref_mapsFollowMode_summary">Pidä kartta keskitettynä nykyiseen sijaintiisi</string>
+    <string name="dialogMapsShowRoutes">Opas reitit</string>
+    <string name="speechClock">Kello: %1$s</string>
+    <string name="controlPanelSoundTallies">Tallies</string>
+    <string name="pref_mapsShowAttribution_summary">Näytä attribuutioteksti muille verkkokartoille kuin Googlelle. Poista käytöstä estääksesi linkin tahattoman napsautuksen.</string>
+    <string name="prefScreensaverDimBrightnessEntries_1">⅕ nykyisestä kirkkaudesta</string>
+    <string name="summaryAccelerating">Kiihdytä</string>
+    <string name="toastRoarButtonClickInfo">Napsauta pitkään vaihtaaksesi AVAS-ääntä</string>
+    <string name="summaryLocationIntervalInfo">Keskimääräinen aikaväli kahden sijaintipäivityksen välillä tällä kappaleella.</string>
+    <string name="meterModes_22">Kiemurrella</string>
+    <string name="infoMeterModeCadenceMsg">Kammen kierrosten lukumäärä minuutissa, eli poljinnopeus.</string>
+    <string name="infoAppUpdateMessage">Päivitys on valmis.</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_summary">Näytä sadetutkakerros</string>
+    <string name="hereMapsFeatures">✔️ TÄSTÄ premium-kartat
+\n✔️ Navigointi
+\n✔️ Ei mainoksia
+\n✔️ Kaikki ilmaiset ominaisuudet ja kartat</string>
+    <string name="prefActivityRecognitionNoteSummary">Nämä vaihtoehdot perustuvat Androidin fyysisen aktiivisuuden tunnistusominaisuuteen. Se ei ehkä ole tarkka ja voi olla viivästynyt, käytä vain, jos olet hyväksynyt sen. Toimii parhaiten, kun nopeusanturia käytetään etäisyyden ja keston mittaamiseen.</string>
+    <string name="prefScreensaverDimBrightnessEntries_3">½ nykyisestä kirkkaudesta</string>
+    <string name="infoMeterModePaceMsg">Käänteinen nopeus eli etäisyysyksikköä kohti kulunut aika.</string>
+    <string name="meterModeFTPower">ft pwr</string>
+    <string name="pref_soundeffects_autopause_summary">Ääni automaattisessa tauko- ja jatkamistunnistuksessa</string>
+    <string name="prefScreenPocketModeDelayEntries_0">Ei viivettä (oletus)</string>
+    <string name="pref_wakelock_modes_explanation_0">Päätä automaattisesti GPS-päivitysvälin ja muiden tekijöiden perusteella</string>
+    <string name="infoMeterModeRadiusMsg">Beeline-etäisyys raidan alkupisteestä, eli siirtymä.</string>
+    <string name="prefSteadyScreenModeAuto">Älykäs aktiivinen (oletus)</string>
+    <string name="mapMarkerClickInfo">Napsauta nähdäksesi vaihtoehdot</string>
+    <string name="pref_roarConstantModeButton_summary">Vaihda vakiotila painikkeen napsautuksella, kun AVAS on päällä</string>
+    <string name="pref_units_altitude_entries_1">Keisarillinen [ft]</string>
+    <string name="infoMeterModeKineticEnergyMsg">Korkeus maanpinnan yläpuolella, jossa potentiaalinen energiasi vastaa nykyistä kineettistä energiaasi.
+\n
+\nToisin sanoen nopeutesi on sama kuin nopeus, joka sinulla olisi pudottuasi tältä korkeudelta (ilmanvastusta huomioimatta).
+\n
+\nSamoin se on korkeus, jonka saavuttaisit menemällä suoraan ylöspäin käyttämällä vain kineettistä energiasisältöäsi.</string>
+    <string name="cloudAccountsPowerUploadPolicyTitle">Tehotietojen latauskäytäntö</string>
+    <string name="dialogBluetoothPermissionRequest">Lupa tarvitaan, jotta sovellus voi löytää langattomia antureita ja muodostaa yhteyden niihin.</string>
+    <string name="pref_speechCountdown_summary">Puhu lähtölaskenta</string>
+    <string name="summaryDragArea">Vedä alue</string>
+    <string name="prefAppVisualThemeEntries_0">Järjestelmän oletusarvo</string>
+    <string name="sensorProperitesUseForSteps">Käytä askellaskennassa ja poljinnopeudessa</string>
+    <string name="summaryClimbingEnergyInfo">Prosenttiosuus energiasta, joka käytettiin painovoiman voittamiseksi.</string>
+    <string name="sensorProperitesNoAlarm">Älä hälytä</string>
+    <string name="prefGnssActivityRecognitionSummary">Tunnista paikallaan seisominen vs. liikkuminen GPS:lle. Saattaa aiheuttaa viiveitä ja jonkin verran menetettyä etäisyyttä tauon jälkeen, mutta estää useimmat GPS-kohinat.</string>
+    <string name="prefTrackingButtonModeTitle">Vaihtoehtoinen käyttäytyminen</string>
+    <string name="sensorProperitesSpeedTriggers">Nopeus laukaisee</string>
+    <string name="pref_category_locationProvider_title">GPS-palveluntarjoaja</string>
+    <string name="dialogLayoutChoosePrompt">Nykyinen asettelu korvataan.
+\n
+\nOtetaanko valittu asettelu käyttöön\?</string>
+    <string name="pref_speed_calculate_mode_summary">(Kaikki profiilit) Laske nopeus uudelleen etäisyyksistä, älä käytä GPS-arvoa suoraan. Tämä voi tarjota vakaammat nopeuslukemat GPS (Doppler) -arvoihin verrattuna. Oletusasetus on OFF.</string>
+    <string name="pref_speechAutoPause_summary">Puhu automaattisesta tauko- ja jatkamistunnistuksesta</string>
+    <string name="maptilerMapsFeatures">✔️ MapTiler premium-kartat
+\n✔️ Navigointi
+\n✔️ Ei mainoksia
+\n✔️ Kaikki ilmaiset ominaisuudet ja kartat</string>
+    <string name="dialogWeatherInfoMessage">Tutkatiedot päivitetään 10 minuutin välein. Täytetty kuvake tarkoittaa tuoretta dataa, tyhjä kuvake tarkoittaa, että päivitys on lähellä.
+\n
+\nKeltainen ja punainen värit osoittavat alueita, joissa on enemmän sadetta.
+\n
+\nViimeisen tunnin tutkatiedot voidaan animoida sademäärän trendien paljastamiseksi.</string>
+    <string name="dialogLoginUsernameHint">Käyttäjätunnus</string>
+    <string name="dialogCopyingMessage">Kopioidaan…</string>
+    <string name="navigationContinue">Jatkaa</string>
+    <string name="summaryRollResistCoefAverageInfo">Keskimääräinen vierintävastuskerroin, jos kerroin muuttui toiminnan aikana.</string>
+    <string name="dialogOfflineMapsChooseMessage">Karttatiedostoa ei löydy tai se ei ole käytettävissä. Valitaanko jokin muu karttatiedosto/kansio nyt\?</string>
+    <string name="disclaimerText3">Pidä silmäsi aina tiellä.</string>
+    <string name="meterModes_8">Tehokkuus</string>
+    <string name="pref_soundeffects_tally_distance_dialog_title">Etäisyyden laskelma</string>
+    <string name="navigationAvoidTolls">Vältä tietulleja</string>
+    <string name="prefScreensaverDimBrightnessEntries_4">Jätä sellaisenaan</string>
+    <string name="meterModeWriggle">kiemurrella</string>
+    <string name="infoMeterModePowerMsg">Teho, joka kohdistuu toiminnan aikana, johtuen vetovoimista, korkeuden muutoksista jne.
+\n
+\nNegatiivinen tarkoittaa tehonlisäystä, esim. alamäkeen tai jarrutettaessa.
+\n
+\nKcal/h tai kJ/h se ottaa huomioon myös tehokkuuden ja BMR:n.</string>
+    <string name="prefScreensaverTimeoutEntries_0">5 sekuntia</string>
+    <string name="powerSourceWeight_3">Kuljettaja + ajoneuvo</string>
+    <string name="dialogLoginPasswordHint">Salasana</string>
+    <string name="menuChooseFolder">Kansio</string>
+    <string name="menuNarrow">Kapea</string>
+    <string name="speechTrackingPause">Tauko</string>
+    <string name="toastSteadyScreenModeOff">SteadyScreen pois käytöstä</string>
+    <string name="prefTemperatureSensorDerivedSummary">Tässä laitteessa ei ole ympäristön lämpötila-anturia, mutta karkeat arvot voidaan johtaa käyttämällä muita sisäisiä antureita (kuten CPU-lämpötila).</string>
+    <string name="dialogLicenseUpgradeButton2">Katso promovideo</string>
+    <string name="speechTrackingResume">Mennä</string>
+    <string name="summaryDeviceRestartsCountInfo">Kuinka monta kertaa sovellus pakkosuljettiin tai laite lakkasi toimimasta tämän toiminnon aikana.</string>
+    <string name="speechUnitManyMeters">Metriä</string>
+    <string name="prefBarometricAltitudeNoteSummary">Käytä näitä vain avoimessa ilmapiirissä! Poista käytöstä ollessasi paineistetuissa, suljetuissa tai ilmastoiduissa ajoneuvoissa, kuten autoissa tai lentokoneissa!</string>
+    <string name="prefSteadyScreenTitle">Näytön stabilointi</string>
+    <string name="navigationLoadFromFilePrompt">Tapahtui virhe ladattaessa uusia reittiohjeita Internetistä.
+\n
+\nHaluatko ladata aiemmin käytetyt reittiohjeet tiedostosta\?</string>
+    <string name="summaryBasalMetabolicRateInfo">Perusaineenvaihduntanopeus (BMR).</string>
+    <string name="pref_speechToasts_summary">Puhu erilaisia lyhyitä tiedotteita</string>
+    <string name="prefSteadyScreenModeAutoInfo">Aktivoi SteadyScreen-ominaisuus vain kuoppaisessa maastossa seurannan aikana. Tämä on hyvä tasapaino mukavuuden ja akun käytön välillä.</string>
+    <string name="pref_roaring_type_entries_0">Freehub</string>
+    <string name="sensorProperitesUseForDuration">Käytä keston ajan</string>
+    <string name="menuNavigation">Navigoida</string>
+    <string name="menuCustomTracksFolder">Mukautettu kappalekansio</string>
+    <string name="buttonLater">Myöhemmin</string>
+    <string name="speechNavigationWrongWay">Väärällä tavalla</string>
+    <string name="dialogLayoutsInfoTitle">Asettelut</string>
+    <string name="pref_wakelock_modes_1">Täysin hereillä</string>
+    <string name="prefTrackingButtonModeSummary">Napsauta tai paina pitkään pysäyttääksesi, erillinen painike Pysäytä.</string>
+    <string name="controlPanelScreenshotButtonTitle">Kuvakaappaus</string>
+    <string name="prefAppVisualThemeEntries_2">Tumma</string>
+    <string name="prefPressureSensorOffsetInfo">Tämä vakio lisätään painelukemiin, ja sitä voidaan käyttää anturin poikkeaman lieventämiseen, jos se on olemassa.</string>
+    <string name="menuInsertBelow">Alla</string>
+    <string name="pref_screenWaveOnOffMode_summary">Sovellus lukitsee näytön heiluttamalla kahdesti sen edessä. Avaa lukitus heiluttamalla uudelleen.</string>
+    <string name="prefMapDiskCacheAgeEntries_6">60 päivää</string>
+    <string name="sensorFilterInterval_3">10 sekuntia</string>
+    <string name="pref_category_gps_boost_title">GPS-päivitykset tehostavat käytäntöä</string>
+    <string name="infoDigitalFilterNotice">Huomaa: Tämä voi viivästyä reaaliajasta noin minuutin väistämättömien digitaalisten suodatusviiveiden vuoksi.</string>
+    <string name="speechUnitOneMinute">Minuutti</string>
+    <string name="menuMeter">Mittari</string>
+    <string name="meterModes_29">FT teho</string>
+    <string name="sensorProperitesActivityRecognition">Fyysisen toiminnan tunnistus</string>
+    <string name="prefMapDiskCacheAgeEntries_0">1 päivä</string>
+    <string name="pref_text_automatic">Automaattinen</string>
+    <string name="meterModeStepCadence">askelnopeus</string>
+    <string name="dialogLayoutEmptyInfoTitle">Layout</string>
+    <string name="dialogOfflineMapsChooseTitle">Offline-karttojen ongelma</string>
+    <string name="pref_mapsWeatherCoverage_summary">Varjoa alueita, joilla ei ole sadetutkan peittoa</string>
+    <string name="pref_screenAutoPocketModeDelay_summary">Tämä viivästyttää näytön sammuttamista, kun läheisyysanturi on aktivoitu</string>
+    <string name="pref_soundeffects_tally_ascent_dialog_title">Nousulasku</string>
+    <string name="infoMeterModeWriggleTitle">Kiemurrella</string>
+    <string name="prefAppVisualThemeSummary">(Kaikki profiilit)</string>
+    <string name="prefMapDiskCacheAgeEntries_2">10 päivää (oletus)</string>
+    <string name="prefScreenPocketModeDelayEntries_3">0,30 sekuntia</string>
+    <string name="summaryRollingEnergyInfo">Prosenttiosuus energiasta, joka käytettiin vierintävastuksen voittamiseksi.</string>
+    <string name="speechNavigationDestinationReached">Olet saavuttanut määränpään</string>
+    <string name="menuSendDebugFeedback">Ilmoita ongelma</string>
+    <string name="prefSteadyScreenModeOffInfo">Älä koskaan aktivoi SteadyScreen-ominaisuutta</string>
+    <string name="pref_soundeffects_tally_altitude_dialog_title">Korkeuslasku</string>
+    <string name="sensorPurposePressure">Paine</string>
+    <string name="pref_speechTallies_title">Tallies</string>
+    <string name="dialogMapsChooseTitle">Valitse kartta</string>
+    <string name="prefAutoTerrainTitle">AutoTerrain</string>
+    <string name="pref_category_tallies_title">Tallies</string>
+    <string name="pref_soundeffects_tally_radius_dialog_title">Säteen yhteenveto</string>
+    <string name="speechUnitTwoMiles">Mailia</string>
+    <string name="prefGnssActivityRecognitionTitle">Vähennä GPS-kohinaa</string>
+    <string name="prefBaroAltitudeUsesTemperatureSummary">Käytä lämpötila-anturin tietoja tarkempiin barometrisiin korkeuksiin, jos niitä on saatavilla</string>
+    <string name="prefGnssAutomaticSleepSummary">Sammuta sijainti automaattisesti ollessasi paikallaan ja takaisin päälle, kun liike alkaa. Tämä vähentää akun käyttöä pidemmillä tauoilla ilman, että seurantaa tarvitsee pysäyttää.</string>
+    <string name="pref_screensaverEnable_summary">Himmentää näyttöä aikakatkaisun jälkeen säästääksesi akkua. Avaa lukitus koskettamalla näyttöä.</string>
+    <string name="meterModeRadiusShort">rad</string>
+    <string name="pref_soundeffects_tally_energy_dialog_title">Energialasku</string>
+    <string name="prefMapDiskCacheAgeEntries_1">5 päivää</string>
+    <string name="pref_duck_roaring_on_bell_title">Ankka AVAS kellorenkaassa</string>
+    <string name="dialogBluetoothPermissionRequestTitle">Bluetooth-lupa</string>
+    <string name="prefGpsBoostNoteSummary">Sijaintipäivitykset pakotetaan aina korkeimmalle taajuudelle navigoinnin aikana</string>
+    <string name="freeLicenseTitle">Ilmainen Lisenssi</string>
+    <string name="pref_energy_params_summary">Tehokkuus: %1$s
+\nAineenvaihdunta: %2$s</string>
+    <string name="prefMapDiskCacheAgeEntries_3">15 päivää</string>
+    <string name="pref_mapsFollowAutorotateMode_summary">Pidä ajosuunta ylöspäin</string>
+    <string name="prefNoSoundInsideFenceSummary">Älä anna ääniä aidan sisällä, paitsi hälytyksistä.</string>
+    <string name="dialogMeterModesTitle">Valitse käytettävissä olevat tilat</string>
+    <string name="meterModes_17">Vauhti</string>
+    <string name="speechUnitTwoMinutes">Pöytäkirja</string>
+    <string name="prefMeterSettingsNoteSummary">Lisää asetuksia on saatavilla valikon kautta, johon pääset napsauttamalla mittarikenttää pitkään.</string>
+    <string name="speechDescent">Pudotus: %1$s</string>
+    <string name="unitNewtonPerLb">N/lb</string>
+    <string name="mapMarkerStart">alkaa</string>
+    <string name="navigationDestinationReached">Kohde</string>
+    <string name="summarySpecific">Erityinen</string>
+    <string name="pref_speechCountdown_title">Lähtölaskenta</string>
+    <string name="prefAutoTerrainNote1Summary">Laitetta tulee pitää kiinnitettynä ajoneuvoon (esim. pyörän ohjaustankoon), ei kädessä tai taskussa tätä käytettäessä.</string>
+    <string name="prefAdModes_0">Minkä tahansa</string>
+    <string name="prefUnitsEnergyEntries_0">[kcal]</string>
+    <string name="menuInsertSpeedo">Aseta nopeusmittari paikalleen</string>
+    <string name="summaryDeviceAutoPauseCount">Automaattisen tauon laskenta</string>
+    <string name="unitFeetsAboveGroundLevel">ft agl</string>
+    <string name="pref_screensaverEnable_title">Näytönsäästäjä</string>
+    <string name="speechUnitTwoKilometers">Kilometrejä</string>
+    <string name="menuChooseFile">Tiedosto</string>
+    <string name="infoMeterModeGearRatioMsg">Pyörän kierrosten suhde polkimen kierroksiin aikayksikköä kohden, eli etu- ja takarataskokojen suhde. Suurempi luku tarkoittaa suurempaa vaihdetta.</string>
+    <string name="summaryWheelsWeightInfo">Tällä radalla käytetyn ajoneuvon kaikkien pyörien painojen summa.</string>
+    <string name="summaryCadenceStrokesInfo">Aktiviteetin aikana havaittujen poljiniskujen määrä.</string>
+    <string name="menuSpeedoIndicatorMax">Ilmaisin max</string>
+    <string name="powerSourceWeight_1">Kuljettaja</string>
+    <string name="infoAppUpdateAction">Uudelleenkäynnistää</string>
+    <string name="infoMeterModeEnergyMsg">Matkaan käytetty energia tehokkuus ja BMR huomioiden.</string>
+    <string name="speechTrackingGpsWeak">Ei GPS:ää</string>
+    <string name="sensorPurposeNone">(Ei tarkoitusta)</string>
+    <string name="prefScreensaverTimeoutEntries_7">2 minuuttia</string>
+    <string name="speechNavigationGotOffRoute">Olet poissa reitiltä</string>
+    <string name="menuSpeedoBellButton">Kellopainike</string>
+    <string name="menuMove">Liikkua</string>
+    <string name="pref_autopause_modes_explanation_0">Hylkää kaikki muutaman sekunnin pituiset tauot</string>
+    <string name="infoMeterModeGearRatioTitle">Välityssuhde</string>
+    <string name="infoMeterModeAvgActivePowerTitle">Keskimääräinen aktiivinen teho</string>
+    <string name="speechUnitOneHour">Tunnin</string>
+    <string name="prefScreenPocketModeDelayEntries_1">0,10 sekuntia</string>
+    <string name="navigationAvoidMotorways">Vältä moottoriteitä</string>
+    <string name="menuWiden">Laajentaa</string>
+    <string name="unitMphPerSec">mph/s</string>
+    <string name="sensorProperitesIsInverted">Vaihda nopeutta ja poljinnopeutta</string>
+    <string name="controlPanelMapSettingsButtonTitle">Karttavaihtoehdot</string>
+    <string name="disclaimerText2">Käytä tätä sovellusta viisaasti ja ÄLÄ käytä sitä ajaessasi autoa, ajaessasi moottoripyörää, polkupyörää tai muuta ajoneuvoa.</string>
+    <string name="speechIncreasing">Nousemassa</string>
+    <string name="controlPanelScreenshotButtonSubtitle">Jaa kuvakaappaus napsauttamalla</string>
+    <string name="pref_mapsWeatherAnimateForecast_title">Ennuste</string>
+    <string name="pref_volume_summary_text">Kello: %1$s, AVAS: %2$s, Tallies: %3$s, efektit: %4$s, hälytykset: %5$s, puhe: %6$s</string>
+    <string name="prefUnitsEnergyEntries_1">[kJ]</string>
+    <string name="menuInsertLeft">Vasen</string>
+    <string name="pref_mapsShowAttribution_title">Nimeäminen</string>
+    <string name="prefSteadyScreenNote1">Tämä ominaisuus auttaa sinua näkemään näytön hieman selkeämmin ajettaessa kuoppaisessa maastossa. Näytön kuva vakautetaan käyttämällä nopeita pieniä liikkeitä, jotka yrittävät torjua ulkoista tärinää.</string>
+    <string name="powerSourceWeight_0">Kaikki yhteensä</string>
+    <string name="pref_autopause_modes_2">Vinossa</string>
+    <string name="menuMeterShowIcon">Kuvake</string>
+    <string name="infoMeterModeWriggleMsg">Mitta reitin poikkeama suorasta, eli kuinka paljon se täyttää alueen sen sijaan, että menisi suoraan. Alempi on yleensä parempi.</string>
+    <string name="pref_category_stationary_exercise_title">Kiinteä toiminta</string>
+    <string name="speechUnitTwoHours">Tuntia</string>
+    <string name="speechAltitude">Korkeus: %1$s</string>
+    <string name="pref_category_mainScreenVisualTheme">Päänäyttö</string>
+    <string name="speechUnitManyHours">Tuntia</string>
+    <string name="unitSteps">askeleet</string>
+    <string name="speechNavigationContinue">Jatkaa</string>
+    <string name="pref_mapsWeatherCoverage_title">Peittävä naamio</string>
+    <string name="summaryInaccurateLocationZoneCountInfo">Kuinka monta kertaa sovellus alkoi hylätä sijaintipäivityksiä niiden epätarkkuuden vuoksi.
+\n
+\nHuomaa, että alueet, joilla ei ole lainkaan sijaintipäivityksiä (esim. sisätiloissa), eivät vaikuta tähän määrään.</string>
+    <string name="infoMeterModeVerticalPowerMsg">Tehon menetys tai lisäys noustessa tai laskeessa.
+\n
+\nNegatiivinen tarkoittaa tehonlisäystä (laskevaa).
+\n
+\nKcal/h tai kJ/h se ottaa myös tehokkuuden huomioon.</string>
+    <string name="pref_category_maps_routes_title">Opas reitit</string>
+    <string name="prefScreensaverTimeoutEntries_8">5 minuuttia</string>
+    <string name="pref_flashlightBlinkModes_2">Ei mitään / Tasainen</string>
+    <string name="infoMeterModeVibrationsMsg">Tärinä laitteella mitattuna. Hyödyllinen, kun laitetta pidetään kiinnitettynä ajoneuvoon (esim. pyörän ohjaustankoon), ei kädessä tai taskussa.</string>
+    <string name="prefUnitsPowerEntries_2">[kcal/h]</string>
+    <string name="prefScreensaverTimeoutEntries_1">10 sekuntia</string>
+    <string name="dialogCustomTracksFolderInfoMessage">Tämän ominaisuuden avulla sovellus voi lukea raitoja valitsemastasi kansiosta oletusraitakansion lisäksi, jonka sijainti on äskettäin muuttunut.
+\n
+\nTällaiset kappaleet ovat vain luku -tilassa: Niitä voidaan tarkastella ja jakaa, mutta niitä ei voi muokata, jatkaa tai poistaa.
+\n
+\nJos olet epävarma, yritä löytää \"Documents-UrbanBiker-tracks\" -kansio seuraavalta näytöltä.</string>
+    <string name="prefScreensaverDimBrightnessEntries_0">Minimi</string>
+    <string name="buttonShow">Näytä</string>
+    <string name="menuReset">Nollaa</string>
+    <string name="prefGnssAutomaticSleepTitle">GPS automaattinen lepotila</string>
+    <string name="toastScreensaverModeActive">Näytönsäästäjätila aktiivinen</string>
+    <string name="infoMeterModePressureMsg">Ympäristön paine mitattuna laitteella tai ulkoisella anturilla.</string>
+    <string name="controlPanelMapHideButtonTitle">Piilota kartta</string>
+    <string name="prefMapGuideRouteColorTitle">Opasreitin väri</string>
+    <string name="summaryRollResistCoefInfo">Vierintävastuskerroin.</string>
+    <string name="pref_gps_update_freq_entries_0">Nopein</string>
+    <string name="prefScreensaverTimeoutEntries_2">15 sekuntia</string>
+    <string name="prefUnitsPowerEntries_0">[W]</string>
+    <string name="speechUnitManyFeets">Jalat</string>
+    <string name="infoMeterModeVibrationsTitle">Tärinä</string>
+    <string name="dialogOfflineMapsFolderCopyMessage">Valittu sisältö on kopioitava sovelluskohtaiseen karttakansioon, jotta sitä voidaan käyttää.
+\n
+\nTee tämä nyt\?</string>
+    <string name="speechUnitOneMeter">Mittari</string>
+    <string name="navigationRouteTooLong">Valitettavasti tämä kohde on liian kaukana</string>
+    <string name="pref_screenAutoPocketModeDelay_title">Viive</string>
+    <string name="controlPanelMapShowButtonSubtitle">Näytä kartta napsauttamalla</string>
+    <string name="unitKmhPerSec">km/s</string>
+    <string name="sensorPurposeCadence">Kadenssi</string>
+    <string name="summaryRollResistCoefAverage">Kierrosvastuskerroin. keskiverto</string>
+    <string name="pref_mapsFollowAutoZoomMode_summary">Säädä kartan zoomaustaso nykyisen nopeuden mukaan</string>
+    <string name="dialogLayoutsInfoMessage">Muuta nopeasti näytön asettelua ennalta määritetyistä asetteluista.
+\n
+\nNapsauta sitten pitkään mitä tahansa kenttää muokataksesi näyttöä lisää ponnahdusvalikoiden avulla.
+\n
+\nPysty- ja vaakasuunnassa näytön asettelut ovat täysin itsenäisiä.</string>
+    <string name="prefMapDiskCacheAgeEntries_4">30 päivää</string>
+    <string name="prefScreenPocketModeDelayEntries_5">0,50 sekuntia</string>
+    <string name="sensorFilterInterval_0">3 sekuntia (oletus)</string>
+    <string name="infoMeterModeVerticalPowerTitle">Pystysuuntainen teho</string>
+    <string name="infoMeterModeEfficacyMsg">Osa käytetystä energiasta, joka riittäisi saman matkan tekemiseen liikkumalla vakionopeudella, joka vastaa keskinopeutta. Korkeampi on parempi.</string>
+    <string name="infoContentSize">Sisällön koko: %1$d MB</string>
+    <string name="pref_soundeffects_tally_duration_dialog_title">Kestolasku</string>
+    <string name="speechUnitManyMiles">Mailia</string>
+    <string name="pref_track_charts_title">Kaaviotyypit…</string>
+    <string name="menuRemove">Poista</string>
+    <string name="infoMeterModeTemperatureMsg">Ympäristön lämpötila mitattuna laitteella tai ulkoisella anturilla.</string>
+    <string name="meterModes_31">Kosteus</string>
+    <string name="pref_mapsLayerTraffic_summary">Näytä reaaliaikaiset liikennetiedot</string>
+    <string name="meterModePaceShort">vauhti</string>
+    <string name="pref_roaring_type_dialog_title">AVAS tyyppi</string>
+    <string name="pref_track_charts_summary">Valitse eri aktiivisuusparametreja, jotka tallennetaan kaavioiksi jokaisen kappaleen yhteydessä. Nopeus- ja korkeustiedot tallennetaan aina.</string>
+    <string name="menuShowTotals">Näytä kokonaissummat</string>
+    <string name="pref_wakelock_modes_0">Automaattinen (oletus)</string>
+    <string name="prefScreensaverTimeoutEntries_6">1 minuutti</string>
+    <string name="summaryDeviceAutoPauseCountInfo">Kuinka monta kertaa automaattinen tauko on aktivoitu tämän toiminnon aikana.</string>
+    <string name="prefNoSoundInsideFenceTitle">Ei ääniä aidan sisällä</string>
+    <string name="summaryCadenceStrokes">Polkimet</string>
+    <string name="speechDecreasing">Pudottaminen</string>
+    <string name="powerSourceWeightTitle">Virtalähteen paino</string>
+    <string name="pref_soundeffects_autopause_title">Automaattinen tauko</string>
+    <string name="pref_mapsWeatherAnimateForecast_summary">Animoi myös 30 minuuttia tutkaennustetta eri väreillä</string>
+    <string name="menuBell">Bell</string>
+    <string name="pref_units_speed_entries_1">Imperial [mph]</string>
+    <string name="menuInsertRight">Oikein</string>
+    <string name="menuSpeedoScale">Mittakaava</string>
+    <string name="infoMeterModeSlopeMsg">Kaltevuus (kaltevuus), luku, joka kuvaa maaston kallistusta, jossa nolla on vaakasuora. Suurempi luku tarkoittaa jyrkempää nousua ja negatiivinen laskeutumista.</string>
+    <string name="menuSelect">Valitse</string>
+    <string name="menuLayout">Layout</string>
+    <string name="pref_category_tracking_charts_title">Kaaviot</string>
+    <string name="trackUploadDescriptionDefault">Seurattu Urban Biker -mobiilisovelluksella</string>
+    <string name="pref_roaring_mode_entries_1">Automaattinen kurssi</string>
+    <string name="prefScreensaverTimeoutEntries_3">20 sekuntia (oletus)</string>
+    <string name="menuSpeedoAppearance">Ulkomuoto</string>
+    <string name="dialogChartDataTypesTitle">Kaaviotyypit</string>
+    <string name="meterModeHumidityShort">hyräillä</string>
+    <string name="mapPlaceSearch">Minne\?</string>
+    <string name="summaryDragAreaInfo">Ilmanvastusalue (Cd·A).</string>
+    <string name="prefSteadyScreenModeOn">Aktiivinen</string>
+    <string name="prefAutoTerrainSummary">Tunnista maaston epätasaisuus mittaamalla tärinää ja säädä vierintävastuskerrointa (Cᵣᵣ) vastaavasti tehoa laskeessasi.</string>
+    <string name="meterModeStepCountShort">askeleet</string>
+    <string name="pref_maps_routes_draw_title">Opas reitit</string>
+    <string name="speechUnitOneKilometer">Kilometri</string>
+    <string name="prefScreenPocketModeDelayEntries_7">1 sekunti</string>
+    <string name="summaryEfficiencyInfo">Radan voimanpesän yleinen lämpöhyötysuhde.</string>
+    <string name="tracksHistoryListNoMap">Karttaa ei tallennettu.</string>
+    <string name="pref_roaring_type_entries_3">Sähköauto</string>
+    <string name="pref_soundeffects_navigation_title">Navigointi</string>
+    <string name="dialogLayoutChooseSubtitle">Valitse näytön asettelu</string>
+    <string name="pref_category_units_common_title">Mittayksiköt (kaikki profiilit)</string>
+    <string name="summaryBasalEnergyInfo">Prosenttiosuus energiasta, joka käytettiin perusaineenvaihduntaan.</string>
+    <string name="toastLocationUnavailable">Sijaintisi ei ole vieläkään saatavilla</string>
+    <string name="meterModes_30">Säde</string>
+    <string name="tracksHistoryChartEmptyInfo">Ei mitään näytettävää</string>
+    <string name="prefScreenPocketModeDelayEntries_2">0,20 sekuntia</string>
+    <string name="menuInsert">Lisää</string>
+    <string name="pref_soundeffects_tally_steps_dialog_title">Askeleet yhteen</string>
+    <string name="cloudAccountsPowerUploadPolicy_0">Aina (oletus)</string>
+    <string name="pref_speechTallies_summary">Puhu laskelmat</string>
+    <string name="pref_soundeffects_tally_radius_title">Säde</string>
+    <string name="infoMeterModeAscentMsg">Kumulatiivinen korkeuden nousu (nousu).</string>
+    <string name="infoAutopauseForcedRelaxed">Huomautus: Automaattinen tauko pakotettu rentoutumaan</string>
+    <string name="pref_speechAutoPause_title">Automaattinen tauko</string>
+    <string name="summaryBasal">Basal</string>
+    <string name="summaryActivePower">Aktiivinen teho</string>
+    <string name="speechUnitManyMinutes">Pöytäkirja</string>
+    <string name="pref_maps_track_draw_summary">Piirrä liikkeesi kartalla</string>
+    <string name="powerSourceWeight_2">Ajoneuvo</string>
+    <string name="navigationHidePrompt">Piilottaa</string>
+    <string name="speechUnitTwoLitersOfGasoline">Litraa bensiiniä</string>
+    <string name="pref_group_activityRecognition_title">Toiminnan tunnistus</string>
+    <string name="pref_roaring_mode_entries_3">Jatkuvasti liikkuessa</string>
+    <string name="controlPanelMapShowButtonTitle">Näytä kartta</string>
+    <string name="menuSpeedoValue">Arvo</string>
+    <string name="summaryMechWork">Mech. työ</string>
+    <string name="summaryClimbing">Kiivetä</string>
+    <string name="menuAdvanced">Pitkälle kehittynyt</string>
+    <string name="pref_screensaverTimeout_title">Aikalisä</string>
+    <string name="prefScreensaverTimeoutEntries_5">45 sekuntia</string>
+    <string name="pref_soundeffects_proximity_title">Läheisyysanturi</string>
+    <string name="meterModeWriggleShort">wrig</string>
+    <string name="sensorProperitesUseForCadence">Käytä kadenssiin</string>
+    <string name="infoMeterModeRadiusTitle">Säde</string>
+    <string name="summaryInaccurateLocationZoneCount">Epätarkkuusvyöhykkeet</string>
+    <string name="unitMetersAboveGroundLevel">m agl</string>
+    <string name="summaryAcceleratingEnergyInfo">Prosenttiosuus energiasta, joka käytettiin kiihdyttämiseen.</string>
+    <string name="pref_soundeffects_tally_steps_title">Askeleet</string>
+    <string name="controlPanelMapSettingsButtonSubtitle">Napsauta nähdäksesi karttavaihtoehdot</string>
+    <string name="prefScreenPocketModeDelayEntries_6">0,75 sekuntia</string>
+    <string name="summaryDraggingEnergyInfo">Prosenttiosuus energiasta, joka käytettiin ilmanvastuksen voittamiseksi.</string>
+    <string name="infoAutopauseForcedOff">Huomautus: Auto Pause pakotettu pois päältä</string>
+    <string name="navigationWrongWay">Väärällä tavalla</string>
+    <string name="menuHideTotals">Piilota kokonaissummat</string>
+    <string name="dialogActivityRecognitionPermissionRequestTitle">Fyysisen toiminnan lupa</string>
+    <string name="pref_soundeffects_proximity_summary">Napsautusääni, kun läheisyysanturi laukeaa</string>
+    <string name="pref_soundeffects_tally_descent_dialog_title">Laskeutuminen</string>
+    <string name="pref_gps_update_freq_entries_1">Mukautuva</string>
+    <string name="speechUnitManyKilometers">Kilometrejä</string>
+    <string name="pref_category_roaringConstantMode_title">Jatkuva tila</string>
+    <string name="pref_screensaverDimBrightness_title">Himmeä kirkkaus</string>
+    <string name="meterModes_12">Vert. nopeus</string>
+    <string name="summaryProfileNameInfo">Tämän kappaleen tallentamiseen käytetty profiili.</string>
+    <string name="prefTemperatureSensorDerivedTitle">Käytä johdettua anturia</string>
+    <string name="summaryTotalWeightInfo">Kaikkien tätä reittiä tallennettaessa käytettyjen painojen summa (ratsastaja, ajoneuvo, rahti jne.).</string>
+    <string name="tracksHistoryGrantAccess">Puuttuvat jäljet\?
+\nNapsauta tätä myöntääksesi vain luku -oikeudet mukautetulle kappalekansiolle…</string>
+    <string name="pref_speechGnssStatus_summary">Puhu GPS-tilan muutoksesta (hyvä, huono)</string>
+    <string name="dialogMapsMapCount">%1$s karttaa</string>
+    <string name="meterModeHumidity">kosteus</string>
+    <string name="navigationStepsInfo">Navigointiohjeet näkyvät täällä liikkuessasi. Piilota tai liu\'uta tämä paneeli haluamallasi tavalla.</string>
+    <string name="summaryRolling">Rullaa</string>
+    <string name="speechUnitTwoMeters">Metriä</string>
+    <string name="summaryTotalTimeInfo">Aikaväli tämän kappaleen alkamisajan ja lopetusajan välillä.</string>
+    <string name="pref_locationProvider_modes_explanation_0">(Kaikki profiilit) Käytä GPS-alijärjestelmää suoraan. Vakaa, vähemmän monimutkainen malli, ei välikäsiä. Voi myös käyttää vähemmän resursseja kuin toinen palveluntarjoaja.</string>
+    <string name="sensorProperitesTriggersCountInfo">Anturin käyttämien laukaisimien (esim. magneettien) lukumäärä. Antureilla, joissa ei ole ulkoista laukaisua, on yleensä yksi sisäinen liipaisin.</string>
+    <string name="meterModes_None">Ei mitään</string>
+    <string name="licenseUpgradeTitle">Päivitä lisenssisi</string>
+    <string name="summaryDriverWeightInfo">Tämän raidan tallennuksen aikana käytetyn kuljettajan (tai ajajan) paino.</string>
+    <string name="prefUnitsEnergyEntries_2">[kWh]</string>
+    <string name="pref_roaring_type_entries_2">Chopper</string>
+    <string name="freeLicenseLabel">Vapaa</string>
+    <string name="prefAppVisualThemeDialogTitle">Sovelluksen visuaalinen teema</string>
+    <string name="pref_power_coefs_summary">Vedä alue: %1$s
+\nKallistusvastus: %2$s</string>
+    <string name="pref_meterTitle">Mittari</string>
+    <string name="speechCountdownGo">Mennä!</string>
+    <string name="prefPressureSensorOffsetTitle">Painepoikkeama</string>
+    <string name="veloHeroConnectButton">Ota yhteyttä Velo Heroon</string>
+    <string name="navigationRouteNotFound">Valitettavasti reittiä ei löytynyt kyseiseen määränpäähän</string>
+    <string name="prefBarometricAltitudeSummary">Käytä paineanturin tietoja korkeuden tarkkuuden parantamiseen, jos saatavilla</string>
+    <string name="speechUnitOneFeet">Jalka</string>
+    <string name="sensorProperitesActivityRecognitionInfo">Anturi antaa tietoja vain, kun fyysinen aktiivisuutesi on tunnistettu yhteensopivaksi anturin tarkoituksen kanssa. Askelanturi esimerkiksi laskee askeleita kävellessä tai juostessa, ei pyörällä ajettaessa. Huomaa, että tämä ei ehkä ole tarkka ja voi olla viive. Google Play -palvelut vaaditaan.</string>
+    <string name="chartsTitle">Kaaviot</string>
+    <string name="infoMeterModeHumidityTitle">Kosteus</string>
+    <string name="pref_power_coefs_title">Kertoimet</string>
+    <string name="pref_units_other_entries_1">Keisarillinen</string>
+    <string name="summaryHeartBeatsInfo">Aktiviteetin aikana havaittujen sydämenlyöntien määrä.</string>
+    <string name="unitGAccel">g</string>
+    <string name="dialogLicenseUpgradeMessage">Tämä ominaisuus vaatii tilauslisenssin.
+\n
+\nVaihtoehtoisesti voit katsoa lyhyen promovideon saadaksesi ilmaista luottoa.</string>
+    <string name="cloudAccountsPowerUploadPolicy_1">Lataa tehotiedot vain, kun tehomittaria käytettiin</string>
+    <string name="summaryMechWorkInfo">Tähän toimintaan käytetty puhtaasti mekaaninen työ (lämpötehokkuutta ja BMR:ää huomioimatta).</string>
+    <string name="prefOnlineMapsProviderTitle">Online-karttojen tarjoaja</string>
+    <string name="pref_category_units_per_profile_title">Mittayksiköt (profiilia kohti)</string>
+    <string name="sensorProperitesNoAlarmInfo">Käytä anturia, jos se on käytettävissä, mutta älä ilmoita tai hälytä, kun se ei ole käytettävissä. Hyödyllinen merkityksettömille antureille, jotka eivät ole välttämättömiä toiminnalle. Oletuksena poissa käytöstä.</string>
+    <string name="menuSpeedoDisplayMode">Näyttötila</string>
+    <string name="pref_soundeffects_tally_clock_dialog_title">Kellon laskuri</string>
+    <string name="meterModeStepCadenceShort">step cad</string>
+    <string name="mapMarkerFinish">Suorittaa loppuun</string>
+    <string name="sensorProperitesCadenceTriggers">Poljinnopeuslaukaisimet</string>
+    <string name="pref_locationProvider_modes_0">GPS-alijärjestelmä</string>
+    <string name="sensorProperitesFilterIntervalInfo">Suodatusväli eli suodattimen voimakkuus. Suuremmat arvot suodattavat enemmän, mutta lisäävät myös viivettä.</string>
+    <string name="speechSteps">Vaiheet: %1$s</string>
+    <string name="controlPanelSensorsButtonSubtitle">Napsauta hallita antureita</string>
+    <string name="dialogOfflineMapsFolderCopyTitle">Kopioi karttakansioon</string>
+    <string name="controlPanelSensorsButtonTitle">Anturit</string>
+    <string name="navigationGotOffRoute">Pois reitiltä</string>
+    <string name="infoMeterModeAvgActivePowerMsg">Keskimääräinen teho toiminnan aikana, kun ei oteta huomioon aikavälejä, jolloin tehoa ei ollut (alamäkeen, jarrutuksiin, vapaasti pyörimiseen).</string>
+    <string name="infoMeterModeCadenceTitle">Kadenssi</string>
+    <string name="controlPanelSoundRoar">AVAS</string>
+    <string name="meterModeRadius">säde</string>
+    <string name="powerSourceWeightInfo">Kun teho (wattia) muunnetaan ominaistehoksi (wattia painoyksikköä kohti), on annettava paino.
+\n
+\nTämä on yleensä liikkeellepanevana voimana toimivan kokonaisuuden paino.
+\n
+\nHuomautus: Pystysuuntainen teho lasketaan aina kokonaispainolla.</string>
+    <string name="prefBackKeyModeEntries_2">Kaksoisnapsauta poistua</string>
+    <string name="pref_roaring_mode_entries_4">Aktiivinen kynnysnopeuden yläpuolella</string>
+    <string name="pref_wakelock_modes_2">Osittainen</string>
+    <string name="pref_soundeffects_screenOff_summary">Ääni ja värinä, kun näyttö on himmennetty tai sammutettu tilapäisesti</string>
 </resources>
