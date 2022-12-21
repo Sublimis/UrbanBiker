@@ -538,7 +538,7 @@
     <string name="pref_duck_roaring_on_bell_summary">Lautstärke des AVAS-Warntons verringern, während der Klingelton abgespielt wird</string>
     <string name="pref_relaunchAfterReboot_title">Öffnen nach Neustart</string>
     <string name="pref_resetPrompt_title">Aufforderung zum Zurücksetzen</string>
-    <string name="pref_resetPrompt_summary">Aufforderung zum Start einer neuen Strecke, wenn über 4 Stunden inaktiv oder der neue Standort weit entfernt ist</string>
+    <string name="pref_resetPrompt_summary">Aufforderung zum Start einer neuen Strecke, wenn über 4 Stunden inaktiv oder der neue Standort weit entfernt ist (empfohlen)</string>
     <string name="pref_auto_launch_on_gps_title">Automatisches Öffnen bei GPS-Signal</string>
     <string name="pref_auto_launch_on_gps_summary">App öffnen, wenn im Passivmodus GPS-Aktivität erkannt wird</string>
     <string name="pref_passive_gps_button_title">GPS-Schaltfläche für Passivmodus</string>
@@ -558,7 +558,7 @@
     <string name="pref_fenceguard_summary">Verberge den Standort deines Zuhauses oder anderer wichtiger Orte vor der Streckenaufzeichnung</string>
     <string name="pref_autopause_mode_dialog_title">Automatisches Pausieren</string>
     <string name="pref_speed_calculate_mode_title">Geschwindigkeit selbst berechnen</string>
-    <string name="pref_speed_calculate_mode_summary">(Alle Profile) Geschwindigkeit aus den Entfernungswerten berechnen, anstatt den GPS-Wert zu verwenden. Dies könnte stabilere Geschwindigkeitswerte als die GPS-(Doppler-)Werte bieten.</string>
+    <string name="pref_speed_calculate_mode_summary">(Alle Profile) Geschwindigkeit aus den Entfernungswerten berechnen, anstatt den GPS-Wert zu verwenden. Dies könnte stabilere Geschwindigkeitswerte als die GPS-(Doppler-)Werte bieten. Standardmäßig deaktiviert.</string>
     <string name="pref_soundeffects_title">Einschalten</string>
     <string name="pref_soundeffects_fence_enterleave_title">Schutzzone</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Ton bei Erreichen oder Verlassen einer Sichtschutzzone</string>
@@ -589,23 +589,22 @@
     <string name="pref_maps_fences_draw_title">Schutzzonen</string>
     <string name="pref_maps_fences_draw_summary">Die durch den Sichtschutz geschützten Flächen auf der Karte einzeichnen</string>
     <string name="pref_maps_animate_title">Animation</string>
-    <string name="pref_maps_animate_summary">(Alle Profile) Ausschalten, um Akku zu sparen, besonders während der automatische Kartennachführungsmodus aktiv ist</string>
+    <string name="pref_maps_animate_summary">Ausschalten, um Akku zu sparen, besonders während der automatische Kartennachführungsmodus aktiv ist</string>
     <string name="pref_maps_online_mode_dialog_title">Kartenquelle</string>
     <string name="pref_maps_offline_file_title">Datei oder Ordner auswählen</string>
     <string name="pref_maps_offline_file_dialog_title">Ordner für Offlinekarten wählen</string>
-    <string name="pref_maps_offline_file_summary"> (Alle Profile) %1$s
-    </string>
+    <string name="pref_maps_offline_file_summary">%1$s</string>
     <string name="pref_maps_offline_file_noFolderSelected">Kein Ordner ausgewählt.</string>
     <string name="pref_maps_offline_info_title">Jetzt herunterladen</string>
     <string name="pref_maps_offline_info_summary">Es werden Mapsforge-Vektor- (.map) und Rmaps-Raster-Karten (.sqlitedb) unterstützt. Verfügbar bei download.mapsforge.org.</string>
     <string name="pref_maps_offline_warning_summary">Warnung: Auch im Offline-Modus könnten Daten aus dem Internet heruntergeladen werden. Wenn du dir unsicher bist, deaktiviere bitte den mobilen Datenzugriff, bevor du Karten verwendest.</string>
     <string name="pref_maps_routes_draw_title">Wegweiser-Routen</string>
-    <string name="pref_maps_routes_info_summary">Zur Erleichterung der Navigation entlang der Route werden keine anderen visuellen oder akustischen Signale angezeigt</string>
+    <string name="pref_maps_routes_info_summary">Die Wegweiser-Route ist eine über der Karte angezeigte Linie, der du folgen kannst. Für detaillierte Wegbeschreibungen kannst du die Navigations-Funktion verwenden.</string>
     <string name="pref_maps_routes_files_title">Datei oder Ordner auswählen</string>
     <string name="pref_maps_routes_files_dialog_title">Ordner oder Datei für Route auswählen</string>
     <string name="pref_maps_routes_files_noFolderSelected">Kein Ordner ausgewählt.</string>
     <string name="pref_maps_quickZoom_title">Schnell-Zoom-Schaltflächen</string>
-    <string name="pref_maps_quickZoom_summary">(Alle Profile) Unsichtbare Schnell-Zoom-Schaltflächen im unteren Bereich der Karte aktivieren - verbessert die Orientierung</string>
+    <string name="pref_maps_quickZoom_summary">Unsichtbare Schnell-Zoom-Schaltflächen im unteren Bereich der Karte aktivieren</string>
     <string name="pref_maps_quickZoomInvert_title">Invertiert</string>
     <string name="pref_maps_quickZoomInvert_summary">Schaltflächen für Herein- und Herauszoomen vertauschen</string>
     <string name="pref_button_profile_show_title">Profil</string>
@@ -652,7 +651,7 @@
     <string name="prefBaroAltitudeUsesTemperatureSummary">Daten des Temperatursensors für genauere barometrische Höhenmessung nutzen, wenn verfügbar</string>
     <string name="prefBarometricAltitudeNoteSummary">Benutze diese Funktionen nur unter freiem Himmel! In unter Druck stehenden, geschlossenen oder klimatisierten Fahrzeugen wie Autos oder Flugzeugen solltest du sie deaktivieren!</string>
     <string name="prefTemperatureSensorDerivedTitle">Abgeleiteten Sensor nutzen</string>
-    <string name="prefTemperatureSensorDerivedSummary">Dieses Gerät hat keinen Temperatursensor, die Temperatur kann aber aus anderen Sensorwerten abgeleitet werden. Bitte in der Hilfe nachlesen.</string>
+    <string name="prefTemperatureSensorDerivedSummary">Dieses Gerät hat keinen Temperatursensor, eine ungefähre Abschätzung kann aber aus anderen Sensoren (z.B. CPU-Temperatur) abgeleitet werden.</string>
     <string name="prefPressureSensorOffsetTitle">Druck-Anpassung</string>
     <string name="prefPressureSensorOffsetInfo">Dieser konstante Wert wird zu den ausgelesenen Drucksensor-Werten hinzuaddiert und kann verwendet werden, um eventuelle Ungenauigkeiten des Sensors auszugleichen.</string>
     <string name="prefNotificationAlwaysTitle">Dauerhafte Benachrichtigung</string>
@@ -714,7 +713,7 @@
     <string name="dialogTracksShareChoices_1">Nur GPX</string>
     <!-- pref_gps_update_freq_entries -->
     <string name="pref_gps_update_freq_entries_0">Schnellste</string>
-    <string name="pref_gps_update_freq_entries_2">Adaptiv (Standard)</string>
+    <string name="pref_gps_update_freq_entries_2">Standard</string>
     <string name="pref_gps_update_freq_entries_3">1 Sekunde</string>
     <string name="pref_gps_update_freq_entries_4">2 Sekunden</string>
     <string name="pref_gps_update_freq_entries_5">3 Sekunden</string>
@@ -750,7 +749,7 @@
     <string name="pref_wakelock_modes_explanation_3">Verhalten vom System und/oder anderen Apps abhängig machen. Warnung: Könnte unkorrekte oder sogar fehlende Standortaktualisierungen verursachen. Nicht empfohlen.</string>
     <!-- pref_locationProvider_modes -->
     <string name="pref_locationProvider_modes_0">GPS-Subsystem</string>
-    <string name="pref_locationProvider_modes_1">Google Play-Dienste</string>
+    <string name="pref_locationProvider_modes_1">Google Play-Dienste (Standard)</string>
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Alle Profile) GPS-Subsystem direkt verwenden. Stabil, weniger komplexes Modell, keine Zwischenschicht. Könnte auch weniger Ressourcen als andere Provider benötigen.</string>
     <string name="pref_locationProvider_modes_explanation_1">(Alle Profile) \"Fused\"-Provider der Google Play-Dienste verwenden, wenn verfügbar. Theoretisch bietet dies manchmal schnellere und genauere Standortbestimmung.</string>
@@ -867,21 +866,28 @@
     <string name="aboutScreenWarmWelcome">Wir hoffen, dir gefällt die App 😊</string>
     <string name="disclaimerText3">Behalte die Straße immer im Blick.</string>
     <string name="licenseDialogMapsTab">Karten</string>
-    <string name="ultimateLicenseDescription">Umfangreichste Lizenz für das ultimative Erlebnis.</string>
+    <string name="ultimateLicenseDescription">Umfangreichste Lizenz für das ultimative Erlebnis</string>
     <string name="ultimateLicenseFeatures">✔️ Alle Premium-Karten
 \n✔️ Navigation
 \n✔️ Keine Werbung
 \n✔️ Alle kostenlosen Funktionen und Karten</string>
-    <string name="proPlusLicenseFeatures">🔹 Keine Werbung
-\n🔹Zusätzliche Spende</string>
+    <string name="proPlusLicenseFeatures">❌ Premium-Karten
+\n❌ Navigation
+\n✔️ Keine Werbung
+\n✔️ Alle kostenlosen Funktionen und Karten
+\n➕ Zusätzliche Spende</string>
     <string name="proLicenseFeatures">❌ Premium-Karten
 \n❌Navigation
 \n✔️ Keine Werbung
 \n✔️ Alle kostenlosen Funktionen und Karten</string>
-    <string name="thunderforestMapsFeatures">🔹Keine Werbung
-\n🔹Thunderforest-Karten</string>
-    <string name="mapboxMapsFeatures">🔹Mapbox-Karten
-\n🔹Keine Werbung</string>
+    <string name="thunderforestMapsFeatures">✔️ Thunderforest-Karten
+\n✔️ Navigation
+\n✔️ Keine Werbung
+\n✔️ Alle kostenlosen Funktionen und Karten</string>
+    <string name="mapboxMapsFeatures">✔️ Mapbox-Karten
+\n✔️ Navigation
+\n✔️ Keine Werbung
+\n✔️ Alle kostenlosen Funktionen und Karten</string>
     <string name="priceFree">kostenlos</string>
     <string name="rewardedAdDescription">Hier berühren, um eine Anzeige anzusehen</string>
     <string name="rewardedAdLoading">Lade Anzeige…</string>
@@ -942,15 +948,15 @@
     <string name="pref_relaunchAfterReboot_summary">(Alle Profile) Nach Geräteneustart die Aufzeichnung fortsetzen, falls der Akku zu 10% oder mehr geladen ist</string>
     <string name="pref_roar_threshold_speed_info">AVAS-Warntöne ertönen nur, wenn die Geschwindigkeit höher als der Schwellwert ist. Sinnvoll z.B. für Abfahrten.</string>
     <string name="pref_background_pattern_dialog_title">Menü-Hintergrund-Muster</string>
-    <string name="pref_maps_routes_draw_summary">Ausgewählte GPX-Routen als gepunktete Linien auf der Karte darstellen</string>
+    <string name="pref_maps_routes_draw_summary">Ausgewählte GPX-Routen auf der Karte darstellen</string>
     <string name="pref_maps_offline_terrain_title">Gelände zeichnen</string>
-    <string name="pref_maps_offline_terrain_summary">(Alle Profile) Karte mit Höhenschattierungen zeichnen. Die Darstellung wird dadurch realistischer, aber wahrscheinlich auch langsamer sein. Benötigt Höhenmodell-Dateien (.hgt) im Kartenordner.</string>
+    <string name="pref_maps_offline_terrain_summary">Karte mit Höhenschattierungen zeichnen. Die Darstellung wird dadurch realistischer, aber wahrscheinlich auch langsamer sein. Benötigt Höhenmodell-Dateien (.hgt) im Kartenordner.</string>
     <string name="pref_maps_offline_terrain_info_title">Jetzt herunterladen</string>
     <string name="pref_maps_offline_terrain_info_summary">Downloadseite bei viewfinderpanoramas.org öffnen.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Aktion der Ebenen-Schaltfläche</string>
-    <string name="pref_mapsOfflineLayerButtonActionSummary">(Alle Profile) Aktion auswählen, die beim Berühren der Ebenen-Schaltfläche ausgeführt wird</string>
+    <string name="pref_mapsOfflineLayerButtonActionSummary">Aktion auswählen, die beim Berühren der Ebenen-Schaltfläche ausgeführt wird</string>
     <string name="prefMapDiskCacheSizeTitle">Max. Karten-Cache-Größe</string>
-    <string name="prefMapDiskCacheSizeSummary">Bei der Anzeige von Karten (sowohl Online als auch Offline) werden Teile der Karte zwischengespeichert, um sie nicht wiederholt herunterladen oder neu erzeugen zu müssen. Dadurch kann die Karte schneller geladen und Akkuladung gespart werden. (Alle Profile)</string>
+    <string name="prefMapDiskCacheSizeSummary">Bei der Anzeige von Karten (sowohl Online als auch Offline) werden Teile der Karte zwischengespeichert, um sie nicht wiederholt herunterladen oder neu erzeugen zu müssen. Dadurch kann die Karte schneller geladen und Akkuladung gespart werden.</string>
     <string name="prefProhibitLocationTitle">Standortbestimmung nicht verwenden</string>
     <string name="prefProhibitLocationSummary">Verwendung von GPS während Aktivitäten verhindern</string>
     <string name="prefMapTrackColorTitle">Streckenfarbe</string>
@@ -1138,7 +1144,7 @@
     <string name="rewardedAdPriceFree">In dieser Sitzung kostenlos</string>
     <string name="cautionTitle">Vorsicht</string>
     <string name="dialogActivityRecognitionPermissionRequestTitle">Berechtigung für körperliche Aktivität</string>
-    <string name="dialogActivityRecognitionPermissionRequest">Diese Berechtigung wird benötigt, damit die App integrierte Sensoren wie z.B. den Schrittzähler verwenden kann.</string>
+    <string name="dialogActivityRecognitionPermissionRequest">Diese Berechtigung wird benötigt, damit die App den integrierten Schrittzähler verwenden und andere nützliche Funktionen bei Bewegungserkennung ausführen kann.</string>
     <string name="unitSteps">Schritte</string>
     <string name="meterModeStepCadence">Schrittfrequenz</string>
     <string name="meterModeStepCadenceShort">SF</string>
@@ -1228,11 +1234,15 @@
     <string name="cloudAccountsPowerUploadPolicyTitle">Leistungsdaten-Upload</string>
     <string name="cloudAccountsPowerUploadPolicy_0">Immer (Standard)</string>
     <string name="cloudAccountsPowerUploadPolicy_1">Nur bei Verwendung eines Leistungsmeßgerätes</string>
-    <string name="hereMapsFeatures">🔹 HERE-Karten
-\n🔹 Keine Werbung</string>
+    <string name="hereMapsFeatures">✔️ HERE-Karten
+\n✔️ Navigation
+\n✔️ Keine Werbung
+\n✔️ Alle kostenlosen Funktionen und Karten</string>
     <string name="dialogMapsMapCount">%1$s Karten</string>
-    <string name="maptilerMapsFeatures">🔹 MapTiler-Karten
-\n🔹 Keine Werbung</string>
+    <string name="maptilerMapsFeatures">✔️ MapTiler-Karten
+\n✔️ Navigation
+\n✔️ Keine Werbung
+\n✔️ Alle kostenlosen Funktionen und Karten</string>
     <string name="dialogMapsChooseTitle">Karte wählen</string>
     <string name="meterModes_30">Radius</string>
     <string name="sensorProperitesFilterIntervalInfo">Filterintervall, d.h. die Stärke des Filters. Größere Werte filtern stärker, führen aber auch zu einer größeren Verzögerung.</string>
@@ -1285,7 +1295,7 @@
     <string name="summaryDragging">Luftwiderstand</string>
     <string name="summaryDraggingEnergyInfo">Für das Überwinden des Luftwiderstandes aufgewendeter Energieanteil.</string>
     <string name="summaryAccelerating">Beschleunigung</string>
-    <string name="summaryAcceleratingEnergyInfo">Für beschleunigung aufgewendeter Energieanteil.</string>
+    <string name="summaryAcceleratingEnergyInfo">Für Beschleunigung aufgewendeter Energieanteil.</string>
     <string name="summaryRolling">Rollen</string>
     <string name="summaryRollingEnergyInfo">Für das Überwinden des Rollwiderstandes aufgewendeter Energieanteil.</string>
     <string name="summaryBasal">Grundumsatz</string>
@@ -1326,12 +1336,12 @@
     <string name="summaryVibrations">Vibrationen</string>
     <string name="unitNewtonPerKg">N/kg</string>
     <string name="menuRevokeAccess">Zugriff widerrufen</string>
-    <string name="menuSpeedoNeedle">Nadel anzeigen</string>
+    <string name="menuSpeedoNeedle">Nadel</string>
     <string name="menuMeterShowChart">Graph</string>
     <string name="menuSpeedoStallIndicator">Stillstandsanzeige</string>
     <string name="menuSelectOther">Anderen Ordner auswählen</string>
     <string name="prefMapDiskCacheAgeTitle">Max. Karten-Cache-Alter</string>
-    <string name="pref_mapsShowAttribution_summary">(Alle Profile) Name des Kartenherstellers für Online-Karten, die nicht von Google stammen, anzeigen. Ausschalten, um versehentliches Öffnen von Links zu verhindern.</string>
+    <string name="pref_mapsShowAttribution_summary">Name des Kartenherstellers für Online-Karten, die nicht von Google stammen, anzeigen. Ausschalten, um versehentliches Öffnen von Links zu verhindern.</string>
     <string name="prefActivityRecognitionNoteSummary">Diese Funktionen verwenden die in Android eingebaute Aktivitätserkennung. Diese kann ungenau oder verzögert sein, also verwende diese Funktionen nur, wenn du damit leben kannst. Am besten funktioniert es, wenn ein Geschwindigkeitssensor für Entfernung und Dauer verwendet wird.</string>
     <string name="dialogBluetoothPermissionRequest">Diese Berechtigung wird benötigt, um kabellose Sensoren zu finden und zu verbinden.</string>
     <string name="sensorProperitesNoAlarm">Nicht alarmieren</string>
@@ -1346,7 +1356,7 @@
     <string name="pref_screenAutoPocketModeDelay_summary">Das Abschalten des Bildschirms erfolgt nach dem Abdecken des Annährungssensors nicht sofort, sondern wird um die hier eingestellte Zeit verzögert</string>
     <string name="prefAppVisualThemeSummary">(Alle Profile)</string>
     <string name="prefAutoTerrainTitle">AutoTerrain</string>
-    <string name="prefGnssActivityRecognitionTitle">Positionserkennung entrauschen</string>
+    <string name="prefGnssActivityRecognitionTitle">GPS-Ungenauigkeiten verrringern</string>
     <string name="prefGnssAutomaticSleepSummary">GPS bei Stillstand automatisch abschalten und bei Bewegung wieder anschalten, wodurch bei längeren Pausen Strom gespart wird, ohne dass hierfür die Aufzeichnung gestoppt werden muss.</string>
     <string name="pref_screensaverEnable_summary">Bildschirm nach einiger Zeit abdunkeln, um Strom zu sparen. Bildschirm berühren, um zu entsperren.</string>
     <string name="dialogBluetoothPermissionRequestTitle">Bluetooth-Berechtigung</string>
@@ -1359,7 +1369,7 @@
     <string name="menuSpeedoBellButton">Klingel-Schaltfläche</string>
     <string name="unitMphPerSec">mph/s</string>
     <string name="pref_mapsWeatherAnimateForecast_title">Vorhersage</string>
-    <string name="pref_mapsShowAttribution_title">Kartenhersteller anzeigen</string>
+    <string name="pref_mapsShowAttribution_title">Kartenhersteller</string>
     <string name="pref_category_mainScreenVisualTheme">Hauptbildschirm</string>
     <string name="pref_mapsWeatherCoverage_title">Abdeckung anzeigen</string>
     <string name="summaryInaccurateLocationZoneCountInfo">Häufigkeit von Positionsaktualisierungen, die von der App wegen zu großer Ungenauigkeit verworfen wurden.
@@ -1449,36 +1459,36 @@
 \n❌ Navigation
 \n❌ Keine Werbung
 \n✔️ Alle kostenlosen Funktionen und Karten</string>
-    <string name="dialogLayoutEmptyInfoMessage">Es sollte mindestens ein Meter im Layout vorhanden sein.</string>
+    <string name="dialogLayoutEmptyInfoMessage">Es sollte mindestens ein Zähler im Layout vorhanden sein.</string>
     <string name="navigationStopPrompt">Halt</string>
-    <string name="navigationAvoidIndoor">Vermeiden Sie drinnen</string>
+    <string name="navigationAvoidIndoor">Innenräume vermeiden</string>
     <string name="pref_categoryTrackingButtonTitle">Tracking-Schaltfläche</string>
     <string name="pref_soundeffects_navigation_summary">Ton bei Navigationsereignissen</string>
-    <string name="menuInsertAbove">Über</string>
+    <string name="menuInsertAbove">Oberhalb</string>
     <string name="pref_speechNavigation_title">Navigation</string>
     <string name="menuProperties">Eigenschaften…</string>
-    <string name="meterVerticalWeight">Vertikales Gewicht</string>
-    <string name="speechUnitManyLitersOfGasoline">Liter Benzin</string>
-    <string name="prefSteadyScreenNote2">Bitte erwarte keine Wunder. Wenn diese Funktion für Sie nicht gut funktioniert, deaktivieren Sie sie einfach.</string>
-    <string name="navigationAvoidFerries">Vermeiden Sie Fähren</string>
+    <string name="meterVerticalWeight">Vertikale Gewichtung</string>
+    <string name="speechUnitManyLitersOfGasoline">Liter Kraftstoff</string>
+    <string name="prefSteadyScreenNote2">Bitte erwarte keine Wunder. Falls diese Funktion in deinem Fall nicht gut funktioniert, deaktiviere sie einfach.</string>
+    <string name="navigationAvoidFerries">Fähren vermeiden</string>
     <string name="toastSteadyScreenModeActive">SteadyScreen aktiv</string>
     <string name="dialogLayoutChooseTitle">Layout</string>
-    <string name="meterHorizontalWeight">Horizontales Gewicht</string>
+    <string name="meterHorizontalWeight">Horizontale Gewichtung</string>
     <string name="prefSteadyScreenModeOff">Aus</string>
     <string name="toastSteadyScreenModeIntelligentActive">SteadyScreen intelligent aktiv</string>
-    <string name="menuInsertMeter">Zähler einsetzen</string>
+    <string name="menuInsertMeter">Zähler hinzufügen</string>
     <string name="menuSpeedo">Tachometer</string>
-    <string name="speechUnitOneLiterOfGasoline">Liter Benzin</string>
-    <string name="prefSteadyScreenModeOnInfo">Lassen Sie die SteadyScreen-Funktion während des Trackings immer aktiv. Dies kann mehr Batterie verbrauchen.</string>
-    <string name="pref_speechNavigation_summary">Sprechen Sie Navigation</string>
+    <string name="speechUnitOneLiterOfGasoline">Liter Kraftstoff</string>
+    <string name="prefSteadyScreenModeOnInfo">SteadyScreen-Funktion während der Aufzeichnung dauerhaft aktivieren. Dies kann erhöhten Akkuverbrauch verursachen.</string>
+    <string name="pref_speechNavigation_summary">Navigationshinweise ansagen</string>
     <string name="navigationLoadingData">Wegbeschreibung wird geladen…</string>
     <string name="pref_soundeffects_tally_energy_title">Energie</string>
-    <string name="menuMeterShowSubValues">Unterwerte</string>
+    <string name="menuMeterShowSubValues">Zusatz-Werte</string>
     <string name="speechEnergy">Energie: %1$s</string>
-    <string name="pref_mapsFollowMode_summary">Halten Sie die Karte auf Ihren aktuellen Standort zentriert</string>
-    <string name="infoAppUpdateMessage">Das Update ist fertig.</string>
+    <string name="pref_mapsFollowMode_summary">Karte auf den aktuellen Standort zentriert halten</string>
+    <string name="infoAppUpdateMessage">Das Update ist bereit.</string>
     <string name="prefSteadyScreenModeAuto">Intelligent aktiv (Standard)</string>
-    <string name="mapMarkerClickInfo">Klicken Sie für Optionen</string>
+    <string name="mapMarkerClickInfo">Für Optionen berühren</string>
     <string name="prefTrackingButtonModeTitle">Alternatives Verhalten</string>
     <string name="dialogLayoutChoosePrompt">Aktuelles Layout wird überschrieben.
 \n
@@ -1489,75 +1499,75 @@
 \n
 \nDie Radardaten der letzten 1 Stunde können animiert werden, um Niederschlagstrends anzuzeigen.</string>
     <string name="navigationContinue">Fortsetzen</string>
-    <string name="navigationAvoidTolls">Vermeiden Sie Mautgebühren</string>
-    <string name="menuNarrow">Eng</string>
+    <string name="navigationAvoidTolls">Mautgebühren vermeiden</string>
+    <string name="menuNarrow">Verengen</string>
     <string name="toastSteadyScreenModeOff">SteadyScreen deaktiviert</string>
     <string name="dialogLicenseUpgradeButton2">Werbevideo ansehen</string>
     <string name="prefSteadyScreenTitle">Bildschirmstabilisierung</string>
     <string name="navigationLoadFromFilePrompt">Beim Laden neuer Wegbeschreibungen aus dem Internet ist ein Fehler aufgetreten.
 \n
-\nMöchten Sie zuvor verwendete Wegbeschreibungen aus einer Datei laden\?</string>
-    <string name="prefSteadyScreenModeAutoInfo">Aktivieren Sie die SteadyScreen-Funktion während des Trackings nur auf unebenem Gelände. Dies ist eine gute Balance aus Komfort und Akkuverbrauch.</string>
+\nMöchtest du zuvor verwendete Wegbeschreibungen aus einer Datei laden\?</string>
+    <string name="prefSteadyScreenModeAutoInfo">SteadyScreen nur während der Aufzeichnung in unebenem Gelände aktivieren. Dies ist eine gute Balance aus Komfort und Akkuverbrauch.</string>
     <string name="menuNavigation">Navigieren</string>
     <string name="speechNavigationWrongWay">Falscher Weg</string>
-    <string name="dialogLayoutsInfoTitle">Grundrisse</string>
+    <string name="dialogLayoutsInfoTitle">Layouts</string>
     <string name="prefTrackingButtonModeSummary">Klicken oder langes Klicken für Pause, separate Schaltfläche für Stopp.</string>
-    <string name="menuInsertBelow">Unter</string>
-    <string name="menuMeter">Meter</string>
+    <string name="menuInsertBelow">Unterhalb</string>
+    <string name="menuMeter">Zähler</string>
     <string name="dialogLayoutEmptyInfoTitle">Layout</string>
-    <string name="speechNavigationDestinationReached">Sie haben das Ziel erreicht</string>
-    <string name="menuSendDebugFeedback">Ein Problem melden</string>
-    <string name="prefSteadyScreenModeOffInfo">Aktivieren Sie niemals die SteadyScreen-Funktion</string>
+    <string name="speechNavigationDestinationReached">Du hast das Ziel erreicht</string>
+    <string name="menuSendDebugFeedback">Problem melden</string>
+    <string name="prefSteadyScreenModeOffInfo">SteadyScreen nie aktivieren</string>
     <string name="pref_soundeffects_tally_energy_dialog_title">Energiebilanz</string>
-    <string name="prefGpsBoostNoteSummary">Standortaktualisierungen werden während der Navigation immer auf die höchste Frequenz erzwungen</string>
-    <string name="freeLicenseTitle">Freie Lizenz</string>
-    <string name="pref_mapsFollowAutorotateMode_summary">Halten Sie die Fahrtrichtung nach oben gerichtet</string>
-    <string name="prefNoSoundInsideFenceSummary">Machen Sie keine Geräusche, während Sie sich innerhalb eines Zauns befinden, mit Ausnahme der Alarme.</string>
+    <string name="prefGpsBoostNoteSummary">Während der Navigatkon wird für Standortaktualisierungen immer die höchste Frequenz erzwungen</string>
+    <string name="freeLicenseTitle">Kostenlose Lizenz</string>
+    <string name="pref_mapsFollowAutorotateMode_summary">Karte so ausrichten, dass die Bewegungsrichtung nach oben zeigt</string>
+    <string name="prefNoSoundInsideFenceSummary">Innerhalb von Schutzzone sämtliche Tonausgaben, mit Ausnahme der Alarme, deaktivieren.</string>
     <string name="navigationDestinationReached">Ziel</string>
-    <string name="menuInsertSpeedo">Tacho einsetzen</string>
+    <string name="menuInsertSpeedo">Tacho hinzufügen</string>
     <string name="infoAppUpdateAction">Neu starten</string>
-    <string name="speechNavigationGotOffRoute">Sie sind vom Weg abgekommen</string>
-    <string name="menuMove">Bewegen</string>
-    <string name="navigationAvoidMotorways">Autobahnen meiden</string>
+    <string name="speechNavigationGotOffRoute">Du bist vom Weg abgekommen</string>
+    <string name="menuMove">Verschieben</string>
+    <string name="navigationAvoidMotorways">Autobahnen vermeiden</string>
     <string name="menuWiden">Erweitern</string>
     <string name="menuInsertLeft">Links</string>
-    <string name="prefSteadyScreenNote1">Diese Funktion hilft Ihnen, den Bildschirm etwas klarer zu sehen, wenn Sie auf unebenem Gelände fahren. Das Bild auf dem Bildschirm wird durch schnelle kleine Bewegungen stabilisiert, die versuchen, externen Erschütterungen entgegenzuwirken.</string>
+    <string name="prefSteadyScreenNote1">Diese Funktion kann helfen, bei Fahrten in unebenem Gelände den Bildschirm etwas besser zu erkennen. Das Bild auf dem Bildschirm wird durch schnelle kleine Bewegungen stabilisiert, die versuchen, den externen Erschütterungen entgegenzuwirken.</string>
     <string name="menuMeterShowIcon">Symbol</string>
     <string name="speechNavigationContinue">Fortsetzen</string>
     <string name="menuReset">Zurücksetzen</string>
-    <string name="navigationRouteTooLong">Entschuldigung, dieses Ziel ist zu weit entfernt</string>
-    <string name="pref_mapsFollowAutoZoomMode_summary">Passen Sie die Zoomstufe der Karte basierend auf der aktuellen Geschwindigkeit an</string>
-    <string name="dialogLayoutsInfoMessage">Ändern Sie schnell das Anzeigelayout aus einer Reihe vordefinierter Layouts.
+    <string name="navigationRouteTooLong">Dieses Ziel ist leider zu weit entfernt</string>
+    <string name="pref_mapsFollowAutoZoomMode_summary">Zoomstufe der Karte an die aktuelle Geschwindigkeit anpassen</string>
+    <string name="dialogLayoutsInfoMessage">Wähle schnell ein neues Anzeigelayout aus einer Reihe vordefinierter Layouts.
 \n
-\nKlicken Sie dann lange auf ein beliebiges Feld, um die Anzeige über Popup-Menüs weiter anzupassen.
+\nBerühre dann lange ein beliebiges Feld, um die Anzeige über Popup-Menüs weiter anzupassen.
 \n
-\nBildschirmausrichtungen im Hoch- und Querformat haben völlig unabhängige Layouts.</string>
+\nDie Layouts für Hoch- und Querformat sind dabei völlig unabhängig.</string>
     <string name="menuRemove">Entfernen</string>
-    <string name="pref_mapsLayerTraffic_summary">Zeigen Sie Verkehrsinformationen in Echtzeit an</string>
+    <string name="pref_mapsLayerTraffic_summary">Echtzeit-Verkehrsinformationen anzeigen</string>
     <string name="menuShowTotals">Summen anzeigen</string>
-    <string name="prefNoSoundInsideFenceTitle">Keine Geräusche innerhalb des Zauns</string>
-    <string name="menuInsertRight">Recht</string>
+    <string name="prefNoSoundInsideFenceTitle">Keine Töne in Schutzzone</string>
+    <string name="menuInsertRight">Rechts</string>
     <string name="menuSpeedoScale">Skala</string>
     <string name="menuLayout">Layout</string>
     <string name="mapPlaceSearch">Wohin\?</string>
     <string name="prefSteadyScreenModeOn">Aktiv</string>
     <string name="pref_soundeffects_navigation_title">Navigation</string>
-    <string name="dialogLayoutChooseSubtitle">Wählen Sie das Anzeigelayout</string>
-    <string name="toastLocationUnavailable">Ihr Standort ist immer noch nicht verfügbar</string>
-    <string name="menuInsert">Einfügung</string>
+    <string name="dialogLayoutChooseSubtitle">Anzeigelayout auswählen</string>
+    <string name="toastLocationUnavailable">Dein Standort ist immer noch nicht verfügbar</string>
+    <string name="menuInsert">Hinzufügen</string>
     <string name="navigationHidePrompt">Ausblenden</string>
-    <string name="speechUnitTwoLitersOfGasoline">Liter Benzin</string>
+    <string name="speechUnitTwoLitersOfGasoline">Liter Kraftstoff</string>
     <string name="menuSpeedoValue">Wert</string>
     <string name="navigationWrongWay">Falscher Weg</string>
     <string name="menuHideTotals">Summen ausblenden</string>
     <string name="pref_gps_update_freq_entries_1">Adaptiv</string>
-    <string name="navigationStepsInfo">Während Sie sich bewegen, werden hier Navigationsanweisungen angezeigt. Blenden Sie dieses Bedienfeld wie gewünscht aus oder verschieben Sie es.</string>
-    <string name="licenseUpgradeTitle">Aktualisieren Sie Ihre Lizenz</string>
-    <string name="freeLicenseLabel">Frei</string>
+    <string name="navigationStepsInfo">Hier werden bei Bewegung Navigationsanweisungen angezeigt. Du kannst dieses Feld nach deinen Vorlieben ausblenden oder verschieben.</string>
+    <string name="licenseUpgradeTitle">Lizenz aufwerten</string>
+    <string name="freeLicenseLabel">Kostenlos</string>
     <string name="navigationRouteNotFound">Es wurde leider keine Route zu diesem Ziel gefunden</string>
     <string name="dialogLicenseUpgradeMessage">Für diese Funktion ist eine Abonnementlizenz erforderlich.
 \n
-\nAlternativ können Sie sich ein kurzes Promo-Video ansehen, um kostenloses Guthaben zu erhalten.</string>
+\nAlternativ kannst du dir ein kurzes Promo-Video ansehen, um kostenloses Guthaben zu erhalten.</string>
     <string name="prefOnlineMapsProviderTitle">Online-Kartenanbieter</string>
     <string name="navigationGotOffRoute">Abseits der Route</string>
 </resources>
