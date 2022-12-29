@@ -588,7 +588,7 @@
     <string name="pref_relaunchAfterReboot_title">Επανέναρξη μετά την επανεκκίνηση</string>
     <string name="pref_relaunchAfterReboot_summary">(Όλα τα προφίλ) Επαναφορά εντοπισμού μετά από αναγκαστική επανεκκίνηση της συσκευής, εάν η μπαταρία είναι 10% ή περισσότερο</string>
     <string name="pref_resetPrompt_title">Προτροπή επαναφοράς</string>
-    <string name="pref_resetPrompt_summary">Προτροπή για να ξεκινήσετε μια νέα διαδρομή, αν η προηγούμενη διαρκεί περισσότερο από 4 ώρες ή σε μακρινή τοποθεσία</string>
+    <string name="pref_resetPrompt_summary">Προτροπή για να ξεκινήσετε μια νέα διαδρομή, αν η προηγούμενη διαρκεί περισσότερο από 4 ώρες ή βρίσκεται σε μακρινή τοποθεσία (συνιστάται)</string>
     <string name="pref_auto_launch_on_gps_title">Αυτόματη έναρξη με το GPS</string>
     <string name="pref_auto_launch_on_gps_summary">Ξεκινήστε την εφαρμογή (σε παθητική λειτουργία) όταν η δραστηριότητα GPS εντοπιστεί</string>
     <string name="pref_passive_gps_button_title">Πλήκτρο παθητικής λειτουργίας GPS</string>
@@ -649,7 +649,7 @@
     <string name="pref_maps_offline_info_summary">Οι χάρτες Mapsforge vector (.map) και Rmaps raster (.sqlitedb) υποστηρίζονται. Διαθέσιμοι στο download.mapsforge.org.</string>
     <string name="pref_maps_offline_warning_summary">Προειδοποίηση: Μπορεί να ανακτηθούν κάποια δεδομένα, ακόμα και σε λειτουργία εκτός σύνδεσης. Παρακαλούμε να απενεργοποιήσετε τα δεδομένα κινητού πριν από τη χρήση χαρτών αν σας απασχολεί.</string>
     <string name="pref_maps_routes_draw_title">Καθοδηγούμενες διαδρομές</string>
-    <string name="pref_maps_routes_info_summary">Καμία άλλη οπτική ή ακουστική νύξη θα δοθεί για να διευκολύνει την πλοήγηση</string>
+    <string name="pref_maps_routes_info_summary">Η διαδρομή οδηγός είναι απλώς μια γραμμή που χαράσσεται πάνω από τον χάρτη που μπορείτε να ακολουθήσετε. Για οδηγίες βήμα προς βήμα, χρησιμοποιήστε τη δυνατότητα πλοήγησης.</string>
     <string name="pref_maps_routes_files_title">Επιλέξτε αρχείο ή φάκελο</string>
     <string name="pref_maps_routes_files_dialog_title">Επιλέξτε φάκελο ή αρχείο διαδρομής</string>
     <string name="pref_maps_routes_files_noFolderSelected">Δεν επιλέχθηκε φάκελος.</string>
@@ -980,7 +980,7 @@
     <string name="pref_category_map_colors_title">Χρώματα χάρτη</string>
     <string name="pref_roar_threshold_speed_info">Το AVAS θα ηχήσει μόνο όταν πηγαίνετε πιο γρήγορα από την ταχύτητα κατωφλίου. Χρήσιμο π.χ. για κατηφόρες.</string>
     <string name="pref_background_pattern_dialog_title">Σχέδιο φόντου μενού</string>
-    <string name="pref_maps_routes_draw_summary">Το επιλεγμένο διάγραμμα με διαδρομές GPX ως διακεκομμένες γραμμές πάνω από τον χάρτη</string>
+    <string name="pref_maps_routes_draw_summary">Σχεδιάστε επιλεγμένες διαδρομές GPX πάνω από τον χάρτη</string>
     <string name="prefMapTrackColorTitle">Χρώμα διαδρομής</string>
     <string name="prefMapGuideRouteColorTitle">Χρώμα διαδρομής οδηγού</string>
     <string name="infoMeterModeWriggleMsg">Μέτρο της απόκλισης της διαδρομής από μια ευθεία γραμμή, δηλαδή πόσο γεμίζει την περιοχή αντί να πηγαίνει ευθεία. Χαμηλότερα είναι συνήθως καλύτερα.</string>
@@ -1024,20 +1024,23 @@
 \n✔️ Πλοήγηση
 \n✔️ Χωρίς διαφημίσεις
 \n✔️ Όλες οι δωρεάν δυνατότητες και χάρτες</string>
-    <string name="proPlusLicenseFeatures">✔️ Όλες οι δυνατότητες και οι δωρεάν χάρτες
-\n ✔️ Χωρίς διαφημίσεις
-\n ❌ Premium χάρτες
-\n ➕ Επιπλέον δωρεά</string>
+    <string name="proPlusLicenseFeatures">❌ Premium χάρτες
+\n❌ Πλοήγηση
+\n✔️ Χωρίς διαφημίσεις
+\n✔️ Όλες οι δωρεάν δυνατότητες και χάρτες
+\n➕ Επιπλέον δωρεά</string>
     <string name="proLicenseFeatures">❌ Premium χάρτες
 \n❌ Πλοήγηση
 \n✔️ Χωρίς διαφημίσεις
 \n✔️ Όλες οι δωρεάν δυνατότητες και χάρτες</string>
-    <string name="thunderforestMapsFeatures">✔️ Όλες οι δυνατότητες και οι δωρεάν χάρτες
-\n ✔️ Premium χάρτες Thunderforest
-\n ✔️ Χωρίς διαφημίσεις</string>
-    <string name="mapboxMapsFeatures">✔️ Όλες οι δυνατότητες και οι δωρεάν χάρτες
-\n ✔️ Χάρτες Premium Mapbox
-\n ✔️ Χωρίς διαφημίσεις</string>
+    <string name="thunderforestMapsFeatures">✔️ Premium χάρτες Thunderforest
+\n✔️ Πλοήγηση
+\n✔️ Χωρίς διαφημίσεις
+\n✔️ Όλες οι δωρεάν δυνατότητες και χάρτες</string>
+    <string name="mapboxMapsFeatures">✔️ Χάρτες Premium Mapbox
+\n✔️ Πλοήγηση
+\n✔️ Χωρίς διαφημίσεις
+\n✔️ Όλες οι δωρεάν δυνατότητες και χάρτες</string>
     <string name="priceFree">Δωρεάν</string>
     <string name="rewardedAdDescription">Κάντε κλικ εδώ για να παρακολουθήσετε μια διαφήμιση πρώτα</string>
     <string name="rewardedAdLoading">Φόρτωση διαφήμισης …</string>
@@ -1237,13 +1240,15 @@
     <string name="cloudAccountsPowerUploadPolicyTitle">Πολιτική μεταφόρτωσης δεδομένων ισχύος</string>
     <string name="cloudAccountsPowerUploadPolicy_0">Πάντα (προεπιλογή)</string>
     <string name="cloudAccountsPowerUploadPolicy_1">Ανεβάστε δεδομένα ισχύος μόνο όταν χρησιμοποιήθηκε ο μετρητής ισχύος</string>
-    <string name="hereMapsFeatures">✔️ Όλες οι δυνατότητες και οι δωρεάν χάρτες
-\n ✔️ HERE premium χάρτες
-\n ✔️ Χωρίς διαφημίσεις</string>
+    <string name="hereMapsFeatures">✔️ HERE premium χάρτες
+\n✔️ Πλοήγηση
+\n✔️ Χωρίς διαφημίσεις
+\n✔️ Όλες οι δωρεάν δυνατότητες και χάρτες</string>
     <string name="dialogMapsMapCount">%1$s χάρτες</string>
-    <string name="maptilerMapsFeatures">✔️ Όλες οι δυνατότητες και οι δωρεάν χάρτες
-\n ✔️ Χάρτες Premium MapTiler
-\n ✔️ Χωρίς διαφημίσεις</string>
+    <string name="maptilerMapsFeatures">✔️ Χάρτες Premium MapTiler
+\n✔️ Πλοήγηση
+\n✔️ Χωρίς διαφημίσεις
+\n✔️ Όλες οι δωρεάν δυνατότητες και χάρτες</string>
     <string name="dialogMapsChooseTitle">Επιλέξτε χάρτη</string>
     <string name="meterModes_30">Ακτίνα κύκλου</string>
     <string name="sensorProperitesFilterIntervalInfo">Ανανέωση φίλτρου, δηλ. ισχύς του φίλτρου. Οι μεγαλύτερες τιμές θα φιλτράρουν περισσότερο, αλλά θα επιφέρουν επίσης μεγαλύτερη καθυστέρηση.</string>
@@ -1335,7 +1340,7 @@
     <string name="prefMapDiskCacheAgeEntries_6">60 ημέρες</string>
     <string name="prefMapDiskCacheAgeEntries_0">1 μέρα</string>
     <string name="prefMapDiskCacheAgeEntries_2">10 ημέρες (προεπιλογή)</string>
-    <string name="prefGnssActivityRecognitionTitle">Μειώση θόρυβου τοποθεσίας</string>
+    <string name="prefGnssActivityRecognitionTitle">Μειώστε το θόρυβο του GPS</string>
     <string name="prefGnssAutomaticSleepSummary">Αυτόματη απενεργοποίηση της τοποθεσίας ενώ είστε ακίνητοι και ενεργοποίηση ξανά όταν ξεκινά η κίνηση. Αυτό μειώνει τη χρήση της μπαταρίας σε μεγαλύτερα διαλείμματα, χωρίς να χρειάζεται να σταματήσετε την παρακολούθηση.</string>
     <string name="prefMapDiskCacheAgeEntries_1">5 μέρες</string>
     <string name="prefMapDiskCacheAgeEntries_3">15 μέρες</string>
@@ -1516,12 +1521,12 @@
     <string name="menuShowTotals">Εμφάνιση συνόλων</string>
     <string name="menuHideTotals">Απόκρυψη συνόλων</string>
     <string name="navigationStopPrompt">Να σταματήσει</string>
-    <string name="navigationAvoidIndoor">Αποφύγετε τους εσωτερικούς χώρους</string>
+    <string name="navigationAvoidIndoor">Αποφυγή εσωτερικών χώρων</string>
     <string name="pref_soundeffects_navigation_summary">Ήχος στα συμβάντα πλοήγησης</string>
     <string name="pref_speechNavigation_title">Πλοήγηση</string>
     <string name="speechUnitManyLitersOfGasoline">Λίτρα βενζίνης</string>
     <string name="prefSteadyScreenNote2">Μην περιμένετε θαύματα. Εάν αυτή η δυνατότητα δεν λειτουργεί καλά για εσάς, απλώς απενεργοποιήστε την.</string>
-    <string name="navigationAvoidFerries">Αποφύγετε τα φέρι μποτ</string>
+    <string name="navigationAvoidFerries">Αποφυγή φέρι μποτ</string>
     <string name="toastSteadyScreenModeActive">Η SteadyScreen είναι ενεργή</string>
     <string name="prefSteadyScreenModeOff">Μακριά από</string>
     <string name="toastSteadyScreenModeIntelligentActive">Έξυπνο ενεργό SteadyScreen</string>
@@ -1533,8 +1538,8 @@
     <string name="speechEnergy">Ενέργεια: %1$s</string>
     <string name="prefSteadyScreenModeAuto">Έξυπνο ενεργό (προεπιλογή)</string>
     <string name="mapMarkerClickInfo">Κάντε κλικ για επιλογές</string>
-    <string name="navigationContinue">Να συνεχίσει</string>
-    <string name="navigationAvoidTolls">Απέφυγε τα διόδια</string>
+    <string name="navigationContinue">Συνεχίστε</string>
+    <string name="navigationAvoidTolls">Αποφυγή διοδίων</string>
     <string name="toastSteadyScreenModeOff">Το SteadyScreen απενεργοποιήθηκε</string>
     <string name="dialogLicenseUpgradeButton2">Δείτε το βίντεο προώθησης</string>
     <string name="prefSteadyScreenTitle">Σταθεροποίηση οθόνης</string>
@@ -1542,8 +1547,8 @@
 \n
 \nΘέλετε να φορτώσετε οδηγίες που χρησιμοποιήθηκαν στο παρελθόν από ένα αρχείο;</string>
     <string name="prefSteadyScreenModeAutoInfo">Ενεργοποιήστε τη λειτουργία SteadyScreen μόνο σε ανώμαλο έδαφος κατά την παρακολούθηση. Αυτή είναι μια καλή ισορροπία άνεσης και χρήσης μπαταρίας.</string>
-    <string name="menuNavigation">Κυβερνώ</string>
-    <string name="speechNavigationWrongWay">Λάθος τρόπο</string>
+    <string name="menuNavigation">Πλοηγός</string>
+    <string name="speechNavigationWrongWay">Λάθος δρόμος</string>
     <string name="speechNavigationDestinationReached">Έχετε φτάσει στον προορισμό</string>
     <string name="prefSteadyScreenModeOffInfo">Μην ενεργοποιείτε ποτέ τη δυνατότητα SteadyScreen</string>
     <string name="pref_soundeffects_tally_energy_dialog_title">Απολογισμός ενέργειας</string>
@@ -1551,7 +1556,7 @@
     <string name="prefNoSoundInsideFenceSummary">Μην κάνετε ήχους ενώ βρίσκεστε μέσα σε φράχτη, εκτός από τους συναγερμούς.</string>
     <string name="navigationDestinationReached">Προορισμός</string>
     <string name="speechNavigationGotOffRoute">Έχετε ξεφύγει από τη διαδρομή</string>
-    <string name="navigationAvoidMotorways">Αποφύγετε τους αυτοκινητόδρομους</string>
+    <string name="navigationAvoidMotorways">Αποφυγή αυτοκινητοδρόμων</string>
     <string name="prefSteadyScreenNote1">Αυτή η λειτουργία σάς βοηθά να βλέπετε την οθόνη λίγο πιο καθαρά ενώ οδηγείτε σε ανώμαλο έδαφος. Η εικόνα στην οθόνη σταθεροποιείται με την εφαρμογή γρήγορων μικρών κινήσεων που προσπαθούν να εξουδετερώσουν το εξωτερικό κούνημα.</string>
     <string name="speechNavigationContinue">Να συνεχίσει</string>
     <string name="navigationRouteTooLong">Λυπούμαστε, αυτός ο προορισμός είναι πολύ μακριά</string>
@@ -1560,9 +1565,9 @@
     <string name="prefSteadyScreenModeOn">Ενεργός</string>
     <string name="pref_soundeffects_navigation_title">Πλοήγηση</string>
     <string name="toastLocationUnavailable">Η τοποθεσία σας δεν είναι ακόμα διαθέσιμη</string>
-    <string name="navigationHidePrompt">Κρύβω</string>
+    <string name="navigationHidePrompt">Απόκρυψη</string>
     <string name="speechUnitTwoLitersOfGasoline">Λίτρα βενζίνης</string>
-    <string name="navigationWrongWay">Λάθος τρόπο</string>
+    <string name="navigationWrongWay">Λάθος δρόμος</string>
     <string name="navigationStepsInfo">Οι οδηγίες πλοήγησης θα εμφανίζονται εδώ καθώς μετακινείστε. Απόκρυψη ή ολίσθηση αυτού του πίνακα όπως επιθυμείτε.</string>
     <string name="licenseUpgradeTitle">Αναβαθμίστε την άδειά σας</string>
     <string name="navigationRouteNotFound">Λυπούμαστε, δεν βρέθηκε καμία διαδρομή προς αυτόν τον προορισμό</string>
