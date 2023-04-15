@@ -1216,7 +1216,7 @@
     <string name="infoMeterModeHumidityTitle">Vlhkosť</string>
     <string name="infoMeterModeHumidityMsg">Vlhkosť vzduchu meraná vstavaným alebo iným snímačom.</string>
     <string name="infoMeterModeRadiusTitle">Polomer</string>
-    <string name="infoMeterModeRadiusMsg">Priama vzdialenosť od počiatočnej polohy.</string>
+    <string name="infoMeterModeRadiusMsg">Priama vzdialenosť od počiatočnej polohy, vzdialenie.</string>
     <string name="summaryClimbing">Stúpanie</string>
     <string name="summaryDragging">Odpor</string>
     <string name="summaryRolling">Trenie</string>
@@ -1312,7 +1312,7 @@
     <string name="meterModes_28">Kadencia krokov</string>
     <string name="speechSteps">Kroky: %1$s</string>
     <string name="pref_roaring_type_entries_3">Elektrické vozidlo</string>
-    <string name="infoDigitalFilterNotice">Poznámka: Digitálne filtrovanie môže byť oneskorené.</string>
+    <string name="infoDigitalFilterNotice">Poznámka: Digitálne filtrovanie kvôli presnosti môže byť oneskorené.</string>
     <string name="meterModes_29">Prahový výkon</string>
     <string name="meterModes_30">Polomer</string>
     <string name="sensorFilterInterval_0">3 sekundy (predvolené)</string>
@@ -1565,11 +1565,11 @@
 \nPrípadne možno prejsť cez reklamné video a získať jednorazový prístup.</string>
     <string name="prefOnlineMapsProviderTitle">Poskytovateľ online-máp</string>
     <string name="navigationGotOffRoute">Mimo trasy</string>
-    <string name="prefSteadyScreenNote2">Funkcia nemusí zaručene plniť očakávania, pri nesúlade je vhodné ju vypnúť.</string>
+    <string name="prefSteadyScreenNote2">Funkcia sa spoľahlivejšie uplatňuje hlavne pri pomalších pohyboch s mobilom počas chôdze alebo jazdy.</string>
     <string name="toastSteadyScreenModeActive">SteadyScreen mód aktívny</string>
     <string name="prefSteadyScreenModeOff">Vypnuté</string>
     <string name="toastSteadyScreenModeIntelligentActive">Automatický stabilizačný mód aktívny</string>
-    <string name="prefSteadyScreenModeOnInfo">Vždy aktivovať SteadyScreen pri sledovaní polohy. (Funkcia môže zvýšiť spotrebu energie.)</string>
+    <string name="prefSteadyScreenModeOnInfo">Vždy aktivovať SteadyScreen pri sledovaní polohy. Funkcia môže zvýšiť spotrebu energie pri zapnutej obrazovke.</string>
     <string name="prefSteadyScreenModeAuto">Inteligentný mód (predvolené)</string>
     <string name="toastSteadyScreenModeOff">SteadyScreen mód vypnutý</string>
     <string name="prefSteadyScreenTitle">Stabilizácia zobrazovania</string>
@@ -1577,4 +1577,10 @@
     <string name="prefSteadyScreenModeOffInfo">Nikdy neaktivovať funkciu SteadyScreen.</string>
     <string name="prefSteadyScreenNote1">Funkcia pomáha stabilizovať obraz pri pohybe v hrboľatom teréne pomocou malých zobrazovacích pohybov vyrovnávajúcich vonkajšie otrasy.</string>
     <string name="prefSteadyScreenModeOn">Zapnuté</string>
+    <string name="pref_mapsLayerHeatmap_info">Môže byť užitočné pri objavovaní nových miest, napríklad vo vzdialenejších oblastiach.</string>
+    <string name="dialogMapsAutoZoomSensitivity">Citlivosť auto zoomu</string>
+    <string name="dialogMapsShowHeatmap">Mapa aktivít</string>
+    <string name="pref_mapsFollowAutoZoomSensitivity_info">Možno nastavovať auto zoom v priebehu aktivity na trase zoomovaním podľa potreby.</string>
+    <string name="pref_mapsLayerHeatmap_summary">Zobrazovať súhrn aktivít za posledný rok (zo Strava)</string>
+    <string name="pref_mapsLayerHeatmap_title">Súhrnná mapa</string>
 </resources>
