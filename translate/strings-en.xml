@@ -335,9 +335,11 @@
     <string name="dialogMapsLayerTraffic">Traffic</string>
     <string name="dialogMapsShowFences">Fences</string>
     <string name="dialogMapsShowRoutes">Guide routes</string>
+    <string name="dialogMapsShowHeatmap">Heatmap</string>
     <string name="dialogMapsFollowMode">Follow</string>
     <string name="dialogMapsAutoRotate">Auto rotate</string>
     <string name="dialogMapsAutoZoom">Auto zoom</string>
+    <string name="dialogMapsAutoZoomSensitivity">Auto zoom sensitivity</string>
     <string name="dialogMapsHighResolution">Hi-res map</string>
     <string name="dialogMapsRenderTerrain">Render terrain</string>
     <string name="dialogMapsWeatherRadar">Precipitation radar</string>
@@ -1095,12 +1097,18 @@
     <string name="pref_mapsWeatherCoverage_summary">Shade areas where there is no precipitation radar coverage</string>
     <string name="pref_mapsLayerTraffic_title" translatable="false">@string/dialogMapsLayerTraffic</string>
     <string name="pref_mapsLayerTraffic_summary">Show real-time traffic information</string>
+    <string name="pref_mapsLayerHeatmap_title">Heatmap</string>
+    <string name="pref_mapsLayerHeatmap_summary">Show aggregated public activities over the last year (from Strava)</string>
+    <string name="pref_mapsLayerHeatmap_info">This can help you discover new places to be active, especially in remote regions.</string>
     <string name="pref_mapsFollowMode_title" translatable="false">@string/dialogMapsFollowMode</string>
     <string name="pref_mapsFollowMode_summary">Keep the map centered on your current location</string>
     <string name="pref_mapsFollowAutorotateMode_title" translatable="false">@string/dialogMapsAutoRotate</string>
     <string name="pref_mapsFollowAutorotateMode_summary">Keep the direction of travel pointing upwards</string>
     <string name="pref_mapsFollowAutoZoomMode_title" translatable="false">@string/dialogMapsAutoZoom</string>
     <string name="pref_mapsFollowAutoZoomMode_summary">Adjust map zoom level based on current speed</string>
+    <string name="pref_mapsFollowAutoZoomSensitivity_title" translatable="false">@string/dialogMapsAutoZoomSensitivity</string>
+    <string name="pref_mapsFollowAutoZoomSensitivity_summary">@null</string>
+    <string name="pref_mapsFollowAutoZoomSensitivity_info">You can adjust the auto zoom sensitivity on the fly by zooming in or out while tracking</string>
     <string name="pref_button_profile_show_title">Profile</string>
     <string name="pref_button_profile_show_summary">Show the Profile button</string>
     <string name="pref_button_map_show_title">Map</string>
@@ -1200,8 +1208,8 @@
     <string name="prefNoSoundInsideFenceTitle">No sounds inside fence</string>
     <string name="prefNoSoundInsideFenceSummary">Do not make sounds while inside a fence, except for the alarms.</string>
     <string name="prefSteadyScreenTitle">Screen stabilization</string>
-    <string name="prefSteadyScreenNote1">This feature helps you to see the screen a little more clearly while driving on bumpy terrain. The image on the screen is stabilized by applying rapid small movements that try to counteract external shaking.</string>
-    <string name="prefSteadyScreenNote2">Please don\'t expect miracles. If this feature does not work well for you, simply disable it.</string>
+    <string name="prefSteadyScreenNote1">This feature helps you to see the screen a bit clearly while on the go. The image on the screen is stabilized by applying rapid small movements that try to counteract external shaking.</string>
+    <string name="prefSteadyScreenNote2">This works best for slower movements, such as phone swaying in hand while walking, but also on handlebars while riding or in a car while driving.</string>
 
     <string name="infoMeterModeDistanceTitle">Distance</string>
     <string name="infoMeterModeDistanceMsg">Distance traveled.</string>
@@ -1262,7 +1270,7 @@
     <string name="infoMeterModeStepCountTitle">Steps</string>
     <string name="infoMeterModeStepCountMsg">Number of steps taken.</string>
     <string name="infoMeterModeRadiusTitle">Radius</string>
-    <string name="infoMeterModeRadiusMsg">Beeline distance from the initial position of the track, i.e. displacement.</string>
+    <string name="infoMeterModeRadiusMsg">Straight-line distance to the starting location, i.e. displacement.</string>
     <string name="infoMeterModeVibrationsTitle">Vibrations</string>
     <string name="infoMeterModeVibrationsMsg">Vibrations as measured with the device. Useful when the device is held fixed to a vehicle (e.g. on a bike handlebars), and not in a hand or in a pocket.</string>
     <string name="infoSpeedometerTitle">Speedometer</string>
@@ -1271,7 +1279,7 @@
     <string name="infoAutopauseForcedRelaxed">Note: Auto Pause forced to Relaxed</string>
     <string name="infoAutopauseForcedOff">Note: Auto Pause forced to Off</string>
 
-    <string name="infoDigitalFilterNotice">Please note: This can be delayed from the real time by a minute or so, due to inevitable digital filtering delays.</string>
+    <string name="infoDigitalFilterNotice">Please note: This can sometimes lag noticeably behind real time, due to inevitable digital filtering delays required for accuracy.</string>
 
     <string name="infoContentSize">Content size: %1$d MB</string>
 
@@ -1545,7 +1553,7 @@
     <string name="prefSteadyScreenModeAuto">Intelligent active (default)</string>
     <string name="prefSteadyScreenModeAutoInfo">Activate the SteadyScreen feature only on bumpy terrain during tracking. This is a good balance of comfort and battery use.</string>
     <string name="prefSteadyScreenModeOn">Active</string>
-    <string name="prefSteadyScreenModeOnInfo">Keep SteadyScreen feature always active during tracking. This may consume more battery.</string>
+    <string name="prefSteadyScreenModeOnInfo">Keep SteadyScreen feature always active during tracking. This may consume more battery while the screen is on.</string>
     <string name="prefSteadyScreenModeOff">Off</string>
     <string name="prefSteadyScreenModeOffInfo">Never activate the SteadyScreen feature</string>
 
