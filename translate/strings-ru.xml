@@ -1227,7 +1227,7 @@
     <string name="infoMeterModeFuncThresholdPowerMsg">Расчётная максимальная мощность, которая может поддерживаться в течение длительного периода времени.
 \n
 \nОценка сильно зависит от вида и продолжительности активности.</string>
-    <string name="infoDigitalFilterNotice">Обратите внимание: возможно отставание от реального значения на минуту или около того из-за неизбежных задержек цифровой фильтрации.</string>
+    <string name="infoDigitalFilterNotice">Обратите внимание: возможно заметное отставание от реального значения из-за неизбежных задержек цифровой фильтрации, необходимых для обеспечения точности.</string>
     <string name="meterModes_29">Функциональная пороговая мощность</string>
     <string name="controlPanelMapSettingsButtonTitle">Настройки карты</string>
     <string name="controlPanelMapSettingsButtonSubtitle">Нажмите, чтобы изменить настройки карты</string>
@@ -1277,7 +1277,7 @@
     <string name="infoMeterModeHumidityTitle">Влажность</string>
     <string name="infoMeterModeHumidityMsg">Относительная влажность окружающей среды, полученная от встроенного или внешнего датчика.</string>
     <string name="infoMeterModeRadiusTitle">Радиус</string>
-    <string name="infoMeterModeRadiusMsg">Расстояние от начального положения трека, т.е. смещение.</string>
+    <string name="infoMeterModeRadiusMsg">Расстояние по прямой до исходного местоположения, т.е. смещение.</string>
     <string name="meterModes_None">Нет</string>
     <string name="meterModes_31">Влажность</string>
     <string name="speechRadius">Радиус: %1$s</string>
@@ -1560,16 +1560,22 @@
 \nИли вы можете посмотреть короткое рекламное видео, чтобы получить бесплатный доступ.</string>
     <string name="prefOnlineMapsProviderTitle">Поставщик онлайн-карт</string>
     <string name="navigationGotOffRoute">Вне маршрута</string>
-    <string name="prefSteadyScreenNote2">Пожалуйста, не ждите чудес. Если эта функция не работает достаточно хорошо, просто отключите её.</string>
+    <string name="prefSteadyScreenNote2">Лучше всего функция работает при медленных перемещениях, таких как покачивание телефона в руке во время ходьбы, а также на руле во время езды или в автомобиле во время вождения.</string>
     <string name="toastSteadyScreenModeActive">Стабилизация экрана включена</string>
     <string name="prefSteadyScreenModeOff">Отключена</string>
     <string name="toastSteadyScreenModeIntelligentActive">Умная стабилизация экрана включена</string>
-    <string name="prefSteadyScreenModeOnInfo">Функция стабилизации экрана включена постоянно во время отслеживания. Возможен увеличенный расход заряда батареи.</string>
+    <string name="prefSteadyScreenModeOnInfo">Функция стабилизации экрана включена постоянно во время отслеживания. При включённом экране возможен увеличенный расход заряда батареи.</string>
     <string name="prefSteadyScreenModeAuto">Включена умная (по умолчанию)</string>
     <string name="toastSteadyScreenModeOff">Стабилизация экрана отключена</string>
     <string name="prefSteadyScreenTitle">Стабилизация экрана</string>
     <string name="prefSteadyScreenModeAutoInfo">Функция стабилизации экрана включается только на пересечённой местности во время отслеживания. Это хороший баланс комфорта и экономии заряда батареи.</string>
     <string name="prefSteadyScreenModeOffInfo">Функция стабилизации экрана полностью отключена</string>
-    <string name="prefSteadyScreenNote1">Функция помогает лучше видеть экран во время движения по ухабистой местности. Изображение на экране стабилизируется за счёт небольших быстрых перемещений, которые пытаются нейтрализовать тряску.</string>
+    <string name="prefSteadyScreenNote1">Функция помогает лучше видеть экран во время движения. Изображение на экране стабилизируется за счёт небольших быстрых перемещений, которые пытаются нейтрализовать тряску.</string>
     <string name="prefSteadyScreenModeOn">Включена</string>
+    <string name="pref_mapsLayerHeatmap_info">Может помочь вам открыть для себя новые места для активного отдыха, особенно в отдалённых регионах.</string>
+    <string name="dialogMapsAutoZoomSensitivity">Чувствительность автомасштаба</string>
+    <string name="dialogMapsShowHeatmap">Тепловая карта</string>
+    <string name="pref_mapsFollowAutoZoomSensitivity_info">Настройка чувствительности автоматического масштабирования карты (увеличения или уменьшения масштаба) во время отслеживания</string>
+    <string name="pref_mapsLayerHeatmap_summary">Показывать совокупную публичную активность за последний год (из Strava)</string>
+    <string name="pref_mapsLayerHeatmap_title">Тепловая карта</string>
 </resources>
