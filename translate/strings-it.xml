@@ -1222,7 +1222,7 @@
     <string name="infoMeterModeFuncThresholdPowerMsg">Potenza massima stimata percorribile per periodi più lunghi.
 \n
 \nLa stima dipende soprattutto dal tipo e la durata di questa attività.</string>
-    <string name="infoDigitalFilterNotice">Nota: si può verificare un ritardo di circa un minuto rispetto al tempo reale, dovuto ai ritardi inevitabili dei filtri digitali.</string>
+    <string name="infoDigitalFilterNotice">Nota: talvolta può ritardare notevolmente a causa dei ritardi inevitabili dei filtri digitali necessari per la precisione.</string>
     <string name="meterModes_29">Potenza FT</string>
     <string name="controlPanelMapSettingsButtonTitle">Opzioni mappa</string>
     <string name="controlPanelMapSettingsButtonSubtitle">Fai clic per le opzioni della mappa</string>
@@ -1272,7 +1272,7 @@
     <string name="infoMeterModeHumidityTitle">Umidità</string>
     <string name="infoMeterModeHumidityMsg">Umidità relativa ambientale come misurata col dispositivo o con un sensore esterno.</string>
     <string name="infoMeterModeRadiusTitle">Raggio</string>
-    <string name="infoMeterModeRadiusMsg">Distanza in linea d\'aria dalla posizione di partenza del percorso (spostamento).</string>
+    <string name="infoMeterModeRadiusMsg">Distanza in linea retta verso la posizione di partenza, ossia spostamento.</string>
     <string name="meterModes_None">Nessuno</string>
     <string name="meterModes_31">Umidità</string>
     <string name="speechRadius">Raggio: %1$s</string>
@@ -1555,16 +1555,22 @@
 \nIn alternativa puoi guardare un breve video promozionale per ottenere gratuitamente del credito.</string>
     <string name="prefOnlineMapsProviderTitle">Fornitore mappe in linea</string>
     <string name="navigationGotOffRoute">Fuori percorso</string>
-    <string name="prefSteadyScreenNote2">Non aspettarti miracoli. Se questa funzionalità non va bene per te, semplicemente disattivala.</string>
+    <string name="prefSteadyScreenNote2">Funziona al meglio per i movimenti più lenti, per esempio quando il telefono oscilla in mano durante una camminata, ma funziona anche quando è agganciato al manubrio mentre pedali o mentre guidi l\'auto.</string>
     <string name="toastSteadyScreenModeActive">Schermo fisso attivo</string>
     <string name="prefSteadyScreenModeOff">Spento</string>
     <string name="toastSteadyScreenModeIntelligentActive">Schermo fisso intelligente attivo</string>
-    <string name="prefSteadyScreenModeOnInfo">Mantieni la funzionalità Schermo fisso sempre attiva durante il percorso. Il consumo della batteria è maggiore.</string>
+    <string name="prefSteadyScreenModeOnInfo">Mantieni la funzionalità Schermo fisso sempre attiva durante il percorso. Il consumo della batteria è maggiore quando lo schermo è acceso.</string>
     <string name="prefSteadyScreenModeAuto">Intelligente attivo (predefinito)</string>
     <string name="toastSteadyScreenModeOff">Schermo fisso disabilitato</string>
     <string name="prefSteadyScreenTitle">Stabilizzatore schermo</string>
     <string name="prefSteadyScreenModeAutoInfo">Attiva la funzionalità Schermo fisso solo su terreni accidentati durante il percorso. È un buon compromesso tra comfort e uso della batteria.</string>
     <string name="prefSteadyScreenModeOffInfo">Non attivare mai la funzionalità Schermo fisso</string>
-    <string name="prefSteadyScreenNote1">Questa funzionalità aiuta a migliorare la visione dello schermo quando guidi in terreni accidentati. L\'immagine sullo schermo viene stabilizzata mediante applicazione di piccoli e rapidi movimenti che tentano di controbilanciare le vibrazioni esterne.</string>
+    <string name="prefSteadyScreenNote1">Questa funzionalità aiuta a migliorare la visione dello schermo quando sei in movimento. L\'immagine sullo schermo viene stabilizzata mediante applicazione di piccoli e rapidi movimenti che tentano di controbilanciare le vibrazioni esterne.</string>
     <string name="prefSteadyScreenModeOn">Attivo</string>
+    <string name="pref_mapsLayerHeatmap_info">Può aiutarti a scoprire nuovi luoghi di attività, soprattutto nelle regioni remote.</string>
+    <string name="dialogMapsAutoZoomSensitivity">Sensibilità zoom automatico</string>
+    <string name="dialogMapsShowHeatmap">Mappa di calore</string>
+    <string name="pref_mapsFollowAutoZoomSensitivity_info">Puoi regolare al volo la sensibilità dello zoom automatico ingrandendo o riducendo durante il tragitto</string>
+    <string name="pref_mapsLayerHeatmap_summary">Mostra le attività pubbliche aggregate dell\'ultimo anno (da Strava)</string>
+    <string name="pref_mapsLayerHeatmap_title">Mappa di calore</string>
 </resources>
