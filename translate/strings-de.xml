@@ -1225,7 +1225,7 @@
     <string name="infoMeterModeFuncThresholdPowerMsg">Geschätzte Maximalleistung, die über einen längeren Zeitraum durchgehalten werden kann.
 \n
 \nDie Schätzung hängt stark von Typ und Dauer der Aktivität ab.</string>
-    <string name="infoDigitalFilterNotice">Hinweis: Auf Grund von Verzögerungen durch unvermeidliche digitale Filter kann dieser Wert im Vergleich zum Realwert bis zu einer Minute verzögert erscheinen.</string>
+    <string name="infoDigitalFilterNotice">Hinweis: Auf Grund von Verzögerungen durch unvermeidliche und für die Genauigkeit benötigte digitale Filter kann dieser Wert im Vergleich zum Realwert unter Umständen erheblich verzögert erscheinen.</string>
     <string name="meterModes_29">Funkt. Leistungsschwelle</string>
     <string name="controlPanelMapSettingsButtonTitle">Kartenoptionen</string>
     <string name="controlPanelMapSettingsButtonSubtitle">Hier berühren, um die Karte zu konfigurieren</string>
@@ -1469,7 +1469,7 @@
     <string name="menuProperties">Eigenschaften…</string>
     <string name="meterVerticalWeight">Vertikale Gewichtung</string>
     <string name="speechUnitManyLitersOfGasoline">Liter Kraftstoff</string>
-    <string name="prefSteadyScreenNote2">Bitte erwarte keine Wunder. Falls diese Funktion in deinem Fall nicht gut funktioniert, deaktiviere sie einfach.</string>
+    <string name="prefSteadyScreenNote2">Am besten funktioniert es bei langsamer Bewegung, zum Beispiel wenn das Telefon beim Laufen in der Hand schwingt, aber auch am Lenker beim Radfahren oder während einer Autofahrt.</string>
     <string name="navigationAvoidFerries">Fähren vermeiden</string>
     <string name="toastSteadyScreenModeActive">SteadyScreen aktiv</string>
     <string name="dialogLayoutChooseTitle">Layout</string>
@@ -1479,7 +1479,7 @@
     <string name="menuInsertMeter">Zähler hinzufügen</string>
     <string name="menuSpeedo">Tachometer</string>
     <string name="speechUnitOneLiterOfGasoline">Liter Kraftstoff</string>
-    <string name="prefSteadyScreenModeOnInfo">SteadyScreen-Funktion während der Aufzeichnung dauerhaft aktivieren. Dies kann erhöhten Akkuverbrauch verursachen.</string>
+    <string name="prefSteadyScreenModeOnInfo">SteadyScreen-Funktion während der Aufzeichnung dauerhaft aktivieren. Dies kann bei eingeschaltetem Bildschirm erhöhten Akkuverbrauch verursachen.</string>
     <string name="pref_speechNavigation_summary">Navigationshinweise ansagen</string>
     <string name="navigationLoadingData">Wegbeschreibung wird geladen…</string>
     <string name="pref_soundeffects_tally_energy_title">Energie</string>
@@ -1519,7 +1519,7 @@
     <string name="menuSendDebugFeedback">Problem melden</string>
     <string name="prefSteadyScreenModeOffInfo">SteadyScreen nie aktivieren</string>
     <string name="pref_soundeffects_tally_energy_dialog_title">Energiebilanz</string>
-    <string name="prefGpsBoostNoteSummary">Während der Navigatkon wird für Standortaktualisierungen immer die höchste Frequenz erzwungen</string>
+    <string name="prefGpsBoostNoteSummary">Während der Navigation wird für Standortaktualisierungen immer die höchste Frequenz erzwungen</string>
     <string name="freeLicenseTitle">Kostenlose Lizenz</string>
     <string name="pref_mapsFollowAutorotateMode_summary">Karte so ausrichten, dass die Bewegungsrichtung nach oben zeigt</string>
     <string name="prefNoSoundInsideFenceSummary">Innerhalb von Schutzzone sämtliche Tonausgaben, mit Ausnahme der Alarme, deaktivieren.</string>
@@ -1531,7 +1531,7 @@
     <string name="navigationAvoidMotorways">Autobahnen vermeiden</string>
     <string name="menuWiden">Erweitern</string>
     <string name="menuInsertLeft">Links</string>
-    <string name="prefSteadyScreenNote1">Diese Funktion kann helfen, bei Fahrten in unebenem Gelände den Bildschirm etwas besser zu erkennen. Das Bild auf dem Bildschirm wird durch schnelle kleine Bewegungen stabilisiert, die versuchen, den externen Erschütterungen entgegenzuwirken.</string>
+    <string name="prefSteadyScreenNote1">Diese Funktion kann helfen, unterwegs den Bildschirm etwas besser zu erkennen. Das Bild auf dem Bildschirm wird durch schnelle kleine Bewegungen stabilisiert, die versuchen, den externen Erschütterungen entgegenzuwirken.</string>
     <string name="menuMeterShowIcon">Symbol</string>
     <string name="speechNavigationContinue">Fortsetzen</string>
     <string name="menuReset">Zurücksetzen</string>
@@ -1570,4 +1570,10 @@
 \nAlternativ kannst du dir ein kurzes Promo-Video ansehen, um kostenloses Guthaben zu erhalten.</string>
     <string name="prefOnlineMapsProviderTitle">Online-Kartenanbieter</string>
     <string name="navigationGotOffRoute">Abseits der Route</string>
+    <string name="pref_mapsLayerHeatmap_info">Dies kann dir helfen, neue Ziele - auch in abgelegenen Regionen - zu entdecken.</string>
+    <string name="dialogMapsAutoZoomSensitivity">Empfindlichkeit des autom. Zooms</string>
+    <string name="dialogMapsShowHeatmap">Heatmap</string>
+    <string name="pref_mapsFollowAutoZoomSensitivity_info">Du kannst die Empfindlichkeit des automatischen Zooms auch durch Zoomen während der Aufzeichnung anpassen</string>
+    <string name="pref_mapsLayerHeatmap_summary">Häufigkeit der öffentlichen Aktivitäten des letzten Jahres (aus Strava) anzeigen</string>
+    <string name="pref_mapsLayerHeatmap_title">Heatmap</string>
 </resources>
