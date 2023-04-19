@@ -155,7 +155,9 @@
 \nAz útvonal túlságosan rövidnek tűnik. Mentsük\?</string>
     <string name="dialog_exit_msg">Az útvonalrögzítés aktív és le fog állni.</string>
     <string name="dialogProfileDeleteTitle">Profil törlése</string>
-    <string name="dialogProfileDeleteMessage">Figyelmeztetés: Ez a művelet törli a profil beállításait és annak minden adatát. A mentett útvonalak megmaradnak. Profil törlése %1$s\?</string>
+    <string name="dialogProfileDeleteMessage">"Figyelmeztetés: Ez a művelet törli a profil beállításait és annak minden adatát. A mentett útvonalak megmaradnak.   
+\n   
+\nProfil törlése %1$s\?"</string>
     <string name="dialogProfileAddTitle">Új Profil</string>
     <string name="dialogProfileAddInfo">Az új profil beállításai át lesznek másolva a jelenleg aktív profilból</string>
     <string name="dialogProfileEditTitle">Profil szerkesztése</string>
@@ -183,13 +185,17 @@
     <string name="dialogTracksShareCountExceeded">Egyszerre max. 100 track osztható.</string>
     <string name="dialogGpsSettingsPromptTitle">Hely adatok kikapcsolva</string>
     <string name="dialogBaroAltitudePromptTitle">Barométeres magasság megállapítási hiba</string>
-    <string name="dialogBaroAltitudePromptMessage">A barometrikus magasság megállapítás a GPS-magasságtól való eltérés miatt kikapcsolásra került! Kérjük, ne használja zárt vagy légkondicionált helyiségekben!</string>
+    <string name="dialogBaroAltitudePromptMessage">"A barometrikus magasság megállapítás a GPS-magasságtól való eltérés miatt kikapcsolásra került!   
+\n   
+\nKérjük ne használja zárt vagy légkondicionált helyiségekben!"</string>
     <string name="dialogBaroAltitudeNoticeTitle">Értesítés</string>
-    <string name="dialogBaroAltitudeNoticeMessage">A barometrikus magasság meghatározás csak a szabadban működik. Kérjük, ne használja zárt vagy légkondicionált helyiségekben, mint például járművekben és repülőgépen!</string>
+    <string name="dialogBaroAltitudeNoticeMessage">"A barometrikus magasság meghatározás csak a szabadban működik.   
+\n   
+\nKérjük ne használja zárt vagy légkondicionált helyiségekben, mint például járműveken és repülőgépen!"</string>
     <string name="dialogThermoBarometerNoticeTitle">Értesítés</string>
     <string name="dialogThermoBarometerNoticeMessage">A hőmérő pontossága a külső levegő hőmérsékletétől függ.
 \n
-\nKérjük, ne használja zárt vagy légkondicionált helyiségekben, mint például járművekben és repülőgépen!</string>
+\nKérjük ne használja zárt vagy légkondicionált helyiségekben, mint például járműveken és repülőgépen!</string>
     <string name="dialogResetTitle">Befejez</string>
     <string name="dialogResetMessage">Mentsük az útvonalat és kezdjünk egy újat\?</string>
     <string name="dialogResetNoTrackMessage">Nem került útvonal rögzítésre. Lenullázuk a mutatókat\?</string>
@@ -242,8 +248,7 @@
     <string name="dialogTrackUploadStravaIsCommute">Ingázik</string>
     <string name="dialogGpsIntervalTitle">GPS frissítés gyakorisága</string>
     <string name="dialogGpsIntervalNote">Tartsa ezt az értéket 3 másodpercig a pontos és folyamatos mérés érdekében!</string>
-    <string name="dialogGpsIntervalLabelMore">
-        ◀
+    <string name="dialogGpsIntervalLabelMore">◀
 \nNagyobb pontosság, több energia felhasználás</string>
     <string name="dialogGpsIntervalLabelLess">▶
 \nKisebb pontosság, kevesebb energia felhasználás</string>
@@ -560,9 +565,8 @@
     <string name="pref_bell_shake_sensitivity_title">Rázás érzékenysége</string>
     <string name="pref_roaring_type_title">Tipus</string>
     <string name="pref_roaring_type_dialog_title">Riasztás módja</string>
-    <string name="pref_volume_summary_text">Cengő: %1$s, Riasztás: %2$s
-\nFigyelmeztetés: %3$s, Egyéb: %4$s, Emlékeztető: %5$s
-    </string>
+    <string name="pref_volume_summary_text">"Csengő: %1$s, Riasztás: %2$s, Tallies: %3$s,  Effektusok: %4$s, Riasztások: %5$s,  Beszéd:  %6$s
+\nFigyelmeztetés: %3$s, Egyéb: %4$s, Emlékeztető: %5$s"</string>
     <string name="pref_bg_color_title">Háttérszín</string>
     <string name="pref_bg_color_summary">Válaszd ki az alkalmazás háttérszínét</string>
     <string name="pref_fg_color_title">Szöveg színe</string>
@@ -953,10 +957,10 @@
     <string name="pref_roar_threshold_speed_info">Riasztás, mikor nagyobb a sebesdég a beállítottnál. Használd lejtőn és hegyről le.</string>
     <string name="pref_background_pattern_dialog_title">Menü háttér mintája</string>
     <string name="infoMeterModeWriggleMsg">Mérje meg az útvonal légvonalától való eltérést, azaz mennyivel nőtt a távolság, mert nem egyenesen halad. Minnél kisebb, annál jobb.</string>
-    <string name="infoMeterModeAltitudeMsg">Tengerszint feletti magasság (geoid) - Jelenlegi, Maximális és Minimális.
+    <string name="infoMeterModeAltitudeMsg">Átlagos tengerszint feletti magasság (geoid) - Jelenlegi, Maximális és Minimális.
 \n
 \nMegjegyzés: Nem pont valós időben mutatja az elkerülhetetlen digitális szűrési késések miatt.</string>
-    <string name="infoMeterModeSlopeMsg">Lejtés (gradiens): a terep dőlését leíró szám, ahol a nulla vízszintes. A nagyobb szám a meredekebb emelkedést, a negatív pedig az ereszkedést jelenti.
+    <string name="infoMeterModeSlopeMsg">Lejtés (gradiens), a terep dőlését leíró szám, ahol a nulla vízszintes. A nagyobb szám a meredekebb emelkedést, a negatív pedig az ereszkedést jelenti.
 \n
 \nMegjegyzés: Ez a valós időtől kb. egy perccel késik, az elkerülhetetlen digitális szűrési késések miatt.</string>
     <string name="infoMeterModeTemperatureMsg">A készülékkel mért környezeti hőmérséklet — Aktuális, Maximális és Minimális.</string>
@@ -1203,7 +1207,7 @@
 \n
 \nNegativ teljesítmény érték (lejtőn).
 \n
-\nHa kcal / ó vagy kJ / ó, a hatékonyságot is figyelembe veszi.
+\nHa kcal/ó vagy kJ/ó, a hatékonyságot is figyelembe veszi.
 \n
 \nMegjegyzés: A valós időhöz képest kb. egy perccel késik, a digitális szűrési késések miatt.</string>
     <string name="prefAdModes_2">Fejlesztés</string>
@@ -1218,15 +1222,15 @@
     <string name="cloudAccountsPowerUploadPolicyTitle">Teljesítményadatok feltöltési rendje</string>
     <string name="cloudAccountsPowerUploadPolicy_0">Mindig (alap)</string>
     <string name="cloudAccountsPowerUploadPolicy_1">Csak akkor töltsön fel teljesítményadatokat, ha teljesítménymérőt használt</string>
-    <string name="hereMapsFeatures">"🔹 HERE Térképek
-\n        Navigáció
-\n🔹 Hirdetésmentes
-\n       Minden szolgáltatás és térkép ingyen"</string>
+    <string name="hereMapsFeatures">✔️ HERE prémium térképek
+\n✔️ Navigáció
+\n✔️ Hirdetésmentes
+\n✔️ Minden szolgáltatás és térkép ingyen</string>
     <string name="dialogMapsMapCount">%1$s térképek</string>
-    <string name="maptilerMapsFeatures">"🔹 MapTiler térképek
-\n       Navigáció
-\n🔹 Hirdetésmentes
-\n     Minden szolgáltatás és térkép ingyen"</string>
+    <string name="maptilerMapsFeatures">✔️ MapTiler prémium térképek
+\n✔️ Navigáció
+\n✔️ Hirdetésmentes
+\n✔️ Minden szolgáltatás és térkép ingyen</string>
     <string name="dialogMapsChooseTitle">Válassz térképet</string>
     <string name="dialogChartDataTypesTitle">Diagramtípusok</string>
     <string name="dialogLoginUsernameHint">Felhasználónév</string>
@@ -1367,11 +1371,11 @@
     <string name="dialogCopyingMessage">Másolás…</string>
     <string name="navigationContinue">Folytatni</string>
     <string name="summaryRollResistCoefAverageInfo">Átlagos gördülési ellenállási együttható, ha az együttható a tevékenység során változott.</string>
-    <string name="dialogOfflineMapsChooseMessage">A térképfájl nem található vagy nem érhető el. Válassz most más térképfájlt/mappát\?</string>
+    <string name="dialogOfflineMapsChooseMessage">A térképfájl nem található vagy nem érhető el. Választ most más térképfájlt/mappát\?</string>
     <string name="navigationAvoidTolls">Kerülje az autópályadíjakat</string>
     <string name="prefScreensaverDimBrightnessEntries_4">Hagyd úgy ahogy van</string>
     <string name="prefScreensaverTimeoutEntries_0">5 másodperc</string>
-    <string name="powerSourceWeight_3">Sofőr + jármű</string>
+    <string name="powerSourceWeight_3">Sofőr + Jármű</string>
     <string name="menuChooseFolder">Mappa</string>
     <string name="menuNarrow">Keskenyítés</string>
     <string name="toastSteadyScreenModeOff">Állandó képernyő letiltva</string>
@@ -1578,7 +1582,7 @@
     <string name="sensorProperitesFilterIntervalInfo">Szűrési intervallum, azaz a szűrő erőssége. A nagyobb értékek többet szűrnek, de több késleltetést is bevezetnek.</string>
     <string name="dialogOfflineMapsFolderCopyTitle">Másolás a térképek mappába</string>
     <string name="navigationGotOffRoute">Le az útvonalról</string>
-    <string name="powerSourceWeightInfo">A teljesítmény (watt) fajlagos teljesítményre (watt per egységnyi tömeg) átszámításakor súlyt kell megadni.
+    <string name="powerSourceWeightInfo">A teljesítmény (watt) fajlagos teljesítményre (watt / egységnyi tömeg) átszámításakor súlyt kell megadni.
 \n
 \nEz általában a hajtóerőt biztosító entitás súlya.
 \n
