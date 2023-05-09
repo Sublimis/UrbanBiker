@@ -850,8 +850,8 @@
     <string name="pref_maps_animate_title">Animasyon</string>
     <string name="pref_maps_animate_summary">Batarya tasarrufunu kapatın özellikle de takip modu açıksa</string>
     <string name="pref_maps_offline_warning_summary">Uyarı: Bazı çevrimiçi veriler çevrimdışı olunsa bile alınabilir. Gerekli görüyorsanız lütfen harita kullanmadan önce mobil interneti kapatın.</string>
-    <string name="pref_maps_routes_draw_summary">Seçili GPX rotalarını harita üzerinde noktalı çizgi olarak göster</string>
-    <string name="pref_maps_routes_info_summary">Rota navigasyonunu kolaylaştırmak için başka görsel veya işitsel ipucu verilmeyecek</string>
+    <string name="pref_maps_routes_draw_summary">Seçili GPX rotasını harita üzerinde çiz</string>
+    <string name="pref_maps_routes_info_summary">Kılavuz rota, basitçe harita üzerine çizilen takip edebileceğiniz bir çizgidir. Adım adım yönergeler için Navigasyon özelliğini kullanın.</string>
     <string name="pref_maps_quickZoom_summary">Haritanın altındaki görünmez hızlı yaklaştırma butonlarını etkinleştirir.</string>
     <string name="pref_maps_quickZoomInvert_title">Tersine Çevir</string>
     <string name="pref_maps_quickZoomInvert_summary">Yakınlaştırma/uzaklaştırma butonlarının yerlerini değiştir</string>
@@ -881,7 +881,7 @@
     <string name="prefBaroAltitudeUsesTemperatureSummary">Daha doğru barometrik yükseklik için (varsa) sıcaklık sensörü verilerini kullan</string>
     <string name="prefBarometricAltitudeNoteSummary">Bunları sadece açık havada kullanın! Araba ve uçak gibi basınçlı, kapalı veya klimalı araçlarda lütfen kapatın!</string>
     <string name="prefTemperatureSensorDerivedTitle">Harici sensör kullan</string>
-    <string name="prefTemperatureSensorDerivedSummary">Bu cihazda ortam sıcaklığı sensörü yok fakat veri harici sensörlerle elde edilebilir. Daha fazlası için Yardım.</string>
+    <string name="prefTemperatureSensorDerivedSummary">Bu cihazda ortam sıcaklığı sensörü yok fakat diğer dahili sensörler (örneğin CPU sıcaklığı) kullanılarak kaba değerler elde edilebilir.</string>
     <string name="prefPressureSensorOffsetTitle">Basınç dengesi</string>
     <string name="prefPressureSensorOffsetInfo">Bu sabit, basınç okumalarına eklenir ve varsa sensör yanlılığını azaltmak için kullanılabilir.</string>
     <string name="prefNotificationAlwaysTitle">Durum çubuğu bildirimleri</string>
@@ -1430,7 +1430,9 @@
     <string name="dialogLayoutsInfoTitle">Düzen</string>
     <string name="dialogLayoutsInfoMessage">Varsayılan ekran düzenini kolayca değiştirir.
 \n
-\nAçılır menü sayesinde ekran düzenini daha da özelleştirmek için herhangi bir alana uzun tıklayın.</string>
+\nAçılır menü sayesinde ekran düzenini daha da özelleştirmek için herhangi bir alana uzun tıklayın.
+\n
+\nEkran düzeni seçenekleri cihazın dikey kullanımında geçerlidir. Yatay durumdaki ekran düzeni diğerlerinden bağımsız olarak düzenlenebilir ve kullanılabilir.</string>
     <string name="dialogLayoutEmptyInfoMessage">Burada en az bir gösterge türü olmalı.</string>
     <string name="infoSpeedometerTitle">Hız göstergesi</string>
     <string name="prefScreensaverDimBrightnessEntries_2">Şimdiki parlaklığın ⅓\'ü</string>
@@ -1483,7 +1485,7 @@
     <string name="pref_mapsFollowMode_summary">Konumunuzu haritanın merkezinde tutar</string>
     <string name="prefSteadyScreenModeAuto">Akıllı aktif (varsayılan)</string>
     <string name="mapMarkerClickInfo">Seçenekler için tıklayın</string>
-    <string name="sensorProperitesNoAlarm">alarm verme</string>
+    <string name="sensorProperitesNoAlarm">Alarm verme</string>
     <string name="prefTrackingButtonModeTitle">Alternatif davranış</string>
     <string name="navigationContinue">Devam et</string>
     <string name="summaryRollResistCoefAverageInfo">Aktivite sırasında katsayı değişiyorsa, ortalama yuvarlanma direnci katsayısı.</string>
