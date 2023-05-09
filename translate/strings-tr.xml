@@ -852,7 +852,7 @@
     <string name="pref_maps_offline_warning_summary">Uyarı: Bazı çevrimiçi veriler çevrimdışı olunsa bile alınabilir. Gerekli görüyorsanız lütfen harita kullanmadan önce mobil interneti kapatın.</string>
     <string name="pref_maps_routes_draw_summary">Seçili GPX rotasını harita üzerinde çiz</string>
     <string name="pref_maps_routes_info_summary">Kılavuz rota, basitçe harita üzerine çizilen takip edebileceğiniz bir çizgidir. Adım adım yönergeler için Navigasyon özelliğini kullanın.</string>
-    <string name="pref_maps_quickZoom_summary">Haritanın altındaki görünmez hızlı yaklaştırma butonlarını etkinleştirir.</string>
+    <string name="pref_maps_quickZoom_summary">Haritanın altındaki görünmez hızlı yaklaştırma butonlarını etkinleştirir</string>
     <string name="pref_maps_quickZoomInvert_title">Tersine Çevir</string>
     <string name="pref_maps_quickZoomInvert_summary">Yakınlaştırma/uzaklaştırma butonlarının yerlerini değiştir</string>
     <string name="pref_maps_offline_terrain_title">Arazi oluştur</string>
@@ -1187,7 +1187,7 @@
     <string name="infoMeterModeFuncThresholdPowerMsg">Daha uzun süreler boyunca korunabilecek tahmini maksimum güç.
 \n
 \nTahmin, büyük ölçüde bu aktivitenin türüne ve süresine bağlıdır.</string>
-    <string name="infoDigitalFilterNotice">Lütfen dikkat: Bu, kaçınılmaz dijital filtreleme gecikmeleri nedeniyle bazen gerçek zamandan fark edilir derecede gecikebilir.</string>
+    <string name="infoDigitalFilterNotice">Lütfen dikkat: Bu, doğruluk için gereken kaçınılmaz dijital filtreleme gecikmeleri nedeniyle bazen gerçek zamandan fark edilir derecede gecikebilir.</string>
     <string name="controlPanelMapSettingsButtonTitle">Harita Seçenekleri</string>
     <string name="controlPanelMapSettingsButtonSubtitle">Harita seçenekleri için tıklayın</string>
     <string name="pref_screenWaveDim_title">Ekranı karart</string>
@@ -1277,7 +1277,7 @@
     <string name="pref_track_charts_summary">Her rota için çizelge olarak kaydedilecek çeşitli etkinlik parametrelerini seçin. Hız ve irtifa verileri her zaman kaydedilir.</string>
     <string name="infoMeterModeHumidityMsg">Cihazla veya harici bir sensörle ölçülen ortam bağıl nemi.</string>
     <string name="infoMeterModeRadiusTitle">Yarıçap</string>
-    <string name="infoMeterModeRadiusMsg">Parkurun başlangıç konumundan kestirme mesafe, yani yer değiştirme.</string>
+    <string name="infoMeterModeRadiusMsg">Başlangıç noktasına olan kuş uçumu mesafe.</string>
     <string name="meterModes_None">Yok</string>
     <string name="speechRadius">Yarıçap: %1$s</string>
     <string name="sensorProperitesUseForDuration">Süre için kullanın</string>
@@ -1460,23 +1460,23 @@
 \n
 \nHiç konum güncellemesi almayan alanlar (örn: iç mekanlar) bu sayıyı etkilemez.</string>
     <string name="sensorProperitesNoAlarmInfo">Sensör müsait olduğunda kullan ama müsait olmadığında uyarma. Aktivite için gerekli olmayan sensörlerde kullanışlı bir seçenektir. Varsayılan olarak kapalı.</string>
-    <string name="navigationStopPrompt">Durmak</string>
+    <string name="navigationStopPrompt">Durdur</string>
     <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ %0 ile %10 arasında değişir, varsayılan değer %1\'dir. AutoTerrain özelliğini kullanıyorsanız, uygulama genellikle daha engebeli arazide katsayıyı artıracağından, düz arazi için bir temel değer (alt sınır) varsayın.</string>
     <string name="navigationAvoidIndoor">İç mekandan kaçın</string>
     <string name="pref_soundeffects_navigation_summary">Navigasyon olaylarında ses</string>
     <string name="pref_speechNavigation_title">Navigasyon</string>
     <string name="prefBarometricAltitudeDisableAlert">Barometrik yükseklik devre dışı bırakılsın mı\?</string>
     <string name="meterVerticalWeight">Dikey ağırlık</string>
-    <string name="speechUnitManyLitersOfGasoline">litre benzin</string>
-    <string name="prefSteadyScreenNote2">Lütfen mucizeler beklemeyin. Bu özellik sizin için iyi çalışmıyorsa, devre dışı bırakın.</string>
+    <string name="speechUnitManyLitersOfGasoline">Litre benzin</string>
+    <string name="prefSteadyScreenNote2">Bu özellik, yürürken elinizde telefonun sallanması gibi yavaş hareketlerde daha iyi sonuç verir. Ayrıca sürüş esnasında bisiklete ya da arabaya sabitlenerek de kullanılabilir.</string>
     <string name="navigationAvoidFerries">Feribotlardan kaçın</string>
-    <string name="toastSteadyScreenModeActive">Sabit Ekran etkin</string>
+    <string name="toastSteadyScreenModeActive">Ekran sabitleme aktif</string>
     <string name="meterHorizontalWeight">Yatay ağırlık</string>
     <string name="prefSteadyScreenModeOff">Kapalı</string>
-    <string name="toastSteadyScreenModeIntelligentActive">SteadyScreen akıllı aktif</string>
+    <string name="toastSteadyScreenModeIntelligentActive">Ekran Sabitleme akıllı aktif</string>
     <string name="prefAutoTerrainNote2Summary">Güç sensörü kullanılarak elde edilen güç değeri bu özellikten etkilenmez.</string>
-    <string name="speechUnitOneLiterOfGasoline">litre benzin</string>
-    <string name="prefSteadyScreenModeOnInfo">İzleme sırasında SteadyScreen özelliğini her zaman aktif tutun. Bu daha fazla pil tüketebilir.</string>
+    <string name="speechUnitOneLiterOfGasoline">Litre benzin</string>
+    <string name="prefSteadyScreenModeOnInfo">İzleme sırasında Ekran Sabitleme özelliğini her zaman aktif tutun. Bu daha fazla pil tüketebilir.</string>
     <string name="unitNewtonPerKg">N/kg</string>
     <string name="pref_speechNavigation_summary">Navigasyonu konuş</string>
     <string name="navigationLoadingData">Yol tarifi yükleniyor…</string>
@@ -1491,29 +1491,29 @@
     <string name="summaryRollResistCoefAverageInfo">Aktivite sırasında katsayı değişiyorsa, ortalama yuvarlanma direnci katsayısı.</string>
     <string name="navigationAvoidTolls">Geçiş ücretlerinden kaçın</string>
     <string name="menuNarrow">Daralt</string>
-    <string name="toastSteadyScreenModeOff">Sabit Ekran devre dışı</string>
+    <string name="toastSteadyScreenModeOff">Ekran Sabitleme devre dışı</string>
     <string name="dialogLicenseUpgradeButton2">Tanıtım videosunu izleyin</string>
     <string name="prefSteadyScreenTitle">Ekran sabitleme</string>
     <string name="navigationLoadFromFilePrompt">İnternetten yeni yol tarifi yüklenirken bir hata oluştu.
 \n
 \nDaha önce kullanılan yol tariflerini bir dosyadan yüklemek istiyor musunuz\?</string>
-    <string name="prefSteadyScreenModeAutoInfo">İzleme sırasında SteadyScreen özelliğini yalnızca engebeli arazide etkinleştirin. Bu, konfor ve pil kullanımının iyi bir dengesidir.</string>
+    <string name="prefSteadyScreenModeAutoInfo">İzleme sırasında Ekran Sabitleme özelliğini yalnızca engebeli arazide etkinleştirin. Bu, konfor ve pil kullanımının iyi bir dengesidir.</string>
     <string name="menuNavigation">Gezin</string>
     <string name="menuCustomTracksFolder">Özel parça klasörü</string>
     <string name="speechNavigationWrongWay">Yanlış yol</string>
     <string name="prefTrackingButtonModeSummary">Duraklat için tıklayın veya uzun tıklayın, Durdur için ayrı düğme.</string>
     <string name="pref_mapsWeatherCoverage_summary">Yağış radarı kapsama alanı olmayan gölgeli alanlar</string>
-    <string name="speechNavigationDestinationReached">hedefe ulaştınız</string>
-    <string name="prefSteadyScreenModeOffInfo">SteadyScreen özelliğini asla etkinleştirmeyin</string>
+    <string name="speechNavigationDestinationReached">Hedefe ulaştınız</string>
+    <string name="prefSteadyScreenModeOffInfo">Ekran Sabitleme özelliğini asla etkinleştirme</string>
     <string name="prefAutoTerrainTitle">Otomatik Arazi</string>
     <string name="pref_soundeffects_tally_energy_dialog_title">Enerji çetelesi</string>
-    <string name="prefGpsBoostNoteSummary">Konum güncellemeleri, navigasyon sırasında her zaman en yüksek frekansa zorlanacaktır.</string>
+    <string name="prefGpsBoostNoteSummary">Konum güncellemeleri, navigasyon sırasında her zaman en yüksek frekansa zorlanacaktır</string>
     <string name="pref_mapsFollowAutorotateMode_summary">Seyir yönünü yukarı doğru tutar</string>
     <string name="prefNoSoundInsideFenceSummary">Alarmlar dışında çitin içindeyken ses çıkarmayın.</string>
     <string name="dialogMeterModesTitle">Kullanılabilir modları seçin</string>
     <string name="unitNewtonPerLb">N/lb</string>
     <string name="navigationDestinationReached">Hedef</string>
-    <string name="speechNavigationGotOffRoute">rotadan çıktın</string>
+    <string name="speechNavigationGotOffRoute">Rotadan çıktın</string>
     <string name="menuMove">Hareket ettir</string>
     <string name="navigationAvoidMotorways">Otoyollardan kaçın</string>
     <string name="menuWiden">Genişlet</string>
@@ -1521,7 +1521,7 @@
     <string name="prefSteadyScreenNote1">Bu özellik, engebeli arazide araç kullanırken ekranı biraz daha net görmenize yardımcı olur. Ekrandaki görüntü, harici sarsıntıya karşı koymaya çalışan hızlı küçük hareketler uygulanarak dengelenir.</string>
     <string name="speechNavigationContinue">Devam et</string>
     <string name="pref_mapsWeatherCoverage_title">kapsama maskesi</string>
-    <string name="infoMeterModeVibrationsMsg">Cihazla ölçülen titreşimler. Cihaz elde veya cepte değil, bir araca sabit tutulduğunda (örneğin bisiklet gidonunda) kullanışlıdır.</string>
+    <string name="infoMeterModeVibrationsMsg">Cihazla ölçülen titreşimler. Cihaz elde veya cepte kullanılmadığında, bir araca (örneğin bisiklet gidonuna) sabit tutulduğunda kullanışlıdır.</string>
     <string name="dialogOfflineMapsFolderCopyMessage">Seçilen içeriğin kullanılabilmesi için uygulamaya özel haritalar klasörüne kopyalanması gerekir.
 \n
 \nBunu şimdi yap\?</string>
@@ -1537,24 +1537,26 @@
     <string name="prefAutoTerrainSummary">Titreşimleri ölçerek arazi pürüzlülüğünü algılar ve gücü hesaplarken yuvarlanma direnci katsayısını (Cᵣᵣ) buna göre ayarlar.</string>
     <string name="pref_soundeffects_navigation_title">Navigasyon</string>
     <string name="toastLocationUnavailable">Konumunuz hala mevcut değil</string>
-    <string name="navigationHidePrompt">Saklamak</string>
-    <string name="speechUnitTwoLitersOfGasoline">litre benzin</string>
+    <string name="navigationHidePrompt">Gizle</string>
+    <string name="speechUnitTwoLitersOfGasoline">Litre benzin</string>
     <string name="navigationWrongWay">Yanlış yol</string>
     <string name="menuHideTotals">Toplamları gizle</string>
-    <string name="pref_gps_update_freq_entries_1">uyarlanabilir</string>
+    <string name="pref_gps_update_freq_entries_1">Uyarlanabilir</string>
     <string name="tracksHistoryGrantAccess">Parçalar mı eksik\?
 \nÖzel bir parça klasörüne salt okunur erişim vermek için burayı tıklayın…</string>
     <string name="navigationStepsInfo">Siz hareket ettikçe navigasyon talimatları burada görünecektir. Bu paneli istediğiniz gibi gizleyin veya kaydırın.</string>
-    <string name="licenseUpgradeTitle">lisansınızı yükseltin</string>
+    <string name="licenseUpgradeTitle">Lisansınızı yükseltin</string>
     <string name="navigationRouteNotFound">Üzgünüz, o hedefe giden rota bulunamadı</string>
     <string name="unitGAccel">g</string>
     <string name="dialogLicenseUpgradeMessage">Bu özellik, abonelik lisansı gerektirir.
 \n
 \nAlternatif olarak, ücretsiz kredi almak için kısa bir tanıtım videosu izleyebilirsiniz.</string>
     <string name="prefOnlineMapsProviderTitle">Çevrimiçi harita sağlayıcı</string>
-    <string name="navigationGotOffRoute">rota dışı</string>
+    <string name="navigationGotOffRoute">Rota dışı</string>
     <string name="pref_mapsLayerHeatmap_info">Bu yeni yerler keşfetmenize yardımcı olabilir, özellikle de uzak bölgeleri.</string>
     <string name="dialogMapsShowHeatmap">Isı haritası</string>
     <string name="pref_mapsLayerHeatmap_summary">Son bir yıl içindeki toplanmış bütün topluluk hareketlerini göster</string>
     <string name="pref_mapsLayerHeatmap_title">Isı haritası</string>
+    <string name="dialogMapsAutoZoomSensitivity">Otomatik yaklaştırma hassasiyeti</string>
+    <string name="pref_mapsFollowAutoZoomSensitivity_info">Kayıt sırasında yakınlaştırma/uzaklaştırma yaparak otomatik yakınlaştırma hassasiyetini ayarlayabilirsiniz</string>
 </resources>
