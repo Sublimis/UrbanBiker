@@ -569,6 +569,8 @@
     <string name="meterModeHumidityShort">hum</string>
     <string name="meterModeClock">clock</string>
     <string name="meterModeClockShort">clk</string>
+    <string name="meterModeBattery">battery</string>
+    <string name="meterModeBatteryShort">batt</string>
     <string name="meterModeWriggle">wriggle</string>
     <string name="meterModeWriggleShort">wrig</string>
     <string name="meterModeAltitudeAscent">ascent</string>
@@ -1210,6 +1212,9 @@
     <string name="prefSteadyScreenTitle">Screen stabilization</string>
     <string name="prefSteadyScreenNote1">This feature helps you to see the screen a bit clearly while on the go. The image on the screen is stabilized by applying rapid small movements that try to counteract external shaking.</string>
     <string name="prefSteadyScreenNote2">This works best for slower movements, such as phone swaying in hand while walking, but also on handlebars while riding or in a car while driving.</string>
+    <string name="prefGpsIntervalAdaptiveTitle">Adaptive</string>
+    <string name="prefGpsIntervalAdaptiveSummary">Automatically adjust the GPS update interval between 1 and 5 seconds, depending on speed.</string>
+    <string name="prefGpsIntervalAdaptiveNote">Adaptive update intervals can help reduce battery consumption when moving slowly or taking frequent breaks.</string>
 
     <string name="infoMeterModeDistanceTitle">Distance</string>
     <string name="infoMeterModeDistanceMsg">Distance traveled.</string>
@@ -1259,6 +1264,8 @@
     <string name="infoMeterModeHumidityMsg">Ambient relative humidity as measured with the device or an external sensor.</string>
     <string name="infoMeterModeClockTitle">Clock</string>
     <string name="infoMeterModeClockMsg">Current time of the day.</string>
+    <string name="infoMeterModeBatteryTitle">Battery</string>
+    <string name="infoMeterModeBatteryMsg">Battery level of this Android device.</string>
     <string name="infoMeterModeCadenceTitle">Cadence</string>
     <string name="infoMeterModeCadenceMsg">Number of revolutions of the crank per minute, i.e. pedalling rate.</string>
     <string name="infoMeterModeHeartRateTitle">Heart rate</string>
@@ -1325,6 +1332,7 @@
     <string name="meterModes_19">Heart rate</string>
     <string name="meterModes_20">Gear ratio</string>
     <string name="meterModes_21">Clock</string>
+    <string name="meterModes_33">Battery</string>
     <string name="meterModes_30">Radius</string>
     <string name="meterModes_22">Wriggle</string>
     <string name="meterModes_23">Temperature</string>
@@ -1338,7 +1346,7 @@
 
     <!-- pref_gps_update_freq_entries -->
     <string name="pref_gps_update_freq_entries_0">Fastest</string>
-    <string name="pref_gps_update_freq_entries_1">Adaptive</string>
+<!--    <string name="pref_gps_update_freq_entries_1">Adaptive</string>-->
     <string name="pref_gps_update_freq_entries_2">Default</string>
     <string name="pref_gps_update_freq_entries_3">1 sec</string>
     <string name="pref_gps_update_freq_entries_4">2 sec</string>
