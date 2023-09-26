@@ -875,6 +875,7 @@
     <string name="pref_category_goto_title" translatable="false">@null</string>
     <string name="pref_category_mapsQuickZoom">QuickZoom</string>
     <string name="pref_category_mapsCache">Cache</string>
+    <string name="pref_category_onlineElevation_title">Online elevation</string>
     <string name="prefAllProfilesInfoSummary">Preferences here are applicable to all profiles.</string>
     <string name="prefOnlineMapsProviderTitle">Online map provider</string>
 
@@ -1215,6 +1216,11 @@
     <string name="prefGpsIntervalAdaptiveTitle">Adaptive</string>
     <string name="prefGpsIntervalAdaptiveSummary">Automatically adjust the GPS update interval between 1 and 5 seconds, depending on speed.</string>
     <string name="prefGpsIntervalAdaptiveNote">Adaptive update intervals can help reduce battery consumption when moving slowly or taking frequent breaks.</string>
+    <string name="prefOnlineElevationTitle">Online elevation</string>
+    <string name="prefOnlineElevationSummary">Use elevation data from the Internet to increase altitude baseline accuracy. Enabled by default.</string>
+    <string name="prefOnlineElevationNoteSummary1">To save battery and data, only one elevation point will be acquired from the Internet when you start tracking a new track. This is enough for the rest of the track to have a more accurate altitude baseline.</string>
+    <string name="prefOnlineElevationNoteSummary2">If the Internet or the license is not available, the app will continue to work without correcting the altitude.</string>
+    <string name="prefOnlineElevationNoteSummary3">This only works if a subscription license is available (Ultimate license, or one of the maps licenses).</string>
 
     <string name="infoMeterModeDistanceTitle">Distance</string>
     <string name="infoMeterModeDistanceMsg">Distance traveled.</string>
@@ -1595,7 +1601,7 @@
     <!-- prefAdModes -->
     <string name="prefAdModes_0">Any</string>
     <string name="prefAdModes_1">Google</string>
-    <string name="prefAdModes_2">AppBrain</string>
+<!--    <string name="prefAdModes_2">AppBrain</string>-->
     <string name="prefAdModes_3">None</string>
 
 
