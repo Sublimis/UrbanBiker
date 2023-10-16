@@ -724,7 +724,7 @@
     <string name="prefNotificationAlwaysTitle">Notificação persistente</string>
     <string name="prefNotificationAlwaysSummary">Mostrar sempre o ícone de notificação da Aplicação na barra de status. (Não apenas quando um percurso estiver ativo).</string>
     <string name="prefMapDiskCacheSizeTitle">Limite do tamanho da cache de mapas</string>
-    <string name="prefMapDiskCacheSizeSummary">Ao visualizar um mapa, tanto on-line como off-line, as zonas são armazenadas em cache localmente para reduzir a necessidade de downloads ou recreações repetidas. Isso acelera o carregamento do mapa e economiza bateria.</string>
+    <string name="prefMapDiskCacheSizeSummary">Ao visualizar um mapa, tanto online como offline, as zonas são armazenadas em cache localmente para reduzir a necessidade de downloads ou recreações repetidas. Isso acelera o carregamento do mapa e economiza bateria.</string>
     <string name="prefProhibitLocationTitle">Não usar Localização</string>
     <string name="prefProhibitLocationSummary">Evitar GPS durante a atividade</string>
     <string name="prefMapTrackColorTitle">Cor do Percurso</string>
@@ -1012,23 +1012,28 @@
     <string name="ultimateLicenseDescription">Licença mais poderosa para a melhor experiência</string>
     <string name="ultimateLicenseFeatures">✔️ Todos os mapas premium
 \n✔️ Navegação
+\n✔️ Linha de base de altitude online
 \n✔️ Sem anúncios
 \n✔️ Todos os recursos e mapas gratuitos</string>
     <string name="proPlusLicenseFeatures">❌ Mapas premium
 \n❌ Navegação
+\n❌️ Linha de base de altitude online
 \n✔️ Sem anúncios
 \n✔️ Todos os recursos e mapas gratuitos
 \n➕ Doação extra</string>
     <string name="proLicenseFeatures">❌ mapas premium
 \n❌ Navegação
+\n❌️ Linha de base de altitude online
 \n✔️ Sem anúncios
 \n✔️ Todos os recursos e mapas gratuitos</string>
     <string name="thunderforestMapsFeatures">✔️ Mapas Thunderforest premium
 \n✔️ Navegação
+\n✔️ Linha de base de altitude online
 \n✔️ Sem anúncios
 \n✔️ Todos os recursos e mapas gratuitos</string>
     <string name="mapboxMapsFeatures">✔️ Mapas Mapbox premium
 \n✔️ Navegação
+\n✔️ Linha de base de altitude online
 \n✔️ Sem anúncios
 \n✔️ Todos os recursos e mapas gratuitos</string>
     <string name="priceFree">Gratuito</string>
@@ -1232,11 +1237,13 @@
     <string name="cloudAccountsPowerUploadPolicy_1">Carregar dados de Potência só quando o medidor de Potência foi usado</string>
     <string name="hereMapsFeatures">✔️ Mapas HERE premium
 \n✔️ Navegação
+\n✔️ Linha de base de altitude online
 \n✔️ Sem anúncios
 \n✔️ Todos os recursos e mapas gratuitos</string>
     <string name="dialogMapsMapCount">%1$s mapas</string>
     <string name="maptilerMapsFeatures">✔️ Mapas MapTiler premium
 \n✔️ Navegação
+\n✔️ Linha de base de altitude online
 \n✔️ Sem anúncios
 \n✔️ Todos os recursos e mapas gratuitos</string>
     <string name="dialogMapsChooseTitle">Escolher Mapa</string>
@@ -1496,6 +1503,7 @@
     <string name="dialogLayoutChooseSubtitle">Escolher layout de exibição</string>
     <string name="freeLicenseFeatures">❌ Mapas premium
 \n❌ Navegação
+\n❌️ Linha de base de altitude online
 \n❌ Sem anúncios
 \n✔️ Todos os recursos e mapas gratuitos</string>
     <string name="freeLicenseTitle">Licença Gratuita</string>
@@ -1551,7 +1559,7 @@
     <string name="dialogLicenseUpgradeMessage">Este recurso requer subscrição de uma licença.
 \n
 \nComo alternativa, você pode assistir a um pequeno vídeo promocional para obter crédito gratuito.</string>
-    <string name="prefOnlineMapsProviderTitle">Fornecedor de mapas on-line</string>
+    <string name="prefOnlineMapsProviderTitle">Fornecedor de mapas online</string>
     <string name="navigationGotOffRoute">Fora da rota</string>
     <string name="prefSteadyScreenNote2">Isso funciona melhor para movimentos mais lentos, como balançar o telefone na mão enquanto caminha, mas também no guiador enquanto anda de bicicleta ou num carro enquanto conduz.</string>
     <string name="toastSteadyScreenModeActive">Estabilização de Ecrã ativo</string>
@@ -1588,4 +1596,6 @@
     <string name="prefOnlineElevationTitle">Elevação online</string>
     <string name="prefOnlineElevationNoteSummary3">Isto só funciona se uma licença de assinatura estiver disponível (licença Ultimate ou uma das licenças de mapas).</string>
     <string name="prefOnlineElevationSummary">Usar dados de elevação da Internet para aumentar a precisão da linha de base da altitude. Ativado por padrão.</string>
+    <string name="menuMeterResume">Retomar</string>
+    <string name="controlPanelFlashlight">Lanterna</string>
 </resources>
