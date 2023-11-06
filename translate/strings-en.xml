@@ -158,10 +158,12 @@
     <string name="menuInsertRight">Right</string>
     <string name="menuInsertAbove">Above</string>
     <string name="menuInsertBelow">Below</string>
-    <string name="menuInsertMeter">Insert meter</string>
-    <string name="menuInsertSpeedo">Insert speedometer</string>
+    <string name="menuInsertMeter">Meter</string>
+    <string name="menuInsertSpeedo">Speedometer</string>
+    <string name="menuInsertRecButton">Rec button</string>
     <string name="menuMove">Move</string>
     <string name="menuRemove">Remove</string>
+    <string name="menuRemoveRecButton">Remove Rec button</string>
     <string name="menuReset">Reset</string>
     <string name="menuProperties">Properties…</string>
     <string name="menuShowTotals">Show totals</string>
@@ -221,6 +223,7 @@
     <string name="toastContrastButtonClickInfo">Automatic visual theme is active</string>
     <string name="toastFlashlightButtonClickInfo">Long-click to toggle the flashlight</string>
     <string name="toastRoarButtonClickInfo">Long-click to toggle the AVAS sound</string>
+    <string name="toastAutoBellButtonClickInfo">Long-click to toggle the auto bell sound</string>
     <string name="toastMapButtonClickInfo">Long-click to toggle the map</string>
     <string name="toastMapClickInfo">Long-tap for map options</string>
     <string name="toastMapFollowingOn">Follow on</string>
@@ -248,6 +251,7 @@
     <string name="toastSteadyScreenModeActive">SteadyScreen active</string>
     <string name="toastSteadyScreenModeIntelligentActive">SteadyScreen intelligent active</string>
     <string name="toastSteadyScreenModeOff">SteadyScreen disabled</string>
+    <string name="toastGpsIntervalAdaptiveActive">Adaptive update interval is active</string>
 
     <string name="notificationTitle" translatable="false">@string/app_name</string>
     <string name="notificationTitleAdvanced" translatable="false">%1$s</string>
@@ -436,6 +440,10 @@
     <string name="dialogLayoutsInfoMessage">Quickly change display layout from a set of predefined layouts.\n\nThen long-click any field to further customize the display via pop-up menus.\n\nPortrait and landscape screen orientations have completely independent layouts.</string>
     <string name="dialogWeatherInfoTitle" translatable="false">@string/dialogMapsWeatherRadar</string>
     <string name="dialogWeatherInfoMessage">Radar data is updated every 10 minutes. Filled icon indicates fresh data, empty icon means an update is near.\n\nYellow and red colors show areas of more precipitation.\n\nLast 1 hour of radar data can be animated to reveal precipitation trends.</string>
+    <string name="dialogRecButtonInsertTitle">Insert Rec button</string>
+    <string name="dialogRecButtonInsertMessage">This will insert the Rec button here and remove it from the button bar. Continue?</string>
+    <string name="dialogRecButtonRemoveTitle">Remove Rec button</string>
+    <string name="dialogRecButtonRemoveMessage">This will put the Rec button back to the button bar. Continue?</string>
 
     <!-- dialog_fenceguard_add_entries -->
     <string name="dialog_fenceguard_add_entries_0">Add fence</string>
@@ -849,7 +857,7 @@
     <string name="pref_category_fonts_title">Font</string>
     <string name="pref_category_buttons_title">Buttons</string>
     <string name="pref_category_meters_title">Meters</string>
-    <string name="pref_categoryTrackingButtonTitle">Tracking button</string>
+    <string name="pref_categoryTrackingButtonTitle">Rec button</string>
     <string name="pref_group_meters_title">Meters</string>
     <string name="pref_meterTitle">Meter</string>
     <string name="pref_group_maps_title">Maps</string>
@@ -1208,7 +1216,7 @@
     <string name="prefAutoTerrainNote2Summary">Powers obtained using a power sensor are not affected by this feature.</string>
     <string name="prefMeterSettingsNoteSummary">More settings are available via a menu accessed by long-clicking on a meter field.</string>
     <string name="prefTrackingButtonModeTitle">Alternative behavior</string>
-    <string name="prefTrackingButtonModeSummary">Click or long-click for Pause, separate button for Stop.</string>
+    <string name="prefTrackingButtonModeSummary">(All profiles) Click or long-click for Pause, separate button for Stop.</string>
     <string name="prefGpsBoostNoteSummary">Location updates will always be forced to the highest frequency during navigation</string>
     <string name="prefNoSoundInsideFenceTitle">No sounds inside fence</string>
     <string name="prefNoSoundInsideFenceSummary">Do not make sounds while inside a fence, except for the alarms.</string>
@@ -1223,6 +1231,8 @@
     <string name="prefOnlineElevationNoteSummary1">To save battery and data, only one elevation point will be acquired from the Internet when you start tracking a new track. This is enough for the rest of the track to have a more accurate altitude baseline.</string>
     <string name="prefOnlineElevationNoteSummary2">If the Internet or the license is not available, the app will continue to work without correcting the altitude.</string>
     <string name="prefOnlineElevationNoteSummary3">This only works if a subscription license is available (Ultimate license, or one of the maps licenses).</string>
+    <string name="prefTrackingButtonFreePlacementTitle">Free Rec button placement</string>
+    <string name="prefTrackingButtonFreePlacementSummary">(All profiles) Allows the Rec button to be placed anywhere in the layout. When disabled, the Rec button will be fixed on the button bar.</string>
 
     <string name="infoMeterModeDistanceTitle">Distance</string>
     <string name="infoMeterModeDistanceMsg">Distance traveled.</string>
