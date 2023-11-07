@@ -102,7 +102,7 @@
     <string name="toastContrastButtonClickInfo">Автоматическая визуальная тема активирована</string>
     <string name="toastFlashlightButtonClickInfo">Долгое нажатие включает фонарик</string>
     <string name="toastRoarButtonClickInfo">Долгое нажатие включает/отключает звуки AVAS</string>
-    <string name="toastMapButtonClickInfo">Долгое нажатие включает режим карты</string>
+    <string name="toastMapButtonClickInfo">Долгое нажатие переключает режим карты</string>
     <string name="toastMapFollowingOn">Следование возобновлено</string>
     <string name="toastMapFollowingAutorotate">Автоповорот включён</string>
     <string name="toastMapFollowingOff">Следование отключено</string>
@@ -1464,7 +1464,7 @@
     <string name="pref_meterTitle">Счётчик</string>
     <string name="menuSpeedoDisplayMode">Режим отображения</string>
     <string name="dialogLayoutEmptyInfoMessage">Должен присутствовать по крайней мере один счётчик.</string>
-    <string name="pref_categoryTrackingButtonTitle">Кнопка записи трека</string>
+    <string name="pref_categoryTrackingButtonTitle">Кнопка записи</string>
     <string name="menuInsertAbove">Сверху</string>
     <string name="menuProperties">Свойства…</string>
     <string name="dialogLayoutChooseTitle">Компоновка</string>
@@ -1476,7 +1476,7 @@
     <string name="dialogLayoutChoosePrompt">Текущая компоновка будет заменена.
 \n
 \nПрименить выбранную компоновку\?</string>
-    <string name="prefTrackingButtonModeSummary">Нажатие или удержание для паузы, отдельная кнопка для остановки.</string>
+    <string name="prefTrackingButtonModeSummary">(Все профили) Нажатие или удержание для паузы, отдельная кнопка для остановки.</string>
     <string name="menuInsertBelow">Снизу</string>
     <string name="menuMeter">Счётчик</string>
     <string name="dialogLayoutEmptyInfoTitle">Компоновка</string>
@@ -1604,4 +1604,9 @@
     <string name="menuMeterResume">Возобновить</string>
     <string name="controlPanelFlashlight">Фонарик</string>
     <string name="menuInsertRecButton">Кнопка записи</string>
+    <string name="menuRemoveRecButton">Убрать кнопку записи</string>
+    <string name="dialogRecButtonInsertTitle">Вставить кнопку записи</string>
+    <string name="prefTrackingButtonFreePlacementTitle">Произвольное размещение кнопки записи</string>
+    <string name="toastAutoBellButtonClickInfo">Долгое нажатие переключает звука автозвонка</string>
+    <string name="dialogRecButtonRemoveTitle">Убрать кнопку записи</string>
 </resources>
