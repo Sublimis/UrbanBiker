@@ -444,6 +444,7 @@
     <string name="dialogRecButtonInsertMessage">This will insert the Rec button here and remove it from the button bar. Continue?</string>
     <string name="dialogRecButtonRemoveTitle">Remove Rec button</string>
     <string name="dialogRecButtonRemoveMessage">This will put the Rec button back to the button bar. Continue?</string>
+    <string name="dialogLayoutRemoveEntryMessage">Remove this field?</string>
 
     <!-- dialog_fenceguard_add_entries -->
     <string name="dialog_fenceguard_add_entries_0">Add fence</string>
@@ -886,6 +887,7 @@
     <string name="pref_category_mapsQuickZoom">QuickZoom</string>
     <string name="pref_category_mapsCache">Cache</string>
     <string name="pref_category_onlineElevation_title">Online elevation</string>
+    <string name="pref_category_mapsRenderer">Renderer</string>
     <string name="prefAllProfilesInfoSummary">Preferences here are applicable to all profiles.</string>
     <string name="prefOnlineMapsProviderTitle">Online map provider</string>
 
@@ -1233,6 +1235,9 @@
     <string name="prefOnlineElevationNoteSummary3">This only works if a subscription license is available (Ultimate license, or one of the maps licenses).</string>
     <string name="prefTrackingButtonFreePlacementTitle">Free Rec button placement</string>
     <string name="prefTrackingButtonFreePlacementSummary">(All profiles) Allows the Rec button to be placed anywhere in the layout. When disabled, the Rec button will be fixed on the button bar.</string>
+    <string name="prefGoogleMapsRendererTitle" translatable="false">@null</string>
+    <string name="prefGoogleMapsRendererSummary">Current: %1$s</string>
+    <string name="prefGoogleMapsRendererInfo">Specifies which renderer type you prefer to use to display the maps. Legacy renderer may use fewer resources, while the latest one usually has more features or a better design.</string>
 
     <string name="infoMeterModeDistanceTitle">Distance</string>
     <string name="infoMeterModeDistanceMsg">Distance traveled.</string>
@@ -1609,6 +1614,11 @@
     <string name="sensorFilterInterval_1">5 seconds</string>
     <string name="sensorFilterInterval_2">7 seconds</string>
     <string name="sensorFilterInterval_3">10 seconds</string>
+
+    <!-- prefGoogleMapsRenderer -->
+    <string name="prefGoogleMapsRenderer_0">Default</string>
+    <string name="prefGoogleMapsRenderer_1">Legacy</string>
+    <string name="prefGoogleMapsRenderer_2">Latest</string>
 
     <!-- prefAdModes -->
     <string name="prefAdModes_0">Any</string>
