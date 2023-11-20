@@ -75,6 +75,7 @@
     <string name="buttonUnderstand">I understand</string>
     <string name="buttonLater">Later</string>
     <string name="buttonShow">Show</string>
+    <string name="buttonProceed">Proceed</string>
 
     <string name="na">N/A</string>
     <string name="loading">Loading…</string>
@@ -1235,6 +1236,7 @@
     <string name="prefOnlineElevationNoteSummary3">This only works if a subscription license is available (Ultimate license, or one of the maps licenses).</string>
     <string name="prefTrackingButtonFreePlacementTitle">Free Rec button placement</string>
     <string name="prefTrackingButtonFreePlacementSummary">(All profiles) Allows the Rec button to be placed anywhere in the layout. When disabled, the Rec button will be fixed on the button bar.</string>
+    <string name="prefGoogleMapsRendererDialogTitle" translatable="false">@string/pref_category_mapsRenderer</string>
     <string name="prefGoogleMapsRendererTitle" translatable="false">@null</string>
     <string name="prefGoogleMapsRendererSummary">Current: %1$s</string>
     <string name="prefGoogleMapsRendererInfo">Specifies which renderer type you prefer to use to display the maps. Legacy renderer may use fewer resources, while the latest one usually has more features or a better design.</string>
@@ -1416,8 +1418,8 @@
     <string name="pref_wakelock_modes_explanation_3">Obey behaviour imposed by the system and/or other apps. Warning: May cause highly irregular location updates or even reject them all. Not recommended.</string>
 
     <!-- pref_locationProvider_modes -->
-    <string name="pref_locationProvider_modes_1">Google Play services (default)</string>
-    <string name="pref_locationProvider_modes_0">GPS subsystem</string>
+    <string name="pref_locationProvider_modes_0">GPS subsystem (default)</string>
+    <string name="pref_locationProvider_modes_1">Google Play services</string>
 
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(All profiles) Use GPS subsystem directly. Stable, less complex model, no middleman. May also use less resources than the other provider.</string>
