@@ -859,8 +859,8 @@
     <string name="pref_wakelock_modes_explanation_2">Разрешить ЦП засыпать между обновлениями местоположения. Может расходовать меньший заряд батареи, но в редких случаях может привести к пропускам обновления местоположения.</string>
     <string name="pref_wakelock_modes_explanation_3">Соблюдать условия, наложенные системой и/или другими приложениями. Внимание: может привести к очень редким обновлениям местоположения или даже к полному их неполучению. Не рекомендуется.</string>
     <!-- pref_locationProvider_modes -->
-    <string name="pref_locationProvider_modes_0">Подсистема GPS</string>
-    <string name="pref_locationProvider_modes_1">Сервисы Google Play (по умолчанию)</string>
+    <string name="pref_locationProvider_modes_0">Подсистема GPS (по умолчанию)</string>
+    <string name="pref_locationProvider_modes_1">Сервисы Google Play</string>
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Все профили) Использовать подсистему GPS напрямую. Стабильнее, более простая модель, нет посредников. Также может расходовать меньше ресурсов, чем другие поставщики координат.</string>
     <string name="pref_locationProvider_modes_explanation_1">(Все профили) Если доступно, использовать «встроенного» поставщика из сервисов Google Play. В теории иногда может давать быстрое и более точное определение местоположения.</string>
@@ -1621,4 +1621,5 @@
     <string name="prefGoogleMapsRenderer_2">Современная</string>
     <string name="prefGoogleMapsRendererInfo">Указывается предпочитаемое средство визуализации для отображения карт. Устаревшее может использовать меньше ресурсов, в то время как современное обычно имеет больше возможностей или лучший дизайн.</string>
     <string name="prefGoogleMapsRenderer_1">Устаревшая</string>
+    <string name="buttonProceed">Продолжить</string>
 </resources>
