@@ -365,7 +365,7 @@
     <string name="pref_screen_allow_off_inactive_title">Hareketsizken ekranı kapat</string>
     <string name="pref_screen_allow_off_inactive_summary">Eğer işlem yapılmazsa birkaç dakika içinde ekranı kapatır</string>
     <string name="pref_above_lockscreen_title">Kilit ekranının üstünde</string>
-    <string name="pref_above_lockscreen_summary">Kilitliyken açılırsa uygulama direk açılır</string>
+    <string name="pref_above_lockscreen_summary">Cihaz kapansa bile uygulama görünür kalır</string>
     <string name="pref_ring_on_stop_title">Durunca zil çal</string>
     <string name="pref_ring_on_stop_summary">Hız sıfıra düştüğünde zil çalar</string>
     <string name="pref_obey_audio_focus_disable_title">Ses Odaklamayı Devre dışı bırak</string>
@@ -851,7 +851,7 @@
     <string name="pref_maps_offline_warning_summary">Uyarı: Bazı çevrimiçi veriler çevrimdışı olunsa bile alınabilir. Gerekli görüyorsanız lütfen harita kullanmadan önce mobil interneti kapatın.</string>
     <string name="pref_maps_routes_draw_summary">Seçili GPX rotasını harita üzerinde çiz</string>
     <string name="pref_maps_routes_info_summary">Kılavuz rota, basitçe harita üzerine çizilen takip edebileceğiniz bir çizgidir. Adım adım yönergeler için Navigasyon özelliğini kullanın.</string>
-    <string name="pref_maps_quickZoom_summary">Haritanın altındaki görünmez hızlı yaklaştırma butonlarını etkinleştirir</string>
+    <string name="pref_maps_quickZoom_summary">Haritanın altındaki görünmez hızlı yakınlaştırma butonlarını etkinleştirir</string>
     <string name="pref_maps_quickZoomInvert_title">Tersine Çevir</string>
     <string name="pref_maps_quickZoomInvert_summary">Yakınlaştırma/uzaklaştırma butonlarının yerlerini değiştir</string>
     <string name="pref_maps_offline_terrain_title">Arazi oluştur</string>
@@ -1555,7 +1555,7 @@
     <string name="dialogMapsShowHeatmap">Isı haritası</string>
     <string name="pref_mapsLayerHeatmap_summary">Son bir yıl içindeki toplanmış bütün topluluk hareketlerini göster</string>
     <string name="pref_mapsLayerHeatmap_title">Isı haritası</string>
-    <string name="dialogMapsAutoZoomSensitivity">Otomatik yaklaştırma hassasiyeti</string>
+    <string name="dialogMapsAutoZoomSensitivity">Otomatik yakınlaştırma hassasiyeti</string>
     <string name="pref_mapsFollowAutoZoomSensitivity_info">Kayıt sırasında yakınlaştırma/uzaklaştırma yaparak otomatik yakınlaştırma hassasiyetini ayarlayabilirsiniz</string>
     <string name="menuRemoveRecButton">Kayıt butonunu kaldır</string>
     <string name="prefGpsIntervalAdaptiveSummary">GPS güncelleme aralığını hıza göre 1 ila 5 saniye arasında otomatik ayarlar.</string>
@@ -1581,4 +1581,5 @@
     <string name="dialogRecButtonInsertTitle">Kayıt butonu ekle</string>
     <string name="dialogRecButtonRemoveMessage">Kayıt butonu buton çubuğuna geri dönecek. Devam\?</string>
     <string name="meterModeBatteryShort">Pil</string>
+    <string name="prefTrackingButtonFreePlacementTitle">Hareketli kayıt butonu</string>
 </resources>
