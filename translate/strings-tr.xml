@@ -384,7 +384,7 @@
     <string name="pref_roaring_mode_title">Mod</string>
     <string name="pref_roaring_mode_dialog_title">Sesli Uyarı modu</string>
     <string name="pref_fenceguard_title">FenceGuard</string>
-    <string name="pref_fenceguard_summary">Ev, iş yeri gibi yerlerde konumuzunu korur</string>
+    <string name="pref_fenceguard_summary">Kaydedilmiş rotalarda evinizin ya da diğer önemli yerlerin konumunun açığa çıkmasını engeller</string>
     <string name="pref_autopause_mode_dialog_title">Oto duraklama</string>
     <string name="pref_soundeffects_title">Aktif</string>
     <string name="pref_soundeffects_fence_enterleave_title">Fence</string>
@@ -786,11 +786,11 @@
     <string name="meterTextTotal">Top</string>
     <string name="controlPanelSoundAutoBell">Otomatik Zil</string>
     <string name="controlPanelSoundRoar">Sesli Uyarı</string>
-    <string name="controlPanelSoundTallies">Kat edilen uzunluklar</string>
+    <string name="controlPanelSoundTallies">Çetele</string>
     <string name="controlPanelSoundVolume">Birimler</string>
     <string name="controlPanelEnergyParams">Güç/Enerji parametreleri</string>
-    <string name="profilesListRowTotalsSince">%1$s \'dan toplam</string>
-    <string name="profilesListProfileNotUsed">(Deaktif)</string>
+    <string name="profilesListRowTotalsSince">%1$s \'dan beri</string>
+    <string name="profilesListProfileNotUsed">(hiç kullanılmadı)</string>
     <string name="cloudAccountsTitle">Hesaplar</string>
     <string name="cloudAccountsInfo">Bir bulut servisine bağlanmak, rotalarınızı yüklemenizi ve başkalarıyla paylaşmanızı kolaylaştırır.
 \n
@@ -805,7 +805,7 @@
     <string name="pref_category_stationary_exercise_title">Sabit Egzersiz</string>
     <string name="pref_category_resetPrompt_title">Komutu sıfırla</string>
     <string name="pref_category_tracking_title">Takip Ediliyor</string>
-    <string name="pref_category_tracking_gps_title">Takipte / GPS</string>
+    <string name="pref_category_tracking_gps_title">Kayıt / GPS</string>
     <string name="pref_category_maps_offline_terrain_title">Arazi</string>
     <string name="pref_category_maps_routes_title">Rehber Rotalar</string>
     <string name="pref_category_haptic_title">Dokunsal geribildirim</string>
@@ -821,7 +821,7 @@
     <string name="prefAllProfilesInfoSummary">Buradaki tercihler tüm profillere uygulanır.</string>
     <string name="pref_units_power_dialog_title">Toplam güç birimleri</string>
     <string name="pref_volume_summary_text">Zil: %1$s, Sesli Uyarı: %2$s
-\nKat edilen Mesafeler: %3$s, Etkiler: %4$s, Alarmlar: %5$s, Sesli Bildiri: %6$s</string>
+\nÇetele: %3$s, Etkiler: %4$s, Alarmlar: %5$s, Sesli Bildiri: %6$s</string>
     <string name="pref_visualThemeAutoSummary">Çevre aydınlatmasına bağlı olarak açık veya koyu temalar uygular</string>
     <string name="pref_screenAutoPocketMode_title">Cep Modu</string>
     <string name="pref_screenAutoPocketMode_summary">(Tüm profiller için) Gerekmediğinde ekranı kapalı tutmak için yakınlık sensörünü kullanın</string>
@@ -848,7 +848,7 @@
     <string name="pref_maps_fences_draw_summary">Harita üzerinde FenceGuard korumalı bölgeleri göster</string>
     <string name="pref_maps_animate_title">Animasyon</string>
     <string name="pref_maps_animate_summary">Batarya tasarrufunu kapatın özellikle de takip modu açıksa</string>
-    <string name="pref_maps_offline_warning_summary">Uyarı: Bazı çevrimiçi veriler çevrimdışı olunsa bile alınabilir. Gerekli görüyorsanız lütfen harita kullanmadan önce mobil interneti kapatın.</string>
+    <string name="pref_maps_offline_warning_summary">Uyarı: Bazı çevrimiçi veriler çevrimdışı harita kullanılırken bile indirilebilir. Gerekli görüyorsanız lütfen harita kullanmadan önce mobil veriyi kapatın.</string>
     <string name="pref_maps_routes_draw_summary">Seçili GPX rotasını harita üzerinde çiz</string>
     <string name="pref_maps_routes_info_summary">Kılavuz rota, basitçe harita üzerine çizilen takip edebileceğiniz bir çizgidir. Adım adım yönergeler için Navigasyon özelliğini kullanın.</string>
     <string name="pref_maps_quickZoom_summary">Haritanın altındaki görünmez hızlı yakınlaştırma butonlarını etkinleştirir</string>
@@ -1061,7 +1061,7 @@
     <string name="pref_category_maps_weather_title">Hava</string>
     <string name="pref_mapsWeatherPrecipitationRadar_title">Yağış radarı</string>
     <string name="pref_mapsWeatherPrecipitationRadar_summary">Yağış radarını göster</string>
-    <string name="pref_mapsWeatherPrecipitationRadar_info">Radar verileri, çevrimdışı haritalar kullanılsa bile internetten indirilir. Harita görünür durumdayken her 10 dakikada bir otomatik olarak yenilenir. Veri kaynağı RainViewer.com\'dur.</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_info">Radar verileri, çevrimdışı haritalar kullanılsa bile internetten indirilir. Harita görünür durumdayken her 10 dakikada bir otomatik olarak yenilenir. Veri kaynağı: RainViewer.com.</string>
     <string name="controlPanelScreenOrientation">Ekran yönü</string>
     <string name="pref_mapsWeatherAnimate_title">Animasyon</string>
     <string name="pref_mapsWeatherAnimate_summary">Yağış eğilimini yorumlamanıza yardımcı olmak için son 1 saatlik radar verilerini görselleştirir</string>
@@ -1289,7 +1289,7 @@
     <string name="summaryRollingEnergyInfo">Yuvarlanma direncine karşı kullanılan enerjinin yüzdesi.</string>
     <string name="summaryBasalEnergyInfo">Bazal metabolizma için kullanılan enerjinin yüzdesi.</string>
     <string name="powerSourceWeightTitle">Güç kaynağı ağırlığı</string>
-    <string name="powerSourceWeightInfo">Gücü (watt) belirli güce (birim ağırlık başına watt) çevirirken bir ağırlık verilmelidir.
+    <string name="powerSourceWeightInfo">Gücü (watt) belirli güce (birim ağırlık başına watt) çevirirken bir ağırlık belirtilmelidir.
 \n
 \nBu genellikle bir itici güç sağlayan varlığın ağırlığıdır.
 \n
