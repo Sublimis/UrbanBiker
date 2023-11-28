@@ -32,7 +32,7 @@
     <string name="menuMeterResetMinMax">Sıfırla Min/Max</string>
     <string name="menuMeterParameters">Parametreler…</string>
     <string name="menuMeterPowerMode">Güç Modu</string>
-    <string name="menuFenceguard">FenceGuard</string>
+    <string name="menuFenceguard">Koruma Alanı</string>
     <string name="menuExit">Çıkış</string>
     <string name="menuMore">Devamı…</string>
     <string name="menuView">Göster</string>
@@ -75,11 +75,11 @@
     <string name="toastTrackingRecordingPassive">Pasif kayıt</string>
     <string name="toastTrackingPaused">Duraklatıldı</string>
     <string name="toastTrackingStopped">Durduruldu</string>
-    <string name="toastFenceGuardFenceAddingError">FenceGuard: Fence eklenirken hata</string>
-    <string name="toastFenceGuardFenceUpdatingError">FenceGuard: Fence güncelleme hatası</string>
-    <string name="toastFenceGuardFenceRemovingError">FenceGuard: Fence silinirken hata</string>
-    <string name="toastFenceGuardOutsideTheFence">FenceGuard: Şuan Fence içinde değilsiniz</string>
-    <string name="toastFenceGuardLocationUnavailable">FenceGuard: Konumunuz henüz kullanılabilir değil</string>
+    <string name="toastFenceGuardFenceAddingError">Koruma Alanı: Alan eklenirken hata</string>
+    <string name="toastFenceGuardFenceUpdatingError">Koruma Alanı: Alan güncelleme hatası</string>
+    <string name="toastFenceGuardFenceRemovingError">Koruma Alanı: Alan silinirken hata</string>
+    <string name="toastFenceGuardOutsideTheFence">Koruma Alanı: Şuan korunan alanın içinde değilsiniz</string>
+    <string name="toastFenceGuardLocationUnavailable">Koruma Alanı: Konumunuz henüz kullanılabilir değil</string>
     <string name="toastProfilesListProfileCreated">Profil oluşturuldu</string>
     <string name="toastProfilesListProfileDeleted">Profil silindi</string>
     <string name="toastProfilesListProfileDeleteError">Profil silinirken hata</string>
@@ -114,20 +114,20 @@
     <string name="dialog_defaultConfirmation">Emin misin\?</string>
     <string name="dialog_volume_bell_text">Zil</string>
     <string name="dialog_volume_roaring_text">Sesli Uyarı</string>
-    <string name="dialog_volume_effects_text">Efektler</string>
+    <string name="dialog_volume_effects_text">Etkileşim sesleri</string>
     <string name="dialog_volume_tallies_text">Çetele</string>
     <string name="dialog_volume_alarms_text">Alarmlar</string>
     <string name="dialog_volume_message">Not: Ses seviyesini ayarlamak için cihazınızın ses tuşlarını kulanabilirisniz.</string>
     <string name="dialog_bell_automatic_sensitivity_title">Otomatik zil hassaslığı</string>
-    <string name="dialog_fenceguard_add_title">Fence(yer) ekle</string>
-    <string name="dialog_fenceguard_add_text">Yeni Fence adı:</string>
-    <string name="dialog_fenceguard_add_text2">Fence kaydedilen rotada görünmemesi için güncel konumunuz etrafında koruma alanı oluşturacak.</string>
-    <string name="dialog_fenceguard_update_title">Fence\'i güncelle</string>
-    <string name="dialog_fenceguard_update_text">Fence adı:</string>
+    <string name="dialog_fenceguard_add_title">Alan ekle</string>
+    <string name="dialog_fenceguard_add_text">Yeni alan adı:</string>
+    <string name="dialog_fenceguard_add_text2">Alan koruması, kaydedilen rotada görünmemesi için güncel konumunuz etrafında koruma alanı oluşturacak.</string>
+    <string name="dialog_fenceguard_update_title">Korunan alanı güncelle</string>
+    <string name="dialog_fenceguard_update_text">Alan adı:</string>
     <string name="dialog_fenceguard_update_text2">Fence kaydedilen rotada görünmemesi için güncel konumunuz etrafında koruma alanı oluşturacak.</string>
-    <string name="dialog_fenceguard_remove_title">Fence\'i sil</string>
-    <string name="dialog_fenceguard_remove_defaultText">Fence\'i silmek istediğinize emin misiniz\?</string>
-    <string name="dialog_fenceguard_remove_formatText">%1$s\? adlı fence\'i kaldırmak istediğinizden emin misiniz\?</string>
+    <string name="dialog_fenceguard_remove_title">Alanı sil</string>
+    <string name="dialog_fenceguard_remove_defaultText">Alanı silmek istediğinize emin misiniz\?</string>
+    <string name="dialog_fenceguard_remove_formatText">%1$s\? adlı alanı kaldırmak istediğinizden emin misiniz\?</string>
     <string name="dialogProfileDeleteTitle">Profili sil</string>
     <string name="dialogProfileAddTitle">Yeni Profil</string>
     <string name="dialogProfileEditTitle">Profili düzenle</string>
@@ -155,10 +155,10 @@
     <string name="dialogMapsLayerTraffic">Trafik</string>
     <string name="dialogMapsFollowMode">Takip Modu</string>
     <string name="dialogMapsAutoRotate">Oto rota</string>
-    <string name="dialogFencesAdd">Burayı Fenceye ekle</string>
-    <string name="dialogFencesUpdate">Fence konumunu güncelle</string>
-    <string name="dialogFencesEdit">Fence\'i düzenle</string>
-    <string name="dialogFencesRemove">Fence\'i sil</string>
+    <string name="dialogFencesAdd">Burayı korumaya ekle</string>
+    <string name="dialogFencesUpdate">Koruma alanını güncelle</string>
+    <string name="dialogFencesEdit">Korunan alanı düzenle</string>
+    <string name="dialogFencesRemove">Korunan alanı sil</string>
     <string name="dialogFencesShowFences">Fenceleri göster</string>
     <string name="dialogPowerWeightsTitle">Ağırlıklar</string>
     <string name="dialogPowerWeightsWeightRider">Sürücü</string>
@@ -254,7 +254,7 @@
     <string name="meterModeHeartRateShort">st</string>
     <string name="meterTextMin">min</string>
     <string name="meterTextMax">max</string>
-    <string name="controlPanelSoundEffects">Efektler</string>
+    <string name="controlPanelSoundEffects">Etkileşim sesleri</string>
     <string name="controlPanelSoundAlarms">Alarmlar</string>
     <string name="profilesListTitle">Profiller</string>
     <string name="profilesListTitleSelectProfile">Profil değiştir</string>
@@ -298,13 +298,13 @@
     <string name="pref_group_units_title">Birimler</string>
     <string name="pref_category_colors_light_title">Açık Tema</string>
     <string name="pref_category_colors_dark_title">Koyu Tema</string>
-    <string name="pref_category4_title">Ses Şiddetleri</string>
+    <string name="pref_category4_title">Ses Seviyeleri</string>
     <string name="pref_category_advanced_title">Gelişmiş</string>
     <string name="pref_category_other_title">Diğer</string>
     <string name="pref_category_autopause_title">Otomatik duraklat</string>
     <string name="pref_category_bell_title">Zil</string>
     <string name="pref_category_roaring_title">Sesli Uyarı</string>
-    <string name="pref_category_effects_title">Etkiler</string>
+    <string name="pref_category_effects_title">Etkileşim</string>
     <string name="pref_category_alarms_title">Alarmlar</string>
     <string name="pref_category_tallies_title">Çetele</string>
     <string name="pref_category_select_title">Seç…</string>
@@ -351,8 +351,8 @@
     <string name="pref_bell_automatic_title">Otomatik</string>
     <string name="pref_bell_automatic_summary">Belirgin bir yavaşlama olduğunda zili çalar</string>
     <string name="pref_bell_automatic_sensitivity_title">Oto zil hassaslığı</string>
-    <string name="pref_bell_shake_title">Zİl için salla</string>
-    <string name="pref_bell_shake_summary">Zİli çalmak için telefonu salla</string>
+    <string name="pref_bell_shake_title">Zil için salla</string>
+    <string name="pref_bell_shake_summary">Zili çalmak için telefonu salla</string>
     <string name="pref_bell_shake_sensitivity_title">Sallama hassasiyeti</string>
     <string name="pref_roaring_type_title">Türü</string>
     <string name="pref_roaring_type_dialog_title">Sesli Uyarı türü</string>
@@ -383,14 +383,14 @@
     <string name="pref_digital_font_summary">(Tüm profiller için) Siklometre verileri için LCD fontu kullanır</string>
     <string name="pref_roaring_mode_title">Mod</string>
     <string name="pref_roaring_mode_dialog_title">Sesli Uyarı modu</string>
-    <string name="pref_fenceguard_title">FenceGuard</string>
+    <string name="pref_fenceguard_title">Koruma Alanı</string>
     <string name="pref_fenceguard_summary">Kaydedilmiş rotalarda evinizin ya da diğer önemli yerlerin konumunun açığa çıkmasını engeller</string>
     <string name="pref_autopause_mode_dialog_title">Oto duraklama</string>
     <string name="pref_soundeffects_title">Aktif</string>
-    <string name="pref_soundeffects_fence_enterleave_title">Fence</string>
-    <string name="pref_soundeffects_fence_enterleave_summary">Fence\'den ayrılırken veya Fence\'e girerken ses çalar</string>
+    <string name="pref_soundeffects_fence_enterleave_title">Koruma Alanı</string>
+    <string name="pref_soundeffects_fence_enterleave_summary">Koruma alanına girerken ya da çıkarken ses çıkar</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
-    <string name="pref_soundeffects_gps_signal_summary">GPS durumuna bağlı olarak ses çalar (ideal, kötü)</string>
+    <string name="pref_soundeffects_gps_signal_summary">GPS durumuna(iyi, kötü) bağlı olarak ses çıkar</string>
     <string name="pref_soundeffects_countdown_title">Geri sayım</string>
     <string name="pref_soundeffects_countdown_summary">Rotayı devam etmeden önceki geri sayım (... 3, 2 , 1 , GO!)</string>
     <string name="pref_soundeffects_tally_title">Aktif</string>
@@ -463,10 +463,10 @@
     <string name="defaultProfileNamePlane">Uçuş 🛩️</string>
     <string name="defaultProfileNameOther">Diğer</string>
     <!-- dialog_fenceguard_add_entries -->
-    <string name="dialog_fenceguard_add_entries_0">Fence ekle</string>
+    <string name="dialog_fenceguard_add_entries_0">Korunan alan ekle</string>
     <!-- dialog_fenceguard_update_entries -->
-    <string name="dialog_fenceguard_update_entries_0">Fence güncelle</string>
-    <string name="dialog_fenceguard_update_entries_1">Fence sil</string>
+    <string name="dialog_fenceguard_update_entries_0">Korunan alanı güncelle</string>
+    <string name="dialog_fenceguard_update_entries_1">Korunan alanı sil</string>
     <!-- dialogTracksShareChoices -->
     <string name="dialogTracksShareChoices_0">Sıkıştırma tamamlandı</string>
     <string name="dialogTracksShareChoices_1">Sadece GPX</string>
@@ -549,8 +549,8 @@
     <string name="menuViewWith">Şunla Görüntüle</string>
     <string name="menuUpload">Yükle</string>
     <string name="menuRateAndComment">Bize puan ver</string>
-    <string name="toastFenceGuardFenceAdded">FenceGuard: Fence %1$s eklendi</string>
-    <string name="toastFenceGuardFenceUpdated">FenceGuard: Fence %1$s güncellendi</string>
+    <string name="toastFenceGuardFenceAdded">Koruma Alanı: Alan %1$s eklendi</string>
+    <string name="toastFenceGuardFenceUpdated">Koruma Alanı: Alan %1$s güncellendi</string>
     <string name="toastProfilesListNonemptyDelete">Silinemiyor - Profil kaydedilmemiş veriler içeriyor! Lütfen önce kaydedin.</string>
     <string name="toastTrackDeleteError">Hata! Rota silinemiyor</string>
     <string name="toastProfileButtonClickInfo">Kullanıcı değiştirmek için basılı tutun</string>
@@ -641,7 +641,7 @@
     <string name="pref_maps_quickZoom_title">QuickZoom butonları</string>
     <string name="pref_maps_offline_terrain_info_title">Şimdi indir</string>
     <string name="openSourceLicensesTitle">Açık kaynak lisansları</string>
-    <string name="toastFenceGuardFenceRemoved">FenceGuard: Fence %1$s kaldırıldı</string>
+    <string name="toastFenceGuardFenceRemoved">Koruma Alanı: Alan %1$s kaldırıldı</string>
     <string name="dialog_track_save_text">Distance %1$.3f %2$s
 \nDuration %3$s
 \n(%4$s)
@@ -821,7 +821,7 @@
     <string name="prefAllProfilesInfoSummary">Buradaki tercihler tüm profillere uygulanır.</string>
     <string name="pref_units_power_dialog_title">Toplam güç birimleri</string>
     <string name="pref_volume_summary_text">Zil: %1$s, Sesli Uyarı: %2$s
-\nÇetele: %3$s, Etkiler: %4$s, Alarmlar: %5$s, Sesli Bildiri: %6$s</string>
+\nÇetele: %3$s, Etkileşim: %4$s, Alarmlar: %5$s, Sesli Bildiri: %6$s</string>
     <string name="pref_visualThemeAutoSummary">Çevre aydınlatmasına bağlı olarak açık veya koyu temalar uygular</string>
     <string name="pref_screenAutoPocketMode_title">Cep Modu</string>
     <string name="pref_screenAutoPocketMode_summary">(Tüm profiller için) Gerekmediğinde ekranı kapalı tutmak için yakınlık sensörünü kullanın</string>
@@ -845,7 +845,7 @@
     <string name="pref_ads_mode_title">Reklamları göster</string>
     <string name="pref_maps_track_draw_summary">Hareketlerinizi harita üzerinden grafikleştirir</string>
     <string name="pref_maps_fences_draw_title">Koruma Alanları</string>
-    <string name="pref_maps_fences_draw_summary">Harita üzerinde FenceGuard korumalı bölgeleri göster</string>
+    <string name="pref_maps_fences_draw_summary">Harita üzerinde Koruma Alanını göster</string>
     <string name="pref_maps_animate_title">Animasyon</string>
     <string name="pref_maps_animate_summary">Batarya tasarrufunu kapatın özellikle de takip modu açıksa</string>
     <string name="pref_maps_offline_warning_summary">Uyarı: Bazı çevrimiçi veriler çevrimdışı harita kullanılırken bile indirilebilir. Gerekli görüyorsanız lütfen harita kullanmadan önce mobil veriyi kapatın.</string>
@@ -967,8 +967,8 @@
     <string name="pref_wakelock_modes_explanation_1">Kayıt sırasında CPU\'yu uyanık tutun. Daha fazla pil kullanabilir, ancak konum güncellemesinin atlanmamasını sağlar.</string>
     <string name="pref_wakelock_modes_explanation_2">CPU\'nun konum güncellemeleri arasında uyumasına izin ver. Daha az pil kullanır fakat nadir durumlarda güncelleme atlayabilir.</string>
     <string name="pref_wakelock_modes_explanation_3">Sadece sistemin ya da diğer uygulamaların koyduğu davranışları geçerli kıl. Uyarı: Düzensiz konum güncellemelerine neden olabilir veya hepsini reddedebilir. Önerilmez.</string>
-    <string name="pref_locationProvider_modes_0">GPS alt sistemi</string>
-    <string name="pref_locationProvider_modes_1">Google Play Hizmetleri (varsayılan)</string>
+    <string name="pref_locationProvider_modes_0">GPS altsistemi(varsayılan)</string>
+    <string name="pref_locationProvider_modes_1">Google Play Hizmetleri</string>
     <string name="pref_locationProvider_modes_explanation_0">(Tüm profiller için) Doğrudan GPS alt sistemini kullan. Kararlı, daha az karmaşık model, aracı yok. Ayrıca diğer sağlayıcılardan daha az kaynak kullanabilir.</string>
     <string name="pref_locationProvider_modes_explanation_1">(Tüm profiller için) Varsa, Google Play hizmetlerinden \"Kaynaşık\" sağlayıcıyı kullan. Teoride bu bazen daha hızlı ve daha doğru konum bilgisi sağlayabilir.</string>
     <string name="pref_flashlightBlinkModes_0">Yavaş (Varsayılan)</string>
@@ -1076,7 +1076,7 @@
     <string name="pref_screenWaveOnOffMode_title">Karartma modu</string>
     <string name="pref_soundeffects_screenOff_title">Ekran kapalı</string>
     <string name="pref_soundeffects_screenOff_summary">Ekran karartıldığında ya da aniden kapandığında ses ve titreşimle bildir</string>
-    <string name="pref_soundeffects_proximity_summary">Yakınlık sensörü açıldığında sesle bildir</string>
+    <string name="pref_soundeffects_proximity_summary">Yakınlık sensörü açıldığında ses çıkar</string>
     <string name="unitMetersAboveGroundLevel">m rkm</string>
     <string name="unitFeetsAboveGroundLevel">f rkm</string>
     <string name="meterModeKineticEnergyShort">Kin En</string>
@@ -1149,7 +1149,7 @@
     <string name="controlPanelSoundSpeech">Sesli Bildiri</string>
     <string name="pref_category_speech_title">Sesli Bildiri</string>
     <string name="pref_speechTrackingStatus_summary">Kayıt başladığında, durakladığında ve durduğunda sesli bildir</string>
-    <string name="pref_speechToasts_summary">Kısa bilgi notlarını sesli bildirir</string>
+    <string name="pref_speechToasts_summary">Kısa bilgi notlarını sesli bildir</string>
     <string name="pref_speechCountdown_summary">Sesli geri sayım</string>
     <string name="pref_roaring_type_entries_3">Elektrikli araç</string>
     <string name="dialogMapsAutoZoom">Otomatik yakınlaştırma</string>
@@ -1179,7 +1179,7 @@
     <string name="summaryLocationIntervalInfo">Bu kayıttaki iki konum güncellemesi arasındaki ortalama zaman aralığı.</string>
     <string name="summaryDeviceRestartsCountInfo">Bu aktivite sırasında uygulamanın zorla kapatılma ya da cihazın çalışmayı durdurma sayısı.</string>
     <string name="summaryTotalTimeInfo">Bu kaydın başlangıç ve bitiş zamanı arasındaki zaman aralığı.</string>
-    <string name="summaryStoppedTimeInfo">Elle ya da otomatik yapılan duraklatma sırasında harcanan süre.</string>
+    <string name="summaryStoppedTimeInfo">Elle ya da otomatik yapılan duraklama sırasında geçen süre.</string>
     <string name="summaryHeartBeatsInfo">Aktivite sırasında kaydedilen kalp atışı sayısı.</string>
     <string name="summaryCadenceStrokesInfo">Aktivite sırasında kaydedilen pedal çevirme sayısı.</string>
     <string name="infoMeterModeFuncThresholdPowerTitle">İşlevsel Eşik Gücü</string>
@@ -1297,7 +1297,7 @@
     <string name="summaryDriverWeightInfo">Bu parkuru kaydederken kullanılan sürücünün ağırlığı.</string>
     <string name="summaryVehicleWeightInfo">Bu parkuru kaydederken kullanılan aracın ağırlığı.</string>
     <string name="pref_soundeffects_autopause_title">Otomatik duraklama</string>
-    <string name="pref_soundeffects_autopause_summary">Otomatik duraklatma ve algılamaya devam etme sesi</string>
+    <string name="pref_soundeffects_autopause_summary">Otomatik duraklama ve sonrasında devam etmeyi algıladığında ses çıkar</string>
     <string name="pref_speechAutoPause_title">Otomatik duraklama</string>
     <string name="pref_speechAutoPause_summary">Otomatik duraklama ve devam etme işlemini seslendir</string>
     <string name="pref_speechGnssStatus_title">GPS</string>
@@ -1462,7 +1462,7 @@
     <string name="navigationStopPrompt">Durdur</string>
     <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ %0 ile %10 arasında değişir, varsayılan değer %1\'dir. AutoTerrain özelliğini kullanıyorsanız, uygulama genellikle daha engebeli arazide katsayıyı artıracağından, düz arazi için bir temel değer (alt sınır) varsayın.</string>
     <string name="navigationAvoidIndoor">İç mekandan kaçın</string>
-    <string name="pref_soundeffects_navigation_summary">Navigasyon olaylarında ses</string>
+    <string name="pref_soundeffects_navigation_summary">Navigasyon olaylarında ses çıkar</string>
     <string name="pref_speechNavigation_title">Navigasyon</string>
     <string name="prefBarometricAltitudeDisableAlert">Barometrik yükseklik devre dışı bırakılsın mı\?</string>
     <string name="meterVerticalWeight">Dikey ağırlık</string>
@@ -1477,7 +1477,7 @@
     <string name="speechUnitOneLiterOfGasoline">Litre benzin</string>
     <string name="prefSteadyScreenModeOnInfo">İzleme sırasında Ekran Sabitleme özelliğini her zaman aktif tutun. Bu daha fazla pil tüketebilir.</string>
     <string name="unitNewtonPerKg">N/kg</string>
-    <string name="pref_speechNavigation_summary">Navigasyonu konuş</string>
+    <string name="pref_speechNavigation_summary">Navigasyonu seslendir</string>
     <string name="navigationLoadingData">Yol tarifi yükleniyor…</string>
     <string name="pref_soundeffects_tally_energy_title">Enerji</string>
     <string name="speechEnergy">Enerji: %1$s</string>
@@ -1501,14 +1501,14 @@
     <string name="menuCustomTracksFolder">Özel kayıt klasörü</string>
     <string name="speechNavigationWrongWay">Yanlış yol</string>
     <string name="prefTrackingButtonModeSummary">Duraklat için tıklayın veya uzun tıklayın, Durdur için ayrı düğme.</string>
-    <string name="pref_mapsWeatherCoverage_summary">Yağış radarı kapsama alanı olmayan gölgeli alanlar</string>
+    <string name="pref_mapsWeatherCoverage_summary">Yağış radarı kapsaması olmayan yerleri gölgelendirir</string>
     <string name="speechNavigationDestinationReached">Hedefe ulaştınız</string>
     <string name="prefSteadyScreenModeOffInfo">Ekran Sabitleme özelliğini asla etkinleştirme</string>
     <string name="prefAutoTerrainTitle">Otomatik Arazi</string>
     <string name="pref_soundeffects_tally_energy_dialog_title">Enerji çetelesi</string>
     <string name="prefGpsBoostNoteSummary">Konum güncellemeleri, navigasyon sırasında her zaman en yüksek frekansa zorlanacaktır</string>
     <string name="pref_mapsFollowAutorotateMode_summary">Seyir yönünü yukarı doğru tutar</string>
-    <string name="prefNoSoundInsideFenceSummary">Alarmlar dışında çitin içindeyken ses çıkarmayın.</string>
+    <string name="prefNoSoundInsideFenceSummary">Koruma alanı içindeyken alarmlar dışında ses çıkarma.</string>
     <string name="dialogMeterModesTitle">Kullanılabilir modları seçin</string>
     <string name="unitNewtonPerLb">N/lb</string>
     <string name="navigationDestinationReached">Hedef</string>
@@ -1530,7 +1530,7 @@
     <string name="pref_mapsFollowAutoZoomMode_summary">Mevcut hıza göre harita yakınlaştırma seviyesini ayarlayın</string>
     <string name="pref_mapsLayerTraffic_summary">Gerçek zamanlı trafik bilgilerini göster</string>
     <string name="menuShowTotals">Toplamları göster</string>
-    <string name="prefNoSoundInsideFenceTitle">Çitin içinde ses yok</string>
+    <string name="prefNoSoundInsideFenceTitle">Koruma alanı içinde ses yok</string>
     <string name="mapPlaceSearch">Nereye\?</string>
     <string name="prefSteadyScreenModeOn">Aktif</string>
     <string name="prefAutoTerrainSummary">Titreşimleri ölçerek arazi pürüzlülüğünü algılar ve gücü hesaplarken yuvarlanma direnci katsayısını (Cᵣᵣ) buna göre ayarlar.</string>
@@ -1582,4 +1582,11 @@
     <string name="dialogRecButtonRemoveMessage">Kayıt butonu buton çubuğuna geri dönecek. Devam\?</string>
     <string name="meterModeBatteryShort">Pil</string>
     <string name="prefTrackingButtonFreePlacementTitle">Hareketli kayıt butonu</string>
+    <string name="pref_category_mapsRenderer">İşleyici</string>
+    <string name="prefGoogleMapsRenderer_0">Varsayılan</string>
+    <string name="prefGoogleMapsRenderer_2">Yeni</string>
+    <string name="prefGoogleMapsRendererInfo">Haritaları görüntülemek için hangi işleyici türünü kullanmayı tercih ettiğinizi belirtir. Eski işleyici genellikle daha az kaynak kullanırken en yenisi genellikle daha fazla özelliğe ya da daha iyi bir tasarıma sahiptir.</string>
+    <string name="navigationRerouteCmd">Yeniden yönlendirmek için tıklayın</string>
+    <string name="toastAutoBellButtonClickInfo">Otomatik zil sesini değiştirmek için uzun tıklayın</string>
+    <string name="prefGoogleMapsRenderer_1">Eski</string>
 </resources>
