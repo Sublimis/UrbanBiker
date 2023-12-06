@@ -67,6 +67,9 @@
 
     <string name="priceLoading" translatable="false">@string/loading</string>
     <string name="manageSubscriptions">Manage subscriptions</string>
+    <string name="otherLicenses">Other</string>
+    <string name="recommendedLicense">Recommended</string>
+    <string name="licenseItemOwned">Currently owned</string>
 
     <string name="ok">OK</string>
     <string name="yes">Yes</string>
@@ -1074,14 +1077,14 @@
 <!--    <string name="pref_maps_online_mode_summary">(All profiles)</string>-->
     <string name="pref_maps_online_mode_dialog_title">Maps source</string>
     <string name="pref_maps_offline_file_title">Select file or folder</string>
-    <string name="pref_maps_offline_file_dialog_title">Choose offline maps folder</string>
-    <string name="pref_maps_offline_file_summary">%1$s</string>
+    <string name="pref_mapsOfflineFileSummary">Map files must be copied to the app-specific maps folder in order to be used</string>
     <string name="pref_maps_offline_file_noFolderSelected">No folder selected.</string>
     <string name="pref_maps_offline_info_title">Download now</string>
     <string name="pref_maps_offline_info_summary">Mapsforge vector (.map) and Rmaps raster (.sqlitedb) maps are supported. Available at download.mapsforge.org.</string>
     <string name="pref_maps_offline_usage_summary">Usage: Select the downloaded map file with the option above.</string>
     <string name="pref_maps_offline_warning_summary">Warning: Some online data may be retrieved even in offline mode. Please disable mobile Internet before using maps, if concerned.</string>
-    <string name="pref_maps_offline_resetToDefault_title" translatable="false">@string/pref_resetToDefault</string>
+    <string name="prefMapsFolderExploreTitle">Explore maps folder</string>
+    <string name="prefMapsFolderExploreSummary">Manage the contents of the app-specific maps folder with a file explorer app</string>
     <string name="pref_maps_routes_draw_title">Guide routes</string>
     <string name="pref_maps_routes_draw_summary">Draw selected GPX routes over the map</string>
     <string name="pref_maps_routes_info_summary">Guide route is simply a line drawn over the map that you can follow. For step-by-step directions, use the Navigation feature.</string>
