@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="locale">tr</string>
     <string name="app_name">Urban Biker</string>
-    <string name="app_description">Sürüşlerini yüksek doğrulukla kaydet. Sürüş tecrübelerini ve güvenliğini artır.</string>
+    <string name="app_description">Sürüşlerini yüksek doğrulukla kaydet. Sürüş güvenliğini ve verimliliğini arttır.</string>
     <string name="widget_1_description">Bisikletçi: Bisiklet Zili</string>
     <string name="widget_2_description">Biker: Zil + Flaş</string>
     <string name="widget_3_description">Biker: Toplu</string>
@@ -153,7 +153,7 @@
     <string name="dialogScreenAutoTheme">Oto tema</string>
     <string name="dialogMapsOffline">Çevrimdışı Haritalar</string>
     <string name="dialogMapsLayerTraffic">Trafik</string>
-    <string name="dialogMapsFollowMode">Takip Modu</string>
+    <string name="dialogMapsFollowMode">Takip modu</string>
     <string name="dialogMapsAutoRotate">Oto rota</string>
     <string name="dialogFencesAdd">Burayı korumaya ekle</string>
     <string name="dialogFencesUpdate">Koruma alanını güncelle</string>
@@ -368,11 +368,11 @@
     <string name="pref_above_lockscreen_summary">Cihaz kapansa bile uygulama görünür kalır</string>
     <string name="pref_ring_on_stop_title">Durunca zil çal</string>
     <string name="pref_ring_on_stop_summary">Hız sıfıra düştüğünde zil çalar</string>
-    <string name="pref_obey_audio_focus_disable_title">Ses Odaklamayı Devre dışı bırak</string>
+    <string name="pref_obey_audio_focus_disable_title">Ses odaklamayı devre dışı bırak</string>
     <string name="pref_obey_audio_focus_disable_summary">Ses çıkarmaya devam eder ( bildirim sesi veya başka uygulama ile çakıştığında)</string>
     <string name="pref_audio_force_loudspeaker_title">Hoparlör kullanmaya zorla</string>
     <string name="pref_audio_force_loudspeaker_summary">Uyarı: Deneysel özellik, çalışmayabilir. Kulaklık bağlandığında, çağrılar hariç bütün sesleri hoparlöre yönlendir.</string>
-    <string name="pref_duck_roaring_on_bell_title">Zil çalınca Sesli Uyarı\'yı kıs</string>
+    <string name="pref_duck_roaring_on_bell_title">Sesli Uyarıy\'ı kısma</string>
     <string name="pref_duck_roaring_on_bell_summary">Zil çalınca Sesli Uyarı sesi kısılır</string>
     <string name="pref_relaunchAfterReboot_title">Restart sonrası yeniden başlatın</string>
     <string name="pref_auto_launch_on_gps_title">GPS ile başlat</string>
@@ -407,7 +407,6 @@
     <string name="pref_maps_disable_title">Haritayı Kapat</string>
     <string name="pref_maps_track_draw_title">Rota Çiz</string>
     <string name="pref_maps_online_mode_dialog_title">Harita kaynağı</string>
-    <string name="pref_maps_offline_file_summary">%1$s</string>
     <string name="pref_maps_offline_file_noFolderSelected">Seçili dosya yok.</string>
     <string name="pref_maps_offline_info_title">Şimdi indir</string>
     <string name="pref_maps_offline_info_summary">Harita birleşim vektörü (.map) ve Rmaps raster (.sqlitedb) haritaları desteklenir. download.mapsforge.org adresinde mevcuttur.</string>
@@ -983,7 +982,7 @@
     <string name="prefMapOfflineLayerButtonActionEntries_2">Hiçbiri</string>
     <string name="prefAdModes_0">Herhangi</string>
     <string name="prefAdModes_3">Hiçbiri</string>
-    <string name="aboutScreenChangeLogLink">Sürüm Güncelleme Notları</string>
+    <string name="aboutScreenChangeLogLink">Sürüm güncelleme notları</string>
     <string name="disclaimerText1">Bu uygulama bu haliyle kullanıma sunulmuştur ve uygulamayı kullanmanın sorumluluğu size aittir. Uygulamanın sağlayıcıları olarak bizler uygulamayı kullanım sırasında sizin ya da üçüncü kişilerin karıştığı herhangi bir kaza, aksilik, hak kaybı, yaralanma ya da daha kötü durumlar için sorumluluk kabul etmemekteyiz.</string>
     <string name="disclaimerText2">Lütfen bu uygulamayı akıllıca kullanın ve araba, motorsiklet, bisiklet veya herhangi bir araç kullanırken dikkatinizi sürüşünüze verin.</string>
     <string name="licenseDialogMapsTab">Harita</string>
@@ -1320,7 +1319,7 @@
     <string name="prefMapDiskCacheAgeEntries_1">5 gün</string>
     <string name="prefMapDiskCacheAgeEntries_3">15 gün</string>
     <string name="pref_mapsShowAttribution_title">İlişkilendirme</string>
-    <string name="prefGnssAutomaticSleepTitle">GPS otomatik uyku</string>
+    <string name="prefGnssAutomaticSleepTitle">GPS oto uyku</string>
     <string name="prefMapDiskCacheAgeEntries_4">30 gün</string>
     <string name="pref_categoryTrackingButtonTitle">Kayıt butonu</string>
     <string name="menuInsertAbove">Üst</string>
@@ -1518,7 +1517,7 @@
     <string name="unitMphPerSec">mph/s</string>
     <string name="prefSteadyScreenNote1">Bu özellik, engebeli arazide araç kullanırken ekranı biraz daha net görmenize yardımcı olur. Ekrandaki görüntü, harici sarsıntıya karşı koymaya çalışan hızlı küçük hareketler uygulanarak dengelenir.</string>
     <string name="speechNavigationContinue">Devam et</string>
-    <string name="pref_mapsWeatherCoverage_title">kapsama maskesi</string>
+    <string name="pref_mapsWeatherCoverage_title">Kapsama maskesi</string>
     <string name="infoMeterModeVibrationsMsg">Cihazla ölçülen titreşimler. Cihaz elde veya cepte kullanılmadığında, bir araca (örneğin bisiklet gidonuna) sabit tutulduğunda kullanışlıdır.</string>
     <string name="dialogOfflineMapsFolderCopyMessage">Seçilen içeriğin kullanılabilmesi için uygulamaya özel haritalar klasörüne kopyalanması gerekir.
 \n
@@ -1588,4 +1587,12 @@
     <string name="navigationRerouteCmd">Yeniden yönlendirmek için tıklayın</string>
     <string name="toastAutoBellButtonClickInfo">Otomatik zil sesini değiştirmek için uzun tıklayın</string>
     <string name="prefGoogleMapsRenderer_1">Eski</string>
+    <string name="licenseItemOwned">Sahip olduğunuz</string>
+    <string name="infoMeterModePowerBalanceTitle">Güç dengesi L/R</string>
+    <string name="pref_mapsOfflineFileSummary">Harita dosyaları kullanılabilmeleri için uygulamaya özel harita klasörüne kopyalanmalı</string>
+    <string name="prefGoogleMapsRendererSummary">Kullanılan: %1$s</string>
+    <string name="meterModes_10">Güç dengesi</string>
+    <string name="infoMeterModePowerBalanceMsg">Güç dengesi sağ ya da sol güç katkısının toplam güç üretimine bölünmesiyle gösterilir.</string>
+    <string name="otherLicenses">Diğer</string>
+    <string name="recommendedLicense">Tavsiye edilen</string>
 </resources>
