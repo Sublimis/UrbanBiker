@@ -86,7 +86,7 @@
     <string name="buttonResumeTrack">Resume</string>
     <string name="buttonNewTrack">Finish</string>
 
-    <string name="menuControlPanel">Control Panel</string>
+    <string name="menuControlPanel">Quick Settings</string>
     <string name="menuSettings">Settings</string>
     <string name="menuSummary">Overview</string>
     <string name="menuTracksHistory">History</string>
@@ -306,7 +306,7 @@
     <string name="dialogProfileSwitchTitle">Switch profile</string>
     <string name="dialogProfileSwitchMessage">Tracking is active. Are you sure to switch to profile %1$s?</string>
     <string name="dialogTracksDeleteTitle">Delete tracks</string>
-    <string name="dialogTracksDeleteMessage">Warning: This action cannot be undone.\n\nDelete selected tracks?</string>
+    <string name="dialogTracksDeleteMessage">Warning: This action cannot be undone. Delete selected tracks?\n\nTo confirm deletion, enter the following code to continue.</string>
     <string name="dialogTrackDeleteMessage">Warning: This action cannot be undone.\n\nDelete the track %1$s?</string>
     <string name="dialogTrackResumeTitle">Resume track</string>
     <string name="dialogTrackResumeGpsActiveMessage">Tracking is active. Please turn off or pause the GPS first.</string>
@@ -451,6 +451,7 @@
     <string name="dialogRecButtonRemoveTitle">Remove Rec button</string>
     <string name="dialogRecButtonRemoveMessage">This will put the Rec button back to the button bar. Continue?</string>
     <string name="dialogLayoutRemoveEntryMessage">Remove this field?</string>
+    <string name="dialogEnterCodeMessage">Enter code</string>
 
     <!-- dialog_fenceguard_add_entries -->
     <string name="dialog_fenceguard_add_entries_0">Add fence</string>
@@ -1212,7 +1213,7 @@
     <string name="prefMapGuideRouteColorTitle">Guide route color</string>
     <string name="prefActivityRecognitionNoteSummary">These options rely on Android\'s physical activity recognition feature. It may not be accurate and can be laggy, use only if you are okay with that. Will work best when a speed sensor is used for distance and duration.</string>
     <string name="prefGnssActivityRecognitionTitle">Reduce GPS noise</string>
-    <string name="prefGnssActivityRecognitionSummary">Recognize standing still vs. moving for GPS. May introduce delays and some lost distance after a break, but will prevent most GPS noise.</string>
+    <string name="prefGnssActivityRecognitionSummary">Recognize standing still vs. moving for GPS. This may introduce lag and some lost distance or altitude after a break, but will prevent most GPS noise.</string>
     <string name="prefGnssAutomaticSleepTitle">GPS auto sleep</string>
     <string name="prefGnssAutomaticSleepSummary">Turn off location automatically while being still, and back on when movement starts. This reduces battery usage on longer breaks, without the need to stop the tracking.</string>
     <string name="prefAppVisualThemeSummary">(All profiles)</string>
@@ -1303,7 +1304,7 @@
     <string name="infoMeterModeGearRatioTitle">Gear ratio</string>
     <string name="infoMeterModeGearRatioMsg">Ratio of wheel revolutions vs. pedal turns per time unit, i.e. ratio of front sprocket and rear sprocket sizes. Higher number means higher gear.</string>
     <string name="infoMeterModeKineticEnergyTitle">Kinetic energy</string>
-    <string name="infoMeterModeKineticEnergyMsg">Height above ground level where your potential energy would equal your current kinetic energy.\n\nIn other words, your speed is equal to the speed you\'d have after falling from this height (disregarding air resistance).\n\nLikewise, it\'s the height you\'d achieve by going straight up using your kinetic energy content only.</string>
+    <string name="infoMeterModeKineticEnergyMsg">The height you would reach by \"letting go\" up a long slope without braking.\n\nOr, if you were to hit a wall the impact force would be the same as falling from this height.\n\nThis number increases as a speed squared, and is useful for safety considerations.</string>
     <string name="infoMeterModeStepCadenceTitle">Step cadence</string>
     <string name="infoMeterModeStepCadenceMsg">Number of steps per minute.</string>
     <string name="infoMeterModeStepCountTitle">Steps</string>
