@@ -21,7 +21,7 @@
     <string name="buttonUnderstand">Понятно</string>
     <string name="buttonResumeTrack">Возобновить</string>
     <string name="buttonNewTrack">Закончить</string>
-    <string name="menuControlPanel">Панель управления</string>
+    <string name="menuControlPanel">Быстрые настройки</string>
     <string name="menuSettings">Настройки</string>
     <string name="menuSummary">Сводка</string>
     <string name="menuTracksHistory">История</string>
@@ -165,9 +165,9 @@
     <string name="dialogProfileSwitchTitle">Переключение профиля</string>
     <string name="dialogProfileSwitchMessage">Идёт запись трека. Вы действительно хотите переключится на профиль «%1$s»\?</string>
     <string name="dialogTracksDeleteTitle">Удалить треки</string>
-    <string name="dialogTracksDeleteMessage">Предупреждение: это действие не сможет быть отменено.
+    <string name="dialogTracksDeleteMessage">Предупреждение: это действие не сможет быть отменено. Удалить выбранные треки\?
 \n
-\nУдалить выбранные треки\?</string>
+\nДля подтверждения удаления введите код.</string>
     <string name="dialogTrackDeleteMessage">Предупреждение: это действие не сможет быть отменено. 
 \n 
 \nУдалить трек «%1$s»\?</string>
@@ -1065,11 +1065,11 @@
 \nНевозможно подключить датчик вручную.</string>
     <string name="sensorWheelCircNotSetWarning">Окружность колеса не указана</string>
     <string name="infoMeterModeKineticEnergyTitle">Кинетическая энергия</string>
-    <string name="infoMeterModeKineticEnergyMsg">Высота над уровнем земли, где ваша потенциальная энергия будет равна текущей кинетической энергии.
+    <string name="infoMeterModeKineticEnergyMsg">Высота, которой вы достигнете, спустившись с длинного склона без торможения.
 \n
-\nДругими словами, ваша скорость равна скорости, которую вы имели бы после падения с этой высоты (без учёта сопротивления воздуха).
+\nИли, если бы вы врезались в стену, сила удара была бы такой же, как при падении с этой высоты.
 \n
-\nТочно так же, это высота, на которой вы бы оказались при движении прямо вверх, используя только свою кинетическую энергию.</string>
+\nЭто число увеличивается как квадрат скорости и полезно из соображений безопасности.</string>
     <string name="meterModes_26">Кинетическая энергия</string>
     <string name="mapMarkerStart">Старт</string>
     <string name="mapMarkerFinish">Финиш</string>
@@ -1336,7 +1336,7 @@
     <string name="prefMapDiskCacheAgeTitle">Ограничение кеша карты по времени</string>
     <string name="pref_mapsShowAttribution_summary">Показывать строку с названием поставщика для онлайн-карт, отличных от Google. Отключите, чтобы предотвратить случайное нажатие на ссылку.</string>
     <string name="prefActivityRecognitionNoteSummary">Эти параметры зависят от функции распознавания физической активности Android. Могут быть неточными или запаздывать. Используйте только в том случае, если вас устраивает результат. Лучшие результаты при использовании датчика скорости для измерения расстояния и продолжительности.</string>
-    <string name="prefGnssActivityRecognitionSummary">Определять неподвижность и движение по GPS. Может вызвать задержки и некоторую потерю расстояния после перерыва, но предотвращает большинство помех GPS.</string>
+    <string name="prefGnssActivityRecognitionSummary">Определять неподвижность и движение по GPS. Может вызвать задержки и некоторую потерю расстояния или высоты после перерыва, но предотвращает большинство помех GPS.</string>
     <string name="prefMapDiskCacheAgeEntries_6">60 дней</string>
     <string name="prefMapDiskCacheAgeEntries_0">1 день</string>
     <string name="prefMapDiskCacheAgeEntries_2">10 дней (по умолчанию)</string>
@@ -1628,4 +1628,5 @@
     <string name="recommendedLicense">Рекомендуется</string>
     <string name="dialogNotificationPermissionRequestTitle">Разрешение на уведомления</string>
     <string name="dialogNotificationPermissionRequest">Разрешение необходимо для того, чтобы приложение могло показывать уведомления во время отслеживания активности.</string>
+    <string name="dialogEnterCodeMessage">Введите код</string>
 </resources>
