@@ -21,7 +21,7 @@
     <string name="buttonUnderstand">Ho capito</string>
     <string name="buttonResumeTrack">Riprendi</string>
     <string name="buttonNewTrack">Termina</string>
-    <string name="menuControlPanel">Pannello di controllo</string>
+    <string name="menuControlPanel">Impostazioni rapide</string>
     <string name="menuSettings">Impostazioni</string>
     <string name="menuSummary">Panoramica</string>
     <string name="menuTracksHistory">Cronologia</string>
@@ -164,9 +164,9 @@
     <string name="dialogProfileSwitchTitle">Cambia profilo</string>
     <string name="dialogProfileSwitchMessage">La tracciatura è attiva. Vuoi davvero passare al profilo %1$s\?%1$s\?</string>
     <string name="dialogTracksDeleteTitle">Elimina percorsi</string>
-    <string name="dialogTracksDeleteMessage">Attenzione: quest\'azione non può essere annullata.
+    <string name="dialogTracksDeleteMessage">Attenzione: quest\'azione non può essere annullata. Eliminare i percorsi selezionati\?
 \n
-\nEliminare i percorsi selezionati\?</string>
+\nInserisci il codice seguente per continuare e confermare l\'eliminazione.</string>
     <string name="dialogTrackDeleteMessage">Attenzione: questa azione non può essere annullata. 
 \n 
 \nEliminare il percorso %1$s\?</string>
@@ -1060,11 +1060,11 @@
 \nNon è possibile stabilire manualmente il collegamento di un sensore.</string>
     <string name="sensorWheelCircNotSetWarning">La circonferenza della ruota non è stata impostata</string>
     <string name="infoMeterModeKineticEnergyTitle">Energia cinetica</string>
-    <string name="infoMeterModeKineticEnergyMsg">Altezza sopra il livello del suolo dove la tua energia potenziale equivarrebbe alla tua energia cinetica.
+    <string name="infoMeterModeKineticEnergyMsg">L\'altezza che raggiungeresti \"lasciandoti andare\" su un lungo pendio senza frenare.
 \n
-\nIn altre parole, la tua velocità è uguale alla velocità di caduta da questa altezza (senza considerare la resistenza dell\'aria).
-\n 
-\nAllo stesso modo, è l\'altezza che raggiungeresti salendo dritto con l\'uso della tua sola energia cinetica.</string>
+\nOppure, se dovessi colpire un muro, la forza dell\'impatto sarebbe la stessa di una caduta da questa altezza.
+\n
+\nQuesto numero aumenta con il quadrato della velocità ed è utile per considerazioni sulla sicurezza.</string>
     <string name="meterModes_26">Energia cinetica</string>
     <string name="mapMarkerStart">Inizio</string>
     <string name="mapMarkerFinish">Fine</string>
@@ -1331,7 +1331,7 @@
     <string name="prefMapDiskCacheAgeTitle">Scadenza cache della mappa</string>
     <string name="pref_mapsShowAttribution_summary">Mostra il testo di assegnazione per le mappe in linea diverse da Google. Disabilita per evitare clic non voluti su un collegamento.</string>
     <string name="prefActivityRecognitionNoteSummary">Queste opzioni si basano sulla funzionalità di Android per il riconoscimento dell\'attività fisica. Essa potrebbe non essere precisa e presentare ritardi: utilizzala solo se sei d\'accordo. Funziona al meglio se utilizzi un sensore di velocità per la distanza e la durata.</string>
-    <string name="prefGnssActivityRecognitionSummary">Discerne tra immobilità vs. movimento per il GPS. Potrebbe presentare ritardi e qualche perdita di distanza dopo una pausa, ma evita la maggior parte dei disturbi GPS.</string>
+    <string name="prefGnssActivityRecognitionSummary">Discerne tra immobilità vs. movimento per il GPS. Potrebbe presentare un ritardo e qualche perdita di distanza o altitudine dopo una pausa, ma evita la maggior parte dei disturbi GPS.</string>
     <string name="prefMapDiskCacheAgeEntries_6">60 giorni</string>
     <string name="prefMapDiskCacheAgeEntries_0">1 giorno</string>
     <string name="prefMapDiskCacheAgeEntries_2">10 giorni (predefinito)</string>
@@ -1623,4 +1623,5 @@
     <string name="recommendedLicense">Consigliata</string>
     <string name="dialogNotificationPermissionRequestTitle">Permesso di notica</string>
     <string name="dialogNotificationPermissionRequest">È richiesto il permesso affinché l\'app possa mostrare una notifica mentre è attivo il tracciamento.</string>
+    <string name="dialogEnterCodeMessage">Inserisci codice</string>
 </resources>
