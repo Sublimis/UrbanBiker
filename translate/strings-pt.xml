@@ -21,7 +21,7 @@
     <string name="buttonUnderstand">Eu compreendi</string>
     <string name="buttonResumeTrack">Retomar</string>
     <string name="buttonNewTrack">Terminar</string>
-    <string name="menuControlPanel">Painel de Controlo</string>
+    <string name="menuControlPanel">Configurações Rápidas</string>
     <string name="menuSettings">Definições</string>
     <string name="menuSummary">Vista Geral</string>
     <string name="menuTracksHistory">Histórico</string>
@@ -164,9 +164,9 @@
     <string name="dialogProfileSwitchTitle">Mudar perfil</string>
     <string name="dialogProfileSwitchMessage">Tem um percurso ativo. Tem a certeza que quer mudar para o perfil %1$s\?</string>
     <string name="dialogTracksDeleteTitle">Excluir percursos</string>
-    <string name="dialogTracksDeleteMessage">Aviso: Esta ação não é reversível.
+    <string name="dialogTracksDeleteMessage">Aviso: Esta ação não é reversível. Apagar os percursos selecionados\?
 \n
-\nApagar os percursos selecionados\?</string>
+\nPara confirmar a exclusão, digite o seguinte código para continuar.</string>
     <string name="dialogTrackDeleteMessage">Aviso: Esta ação não é reversível.
 \n
 \nApagar o percurso %1$s\?</string>
@@ -1060,11 +1060,11 @@
 \nNão é possível estabelecer uma conexão do sensor manualmente.</string>
     <string name="sensorWheelCircNotSetWarning">A circunferência da roda não foi definida</string>
     <string name="infoMeterModeKineticEnergyTitle">Energia Cinética</string>
-    <string name="infoMeterModeKineticEnergyMsg">Altura acima do nível do solo (ANS), onde a sua energia potencial seria igual à sua energia cinética atual.
+    <string name="infoMeterModeKineticEnergyMsg">Altura que se alcançaria ao subir uma longa inclinação sem parar.
 \n
-\nEm outras palavras, a sua velocidade é igual à que teria após cair desta altura (desconsiderando a resistência do ar).
+\nOu, se batesse numa parede, a força do impacto seria a mesma que cair dessa altura.
 \n
-\nDa mesma forma, é a altura que você obteria subindo diretamente usando apenas a sua energia cinética.</string>
+\nEste número aumenta à medida que a velocidade é elevada ao quadrado e é útil por questões de segurança.</string>
     <string name="meterModes_26">Energia Cinética</string>
     <string name="mapMarkerStart">Início</string>
     <string name="mapMarkerFinish">Final</string>
@@ -1331,7 +1331,7 @@
     <string name="prefMapDiskCacheAgeTitle">Limite de idade da cache de mapas</string>
     <string name="pref_mapsShowAttribution_summary">Mostrar texto de atribuição para mapas online que não sejam do Google. Desative para evitar clique acidental num link.</string>
     <string name="prefActivityRecognitionNoteSummary">Estas opções contam com o recurso de Reconhecimento de Atividade Física do Android. Poderá não ter precisão e pode ser lento. Use unicamente se você concordar com isso. Funcionará melhor quando um sensor de velocidade for usado para distância e duração.</string>
-    <string name="prefGnssActivityRecognitionSummary">Reconhecer entre estar parado ou em movimento para o GPS. Pode causar atrasos e perda de distância após uma pausa, mas evita a maioria das interferências do GPS.</string>
+    <string name="prefGnssActivityRecognitionSummary">Reconhecer entre estar parado ou em movimento para o GPS. Isto pode causar atrasos e alguma perda de distância ou altitude após uma pausa, mas evitará a maioria das interferências do GPS.</string>
     <string name="prefMapDiskCacheAgeEntries_6">60 dias</string>
     <string name="prefMapDiskCacheAgeEntries_0">1 dia</string>
     <string name="prefMapDiskCacheAgeEntries_2">10 dias (Padrão)</string>
@@ -1623,4 +1623,5 @@
     <string name="recommendedLicense">Recomendada</string>
     <string name="dialogNotificationPermissionRequestTitle">Permissão de notificação</string>
     <string name="dialogNotificationPermissionRequest">É necessária permissão para que a aplicação possa mostrar uma notificação contínua enquanto um registo está ativo.</string>
+    <string name="dialogEnterCodeMessage">Insira o código</string>
 </resources>
