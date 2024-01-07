@@ -21,7 +21,7 @@
     <string name="buttonUnderstand">Rozumiem</string>
     <string name="buttonResumeTrack">Obnoviť</string>
     <string name="buttonNewTrack">Ukončiť</string>
-    <string name="menuControlPanel">Ovládací panel</string>
+    <string name="menuControlPanel">Rýchle nastavenia</string>
     <string name="menuSettings">Nastavenia</string>
     <string name="menuSummary">Prehľad</string>
     <string name="menuTracksHistory">Trasy</string>
@@ -168,7 +168,7 @@
     <string name="dialogTracksDeleteTitle">Odstrániť trasy</string>
     <string name="dialogTracksDeleteMessage">Upozornenie: Akcia je nezvratná!
 \n
-\nVymazať vybraté trasy\?</string>
+\nVymazanie sa potvrdí zadaním kódu.</string>
     <string name="dialogTrackDeleteMessage">Upozornenie: Akcia je nezvratná!
 \n
 \nOdstrániť trasu %1$s\?</string>
@@ -1341,7 +1341,7 @@
     <string name="prefMapDiskCacheAgeTitle">Vyrovnávacia pamäť pre mapy</string>
     <string name="pref_mapsShowAttribution_summary">Zobrazovať pridelený text ako odkaz online-máp iných ako Google.</string>
     <string name="prefActivityRecognitionNoteSummary">Vyhodnocovanie nemusí byť presné, je dobré mať aktívne funkcie merania vzdialenosti a trvania.</string>
-    <string name="prefGnssActivityRecognitionSummary">Rozpoznávanie státia a pohybu. Môže spôsobovať omeškanie a odchýlku merania času a vzdialenosti, avšak pomáha redukovať chyby GPS.</string>
+    <string name="prefGnssActivityRecognitionSummary">Rozpoznávanie státia a pohybu. Môže spôsobovať omeškanie a odchýlku merania vzdialenosti alebo nadmorskej výšky, avšak pomáha redukovať chyby GPS.</string>
     <string name="prefMapDiskCacheAgeEntries_6">60 dní</string>
     <string name="prefMapDiskCacheAgeEntries_0">1 deň</string>
     <string name="prefMapDiskCacheAgeEntries_2">10 dní (prednastavené)</string>
@@ -1633,4 +1633,5 @@
     <string name="prefMapsFolderExploreTitle">Priečinok máp</string>
     <string name="dialogNotificationPermissionRequestTitle">Povolenie upozornení</string>
     <string name="dialogNotificationPermissionRequest">Povolenie je potrebné pre zobrazovanie upozornení počas sledovania trasy.</string>
+    <string name="dialogEnterCodeMessage">Zadať kód</string>
 </resources>
