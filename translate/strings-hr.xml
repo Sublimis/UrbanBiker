@@ -21,7 +21,7 @@
     <string name="buttonUnderstand">Razumijem</string>
     <string name="buttonResumeTrack">Nastavi</string>
     <string name="buttonNewTrack">Završi</string>
-    <string name="menuControlPanel">Upravljačka ploča</string>
+    <string name="menuControlPanel">Brze postavke</string>
     <string name="menuSettings">Postavke</string>
     <string name="menuSummary">Pregled</string>
     <string name="menuTracksHistory">Povijest</string>
@@ -164,9 +164,9 @@
     <string name="dialogProfileSwitchTitle">Prebaci profil</string>
     <string name="dialogProfileSwitchMessage">Praćenje je aktivno. Jeste li sigurni da želite prebaciti na profil %1$s\?</string>
     <string name="dialogTracksDeleteTitle">Briši staze</string>
-    <string name="dialogTracksDeleteMessage">Upozorenje: Ova akcija ne može se poništiti.
+    <string name="dialogTracksDeleteMessage">Upozorenje: Ovu radnju nije moguće poništiti. Izbrisati odabrane staze\?
 \n
-\nObrisati odabrane staze\?</string>
+\nZa potvrdu brisanja unesite sljedeći kod za nastavak.</string>
     <string name="dialogTrackDeleteMessage">Upozorenje: Ova akcija ne može se poništiti.
 \n
 \nObrisati stazu %1$s\?</string>
@@ -1060,11 +1060,11 @@
 \nNije moguće ručno uspostaviti vezu senzora.</string>
     <string name="sensorWheelCircNotSetWarning">Opseg kotača nije postavljen</string>
     <string name="infoMeterModeKineticEnergyTitle">Kinetička energija</string>
-    <string name="infoMeterModeKineticEnergyMsg">Visina iznad razine tla gdje bi vaša potencijalna energija bila jednaka vašoj trenutnoj kinetičkoj energiji.
+    <string name="infoMeterModeKineticEnergyMsg">Visina koju biste dosegli \"puštanjem\" uz dugu strminu bez kočenja.
 \n
-\nDrugim riječima, vaša brzina jednaka je brzini koju biste imali nakon pada s ove visine (zanemarivši otpor zraka).
+\nIli, ako biste udarili u zid, sila udarca bila bi ista kao kad biste pali s ove visine.
 \n
-\nIsto tako, to je visina koju biste postigli ako biste otišli ravno uvis koristeći samo sadržaj svoje kinetičke energije.</string>
+\nTaj se broj povećava kao brzina na kvadrat i koristan je za sigurnosna razmatranja.</string>
     <string name="meterModes_26">Kinetička energija</string>
     <string name="mapMarkerStart">Start</string>
     <string name="mapMarkerFinish">Kraj</string>
@@ -1329,7 +1329,7 @@
     <string name="prefMapDiskCacheAgeTitle">Granica starosti predmemorije karte</string>
     <string name="pref_mapsShowAttribution_summary">Prikaži tekst atribucije za online karte koje nisu Google. nemogućite kako biste spriječili slučajno klikanje na vezu.</string>
     <string name="prefActivityRecognitionNoteSummary">Ove se opcije oslanjaju na Androidovu značajku prepoznavanja tjelesne aktivnosti. To može biti netočno i kasniti, koristite samo ako ste s tim u redu. Najbolje će raditi kada se senzor brzine koristi za udaljenost i trajanje.</string>
-    <string name="prefGnssActivityRecognitionSummary">Prepoznajte mirno stajanje i kretanje za GPS. Može uvesti kašnjenja i izgubljenu udaljenost nakon pauze, ali spriječit će većinu GPS smetnji.</string>
+    <string name="prefGnssActivityRecognitionSummary">Prepoznajte stajanje na mjestu u odnosu na kretanje za GPS. To može dovesti do kašnjenja i izgubljene udaljenosti ili visine nakon pauze, ali će spriječiti većinu smetnji GPS-a.</string>
     <string name="prefGnssActivityRecognitionTitle">Smanji smetnje GPS-a</string>
     <string name="pref_mapsShowAttribution_title">Atribucija</string>
     <string name="prefGnssAutomaticSleepTitle">GPS automatsko spavanje</string>
@@ -1621,4 +1621,7 @@
     <string name="prefMapsFolderExploreTitle">Istražite mapu s kartama</string>
     <string name="otherLicenses">Ostale</string>
     <string name="recommendedLicense">Preporučeno</string>
+    <string name="dialogEnterCodeMessage">Unesite kod</string>
+    <string name="dialogNotificationPermissionRequestTitle">Dozvola za notifikacije</string>
+    <string name="dialogNotificationPermissionRequest">Dozvola je potrebna kako bi aplikacija mogla prikazati stalnu notifikaciju dok je snimanje aktivno.</string>
 </resources>
