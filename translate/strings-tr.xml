@@ -325,7 +325,7 @@
     <string name="pref_category_sensors_title">Sensörler</string>
     <string name="pref_app_language_summary">(Tüm Profiller için)</string>
     <string name="pref_app_language_dialog_title">Dil</string>
-    <string name="pref_app_language_translate_title">Çeviriye Yardım et</string>
+    <string name="pref_app_language_translate_title">Çeviriye yardım et</string>
     <string name="pref_app_language_translate_summary">Uygulamanın çevrilmesine yardım etmek için buraya tıklayın</string>
     <string name="pref_back_key_mode_dialog_title">Geri tuş modu</string>
     <string name="pref_resetToDefault">Varsayılana ayarla</string>
@@ -989,15 +989,18 @@
     <string name="ultimateLicenseDescription">Üst düzey bir deneyim için en iyisi</string>
     <string name="ultimateLicenseFeatures">✔️ Tüm premium haritalar
 \n✔️ Navigasyon
+\n✔️ Çevrimiçi yükseklik referansı
 \n✔️ Reklam yok
 \n✔️ Tüm ücretsiz özellikler ve haritalar</string>
     <string name="proPlusLicenseFeatures">❌ Özel haritalar
 \n❌ Navigasyon
+\n❌Çevrimiçi yükseklik referansı
 \n✔️ Reklam yok
 \n✔️ Tüm ücretsiz içerikler ve haritalar
 \n➕ Fazladan bağış</string>
     <string name="proLicenseFeatures">❌ Premium haritalar
 \n❌ Navigasyon
+\n❌Çevrimiçi yükseklik referansı
 \n✔️ Reklam yok
 \n✔️ Tüm ücretsiz özellikler ve haritalar</string>
     <string name="priceFree">Ücretsiz</string>
@@ -1014,10 +1017,12 @@
     <string name="summaryDeviceName">Cihaz</string>
     <string name="thunderforestMapsFeatures">✔️ Özel Thunderforest haritaları
 \n✔️ Navigasyon
+\n✔️ Çevrimiçi yükseklik referansı
 \n✔️ Reklam yok
 \n✔️ Tüm ücretsiz içerikler ve haritalar</string>
     <string name="mapboxMapsFeatures">✔️ Özel Mapbox haritaları
 \n✔️ Navigasyon
+\n✔️ Çevrimiçi yükseklik referansı 
 \n✔️ Reklam yok
 \n✔️ Tüm ücretsiz içerikler ve haritalar</string>
     <string name="unitJoulePerHour">J/h</string>
@@ -1192,10 +1197,12 @@
     <string name="cloudAccountsPowerUploadPolicy_0">Her zaman(varsayılan)</string>
     <string name="hereMapsFeatures">✔️ Özel HERE haritaları
 \n✔️ Navigasyon
+\n✔️ Çevrimiçi yükseklik referansı
 \n✔️ Reklam yok
 \n✔️ Tüm ücretsiz içerikler ve haritalar</string>
     <string name="maptilerMapsFeatures">✔️ Özel MapTiler haritaları
 \n✔️ Navigasyon
+\n✔️ Çevrimiçi yükseklik referansı
 \n✔️ Reklam yok
 \n✔️ Tüm ücretsiz içerikler ve haritalar</string>
     <string name="dialogMapsChooseTitle">Harita seç</string>
@@ -1405,7 +1412,7 @@
     <string name="menuSpeedoAppearance">Görünüm</string>
     <string name="prefScreenPocketModeDelayEntries_7">1 saniye</string>
     <string name="dialogLayoutChooseSubtitle">Ekran düzeni seçin</string>
-    <string name="pref_category_units_common_title">Ölçü birimleri (Tüm profiller için)</string>
+    <string name="pref_category_units_common_title">Ölçü birimleri (tüm profiller için)</string>
     <string name="prefScreenPocketModeDelayEntries_2">0.20 saniye</string>
     <string name="pref_group_activityRecognition_title">Etkinlik tanıma</string>
     <string name="menuSpeedoValue">Değer</string>
@@ -1449,6 +1456,7 @@
     <string name="prefAutoTerrainNote1Summary">Bu özellik kullanılırken cihaz elde veya cepte tutulmamalı araca sabitlenmelidir.</string>
     <string name="freeLicenseFeatures">❌ Premium haritalar
 \n❌ Navigasyon
+\n❌Çevrimiçi yükseklik referansı
 \n❌ Reklam yok
 \n✔️ Tüm ücretsiz özellikler ve haritalar</string>
     <string name="freeLicenseTitle">Ücretsiz lisans</string>
@@ -1473,7 +1481,7 @@
     <string name="toastSteadyScreenModeIntelligentActive">Ekran Sabitleme akıllı aktif</string>
     <string name="prefAutoTerrainNote2Summary">Güç sensörü kullanılarak elde edilen güç değeri bu özellikten etkilenmez.</string>
     <string name="speechUnitOneLiterOfGasoline">Litre benzin</string>
-    <string name="prefSteadyScreenModeOnInfo">İzleme sırasında Ekran Sabitleme özelliğini her zaman aktif tutun. Bu daha fazla pil tüketebilir.</string>
+    <string name="prefSteadyScreenModeOnInfo">İzleme sırasında Ekran Sabitleme özelliğini her zaman aktif tutun. Bu ekran açıkken daha fazla pil tüketebilir.</string>
     <string name="unitNewtonPerKg">N/kg</string>
     <string name="pref_speechNavigation_summary">Navigasyonu seslendir</string>
     <string name="navigationLoadingData">Yol tarifi yükleniyor…</string>
@@ -1596,4 +1604,6 @@
     <string name="otherLicenses">Diğer</string>
     <string name="recommendedLicense">Tavsiye edilen</string>
     <string name="dialogNotificationPermissionRequestTitle">Bildirim izni</string>
+    <string name="dialogEnterCodeMessage">Kodu gir</string>
+    <string name="dialogNotificationPermissionRequest">Kayıt esnasında sürekli bir bildirimin gösterilmesi için bu izin gereklidir.</string>
 </resources>
