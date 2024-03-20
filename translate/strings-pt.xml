@@ -808,9 +808,6 @@
     <string name="generalError">Ocorreu algum erro. Por favor tente novamente.</string>
     <string name="openSourceLicensesTitle">Licenças de código aberto</string>
     <string name="toastMapClickInfo">Toque longo para as opções do mapa</string>
-    <string name="dialogAppOptimizedPromptMessage">Urban Biker deve estar isento de otimizações de bateria, caso contrário, pode não funcionar corretamente.
-\n
-\nAbrir as Definições agora\?</string>
     <string name="batteryOptimizationToast">Selecione Urban Biker na lista</string>
     <string name="dialogReviewNudgeMessage2">Obrigado! Por favor, escreva um bom comentário ou avalie-nos com 5 estrelas na Play Store.</string>
     <string name="dialogButtonRateOnPlayStore">Avaliar na Play Store</string>
@@ -1426,9 +1423,7 @@
     <string name="dialogOfflineMapsFolderCopyTitle">Copiar para a pasta de mapas</string>
     <string name="dialogCustomTracksFolderInfoMessage">Este recurso permite que a aplicação leia os percursos de uma pasta à sua escolha, além da pasta de percursos padrão — cuja localização foi alterada recentemente.
 \n
-\nEsses percursos são só de leitura: eles podem ser visualizados e compartilhados, mas não podem ser editados, retomados ou excluídos.
-\n
-\nSe você não tiver certeza, tente encontrar a pasta \"Documents-UrbanBiker-tracks\" no próximo ecrã.</string>
+\nEsses percursos são só de leitura: eles podem ser visualizados e compartilhados, mas não podem ser editados, retomados ou excluídos.</string>
     <string name="infoSpeedometerTitle">Velocímetro</string>
     <string name="menuAutomaticBell">Campainha automática</string>
     <string name="menuSpeedoPaceIndicator">Indicador de ritmo</string>
@@ -1560,9 +1555,9 @@
     <string name="prefSteadyScreenNote2">Isso funciona melhor para movimentos mais lentos, como balançar o telefone na mão enquanto caminha, mas também no guiador enquanto anda de bicicleta ou num carro enquanto conduz.</string>
     <string name="toastSteadyScreenModeActive">Estabilização de Ecrã ativo</string>
     <string name="prefSteadyScreenModeOff">Desligado</string>
-    <string name="toastSteadyScreenModeIntelligentActive">Estabilização de Ecrã ativo inteligente</string>
+    <string name="toastSteadyScreenModeIntelligentActive">Estabilização de Ecrã inteligente ativo</string>
     <string name="prefSteadyScreenModeOnInfo">Manter o recurso de Estabilização de Ecrã sempre ativo durante a gravação de um percurso. Isto pode consumir mais bateria enquanto e ecrã estiver ligado.</string>
-    <string name="prefSteadyScreenModeAuto">Ativo inteligente (padrão)</string>
+    <string name="prefSteadyScreenModeAuto">Inteligente ativado (padrão)</string>
     <string name="toastSteadyScreenModeOff">Estabilização de Ecrã desativado</string>
     <string name="prefSteadyScreenTitle">Estabilização de ecrã</string>
     <string name="prefSteadyScreenModeAutoInfo">Ative o recurso de Estabilização de Ecrã apenas em terrenos acidentados durante a gravação de um percurso. Este é um bom equilíbrio entre conforto e uso da bateria.</string>
@@ -1640,4 +1635,38 @@
     <string name="dialogMapsMapCountTwoMaps">%1$s mapas</string>
     <string name="speechUnitThreeHours">Horas</string>
     <string name="dialogMapsMapCountFourMaps">%1$s mapas</string>
+    <string name="dataStorageChooseButton">Escolha o local de armazenamento de dados</string>
+    <string name="prefSteadyScreenImplementationNote">(Todos os perfis) A implementação externa requer a instalação de uma aplicação em separado. Clique aqui para abrir a Play Store.</string>
+    <string name="prefSteadyScreenImplementationTitle">Implementação</string>
+    <string name="dataStorageStatsTitle">Estatísticas de armazenamento</string>
+    <string name="dataStorageTransferInfoCount">Itens movidos: %1$s de %2$s</string>
+    <string name="pref_category_storage_title">Armazenamento</string>
+    <string name="dataStorageTransferInfoStatus">Estado: %1$s</string>
+    <string name="inProgress">Em processamento</string>
+    <string name="dataStorageTransferInfoSpeed">Velocidade: %1$s MB/s (%2$s itens/s)</string>
+    <string name="dataStorageInfo1">É recomendado usar um local de armazenamento personalizado para os seus percursos e dados para evitar perda acidental de dados se a aplicação for desinstalada e para facilitar os backups.</string>
+    <string name="dataStorageTitle">Armazenamento</string>
+    <string name="success">Sucesso</string>
+    <string name="dataStorageStatsMessage">%1$s MB
+\n%2$s itens</string>
+    <string name="prefSteadyScreenImplementationInternal">Interno (padrão)</string>
+    <string name="prefBatteryOptimizationTitle">Otimizações de bateria</string>
+    <string name="prefSteadyScreenImplementationInternalInfo">Use nossa própria implementação de estabilização de ecrã. Mais fácil de usar, não ajustável.</string>
+    <string name="prefMapShowBuildingsSummary">Mostrar a camada de edifícios 3D para Google Maps. Desative para melhorar o desempenho do mapa e reduzir o uso de recursos.</string>
+    <string name="prefBatteryOptimizationMessage">O Urban Biker pode ser isento das otimizações da bateria do sistema, para ter mais certeza de que continuará funcionando corretamente quando a tela for desligada em versões mais antigas do Android. Clique aqui para abrir as configurações agora.</string>
+    <string name="computing">Calcular</string>
+    <string name="dataStorageInfo2">Quando você altera o local de armazenamento de dados, os dados anteriores do aplicativo serão transferidos automaticamente para o novo local. Isso acontece em segundo plano e pode levar algum tempo.
+\n
+\n A revogação do acesso deixa os dados intactos.</string>
+    <string name="dataStorageTransferInfoDuration">Duração: %1$s</string>
+    <string name="prefSteadyScreenImplementationExternalInfo">Uma aplicação em separado deve ser instalada para que isto funcione. Ajustável.</string>
+    <string name="dataStorageNotSetMessage">O local de armazenamento de dados não está definido, use o botão acima.
+\n
+\nA aplicação está atualmente a usar a pasta padrão para percursos e dados.</string>
+    <string name="tracksHistoryDataStorageLink">Aviso: a aplicação está a usar a pasta padrão para percursos e dados. Clique aqui para alterar.</string>
+    <string name="menuDataStorage">Localização de armazenamento de dados</string>
+    <string name="dataStorageTransferRetrying">Falha – voltaremos a tentar em breve</string>
+    <string name="prefMapShowBuildingsTitle">Mostrar edifícios</string>
+    <string name="prefSteadyScreenImplementationExternal">Externo</string>
+    <string name="dataStorageTransferInfoTitle">Última alteração</string>
 </resources>
