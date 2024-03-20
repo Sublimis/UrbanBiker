@@ -82,6 +82,9 @@
 
     <string name="na">N/A</string>
     <string name="loading">Loading…</string>
+    <string name="computing">Computing…</string>
+    <string name="success">Success</string>
+    <string name="inProgress">In progress</string>
 
     <string name="buttonResumeTrack">Resume</string>
     <string name="buttonNewTrack">Finish</string>
@@ -152,6 +155,7 @@
     <string name="menuChooseFile">File</string>
     <string name="menuChooseFolder">Folder</string>
     <string name="menuCustomTracksFolder">Custom tracks folder</string>
+    <string name="menuDataStorage">Data storage location</string>
     <string name="menuSelect">Select</string>
     <string name="menuSelectOther">Select other</string>
     <string name="menuRevokeAccess">Revoke access</string>
@@ -252,9 +256,9 @@
     <string name="toastScreenPocketModeActive">Pocket mode active</string>
     <string name="toastScreenWavingModeActive">Waving mode active</string>
     <string name="toastScreensaverModeActive">Screensaver mode active</string>
-    <string name="toastSteadyScreenModeActive">SteadyScreen active</string>
-    <string name="toastSteadyScreenModeIntelligentActive">SteadyScreen intelligent active</string>
-    <string name="toastSteadyScreenModeOff">SteadyScreen disabled</string>
+    <string name="toastSteadyScreenModeActive">Screen stabilization enabled</string>
+    <string name="toastSteadyScreenModeIntelligentActive">Screen stabilization intelligent enabled</string>
+    <string name="toastSteadyScreenModeOff">Screen stabilization disabled</string>
     <string name="toastGpsIntervalAdaptiveActive">Adaptive update interval is active</string>
 
     <string name="notificationTitle" translatable="false">@string/app_name</string>
@@ -438,7 +442,8 @@
     <string name="dialogOfflineMapsFolderCopyMessage">Selected content must be copied to the app-specific maps folder in order to be used.\n\nDo this now?</string>
     <string name="dialogCopyingMessage">Copying…</string>
     <string name="dialogRevokeAccessPromptMessage">Revoke access?</string>
-    <string name="dialogCustomTracksFolderInfoMessage">This feature allows the app to read tracks from a folder of your choice, in addition to the default tracks folder — whose location has recently changed.\n\nSuch tracks are read-only: They can be viewed and shared, but cannot be edited, resumed nor deleted.\n\nIf you are unsure, try finding the \"Documents-UrbanBiker-tracks\" folder on the next screen.</string>
+    <string name="dialogCustomTracksFolderInfoMessage">This feature allows the app to read tracks from a folder of your choice, in addition to the main tracks folder — whose location has recently changed.\n\nSuch tracks are read-only: They can be viewed and shared, but cannot be edited, resumed nor deleted.</string>
+    <string name="dialogDataStorageInfoMessage" translatable="false">@string/dataStorageInfo1</string>
     <string name="dialogMeterModesTitle">Choose available modes</string>
     <string name="dialogLayoutChooseTitle">Layout</string>
     <string name="dialogLayoutChooseSubtitle">Choose display layout</string>
@@ -667,6 +672,7 @@
     <string name="tracksHistoryListTitleSelect">Select</string>
     <string name="tracksHistoryListEmpty">No tracks here. Go out and record an activity!</string>
     <string name="tracksHistoryListLoading">Loading…</string>
+    <string name="tracksHistoryDataStorageLink">Warning: The app is using the default folder for tracks and data. Click here to change.</string>
     <string name="tracksHistoryGrantAccess">Missing tracks?\nClick here to grant read-only access to a custom tracks folder…</string>
     <string name="tracksHistoryListNoMap">Map was not recorded.</string>
     <string name="tracksHistoryListButtonView">View</string>
@@ -893,6 +899,7 @@
     <string name="pref_category_pressure_title">Inbuilt pressure sensor</string>
     <string name="pref_category_sensors_title">Sensors</string>
     <string name="pref_category_cloudAccounts_title">Accounts</string>
+    <string name="pref_category_storage_title">Storage</string>
     <string name="pref_category_goto_title" translatable="false">@null</string>
     <string name="pref_category_mapsQuickZoom">QuickZoom</string>
     <string name="pref_category_mapsCache">Cache</string>
@@ -1249,6 +1256,25 @@
     <string name="prefGoogleMapsRendererTitle" translatable="false">@null</string>
     <string name="prefGoogleMapsRendererSummary">Current: %1$s</string>
     <string name="prefGoogleMapsRendererInfo">Specifies which renderer type you prefer to use to display the maps. Legacy renderer may use fewer resources, while the latest one usually has more features or a better design.</string>
+    <string name="prefMapShowBuildingsTitle">Show buildings</string>
+    <string name="prefMapShowBuildingsSummary">Show the 3D buildings layer for Google maps. Disable to improve map performance and reduce resource usage.</string>
+    <string name="prefBatteryOptimizationTitle">Battery optimizations</string>
+    <string name="prefBatteryOptimizationMessage">Urban Biker can be exempted from system battery optimizations, to make it more certain it will continue to work properly when the screen is turned off on older versions of Android. Click here to open the settings now.</string>
+
+    <string name="dataStorageTitle">Storage</string>
+    <string name="dataStorageInfo1">It is recommended to use a custom storage location for your tracks and data to prevent accidental data loss if the app is uninstalled, and to make backups easier.</string>
+    <string name="dataStorageInfo2">When you change the data storage location, the previous app data will be automatically transferred to the new location. This happens in the background and may take some time.\n\nRevoking access leaves the data intact.</string>
+    <string name="dataStorageChooseButton">Choose data storage location</string>
+    <string name="dataStorageNotSetMessage">The data storage location is not set, please use the button above.\n\nThe app is currently using the default folder for tracks and data.</string>
+    <string name="dataStorageStatsTitle">Storage stats</string>
+    <string name="dataStorageStatsMessage">%1$s MB\n%2$s items</string>
+    <string name="dataStorageStatsLoadingMessage" translatable="false">@string/computing</string>
+    <string name="dataStorageTransferRetrying">Fail — will retry shortly</string>
+    <string name="dataStorageTransferInfoTitle">Last change</string>
+    <string name="dataStorageTransferInfoStatus">Status: %1$s</string>
+    <string name="dataStorageTransferInfoDuration">Duration: %1$s</string>
+    <string name="dataStorageTransferInfoCount">Items moved: %1$s of %2$s</string>
+    <string name="dataStorageTransferInfoSpeed">Speed: %1$s MB/s (%2$s items/s)</string>
 
     <string name="infoMeterModeDistanceTitle">Distance</string>
     <string name="infoMeterModeDistanceMsg">Distance traveled.</string>
@@ -1595,12 +1621,19 @@
     <string name="prefAppVisualThemeEntries_1">Light</string>
     <string name="prefAppVisualThemeEntries_2">Dark</string>
 
-    <string name="prefSteadyScreenModeAuto">Intelligent active (default)</string>
-    <string name="prefSteadyScreenModeAutoInfo">Activate the SteadyScreen feature only on bumpy terrain during tracking. This is a good balance of comfort and battery use.</string>
-    <string name="prefSteadyScreenModeOn">Active</string>
-    <string name="prefSteadyScreenModeOnInfo">Keep SteadyScreen feature always active during tracking. This may consume more battery while the screen is on.</string>
+    <string name="prefSteadyScreenModeAuto">Intelligent enabled (default)</string>
+    <string name="prefSteadyScreenModeAutoInfo">Activate screen stabilization feature only on bumpy terrain during tracking. This is a good balance of comfort and battery use.</string>
+    <string name="prefSteadyScreenModeOn">Enabled</string>
+    <string name="prefSteadyScreenModeOnInfo">Keep screen stabilization feature always active during tracking. This may consume more battery while the screen is on.</string>
     <string name="prefSteadyScreenModeOff">Off</string>
-    <string name="prefSteadyScreenModeOffInfo">Never activate the SteadyScreen feature</string>
+    <string name="prefSteadyScreenModeOffInfo">Never activate screen stabilization feature</string>
+
+    <string name="prefSteadyScreenImplementationTitle">Implementation</string>
+    <string name="prefSteadyScreenImplementationNote">(All profiles) External implementation requires a separate app to be installed. Click here to open the Play Store.</string>
+    <string name="prefSteadyScreenImplementationInternal">Internal (default)</string>
+    <string name="prefSteadyScreenImplementationInternalInfo">Use our own screen stabilization implementation. Easier to use, non-adjustable.</string>
+    <string name="prefSteadyScreenImplementationExternal">External</string>
+    <string name="prefSteadyScreenImplementationExternalInfo">A separate app must be installed for this to work. Adjustable.</string>
 
     <string name="svgCopyright">Created with Urban Biker</string>
 
@@ -1645,8 +1678,6 @@
     <string name="dialogReviewNudgeMessage2">Thanks! Please write a nice review or rate us 5 stars on the Play Store.</string>
     <string name="dialogButtonRateOnPlayStore">Rate on Play Store</string>
 
-    <string name="dialogAppOptimizedPromptTitle">Battery optimization</string>
-    <string name="dialogAppOptimizedPromptMessage">Urban Biker should be exempt from battery optimizations, otherwise it may not work properly.\n\nOpen Settings now?</string>
     <string name="batteryOptimizationToast">Select Urban Biker from the list</string>
 
     <string name="licenseItemAlreadyOwned">License item already owned</string>
