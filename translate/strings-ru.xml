@@ -995,9 +995,6 @@
     <string name="infoMeterModePressureMsg">Давление окружающей среды, полученное от встроенного или внешнего датчика.</string>
     <string name="infoMeterModeGearRatioMsg">Соотношение оборотов колеса к обороту педалей за единицу времени, т.е. соотношение размеров передней и задней звёздочки. Чем выше число, тем выше передача.</string>
     <string name="dialogReviewNudgeMessage">Вам нравится Urban Biker\?</string>
-    <string name="dialogAppOptimizedPromptMessage">Экономия батареи должна быть отключена для этого приложения, в противном случае оно не сможет правильно работать.
-\n
-\nХотите перейти к настройкам экономии батареи\?</string>
     <string name="batteryOptimizationToast">Выберите Urban Biker из списка</string>
     <string name="dialogReviewNudgeMessage2">Спасибо! Пожалуйста, напишите хороший отзыв или оцените нас 5 звёзд в Google Play.</string>
     <string name="dialogButtonRateOnPlayStore">Оценить в Google Play</string>
@@ -1428,11 +1425,9 @@
     <string name="unitNewtonPerLb">Н/фунт</string>
     <string name="unitMphPerSec">мч/с</string>
     <string name="unitKmhPerSec">кмч/с</string>
-    <string name="dialogCustomTracksFolderInfoMessage">Эта функция позволяет приложению читать треки из папки по вашему выбору в дополнение к папке треков по умолчанию.
+    <string name="dialogCustomTracksFolderInfoMessage">Эта функция позволяет приложению читать треки из папки по вашему выбору в дополнение к основной папке треков.
 \n
-\nТакие треки доступны только для чтения: их можно просматривать и делиться ими, но нельзя редактировать, возобновлять или удалять.
-\n
-\nЕсли не уверены, попробуйте найти папку «Documents»→«UrbanBiker»→«tracks» на следующем экране.</string>
+\nТакие треки доступны только для чтения: их можно просматривать и делиться ими, но нельзя редактировать, возобновлять или удалять.</string>
     <string name="unitGAccel">g</string>
     <string name="infoSpeedometerTitle">Спидометр</string>
     <string name="menuAutomaticBell">Автоматический звонок</string>
@@ -1645,4 +1640,38 @@
     <string name="dialogMapsMapCountTwoMaps">%1$s карты</string>
     <string name="speechUnitThreeHours">Часа</string>
     <string name="dialogMapsMapCountFourMaps">%1$s карты</string>
+    <string name="dataStorageChooseButton">Выбор места хранения данных</string>
+    <string name="prefSteadyScreenImplementationNote">(Все профили) Внешняя реализация требует установки отдельного приложения. Нажмите здесь, чтобы открыть Play Store.</string>
+    <string name="prefSteadyScreenImplementationTitle">Реализация</string>
+    <string name="dataStorageStatsTitle">Статистика хранилища</string>
+    <string name="dataStorageTransferInfoCount">Перемещено объектов: %1$s из %2$s</string>
+    <string name="pref_category_storage_title">Хранилище</string>
+    <string name="dataStorageTransferInfoStatus">Статус: %1$s</string>
+    <string name="inProgress">Выполняется</string>
+    <string name="dataStorageTransferInfoSpeed">Скорость: %1$s МБ/с (%2$s объектов/с)</string>
+    <string name="dataStorageInfo1">Рекомендуется выбрать своё место хранения треков и данных, чтобы предотвратить их случайную потерю при удалении приложения и упростить создание резервных копий.</string>
+    <string name="dataStorageTitle">Хранилище</string>
+    <string name="success">Успешно</string>
+    <string name="dataStorageStatsMessage">%1$s МБ
+\n%2$s объектов</string>
+    <string name="prefSteadyScreenImplementationInternal">Встроенная (по умолчанию)</string>
+    <string name="prefBatteryOptimizationTitle">Оптимизация батареи</string>
+    <string name="prefSteadyScreenImplementationInternalInfo">Используется собственная реализация стабилизации экрана. Проще в использовании, настройки отсутствуют.</string>
+    <string name="prefMapShowBuildingsSummary">Показывать 3D-здания на картах Google. Отключите для повышения производительности карты и сокращения использования ресурсов.</string>
+    <string name="prefBatteryOptimizationMessage">Urban Biker можно исключить из системного процесса оптимизации работы батареи, чтобы обеспечить его правильную работу даже при выключении экрана в старых версиях Android. Нажмите здесь, чтобы открыть настройки.</string>
+    <string name="computing">Вычисление…</string>
+    <string name="dataStorageInfo2">При изменении места хранения имеющиеся данные будут перенесены в новое место автоматически. Это происходит в фоновом режиме и может занять некоторое время.
+\n
+\nОтмена доступа оставляет данные без изменений.</string>
+    <string name="dataStorageTransferInfoDuration">Продолжительность: %1$s</string>
+    <string name="prefSteadyScreenImplementationExternalInfo">Необходимо установить отдельное приложение. Есть настройки.</string>
+    <string name="dataStorageNotSetMessage">Место хранения данных не указано, используйте кнопку выше.
+\n
+\nСейчас приложение использует папку по умолчанию для треков и данных.</string>
+    <string name="tracksHistoryDataStorageLink">Предупреждение: приложение использует папку по умолчанию для треков и данных. Нажмите здесь для изменения.</string>
+    <string name="menuDataStorage">Место хранения данных</string>
+    <string name="dataStorageTransferRetrying">Ошибка — вскоре повторная попытка</string>
+    <string name="prefMapShowBuildingsTitle">Показывать здания</string>
+    <string name="prefSteadyScreenImplementationExternal">Внешняя</string>
+    <string name="dataStorageTransferInfoTitle">Последнее изменение</string>
 </resources>
