@@ -10,7 +10,7 @@
     <string name="proLicenseLabel">프로</string>
     <string name="licenseDialogMapsTab">지도</string>
     <string name="ultimateLicenseTitle">최고의 라이센스</string>
-    <string name="ultimateLicenseDescription">최고의 경험을위한 가장 강력한 라이센스.</string>
+    <string name="ultimateLicenseDescription">최고의 경험을위한 가장 강력한 라이센스</string>
     <string name="ultimateLicenseFeatures">✔️ 모든 프리미엄 지도
 \n✔️ 네비게이션
 \n✔️ 온라인 고도 이용
@@ -122,7 +122,7 @@
     <string name="sensorFilterInterval_2">7초</string>
     <string name="toastProfileSavingError">프로필 데이터 저장 오류! 다시 시도해 주세요.</string>
     <string name="prefMapTrackColorTitle">색상 추적</string>
-    <string name="meterModeSpeedVertical">수직 속도</string>
+    <string name="meterModeSpeedVertical">최고 속도</string>
     <string name="infoMeterModeAccelerationTitle">가속</string>
     <string name="pref_roaring_constant_mode_summary">움직임이나 GPS 상태에 관계없이 항상 일정한 AVAS 사운드 생성</string>
     <string name="pref_auto_launch_on_gps_title">GPS에서 자동 실행</string>
@@ -162,7 +162,7 @@
     <string name="meterModeSpeedShort">속도</string>
     <string name="dialogMapsRenderTerrain">렌더 지형</string>
     <string name="pref_category_temperature_title">온도</string>
-    <string name="infoMeterModeVerticalSpeedMsg">위(양수) 또는 아래(음수) 수직 방향의 속도.</string>
+    <string name="infoMeterModeVerticalSpeedMsg">위쪽(양) 또는 아래쪽(음) 수직 방향으로 속도를 내십시오.</string>
     <string name="menuHelp">도움말 및 지원</string>
     <string name="pref_roaring_state_title">아바스</string>
     <string name="tracksHistoryListButtonDelete">삭제</string>
@@ -188,14 +188,14 @@
     <string name="speechAscent">오르기: %1$s</string>
     <string name="pref_visualThemeAutoSummary">환경 조명에 따라 밝거나 어두운 테마 적용</string>
     <string name="pref_meter_lock_title">잠금 모드</string>
-    <string name="infoMeterModeVerticalSpeedTitle">수직 속도</string>
+    <string name="infoMeterModeVerticalSpeedTitle">최고 속도</string>
     <string name="toastSoundsDisabled">소리 비활성화</string>
     <string name="unitTimeHour">h</string>
     <string name="sensorDeleteConfirmDialogMsg">이 센서를 잊으셨나요\?</string>
     <string name="menuAutomaticBell">자동 벨</string>
     <string name="dialogScreenOrientationAuto">자동</string>
     <string name="dialogTrackUploadShareButton">공유</string>
-    <string name="meterVerticalWeight">수직중량</string>
+    <string name="meterVerticalWeight">세로 크기</string>
     <string name="pref_category_maps_offline_title">오프라인 지도</string>
     <string name="dialogPowerParamsDragArea">공기저항면적(Cd·A)</string>
     <string name="pref_ring_on_stop_title">정지 시 벨소리</string>
@@ -246,7 +246,7 @@
     <string name="unitKmh">km/h</string>
     <string name="controlPanelSoundAutoBell">자동 벨</string>
     <string name="pref_meter_modes_select_title">사용 가능한 모드 선택…</string>
-    <string name="meterHorizontalWeight">수평중량</string>
+    <string name="meterHorizontalWeight">가로 크기</string>
     <string name="dialogBaroAltitudePromptTitle">기압 고도 문제</string>
     <string name="pref_soundeffects_tally_title">활성화</string>
     <string name="pref_background_pattern_dialog_title">메뉴 배경 패턴</string>
@@ -313,7 +313,7 @@
     <string name="subscriptionPer1m">%1$s 한 달에 한 번 청구</string>
     <string name="licenseItemAlreadyOwned">이미 소유한 라이센스 항목</string>
     <string name="menuEdit">편집</string>
-    <string name="prefSteadyScreenModeOnInfo">추적 중에 StedyScreen 기능을 항상 활성화 상태로 유지합니다. 이것은 더 많은 배터리를 소모할 수 있습니다.</string>
+    <string name="prefSteadyScreenModeOnInfo">추적 중에 화면 안정화 기능을 항상 활성 상태로 유지합니다. 이는 화면이 켜져 있는 동안 더 많은 배터리를 소모할 수 있습니다.</string>
     <string name="pref_category_tracking_title">추적</string>
     <string name="dialogScreenOrientationReversePortrait">초상화(반전)</string>
     <string name="unitIn">in</string>
@@ -324,7 +324,7 @@
     <string name="meterModeOdo">주행 거리계</string>
     <string name="menuRevokeAccess">액세스 권한을 취소</string>
     <string name="pref_flashlightBlinkModes_1">빠른</string>
-    <string name="meterModes_11">수직 파워</string>
+    <string name="meterModes_11">최고 파워</string>
     <string name="pref_speed_calculate_mode_title">속도 재계산</string>
     <string name="timePeriod_perMonth">개월 마다</string>
     <string name="dialog_fenceguard_update_title">보호구역 업데이트</string>
@@ -366,8 +366,9 @@
     <string name="prefUnitsPowerEntries_3">[kJ/h]</string>
     <string name="unitPetrolLit">L gas.</string>
     <string name="summaryTotalWeight">총 무게</string>
-    <string name="dialogTracksDeleteMessage">"경고: 이 작업은 취소할 수 없습니다. 선택한 기록을 삭제하시겠습니까\?
-\n삭제를 확인하려면  다음 코드를 입력 하십시요."</string>
+    <string name="dialogTracksDeleteMessage">경고: 이 작업은 취소할 수 없습니다. 선택한 기록을 삭제하시겠습니까\?
+\n
+\n삭제를 확인하려면 다음 코드를 입력 하십시요.</string>
     <string name="dialogFencesShowFences">보호구역 표시</string>
     <string name="dialogScreenshotPreparing">스크린샷 준비 중…</string>
     <string name="pref_units_weight_entries_1">영국식 [lb]</string>
@@ -498,11 +499,11 @@
     <string name="pref_roarConstantModeButton_summary">AVAS가 켜져 있는 동안 버튼 클릭으로 지속 모드 전환</string>
     <string name="pref_units_altitude_entries_1">영국식 [ft]</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">레이어 버튼을 눌렀을 때 수행할 작업 선택</string>
-    <string name="infoMeterModeKineticEnergyMsg">위치 에너지가 현재 운동 에너지와 같아지는 지면 위의 높이.
+    <string name="infoMeterModeKineticEnergyMsg">브레이크를 밟지 않고 긴 경사면을 \"놓음\"으로써 도달할 수 있는 높이입니다.
 \n
-\n즉, 속도는 이 높이에서 떨어진 후의 속도와 같습니다(공기 저항 무시).
+\n또는 벽에 부딪히면 충격력은 이 높이에서 떨어지는 것과 같습니다.
 \n
-\n마찬가지로 운동 에너지 함량만을 사용하여 똑바로 올라갈 때 달성할 수 있는 높이입니다.</string>
+\n이 숫자는 속도 제곱에 따라 증가하며, 안전을 고려할 때 유용합니다.</string>
     <string name="cloudAccountsPowerUploadPolicyTitle">파워 데이터 업로드 정책</string>
     <string name="pref_gps_update_freq_entries_13">1 분</string>
     <string name="toastTrackDeleteError">트랙 삭제 오류</string>
@@ -651,7 +652,7 @@
     <string name="pref_soundeffects_fence_enterleave_title">보호구역</string>
     <string name="tracksHistoryListEmpty">여기에 기록이 없습니다. 나가서 활동을 기록하십시오!</string>
     <string name="pref_speechToasts_summary">다양한 짧은 정보 노트 말하기</string>
-    <string name="prefSteadyScreenModeAutoInfo">추적 중 울퉁불퉁한 지형에서만 SteadyScreen 기능을 활성화하십시오. 이것은 편안함과 배터리 사용의 좋은 균형입니다.</string>
+    <string name="prefSteadyScreenModeAutoInfo">추적 중 울퉁불퉁한 지형에서만 화면 안정화 기능을 활성화합니다. 이는 편안함과 배터리 사용의 좋은 균형입니다.</string>
     <string name="dialog_fenceguard_add_text">새 보호구역 이름 지정:</string>
     <string name="pref_roaring_type_entries_0">프리허브</string>
     <string name="sensorProperitesUseForDuration">지속기간 동안 사용</string>
@@ -748,7 +749,7 @@
     <string name="speechNavigationDestinationReached">목적지에 도착했습니다</string>
     <string name="menuSendDebugFeedback">문제 신고</string>
     <string name="toastTrackingStopped">중지</string>
-    <string name="prefSteadyScreenModeOffInfo">StedyScreen 기능을 활성화하지 마십시오</string>
+    <string name="prefSteadyScreenModeOffInfo">화면 안정화 기능을 활성화하지 마십시오</string>
     <string name="pref_gps_update_freq_entries_9">15초</string>
     <string name="pref_text_medium">Medium</string>
     <string name="unitKm">km</string>
@@ -1094,7 +1095,7 @@
     <string name="meterModeEnergy">에너지</string>
     <string name="pref_category_visualThemeAuto">자동 테마</string>
     <string name="pref_track_charts_title">차트 유형…</string>
-    <string name="pref_locationProvider_modes_1">Google Play 서비스(기본값)</string>
+    <string name="pref_locationProvider_modes_1">Google Play 서비스</string>
     <string name="meterModes_26">운동 에너지</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
     <string name="dialog_volume_alarms_text">알람</string>
@@ -1151,7 +1152,7 @@
     <string name="dialog_volume_roaring_text">아바스</string>
     <string name="speechDecreasing">떨어지다</string>
     <string name="dialogGpsIntervalTitle">GPS 업데이트 간격</string>
-    <string name="powerSourceWeightTitle">파워 근본 무게</string>
+    <string name="powerSourceWeightTitle">파워 기준 무게</string>
     <string name="toastFenceGuardFenceRemovingError">FenceGuard: 보호구역 제거 오류</string>
     <string name="subscriptionPer6m">%1$s 6개월에 한 번 청구</string>
     <string name="pref_soundeffects_autopause_title">자동 일시중지</string>
@@ -1197,7 +1198,7 @@
     <string name="pref_hud_axis_entries_1">거꾸로 — 보다 실용적인 장치 취급</string>
     <string name="meterModes_6">경사</string>
     <string name="sensorRemovedMsg">프로파일에서 제거된 센서</string>
-    <string name="prefSteadyScreenModeOn">활동적인</string>
+    <string name="prefSteadyScreenModeOn">사용</string>
     <string name="prefMapDiskCacheSizeEntries_7">1GB</string>
     <string name="sensorPurposeDuration">지속</string>
     <string name="prefAutoTerrainSummary">진동을 측정하여 지형의 거칠기를 감지하고 이에 따라 회전 저항 계수(Cᵣᵣ)를 조정하여 파워를 계산합니다.</string>
@@ -1480,7 +1481,7 @@
     <string name="sensorProperitesCadenceTriggers">케이던스 트리거</string>
     <string name="dialog_defaultConfirmation">확실합니까\?</string>
     <string name="dialogOpenRainviewerText">지금 www.rainviewer.com 웹 페이지를 여시겠습니까\?</string>
-    <string name="pref_locationProvider_modes_0">GPS 서브시스템</string>
+    <string name="pref_locationProvider_modes_0">GPS 서브시스템(기본값)</string>
     <string name="pref_roaring_type_entries_1">삑 하는 소리</string>
     <string name="unitKj">kJ</string>
     <string name="toastErrorCreatingOfflineMap">오프라인 지도를 만드는 중에 오류가 발생했습니다</string>
@@ -1512,7 +1513,7 @@
 \n
 \n이것은 일반적으로 추진력을 제공하는 개체의 가중치입니다.
 \n
-\n참고: 수직 파워는 항상 총 중량을 사용하여 계산됩니다.</string>
+\n참고: 최고 파워는 항상 총 중량을 사용하여 계산됩니다.</string>
     <string name="prefBackKeyModeEntries_2">두 번 클릭 종료</string>
     <string name="sensorWheelCircNotSetWarning">바퀴 둘레가 설정되지 않았습니다</string>
     <string name="unitMiPerGal">mpg</string>
@@ -1561,22 +1562,73 @@
     <string name="prefTrackingButtonFreePlacementSummary">모든 프로파일) Rec 버튼을 레이아웃의 어느 곳에나 배치할 수 있습니다. 비활성화 시 Rec 버튼은 버튼 바에 고정됩니다.</string>
     <string name="controlPanelFlashlight">손전등</string>
     <string name="dialogRecButtonRemoveTitle">Rec 버튼 제거</string>
-    <string name="dialogMapsMapCountThreeMaps">%1$s maps</string>
+    <string name="dialogMapsMapCountThreeMaps">%1$s 맵</string>
     <string name="pref_category_storage_title">저장</string>
     <string name="licenseItemOwned">현재소유</string>
     <string name="inProgress">진행중</string>
     <string name="dialogLayoutRemoveEntryMessage">해당 필드를 삭제하시겠습니까\?</string>
     <string name="dialogEnterCodeMessage">코드 입력</string>
     <string name="success">성공</string>
-    <string name="dialogMapsMapCountManyMaps">%1$s maps</string>
+    <string name="dialogMapsMapCountManyMaps">%1$s 맵</string>
     <string name="dialogNotificationPermissionRequestTitle">신고 승인</string>
     <string name="dialogNotificationPermissionRequest">추적이 활성화된 상태에서 앱이 진행 중인 알림을 표시할 수 있도록 권한이 필요합니다.</string>
-    <string name="computing">계산중</string>
+    <string name="computing">계산중…</string>
     <string name="buttonProceed">진행</string>
     <string name="tracksHistoryDataStorageLink">경고: 앱이 트랙과 데이터에 기본 폴더를 사용하고 있습니다. 변경하려면 여기를 클릭하십시오.</string>
     <string name="menuDataStorage">자료보관위치</string>
-    <string name="dialogMapsMapCountTwoMaps">%1$s maps</string>
+    <string name="dialogMapsMapCountTwoMaps">%1$s 맵</string>
     <string name="otherLicenses">기타</string>
     <string name="recommendedLicense">권장</string>
-    <string name="dialogMapsMapCountFourMaps">%1$s maps</string>
+    <string name="dialogMapsMapCountFourMaps">%1$s 맵</string>
+    <string name="dataStorageChooseButton">데이터 저장 위치 선택</string>
+    <string name="prefSteadyScreenImplementationNote">(모든 프로파일) 외부 구현을 위해서는 별도의 앱을 설치해야 합니다. 플레이 스토어를 열려면 여기를 클릭하세요.</string>
+    <string name="prefSteadyScreenImplementationTitle">실행</string>
+    <string name="speechUnitThreeFeets">피트</string>
+    <string name="speechUnitFourFeets">피트</string>
+    <string name="dataStorageStatsTitle">저장 통계</string>
+    <string name="speechUnitThreeMinutes">분</string>
+    <string name="speechUnitFourMinutes">분</string>
+    <string name="dataStorageTransferInfoCount">아이템 이동: %1$s of %2$s</string>
+    <string name="dataStorageTransferInfoStatus">상황:%1$s</string>
+    <string name="speechUnitThreeMiles">마일</string>
+    <string name="dataStorageTransferInfoSpeed">속도: %1$s MB/s (%2$s items/s)</string>
+    <string name="speechUnitFourMeters">미터</string>
+    <string name="dataStorageInfo1">앱을 제거할 경우 우발적인 데이터 손실을 방지하고 백업을 쉽게 하기 위해 트랙과 데이터에 대한 맞춤형 저장 위치를 사용하는 것이 좋습니다.</string>
+    <string name="dataStorageTitle">저장</string>
+    <string name="pref_category_mapsRenderer">랜더러</string>
+    <string name="dataStorageStatsMessage">%1$s MB
+\n%2$s items</string>
+    <string name="prefGoogleMapsRenderer_0">불이행</string>
+    <string name="speechUnitFourMiles">마일</string>
+    <string name="prefSteadyScreenImplementationInternal">내부(기본값)</string>
+    <string name="pref_mapsOfflineFileSummary">맵 파일을 사용하려면 앱별 맵 폴더에 복사해야 합니다</string>
+    <string name="prefBatteryOptimizationTitle">배터리 최적화</string>
+    <string name="prefGoogleMapsRendererSummary">현재:%1$s</string>
+    <string name="speechUnitFourHours">시간</string>
+    <string name="prefSteadyScreenImplementationInternalInfo">우리만의 화면 안정화 구현을 사용하세요. 사용하기 쉽고, 조절이 불가능합니다.</string>
+    <string name="prefMapShowBuildingsSummary">구글 지도에 대한 3D 빌딩 레이어를 보여줍니다. 지도 성능을 향상시키고 자원 사용을 줄이려면 비활성화합니다.</string>
+    <string name="prefBatteryOptimizationMessage">어반 바이커는 이전 버전의 안드로이드에서 화면이 꺼졌을 때 계속해서 제대로 작동할 것이라는 것을 더 확실하게 하기 위해 시스템 배터리 최적화를 면제받을 수 있다. 지금 설정을 열려면 여기를 클릭하십시오.</string>
+    <string name="prefGoogleMapsRenderer_2">최근</string>
+    <string name="speechUnitFourKilometers">킬로미터</string>
+    <string name="prefMapsFolderExploreSummary">파일 탐색기 앱으로 앱별 지도 폴더 내용 관리</string>
+    <string name="dataStorageInfo2">데이터 저장 위치를 변경하면 이전 앱 데이터가 새로운 위치로 자동 전송됩니다. 이는 백그라운드에서 발생하며 시간이 다소 걸릴 수 있습니다.
+\n
+\n액세스를 취소하면 데이터가 그대로 유지됩니다.</string>
+    <string name="prefGoogleMapsRendererInfo">지도를 표시하기 위해 사용할 렌더러 유형을 지정합니다. 레거시 렌더러는 더 적은 리소스를 사용할 수 있지만, 최신 렌더러는 일반적으로 더 많은 기능이나 더 나은 디자인을 가지고 있습니다.</string>
+    <string name="dataStorageTransferInfoDuration">지속: %1$s</string>
+    <string name="speechUnitThreeMeters">미터</string>
+    <string name="prefMapsFolderExploreTitle">지도 폴더 탐색</string>
+    <string name="prefSteadyScreenImplementationExternalInfo">이것이 작동하려면 별도의 앱이 설치되어야 합니다. 조절 가능합니다.</string>
+    <string name="speechUnitThreeKilometers">킬로미터</string>
+    <string name="speechUnitFourLitersOfGasoline">가솔린 리터</string>
+    <string name="dataStorageNotSetMessage">데이터 저장 위치가 설정되어 있지 않습니다, 위의 버튼을 이용해주세요.
+\n
+\n앱은 현재 트랙과 데이터에 기본 폴더를 사용하고 있습니다.</string>
+    <string name="speechUnitThreeLitersOfGasoline">가솔린 리터</string>
+    <string name="dataStorageTransferRetrying">실패 - 곧 다시 시도합니다</string>
+    <string name="prefGoogleMapsRenderer_1">물려받다</string>
+    <string name="prefMapShowBuildingsTitle">건물표시</string>
+    <string name="prefSteadyScreenImplementationExternal">외부의</string>
+    <string name="speechUnitThreeHours">시간</string>
+    <string name="dataStorageTransferInfoTitle">최종변경</string>
 </resources>
