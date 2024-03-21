@@ -1240,9 +1240,6 @@
     <string name="pref_soundeffects_autopause_title">Automatická prestávka</string>
     <string name="pref_soundeffects_autopause_summary">Zvuk pri prerušení a obnovení</string>
     <string name="dialogReviewNudgeMessage">Máš rád Urban Biker\?</string>
-    <string name="dialogAppOptimizedPromptMessage">Pre správne fungovanie aplikácie by mal byť Urban Biker vylúčený z optimalizácií.
-\n
-\nOtvoriť nastavenia\?</string>
     <string name="batteryOptimizationToast">Vybrať Urban Biker zo zoznamu</string>
     <string name="dialogReviewNudgeMessage2">Vďaka! Môžeš napísať odozvu alebo uviesť hodnotenie na Google Play Store.</string>
     <string name="dialogButtonRateOnPlayStore">Ohodnotiť na Play Store</string>
@@ -1426,9 +1423,7 @@
     <string name="menuChooseFile">Súbor</string>
     <string name="dialogCustomTracksFolderInfoMessage">Funkcia umožňuje čítať súbory trás z iného priečinka, ako je predvolený priečinok trás v novom umiestnení.
 \n
-\nTaké súbory sú však len na čítanie a zdieľanie, nemôžu byť upravované , obnovované alebo vymazané v aplikácii.
-\n
-\nMožno si zvoliť napríklad priečinok pôvodného umiestnenia Dokumenty/UrbanBiker/Trasy...</string>
+\nTaké súbory sú však len na čítanie a zdieľanie, nemôžu byť upravované , obnovované alebo vymazané v aplikácii.</string>
     <string name="dialogOfflineMapsFolderCopyMessage">Súbory treba skopírovať do priečinka s mapami, aby bol ich obsah použiteľný v aplikácii.
 \n
 \nUmiestniť súbory\?</string>
@@ -1568,15 +1563,15 @@
     <string name="prefOnlineMapsProviderTitle">Poskytovateľ online-máp</string>
     <string name="navigationGotOffRoute">Mimo trasy</string>
     <string name="prefSteadyScreenNote2">Funkcia sa spoľahlivejšie uplatňuje hlavne pri pomalších pohyboch s mobilom počas chôdze alebo jazdy.</string>
-    <string name="toastSteadyScreenModeActive">SteadyScreen mód aktívny</string>
+    <string name="toastSteadyScreenModeActive">Stabilizácia zobrazovania aktívna</string>
     <string name="prefSteadyScreenModeOff">Vypnuté</string>
     <string name="toastSteadyScreenModeIntelligentActive">Automatický stabilizačný mód aktívny</string>
-    <string name="prefSteadyScreenModeOnInfo">Vždy aktivovať SteadyScreen pri sledovaní polohy. Funkcia môže zvýšiť spotrebu energie pri zapnutej obrazovke.</string>
+    <string name="prefSteadyScreenModeOnInfo">Vždy aktivovať stabilizáciu obrazovky pri sledovaní polohy. Funkcia zvýšuje spotrebu energie pri zapnutej obrazovke.</string>
     <string name="prefSteadyScreenModeAuto">Inteligentný mód (predvolené)</string>
-    <string name="toastSteadyScreenModeOff">SteadyScreen mód vypnutý</string>
+    <string name="toastSteadyScreenModeOff">Stabilizácia zobrazovania vypnutá</string>
     <string name="prefSteadyScreenTitle">Stabilizácia zobrazovania</string>
-    <string name="prefSteadyScreenModeAutoInfo">Stabilná obrazovka je vhodná len pri sledovaní polohy v nerovnom teréne, ako vyvážená funkcia medzi pohodlím a zaťažením batérie.</string>
-    <string name="prefSteadyScreenModeOffInfo">Nikdy neaktivovať funkciu SteadyScreen.</string>
+    <string name="prefSteadyScreenModeAutoInfo">Stabilizácia obrazovky je vhodná len pri sledovaní polohy v nerovnom teréne, ako vyvážená funkcia medzi pohodlím a zaťažením batérie.</string>
+    <string name="prefSteadyScreenModeOffInfo">Nikdy neaktivovať funkciu stabilizácie zobrazovania.</string>
     <string name="prefSteadyScreenNote1">Funkcia pomáha stabilizovať obraz pri pohybe v hrboľatom teréne pomocou malých zobrazovacích pohybov vyrovnávajúcich vonkajšie otrasy.</string>
     <string name="prefSteadyScreenModeOn">Zapnuté</string>
     <string name="pref_mapsLayerHeatmap_info">Môže byť užitočné pri objavovaní nových miest, napríklad vo vzdialenejších oblastiach.</string>
@@ -1650,4 +1645,38 @@
     <string name="dialogMapsMapCountTwoMaps">%1$s mapy</string>
     <string name="speechUnitThreeHours">Hodiny</string>
     <string name="dialogMapsMapCountFourMaps">%1$s mapy</string>
+    <string name="dataStorageChooseButton">Vybrať umiestnenie úložiska dát</string>
+    <string name="prefSteadyScreenImplementationNote">(Všetky profily) Externá implementácia vyžaduje výber dodatočnej aplikácie.</string>
+    <string name="prefSteadyScreenImplementationTitle">Implementácia</string>
+    <string name="dataStorageStatsTitle">Štatistika úložiska</string>
+    <string name="dataStorageTransferInfoCount">Premiestnené položky: %1$s z %2$s</string>
+    <string name="pref_category_storage_title">Pamäťové úložisko</string>
+    <string name="dataStorageTransferInfoStatus">Stav: %1$s</string>
+    <string name="inProgress">Prebieha</string>
+    <string name="dataStorageTransferInfoSpeed">Rýchlosť: %1$s MB/s (%2$s položiek/s)</string>
+    <string name="dataStorageInfo1">Doporučuje sa vytvorenie vlastného pamäťového umiestnenia trás a dát kvôli väčšej bezpečnosti ich uchovania po odinštalovaní aplikácie a pre jednoduchšie zálohovanie.</string>
+    <string name="dataStorageTitle">Úložisko</string>
+    <string name="success">Hotovo</string>
+    <string name="dataStorageStatsMessage">%1$s MB
+\n%2$s položiek</string>
+    <string name="prefSteadyScreenImplementationInternal">Vnútorná (predvolené)</string>
+    <string name="prefBatteryOptimizationTitle">Optimalizácia spotreby energie</string>
+    <string name="prefSteadyScreenImplementationInternalInfo">Používať implementáciu stabilizácie obrazovky od vývojára, jednoduchú na používanie a bez ďalších nastavení.</string>
+    <string name="prefMapShowBuildingsSummary">Zobrazovať budovy na mapách Google v 3D. Voľba známená vačšiu spotrebu dát a môže spomaliť zobrazovacie procesy.</string>
+    <string name="prefBatteryOptimizationMessage">Urban Biker možno vylúčiť z optimalizácie kapacity batérie pre zaručenie stáleho priebehu procesov pri vypnutej obrazovka alebo umiestnení na pozadí, čo platí hlavne pre staršie verzie Androidu.</string>
+    <string name="computing">Vypočítava sa…</string>
+    <string name="dataStorageInfo2">Pri zmene umiestnenia pamäťového úložiska sa dáta aplikácie automaticky premiestnia na nové miesto. Proces prebieha ma pozadí a môže chvíľu trvať.
+\n
+\nOdvolanie prístupu do umiestnenia nemôže poškodiť ani zmeniť dáta.</string>
+    <string name="dataStorageTransferInfoDuration">Trvanie: %1$s</string>
+    <string name="prefSteadyScreenImplementationExternalInfo">Voľba vyžaduje inštaláciu a nastavenie prídavnej aplikácie.</string>
+    <string name="dataStorageNotSetMessage">Miesto pre úložisko dát nebolo zvolené, pokračovať pomocou tlačidla hore.
+\n
+\nAplikácia aktuálne používa predvolený priečinok umiestnenia trás a dát.</string>
+    <string name="tracksHistoryDataStorageLink">Upozornenie: Aplikácia používa predvolený priečinok pre trasy a dáta. Ten je možné zmeniť.</string>
+    <string name="menuDataStorage">Umiestnenie pamäťového úložiska</string>
+    <string name="dataStorageTransferRetrying">Proces zlyhal — obnova pokusu</string>
+    <string name="prefMapShowBuildingsTitle">Zobrazovať budovy</string>
+    <string name="prefSteadyScreenImplementationExternal">Externá</string>
+    <string name="dataStorageTransferInfoTitle">Posledná zmena</string>
 </resources>
