@@ -224,7 +224,7 @@
     <string name="navigationAvoidFerries">페리(배) 피하기</string>
     <string name="unitMeterPerMin">m/min</string>
     <string name="pref_button_roar_show_summary">AVAS 버튼 표시</string>
-    <string name="toastSteadyScreenModeActive">안정적 화면 활성</string>
+    <string name="toastSteadyScreenModeActive">화면 안정화 활성</string>
     <string name="pref_maps_disable_title">지도 비활성화</string>
     <string name="summaryStoppedTimeInfo">수동으로 또는 자동 일시 중지를 사용하는 동안 일시 중지하는 데 소요된 시간입니다.</string>
     <string name="dialogLayoutChooseTitle">레이아웃</string>
@@ -270,7 +270,7 @@
 \n
 \n페이스 표시기는 현재 속도가 평균 속도보다 높거나 낮을 때 표시되는 속도 값 근처의 작은 화살표입니다.</string>
     <string name="pref_autopause_modes_0">실시간(기본값)</string>
-    <string name="toastSteadyScreenModeIntelligentActive">안정적 화면 지능형 활성</string>
+    <string name="toastSteadyScreenModeIntelligentActive">화면 안정화 지능형 활성</string>
     <string name="dialogResetMessage">이 기록을 저장하고 새 기록을 준비하시겠습니까\?</string>
     <string name="prefAppVisualThemeEntries_1">빛</string>
     <string name="dialogPowerWeightsWeightPassengers">승객</string>
@@ -366,9 +366,8 @@
     <string name="prefUnitsPowerEntries_3">[kJ/h]</string>
     <string name="unitPetrolLit">L gas.</string>
     <string name="summaryTotalWeight">총 무게</string>
-    <string name="dialogTracksDeleteMessage">경고: 이 작업은 취소할 수 없습니다.
-\n
-\n선택한 기록을 삭제하시겠습니까\?</string>
+    <string name="dialogTracksDeleteMessage">"경고: 이 작업은 취소할 수 없습니다. 선택한 기록을 삭제하시겠습니까\?
+\n삭제를 확인하려면  다음 코드를 입력 하십시요."</string>
     <string name="dialogFencesShowFences">보호구역 표시</string>
     <string name="dialogScreenshotPreparing">스크린샷 준비 중…</string>
     <string name="pref_units_weight_entries_1">영국식 [lb]</string>
@@ -624,7 +623,7 @@
     <string name="dialogPowerWeightsWeightRider">드라이버</string>
     <string name="pref_digital_font_title">디지털 글꼴</string>
     <string name="speechTrackingPause">정지시키다</string>
-    <string name="toastSteadyScreenModeOff">안정적 화면 비활성화됨</string>
+    <string name="toastSteadyScreenModeOff">화면 안정화 비활성됨</string>
     <string name="prefTemperatureSensorDerivedSummary">이 장치에는 주변 온도 센서가 없지만 다른 내부 센서(예: CPU 온도)를 사용하여 대략적인 값을 도출할 수 있습니다.</string>
     <string name="dialogLicenseUpgradeButton2">프로모션 비디오 보기</string>
     <string name="meterModes_7">에너지</string>
@@ -1006,11 +1005,9 @@
     <string name="infoMeterModeVibrationsMsg">장치로 측정한 진동. 장치가 손이나 주머니가 아니라 차량에 고정되어 있을 때(예: 자전거 핸들바) 유용합니다.</string>
     <string name="prefUnitsPowerEntries_2">[kcal/h]</string>
     <string name="prefScreensaverTimeoutEntries_1">10 초</string>
-    <string name="dialogCustomTracksFolderInfoMessage">이 기능을 사용하면 앱이 최근에 위치가 변경된 기본 트랙 폴더 외에도 선택한 폴더에서 트랙을 읽을 수 있습니다.
+    <string name="dialogCustomTracksFolderInfoMessage">이 기능을 통해 앱은 최근 위치가 변경된 메인 트랙 폴더 외에 사용자가 선택한 폴더에서 트랙을 읽을 수 있습니다.
 \n
-\n이러한 트랙은 읽기 전용입니다. 트랙을 보고 공유할 수 있지만 편집, 재개 또는 삭제할 수는 없습니다.
-\n
-\n확실하지 않은 경우 다음 화면에서 \"Documents-UrbanBiker-tracks\" 폴더를 찾아보십시오.</string>
+\n이러한 트랙은 읽기 전용: 보기 및 공유할 수 있지만 편집, 재개 또는 삭제할 수 없습니다.</string>
     <string name="pref_roarConstantModeButton_title">버튼 토글</string>
     <string name="prefScreensaverDimBrightnessEntries_0">최저한의</string>
     <string name="toastTrackResumed">추적 재개됨</string>
@@ -1322,7 +1319,7 @@
     <string name="pref_soundeffects_proximity_title">근접 센서</string>
     <string name="pref_units_distance_entries_0">미터법 [m, km]</string>
     <string name="meterModeWriggleShort">몸부림</string>
-    <string name="menuControlPanel">제어판</string>
+    <string name="menuControlPanel">빠른설정</string>
     <string name="pref_units_distance_title">거리</string>
     <string name="subscriptionPerMonth">%1$s /월</string>
     <string name="sensorProperitesUseForCadence">케이던스계로 사용</string>
@@ -1564,4 +1561,22 @@
     <string name="prefTrackingButtonFreePlacementSummary">모든 프로파일) Rec 버튼을 레이아웃의 어느 곳에나 배치할 수 있습니다. 비활성화 시 Rec 버튼은 버튼 바에 고정됩니다.</string>
     <string name="controlPanelFlashlight">손전등</string>
     <string name="dialogRecButtonRemoveTitle">Rec 버튼 제거</string>
+    <string name="dialogMapsMapCountThreeMaps">%1$s maps</string>
+    <string name="pref_category_storage_title">저장</string>
+    <string name="licenseItemOwned">현재소유</string>
+    <string name="inProgress">진행중</string>
+    <string name="dialogLayoutRemoveEntryMessage">해당 필드를 삭제하시겠습니까\?</string>
+    <string name="dialogEnterCodeMessage">코드 입력</string>
+    <string name="success">성공</string>
+    <string name="dialogMapsMapCountManyMaps">%1$s maps</string>
+    <string name="dialogNotificationPermissionRequestTitle">신고 승인</string>
+    <string name="dialogNotificationPermissionRequest">추적이 활성화된 상태에서 앱이 진행 중인 알림을 표시할 수 있도록 권한이 필요합니다.</string>
+    <string name="computing">계산중</string>
+    <string name="buttonProceed">진행</string>
+    <string name="tracksHistoryDataStorageLink">경고: 앱이 트랙과 데이터에 기본 폴더를 사용하고 있습니다. 변경하려면 여기를 클릭하십시오.</string>
+    <string name="menuDataStorage">자료보관위치</string>
+    <string name="dialogMapsMapCountTwoMaps">%1$s maps</string>
+    <string name="otherLicenses">기타</string>
+    <string name="recommendedLicense">권장</string>
+    <string name="dialogMapsMapCountFourMaps">%1$s maps</string>
 </resources>
