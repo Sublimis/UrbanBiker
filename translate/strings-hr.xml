@@ -808,9 +808,6 @@
     <string name="generalError">Došlo je do pogreške. Molimo pokušajte ponovo.</string>
     <string name="openSourceLicensesTitle">Licence otvorenog koda</string>
     <string name="toastMapClickInfo">Dugo taknite za opcije karte</string>
-    <string name="dialogAppOptimizedPromptMessage">Urban Biker treba izuzeti od optimizacije baterije, inače neće raditi ispravno.
-\n
-\nOtvoriti postavke\?</string>
     <string name="batteryOptimizationToast">Odaberite Urban Biker s popisa</string>
     <string name="dialogReviewNudgeMessage2">Hvala! Molimo napišite lijepu recenziju ili nas ocijenite s 5 zvjezdica u Play Store.</string>
     <string name="dialogButtonRateOnPlayStore">Ocijenite na Play Store</string>
@@ -1403,11 +1400,9 @@
     <string name="prefScreensaverTimeoutEntries_8">5 minuta</string>
     <string name="infoMeterModeVibrationsMsg">Vibracije mjerene uređajem. Korisno kada se uređaj drži pričvršćen za vozilo (npr. na upravljaču bicikla), a ne u ruci ili džepu.</string>
     <string name="prefScreensaverTimeoutEntries_1">10 sekundi</string>
-    <string name="dialogCustomTracksFolderInfoMessage">Ova značajka omogućuje aplikaciji čitanje staza iz foldera po vašem izboru, povrh zadanog foldera staza — čija se lokacija nedavno promijenila.
+    <string name="dialogCustomTracksFolderInfoMessage">Ova značajka omogućuje aplikaciji čitanje staza iz mape po vašem izboru, povrh glavne mape staza — čija se lokacija nedavno promijenila.
 \n
-\nTakve staze su samo za čitanje: mogu se pregledavati i dijeliti, ali se ne mogu uređivati, nastavljati niti brisati.
-\n
-\nAko niste sigurni, pokušajte pronaći mapu \"Documents-UrbanBiker-tracks\" na sljedećem zaslonu.</string>
+\nTakve staze su samo za čitanje: mogu se pregledavati i dijeliti, ali se ne mogu uređivati, nastaviti niti brisati.</string>
     <string name="prefScreensaverDimBrightnessEntries_0">Minimum</string>
     <string name="prefScreensaverTimeoutEntries_2">15 sekundi</string>
     <string name="infoMeterModeVibrationsTitle">Vibracije</string>
@@ -1558,17 +1553,17 @@
 \nAlternativno, možete pogledati kratki promotivni video kako biste dobili besplatni kredit.</string>
     <string name="navigationGotOffRoute">Izvan rute</string>
     <string name="prefSteadyScreenNote2">Ovo najbolje funkcionira za sporije pokrete, poput njihanja telefona u ruci tijekom hodanja, ali i na upravljaču ili u automobilu tijekom vožnje.</string>
-    <string name="toastSteadyScreenModeActive">SteadyScreen aktivan</string>
+    <string name="toastSteadyScreenModeActive">Stabilizacija zaslona omogućena</string>
     <string name="prefSteadyScreenModeOff">Isključeno</string>
-    <string name="toastSteadyScreenModeIntelligentActive">SteadyScreen inteligentno aktivan</string>
-    <string name="prefSteadyScreenModeOnInfo">Neka značajka SteadyScreen uvijek bude aktivna tijekom praćenja. Ovo može trošiti više baterije dok je ekran uključen.</string>
-    <string name="prefSteadyScreenModeAuto">Inteligentno aktivno (zadano)</string>
-    <string name="toastSteadyScreenModeOff">SteadyScreen onemogućen</string>
+    <string name="toastSteadyScreenModeIntelligentActive">Inteligentna stabilizacija zaslona omogućena</string>
+    <string name="prefSteadyScreenModeOnInfo">Neka stabilizacija zaslona uvijek bude aktivna tijekom praćenja. Ovo može trošiti više baterije dok je ekran uključen.</string>
+    <string name="prefSteadyScreenModeAuto">Inteligentno omogućeno (zadano)</string>
+    <string name="toastSteadyScreenModeOff">Stabilizacija zaslona onemogućena</string>
     <string name="prefSteadyScreenTitle">Stabilizacija zaslona</string>
-    <string name="prefSteadyScreenModeAutoInfo">Aktiviraj značajku SteadyScreen samo na neravnom terenu tijekom praćenja. Ovo je dobar balans udobnosti i potrošnje baterije.</string>
-    <string name="prefSteadyScreenModeOffInfo">Nikada ne aktiviraj značajku SteadyScreen</string>
+    <string name="prefSteadyScreenModeAutoInfo">Aktiviraj stabilizaciju zaslona samo na neravnom terenu tijekom praćenja. Ovo je dobar omjer udobnosti i potrošnje baterije.</string>
+    <string name="prefSteadyScreenModeOffInfo">Nikada ne aktiviraj stabilizaciju zaslona</string>
     <string name="prefSteadyScreenNote1">Ova značajka pomaže vam da malo jasnije vidite zaslon dok ste u pokretu. Slika na zaslonu se stabilizira primjenom brzih malih pokreta koji pokušavaju umanjiti vanjsko podrhtavanje.</string>
-    <string name="prefSteadyScreenModeOn">Aktivno</string>
+    <string name="prefSteadyScreenModeOn">Omogućeno</string>
     <string name="pref_mapsLayerHeatmap_info">To vam može pomoći da otkrijete nova mjesta za aktivnost, posebno u udaljenim regijama.</string>
     <string name="dialogMapsAutoZoomSensitivity">Osjetljivost automatskog zuma</string>
     <string name="dialogMapsShowHeatmap">Heatmap</string>
@@ -1640,4 +1635,38 @@
     <string name="dialogMapsMapCountTwoMaps">%1$s mape</string>
     <string name="speechUnitThreeHours">Sata</string>
     <string name="dialogMapsMapCountFourMaps">%1$s mape</string>
+    <string name="dataStorageChooseButton">Odaberite mjesto za pohranu podataka</string>
+    <string name="prefSteadyScreenImplementationNote">(Svi profili) Vanjska izvedba zahtijeva instaliranje zasebne aplikacije. Kliknite ovdje da otvorite Trgovinu Play.</string>
+    <string name="prefSteadyScreenImplementationTitle">Izvedba</string>
+    <string name="dataStorageStatsTitle">Statistika pohrane</string>
+    <string name="dataStorageTransferInfoCount">Stavke premještene: %1$s od %2$s</string>
+    <string name="pref_category_storage_title">Pohrana</string>
+    <string name="dataStorageTransferInfoStatus">Status: %1$s</string>
+    <string name="inProgress">U toku</string>
+    <string name="dataStorageTransferInfoSpeed">Brzina: %1$s MB/s (%2$s stavki/s)</string>
+    <string name="dataStorageInfo1">Preporuča se korištenje prilagođene lokacije za pohranu vaših staza i podataka kako biste spriječili slučajni gubitak podataka ako se aplikacija deinstalira, te kako biste olakšali izradu sigurnosnih kopija.</string>
+    <string name="dataStorageTitle">Pohrana</string>
+    <string name="success">Uspjeh</string>
+    <string name="dataStorageStatsMessage">%1$s MB
+\n%2$s stavki</string>
+    <string name="prefSteadyScreenImplementationInternal">Interno (zadano)</string>
+    <string name="prefBatteryOptimizationTitle">Optimizacija baterije</string>
+    <string name="prefSteadyScreenImplementationInternalInfo">Koristiti našu vlastitu implementaciju stabilizacije zaslona. Jednostavnije za korištenje, nije podesivo.</string>
+    <string name="prefMapShowBuildingsSummary">Prikaži sloj 3D zgrada za Google karte. Onemogućite radi poboljšanja izvedbe karte i smanjenja upotrebe resursa.</string>
+    <string name="prefBatteryOptimizationMessage">Urban Biker se može izuzeti iz optimizacije baterije sustava, kako bi bilo sigurnije da će nastaviti ispravno raditi kada je ekran isključen na starijim verzijama Androida. Kliknite ovdje da sada otvorite postavke.</string>
+    <string name="computing">Računanje…</string>
+    <string name="dataStorageInfo2">Kada promijenite mjesto pohrane podataka, prethodni podaci aplikacije automatski će se prenijeti na novo mjesto. To se događa u pozadini i može potrajati neko vrijeme.
+\n
+\nOpozivom pristupa podaci ostaju netaknuti.</string>
+    <string name="dataStorageTransferInfoDuration">Trajanje: %1$s</string>
+    <string name="prefSteadyScreenImplementationExternalInfo">Morate instalirati zasebnu aplikaciju da bi ovo radilo. Podesivo.</string>
+    <string name="dataStorageNotSetMessage">Mjesto pohrane podataka nije postavljeno, molim koristite gornji gumb.
+\n
+\nAplikacija trenutno koristi zadanu mapu za staze i podatke.</string>
+    <string name="tracksHistoryDataStorageLink">Upozorenje: Aplikacija koristi zadanu mapu za staze i podatke. Kliknite ovdje za promjenu.</string>
+    <string name="menuDataStorage">Mjesto pohrane podataka</string>
+    <string name="dataStorageTransferRetrying">Neuspješno — uskoro ćemo pokušati ponovno</string>
+    <string name="prefMapShowBuildingsTitle">Prikaži zgrade</string>
+    <string name="prefSteadyScreenImplementationExternal">Eksterno</string>
+    <string name="dataStorageTransferInfoTitle">Posljednja promjena</string>
 </resources>
