@@ -990,9 +990,6 @@
     <string name="prefAdModes_1">Google</string>
     <string name="prefAdModes_3">Nessuno</string>
     <string name="toastMapClickInfo">Tocco prolungato per le opzioni della mappa</string>
-    <string name="dialogAppOptimizedPromptMessage">Urban Biker deve essere esente da ottimizzazioni della batteria, in caso contrario potrebbe non funzionare correttamente.
-\n
-\nAprire le Impostazioni ora\?</string>
     <string name="batteryOptimizationToast">Seleziona Urban Biker dall\'elenco</string>
     <string name="dialogReviewNudgeMessage2">Grazie! Scrivi una recensione positiva o votaci con 5 stelle sul Play Store.</string>
     <string name="dialogButtonRateOnPlayStore">Votaci su Play Store</string>
@@ -1419,11 +1416,9 @@
 \nEseguire adesso\?</string>
     <string name="menuSelect">Seleziona</string>
     <string name="dialogOfflineMapsFolderCopyTitle">Copia nella cartella delle mappe</string>
-    <string name="dialogCustomTracksFolderInfoMessage">In aggiunta alla cartella dei percorsi predefinita, questa funzionalità permette all\'app di leggere i percorsi da una cartella a tua scelta (la cui posizione è stata cambiata di recente).
+    <string name="dialogCustomTracksFolderInfoMessage">In aggiunta alla cartella principale dei percorsi, questa funzionalità permette all\'app di leggere i percorsi da una cartella a tua scelta (la cui posizione è stata cambiata di recente).
 \n
-\nQuesti percorsi sono di sola lettura: puoi visualizzarli e condividerli, ma non puoi modificarli, riprenderli o eliminarli.
-\n
-\nSe non sei sicuro/a, prova a cercare la cartella \"Documents-UrbanBiker-tracks\" nella schermata successiva.</string>
+\nQuesti percorsi sono di sola lettura: puoi visualizzarli e condividerli, ma non puoi modificarli, riprenderli o eliminarli.</string>
     <string name="infoContentSize">Dimensione del contenuto: %1$d MB</string>
     <string name="pref_category_units_common_title">Unità di misura (tutti i profili)</string>
     <string name="tracksHistoryGrantAccess">Percorsi mancanti\?
@@ -1558,17 +1553,17 @@
     <string name="prefOnlineMapsProviderTitle">Fornitore mappe in linea</string>
     <string name="navigationGotOffRoute">Fuori percorso</string>
     <string name="prefSteadyScreenNote2">Funziona al meglio per i movimenti più lenti, per esempio quando il telefono oscilla in mano durante una camminata, ma funziona anche quando è agganciato al manubrio mentre pedali o mentre guidi l\'auto.</string>
-    <string name="toastSteadyScreenModeActive">Schermo fisso attivo</string>
+    <string name="toastSteadyScreenModeActive">Stabilizzazione schermo attivata</string>
     <string name="prefSteadyScreenModeOff">Spento</string>
-    <string name="toastSteadyScreenModeIntelligentActive">Schermo fisso intelligente attivo</string>
-    <string name="prefSteadyScreenModeOnInfo">Mantieni la funzionalità Schermo fisso sempre attiva durante il percorso. Il consumo della batteria è maggiore quando lo schermo è acceso.</string>
-    <string name="prefSteadyScreenModeAuto">Intelligente attivo (predefinito)</string>
-    <string name="toastSteadyScreenModeOff">Schermo fisso disabilitato</string>
+    <string name="toastSteadyScreenModeIntelligentActive">Stabilizzazione intelligente schermo attivata</string>
+    <string name="prefSteadyScreenModeOnInfo">Mantieni la funzionalità di stabilizzazione dello schermo sempre attiva durante il percorso. Il consumo della batteria è maggiore quando lo schermo è acceso.</string>
+    <string name="prefSteadyScreenModeAuto">Intelligente attivato (predefinito)</string>
+    <string name="toastSteadyScreenModeOff">Stabilizzazione schermo disattivata</string>
     <string name="prefSteadyScreenTitle">Stabilizzatore schermo</string>
-    <string name="prefSteadyScreenModeAutoInfo">Attiva la funzionalità Schermo fisso solo su terreni accidentati durante il percorso. È un buon compromesso tra comfort e uso della batteria.</string>
-    <string name="prefSteadyScreenModeOffInfo">Non attivare mai la funzionalità Schermo fisso</string>
+    <string name="prefSteadyScreenModeAutoInfo">Attiva la funzionalità di stabilizzazione dello schermo solo su terreni accidentati durante il percorso. È un buon compromesso tra comfort e uso della batteria.</string>
+    <string name="prefSteadyScreenModeOffInfo">Non attivare mai la funzionalità di stabilizzazione dello schermo</string>
     <string name="prefSteadyScreenNote1">Questa funzionalità aiuta a migliorare la visione dello schermo quando sei in movimento. L\'immagine sullo schermo viene stabilizzata mediante applicazione di piccoli e rapidi movimenti che tentano di controbilanciare le vibrazioni esterne.</string>
-    <string name="prefSteadyScreenModeOn">Attivo</string>
+    <string name="prefSteadyScreenModeOn">Attivata</string>
     <string name="pref_mapsLayerHeatmap_info">Può aiutarti a scoprire nuovi luoghi di attività, soprattutto nelle regioni remote.</string>
     <string name="dialogMapsAutoZoomSensitivity">Sensibilità zoom automatico</string>
     <string name="dialogMapsShowHeatmap">Mappa di calore</string>
@@ -1640,4 +1635,38 @@
     <string name="dialogMapsMapCountTwoMaps">%1$s mappe</string>
     <string name="speechUnitThreeHours">Ore</string>
     <string name="dialogMapsMapCountFourMaps">%1$s mappe</string>
+    <string name="dataStorageChooseButton">Scegli la posizione di salvataggio dei dati</string>
+    <string name="prefSteadyScreenImplementationNote">(Tutti i profili) L\'implementazione esterna richiede l\'installazione di un\'app separata. Fai clic qui per aprire il Play Store.</string>
+    <string name="prefSteadyScreenImplementationTitle">Implementazione</string>
+    <string name="dataStorageStatsTitle">Statistiche di salvataggio</string>
+    <string name="dataStorageTransferInfoCount">Elementi spostati: %1$s di %2$s</string>
+    <string name="pref_category_storage_title">Salvataggio</string>
+    <string name="dataStorageTransferInfoStatus">Stato: %1$s</string>
+    <string name="inProgress">In elaborazione</string>
+    <string name="dataStorageTransferInfoSpeed">Velocità: %1$s MB/s (%2$s elementi/s)</string>
+    <string name="dataStorageInfo1">Si consiglia di utilizzare una posizione di salvataggio personalizzata per i tuoi percorsi e i dati, al fine di evitare la loro perdita accidentale nel caso in cui l\'app venga disinstallata e per facilitare la creazione delle copie di sicurezza.</string>
+    <string name="dataStorageTitle">Salvataggio</string>
+    <string name="success">Riuscito</string>
+    <string name="dataStorageStatsMessage">%1$s MB
+\n%2$s elementi</string>
+    <string name="prefSteadyScreenImplementationInternal">Interna (predefinito)</string>
+    <string name="prefBatteryOptimizationTitle">Ottimizzazioni batteria</string>
+    <string name="prefSteadyScreenImplementationInternalInfo">Usa la nostra implementazione di stabilizzazione dello schermo. Più facile da usare, non regolabile.</string>
+    <string name="prefMapShowBuildingsSummary">Mostra il livello degli edifici in 3D per Google Maps. Disattiva per migliorare le prestazioni della mappa e ridurre l\'uso delle risorse.</string>
+    <string name="prefBatteryOptimizationMessage">Urban Biker, nelle versioni più vecchie di Android, può essere escluso dalle ottimizzazioni della batteria di sistema in modo da assicurare che funzioni sempre correttamente quando lo schermo è spento. Fai clic qui per aprire le impostazioni adesso.</string>
+    <string name="computing">Calcolo in corso…</string>
+    <string name="dataStorageInfo2">Quando modifichi la posizione di salvataggio dei dati, i dati salvati in precedenza saranno trasferiti automaticamente nella nuova posizione. Questa operazione avviene in sottofondo e può richiedere del tempo.
+\n
+\nRifiutare l\'accesso lascia intatti i dati.</string>
+    <string name="dataStorageTransferInfoDuration">Durata: %1$s</string>
+    <string name="prefSteadyScreenImplementationExternalInfo">Affinché funzioni, deve essere installata un\'app separata. Regolabile.</string>
+    <string name="dataStorageNotSetMessage">La posizione di salvataggio non è impostata, usa il pulsante sopra.
+\n
+\nL\'app sta attualmente utilizzando la cartella predefinita per i percorsi e i dati.</string>
+    <string name="tracksHistoryDataStorageLink">Attenzione: l\'app, per i percorsi e i dati, sta utilizzando la cartella predefinita. Fai clic qui per modificarla.</string>
+    <string name="menuDataStorage">Posizione salvataggio dati</string>
+    <string name="dataStorageTransferRetrying">Non riuscito — riproverò a breve</string>
+    <string name="prefMapShowBuildingsTitle">Mostra edifici</string>
+    <string name="prefSteadyScreenImplementationExternal">Esterna</string>
+    <string name="dataStorageTransferInfoTitle">Ultima modifica</string>
 </resources>
