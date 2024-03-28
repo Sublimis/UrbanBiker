@@ -3,9 +3,9 @@
     <string name="locale">az</string>
     <string name="app_name">Urban Biker</string>
     <string name="app_description">"Yürüşlərinizi böyük dəqiqliklə izləyin və ölçün.  Velosipedinizin təhlükəsizliyini və səmərəliliyini artırın."</string>
-    <string name="widget_1_description">Biker: Bicycle Bell</string>
-    <string name="widget_2_description">Biker: Bell + Flashlight</string>
-    <string name="widget_3_description">Biker: Complete</string>
+    <string name="widget_1_description">Velosipedçi: Velosiped zəngi</string>
+    <string name="widget_2_description">Velosipedçi: Bell + Fənər</string>
+    <string name="widget_3_description">Velosipedçi: Tamamlandı</string>
     <string name="proLicenseLabel">Pro</string>
     <string name="proPlusLicenseLabel">Pro+</string>
     <string name="ultimateLicenseLabel">Ultimate</string>
@@ -21,14 +21,14 @@
     <string name="buttonUnderstand">Anladım</string>
     <string name="buttonResumeTrack">Davam et</string>
     <string name="buttonNewTrack">Bitir</string>
-    <string name="menuControlPanel">İdarə Etmə Paneli</string>
+    <string name="menuControlPanel">Sürətli Parametrlər</string>
     <string name="menuSettings">Tənzimləmələr</string>
-    <string name="menuSummary">İcmal</string>
+    <string name="menuSummary">Ümumi baxış</string>
     <string name="menuTracksHistory">Tarixçə</string>
     <string name="menuTracksHistoryResume">Davam et</string>
     <string name="menuMeterLock">Kilidlə</string>
     <string name="menuMeterLockAll">Hamısını kilidlə</string>
-    <string name="menuMeterMode">Sayğac rejimi...</string>
+    <string name="menuMeterMode">Metr rejimi</string>
     <string name="menuMeterChooseModes">Rejimləri seçin...</string>
     <string name="menuMeterResetMinMax">Min/maks sıfırla</string>
     <string name="menuMeterReset">Bitir</string>
@@ -100,7 +100,7 @@
     <string name="toastProfileButtonClickInfo">Profili dəyişmək üçün basıb saxlayın</string>
     <string name="toastContrastButtonClickInfo">Avtomatik görünüş teması aktivdir</string>
     <string name="toastFlashlightButtonClickInfo">Fənərə keçmək üçün basıb saxlayın</string>
-    <string name="toastRoarButtonClickInfo">Siqnala keçmək üçün basıb saxlayın</string>
+    <string name="toastRoarButtonClickInfo">AVAS səsini dəyişdirmək üçün uzun klikləyin</string>
     <string name="toastMapButtonClickInfo">Xəritəyə keçmək üçün basıb saxlayın</string>
     <string name="toastMapFollowingOn">Davam et</string>
     <string name="toastMapFollowingAutorotate">Avto fırlatma aktivdir</string>
@@ -111,27 +111,39 @@
     <string name="toastErrorAccessingExternalStorage">Xarici yaddaşa icazə xətası</string>
     <string name="toastErrorPowerParametersVoid">Tənzimləmələrdə güc parametrlərini doldurun</string>
     <string name="toastSharingSuccess">Uğurla göndərildi</string>
-    <string name="toastMapClickInfo">Xəritə parametrləri üçün uzun vurun</string>
+    <string name="toastMapClickInfo">Xəritə seçimləri üçün uzun müddət toxunun</string>
     <string name="dialog_defaultConfirmation">Sən əminsən\?</string>
     <string name="dialogProfileDeleteTitle">Profili silmək</string>
     <string name="dialogProfileAddTitle">Yeni profil</string>
     <string name="infoMeterModeHeartRateTitle">Nəbz</string>
     <string name="licenseDialogMapsTab">Xəritələr</string>
-    <string name="ultimateLicenseDescription">Ən yaxşı təcrübə üçün ən güclü lisenziyadır.</string>
+    <string name="ultimateLicenseDescription">Son təcrübə üçün ən güclü lisenziya</string>
     <string name="ultimateLicenseFeatures">✔️ Bütün premium xəritələr
 \n✔️ Naviqasiya
+\n✔️ Onlayn hündürlük bazası
 \n✔️ Reklam yoxdur
 \n✔️ Bütün pulsuz xüsusiyyətlər və xəritələr</string>
-    <string name="proPlusLicenseFeatures">"🔹 Reklam yoxdur
-\n   Extra donation"</string>
+    <string name="proPlusLicenseFeatures">❌ Premium xəritələr
+\n❌ Naviqasiya
+\n❌ Onlayn hündürlük bazası
+\n✔️ Reklam yoxdur
+\n✔️ Bütün pulsuz xüsusiyyətlər və xəritələr
+\n➕ Əlavə ianə</string>
     <string name="proLicenseFeatures">❌ Premium xəritələr
 \n❌ Naviqasiya
+\n❌ Onlayn hündürlük bazası
 \n✔️ Reklam yoxdur
 \n✔️ Bütün pulsuz xüsusiyyətlər və xəritələr</string>
-    <string name="thunderforestMapsFeatures">🔹 Thunderforest xəritələri
-\n🔹 Reklam yoxdur</string>
-    <string name="mapboxMapsFeatures">"🔹 Mapbox xəritələri
-\n🔹  Reklam yoxdur"</string>
+    <string name="thunderforestMapsFeatures">✔️ Thunderforest premium xəritələri
+\n✔️ Naviqasiya
+\n✔️ Onlayn hündürlük bazası
+\n✔️ Reklam yoxdur
+\n✔️ Bütün pulsuz xüsusiyyətlər və xəritələr</string>
+    <string name="mapboxMapsFeatures">✔️ Mapbox premium xəritələri
+\n✔️ Naviqasiya
+\n✔️ Onlayn hündürlük bazası
+\n✔️ Reklam yoxdur
+\n✔️ Bütün pulsuz xüsusiyyətlər və xəritələr</string>
     <string name="priceFree">Pulsuz</string>
     <string name="rewardedAdLoading">Reklam yüklənir …</string>
     <string name="toastScreenPocketModeActive">Cib rejimi aktivdir</string>
@@ -202,7 +214,7 @@
     <string name="dialogReviewNudgeMessage">Urban Biker xoşunuza gəlirmi\?</string>
     <string name="tracksHistoryListButtonShare">Paylaşın</string>
     <string name="timePeriod_per6Months">6 ayda</string>
-    <string name="pref_categoryTrackingButtonTitle">İzləmə düyməsi</string>
+    <string name="pref_categoryTrackingButtonTitle">Rec düyməsi</string>
     <string name="sensorProperitesIsAutoStrideLenInfo">Bu, qaçış və ya sürətli gəzinti zamanı avtomatik addım uzunluğu ölçülərini həyata keçirəcək.</string>
     <string name="pref_bell_automatic_summary">Əhəmiyyətli yavaşlama zamanı zəngi çalın</string>
     <string name="trackUploadActivityTypes_4">Üzmək</string>
@@ -293,7 +305,7 @@
     <string name="pref_soundeffects_tally_altitude_title">Hündürlük</string>
     <string name="dialogTrackUploadShareAgainButton">Yenidən paylaşın</string>
     <string name="pref_maps_quickZoomInvert_title">Ters çevrilmiş</string>
-    <string name="speechUnitTwoFeets">Ayaqlar</string>
+    <string name="speechUnitTwoFeets">Ayaq</string>
     <string name="dialogTrackResumeGpsActiveMessage">İzləmə aktivdir. Lütfən, əvvəlcə GPS-i söndürün və ya dayandırın.</string>
     <string name="speechUnitManyLitersOfGasoline">litr benzin</string>
     <string name="speechTrackingGpsOk">GPS OK</string>
@@ -303,7 +315,7 @@
     <string name="pref_units_other_title">Digər</string>
     <string name="unitKjKg">kJ/kq</string>
     <string name="mapLayerStreet">Küçə</string>
-    <string name="prefSteadyScreenNote2">Xahiş edirəm möcüzələr gözləməyin. Bu funksiya sizin üçün yaxşı işləmirsə, sadəcə onu deaktiv edin.</string>
+    <string name="prefSteadyScreenNote2">Bu, gəzinti zamanı əlinizdə yırğalanan telefon kimi daha yavaş hərəkətlər üçün, həm də sürərkən və ya maşın sürərkən sükan üzərində yaxşı işləyir.</string>
     <string name="dialogEnergyParamsEfficiency">Ümumi istilik səmərəliliyi (η)</string>
     <string name="summaryRollResistCoef">Roll müqavimət əmsalı.</string>
     <string name="dialogScreenOrientationReverseLandscape">Landşaft (əks)</string>
@@ -312,7 +324,7 @@
     <string name="navigationAvoidFerries">Bərələrdən çəkinin</string>
     <string name="unitMeterPerMin">m/dəq</string>
     <string name="pref_button_roar_show_summary">AVAS düyməsini göstərin</string>
-    <string name="toastSteadyScreenModeActive">SteadyScreen aktivdir</string>
+    <string name="toastSteadyScreenModeActive">Ekran sabitləşməsi aktivləşdirildi</string>
     <string name="pref_maps_disable_title">Xəritələri deaktiv edin</string>
     <string name="summaryStoppedTimeInfo">Əl ilə və ya avtomatik fasilədən istifadə edərkən fasilə verməyə sərf olunan vaxt.</string>
     <string name="dialogLayoutChooseTitle">Layout</string>
@@ -355,7 +367,7 @@
 \n
 \nTemp göstəricisi, cari sürətin orta sürətdən yuxarı və ya aşağı olduğunu göstərən sürət dəyərinə yaxın kiçik oxlardır.</string>
     <string name="pref_autopause_modes_0">Real vaxt (defolt)</string>
-    <string name="toastSteadyScreenModeIntelligentActive">SteadyScreen ağıllı aktiv</string>
+    <string name="toastSteadyScreenModeIntelligentActive">Ağıllı ekran stabilizasiyası aktivləşdirildi</string>
     <string name="dialogResetMessage">Bu treki yadda saxlayıb yenisinə hazırlaşırsınız\?</string>
     <string name="prefAppVisualThemeEntries_1">İşıq</string>
     <string name="dialogPowerWeightsWeightPassengers">Sərnişinlər</string>
@@ -369,7 +381,7 @@
     <string name="timePeriod_perWeek">həftəlik</string>
     <string name="dialogTrackUploadSending">Göndərilir…</string>
     <string name="unitMxM">m²</string>
-    <string name="menuInsertMeter">Sayğac daxil edin</string>
+    <string name="menuInsertMeter">Metr</string>
     <string name="prefAutoTerrainNote2Summary">Güc sensoru ilə əldə edilən güclər bu xüsusiyyətdən təsirlənmir.</string>
     <string name="sensorPurposeHeartRate">Ürək döyüntüsü</string>
     <string name="infoMeterModePaceTitle">Temp</string>
@@ -395,7 +407,7 @@
     <string name="pref_powermeter_display_mode_dialog_title">Güc göstərmə rejimi</string>
     <string name="subscriptionPer1m">%1$s ayda bir dəfə hesablanır</string>
     <string name="licenseItemAlreadyOwned">Lisenziya elementi artıq mülkiyyətdədir</string>
-    <string name="prefSteadyScreenModeOnInfo">İzləmə zamanı SteadyScreen funksiyasını həmişə aktiv saxlayın. Bu, daha çox batareya istehlak edə bilər.</string>
+    <string name="prefSteadyScreenModeOnInfo">İzləmə zamanı ekran sabitləşdirmə funksiyasını həmişə aktiv saxlayın. Bu, ekran aktiv olduqda daha çox batareya istehlak edə bilər.</string>
     <string name="pref_category_tracking_title">İzləmə</string>
     <string name="dialogScreenOrientationReversePortrait">Portret (əks)</string>
     <string name="unitIn">in</string>
@@ -405,10 +417,10 @@
     <string name="disclaimerText1">Bu proqram olduğu kimi təqdim olunur və siz onu öz riskinizlə istifadə edirsiniz. Biz, naşir olaraq, səyahət zamanı tətbiqdən istifadə nəticəsində və ya başqa şəkildə baş verən hər hansı qəza, sahiblik itkisi, xəsarət və ya sizin və ya üçüncü şəxsin iştirakı ilə baş verən daha pis hallara görə məsuliyyət daşımayacağıq.</string>
     <string name="meterModeOdo">odometr</string>
     <string name="menuRevokeAccess">Girişi ləğv edin</string>
-    <string name="pref_flashlightBlinkModes_1">Tez</string>
+    <string name="pref_flashlightBlinkModes_1">Sürətli</string>
     <string name="meterModes_11">Vert. güc</string>
     <string name="pref_speed_calculate_mode_title">Sürəti yenidən hesablayın</string>
-    <string name="timePeriod_perMonth">hər ay üçün</string>
+    <string name="timePeriod_perMonth">aylıq</string>
     <string name="dialog_fenceguard_update_title">Hasar yeniləyin</string>
     <string name="pref_bell_mode_title">Növ</string>
     <string name="meterModes_16">Keçən vaxt</string>
@@ -446,9 +458,9 @@
     <string name="prefUnitsPowerEntries_3">[kJ/saat]</string>
     <string name="unitPetrolLit">L qaz.</string>
     <string name="summaryTotalWeight">Ümumi çəki</string>
-    <string name="dialogTracksDeleteMessage">Xəbərdarlıq: Bu əməliyyat geri qaytarıla bilməz.
+    <string name="dialogTracksDeleteMessage">Xəbərdarlıq: Bu əməliyyat geri qaytarıla bilməz. Seçilmiş treklər silinsin\?
 \n
-\nSeçilmiş treklər silinsin\?</string>
+\nSilinməni təsdiqləmək üçün davam etmək üçün aşağıdakı kodu daxil edin.</string>
     <string name="dialogFencesShowFences">Çitləri göstərin</string>
     <string name="dialogScreenshotPreparing">Skrinşot hazırlanır…</string>
     <string name="pref_units_weight_entries_1">İmperator [lb]</string>
@@ -499,12 +511,13 @@
     <string name="menuLicense">Təkmilləşdirin</string>
     <string name="prefMapDiskCacheSizeEntries_3">200 MB</string>
     <string name="toastSharingNoGpxError">Xəta, trekdə GPX faylı yoxdur</string>
-    <string name="dialogGoogleMapTermsViolation">Google öz xəritələrinin məzmununu çəkməyə icazə vermir, ona görə də əvvəlcə xəritə növü hər hansı digərinə dəyişdirilməlidir.
+    <string name="dialogGoogleMapTermsViolation">Google öz xəritələrinin məzmununu ələ keçirməyə icazə vermir, ona görə də əvvəlcə xəritə növü hər hansı digərinə dəyişdirilməlidir.
 \n
 \nXəritə növü indi dəyişdirilsin\?</string>
     <string name="summaryBasalMetabolicRate">Bazal metabolizm dərəcəsi</string>
     <string name="freeLicenseFeatures">❌ Premium xəritələr
 \n❌ Naviqasiya
+\n❌ Onlayn hündürlük bazası
 \n❌ Reklam yoxdur
 \n✔️ Bütün pulsuz xüsusiyyətlər və xəritələr</string>
     <string name="pref_roaring_state_summary">Hərəkət edərkən Akustik Avtomobil Siqnal Sistemi (AVAS) səsləri çıxarın</string>
@@ -544,6 +557,7 @@
     <string name="aboutScreenTranslationsTitle">Tərcümələr</string>
     <string name="hereMapsFeatures">✔️ BURADA premium xəritələr
 \n✔️ Naviqasiya
+\n✔️ Onlayn hündürlük bazası
 \n✔️ Reklam yoxdur
 \n✔️ Bütün pulsuz xüsusiyyətlər və xəritələr</string>
     <string name="prefActivityRecognitionNoteSummary">Bu seçimlər Android-in fiziki fəaliyyətin tanınması funksiyasına əsaslanır. Dəqiq olmaya bilər və gecikə bilər, yalnız bununla razısınızsa istifadə edin. Sürət sensoru məsafə və müddət üçün istifadə edildikdə ən yaxşı şəkildə işləyəcək.</string>
@@ -560,8 +574,8 @@
     <string name="prefScreenPocketModeDelayEntries_0">Gecikmə yoxdur (defolt)</string>
     <string name="pref_wakelock_modes_explanation_0">GPS yeniləmə intervalı və digər amillər əsasında avtomatik qərar verin</string>
     <string name="batteryOptimizationToast">Siyahıdan Urban Biker seçin</string>
-    <string name="infoMeterModeRadiusMsg">Yolun başlanğıc mövqeyindən Beeline məsafəsi, yəni yerdəyişmə.</string>
-    <string name="prefSteadyScreenModeAuto">Ağıllı aktiv (defolt)</string>
+    <string name="infoMeterModeRadiusMsg">Başlanğıc yerinə düz xətt məsafəsi, yəni yerdəyişmə.</string>
+    <string name="prefSteadyScreenModeAuto">Ağıllı aktivləşdirildi (defolt)</string>
     <string name="pref_maps_track_draw_title">Trakı çəkin</string>
     <string name="prefBackKeyModeEntries_0">Normal</string>
     <string name="unitFtxFt">ft²</string>
@@ -573,11 +587,11 @@
     <string name="pref_roarConstantModeButton_summary">AVAS işə salındıqda bir düyməyə kliklə sabit rejimi dəyişdirin</string>
     <string name="pref_units_altitude_entries_1">İmperator [ft]</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">Qat düyməsini basdıqda nə edəcəyinizi seçin</string>
-    <string name="infoMeterModeKineticEnergyMsg">Potensial enerjinizin cari kinetik enerjiyə bərabər olacağı yer səviyyəsindən yüksəklik.
+    <string name="infoMeterModeKineticEnergyMsg">Uzun bir yamacda əyləc etmədən \"buraxmaqla\" çatacağınız yüksəklik.
 \n
-\nBaşqa sözlə, sürətiniz bu hündürlükdən yıxıldıqdan sonra əldə edəcəyiniz sürətə bərabərdir (hava müqavimətini nəzərə almasaq).
+\nYaxud divara dəysəniz, zərbə qüvvəsi bu hündürlükdən düşmə ilə eyni olacaq.
 \n
-\nEynilə, bu, yalnız kinetik enerji məzmununuzdan istifadə edərək birbaşa yuxarı qalxmaqla əldə edəcəyiniz hündürlükdür.</string>
+\nBu rəqəm sürətin kvadratı kimi artır və təhlükəsizlik baxımından faydalıdır.</string>
     <string name="cloudAccountsPowerUploadPolicyTitle">Güc məlumatı yükləmə siyasəti</string>
     <string name="pref_gps_update_freq_entries_13">1 dəq</string>
     <string name="sensorAddedMsg">Sensor profilə əlavə edildi</string>
@@ -592,7 +606,7 @@
     <string name="pref_units_speed_dialog_title">Sürət vahidləri</string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Unudulmuş pauza</string>
     <string name="sensorProperitesNoAlarm">Həyəcan etməyin</string>
-    <string name="prefGnssActivityRecognitionSummary">GPS üçün hərəkətsiz və hərəkətsiz dayanmağı tanıyın. Fasilədən sonra gecikmələr və bəzi itirilmiş məsafələr təqdim edə bilər, lakin əksər GPS səs-küyünün qarşısını alacaq.</string>
+    <string name="prefGnssActivityRecognitionSummary">GPS üçün hərəkətsiz və hərəkətsiz dayanmağı tanıyın. Bu, fasilədən sonra ləngimə və bəzi itirilmiş məsafə və ya yüksəklik gətirə bilər, lakin əksər GPS səs-küyünün qarşısını alacaq.</string>
     <string name="pref_category_resetPrompt_title">Söhbəti sıfırlayın</string>
     <string name="pref_maps_fences_draw_summary">Xəritə üzərində FenceGuard tərəfindən qorunan bölgələri göstərin</string>
     <string name="sensorMenuAddToProfile">Profilə əlavə et</string>
@@ -617,6 +631,7 @@
     <string name="pref_speechAutoPause_summary">Avtomatik fasilədə danışın və aşkarlamağa davam edin</string>
     <string name="maptilerMapsFeatures">✔️ MapTiler premium xəritələri
 \n✔️ Naviqasiya
+\n✔️ Onlayn hündürlük bazası
 \n✔️ Reklam yoxdur
 \n✔️ Bütün pulsuz xüsusiyyətlər və xəritələr</string>
     <string name="dialogWeatherInfoMessage">Radar məlumatları hər 10 dəqiqədən bir yenilənir. Doldurulmuş ikona təzə məlumatları, boş ikona isə yeniləmənin yaxın olduğunu bildirir.
@@ -680,7 +695,7 @@
     <string name="dialogPowerWeightsWeightRider">Sürücü</string>
     <string name="pref_digital_font_title">Rəqəmsal şrift</string>
     <string name="speechTrackingPause">Fasilə</string>
-    <string name="toastSteadyScreenModeOff">SteadyScreen deaktiv edilib</string>
+    <string name="toastSteadyScreenModeOff">Ekran stabilizasiyası deaktiv edilib</string>
     <string name="prefTemperatureSensorDerivedSummary">Bu cihazın ətraf mühitin temperaturu sensoru yoxdur, lakin kobud dəyərlər digər daxili sensorlardan (məsələn, CPU temperaturu) istifadə edilə bilər.</string>
     <string name="dialogLicenseUpgradeButton2">Tanıtım videosuna baxın</string>
     <string name="meterModes_7">Enerji</string>
@@ -707,7 +722,7 @@
     <string name="pref_soundeffects_fence_enterleave_title">Hasar</string>
     <string name="tracksHistoryListEmpty">Burada trek yoxdur. Çıxın və bir fəaliyyət qeyd edin!</string>
     <string name="pref_speechToasts_summary">Müxtəlif qısa məlumat qeydlərini danışın</string>
-    <string name="prefSteadyScreenModeAutoInfo">İzləmə zamanı yalnız kələ-kötür ərazidə SteadyScreen funksiyasını aktivləşdirin. Bu, rahatlıq və batareya istifadəsinin yaxşı balansıdır.</string>
+    <string name="prefSteadyScreenModeAutoInfo">İzləmə zamanı ekran sabitləşdirmə funksiyasını yalnız kələ-kötür ərazidə aktivləşdirin. Bu, rahatlıq və batareya istifadəsinin yaxşı balansıdır.</string>
     <string name="dialog_fenceguard_add_text">Yeni bir hasar adlandırın:</string>
     <string name="pref_roaring_type_entries_0">Freehub</string>
     <string name="sensorProperitesUseForDuration">Müddət üçün istifadə edin</string>
@@ -724,7 +739,7 @@
     <string name="dialogGpsIntervalNote">Ən dəqiq oxunuşları və ardıcıl davranışı əldə etmək üçün bu dəyəri 3 saniyədən aşağı saxlayın!</string>
     <string name="dialogLayoutsInfoTitle">Planlar</string>
     <string name="pref_wakelock_modes_1">Tam oyaq</string>
-    <string name="prefTrackingButtonModeSummary">Pause, Stop üçün ayrı düyməni basın və ya uzun klikləyin.</string>
+    <string name="prefTrackingButtonModeSummary">(Bütün profillər) Pause üçün klikləyin və ya uzun klikləyin, Stop üçün ayrı düyməni basın.</string>
     <string name="pref_units_speed_title">Sürət</string>
     <string name="sensorProperitesWheelPerimeter">Təkər çevrəsi</string>
     <string name="dialogFencesUpdate">Hasar yerini yeniləyin</string>
@@ -749,7 +764,7 @@
     <string name="pref_category_gps_boost_title">GPS yeniləmələri siyasəti gücləndirir</string>
     <string name="infoMeterModeSpeedMsg">Zaman vahidi üçün qət edilən ani məsafə.</string>
     <string name="pref_category_maps_online_mode_title">Xəritələr mənbəyi</string>
-    <string name="infoDigitalFilterNotice">Nəzərə alın: Bu, qaçılmaz rəqəmsal filtrləmə gecikmələri səbəbindən real vaxtdan bir dəqiqə və ya daha çox gecikdirilə bilər.</string>
+    <string name="infoDigitalFilterNotice">Diqqət edin: Dəqiqlik üçün tələb olunan qaçılmaz rəqəmsal filtrləmə gecikmələri səbəbindən bu, bəzən real vaxtdan nəzərəçarpacaq dərəcədə geri qala bilər.</string>
     <string name="speechUnitOneMinute">Dəqiqə</string>
     <string name="menuMeter">Metr</string>
     <string name="defaultProfileNamePlane">Təyyarə 🛩️</string>
@@ -790,7 +805,7 @@
     <string name="pref_roaring_mode_dialog_title">AVAS rejimi</string>
     <string name="speechNavigationDestinationReached">Siz təyinat yerinə çatdınız</string>
     <string name="menuSendDebugFeedback">Problemi bildirin</string>
-    <string name="prefSteadyScreenModeOffInfo">Heç vaxt SteadyScreen funksiyasını aktivləşdirməyin</string>
+    <string name="prefSteadyScreenModeOffInfo">Heç vaxt ekran sabitləşdirmə funksiyasını aktivləşdirməyin</string>
     <string name="pref_gps_update_freq_entries_9">15 san</string>
     <string name="pref_text_medium">Orta</string>
     <string name="unitKm">km</string>
@@ -884,7 +899,7 @@
     <string name="pref_category_gps_interval_title">GPS yeniləmə intervalı</string>
     <string name="dialogPowerParamsRollResist">Yuvarlanma müqavimət əmsalı. (Cᵣᵣ)</string>
     <string name="meterModeCadence">kadans</string>
-    <string name="menuInsertSpeedo">Sürətölçəni daxil edin</string>
+    <string name="menuInsertSpeedo">Sürətölçən</string>
     <string name="summaryDeviceAutoPauseCount">Avtomatik fasilə sayı</string>
     <string name="pref_category_effects_title">Effektlər</string>
     <string name="unitFeetsAboveGroundLevel">ft agl</string>
@@ -947,7 +962,7 @@
     <string name="unitKcal">kkal</string>
     <string name="sensorProperitesIsInverted">Sürəti və kadansı dəyişdirin</string>
     <string name="controlPanelMapSettingsButtonTitle">Xəritə seçimləri</string>
-    <string name="disclaimerText2">Zəhmət olmasa bu proqramdan ağılla istifadə edin və avtomobil idarə edərkən, motosiklet, velosiped və ya hər hansı digər nəqliyyat vasitəsini idarə edərkən onu idarə etməyin.</string>
+    <string name="disclaimerText2">Zəhmət olmasa bu proqramdan ağılla istifadə edin və avtomobil idarə edərkən, motosiklet, velosiped və ya hər hansı digər nəqliyyat vasitəsini sürərkən onu idarə etməyin.</string>
     <string name="aboutScreenWarmWelcome">Ümid edirik ki, bu proqramdan zövq alacaqsınız 😊</string>
     <string name="sensorProperitesEnableFilteringInfo">Bu, sensor məlumatlarında əlavə filtrasiya həyata keçirəcək, ola bilsin ki, dəqiqliyi artıracaq, lakin bir neçə saniyə gecikmə təqdim edəcək. Defolt olaraq deaktivdir.</string>
     <string name="meterModeEfficacyShort">eff</string>
@@ -979,7 +994,7 @@
     <string name="meterModes_4">Yoxuş</string>
     <string name="trackUploadActivityTypes_7">Skeytbord</string>
     <string name="sensorMenuDelete">Unut</string>
-    <string name="prefSteadyScreenNote1">Bu funksiya kələ-kötür ərazidə sürərkən ekranı bir az daha aydın görməyə kömək edir. Ekrandakı görüntü xarici sarsıntıya qarşı durmağa çalışan sürətli kiçik hərəkətlər tətbiq etməklə sabitləşir.</string>
+    <string name="prefSteadyScreenNote1">Bu funksiya yolda olarkən ekranı bir az aydın görməyə kömək edir. Ekrandakı görüntü xarici sarsıntıya qarşı durmağa çalışan sürətli kiçik hərəkətlər tətbiq etməklə sabitləşir.</string>
     <string name="powerSourceWeight_0">Ümumi</string>
     <string name="pref_fg_color_summary">Mətn və nişanlar üçün istədiyiniz rəngi seçin</string>
     <string name="pref_autopause_modes_2">Söndür</string>
@@ -1034,11 +1049,9 @@
     <string name="infoMeterModeVibrationsMsg">Cihazla ölçülən vibrasiya. Cihaz əldə və ya cibdə deyil, avtomobilə bərkidilmiş vəziyyətdə (məsələn, velosiped sükanında) olduqda faydalıdır.</string>
     <string name="prefUnitsPowerEntries_2">[kkal/saat]</string>
     <string name="prefScreensaverTimeoutEntries_1">10 saniyə</string>
-    <string name="dialogCustomTracksFolderInfoMessage">Bu xüsusiyyət proqrama, yeri bu yaxınlarda dəyişmiş defolt treklər qovluğuna əlavə olaraq, seçdiyiniz qovluqdakı musiqiləri oxumağa imkan verir.
+    <string name="dialogCustomTracksFolderInfoMessage">Bu xüsusiyyət proqrama əsas treklər qovluğuna əlavə olaraq seçdiyiniz qovluqdakı musiqiləri oxumağa imkan verir - yeri bu yaxınlarda dəyişdirilmişdir.
 \n
-\nBelə treklər yalnız oxunur: Onlara baxmaq və paylaşmaq olar, lakin redaktə edilə, davam etdirilə və silinə bilməz.
-\n
-\nƏgər əmin deyilsinizsə, növbəti ekranda \"Sənədlər-UrbanBiker-tracks\" qovluğunu tapmağa çalışın.</string>
+\nBelə treklər yalnız oxunur: Onlara baxmaq və paylaşmaq olar, lakin redaktə etmək, davam etdirmək və ya silmək mümkün deyil.</string>
     <string name="pref_roarConstantModeButton_title">Düymə keçidi</string>
     <string name="prefScreensaverDimBrightnessEntries_0">Minimum</string>
     <string name="infoMeterModeDescentTitle">Eniş</string>
@@ -1066,7 +1079,7 @@
     <string name="prefScreensaverTimeoutEntries_2">15 saniyə</string>
     <string name="roarModeConstant">const</string>
     <string name="prefUnitsPowerEntries_0">[W]</string>
-    <string name="speechUnitManyFeets">Ayaqlar</string>
+    <string name="speechUnitManyFeets">Ayaq</string>
     <string name="unitM">m</string>
     <string name="sensorsSectionUnsupported">Dəstəklənmir</string>
     <string name="infoMeterModeVibrationsTitle">Vibrasiya</string>
@@ -1083,7 +1096,7 @@
     <string name="pref_group_flashlight_title">Fənər</string>
     <string name="pref_screenAutoPocketModeDelay_title">Gecikmə</string>
     <string name="dialogTrackResumeWaitMessage">Davam edilir, gözləyin…</string>
-    <string name="unitKg">kq</string>
+    <string name="unitKg">Kiloqram</string>
     <string name="dialogFencesEdit">Hasar redaktə edin</string>
     <string name="controlPanelMapShowButtonSubtitle">Xəritəni göstərmək üçün klikləyin</string>
     <string name="dialog_volume_bell_text">zəng</string>
@@ -1121,7 +1134,7 @@
     <string name="meterModeEnergy">enerji</string>
     <string name="pref_category_visualThemeAuto">Avtomatik mövzu</string>
     <string name="pref_track_charts_title">Diaqram növləri…</string>
-    <string name="pref_locationProvider_modes_1">Google Play xidmətləri (defolt)</string>
+    <string name="pref_locationProvider_modes_1">Google Play xidmətləri</string>
     <string name="meterModes_26">Kinetik enerji</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
     <string name="dialog_volume_alarms_text">Siqnallar</string>
@@ -1151,7 +1164,7 @@
     <string name="infoMeterModeStepCadenceMsg">Dəqiqədə addımların sayı.</string>
     <string name="menuShowTotals">Cəmi göstərin</string>
     <string name="cloudAccountsTitle">Hesablar</string>
-    <string name="pref_maps_offline_terrain_usage_summary">İstifadə: Yüklənmiş zip(lər)dən .hgt fayllarını çıxarın və onları oflayn xəritə faylının yerləşdiyi eyni qovluğa yerləşdirin (ayrıca alt qovluqdan istifadə etməyin).</string>
+    <string name="pref_maps_offline_terrain_usage_summary">İstifadə: Yüklənmiş zip(lər)dən .hgt fayllarını çıxarın və onları oflayn xəritə faylının yerləşdiyi qovluğa yerləşdirin (ayrıca alt qovluqdan istifadə etməyin).</string>
     <string name="pref_wakelock_modes_0">Avtomatik (defolt)</string>
     <string name="prefScreensaverTimeoutEntries_6">1 dəqiqə</string>
     <string name="dialogTrackResumeProfileNotBlankMessage">Hədəf profili %1$s boş deyil. Əvvəlcə sıfırlayın.</string>
@@ -1219,7 +1232,7 @@
     <string name="pref_hud_axis_entries_1">Baş aşağı — Cihazın daha praktik idarə edilməsi</string>
     <string name="meterModes_6">Yamac</string>
     <string name="sensorRemovedMsg">Sensor profildən çıxarıldı</string>
-    <string name="prefSteadyScreenModeOn">Aktiv</string>
+    <string name="prefSteadyScreenModeOn">Aktivdir</string>
     <string name="prefMapDiskCacheSizeEntries_7">1 GB</string>
     <string name="sensorPurposeDuration">Müddət</string>
     <string name="prefAutoTerrainSummary">Vibrasiyaları ölçməklə ərazinin pürüzlülüyünü hiss edin və hesablama gücünü hesablayarkən yuvarlanma müqavimət əmsalını (Cᵣᵣ) müvafiq olaraq tənzimləyin.</string>
@@ -1395,7 +1408,7 @@
     <string name="prefMapDiskCacheSizeEntries_8">2 GB</string>
     <string name="licenseUpgradeTitle">Lisenziyanızı təkmilləşdirin</string>
     <string name="pref_category1_title">Səs</string>
-    <string name="summaryDriverWeightInfo">Bu treki yazarkən istifadə edilən sürücünün (və ya atlının) çəkisi.</string>
+    <string name="summaryDriverWeightInfo">Bu treki yazarkən istifadə olunan sürücünün (və ya atlının) çəkisi.</string>
     <string name="pref_group_units_title">Vahidlər</string>
     <string name="prefUnitsEnergyEntries_2">[kWh]</string>
     <string name="pref_roaring_mode_entries_2">Avtomatik səs səviyyəsi</string>
@@ -1474,7 +1487,7 @@
     <string name="infoMeterModePowerTitle">Güc</string>
     <string name="sensorProperitesCadenceTriggers">Kadans tetikleyicileri</string>
     <string name="dialogOpenRainviewerText">www.rainviewer.com veb səhifəsini indi açın\?</string>
-    <string name="pref_locationProvider_modes_0">GPS alt sistemi</string>
+    <string name="pref_locationProvider_modes_0">GPS alt sistemi (defolt)</string>
     <string name="pref_roaring_type_entries_1">Bip</string>
     <string name="unitKj">kJ</string>
     <string name="sensorProperitesFilterIntervalInfo">Filtr intervalı, yəni filtrin gücü. Daha böyük dəyərlər daha çox süzgəcdən keçirəcək, eyni zamanda daha çox gecikmə təqdim edəcək.</string>
