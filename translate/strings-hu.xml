@@ -168,7 +168,9 @@
     <string name="dialogTracksDeleteTitle">Útvonal törlése</string>
     <string name="dialogTracksDeleteMessage">Figyelmeztetés: ez a művelet nem vonható vissza.
 \n
-\nTöröljük a kiválasztott útvonalat\?</string>
+\nTöröljük a kiválasztott útvonalat\?
+\n
+\nA törlés megerősítéséhez adja meg a következő kódot.</string>
     <string name="dialogTrackDeleteMessage">Figyelmeztetés: ez a művelet nem vonható vissza.
 \n
 \nTöröljük a kiválasztott útvonalat %1$s\?</string>
@@ -1008,26 +1010,31 @@
     <string name="disclaimerText1">Ez az alkalmazás a jelenlegi állapotban van, és a saját felelősségére használja. A kiadó, nem vállal felelősséget az Ön vagy harmadik személy esetleges hibáiról, tulajdonvesztéséről, sérüléseiről vagy még rosszabb eseményeiről, amelyek az alkalmazás használatából származnak egy út során vagy más módon.</string>
     <string name="disclaimerText2">Kérjük, felelősséggel használja ezt az alkalmazást, és NE működtesse azt autóvezetés, motorkerékpár, kerékpár vagy bármilyen más jármű vezetése közben.</string>
     <string name="disclaimerText3">Mindig legyen a szemed az úton.</string>
-    <string name="ultimateLicenseDescription">Teljes körü licensz minden szolgáltatáshoz.</string>
+    <string name="ultimateLicenseDescription">Teljes körű licensz minden szolgáltatáshoz.</string>
     <string name="ultimateLicenseFeatures">✔️ Minden prémium térkép
 \n✔️ Navigáció
-\n✔️ Hirdetésmentes
+\nOnline magassági adatok
+\n✔️ Reklám mentes
 \n✔️ Minden szolgáltatás és térkép ingyen</string>
     <string name="proPlusLicenseFeatures">Prémium térképek
 \nNavigáció
+\nOnline magasság adatok
 \nHirdetésmentes
 \nMinden szolgáltatás és térkép ingyen
 \nAdományozás</string>
     <string name="proLicenseFeatures">❌ Prémium térképek
 \n❌ Navigáció
+\n❌ Online altitude baseline
 \n✔️ Hirdetésmentes
 \n✔️ Minden szolgáltatás és térkép ingyen</string>
     <string name="thunderforestMapsFeatures">Thunderforest térképek
 \nNavigációk
+\nOnline magasság adatok
 \nHirdetésmentes
 \nMinden szolgáltatás és térkép ingyen</string>
     <string name="mapboxMapsFeatures">Mapbox térkép
 \nNavigáció
+\nOnline magasság adatok 
 \nHirdetésmentes
 \nMinden szolgáltatás és térkép ingyen</string>
     <string name="priceFree">INGYENES</string>
@@ -1219,10 +1226,12 @@
     <string name="cloudAccountsPowerUploadPolicy_1">Csak akkor töltsön fel teljesítményadatokat, ha teljesítménymérőt használt</string>
     <string name="hereMapsFeatures">✔️ HERE prémium térképek
 \n✔️ Navigáció
+\n✔️ Online altitude baseline
 \n✔️ Hirdetésmentes
 \n✔️ Minden szolgáltatás és térkép ingyen</string>
     <string name="maptilerMapsFeatures">✔️ MapTiler prémium térképek
 \n✔️ Navigáció
+\n✔️ Online altitude baseline
 \n✔️ Hirdetésmentes
 \n✔️ Minden szolgáltatás és térkép ingyen</string>
     <string name="dialogMapsChooseTitle">Válassz térképet</string>
@@ -1249,13 +1258,14 @@
     <string name="controlPanelScreenshotButtonSubtitle">Kattintson a képernyőkép megosztásához</string>
     <string name="freeLicenseFeatures">❌ Prémium térképek
 \n❌ Navigáció
+\n❌ Online altitude baseline
 \n❌ Hirdetésmentes
 \n✔️ Minden szolgáltatás és térkép ingyen</string>
     <string name="speechRadius">Sugár: %1$s</string>
     <string name="pref_screenWaveDim_title">Halvány kijelző</string>
     <string name="infoMeterModeHumidityMsg">Környezeti relatív páratartalom a készülékkel vagy egy külső érzékelővel mérve.</string>
     <string name="sensorProperitesUseForTemperature">Használja a hőmérséklethez</string>
-    <string name="dialogLayoutEmptyInfoMessage">Az elrendezésben legalább egy méternek jelen kell lennie.</string>
+    <string name="dialogLayoutEmptyInfoMessage">Az elrendezésben legalább egy mérőnek kell lennie.</string>
     <string name="navigationStopPrompt">Állj meg</string>
     <string name="pref_categoryPrivacyTitle">Magánélet</string>
     <string name="infoSpeedometerTitle">Sebességmérő</string>
@@ -1274,7 +1284,7 @@
     <string name="sensorFilterInterval_1">5 másodperc</string>
     <string name="pref_categoryActivityRecognitionTitle">A fizikai aktivitás felismerése</string>
     <string name="prefBarometricAltitudeDisableAlert">Letiltja a barometrikus magasságot\?</string>
-    <string name="menuScreenshot">Képernyőkép</string>
+    <string name="menuScreenshot">Képernyő kép</string>
     <string name="menuAutomaticBell">Automata csengő</string>
     <string name="meterVerticalWeight">Függőleges súly</string>
     <string name="speechUnitManyLitersOfGasoline">Liter benzin</string>
@@ -1286,7 +1296,7 @@
     <string name="toastSteadyScreenModeActive">Állandó képernyő aktív</string>
     <string name="summaryStoppedTimeInfo">Szünettel töltött idő, akár manuálisan, akár az automatikus szüneteltetés használata közben.</string>
     <string name="dialogLayoutChooseTitle">Elrendezés</string>
-    <string name="menuSpeedoPaceIndicator">Tempójelző</string>
+    <string name="menuSpeedoPaceIndicator">Tempó kijelző</string>
     <string name="pref_screensaverDimBrightnessDialogTitle">Képernyővédő halvány fényereje</string>
     <string name="meterHorizontalWeight">Vízszintes súly</string>
     <string name="summaryDragging">Húzza</string>
@@ -1301,7 +1311,7 @@
     <string name="prefAppVisualThemeEntries_1">Könnyű</string>
     <string name="pref_screensaverTimeout_summary">Felhasználói beavatkozás nélküli időtartam a képernyővédő aktiválásáig.</string>
     <string name="prefScreensaverTimeoutEntries_4">30 másodperc</string>
-    <string name="menuInsertMeter">Helyezze be a mérőt</string>
+    <string name="menuInsertMeter">Mérő</string>
     <string name="prefAutoTerrainNote2Summary">Ez a funkció nem befolyásolja a teljesítményérzékelővel kapott teljesítményeket.</string>
     <string name="menuMeterShowValue">Érték</string>
     <string name="dialogRevokeAccessPromptMessage">Megtagadja a hozzáférést\?</string>
@@ -1312,7 +1322,7 @@
 \nA becslés nagymértékben függ a tevékenység típusától és időtartamától.</string>
     <string name="prefSteadyScreenModeOnInfo">Tartsa a SteadyScreen funkciót mindig aktív a követés során. Ez több akkumulátort fogyaszthat.</string>
     <string name="summaryVibrations">Rezgések</string>
-    <string name="summaryVehicleWeightInfo">A műsorszám rögzítésekor használt jármű tömege.</string>
+    <string name="summaryVehicleWeightInfo">Az útvonal rögzítésekor használt jármű tömege.</string>
     <string name="unitNewtonPerKg">N/kg</string>
     <string name="menuRevokeAccess">Hozzáférés visszavonása</string>
     <string name="pref_speechNavigation_summary">Beszéljen a navigációval</string>
@@ -1330,7 +1340,7 @@
     <string name="menuSelectOther">Válasszon mást</string>
     <string name="summaryDriverWeight">Vezető súlya</string>
     <string name="prefMapDiskCacheAgeTitle">A térképgyorsítótár korhatára</string>
-    <string name="summaryDeviceNameInfo">A műsorszám rögzítésére használt eszköz.</string>
+    <string name="summaryDeviceNameInfo">Az útvonal rögzítésére használt eszköz.</string>
     <string name="sensorPurposeTemperature">Hőfok</string>
     <string name="speechEnergy">Energia: %1$s</string>
     <string name="pref_mapsFollowMode_summary">Tartsa a térképet aktuális tartózkodási helye középpontjában</string>
@@ -1384,7 +1394,7 @@
     <string name="prefSteadyScreenModeAutoInfo">A SteadyScreen funkciót csak göröngyös terepen kapcsolja be követés közben. Ez jó egyensúlyt biztosít a kényelem és az akkumulátorhasználat között.</string>
     <string name="sensorProperitesUseForDuration">Használja időtartamra</string>
     <string name="menuNavigation">Irányítás</string>
-    <string name="menuCustomTracksFolder">Egyéni számok mappa</string>
+    <string name="menuCustomTracksFolder">Egyéni trekk mappa</string>
     <string name="speechNavigationWrongWay">Rossz irány</string>
     <string name="dialogLayoutsInfoTitle">Elrendezések</string>
     <string name="prefTrackingButtonModeSummary">Kattintson vagy tartsa lenyomva a gombot a szüneteltetéshez, külön a gombot pedig a Leállításhoz.</string>
@@ -1417,7 +1427,7 @@
     <string name="pref_screensaverEnable_summary">Időtúllépés után halványítsa el a kijelzőt az akkumulátor kímélése érdekében. A feloldáshoz érintse meg a kijelzőt.</string>
     <string name="pref_soundeffects_tally_energy_dialog_title">Energiaszámláló</string>
     <string name="prefMapDiskCacheAgeEntries_1">5 nap</string>
-    <string name="dialogBluetoothPermissionRequestTitle">Bluetooth engedély</string>
+    <string name="dialogBluetoothPermissionRequestTitle">Bluetooth engedélyek</string>
     <string name="prefGpsBoostNoteSummary">A helyfrissítések mindig a legmagasabb gyakoriságra lesznek kényszerítve a navigáció során</string>
     <string name="freeLicenseTitle">Ingyenes licenc</string>
     <string name="prefMapDiskCacheAgeEntries_3">15 nap</string>
@@ -1428,7 +1438,7 @@
     <string name="unitNewtonPerLb">N/lb</string>
     <string name="navigationDestinationReached">Rendeltetési hely</string>
     <string name="prefAutoTerrainNote1Summary">A készüléket a járműhöz rögzítve kell tartani (például kerékpár kormányon), és nem a kézben vagy a zsebben, miközben használja.</string>
-    <string name="menuInsertSpeedo">Helyezze be a sebességmérőt</string>
+    <string name="menuInsertSpeedo">Sebességmérő</string>
     <string name="summaryDeviceAutoPauseCount">Automatikus szüneteltetés</string>
     <string name="pref_screensaverEnable_title">Képernyőkímélő</string>
     <string name="menuChooseFile">Fájl</string>
@@ -1460,9 +1470,9 @@
     <string name="prefScreensaverTimeoutEntries_8">5 perc</string>
     <string name="infoMeterModeVibrationsMsg">A készülékkel mért rezgések. Hasznos, ha az eszközt a járműhöz rögzítve tartják (például kerékpárkormányon), és nem a kézben vagy a zsebben.</string>
     <string name="prefScreensaverTimeoutEntries_1">10 másodperc</string>
-    <string name="dialogCustomTracksFolderInfoMessage">Ez a funkció lehetővé teszi az alkalmazás számára, hogy az alapértelmezett számok mappa mellett – amelynek helye nemrég megváltozott – egy tetszőleges mappából is beolvasson számokat.
+    <string name="dialogCustomTracksFolderInfoMessage">Ez a funkció lehetővé teszi az alkalmazás számára, hogy az alapértelmezett útvonalak mappa mellett – amelynek helye nemrég megváltozott – egy tetszőleges mappából is beolvasson útvonalakat.
 \n
-\nAz ilyen számok csak olvashatók: megtekinthetők és megoszthatók, de nem szerkeszthetők, folytathatók vagy törölhetők.
+\nEzek az útvonalak csak olvashatók: megtekinthetők és megoszthatók, de nem szerkeszthetőek, folytathatóak vagy törölhetőek.
 \n
 \nHa nem biztos benne, keresse meg a „Documents-UrbanBiker-tracks” mappát a következő képernyőn.</string>
     <string name="prefScreensaverDimBrightnessEntries_0">Minimális</string>
@@ -1482,7 +1492,7 @@
     <string name="pref_mapsFollowAutoZoomMode_summary">Állítsa be a térkép nagyítási szintjét az aktuális sebesség alapján</string>
     <string name="dialogLayoutsInfoMessage">Gyorsan módosíthatja a kijelző elrendezését az előre meghatározott elrendezésekből.
 \n
-\nEzután kattintson hosszan bármelyik mezőre a megjelenítés további testreszabásához a felugró menük segítségével.
+\nKattintson hosszan bármelyik mezőre a megjelenítés további testreszabásához a felugró menük segítségével.
 \n
 \nAz álló és fekvő képernyőtájolás teljesen független elrendezéssel.</string>
     <string name="prefMapDiskCacheAgeEntries_4">30 nap</string>
@@ -1501,7 +1511,7 @@
     <string name="powerSourceWeightTitle">Az áramforrás súlya</string>
     <string name="pref_soundeffects_autopause_title">Automatikus szünet</string>
     <string name="pref_mapsWeatherAnimateForecast_summary">Ezenkívül animáljon 30 perces radar-előrejelzést különböző színekben</string>
-    <string name="menuBell">Harang</string>
+    <string name="menuBell">Csengő</string>
     <string name="menuInsertRight">Jobb</string>
     <string name="menuSpeedoScale">Skála</string>
     <string name="menuSelect">Válassza ki</string>
@@ -1545,17 +1555,17 @@
     <string name="navigationWrongWay">Rossz irány</string>
     <string name="menuHideTotals">Összesítések elrejtése</string>
     <string name="pref_screensaverDimBrightness_title">Halvány fényerő</string>
-    <string name="summaryProfileNameInfo">A szám rögzítéséhez használt profil.</string>
-    <string name="summaryTotalWeightInfo">A nyomvonal rögzítésekor használt összes súly összege (lovas, jármű, rakomány stb.).</string>
-    <string name="tracksHistoryGrantAccess">Hiányzó számok\?
-\nKattintson ide, hogy csak olvasási hozzáférést biztosítson egy egyéni zeneszámok mappához…</string>
+    <string name="summaryProfileNameInfo">Az útvonal rögzítéséhez használt profil.</string>
+    <string name="summaryTotalWeightInfo">A nyomvonal rögzítésekor használt össz. súly (lovas, jármű, rakomány stb.).</string>
+    <string name="tracksHistoryGrantAccess">Hiányzó útvonalak\?
+\nKattintson ide, hogy csak olvasási hozzáférést biztosítson egy egyéni útvonalak mappához…</string>
     <string name="pref_speechGnssStatus_summary">Beszéljen a GPS az állapotváltozásáról (jó, rossz)</string>
     <string name="navigationStepsInfo">Mozgás közben itt megjelennek a navigációs utasítások. Tetszés szerint rejtse el vagy csúsztassa el ezt a panelt.</string>
     <string name="summaryRolling">Tekercs</string>
     <string name="summaryTotalTimeInfo">Időintervallum a műsorszám kezdési időpontja és befejezése között.</string>
     <string name="meterModes_None">Egyik sem</string>
     <string name="licenseUpgradeTitle">Frissítse licencét</string>
-    <string name="summaryDriverWeightInfo">A pálya rögzítésekor használt sofőr (vagy versenyző) súlya.</string>
+    <string name="summaryDriverWeightInfo">Az útvonal rögzítésekor használt sofőr (vagy versenyző) súlya.</string>
     <string name="freeLicenseLabel">Ingyenes</string>
     <string name="prefAppVisualThemeDialogTitle">App vizuális téma</string>
     <string name="pref_meterTitle">Méter</string>
@@ -1586,4 +1596,67 @@
     <string name="pref_mapsFollowAutoZoomSensitivity_info">Az automatikus zoom érzékenységét menet közben állíthatja be a követés közbeni nagyítással vagy kicsinyítéssel</string>
     <string name="pref_mapsLayerHeatmap_summary">Az elmúlt év összesített nyilvános tevékenységeinek megjelenítése (a Stravából)</string>
     <string name="pref_mapsLayerHeatmap_title">Hőtérkép</string>
+    <string name="dataStorageChooseButton">Adattárolás helyének módosítása</string>
+    <string name="dialogRecButtonInsertMessage">Ezzel a Rögzités indito gombot ide illeszti be, és eltávolítja a gombsorból. Folytatja\?</string>
+    <string name="menuRemoveRecButton">Rögzités törlése</string>
+    <string name="pref_category_storage_title">Tároló</string>
+    <string name="dialogRecButtonRemoveMessage">Ezzel a rögzités inditó gomb visszakerül a gombsorba. Folytatja\?</string>
+    <string name="inProgress">Folyamatban</string>
+    <string name="dialogLayoutRemoveEntryMessage">Beviteli mezö törlése\?</string>
+    <string name="prefGpsIntervalAdaptiveSummary">A GPS-frissítési időköz automatikus beállítása 1 és 5 másodperc között, a sebességtől függően.</string>
+    <string name="dataStorageInfo1">Javasoljuk, hogy más tárolóhelyet használjon az adatok tárolására, hogy elkerülje a véletlen adatvesztést az alkalmazás eltávolítása esetén, és megkönnyítse a biztonsági mentéseket.</string>
+    <string name="dialogEnterCodeMessage">Kód bevitele</string>
+    <string name="dataStorageTitle">Tároló</string>
+    <string name="pref_category_mapsRenderer">Renderelés</string>
+    <string name="prefOnlineElevationNoteSummary1">Az akkumulátor kímélése és az adat mennyiség csökkentése érdekében csak egy magassági pont kerül lekérdezésre az internetről, amikor új trekket rögzít. Ez elegendő ahhoz, hogy a pálya többi részén pontosabb magassági alapvonal álljon rendelkezésre.</string>
+    <string name="prefGpsIntervalAdaptiveTitle">Adaptív</string>
+    <string name="success">Sikeres</string>
+    <string name="prefOnlineElevationNoteSummary2">Ha nincs internet, vagy a megfelelő licensz, az alkalmazás pontatlanabb magassági adatokkal dolgozik.</string>
+    <string name="prefGoogleMapsRenderer_0">Ajánlott</string>
+    <string name="meterModeBatteryShort">Elem</string>
+    <string name="prefSteadyScreenImplementationInternal">Belső (ajánlott)</string>
+    <string name="dialogMapsMapCountManyMaps">%1$s térképek</string>
+    <string name="dialogNotificationPermissionRequestTitle">Értesítési engedély</string>
+    <string name="pref_mapsOfflineFileSummary">A térképfájlokat az alkalmazásspecifikus térképek mappába kell másolni a használathoz</string>
+    <string name="prefBatteryOptimizationTitle">Akku optimalizálás</string>
+    <string name="dialogNotificationPermissionRequest">Engedélyezd, ha folyamatos értesitést akarsz, mig megy a trekking.</string>
+    <string name="prefGoogleMapsRendererSummary">Aktuális: %1$s</string>
+    <string name="dialogRecButtonInsertTitle">Rögzités indito gomb beillesztése</string>
+    <string name="prefOnlineElevationNoteSummary3">Csak akkor működik, ha van előfizetési licensz (Ultimate licenc, vagy térkép licenc).</string>
+    <string name="prefMapShowBuildingsSummary">A Google Maps 3D-s épületek megjelenítése. A teljesítmény javításához és az erőforrás-felhasználás csökkentéséhez tiltsa le.</string>
+    <string name="prefBatteryOptimizationMessage">Akkumulátor-optimalizálás kikapcsolása, hogyha a képernyő ki van kapcsolva az Android régebbi verzióin, az alkalmazás továbbra is megfelelően működjön. Kattintson ide a beállítások megnyitásához most.</string>
+    <string name="prefTrackingButtonFreePlacementTitle">Szabad gomb helye</string>
+    <string name="computing">Számitás…</string>
+    <string name="prefMapsFolderExploreSummary">Az alkalmazásspecifikus térképek mappa tartalmának kezelése fájlkereső alkalmazással</string>
+    <string name="menuInsertRecButton">Rögzítés inditó gomb</string>
+    <string name="dataStorageInfo2">Ha megváltoztatja az adattárolási helyet, az előző alkalmazás adatai automatikusan átkerülnek az új helyre. Ez a háttérben történik, és eltarthat egy ideig.
+\n
+\nA hozzáférés visszavonása érintetlenül hagyja az adatokat.</string>
+    <string name="prefGoogleMapsRendererInfo">Megmutatja, hogy melyik renderelőtípust szeretné használni a térképek megjelenítéséhez. A régebbi renderelő kevesebb erőforrást használhat, míg a legújabb általában több funkcióval vagy jobb kialakítással rendelkezik.</string>
+    <string name="toastGpsIntervalAdaptiveActive">Változó frissítési gyakoriság bekapcsolva</string>
+    <string name="buttonProceed">Folyamatos</string>
+    <string name="prefMapsFolderExploreTitle">Térképek mappa felfedezése</string>
+    <string name="prefGpsIntervalAdaptiveNote">Az adaptív frissítési időközök segíthetnek csökkenteni az akkumulátor fogyasztását lassú mozgás vagy gyakori szünetek esetén.</string>
+    <string name="prefOnlineElevationSummary">Használja az internetről származó magassági adatokat a magassági alaphelyzet pontosságának növeléséhez. Alapértelmezés szerint engedélyezve.</string>
+    <string name="dataStorageNotSetMessage">Az adattárolás helye nincs beállítva, kérjük, használja a fenti gombot.
+\n
+\nAz alkalmazás jelenleg az alapértelmezett mappát használja a számok és adatok tárolására.</string>
+    <string name="tracksHistoryDataStorageLink">Figyelem: az alkalmazás csak az ajánlott könyvtárakba való rögzítés esetén működik helyesen. Kattintson a változtatáshoz.</string>
+    <string name="menuDataStorage">Adattárolás helye</string>
+    <string name="meterModeBattery">Elem</string>
+    <string name="infoMeterModeBatteryTitle">Akkumulátor</string>
+    <string name="infoMeterModeBatteryMsg">Az Android készülék akkumulátorának töltöttségi szintje.</string>
+    <string name="toastAutoBellButtonClickInfo">Hosszan nyomva kapcsolja az automata csengö hangot</string>
+    <string name="dataStorageTransferRetrying">Sikertelen - újra próbálkozik</string>
+    <string name="prefTrackingButtonFreePlacementSummary">(Összes profil) Lehetővé teszi a Rec gomb elhelyezését bárhol az elrendezésben. Ha ki van kapcsolva, a Rec gomb a gombsoron lesz rögzítve.</string>
+    <string name="prefMapShowBuildingsTitle">Épületek megjelenítése</string>
+    <string name="meterModes_33">Akkumulátor</string>
+    <string name="prefSteadyScreenImplementationExternal">Külső</string>
+    <string name="dialogMapsMapCountTwoMaps">%1$s térképek</string>
+    <string name="controlPanelFlashlight">Villogás</string>
+    <string name="dialogRecButtonRemoveTitle">Rögzitás indito gomb eltávolitása</string>
+    <string name="otherLicenses">További</string>
+    <string name="dataStorageTransferInfoTitle">Előző változtatás</string>
+    <string name="recommendedLicense">Ajánlott</string>
+    <string name="dialogMapsMapCountFourMaps">%1$s térképek</string>
 </resources>
