@@ -46,9 +46,9 @@
     <string name="navigationStopPrompt">Atura</string>
     <string name="dialogGpsSettingsPromptMessage">No podreu utilitzar la majoria de les funcions d\'aquesta aplicació sense la ubicació.
 \n
-\nSi us plau, assegureu-vos que la ubicació estigui activada i configurada en el mode \"Alta precisió\".
+\nSi us plau, assegureu-vos que la ubicació estigui activada i establerta en el mode \"Alta precisió\".
 \n
-\nVols obrir la configuració d\'ubicació ara\?</string>
+\nObre la configuració d\'ubicació ara\?</string>
     <string name="accountDisconnect">Desconnecta</string>
     <string name="dialogTrackResumeTitle">Reprèn la pista</string>
     <string name="pref_category_maps_track_title">Línia de pista</string>
@@ -85,7 +85,7 @@
     <string name="dialogReviewNudgeMessage">Estàs gaudint de Urban Biker\?</string>
     <string name="tracksHistoryListButtonShare">Compartir</string>
     <string name="timePeriod_per6Months">per 6 mesos</string>
-    <string name="pref_categoryTrackingButtonTitle">Botó de seguiment</string>
+    <string name="pref_categoryTrackingButtonTitle">Botó Rec</string>
     <string name="sensorProperitesIsAutoStrideLenInfo">Això realitzarà mesures automàtiques de la longitud del pas durant la carrera o la marxa ràpida.</string>
     <string name="pref_bell_automatic_summary">Toca el timbre en una desacceleració important</string>
     <string name="trackUploadActivityTypes_4">Nedar</string>
@@ -143,6 +143,7 @@
     <string name="dialog_volume_effects_text">Efectes</string>
     <string name="proLicenseFeatures">❌ Mapes Premium
 \n❌ Navegació
+\n❌ Línia de base d\'altitud en línia
 \n✔️ Sense anuncis
 \n✔️ Totes les funcions i mapes gratuïts</string>
     <string name="infoMeterModeEfficacyTitle">Eficàcia (acumulativa)</string>
@@ -167,6 +168,7 @@
     <string name="pref_category_autopause_title">Pausa automàtica</string>
     <string name="mapboxMapsFeatures">✔️ Mapes premium de Mapbox
 \n✔️ Navegació
+\n✔️ Línia de base d\'altitud en línia
 \n✔️ Sense anuncis
 \n✔️ Totes les funcions i mapes gratuïts</string>
     <string name="pref_maps_online_mode_dialog_title">Font dels mapes</string>
@@ -206,7 +208,7 @@
     <string name="pref_units_other_title">Altres</string>
     <string name="unitKjKg">kJ/kg</string>
     <string name="mapLayerStreet">carrer</string>
-    <string name="prefSteadyScreenNote2">Si us plau, no esperis miracles. Si aquesta funció no us funciona bé, simplement desactiveu-la.</string>
+    <string name="prefSteadyScreenNote2">Això funciona millor per a moviments més lents, com ara el telèfon que es balanceja a la mà mentre camina, però també al manillar mentre es condueix o en un cotxe mentre condueix.</string>
     <string name="dialogEnergyParamsEfficiency">Eficiència tèrmica global (η)</string>
     <string name="summaryRollResistCoef">Coef de resistència al rotllo.</string>
     <string name="dialogScreenOrientationReverseLandscape">Paisatge (revers)</string>
@@ -215,7 +217,7 @@
     <string name="navigationAvoidFerries">Eviteu ferris</string>
     <string name="unitMeterPerMin">m/min</string>
     <string name="pref_button_roar_show_summary">Mostra el botó AVAS</string>
-    <string name="toastSteadyScreenModeActive">SteadyScreen actiu</string>
+    <string name="toastSteadyScreenModeActive">Estabilització de pantalla activada</string>
     <string name="pref_maps_disable_title">Desactiva Maps</string>
     <string name="summaryStoppedTimeInfo">Temps dedicat a la pausa, ja sigui manualment o mentre s\'utilitza la pausa automàtica.</string>
     <string name="dialogLayoutChooseTitle">Disseny</string>
@@ -261,7 +263,7 @@
 \n
 \nL\'indicador de ritme són petites fletxes properes al valor de velocitat que mostren quan la velocitat actual està per sobre o per sota de la velocitat mitjana.</string>
     <string name="pref_autopause_modes_0">Temps real (per defecte)</string>
-    <string name="toastSteadyScreenModeIntelligentActive">SteadyScreen intel·ligent actiu</string>
+    <string name="toastSteadyScreenModeIntelligentActive">Estabilització de pantalla intel·ligent activada</string>
     <string name="dialogResetMessage">Deseu aquesta pista i prepareu-ne una de nova\?</string>
     <string name="prefAppVisualThemeEntries_1">Llum</string>
     <string name="dialogPowerWeightsWeightPassengers">Passatgers</string>
@@ -275,7 +277,7 @@
     <string name="timePeriod_perWeek">per setmana</string>
     <string name="dialogTrackUploadSending">S\'està enviant…</string>
     <string name="unitMxM">m²</string>
-    <string name="menuInsertMeter">Inseriu el mesurador</string>
+    <string name="menuInsertMeter">Metre</string>
     <string name="prefAutoTerrainNote2Summary">Les potències obtingudes mitjançant un sensor de potència no es veuen afectades per aquesta funció.</string>
     <string name="sensorPurposeHeartRate">Ritme cardíac</string>
     <string name="infoMeterModePaceTitle">Ritme</string>
@@ -304,7 +306,7 @@
     <string name="subscriptionPer1m">%1$s facturat un cop al mes</string>
     <string name="licenseItemAlreadyOwned">Element de llicència que ja és propietat</string>
     <string name="menuEdit">Edita</string>
-    <string name="prefSteadyScreenModeOnInfo">Manteniu la funció SteadyScreen sempre activa durant el seguiment. Això pot consumir més bateria.</string>
+    <string name="prefSteadyScreenModeOnInfo">Manteniu la funció d\'estabilització de la pantalla sempre activa durant el seguiment. Això pot consumir més bateria mentre la pantalla està encesa.</string>
     <string name="pref_category_tracking_title">Seguiment</string>
     <string name="dialogScreenOrientationReversePortrait">Retrat (revers)</string>
     <string name="unitIn">en</string>
@@ -357,9 +359,9 @@
     <string name="prefUnitsPowerEntries_3">[kJ/h]</string>
     <string name="unitPetrolLit">L gas.</string>
     <string name="summaryTotalWeight">Pes total</string>
-    <string name="dialogTracksDeleteMessage">Avís: aquesta acció no es pot desfer.
+    <string name="dialogTracksDeleteMessage">Avís: aquesta acció no es pot desfer. Vols suprimir les pistes seleccionades\?
 \n
-\nVols suprimir les pistes seleccionades\?</string>
+\nPer confirmar l\'eliminació, introduïu el codi següent per continuar.</string>
     <string name="dialogFencesShowFences">Mostra tanques</string>
     <string name="dialogScreenshotPreparing">S\'està preparant la captura de pantalla…</string>
     <string name="pref_units_weight_entries_1">Imperial [lb]</string>
@@ -420,6 +422,7 @@
     <string name="summaryBasalMetabolicRate">Taxa metabòlica basal</string>
     <string name="freeLicenseFeatures">❌ Mapes Premium
 \n❌ Navegació
+\n❌ Línia de base d\'altitud en línia
 \n❌ Sense anuncis
 \n✔️ Totes les funcions i mapes gratuïts</string>
     <string name="pref_roaring_state_summary">Produïu sons del sistema d\'alertes acústiques de vehicles (AVAS) mentre us moveu</string>
@@ -460,6 +463,7 @@
     <string name="aboutScreenTranslationsTitle">Traduccions</string>
     <string name="hereMapsFeatures">✔️ AQUÍ mapes premium
 \n✔️ Navegació
+\n✔️ Línia de base d\'altitud en línia
 \n✔️ Sense anuncis
 \n✔️ Totes les funcions i mapes gratuïts</string>
     <string name="prefActivityRecognitionNoteSummary">Aquestes opcions es basen en la funció de reconeixement d\'activitat física d\'Android. Pot ser que no sigui precís i pot ser retardat, utilitzeu-lo només si ho teniu d\'acord. Funcionarà millor quan s\'utilitza un sensor de velocitat per a la distància i la durada.</string>
@@ -478,8 +482,8 @@
     <string name="prefScreenPocketModeDelayEntries_0">Sense retard (per defecte)</string>
     <string name="pref_wakelock_modes_explanation_0">Decidiu automàticament en funció de l\'interval d\'actualització del GPS i altres factors</string>
     <string name="batteryOptimizationToast">Seleccioneu Urban Biker de la llista</string>
-    <string name="infoMeterModeRadiusMsg">Distància en línia recta des de la posició inicial de la via, és a dir, el desplaçament.</string>
-    <string name="prefSteadyScreenModeAuto">Intel·ligent actiu (per defecte)</string>
+    <string name="infoMeterModeRadiusMsg">Distància en línia recta fins a la ubicació inicial, és a dir, el desplaçament.</string>
+    <string name="prefSteadyScreenModeAuto">Intel·ligent habilitat (per defecte)</string>
     <string name="pref_maps_track_draw_title">Dibuixa la pista</string>
     <string name="prefBackKeyModeEntries_0">Normal</string>
     <string name="unitFtxFt">peus²</string>
@@ -492,11 +496,11 @@
     <string name="pref_roarConstantModeButton_summary">Canvia el mode constant amb un clic de botó mentre l\'AVAS està encès</string>
     <string name="pref_units_altitude_entries_1">Imperial [ft]</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">Trieu què fer quan es prem el botó de capa</string>
-    <string name="infoMeterModeKineticEnergyMsg">Alçada sobre el nivell del sòl on la vostra energia potencial seria igual a la vostra energia cinètica actual.
+    <string name="infoMeterModeKineticEnergyMsg">L\'alçada a la qual arribaria \"deixant anar\" pujant un llarg pendent sense frenar.
 \n
-\nEn altres paraules, la vostra velocitat és igual a la que tindríeu després de caure des d\'aquesta alçada (sin tenir en compte la resistència de l\'aire).
+\nO, si toqués una paret, la força d\'impacte seria la mateixa que caure des d\'aquesta alçada.
 \n
-\nDe la mateixa manera, és l\'alçada que aconseguiríeu pujant directament utilitzant només el vostre contingut d\'energia cinètica.</string>
+\nAquest nombre augmenta al quadrat de la velocitat i és útil per a consideracions de seguretat.</string>
     <string name="cloudAccountsPowerUploadPolicyTitle">Política de càrrega de dades d\'energia</string>
     <string name="pref_gps_update_freq_entries_13">1 min</string>
     <string name="toastTrackDeleteError">S\'ha produït un error en suprimir les pistes</string>
@@ -505,6 +509,7 @@
     <string name="pref_speechCountdown_summary">Parla el compte enrere</string>
     <string name="thunderforestMapsFeatures">✔️ Mapes premium Thunderforest
 \n✔️ Navegació
+\n✔️ Línia de base d\'altitud en línia
 \n✔️ Sense anuncis
 \n✔️ Totes les funcions i mapes gratuïts</string>
     <string name="fence_name_default">El meu lloc</string>
@@ -516,13 +521,14 @@
     <string name="summaryClimbingEnergyInfo">Percentatge de l\'energia que es va utilitzar per vèncer la gravetat.</string>
     <string name="proPlusLicenseFeatures">❌ Mapes Premium
 \n❌ Navegació
+\n❌ Línia de base d\'altitud en línia
 \n✔️ Sense anuncis
 \n✔️ Totes les funcions i mapes gratuïts
 \n➕ Donació extra</string>
     <string name="pref_units_speed_dialog_title">Unitats de velocitat</string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Pausa oblidada</string>
     <string name="sensorProperitesNoAlarm">No alarmis</string>
-    <string name="prefGnssActivityRecognitionSummary">Reconèixer estar quiet o moure\'s per GPS. Pot introduir retards i una mica de distància després d\'una pausa, però evitarà la majoria del soroll del GPS.</string>
+    <string name="prefGnssActivityRecognitionSummary">Reconèixer estar quiet o moure\'s per GPS. Això pot introduir retard i pèrdua de distància o altitud després d\'una pausa, però evitarà la majoria del soroll del GPS.</string>
     <string name="pref_category_resetPrompt_title">Restableix el missatge</string>
     <string name="pref_maps_fences_draw_summary">Mostra les regions protegides de FenceGuard al mapa</string>
     <string name="sensorMenuAddToProfile">Afegeix al perfil</string>
@@ -549,6 +555,7 @@
     <string name="pref_speechAutoPause_summary">Parla en pausa automàtica i reprèn la detecció</string>
     <string name="maptilerMapsFeatures">✔️ Mapes premium de MapTiler
 \n✔️ Navegació
+\n✔️ Línia de base d\'altitud en línia
 \n✔️ Sense anuncis
 \n✔️ Totes les funcions i mapes gratuïts</string>
     <string name="dialogWeatherInfoMessage">Les dades del radar s\'actualitzen cada 10 minuts. La icona plena indica dades noves, la icona buida significa que hi ha una actualització a prop.
@@ -614,7 +621,7 @@
     <string name="dialogPowerWeightsWeightRider">Conductor</string>
     <string name="pref_digital_font_title">Tipus de lletra digital</string>
     <string name="speechTrackingPause">Pausa</string>
-    <string name="toastSteadyScreenModeOff">SteadyScreen desactivat</string>
+    <string name="toastSteadyScreenModeOff">Estabilització de la pantalla desactivada</string>
     <string name="prefTemperatureSensorDerivedSummary">Aquest dispositiu no té un sensor de temperatura ambient, però es poden obtenir valors aproximats mitjançant altres sensors interns (com ara la temperatura de la CPU).</string>
     <string name="dialogLicenseUpgradeButton2">Mira el vídeo promocional</string>
     <string name="meterModes_7">Energia</string>
@@ -642,7 +649,7 @@
     <string name="pref_soundeffects_fence_enterleave_title">Tanca</string>
     <string name="tracksHistoryListEmpty">No hi ha pistes aquí. Sortiu i grava una activitat!</string>
     <string name="pref_speechToasts_summary">Digueu diverses notes informatives breus</string>
-    <string name="prefSteadyScreenModeAutoInfo">Activeu la funció SteadyScreen només en terrenys accidentats durant el seguiment. Aquest és un bon equilibri entre comoditat i ús de la bateria.</string>
+    <string name="prefSteadyScreenModeAutoInfo">Activeu la funció d\'estabilització de la pantalla només en terrenys accidentats durant el seguiment. Aquest és un bon equilibri entre comoditat i ús de la bateria.</string>
     <string name="dialog_fenceguard_add_text">Anomena una tanca nova:</string>
     <string name="pref_roaring_type_entries_0">Hub lliure</string>
     <string name="sensorProperitesUseForDuration">Utilitzar durant la durada</string>
@@ -657,10 +664,10 @@
     <string name="dialogEnergyParamsBmr">Taxa metabòlica basal (BMR)</string>
     <string name="pref_category_map_colors_title">Colors del mapa</string>
     <string name="speechNavigationWrongWay">Sentit contrari</string>
-    <string name="dialogGpsIntervalNote">Mantingueu aquest valor per sota de 3 segons per obtenir les lectures més precises i un comportament coherent!</string>
+    <string name="dialogGpsIntervalNote">Manteniu aquest valor per sota de 3 segons per obtenir les lectures més precises i un comportament coherent!</string>
     <string name="dialogLayoutsInfoTitle">Dissenys</string>
     <string name="pref_wakelock_modes_1">Completament despert</string>
-    <string name="prefTrackingButtonModeSummary">Feu clic o feu clic llarg per a Pausa, botó separat per Aturar.</string>
+    <string name="prefTrackingButtonModeSummary">(Tots els perfils) Feu clic o feu clic llarg per a Pausa, botó separat per Aturar.</string>
     <string name="pref_units_speed_title">Velocitat</string>
     <string name="sensorProperitesWheelPerimeter">Circumferència de la roda</string>
     <string name="dialogFencesUpdate">Actualitzar la ubicació de la tanca</string>
@@ -687,7 +694,7 @@
     <string name="pref_category_gps_boost_title">Política de millora de les actualitzacions del GPS</string>
     <string name="infoMeterModeSpeedMsg">Distància instantània recorreguda per unitat de temps.</string>
     <string name="pref_category_maps_online_mode_title">Font dels mapes</string>
-    <string name="infoDigitalFilterNotice">Tingueu en compte: això es pot retardar un minut més o menys des del temps real, a causa dels retards inevitables de filtratge digital.</string>
+    <string name="infoDigitalFilterNotice">Si us plau, tingueu en compte: això de vegades pot quedar notablement enrere en temps real, a causa dels retards inevitables de filtratge digital necessaris per a la precisió.</string>
     <string name="speechUnitOneMinute">Minut</string>
     <string name="menuClear">Clar</string>
     <string name="menuMeter">Metre</string>
@@ -733,12 +740,12 @@
     <string name="dialogTrackResumeGeneralErrorMessage">S\'ha produït algun error. Siusplau torna-ho a provar.</string>
     <string name="summaryRollingEnergyInfo">Percentatge de l\'energia que es va utilitzar per superar la resistència al rodament.</string>
     <string name="pref_roaring_mode_dialog_title">Mode AVAS</string>
-    <string name="toastFenceGuardFenceUpdatingError">FenceGuard: S\'ha produït un error en actualitzar la tanca</string>
+    <string name="toastFenceGuardFenceUpdatingError">FenceGuard: s\'ha produït un error en actualitzar la tanca</string>
     <string name="ok">D\'acord</string>
     <string name="speechNavigationDestinationReached">Has arribat a la destinació</string>
     <string name="menuSendDebugFeedback">Informar d\'un problema</string>
     <string name="toastTrackingStopped">Parat</string>
-    <string name="prefSteadyScreenModeOffInfo">No activeu mai la funció SteadyScreen</string>
+    <string name="prefSteadyScreenModeOffInfo">No activeu mai la funció d\'estabilització de la pantalla</string>
     <string name="pref_gps_update_freq_entries_9">15 segons</string>
     <string name="pref_text_medium">Mitjana</string>
     <string name="unitKm">km</string>
@@ -839,7 +846,7 @@
     <string name="pref_category_gps_interval_title">Interval d\'actualització del GPS</string>
     <string name="dialogPowerParamsRollResist">Coef de resistència al rodament. (Cᵣᵣ)</string>
     <string name="meterModeCadence">cadència</string>
-    <string name="menuInsertSpeedo">Inseriu el velocímetre</string>
+    <string name="menuInsertSpeedo">Velocímetre</string>
     <string name="summaryDeviceAutoPauseCount">Recompte de pausa automàtica</string>
     <string name="pref_category_effects_title">Efectes</string>
     <string name="unitFeetsAboveGroundLevel">ft agl</string>
@@ -857,7 +864,7 @@
     <string name="pref_haptic_feedback_title">Vibra al tacte</string>
     <string name="infoMeterModeEnergyTitle">Energia</string>
     <string name="meterModeCadenceShort">cad</string>
-    <string name="summaryWheelsWeightInfo">Suma de pesos de totes les rodes del vehicle utilitzat en aquesta via.</string>
+    <string name="summaryWheelsWeightInfo">Suma dels pesos de totes les rodes del vehicle utilitzat en aquesta via.</string>
     <string name="summaryCadenceStrokesInfo">Nombre de cops de pedals detectats durant l\'activitat.</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Canvi de botó</string>
     <string name="widget_3_description">Biker: Complet</string>
@@ -915,7 +922,7 @@
     <string name="sensorMenuDisable">Desactivar</string>
     <string name="speechIncreasing">Aixecant-se</string>
     <string name="tracksHistoryListButtonResume">Resum</string>
-    <string name="toastTrackMovingError">S\'ha produït un error en moure la pista a l\'emmagatzematge USB! Prova de restablir de nou.</string>
+    <string name="toastTrackMovingError">S\'ha produït un error en moure la pista a l\'emmagatzematge USB! Proveu de restablir de nou.</string>
     <string name="pref_mapsWeatherAnimateForecast_title">Previsió</string>
     <string name="pref_gps_update_freq_entries_8">10 segons</string>
     <string name="dialogTracksShareTitle">Compartir pistes</string>
@@ -940,7 +947,7 @@
     <string name="meterModes_4">Ascensió</string>
     <string name="trackUploadActivityTypes_7">Monopatí</string>
     <string name="sensorMenuDelete">Oblida\'t</string>
-    <string name="prefSteadyScreenNote1">Aquesta funció us ajuda a veure la pantalla una mica més clarament mentre conduïu per terrenys accidentats. La imatge a la pantalla s\'estabilitza aplicant petits moviments ràpids que intenten contrarestar els tremolors externs.</string>
+    <string name="prefSteadyScreenNote1">Aquesta funció us ajuda a veure la pantalla una mica clarament mentre esteu en moviment. La imatge a la pantalla s\'estabilitza aplicant petits moviments ràpids que intenten contrarestar els tremolors externs.</string>
     <string name="powerSourceWeight_0">Total</string>
     <string name="pref_fg_color_summary">Trieu el color desitjat per al text i les icones</string>
     <string name="pref_autopause_modes_2">Apagat</string>
@@ -950,7 +957,7 @@
     <string name="pref_auto_launch_on_gps_summary">Inicieu l\'aplicació (en mode passiu) quan es detecti activitat GPS</string>
     <string name="prefMapOfflineLayerButtonActionEntries_0">Canvia el tema</string>
     <string name="prefAdModes_3">Cap</string>
-    <string name="infoMeterModeWriggleMsg">Mesura de la desviació de la ruta d\'una línia recta, és a dir, quant omple l\'àrea en lloc de seguir recte. Més baix normalment és millor.</string>
+    <string name="infoMeterModeWriggleMsg">Mesura de la desviació de la ruta d\'una línia recta, és a dir, quant omple l\'àrea en lloc d\'anar recta. Més baix normalment és millor.</string>
     <string name="unitHP">HP</string>
     <string name="pref_category_stationary_exercise_title">Activitat estacionària</string>
     <string name="speechUnitTwoHours">Hores</string>
@@ -996,11 +1003,9 @@
     <string name="infoMeterModeVibrationsMsg">Vibracions mesurades amb el dispositiu. Útil quan el dispositiu es subjecta fixat a un vehicle (per exemple, al manillar d\'una bicicleta), i no a la mà ni a la butxaca.</string>
     <string name="prefUnitsPowerEntries_2">[kcal/h]</string>
     <string name="prefScreensaverTimeoutEntries_1">10 segons</string>
-    <string name="dialogCustomTracksFolderInfoMessage">Aquesta funció permet que l\'aplicació llegeixi pistes d\'una carpeta que trieu, a més de la carpeta de pistes predeterminada, la ubicació de la qual ha canviat recentment.
+    <string name="dialogCustomTracksFolderInfoMessage">Aquesta funció permet que l\'aplicació llegeixi pistes d\'una carpeta que trieu, a més de la carpeta de pistes principal, la ubicació de la qual ha canviat recentment.
 \n
-\nAquestes pistes són només de lectura: es poden veure i compartir, però no es poden editar, reprendre ni suprimir.
-\n
-\nSi no esteu segurs, proveu de trobar la carpeta \"Documents-UrbanBiker-tracks\" a la pantalla següent.</string>
+\nAquestes pistes són només de lectura: es poden veure i compartir, però no es poden editar, reprendre ni suprimir.</string>
     <string name="pref_roarConstantModeButton_title">Canvi de botó</string>
     <string name="prefScreensaverDimBrightnessEntries_0">Mínim</string>
     <string name="toastTrackResumed">La pista es va reprendre</string>
@@ -1023,7 +1028,7 @@
     <string name="summaryRollResistCoefInfo">Coeficient de resistència al rodament.</string>
     <string name="pref_gps_update_freq_entries_0">El més ràpid</string>
     <string name="menuExpand">Expandir</string>
-    <string name="pref_roar_threshold_speed_info">L\'AVAS sonarà només quan vagi més ràpid que la velocitat del llindar. Útil per ex. per baixades.</string>
+    <string name="pref_roar_threshold_speed_info">L\'AVAS només sonarà quan vagi més ràpid que la velocitat del llindar. Útil per ex. per baixades.</string>
     <string name="pref_units_power_title">Potència (total)</string>
     <string name="prefScreensaverTimeoutEntries_2">15 segons</string>
     <string name="roarModeConstant">const</string>
@@ -1040,7 +1045,7 @@
     <string name="speechUnitOneMeter">Metre</string>
     <string name="pref_audio_force_loudspeaker_title">Força l\'altaveu</string>
     <string name="navigationRouteTooLong">Ho sentim, aquesta destinació està massa lluny</string>
-    <string name="pref_soundeffects_alarm_gpsPause_summary">L\'alarma sonarà quan es detecti un moviment significatiu mentre el seguiment està en pausa</string>
+    <string name="pref_soundeffects_alarm_gpsPause_summary">L\'alarma sonarà quan es detecti moviment significatiu mentre el seguiment està en pausa</string>
     <string name="controlPanelLocationButton">Ubicació</string>
     <string name="pref_group_flashlight_title">Llanterna</string>
     <string name="licenseDialogMapsTab">Mapes</string>
@@ -1086,7 +1091,7 @@
     <string name="meterModeEnergy">energia</string>
     <string name="pref_category_visualThemeAuto">Tema automàtic</string>
     <string name="pref_track_charts_title">Tipus de gràfics…</string>
-    <string name="pref_locationProvider_modes_1">Serveis de Google Play (predeterminat)</string>
+    <string name="pref_locationProvider_modes_1">Serveis de Google Play</string>
     <string name="meterModes_26">Energia cinètica</string>
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
     <string name="dialog_volume_alarms_text">Alarmes</string>
@@ -1171,7 +1176,7 @@
     <string name="pref_category_tracking_charts_title">Gràfiques</string>
     <string name="sensorProperitesIsAutoPerimeter">Automàtic</string>
     <string name="dialogMapsAutoRotate">Rotació automàtica</string>
-    <string name="cloudAccountsInfo">Connectar-vos a un servei al núvol us facilita la càrrega i la compartició de les vostres pistes amb altres persones.
+    <string name="cloudAccountsInfo">La connexió a un servei al núvol us facilita la càrrega i la compartició de les vostres pistes amb altres persones.
 \n
 \nMai publicarem res sense el teu permís.</string>
     <string name="trackUploadDescriptionDefault">Seguiment mitjançant l\'aplicació mòbil Urban Biker</string>
@@ -1191,10 +1196,11 @@
     <string name="meterModes_6">Pendent</string>
     <string name="ultimateLicenseFeatures">✔️ Tots els mapes premium
 \n✔️ Navegació
+\n✔️ Línia de base d\'altitud en línia
 \n✔️ Sense anuncis
 \n✔️ Totes les funcions i mapes gratuïts</string>
     <string name="sensorRemovedMsg">S\'ha eliminat el sensor del perfil</string>
-    <string name="prefSteadyScreenModeOn">Actiu</string>
+    <string name="prefSteadyScreenModeOn">Habilitat</string>
     <string name="prefMapDiskCacheSizeEntries_7">1 GB</string>
     <string name="sensorPurposeDuration">Durada</string>
     <string name="prefAutoTerrainSummary">Detecteu la rugositat del terreny mesurant les vibracions i ajusteu el coeficient de resistència al rodament (Cᵣᵣ) en conseqüència quan calculeu la potència.</string>
@@ -1315,7 +1321,7 @@
     <string name="pref_soundeffects_proximity_title">Sensor de proximitat</string>
     <string name="pref_units_distance_entries_0">mètrica [m, km]</string>
     <string name="meterModeWriggleShort">torçat</string>
-    <string name="menuControlPanel">Panell de control</string>
+    <string name="menuControlPanel">Configuració ràpida</string>
     <string name="pref_units_distance_title">Distància</string>
     <string name="subscriptionPerMonth">%1$s /mes</string>
     <string name="sensorProperitesUseForCadence">Ús per a la cadència</string>
@@ -1377,7 +1383,7 @@
     <string name="speechUnitTwoMeters">Metres</string>
     <string name="app_name">Urban Biker</string>
     <string name="summaryTotalTimeInfo">Interval de temps entre l\'hora d\'inici i l\'hora de finalització d\'aquesta pista.</string>
-    <string name="sensorProperitesProfileInfo">Les propietats del sensor es gestionen per perfil. Les propietats aquí es gestionen només per al perfil actiu actualment (%1$s).</string>
+    <string name="sensorProperitesProfileInfo">Les propietats del sensor es gestionen per perfil. Les propietats aquí només es gestionen per al perfil actiu actualment (%1$s).</string>
     <string name="pref_locationProvider_modes_explanation_0">(Tots els perfils) Utilitzeu directament el subsistema GPS. Model estable, menys complex, sense intermediari. També pot utilitzar menys recursos que l\'altre proveïdor.</string>
     <string name="sensorProperitesTriggersCountInfo">Nombre de disparadors (per exemple, imants) utilitzats pel sensor. Els sensors sense disparadors externs solen tenir un sol disparador intern.</string>
     <string name="rewardedAdLoading">S\'està carregant l\'anunci…</string>
@@ -1413,7 +1419,7 @@
     <string name="dialogButtonRateOnPlayStore">Tarifa a Play Store</string>
     <string name="pref_soundeffects_tally_descent_title">Descens</string>
     <string name="dialogScreenHudMode">Mode mirall HUD</string>
-    <string name="prefMapDiskCacheSizeSummary">Quan es visualitza un mapa, tant en línia com fora de línia, les peces s\'emmagatzemen a la memòria cau localment per reduir la necessitat de baixar o recrear-se repetidament. Això accelera la càrrega del mapa i estalvia bateria.</string>
+    <string name="prefMapDiskCacheSizeSummary">Quan es visualitza un mapa, tant en línia com fora de línia, les peces s\'emmagatzemen en memòria cau localment per reduir la necessitat de baixar o recrear-se repetidament. Això accelera la càrrega del mapa i estalvia bateria.</string>
     <string name="speechCountdownGo">Va!</string>
     <string name="prefPressureSensorOffsetTitle">Compensació de pressió</string>
     <string name="toastErrorAccessingExternalStorage">S\'ha produït un error en accedir a l\'emmagatzematge extern</string>
@@ -1477,7 +1483,7 @@
     <string name="sensorProperitesCadenceTriggers">Activadors de la cadència</string>
     <string name="dialog_defaultConfirmation">Estàs segur\?</string>
     <string name="dialogOpenRainviewerText">Obre la pàgina web www.rainviewer.com ara\?</string>
-    <string name="pref_locationProvider_modes_0">Subsistema GPS</string>
+    <string name="pref_locationProvider_modes_0">Subsistema GPS (per defecte)</string>
     <string name="pref_roaring_type_entries_1">Bip</string>
     <string name="unitKj">kJ</string>
     <string name="toastErrorCreatingOfflineMap">S\'ha produït un error en crear el mapa fora de línia</string>
@@ -1520,4 +1526,109 @@
     <string name="toastCancelled">Cancel·lat</string>
     <string name="ongoingNotificationChannelName">Notificació en curs</string>
     <string name="pref_soundeffects_screenOff_summary">Sona i vibra quan la pantalla s\'atenua o s\'apaga temporalment</string>
+    <string name="dataStorageChooseButton">Trieu la ubicació d\'emmagatzematge de dades</string>
+    <string name="prefSteadyScreenImplementationNote">(Tots els perfils) La implementació externa requereix instal·lar una aplicació independent. Feu clic aquí per obrir Play Store.</string>
+    <string name="prefSteadyScreenImplementationTitle">Implementació</string>
+    <string name="speechUnitThreeFeets">Peus</string>
+    <string name="dialogMapsMapCountThreeMaps">%1$s mapes</string>
+    <string name="dialogRecButtonInsertMessage">Això inserirà aquí el botó Rec i l\'eliminarà de la barra de botons. Continuar\?</string>
+    <string name="speechUnitFourFeets">Peus</string>
+    <string name="dataStorageStatsTitle">Estadístiques d\'emmagatzematge</string>
+    <string name="speechUnitThreeMinutes">Minuts</string>
+    <string name="speechUnitFourMinutes">Minuts</string>
+    <string name="pref_mapsLayerHeatmap_info">Això us pot ajudar a descobrir nous llocs per estar actiu, especialment a regions remotes.</string>
+    <string name="dataStorageTransferInfoCount">Elements moguts: %1$s de %2$s</string>
+    <string name="menuRemoveRecButton">Elimina el botó Rec</string>
+    <string name="pref_category_storage_title">Emmagatzematge</string>
+    <string name="dataStorageTransferInfoStatus">Estat: %1$s</string>
+    <string name="licenseItemOwned">Actualment propietat</string>
+    <string name="dialogRecButtonRemoveMessage">Això tornarà a posar el botó Rec a la barra de botons. Continuar\?</string>
+    <string name="inProgress">En progrés</string>
+    <string name="speechUnitThreeMiles">Milles</string>
+    <string name="dialogLayoutRemoveEntryMessage">Vols suprimir aquest camp\?</string>
+    <string name="dataStorageTransferInfoSpeed">Velocitat: %1$s MB/s (%2$s elements/s)</string>
+    <string name="prefGpsIntervalAdaptiveSummary">Ajusta automàticament l\'interval d\'actualització del GPS entre 1 i 5 segons, depenent de la velocitat.</string>
+    <string name="speechUnitFourMeters">Metres</string>
+    <string name="dataStorageInfo1">Es recomana utilitzar una ubicació d\'emmagatzematge personalitzada per a les vostres pistes i dades per evitar la pèrdua accidental de dades si l\'aplicació es desinstal·la i per facilitar les còpies de seguretat.</string>
+    <string name="dialogEnterCodeMessage">Introduïu el codi</string>
+    <string name="dataStorageTitle">Emmagatzematge</string>
+    <string name="pref_category_mapsRenderer">Renderer</string>
+    <string name="pref_category_onlineElevation_title">Elevació en línia</string>
+    <string name="prefOnlineElevationNoteSummary1">Per estalviar bateria i dades, només s\'adquirirà un punt d\'elevació d\'Internet quan comenceu a fer el seguiment d\'una ruta nova. Això és suficient perquè la resta de la pista tingui una línia de base d\'altitud més precisa.</string>
+    <string name="prefGpsIntervalAdaptiveTitle">Adaptatiu</string>
+    <string name="success">Èxit</string>
+    <string name="prefOnlineElevationNoteSummary2">Si Internet o la llicència no estan disponibles, l\'aplicació continuarà funcionant sense corregir l\'altitud.</string>
+    <string name="dataStorageStatsMessage">%1$s MB
+\n%2$s articles</string>
+    <string name="prefOnlineElevationTitle">Elevació en línia</string>
+    <string name="prefGoogleMapsRenderer_0">Per defecte</string>
+    <string name="infoMeterModePowerBalanceTitle">Balanç de potència L/R</string>
+    <string name="speechUnitFourMiles">Milles</string>
+    <string name="meterModeBatteryShort">batt</string>
+    <string name="prefSteadyScreenImplementationInternal">Interna (per defecte)</string>
+    <string name="dialogMapsMapCountManyMaps">%1$s mapes</string>
+    <string name="dialogNotificationPermissionRequestTitle">Permís de notificació</string>
+    <string name="pref_mapsOfflineFileSummary">Els fitxers de mapes s\'han de copiar a la carpeta de mapes específica de l\'aplicació per poder utilitzar-los</string>
+    <string name="prefBatteryOptimizationTitle">Optimitzacions de la bateria</string>
+    <string name="dialogNotificationPermissionRequest">Cal permís perquè l\'aplicació pugui mostrar una notificació en curs mentre el seguiment està actiu.</string>
+    <string name="prefGoogleMapsRendererSummary">Actual: %1$s</string>
+    <string name="dialogRecButtonInsertTitle">Botó Insereix Rec</string>
+    <string name="speechUnitFourHours">Hores</string>
+    <string name="prefOnlineElevationNoteSummary3">Això només funciona si hi ha disponible una llicència de subscripció (llicència definitiva o una de les llicències de mapes).</string>
+    <string name="prefSteadyScreenImplementationInternalInfo">Utilitzeu la nostra pròpia implementació d\'estabilització de pantalla. Més fàcil d\'utilitzar, no ajustable.</string>
+    <string name="prefMapShowBuildingsSummary">Mostra la capa d\'edificis en 3D per a Google Maps. Desactiveu-lo per millorar el rendiment del mapa i reduir l\'ús de recursos.</string>
+    <string name="prefBatteryOptimizationMessage">Urban Biker es pot eximir de les optimitzacions de la bateria del sistema, per assegurar-se que continuarà funcionant correctament quan la pantalla estigui apagada en versions anteriors d\'Android. Feu clic aquí per obrir la configuració ara.</string>
+    <string name="prefGoogleMapsRenderer_2">Última</string>
+    <string name="meterModes_10">Balanç de potència</string>
+    <string name="prefTrackingButtonFreePlacementTitle">Col·locació gratuïta del botó Rec</string>
+    <string name="speechUnitFourKilometers">Quilòmetres</string>
+    <string name="computing">Informàtica…</string>
+    <string name="prefMapsFolderExploreSummary">Gestioneu el contingut de la carpeta de mapes específica de l\'aplicació amb una aplicació d\'explorador de fitxers</string>
+    <string name="dialogMapsAutoZoomSensitivity">Sensibilitat automàtica del zoom</string>
+    <string name="menuInsertRecButton">Botó Rec</string>
+    <string name="dataStorageInfo2">Quan canvieu la ubicació d\'emmagatzematge de dades, les dades de l\'aplicació anterior es transferiran automàticament a la nova ubicació. Això passa en segon pla i pot trigar una mica.
+\n
+\nLa revocació de l\'accés deixa les dades intactes.</string>
+    <string name="prefGoogleMapsRendererInfo">Especifica quin tipus de renderitzador preferiu utilitzar per mostrar els mapes. El renderitzador heretat pot utilitzar menys recursos, mentre que el més recent sol tenir més funcions o un millor disseny.</string>
+    <string name="dataStorageTransferInfoDuration">Durada: %1$s</string>
+    <string name="speechUnitThreeMeters">Metres</string>
+    <string name="toastGpsIntervalAdaptiveActive">L\'interval d\'actualització adaptatiu està actiu</string>
+    <string name="dialogMapsShowHeatmap">Mapa de calor</string>
+    <string name="buttonProceed">Continuar</string>
+    <string name="prefMapsFolderExploreTitle">Explora la carpeta de mapes</string>
+    <string name="prefSteadyScreenImplementationExternalInfo">S\'ha d\'instal·lar una aplicació independent perquè això funcioni. Ajustable.</string>
+    <string name="speechUnitThreeKilometers">Quilòmetres</string>
+    <string name="prefGpsIntervalAdaptiveNote">Els intervals d\'actualització adaptatius poden ajudar a reduir el consum de la bateria quan es mou lentament o es fa pauses freqüents.</string>
+    <string name="speechUnitFourLitersOfGasoline">Litres de gasolina</string>
+    <string name="prefOnlineElevationSummary">Utilitzeu dades d\'elevació d\'Internet per augmentar la precisió de la línia de base de l\'altitud. Habilitat per defecte.</string>
+    <string name="pref_mapsFollowAutoZoomSensitivity_info">Podeu ajustar la sensibilitat del zoom automàtic sobre la marxa fent zoom apropant o allunyant mentre feu el seguiment</string>
+    <string name="pref_mapsLayerHeatmap_summary">Mostra les activitats públiques agregades durant l\'últim any (de Strava)</string>
+    <string name="dataStorageNotSetMessage">La ubicació d\'emmagatzematge de dades no està definida, feu servir el botó de dalt.
+\n
+\nActualment, l\'aplicació utilitza la carpeta predeterminada per a pistes i dades.</string>
+    <string name="tracksHistoryDataStorageLink">Avís: l\'aplicació està utilitzant la carpeta predeterminada per a pistes i dades. Feu clic aquí per canviar.</string>
+    <string name="menuMeterResume">Resum</string>
+    <string name="menuDataStorage">Ubicació d\'emmagatzematge de dades</string>
+    <string name="meterModeBattery">bateria</string>
+    <string name="navigationRerouteCmd">Feu clic per redirigir</string>
+    <string name="infoMeterModeBatteryTitle">Bateria</string>
+    <string name="infoMeterModeBatteryMsg">Nivell de bateria d\'aquest dispositiu Android.</string>
+    <string name="speechUnitThreeLitersOfGasoline">Litres de gasolina</string>
+    <string name="toastAutoBellButtonClickInfo">Feu clic llarg per activar el so de la campana automàtica</string>
+    <string name="dataStorageTransferRetrying">Error: tornarà a intentar-ho en breu</string>
+    <string name="prefTrackingButtonFreePlacementSummary">(Tots els perfils) Permet col·locar el botó Rec a qualsevol lloc del disseny. Quan estigui desactivat, el botó Rec es fixarà a la barra de botons.</string>
+    <string name="prefGoogleMapsRenderer_1">Llegat</string>
+    <string name="prefMapShowBuildingsTitle">Mostra edificis</string>
+    <string name="meterModes_33">Bateria</string>
+    <string name="prefSteadyScreenImplementationExternal">Extern</string>
+    <string name="dialogMapsMapCountTwoMaps">%1$s mapes</string>
+    <string name="infoMeterModePowerBalanceMsg">Balanç de potència, presentat com una fracció de les contribucions esquerra i dreta a la potència total de sortida.</string>
+    <string name="controlPanelFlashlight">Llanterna</string>
+    <string name="speechUnitThreeHours">Hores</string>
+    <string name="dialogRecButtonRemoveTitle">Elimina el botó Rec</string>
+    <string name="pref_mapsLayerHeatmap_title">Mapa de calor</string>
+    <string name="otherLicenses">Altres</string>
+    <string name="dataStorageTransferInfoTitle">Últim canvi</string>
+    <string name="recommendedLicense">Recomanat</string>
+    <string name="dialogMapsMapCountFourMaps">%1$s mapes</string>
 </resources>
