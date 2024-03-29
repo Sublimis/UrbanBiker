@@ -11,29 +11,47 @@
     <string name="proLicenseLabel">Pro</string>
     <string name="licenseDialogMapsTab">Kort</string>
     <string name="ultimateLicenseTitle">Ultimate Licens</string>
-    <string name="ultimateLicenseDescription">Den mest kraftfulde licens for en ultimativ .</string>
+    <string name="ultimateLicenseDescription">Mest kraftfuld licens til ultimativ oplevelse</string>
     <string name="ultimateLicenseFeatures">✔️ Alle premium-kort
 \n✔️ Navigation
+\n✔️ Online højde baseline
 \n✔️ Ingen annoncer
 \n✔️ Alle gratis funktioner og kort</string>
     <string name="proPlusLicenseTitle">Pro Plus licens</string>
     <string name="proPlusLicenseDescription">Fjern reklamer og lås op for alt ikke-abonnements indhold vi måske tilføjer i fremtiden</string>
-    <string name="proPlusLicenseFeatures">🔹 Ingen reklamer
-\n🔹 Ektra donation</string>
+    <string name="proPlusLicenseFeatures">❌ Premium kort
+\n❌ Navigation
+\n❌ Online højde baseline
+\n✔️ Ingen annoncer
+\n✔️ Alle gratis funktioner og kort
+\n➕ Ekstra donation</string>
     <string name="proLicenseTitle">Pro Licens</string>
     <string name="proLicenseDescription">Fjern Reklamer</string>
     <string name="proLicenseFeatures">❌ Premium kort
 \n❌ Navigation
+\n❌ Online højde baseline
 \n✔️ Ingen annoncer
 \n✔️ Alle gratis funktioner og kort</string>
-    <string name="thunderforestMapsFeatures">"🔹 Thunderforest  kort
-\n🔹 Ingen reklamer"</string>
-    <string name="mapboxMapsFeatures">🔹 Mapbox kort
-\n🔹 Ingen reklamer</string>
-    <string name="hereMapsFeatures">🔹 HERE kort
-\n🔹 Ingen reklamer</string>
-    <string name="maptilerMapsFeatures">🔹 MapTiler kort
-\n🔹 Ingen reklamer</string>
+    <string name="thunderforestMapsFeatures">✔️ Thunderforest premium kort
+\n✔️ Navigation
+\n✔️ Online højde baseline
+\n✔️ Ingen annoncer
+\n✔️ Alle gratis funktioner og kort</string>
+    <string name="mapboxMapsFeatures">✔️ Mapbox premium kort
+\n✔️ Navigation
+\n✔️ Online højde baseline
+\n✔️ Ingen annoncer
+\n✔️ Alle gratis funktioner og kort</string>
+    <string name="hereMapsFeatures">✔️ HER premium kort
+\n✔️ Navigation
+\n✔️ Online højde baseline
+\n✔️ Ingen annoncer
+\n✔️ Alle gratis funktioner og kort</string>
+    <string name="maptilerMapsFeatures">✔️ MapTiler premium kort
+\n✔️ Navigation
+\n✔️ Online højde baseline
+\n✔️ Ingen annoncer
+\n✔️ Alle gratis funktioner og kort</string>
     <string name="subscriptionPerMonth">Kr /om måneden</string>
     <string name="subscriptionPer1y">Kr en gang om året</string>
     <string name="subscriptionPer6m">kr en gang hver 6 måned</string>
@@ -56,14 +74,14 @@
     <string name="loading">Indlæser…</string>
     <string name="buttonResumeTrack">Genoptag</string>
     <string name="buttonNewTrack">Afslut</string>
-    <string name="menuControlPanel">Betjeningspanel</string>
+    <string name="menuControlPanel">Hurtige indstillinger</string>
     <string name="menuSettings">Indstillinger</string>
-    <string name="menuSummary">Live opsummering</string>
+    <string name="menuSummary">Oversigt</string>
     <string name="menuTracksHistory">Historik</string>
     <string name="menuTracksHistoryResume">Genoptag</string>
     <string name="menuMeterLock">Lås</string>
     <string name="menuMeterLockAll">Lås alle</string>
-    <string name="menuMeterMode">Instrument mode…</string>
+    <string name="menuMeterMode">Målertilstand</string>
     <string name="menuMeterChooseModes">Vælg modes…</string>
     <string name="menuMeterResetMinMax">Nulstil min/max</string>
     <string name="menuMeterStart">Start</string>
@@ -207,8 +225,9 @@
     <string name="dialogProfileSwitchTitle">Skift profil</string>
     <string name="dialogProfileSwitchMessage">Ruten er aktiv. Er du sikker på du vil skifte til %1$s\?</string>
     <string name="dialogTracksDeleteTitle">Slet ruter</string>
-    <string name="dialogTracksDeleteMessage">Advarsel: dette kan ikke gøres om
-\nSlet valgte ruter\?</string>
+    <string name="dialogTracksDeleteMessage">Advarsel: Denne handling kan ikke fortrydes. Vil du slette valgte numre\?
+\n
+\nFor at bekræfte sletningen skal du indtaste følgende kode for at fortsætte.</string>
     <string name="dialogTrackDeleteMessage">Advarsel: Denne handling kan ikke fortrydes. 
 \n 
 \nSlet ruten %1$s\?</string>
@@ -278,7 +297,7 @@
     <string name="dialogPowerWeightsWeightWheels">Hjul</string>
     <string name="dialogPowerParamsTitle">Energitabs koefficienter</string>
     <string name="dialogPowerParamsDragArea">Luftmodstands areal (Cd-a)</string>
-    <string name="dialogPowerParamsRollResist">Rullemodstand coef. (Crr)</string>
+    <string name="dialogPowerParamsRollResist">Rullemodstandskoef. (Cᵣᵣ)</string>
     <string name="dialogEnergyParamsTitle">Energiparametre</string>
     <string name="dialogEnergyParamsEfficiency">Samlet termisk effektivitet (η)</string>
     <string name="dialogEnergyParamsBmr">Basal stofskifte (BMR)</string>
@@ -313,16 +332,16 @@
 \n
 \nIngen Bluetooth-enheder findes, hvis tilladelsen afvises.</string>
     <string name="dialogStoragePermissionRequestTitle">Lagringstilladelse</string>
-    <string name="dialogStoragePermissionRequest">Appen skal have adgang til lageret, så den kan gemme eller gendanne dine ruter og indstillinger.
+    <string name="dialogStoragePermissionRequest">Appen skal have adgang til lageret, så den kan gemme eller gendanne dine spor og indstillinger.
 \n
-\nUden at give tilladelse vil du ikke kunne se rutehistorik eller dele ruter, og du kan miste dine data.</string>
+\nUden at give tilladelsen kan du muligvis ikke se din sporhistorik, og du kan miste dine data.</string>
     <string name="dialogCameraPermissionRequestTitle">Kamera tilladelse</string>
     <string name="dialogCameraPermissionRequest">Tilladelse er nødvendig, så appen kan aktivere lommelygten.</string>
     <string name="dialogPermissionProblemMessage">Denne tilladelse er nødvendig for, at appen kan fungere korrekt. Den kan gives på siden Indstillinger for apptilladelser.
 \n
 \nGå dertil nu\?</string>
     <string name="dialogActivityRecognitionPermissionRequestTitle">Tilladelse til fysisk aktivitet</string>
-    <string name="dialogActivityRecognitionPermissionRequest">Tilladelse er nødvendig, så appen kan bruge indbyggede sensorer som skridt tæller.</string>
+    <string name="dialogActivityRecognitionPermissionRequest">Tilladelse er nødvendig, så appen kan bruge den indbyggede trindetektorsensor og udføre andre nyttige handlinger, når der registreres bevægelse.</string>
     <string name="dialogScreenshotTitle">Skærmbillede</string>
     <string name="dialogGoogleMapTermsViolation">Google tillader ikke kopi af indholdet af deres kort, så korttypen skal først ændres til en anden type.
 \n
@@ -665,7 +684,7 @@
     <string name="pref_category_locationProvider_title">GPS-udbyder</string>
     <string name="pref_category_altitude_adjustments_title">Højder</string>
     <string name="pref_category_temperature_title">Temperatur</string>
-    <string name="pref_category_pressure_title">Tryk</string>
+    <string name="pref_category_pressure_title">Indbygget tryksensor</string>
     <string name="pref_category_sensors_title">Sensorer</string>
     <string name="pref_category_cloudAccounts_title">Konti</string>
     <string name="pref_category_mapsQuickZoom">Hurtig Zoom</string>
@@ -734,7 +753,7 @@
     <string name="pref_relaunchAfterReboot_title">Genstart efter reboot</string>
     <string name="pref_relaunchAfterReboot_summary">(Alle profiler) Genoptag ruten efter en tvungen genstart af enheden, hvis batteriet er 10% eller mere</string>
     <string name="pref_resetPrompt_title">Nulstil prompt</string>
-    <string name="pref_resetPrompt_summary">Spørg om at starte en ny rute, hvis det sidst var aktivt for mere end 4 timer siden eller et sted langt væk</string>
+    <string name="pref_resetPrompt_summary">Spørg om at starte et nyt spor, hvis den sidste aktivitet var mere end 4 timer siden eller på et fjerntliggende sted (anbefales)</string>
     <string name="pref_auto_launch_on_gps_title">Automatisk start på GPS</string>
     <string name="pref_auto_launch_on_gps_summary">Start appen (i passiv tilstand), når GPS-aktivitet registreres</string>
     <string name="pref_passive_gps_button_title">Passiv GPS-knaptilstand</string>
@@ -755,7 +774,7 @@
     <string name="pref_fenceguard_summary">Beskyt placeringen af dit hjem eller andre vigtige steder mod at blive eksponeret i indspillede spor</string>
     <string name="pref_autopause_mode_dialog_title">Automatisk pause</string>
     <string name="pref_speed_calculate_mode_title">Genberegn hastighed</string>
-    <string name="pref_speed_calculate_mode_summary">(Alle profiler) Genberegn hastighed fra afstande, brug ikke GPS-værdi direkte. Dette kan give mere stabile hastighedsaflæsninger over GPS-værdier (Doppler).</string>
+    <string name="pref_speed_calculate_mode_summary">(Alle profiler) Genberegn hastighed fra afstande, brug ikke GPS-værdi direkte. Dette kan give mere stabile hastighedsaflæsninger over GPS (Doppler) værdier. Standard er FRA.</string>
     <string name="pref_background_pattern_dialog_title">Menu baggrund mønster</string>
     <string name="pref_soundeffects_title">Aktivér</string>
     <string name="pref_soundeffects_fence_enterleave_title">Hegn</string>
@@ -795,7 +814,7 @@
     <string name="pref_maps_fences_draw_title">Hegn</string>
     <string name="pref_maps_fences_draw_summary">Vis FenceGuard-beskyttede områder over kortet</string>
     <string name="pref_maps_animate_title">Animering</string>
-    <string name="pref_maps_animate_summary">(Alle profiler) Sluk for at reducere batteriforbruget, især mens Follow-tilstand er aktiveret</string>
+    <string name="pref_maps_animate_summary">Sluk for at reducere batteriforbruget, især når Følg-tilstanden er slået til</string>
     <string name="pref_maps_online_mode_dialog_title">Kort kilder</string>
     <string name="pref_maps_offline_file_title">Vælg fil eller mappe</string>
     <string name="pref_maps_offline_file_noFolderSelected">Ingen mappe valgt.</string>
@@ -804,28 +823,28 @@
     <string name="pref_maps_offline_usage_summary">Anvendelse: Vælg den downloadede kortfil med ovenstående mulighed.</string>
     <string name="pref_maps_offline_warning_summary">Advarsel: Nogle onlinedata kan muligvis hentes selv i offline-tilstand. Deaktiver venligst mobilt internet, inden du bruger kort, hvis det er relevant.</string>
     <string name="pref_maps_routes_draw_title">Guide ruter</string>
-    <string name="pref_maps_routes_draw_summary">Kortlæg valgte GPX-ruter som stiplede linjer over kortet</string>
-    <string name="pref_maps_routes_info_summary">Ingen andre visuelle eller hørbare signaler vil blive givet for at lette rutenavigationen</string>
+    <string name="pref_maps_routes_draw_summary">Tegn valgte GPX-ruter over kortet</string>
+    <string name="pref_maps_routes_info_summary">Guideruten er simpelthen en linje tegnet over kortet, som du kan følge. Brug navigationsfunktionen for trin-for-trin-vejledning.</string>
     <string name="pref_maps_routes_files_title">Vælg fil eller mappe</string>
     <string name="pref_maps_routes_files_dialog_title">Vælg ruter mappe eller fil</string>
     <string name="pref_maps_routes_files_noFolderSelected">Ingen mappe valgt.</string>
     <string name="pref_maps_quickZoom_title">Hurtig zoom knapper</string>
-    <string name="pref_maps_quickZoom_summary">(Alle profiler) Aktivér usynlige knapper til hurtig zoom i den nederste del af kortet, forbedrer din retning</string>
+    <string name="pref_maps_quickZoom_summary">Aktiver usynlige hurtig zoom-knapper i den nederste del af kortet</string>
     <string name="pref_maps_quickZoomInvert_title">Omvendt</string>
     <string name="pref_maps_quickZoomInvert_summary">Ombyt zoome ind / ud knap positioner</string>
     <string name="pref_maps_offline_terrain_title">Opbyg terræn</string>
-    <string name="pref_maps_offline_terrain_summary">(Alle profiler) Render terræn elevation nuancer. Kort vil se mere realistisk ud, men sandsynligvis langsommere. Kræver DEM (.hgt) filer, der findes i kortmappen.</string>
+    <string name="pref_maps_offline_terrain_summary">Gengiv terrænhøjde nuancer. Kort vil se mere realistisk ud, men sandsynligvis langsommere. Kræver DEM (.hgt) filer til stede i kortmappen.</string>
     <string name="pref_maps_offline_terrain_info_title">Download nu</string>
     <string name="pref_maps_offline_terrain_info_summary">Åbn download-siden på viewfinderpanoramas.org.</string>
     <string name="pref_maps_offline_terrain_usage_summary">Anvendelse: Uddrag .hgt-filer fra de downloadede zip (s), og placer dem i den samme mappe, hvor offline-kortfilen findes (brug ikke separat undermappe).</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Lag action knap</string>
-    <string name="pref_mapsOfflineLayerButtonActionSummary">(Alle profiler) Vælg hvad du skal gøre, når der trykkes på lagknappen</string>
+    <string name="pref_mapsOfflineLayerButtonActionSummary">Vælg, hvad der skal gøres, når der trykkes på lagknappen</string>
     <string name="pref_mapsWeatherPrecipitationRadar_title">Nedbør radar</string>
     <string name="pref_mapsWeatherPrecipitationRadar_summary">Vis nedbør radar lag</string>
     <string name="pref_mapsWeatherPrecipitationRadar_info">Radardata downloades fra Internettet, selv når offline kort bruges. Det opdateres automatisk hvert 10. minut, mens kortet er synligt. Datakilde er RainViewer.com.</string>
     <string name="pref_mapsWeatherAnimate_title">Animér</string>
     <string name="pref_mapsWeatherAnimate_summary">Animer de sidste 1 times radardata for at hjælpe dig med at visualisere nedbørstrenden</string>
-    <string name="pref_mapsWeatherAnimate_info">Radaranimation bruger 5 gange mere internetdata end et statisk radarbillede.</string>
+    <string name="pref_mapsWeatherAnimate_info">Radaranimation kan bruge op til 5 gange mere internetdata end et statisk radarbillede.</string>
     <string name="pref_button_profile_show_title">Profil</string>
     <string name="pref_button_profile_show_summary">Vis profil knappen</string>
     <string name="pref_button_map_show_title">Kort</string>
@@ -873,18 +892,18 @@
     <string name="pref_speechCountdown_title">Nedtælling</string>
     <string name="pref_speechCountdown_summary">Udtal nedtælling</string>
     <string name="prefBarometricAltitudeTitle">Barometrisk højde</string>
-    <string name="prefBarometricAltitudeSummary">Brug indbygget barometer til at forbedre højdepræcisionen</string>
+    <string name="prefBarometricAltitudeSummary">Brug tryksensordata til at forbedre højdenøjagtigheden, hvis de er tilgængelige</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Termo barometer</string>
-    <string name="prefBaroAltitudeUsesTemperatureSummary">Brug temperaturfølerdata til mere nøjagtige barometriske højder</string>
+    <string name="prefBaroAltitudeUsesTemperatureSummary">Brug temperatursensordata til mere nøjagtige barometriske højder, hvis de er tilgængelige</string>
     <string name="prefBarometricAltitudeNoteSummary">Brug kun disse i den åbne atmosfære! Deaktiver venligst i køretøjer med tryk, lukkede eller klimatiserede køretøjer som biler eller fly!</string>
     <string name="prefTemperatureSensorDerivedTitle">Brug afledt sensor</string>
-    <string name="prefTemperatureSensorDerivedSummary">Denne enhed mangler omgivelsestemperaturføler, men den kan udledes ved hjælp af andre sensorer. Læs mere i Hjælp.</string>
-    <string name="prefPressureSensorOffsetTitle">Barometer forskydning</string>
-    <string name="prefPressureSensorOffsetInfo">Denne konstant føjes til barometer-udlæsninger og kan bruges til at afbøde barometer-bias, hvis den er til stede</string>
+    <string name="prefTemperatureSensorDerivedSummary">Denne enhed har ikke en omgivende temperatursensor, men grove værdier kan udledes ved hjælp af andre interne sensorer (såsom CPU-temperatur).</string>
+    <string name="prefPressureSensorOffsetTitle">Trykforskydning</string>
+    <string name="prefPressureSensorOffsetInfo">Denne konstant tilføjes til trykudlæsninger og kan bruges til at afbøde sensorbias, hvis den er til stede.</string>
     <string name="prefNotificationAlwaysTitle">Vedvarende notifikation</string>
     <string name="prefNotificationAlwaysSummary">Vis app-underretningsikon på systemstatuslinjen til enhver tid, ikke kun når sporing er aktiv.</string>
     <string name="prefMapDiskCacheSizeTitle">Kortstørrelsesgrænse for kort</string>
-    <string name="prefMapDiskCacheSizeSummary">Når du ser et kort, både online og offline, gemmes dele lokalt for at mindske behovet for gentagen download eller genskabelse. Dette fremskynder kortindlæsning og sparer batteri. (Alle profiler)</string>
+    <string name="prefMapDiskCacheSizeSummary">Når du ser et kort, både online og offline, cachelagres dele lokalt for at reducere behovet for gentagen download eller rekreation. Dette fremskynder indlæsning af kort og sparer batteri.</string>
     <string name="prefProhibitLocationTitle">Brug ikke Location</string>
     <string name="prefProhibitLocationSummary">Undgå GPS under aktivitet</string>
     <string name="prefProhibitLocationAlertInfo">Placering vil aldrig blive slået til eller bruges under aktivitet, så kortet vil ikke være tilgængeligt.
@@ -943,9 +962,9 @@
 \n
 \nNår det er i kcal / h eller kJ / h, tager det også højde for effektiviteten.</string>
     <string name="infoMeterModeTemperatureTitle">Temperatur</string>
-    <string name="infoMeterModeTemperatureMsg">Omgivelsestemperatur målt med enheden.</string>
+    <string name="infoMeterModeTemperatureMsg">Omgivelsestemperatur målt med enheden eller en ekstern sensor.</string>
     <string name="infoMeterModePressureTitle">Tryk</string>
-    <string name="infoMeterModePressureMsg">Omgivelsestemperatur målt med enheden.</string>
+    <string name="infoMeterModePressureMsg">Omgivende tryk målt med enheden eller en ekstern sensor.</string>
     <string name="infoMeterModeClockTitle">ur</string>
     <string name="infoMeterModeClockMsg">Aktuelt tidspunkt på dagen.</string>
     <string name="infoMeterModeCadenceTitle">cadence</string>
@@ -955,17 +974,17 @@
     <string name="infoMeterModeGearRatioTitle">gearforhold</string>
     <string name="infoMeterModeGearRatioMsg">Forholdet mellem hjulomdrejninger og pedalomdrejninger pr. Tidsenhed, dvs. forholdet mellem det forreste tandhjul og det bageste tandhjulstørrelse. Højere antal betyder højere gear.</string>
     <string name="infoMeterModeKineticEnergyTitle">kinetisk energi</string>
-    <string name="infoMeterModeKineticEnergyMsg">Højde over jordoverfladen, hvor din potentielle energi ville svare til din nuværende kinetiske energi.
+    <string name="infoMeterModeKineticEnergyMsg">Den højde du ville nå ved at \"slippe\" op ad en lang skråning uden at bremse.
 \n
-\nMed andre ord er din hastighed lig med den hastighed, du ville have, når du faldt fra denne højde (bortset fra luftmodstand).
+\nEller hvis du ramte en væg, ville slagkraften være den samme som at falde fra denne højde.
 \n
-\nLigeledes er det den højde, du ville opnå ved kun at gå lige op med dit kinetiske energiindhold.</string>
+\nDette tal stiger som en hastighed i anden række og er nyttig af sikkerhedshensyn.</string>
     <string name="infoMeterModeStepCadenceTitle">trin kadence</string>
     <string name="infoMeterModeStepCadenceMsg">Antal trin pr. Minut.</string>
     <string name="infoMeterModeStepCountTitle">trin</string>
     <string name="infoAutopauseForcedRelaxed">Bemærk: Automatisk pause tvunget til afslappet</string>
     <string name="infoAutopauseForcedOff">Bemærk: Automatisk pause tvunget til Fra</string>
-    <string name="infoDigitalFilterNotice">Bemærk: Dette kan forsinkes med et minut eller deromkring fra realtid på grund af uundgåelige forsinkelser med digital filtrering.</string>
+    <string name="infoDigitalFilterNotice">Bemærk venligst: Dette kan nogle gange halte mærkbart bagefter realtid på grund af uundgåelige digitale filtreringsforsinkelser, der kræves for nøjagtigheden.</string>
     <string name="defaultProfileNameBike1">Cykel 1 🚴</string>
     <string name="defaultProfileNameBike2">Cykel 2 🚵</string>
     <string name="defaultProfileNameWalk">Gang 👣</string>
@@ -998,7 +1017,7 @@
     <string name="meterModes_19">Hjerterytme</string>
     <string name="meterModes_20">Gear forhold</string>
     <string name="meterModes_21">Ur</string>
-    <string name="meterModes_30">Forskydning</string>
+    <string name="meterModes_30">Radius</string>
     <string name="meterModes_22">Vride</string>
     <string name="meterModes_23">Temperatur</string>
     <string name="meterModes_24">Tryk</string>
@@ -1043,7 +1062,7 @@
     <string name="pref_locationProvider_modes_0">GPS-undersystem (standard)</string>
     <string name="pref_locationProvider_modes_1">Google Play-tjenester</string>
     <string name="pref_locationProvider_modes_explanation_0">(Alle profiler) Brug GPS-undersystem direkte. Stabil, mindre kompleks model, ingen mellemmand. Kan også bruge færre ressourcer end den anden udbyder.</string>
-    <string name="pref_locationProvider_modes_explanation_1">(Alle profiler) Brug \"Fused\" -udbyder fra Google Play-tjenester, hvis de er tilgængelige. I teorien kan dette til tider give hurtigere og mere nøjagtige placeringer. Prøv det for at se, om det gavner dig.</string>
+    <string name="pref_locationProvider_modes_explanation_1">(Alle profiler) Brug \"Fused\"-udbyder fra Google Play-tjenester, hvis tilgængelig. I teorien kan dette nogle gange give hurtigere og mere nøjagtige placeringer.</string>
     <string name="pref_flashlightBlinkModes_0">Langsom</string>
     <string name="pref_flashlightBlinkModes_1">Hurtig</string>
     <string name="pref_flashlightBlinkModes_2">Ingen / stabil</string>
@@ -1193,62 +1212,63 @@
     <string name="speechTrackingGpsWeak">Ingen GPS</string>
     <string name="freeLicenseFeatures">❌ Premium kort
 \n❌ Navigation
+\n❌ Online højde baseline
 \n❌ Ingen annoncer
 \n✔️ Alle gratis funktioner og kort</string>
     <string name="speechRadius">Radius: %1$s</string>
     <string name="dialogCloudAccountDisconnectMessage">Vil du afbryde forbindelsen til denne konto\?</string>
     <string name="infoMeterModeHumidityMsg">Den omgivende relative luftfugtighed målt med enheden eller en ekstern sensor.</string>
-    <string name="sensorProperitesUseForTemperature">Brug til hjerterytme</string>
+    <string name="sensorProperitesUseForTemperature">Bruges til temperatur</string>
     <string name="dialogLayoutEmptyInfoMessage">Der skal være mindst en meter til stede i layoutet.</string>
-    <string name="navigationStopPrompt">Stop</string>
+    <string name="navigationStopPrompt">Hold op</string>
     <string name="pref_categoryPrivacyTitle">Privatliv</string>
     <string name="infoSpeedometerTitle">Speedometer</string>
     <string name="prefMapDiskCacheAgeEntries_7">90 dage</string>
     <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ spænder fra 0 til 10 %, standard er 1 %. Hvis du bruger AutoTerrain-funktionen, skal du antage en basislinjeværdi for jævnt terræn (nedre grænse), da appen generelt vil øge koefficienten på mere ujævnt terræn.</string>
     <string name="navigationAvoidIndoor">Undgå indendørs</string>
-    <string name="pref_categoryTrackingButtonTitle">Sporing / GPS</string>
+    <string name="pref_categoryTrackingButtonTitle">Rec knap</string>
     <string name="speechTrackingStart">Start</string>
     <string name="pref_soundeffects_navigation_summary">Lyd på navigationsbegivenheder</string>
     <string name="menuInsertAbove">Over</string>
     <string name="sensorProperitesUseForHumidity">Bruges til fugt</string>
     <string name="prefScreensaverDimBrightnessEntries_2">⅓ af den aktuelle lysstyrke (standard)</string>
     <string name="pref_speechNavigation_title">Navigation</string>
-    <string name="menuProperties">Egenskaber</string>
-    <string name="pref_categoryActivityRecognitionTitle">Genkendelse af fysisk aktivitet</string>
-    <string name="menuMeterClockShowSeconds">Vis hegn</string>
-    <string name="prefBarometricAltitudeDisableAlert">Barometrisk højde</string>
+    <string name="menuProperties">Ejendomme…</string>
+    <string name="pref_categoryActivityRecognitionTitle">Anerkendelse af fysisk aktivitet</string>
+    <string name="menuMeterClockShowSeconds">Vis sekunder</string>
+    <string name="prefBarometricAltitudeDisableAlert">Deaktiver barometrisk højde\?</string>
     <string name="menuScreenshot">Skærmbillede</string>
-    <string name="menuAutomaticBell">automatisk klokke</string>
-    <string name="meterVerticalWeight">Total vægt</string>
+    <string name="menuAutomaticBell">Automatisk klokke</string>
+    <string name="meterVerticalWeight">Lodret vægt</string>
     <string name="speechUnitManyLitersOfGasoline">liter benzin</string>
     <string name="prefMapDiskCacheAgeEntries_5">45 dage</string>
-    <string name="prefSteadyScreenNote2">Forvent venligst ikke mirakler. Hvis denne funktion ikke fungerer godt for dig, skal du blot deaktivere den.</string>
-    <string name="prefScreenPocketModeDelayEntries_4">10 sekunder</string>
+    <string name="prefSteadyScreenNote2">Dette fungerer bedst til langsommere bevægelser, såsom telefon, der svajer i hånden, mens du går, men også på styret, mens du kører eller i en bil, mens du kører.</string>
+    <string name="prefScreenPocketModeDelayEntries_4">0,40 sekunder</string>
     <string name="navigationAvoidFerries">Undgå færger</string>
-    <string name="toastSteadyScreenModeActive">SteadyScreen aktiv</string>
+    <string name="toastSteadyScreenModeActive">Skærmstabilisering aktiveret</string>
     <string name="dialogLayoutChooseTitle">Layout</string>
     <string name="menuSpeedoPaceIndicator">Tempoindikator</string>
     <string name="pref_screensaverDimBrightnessDialogTitle">Pauseskærm dæmpet lysstyrke</string>
-    <string name="meterHorizontalWeight">Total vægt</string>
+    <string name="meterHorizontalWeight">Vandret vægt</string>
     <string name="summaryDragging">Træk</string>
-    <string name="sensorProperitesUseForPressure">Brug til effekt</string>
-    <string name="prefSteadyScreenModeOff">Fra</string>
+    <string name="sensorProperitesUseForPressure">Bruges til tryk</string>
+    <string name="prefSteadyScreenModeOff">Af</string>
     <string name="infoSpeedometerMsg">Viser din aktuelle, maksimale og gennemsnitlige hastighed.
 \n
 \nStall-indikator angiver, hvornår hastighedsværdien ikke blev opdateret i et stykke tid og ikke kan stoles på.
 \n
 \nTempoindikator er små pile nær hastighedsværdien, der viser, når den aktuelle hastighed er over eller under gennemsnitshastigheden.</string>
-    <string name="toastSteadyScreenModeIntelligentActive">SteadyScreen intelligent aktiv</string>
+    <string name="toastSteadyScreenModeIntelligentActive">Skærmstabilisering intelligent aktiveret</string>
     <string name="prefAppVisualThemeEntries_1">Lys</string>
     <string name="pref_screensaverTimeout_summary">Tidsperiode uden brugerinteraktion, indtil pauseskærmen er aktiveret.</string>
-    <string name="prefScreensaverTimeoutEntries_4">10 sekunder</string>
-    <string name="menuInsertMeter">Indsæt måler</string>
+    <string name="prefScreensaverTimeoutEntries_4">30 sekunder</string>
+    <string name="menuInsertMeter">Måler</string>
     <string name="prefAutoTerrainNote2Summary">Effekter opnået ved hjælp af en effektsensor påvirkes ikke af denne funktion.</string>
     <string name="menuMeterShowValue">Værdi</string>
     <string name="dialogRevokeAccessPromptMessage">Fjerne adgang\?</string>
     <string name="menuSpeedo">Speedometer</string>
     <string name="speechUnitOneLiterOfGasoline">liter benzin</string>
-    <string name="prefSteadyScreenModeOnInfo">Hold SteadyScreen-funktionen altid aktiv under sporing. Dette kan forbruge mere batteri.</string>
+    <string name="prefSteadyScreenModeOnInfo">Hold skærmstabiliseringsfunktionen altid aktiv under sporing. Dette kan forbruge mere batteri, mens skærmen er tændt.</string>
     <string name="summaryVibrations">Vibrationer</string>
     <string name="summaryVehicleWeightInfo">Vægten af det køretøj, der blev brugt under optagelse af dette spor.</string>
     <string name="unitNewtonPerKg">N/kg</string>
@@ -1258,16 +1278,16 @@
     <string name="pref_speechGnssStatus_title">GPS</string>
     <string name="menuMeterShowChart">Diagram</string>
     <string name="navigationLoadingData">Indlæser rutevejledning…</string>
-    <string name="summaryVehicleWeight">Hjulenes vægt</string>
+    <string name="summaryVehicleWeight">Køretøjets vægt</string>
     <string name="pref_soundeffects_tally_energy_title">Energi</string>
     <string name="menuSpeedoStallIndicator">Staldindikator</string>
     <string name="sensorPurposeHumidity">Fugtighed</string>
     <string name="speechPromptTrackingResume">Genoptage eller afslutte\?</string>
     <string name="menuMeterShowSubValues">Underværdier</string>
     <string name="menuSelectOther">Vælg anden</string>
-    <string name="controlPanelMapHideButtonSubtitle">Klik og hold for at skifte mellem kort</string>
+    <string name="controlPanelMapHideButtonSubtitle">Klik for at skjule kortet</string>
     <string name="summaryDriverWeight">Førerens vægt</string>
-    <string name="prefMapDiskCacheAgeTitle">Kortstørrelsesgrænse for kort</string>
+    <string name="prefMapDiskCacheAgeTitle">Kortcache aldersgrænse</string>
     <string name="sensorPurposeTemperature">Temperatur</string>
     <string name="speechEnergy">Energi: %1$s</string>
     <string name="toastSharingNoGpxError">Fejl, ingen GPX-fil i sporet</string>
@@ -1279,15 +1299,15 @@
     <string name="prefActivityRecognitionNoteSummary">Disse muligheder er afhængige af Androids funktion til genkendelse af fysisk aktivitet. Det er muligvis ikke nøjagtigt og kan være laggy, brug kun hvis du er okay med det. Fungerer bedst, når en hastighedssensor bruges til distance og varighed.</string>
     <string name="prefScreensaverDimBrightnessEntries_3">½ af den aktuelle lysstyrke</string>
     <string name="pref_soundeffects_autopause_summary">Lyd på automatisk pause og genoptag registrering</string>
-    <string name="prefScreenPocketModeDelayEntries_0">Langsom</string>
-    <string name="infoMeterModeRadiusMsg">Beeline afstand fra startpositionen af sporet, dvs. forskydning.</string>
-    <string name="prefSteadyScreenModeAuto">Intelligent aktiv (standard)</string>
-    <string name="mapMarkerClickInfo">Klik for kort muligheder</string>
+    <string name="prefScreenPocketModeDelayEntries_0">Ingen forsinkelse (standard)</string>
+    <string name="infoMeterModeRadiusMsg">Lige linje afstand til startstedet, dvs. forskydning.</string>
+    <string name="prefSteadyScreenModeAuto">Intelligent aktiveret (standard)</string>
+    <string name="mapMarkerClickInfo">Klik for muligheder</string>
     <string name="dialogBluetoothPermissionRequest">Tilladelse er nødvendig, så appen kan finde og oprette forbindelse til trådløse sensorer.</string>
-    <string name="prefAppVisualThemeEntries_0">Nulstil til standard</string>
+    <string name="prefAppVisualThemeEntries_0">System standard</string>
     <string name="summaryClimbingEnergyInfo">Procentdel af energien, der blev brugt til at overvinde tyngdekraften.</string>
     <string name="sensorProperitesNoAlarm">Alarm ikke</string>
-    <string name="prefGnssActivityRecognitionSummary">Genkend at stå stille vs. at bevæge sig for GPS. Kan introducere forsinkelser og noget tabt distance efter en pause, men vil forhindre det meste GPS-støj.</string>
+    <string name="prefGnssActivityRecognitionSummary">Genkend at stå stille vs. at bevæge sig for GPS. Dette kan introducere forsinkelse og en vis mistet afstand eller højde efter en pause, men vil forhindre det meste af GPS-støj.</string>
     <string name="prefTrackingButtonModeTitle">Alternativ adfærd</string>
     <string name="dialogLayoutChoosePrompt">Det nuværende layout vil blive overskrevet.
 \n
@@ -1310,38 +1330,38 @@
     <string name="dialogLoginPasswordHint">Adgangskode</string>
     <string name="menuChooseFolder">Folder</string>
     <string name="menuNarrow">Smal</string>
-    <string name="toastSteadyScreenModeOff">SteadyScreen deaktiveret</string>
+    <string name="toastSteadyScreenModeOff">Skærmstabilisering deaktiveret</string>
     <string name="dialogLicenseUpgradeButton2">Se promo-video</string>
     <string name="speechTrackingResume">Gå</string>
-    <string name="prefSteadyScreenTitle">Skærm retning</string>
+    <string name="prefSteadyScreenTitle">Skærmstabilisering</string>
     <string name="navigationLoadFromFilePrompt">Der opstod en fejl under indlæsning af nye rutevejledninger fra internettet.
 \n
 \nVil du indlæse tidligere brugte rutevejledninger fra en fil\?</string>
-    <string name="prefSteadyScreenModeAutoInfo">Aktiver kun SteadyScreen-funktionen i ujævnt terræn under sporing. Dette er en god balance mellem komfort og batteriforbrug.</string>
+    <string name="prefSteadyScreenModeAutoInfo">Aktiver kun skærmstabiliseringsfunktionen i ujævnt terræn under sporing. Dette er en god balance mellem komfort og batteriforbrug.</string>
     <string name="sensorProperitesUseForDuration">Bruges til varighed</string>
     <string name="menuNavigation">Navigere</string>
     <string name="menuCustomTracksFolder">Mappe med brugerdefinerede spor</string>
     <string name="buttonLater">Senere</string>
     <string name="speechNavigationWrongWay">Forkerte vej</string>
     <string name="dialogLayoutsInfoTitle">Layouts</string>
-    <string name="prefTrackingButtonModeSummary">Klik eller lang-klik for Pause, separat knap for Stop.</string>
+    <string name="prefTrackingButtonModeSummary">(Alle profiler) Klik eller lang-klik for Pause, separat knap for Stop.</string>
     <string name="controlPanelScreenshotButtonTitle">Skærmbillede</string>
     <string name="prefAppVisualThemeEntries_2">Mørk</string>
     <string name="menuInsertBelow">Under</string>
     <string name="prefMapDiskCacheAgeEntries_6">60 dage</string>
-    <string name="menuMeter">Målere</string>
+    <string name="menuMeter">Måler</string>
     <string name="prefMapDiskCacheAgeEntries_0">1 dag</string>
     <string name="dialogLayoutEmptyInfoTitle">Layout</string>
-    <string name="dialogOfflineMapsChooseTitle">Offline kort download</string>
+    <string name="dialogOfflineMapsChooseTitle">Offline kort problem</string>
     <string name="pref_mapsWeatherCoverage_summary">Skygge områder, hvor der ikke er nedbørsradardækning</string>
     <string name="pref_screenAutoPocketModeDelay_summary">Dette vil forsinke slukning af displayet, efter at nærhedssensoren er aktiveret</string>
     <string name="prefAppVisualThemeSummary">(Alle profiler)</string>
-    <string name="prefMapDiskCacheAgeEntries_2">Altid (standard)</string>
-    <string name="prefScreenPocketModeDelayEntries_3">10 sekunder</string>
+    <string name="prefMapDiskCacheAgeEntries_2">10 dage (standard)</string>
+    <string name="prefScreenPocketModeDelayEntries_3">0,30 sekunder</string>
     <string name="summaryRollingEnergyInfo">Procentdel af energien, der blev brugt til at overvinde rullemodstanden.</string>
     <string name="speechNavigationDestinationReached">Du har nået destinationen</string>
     <string name="menuSendDebugFeedback">Rapporter et problem</string>
-    <string name="prefSteadyScreenModeOffInfo">Aktiver aldrig SteadyScreen-funktionen</string>
+    <string name="prefSteadyScreenModeOffInfo">Aktiver aldrig skærmstabiliseringsfunktionen</string>
     <string name="sensorPurposePressure">Tryk</string>
     <string name="prefAutoTerrainTitle">AutoTerræn</string>
     <string name="pref_soundeffects_tally_radius_dialog_title">Radiusmåling</string>
@@ -1351,38 +1371,38 @@
     <string name="meterModeRadiusShort">rad</string>
     <string name="pref_soundeffects_tally_energy_dialog_title">Energital</string>
     <string name="prefMapDiskCacheAgeEntries_1">5 dage</string>
-    <string name="dialogBluetoothPermissionRequestTitle">Placeringstilladelse</string>
+    <string name="dialogBluetoothPermissionRequestTitle">Bluetooth-tilladelse</string>
     <string name="prefGpsBoostNoteSummary">Placeringsopdateringer vil altid blive tvunget til den højeste frekvens under navigation</string>
-    <string name="freeLicenseTitle">Pro Licens</string>
+    <string name="freeLicenseTitle">Gratis licens</string>
     <string name="prefMapDiskCacheAgeEntries_3">15 dage</string>
     <string name="pref_mapsFollowAutorotateMode_summary">Hold kørselsretningen pegende opad</string>
     <string name="prefNoSoundInsideFenceSummary">Lav ikke lyde, mens du er inde i et hegn, undtagen alarmerne.</string>
-    <string name="dialogMeterModesTitle">Vælg tilgængelige tilstande …</string>
+    <string name="dialogMeterModesTitle">Vælg tilgængelige tilstande</string>
     <string name="prefMeterSettingsNoteSummary">Flere indstillinger er tilgængelige via en menu, der tilgås ved at langklikke på et målerfelt.</string>
     <string name="unitNewtonPerLb">N/lb</string>
     <string name="navigationDestinationReached">Bestemmelsessted</string>
     <string name="prefAutoTerrainNote1Summary">Enheden skal holdes fast til et køretøj (f.eks. på et cykelstyr), og ikke i en hånd eller i en lomme, mens du bruger dette.</string>
-    <string name="menuInsertSpeedo">Indsæt speedometer</string>
+    <string name="menuInsertSpeedo">Speedometer</string>
     <string name="summaryDeviceAutoPauseCount">Auto-pause tæller</string>
     <string name="pref_screensaverEnable_title">Pauseskærm</string>
     <string name="menuChooseFile">Fil</string>
     <string name="menuSpeedoIndicatorMax">Indikator max</string>
-    <string name="powerSourceWeight_1">Kører</string>
+    <string name="powerSourceWeight_1">Chauffør</string>
     <string name="infoAppUpdateAction">Genstart</string>
-    <string name="prefScreensaverTimeoutEntries_7">Minutter</string>
+    <string name="prefScreensaverTimeoutEntries_7">2 minutter</string>
     <string name="speechNavigationGotOffRoute">Du er gået af ruten</string>
     <string name="menuSpeedoBellButton">Klokkeknap</string>
     <string name="menuMove">Bevæge sig</string>
-    <string name="prefScreenPocketModeDelayEntries_1">10 sekunder</string>
+    <string name="prefScreenPocketModeDelayEntries_1">0,10 sekunder</string>
     <string name="navigationAvoidMotorways">Undgå motorveje</string>
     <string name="menuWiden">Udvid</string>
-    <string name="unitMphPerSec">mph</string>
-    <string name="controlPanelScreenshotButtonSubtitle">Klik for at arrangere sensorer</string>
+    <string name="unitMphPerSec">mph/s</string>
+    <string name="controlPanelScreenshotButtonSubtitle">Klik for at dele skærmbillede</string>
     <string name="pref_mapsWeatherAnimateForecast_title">Vejrudsigt</string>
     <string name="menuInsertLeft">Venstre</string>
     <string name="pref_mapsShowAttribution_title">Tilskrivning</string>
-    <string name="prefSteadyScreenNote1">Denne funktion hjælper dig med at se skærmen lidt tydeligere, mens du kører i ujævnt terræn. Billedet på skærmen stabiliseres ved at anvende hurtige små bevægelser, der forsøger at modvirke ydre rystelser.</string>
-    <string name="powerSourceWeight_0">i alt</string>
+    <string name="prefSteadyScreenNote1">Denne funktion hjælper dig med at se skærmen lidt tydeligt, mens du er på farten. Billedet på skærmen stabiliseres ved at anvende hurtige små bevægelser, der forsøger at modvirke ydre rystelser.</string>
+    <string name="powerSourceWeight_0">Total</string>
     <string name="menuMeterShowIcon">Ikon</string>
     <string name="pref_category_mainScreenVisualTheme">Hovedskærm</string>
     <string name="speechNavigationContinue">Blive ved</string>
@@ -1390,21 +1410,19 @@
     <string name="summaryInaccurateLocationZoneCountInfo">Antal gange, appen begyndte at afvise placeringsopdateringer på grund af deres unøjagtighed.
 \n
 \nBemærk, områder, hvor der ikke er nogen placeringsopdateringer overhovedet (f.eks. indendørs), påvirker ikke dette nummer.</string>
-    <string name="prefScreensaverTimeoutEntries_8">Minutter</string>
+    <string name="prefScreensaverTimeoutEntries_8">5 minutter</string>
     <string name="infoMeterModeVibrationsMsg">Vibrationer målt med enheden. Nyttig, når enheden holdes fast til et køretøj (f.eks. på et cykelstyr), og ikke i en hånd eller i en lomme.</string>
     <string name="prefScreensaverTimeoutEntries_1">10 sekunder</string>
-    <string name="dialogCustomTracksFolderInfoMessage">Denne funktion giver appen mulighed for at læse numre fra en mappe efter eget valg, ud over standardmappen med numre - hvis placering for nylig er ændret.
+    <string name="dialogCustomTracksFolderInfoMessage">Denne funktion giver appen mulighed for at læse numre fra en mappe efter eget valg, ud over hovedmappen med numre - hvis placering for nylig er ændret.
 \n
-\nSådanne spor er skrivebeskyttede: De kan ses og deles, men kan ikke redigeres, genoptages eller slettes.
-\n
-\nHvis du er usikker, så prøv at finde mappen \"Documents-UrbanBiker-tracks\" på næste skærmbillede.</string>
+\nSådanne spor er skrivebeskyttede: De kan ses og deles, men kan ikke redigeres, genoptages eller slettes.</string>
     <string name="prefScreensaverDimBrightnessEntries_0">Minimum</string>
     <string name="buttonShow">At vise</string>
     <string name="menuReset">Nulstil</string>
     <string name="prefGnssAutomaticSleepTitle">GPS automatisk søvn</string>
     <string name="toastScreensaverModeActive">Pauseskærmstilstand aktiv</string>
-    <string name="controlPanelMapHideButtonTitle">"Høj-opl  kort"</string>
-    <string name="prefScreensaverTimeoutEntries_2">10 sekunder</string>
+    <string name="controlPanelMapHideButtonTitle">Skjul kort</string>
+    <string name="prefScreensaverTimeoutEntries_2">15 sekunder</string>
     <string name="infoMeterModeVibrationsTitle">Vibrationer</string>
     <string name="dialogOfflineMapsFolderCopyMessage">Det valgte indhold skal kopieres til den app-specifikke kortmappe for at kunne bruges.
 \n
@@ -1413,7 +1431,7 @@
     <string name="pref_screenAutoPocketModeDelay_title">Forsinke</string>
     <string name="controlPanelMapShowButtonSubtitle">Klik for at vise kortet</string>
     <string name="unitKmhPerSec">kph/s</string>
-    <string name="summaryRollResistCoefAverage">Rullemodstand coef.</string>
+    <string name="summaryRollResistCoefAverage">Rullemodstandskoef. gennemsnit</string>
     <string name="pref_mapsFollowAutoZoomMode_summary">Juster kortets zoomniveau baseret på den aktuelle hastighed</string>
     <string name="dialogLayoutsInfoMessage">Skift hurtigt skærmlayout fra et sæt foruddefinerede layouts.
 \n
@@ -1421,41 +1439,41 @@
 \n
 \nStående og liggende skærmorienteringer har helt uafhængige layouts.</string>
     <string name="prefMapDiskCacheAgeEntries_4">30 dage</string>
-    <string name="prefScreenPocketModeDelayEntries_5">10 sekunder</string>
+    <string name="prefScreenPocketModeDelayEntries_5">0,50 sekunder</string>
     <string name="infoContentSize">Indholdsstørrelse: %1$d MB</string>
     <string name="pref_track_charts_title">Diagramtyper…</string>
-    <string name="menuRemove">Fjern Reklamer</string>
+    <string name="menuRemove">Fjerne</string>
     <string name="meterModes_31">Fugtighed</string>
     <string name="pref_mapsLayerTraffic_summary">Vis trafikinformation i realtid</string>
     <string name="pref_track_charts_summary">Vælg forskellige aktivitetsparametre, der skal gemmes som diagrammer med hvert spor. Hastigheds- og højdedata gemmes altid.</string>
     <string name="menuShowTotals">Vis totaler</string>
-    <string name="prefScreensaverTimeoutEntries_6">Minut</string>
+    <string name="prefScreensaverTimeoutEntries_6">1 minut</string>
     <string name="summaryDeviceAutoPauseCountInfo">Antal gange automatisk pause blev aktiveret under denne aktivitet.</string>
     <string name="prefNoSoundInsideFenceTitle">Ingen lyde indenfor hegnet</string>
     <string name="powerSourceWeightTitle">Strømkildens vægt</string>
     <string name="pref_soundeffects_autopause_title">Automatisk pause</string>
     <string name="pref_mapsWeatherAnimateForecast_summary">Animer også 30 minutters radarprognose i forskellige farver</string>
-    <string name="menuBell">Klokke</string>
-    <string name="menuInsertRight">Ret</string>
+    <string name="menuBell">klokke</string>
+    <string name="menuInsertRight">Højre</string>
     <string name="menuSpeedoScale">vægt</string>
     <string name="menuSelect">Vælg</string>
     <string name="menuLayout">Layout</string>
     <string name="pref_category_tracking_charts_title">Diagrammer</string>
-    <string name="prefScreensaverTimeoutEntries_3">3 sekunder (standard)</string>
-    <string name="menuSpeedoAppearance">Fremtoning</string>
+    <string name="prefScreensaverTimeoutEntries_3">20 sekunder (standard)</string>
+    <string name="menuSpeedoAppearance">Udseende</string>
     <string name="dialogChartDataTypesTitle">Diagramtyper</string>
     <string name="meterModeHumidityShort">hum</string>
     <string name="mapPlaceSearch">Hvorhen\?</string>
-    <string name="prefSteadyScreenModeOn">Aktiv</string>
+    <string name="prefSteadyScreenModeOn">Aktiveret</string>
     <string name="prefAutoTerrainSummary">Føl terrænets ruhed ved at måle vibrationer, og juster rullemodstandskoefficienten (Cᵣᵣ) i overensstemmelse hermed, når du beregner kraft.</string>
     <string name="prefScreenPocketModeDelayEntries_7">1 sekund</string>
     <string name="pref_soundeffects_navigation_title">Navigation</string>
     <string name="dialogLayoutChooseSubtitle">Vælg skærmlayout</string>
     <string name="pref_category_units_common_title">Måleenheder (alle profiler)</string>
     <string name="summaryBasalEnergyInfo">Procentdel af energien, der blev brugt til basalstofskiftet.</string>
-    <string name="toastLocationUnavailable">FenceGuard: Din position er stadig ikke tilgængelig</string>
+    <string name="toastLocationUnavailable">Din placering er stadig ikke tilgængelig</string>
     <string name="tracksHistoryChartEmptyInfo">Intet at vise</string>
-    <string name="prefScreenPocketModeDelayEntries_2">10 sekunder</string>
+    <string name="prefScreenPocketModeDelayEntries_2">0,20 sekunder</string>
     <string name="menuInsert">Indsæt</string>
     <string name="pref_soundeffects_tally_radius_title">Radius</string>
     <string name="pref_speechAutoPause_title">Automatisk pause</string>
@@ -1463,34 +1481,34 @@
     <string name="powerSourceWeight_2">Køretøj</string>
     <string name="navigationHidePrompt">Skjule</string>
     <string name="speechUnitTwoLitersOfGasoline">liter benzin</string>
-    <string name="pref_group_activityRecognition_title">Genkendelse af fysisk aktivitet</string>
-    <string name="controlPanelMapShowButtonTitle">Vælg kort</string>
+    <string name="pref_group_activityRecognition_title">Aktivitetsgenkendelse</string>
+    <string name="controlPanelMapShowButtonTitle">Vis kort</string>
     <string name="menuSpeedoValue">Værdi</string>
     <string name="summaryClimbing">Klatre</string>
-    <string name="menuAdvanced">Avanceret</string>
+    <string name="menuAdvanced">Fremskreden</string>
     <string name="pref_screensaverTimeout_title">Tiden er gået</string>
-    <string name="prefScreensaverTimeoutEntries_5">5 sekunder</string>
+    <string name="prefScreensaverTimeoutEntries_5">45 sekunder</string>
     <string name="infoMeterModeRadiusTitle">Radius</string>
     <string name="summaryInaccurateLocationZoneCount">Unøjagtighedszoner</string>
     <string name="summaryAcceleratingEnergyInfo">Procentdel af energien, der blev brugt til at accelerere.</string>
-    <string name="prefScreenPocketModeDelayEntries_6">7 sekunder</string>
+    <string name="prefScreenPocketModeDelayEntries_6">0,75 sekunder</string>
     <string name="summaryDraggingEnergyInfo">Procentdel af energien, der blev brugt til at overvinde luftmodstand.</string>
     <string name="navigationWrongWay">Forkerte vej</string>
-    <string name="menuHideTotals">Nulstil totaler</string>
-    <string name="pref_screensaverDimBrightness_title">Lysstyrke</string>
+    <string name="menuHideTotals">Skjul totaler</string>
+    <string name="pref_screensaverDimBrightness_title">Dæmp lysstyrke</string>
     <string name="tracksHistoryGrantAccess">Mangler du spor\?
 \nKlik her for at give skrivebeskyttet adgang til en brugerdefineret spormappe…</string>
-    <string name="pref_speechGnssStatus_summary">Lyd ved ændring af GPS-status (god, dårlig)</string>
+    <string name="pref_speechGnssStatus_summary">Tal om GPS-statusændring (god, dårlig)</string>
     <string name="meterModeHumidity">fugtighed</string>
     <string name="navigationStepsInfo">Navigationsinstruktioner vises her, mens du bevæger dig. Skjul eller skub dette panel efter ønske.</string>
     <string name="summaryRolling">Rulle</string>
     <string name="meterModes_None">Ingen</string>
     <string name="licenseUpgradeTitle">Opgrader din licens</string>
     <string name="summaryDriverWeightInfo">Vægten af føreren (eller rytteren), der blev brugt under registrering af dette spor.</string>
-    <string name="freeLicenseLabel">Ledig</string>
+    <string name="freeLicenseLabel">Gratis</string>
     <string name="prefAppVisualThemeDialogTitle">App visuelt tema</string>
-    <string name="pref_meterTitle">Målere</string>
-    <string name="veloHeroConnectButton">Forbind med Google Fit</string>
+    <string name="pref_meterTitle">Måler</string>
+    <string name="veloHeroConnectButton">Forbind med Velo Hero</string>
     <string name="navigationRouteNotFound">Beklager, ingen rute blev fundet til den destination</string>
     <string name="chartsTitle">Diagrammer</string>
     <string name="infoMeterModeHumidityTitle">Fugtighed</string>
@@ -1501,7 +1519,7 @@
     <string name="prefOnlineMapsProviderTitle">Online kortudbyder</string>
     <string name="pref_category_units_per_profile_title">Måleenheder (pr. profil)</string>
     <string name="sensorProperitesNoAlarmInfo">Brug sensoren, hvis den er tilgængelig, men undlad at give besked eller alarm, når den ikke er tilgængelig. Nyttigt til uvigtige sensorer, der ikke er afgørende for en aktivitet. Deaktiveret som standard.</string>
-    <string name="menuSpeedoDisplayMode">Effekt visning tilstand</string>
+    <string name="menuSpeedoDisplayMode">Visningstilstand</string>
     <string name="dialogOfflineMapsFolderCopyTitle">Kopiér til mappen maps</string>
     <string name="navigationGotOffRoute">Ude af ruten</string>
     <string name="meterModeRadius">radius</string>
@@ -1510,4 +1528,109 @@
 \nDette er normalt vægten af den enhed, der giver en drivkraft.
 \n
 \nBemærk: Lodret effekt beregnes altid ved hjælp af totalvægt.</string>
+    <string name="dataStorageChooseButton">Vælg datalagringssted</string>
+    <string name="prefSteadyScreenImplementationNote">(Alle profiler) Ekstern implementering kræver, at der installeres en separat app. Klik her for at åbne Play Butik.</string>
+    <string name="prefSteadyScreenImplementationTitle">Implementering</string>
+    <string name="speechUnitThreeFeets">Fødder</string>
+    <string name="dialogMapsMapCountThreeMaps">%1$s kort</string>
+    <string name="dialogRecButtonInsertMessage">Dette vil indsætte Rec-knappen her og fjerne den fra knaplinjen. Blive ved\?</string>
+    <string name="speechUnitFourFeets">Fødder</string>
+    <string name="dataStorageStatsTitle">Opbevaringsstatistik</string>
+    <string name="speechUnitThreeMinutes">Referat</string>
+    <string name="speechUnitFourMinutes">Referat</string>
+    <string name="pref_mapsLayerHeatmap_info">Dette kan hjælpe dig med at opdage nye steder at være aktiv, især i fjerntliggende områder.</string>
+    <string name="dataStorageTransferInfoCount">Elementer flyttet: %1$s af %2$s</string>
+    <string name="menuRemoveRecButton">Fjern Rec-knap</string>
+    <string name="pref_category_storage_title">Opbevaring</string>
+    <string name="dataStorageTransferInfoStatus">Status: %1$s</string>
+    <string name="licenseItemOwned">I øjeblikket ejet</string>
+    <string name="dialogRecButtonRemoveMessage">Dette vil sætte Rec-knappen tilbage til knaplinjen. Blive ved\?</string>
+    <string name="inProgress">I gang</string>
+    <string name="speechUnitThreeMiles">Miles</string>
+    <string name="dialogLayoutRemoveEntryMessage">Vil du fjerne dette felt\?</string>
+    <string name="dataStorageTransferInfoSpeed">Hastighed: %1$s MB/s (%2$s elementer/s)</string>
+    <string name="prefGpsIntervalAdaptiveSummary">Juster automatisk GPS-opdateringsintervallet mellem 1 og 5 sekunder, afhængigt af hastigheden.</string>
+    <string name="speechUnitFourMeters">Meter</string>
+    <string name="dataStorageInfo1">Det anbefales at bruge en brugerdefineret lagerplacering til dine spor og data for at forhindre utilsigtet datatab, hvis appen afinstalleres, og for at gøre sikkerhedskopiering nemmere.</string>
+    <string name="dialogEnterCodeMessage">Indtast kode</string>
+    <string name="dataStorageTitle">Opbevaring</string>
+    <string name="pref_category_mapsRenderer">Renderer</string>
+    <string name="pref_category_onlineElevation_title">Online højde</string>
+    <string name="prefOnlineElevationNoteSummary1">For at spare batteri og data vil der kun blive hentet ét højdepunkt fra internettet, når du begynder at spore et nyt spor. Dette er nok til, at resten af banen har en mere nøjagtig højdebasislinje.</string>
+    <string name="prefGpsIntervalAdaptiveTitle">Fleksibel</string>
+    <string name="success">Succes</string>
+    <string name="prefOnlineElevationNoteSummary2">Hvis internettet eller licensen ikke er tilgængelig, vil appen fortsætte med at fungere uden at korrigere højden.</string>
+    <string name="dataStorageStatsMessage">%1$s MB
+\n%2$s genstande</string>
+    <string name="prefOnlineElevationTitle">Online højde</string>
+    <string name="prefGoogleMapsRenderer_0">Standard</string>
+    <string name="infoMeterModePowerBalanceTitle">Effektbalance L/R</string>
+    <string name="speechUnitFourMiles">Miles</string>
+    <string name="meterModeBatteryShort">batt</string>
+    <string name="prefSteadyScreenImplementationInternal">Intern (standard)</string>
+    <string name="dialogMapsMapCountManyMaps">%1$s kort</string>
+    <string name="dialogNotificationPermissionRequestTitle">Underretningstilladelse</string>
+    <string name="pref_mapsOfflineFileSummary">Kortfiler skal kopieres til den app-specifikke kortmappe for at kunne bruges</string>
+    <string name="prefBatteryOptimizationTitle">Batterioptimeringer</string>
+    <string name="dialogNotificationPermissionRequest">Tilladelse er nødvendig, så appen kan vise en løbende notifikation, mens sporing er aktiv.</string>
+    <string name="prefGoogleMapsRendererSummary">Aktuel: %1$s</string>
+    <string name="dialogRecButtonInsertTitle">Indsæt Rec knap</string>
+    <string name="speechUnitFourHours">Timer</string>
+    <string name="prefOnlineElevationNoteSummary3">Dette virker kun, hvis en abonnementslicens er tilgængelig (Ultimate licens eller en af kortlicenserne).</string>
+    <string name="prefSteadyScreenImplementationInternalInfo">Brug vores egen implementering af skærmstabilisering. Lettere at bruge, ikke justerbar.</string>
+    <string name="prefMapShowBuildingsSummary">Vis 3D-bygningslaget til Google maps. Deaktiver for at forbedre kortets ydeevne og reducere ressourceforbruget.</string>
+    <string name="prefBatteryOptimizationMessage">Urban Biker kan undtages fra systembatterioptimeringer, for at gøre det mere sikkert, at det fortsætter med at fungere korrekt, når skærmen er slukket på ældre versioner af Android. Klik her for at åbne indstillingerne nu.</string>
+    <string name="prefGoogleMapsRenderer_2">Seneste</string>
+    <string name="meterModes_10">Kraftbalance</string>
+    <string name="prefTrackingButtonFreePlacementTitle">Gratis Rec-knapplacering</string>
+    <string name="speechUnitFourKilometers">Kilometer</string>
+    <string name="computing">Beregner…</string>
+    <string name="prefMapsFolderExploreSummary">Administrer indholdet af den app-specifikke kortmappe med en filudforsker-app</string>
+    <string name="dialogMapsAutoZoomSensitivity">Auto zoom følsomhed</string>
+    <string name="menuInsertRecButton">Rec knap</string>
+    <string name="dataStorageInfo2">Når du ændrer datalagringsplaceringen, overføres de tidligere appdata automatisk til den nye placering. Dette sker i baggrunden og kan tage lidt tid.
+\n
+\nTilbagekaldelse af adgang efterlader dataene intakte.</string>
+    <string name="prefGoogleMapsRendererInfo">Angiver, hvilken renderertype du foretrækker at bruge til at vise kortene. Ældre renderer bruger muligvis færre ressourcer, mens den seneste normalt har flere funktioner eller et bedre design.</string>
+    <string name="dataStorageTransferInfoDuration">Varighed: %1$s</string>
+    <string name="speechUnitThreeMeters">Meter</string>
+    <string name="toastGpsIntervalAdaptiveActive">Adaptivt opdateringsinterval er aktivt</string>
+    <string name="dialogMapsShowHeatmap">Heatmap</string>
+    <string name="buttonProceed">Fortsæt</string>
+    <string name="prefMapsFolderExploreTitle">Udforsk mappen maps</string>
+    <string name="prefSteadyScreenImplementationExternalInfo">En separat app skal installeres for at dette virker. Justerbar.</string>
+    <string name="speechUnitThreeKilometers">Kilometer</string>
+    <string name="prefGpsIntervalAdaptiveNote">Adaptive opdateringsintervaller kan hjælpe med at reducere batteriforbruget, når du bevæger dig langsomt eller holder hyppige pauser.</string>
+    <string name="speechUnitFourLitersOfGasoline">liter benzin</string>
+    <string name="prefOnlineElevationSummary">Brug højdedata fra internettet til at øge højdens grundlinjenøjagtighed. Aktiveret som standard.</string>
+    <string name="pref_mapsFollowAutoZoomSensitivity_info">Du kan justere den automatiske zoom-følsomhed ved at zoome ind eller ud, mens du sporer</string>
+    <string name="pref_mapsLayerHeatmap_summary">Vis samlede offentlige aktiviteter i løbet af det sidste år (fra Strava)</string>
+    <string name="dataStorageNotSetMessage">Datalagringsstedet er ikke indstillet, brug venligst knappen ovenfor.
+\n
+\nAppen bruger i øjeblikket standardmappen til spor og data.</string>
+    <string name="tracksHistoryDataStorageLink">Advarsel: Appen bruger standardmappen til spor og data. Klik her for at ændre.</string>
+    <string name="menuMeterResume">Genoptag</string>
+    <string name="menuDataStorage">Datalagringssted</string>
+    <string name="meterModeBattery">batteri</string>
+    <string name="navigationRerouteCmd">Klik for at omdirigere</string>
+    <string name="infoMeterModeBatteryTitle">Batteri</string>
+    <string name="infoMeterModeBatteryMsg">Batteriniveau på denne Android-enhed.</string>
+    <string name="speechUnitThreeLitersOfGasoline">liter benzin</string>
+    <string name="toastAutoBellButtonClickInfo">Langt-klik for at skifte til den automatiske klokkelyd</string>
+    <string name="dataStorageTransferRetrying">Mislykkedes – prøver igen om kort tid</string>
+    <string name="prefTrackingButtonFreePlacementSummary">(Alle profiler) Tillader, at Rec-knappen kan placeres hvor som helst i layoutet. Når den er deaktiveret, vil Rec-knappen blive fastgjort på knaplinjen.</string>
+    <string name="prefGoogleMapsRenderer_1">Eftermæle</string>
+    <string name="prefMapShowBuildingsTitle">Vis bygninger</string>
+    <string name="meterModes_33">Batteri</string>
+    <string name="prefSteadyScreenImplementationExternal">Ekstern</string>
+    <string name="dialogMapsMapCountTwoMaps">%1$s kort</string>
+    <string name="infoMeterModePowerBalanceMsg">Effektbalance, præsenteret som en brøkdel af venstre og højre bidrag til den samlede effekt.</string>
+    <string name="controlPanelFlashlight">Lommelygte</string>
+    <string name="speechUnitThreeHours">Timer</string>
+    <string name="dialogRecButtonRemoveTitle">Fjern Rec-knap</string>
+    <string name="pref_mapsLayerHeatmap_title">Heatmap</string>
+    <string name="otherLicenses">Andet</string>
+    <string name="dataStorageTransferInfoTitle">Sidste ændring</string>
+    <string name="recommendedLicense">Anbefalede</string>
+    <string name="dialogMapsMapCountFourMaps">%1$s kort</string>
 </resources>
