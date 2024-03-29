@@ -20,7 +20,7 @@
     <string name="cancel">Скасувати</string>
     <string name="buttonUnderstand">Я розумію</string>
     <string name="buttonResumeTrack">Продовжити</string>
-    <string name="menuControlPanel">Панель керування</string>
+    <string name="menuControlPanel">Швидкі налаштування</string>
     <string name="menuSettings">Налаштування</string>
     <string name="menuSummary">Огляд</string>
     <string name="menuTracksHistory">Історія</string>
@@ -154,9 +154,9 @@
     <string name="dialogProfileSwitchTitle">Перемкнути профіль</string>
     <string name="dialogProfileSwitchMessage">Триває запис треку. Точно перемкнутися на %1$s\?</string>
     <string name="dialogTracksDeleteTitle">Вилучити треки</string>
-    <string name="dialogTracksDeleteMessage">Увага: цю дію неможливо скасувати.
+    <string name="dialogTracksDeleteMessage">Попередження: цю дію не можна скасувати. Видалити вибрані треки\?
 \n
-\nВилучити обрані треки\?</string>
+\nЩоб підтвердити видалення, введіть наступний код, щоб продовжити.</string>
     <string name="dialogTrackDeleteMessage">Увага: Цю дію неможливо скасувати.
 \n
 \nВилучити трек %1$s\?</string>
@@ -1117,11 +1117,11 @@
     <string name="disclaimerText1">Цей додаток надається як є, ви використовуєте його на власний ризик. Ми, видавець, не відповідаємо за будь-які нещасні випадки, втрати майна, травми чи гірше у вас чи у третіх осіб, що виникли через користування додатком під час поїздок чи інших активностей.</string>
     <string name="disclaimerText2">Будь ласка, користуйтеся додатком розсудливо та НЕ ПРАЦЮЙТЕ ІЗ ДОДАТКОМ ПІД ЧАС КЕРУВАННЯ автомобілем, мотоциклом, велосипедом чи іншим транспортом. Ви несете відповідальність за життя та здоров\'я інших людей.</string>
     <string name="disclaimerText3">Завжди слідкуйте за ситуацією на дорозі.</string>
-    <string name="infoMeterModeKineticEnergyMsg">Висота над рівнем землі, де ваша потенційна енергія буде рівна вашій поточній кінетичній енергії.
+    <string name="infoMeterModeKineticEnergyMsg">Висота, яку ви б досягли, «відпустивши» довгий схил без гальмування.
 \n
-\nІншими словами ваша поточна швидкість дорівнює тій, яку б ви розвинули при падінні з цієї висоти (не беручи до уваги опір повітря).
+\nАбо, якби ви вдарилися об стіну, сила удару була б такою ж, як при падінні з цієї висоти.
 \n
-\nТак само це висота, якої б ви досягнули при русі вверх та використовуючи тільки кінетичну енергію.</string>
+\nЦе число зростає як швидкість у квадраті, і це корисно з міркувань безпеки.</string>
     <string name="subscriptionPerMonth">%1$s /місяць</string>
     <string name="subscriptionPer1y">%1$s за кожні 12 місяців</string>
     <string name="subscriptionPer6m">%1$s за кожні 6 місяців</string>
@@ -1320,7 +1320,7 @@
     <string name="meterModeFTPower">фпп</string>
     <string name="prefScreenPocketModeDelayEntries_0">Без затримок (типово)</string>
     <string name="infoMeterModeRadiusMsg">Відстань по прямій до початкового розташування, тобто зміщення.</string>
-    <string name="prefGnssActivityRecognitionSummary">Визначати, що стоїте на місці проти переміщення за GPS. Може викликати затримки та деяку втрату відстані після перерви, але запобіжить більшість шумів GPS.</string>
+    <string name="prefGnssActivityRecognitionSummary">Розпізнавання стояння на місці та руху для GPS. Це може спричинити затримку та деяку втрату відстані чи висоти після перерви, але запобігає більшості шумів GPS.</string>
     <string name="pref_speechAutoPause_summary">Говорити про авто-паузу та відновленні руху</string>
     <string name="speechTrackingResume">Поїхали</string>
     <string name="prefMapDiskCacheAgeEntries_6">60 днів</string>
@@ -1386,7 +1386,7 @@
     <string name="speechUnitManyLitersOfGasoline">Літри бензину</string>
     <string name="prefSteadyScreenNote2">Найкраще функція працює при повільних переміщеннях, таких як похитування телефону в руці під час ходьби, а також на кермі під час їзди або в автомобілі під час керування автомобілем.</string>
     <string name="navigationAvoidFerries">Уникати поромів</string>
-    <string name="toastSteadyScreenModeActive">Стабілізація екрана увімкнена</string>
+    <string name="toastSteadyScreenModeActive">Увімкнено стабілізацію екрана</string>
     <string name="dialogLayoutChooseTitle">Макет</string>
     <string name="menuSpeedoPaceIndicator">Індикатор темпу</string>
     <string name="pref_screensaverDimBrightnessDialogTitle">Зменшити яскравість під час заставки</string>
@@ -1397,7 +1397,7 @@
 \nІндикатор зупинки вказує, коли значення швидкості не оновлювалося протягом деякого часу і йому не можна довіряти.
 \n
 \nІндикатор темпу – це маленькі стрілки біля значення швидкості, які показують, коли поточна швидкість вище або нижче середньої швидкості.</string>
-    <string name="toastSteadyScreenModeIntelligentActive">Розумна стабілізація екрана увімкнена</string>
+    <string name="toastSteadyScreenModeIntelligentActive">Інтелектуальна стабілізація екрана включена</string>
     <string name="pref_screensaverTimeout_summary">Час бездіяльності користувача до увімкнення заставки.</string>
     <string name="prefScreensaverTimeoutEntries_4">30 секунд</string>
     <string name="menuInsertMeter">Лічильник</string>
@@ -1406,7 +1406,7 @@
     <string name="dialogRevokeAccessPromptMessage">Скасувати доступ\?</string>
     <string name="menuSpeedo">Спідометр</string>
     <string name="speechUnitOneLiterOfGasoline">Літр бензину</string>
-    <string name="prefSteadyScreenModeOnInfo">Функція стабілізації екрана постійно увімкнена під час відстеження. При увімкненому екрані можлива збільшена витрата заряду батареї.</string>
+    <string name="prefSteadyScreenModeOnInfo">Тримайте функцію стабілізації екрана завжди активною під час відстеження. Це може споживати більше заряду акумулятора, коли екран увімкнено.</string>
     <string name="summaryVibrations">Вібрація</string>
     <string name="unitNewtonPerKg">Н/кг</string>
     <string name="menuRevokeAccess">Скасувати доступ</string>
@@ -1424,7 +1424,7 @@
     <string name="prefScreensaverDimBrightnessEntries_1">⅕ поточної яскравості</string>
     <string name="infoAppUpdateMessage">Оновлення готове.</string>
     <string name="prefScreensaverDimBrightnessEntries_3">½ поточної яскравості</string>
-    <string name="prefSteadyScreenModeAuto">Інтелектуальний активний (за замовчуванням)</string>
+    <string name="prefSteadyScreenModeAuto">Інтелектуальний увімкнено (за замовчуванням)</string>
     <string name="mapMarkerClickInfo">Натисніть для налаштування</string>
     <string name="dialogBluetoothPermissionRequest">Дозвіл потрібен, щоб програма могла бачити бездротові датчики та підключатися до них.</string>
     <string name="prefTrackingButtonModeTitle">Альтернативна поведінка</string>
@@ -1445,13 +1445,13 @@
     <string name="prefScreensaverTimeoutEntries_0">5 секунд</string>
     <string name="menuChooseFolder">Папка</string>
     <string name="menuNarrow">Звузити</string>
-    <string name="toastSteadyScreenModeOff">Стабілізація екрана вимкнено</string>
+    <string name="toastSteadyScreenModeOff">Стабілізація екрана вимкнена</string>
     <string name="dialogLicenseUpgradeButton2">Переглянути рекламу</string>
     <string name="prefSteadyScreenTitle">Стабілізація екрану</string>
     <string name="navigationLoadFromFilePrompt">Під час завантаження нових маршрутів з Інтернету сталася помилка.
 \n
 \nВи бажаєте завантажити попередньо використані маршрути з файлу\?</string>
-    <string name="prefSteadyScreenModeAutoInfo">Функція стабілізації екрана вмикається лише на пересіченій місцевості під час відстеження. Це гарний баланс комфорту та економії заряду батареї.</string>
+    <string name="prefSteadyScreenModeAutoInfo">Активуйте функцію стабілізації екрана лише на вибоїстій місцевості під час стеження. Це хороший баланс комфорту та використання акумулятора.</string>
     <string name="menuNavigation">Навігація</string>
     <string name="menuCustomTracksFolder">Користувацька папка треків</string>
     <string name="speechNavigationWrongWay">Неправильний шлях</string>
@@ -1463,7 +1463,7 @@
     <string name="dialogOfflineMapsChooseTitle">Проблема з офлайн-картами</string>
     <string name="speechNavigationDestinationReached">Ви досягли пункту призначення</string>
     <string name="menuSendDebugFeedback">Повідомити про проблему</string>
-    <string name="prefSteadyScreenModeOffInfo">Функцію стабілізації екрана повністю вимкнено</string>
+    <string name="prefSteadyScreenModeOffInfo">Ніколи не активуйте функцію стабілізації екрана</string>
     <string name="prefAutoTerrainTitle">Авто поверхня</string>
     <string name="pref_screensaverEnable_summary">Зменшення яскравості дисплея через певний час, щоб заощадити заряд батареї. Торкніться екрана, щоб розблокувати.</string>
     <string name="pref_soundeffects_tally_energy_dialog_title">Підрахунок енергії</string>
@@ -1499,11 +1499,9 @@
     <string name="prefScreensaverTimeoutEntries_8">5 хвилин</string>
     <string name="infoMeterModeVibrationsMsg">Вібрація, виміряна за допомогою пристрою. Корисно, коли пристрій тримається закріпленим на транспортному засобі (наприклад, на кермі велосипеда), а не в руці чи кишені.</string>
     <string name="prefScreensaverTimeoutEntries_1">10 секунд</string>
-    <string name="dialogCustomTracksFolderInfoMessage">Ця функція дозволяє програмі читати треки з папки за вашим вибором на додаток до папки треків за замовчуванням, розташування якої нещодавно змінилося.
+    <string name="dialogCustomTracksFolderInfoMessage">Ця функція дозволяє програмі читати треки з вибраної вами папки на додаток до основної папки треків, розташування якої нещодавно змінилося.
 \n
-\nТакі треки доступні лише для читання: їх можна переглядати та ділитися ними, але не можна редагувати, відновлювати чи видаляти.
-\n
-\nЯкщо не впевнені, спробуйте знайти папку «Documents»→«UrbanBiker»→«tracks» на наступному екрані.</string>
+\nТакі треки доступні лише для читання: їх можна переглядати та ділитися ними, але не можна редагувати, відновлювати чи видаляти.</string>
     <string name="prefScreensaverDimBrightnessEntries_0">Мінімум</string>
     <string name="menuReset">Скинути</string>
     <string name="toastScreensaverModeActive">Увімкнений режим заставки</string>
@@ -1613,4 +1611,65 @@
     <string name="controlPanelFlashlight">Ліхтарик</string>
     <string name="dialogRecButtonRemoveTitle">Видалити кнопку „Запис“</string>
     <string name="pref_mapsLayerHeatmap_title">Теплова карта</string>
+    <string name="dataStorageChooseButton">Виберіть місце зберігання даних</string>
+    <string name="prefSteadyScreenImplementationNote">(Усі профілі) Зовнішня реалізація потребує встановлення окремої програми. Натисніть тут, щоб відкрити Play Store.</string>
+    <string name="prefSteadyScreenImplementationTitle">Реалізація</string>
+    <string name="speechUnitThreeFeets">Ноги</string>
+    <string name="dialogMapsMapCountThreeMaps">%1$s карти</string>
+    <string name="speechUnitFourFeets">Ноги</string>
+    <string name="dataStorageStatsTitle">Статистика зберігання</string>
+    <string name="speechUnitThreeMinutes">хвилин</string>
+    <string name="speechUnitFourMinutes">хвилин</string>
+    <string name="dataStorageTransferInfoCount">Переміщено: %1$s з %2$s</string>
+    <string name="pref_category_storage_title">Зберігання</string>
+    <string name="dataStorageTransferInfoStatus">Статус: %1$s</string>
+    <string name="licenseItemOwned">Наразі у власності</string>
+    <string name="inProgress">В процесі</string>
+    <string name="speechUnitThreeMiles">Майлз</string>
+    <string name="dataStorageTransferInfoSpeed">Швидкість: %1$s МБ/с (%2$s елементів/с)</string>
+    <string name="speechUnitFourMeters">Метри</string>
+    <string name="dataStorageInfo1">Рекомендується використовувати спеціальне місце для зберігання ваших треків і даних, щоб запобігти випадковій втраті даних у разі видалення програми та спростити резервне копіювання.</string>
+    <string name="dialogEnterCodeMessage">Введіть код</string>
+    <string name="dataStorageTitle">Зберігання</string>
+    <string name="success">Успіх</string>
+    <string name="dataStorageStatsMessage">%1$s Мб
+\n%2$s предметів</string>
+    <string name="speechUnitFourMiles">Майлз</string>
+    <string name="prefSteadyScreenImplementationInternal">Внутрішній (за замовчуванням)</string>
+    <string name="dialogMapsMapCountManyMaps">%1$s карти</string>
+    <string name="dialogNotificationPermissionRequestTitle">Дозвіл на сповіщення</string>
+    <string name="pref_mapsOfflineFileSummary">Для використання файли карт потрібно скопіювати в папку карт конкретної програми</string>
+    <string name="prefBatteryOptimizationTitle">Оптимізація батареї</string>
+    <string name="dialogNotificationPermissionRequest">Дозвіл потрібен, щоб програма могла показувати поточне сповіщення, коли відстеження активне.</string>
+    <string name="speechUnitFourHours">години</string>
+    <string name="prefSteadyScreenImplementationInternalInfo">Використовуйте нашу власну реалізацію стабілізації екрана. Простіший у використанні, не регулюється.</string>
+    <string name="prefMapShowBuildingsSummary">Показати шар 3D-будівель для карт Google. Вимкніть, щоб покращити продуктивність карти та зменшити використання ресурсів.</string>
+    <string name="prefBatteryOptimizationMessage">Urban Biker можна звільнити від системної оптимізації акумулятора, щоб переконатися, що він продовжить працювати належним чином, коли екран вимкнено на старіших версіях Android. Натисніть тут, щоб відкрити налаштування зараз.</string>
+    <string name="speechUnitFourKilometers">кілометрів</string>
+    <string name="computing">Обчислення…</string>
+    <string name="prefMapsFolderExploreSummary">Керуйте вмістом папки карт конкретної програми за допомогою програми провідника файлів</string>
+    <string name="dataStorageInfo2">Коли ви змінюєте місце зберігання даних, дані попередньої програми буде автоматично перенесено в нове місце. Це відбувається у фоновому режимі та може зайняти деякий час.
+\n
+\nСкасування доступу залишає дані без змін.</string>
+    <string name="dataStorageTransferInfoDuration">Тривалість: %1$s</string>
+    <string name="speechUnitThreeMeters">Метри</string>
+    <string name="prefMapsFolderExploreTitle">Перегляньте папку карт</string>
+    <string name="prefSteadyScreenImplementationExternalInfo">Щоб це працювало, необхідно встановити окрему програму. Регульована.</string>
+    <string name="speechUnitThreeKilometers">кілометрів</string>
+    <string name="speechUnitFourLitersOfGasoline">Літри бензину</string>
+    <string name="dataStorageNotSetMessage">Місце зберігання даних не встановлено, скористайтеся кнопкою вище.
+\n
+\nЗараз програма використовує папку за замовчуванням для треків і даних.</string>
+    <string name="tracksHistoryDataStorageLink">Попередження: програма використовує папку за замовчуванням для треків і даних. Натисніть тут, щоб змінити.</string>
+    <string name="menuDataStorage">Місце зберігання даних</string>
+    <string name="speechUnitThreeLitersOfGasoline">Літри бензину</string>
+    <string name="dataStorageTransferRetrying">Помилка — незабаром буде повторена спроба</string>
+    <string name="prefMapShowBuildingsTitle">Показати будівлі</string>
+    <string name="prefSteadyScreenImplementationExternal">зовнішній</string>
+    <string name="dialogMapsMapCountTwoMaps">%1$s карти</string>
+    <string name="speechUnitThreeHours">години</string>
+    <string name="otherLicenses">Інший</string>
+    <string name="dataStorageTransferInfoTitle">Остання зміна</string>
+    <string name="recommendedLicense">Рекомендовано</string>
+    <string name="dialogMapsMapCountFourMaps">%1$s карти</string>
 </resources>
