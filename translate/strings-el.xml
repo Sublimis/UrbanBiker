@@ -21,7 +21,7 @@
     <string name="buttonUnderstand">Κατανόω</string>
     <string name="buttonResumeTrack">Επαναφορά</string>
     <string name="buttonNewTrack">Τερματισμός</string>
-    <string name="menuControlPanel">Πίνακας Ελέγχου</string>
+    <string name="menuControlPanel">Γρήγορες ρυθμίσεις</string>
     <string name="menuSettings">Ρυθμίσεις</string>
     <string name="menuSummary">Επισκόπηση</string>
     <string name="menuTracksHistory">Ιστορικό</string>
@@ -165,9 +165,9 @@
     <string name="dialogProfileSwitchTitle">Εναλλαγή προφίλ</string>
     <string name="dialogProfileSwitchMessage">Η καταγραφή είναι ενεργή. Θέλετε να μεταβείτε στο προφίλ%1$s;</string>
     <string name="dialogTracksDeleteTitle">Διαγραφή διαδρομών</string>
-    <string name="dialogTracksDeleteMessage">Προειδοποίηση:. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.
+    <string name="dialogTracksDeleteMessage">Προειδοποίηση: Αυτή η ενέργεια δεν μπορεί να αναιρεθεί. Διαγραφή επιλεγμένων κομματιών;
 \n
-\nΝα Διαγραφούν οι επιλεγμένες διαδρομές;</string>
+\nΓια να επιβεβαιώσετε τη διαγραφή, πληκτρολογήστε τον παρακάτω κωδικό για να συνεχίσετε.</string>
     <string name="dialogTrackDeleteMessage">Προειδοποίηση:. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί .
 \n
 \nΝα Διαγραφεί η διαδρομή %1$s;</string>
@@ -850,8 +850,8 @@
     <string name="pref_wakelock_modes_explanation_2">Διατήρηση της CPU ανενεργής κατά τη διάρκεια της ανανέωσης τοποθεσίας. Μπορεί να χρησιμοποιεί λιγότερη μπαταρία, αλλά ίσως να παραλείψει ενημέρωσεις τοποθεσίας σε εξαιρετικές περιπτώσεις.</string>
     <string name="pref_wakelock_modes_explanation_3">Να ακολουθεί την συμπεριφορά που επιβάλλεται από το σύστημα ή/και από άλλες εφαρμογές. Προειδοποίηση: Μπορεί να προκαλέσει πολύ ακανόνιστες ενημερώσεις τοποθεσίας ή απόρριψη τους. Δεν προτείνεται.</string>
     <!-- pref_locationProvider_modes -->
-    <string name="pref_locationProvider_modes_0">Υποσύστημα GPS</string>
-    <string name="pref_locationProvider_modes_1">Υπηρεσία Google Play (Προκαθορισμένο)</string>
+    <string name="pref_locationProvider_modes_0">Υποσύστημα GPS (προεπιλογή)</string>
+    <string name="pref_locationProvider_modes_1">Υπηρεσίες Google Play</string>
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Όλα τα προφίλ) Χρήση υποσυστήματος GPS απευθείας. Σταθερό, λιγότερο περίπλοκο μοντέλο, χωρίς μεσολάβηση. Μπορούν επίσης να χρησιμοποιει λιγότερους πόρους από ό,τι με άλλο πάροχο.</string>
     <string name="pref_locationProvider_modes_explanation_1">(Όλα τα προφίλ) Χρησιμοποίηση \"μικτής\" παροχής των υπηρεσιών Google Play, εάν είναι διαθέσιμη. Θεωρητικά αυτή μπορεί να παρέχει ταχύτερη και πιο ακριβή θέση μερικές φορές.</string>
@@ -1018,23 +1018,28 @@
     <string name="ultimateLicenseDescription">Πιο ισχυρή άδεια για την απόλυτη εμπειρία</string>
     <string name="ultimateLicenseFeatures">✔️ Όλοι οι premium χάρτες
 \n✔️ Πλοήγηση
+\n✔️ Online γραμμή βάσης υψομέτρου
 \n✔️ Χωρίς διαφημίσεις
 \n✔️ Όλες οι δωρεάν δυνατότητες και χάρτες</string>
     <string name="proPlusLicenseFeatures">❌ Premium χάρτες
 \n❌ Πλοήγηση
+\n❌ Online γραμμή βάσης υψομέτρου
 \n✔️ Χωρίς διαφημίσεις
 \n✔️ Όλες οι δωρεάν δυνατότητες και χάρτες
 \n➕ Επιπλέον δωρεά</string>
     <string name="proLicenseFeatures">❌ Premium χάρτες
 \n❌ Πλοήγηση
+\n❌ Online γραμμή βάσης υψομέτρου
 \n✔️ Χωρίς διαφημίσεις
 \n✔️ Όλες οι δωρεάν δυνατότητες και χάρτες</string>
     <string name="thunderforestMapsFeatures">✔️ Premium χάρτες Thunderforest
 \n✔️ Πλοήγηση
+\n✔️ Online γραμμή βάσης υψομέτρου
 \n✔️ Χωρίς διαφημίσεις
 \n✔️ Όλες οι δωρεάν δυνατότητες και χάρτες</string>
     <string name="mapboxMapsFeatures">✔️ Χάρτες Premium Mapbox
 \n✔️ Πλοήγηση
+\n✔️ Online γραμμή βάσης υψομέτρου
 \n✔️ Χωρίς διαφημίσεις
 \n✔️ Όλες οι δωρεάν δυνατότητες και χάρτες</string>
     <string name="priceFree">Δωρεάν</string>
@@ -1063,11 +1068,11 @@
 \nΔεν είναι δυνατό να δημιουργηθεί χειροκίνητη σύνδεση αισθητήρα.</string>
     <string name="sensorWheelCircNotSetWarning">Η περιφέρεια του τροχού δεν έχει ρυθμιστεί</string>
     <string name="infoMeterModeKineticEnergyTitle">Κινητική ενέργεια</string>
-    <string name="infoMeterModeKineticEnergyMsg">Ύψος από το επίπεδο του εδάφους όπου η δυνητική σας ενέργεια θα ισοδυναμούσε με την τρέχουσα κινητική σας ενέργεια.
+    <string name="infoMeterModeKineticEnergyMsg">Το ύψος που θα έφτανες «αφήνοντας» μια μεγάλη πλαγιά χωρίς φρένο.
 \n
-\nΜε άλλα λόγια, η ταχύτητά σας είναι ίση με την ταχύτητα που θα έχετε μετά την πτώση από αυτό το ύψος (χωρίς να λαμβάνεται υπόψη η αντίσταση του αέρα).
+\nΉ, αν χτυπούσατε έναν τοίχο, η δύναμη κρούσης θα ήταν ίδια με την πτώση από αυτό το ύψος.
 \n
-\nΕπίσης, είναι το ύψος που θα αποκτούσατε πηγαίνοντας κατ \'ευθείαν χρησιμοποιώντας το κινητικό σας ενεργειακό περιεχόμενο μόνο.</string>
+\nΑυτός ο αριθμός αυξάνεται στο τετράγωνο της ταχύτητας και είναι χρήσιμος για λόγους ασφαλείας.</string>
     <string name="meterModes_26">Κινητική ενέργεια</string>
     <string name="mapMarkerStart">Εκκίνηση</string>
     <string name="mapMarkerFinish">Τερματισμός</string>
@@ -1229,19 +1234,21 @@
     <string name="infoMeterModeFuncThresholdPowerMsg">Εκτιμώμενη μέγιστη ισχύς που μπορεί να διατηρηθεί για μεγαλύτερες χρονικές περιόδους.
 \n
 \nΗ εκτίμηση εξαρτάται σε μεγάλο βαθμό από τον τύπο και τη διάρκεια αυτής της δραστηριότητας.</string>
-    <string name="infoDigitalFilterNotice">Σημείωση: Αυτό μπορεί να καθυστερήσει από τον πραγματικό χρόνο κατά ένα λεπτό περίπου, λόγω αναπόφευκτων καθυστερήσεων ψηφιακού φιλτραρίσματος.</string>
+    <string name="infoDigitalFilterNotice">Σημείωση: Μερικές φορές αυτό μπορεί να καθυστερήσει αισθητά σε πραγματικό χρόνο, λόγω αναπόφευκτων καθυστερήσεων ψηφιακού φιλτραρίσματος που απαιτούνται για την ακρίβεια.</string>
     <string name="meterModes_29">Προθ. λειτ. ισχύος</string>
     <string name="pref_screenWaveDim_title">Σκοτείνιασμα οθόνη</string>
     <string name="pref_screenWaveDim_summary">Η οθόνη θα σκοτεινιάσει επίσης, για εξοικονόμηση μπαταρίας</string>
     <string name="cloudAccountsPowerUploadPolicyTitle">Πολιτική μεταφόρτωσης δεδομένων ισχύος</string>
     <string name="cloudAccountsPowerUploadPolicy_0">Πάντα (προεπιλογή)</string>
     <string name="cloudAccountsPowerUploadPolicy_1">Ανεβάστε δεδομένα ισχύος μόνο όταν χρησιμοποιήθηκε ο μετρητής ισχύος</string>
-    <string name="hereMapsFeatures">✔️ HERE premium χάρτες
+    <string name="hereMapsFeatures">✔️ ΕΔΩ premium χάρτες
 \n✔️ Πλοήγηση
+\n✔️ Online γραμμή βάσης υψομέτρου
 \n✔️ Χωρίς διαφημίσεις
 \n✔️ Όλες οι δωρεάν δυνατότητες και χάρτες</string>
     <string name="maptilerMapsFeatures">✔️ Χάρτες Premium MapTiler
 \n✔️ Πλοήγηση
+\n✔️ Online γραμμή βάσης υψομέτρου
 \n✔️ Χωρίς διαφημίσεις
 \n✔️ Όλες οι δωρεάν δυνατότητες και χάρτες</string>
     <string name="dialogMapsChooseTitle">Επιλέξτε χάρτη</string>
@@ -1276,7 +1283,7 @@
     <string name="infoMeterModeHumidityTitle">Υγρασία</string>
     <string name="infoMeterModeHumidityMsg">Σχετική υγρασία περιβάλλοντος όπως μετριέται με τη συσκευή ή έναν εξωτερικό αισθητήρα.</string>
     <string name="infoMeterModeRadiusTitle">Ακτίνα κύκλου</string>
-    <string name="infoMeterModeRadiusMsg">Συντομότερη απόσταση από την αρχική θέση της διαδρομής, δηλαδή μετατόπιση.</string>
+    <string name="infoMeterModeRadiusMsg">Απόσταση ευθείας γραμμής από την αρχική θέση, δηλ. μετατόπιση.</string>
     <string name="meterModes_None">Κανένας</string>
     <string name="meterModes_31">Υγρασία</string>
     <string name="speechRadius">Ακτίνα κύκλου: %1$s</string>
@@ -1331,7 +1338,7 @@
     <string name="prefMapDiskCacheAgeTitle">Χρονικό όριο κρυφής μνήμης χάρτη</string>
     <string name="pref_mapsShowAttribution_summary">Εμφάνιση κειμένου απόδοσης για διαδικτυακούς χάρτες εκτός του Google. Απενεργοποιήστε για να αποφύγετε τυχαίο κλικ σε έναν σύνδεσμο.</string>
     <string name="prefActivityRecognitionNoteSummary">Αυτές οι επιλογές βασίζονται στη δυνατότητα αναγνώρισης φυσικής δραστηριότητας του Android. Μπορεί να μην είναι ακριβές και να είναι καθυστερημένο, χρησιμοποιήστε μόνο εάν είστε εντάξει με αυτό. Λειτουργεί καλύτερα όταν χρησιμοποιείται ένας αισθητήρας ταχύτητας για απόσταση και διάρκεια.</string>
-    <string name="prefGnssActivityRecognitionSummary">Αναγνώριση της στάσης έναντι της κίνησης για το GPS. Μπορεί να προκαλέσει καθυστερήσεις και κάποια χαμένη απόσταση μετά από ένα διάλειμμα, αλλά θα αποτρέψει τον περισσότερο θόρυβο GPS.</string>
+    <string name="prefGnssActivityRecognitionSummary">Αναγνωρίστε την στάση σε στάση έναντι της κίνησης για GPS. Αυτό μπορεί να προκαλέσει καθυστέρηση και κάποια απώλεια απόστασης ή υψομέτρου μετά από ένα διάλειμμα, αλλά θα αποτρέψει τον περισσότερο θόρυβο GPS.</string>
     <string name="prefMapDiskCacheAgeEntries_6">60 ημέρες</string>
     <string name="prefMapDiskCacheAgeEntries_0">1 μέρα</string>
     <string name="prefMapDiskCacheAgeEntries_2">10 ημέρες (προεπιλογή)</string>
@@ -1416,11 +1423,9 @@
     <string name="dialogOfflineMapsChooseTitle">Πρόβλημα με χάρτες εκτός σύνδεσης</string>
     <string name="dialogBluetoothPermissionRequestTitle">Άδεια Bluetooth</string>
     <string name="menuChooseFile">Αρχείο</string>
-    <string name="dialogCustomTracksFolderInfoMessage">Αυτή η δυνατότητα επιτρέπει στην εφαρμογή να διαβάζει διαδρομές από έναν φάκελο της επιλογής σας, επιπλέον του προεπιλεγμένου φακέλου κομματιών — του οποίου η τοποθεσία άλλαξε πρόσφατα.
+    <string name="dialogCustomTracksFolderInfoMessage">Αυτή η δυνατότητα επιτρέπει στην εφαρμογή να διαβάζει κομμάτια από έναν φάκελο της επιλογής σας, εκτός από τον κύριο φάκελο κομματιών — η τοποθεσία του οποίου άλλαξε πρόσφατα.
 \n
-\nΤέτοιες διαδρομές είναι μόνο για ανάγνωση: Μπορούν να προβληθούν και να κοινοποιηθούν, αλλά δεν είναι δυνατή η επεξεργασία, η συνέχιση ή η διαγραφή τους.
-\n
-\nΕάν δεν είστε σίγουροι, δοκιμάστε να βρείτε τον φάκελο \"Documents-UrbanBiker-tracks\" στην επόμενη οθόνη.</string>
+\nΤέτοια κομμάτια είναι μόνο για ανάγνωση: Μπορούν να προβληθούν και να κοινοποιηθούν, αλλά δεν είναι δυνατή η επεξεργασία, η συνέχιση ή η διαγραφή τους.</string>
     <string name="dialogOfflineMapsFolderCopyMessage">Το επιλεγμένο αρχείο πρέπει να αντιγραφεί στον φάκελο χαρτών της εφαρμογής για να χρησιμοποιηθεί.
 \n
 \nΣυνέχεια;</string>
@@ -1457,23 +1462,23 @@
     <string name="summaryInaccurateLocationZoneCount">Ζώνες ανακρίβειας</string>
     <string name="pref_meterTitle">Μετρητής</string>
     <string name="dialogLayoutEmptyInfoMessage">Θα πρέπει να υπάρχει τουλάχιστον ένας μετρητής στη διάταξη.</string>
-    <string name="pref_categoryTrackingButtonTitle">Κουμπί ακολουθίας</string>
+    <string name="pref_categoryTrackingButtonTitle">Κουμπί Εγγραφή</string>
     <string name="menuInsertAbove">Επάνω</string>
     <string name="menuProperties">Ιδιότητες…</string>
     <string name="dialogLayoutChooseTitle">Διάταξη οθόνης</string>
     <string name="meterHorizontalWeight">Οριζόντια διάταξη</string>
-    <string name="menuInsertMeter">Εισαγωγή μετρητή</string>
+    <string name="menuInsertMeter">Μετρητής</string>
     <string name="menuSpeedo">Ταχύμετρο</string>
     <string name="menuMeterShowSubValues">Υποτιμές</string>
     <string name="prefTrackingButtonModeTitle">Εναλλακτική συμπεριφορά</string>
     <string name="dialogLayoutChoosePrompt">Η τρέχουσα διάταξη θα αντικατασταθεί.
 \n
 \nΕφαρμογή της επιλεγμένης διάταξης;</string>
-    <string name="prefTrackingButtonModeSummary">Κάντε κλικ ή παρατεταμένο κλικ για Παύση, ξεχωριστό κουμπί για Διακοπή.</string>
+    <string name="prefTrackingButtonModeSummary">(Όλα τα προφίλ) Κάντε κλικ ή κάντε παρατεταμένο κλικ για Παύση, ξεχωριστό κουμπί για Διακοπή.</string>
     <string name="menuInsertBelow">Κάτω</string>
     <string name="menuMeter">Μετρητής</string>
     <string name="dialogLayoutEmptyInfoTitle">Διάταξη</string>
-    <string name="menuInsertSpeedo">Εισαγωγή ταχύμετρου</string>
+    <string name="menuInsertSpeedo">Ταχύμετρο</string>
     <string name="menuInsertLeft">Αριστερά</string>
     <string name="menuMeterShowIcon">Εικονίδιο</string>
     <string name="menuReset">Επαναφορά</string>
@@ -1501,6 +1506,7 @@
     <string name="dialogLayoutChooseSubtitle">Επιλέξτε διάταξη οθόνης</string>
     <string name="freeLicenseFeatures">❌ Premium χάρτες
 \n❌ Πλοήγηση
+\n❌ Online γραμμή βάσης υψομέτρου
 \n❌ Χωρίς διαφημίσεις
 \n✔️ Όλες οι δωρεάν δυνατότητες και χάρτες</string>
     <string name="freeLicenseTitle">Δωρεάν Άδεια</string>
@@ -1519,44 +1525,44 @@
     <string name="pref_soundeffects_navigation_summary">Ήχος στα συμβάντα πλοήγησης</string>
     <string name="pref_speechNavigation_title">Πλοήγηση</string>
     <string name="speechUnitManyLitersOfGasoline">Λίτρα βενζίνης</string>
-    <string name="prefSteadyScreenNote2">Μην περιμένετε θαύματα. Εάν αυτή η δυνατότητα δεν λειτουργεί καλά για εσάς, απλώς απενεργοποιήστε την.</string>
+    <string name="prefSteadyScreenNote2">Αυτό λειτουργεί καλύτερα για πιο αργές κινήσεις, όπως το τηλέφωνο να κουνιέται στο χέρι ενώ περπατάτε, αλλά και στο τιμόνι ενώ οδηγείτε ή στο αυτοκίνητο ενώ οδηγείτε.</string>
     <string name="navigationAvoidFerries">Αποφυγή φέρι μποτ</string>
-    <string name="toastSteadyScreenModeActive">Η SteadyScreen είναι ενεργή</string>
+    <string name="toastSteadyScreenModeActive">Η σταθεροποίηση οθόνης ενεργοποιήθηκε</string>
     <string name="prefSteadyScreenModeOff">Μακριά από</string>
-    <string name="toastSteadyScreenModeIntelligentActive">Έξυπνο ενεργό SteadyScreen</string>
+    <string name="toastSteadyScreenModeIntelligentActive">Ενεργοποιήθηκε η έξυπνη σταθεροποίηση οθόνης</string>
     <string name="speechUnitOneLiterOfGasoline">Λίτρο βενζίνης</string>
-    <string name="prefSteadyScreenModeOnInfo">Διατηρήστε τη λειτουργία SteadyScreen πάντα ενεργή κατά την παρακολούθηση. Αυτό μπορεί να καταναλώσει περισσότερη μπαταρία.</string>
+    <string name="prefSteadyScreenModeOnInfo">Διατηρήστε τη λειτουργία σταθεροποίησης οθόνης πάντα ενεργή κατά την παρακολούθηση. Αυτό μπορεί να καταναλώσει περισσότερη μπαταρία ενώ η οθόνη είναι ενεργοποιημένη.</string>
     <string name="pref_speechNavigation_summary">Εκφώνηση πλοήγησης</string>
     <string name="navigationLoadingData">Φόρτωση οδηγιών…</string>
     <string name="pref_soundeffects_tally_energy_title">Ενέργεια</string>
     <string name="speechEnergy">Ενέργεια: %1$s</string>
-    <string name="prefSteadyScreenModeAuto">Έξυπνο ενεργό (προεπιλογή)</string>
+    <string name="prefSteadyScreenModeAuto">Έξυπνο ενεργοποιημένο (προεπιλογή)</string>
     <string name="mapMarkerClickInfo">Κάντε κλικ για επιλογές</string>
     <string name="navigationContinue">Συνεχίστε</string>
     <string name="navigationAvoidTolls">Αποφυγή διοδίων</string>
-    <string name="toastSteadyScreenModeOff">Το SteadyScreen απενεργοποιήθηκε</string>
+    <string name="toastSteadyScreenModeOff">Η σταθεροποίηση οθόνης απενεργοποιήθηκε</string>
     <string name="dialogLicenseUpgradeButton2">Δείτε το βίντεο προώθησης</string>
     <string name="prefSteadyScreenTitle">Σταθεροποίηση οθόνης</string>
     <string name="navigationLoadFromFilePrompt">Παρουσιάστηκε σφάλμα κατά τη φόρτωση νέων οδηγιών από το Διαδίκτυο.
 \n
 \nΘέλετε να φορτώσετε οδηγίες που χρησιμοποιήθηκαν στο παρελθόν από ένα αρχείο;</string>
-    <string name="prefSteadyScreenModeAutoInfo">Ενεργοποιήστε τη λειτουργία SteadyScreen μόνο σε ανώμαλο έδαφος κατά την παρακολούθηση. Αυτή είναι μια καλή ισορροπία άνεσης και χρήσης μπαταρίας.</string>
+    <string name="prefSteadyScreenModeAutoInfo">Ενεργοποιήστε τη λειτουργία σταθεροποίησης οθόνης μόνο σε ανώμαλο έδαφος κατά την παρακολούθηση. Αυτή είναι μια καλή ισορροπία άνεσης και χρήσης μπαταρίας.</string>
     <string name="menuNavigation">Πλοηγός</string>
     <string name="speechNavigationWrongWay">Λάθος δρόμος</string>
     <string name="speechNavigationDestinationReached">Έχετε φτάσει στον προορισμό</string>
-    <string name="prefSteadyScreenModeOffInfo">Μην ενεργοποιείτε ποτέ τη δυνατότητα SteadyScreen</string>
+    <string name="prefSteadyScreenModeOffInfo">Μην ενεργοποιείτε ποτέ τη δυνατότητα σταθεροποίησης οθόνης</string>
     <string name="pref_soundeffects_tally_energy_dialog_title">Απολογισμός ενέργειας</string>
     <string name="prefGpsBoostNoteSummary">Οι ενημερώσεις τοποθεσίας θα επιβάλλονται πάντα στην υψηλότερη συχνότητα κατά την πλοήγηση</string>
     <string name="prefNoSoundInsideFenceSummary">Μην κάνετε ήχους ενώ βρίσκεστε μέσα σε φράχτη, εκτός από τους συναγερμούς.</string>
     <string name="navigationDestinationReached">Προορισμός</string>
     <string name="speechNavigationGotOffRoute">Έχετε ξεφύγει από τη διαδρομή</string>
     <string name="navigationAvoidMotorways">Αποφυγή αυτοκινητοδρόμων</string>
-    <string name="prefSteadyScreenNote1">Αυτή η λειτουργία σάς βοηθά να βλέπετε την οθόνη λίγο πιο καθαρά ενώ οδηγείτε σε ανώμαλο έδαφος. Η εικόνα στην οθόνη σταθεροποιείται με την εφαρμογή γρήγορων μικρών κινήσεων που προσπαθούν να εξουδετερώσουν το εξωτερικό κούνημα.</string>
+    <string name="prefSteadyScreenNote1">Αυτή η λειτουργία σάς βοηθά να βλέπετε την οθόνη λίγο καθαρά ενώ βρίσκεστε εν κινήσει. Η εικόνα στην οθόνη σταθεροποιείται με την εφαρμογή γρήγορων μικρών κινήσεων που προσπαθούν να εξουδετερώσουν το εξωτερικό κούνημα.</string>
     <string name="speechNavigationContinue">Να συνεχίσει</string>
     <string name="navigationRouteTooLong">Λυπούμαστε, αυτός ο προορισμός είναι πολύ μακριά</string>
     <string name="prefNoSoundInsideFenceTitle">Δεν ακούγονται ήχοι μέσα στο φράχτη</string>
     <string name="mapPlaceSearch">Πού\?</string>
-    <string name="prefSteadyScreenModeOn">Ενεργός</string>
+    <string name="prefSteadyScreenModeOn">Ενεργοποιήθηκε</string>
     <string name="pref_soundeffects_navigation_title">Πλοήγηση</string>
     <string name="toastLocationUnavailable">Η τοποθεσία σας δεν είναι ακόμα διαθέσιμη</string>
     <string name="navigationHidePrompt">Απόκρυψη</string>
@@ -1570,4 +1576,109 @@
 \nΕναλλακτικά, μπορείτε να παρακολουθήσετε ένα σύντομο βίντεο προώθησης για να λάβετε δωρεάν πίστωση.</string>
     <string name="prefOnlineMapsProviderTitle">Διαδικτυακός πάροχος χαρτών</string>
     <string name="navigationGotOffRoute">Εκτός διαδρομής</string>
+    <string name="dataStorageChooseButton">Επιλέξτε τοποθεσία αποθήκευσης δεδομένων</string>
+    <string name="prefSteadyScreenImplementationNote">(Όλα τα προφίλ) Η εξωτερική υλοποίηση απαιτεί την εγκατάσταση ξεχωριστής εφαρμογής. Κάντε κλικ εδώ για να ανοίξετε το Play Store.</string>
+    <string name="prefSteadyScreenImplementationTitle">Εκτέλεση</string>
+    <string name="speechUnitThreeFeets">Πόδια</string>
+    <string name="dialogMapsMapCountThreeMaps">%1$s χάρτες</string>
+    <string name="dialogRecButtonInsertMessage">Αυτό θα εισαγάγει το κουμπί Rec εδώ και θα το αφαιρέσει από τη γραμμή κουμπιών. Να συνεχίσει\?</string>
+    <string name="speechUnitFourFeets">Πόδια</string>
+    <string name="dataStorageStatsTitle">Στατιστικά αποθήκευσης</string>
+    <string name="speechUnitThreeMinutes">Λεπτά</string>
+    <string name="speechUnitFourMinutes">Λεπτά</string>
+    <string name="pref_mapsLayerHeatmap_info">Αυτό μπορεί να σας βοηθήσει να ανακαλύψετε νέα μέρη για να δραστηριοποιηθείτε, ειδικά σε απομακρυσμένες περιοχές.</string>
+    <string name="dataStorageTransferInfoCount">Στοιχεία που μετακινήθηκαν: %1$s από %2$s</string>
+    <string name="menuRemoveRecButton">Κουμπί αφαίρεσης εγγραφής</string>
+    <string name="pref_category_storage_title">Αποθήκευση</string>
+    <string name="dataStorageTransferInfoStatus">Κατάσταση: %1$s</string>
+    <string name="licenseItemOwned">Επί του παρόντος ανήκει</string>
+    <string name="dialogRecButtonRemoveMessage">Αυτό θα επαναφέρει το κουμπί Rec στη γραμμή κουμπιών. Να συνεχίσει\?</string>
+    <string name="inProgress">Σε εξέλιξη</string>
+    <string name="speechUnitThreeMiles">Μίλια</string>
+    <string name="dialogLayoutRemoveEntryMessage">Κατάργηση αυτού του πεδίου;</string>
+    <string name="dataStorageTransferInfoSpeed">Ταχύτητα: %1$s MB/s (%2$s στοιχεία/s)</string>
+    <string name="prefGpsIntervalAdaptiveSummary">Προσαρμόστε αυτόματα το διάστημα ενημέρωσης GPS μεταξύ 1 και 5 δευτερολέπτων, ανάλογα με την ταχύτητα.</string>
+    <string name="speechUnitFourMeters">Μετρητές</string>
+    <string name="dataStorageInfo1">Συνιστάται να χρησιμοποιείτε μια προσαρμοσμένη τοποθεσία αποθήκευσης για τα κομμάτια και τα δεδομένα σας για να αποτρέψετε την τυχαία απώλεια δεδομένων σε περίπτωση απεγκατάστασης της εφαρμογής και για να διευκολύνετε τη δημιουργία αντιγράφων ασφαλείας.</string>
+    <string name="dialogEnterCodeMessage">Εισάγετε τον κωδικό</string>
+    <string name="dataStorageTitle">Αποθήκευση</string>
+    <string name="pref_category_mapsRenderer">Καθιστών</string>
+    <string name="pref_category_onlineElevation_title">Διαδικτυακή ανύψωση</string>
+    <string name="prefOnlineElevationNoteSummary1">Για εξοικονόμηση μπαταρίας και δεδομένων, μόνο ένα υψομετρικό σημείο θα αποκτηθεί από το Διαδίκτυο όταν αρχίσετε να παρακολουθείτε ένα νέο κομμάτι. Αυτό είναι αρκετό για το υπόλοιπο κομμάτι για να έχει μια πιο ακριβή γραμμή βάσης υψομέτρου.</string>
+    <string name="prefGpsIntervalAdaptiveTitle">Προσαρμοστικό</string>
+    <string name="success">Επιτυχία</string>
+    <string name="prefOnlineElevationNoteSummary2">Εάν το Διαδίκτυο ή η άδεια δεν είναι διαθέσιμο, η εφαρμογή θα συνεχίσει να λειτουργεί χωρίς να διορθώσει το υψόμετρο.</string>
+    <string name="dataStorageStatsMessage">%1$s MB
+\n%2$s στοιχεία</string>
+    <string name="prefOnlineElevationTitle">Διαδικτυακή ανύψωση</string>
+    <string name="prefGoogleMapsRenderer_0">Προκαθορισμένο</string>
+    <string name="infoMeterModePowerBalanceTitle">Ισορροπία ισχύος L/R</string>
+    <string name="speechUnitFourMiles">Μίλια</string>
+    <string name="meterModeBatteryShort">batt</string>
+    <string name="prefSteadyScreenImplementationInternal">Εσωτερική (προεπιλογή)</string>
+    <string name="dialogMapsMapCountManyMaps">%1$s χάρτες</string>
+    <string name="dialogNotificationPermissionRequestTitle">Άδεια ειδοποίησης</string>
+    <string name="pref_mapsOfflineFileSummary">Τα αρχεία χάρτη πρέπει να αντιγραφούν στο φάκελο χαρτών για συγκεκριμένη εφαρμογή για να χρησιμοποιηθούν</string>
+    <string name="prefBatteryOptimizationTitle">Βελτιστοποιήσεις μπαταρίας</string>
+    <string name="dialogNotificationPermissionRequest">Απαιτείται άδεια, ώστε η εφαρμογή να μπορεί να εμφανίζει μια συνεχή ειδοποίηση ενώ η παρακολούθηση είναι ενεργή.</string>
+    <string name="prefGoogleMapsRendererSummary">Τρέχον: %1$s</string>
+    <string name="dialogRecButtonInsertTitle">Εισαγωγή κουμπιού Εγγραφή</string>
+    <string name="speechUnitFourHours">Ωρες</string>
+    <string name="prefOnlineElevationNoteSummary3">Αυτό λειτουργεί μόνο εάν είναι διαθέσιμη μια άδεια συνδρομής (τελική άδεια ή μία από τις άδειες χαρτών).</string>
+    <string name="prefSteadyScreenImplementationInternalInfo">Χρησιμοποιήστε τη δική μας εφαρμογή σταθεροποίησης οθόνης. Πιο εύκολο στη χρήση, μη ρυθμιζόμενο.</string>
+    <string name="prefMapShowBuildingsSummary">Εμφάνιση του επιπέδου τρισδιάστατων κτιρίων για τους χάρτες Google. Απενεργοποιήστε για να βελτιώσετε την απόδοση του χάρτη και να μειώσετε τη χρήση πόρων.</string>
+    <string name="prefBatteryOptimizationMessage">Το Urban Biker μπορεί να εξαιρεθεί από τις βελτιστοποιήσεις μπαταρίας συστήματος, για να είναι πιο σίγουρο ότι θα συνεχίσει να λειτουργεί σωστά όταν η οθόνη είναι απενεργοποιημένη σε παλαιότερες εκδόσεις του Android. Κάντε κλικ εδώ για να ανοίξετε τις ρυθμίσεις τώρα.</string>
+    <string name="prefGoogleMapsRenderer_2">Αργότερο</string>
+    <string name="meterModes_10">Ισορροπία δύναμης</string>
+    <string name="prefTrackingButtonFreePlacementTitle">Δωρεάν τοποθέτηση κουμπιού Rec</string>
+    <string name="speechUnitFourKilometers">Χιλιόμετρα</string>
+    <string name="computing">Χρήση υπολογιστή…</string>
+    <string name="prefMapsFolderExploreSummary">Διαχειριστείτε τα περιεχόμενα του φακέλου χαρτών για συγκεκριμένη εφαρμογή με μια εφαρμογή εξερεύνησης αρχείων</string>
+    <string name="dialogMapsAutoZoomSensitivity">Ευαισθησία αυτόματου ζουμ</string>
+    <string name="menuInsertRecButton">Κουμπί Εγγραφή</string>
+    <string name="dataStorageInfo2">Όταν αλλάξετε τη θέση αποθήκευσης δεδομένων, τα δεδομένα της προηγούμενης εφαρμογής θα μεταφερθούν αυτόματα στη νέα τοποθεσία. Αυτό συμβαίνει στο παρασκήνιο και μπορεί να πάρει λίγο χρόνο.
+\n
+\nΗ ανάκληση της πρόσβασης αφήνει τα δεδομένα ανέπαφα.</string>
+    <string name="prefGoogleMapsRendererInfo">Καθορίζει τον τύπο απόδοσης που προτιμάτε να χρησιμοποιήσετε για την εμφάνιση των χαρτών. Το πρόγραμμα απόδοσης παλαιού τύπου μπορεί να χρησιμοποιεί λιγότερους πόρους, ενώ το πιο πρόσφατο έχει συνήθως περισσότερες δυνατότητες ή καλύτερο σχεδιασμό.</string>
+    <string name="dataStorageTransferInfoDuration">Διάρκεια: %1$s</string>
+    <string name="speechUnitThreeMeters">Μετρητές</string>
+    <string name="toastGpsIntervalAdaptiveActive">Το διάστημα προσαρμοστικής ενημέρωσης είναι ενεργό</string>
+    <string name="dialogMapsShowHeatmap">Χάρτης θερμότητας</string>
+    <string name="buttonProceed">Προχωρώ</string>
+    <string name="prefMapsFolderExploreTitle">Εξερευνήστε το φάκελο χαρτών</string>
+    <string name="prefSteadyScreenImplementationExternalInfo">Για να λειτουργήσει αυτό πρέπει να εγκατασταθεί μια ξεχωριστή εφαρμογή. Ευκανόνιστος.</string>
+    <string name="speechUnitThreeKilometers">Χιλιόμετρα</string>
+    <string name="prefGpsIntervalAdaptiveNote">Τα προσαρμοστικά διαστήματα ενημέρωσης μπορούν να βοηθήσουν στη μείωση της κατανάλωσης μπαταρίας όταν κινείστε αργά ή κάνετε συχνά διαλείμματα.</string>
+    <string name="speechUnitFourLitersOfGasoline">Λίτρα βενζίνης</string>
+    <string name="prefOnlineElevationSummary">Χρησιμοποιήστε υψομετρικά δεδομένα από το Διαδίκτυο για να αυξήσετε την ακρίβεια γραμμής βάσης υψομέτρου. Ενεργοποιημένο από προεπιλογή.</string>
+    <string name="pref_mapsFollowAutoZoomSensitivity_info">Μπορείτε να προσαρμόσετε την ευαισθησία του αυτόματου ζουμ εν κινήσει κάνοντας μεγέθυνση ή σμίκρυνση κατά την παρακολούθηση</string>
+    <string name="pref_mapsLayerHeatmap_summary">Εμφάνιση συγκεντρωτικών δημόσιων δραστηριοτήτων κατά το τελευταίο έτος (από το Strava)</string>
+    <string name="dataStorageNotSetMessage">Η τοποθεσία αποθήκευσης δεδομένων δεν έχει οριστεί, χρησιμοποιήστε το παραπάνω κουμπί.
+\n
+\nΗ εφαρμογή χρησιμοποιεί αυτήν τη στιγμή τον προεπιλεγμένο φάκελο για κομμάτια και δεδομένα.</string>
+    <string name="tracksHistoryDataStorageLink">Προειδοποίηση: Η εφαρμογή χρησιμοποιεί τον προεπιλεγμένο φάκελο για κομμάτια και δεδομένα. Κάντε κλικ εδώ για αλλαγή.</string>
+    <string name="menuMeterResume">ΒΙΟΓΡΑΦΙΚΟ</string>
+    <string name="menuDataStorage">Θέση αποθήκευσης δεδομένων</string>
+    <string name="meterModeBattery">μπαταρία</string>
+    <string name="navigationRerouteCmd">Κάντε κλικ για αναδρομολόγηση</string>
+    <string name="infoMeterModeBatteryTitle">Μπαταρία</string>
+    <string name="infoMeterModeBatteryMsg">Επίπεδο μπαταρίας αυτής της συσκευής Android.</string>
+    <string name="speechUnitThreeLitersOfGasoline">Λίτρα βενζίνης</string>
+    <string name="toastAutoBellButtonClickInfo">Κάντε παρατεταμένο κλικ για να αλλάξετε τον ήχο του αυτόματου κουδουνιού</string>
+    <string name="dataStorageTransferRetrying">Αποτυχία — θα προσπαθήσει ξανά σύντομα</string>
+    <string name="prefTrackingButtonFreePlacementSummary">(Όλα τα προφίλ) Επιτρέπει την τοποθέτηση του κουμπιού Εγγραφή οπουδήποτε στη διάταξη. Όταν είναι απενεργοποιημένο, το κουμπί Rec θα στερεωθεί στη γραμμή κουμπιών.</string>
+    <string name="prefGoogleMapsRenderer_1">Κληρονομιά</string>
+    <string name="prefMapShowBuildingsTitle">Εμφάνιση κτιρίων</string>
+    <string name="meterModes_33">Μπαταρία</string>
+    <string name="prefSteadyScreenImplementationExternal">Εξωτερικός</string>
+    <string name="dialogMapsMapCountTwoMaps">%1$s χάρτες</string>
+    <string name="infoMeterModePowerBalanceMsg">Ισοζύγιο ισχύος, που παρουσιάζεται ως κλάσμα των συνεισφορών αριστερά και δεξιά στη συνολική ισχύ εξόδου.</string>
+    <string name="controlPanelFlashlight">Φακός</string>
+    <string name="speechUnitThreeHours">Ωρες</string>
+    <string name="dialogRecButtonRemoveTitle">Κουμπί αφαίρεσης εγγραφής</string>
+    <string name="pref_mapsLayerHeatmap_title">Χάρτης θερμότητας</string>
+    <string name="otherLicenses">Αλλα</string>
+    <string name="dataStorageTransferInfoTitle">Τελευταία αλλαγή</string>
+    <string name="recommendedLicense">Συνιστάται</string>
+    <string name="dialogMapsMapCountFourMaps">%1$s χάρτες</string>
 </resources>
