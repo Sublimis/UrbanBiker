@@ -3,8 +3,8 @@
     <string name="locale">sv</string>
     <string name="app_name">Urban Biker</string>
     <string name="app_description">Spela in och mät dina turer med stor noggrannhet. Förbättra din säkerhet och effektivitet när du cyklar.</string>
-    <string name="widget_1_description">Biker: Bicycle Bell</string>
-    <string name="widget_2_description">Biker: Bell + Flashlight</string>
+    <string name="widget_1_description">Biker: Cykelklocka</string>
+    <string name="widget_2_description">Biker: Bell + ficklampa</string>
     <string name="widget_3_description">Biker: Complete</string>
     <string name="proLicenseLabel">Pro</string>
     <string name="proPlusLicenseLabel">Pro+</string>
@@ -20,12 +20,12 @@
     <string name="cancel">Avbryt</string>
     <string name="buttonResumeTrack">Börja om</string>
     <string name="menuSettings">Inställningar</string>
-    <string name="menuSummary">Sammanfattning</string>
+    <string name="menuSummary">Översikt</string>
     <string name="menuTracksHistory">Historik</string>
     <string name="menuTracksHistoryResume">Återuppta</string>
     <string name="menuMeterLock">Lås</string>
     <string name="menuMeterLockAll">Lås alla</string>
-    <string name="menuMeterMode">Läget Mätare ...</string>
+    <string name="menuMeterMode">Mätarläge</string>
     <string name="menuMeterChooseModes">Välj läge ...</string>
     <string name="menuMeterResetMinMax">Återställ min/max</string>
     <string name="menuMeterParameters">Parametrar…</string>
@@ -78,7 +78,7 @@
     <string name="toastTrackResumeGpsActiveError">Slå av eller pausa GPS:en först!</string>
     <string name="toastContrastButtonClickInfo">Automatiskt visuellt tema är aktivt</string>
     <string name="toastFlashlightButtonClickInfo">Tryck länge för att skifta ficklampan</string>
-    <string name="toastRoarButtonClickInfo">Tryck länge för att skifta ljudet</string>
+    <string name="toastRoarButtonClickInfo">Långklicka för att växla AVAS-ljudet</string>
     <string name="toastMapButtonClickInfo">Tryck länge för att skifta karta</string>
     <string name="toastMapFollowingOn">Följ är på</string>
     <string name="toastMapFollowingAutorotate">Auto-rotera är på</string>
@@ -94,7 +94,7 @@
     <string name="dialog_default_color_dark_title">Mörkt tema</string>
     <string name="dialog_default_color_text">Detta kommer att ladda standardfärgerna. Är du säker\?</string>
     <string name="dialog_volume_bell_text">Ringklocka</string>
-    <string name="dialog_volume_roaring_text">Rytande</string>
+    <string name="dialog_volume_roaring_text">AVAS</string>
     <string name="dialog_volume_effects_text">Effekter</string>
     <string name="dialog_volume_message">OBS: Använd volymknapparna på din enhet för att justera ljudvolymen.</string>
     <string name="dialog_bell_automatic_sensitivity_title">Känslighet för auto-ringklocka</string>
@@ -132,7 +132,7 @@
     <string name="dialogTrackResumeWaitMessage">Återtar, vänta ...</string>
     <string name="dialogTracksShareTitle">Dela spår</string>
     <string name="dialogScreenHudMode">HUD spegelläge</string>
-    <string name="dialogScreenOrientationAuto">Auto-orientering</string>
+    <string name="dialogScreenOrientationAuto">Automatisk</string>
     <string name="dialogScreenOrientationPortrait">Stående</string>
     <string name="dialogScreenOrientationLandscape">Liggande</string>
     <string name="dialogScreenAutoTheme">Auto-tema</string>
@@ -154,7 +154,7 @@
     <string name="dialogPowerWeightsWeightPassengers">Passagerare</string>
     <string name="dialogPowerWeightsWeightWheels">Hjul</string>
     <string name="dialogPowerParamsDragArea">Luftmotståndsyta (Cd·A)</string>
-    <string name="dialogPowerParamsRollResist">Rullmotståndskoeff. (Crr)</string>
+    <string name="dialogPowerParamsRollResist">Rullmotståndskoef. (Cᵣᵣ)</string>
     <string name="dialogEnergyParamsTitle">Energimätare</string>
     <string name="dialogEnergyParamsBmr">Basalförbränning (BMR)</string>
     <string name="dialogFileChooseSelectFolder">Välj denna mapp</string>
@@ -278,7 +278,7 @@
     <string name="pref_category_tracking_title">Spårning</string>
     <string name="pref_category_tracking_gps_title">Spårning/GPS</string>
     <string name="pref_category_bell_title">Ringklocka</string>
-    <string name="pref_category_roaring_title">Rytande</string>
+    <string name="pref_category_roaring_title">AVAS</string>
     <string name="pref_category_roaringConstantMode_title">Konstant läge</string>
     <string name="pref_category_effects_title">Effekter</string>
     <string name="pref_category_alarms_title">Larm</string>
@@ -346,7 +346,7 @@
     <string name="pref_auto_launch_on_gps_summary">Starta appen (i passivt läge) när GPS-aktivitet upptäcks</string>
     <string name="pref_passive_gps_button_summary">Aktivera passivt GPS-läge vid klick på GPS-knappen</string>
     <string name="pref_digital_font_title">Digitalt teckensnitt</string>
-    <string name="pref_roaring_state_summary">Avge varningsljud under körning</string>
+    <string name="pref_roaring_state_summary">Producera AVAS-ljud (Acoustic Vehicle Alerting System) när du rör dig</string>
     <string name="pref_roaring_mode_title">Läge</string>
     <string name="pref_roar_threshold_speed_title">Tröskelläge</string>
     <string name="pref_fenceguard_title">FenceGuard</string>
@@ -420,10 +420,10 @@
     <string name="infoMeterModeDescentTitle">Sänkning</string>
     <string name="infoMeterModeAltitudeTitle">Höjd</string>
     <string name="infoMeterModeSpeedTitle">Hastighet</string>
-    <string name="infoMeterModeSpeedMsg">Hastighet — aktuell, max och snitt.</string>
+    <string name="infoMeterModeSpeedMsg">Momentan tillryggalagd sträcka per tidsenhet.</string>
     <string name="infoMeterModeVerticalSpeedTitle">Vertikal hastighet</string>
     <string name="infoMeterModePaceTitle">Tempo</string>
-    <string name="infoMeterModePaceMsg">Inverterad hastighet — aktuell, max och snitt.</string>
+    <string name="infoMeterModePaceMsg">Invers hastighet, det vill säga tid som förflutit per distansenhet.</string>
     <string name="infoMeterModeAccelerationTitle">Acceleration</string>
     <string name="infoMeterModePowerTitle">Kraft</string>
     <string name="infoMeterModeTemperatureTitle">Temperatur</string>
@@ -501,14 +501,17 @@
     <string name="pref_powermeter_display_mode_entries_1">Watt per kg/lb</string>
     <string name="proLicenseFeatures">❌ Premiumkartor
 \n❌ Navigering
+\n❌ Online höjdbaslinje
 \n✔️ Inga annonser
 \n✔️ Alla gratisfunktioner och kartor</string>
     <string name="freeLicenseFeatures">❌ Premiumkartor
 \n❌ Navigering
+\n❌ Online höjdbaslinje
 \n❌ Inga annonser
 \n✔️ Alla gratisfunktioner och kartor</string>
     <string name="ultimateLicenseFeatures">✔️ Alla premiumkartor
 \n✔️ Navigering
+\n✔️ Online höjdbaslinje
 \n✔️ Inga annonser
 \n✔️ Alla gratisfunktioner och kartor</string>
     <string name="meterModeKineticEnergy">rörelseenergi</string>
@@ -553,7 +556,7 @@
     <string name="dialogMapsWeatherRadar">Nederbördsradar</string>
     <string name="dialogReviewNudgeMessage">Gillar du Urban Biker\?</string>
     <string name="timePeriod_per6Months">per 6 månader</string>
-    <string name="pref_categoryTrackingButtonTitle">Spårningsknapp</string>
+    <string name="pref_categoryTrackingButtonTitle">Rec-knapp</string>
     <string name="sensorProperitesIsAutoStrideLenInfo">Detta kommer att utföra automatiska steglängdsmätningar under löpning eller snabbgång.</string>
     <string name="trackUploadActivityTypes_4">Simma</string>
     <string name="infoMeterModeAltitudeMsg">Höjd över medelhavsytan (geoid).</string>
@@ -597,6 +600,7 @@
     <string name="prefBarometricAltitudeDisableAlert">Inaktivera barometrisk höjd\?</string>
     <string name="mapboxMapsFeatures">✔️ Mapbox premiumkartor
 \n✔️ Navigering
+\n✔️ Online höjdbaslinje
 \n✔️ Inga annonser
 \n✔️ Alla gratisfunktioner och kartor</string>
     <string name="pref_gps_update_freq_entries_2">Standard</string>
@@ -620,15 +624,15 @@
     <string name="toastAutoThemeActivated">Automatiskt visuellt tema aktiverat</string>
     <string name="toastTrackingPaused">Pausad</string>
     <string name="prefMapDiskCacheAgeEntries_5">45 dagar</string>
-    <string name="prefSteadyScreenNote2">Förvänta dig inte mirakel. Om den här funktionen inte fungerar bra för dig, inaktivera den helt enkelt.</string>
+    <string name="prefSteadyScreenNote2">Detta fungerar bäst för långsammare rörelser, som att telefonen svajar i handen när du går, men även på styret när du cyklar eller i en bil när du kör.</string>
     <string name="dialogEnergyParamsEfficiency">Total termisk effektivitet (η)</string>
-    <string name="summaryRollResistCoef">Roll resist coef.</string>
+    <string name="summaryRollResistCoef">Rullmotstånd coef.</string>
     <string name="dialogScreenOrientationReverseLandscape">Landskap (omvänt)</string>
     <string name="pref_screenWaveDim_summary">Displayen kommer också att vara nedtonad för att spara batteri</string>
     <string name="prefScreenPocketModeDelayEntries_4">0,40 sekunder</string>
     <string name="navigationAvoidFerries">Undvik färjor</string>
     <string name="pref_button_roar_show_summary">Visa AVAS-knappen</string>
-    <string name="toastSteadyScreenModeActive">SteadyScreen aktiv</string>
+    <string name="toastSteadyScreenModeActive">Skärmstabilisering aktiverad</string>
     <string name="summaryStoppedTimeInfo">Tid som går åt till paus, antingen manuellt eller när du använder autopausen.</string>
     <string name="dialogLayoutChooseTitle">Layout</string>
     <string name="menuSpeedoPaceIndicator">Tempoindikator</string>
@@ -661,7 +665,7 @@
 \n
 \nTempoindikator är små pilar nära hastighetsvärdet som visar när den aktuella hastigheten är över eller under medelhastigheten.</string>
     <string name="pref_autopause_modes_0">Realtid (standard)</string>
-    <string name="toastSteadyScreenModeIntelligentActive">SteadyScreen intelligent aktiv</string>
+    <string name="toastSteadyScreenModeIntelligentActive">Skärmstabilisering intelligent aktiverad</string>
     <string name="dialogResetMessage">Spara det här spåret och förbered för ett nytt\?</string>
     <string name="prefAppVisualThemeEntries_1">Ljus</string>
     <string name="pref_screensaverTimeout_summary">Tidsperiod utan användarinteraktion tills skärmsläckaren aktiveras.</string>
@@ -671,7 +675,7 @@
     <string name="prefScreensaverTimeoutEntries_4">30 sekunder</string>
     <string name="timePeriod_perWeek">per vecka</string>
     <string name="dialogTrackUploadSending">Sändning…</string>
-    <string name="menuInsertMeter">Sätt i mätare</string>
+    <string name="menuInsertMeter">Meter</string>
     <string name="prefAutoTerrainNote2Summary">Effekter som erhålls med en effektsensor påverkas inte av denna funktion.</string>
     <string name="sensorPurposeHeartRate">Hjärtfrekvens</string>
     <string name="menuMeterShowValue">Värde</string>
@@ -691,7 +695,7 @@
     <string name="subscriptionPer1m">%1$s faktureras en gång i månaden</string>
     <string name="licenseItemAlreadyOwned">Licensobjektet ägs redan</string>
     <string name="menuEdit">Redigera</string>
-    <string name="prefSteadyScreenModeOnInfo">Håll SteadyScreen-funktionen alltid aktiv under spårning. Detta kan förbruka mer batteri.</string>
+    <string name="prefSteadyScreenModeOnInfo">Håll skärmstabiliseringsfunktionen alltid aktiv under spårning. Detta kan förbruka mer batteri medan skärmen är på.</string>
     <string name="dialogScreenOrientationReversePortrait">Porträtt (omvänt)</string>
     <string name="unitIn">i</string>
     <string name="summaryVibrations">Vibrationer</string>
@@ -725,9 +729,9 @@
     <string name="menuSpeedoStallIndicator">Stallindikator</string>
     <string name="dialogTrackUploadStravaIsCommute">Pendla</string>
     <string name="summaryTotalWeight">Totalvikt</string>
-    <string name="dialogTracksDeleteMessage">Varning: Denna åtgärd kan inte ångras.
+    <string name="dialogTracksDeleteMessage">Varning: Denna åtgärd kan inte ångras. Ta bort valda spår\?
 \n
-\nTa bort valda spår\?</string>
+\nFör att bekräfta raderingen, skriv in följande kod för att fortsätta.</string>
     <string name="dialogScreenshotPreparing">Förbereder skärmdump…</string>
     <string name="speechTrackingStop">Sluta</string>
     <string name="sensorPurposeHumidity">Fuktighet</string>
@@ -795,6 +799,7 @@
     <string name="aboutScreenTranslationsTitle">Översättningar</string>
     <string name="hereMapsFeatures">✔️ HÄR premiumkartor
 \n✔️ Navigering
+\n✔️ Online höjdbaslinje
 \n✔️ Inga annonser
 \n✔️ Alla gratisfunktioner och kartor</string>
     <string name="prefActivityRecognitionNoteSummary">Dessa alternativ är beroende av Androids funktion för igenkänning av fysisk aktivitet. Det kanske inte är korrekt och kan vara laggy, använd endast om du är okej med det. Fungerar bäst när en hastighetssensor används för avstånd och varaktighet.</string>
@@ -808,19 +813,19 @@
     <string name="prefScreenPocketModeDelayEntries_0">Ingen fördröjning (standard)</string>
     <string name="pref_wakelock_modes_explanation_0">Beslut automatiskt baserat på GPS-uppdateringsintervall och andra faktorer</string>
     <string name="batteryOptimizationToast">Välj Urban Biker från listan</string>
-    <string name="infoMeterModeRadiusMsg">Beeline-avstånd från spårets initiala position, d.v.s. förskjutning.</string>
-    <string name="prefSteadyScreenModeAuto">Intelligent aktiv (standard)</string>
+    <string name="infoMeterModeRadiusMsg">Rakt avstånd till startplatsen, d.v.s. förskjutning.</string>
+    <string name="prefSteadyScreenModeAuto">Intelligent aktiverat (standard)</string>
     <string name="prefBackKeyModeEntries_0">Vanligt</string>
     <string name="mapMarkerClickInfo">Klicka för alternativ</string>
     <string name="dialogWaitTitle">Vänta</string>
     <string name="controlPanelUnitsButtonTitle">Måttenheter</string>
     <string name="pref_roarConstantModeButton_summary">Växla konstant läge med ett knappklick medan AVAS är på</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">Välj vad du ska göra när du trycker på lagerknappen</string>
-    <string name="infoMeterModeKineticEnergyMsg">Höjd över marknivå där din potentiella energi skulle vara lika med din nuvarande kinetiska energi.
+    <string name="infoMeterModeKineticEnergyMsg">Höjden man skulle nå genom att \"släppa taget\" uppför en lång sluttning utan att bromsa.
 \n
-\nMed andra ord, din hastighet är lika med hastigheten du skulle ha efter att ha fallit från denna höjd (bortsett från luftmotstånd).
+\nEller om du skulle träffa en vägg skulle slagkraften vara densamma som att falla från denna höjd.
 \n
-\nPå samma sätt är det höjden du skulle uppnå genom att gå rakt upp med endast ditt kinetiska energiinnehåll.</string>
+\nDenna siffra ökar med hastigheten i kvadrat och är användbar av säkerhetsskäl.</string>
     <string name="cloudAccountsPowerUploadPolicyTitle">Uppladdningspolicy för strömdata</string>
     <string name="pref_gps_update_freq_entries_13">1 min</string>
     <string name="sensorAddedMsg">Sensor har lagts till i profilen</string>
@@ -828,6 +833,7 @@
     <string name="pref_speechCountdown_summary">Tala nedräkning</string>
     <string name="thunderforestMapsFeatures">✔️ Thunderforest premiumkartor
 \n✔️ Navigering
+\n✔️ Online höjdbaslinje
 \n✔️ Inga annonser
 \n✔️ Alla gratisfunktioner och kartor</string>
     <string name="summaryDragArea">Dra område</string>
@@ -837,11 +843,12 @@
     <string name="summaryClimbingEnergyInfo">Andel av energin som användes för att övervinna gravitationen.</string>
     <string name="proPlusLicenseFeatures">❌ Premiumkartor
 \n❌ Navigering
+\n❌ Online höjdbaslinje
 \n✔️ Inga annonser
 \n✔️ Alla gratisfunktioner och kartor
 \n➕ Extra donation</string>
     <string name="sensorProperitesNoAlarm">Larm inte</string>
-    <string name="prefGnssActivityRecognitionSummary">Känn igen att stå still kontra att röra sig för GPS. Kan orsaka förseningar och en del förlorad distans efter en paus, men kommer att förhindra det mesta GPS-bruset.</string>
+    <string name="prefGnssActivityRecognitionSummary">Känn igen att stå still kontra att röra sig för GPS. Detta kan introducera fördröjning och en viss förlorad distans eller höjd efter en paus, men kommer att förhindra de flesta GPS-brus.</string>
     <string name="pref_category_resetPrompt_title">Återställ prompt</string>
     <string name="pref_maps_fences_draw_summary">Visa FenceGuard-skyddade regioner över kartan</string>
     <string name="sensorMenuAddToProfile">Lägg till i profilen</string>
@@ -858,6 +865,7 @@
     <string name="pref_speechAutoPause_summary">Tala på automatisk paus och återuppta upptäckten</string>
     <string name="maptilerMapsFeatures">✔️ MapTiler premiumkartor
 \n✔️ Navigering
+\n✔️ Online höjdbaslinje
 \n✔️ Inga annonser
 \n✔️ Alla gratisfunktioner och kartor</string>
     <string name="dialogWeatherInfoMessage">Radardata uppdateras var tionde minut. Fylld ikon indikerar färsk data, tom ikon betyder att en uppdatering är nära.
@@ -910,7 +918,7 @@
     <string name="menuChooseFolder">Mapp</string>
     <string name="menuNarrow">Smal</string>
     <string name="speechTrackingPause">Paus</string>
-    <string name="toastSteadyScreenModeOff">SteadyScreen inaktiverad</string>
+    <string name="toastSteadyScreenModeOff">Skärmstabilisering inaktiverad</string>
     <string name="prefTemperatureSensorDerivedSummary">Den här enheten har ingen omgivningstemperatursensor, men grova värden kan härledas med andra interna sensorer (som CPU-temperatur).</string>
     <string name="dialogLicenseUpgradeButton2">Se promovideo</string>
     <string name="meterModes_7">Energi</string>
@@ -919,7 +927,7 @@
     <string name="meterModes_24">Tryck</string>
     <string name="sensorPurposeSpeed">Fart</string>
     <string name="infoMeterModeHeartRateTitle">Hjärtfrekvens</string>
-    <string name="summaryDeviceRestartsCountInfo">Antalet gånger appen tvångsstängdes eller enheten slutade fungera under denna aktivitet.</string>
+    <string name="summaryDeviceRestartsCountInfo">Antalet gånger som appen tvångsstängdes eller enheten slutade fungera under denna aktivitet.</string>
     <string name="pref_maps_offline_terrain_info_title">Ladda ner nu</string>
     <string name="pref_flashlightBlinkMode_dialogTitle">Ficklampan flimrar</string>
     <string name="speechUnitManyMeters">Meter</string>
@@ -929,12 +937,12 @@
 \n
 \nVill du ladda tidigare använda vägbeskrivningar från en fil\?</string>
     <string name="summaryBasalMetabolicRateInfo">Basal metabolisk hastighet (BMR).</string>
-    <string name="trackUploadActivityTypes_2">Promenad</string>
+    <string name="trackUploadActivityTypes_2">Gå</string>
     <string name="meterModeHeartRateShort">hr</string>
     <string name="ongoingNotificationChannelDescription">Ger kontroll över förgrundstjänsten och enkel åtkomst till appen</string>
     <string name="tracksHistoryListEmpty">Inga spår här. Gå ut och spela in en aktivitet!</string>
-    <string name="pref_speechToasts_summary">Säg olika korta infonoteringar</string>
-    <string name="prefSteadyScreenModeAutoInfo">Aktivera SteadyScreen-funktionen endast i ojämn terräng under spårning. Detta är en bra balans mellan komfort och batterianvändning.</string>
+    <string name="pref_speechToasts_summary">Tala olika korta infonoteringar</string>
+    <string name="prefSteadyScreenModeAutoInfo">Aktivera skärmstabiliseringsfunktionen endast i ojämn terräng under spårning. Detta är en bra balans mellan komfort och batterianvändning.</string>
     <string name="pref_roaring_type_entries_0">Freehub</string>
     <string name="sensorProperitesUseForDuration">Använd under varaktighet</string>
     <string name="menuNavigation">Navigera</string>
@@ -947,7 +955,7 @@
     <string name="speechNavigationWrongWay">Fel väg</string>
     <string name="dialogGpsIntervalNote">Håll detta värde under 3 sekunder för att få de mest exakta avläsningarna och konsekvent beteende!</string>
     <string name="dialogLayoutsInfoTitle">Layouter</string>
-    <string name="prefTrackingButtonModeSummary">Klicka eller lång-klicka för Paus, separat knapp för Stopp.</string>
+    <string name="prefTrackingButtonModeSummary">(Alla profiler) Klicka eller lång-klicka för Paus, separat knapp för Stopp.</string>
     <string name="sensorProperitesWheelPerimeter">Hjulets omkrets</string>
     <string name="prefMapDiskCacheSizeEntries_9">3 GB</string>
     <string name="controlPanelScreenshotButtonTitle">Skärmdump</string>
@@ -964,7 +972,7 @@
     <string name="prefMapDiskCacheSizeEntries_10">4 GB</string>
     <string name="sensorFilterInterval_3">10 sekunder</string>
     <string name="pref_category_gps_boost_title">GPS-uppdateringar ökar policyn</string>
-    <string name="infoDigitalFilterNotice">Observera: Detta kan försenas från realtiden med en minut eller så, på grund av oundvikliga digitala filtreringsförseningar.</string>
+    <string name="infoDigitalFilterNotice">Observera: Detta kan ibland släpa märkbart efter realtid, på grund av oundvikliga digitala filtreringsfördröjningar som krävs för noggrannhet.</string>
     <string name="speechUnitOneMinute">Minut</string>
     <string name="menuClear">Klar</string>
     <string name="menuMeter">Meter</string>
@@ -994,7 +1002,7 @@
     <string name="speechNavigationDestinationReached">Du har nått målet</string>
     <string name="menuSendDebugFeedback">Rapportera ett problem</string>
     <string name="toastTrackingStopped">Slutade</string>
-    <string name="prefSteadyScreenModeOffInfo">Aktivera aldrig SteadyScreen-funktionen</string>
+    <string name="prefSteadyScreenModeOffInfo">Aktivera aldrig skärmstabiliseringsfunktionen</string>
     <string name="pref_gps_update_freq_entries_9">15 sek</string>
     <string name="pref_category_mapsQuickZoom">QuickZoom</string>
     <string name="sensorsSectionSupported">Stöds</string>
@@ -1024,7 +1032,7 @@
     <string name="prefBaroAltitudeUsesTemperatureSummary">Använd temperatursensordata för mer exakta barometriska höjder, om tillgängligt</string>
     <string name="dialogResetTitle">Avsluta</string>
     <string name="prefGnssAutomaticSleepSummary">Stäng av plats automatiskt medan du är stilla och slå på igen när rörelsen börjar. Detta minskar batterianvändningen vid längre raster, utan att spårningen behöver stoppas.</string>
-    <string name="pref_screensaverEnable_summary">Dämpa skärmen efter en timeout för att spara batteri. Tryck på displayen för att låsa upp.</string>
+    <string name="pref_screensaverEnable_summary">Dimma displayen efter en timeout för att spara batteri. Tryck på displayen för att låsa upp.</string>
     <string name="meterModeRadiusShort">rad</string>
     <string name="prefMapDiskCacheSizeEntries_0">10 MB</string>
     <string name="pref_soundeffects_tally_energy_dialog_title">Energimätning</string>
@@ -1064,8 +1072,8 @@
     <string name="infoMeterModeHeartRateMsg">Antal hjärtslag per minut.</string>
     <string name="summaryTotalTime">Total tid</string>
     <string name="meterModeCadence">kadens</string>
-    <string name="menuInsertSpeedo">Sätt i hastighetsmätaren</string>
-    <string name="summaryDeviceAutoPauseCount">Autopausräkning</string>
+    <string name="menuInsertSpeedo">Hastighetsmätare</string>
+    <string name="summaryDeviceAutoPauseCount">Automatisk pausräkning</string>
     <string name="unitFeetsAboveGroundLevel">ft agl</string>
     <string name="pref_screensaverEnable_title">Skärmsläckare</string>
     <string name="speechUnitTwoKilometers">Kilometer</string>
@@ -1075,7 +1083,7 @@
     <string name="infoMeterModeGearRatioMsg">Förhållandet mellan hjulvarv och pedalvarv per tidsenhet, d.v.s. förhållandet mellan storlekarna på främre och bakre kedjehjulet. Högre siffra betyder högre växel.</string>
     <string name="meterModeCadenceShort">cad</string>
     <string name="summaryWheelsWeightInfo">Summan av vikten av alla hjul på fordonet som används på denna bana.</string>
-    <string name="summaryCadenceStrokesInfo">Antal pedalslag upptäckt under aktivitet.</string>
+    <string name="summaryCadenceStrokesInfo">Antal pedalslag som upptäckts under aktivitet.</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">Knappväxling</string>
     <string name="menuSpeedoIndicatorMax">Indikator max</string>
     <string name="powerSourceWeight_1">Förare</string>
@@ -1130,8 +1138,8 @@
     <string name="pref_mapsWeatherAnimate_summary">Animera senaste 1 timmes radardata för att hjälpa dig att visualisera nederbördstrenden</string>
     <string name="meterModes_4">Uppstigning</string>
     <string name="trackUploadActivityTypes_7">Skateboard</string>
-    <string name="sensorMenuDelete">Glömma bort</string>
-    <string name="prefSteadyScreenNote1">Den här funktionen hjälper dig att se skärmen lite tydligare när du kör i ojämn terräng. Bilden på skärmen stabiliseras genom att man applicerar snabba små rörelser som försöker motverka yttre skakningar.</string>
+    <string name="sensorMenuDelete">Glömma</string>
+    <string name="prefSteadyScreenNote1">Den här funktionen hjälper dig att se skärmen lite tydligt när du är på språng. Bilden på skärmen stabiliseras genom att man applicerar snabba små rörelser som försöker motverka yttre skakningar.</string>
     <string name="powerSourceWeight_0">Total</string>
     <string name="pref_autopause_modes_2">Av</string>
     <string name="menuMeterShowIcon">Ikon</string>
@@ -1177,11 +1185,9 @@
     <string name="aboutScreenTranslationsText">Hjälp till att översätta den här appen och få en gratis licens! Mer information:</string>
     <string name="infoMeterModeVibrationsMsg">Vibrationer mätt med enheten. Användbar när enheten hålls fäst vid ett fordon (t.ex. på ett cykelstyre), och inte i en hand eller i en ficka.</string>
     <string name="prefScreensaverTimeoutEntries_1">10 sekunder</string>
-    <string name="dialogCustomTracksFolderInfoMessage">Den här funktionen låter appen läsa spår från en valfri mapp, förutom standardmappen för spår - vars plats nyligen har ändrats.
+    <string name="dialogCustomTracksFolderInfoMessage">Den här funktionen låter appen läsa spår från en valfri mapp, förutom huvudspårmappen - vars plats nyligen har ändrats.
 \n
-\nSådana spår är skrivskyddade: De kan ses och delas, men kan inte redigeras, återupptas eller raderas.
-\n
-\nOm du är osäker, försök att hitta mappen \"Documents-UrbanBiker-tracks\" på nästa skärm.</string>
+\nSådana spår är skrivskyddade: De kan ses och delas, men kan inte redigeras, återupptas eller raderas.</string>
     <string name="pref_roarConstantModeButton_title">Knappväxling</string>
     <string name="prefScreensaverDimBrightnessEntries_0">Minimum</string>
     <string name="buttonShow">Show</string>
@@ -1219,7 +1225,7 @@
     <string name="summaryEndedDatetime">Avslutade</string>
     <string name="unitTimeHrMinSec">h:m:s</string>
     <string name="sensorPurposeCadence">Kadens</string>
-    <string name="summaryRollResistCoefAverage">Rullmotstånd coef. medel</string>
+    <string name="summaryRollResistCoefAverage">Roll resist coef. genomsnitt</string>
     <string name="pref_mapsFollowAutoZoomMode_summary">Justera kartans zoomnivå baserat på aktuell hastighet</string>
     <string name="infoMeterModeSlopeTitle">Backe</string>
     <string name="dialogLayoutsInfoMessage">Ändra snabbt visningslayout från en uppsättning fördefinierade layouter.
@@ -1241,10 +1247,10 @@
     <string name="toastSharingPermissionsError">Fel vid inlägg, kontrollera behörigheter</string>
     <string name="speechUnitManyMiles">Miles</string>
     <string name="pref_track_charts_title">Diagramtyper…</string>
-    <string name="pref_locationProvider_modes_1">Google Play-tjänster (standard)</string>
+    <string name="pref_locationProvider_modes_1">Google Play-tjänster</string>
     <string name="meterModes_26">Rörelseenergi</string>
     <string name="dialog_volume_alarms_text">Larm</string>
-    <string name="menuRemove">Ta bort</string>
+    <string name="menuRemove">Avlägsna</string>
     <string name="mapMarkerMyLocation">Min plats</string>
     <string name="aboutScreenFacebookLink">Urban Biker på Facebook</string>
     <string name="infoMeterModeTemperatureMsg">Omgivningstemperatur mätt med enheten eller en extern sensor.</string>
@@ -1259,7 +1265,7 @@
     <string name="pref_track_charts_summary">Välj olika aktivitetsparametrar som ska sparas som diagram med varje spår. Hastighets- och höjddata sparas alltid.</string>
     <string name="infoMeterModeStepCadenceMsg">Antal steg per minut.</string>
     <string name="menuShowTotals">Visa totalsummor</string>
-    <string name="cloudAccountsTitle">konton</string>
+    <string name="cloudAccountsTitle">Konton</string>
     <string name="pref_maps_offline_terrain_usage_summary">Användning: Extrahera .hgt-filer från nedladdade zip(s) och placera dem i samma mapp där offlinekartfilen finns (använd inte separat undermapp).</string>
     <string name="prefScreensaverTimeoutEntries_6">1 minut</string>
     <string name="summaryDeviceAutoPauseCountInfo">Antal gånger automatisk paus aktiverades under denna aktivitet.</string>
@@ -1313,7 +1319,7 @@
     <string name="pref_hud_axis_entries_1">Upp och ner — Mer praktisk enhetshantering</string>
     <string name="meterModes_6">Backe</string>
     <string name="sensorRemovedMsg">Sensor borttagen från profilen</string>
-    <string name="prefSteadyScreenModeOn">Aktiva</string>
+    <string name="prefSteadyScreenModeOn">Aktiverad</string>
     <string name="prefMapDiskCacheSizeEntries_7">1 GB</string>
     <string name="sensorPurposeDuration">Varaktighet</string>
     <string name="prefAutoTerrainSummary">Känn terrängens ojämnhet genom att mäta vibrationer och justera rullmotståndskoefficienten (Cᵣᵣ) i enlighet med detta vid beräkningskraft.</string>
@@ -1344,7 +1350,7 @@
     <string name="menuInsert">Föra in</string>
     <string name="defaultProfileNameScooter">Skoter 🛴</string>
     <string name="pref_soundeffects_tally_steps_dialog_title">Stegen stämmer</string>
-    <string name="pref_category_cloudAccounts_title">konton</string>
+    <string name="pref_category_cloudAccounts_title">Konton</string>
     <string name="sensorStatusConnected">Ansluten</string>
     <string name="cloudAccountsPowerUploadPolicy_0">Alltid (standard)</string>
     <string name="pref_speechTallies_summary">Tala stämmer</string>
@@ -1398,7 +1404,7 @@
 \nDet är inte möjligt att upprätta en sensoranslutning manuellt.</string>
     <string name="pref_soundeffects_proximity_title">Närhetssensor</string>
     <string name="meterModeWriggleShort">vrida</string>
-    <string name="menuControlPanel">Kontrollpanel</string>
+    <string name="menuControlPanel">Snabbinställningar</string>
     <string name="subscriptionPerMonth">%1$s /månad</string>
     <string name="sensorProperitesUseForCadence">Använd för kadens</string>
     <string name="infoMeterModeStepCountMsg">Antal vidtagna steg.</string>
@@ -1423,7 +1429,7 @@
     <string name="menuHideTotals">Dölj summor</string>
     <string name="generalError">Något fel uppstod. Var god försök igen.</string>
     <string name="dialogActivityRecognitionPermissionRequestTitle">Tillstånd för fysisk aktivitet</string>
-    <string name="pref_soundeffects_proximity_summary">Klickljud när närhetssensor utlöses</string>
+    <string name="pref_soundeffects_proximity_summary">Klickljud när närhetssensorn utlöses</string>
     <string name="pref_soundeffects_tally_descent_dialog_title">Nedstigningssiffra</string>
     <string name="speechUnitManyKilometers">Kilometer</string>
     <string name="controlPanelEnergyParams">Kraft/Energiparametrar</string>
@@ -1484,9 +1490,9 @@
     <string name="chartsTitle">Diagram</string>
     <string name="infoMeterModeHumidityTitle">Fuktighet</string>
     <string name="pref_category_sensors_title">Sensorer</string>
-    <string name="dialogStoragePermissionRequest">Appen behöver komma åt lagringen så att den kan spara eller återställa dina spår och inställningar.
+    <string name="dialogStoragePermissionRequest">Appen måste komma åt lagringen så att den kan spara eller återställa dina spår och inställningar.
 \n
-\nUtan att ge tillstånd kanske du inte kan se din spårhistorik, och du kan förlora din data.</string>
+\nUtan att ge tillstånd kanske du inte kan se din spårhistorik och du kan förlora din data.</string>
     <string name="unitPerMille">‰</string>
     <string name="summaryHeartBeatsInfo">Antal hjärtslag som upptäckts under aktivitet.</string>
     <string name="unitGAccel">g</string>
@@ -1511,7 +1517,7 @@
     <string name="sensorProperitesCadenceTriggers">Kadens triggers</string>
     <string name="dialog_defaultConfirmation">Är du säker\?</string>
     <string name="dialogOpenRainviewerText">Öppna www.rainviewer.com webbsida nu\?</string>
-    <string name="pref_locationProvider_modes_0">GPS-delsystem</string>
+    <string name="pref_locationProvider_modes_0">GPS-delsystem (standard)</string>
     <string name="pref_roaring_type_entries_1">Pip</string>
     <string name="sensorProperitesFilterIntervalInfo">Filterintervall, dvs filtrets styrka. Större värden kommer att filtrera mer, men kommer också att introducera mer fördröjning.</string>
     <string name="toastTrackingRecordingPassive">Passiv inspelning</string>
@@ -1545,4 +1551,109 @@
     <string name="toastCancelled">Inställt</string>
     <string name="ongoingNotificationChannelName">Pågående avisering</string>
     <string name="pref_soundeffects_screenOff_summary">Ljud och vibrera när skärmen är nedtonad eller tillfälligt avstängd</string>
+    <string name="dataStorageChooseButton">Välj datalagringsplats</string>
+    <string name="prefSteadyScreenImplementationNote">(Alla profiler) Extern implementering kräver att en separat app installeras. Klicka här för att öppna Play Butik.</string>
+    <string name="prefSteadyScreenImplementationTitle">Genomförande</string>
+    <string name="speechUnitThreeFeets">Fötter</string>
+    <string name="dialogMapsMapCountThreeMaps">%1$s kartor</string>
+    <string name="dialogRecButtonInsertMessage">Detta kommer att infoga Rec-knappen här och ta bort den från knappfältet. Fortsätta\?</string>
+    <string name="speechUnitFourFeets">Fötter</string>
+    <string name="dataStorageStatsTitle">Lagringsstatistik</string>
+    <string name="speechUnitThreeMinutes">Minuter</string>
+    <string name="speechUnitFourMinutes">Minuter</string>
+    <string name="pref_mapsLayerHeatmap_info">Detta kan hjälpa dig att upptäcka nya platser att vara aktiv på, särskilt i avlägsna regioner.</string>
+    <string name="dataStorageTransferInfoCount">Objekt flyttade: %1$s av %2$s</string>
+    <string name="menuRemoveRecButton">Ta bort Rec-knappen</string>
+    <string name="pref_category_storage_title">Lagring</string>
+    <string name="dataStorageTransferInfoStatus">Status: %1$s</string>
+    <string name="licenseItemOwned">Ägs för närvarande</string>
+    <string name="dialogRecButtonRemoveMessage">Detta kommer att placera Rec-knappen tillbaka till knappraden. Fortsätta\?</string>
+    <string name="inProgress">Pågående</string>
+    <string name="speechUnitThreeMiles">Miles</string>
+    <string name="dialogLayoutRemoveEntryMessage">Vill du ta bort det här fältet\?</string>
+    <string name="dataStorageTransferInfoSpeed">Hastighet: %1$s MB/s (%2$s objekt/s)</string>
+    <string name="prefGpsIntervalAdaptiveSummary">Justera automatiskt GPS-uppdateringsintervallet mellan 1 och 5 sekunder, beroende på hastighet.</string>
+    <string name="speechUnitFourMeters">Meter</string>
+    <string name="dataStorageInfo1">Det rekommenderas att använda en anpassad lagringsplats för dina spår och data för att förhindra oavsiktlig dataförlust om appen avinstalleras, och för att göra säkerhetskopiering enklare.</string>
+    <string name="dialogEnterCodeMessage">Ange kod</string>
+    <string name="dataStorageTitle">Lagring</string>
+    <string name="pref_category_mapsRenderer">Renderare</string>
+    <string name="pref_category_onlineElevation_title">Online höjd</string>
+    <string name="prefOnlineElevationNoteSummary1">För att spara batteri och data kommer endast en höjdpunkt att hämtas från Internet när du börjar spåra ett nytt spår. Detta räcker för att resten av banan ska ha en mer exakt höjdbaslinje.</string>
+    <string name="prefGpsIntervalAdaptiveTitle">Adaptiv</string>
+    <string name="success">Framgång</string>
+    <string name="prefOnlineElevationNoteSummary2">Om Internet eller licensen inte är tillgänglig fortsätter appen att fungera utan att höjden korrigeras.</string>
+    <string name="dataStorageStatsMessage">%1$s MB
+\n%2$s föremål</string>
+    <string name="prefOnlineElevationTitle">Online höjd</string>
+    <string name="prefGoogleMapsRenderer_0">Standard</string>
+    <string name="infoMeterModePowerBalanceTitle">Effektbalans L/R</string>
+    <string name="speechUnitFourMiles">Miles</string>
+    <string name="meterModeBatteryShort">batt</string>
+    <string name="prefSteadyScreenImplementationInternal">Internt (standard)</string>
+    <string name="dialogMapsMapCountManyMaps">%1$s kartor</string>
+    <string name="dialogNotificationPermissionRequestTitle">Aviseringstillstånd</string>
+    <string name="pref_mapsOfflineFileSummary">Kartfiler måste kopieras till den appspecifika kartmappen för att kunna användas</string>
+    <string name="prefBatteryOptimizationTitle">Batterioptimeringar</string>
+    <string name="dialogNotificationPermissionRequest">Tillstånd krävs för att appen ska kunna visa ett pågående meddelande medan spårningen är aktiv.</string>
+    <string name="prefGoogleMapsRendererSummary">Aktuell: %1$s</string>
+    <string name="dialogRecButtonInsertTitle">Insert Rec-knapp</string>
+    <string name="speechUnitFourHours">Timmar</string>
+    <string name="prefOnlineElevationNoteSummary3">Detta fungerar bara om en prenumerationslicens är tillgänglig (Ultimate-licens eller en av kartlicenserna).</string>
+    <string name="prefSteadyScreenImplementationInternalInfo">Använd vår egen implementering av skärmstabilisering. Lättare att använda, ej justerbar.</string>
+    <string name="prefMapShowBuildingsSummary">Visa 3D-byggnadslagret för Google maps. Inaktivera för att förbättra kartprestanda och minska resursanvändningen.</string>
+    <string name="prefBatteryOptimizationMessage">Urban Biker kan undantas från systembatterioptimeringar, för att göra det säkrare att det fortsätter att fungera korrekt när skärmen är avstängd på äldre versioner av Android. Klicka här för att öppna inställningarna nu.</string>
+    <string name="prefGoogleMapsRenderer_2">Senast</string>
+    <string name="meterModes_10">Maktbalans</string>
+    <string name="prefTrackingButtonFreePlacementTitle">Gratis placering av Rec-knappen</string>
+    <string name="speechUnitFourKilometers">Kilometer</string>
+    <string name="computing">Datoranvändning…</string>
+    <string name="prefMapsFolderExploreSummary">Hantera innehållet i den appspecifika kartmappen med en filutforskarapp</string>
+    <string name="dialogMapsAutoZoomSensitivity">Autozoomkänslighet</string>
+    <string name="menuInsertRecButton">Rec-knapp</string>
+    <string name="dataStorageInfo2">När du ändrar datalagringsplatsen kommer tidigare appdata att överföras automatiskt till den nya platsen. Detta händer i bakgrunden och kan ta lite tid.
+\n
+\nOm du återkallar åtkomst lämnas uppgifterna intakta.</string>
+    <string name="prefGoogleMapsRendererInfo">Anger vilken renderartyp du föredrar att använda för att visa kartorna. Äldre renderare kan använda färre resurser, medan den senaste vanligtvis har fler funktioner eller en bättre design.</string>
+    <string name="dataStorageTransferInfoDuration">Varaktighet: %1$s</string>
+    <string name="speechUnitThreeMeters">Meter</string>
+    <string name="toastGpsIntervalAdaptiveActive">Adaptivt uppdateringsintervall är aktivt</string>
+    <string name="dialogMapsShowHeatmap">Värmekarta</string>
+    <string name="buttonProceed">Fortsätt</string>
+    <string name="prefMapsFolderExploreTitle">Utforska mappar</string>
+    <string name="prefSteadyScreenImplementationExternalInfo">En separat app måste installeras för att detta ska fungera. Justerbar.</string>
+    <string name="speechUnitThreeKilometers">Kilometer</string>
+    <string name="prefGpsIntervalAdaptiveNote">Adaptiva uppdateringsintervall kan hjälpa till att minska batteriförbrukningen när du rör dig långsamt eller tar täta pauser.</string>
+    <string name="speechUnitFourLitersOfGasoline">Liter bensin</string>
+    <string name="prefOnlineElevationSummary">Använd höjddata från Internet för att öka noggrannheten i höjdnivån. Aktiverad som standard.</string>
+    <string name="pref_mapsFollowAutoZoomSensitivity_info">Du kan justera känsligheten för autozoom i farten genom att zooma in eller ut medan du spårar</string>
+    <string name="pref_mapsLayerHeatmap_summary">Visa aggregerade offentliga aktiviteter under det senaste året (från Strava)</string>
+    <string name="dataStorageNotSetMessage">Datalagringsplatsen är inte inställd, använd knappen ovan.
+\n
+\nAppen använder för närvarande standardmappen för spår och data.</string>
+    <string name="tracksHistoryDataStorageLink">Varning: Appen använder standardmappen för spår och data. Klicka här för att ändra.</string>
+    <string name="menuMeterResume">Återuppta</string>
+    <string name="menuDataStorage">Datalagringsplats</string>
+    <string name="meterModeBattery">batteri</string>
+    <string name="navigationRerouteCmd">Klicka för att omdirigera</string>
+    <string name="infoMeterModeBatteryTitle">Batteri</string>
+    <string name="infoMeterModeBatteryMsg">Batterinivån för denna Android-enhet.</string>
+    <string name="speechUnitThreeLitersOfGasoline">Liter bensin</string>
+    <string name="toastAutoBellButtonClickInfo">Långklicka för att växla det automatiska klockljudet</string>
+    <string name="dataStorageTransferRetrying">Misslyckas – kommer att försöka igen inom kort</string>
+    <string name="prefTrackingButtonFreePlacementSummary">(Alla profiler) Tillåter att Rec-knappen placeras var som helst i layouten. När den är inaktiverad kommer Rec-knappen att vara fixerad på knappraden.</string>
+    <string name="prefGoogleMapsRenderer_1">Arv</string>
+    <string name="prefMapShowBuildingsTitle">Visa byggnader</string>
+    <string name="meterModes_33">Batteri</string>
+    <string name="prefSteadyScreenImplementationExternal">Extern</string>
+    <string name="dialogMapsMapCountTwoMaps">%1$s kartor</string>
+    <string name="infoMeterModePowerBalanceMsg">Effektbalans, presenterad som en bråkdel av vänster och höger bidrag till den totala effektuttaget.</string>
+    <string name="controlPanelFlashlight">Ficklampa</string>
+    <string name="speechUnitThreeHours">Timmar</string>
+    <string name="dialogRecButtonRemoveTitle">Ta bort Rec-knappen</string>
+    <string name="pref_mapsLayerHeatmap_title">Värmekarta</string>
+    <string name="otherLicenses">Övrig</string>
+    <string name="dataStorageTransferInfoTitle">Sista ändring</string>
+    <string name="recommendedLicense">Rekommenderad</string>
+    <string name="dialogMapsMapCountFourMaps">%1$s kartor</string>
 </resources>
