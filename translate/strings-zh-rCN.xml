@@ -25,7 +25,7 @@
     <string name="menuTracksHistoryResume">恢復</string>
     <string name="menuMeterLock">鎖上</string>
     <string name="menuMeterLockAll">鎖上所有</string>
-    <string name="menuMeterMode">儀表模式...</string>
+    <string name="menuMeterMode">仪表模式</string>
     <string name="menuMeterChooseModes">選擇模式...</string>
     <string name="menuMeterResetMinMax">重設 最少/最大</string>
     <string name="menuMeterParameters">參數…</string>
@@ -278,7 +278,7 @@
     <string name="infoMeterModeDistanceMsg">行駛距離。</string>
     <string name="infoMeterModeDurationTitle">持續時間</string>
     <string name="infoMeterModeSpeedTitle">速度</string>
-    <string name="infoMeterModeSpeedMsg">速度 — 當前，最大值和平均值。</string>
+    <string name="infoMeterModeSpeedMsg">单位时间内行进的瞬时距离。</string>
     <string name="infoMeterModeVerticalSpeedTitle">垂直速度</string>
     <string name="infoMeterModeTemperatureTitle">溫度</string>
     <string name="infoMeterModeClockTitle">時鐘</string>
@@ -325,14 +325,18 @@
     <string name="dialog_volume_tallies_text">相符</string>
     <string name="dialog_volume_effects_text">效果</string>
     <string name="proLicenseFeatures">❌ 高级地图
-\n❌导航
-\n✔️没有广告
+\n❌ 导航
+\n❌ 在线海拔基线
+\n✔️ 无广告
 \n✔️ 所有免费功能和地图</string>
     <string name="dialogMapsRenderTerrain">渲染地形</string>
     <string name="menuHelp">幫助 &amp; 支援</string>
     <string name="menuMeterClockShowSeconds">顯示秒數</string>
-    <string name="mapboxMapsFeatures">🔹 Mapbox 地圖
-\n🔹無廣告</string>
+    <string name="mapboxMapsFeatures">✔️ Mapbox 高级地图
+\n✔️ 导航
+\n✔️ 在线海拔基准
+\n✔️ 无广告
+\n✔️ 所有免费功能和地图</string>
     <string name="menuScreenshot">截圖</string>
     <string name="menuSwitchProfile">切換到</string>
     <string name="dialogTrackResumeGpsActiveMessage">追蹤處於活動狀態。 請先關閉或暫停 GPS。</string>
@@ -352,9 +356,9 @@
     <string name="dialogThermoBarometerNoticeTitle">注意</string>
     <string name="toastSensorEnabled">啟用傳感器</string>
     <string name="toastFenceGuardFenceRemoved">圍欄防護:柵欄 %1$s 已移除</string>
-    <string name="dialogTracksDeleteMessage">警告：此操作無法復原。
+    <string name="dialogTracksDeleteMessage">警告：此操作无法撤消。删除选定的曲目？
 \n
-\n刪除所選追蹤？</string>
+\n要确认删除，请输入以下代码继续。</string>
     <string name="dialog_exit_msg">警告：追蹤處於活動狀態，並將停止。</string>
     <string name="dialogTrackResumeProfileSwitchMessage">活動配置文件將從 %1$s 切換到 %2$s。 繼續？</string>
     <string name="licenseSuccessDialogMessage">該應用程序已成功獲得許可。 感謝您的支持！</string>
@@ -366,16 +370,29 @@
     <string name="dialog_volume_message">注意：使用設備上的音量按鈕調節整體音量。</string>
     <string name="rewardedAdDescription">點擊此處先觀看廣告</string>
     <string name="subscriptionPer1w">%1$s 每週計費一次</string>
-    <string name="hereMapsFeatures">🔹這裡有地圖
-\n🔹無廣告</string>
-    <string name="thunderforestMapsFeatures">🔹 雷霆森林地圖
-\n🔹無廣告</string>
-    <string name="proPlusLicenseFeatures">🔹無廣告
-\n🔹額外捐款</string>
+    <string name="hereMapsFeatures">✔️ HERE 高级地图
+\n✔️ 导航
+\n✔️ 在线海拔基线
+\n✔️ 无广告
+\n✔️ 所有免费功能和地图</string>
+    <string name="thunderforestMapsFeatures">✔️ 雷霆森林高级地图
+\n✔️ 导航
+\n✔️ 在线海拔基线
+\n✔️ 无广告
+\n✔️ 所有免费功能和地图</string>
+    <string name="proPlusLicenseFeatures">❌ 高级地图
+\n❌ 导航
+\n❌ 在线海拔基线
+\n✔️ 无广告
+\n✔️ 所有免费功能和地图
+\n➕ 额外捐款</string>
     <string name="dialogTrackResumeProfileMissingMessage">創建此追蹤的配置文件 %1$s 不再存在。 在當前配置文件 %2$s 中恢復？</string>
     <string name="menuRateAndComment">評價我們</string>
-    <string name="maptilerMapsFeatures">🔹 MapTiler 地圖
-\n🔹無廣告</string>
+    <string name="maptilerMapsFeatures">✔️ MapTiler 高级地图
+\n✔️ 导航
+\n✔️ 在线海拔基准
+\n✔️ 无广告
+\n✔️ 所有免费功能和地图</string>
     <string name="dialogBaroAltitudePromptMessage">由於與 GPS 高度不一致，氣壓高度已被強制關閉！
 \n
 \n請不要在封閉或有空調的空間內使用！</string>
@@ -399,7 +416,7 @@
 \n請不要在某些車輛和飛機等封閉或空調空間中使用它。</string>
     <string name="dialog_fenceguard_remove_defaultText">你確定要拆除圍欄嗎？</string>
     <string name="dialog_fenceguard_update_text">圍欄名稱：</string>
-    <string name="ultimateLicenseDescription">最強大的終極體驗許可證。</string>
+    <string name="ultimateLicenseDescription">最强大的许可证，带来极致体验</string>
     <string name="toastContrastButtonClickInfo">自動視覺圖示處於活動狀態</string>
     <string name="dialogResetTitle">完成</string>
     <string name="dialog_fenceguard_update_text2">在您的位置周圍豎起圍欄可防止其暴露在追蹤紀錄中。</string>
@@ -439,8 +456,9 @@
     <string name="toastProfilesListNonemptyDelete">無法刪除 — 配置文件包含一些未保存的資料！ 請先完成。</string>
     <string name="toastUpdatingSuccess">成功更新</string>
     <string name="ultimateLicenseFeatures">✔️ 所有高级地图
-\n✔️导航
-\n✔️没有广告
+\n✔️ 导航
+\n✔️ 在线海拔基线
+\n✔️ 无广告
 \n✔️ 所有免费功能和地图</string>
     <string name="menuSelectMode">選擇</string>
     <string name="dialogMapsAutoZoom">自動縮放</string>
@@ -453,7 +471,7 @@
     <string name="menuRefresh">更新</string>
     <string name="subscriptionPer3m">%1$s 每 3 個月計費一次</string>
     <string name="loading">載入中…</string>
-    <string name="menuControlPanel">控制面板</string>
+    <string name="menuControlPanel">快速设置</string>
     <string name="subscriptionPerMonth">%1$s /月</string>
     <string name="menuCenterOnMap">中心</string>
     <string name="manageSubscriptions">管理訂閱</string>
@@ -480,19 +498,19 @@
     <string name="pref_powermeter_display_mode_dialog_title">電量顯示方式</string>
     <string name="pref_button_contrast_show_title">對比度/地圖層</string>
     <string name="pref_button_contrast_show_summary">顯示對比度/地圖圖層切換按鈕</string>
-    <string name="pref_mapsWeatherAnimate_info">雷達動畫使用的網路資料比靜態雷達圖像多 5 倍。</string>
+    <string name="pref_mapsWeatherAnimate_info">雷达动画可以使用比静态雷达图像多 5 倍的互联网数据。</string>
     <string name="prefMapDiskCacheAgeTitle">地圖緩存年齡限制</string>
     <string name="pref_mapsWeatherPrecipitationRadar_title">降水雷達</string>
     <string name="pref_mapsWeatherPrecipitationRadar_summary">顯示降水雷達圖層</string>
     <string name="prefActivityRecognitionNoteSummary">這些選項依賴於 Android 的身體活動識別功能。 它可能不准確並且可能會滯後，只有在您同意的情況下才使用。 當速度傳感器用於距離和持續時間時，效果最佳。</string>
-    <string name="pref_mapsOfflineLayerButtonActionSummary">（所有配置文件）選擇按下圖層按鈕時要執行的操作</string>
-    <string name="prefGnssActivityRecognitionSummary">識別靜止與移動 GPS。 休息後可能會導致延遲和一些距離損失，但會阻止大多數 GPS 噪音。</string>
-    <string name="prefTemperatureSensorDerivedSummary">該設備缺少環境溫度傳感器，但可以使用其他傳感器導出。 請在幫助中閱讀更多內容。</string>
+    <string name="pref_mapsOfflineLayerButtonActionSummary">选择按下图层按钮时要执行的操作</string>
+    <string name="prefGnssActivityRecognitionSummary">识别 GPS 的静止与移动。这可能会导致延迟以及休息后一些距离或高度的损失，但可以防止大多数 GPS 噪音。</string>
+    <string name="prefTemperatureSensorDerivedSummary">该设备没有环境温度传感器，但可以使用其他内部传感器（例如 CPU 温度）得出粗略值。</string>
     <string name="pref_maps_offline_terrain_info_title">現在下載</string>
     <string name="prefBarometricAltitudeNoteSummary">僅在開放環境中使用這些！ 請在汽車或飛機等加壓、封閉或空調車輛中禁用！</string>
     <string name="prefPressureSensorOffsetInfo">該常數被添加到壓力讀數中，可用於減輕傳感器偏差（如果存在）。</string>
     <string name="pref_speechTallies_title">相符</string>
-    <string name="prefGnssActivityRecognitionTitle">降低位置噪音</string>
+    <string name="prefGnssActivityRecognitionTitle">减少 GPS 噪音</string>
     <string name="prefBaroAltitudeUsesTemperatureSummary">如果可用，使用溫度傳感器數據獲得更準確的氣壓高度</string>
     <string name="prefGnssAutomaticSleepSummary">靜止時自動關閉定位，移動開始時重新開啟。 這減少了長時間休息時的電池使用量，而無需停止追踪。</string>
     <string name="pref_speechMasterSwitch_title">開啟</string>
@@ -504,7 +522,7 @@
     <string name="prefProhibitLocationSummary">在活動期間防止 GPS</string>
     <string name="pref_mapsWeatherAnimate_summary">動畫顯示最近 1 小時的雷達數據，幫助您可視化降水趨勢</string>
     <string name="prefNotificationAlwaysSummary">始終在系統狀態欄中顯示應用程序通知圖示，而不僅僅是在追踪處於活動狀態時。</string>
-    <string name="prefGnssAutomaticSleepTitle">GPS自動休眠</string>
+    <string name="prefGnssAutomaticSleepTitle">GPS自动休眠</string>
     <string name="prefMapGuideRouteColorTitle">引導路線顏色</string>
     <string name="pref_maps_offline_terrain_title">渲染地形</string>
     <string name="pref_maps_offline_terrain_usage_summary">用法：從下載的 zip(s) 中提取 .hgt 文件並將它們放在離線地圖文件所在的同一文件夾中（不要使用單獨的子文件夾）。</string>
@@ -515,8 +533,8 @@
     <string name="pref_mapsWeatherPrecipitationRadar_info">即使使用離線地圖，雷達數據也是從網路下載的。 當地圖可見時，它每 10 分鐘自動刷新一次。 資料來源為 RainViewer.com。</string>
     <string name="pref_maps_quickZoomInvert_summary">交換放大/縮小按鈕位置</string>
     <string name="prefTemperatureSensorDerivedTitle">用戶衍生傳感器</string>
-    <string name="pref_maps_offline_terrain_summary">（所有配置文件）渲染地形高程陰影。 地圖看起來更逼真，但可能會更慢。 需要地圖文件夾中存在 DEM (.hgt) 文件。</string>
-    <string name="prefMapDiskCacheSizeSummary">在在線和離線查看地圖時，部分會在本地緩存，以減少重複下載或重新創建的需要。 這可以加快地圖加載速度並節省電池電量。 （所有配置文件）</string>
+    <string name="pref_maps_offline_terrain_summary">渲染地形高程阴影。地图看起来会更真实，但可能会更慢。需要地图文件夹中存在 DEM (.hgt) 文件。</string>
+    <string name="prefMapDiskCacheSizeSummary">当在线和离线查看地图时，部分内容会在本地缓存，以减少重复下载或重新创建的需要。这可以加快地图加载速度并节省电池电量。</string>
     <string name="prefPressureSensorOffsetTitle">壓力偏移</string>
     <string name="prefNotificationAlwaysTitle">持續通知</string>
     <string name="pref_haptic_feedback_intensity_title">振動強度</string>
@@ -530,7 +548,7 @@
     <string name="pref_category_temperature_title">溫度</string>
     <string name="pref_obey_audio_focus_disable_summary">即使音頻焦點丟失，也繼續發出聲音（通過系統通知或其他應用程序）</string>
     <string name="infoMeterModeAltitudeTitle">高度</string>
-    <string name="pref_resetPrompt_summary">如果上次活動超過 4 小時前或在遠處，則顯示開始新追蹤</string>
+    <string name="pref_resetPrompt_summary">如果上次活动是在 4 小时前或在较远的位置，则提示开始新路线（推荐）</string>
     <string name="pref_soundeffects_tally_altitude_title">高度</string>
     <string name="speechUnitTwoFeets">走路</string>
     <string name="trackUploadActivityTypes_3">健行</string>
@@ -544,7 +562,7 @@
     <string name="summaryVehicleWeight">車重量</string>
     <string name="trackUploadActivityTypes_8">滑雪</string>
     <string name="controlPanelSoundTallies">相符</string>
-    <string name="pref_mapsShowAttribution_summary">（所有配置文件）顯示除 Google 之外的在線地圖的歸屬文本。 禁用以防止意外單擊鏈接。</string>
+    <string name="pref_mapsShowAttribution_summary">显示除 Google 之外的在线地图的归属文本。禁用以防止意外点击链接。</string>
     <string name="infoMeterModeElapsedMsg">行程的持續時間，包括所有暫停但不包括停止。</string>
     <string name="dialogWaitTitle">請稍等</string>
     <string name="pref_units_altitude_entries_1">英制 [英尺]</string>
@@ -568,7 +586,7 @@
     <string name="speechUnitTwoMinutes">分鐘</string>
     <string name="dialogScreenshotTitle">截圖</string>
     <string name="mapMarkerStart">開始</string>
-    <string name="pref_maps_quickZoom_summary">（所有配置文件）在地圖底部啟用隱形快速縮放按鈕，改善您的方向</string>
+    <string name="pref_maps_quickZoom_summary">启用地图底部的隐形快速缩放按钮</string>
     <string name="infoMeterModeDistanceOdoTitle">里程表</string>
     <string name="pref_units_slope_title">坡度</string>
     <string name="trackUploadActivityTypes_7">滑板</string>
@@ -585,7 +603,7 @@
     <string name="powerSourceWeight_2">車輛</string>
     <string name="trackUploadActivityTypes_6">帆船</string>
     <string name="controlPanelMapShowButtonTitle">顯示地圖</string>
-    <string name="pref_maps_animate_summary">（所有配置文件）關閉以減少電池使用量，尤其是在跟隨模式開啟時</string>
+    <string name="pref_maps_animate_summary">关闭以减少电池使用量，尤其是在跟随模式开启时</string>
     <string name="sensorProperitesProfileInfo">傳感器屬性按配置文件進行管理。 此處的屬性僅針對當前活動的配置文件 (%1$s) 進行管理。</string>
     <string name="pref_background_pattern_entries_7">心</string>
     <string name="trackUploadActivityTypes_0">自行車</string>
@@ -597,7 +615,7 @@
     <string name="pref_soundeffects_tally_clock_dialog_title">時鐘</string>
     <string name="mapMarkerFinish">完成</string>
     <string name="sensorProperitesCadenceTriggers">踏頻觸發器</string>
-    <string name="pref_locationProvider_modes_0">GPS子系統</string>
+    <string name="pref_locationProvider_modes_0">GPS 子系统（默认）</string>
     <string name="sensorProperitesFilterIntervalInfo">過濾間隔，即過濾器的強度。 較大的值會過濾更多，但也會引入更多延遲。</string>
     <string name="controlPanelSensorsButtonSubtitle">點擊管理傳感器</string>
     <string name="controlPanelSensorsButtonTitle">傳感器</string>
@@ -606,43 +624,43 @@
     <string name="speechRadius">半径：%1$s</string>
     <string name="pref_resetToDefault">重置为默认</string>
     <string name="unitMillimeter">毫米</string>
-    <string name="pref_screenWaveDim_title">昏暗的显示</string>
-    <string name="pref_category_alarms_title">警报器</string>
-    <string name="pref_maps_routes_info_summary">引导路线只是在地图上绘制的一条线，您可以遵循它。如需分步说明，请使用导航功能。</string>
-    <string name="dialogCloudAccountDisconnectMessage">要取消关联此帐号吗？</string>
+    <string name="pref_screenWaveDim_title">显示暗淡</string>
+    <string name="pref_category_alarms_title">警报</string>
+    <string name="pref_maps_routes_info_summary">引导路线只是在地图上绘制的一条您可以遵循的线。如需分步指导，请使用导航功能。</string>
+    <string name="dialogCloudAccountDisconnectMessage">断开此帐户？</string>
     <string name="infoMeterModeHumidityMsg">使用设备或外部传感器测量的环境相对湿度。</string>
     <string name="pref_category_mapsCache">缓存</string>
     <string name="sensorProperitesUseForTemperature">用于温度</string>
-    <string name="dialogProfileSwitchMessage">跟踪处于活动状态。您确定要切换到配置文件 %1$s 吗？</string>
-    <string name="dialogLayoutEmptyInfoMessage">布局中应该至少有一个米。</string>
+    <string name="dialogProfileSwitchMessage">跟踪已激活。您确定要切换到个人资料 %1$s 吗？</string>
+    <string name="dialogLayoutEmptyInfoMessage">布局中应至少有一米。</string>
     <string name="pref_autopause_modes_1">轻松</string>
     <string name="summaryStartedDatetime">开始</string>
     <string name="pref_category_advanced_title">先进的</string>
     <string name="navigationStopPrompt">停止</string>
     <string name="accountDisconnect">断开</string>
-    <string name="pref_digital_font_summary">（所有配置文件）使用分段数字液晶字体显示里程表数据</string>
+    <string name="pref_digital_font_summary">（所有配置文件）使用分段数字液晶字体进行循环仪数据显示</string>
     <string name="pref_categoryPrivacyTitle">隐私</string>
-    <string name="meterModeGearRatio">传动比</string>
+    <string name="meterModeGearRatio">齿轮比</string>
     <string name="infoSpeedometerTitle">车速表</string>
-    <string name="meterModeFTPowerShort">FTP</string>
-    <string name="prefMapDiskCacheSizeEntries_5">400MB</string>
+    <string name="meterModeFTPowerShort">文件传输协议</string>
+    <string name="prefMapDiskCacheSizeEntries_5">400 MB</string>
     <string name="prefMapDiskCacheAgeEntries_7">90天</string>
     <string name="prefMapDiskCacheSizeEntries_1">50MB</string>
-    <string name="controlPanelUnitsButtonSubtitle">单击以更改单位</string>
+    <string name="controlPanelUnitsButtonSubtitle">点击更改单位</string>
     <string name="aboutScreenChangeLogLink">版本变更日志</string>
-    <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ 取值范围为 0 到 10%，默认为 1%。如果使用 AutoTerrain 功能，请假设平坦地形的基线值（下限），因为应用程序通常会在较崎岖的地形上增加系数。</string>
+    <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ 范围从 0 到 10%，默认为 1%。如果使用自动地形功能，请假设平滑地形的基线值（下限），因为应用程序通常会增加粗糙地形的系数。</string>
     <string name="navigationAvoidIndoor">避免室内</string>
-    <string name="meterModeSpeedAverageShort">平均速度</string>
-    <string name="dialogReviewNudgeMessage">你喜欢 Urban Biker 吗？</string>
+    <string name="meterModeSpeedAverageShort">AV速度</string>
+    <string name="dialogReviewNudgeMessage">您喜欢《城市摩托》吗？</string>
     <string name="timePeriod_per6Months">每 6 个月</string>
-    <string name="pref_categoryTrackingButtonTitle">追踪按钮</string>
+    <string name="pref_categoryTrackingButtonTitle">录制按钮</string>
     <string name="sensorProperitesIsAutoStrideLenInfo">这将在跑步或快走期间执行自动步长测量。</string>
-    <string name="pref_bell_automatic_summary">敲响明显放缓的钟声</string>
-    <string name="infoMeterModeAltitudeMsg">平均海平面以上的高度（大地水准面）。</string>
+    <string name="pref_bell_automatic_summary">敲响警钟显着放缓</string>
+    <string name="infoMeterModeAltitudeMsg">平均海平面（大地水准面）上方的高度。</string>
     <string name="meterModeStepCount">脚步</string>
     <string name="speechTrackingStart">开始</string>
     <string name="pref_soundeffects_navigation_summary">导航事件的声音</string>
-    <string name="menuInsertAbove">以上</string>
+    <string name="menuInsertAbove">多于</string>
     <string name="pref_gps_update_freq_entries_6">4秒</string>
     <string name="sensorProperitesUseForHumidity">用于湿度</string>
     <string name="prefScreensaverDimBrightnessEntries_2">当前亮度的⅓（默认）</string>
@@ -651,90 +669,90 @@
     <string name="menuProperties">特性…</string>
     <string name="sensorFilterInterval_2">7秒</string>
     <string name="meterModeSpeedVertical">垂直速度</string>
-    <string name="infoMeterModeAccelerationTitle">加速度</string>
-    <string name="pref_roaring_constant_mode_summary">始终产生恒定的 AVAS 声音，无论您的运动或 GPS 状态如何</string>
+    <string name="infoMeterModeAccelerationTitle">加速</string>
+    <string name="pref_roaring_constant_mode_summary">无论您的运动或 GPS 状态如何，始终发出恒定的 AVAS 声音</string>
     <string name="sensorProperitesEnableFiltering">数据过滤</string>
-    <string name="pref_autopause_modes_explanation_1">丢弃仅暂停超过 5 分钟</string>
+    <string name="pref_autopause_modes_explanation_1">仅丢弃超过 5 分钟的暂停</string>
     <string name="meterModeTemperatureShort">温度</string>
     <string name="pref_category_maps_weather_title">天气</string>
     <string name="sensorFilterInterval_1">5秒</string>
-    <string name="meterModeElapsedTimeShort">飞逝</string>
-    <string name="unitMilliseconds">小姐</string>
+    <string name="meterModeElapsedTimeShort">埃拉普</string>
+    <string name="unitMilliseconds">多发性硬化症</string>
     <string name="pref_categoryActivityRecognitionTitle">身体活动识别</string>
-    <string name="dialogReviewNudgeMessage2">谢谢！请在 Play 商店给我们写好评或给我们 5 星评分。</string>
+    <string name="dialogReviewNudgeMessage2">谢谢！请在 Play 商店上写一篇好评或给我们评分 5 星。</string>
     <string name="pref_passive_gps_button_summary">单击 GPS 按钮时启用被动 GPS 模式</string>
     <string name="timePeriod_per3Months">每3个月</string>
     <string name="pref_power_weights_summary">司机：%1$s，车辆：%2$s，货物：%3$s，乘客：%4$s，车轮：%5$s</string>
-    <string name="infoMeterModeEfficacyTitle">疗效（累计）</string>
+    <string name="infoMeterModeEfficacyTitle">功效（累计）</string>
     <string name="meterModeSpeedShort">速度</string>
-    <string name="infoMeterModeVerticalSpeedMsg">向上（正）或向下（负）垂直方向的速度。</string>
+    <string name="infoMeterModeVerticalSpeedMsg">垂直向上（正）或向下（负）方向的速度。</string>
     <string name="pref_roaring_state_title">AVAS</string>
-    <string name="meterModeKineticEnergyShort">健恩</string>
+    <string name="meterModeKineticEnergyShort">金恩</string>
     <string name="timePeriod_perYear">每年</string>
     <string name="summaryEfficiency">效率</string>
     <string name="prefBarometricAltitudeDisableAlert">禁用气压高度？</string>
     <string name="pref_gps_update_freq_entries_2">默认</string>
-    <string name="meterModeVerticalPowerShort">v pwr</string>
-    <string name="speechAscent">攀爬：%1$s</string>
+    <string name="meterModeVerticalPowerShort">电压</string>
+    <string name="speechAscent">攀升：%1$s</string>
     <string name="unitTimeHour">H</string>
-    <string name="sensorDeleteConfirmDialogMsg">忘了这个传感器？</string>
+    <string name="sensorDeleteConfirmDialogMsg">忘记这个传感器？</string>
     <string name="menuAutomaticBell">自动铃</string>
     <string name="dialogTrackUploadShareButton">分享</string>
     <string name="meterVerticalWeight">垂直重量</string>
-    <string name="dialogPowerParamsDragArea">空气阻力面积（Cd·A）</string>
+    <string name="dialogPowerParamsDragArea">空气阻力面积(Cd·A)</string>
     <string name="pref_ring_on_stop_title">响铃停止</string>
     <string name="dialogTrackUploadShareAgainButton">再次分享</string>
     <string name="pref_maps_quickZoomInvert_title">倒</string>
-    <string name="speechUnitManyLitersOfGasoline">升汽油</string>
-    <string name="speechTrackingGpsOk">全球定位系统正常</string>
+    <string name="speechUnitManyLitersOfGasoline">汽油升数</string>
+    <string name="speechTrackingGpsOk">GPS 正常</string>
     <string name="prefMapDiskCacheAgeEntries_5">45天</string>
-    <string name="unitKjKg">千焦/千克</string>
-    <string name="prefSteadyScreenNote2">请不要期待奇迹。如果此功能不适合您，只需将其禁用即可。</string>
+    <string name="unitKjKg">千焦/公斤</string>
+    <string name="prefSteadyScreenNote2">这对于较慢的动作最有效，例如走路时手中摇晃的手机，以及骑行时放在车把上或开车时坐在车里。</string>
     <string name="dialogEnergyParamsEfficiency">总热效率（η）</string>
-    <string name="summaryRollResistCoef">滚动阻力系数。</string>
+    <string name="summaryRollResistCoef">滚动阻力系数</string>
     <string name="pref_screenWaveDim_summary">显示屏也会变暗，以节省电池</string>
     <string name="prefScreenPocketModeDelayEntries_4">0.40秒</string>
     <string name="navigationAvoidFerries">避开渡轮</string>
     <string name="unitMeterPerMin">米/分钟</string>
-    <string name="toastSteadyScreenModeActive">SteadyScreen 激活</string>
-    <string name="summaryStoppedTimeInfo">手动或使用自动暂停时暂停所花费的时间。</string>
+    <string name="toastSteadyScreenModeActive">启用屏幕稳定功能</string>
+    <string name="summaryStoppedTimeInfo">暂停所花费的时间（手动暂停或使用自动暂停）。</string>
     <string name="dialogLayoutChooseTitle">布局</string>
-    <string name="menuSpeedoPaceIndicator">配速指示器</string>
+    <string name="menuSpeedoPaceIndicator">步速指示器</string>
     <string name="controlPanelScreenOrientation">屏幕方向</string>
     <string name="dialogLocationPermissionRequestTitle">位置权限</string>
-    <string name="pref_screensaverDimBrightnessDialogTitle">屏保亮度变暗</string>
+    <string name="pref_screensaverDimBrightnessDialogTitle">屏幕保护程序亮度较暗</string>
     <string name="meterModeEnergyShort">烯</string>
     <string name="pref_screenWaveOnOffMode_title">挥手模式</string>
-    <string name="dialogActivityRecognitionPermissionRequest">需要获得许可，应用程序才能使用内置的步进检测器传感器，并在检测到运动时执行其他有用的操作。</string>
+    <string name="dialogActivityRecognitionPermissionRequest">需要获得许可，以便应用程序可以使用内置的步进检测器传感器，并在检测到运动时执行其他有用的操作。</string>
     <string name="meterHorizontalWeight">水平重量</string>
     <string name="dialogBaroAltitudePromptTitle">气压高度问题</string>
     <string name="pref_background_pattern_dialog_title">菜单背景图案</string>
     <string name="pref_category_appearance_title">外貌</string>
     <string name="summaryDragging">拖</string>
-    <string name="pref_audio_force_loudspeaker_summary">警告：实验性的，可能不起作用。尝试在连接耳机时通过扬声器重新路由所有声音，语音通话除外。</string>
+    <string name="pref_audio_force_loudspeaker_summary">警告：实验性的，可能不起作用。连接耳机时，尝试通过扬声器重新路由所有声音（语音通话除外）。</string>
     <string name="sensorProperitesUseForPressure">用于压力</string>
-    <string name="meterModes_18">韵律</string>
+    <string name="meterModes_18">节奏</string>
     <string name="prefSteadyScreenModeOff">离开</string>
     <string name="pref_gps_update_freq_entries_3">1秒</string>
     <string name="pref_roaring_constant_mode_title">恒定模式</string>
     <string name="meterModes_0">期间</string>
-    <string name="meterModeVerticalPower">纵向功率</string>
-    <string name="meterModes_14">平均。速度</string>
+    <string name="meterModeVerticalPower">垂直力量</string>
+    <string name="meterModes_14">平均速度</string>
     <string name="pref_maps_routes_draw_summary">在地图上绘制选定的 GPX 路线</string>
-    <string name="infoSpeedometerMsg">显示您的当前、最大和平均速度。
+    <string name="infoSpeedometerMsg">显示您的当前速度、最大速度和平均速度。
 \n
-\n失速指示器指示速度值何时未更新且不可信。
+\n失速指示器指示速度值一段时间没有更新并且不可信。
 \n
-\n速度指示器是速度值附近的小箭头，显示当前速度何时高于或低于平均速度。</string>
-    <string name="toastSteadyScreenModeIntelligentActive">SteadyScreen智能主动</string>
+\n配速指示器是速度值附近的小箭头，当当前速度高于或低于平均速度时显示。</string>
+    <string name="toastSteadyScreenModeIntelligentActive">屏幕稳定智能启用</string>
     <string name="prefAppVisualThemeEntries_1">光</string>
-    <string name="pref_screensaverTimeout_summary">在激活屏幕保护程序之前没有用户交互的时间段。</string>
+    <string name="pref_screensaverTimeout_summary">激活屏幕保护程序之前没有用户交互的时间段。</string>
     <string name="infoMeterModeAccelerationMsg">速度随时间的变化率。
 \n
 \n负值表示减速。</string>
     <string name="prefScreensaverTimeoutEntries_4">30秒</string>
-    <string name="dialogTrackUploadSending">发送…</string>
-    <string name="menuInsertMeter">插表</string>
+    <string name="dialogTrackUploadSending">正在发送…</string>
+    <string name="menuInsertMeter">仪表</string>
     <string name="prefAutoTerrainNote2Summary">使用功率传感器获得的功率不受此功能的影响。</string>
     <string name="infoMeterModePaceTitle">步伐</string>
     <string name="menuMeterShowValue">价值</string>
@@ -747,34 +765,34 @@
     <string name="pref_units_altitude_entries_0">公制 [米]</string>
     <string name="pref_obey_audio_focus_disable_title">禁用音频焦点</string>
     <string name="pref_wakelock_modes_3">离开</string>
-    <string name="pref_speechProfileName_title">配置文件名称</string>
-    <string name="infoMeterModeFuncThresholdPowerMsg">可维持较长时间的估计最大功率。
+    <string name="pref_speechProfileName_title">个人资料名称</string>
+    <string name="infoMeterModeFuncThresholdPowerMsg">估计可以维持较长时间的最大功率。
 \n
-\n估计值在很大程度上取决于此活动的类型和持续时间。</string>
-    <string name="licenseItemAlreadyOwned">已拥有的许可项</string>
-    <string name="prefSteadyScreenModeOnInfo">在跟踪期间保持 SteadyScreen 功能始终处于活动状态。这可能会消耗更多电池。</string>
+\n估计很大程度上取决于该活动的类型和持续时间。</string>
+    <string name="licenseItemAlreadyOwned">已拥有的许可项目</string>
+    <string name="prefSteadyScreenModeOnInfo">在跟踪过程中保持屏幕稳定功能始终处于活动状态。当屏幕打开时，这可能会消耗更多电池。</string>
     <string name="unitIn">在</string>
-    <string name="summaryVibrations">震动</string>
-    <string name="summaryVehicleWeightInfo">记录此轨迹时使用的车辆重量。</string>
-    <string name="unitNewtonPerKg">牛顿/公斤</string>
-    <string name="disclaimerText1">此应用程序按原样提供，您使用它需要您自担风险。对于您或第三方因在乘车过程中或其他情况下使用应用程序而引起的任何事故、财产损失、伤害或更严重的情况，我们（出版商）概不负责。</string>
+    <string name="summaryVibrations">振动</string>
+    <string name="summaryVehicleWeightInfo">记录该轨迹时使用的车辆重量。</string>
+    <string name="unitNewtonPerKg">牛/公斤</string>
+    <string name="disclaimerText1">该应用程序按原样提供，您使用它的风险由您自行承担。对于因骑行或其他情况下使用应用程序而导致您或第三方涉及的任何事故、财产损失、伤害或更严重的情况，我们（发布者）概不负责。</string>
     <string name="meterModeOdo">里程表</string>
-    <string name="menuRevokeAccess">撤销访问</string>
+    <string name="menuRevokeAccess">撤销访问权限</string>
     <string name="pref_flashlightBlinkModes_1">快速地</string>
     <string name="meterModes_11">垂直。力量</string>
     <string name="pref_speed_calculate_mode_title">重新计算速度</string>
     <string name="timePeriod_perMonth">每月</string>
-    <string name="meterModes_16">经过时间</string>
+    <string name="meterModes_16">已用时间</string>
     <string name="pref_speechNavigation_summary">讲导航</string>
     <string name="menuSpeedoNeedle">针</string>
-    <string name="pref_category_tracking_gps_title">跟踪/全球定位系统</string>
-    <string name="pref_category_altitude_adjustments_title">海拔高度</string>
+    <string name="pref_category_tracking_gps_title">追踪/全球定位系统</string>
+    <string name="pref_category_altitude_adjustments_title">海拔</string>
     <string name="pref_speechGnssStatus_title">全球定位系统</string>
-    <string name="sensorProperitesIsAutoPerimeterInfo">这将在骑行过程中执行自动周长测量。</string>
+    <string name="sensorProperitesIsAutoPerimeterInfo">这将在骑行过程中自动执行周长测量。</string>
     <string name="menuMeterShowChart">图表</string>
     <string name="speechUnitOneMile">英里</string>
-    <string name="sensorProperitesIsInvertedInfo">使用脚踏圈速传感器获取速度读数，反之亦然。通常禁用。</string>
-    <string name="sensorStatusDisconnected">断开连接</string>
+    <string name="sensorProperitesIsInvertedInfo">使用踏频传感器获取速度读数，反之亦然。通常禁用。</string>
+    <string name="sensorStatusDisconnected">已断开连接</string>
     <string name="prefMapDiskCacheSizeEntries_11">5GB</string>
     <string name="prefUnitsPowerEntries_1">[生命值]</string>
     <string name="navigationLoadingData">加载方向…</string>
@@ -786,102 +804,103 @@
     <string name="unitKW">千瓦</string>
     <string name="dialogTrackUploadStravaIsCommute">通勤</string>
     <string name="pref_powermeter_display_mode_entries_0">总功率</string>
-    <string name="prefUnitsPowerEntries_3">[千焦/小时]</string>
-    <string name="unitPetrolLit">升煤气。</string>
+    <string name="prefUnitsPowerEntries_3">[千焦耳/小时]</string>
+    <string name="unitPetrolLit">升气体。</string>
     <string name="summaryTotalWeight">总重量</string>
     <string name="dialogFencesShowFences">显示围栏</string>
-    <string name="dialogScreenshotPreparing">正在准备截图…</string>
+    <string name="dialogScreenshotPreparing">正在准备屏幕截图…</string>
     <string name="pref_units_weight_entries_1">英制 [磅]</string>
     <string name="speechTrackingStop">停止</string>
     <string name="sensorPurposeHumidity">湿度</string>
-    <string name="meterModes_13">加速度</string>
+    <string name="meterModes_13">加速</string>
     <string name="infoMeterModeFuncThresholdPowerTitle">功能阈值功率</string>
     <string name="pref_background_pattern_entries_2">斑马</string>
     <string name="meterTextTotal">总计</string>
     <string name="sensorProperitesUseForPower">用于电源</string>
-    <string name="pref_passive_gps_button_title">被动式GPS按键模式</string>
+    <string name="pref_passive_gps_button_title">被动式 GPS 按钮模式</string>
     <string name="meterModeAltitudeShort">替代</string>
     <string name="speechPromptTrackingResume">继续还是结束？</string>
     <string name="menuMeterShowSubValues">子值</string>
     <string name="menuSelectOther">选择其他</string>
-    <string name="pref_units_distance_entries_1">英制 [ft, mi]</string>
+    <string name="pref_units_distance_entries_1">英制 [英尺，英里]</string>
     <string name="controlPanelMapHideButtonSubtitle">点击隐藏地图</string>
-    <string name="summaryDriverWeight">车手重量</string>
-    <string name="pref_maps_routes_files_dialog_title">选择路线文件夹或文件</string>
+    <string name="summaryDriverWeight">驾驶员重量</string>
+    <string name="pref_maps_routes_files_dialog_title">选择路由文件夹或文件</string>
     <string name="pref_back_key_mode_dialog_title">返回键模式</string>
-    <string name="prefUnitsSlopeEntries_2">每千 [‰]</string>
+    <string name="prefUnitsSlopeEntries_2">每千分之[‰]</string>
     <string name="sensorsSectionUsedInProfile">在配置文件中使用</string>
     <string name="infoMeterModeDescentMsg">累积高度损失（下降）。</string>
-    <string name="summaryDeviceNameInfo">用于录制此曲目的设备。</string>
-    <string name="pref_locationProvider_modes_explanation_1">（所有配置文件）如果可用，请使用 Google Play 服务中的“Fused”提供程序。理论上，这有时可以提供更快、更准确的位置。</string>
+    <string name="summaryDeviceNameInfo">用于录制该曲目的设备。</string>
+    <string name="pref_locationProvider_modes_explanation_1">（所有配置文件）如果可用，请使用 Google Play 服务的“Fused”提供商。理论上，这有时可以提供更快、更准确的位置。</string>
     <string name="sensorPurposeTemperature">温度</string>
-    <string name="meterModeAltitudeDescentShort">数码相机</string>
+    <string name="meterModeAltitudeDescentShort">差示扫描量热法</string>
     <string name="pref_background_pattern_entries_5">鹅卵石</string>
     <string name="speechEnergy">能源：%1$s</string>
-    <string name="meterModes_20">传动比</string>
+    <string name="meterModes_20">齿轮比</string>
     <string name="prefBarometricAltitudeTitle">气压高度</string>
     <string name="menuLicense">升级</string>
     <string name="prefMapDiskCacheSizeEntries_3">200MB</string>
-    <string name="dialogGoogleMapTermsViolation">Google 不允许捕获其地图的内容，因此必须首先将地图类型更改为任何其他类型。
+    <string name="dialogGoogleMapTermsViolation">Google 不允许捕获其地图内容，因此必须首先将地图类型更改为任何其他类型。
 \n
-\n现在更改地图类型？</string>
+\n现在更改地图类型吗？</string>
     <string name="summaryBasalMetabolicRate">基础代谢率</string>
     <string name="freeLicenseFeatures">❌ 高级地图
-\n❌导航
+\n❌ 导航
+\n❌ 在线海拔基线
 \n❌无广告
 \n✔️ 所有免费功能和地图</string>
-    <string name="pref_roaring_state_summary">在您移动时发出声音车辆警报系统 (AVAS) 声音</string>
-    <string name="pref_mapsFollowMode_summary">使地图以您当前的位置为中心</string>
+    <string name="pref_roaring_state_summary">当您移动时发出车辆声学警报系统 (AVAS) 声音</string>
+    <string name="pref_mapsFollowMode_summary">保持地图以您当前位置为中心</string>
     <string name="unitWLb">重量/磅</string>
     <string name="speechClock">时钟：%1$s</string>
     <string name="openSourceLicensesTitle">开源许可证</string>
     <string name="sensorsTabUsed">用过的</string>
     <string name="prefUnitsSlopeEntries_0">百分 [％]</string>
-    <string name="sensorStepDetectorName">计步器</string>
-    <string name="sensorDeletedMsg">遗忘传感器</string>
+    <string name="sensorStepDetectorName">步测器</string>
+    <string name="sensorDeletedMsg">忘记传感器</string>
     <string name="pref_category_maps_offline_terrain_title">地形</string>
-    <string name="prefScreensaverDimBrightnessEntries_1">当前亮度的⅕</string>
+    <string name="prefScreensaverDimBrightnessEntries_1">当前亮度的 1/5</string>
     <string name="summaryAccelerating">加速</string>
     <string name="dialogTrackUploadDescriptionHint">分享你的意见…</string>
-    <string name="summaryLocationIntervalInfo">此轨道上两次位置更新之间的平均时间间隔。</string>
-    <string name="meterModes_22">蠕动</string>
-    <string name="infoMeterModeCadenceMsg">曲柄每分钟的转数，即踩踏速度。</string>
+    <string name="summaryLocationIntervalInfo">该轨道上两次位置更新之间的平均时间间隔。</string>
+    <string name="meterModes_22">蠕虫</string>
+    <string name="infoMeterModeCadenceMsg">每分钟曲柄的转数，即踩踏速率。</string>
     <string name="infoAppUpdateMessage">更新已准备就绪。</string>
     <string name="pref_hud_axis_dialog_title">HUD镜轴</string>
-    <string name="meterModeGearRatioShort">克大鼠</string>
+    <string name="meterModeGearRatioShort">格拉特</string>
     <string name="aboutScreenTranslationsTitle">翻译</string>
-    <string name="prefScreensaverDimBrightnessEntries_3">当前亮度的½</string>
-    <string name="meterModePowerAverageShort">影音功率</string>
-    <string name="pref_gps_update_freq_entries_11">30秒</string>
-    <string name="infoMeterModePaceMsg">逆速度，即每单位距离经过的时间。</string>
-    <string name="meterModeFTPower">英尺压水比</string>
+    <string name="prefScreensaverDimBrightnessEntries_3">当前亮度的 ½</string>
+    <string name="meterModePowerAverageShort">AV 电源</string>
+    <string name="pref_gps_update_freq_entries_11">30 秒</string>
+    <string name="infoMeterModePaceMsg">倒数速度，即每单位距离所经过的时间。</string>
+    <string name="meterModeFTPower">功率因数</string>
     <string name="unitJoulePerLb">焦耳/磅</string>
-    <string name="pref_soundeffects_autopause_summary">声音自动暂停和恢复检测</string>
+    <string name="pref_soundeffects_autopause_summary">自动暂停和恢复检测时发出声音</string>
     <string name="meterModeAltitudeAscent">上升</string>
     <string name="prefScreenPocketModeDelayEntries_0">无延迟（默认）</string>
-    <string name="pref_wakelock_modes_explanation_0">根据 GPS 更新间隔和其他因素自动决定</string>
-    <string name="batteryOptimizationToast">从列表中选择 Urban Biker</string>
-    <string name="infoMeterModeRadiusMsg">直线距轨迹初始位置的距离，即位移。</string>
-    <string name="prefSteadyScreenModeAuto">智能主动（默认）</string>
+    <string name="pref_wakelock_modes_explanation_0">根据GPS更新间隔等因素自动决定</string>
+    <string name="batteryOptimizationToast">从列表中选择城市骑车者</string>
+    <string name="infoMeterModeRadiusMsg">到起始位置的直线距离，即位移。</string>
+    <string name="prefSteadyScreenModeAuto">智能启用（默认）</string>
     <string name="prefBackKeyModeEntries_0">普通的</string>
-    <string name="mapMarkerClickInfo">点击选项</string>
+    <string name="mapMarkerClickInfo">单击查看选项</string>
     <string name="controlPanelUnitsButtonTitle">计量单位</string>
-    <string name="pref_roarConstantModeButton_summary">在 AVAS 打开时单击按钮切换恒定模式</string>
-    <string name="infoMeterModeKineticEnergyMsg">高于地面的高度，您的势能将等于您当前的动能。
+    <string name="pref_roarConstantModeButton_summary">在 AVAS 开启时单击按钮即可切换恒定模式</string>
+    <string name="infoMeterModeKineticEnergyMsg">您在不刹车的情况下“放手”爬上长坡时会达到的高度。
 \n
-\n换句话说，你的速度等于你从这个高度下降后的速度（忽略空气阻力）。
+\n或者，如果您撞到墙上，冲击力将与从这个高度坠落相同。
 \n
-\n同样，它是仅使用您的动能含量直线上升所达到的高度。</string>
+\n这个数字随着速度的平方而增加，对于安全考虑很有用。</string>
     <string name="cloudAccountsPowerUploadPolicyTitle">电力数据上传政策</string>
-    <string name="sensorAddedMsg">传感器添加到配置文件</string>
-    <string name="dialogBluetoothPermissionRequest">需要许可，应用程序才能找到并连接无线传感器。</string>
+    <string name="sensorAddedMsg">传感器已添加到配置文件</string>
+    <string name="dialogBluetoothPermissionRequest">需要获得许可，应用程序才能找到并连接无线传感器。</string>
     <string name="summaryDragArea">拖动区域</string>
     <string name="pref_gps_update_freq_entries_5">3秒</string>
     <string name="prefAppVisualThemeEntries_0">系统默认</string>
     <string name="sensorProperitesUseForSteps">用于步数和节奏</string>
     <string name="summaryClimbingEnergyInfo">用于克服重力的能量百分比。</string>
     <string name="pref_soundeffects_alarm_gpsPause_title">忘记停顿</string>
-    <string name="sensorProperitesNoAlarm">不要报警</string>
+    <string name="sensorProperitesNoAlarm">请勿报警</string>
     <string name="pref_category_resetPrompt_title">重置提示</string>
     <string name="pref_maps_fences_draw_summary">在地图上显示 FenceGuard 保护区</string>
     <string name="sensorMenuAddToProfile">添加到个人资料</string>
@@ -891,82 +910,82 @@
     <string name="meterModes_19">心率</string>
     <string name="pref_soundeffects_countdown_title">倒数</string>
     <string name="sensorProperitesSpeedTriggers">速度触发器</string>
-    <string name="pref_category_locationProvider_title">全球定位系统供应商</string>
+    <string name="pref_category_locationProvider_title">GPS提供商</string>
     <string name="dialogLayoutChoosePrompt">当前布局将被覆盖。
 \n
 \n应用选定的布局？</string>
     <string name="unitMiliW">毫瓦</string>
-    <string name="pref_speed_calculate_mode_summary">（所有配置文件）从距离重新计算速度，不要直接使用 GPS 值。这可以提供比 GPS（多普勒）值更稳定的速度读数。默认为关闭。</string>
+    <string name="pref_speed_calculate_mode_summary">（所有配置文件）根据距离重新计算速度，不直接使用 GPS 值。这可以提供比 GPS（多普勒）值更稳定的速度读数。默认为关闭。</string>
     <string name="meterModePower">力量</string>
-    <string name="pref_speechAutoPause_summary">谈谈自动暂停和恢复检测</string>
-    <string name="dialogWeatherInfoMessage">雷达数据每 10 分钟更新一次。填充图标表示新数据，空图标表示即将更新。
+    <string name="pref_speechAutoPause_summary">谈自动暂停和恢复检测</string>
+    <string name="dialogWeatherInfoMessage">雷达数据每 10 分钟更新一次。实心图标表示新数据，空图标表示即将更新。
 \n
 \n黄色和红色表示降水较多的区域。
 \n
-\n最后 1 小时的雷达数据可以动画显示降水趋势。</string>
-    <string name="unitTimeSecond">秒</string>
+\n最后 1 小时的雷达数据可以通过动画显示降水趋势。</string>
+    <string name="unitTimeSecond">s</string>
     <string name="dialogGpsIntervalLabelLess">▶
-\n准确性较低，使用较少的电池</string>
+\n精度较低，使用的电池较少</string>
     <string name="unitDegree">°</string>
     <string name="dialogLoginUsernameHint">用户名</string>
-    <string name="dialogCopyingMessage">正在复制…</string>
+    <string name="dialogCopyingMessage">复制…</string>
     <string name="navigationContinue">继续</string>
-    <string name="summaryRollResistCoefAverageInfo">平均滚动阻力系数，如果该系数在活动期间发生变化。</string>
-    <string name="dialogOfflineMapsChooseMessage">地图文件未找到或不可访问。现在选择其他地图文件/文件夹？</string>
+    <string name="summaryRollResistCoefAverageInfo">平均滚动阻力系数（如果该系数在活动期间发生变化）。</string>
+    <string name="dialogOfflineMapsChooseMessage">找不到地图文件或无法访问地图文件。现在选择其他地图文件/文件夹吗？</string>
     <string name="disclaimerText3">始终注视道路。</string>
     <string name="meterModes_8">功效</string>
-    <string name="meterModeDurationShort">持续时间</string>
-    <string name="navigationAvoidTolls">避开通行费</string>
-    <string name="pref_hud_axis_entries_0">默认 — 状态栏在其自然位置</string>
-    <string name="meterModeAltitudeSlopeShort">污水</string>
+    <string name="meterModeDurationShort">杜尔</string>
+    <string name="navigationAvoidTolls">避免通行费</string>
+    <string name="pref_hud_axis_entries_0">默认 - 状态栏位于其自然位置</string>
+    <string name="meterModeAltitudeSlopeShort">斜坡</string>
     <string name="meterModeClockShort">时钟</string>
     <string name="prefScreensaverDimBrightnessEntries_4">保持原样</string>
-    <string name="pref_category_wakelock_title">CPU 休眠策略</string>
+    <string name="pref_category_wakelock_title">CPU睡眠策略</string>
     <string name="meterModeWriggle">蠕动</string>
     <string name="sensorsMenuScan">扫描</string>
-    <string name="infoMeterModePowerMsg">活动期间由于阻力、高度变化等而施加的功率。
+    <string name="infoMeterModePowerMsg">由于阻力、海拔变化等原因，在活动期间产生的功率。
 \n
-\n负值表示功率增益，例如下坡或刹车时。
+\n负数表示功率增加，例如下坡或刹车时。
 \n
-\n当以 kcal/h 或 kJ/h 为单位时，它还会考虑效率和 BMR。</string>
+\n以 kcal/h 或 kJ/h 为单位时，还会考虑效率和 BMR。</string>
     <string name="pref_flashlightBlinkModes_0">慢（默认）</string>
     <string name="summaryDeviceRestartsCount">强制重启</string>
     <string name="sensorMenuProperties">特性</string>
     <string name="prefAdModes_1">谷歌</string>
-    <string name="sensorStatusConnecting">正在连接……</string>
-    <string name="pref_flashlightBlinkModeToggleEnable_summary">打开手电筒时，单击按钮即可切换闪烁模式</string>
+    <string name="sensorStatusConnecting">正在连接…</string>
+    <string name="pref_flashlightBlinkModeToggleEnable_summary">手电筒打开时单击按钮即可切换闪烁模式</string>
     <string name="prefScreensaverTimeoutEntries_0">5秒</string>
     <string name="summaryDeviceName">设备</string>
     <string name="powerSourceWeight_3">司机+车辆</string>
     <string name="pref_category_roaring_title">AVAS</string>
-    <string name="pref_gps_update_freq_entries_12">45 秒</string>
+    <string name="pref_gps_update_freq_entries_12">45秒</string>
     <string name="dialogLoginPasswordHint">密码</string>
     <string name="menuChooseFolder">文件夹</string>
-    <string name="menuNarrow">狭窄</string>
+    <string name="menuNarrow">狭窄的</string>
     <string name="pref_digital_font_title">数字字体</string>
     <string name="speechTrackingPause">暂停</string>
-    <string name="toastSteadyScreenModeOff">SteadyScreen 禁用</string>
+    <string name="toastSteadyScreenModeOff">屏幕稳定功能已禁用</string>
     <string name="dialogLicenseUpgradeButton2">观看宣传视频</string>
     <string name="meterModes_7">活力</string>
-    <string name="pref_screenAutoPocketMode_summary">（所有配置文件）使用接近传感器在不需要时关闭显示屏</string>
+    <string name="pref_screenAutoPocketMode_summary">（所有配置文件）使用接近传感器在不需要时保持显示屏关闭</string>
     <string name="speechTrackingResume">去</string>
     <string name="meterModes_24">压力</string>
     <string name="sensorPurposeSpeed">速度</string>
     <string name="infoMeterModeHeartRateTitle">心率</string>
     <string name="speechUnitManyMeters">米</string>
     <string name="prefSteadyScreenTitle">屏幕稳定</string>
-    <string name="navigationLoadFromFilePrompt">从 Internet 加载新路线时出错。
+    <string name="navigationLoadFromFilePrompt">从互联网加载新路线时出错。
 \n
-\n您要从文件中加载以前使用过的说明吗？</string>
-    <string name="summaryBasalMetabolicRateInfo">基础代谢率 (BMR)。</string>
+\n是否要从文件加载以前使用过的路线？</string>
+    <string name="summaryBasalMetabolicRateInfo">基础代谢率（BMR）。</string>
     <string name="meterModeHeartRateShort">小时</string>
     <string name="pref_units_weight_entries_0">公制 [公斤]</string>
     <string name="pref_soundeffects_fence_enterleave_title">栅栏</string>
-    <string name="tracksHistoryListEmpty">这里没有轨道。出去记录活动！</string>
+    <string name="tracksHistoryListEmpty">这里没有踪迹。出去记录一次活动！</string>
     <string name="pref_speechToasts_summary">说出各种简短的信息笔记</string>
-    <string name="prefSteadyScreenModeAutoInfo">仅在跟踪期间在崎岖不平的地形上激活 SteadyScreen 功能。这是舒适度和电池使用的良好平衡。</string>
-    <string name="pref_roaring_type_entries_0">自由轮毂</string>
-    <string name="sensorProperitesUseForDuration">使用时间</string>
+    <string name="prefSteadyScreenModeAutoInfo">仅在跟踪过程中在崎岖不平的地形上激活屏幕稳定功能。这是舒适度和电池使用之间的良好平衡。</string>
+    <string name="pref_roaring_type_entries_0">飞轮</string>
+    <string name="sensorProperitesUseForDuration">使用持续时间</string>
     <string name="menuNavigation">导航</string>
     <string name="pref_category_back_key_title">返回键模式</string>
     <string name="menuCustomTracksFolder">自定义曲目文件夹</string>
@@ -976,46 +995,46 @@
     <string name="speechNavigationWrongWay">错误的方法</string>
     <string name="dialogLayoutsInfoTitle">布局</string>
     <string name="pref_wakelock_modes_1">完全清醒</string>
-    <string name="prefTrackingButtonModeSummary">单击或长按暂停，单独的按钮停止。</string>
-    <string name="sensorProperitesWheelPerimeter">轮周</string>
+    <string name="prefTrackingButtonModeSummary">（所有配置文件）单击或长按用于暂停，单独按钮用于停止。</string>
+    <string name="sensorProperitesWheelPerimeter">车轮周长</string>
     <string name="dialogFencesUpdate">更新围栏位置</string>
     <string name="infoMeterModeAscentTitle">上升</string>
-    <string name="profilesListRowTotalsSince">自以下以来的总数：%1$s</string>
+    <string name="profilesListRowTotalsSince">总计：%1$s</string>
     <string name="prefMapDiskCacheSizeEntries_9">3GB</string>
     <string name="controlPanelScreenshotButtonTitle">截屏</string>
     <string name="meterModeAcceleration">加速度</string>
     <string name="prefAppVisualThemeEntries_2">黑暗的</string>
     <string name="menuInsertBelow">以下</string>
     <string name="sensorProperitesUseForDistance">用于距离和持续时间</string>
-    <string name="dialogFencesAdd">在这里添加围栏</string>
+    <string name="dialogFencesAdd">在此添加围栏</string>
     <string name="unitJoulePerKg">焦耳/公斤</string>
-    <string name="pref_screenWaveOnOffMode_summary">通过在显示屏前挥动两次来应用锁定显示屏。再次挥手解锁。</string>
-    <string name="prefMapDiskCacheAgeEntries_6">60天</string>
+    <string name="pref_screenWaveOnOffMode_summary">在显示屏前面挥动两次即可应用程序锁定显示屏。再次挥手即可解锁。</string>
+    <string name="prefMapDiskCacheAgeEntries_6">60 天</string>
     <string name="prefMapDiskCacheSizeEntries_10">4GB</string>
     <string name="sensorFilterInterval_3">10秒</string>
-    <string name="pref_category_gps_boost_title">GPS更新提升策略</string>
-    <string name="infoDigitalFilterNotice">请注意：由于不可避免的数字过滤延迟，这可能会比实际时间延迟一分钟左右。</string>
+    <string name="pref_category_gps_boost_title">GPS更新推动政策</string>
+    <string name="infoDigitalFilterNotice">请注意：由于准确性不可避免的需要数字滤波延迟，这有时会明显落后于实时。</string>
     <string name="speechUnitOneMinute">分钟</string>
     <string name="menuMeter">仪表</string>
     <string name="prefAllProfilesInfoSummary">此处的首选项适用于所有配置文件。</string>
-    <string name="meterModes_29">金融时报</string>
-    <string name="pref_soundeffects_fence_enterleave_summary">进入或离开栅栏时发出声音</string>
+    <string name="meterModes_29">FT功率</string>
+    <string name="pref_soundeffects_fence_enterleave_summary">进入或离开围栏时发出的声音</string>
     <string name="sensorProperitesActivityRecognition">身体活动识别</string>
-    <string name="pref_fenceguard_title">护栏</string>
+    <string name="pref_fenceguard_title">护栏卫士</string>
     <string name="pref_units_slope_dialog_title">坡度单位</string>
-    <string name="pref_bell_mode_entries_3">哟呼</string>
+    <string name="pref_bell_mode_entries_3">哟吼</string>
     <string name="prefMapDiskCacheAgeEntries_0">1天</string>
     <string name="pref_text_automatic">自动的</string>
-    <string name="unitFtSxS">英尺/平方</string>
-    <string name="meterModeStepCadence">踏频</string>
+    <string name="unitFtSxS">英尺/秒²</string>
+    <string name="meterModeStepCadence">步频</string>
     <string name="dialogLayoutEmptyInfoTitle">布局</string>
-    <string name="pref_powermeter_parameters_info_summary">为获得准确的功率和能量读数，请确保这些参数正确无误！</string>
+    <string name="pref_powermeter_parameters_info_summary">为了获得准确的功率和能量读数，请确保这些参数正确！</string>
     <string name="dialogOfflineMapsChooseTitle">离线地图问题</string>
-    <string name="unitKjH">千焦/小时</string>
-    <string name="pref_mapsWeatherCoverage_summary">遮挡没有降水雷达覆盖的区域</string>
-    <string name="pref_screenAutoPocketModeDelay_summary">这将在接近传感器激活后延迟关闭显示屏</string>
+    <string name="unitKjH">千焦耳/小时</string>
+    <string name="pref_mapsWeatherCoverage_summary">没有降水雷达覆盖的阴影区域</string>
+    <string name="pref_screenAutoPocketModeDelay_summary">这将在接近传感器激活后延迟关闭显示器</string>
     <string name="sensorsEmptyList">空列表</string>
-    <string name="infoMeterModeWriggleTitle">蠕动</string>
+    <string name="infoMeterModeWriggleTitle">蠕虫</string>
     <string name="prefAppVisualThemeSummary">（所有个人资料）</string>
     <string name="prefMapDiskCacheAgeEntries_2">10 天（默认）</string>
     <string name="meterModes_25">里程表</string>
@@ -1024,11 +1043,11 @@
     <string name="pref_roaring_mode_dialog_title">AVAS模式</string>
     <string name="speechNavigationDestinationReached">您已到达目的地</string>
     <string name="menuSendDebugFeedback">报告问题</string>
-    <string name="prefSteadyScreenModeOffInfo">永远不要激活 SteadyScreen 功能</string>
-    <string name="pref_gps_update_freq_entries_9">15 秒</string>
+    <string name="prefSteadyScreenModeOffInfo">切勿激活屏幕稳定功能</string>
+    <string name="pref_gps_update_freq_entries_9">15秒</string>
     <string name="pref_category_mapsQuickZoom">快速缩放</string>
     <string name="sensorsSectionSupported">支持的</string>
-    <string name="pref_soundeffects_tally_altitude_dialog_title">高度计</string>
+    <string name="pref_soundeffects_tally_altitude_dialog_title">海拔高度统计</string>
     <string name="pref_category_power_mode_title">电量显示方式</string>
     <string name="sensorPurposePressure">压力</string>
     <string name="dialogPowerParamsTitle">功率损耗系数</string>
@@ -1037,109 +1056,109 @@
     <string name="sensorProperitesUseForSpeed">用于速度</string>
     <string name="dialogMapsChooseTitle">选择地图</string>
     <string name="prefAutoTerrainTitle">自动地形</string>
-    <string name="pref_category_tallies_title">计数</string>
+    <string name="pref_category_tallies_title">理货</string>
     <string name="pref_soundeffects_tally_radius_dialog_title">半径计数</string>
     <string name="speechUnitTwoMiles">英里</string>
     <string name="meterModeDuration">期间</string>
-    <string name="pref_screensaverEnable_summary">超时后将显示屏调暗，以节省电池电量。触摸显示屏解锁。</string>
-    <string name="meterModeRadiusShort">弧度</string>
-    <string name="prefMapDiskCacheSizeEntries_0">10MB</string>
-    <string name="pref_soundeffects_tally_energy_dialog_title">能量计数</string>
+    <string name="pref_screensaverEnable_summary">超时后显示屏变暗，以节省电池。触摸显示屏即可解锁。</string>
+    <string name="meterModeRadiusShort">拉德</string>
+    <string name="prefMapDiskCacheSizeEntries_0">10 兆</string>
+    <string name="pref_soundeffects_tally_energy_dialog_title">能量统计</string>
     <string name="prefMapDiskCacheAgeEntries_1">5天</string>
     <string name="dialogCameraPermissionRequestTitle">相机权限</string>
-    <string name="pref_duck_roaring_on_bell_title">铃铛上的鸭子 AVAS</string>
+    <string name="pref_duck_roaring_on_bell_title">鸭子 AVAS 响铃</string>
     <string name="dialogBluetoothPermissionRequestTitle">蓝牙权限</string>
-    <string name="prefGpsBoostNoteSummary">在导航期间，位置更新将始终强制为最高频率</string>
-    <string name="freeLicenseTitle">免费许可</string>
+    <string name="prefGpsBoostNoteSummary">导航期间位置更新将始终强制以最高频率</string>
+    <string name="freeLicenseTitle">免费许可证</string>
     <string name="pref_energy_params_summary">效率：%1$s
 \n新陈代谢：%2$s</string>
     <string name="prefUnitsSlopeEntries_1">度数 [°]</string>
     <string name="prefMapDiskCacheAgeEntries_3">15天</string>
-    <string name="pref_mapsFollowAutorotateMode_summary">保持行进方向向上</string>
+    <string name="pref_mapsFollowAutorotateMode_summary">保持行驶方向朝上</string>
     <string name="meterModeAltitudeAscentShort">升序</string>
     <string name="meterModeHeartRate">心率</string>
-    <string name="prefNoSoundInsideFenceSummary">请勿在围栏内发出声音，警报除外。</string>
-    <string name="dialog_fenceguard_update_entries_1">移除围栏</string>
-    <string name="summaryStoppedTime">停止的时间</string>
+    <string name="prefNoSoundInsideFenceSummary">在围栏内时不要发出声音，警报除外。</string>
+    <string name="dialog_fenceguard_update_entries_1">拆除围栏</string>
+    <string name="summaryStoppedTime">停止时间</string>
     <string name="dialogMeterModesTitle">选择可用模式</string>
     <string name="pref_units_other_dialog_title">其他数量的单位</string>
-    <string name="prefMeterSettingsNoteSummary">通过长按仪表字段访问的菜单可以进行更多设置。</string>
+    <string name="prefMeterSettingsNoteSummary">通过长按仪表字段即可访问菜单，可以进行更多设置。</string>
     <string name="speechDescent">掉落：%1$s</string>
     <string name="unitNewtonPerLb">牛/磅</string>
     <string name="navigationDestinationReached">目的地</string>
     <string name="summarySpecific">具体的</string>
-    <string name="pref_category_hud_title">抬头显示器</string>
+    <string name="pref_category_hud_title">平视显示器</string>
     <string name="pref_speechCountdown_title">倒数</string>
-    <string name="prefAutoTerrainNote1Summary">使用时应将设备固定在车辆上（例如自行车车把上），而不是放在手中或放在口袋里。</string>
+    <string name="prefAutoTerrainNote1Summary">使用时应将设备固定在车辆上（例如自行车车把上），而不是放在手中或口袋中。</string>
     <string name="prefAdModes_0">任何</string>
-    <string name="dialogTrackUploadPreparing">正在准备曲目数据…</string>
-    <string name="pref_maps_offline_warning_summary">警告：即使在离线模式下也可能会检索到一些在线数据。如果担心，请在使用地图前禁用移动互联网。</string>
-    <string name="infoMeterModeHeartRateMsg">每分钟的心跳次数。</string>
+    <string name="dialogTrackUploadPreparing">正在准备轨迹数据…</string>
+    <string name="pref_maps_offline_warning_summary">警告：即使在离线模式下也可能会检索某些在线数据。如果担心，请在使用地图前禁用移动互联网。</string>
+    <string name="infoMeterModeHeartRateMsg">每分钟心跳次数。</string>
     <string name="summaryTotalTime">总时间</string>
-    <string name="prefUnitsEnergyEntries_0">[大卡]</string>
+    <string name="prefUnitsEnergyEntries_0">[千卡]</string>
     <string name="pref_maps_fences_draw_title">栅栏</string>
-    <string name="pref_category_gps_interval_title">GPS 更新间隔</string>
-    <string name="dialogPowerParamsRollResist">滚动阻力系数。 (Cᵣᵣ)</string>
+    <string name="pref_category_gps_interval_title">GPS更新间隔</string>
+    <string name="dialogPowerParamsRollResist">滚动阻力系数（Cᵣᵣ）</string>
     <string name="meterModeCadence">节奏</string>
-    <string name="menuInsertSpeedo">插入车速表</string>
+    <string name="menuInsertSpeedo">车速表</string>
     <string name="summaryDeviceAutoPauseCount">自动暂停计数</string>
     <string name="pref_category_effects_title">效果</string>
-    <string name="unitFeetsAboveGroundLevel">英尺 agl</string>
-    <string name="pref_screensaverEnable_title">屏幕保护</string>
+    <string name="unitFeetsAboveGroundLevel">英尺阿格勒</string>
+    <string name="pref_screensaverEnable_title">屏幕保护程序</string>
     <string name="profilesListProfileNotUsed">（没用过）</string>
-    <string name="speechUnitTwoKilometers">公里数</string>
+    <string name="speechUnitTwoKilometers">公里</string>
     <string name="menuChooseFile">文件</string>
     <string name="pref_duck_roaring_on_bell_summary">铃声响起时降低 AVAS 声音的音量</string>
-    <string name="infoMeterModeGearRatioMsg">每单位时间车轮转数与踏板转数的比率，即前链轮和后链轮尺寸的比率。更高的数字意味着更高的档位。</string>
+    <string name="infoMeterModeGearRatioMsg">每个时间单位车轮转数与踏板转数的比率，即前链轮和后链轮尺寸的比率。数字越大意味着档位越高。</string>
     <string name="meterModeCadenceShort">计算机辅助设计</string>
-    <string name="summaryWheelsWeightInfo">在此轨道上使用的车辆上所有车轮的重量总和。</string>
-    <string name="summaryCadenceStrokesInfo">活动期间检测到的踏板行程数。</string>
+    <string name="summaryWheelsWeightInfo">该赛道上使用的车辆上所有车轮的重量总和。</string>
+    <string name="summaryCadenceStrokesInfo">活动期间检测到的踏板行程次数。</string>
     <string name="pref_flashlightBlinkModeToggleEnable_title">按钮切换</string>
     <string name="menuSpeedoIndicatorMax">指标最大值</string>
     <string name="powerSourceWeight_1">司机</string>
     <string name="infoAppUpdateAction">重新开始</string>
-    <string name="infoMeterModeEnergyMsg">行程消耗的能量，将效率和 BMR 考虑在内。</string>
+    <string name="infoMeterModeEnergyMsg">考虑效率和 BMR 的情况下，旅行消耗的能量。</string>
     <string name="meterModes_23">温度</string>
     <string name="sensorMenuRemoveFromProfile">从个人资料中删除</string>
-    <string name="pref_flashlightAutoPocketMode_summary">使用接近传感器在不需要时保持手电筒关闭</string>
+    <string name="pref_flashlightAutoPocketMode_summary">使用接近传感器在不需要时关闭手电筒</string>
     <string name="sensorPurposeNone">（无目的）</string>
     <string name="prefScreensaverTimeoutEntries_7">2分钟</string>
     <string name="pref_background_pattern_entries_3">豹</string>
-    <string name="speechNavigationGotOffRoute">你偏离了路线</string>
-    <string name="meterTextAvg">平均值</string>
-    <string name="unitKmPerLit">千米/升</string>
-    <string name="menuSpeedoBellButton">门铃按钮</string>
+    <string name="speechNavigationGotOffRoute">你已经偏离了路线</string>
+    <string name="meterTextAvg">平均</string>
+    <string name="unitKmPerLit">公里/升</string>
+    <string name="menuSpeedoBellButton">响铃按钮</string>
     <string name="menuMove">移动</string>
     <string name="pref_autopause_modes_explanation_0">丢弃所有超过几秒的停顿</string>
     <string name="summaryWheelsWeight">车轮重量</string>
-    <string name="infoMeterModeGearRatioTitle">传动比</string>
+    <string name="infoMeterModeGearRatioTitle">齿轮比</string>
     <string name="sensorProperitesStrideLen">步长</string>
     <string name="infoMeterModeAvgActivePowerTitle">平均有功功率</string>
-    <string name="unitW">W</string>
+    <string name="unitW">西</string>
     <string name="speechUnitOneHour">小时</string>
     <string name="meterModePressureShort">压力</string>
-    <string name="prefScreenPocketModeDelayEntries_1">0.10秒</string>
+    <string name="prefScreenPocketModeDelayEntries_1">0.10 秒</string>
     <string name="navigationAvoidMotorways">避开高速公路</string>
     <string name="menuWiden">扩大</string>
-    <string name="unitMphPerSec">英里每小时</string>
-    <string name="pref_group_powermeter_title">电力和能源</string>
+    <string name="unitMphPerSec">英里/秒</string>
+    <string name="pref_group_powermeter_title">电力与能源</string>
     <string name="sensorProperitesIsInverted">交换速度和节奏</string>
     <string name="controlPanelMapSettingsButtonTitle">地图选项</string>
     <string name="disclaimerText2">请明智地使用此应用程序，请勿在驾驶汽车、骑摩托车、自行车或任何其他车辆时操作它。</string>
     <string name="aboutScreenWarmWelcome">希望你喜欢这个应用程序😊</string>
-    <string name="sensorProperitesEnableFilteringInfo">这将对传感器数据执行额外的过滤，可能会提高准确性，但会引入几秒钟的延迟。默认情况下禁用。</string>
-    <string name="meterModeEfficacyShort">效果</string>
+    <string name="sensorProperitesEnableFilteringInfo">这将对传感器数据进行额外的过滤，可能会提高准确性，但会引入几秒钟的延迟。默认情况下禁用。</string>
+    <string name="meterModeEfficacyShort">有效值</string>
     <string name="prefMapOfflineLayerButtonActionEntries_2">没有任何</string>
-    <string name="summaryLocationInterval">位置间隔</string>
-    <string name="sensorMenuDisable">停用</string>
+    <string name="summaryLocationInterval">定位间隔</string>
+    <string name="sensorMenuDisable">禁用</string>
     <string name="speechIncreasing">瑞星</string>
     <string name="controlPanelScreenshotButtonSubtitle">点击分享截图</string>
     <string name="pref_gps_update_freq_entries_8">10秒</string>
-    <string name="pref_volume_summary_text">铃声：%1$s，AVAS：%2$s，Tallies：%3$s，效果：%4$s，警报：%5$s，语音：%6$s</string>
-    <string name="prefUnitsEnergyEntries_1">[千焦]</string>
+    <string name="pref_volume_summary_text">铃声：%1$s、AVAS：%2$s、提示：%3$s、效果：%4$s、警报：%5$s、语音：%6$s</string>
+    <string name="prefUnitsEnergyEntries_1">[千焦耳]</string>
     <string name="pref_bg_color_summary">为应用程序背景选择所需的颜色</string>
     <string name="infoMeterModeKineticEnergyTitle">动能</string>
-    <string name="menuInsertLeft">剩下</string>
+    <string name="menuInsertLeft">左边</string>
     <string name="defaultProfileNameSki">滑雪🎿</string>
     <string name="meterModePowerAverage">平均功率</string>
     <string name="pref_mapsShowAttribution_title">归因</string>
@@ -1147,7 +1166,7 @@
     <string name="pref_category_haptic_title">触觉反馈</string>
     <string name="meterModes_4">上升</string>
     <string name="sensorMenuDelete">忘记</string>
-    <string name="prefSteadyScreenNote1">此功能可帮助您在崎岖不平的地形上行驶时更清楚地看到屏幕。通过应用试图抵消外部震动的快速小动作来稳定屏幕上的图像。</string>
+    <string name="prefSteadyScreenNote1">此功能可帮助您在旅途中更清楚地看到屏幕。通过应用快速小幅移动来稳定屏幕上的图像，以抵消外部晃动。</string>
     <string name="powerSourceWeight_0">全部的</string>
     <string name="pref_autopause_modes_2">离开</string>
     <string name="menuMeterShowIcon">图标</string>
@@ -1155,52 +1174,50 @@
     <string name="pref_auto_launch_on_gps_summary">检测到 GPS 活动时启动应用程序（在被动模式下）</string>
     <string name="prefMapOfflineLayerButtonActionEntries_0">切换主题</string>
     <string name="prefAdModes_3">没有任何</string>
-    <string name="infoMeterModeWriggleMsg">测量路线与直线的偏差，即它在该区域中的填充量而不是直线行驶的程度。通常越低越好。</string>
+    <string name="infoMeterModeWriggleMsg">测量路线与直线的偏差，即它填充了多少区域而不是直线行驶。通常越低越好。</string>
     <string name="unitHP">生命值</string>
     <string name="pref_category_stationary_exercise_title">固定活动</string>
     <string name="speechUnitTwoHours">小时</string>
-    <string name="speechAltitude">海拔高度：%1$s</string>
-    <string name="stravaTrackPrivacyInfo">Track 将继承你在 Strava 上设置的默认隐私</string>
+    <string name="speechAltitude">海拔：%1$s</string>
+    <string name="stravaTrackPrivacyInfo">Track 将继承您在 Strava 上设置的默认隐私</string>
     <string name="pref_category_mainScreenVisualTheme">主屏幕</string>
     <string name="speechUnitManyHours">小时</string>
     <string name="unitSteps">脚步</string>
     <string name="speechNavigationContinue">继续</string>
     <string name="prefMapDiskCacheSizeEntries_4">300MB</string>
     <string name="pref_background_pattern_entries_4">砖</string>
-    <string name="pref_bell_shake_title">摇铃响</string>
+    <string name="pref_bell_shake_title">摇动即可响铃</string>
     <string name="sensorPurposePower">力量</string>
-    <string name="pref_mapsWeatherCoverage_title">覆盖面罩</string>
-    <string name="summaryInaccurateLocationZoneCountInfo">应用程序因不准确而开始拒绝位置更新的次数。
+    <string name="pref_mapsWeatherCoverage_title">遮盖面膜</string>
+    <string name="summaryInaccurateLocationZoneCountInfo">应用程序因位置更新不准确而开始拒绝位置更新的次数。
 \n
 \n请注意，根本没有位置更新的区域（例如室内）不会影响此数字。</string>
     <string name="sensorPurposeDistance">距离</string>
     <string name="unitPerMinute">/分钟</string>
     <string name="infoMeterModeVerticalPowerMsg">上升或下降时功率损失或增益。
 \n
-\n负值表示功率增益（降序）。
+\n负数表示功率增益（递减）。
 \n
-\n当以 kcal/h 或 kJ/h 为单位时，它还考虑了效率。</string>
+\n当以 kcal/h 或 kJ/h 为单位时，还考虑了效率。</string>
     <string name="sensorRemoveConfirmDialogMsg">从个人资料中删除？</string>
     <string name="prefScreensaverTimeoutEntries_8">5分钟</string>
     <string name="meterModes_27">脚步</string>
     <string name="pref_flashlightBlinkModes_2">无/稳定</string>
     <string name="unitMegabyte">MB</string>
     <string name="controlPanelSoundEffects">效果</string>
-    <string name="aboutScreenTranslationsText">帮助翻译这个应用程序并获得免费许可！更多信息：</string>
-    <string name="infoMeterModeVibrationsMsg">用设备测量的振动。当设备固定在车辆上（例如在自行车车把上）而不是放在手中或口袋中时很有用。</string>
+    <string name="aboutScreenTranslationsText">帮助翻译这个应用程序并获得免费许可证！更多信息：</string>
+    <string name="infoMeterModeVibrationsMsg">使用设备测量的振动。当设备固定在车辆上（例如自行车车把上）而不是放在手中或放在口袋中时很有用。</string>
     <string name="prefUnitsPowerEntries_2">[千卡/小时]</string>
     <string name="prefScreensaverTimeoutEntries_1">10秒</string>
-    <string name="dialogCustomTracksFolderInfoMessage">此功能允许应用程序从您选择的文件夹中读取曲目，除了默认的曲目文件夹——其位置最近发生了变化。
+    <string name="dialogCustomTracksFolderInfoMessage">除了主曲目文件夹（其位置最近已更改）之外，此功能还允许应用程序从您选择的文件夹中读取曲目。
 \n
-\n此类曲目是只读的：可以查看和共享，但不能编辑、恢复或删除。
-\n
-\n如果您不确定，请尝试在下一个屏幕上找到“Documents-UrbanBiker-tracks”文件夹。</string>
+\n此类曲目是只读的：可以查看和共享它们，但无法编辑、恢复或删除。</string>
     <string name="prefScreensaverDimBrightnessEntries_0">最低限度</string>
-    <string name="infoMeterModeDescentTitle">后裔</string>
+    <string name="infoMeterModeDescentTitle">血统</string>
     <string name="pref_units_power_dialog_title">总功率单位</string>
-    <string name="meterModes_5">后裔</string>
+    <string name="meterModes_5">血统</string>
     <string name="menuReset">重置</string>
-    <string name="toastScreensaverModeActive">屏保模式激活</string>
+    <string name="toastScreensaverModeActive">屏幕保护模式已激活</string>
     <string name="meterModes_28">步频</string>
     <string name="infoMeterModePressureMsg">使用设备或外部传感器测量的环境压力。</string>
     <string name="controlPanelMapHideButtonTitle">隐藏地图</string>
@@ -1208,29 +1225,29 @@
 \n更准确，使用更多电池</string>
     <string name="summaryRollResistCoefInfo">滚动阻力系数。</string>
     <string name="pref_gps_update_freq_entries_0">最快的</string>
-    <string name="pref_units_power_title">功率（总计）</string>
+    <string name="pref_units_power_title">总功率</string>
     <string name="prefScreensaverTimeoutEntries_2">15秒</string>
-    <string name="roarModeConstant">常数</string>
+    <string name="roarModeConstant">常量</string>
     <string name="prefUnitsPowerEntries_0">[W]</string>
     <string name="speechUnitManyFeets">脚</string>
     <string name="sensorsSectionUnsupported">不支持</string>
-    <string name="infoMeterModeVibrationsTitle">震动</string>
-    <string name="dialogOfflineMapsFolderCopyMessage">必须将所选内容复制到特定于应用程序的地图文件夹中才能使用。
+    <string name="infoMeterModeVibrationsTitle">振动</string>
+    <string name="dialogOfflineMapsFolderCopyMessage">所选内容必须复制到应用程序特定的地图文件夹才能使用。
 \n
-\n现在做这个吗？</string>
-    <string name="pref_maps_offline_info_summary">支持 Mapsforge 矢量 (.map) 和 Rmaps 栅格 (.sqlitedb) 地图。可在 download.mapsforge.org 获得。</string>
+\n现在就做这个吗？</string>
+    <string name="pref_maps_offline_info_summary">支持 Mapsforge 矢量 (.map) 和 Rmaps 栅格 (.sqlitedb) 地图。可在 download.mapsforge.org 上获取。</string>
     <string name="speechUnitOneMeter">仪表</string>
     <string name="navigationRouteTooLong">抱歉，这个目的地太远了</string>
-    <string name="pref_soundeffects_alarm_gpsPause_summary">当跟踪暂停时检测到明显移动时会发出警报</string>
+    <string name="pref_soundeffects_alarm_gpsPause_summary">当跟踪暂停时检测到明显移动时，警报将会响起</string>
     <string name="pref_group_flashlight_title">手电筒</string>
     <string name="pref_screenAutoPocketModeDelay_title">延迟</string>
     <string name="dialogFencesEdit">编辑围栏</string>
     <string name="controlPanelMapShowButtonSubtitle">点击显示地图</string>
-    <string name="unitKmhPerSec">公里每小时</string>
+    <string name="unitKmhPerSec">公里/秒</string>
     <string name="summaryEndedDatetime">结束</string>
-    <string name="unitTimeHrMinSec">时：中：秒</string>
-    <string name="sensorPurposeCadence">韵律</string>
-    <string name="summaryRollResistCoefAverage">滚动阻力系数。平均</string>
+    <string name="unitTimeHrMinSec">小时:分:秒</string>
+    <string name="sensorPurposeCadence">节奏</string>
+    <string name="summaryRollResistCoefAverage">滚动阻力系数。平均的</string>
     <string name="pref_mapsFollowAutoZoomMode_summary">根据当前速度调整地图缩放级别</string>
     <string name="dialogLayoutsInfoMessage">从一组预定义布局中快速更改显示布局。
 \n
@@ -1241,82 +1258,82 @@
     <string name="prefMapDiskCacheAgeEntries_4">30天</string>
     <string name="prefScreenPocketModeDelayEntries_5">0.50秒</string>
     <string name="sensorFilterInterval_0">3 秒（默认）</string>
-    <string name="infoMeterModeVerticalPowerTitle">垂直电源</string>
-    <string name="infoMeterModeEfficacyMsg">通过以等于平均速度的恒定速度移动，所消耗的部分能量足以完成相同的行程。越高越好。</string>
+    <string name="infoMeterModeVerticalPowerTitle">垂直功率</string>
+    <string name="infoMeterModeEfficacyMsg">以等于平均速度的恒定速度移动所消耗的部分能量足以完成相同的行程。越高越好。</string>
     <string name="meterModes_2">速度</string>
     <string name="infoContentSize">内容大小：%1$d MB</string>
     <string name="pref_roar_threshold_speed_title">阈值速度</string>
     <string name="speechUnitManyMiles">英里</string>
     <string name="meterTextMax">最大限度</string>
     <string name="pref_track_charts_title">图表类型…</string>
-    <string name="pref_locationProvider_modes_1">Google Play 服务（默认）</string>
+    <string name="pref_locationProvider_modes_1">Google Play 服务</string>
     <string name="meterModes_26">动能</string>
     <string name="menuRemove">消除</string>
-    <string name="aboutScreenFacebookLink">Facebook 上的 Urban Biker</string>
+    <string name="aboutScreenFacebookLink">Facebook 上的城市骑车人</string>
     <string name="infoMeterModeTemperatureMsg">使用设备或外部传感器测量的环境温度。</string>
     <string name="sensorsTitle">传感器</string>
     <string name="dialogSliderMore">▶</string>
-    <string name="sensorStepLengthNotSetWarning">未设置步长</string>
+    <string name="sensorStepLengthNotSetWarning">步长尚未设定</string>
     <string name="meterModes_31">湿度</string>
     <string name="dialogTrackUploadUpdateButton">更新</string>
-    <string name="pref_mapsLayerTraffic_summary">显示实时路况信息</string>
-    <string name="pref_bell_mode_entries_1">环-环</string>
-    <string name="pref_roaring_type_dialog_title">AVAS类型</string>
+    <string name="pref_mapsLayerTraffic_summary">显示实时交通信息</string>
+    <string name="pref_bell_mode_entries_1">环环</string>
+    <string name="pref_roaring_type_dialog_title">AVAS型</string>
     <string name="infoMeterModeStepCadenceMsg">每分钟的步数。</string>
-    <string name="menuShowTotals">显示总数</string>
-    <string name="cloudAccountsTitle">帐户</string>
+    <string name="menuShowTotals">显示总计</string>
+    <string name="cloudAccountsTitle">账户</string>
     <string name="pref_wakelock_modes_0">自动（默认）</string>
     <string name="prefScreensaverTimeoutEntries_6">1分钟</string>
     <string name="summaryDeviceAutoPauseCountInfo">在此活动期间激活自动暂停的次数。</string>
-    <string name="pref_relaunchAfterReboot_summary">（所有配置文件）如果电池电量为 10% 或更多，则在强制设备重启后恢复跟踪</string>
-    <string name="prefNoSoundInsideFenceTitle">栅栏内没有声音</string>
+    <string name="pref_relaunchAfterReboot_summary">（所有配置文件）如果电池电量为 10% 或更多，则强制设备重启后恢复跟踪</string>
+    <string name="prefNoSoundInsideFenceTitle">栅栏内无声音</string>
     <string name="prefMapOnlineModeEntries_0">在线的</string>
     <string name="meterModes_9">力量</string>
     <string name="summaryCadenceStrokes">踏板行程</string>
-    <string name="prefUnitsEnergyEntries_3">[升汽油]</string>
-    <string name="pref_gps_update_freq_entries_7">5秒</string>
+    <string name="prefUnitsEnergyEntries_3">[汽油升数]</string>
+    <string name="pref_gps_update_freq_entries_7">5 秒</string>
     <string name="prefMapDiskCacheSizeEntries_2">100 MB（默认）</string>
     <string name="speechDecreasing">掉落</string>
-    <string name="dialogGpsIntervalTitle">GPS 更新间隔</string>
+    <string name="dialogGpsIntervalTitle">GPS更新间隔</string>
     <string name="powerSourceWeightTitle">电源重量</string>
     <string name="pref_soundeffects_autopause_title">自动暂停</string>
     <string name="prefMapDiskCacheSizeEntries_6">500MB</string>
     <string name="menuBell">钟</string>
     <string name="unitFeetPerMin">英尺/分钟</string>
-    <string name="pref_units_speed_entries_1">英制 [英里]</string>
+    <string name="pref_units_speed_entries_1">英制 [英里/小时]</string>
     <string name="menuInsertRight">正确的</string>
-    <string name="dialogFencesRemove">移除围栏</string>
-    <string name="pref_wakelock_modes_explanation_2">允许 CPU 在位置更新之间休眠。可能会使用更少的电池，但可能会在极少数情况下跳过更新。</string>
+    <string name="dialogFencesRemove">拆除围栏</string>
+    <string name="pref_wakelock_modes_explanation_2">允许 CPU 在位置更新之间休眠。可能会使用较少的电池，但在极少数情况下可能会跳过更新。</string>
     <string name="dialog_fenceguard_add_entries_0">添加围栏</string>
     <string name="unitJoulePerHour">焦耳/小时</string>
     <string name="pref_bell_mode_entries_0">丁</string>
     <string name="menuSpeedoScale">规模</string>
-    <string name="infoMeterModeSlopeMsg">坡度（梯度），一个描述地形倾斜度的数字，其中零为水平。数字越大表示上升越陡，负数表示下降。</string>
+    <string name="infoMeterModeSlopeMsg">坡度（梯度），描述地形倾斜度的数字，其中零表示水平。数字越大表示上升越陡，负数表示下降。</string>
     <string name="menuSelect">选择</string>
     <string name="menuLayout">布局</string>
     <string name="pref_category_tracking_charts_title">图表</string>
     <string name="sensorProperitesIsAutoPerimeter">自动的</string>
-    <string name="cloudAccountsInfo">连接到云服务后，您可以更轻松地上传曲目并与他人分享。
+    <string name="cloudAccountsInfo">连接到云服务可让您更轻松地上传和与他人分享您的轨迹。
 \n
 \n未经您的许可，我们绝不会发布任何内容。</string>
-    <string name="trackUploadDescriptionDefault">使用 Urban Biker 移动应用程序进行跟踪</string>
+    <string name="trackUploadDescriptionDefault">使用 Urban Biker 移动应用程序进行追踪</string>
     <string name="pref_units_other_entries_0">公制</string>
     <string name="pref_roaring_mode_entries_1">自动评分</string>
     <string name="prefScreensaverTimeoutEntries_3">20 秒（默认）</string>
     <string name="menuSpeedoAppearance">外貌</string>
     <string name="dialogChartDataTypesTitle">图表类型</string>
     <string name="pref_category_flashlightBlinkMode_title">闪烁</string>
-    <string name="pref_soundeffects_gps_signal_summary">GPS 状态变化的声音（好，坏）</string>
+    <string name="pref_soundeffects_gps_signal_summary">GPS 状态变化时发出声音（好、坏）</string>
     <string name="meterModeHumidityShort">哼</string>
     <string name="mapPlaceSearch">去哪儿？</string>
-    <string name="summaryDragAreaInfo">空气阻力面积（Cd·A）。</string>
-    <string name="pref_hud_axis_entries_1">颠倒——更实用的设备处理</string>
+    <string name="summaryDragAreaInfo">空气阻力面积(Cd·A)。</string>
+    <string name="pref_hud_axis_entries_1">颠倒——更实用的设备操作</string>
     <string name="meterModes_6">坡</string>
-    <string name="sensorRemovedMsg">从配置文件中删除传感器</string>
-    <string name="prefSteadyScreenModeOn">积极的</string>
+    <string name="sensorRemovedMsg">传感器已从配置文件中移除</string>
+    <string name="prefSteadyScreenModeOn">启用</string>
     <string name="prefMapDiskCacheSizeEntries_7">1GB</string>
     <string name="sensorPurposeDuration">期间</string>
-    <string name="prefAutoTerrainSummary">通过测量振动来感知地形粗糙度，并在计算功率时相应地调整滚动阻力系数（Cᵣᵣ）。</string>
+    <string name="prefAutoTerrainSummary">通过测量振动来感知地形粗糙度，并在计算功率时相应调整滚动阻力系数（Cᵣᵣ）。</string>
     <string name="meterModeStepCountShort">脚步</string>
     <string name="sensorProperitesIsAutoStrideLen">自动的</string>
     <string name="sensorPurposeSteps">脚步</string>
@@ -1329,51 +1346,51 @@
     <string name="pref_roaring_type_entries_3">电动车</string>
     <string name="pref_soundeffects_navigation_title">导航</string>
     <string name="dialogLayoutChooseSubtitle">选择显示布局</string>
-    <string name="pref_category_units_common_title">计量单位（所有配置文件）</string>
+    <string name="pref_category_units_common_title">测量单位（所有配置文件）</string>
     <string name="unitTimeMinute">分钟</string>
     <string name="controlPanelSoundSpeech">演讲</string>
     <string name="summaryBasalEnergyInfo">用于基础代谢的能量百分比。</string>
     <string name="toastLocationUnavailable">您的位置仍然不可用</string>
     <string name="unitWKg">瓦/公斤</string>
     <string name="meterModes_30">半径</string>
-    <string name="tracksHistoryChartEmptyInfo">没有什么可展示的</string>
+    <string name="tracksHistoryChartEmptyInfo">没有什么可显示的</string>
     <string name="dialogSliderLess">◀</string>
     <string name="prefScreenPocketModeDelayEntries_2">0.20秒</string>
     <string name="menuInsert">插入</string>
     <string name="defaultProfileNameScooter">滑板车🛴</string>
-    <string name="pref_soundeffects_tally_steps_dialog_title">计步数</string>
-    <string name="pref_category_cloudAccounts_title">帐户</string>
+    <string name="pref_soundeffects_tally_steps_dialog_title">步数统计</string>
+    <string name="pref_category_cloudAccounts_title">账户</string>
     <string name="sensorStatusConnected">连接的</string>
     <string name="cloudAccountsPowerUploadPolicy_0">始终（默认）</string>
-    <string name="pref_speechTallies_summary">说话算数</string>
+    <string name="pref_speechTallies_summary">说算数</string>
     <string name="pref_soundeffects_tally_radius_title">半径</string>
     <string name="infoMeterModeAscentMsg">累积高度增益（爬升）。</string>
     <string name="sensorMenuEnable">使能够</string>
     <string name="infoAutopauseForcedRelaxed">注意：自动暂停强制放松</string>
     <string name="unitKjLb">千焦/磅</string>
-    <string name="pref_ads_mode_title">展示广告</string>
+    <string name="pref_ads_mode_title">显示广告</string>
     <string name="pref_speechAutoPause_title">自动暂停</string>
-    <string name="pref_speechTrackingStatus_summary">在跟踪开始、停止和暂停时说话</string>
+    <string name="pref_speechTrackingStatus_summary">跟踪开始、停止和暂停时讲话</string>
     <string name="pref_category_meters_title">米</string>
     <string name="summaryBasal">基础</string>
     <string name="summaryActivePower">有功功率</string>
     <string name="speechUnitManyMinutes">分钟</string>
-    <string name="pref_maps_track_draw_summary">在地图上绘制您的运动轨迹</string>
-    <string name="unitJoule">杰</string>
+    <string name="pref_maps_track_draw_summary">在地图上记录你的行踪</string>
+    <string name="unitJoule">J</string>
     <string name="sensorProperitesStrideLenNotSet">没有设置</string>
     <string name="pref_gps_update_freq_entries_4">2秒</string>
     <string name="dialogTrackUploadWaitTitle">请稍等</string>
     <string name="settingsTitle">设置</string>
     <string name="navigationHidePrompt">隐藏</string>
-    <string name="dialogCameraPermissionRequest">需要许可，应用程序才能激活手电筒。</string>
-    <string name="speechUnitTwoLitersOfGasoline">升汽油</string>
+    <string name="dialogCameraPermissionRequest">需要获得许可，应用程序才能激活手电筒。</string>
+    <string name="speechUnitTwoLitersOfGasoline">汽油升数</string>
     <string name="pref_group_activityRecognition_title">活动识别</string>
-    <string name="pref_roaring_mode_entries_3">移动时不变</string>
+    <string name="pref_roaring_mode_entries_3">移动时保持不变</string>
     <string name="meterModeElapsedTime">过去</string>
     <string name="pref_bell_mode_entries_2">喇叭</string>
     <string name="pref_category_speech_title">演讲</string>
     <string name="menuSpeedoValue">价值</string>
-    <string name="summaryMechWork">机甲。工作</string>
+    <string name="summaryMechWork">机械工作</string>
     <string name="meterModes_1">距离</string>
     <string name="dialogTrackEditTitleHint">标题</string>
     <string name="summaryClimbing">爬</string>
@@ -1381,117 +1398,117 @@
     <string name="meterModeAltitudeDescent">血统</string>
     <string name="dialogTrackEditNotesHint">笔记</string>
     <string name="sensorProperitesWheelPerimeterNotSet">没有设置</string>
-    <string name="meterModeAccelerationShort">acc</string>
+    <string name="meterModeAccelerationShort">ACC</string>
     <string name="pref_screensaverTimeout_title">暂停</string>
     <string name="prefScreensaverTimeoutEntries_5">45秒</string>
-    <string name="sensorsInfo">传感器会在记录处于活动状态时自动连接，并在您停止记录时断开连接。
+    <string name="sensorsInfo">当录音处于活动状态时，传感器会自动连接，并在停止录音时断开连接。
 \n
 \n无法手动建立传感器连接。</string>
     <string name="pref_soundeffects_proximity_title">接近传感器</string>
-    <string name="pref_units_distance_entries_0">公制[米，公里]</string>
-    <string name="meterModeWriggleShort">手腕</string>
+    <string name="pref_units_distance_entries_0">公制 [米，公里]</string>
+    <string name="meterModeWriggleShort">瑞格</string>
     <string name="sensorProperitesUseForCadence">用于节奏</string>
-    <string name="infoMeterModeStepCountMsg">采取的步骤数。</string>
-    <string name="dialogPermissionProblemMessage">该应用程序需要此权限才能正常运行。可以在App权限设置页面进行授权。
+    <string name="infoMeterModeStepCountMsg">已采取的步数。</string>
+    <string name="dialogPermissionProblemMessage">此权限是应用正常运行所必需的。可以在应用权限设置页面中授予此权限。
 \n
-\n现在去那里？</string>
+\n现在就去那里？</string>
     <string name="pref_background_pattern_entries_8">蜂窝</string>
     <string name="infoMeterModeRadiusTitle">半径</string>
     <string name="pref_bell_shake_sensitivity_title">震动灵敏度</string>
     <string name="summaryInaccurateLocationZoneCount">不准确区域</string>
     <string name="trackUploadActivityTypes_10">其他</string>
-    <string name="pref_wakelock_modes_explanation_3">遵守系统和/或其他应用程序强加的行为。警告：可能导致高度不规则的位置更新，甚至全部拒绝。不建议。</string>
-    <string name="unitMetersAboveGroundLevel">魔法</string>
+    <string name="pref_wakelock_modes_explanation_3">遵守系统和/或其他应用程序施加的行为。警告：可能会导致位置更新高度不规则，甚至全部拒绝。不建议。</string>
+    <string name="unitMetersAboveGroundLevel">马格利</string>
     <string name="summaryAcceleratingEnergyInfo">用于加速的能量百分比。</string>
     <string name="pref_soundeffects_tally_steps_title">脚步</string>
-    <string name="controlPanelMapSettingsButtonSubtitle">点击地图选项</string>
+    <string name="controlPanelMapSettingsButtonSubtitle">单击查看地图选项</string>
     <string name="pref_group_advanced_title">先进的…</string>
     <string name="prefScreenPocketModeDelayEntries_6">0.75秒</string>
     <string name="summaryDraggingEnergyInfo">用于克服空气阻力的能量百分比。</string>
     <string name="infoAutopauseForcedOff">注意：自动暂停强制关闭</string>
     <string name="sensorsTabFound">成立</string>
     <string name="navigationWrongWay">错误的方法</string>
-    <string name="menuHideTotals">隐藏总数</string>
-    <string name="generalError">发生了一些错误。请再试一次。</string>
-    <string name="dialogActivityRecognitionPermissionRequestTitle">身体活动许可</string>
-    <string name="pref_soundeffects_proximity_summary">接近传感器跳闸时发出咔嗒声</string>
-    <string name="speechUnitManyKilometers">公里数</string>
+    <string name="menuHideTotals">隐藏总计</string>
+    <string name="generalError">发生一些错误。请再试一次。</string>
+    <string name="dialogActivityRecognitionPermissionRequestTitle">体力活动许可</string>
+    <string name="pref_soundeffects_proximity_summary">接近传感器触发时发出咔嗒声</string>
+    <string name="speechUnitManyKilometers">公里</string>
     <string name="controlPanelEnergyParams">功率/能量参数</string>
     <string name="pref_category_roaringConstantMode_title">恒定模式</string>
-    <string name="pref_screensaverDimBrightness_title">昏暗的亮度</string>
+    <string name="pref_screensaverDimBrightness_title">亮度暗淡</string>
     <string name="meterModes_12">垂直。速度</string>
-    <string name="summaryProfileNameInfo">用于录制此曲目的配置文件。</string>
-    <string name="pref_maps_offline_usage_summary">使用方法：选择上面选项中下载的地图文件。</string>
-    <string name="summaryTotalWeightInfo">记录这条赛道时使用的所有重量的总和（骑手、车辆、货物……）。</string>
+    <string name="summaryProfileNameInfo">用于记录此曲目的配置文件。</string>
+    <string name="pref_maps_offline_usage_summary">使用方法：使用上面的选项选择下载的地图文件。</string>
+    <string name="summaryTotalWeightInfo">记录此轨迹时使用的所有重量的总和（骑手、车辆、货物……）。</string>
     <string name="tracksHistoryGrantAccess">缺少曲目？
 \n单击此处授予对自定义曲目文件夹的只读访问权限…</string>
     <string name="pref_speechGnssStatus_summary">谈论 GPS 状态变化（好、坏）</string>
     <string name="pref_category_flashlightAutoPocketMode_title">袖珍模式</string>
     <string name="meterModeHumidity">湿度</string>
-    <string name="navigationStepsInfo">导航说明将在您移动时显示在此处。根据需要隐藏或滑动此面板。</string>
+    <string name="navigationStepsInfo">当您移动时，导航说明将出现在此处。根据需要隐藏或滑动此面板。</string>
     <string name="summaryRolling">卷</string>
     <string name="speechUnitTwoMeters">米</string>
-    <string name="summaryTotalTimeInfo">此轨道的开始时间和结束时间之间的时间间隔。</string>
-    <string name="pref_locationProvider_modes_explanation_0">（所有配置文件）直接使用 GPS 子系统。稳定、不那么复杂的模型，没有中间商。也可能比其他提供者使用更少的资源。</string>
+    <string name="summaryTotalTimeInfo">该曲目的开始时间和结束时间之间的时间间隔。</string>
+    <string name="pref_locationProvider_modes_explanation_0">（所有配置文件）直接使用 GPS 子系统。稳定、复杂的模型，没有中间商。也可能比其他提供商使用更少的资源。</string>
     <string name="sensorProperitesTriggersCountInfo">传感器使用的触发器（例如磁铁）的数量。没有外部触发器的传感器通常只有一个内部触发器。</string>
     <string name="summaryProfileName">轮廓</string>
     <string name="meterModes_None">没有任何</string>
-    <string name="prefMapDiskCacheSizeEntries_8">2GB</string>
+    <string name="prefMapDiskCacheSizeEntries_8">2 GB</string>
     <string name="licenseUpgradeTitle">升级您的许可证</string>
-    <string name="summaryDriverWeightInfo">记录此赛道时使用的驾驶员（或骑手）的体重。</string>
+    <string name="summaryDriverWeightInfo">记录该赛道时使用的车手（或骑手）的重量。</string>
     <string name="prefUnitsEnergyEntries_2">[千瓦时]</string>
     <string name="pref_roaring_mode_entries_2">自动音量</string>
-    <string name="pref_roaring_type_entries_2">菜刀</string>
+    <string name="pref_roaring_type_entries_2">斩波器</string>
     <string name="freeLicenseLabel">自由的</string>
     <string name="prefAppVisualThemeDialogTitle">应用视觉主题</string>
     <string name="dialogTrackUploadActivityType">活动类型</string>
     <string name="meterModes_15">平均。力量</string>
     <string name="pref_power_coefs_summary">拖动区域：%1$s
-\n滚动电阻：%2$s</string>
+\n抗滚动性：%2$s</string>
     <string name="tracksHistoryListTitleSelect">选择</string>
     <string name="meterModeAltitudeSlope">坡</string>
     <string name="pref_meterTitle">仪表</string>
     <string name="pref_powermeter_display_mode_entries_1">瓦特每公斤/磅</string>
     <string name="pref_background_pattern_entries_0">没有任何</string>
-    <string name="dialogButtonRateOnPlayStore">在 Play 商店评分</string>
+    <string name="dialogButtonRateOnPlayStore">在 Play 商店中评分</string>
     <string name="speechCountdownGo">去！</string>
     <string name="pref_units_speed_entries_0">公制 [公里/小时]</string>
-    <string name="meterModeDistanceShort">时间</string>
+    <string name="meterModeDistanceShort">目的地</string>
     <string name="veloHeroConnectButton">与 Velo Hero 联系</string>
-    <string name="navigationRouteNotFound">抱歉，找不到通往该目的地的路线</string>
-    <string name="prefBarometricAltitudeSummary">如果可用，使用压力传感器数据来提高高度精度</string>
+    <string name="navigationRouteNotFound">抱歉，没有找到到该目的地的路线</string>
+    <string name="prefBarometricAltitudeSummary">使用压力传感器数据来提高高度精度（如果有）</string>
     <string name="speechUnitOneFeet">脚</string>
     <string name="dialogTrackUploadPlatform">在线服务</string>
-    <string name="sensorProperitesActivityRecognitionInfo">仅当您的身体活动被认为符合传感器用途时，传感器才会提供数据。例如，步数传感器将计算步行或跑步时的步数，而不是骑自行车时。请注意，这可能不准确并且可能会滞后。需要 Google Play 服务。</string>
+    <string name="sensorProperitesActivityRecognitionInfo">仅当您的身体活动被认为与传感器目的兼容时，传感器才会提供数据。例如，步数传感器将在步行或跑步时计算步数，而不是在骑自行车时计算步数。请注意，这可能不准确并且可能会滞后。需要 Google Play 服务。</string>
     <string name="chartsTitle">图表</string>
     <string name="infoMeterModeHumidityTitle">湿度</string>
     <string name="pref_category_sensors_title">传感器</string>
-    <string name="dialogStoragePermissionRequest">该应用程序需要访问存储空间，以便它可以保存或恢复您的曲目和设置。
+    <string name="dialogStoragePermissionRequest">该应用程序需要访问存储空间，以便保存或恢复您的曲目和设置。
 \n
-\n未经许可，您可能无法查看您的足迹历史记录，并且可能会丢失您的数据。</string>
+\n如果没有授予许可，您可能无法查看您的轨迹历史记录，并且可能会丢失您的数据。</string>
     <string name="pref_power_coefs_title">系数</string>
     <string name="pref_units_other_entries_1">帝国</string>
     <string name="unitPerMille">‰</string>
-    <string name="summaryHeartBeatsInfo">活动期间检测到的心跳数。</string>
+    <string name="summaryHeartBeatsInfo">活动期间检测到的心跳次数。</string>
     <string name="unitGAccel">G</string>
     <string name="dialogLicenseUpgradeMessage">此功能需要订阅许可证。
 \n
-\n或者，您可以观看简短的宣传视频以获得免费积分。</string>
-    <string name="cloudAccountsPowerUploadPolicy_1">仅在使用功率计时上传功率数据</string>
-    <string name="summaryMechWorkInfo">用于此活动的纯机械功（忽略热效率和 BMR）。</string>
+\n或者，您也可以观看简短的宣传视频来获得免费积分。</string>
+    <string name="cloudAccountsPowerUploadPolicy_1">仅在使用电表时上传电量数据</string>
+    <string name="summaryMechWorkInfo">此活动花费的纯机械功（不考虑热效率和 BMR）。</string>
     <string name="pref_group_meters_title">米</string>
-    <string name="unitHPa">hPa</string>
-    <string name="prefOnlineMapsProviderTitle">在线地图供应商</string>
+    <string name="unitHPa">百帕</string>
+    <string name="prefOnlineMapsProviderTitle">在线地图提供商</string>
     <string name="pref_category_pressure_title">内置压力传感器</string>
-    <string name="pref_category_units_per_profile_title">计量单位（每个配置文件）</string>
-    <string name="sensorProperitesNoAlarmInfo">可用时使用传感器，但不可用时不通知或报警。适用于对活动不重要的不重要传感器。默认情况下禁用。</string>
+    <string name="pref_category_units_per_profile_title">测量单位（每个配置文件）</string>
+    <string name="sensorProperitesNoAlarmInfo">如果可用则使用传感器，但在不可用时不通知或报警。适用于对活动不重要的不重要传感器。默认情况下禁用。</string>
     <string name="menuSpeedoDisplayMode">显示模式</string>
-    <string name="meterModeStepCadenceShort">步骤cad</string>
-    <string name="dialogLocationPermissionRequest">该应用程序需要访问您的位置以记录您的户外活动。</string>
+    <string name="meterModeStepCadenceShort">步骤CAD</string>
+    <string name="dialogLocationPermissionRequest">该应用程序需要访问您的位置来记录您的户外活动。</string>
     <string name="infoMeterModePowerTitle">力量</string>
-    <string name="dialogOpenRainviewerText">现在打开 www.rainviewer.com 网页？</string>
+    <string name="dialogOpenRainviewerText">现在打开 www.rainviewer.com 网页吗？</string>
     <string name="pref_roaring_type_entries_1">嘟</string>
-    <string name="unitKj">千焦</string>
+    <string name="unitKj">千焦耳</string>
     <string name="speechSteps">步骤：%1$s</string>
     <string name="pref_maps_quickZoom_title">快速缩放按钮</string>
     <string name="dialogOfflineMapsFolderCopyTitle">复制到地图文件夹</string>
@@ -1500,23 +1517,128 @@
     <string name="meterModePressure">压力</string>
     <string name="meterModes_3">高度</string>
     <string name="disclaimerTitle">免责声明</string>
-    <string name="infoMeterModeCadenceTitle">韵律</string>
+    <string name="infoMeterModeCadenceTitle">节奏</string>
     <string name="controlPanelSoundRoar">AVAS</string>
     <string name="dialogMapsTerrainDownloadTitle">地形下载</string>
     <string name="meterModeRadius">半径</string>
-    <string name="profilesListTitle">简介</string>
-    <string name="powerSourceWeightInfo">将功率（瓦特）转换为比功率（瓦特/单位重量）时，必须给出重量。
+    <string name="profilesListTitle">型材</string>
+    <string name="powerSourceWeightInfo">将功率（瓦特）转换为比功率（每单位重量的瓦特数）时，必须给出重量。
 \n
-\n这通常是提供驱动力的实体的权重。
+\n这通常是提供驱动力的实体的重量。
 \n
 \n注意：垂直功率始终使用总重量计算。</string>
     <string name="prefBackKeyModeEntries_2">双击退出</string>
-    <string name="sensorWheelCircNotSetWarning">轮周未设置</string>
+    <string name="sensorWheelCircNotSetWarning">车轮周长尚未设定</string>
     <string name="unitMiPerGal">英里/加仑</string>
     <string name="prefBackKeyModeEntries_1">没有任何</string>
     <string name="meterModeOdoShort">奥多</string>
     <string name="unitMSxS">米/秒²</string>
-    <string name="pref_roaring_mode_entries_4">主动高于阈值速度</string>
+    <string name="pref_roaring_mode_entries_4">活动速度高于阈值</string>
     <string name="pref_wakelock_modes_2">部分的</string>
     <string name="pref_soundeffects_screenOff_summary">屏幕变暗或暂时关闭时发出声音和振动</string>
+    <string name="dataStorageChooseButton">选择数据存储位置</string>
+    <string name="prefSteadyScreenImplementationNote">（所有配置文件）外部实施需要安装单独的应用程序。单击此处打开 Play 商店。</string>
+    <string name="prefSteadyScreenImplementationTitle">执行</string>
+    <string name="speechUnitThreeFeets">脚</string>
+    <string name="dialogMapsMapCountThreeMaps">%1$s 地图</string>
+    <string name="dialogRecButtonInsertMessage">这将在此处插入“录制”按钮并将其从按钮栏中删除。继续？</string>
+    <string name="speechUnitFourFeets">脚</string>
+    <string name="dataStorageStatsTitle">存储统计</string>
+    <string name="speechUnitThreeMinutes">分钟</string>
+    <string name="speechUnitFourMinutes">分钟</string>
+    <string name="pref_mapsLayerHeatmap_info">这可以帮助您发现新的活动场所，尤其是在偏远地区。</string>
+    <string name="dataStorageTransferInfoCount">移动项目：%1$s 共 %2$s</string>
+    <string name="menuRemoveRecButton">删除录制按钮</string>
+    <string name="pref_category_storage_title">贮存</string>
+    <string name="dataStorageTransferInfoStatus">状态：%1$s</string>
+    <string name="licenseItemOwned">目前拥有</string>
+    <string name="dialogRecButtonRemoveMessage">这会将“录制”按钮放回按钮栏。继续？</string>
+    <string name="inProgress">进行中</string>
+    <string name="speechUnitThreeMiles">英里</string>
+    <string name="dialogLayoutRemoveEntryMessage">删除该字段？</string>
+    <string name="dataStorageTransferInfoSpeed">速度：%1$s MB/秒（%2$s 项/秒）</string>
+    <string name="prefGpsIntervalAdaptiveSummary">根据速度自动调整 GPS 更新间隔在 1 到 5 秒之间。</string>
+    <string name="speechUnitFourMeters">米</string>
+    <string name="dataStorageInfo1">建议为您的曲目和数据使用自定义存储位置，以防止卸载应用程序时意外丢失数据，并使备份更容易。</string>
+    <string name="dialogEnterCodeMessage">输入代码</string>
+    <string name="dataStorageTitle">贮存</string>
+    <string name="pref_category_mapsRenderer">渲染器</string>
+    <string name="pref_category_onlineElevation_title">在线海拔</string>
+    <string name="prefOnlineElevationNoteSummary1">为了节省电池和数据流量，当您开始跟踪新轨迹时，只会从互联网获取一个高程点。这足以让赛道的其余部分拥有更准确的高度基线。</string>
+    <string name="prefGpsIntervalAdaptiveTitle">自适应</string>
+    <string name="success">成功</string>
+    <string name="prefOnlineElevationNoteSummary2">如果互联网或许可证不可用，该应用程序将继续工作而不校正高度。</string>
+    <string name="dataStorageStatsMessage">%1$s MB
+\n%2$s 项目</string>
+    <string name="prefOnlineElevationTitle">在线海拔</string>
+    <string name="prefGoogleMapsRenderer_0">默认</string>
+    <string name="infoMeterModePowerBalanceTitle">左/右功率平衡</string>
+    <string name="speechUnitFourMiles">英里</string>
+    <string name="meterModeBatteryShort">棉絮</string>
+    <string name="prefSteadyScreenImplementationInternal">内部（默认）</string>
+    <string name="dialogMapsMapCountManyMaps">%1$s 地图</string>
+    <string name="dialogNotificationPermissionRequestTitle">通知权限</string>
+    <string name="pref_mapsOfflineFileSummary">地图文件必须复制到应用程序特定的地图文件夹才能使用</string>
+    <string name="prefBatteryOptimizationTitle">电池优化</string>
+    <string name="dialogNotificationPermissionRequest">需要获得许可，以便应用程序可以在跟踪处于活动状态时显示持续的通知。</string>
+    <string name="prefGoogleMapsRendererSummary">当前：%1$s</string>
+    <string name="dialogRecButtonInsertTitle">插入录制按钮</string>
+    <string name="speechUnitFourHours">小时</string>
+    <string name="prefOnlineElevationNoteSummary3">仅当订阅许可证可用（最终许可证或地图许可证之一）时，此功能才有效。</string>
+    <string name="prefSteadyScreenImplementationInternalInfo">使用我们自己的屏幕稳定实现。更易于使用，不可调节。</string>
+    <string name="prefMapShowBuildingsSummary">显示 Google 地图的 3D 建筑物图层。禁用以提高地图性能并减少资源使用。</string>
+    <string name="prefBatteryOptimizationMessage">Urban Biker 可以免除系统电池优化，以确保在旧版 Android 上屏幕关闭时它仍能正常工作。单击此处立即打开设置。</string>
+    <string name="prefGoogleMapsRenderer_2">最新的</string>
+    <string name="meterModes_10">权力平衡</string>
+    <string name="prefTrackingButtonFreePlacementTitle">自由录制按钮放置</string>
+    <string name="speechUnitFourKilometers">公里</string>
+    <string name="computing">计算…</string>
+    <string name="prefMapsFolderExploreSummary">使用文件资源管理器应用程序管理特定于应用程序的地图文件夹的内容</string>
+    <string name="dialogMapsAutoZoomSensitivity">自动变焦灵敏度</string>
+    <string name="menuInsertRecButton">录制按钮</string>
+    <string name="dataStorageInfo2">当您更改数据存储位置时，之前的应用程序数据将自动转移到新位置。这发生在后台，可能需要一些时间。
+\n
+\n撤销访问权限会使数据保持完整。</string>
+    <string name="prefGoogleMapsRendererInfo">指定您喜欢使用哪种渲染器类型来显示地图。旧版渲染器可能使用较少的资源，而最新的渲染器通常具有更多功能或更好的设计。</string>
+    <string name="dataStorageTransferInfoDuration">时长：%1$s</string>
+    <string name="speechUnitThreeMeters">米</string>
+    <string name="toastGpsIntervalAdaptiveActive">自适应更新间隔已激活</string>
+    <string name="dialogMapsShowHeatmap">热图</string>
+    <string name="buttonProceed">继续</string>
+    <string name="prefMapsFolderExploreTitle">探索地图文件夹</string>
+    <string name="prefSteadyScreenImplementationExternalInfo">必须安装单独的应用程序才能使其工作。可调节的。</string>
+    <string name="speechUnitThreeKilometers">公里</string>
+    <string name="prefGpsIntervalAdaptiveNote">自适应更新间隔有助于减少缓慢移动或频繁休息时的电池消耗。</string>
+    <string name="speechUnitFourLitersOfGasoline">汽油升数</string>
+    <string name="prefOnlineElevationSummary">使用互联网上的海拔数据来提高海拔基线精度。默认启用。</string>
+    <string name="pref_mapsFollowAutoZoomSensitivity_info">您可以通过在跟踪时放大或缩小来即时调整自动变焦灵敏度</string>
+    <string name="pref_mapsLayerHeatmap_summary">显示过去一年的汇总公开活动（来自 Strava）</string>
+    <string name="dataStorageNotSetMessage">数据存储位置未设置，请使用上方按钮。
+\n
+\n该应用程序当前使用默认文件夹来存储曲目和数据。</string>
+    <string name="tracksHistoryDataStorageLink">警告：应用程序正在使用曲目和数据的默认文件夹。单击此处进行更改。</string>
+    <string name="menuMeterResume">恢复</string>
+    <string name="menuDataStorage">数据存储位置</string>
+    <string name="meterModeBattery">电池</string>
+    <string name="navigationRerouteCmd">单击以重新路由</string>
+    <string name="infoMeterModeBatteryTitle">电池</string>
+    <string name="infoMeterModeBatteryMsg">此 Android 设备的电池电量。</string>
+    <string name="speechUnitThreeLitersOfGasoline">汽油升数</string>
+    <string name="toastAutoBellButtonClickInfo">长按可切换自动铃声</string>
+    <string name="dataStorageTransferRetrying">失败 — 将很快重试</string>
+    <string name="prefTrackingButtonFreePlacementSummary">（所有配置文件）允许将“录制”按钮放置在布局中的任何位置。禁用时，录制按钮将固定在按钮栏上。</string>
+    <string name="prefGoogleMapsRenderer_1">遗产</string>
+    <string name="prefMapShowBuildingsTitle">显示建筑物</string>
+    <string name="meterModes_33">电池</string>
+    <string name="prefSteadyScreenImplementationExternal">外部的</string>
+    <string name="dialogMapsMapCountTwoMaps">%1$s 地图</string>
+    <string name="infoMeterModePowerBalanceMsg">功率平衡，以左右贡献占总功率输出的比例表示。</string>
+    <string name="controlPanelFlashlight">手电筒</string>
+    <string name="speechUnitThreeHours">小时</string>
+    <string name="dialogRecButtonRemoveTitle">删除录制按钮</string>
+    <string name="pref_mapsLayerHeatmap_title">热图</string>
+    <string name="otherLicenses">其他</string>
+    <string name="dataStorageTransferInfoTitle">最后一次变更</string>
+    <string name="recommendedLicense">受到推崇的</string>
+    <string name="dialogMapsMapCountFourMaps">%1$s 地图</string>
 </resources>
