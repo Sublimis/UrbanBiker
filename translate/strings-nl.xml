@@ -20,12 +20,12 @@
     <string name="cancel">Annuleer</string>
     <string name="buttonResumeTrack">Hervat</string>
     <string name="menuSettings">Instellingen</string>
-    <string name="menuSummary">Live samenvatting</string>
+    <string name="menuSummary">Overzicht</string>
     <string name="menuTracksHistory">Geschiedenis</string>
     <string name="menuTracksHistoryResume">Hervat</string>
     <string name="menuMeterLock">Blokkeer</string>
     <string name="menuMeterLockAll">Alles blokkeren</string>
-    <string name="menuMeterMode">Weergavemodus…</string>
+    <string name="menuMeterMode">Metermodus</string>
     <string name="menuMeterChooseModes">Kies mode…</string>
     <string name="menuMeterResetMinMax">Reset min/max</string>
     <string name="menuMeterParameters">Parameters…</string>
@@ -150,7 +150,7 @@
     <string name="dialogPowerWeightsWeightWheels">Wielen</string>
     <string name="dialogPowerParamsTitle">Vermogensverlies coëfficienten</string>
     <string name="dialogPowerParamsDragArea">Luchtweerstand oppervlakte (Cd·A)</string>
-    <string name="dialogPowerParamsRollResist">Rolweerstand coef. (Crr)</string>
+    <string name="dialogPowerParamsRollResist">Rolweerstandscoëfficiënt. (Cᵣᵣ)</string>
     <string name="dialogEnergyParamsTitle">Energie parameters</string>
     <string name="dialogEnergyParamsEfficiency">Gehele thermische efficiency (η)</string>
     <string name="dialogEnergyParamsBmr">Basaal Metabolisme Ratio (BMR)</string>
@@ -491,11 +491,11 @@
     <string name="pref_wakelock_modes_explanation_2">Sta CPU toe te slapen tussen locatie updates. Zou minder batterij kunnen verbruiken, maar kan bij hoge uitzondering een update missen.</string>
     <string name="pref_wakelock_modes_explanation_3">Gehoorzaam gedrag opgelegd door het systeem en/of andere apps. Let op: Kan zeer onregelmatige of zelfs geen lokatie updaties veroorzaken. Niet aangeraden.</string>
     <!-- pref_locationProvider_modes -->
-    <string name="pref_locationProvider_modes_0">GPS subsystem (standaard)</string>
-    <string name="pref_locationProvider_modes_1">Google Play services</string>
+    <string name="pref_locationProvider_modes_0">GPS-subsysteem (standaard)</string>
+    <string name="pref_locationProvider_modes_1">Google Play-services</string>
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Alle profielen) Gebruik het GPS subsystem. Stabiel en minder complex. Zou ook minder middelen kunnen gebruiken dan de andere provider.</string>
-    <string name="pref_locationProvider_modes_explanation_1">(Alle profielen) Gebruik de \"Fused\" provider van Google Play services, indien beschikbaar. Dit zou in theorie snellere en preciezere locaties kunnen verzorgen. Probeer uit of het voor jou goed werkt.</string>
+    <string name="pref_locationProvider_modes_explanation_1">(Alle profielen) Gebruik de \'Fused\'-provider van Google Play-services, indien beschikbaar. In theorie kan dit soms snellere en nauwkeurigere locaties opleveren.</string>
     <!-- pref_units_distance_entries -->
     <string name="pref_units_distance_entries_0">Metrisch [m, km]</string>
     <string name="pref_units_distance_entries_1">Imperiaal [ft, mi]</string>
@@ -515,7 +515,7 @@
     <string name="prefUnitsEnergyEntries_0">[kcal]</string>
     <string name="prefUnitsEnergyEntries_1">[kJ]</string>
     <string name="prefUnitsEnergyEntries_2">[kWh]</string>
-    <string name="prefUnitsEnergyEntries_3">[Liters brandstof]</string>
+    <string name="prefUnitsEnergyEntries_3">[Liter benzine]</string>
     <!-- prefUnitsPowerEntries -->
     <string name="prefUnitsPowerEntries_0">[W]</string>
     <string name="prefUnitsPowerEntries_1">[HP]</string>
@@ -545,7 +545,7 @@
     <string name="pref_powermeter_display_mode_entries_1">Watts per kg/lb</string>
     <string name="buttonUnderstand">Ik begrijp het</string>
     <string name="buttonNewTrack">Beëindig</string>
-    <string name="menuControlPanel">Controlepaneel</string>
+    <string name="menuControlPanel">Snelle instellingen</string>
     <string name="menuMeterReset">Beëindig</string>
     <string name="menuViewWith">Bekijk met</string>
     <string name="menuProfiles">Profielen</string>
@@ -566,21 +566,33 @@
     <string name="toastTrackingRecordingPassive">Passieve opname</string>
     <string name="toastTrackingPaused">Gepauseerd</string>
     <string name="licenseDialogMapsTab">Kaarten</string>
-    <string name="ultimateLicenseDescription">Meest uitgebreide licentie voor de beste ervaringen.</string>
+    <string name="ultimateLicenseDescription">Meest krachtige licentie voor ultieme ervaring</string>
     <string name="ultimateLicenseFeatures">✔️ Alle premium kaarten
 \n✔️ Navigatie
+\n✔️ Online hoogtebasislijn
 \n✔️ Geen advertenties
 \n✔️ Alle gratis functies en kaarten</string>
-    <string name="proPlusLicenseFeatures">🔹 Geen advertenties
-\n🔹 Extra donaties mogelijk/geen must</string>
-    <string name="proLicenseFeatures">❌ Premiumkaarten
+    <string name="proPlusLicenseFeatures">❌ Premium-kaarten
 \n❌ Navigatie
+\n❌ Online hoogtebasislijn
+\n✔️ Geen advertenties
+\n✔️ Alle gratis functies en kaarten
+\n➕ Extra donatie</string>
+    <string name="proLicenseFeatures">❌ Premium-kaarten
+\n❌ Navigatie
+\n❌ Online hoogtebasislijn
 \n✔️ Geen advertenties
 \n✔️ Alle gratis functies en kaarten</string>
-    <string name="thunderforestMapsFeatures">🔹 Kaarten met actuele weersvoorspellingen
-\n🔹 Geen advertenties</string>
-    <string name="mapboxMapsFeatures">🔹 Kaartenmap waarin alle kaarten worden weergegeven 
-\n🔹 Geen advertenties</string>
+    <string name="thunderforestMapsFeatures">✔️ Thunderforest premium-kaarten
+\n✔️ Navigatie
+\n✔️ Online hoogtebasislijn
+\n✔️ Geen advertenties
+\n✔️ Alle gratis functies en kaarten</string>
+    <string name="mapboxMapsFeatures">✔️ Mapbox premium-kaarten
+\n✔️ Navigatie
+\n✔️ Online hoogtebasislijn
+\n✔️ Geen advertenties
+\n✔️ Alle gratis functies en kaarten</string>
     <string name="priceFree">Gratis versie</string>
     <string name="rewardedAdDescription">Klik hier om eerst een advertentie te bekijken</string>
     <string name="rewardedAdLoading">Advertentie word geladen…</string>
@@ -620,9 +632,9 @@
 \nDe activiteit lijkt erg kort. Activiteit opslaan\?"</string>
     <string name="dialog_exit_msg">Opgelet: Activiteitsopname is actief, en zal gestopt worden.</string>
     <string name="dialogProfileAddInfo">De instellingen voor het nieuwe profiel worden overgenomen van het huidige profiel</string>
-    <string name="dialogTracksDeleteMessage">Opgelet: Deze actie kan niet ongedaan worden gemaakt.
+    <string name="dialogTracksDeleteMessage">Waarschuwing: deze actie kan niet ongedaan worden gemaakt. Geselecteerde nummers verwijderen\?
 \n
-\nGeselecteerde activiteiten wissen\?</string>
+\nOm het verwijderen te bevestigen, voert u de volgende code in om door te gaan.</string>
     <string name="dialogTracksShareGeneralErrorMessage">Onbekende foutmelding. Probeer opnieuw.</string>
     <string name="dialogTracksShareCountExceeded">Kan niet meer dan 100 activiteiten per keer delen.</string>
     <string name="dialogGpsSettingsPromptTitle">Locatiegegevens zijn niet geactiveerd</string>
@@ -696,20 +708,23 @@
     <string name="dialogTrackEditTitleHint">Titel</string>
     <string name="dialogTrackEditNotesHint">Aantekeningen</string>
     <string name="dialogActivityRecognitionPermissionRequestTitle">Fysieke activiteiten toestemming</string>
-    <string name="dialogActivityRecognitionPermissionRequest">Toestemming is nodig zodat de app ingebouwde sensors zoals Step Detector kan gebruiken.</string>
+    <string name="dialogActivityRecognitionPermissionRequest">Er is toestemming nodig zodat de app de ingebouwde Step Detector-sensor kan gebruiken en andere nuttige acties kan uitvoeren wanneer beweging wordt gedetecteerd.</string>
     <string name="dialogMapsWeatherRadar">Neerslag radar</string>
     <string name="dialogOpenRainviewerText">Nu www.rainviewer.com web pagina openen\?</string>
     <string name="dialogScreenOrientationReversePortrait">Portret (omgedraaid)</string>
     <string name="dialogScreenOrientationReverseLandscape">Landschap (omgedraaid)</string>
     <string name="dialogScreenshotTitle">Schermafdruk</string>
     <string name="dialogMapsAutoZoom">Vanzelf zoomen</string>
-    <string name="hereMapsFeatures">🔹 HERE kaarten
-\n🔹 Geen advertenties</string>
+    <string name="hereMapsFeatures">✔️ HIER premiumkaarten
+\n✔️ Navigatie
+\n✔️ Online hoogtebasislijn
+\n✔️ Geen advertenties
+\n✔️ Alle gratis functies en kaarten</string>
     <string name="dialogBaroAltitudeNoticeTitle">Opmerking</string>
     <string name="dialogPowerWeightsRotInertiaTitle">Traagheidsmoment</string>
-    <string name="dialogStoragePermissionRequest">"De app moet toegang tot uw geheugen hebben om instellingen en routes te kunnen opslaan of herstellen.
+    <string name="dialogStoragePermissionRequest">De app heeft toegang tot de opslag nodig zodat hij je nummers en instellingen kan opslaan of herstellen.
 \n
-\nZonder toestemming is het ophalen  van de geschiedenis of delen van de routes niet mogelijk, uw historie kan mogelijk verloren gaan."</string>
+\nZonder toestemming kunt u mogelijk uw trackgeschiedenis niet zien en kunt u uw gegevens kwijtraken.</string>
     <string name="unitTimeHrMinSec">u:m:s</string>
     <string name="unitTimeHour">u</string>
     <string name="unitTimeMinute">min</string>
@@ -872,7 +887,7 @@
     <string name="pref_category_flashlightBlinkMode_title">Knipperen</string>
     <string name="pref_category_altitude_adjustments_title">Hoogte</string>
     <string name="pref_category_temperature_title">Temperatuur</string>
-    <string name="pref_category_pressure_title">Druk</string>
+    <string name="pref_category_pressure_title">Ingebouwde druksensor</string>
     <string name="pref_category_sensors_title">Sensoren</string>
     <string name="pref_category_cloudAccounts_title">Accounts</string>
     <string name="pref_category_mapsQuickZoom">Snelle zoom</string>
@@ -884,7 +899,7 @@
     <string name="pref_volume_summary_text">Bel: %1$s, AVAS: %2$s, Intervallen : %3$s, Effecten: %4$s, Alarmen: %5$s, Spraak: %6$s</string>
     <string name="pref_screenAutoPocketMode_summary">(Alle profielen) Gebruik de nabijheidssensor om het scherm uit te schakelen als het niet nodig is</string>
     <string name="pref_relaunchAfterReboot_summary">(Alle profielen) Na herstart van het toestel de opname hervatten indien de accu 10% of meer geladen is</string>
-    <string name="pref_resetPrompt_summary">Vragen om een nieuwe track te starten als deze meer dan 4 uur geleden of op een verre locatie voor het laatst actief was</string>
+    <string name="pref_resetPrompt_summary">Vraag om een nieuw nummer te starten als de laatste activiteit meer dan 4 uur geleden was of op een afgelegen locatie (aanbevolen)</string>
     <string name="pref_roaring_state_title">AVAS</string>
     <string name="pref_roaring_constant_mode_title">Constante modus</string>
     <string name="pref_roaring_constant_mode_summary">Genereer altijd AVAS-waarschuwingstonen, ongeacht beweging of GPS-status</string>
@@ -893,24 +908,24 @@
     <string name="pref_roarConstantModeButton_title">Knop wisselen</string>
     <string name="pref_roarConstantModeButton_summary">Schakel de constante modus in met een klik op de knop terwijl de AVAS is ingeschakeld</string>
     <string name="pref_speed_calculate_mode_title">Herbereken snelheid</string>
-    <string name="pref_speed_calculate_mode_summary">(Alle profielen) Herbereken snelheid op basis van afstand, gebruikt niet direct de GPS waarde. Dit geeft een stabilere GPS (Doppler) snelheidswaarde.</string>
+    <string name="pref_speed_calculate_mode_summary">(Alle profielen) Bereken de snelheid opnieuw op basis van afstanden, gebruik de GPS-waarde niet rechtstreeks. Dit kan stabielere snelheidsmetingen opleveren dan GPS- (Doppler)-waarden. Standaard is UIT.</string>
     <string name="pref_background_pattern_dialog_title">Menu achtergrond</string>
     <string name="pref_ads_mode_title">Reclame weergeven</string>
     <string name="pref_maps_track_draw_summary">Bewegingen op de kaart intekenen</string>
     <string name="pref_maps_fences_draw_title">Afschermen</string>
     <string name="pref_maps_fences_draw_summary">Toon FenceGuard beveiligde gebieden op de kaart</string>
     <string name="pref_maps_animate_title">Animatie</string>
-    <string name="pref_maps_animate_summary">(Alle profielen) Uitschakelen om de accu te sparen, vooral wanneer volgmodus geactiveerd is</string>
+    <string name="pref_maps_animate_summary">Schakel uit om het batterijgebruik te verminderen, vooral als de volgmodus is ingeschakeld</string>
     <string name="pref_maps_offline_warning_summary">Waarschuwing: Sommige online gegevens kunnen zelfs in de offline modus worden opgehaald. Schakel eventueel mobiel internet uit voordat u kaarten gebruikt.</string>
     <string name="pref_maps_routes_draw_title">Routebeschrijvingen</string>
-    <string name="pref_maps_routes_draw_summary">Geef geselcteerde GPX route als stippellijn op de kaart weer</string>
-    <string name="pref_maps_routes_info_summary">Ter verlichting van de navigatie worden er geen visuele of akoestische signalen weergegeven</string>
+    <string name="pref_maps_routes_draw_summary">Teken geselecteerde GPX-routes over de kaart</string>
+    <string name="pref_maps_routes_info_summary">De gidsroute is eenvoudigweg een lijn die over de kaart wordt getrokken en die u kunt volgen. Gebruik de navigatiefunctie voor stapsgewijze instructies.</string>
     <string name="pref_maps_quickZoom_title">Snelle zoom knoppen</string>
-    <string name="pref_maps_quickZoom_summary">(Alle profielen) Verborgen snelle zoom knop activeren in het onderste kaartgedeelte. Verbeterd de orientatie</string>
+    <string name="pref_maps_quickZoom_summary">Schakel onzichtbare snelle zoomknoppen in het onderste gedeelte van de kaart in</string>
     <string name="pref_maps_quickZoomInvert_title">Omgekeerd</string>
     <string name="pref_maps_quickZoomInvert_summary">Positie zoom in / uit knop wisselen</string>
     <string name="pref_maps_offline_terrain_title">Genereer terrein</string>
-    <string name="pref_maps_offline_terrain_summary">(Alle profielen) Genereer reliëfkaart met hoogtelijnen. Kaart oogt realistischer maar is mogelijk langzamer. De benodigde topografische hoogte bestanden (.hgt) moeten in de zelfde folder als de kaarten staan.</string>
+    <string name="pref_maps_offline_terrain_summary">Render terreinhoogtetinten. De kaart ziet er realistischer uit, maar waarschijnlijk langzamer. Vereist DEM-bestanden (.hgt) die aanwezig zijn in de kaartmap.</string>
     <string name="pref_maps_offline_terrain_info_title">Download nu</string>
     <string name="pref_maps_offline_terrain_info_summary">Downloadpagina op viewfinderpanoramas.org openen.</string>
     <string name="prefUnitsSlopeEntries_0">Procent [％]</string>
@@ -944,7 +959,7 @@
     <string name="pref_category_maps_weather_title">Weer</string>
     <string name="pref_text_automatic">Automatisch</string>
     <string name="sensorProperitesActivityRecognition">Herkenning fysieke activiteit</string>
-    <string name="sensorProperitesActivityRecognitionInfo">De sensor levert alleen gegevens als uw fysieke activiteit wordt herkend als compatibel met sensordoel. De stappenteller telt bijvoorbeeld stappen tijdens het lopen of hardlopen, niet tijdens het fietsen. Let op, dit is mogelijk niet 100% nauwkeurig en kan de werking doen vertragen. Google Play-services zijn vereist.</string>
+    <string name="sensorProperitesActivityRecognitionInfo">De Sensor verstrekt alleen gegevens als wordt vastgesteld dat uw fysieke activiteit compatibel is met het doel van de sensor. De stappensensor telt bijvoorbeeld stappen tijdens het lopen of rennen, niet tijdens het fietsen. Let op: dit is mogelijk niet nauwkeurig en kan traag zijn. Google Play-services zijn vereist.</string>
     <string name="meterModeFTPowerShort">ftp</string>
     <string name="summaryProfileNameInfo">Gebruikt profiel voor dit traject.</string>
     <string name="summaryDeviceNameInfo">Toestel gebruikt voor de opname van dit traject.</string>
@@ -969,112 +984,116 @@
     <string name="cloudAccountsPowerUploadPolicy_0">Altijd (standaard)</string>
     <string name="cloudAccountsPowerUploadPolicy_1">Uitsluitend uploaden na gebruik van de prestatiemeter</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Actie lagenknop</string>
-    <string name="pref_mapsOfflineLayerButtonActionSummary">(Alle profielen) Wat er moet gebeuren als de lagenknop ingedrukt wordt</string>
+    <string name="pref_mapsOfflineLayerButtonActionSummary">Kies wat er moet gebeuren als de laagknop wordt ingedrukt</string>
     <string name="pref_maps_offline_terrain_usage_summary">Gebruik: unzip .hgt-bestanden uit de gedownloade zip (s) en plaats deze in dezelfde map als het offline kaartbestand (gebruik geen aparte submap).</string>
     <string name="pref_mapsWeatherPrecipitationRadar_title">Neerslagradar</string>
-    <string name="maptilerMapsFeatures">🔹 MapTiler kaarten
-\n🔹 Advertentie vrij</string>
+    <string name="maptilerMapsFeatures">✔️ MapTiler premium-kaarten
+\n✔️ Navigatie
+\n✔️ Online hoogtebasislijn
+\n✔️ Geen advertenties
+\n✔️ Alle gratis functies en kaarten</string>
     <string name="dialogMapsChooseTitle">Kies kaart</string>
-    <string name="freeLicenseFeatures">❌ Premiumkaarten
+    <string name="freeLicenseFeatures">❌ Premium-kaarten
 \n❌ Navigatie
+\n❌ Online hoogtebasislijn
 \n❌ Geen advertenties
 \n✔️ Alle gratis functies en kaarten</string>
     <string name="speechRadius">Straal: %1$s</string>
     <string name="dialogCloudAccountDisconnectMessage">Dit account ontkoppelen\?</string>
     <string name="prefProhibitLocationTitle">Gebruik Locatie niet</string>
-    <string name="infoMeterModeHumidityMsg">Relatieve omgevingsvochtigheid zoals gemeten met het apparaat of een externe sensor.</string>
+    <string name="infoMeterModeHumidityMsg">Relatieve luchtvochtigheid zoals gemeten met het apparaat of een externe sensor.</string>
     <string name="sensorProperitesUseForTemperature">Gebruik voor temperatuur</string>
-    <string name="dialogLayoutEmptyInfoMessage">Er dient minimaal één meter aanwezig te zijn in de opstelling.</string>
-    <string name="prefMapDiskCacheSizeTitle">Limiet voor de grootte van de kaartcache</string>
-    <string name="navigationStopPrompt">Hou op</string>
+    <string name="dialogLayoutEmptyInfoMessage">In de opstelling dient minimaal één meter aanwezig te zijn.</string>
+    <string name="prefMapDiskCacheSizeTitle">Limiet voor kaartcachegrootte</string>
+    <string name="navigationStopPrompt">Stop</string>
     <string name="pref_categoryPrivacyTitle">Privacy</string>
     <string name="infoSpeedometerTitle">Snelheidsmeter</string>
-    <string name="prefMapDiskCacheSizeEntries_5">400 MB</string>
+    <string name="prefMapDiskCacheSizeEntries_5">400MB</string>
     <string name="prefMapDiskCacheAgeEntries_7">90 dagen</string>
     <string name="prefMapDiskCacheSizeEntries_1">50MB</string>
     <string name="infoMeterModeElapsedTitle">Verstreken tijd</string>
-    <string name="aboutScreenChangeLogLink">Versie wijzigingslogboek</string>
-    <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ varieert van 0 tot 10%, standaard is 1%. Als u de AutoTerrain-functie gebruikt, ga dan uit van een basiswaarde voor glad terrein (ondergrens), aangezien de app over het algemeen de coëfficiënt op ruwer terrein zal verhogen.</string>
+    <string name="aboutScreenChangeLogLink">Versiewijzigingslogboek</string>
+    <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ varieert van 0 tot 10%, de standaardwaarde is 1%. Als u de AutoTerrain-functie gebruikt, ga dan uit van een basiswaarde voor vlak terrein (ondergrens), aangezien de app de coëfficiënt over het algemeen op ruwer terrein zal verhogen.</string>
     <string name="navigationAvoidIndoor">Vermijd binnenshuis</string>
-    <string name="dialogReviewNudgeMessage">Geniet je van Urban Biker\?</string>
+    <string name="dialogReviewNudgeMessage">Vind je Urban Biker leuk\?</string>
     <string name="timePeriod_per6Months">per 6 maanden</string>
-    <string name="pref_categoryTrackingButtonTitle">Tracking-knop</string>
+    <string name="pref_categoryTrackingButtonTitle">Opnameknop</string>
     <string name="trackUploadActivityTypes_4">Zwemmen</string>
     <string name="infoMeterModeAltitudeMsg">Hoogte boven gemiddeld zeeniveau (geoïde).</string>
     <string name="speechTrackingStart">Begin</string>
     <string name="pref_soundeffects_navigation_summary">Geluid bij navigatiegebeurtenissen</string>
-    <string name="menuInsertAbove">Bovenstaande</string>
+    <string name="menuInsertAbove">Boven</string>
     <string name="pref_gps_update_freq_entries_6">4 sec</string>
     <string name="sensorProperitesUseForHumidity">Gebruik voor vochtigheid</string>
     <string name="prefScreensaverDimBrightnessEntries_2">⅓ van de huidige helderheid (standaard)</string>
     <string name="pref_speechNavigation_title">Navigatie</string>
-    <string name="menuProperties">Eigendommen…</string>
+    <string name="menuProperties">Eigenschappen…</string>
     <string name="sensorFilterInterval_2">7 seconden</string>
-    <string name="prefMapTrackColorTitle">Volg kleur</string>
-    <string name="pref_autopause_modes_explanation_1">Gooi alleen pauzes langer dan 5 minuten weg</string>
+    <string name="prefMapTrackColorTitle">Kleur bijhouden</string>
+    <string name="pref_autopause_modes_explanation_1">Weggooien pauzeert alleen langer dan 5 minuten</string>
     <string name="sensorFilterInterval_1">5 seconden</string>
-    <string name="pref_categoryActivityRecognitionTitle">Herkenning van lichamelijke activiteit</string>
-    <string name="dialogReviewNudgeMessage2">Bedankt! Schrijf een leuke recensie of beoordeel ons met 5 sterren in de Play Store.</string>
+    <string name="pref_categoryActivityRecognitionTitle">Herkenning van fysieke activiteit</string>
+    <string name="dialogReviewNudgeMessage2">Bedankt! Schrijf een mooie recensie of beoordeel ons met 5 sterren in de Play Store.</string>
     <string name="timePeriod_per3Months">per 3 maanden</string>
     <string name="infoMeterModeEfficacyTitle">Werkzaamheid (cumulatief)</string>
     <string name="infoMeterModeVerticalSpeedMsg">Snelheid in verticale richting omhoog (positief) of omlaag (negatief).</string>
     <string name="timePeriod_perYear">per jaar</string>
-    <string name="menuMeterClockShowSeconds">Toon seconden</string>
+    <string name="menuMeterClockShowSeconds">Seconden weergeven</string>
     <string name="prefBarometricAltitudeDisableAlert">Barometrische hoogte uitschakelen\?</string>
     <string name="pref_gps_update_freq_entries_2">Standaard</string>
     <string name="menuScreenshot">Schermafbeelding</string>
-    <string name="speechAscent">Beklimming: %1$s</string>
+    <string name="speechAscent">Klimmen: %1$s</string>
     <string name="menuAutomaticBell">Automatische bel</string>
     <string name="meterVerticalWeight">Verticaal gewicht</string>
     <string name="speechUnitTwoFeets">Voeten</string>
     <string name="speechUnitManyLitersOfGasoline">Liter benzine</string>
-    <string name="speechTrackingGpsOk">Gps oke</string>
+    <string name="speechTrackingGpsOk">GPS oké</string>
     <string name="trackUploadActivityTypes_3">Wandeltocht</string>
     <string name="prefMapDiskCacheAgeEntries_5">45 dagen</string>
-    <string name="prefSteadyScreenNote2">Verwacht alsjeblieft geen wonderen. Als deze functie niet goed voor u werkt, schakelt u deze gewoon uit.</string>
+    <string name="prefSteadyScreenNote2">Dit werkt het beste bij langzamere bewegingen, zoals zwaaien met de telefoon tijdens het lopen, maar ook aan het stuur tijdens het rijden of in een auto tijdens het rijden.</string>
     <string name="prefScreenPocketModeDelayEntries_4">0,40 seconden</string>
     <string name="navigationAvoidFerries">Vermijd veerboten</string>
-    <string name="toastSteadyScreenModeActive">SteadyScreen actief</string>
-    <string name="dialogLayoutChooseTitle">Lay-out</string>
+    <string name="toastSteadyScreenModeActive">Schermstabilisatie ingeschakeld</string>
+    <string name="dialogLayoutChooseTitle">Indeling</string>
     <string name="menuSpeedoPaceIndicator">Tempo-indicator</string>
-    <string name="pref_screensaverDimBrightnessDialogTitle">Screensaver dim helderheid</string>
+    <string name="pref_screensaverDimBrightnessDialogTitle">Screensaver gedimde helderheid</string>
     <string name="meterHorizontalWeight">Horizontaal gewicht</string>
     <string name="summaryDragging">Sleuren</string>
     <string name="sensorProperitesUseForPressure">Gebruik voor druk</string>
     <string name="meterModes_18">Cadans</string>
     <string name="prefSteadyScreenModeOff">Uit</string>
     <string name="pref_gps_update_freq_entries_3">1 seconde</string>
-    <string name="meterModes_0">Looptijd</string>
+    <string name="meterModes_0">Duur</string>
     <string name="meterModes_14">Gem. snelheid</string>
     <string name="infoSpeedometerMsg">Toont uw huidige, maximale en gemiddelde snelheid.
 \n
-\nStall-indicator geeft aan wanneer de snelheidswaarde een tijdje niet is bijgewerkt en niet kan worden vertrouwd.
+\nDe stallingsindicator geeft aan wanneer de snelheidswaarde al een tijdje niet is bijgewerkt en niet te vertrouwen is.
 \n
-\nTempo-indicator zijn kleine pijltjes in de buurt van de snelheidswaarde die aangeven wanneer de huidige snelheid boven of onder de gemiddelde snelheid ligt.</string>
-    <string name="toastSteadyScreenModeIntelligentActive">SteadyScreen intelligent actief</string>
+\nTempo-indicator zijn kleine pijltjes bij de snelheidswaarde die aangeven wanneer de huidige snelheid boven of onder de gemiddelde snelheid ligt.</string>
+    <string name="toastSteadyScreenModeIntelligentActive">Schermstabilisatie intelligent ingeschakeld</string>
     <string name="prefAppVisualThemeEntries_1">Licht</string>
     <string name="pref_screensaverTimeout_summary">Tijdsperiode zonder gebruikersinteractie totdat de screensaver wordt geactiveerd.</string>
     <string name="prefScreensaverTimeoutEntries_4">30 seconden</string>
     <string name="timePeriod_perWeek">per week</string>
-    <string name="menuInsertMeter">Voer de meter in</string>
-    <string name="prefAutoTerrainNote2Summary">Krachten verkregen met behulp van een vermogenssensor worden niet beïnvloed door deze functie.</string>
+    <string name="menuInsertMeter">Meter</string>
+    <string name="prefAutoTerrainNote2Summary">Vermogens verkregen met behulp van een vermogenssensor worden niet beïnvloed door deze functie.</string>
     <string name="menuMeterShowValue">Waarde</string>
     <string name="pref_background_pattern_entries_6">Wolken</string>
-    <string name="pref_autopause_modes_explanation_2">Bewaar alle pauzes (tenzij handmatig gepauzeerd)</string>
+    <string name="pref_autopause_modes_explanation_2">Alle pauzes behouden (tenzij handmatig gepauzeerd)</string>
     <string name="dialogRevokeAccessPromptMessage">Toegang intrekken\?</string>
     <string name="menuSpeedo">Snelheidsmeter</string>
     <string name="speechUnitOneLiterOfGasoline">Liter benzine</string>
-    <string name="pref_roaring_mode_entries_0">Automatisch tarief en volume</string>
+    <string name="pref_roaring_mode_entries_0">Automatische snelheid en volume</string>
     <string name="pref_speechProfileName_title">Profielnaam</string>
-    <string name="infoMeterModeFuncThresholdPowerMsg">Geschat maximaal vermogen dat gedurende langere tijd kan worden volgehouden.
+    <string name="infoMeterModeFuncThresholdPowerMsg">Geschat maximaal vermogen dat gedurende langere perioden kan worden gehandhaafd.
 \n
 \nDe schatting is sterk afhankelijk van het type en de duur van deze activiteit.</string>
     <string name="licenseItemAlreadyOwned">Licentie-item al in bezit</string>
-    <string name="prefSteadyScreenModeOnInfo">Houd de SteadyScreen-functie altijd actief tijdens het volgen. Dit kan meer batterij verbruiken.</string>
+    <string name="prefSteadyScreenModeOnInfo">Houd de schermstabilisatiefunctie altijd actief tijdens het volgen. Dit kan meer batterij verbruiken terwijl het scherm is ingeschakeld.</string>
     <string name="summaryVibrations">Trillingen</string>
-    <string name="summaryVehicleWeightInfo">Gewicht van het gebruikte voertuig tijdens het opnemen van deze track.</string>
+    <string name="summaryVehicleWeightInfo">Gewicht van het voertuig dat werd gebruikt tijdens het opnemen van dit nummer.</string>
     <string name="unitNewtonPerKg">N/kg</string>
-    <string name="disclaimerText1">Deze app wordt geleverd zoals deze is en u gebruikt deze op eigen risico. Wij, de uitgever, kunnen niet verantwoordelijk worden gehouden voor enig ongeluk, verlies van bezit, letsel of erger waarbij u of een derde persoon betrokken is, voortkomend uit het gebruik van de app tijdens een rit of anderszins.</string>
+    <string name="disclaimerText1">Deze app wordt geleverd zoals hij is en u gebruikt deze op eigen risico. Wij, de uitgever, kunnen niet verantwoordelijk worden gehouden voor enig ongeluk, bezitsverlies, letsel of erger waarbij u of een derde persoon betrokken is, voortvloeiend uit app-gebruik tijdens een rit of anderszins.</string>
     <string name="menuRevokeAccess">Toegang intrekken</string>
     <string name="pref_flashlightBlinkModes_1">Snel</string>
     <string name="meterModes_11">Groen. stroom</string>
@@ -1082,17 +1101,17 @@
     <string name="meterModes_16">Verstreken tijd</string>
     <string name="pref_speechNavigation_summary">Spreek navigatie</string>
     <string name="menuSpeedoNeedle">Naald</string>
-    <string name="prefBaroAltitudeUsesTemperatureTitle">Thermo-barometer</string>
+    <string name="prefBaroAltitudeUsesTemperatureTitle">Thermobarometer</string>
     <string name="pref_speechGnssStatus_title">GPS</string>
     <string name="menuMeterShowChart">Grafiek</string>
     <string name="pref_speechToasts_title">Korte aantekeningen</string>
     <string name="speechUnitOneMile">Mijl</string>
-    <string name="prefMapDiskCacheSizeEntries_11">5GB</string>
+    <string name="prefMapDiskCacheSizeEntries_11">5 GB</string>
     <string name="navigationLoadingData">Routebeschrijving laden…</string>
-    <string name="summaryVehicleWeight">Voertuig gewicht</string>
+    <string name="summaryVehicleWeight">Gewicht voertuig</string>
     <string name="pref_soundeffects_tally_energy_title">Energie</string>
-    <string name="menuSpeedoStallIndicator">Stall-indicator</string>
-    <string name="speechTrackingStop">Hou op</string>
+    <string name="menuSpeedoStallIndicator">Stalling-indicator</string>
+    <string name="speechTrackingStop">Stop</string>
     <string name="sensorPurposeHumidity">Vochtigheid</string>
     <string name="meterModes_13">Versnelling</string>
     <string name="infoMeterModeFuncThresholdPowerTitle">Functioneel drempelvermogen</string>
@@ -1102,12 +1121,12 @@
     <string name="menuSelectOther">Selecteer anders</string>
     <string name="pref_mapsWeatherAnimate_info">Radaranimatie kan tot 5x meer internetgegevens gebruiken dan een statisch radarbeeld.</string>
     <string name="controlPanelMapHideButtonSubtitle">Klik om de kaart te verbergen</string>
-    <string name="summaryDriverWeight">Gewicht bestuurder</string>
+    <string name="summaryDriverWeight">Gewicht van de bestuurder</string>
     <string name="trackUploadActivityTypes_8">Ski</string>
-    <string name="prefUnitsSlopeEntries_2">Promille [‰]</string>
-    <string name="prefMapDiskCacheAgeTitle">Leeftijdsgrens kaartcache</string>
+    <string name="prefUnitsSlopeEntries_2">Per duizend [‰]</string>
+    <string name="prefMapDiskCacheAgeTitle">Leeftijdsgrens voor kaartcache</string>
     <string name="sensorPurposeTemperature">Temperatuur</string>
-    <string name="pref_background_pattern_entries_5">Kassei</string>
+    <string name="pref_background_pattern_entries_5">Kasseisteen</string>
     <string name="speechEnergy">Energie: %1$s</string>
     <string name="meterModes_20">Overbrengingsverhouding</string>
     <string name="prefBarometricAltitudeTitle">Barometrische hoogte</string>
@@ -1117,75 +1136,75 @@
     <string name="pref_mapsFollowMode_summary">Houd de kaart gecentreerd op uw huidige locatie</string>
     <string name="speechClock">Klok: %1$s</string>
     <string name="openSourceLicensesTitle">Open source-licenties</string>
-    <string name="pref_mapsShowAttribution_summary">Toeschrijvingstekst weergeven voor andere online kaarten dan Google. Uitschakelen om te voorkomen dat u per ongeluk op een link klikt.</string>
+    <string name="pref_mapsShowAttribution_summary">Toon toeschrijvingstekst voor andere online kaarten dan Google. Schakel dit uit om te voorkomen dat u per ongeluk op een link klikt.</string>
     <string name="prefScreensaverDimBrightnessEntries_1">⅕ van de huidige helderheid</string>
     <string name="summaryAccelerating">Versnellen</string>
     <string name="meterModes_22">Kronkelen</string>
     <string name="infoMeterModeCadenceMsg">Aantal omwentelingen van de crank per minuut, d.w.z. trapsnelheid.</string>
     <string name="infoAppUpdateMessage">De update is klaar.</string>
-    <string name="pref_mapsWeatherPrecipitationRadar_summary">Neerslagradarlaag tonen</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_summary">Toon neerslagradarlaag</string>
     <string name="aboutScreenTranslationsTitle">Vertalingen</string>
-    <string name="prefActivityRecognitionNoteSummary">Deze opties zijn afhankelijk van de functie voor fysieke activiteitsherkenning van Android. Het is misschien niet nauwkeurig en kan laggy zijn, gebruik het alleen als u dat goed vindt. Werkt het beste wanneer een snelheidssensor wordt gebruikt voor afstand en duur.</string>
+    <string name="prefActivityRecognitionNoteSummary">Deze opties zijn afhankelijk van de Android-functie voor het herkennen van fysieke activiteiten. Het is mogelijk niet nauwkeurig en kan laggy zijn, gebruik het alleen als u dat goed vindt. Werkt het beste wanneer een snelheidssensor wordt gebruikt voor afstand en duur.</string>
     <string name="prefScreensaverDimBrightnessEntries_3">½ van de huidige helderheid</string>
     <string name="infoMeterModeElapsedMsg">Duur van de reis, inclusief alle pauzes maar exclusief stops.</string>
     <string name="pref_gps_update_freq_entries_11">30 sec</string>
-    <string name="pref_soundeffects_autopause_summary">Geluid op automatisch pauzeren en hervatten detectie</string>
+    <string name="pref_soundeffects_autopause_summary">Geluid bij automatische pauze- en hervattingsdetectie</string>
     <string name="prefScreenPocketModeDelayEntries_0">Geen vertraging (standaard)</string>
-    <string name="batteryOptimizationToast">Selecteer Urban Biker in de lijst</string>
-    <string name="infoMeterModeRadiusMsg">Hemellijnafstand vanaf de beginpositie van de baan, d.w.z. verplaatsing.</string>
-    <string name="prefSteadyScreenModeAuto">Intelligent actief (standaard)</string>
+    <string name="batteryOptimizationToast">Selecteer Urban Biker uit de lijst</string>
+    <string name="infoMeterModeRadiusMsg">Afstand in rechte lijn tot de startlocatie, d.w.z. verplaatsing.</string>
+    <string name="prefSteadyScreenModeAuto">Intelligent ingeschakeld (standaard)</string>
     <string name="prefBackKeyModeEntries_0">Normaal</string>
     <string name="mapMarkerClickInfo">Klik voor opties</string>
-    <string name="infoMeterModeKineticEnergyMsg">Hoogte boven grondniveau waar uw potentiële energie gelijk zou zijn aan uw huidige kinetische energie.
+    <string name="infoMeterModeKineticEnergyMsg">De hoogte die je zou bereiken door een lange helling op te \"loslaten\" zonder te remmen.
 \n
-\nMet andere woorden, uw snelheid is gelijk aan de snelheid die u zou hebben na een val van deze hoogte (de luchtweerstand buiten beschouwing gelaten).
+\nOf, als u een muur zou raken, zou de impactkracht dezelfde zijn als die van een val vanaf deze hoogte.
 \n
-\nEvenzo is het de hoogte die u zou bereiken door alleen recht omhoog te gaan met alleen uw kinetische energie-inhoud.</string>
+\nDit getal neemt toe met het kwadraat van de snelheid, en is nuttig uit veiligheidsoverwegingen.</string>
     <string name="pref_gps_update_freq_entries_13">1 minuut</string>
     <string name="dialogBluetoothPermissionRequest">Er is toestemming nodig zodat de app draadloze sensoren kan vinden en er verbinding mee kan maken.</string>
     <string name="pref_speechCountdown_summary">Spreek aftellen</string>
     <string name="pref_gps_update_freq_entries_5">3 sec</string>
     <string name="prefAppVisualThemeEntries_0">Systeemfout</string>
     <string name="summaryClimbingEnergyInfo">Percentage van de energie dat werd gebruikt om de zwaartekracht te overwinnen.</string>
-    <string name="sensorProperitesNoAlarm">Alarmeer niet</string>
-    <string name="prefGnssActivityRecognitionSummary">Herken stilstaan versus bewegen voor GPS. Kan vertragingen en verloren afstanden veroorzaken na een pauze, maar voorkomt de meeste GPS-ruis.</string>
+    <string name="sensorProperitesNoAlarm">Maak geen alarm</string>
+    <string name="prefGnssActivityRecognitionSummary">Herken stilstand versus beweging voor GPS. Dit kan vertraging en enige verloren afstand of hoogte na een pauze veroorzaken, maar zal de meeste GPS-ruis voorkomen.</string>
     <string name="prefTrackingButtonModeTitle">Alternatief gedrag</string>
     <string name="meterModes_19">Hartslag</string>
     <string name="dialogLayoutChoosePrompt">De huidige lay-out wordt overschreven.
 \n
 \nDe geselecteerde lay-out toepassen\?</string>
-    <string name="trackUploadActivityTypes_1">Rennen</string>
-    <string name="pref_speechAutoPause_summary">Spreek op automatische pauze en hervat detectie</string>
+    <string name="trackUploadActivityTypes_1">Loop</string>
+    <string name="pref_speechAutoPause_summary">Spreek over automatische pauze- en hervattingsdetectie</string>
     <string name="dialogWeatherInfoMessage">Radargegevens worden elke 10 minuten bijgewerkt. Een gevuld pictogram geeft nieuwe gegevens aan, een leeg pictogram betekent dat er een update nabij is.
 \n
 \nGele en rode kleuren tonen gebieden met meer neerslag.
 \n
-\nRadargegevens van het afgelopen uur kunnen worden geanimeerd om neerslagtrends te onthullen.</string>
+\nDe radargegevens van het afgelopen uur kunnen worden geanimeerd om neerslagtrends zichtbaar te maken.</string>
     <string name="dialogLoginUsernameHint">Gebruikersnaam</string>
     <string name="dialogCopyingMessage">Kopiëren…</string>
     <string name="navigationContinue">Doorgaan</string>
     <string name="summaryRollResistCoefAverageInfo">Gemiddelde rolweerstandscoëfficiënt, als de coëfficiënt tijdens de activiteit veranderde.</string>
-    <string name="dialogOfflineMapsChooseMessage">Kaartbestand niet gevonden of niet toegankelijk. Nu een ander kaartenbestand/map kiezen\?</string>
+    <string name="dialogOfflineMapsChooseMessage">Kaartbestand niet gevonden of niet toegankelijk. Kies nu een ander kaartbestand/map\?</string>
     <string name="disclaimerText3">Houd uw ogen altijd op de weg gericht.</string>
     <string name="meterModes_8">Doeltreffendheid</string>
     <string name="navigationAvoidTolls">Vermijd tollwegen</string>
-    <string name="prefScreensaverDimBrightnessEntries_4">Laat het zoals het is</string>
-    <string name="infoMeterModePowerMsg">Kracht uitgeoefend tijdens activiteit, als gevolg van sleepkrachten, hoogteveranderingen, enz.
+    <string name="prefScreensaverDimBrightnessEntries_4">Laat het hierbij</string>
+    <string name="infoMeterModePowerMsg">Kracht die wordt uitgeoefend tijdens activiteit, als gevolg van sleepkrachten, hoogteverandering, enz.
 \n
-\nNegatief betekent vermogenswinst, b.v. bij het afdalen of remmen.
+\nNegatief betekent vermogenswinst, b.v. wanneer u bergafwaarts gaat of remt.
 \n
-\nIn kcal/h of kJ/h houdt het ook rekening met efficiëntie en BMR.</string>
+\nIn kcal/u of kJ/u wordt ook rekening gehouden met efficiëntie en BMR.</string>
     <string name="pref_flashlightBlinkModes_0">Langzaam (standaard)</string>
-    <string name="prefAdModes_1">Google</string>
-    <string name="pref_flashlightBlinkModeToggleEnable_summary">Schakel de flikkermodus in met een klik op de knop terwijl de zaklamp is ingeschakeld</string>
+    <string name="prefAdModes_1">Googlen</string>
+    <string name="pref_flashlightBlinkModeToggleEnable_summary">Schakel de flikkermodus in met een druk op de knop terwijl de zaklamp is ingeschakeld</string>
     <string name="prefScreensaverTimeoutEntries_0">5 seconden</string>
-    <string name="powerSourceWeight_3">Chauffeur + Voertuig</string>
+    <string name="powerSourceWeight_3">Bestuurder + voertuig</string>
     <string name="pref_gps_update_freq_entries_12">45 sec</string>
     <string name="dialogLoginPasswordHint">Wachtwoord</string>
     <string name="menuChooseFolder">Map</string>
     <string name="menuNarrow">Smal</string>
     <string name="speechTrackingPause">Pauze</string>
-    <string name="toastSteadyScreenModeOff">SteadyScreen uitgeschakeld</string>
+    <string name="toastSteadyScreenModeOff">Schermstabilisatie uitgeschakeld</string>
     <string name="prefTemperatureSensorDerivedSummary">Dit apparaat heeft geen omgevingstemperatuursensor, maar ruwe waarden kunnen worden afgeleid met behulp van andere interne sensoren (zoals CPU-temperatuur).</string>
     <string name="dialogLicenseUpgradeButton2">Bekijk promovideo</string>
     <string name="meterModes_7">Energie</string>
@@ -1193,41 +1212,41 @@
     <string name="meterModes_24">Druk</string>
     <string name="infoMeterModeHeartRateTitle">Hartslag</string>
     <string name="pref_flashlightBlinkMode_dialogTitle">Zaklamp flikkert</string>
-    <string name="speechUnitManyMeters">Meter</string>
-    <string name="prefBarometricAltitudeNoteSummary">Gebruik deze alleen in de open lucht! Gelieve uit te schakelen in voertuigen die onder druk staan, gesloten zijn of voorzien zijn van airconditioning, zoals auto\'s of vliegtuigen!</string>
-    <string name="prefSteadyScreenTitle">Scherm stabilisatie</string>
-    <string name="navigationLoadFromFilePrompt">Er is een fout opgetreden bij het laden van nieuwe routebeschrijvingen van internet.
+    <string name="speechUnitManyMeters">Meters</string>
+    <string name="prefBarometricAltitudeNoteSummary">Gebruik deze alleen in de open atmosfeer! Schakel deze functie uit in voertuigen onder druk, gesloten of met airconditioning, zoals auto\'s of vliegtuigen!</string>
+    <string name="prefSteadyScreenTitle">Schermstabilisatie</string>
+    <string name="navigationLoadFromFilePrompt">Er is een fout opgetreden bij het laden van nieuwe routebeschrijvingen vanaf internet.
 \n
-\nWil je eerder gebruikte routebeschrijvingen uit een bestand laden\?</string>
-    <string name="trackUploadActivityTypes_2">Wandelen</string>
-    <string name="pref_speechToasts_summary">Spreek verschillende korte info-notities</string>
-    <string name="prefSteadyScreenModeAutoInfo">Activeer de SteadyScreen-functie alleen op hobbelig terrein tijdens het volgen. Dit is een goede balans tussen comfort en batterijgebruik.</string>
-    <string name="sensorProperitesUseForDuration">Gebruik voor duur</string>
+\nWilt u eerder gebruikte aanwijzingen uit een bestand laden\?</string>
+    <string name="trackUploadActivityTypes_2">Wandeling</string>
+    <string name="pref_speechToasts_summary">Spreek verschillende korte infonotities uit</string>
+    <string name="prefSteadyScreenModeAutoInfo">Activeer de schermstabilisatiefunctie alleen op hobbelig terrein tijdens het volgen. Dit is een goede balans tussen comfort en batterijgebruik.</string>
+    <string name="sensorProperitesUseForDuration">Gebruik voor de duur</string>
     <string name="menuNavigation">Navigeren</string>
-    <string name="menuCustomTracksFolder">Aangepaste tracksmap</string>
+    <string name="menuCustomTracksFolder">Aangepaste trackmap</string>
     <string name="buttonLater">Later</string>
     <string name="speechNavigationWrongWay">Verkeerde weg</string>
-    <string name="dialogLayoutsInfoTitle">Lay-outs</string>
-    <string name="prefTrackingButtonModeSummary">Klik of klik lang voor Pauze, aparte knop voor Stop.</string>
-    <string name="prefMapDiskCacheSizeEntries_9">3GB</string>
+    <string name="dialogLayoutsInfoTitle">Indelingen</string>
+    <string name="prefTrackingButtonModeSummary">(Alle profielen) Klik of klik lang voor Pauze, aparte knop voor Stop.</string>
+    <string name="prefMapDiskCacheSizeEntries_9">3 GB</string>
     <string name="controlPanelScreenshotButtonTitle">Schermafbeelding</string>
     <string name="prefAppVisualThemeEntries_2">Donker</string>
-    <string name="prefPressureSensorOffsetInfo">Deze constante wordt toegevoegd aan de drukuitlezingen en kan worden gebruikt om sensorbias te verminderen, indien aanwezig.</string>
+    <string name="prefPressureSensorOffsetInfo">Deze constante wordt toegevoegd aan drukuitlezingen en kan worden gebruikt om sensorafwijkingen te verminderen, indien aanwezig.</string>
     <string name="menuInsertBelow">Onderstaand</string>
     <string name="pref_flashlightAutoPocketMode_title">Pocket mode</string>
     <string name="prefMapDiskCacheAgeEntries_6">60 dagen</string>
     <string name="prefMapDiskCacheSizeEntries_10">4GB</string>
     <string name="sensorFilterInterval_3">10 seconden</string>
-    <string name="infoDigitalFilterNotice">Let op: dit kan ongeveer een minuut worden vertraagd ten opzichte van de real-time vanwege onvermijdelijke digitale filtervertragingen.</string>
+    <string name="infoDigitalFilterNotice">Let op: dit kan soms merkbaar achterlopen op de realtime, vanwege onvermijdelijke digitale filtervertragingen die nodig zijn voor nauwkeurigheid.</string>
     <string name="speechUnitOneMinute">Minuut</string>
     <string name="menuMeter">Meter</string>
-    <string name="meterModes_29">FT-kracht</string>
+    <string name="meterModes_29">FT-vermogen</string>
     <string name="prefMapDiskCacheAgeEntries_0">1 dag</string>
-    <string name="dialogLayoutEmptyInfoTitle">Lay-out</string>
+    <string name="dialogLayoutEmptyInfoTitle">Indeling</string>
     <string name="pref_powermeter_parameters_info_summary">Zorg ervoor dat deze parameters correct zijn voor nauwkeurige vermogens- en energiemetingen!</string>
     <string name="dialogOfflineMapsChooseTitle">Probleem met offline kaarten</string>
     <string name="pref_mapsWeatherCoverage_summary">Schaduw gebieden waar geen neerslagradardekking is</string>
-    <string name="pref_screenAutoPocketModeDelay_summary">Dit vertraagt het uitschakelen van het display nadat de naderingssensor is geactiveerd</string>
+    <string name="pref_screenAutoPocketModeDelay_summary">Hierdoor wordt het uitschakelen van het display vertraagd nadat de nabijheidssensor is geactiveerd</string>
     <string name="prefAppVisualThemeSummary">(Alle profielen)</string>
     <string name="prefMapDiskCacheAgeEntries_2">10 dagen (standaard)</string>
     <string name="meterModes_25">Kilometerteller</string>
@@ -1235,51 +1254,51 @@
     <string name="summaryRollingEnergyInfo">Percentage van de energie dat werd gebruikt om de rolweerstand te overwinnen.</string>
     <string name="speechNavigationDestinationReached">U heeft de bestemming bereikt</string>
     <string name="menuSendDebugFeedback">Een probleem melden</string>
-    <string name="prefSteadyScreenModeOffInfo">Activeer nooit de SteadyScreen-functie</string>
+    <string name="prefSteadyScreenModeOffInfo">Activeer nooit de schermstabilisatiefunctie</string>
     <string name="pref_gps_update_freq_entries_9">15 sec</string>
-    <string name="prefMapOnlineModeEntries_1">offline</string>
+    <string name="prefMapOnlineModeEntries_1">Offline</string>
     <string name="sensorPurposePressure">Druk</string>
-    <string name="pref_speechTallies_title">klopt</string>
-    <string name="prefMapOfflineLayerButtonActionEntries_1">Wissel van bestand</string>
-    <string name="prefAutoTerrainTitle">AutoTerrain</string>
-    <string name="pref_soundeffects_tally_radius_dialog_title">Radius tellen</string>
-    <string name="speechUnitTwoMiles">mijlen</string>
+    <string name="pref_speechTallies_title">Tallies</string>
+    <string name="prefMapOfflineLayerButtonActionEntries_1">Bestand wisselen</string>
+    <string name="prefAutoTerrainTitle">AutoTerrein</string>
+    <string name="pref_soundeffects_tally_radius_dialog_title">Radius telling</string>
+    <string name="speechUnitTwoMiles">Mijlen</string>
     <string name="prefGnssActivityRecognitionTitle">Verminder GPS-ruis</string>
-    <string name="infoMeterModeDurationMsg">Duur van de reis, eventueel exclusief eventuele pauzes of tussenstops.</string>
+    <string name="infoMeterModeDurationMsg">Duur van de reis, eventueel exclusief eventuele pauzes of stops.</string>
     <string name="trackUploadActivityTypes_5">Surfen</string>
     <string name="prefBaroAltitudeUsesTemperatureSummary">Gebruik temperatuursensorgegevens voor nauwkeurigere barometrische hoogten, indien beschikbaar</string>
-    <string name="prefGnssAutomaticSleepSummary">Schakel locatie automatisch uit terwijl je stilstaat en weer aan wanneer beweging begint. Dit vermindert het batterijverbruik tijdens langere pauzes, zonder dat het volgen hoeft te worden gestopt.</string>
-    <string name="pref_screensaverEnable_summary">Dim het scherm na een time-out om de batterij te sparen. Raak het scherm aan om te ontgrendelen.</string>
+    <string name="prefGnssAutomaticSleepSummary">Schakel de locatie automatisch uit terwijl u stilstaat, en weer aan wanneer de beweging begint. Dit vermindert het batterijgebruik bij langere pauzes, zonder dat het volgen hoeft te worden gestopt.</string>
+    <string name="pref_screensaverEnable_summary">Dim het display na een time-out om de batterij te sparen. Raak het display aan om te ontgrendelen.</string>
     <string name="meterModeRadiusShort">rad</string>
-    <string name="prefMapDiskCacheSizeEntries_0">10 MB</string>
-    <string name="pref_soundeffects_tally_energy_dialog_title">Energie telling</string>
+    <string name="prefMapDiskCacheSizeEntries_0">10MB</string>
+    <string name="pref_soundeffects_tally_energy_dialog_title">Energietelling</string>
     <string name="prefMapDiskCacheAgeEntries_1">5 dagen</string>
     <string name="dialogBluetoothPermissionRequestTitle">Bluetooth-toestemming</string>
-    <string name="prefGpsBoostNoteSummary">Locatie-updates worden tijdens navigatie altijd naar de hoogste frequentie geforceerd</string>
+    <string name="prefGpsBoostNoteSummary">Locatie-updates worden tijdens de navigatie altijd naar de hoogste frequentie geforceerd</string>
     <string name="freeLicenseTitle">Gratis vergunning</string>
     <string name="prefUnitsSlopeEntries_1">Graad [°]</string>
     <string name="prefMapDiskCacheAgeEntries_3">15 dagen</string>
     <string name="pref_mapsFollowAutorotateMode_summary">Houd de rijrichting naar boven gericht</string>
-    <string name="prefNoSoundInsideFenceSummary">Maak geen geluiden terwijl u zich binnen een omheining bevindt, behalve de alarmen.</string>
+    <string name="prefNoSoundInsideFenceSummary">Maak geen geluiden binnen een hek, behalve de alarmsignalen.</string>
     <string name="meterModes_21">Klok</string>
     <string name="dialogMeterModesTitle">Kies beschikbare modi</string>
     <string name="meterModes_17">Tempo</string>
     <string name="speechUnitTwoMinutes">Minuten</string>
     <string name="prefMeterSettingsNoteSummary">Meer instellingen zijn beschikbaar via een menu dat toegankelijk is door lang op een meterveld te klikken.</string>
-    <string name="speechDescent">Neerzetten: %1$s</string>
+    <string name="speechDescent">Daling: %1$s</string>
     <string name="unitNewtonPerLb">N/lb</string>
     <string name="pref_speechMasterSwitch_title">Inschakelen</string>
     <string name="navigationDestinationReached">Bestemming</string>
     <string name="pref_speechCountdown_title">Aftellen</string>
-    <string name="prefAutoTerrainNote1Summary">Het apparaat moet tijdens het gebruik vast aan een voertuig worden vastgehouden (bijvoorbeeld aan het stuur van een fiets) en niet in een hand of in een zak.</string>
+    <string name="prefAutoTerrainNote1Summary">Het apparaat moet tijdens het gebruik vast aan een voertuig worden gehouden (bijvoorbeeld op het stuur van een fiets) en niet in een hand of in een zak.</string>
     <string name="prefAdModes_0">Elk</string>
     <string name="infoMeterModeHeartRateMsg">Aantal hartslagen per minuut.</string>
-    <string name="menuInsertSpeedo">Snelheidsmeter plaatsen</string>
-    <string name="summaryDeviceAutoPauseCount">Aantal automatische pauzes</string>
+    <string name="menuInsertSpeedo">Snelheidsmeter</string>
+    <string name="summaryDeviceAutoPauseCount">Automatische pauzetelling</string>
     <string name="pref_screensaverEnable_title">Screensaver</string>
     <string name="speechUnitTwoKilometers">Kilometers</string>
     <string name="menuChooseFile">Bestand</string>
-    <string name="infoMeterModeGearRatioMsg">Verhouding tussen wielomwentelingen en pedaalomwentelingen per tijdseenheid, d.w.z. verhouding tussen de afmetingen van het voortandwiel en het achtertandwiel. Hoger getal betekent hogere versnelling.</string>
+    <string name="infoMeterModeGearRatioMsg">Verhouding wielomwentelingen versus pedaalomwentelingen per tijdseenheid, d.w.z. verhouding tussen de maten van het voortandwiel en het achtertandwiel. Een hoger getal betekent een hogere versnelling.</string>
     <string name="menuSpeedoIndicatorMax">Indicator max</string>
     <string name="powerSourceWeight_1">Bestuurder</string>
     <string name="infoAppUpdateAction">Herstarten</string>
@@ -1289,7 +1308,7 @@
     <string name="pref_background_pattern_entries_3">Luipaard</string>
     <string name="pref_mapsWeatherAnimate_title">Animeren</string>
     <string name="speechNavigationGotOffRoute">Je bent van de route afgeweken</string>
-    <string name="menuSpeedoBellButton">Bel knop</string>
+    <string name="menuSpeedoBellButton">Belknop</string>
     <string name="menuMove">Beweging</string>
     <string name="pref_autopause_modes_explanation_0">Negeer alle pauzes langer dan enkele seconden</string>
     <string name="infoMeterModeGearRatioTitle">Overbrengingsverhouding</string>
@@ -1298,9 +1317,9 @@
     <string name="prefScreenPocketModeDelayEntries_1">0,10 seconden</string>
     <string name="navigationAvoidMotorways">Vermijd snelwegen</string>
     <string name="menuWiden">Verbreden</string>
-    <string name="unitMphPerSec">mph/s</string>
-    <string name="disclaimerText2">Gebruik deze app verstandig en gebruik deze NIET tijdens het autorijden, motorrijden, fietsen of een ander voertuig.</string>
-    <string name="aboutScreenWarmWelcome">Ik hoop dat je geniet van deze app 😊</string>
+    <string name="unitMphPerSec">mph/sec</string>
+    <string name="disclaimerText2">Gebruik deze app verstandig en gebruik hem NIET tijdens het autorijden, motorrijden, fietsen of een ander voertuig.</string>
+    <string name="aboutScreenWarmWelcome">Ik hoop dat je deze app leuk vindt 😊</string>
     <string name="prefMapOfflineLayerButtonActionEntries_2">Geen</string>
     <string name="speechIncreasing">Stijgende lijn</string>
     <string name="controlPanelScreenshotButtonSubtitle">Klik om schermafbeelding te delen</string>
@@ -1310,18 +1329,18 @@
     <string name="infoMeterModeKineticEnergyTitle">Kinetische energie</string>
     <string name="menuInsertLeft">Links</string>
     <string name="defaultProfileNameSki">Skiën 🎿</string>
-    <string name="pref_mapsShowAttribution_title">Naamsvermelding</string>
-    <string name="pref_mapsWeatherAnimate_summary">Animeer de laatste 1 uur aan radargegevens om u te helpen de neerslagtrend te visualiseren</string>
+    <string name="pref_mapsShowAttribution_title">Toeschrijving</string>
+    <string name="pref_mapsWeatherAnimate_summary">Animeer de radargegevens van het laatste uur, zodat u de neerslagtrend kunt visualiseren</string>
     <string name="meterModes_4">Beklimming</string>
     <string name="trackUploadActivityTypes_7">Skateboard</string>
-    <string name="prefSteadyScreenNote1">Deze functie helpt je om het scherm iets duidelijker te zien tijdens het rijden op hobbelig terrein. Het beeld op het scherm wordt gestabiliseerd door snelle kleine bewegingen toe te passen die externe trillingen proberen tegen te gaan.</string>
+    <string name="prefSteadyScreenNote1">Met deze functie kunt u het scherm onderweg een beetje duidelijk zien. Het beeld op het scherm wordt gestabiliseerd door snelle kleine bewegingen toe te passen die externe trillingen proberen tegen te gaan.</string>
     <string name="powerSourceWeight_0">Totaal</string>
-    <string name="pref_flashlightBlinkMode_title">modus</string>
+    <string name="pref_flashlightBlinkMode_title">Modus</string>
     <string name="menuMeterShowIcon">Icoon</string>
     <string name="pref_speechTrackingStatus_title">Volgen</string>
-    <string name="prefMapOfflineLayerButtonActionEntries_0">Wissel van thema</string>
+    <string name="prefMapOfflineLayerButtonActionEntries_0">Van thema wisselen</string>
     <string name="prefAdModes_3">Geen</string>
-    <string name="infoMeterModeWriggleMsg">Maat voor de afwijking van de route van een rechte lijn, d.w.z. hoeveel deze het gebied vult in plaats van rechtdoor te gaan. Lager is meestal beter.</string>
+    <string name="infoMeterModeWriggleMsg">Maatstaf voor de afwijking van de route ten opzichte van een rechte lijn, d.w.z. hoeveel deze het gebied vult in plaats van rechtdoor te gaan. Lager is meestal beter.</string>
     <string name="speechUnitTwoHours">Uur</string>
     <string name="speechAltitude">Hoogte: %1$s</string>
     <string name="pref_category_mainScreenVisualTheme">Hoofdscherm</string>
@@ -1329,130 +1348,128 @@
     <string name="speechNavigationContinue">Doorgaan</string>
     <string name="prefMapDiskCacheSizeEntries_4">300MB</string>
     <string name="pref_background_pattern_entries_4">Steen</string>
-    <string name="pref_mapsWeatherCoverage_title">Dekkend masker</string>
-    <string name="summaryInaccurateLocationZoneCountInfo">Het aantal keren dat de app locatie-updates begon te weigeren vanwege hun onnauwkeurigheid.
+    <string name="pref_mapsWeatherCoverage_title">Dekkingsmasker</string>
+    <string name="summaryInaccurateLocationZoneCountInfo">Aantal keren dat de app locatie-updates begon te weigeren vanwege hun onnauwkeurigheid.
 \n
-\nLet op, gebieden waar helemaal geen locatie-updates zijn (bijvoorbeeld binnenshuis) hebben geen invloed op dit aantal.</string>
+\nLet op: gebieden waar helemaal geen locatie-updates zijn (bijvoorbeeld binnenshuis) hebben geen invloed op dit aantal.</string>
     <string name="infoMeterModeVerticalPowerMsg">Vermogensverlies of -winst tijdens het stijgen of dalen.
 \n
 \nNegatief betekent vermogenswinst (aflopend).
 \n
-\nIn kcal/h of kJ/h wordt ook rekening gehouden met efficiëntie.</string>
-    <string name="prefNotificationAlwaysSummary">Toon app-meldingspictogram te allen tijde in de systeemstatusbalk, niet alleen wanneer tracking actief is.</string>
+\nIn kcal/u of kJ/u wordt ook rekening gehouden met de efficiëntie.</string>
+    <string name="prefNotificationAlwaysSummary">Toon te allen tijde het app-meldingspictogram in de systeemstatusbalk, niet alleen wanneer tracking actief is.</string>
     <string name="prefScreensaverTimeoutEntries_8">5 minuten</string>
     <string name="meterModes_27">Stappen</string>
-    <string name="pref_flashlightBlinkModes_2">Geen / stabiel</string>
+    <string name="pref_flashlightBlinkModes_2">Geen / Stabiel</string>
     <string name="trackUploadActivityTypes_9">Snowboarden</string>
     <string name="aboutScreenTranslationsText">Help deze app te vertalen en ontvang een gratis licentie! Meer informatie:</string>
-    <string name="infoMeterModeVibrationsMsg">Trillingen zoals gemeten met het apparaat. Handig wanneer het apparaat vast aan een voertuig wordt vastgehouden (bijvoorbeeld aan het stuur van een fiets), en niet in een hand of zak.</string>
+    <string name="infoMeterModeVibrationsMsg">Trillingen zoals gemeten met het apparaat. Handig wanneer het apparaat vast aan een voertuig wordt gehouden (bijvoorbeeld op het stuur van een fiets) en niet in een hand of in een zak.</string>
     <string name="prefScreensaverTimeoutEntries_1">10 seconden</string>
-    <string name="dialogCustomTracksFolderInfoMessage">Met deze functie kan de app tracks lezen uit een map naar keuze, naast de standaard trackmap - waarvan de locatie onlangs is gewijzigd.
+    <string name="dialogCustomTracksFolderInfoMessage">Met deze functie kan de app nummers lezen uit een map naar keuze, naast de hoofdmap met nummers, waarvan de locatie onlangs is gewijzigd.
 \n
-\nDergelijke tracks zijn alleen-lezen: ze kunnen worden bekeken en gedeeld, maar kunnen niet worden bewerkt, hervat of verwijderd.
-\n
-\nAls je het niet zeker weet, probeer dan de map \"Documents-UrbanBiker-tracks\" op het volgende scherm te vinden.</string>
+\nDergelijke tracks zijn alleen-lezen: ze kunnen worden bekeken en gedeeld, maar kunnen niet worden bewerkt, hervat of verwijderd.</string>
     <string name="prefScreensaverDimBrightnessEntries_0">Minimum</string>
     <string name="buttonShow">Show</string>
     <string name="meterModes_5">Herkomst</string>
-    <string name="menuReset">Resetten</string>
+    <string name="menuReset">Opnieuw instellen</string>
     <string name="prefGnssAutomaticSleepTitle">GPS automatische slaapstand</string>
-    <string name="toastScreensaverModeActive">Screensaver-modus actief</string>
+    <string name="toastScreensaverModeActive">Screensavermodus actief</string>
     <string name="meterModes_28">Stap cadans</string>
     <string name="infoMeterModePressureMsg">Omgevingsdruk zoals gemeten met het apparaat of een externe sensor.</string>
     <string name="controlPanelMapHideButtonTitle">Kaart verbergen</string>
-    <string name="prefMapGuideRouteColorTitle">Gids route kleur</string>
+    <string name="prefMapGuideRouteColorTitle">Kleur gidsroute</string>
     <string name="pref_gps_update_freq_entries_0">Snelste</string>
     <string name="prefScreensaverTimeoutEntries_2">15 seconden</string>
     <string name="speechUnitManyFeets">Voeten</string>
     <string name="infoMeterModeVibrationsTitle">Trillingen</string>
-    <string name="dialogOfflineMapsFolderCopyMessage">Geselecteerde inhoud moet worden gekopieerd naar de app-specifieke kaartenmap om te kunnen worden gebruikt.
+    <string name="dialogOfflineMapsFolderCopyMessage">Geselecteerde inhoud moet worden gekopieerd naar de app-specifieke map Maps om te kunnen worden gebruikt.
 \n
-\nDoe je dit nu\?</string>
+\nDoe dit nu\?</string>
     <string name="speechUnitOneMeter">Meter</string>
     <string name="navigationRouteTooLong">Sorry, deze bestemming is te ver weg</string>
     <string name="pref_screenAutoPocketModeDelay_title">Vertraging</string>
-    <string name="controlPanelMapShowButtonSubtitle">Klik om de kaart te tonen</string>
+    <string name="controlPanelMapShowButtonSubtitle">Klik om de kaart weer te geven</string>
     <string name="unitKmhPerSec">km/u</string>
-    <string name="summaryRollResistCoefAverage">Roll resist coef. gemiddeld</string>
+    <string name="summaryRollResistCoefAverage">Rolweerstand coef. gemiddeld</string>
     <string name="pref_mapsFollowAutoZoomMode_summary">Pas het zoomniveau van de kaart aan op basis van de huidige snelheid</string>
     <string name="infoMeterModeSlopeTitle">Helling</string>
-    <string name="dialogLayoutsInfoMessage">Wijzig snel de weergavelay-out vanuit een reeks vooraf gedefinieerde lay-outs.
+    <string name="dialogLayoutsInfoMessage">Wijzig snel de weergave-indeling van een reeks vooraf gedefinieerde indelingen.
 \n
 \nKlik vervolgens lang op een veld om de weergave verder aan te passen via pop-upmenu\'s.
 \n
-\nStaande en liggende schermoriëntaties hebben volledig onafhankelijke lay-outs.</string>
+\nDe schermoriëntaties staand en liggend hebben volledig onafhankelijke lay-outs.</string>
     <string name="prefMapDiskCacheAgeEntries_4">30 dagen</string>
     <string name="prefScreenPocketModeDelayEntries_5">0,50 seconden</string>
     <string name="sensorFilterInterval_0">3 seconden (standaard)</string>
     <string name="infoMeterModeVerticalPowerTitle">Verticale kracht</string>
     <string name="meterModes_2">Snelheid</string>
     <string name="infoContentSize">Inhoudsgrootte: %1$d MB</string>
-    <string name="speechUnitManyMiles">mijlen</string>
-    <string name="pref_track_charts_title">Grafiektypen…</string>
+    <string name="speechUnitManyMiles">Mijlen</string>
+    <string name="pref_track_charts_title">Diagramtypen…</string>
     <string name="meterModes_26">Kinetische energie</string>
     <string name="menuRemove">Verwijderen</string>
     <string name="aboutScreenFacebookLink">Stadsfietser op Facebook</string>
     <string name="infoMeterModeTemperatureMsg">Omgevingstemperatuur zoals gemeten met het apparaat of een externe sensor.</string>
     <string name="infoMeterModePressureTitle">Druk</string>
     <string name="meterModes_31">Vochtigheid</string>
-    <string name="pref_mapsLayerTraffic_summary">Toon real-time verkeersinformatie</string>
-    <string name="pref_track_charts_summary">Kies verschillende activiteitsparameters om bij elke track als grafieken op te slaan. Snelheids- en hoogtegegevens worden altijd opgeslagen.</string>
+    <string name="pref_mapsLayerTraffic_summary">Toon realtime verkeersinformatie</string>
+    <string name="pref_track_charts_summary">Kies verschillende activiteitsparameters die bij elke track als grafieken moeten worden opgeslagen. Snelheids- en hoogtegegevens worden altijd opgeslagen.</string>
     <string name="infoMeterModeStepCadenceMsg">Aantal stappen per minuut.</string>
-    <string name="menuShowTotals">Toon totalen</string>
+    <string name="menuShowTotals">Totalen weergeven</string>
     <string name="prefScreensaverTimeoutEntries_6">1 minuut</string>
-    <string name="summaryDeviceAutoPauseCountInfo">Het aantal keren dat automatisch pauzeren is geactiveerd tijdens deze activiteit.</string>
-    <string name="prefProhibitLocationAlertInfo">De locatie wordt nooit ingeschakeld of gebruikt tijdens activiteit, dus de kaart is niet beschikbaar.
+    <string name="summaryDeviceAutoPauseCountInfo">Aantal keren dat automatisch pauzeren is geactiveerd tijdens deze activiteit.</string>
+    <string name="prefProhibitLocationAlertInfo">De locatie wordt nooit ingeschakeld of gebruikt tijdens activiteiten, dus de kaart is niet beschikbaar.
 \n
-\nGegevens worden exclusief verkregen van andere sensoren, indien beschikbaar (kracht, snelheid, cadans, hartslag, stappen, omgeving).</string>
-    <string name="prefNoSoundInsideFenceTitle">Geen geluiden binnen omheining</string>
+\nGegevens worden uitsluitend verkregen van andere sensoren, indien beschikbaar (vermogen, snelheid, cadans, hartslag, stappen, omgeving).</string>
+    <string name="prefNoSoundInsideFenceTitle">Geen geluiden binnen het hek</string>
     <string name="prefMapOnlineModeEntries_0">Online</string>
     <string name="pref_soundsMasterSwitch_title">Alle geluiden</string>
     <string name="meterModes_9">Stroom</string>
     <string name="pref_gps_update_freq_entries_7">5 sec</string>
     <string name="prefMapDiskCacheSizeEntries_2">100 MB (standaard)</string>
-    <string name="speechDecreasing">laten vallen</string>
-    <string name="powerSourceWeightTitle">Gewicht van de stroombron</string>
+    <string name="speechDecreasing">Laten vallen</string>
+    <string name="powerSourceWeightTitle">Gewicht krachtbron</string>
     <string name="pref_soundeffects_autopause_title">Automatische pauze</string>
-    <string name="prefMapDiskCacheSizeEntries_6">500 MB</string>
+    <string name="prefMapDiskCacheSizeEntries_6">500MB</string>
     <string name="pref_mapsWeatherAnimateForecast_summary">Animeer ook 30 minuten radarvoorspelling in verschillende kleuren</string>
     <string name="menuBell">Klok</string>
     <string name="menuInsertRight">Rechts</string>
     <string name="menuSpeedoScale">Schaal</string>
-    <string name="infoMeterModeSlopeMsg">Helling (helling), een getal dat de helling van het terrein beschrijft waarbij nul horizontaal is. Een hoger getal betekent een steilere klim en een negatief cijfer is een afdaling.</string>
+    <string name="infoMeterModeSlopeMsg">Helling (gradiënt), een getal dat de kanteling van het terrein beschrijft, waarbij nul horizontaal is. Een hoger getal betekent een steilere klim, en een negatief getal betekent een afdaling.</string>
     <string name="menuSelect">Selecteer</string>
-    <string name="menuLayout">Lay-out</string>
+    <string name="menuLayout">Indeling</string>
     <string name="pref_category_tracking_charts_title">Grafieken</string>
     <string name="trackUploadDescriptionDefault">Bijgehouden met de mobiele app Urban Biker</string>
     <string name="pref_roaring_mode_entries_1">Automatisch tarief</string>
     <string name="prefScreensaverTimeoutEntries_3">20 seconden (standaard)</string>
-    <string name="menuSpeedoAppearance">Uiterlijk</string>
-    <string name="dialogChartDataTypesTitle">Grafiek typen</string>
+    <string name="menuSpeedoAppearance">Verschijning</string>
+    <string name="dialogChartDataTypesTitle">Grafiektypen</string>
     <string name="meterModeHumidityShort">brommen</string>
     <string name="mapPlaceSearch">Waarheen\?</string>
     <string name="meterModes_6">Helling</string>
-    <string name="prefSteadyScreenModeOn">Actief</string>
-    <string name="prefMapDiskCacheSizeEntries_7">1GB</string>
-    <string name="prefAutoTerrainSummary">Detecteer de ruwheid van het terrein door trillingen te meten en pas de rolweerstandscoëfficiënt (Cᵣᵣ) dienovereenkomstig aan bij het berekenen van het vermogen.</string>
+    <string name="prefSteadyScreenModeOn">Ingeschakeld</string>
+    <string name="prefMapDiskCacheSizeEntries_7">1 GB</string>
+    <string name="prefAutoTerrainSummary">Ontdek de ruwheid van het terrein door trillingen te meten en pas de rolweerstandscoëfficiënt (Cᵣᵣ) dienovereenkomstig aan bij het berekenen van de rekenkracht.</string>
     <string name="speechUnitOneKilometer">Kilometer</string>
     <string name="infoMeterModeStepCountTitle">Stappen</string>
     <string name="prefScreenPocketModeDelayEntries_7">1 seconde</string>
-    <string name="pref_speechProfileName_summary">(Alle profielen) Spreek de profielnaam uit bij de profielschakelaar</string>
+    <string name="pref_speechProfileName_summary">(Alle profielen) Spreek de profielnaam uit bij profielschakelaar</string>
     <string name="pref_roaring_type_entries_3">Electrisch voertuig</string>
     <string name="pref_soundeffects_navigation_title">Navigatie</string>
-    <string name="dialogLayoutChooseSubtitle">Kies weergave-indeling</string>
+    <string name="dialogLayoutChooseSubtitle">Kies de weergave-indeling</string>
     <string name="pref_category_units_common_title">Maateenheden (alle profielen)</string>
-    <string name="summaryBasalEnergyInfo">Percentage van de energie dat werd gebruikt voor basaal metabolisme.</string>
-    <string name="toastLocationUnavailable">Je locatie is nog steeds niet beschikbaar</string>
+    <string name="summaryBasalEnergyInfo">Percentage van de energie dat werd gebruikt voor het basaal metabolisme.</string>
+    <string name="toastLocationUnavailable">Uw locatie is nog steeds niet beschikbaar</string>
     <string name="meterModes_30">Straal</string>
     <string name="tracksHistoryChartEmptyInfo">Niets om te laten zien</string>
     <string name="prefScreenPocketModeDelayEntries_2">0,20 seconden</string>
     <string name="menuInsert">Invoegen</string>
-    <string name="defaultProfileNameScooter">Scootmobiel 🛴</string>
-    <string name="pref_speechTallies_summary">Spreek kloppen</string>
+    <string name="defaultProfileNameScooter">Scooter🛴</string>
+    <string name="pref_speechTallies_summary">Spreek overeenkomsten</string>
     <string name="pref_soundeffects_tally_radius_title">Straal</string>
-    <string name="infoAutopauseForcedRelaxed">Opmerking: Auto Pause geforceerd naar Relaxed</string>
+    <string name="infoAutopauseForcedRelaxed">Let op: Automatische pauze gedwongen naar Ontspannen</string>
     <string name="pref_speechAutoPause_title">Automatische pauze</string>
-    <string name="pref_speechTrackingStatus_summary">Spreek wanneer het volgen begint, stopt en pauzeert</string>
+    <string name="pref_speechTrackingStatus_summary">Spreek wanneer het volgen start, stopt en pauzeert</string>
     <string name="summaryBasal">Basaal</string>
     <string name="speechUnitManyMinutes">Minuten</string>
     <string name="powerSourceWeight_2">Voertuig</string>
@@ -1461,7 +1478,7 @@
     <string name="speechUnitTwoLitersOfGasoline">Liter benzine</string>
     <string name="pref_group_activityRecognition_title">Activiteitsherkenning</string>
     <string name="pref_roaring_mode_entries_3">Constant tijdens het bewegen</string>
-    <string name="pref_mapsWeatherPrecipitationRadar_info">Radargegevens worden van internet gedownload, zelfs wanneer offline kaarten worden gebruikt. Het wordt elke 10 minuten automatisch vernieuwd terwijl de kaart zichtbaar is. Gegevensbron is RainViewer.com.</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_info">Radargegevens worden gedownload van internet, zelfs als offline kaarten worden gebruikt. Het wordt automatisch elke 10 minuten vernieuwd zolang de kaart zichtbaar is. Gegevensbron is RainViewer.com.</string>
     <string name="trackUploadActivityTypes_6">Zeil</string>
     <string name="controlPanelMapShowButtonTitle">Kaart weergeven</string>
     <string name="menuSpeedoValue">Waarde</string>
@@ -1478,37 +1495,37 @@
     <string name="summaryAcceleratingEnergyInfo">Percentage van de energie dat werd gebruikt om te versnellen.</string>
     <string name="prefScreenPocketModeDelayEntries_6">0,75 seconden</string>
     <string name="summaryDraggingEnergyInfo">Percentage van de energie dat werd gebruikt om de luchtweerstand te overwinnen.</string>
-    <string name="infoAutopauseForcedOff">Opmerking: Auto Pause geforceerd naar Uit</string>
+    <string name="infoAutopauseForcedOff">Opmerking: Auto Pause wordt gedwongen uitgeschakeld</string>
     <string name="navigationWrongWay">Verkeerde weg</string>
-    <string name="menuHideTotals">Verberg totalen</string>
+    <string name="menuHideTotals">Totalen verbergen</string>
     <string name="generalError">Er is een fout opgetreden. Probeer het opnieuw.</string>
     <string name="speechUnitManyKilometers">Kilometers</string>
-    <string name="pref_screensaverDimBrightness_title">Gedimde helderheid</string>
+    <string name="pref_screensaverDimBrightness_title">Dim helderheid</string>
     <string name="meterModes_12">Groen. snelheid</string>
     <string name="prefTemperatureSensorDerivedTitle">Gebruik afgeleide sensor</string>
-    <string name="tracksHistoryGrantAccess">Ontbrekende sporen\?
-\nKlik hier om alleen-lezen toegang te verlenen tot een map met aangepaste tracks…</string>
-    <string name="pref_speechGnssStatus_summary">Spreek over GPS-statusverandering (goed, slecht)</string>
+    <string name="tracksHistoryGrantAccess">Ontbrekende nummers\?
+\nKlik hier om alleen-lezen toegang te verlenen tot een aangepaste map met nummers…</string>
+    <string name="pref_speechGnssStatus_summary">Spreek over verandering van GPS-status (goed, slecht)</string>
     <string name="meterModeHumidity">vochtigheid</string>
     <string name="navigationStepsInfo">Navigatie-instructies verschijnen hier terwijl u zich verplaatst. Verberg of verschuif dit paneel naar wens.</string>
     <string name="summaryRolling">Rollen</string>
-    <string name="speechUnitTwoMeters">Meter</string>
+    <string name="speechUnitTwoMeters">Meters</string>
     <string name="pref_background_pattern_entries_7">Harten</string>
     <string name="meterModes_None">Geen</string>
-    <string name="prefMapDiskCacheSizeEntries_8">2GB</string>
+    <string name="prefMapDiskCacheSizeEntries_8">2 GB</string>
     <string name="licenseUpgradeTitle">Upgrade uw licentie</string>
-    <string name="summaryDriverWeightInfo">Gewicht van de coureur (of berijder) gebruikt tijdens het opnemen van deze track.</string>
+    <string name="summaryDriverWeightInfo">Gewicht van de bestuurder (of rijder) die is gebruikt tijdens het opnemen van dit nummer.</string>
     <string name="pref_roaring_mode_entries_2">Automatisch volume</string>
     <string name="freeLicenseLabel">Vrij</string>
-    <string name="prefAppVisualThemeDialogTitle">App visueel thema</string>
+    <string name="prefAppVisualThemeDialogTitle">Visueel app-thema</string>
     <string name="meterModes_15">Gem. stroom</string>
     <string name="pref_meterTitle">Meter</string>
     <string name="pref_background_pattern_entries_0">Geen</string>
-    <string name="dialogButtonRateOnPlayStore">Beoordeel in de Play Store</string>
-    <string name="prefMapDiskCacheSizeSummary">Bij het bekijken van een kaart, zowel online als offline, worden delen lokaal in de cache opgeslagen om de noodzaak van herhaaldelijk downloaden of recreëren te verminderen. Dit versnelt het laden van de kaart en spaart de batterij.</string>
+    <string name="dialogButtonRateOnPlayStore">Beoordeel in Play Store</string>
+    <string name="prefMapDiskCacheSizeSummary">Bij het bekijken van een kaart, zowel online als offline, worden delen lokaal in de cache opgeslagen om de noodzaak van herhaaldelijk downloaden of recreatie te verminderen. Dit versnelt het laden van de kaart en bespaart de batterij.</string>
     <string name="speechCountdownGo">Gaan!</string>
-    <string name="prefPressureSensorOffsetTitle">Druk offset</string>
-    <string name="veloHeroConnectButton">Maak contact met Velo Hero</string>
+    <string name="prefPressureSensorOffsetTitle">Drukcompensatie</string>
+    <string name="veloHeroConnectButton">Maak verbinding met Velo Hero</string>
     <string name="trackUploadActivityTypes_0">Fiets</string>
     <string name="navigationRouteNotFound">Sorry, er is geen route gevonden naar die bestemming</string>
     <string name="prefBarometricAltitudeSummary">Gebruik druksensorgegevens om de hoogtenauwkeurigheid te verbeteren, indien beschikbaar</string>
@@ -1516,7 +1533,7 @@
     <string name="prefNotificationAlwaysTitle">Aanhoudende melding</string>
     <string name="chartsTitle">Grafieken</string>
     <string name="infoMeterModeHumidityTitle">Vochtigheid</string>
-    <string name="unitGAccel">g</string>
+    <string name="unitGAccel">G</string>
     <string name="dialogLicenseUpgradeMessage">Voor deze functie is een abonnementslicentie vereist.
 \n
 \nU kunt ook een korte promovideo bekijken om gratis tegoed te krijgen.</string>
@@ -1524,25 +1541,130 @@
     <string name="prefOnlineMapsProviderTitle">Online kaartaanbieder</string>
     <string name="infoMeterModeStepCadenceTitle">Stap cadans</string>
     <string name="pref_category_units_per_profile_title">Maateenheden (per profiel)</string>
-    <string name="sensorProperitesNoAlarmInfo">Gebruik de sensor indien beschikbaar, maar verwittig of alarmeer niet wanneer deze niet beschikbaar is. Handig voor onbelangrijke sensoren die niet essentieel zijn voor een activiteit. Standaard uitgeschakeld.</string>
+    <string name="sensorProperitesNoAlarmInfo">Gebruik de sensor indien beschikbaar, maar geef geen melding of alarm wanneer deze niet beschikbaar is. Handig voor onbelangrijke sensoren die niet essentieel zijn voor een activiteit. Standaard uitgeschakeld.</string>
     <string name="pref_gps_update_freq_entries_10">20 sec</string>
     <string name="menuSpeedoDisplayMode">Weergavemodus</string>
     <string name="sensorProperitesFilterIntervalInfo">Filterinterval, d.w.z. sterkte van het filter. Grotere waarden filteren meer, maar introduceren ook meer vertraging.</string>
     <string name="speechSteps">Stappen: %1$s</string>
-    <string name="dialogOfflineMapsFolderCopyTitle">Kopieer naar map Maps</string>
-    <string name="navigationGotOffRoute">Van route</string>
-    <string name="infoMeterModeAvgActivePowerMsg">Gemiddeld vermogen uitgeoefend tijdens activiteit, tijdsintervallen zonder vermogen niet meegerekend (bergafwaarts, remmen, uitrollen).</string>
+    <string name="dialogOfflineMapsFolderCopyTitle">Kopieer naar de map Maps</string>
+    <string name="navigationGotOffRoute">Buiten de route</string>
+    <string name="infoMeterModeAvgActivePowerMsg">Gemiddelde kracht die tijdens activiteit wordt uitgeoefend, de tijdsintervallen waarin kracht afwezig was niet meegerekend (bergafwaarts, remmen, uitrollen).</string>
     <string name="meterModes_3">Hoogte</string>
     <string name="disclaimerTitle">Vrijwaring</string>
     <string name="infoMeterModeCadenceTitle">Cadans</string>
     <string name="meterModeRadius">straal</string>
     <string name="powerSourceWeightInfo">Bij het vertalen van vermogen (watt) naar specifiek vermogen (watt per gewichtseenheid) moet een gewicht worden opgegeven.
 \n
-\nDit is meestal het gewicht van de entiteit die een drijvende kracht vormt.
+\nDit is doorgaans het gewicht van de entiteit die de drijvende kracht is.
 \n
-\nOpmerking: Verticaal vermogen wordt altijd berekend op basis van het totale gewicht.</string>
+\nOpmerking: Het verticale vermogen wordt altijd berekend op basis van het totale gewicht.</string>
     <string name="prefBackKeyModeEntries_2">Dubbelklik op afsluiten</string>
     <string name="prefBackKeyModeEntries_1">Geen</string>
     <string name="pref_button_menu_show_summary">Toon de menuknop</string>
     <string name="pref_roaring_mode_entries_4">Actief boven drempelsnelheid</string>
+    <string name="dataStorageChooseButton">Kies de locatie voor gegevensopslag</string>
+    <string name="prefSteadyScreenImplementationNote">(Alle profielen) Voor externe implementatie moet een aparte app worden geïnstalleerd. Klik hier om de Play Store te openen.</string>
+    <string name="prefSteadyScreenImplementationTitle">Implementatie</string>
+    <string name="speechUnitThreeFeets">Voeten</string>
+    <string name="dialogMapsMapCountThreeMaps">%1$s kaarten</string>
+    <string name="dialogRecButtonInsertMessage">Hierdoor wordt de knop Opnemen hier ingevoegd en uit de knoppenbalk verwijderd. Doorgaan\?</string>
+    <string name="speechUnitFourFeets">Voeten</string>
+    <string name="dataStorageStatsTitle">Opslagstatistieken</string>
+    <string name="speechUnitThreeMinutes">Minuten</string>
+    <string name="speechUnitFourMinutes">Minuten</string>
+    <string name="pref_mapsLayerHeatmap_info">Dit kan je helpen nieuwe plekken te ontdekken waar je actief kunt zijn, vooral in afgelegen gebieden.</string>
+    <string name="dataStorageTransferInfoCount">Items verplaatst: %1$s van %2$s</string>
+    <string name="menuRemoveRecButton">Verwijder de Rec-knop</string>
+    <string name="pref_category_storage_title">Opslag</string>
+    <string name="dataStorageTransferInfoStatus">Status: %1$s</string>
+    <string name="licenseItemOwned">Momenteel eigendom</string>
+    <string name="dialogRecButtonRemoveMessage">Hierdoor wordt de knop Opnemen terug in de knoppenbalk geplaatst. Doorgaan\?</string>
+    <string name="inProgress">Bezig</string>
+    <string name="speechUnitThreeMiles">Mijlen</string>
+    <string name="dialogLayoutRemoveEntryMessage">Dit veld verwijderen\?</string>
+    <string name="dataStorageTransferInfoSpeed">Snelheid: %1$s MB/s (%2$s items/s)</string>
+    <string name="prefGpsIntervalAdaptiveSummary">Pas het GPS-update-interval automatisch aan tussen 1 en 5 seconden, afhankelijk van de snelheid.</string>
+    <string name="speechUnitFourMeters">Meters</string>
+    <string name="dataStorageInfo1">Het wordt aanbevolen om een aangepaste opslaglocatie voor uw tracks en gegevens te gebruiken om onbedoeld gegevensverlies te voorkomen als de app wordt verwijderd, en om back-ups eenvoudiger te maken.</string>
+    <string name="dialogEnterCodeMessage">Voer code in</string>
+    <string name="dataStorageTitle">Opslag</string>
+    <string name="pref_category_mapsRenderer">Renderer</string>
+    <string name="pref_category_onlineElevation_title">Online hoogte</string>
+    <string name="prefOnlineElevationNoteSummary1">Om de batterij en gegevens te sparen, wordt er slechts één hoogtepunt van internet opgehaald wanneer u een nieuwe track gaat volgen. Dit is voldoende om de rest van de baan een nauwkeurigere hoogtebasislijn te geven.</string>
+    <string name="prefGpsIntervalAdaptiveTitle">Aangepaste</string>
+    <string name="success">Succes</string>
+    <string name="prefOnlineElevationNoteSummary2">Als internet of de licentie niet beschikbaar zijn, blijft de app werken zonder de hoogte te corrigeren.</string>
+    <string name="dataStorageStatsMessage">%1$sMB
+\n%2$s artikelen</string>
+    <string name="prefOnlineElevationTitle">Online hoogte</string>
+    <string name="prefGoogleMapsRenderer_0">Standaard</string>
+    <string name="infoMeterModePowerBalanceTitle">Vermogensbalans L/R</string>
+    <string name="speechUnitFourMiles">Mijlen</string>
+    <string name="meterModeBatteryShort">bat</string>
+    <string name="prefSteadyScreenImplementationInternal">Intern (standaard)</string>
+    <string name="dialogMapsMapCountManyMaps">%1$s kaarten</string>
+    <string name="dialogNotificationPermissionRequestTitle">Toestemming voor kennisgeving</string>
+    <string name="pref_mapsOfflineFileSummary">Kaartbestanden moeten worden gekopieerd naar de app-specifieke kaartenmap om te kunnen worden gebruikt</string>
+    <string name="prefBatteryOptimizationTitle">Batterij-optimalisaties</string>
+    <string name="dialogNotificationPermissionRequest">Er is toestemming nodig zodat de app een doorlopende melding kan weergeven terwijl tracking actief is.</string>
+    <string name="prefGoogleMapsRendererSummary">Huidig: %1$s</string>
+    <string name="dialogRecButtonInsertTitle">Opnameknop invoegen</string>
+    <string name="speechUnitFourHours">Uur</string>
+    <string name="prefOnlineElevationNoteSummary3">Dit werkt alleen als er een abonnementslicentie beschikbaar is (Ultimate-licentie of een van de kaartlicenties).</string>
+    <string name="prefSteadyScreenImplementationInternalInfo">Gebruik onze eigen schermstabilisatie-implementatie. Gemakkelijker in gebruik, niet verstelbaar.</string>
+    <string name="prefMapShowBuildingsSummary">Toon de 3D-gebouwenlaag voor Google maps. Schakel dit uit om de kaartprestaties te verbeteren en het gebruik van bronnen te verminderen.</string>
+    <string name="prefBatteryOptimizationMessage">Urban Biker kan worden vrijgesteld van systeembatterij-optimalisaties, om er zeker van te zijn dat het goed blijft werken wanneer het scherm is uitgeschakeld in oudere versies van Android. Klik hier om de instellingen nu te openen.</string>
+    <string name="prefGoogleMapsRenderer_2">Laatste</string>
+    <string name="meterModes_10">Machtsevenwicht</string>
+    <string name="prefTrackingButtonFreePlacementTitle">Gratis plaatsing van de Rec-knop</string>
+    <string name="speechUnitFourKilometers">Kilometers</string>
+    <string name="computing">Computergebruik…</string>
+    <string name="prefMapsFolderExploreSummary">Beheer de inhoud van de app-specifieke map Maps met een bestandsverkenner-app</string>
+    <string name="dialogMapsAutoZoomSensitivity">Automatische zoomgevoeligheid</string>
+    <string name="menuInsertRecButton">Opnameknop</string>
+    <string name="dataStorageInfo2">Wanneer u de gegevensopslaglocatie wijzigt, worden de vorige app-gegevens automatisch overgebracht naar de nieuwe locatie. Dit gebeurt op de achtergrond en kan enige tijd duren.
+\n
+\nAls u de toegang intrekt, blijven de gegevens intact.</string>
+    <string name="prefGoogleMapsRendererInfo">Geeft aan welk type renderer u het liefst gebruikt om de kaarten weer te geven. De oudere renderer gebruikt mogelijk minder bronnen, terwijl de nieuwste meestal meer functies of een beter ontwerp heeft.</string>
+    <string name="dataStorageTransferInfoDuration">Duur: %1$s</string>
+    <string name="speechUnitThreeMeters">Meters</string>
+    <string name="toastGpsIntervalAdaptiveActive">Adaptief update-interval is actief</string>
+    <string name="dialogMapsShowHeatmap">Hittekaart</string>
+    <string name="buttonProceed">Doorgaan</string>
+    <string name="prefMapsFolderExploreTitle">Map Maps verkennen</string>
+    <string name="prefSteadyScreenImplementationExternalInfo">Hiervoor moet een aparte app worden geïnstalleerd. Verstelbaar.</string>
+    <string name="speechUnitThreeKilometers">Kilometers</string>
+    <string name="prefGpsIntervalAdaptiveNote">Adaptieve update-intervallen kunnen het batterijverbruik helpen verminderen als u langzaam beweegt of regelmatig pauzeert.</string>
+    <string name="speechUnitFourLitersOfGasoline">Liter benzine</string>
+    <string name="prefOnlineElevationSummary">Gebruik hoogtegegevens van internet om de nauwkeurigheid van de hoogtebasislijn te vergroten. Standaard ingeschakeld.</string>
+    <string name="pref_mapsFollowAutoZoomSensitivity_info">U kunt de automatische zoomgevoeligheid direct aanpassen door tijdens het volgen in of uit te zoomen</string>
+    <string name="pref_mapsLayerHeatmap_summary">Geaggregeerde publieke activiteiten van het afgelopen jaar tonen (van Strava)</string>
+    <string name="dataStorageNotSetMessage">De gegevensopslaglocatie is niet ingesteld, gebruik de bovenstaande knop.
+\n
+\nDe app gebruikt momenteel de standaardmap voor tracks en gegevens.</string>
+    <string name="tracksHistoryDataStorageLink">Waarschuwing: de app gebruikt de standaardmap voor tracks en gegevens. Klik hier om te wijzigen.</string>
+    <string name="menuMeterResume">Cv</string>
+    <string name="menuDataStorage">Locatie voor gegevensopslag</string>
+    <string name="meterModeBattery">accu</string>
+    <string name="navigationRerouteCmd">Klik om de route om te leiden</string>
+    <string name="infoMeterModeBatteryTitle">Accu</string>
+    <string name="infoMeterModeBatteryMsg">Batterijniveau van dit Android-apparaat.</string>
+    <string name="speechUnitThreeLitersOfGasoline">Liter benzine</string>
+    <string name="toastAutoBellButtonClickInfo">Klik lang om het automatische belgeluid in of uit te schakelen</string>
+    <string name="dataStorageTransferRetrying">Mislukt — zal het binnenkort opnieuw proberen</string>
+    <string name="prefTrackingButtonFreePlacementSummary">(Alle profielen) Hiermee kan de knop Opnemen overal in de lay-out worden geplaatst. Indien uitgeschakeld, staat de knop Opnemen vast op de knoppenbalk.</string>
+    <string name="prefGoogleMapsRenderer_1">Nalatenschap</string>
+    <string name="prefMapShowBuildingsTitle">Toon gebouwen</string>
+    <string name="meterModes_33">Accu</string>
+    <string name="prefSteadyScreenImplementationExternal">Extern</string>
+    <string name="dialogMapsMapCountTwoMaps">%1$s kaarten</string>
+    <string name="infoMeterModePowerBalanceMsg">Vermogensbalans, weergegeven als een fractie van de bijdragen links en rechts aan het totale vermogen.</string>
+    <string name="controlPanelFlashlight">Zaklamp</string>
+    <string name="speechUnitThreeHours">Uur</string>
+    <string name="dialogRecButtonRemoveTitle">Verwijder de Rec-knop</string>
+    <string name="pref_mapsLayerHeatmap_title">Hittekaart</string>
+    <string name="otherLicenses">Ander</string>
+    <string name="dataStorageTransferInfoTitle">Laatste wijziging</string>
+    <string name="recommendedLicense">Aanbevolen</string>
+    <string name="dialogMapsMapCountFourMaps">%1$s kaarten</string>
 </resources>
