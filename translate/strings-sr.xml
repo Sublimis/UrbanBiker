@@ -20,12 +20,12 @@
     <string name="cancel">Odustanite</string>
     <string name="buttonResumeTrack">Nastavite</string>
     <string name="menuSettings">Podešavanja</string>
-    <string name="menuSummary">Pregled</string>
+    <string name="menuSummary">Преглед</string>
     <string name="menuTracksHistory">Arhiva</string>
     <string name="menuTracksHistoryResume">Nastavite</string>
     <string name="menuMeterLock">Zaklj.</string>
     <string name="menuMeterLockAll">Zaključajte sve</string>
-    <string name="menuMeterMode">Režim brojača...</string>
+    <string name="menuMeterMode">Режим мерача</string>
     <string name="menuMeterChooseModes">Izaberite režime...</string>
     <string name="menuMeterResetMinMax">Resetovanje min/max</string>
     <string name="menuMeterParameters">Parametri…</string>
@@ -36,7 +36,7 @@
     <string name="menuView">Pogledajte</string>
     <string name="menuShare">Podelite</string>
     <string name="menuSelectAll">Izaberite sve</string>
-    <string name="menuDelete">Izbrišite</string>
+    <string name="menuDelete">Избриши</string>
     <string name="menuClose">Zatvorite</string>
     <string name="menuInfo">Info</string>
     <string name="share_title">Pošaljite preko</string>
@@ -75,7 +75,7 @@
     <string name="toastTrackResumeGpsActiveError">Molimo Vas, prvo isključite ili privremeno zaustavite GPS</string>
     <string name="toastContrastButtonClickInfo">Automatska vizuelna tema je aktivna</string>
     <string name="toastFlashlightButtonClickInfo">Zadržite klik za promenu režima svetla</string>
-    <string name="toastRoarButtonClickInfo">Zadržite klik za promenu režima zvuka</string>
+    <string name="toastRoarButtonClickInfo">Дуги клик да бисте укључили АВАС звук</string>
     <string name="toastMapButtonClickInfo">Zadržite klik za promenu režima mape</string>
     <string name="toastMapFollowingOn">Praćenje je uključeno</string>
     <string name="toastMapFollowingAutorotate">Automatska rotacija je uključena</string>
@@ -89,7 +89,7 @@
     <string name="dialog_default_color_dark_title">Tamna tema</string>
     <string name="dialog_default_color_text">Ovim ćete učitati osnovne boje. Da li ste sigurni\?</string>
     <string name="dialog_volume_bell_text">Zvono</string>
-    <string name="dialog_volume_roaring_text">Zvuk točka</string>
+    <string name="dialog_volume_roaring_text">АВАС</string>
     <string name="dialog_volume_effects_text">Efekti</string>
     <string name="dialog_volume_tallies_text">Deonice</string>
     <string name="dialog_volume_message">Napomena: Koristite dugmiće za zvuk na Vašem uređaju da biste podesili jačinu zvuka.</string>
@@ -126,7 +126,7 @@
     <string name="dialogTrackResumeWaitMessage">Nastavljanje, molimo sačekajte...</string>
     <string name="dialogTracksShareTitle">Podelite staze</string>
     <string name="dialogScreenHudMode">HUD režim ogledala</string>
-    <string name="dialogScreenOrientationAuto">Automatska orijentacija</string>
+    <string name="dialogScreenOrientationAuto">Аутоматски</string>
     <string name="dialogScreenOrientationPortrait">Portret</string>
     <string name="dialogScreenOrientationLandscape">Pejzaž</string>
     <string name="dialogScreenAutoTheme">Automatska tema</string>
@@ -144,7 +144,7 @@
     <string name="dialogPowerWeightsWeightWheels">Točkovi</string>
     <string name="dialogPowerParamsTitle">Koeficijenti gubljenja snage</string>
     <string name="dialogPowerParamsDragArea">Površina otpora vazduha (Cd·A)</string>
-    <string name="dialogPowerParamsRollResist">Koeficijent otpora kretanja (Crr)</string>
+    <string name="dialogPowerParamsRollResist">Коеф. отпора котрљања. (Цᵣᵣ)</string>
     <string name="dialogEnergyParamsTitle">Parametri energije</string>
     <string name="dialogEnergyParamsEfficiency">Ukupna termalna efikasnost (η)</string>
     <string name="dialogEnergyParamsBmr">Osnovna stopa metabolizma (BMR)</string>
@@ -256,7 +256,7 @@
     <string name="pref_category_autopause_title">Automatsko pauziranje</string>
     <string name="pref_category_resetPrompt_title">Obaveštenje o resetovanju</string>
     <string name="pref_category_bell_title">Zvono</string>
-    <string name="pref_category_roaring_title">Zvuk točka</string>
+    <string name="pref_category_roaring_title">АВАС</string>
     <string name="pref_category_effects_title">Efekti</string>
     <string name="pref_category_tallies_title">Deonice</string>
     <string name="pref_category_select_title">Izaberite...</string>
@@ -304,7 +304,7 @@
     <string name="pref_bell_shake_summary">Prodrmajte uređaj da bi se zvono oglasilo</string>
     <string name="pref_bell_shake_sensitivity_title">Osetljivost drmanja</string>
     <string name="pref_roaring_type_title">Vrsta</string>
-    <string name="pref_roaring_type_dialog_title">Vrsta zvuka točka</string>
+    <string name="pref_roaring_type_dialog_title">АВАС тип</string>
     <string name="pref_bg_color_title">Boja pozadine</string>
     <string name="pref_bg_color_summary">Izaberite željenu boju za pozadinu aplikacije</string>
     <string name="pref_fg_color_title">Boja teksta</string>
@@ -323,8 +323,8 @@
     <string name="pref_obey_audio_focus_disable_summary">Proizvodnja zvuka će se nastaviti čak i kada je audio fokus oduzet (od strane sistemskog obaveštenja ili druge aplikacije)</string>
     <string name="pref_audio_force_loudspeaker_title">Primorajte korišćenje zvučnika</string>
     <string name="pref_audio_force_loudspeaker_summary">Upozorenje: Eksperimentalna opcija, možda neće raditi. Pokušaj prebacivanja svih zvukova na zvučnik kada su povezane slušalice, izuzev telefonskih poziva.</string>
-    <string name="pref_duck_roaring_on_bell_title">Smanjenje jačine zvuka točka prilikom zvonjenja</string>
-    <string name="pref_duck_roaring_on_bell_summary">Smanjivanje jačine zvuka točka prilikom oglašavanja zvona</string>
+    <string name="pref_duck_roaring_on_bell_title">Дуцк АВАС на звону</string>
+    <string name="pref_duck_roaring_on_bell_summary">Смањите јачину звука АВАС када звоно зазвони</string>
     <string name="pref_relaunchAfterReboot_title">Automatsko pokretanje aplikacije nakon restartovanja</string>
     <string name="pref_resetPrompt_title">Obaveštenje o resetovanju</string>
     <string name="pref_auto_launch_on_gps_title">Automatsko pokretanje kada je GPS uključen</string>
@@ -333,9 +333,9 @@
     <string name="pref_passive_gps_button_summary">Omogućite pasivni režim rada GPS-a klikom na GPS dugme</string>
     <string name="pref_digital_font_title">Digitalna slova</string>
     <string name="pref_digital_font_summary">(Važi za sve profile) Korišćenje segmentiranih digitalnih LCD slova za prikaz ciklometarskih podataka</string>
-    <string name="pref_roaring_state_summary">Proizvodnja zvukova upozorenja prilikom kretanja</string>
+    <string name="pref_roaring_state_summary">Производи акустични систем за узбуњивање возила (АВАС) док се крећете</string>
     <string name="pref_roaring_mode_title">Režim</string>
-    <string name="pref_roaring_mode_dialog_title">Režim zvuka točka</string>
+    <string name="pref_roaring_mode_dialog_title">АВАС режим</string>
     <string name="pref_fenceguard_title">ZaštitnaOgrada</string>
     <string name="pref_fenceguard_summary">Zaštita i onemogućavanje pristupa lokaciji Vaše kuće ili drugih važnih mesta u snimljenim stazama</string>
     <string name="pref_autopause_mode_dialog_title">Automatsko pauziranje</string>
@@ -365,7 +365,7 @@
     <string name="pref_maps_offline_file_title">Izaberite datoteku ili fasciklu</string>
     <string name="pref_maps_offline_file_noFolderSelected">Nije odabrana nijedna fascikla.</string>
     <string name="pref_maps_offline_info_title">Preuzmite sada</string>
-    <string name="pref_maps_offline_info_summary">Podržane su Mapsforge vektorske (.map) i Rmaps rasterske (.sqlitedb) mape. Dostupne su na download.mapsforge.org</string>
+    <string name="pref_maps_offline_info_summary">Мапсфорге векторске (.мап) и Рмапс растерске (.склитедб) мапе су подржане. Доступно на довнлоад.мапсфорге.орг.</string>
     <string name="pref_maps_routes_files_title">Izaberite datoteku ili fasciklu</string>
     <string name="pref_maps_routes_files_dialog_title">Izaberite folder ili datoteku staza</string>
     <string name="pref_maps_routes_files_noFolderSelected">Nijedan folder nije izabran.</string>
@@ -377,8 +377,8 @@
     <string name="pref_button_flashlight_show_summary">Prikaz dugmeta Lampe (ukoliko je lampa dostupna)</string>
     <string name="pref_button_contrast_show_title">Sloj Kontrasta/Mape</string>
     <string name="pref_button_contrast_show_summary">Prikaz dugmeta za promenu režima sloja Kontrasta/Mape</string>
-    <string name="pref_button_roar_show_title">Zvuk točka</string>
-    <string name="pref_button_roar_show_summary">Prikaz dugmeta Zvuka točka</string>
+    <string name="pref_button_roar_show_title">АВАС</string>
+    <string name="pref_button_roar_show_summary">Прикажите дугме АВАС</string>
     <string name="pref_button_menu_show_title">Meni</string>
     <string name="pref_button_menu_show_summary">Prikaz dugmeta Meni</string>
     <string name="pref_meter_lock_title">Zaključani režim</string>
@@ -413,14 +413,14 @@
     <string name="infoMeterModeWriggleTitle">Odstupanje</string>
     <string name="infoMeterModeAltitudeTitle">Visina</string>
     <string name="infoMeterModeSpeedTitle">Brzina</string>
-    <string name="infoMeterModeSpeedMsg">Brzina — Trenutna, Maksimalna i Prosečna.</string>
+    <string name="infoMeterModeSpeedMsg">Тренутна пређена удаљеност у јединици времена.</string>
     <string name="infoMeterModeVerticalSpeedTitle">Vertikalna Brzina</string>
     <string name="infoMeterModePaceTitle">Tempo</string>
-    <string name="infoMeterModePaceMsg">Tempo (obrnuta brzina) — Trenutni, Maksimalni i Prosečni.</string>
+    <string name="infoMeterModePaceMsg">Инверзна брзина, односно време протекло по јединици удаљености.</string>
     <string name="infoMeterModeAccelerationTitle">Ubrzanje</string>
-    <string name="infoMeterModeAccelerationMsg">Kurs promene brzine — Trenutni, Maksimalni i Minimalni.
+    <string name="infoMeterModeAccelerationMsg">Брзина промене брзине у времену.
 \n
-\nNegativna vrednost označava smanjenje brzine.</string>
+\nНегативно значи успоравање.</string>
     <string name="infoMeterModePowerTitle">Snaga</string>
     <string name="infoMeterModeTemperatureTitle">Temperatura</string>
     <string name="infoMeterModeClockTitle">Sat</string>
@@ -482,7 +482,7 @@
     <string name="prefUnitsEnergyEntries_0">[kcal]</string>
     <string name="prefUnitsEnergyEntries_1">[kJ]</string>
     <string name="prefUnitsEnergyEntries_2">[kWh]</string>
-    <string name="prefUnitsEnergyEntries_3">[Litara benzina]</string>
+    <string name="prefUnitsEnergyEntries_3">[Литара бензина]</string>
     <!-- prefUnitsPowerEntries -->
     <string name="prefUnitsPowerEntries_0">[W]</string>
     <string name="prefUnitsPowerEntries_1">[HP]</string>
@@ -516,33 +516,53 @@
     <string name="pref_speedo_display_mode_entries_0">Grafički &amp; Digitalni</string>
     <string name="pref_speedo_display_mode_entries_1">Grafički</string>
     <string name="pref_speedo_display_mode_entries_2">Digitalni</string>
-    <string name="proLicenseFeatures">🔹 Bez reklama</string>
+    <string name="proLicenseFeatures">❌ Премиум мапе
+\n❌ Навигација
+\n❌ Основна линија надморске висине на мрежи
+\n✔ Без реклама
+\n✔ Све бесплатне функције и мапе</string>
     <string name="menuMeterClockShowSeconds">Prikaži sekunde</string>
-    <string name="mapboxMapsFeatures">🔹 Mapbox mape
-\n🔹 Bez reklame</string>
+    <string name="mapboxMapsFeatures">✔ Мапбок премиум мапе
+\n✔ Навигација
+\n✔ Основна линија надморске висине на мрежи
+\n✔ Без реклама
+\n✔ Све бесплатне функције и мапе</string>
     <string name="subscriptionPer1y">%1$s naplaćeno jednom u 12 meseci</string>
     <string name="menuMeterShowValue">Vrednost</string>
-    <string name="menuSpeedo">Speedometer</string>
+    <string name="menuSpeedo">Спеедометер</string>
     <string name="subscriptionPer1m">%1$s naplaćeno jednom u mjesecu</string>
-    <string name="menuSpeedoNeedle">Igla</string>
+    <string name="menuSpeedoNeedle">Неедле</string>
     <string name="menuMeterShowChart">Grafikon</string>
     <string name="menuMeterShowSubValues">Pod-vrednosti</string>
     <string name="rewardedAdDescription">Kliknite ovde da prvo pogledate oglas</string>
     <string name="subscriptionPer1w">%1$s naplaćeno jednom nedeljno</string>
-    <string name="hereMapsFeatures">🔹 HERE mape
-\n🔹 Bez reklame</string>
-    <string name="thunderforestMapsFeatures">🔹 Thunderforest mape
-\n🔹 Bez reklama</string>
-    <string name="proPlusLicenseFeatures">🔹 Bez reklama
-\n🔹 Ekstra donacija</string>
-    <string name="maptilerMapsFeatures">🔹 MapTiler mape
-\n🔹 Bez reklame</string>
+    <string name="hereMapsFeatures">✔ ОВДЕ премиум мапе
+\n✔ Навигација
+\n✔ Основна линија надморске висине на мрежи
+\n✔ Без реклама
+\n✔ Све бесплатне функције и мапе</string>
+    <string name="thunderforestMapsFeatures">✔ Премиум мапе Тхундерфорест
+\n✔ Навигација
+\n✔ Основна линија надморске висине на мрежи
+\n✔ Без реклама
+\n✔ Све бесплатне функције и мапе</string>
+    <string name="proPlusLicenseFeatures">❌ Премиум мапе
+\n❌ Навигација
+\n❌ Основна линија надморске висине на мрежи
+\n✔ Без реклама
+\n✔ Све бесплатне функције и мапе
+\n➕ Додатна донација</string>
+    <string name="maptilerMapsFeatures">✔ МапТилер премиум мапе
+\n✔ Навигација
+\n✔ Основна линија надморске висине на мрежи
+\n✔ Без реклама
+\n✔ Све бесплатне функције и мапе</string>
     <string name="buttonLater">Kasnije</string>
     <string name="buttonNewTrack">Završi</string>
     <string name="priceFree">BESPLATNO</string>
     <string name="menuMeter">Brojač</string>
     <string name="menuMeterReset">Završi</string>
-    <string name="ultimateLicenseDescription">Najmoćnija licenca za vrhunsko iskustvo.</string>
+    <string name="ultimateLicenseDescription">Најмоћнија лиценца за врхунско искуство</string>
     <string name="buttonUnderstand">Razumem</string>
     <string name="menuMeterShowIcon">Ikona</string>
     <string name="buttonShow">Prikaži</string>
@@ -552,14 +572,16 @@
     <string name="subscriptionPer6m">%1$s naplaćeno jednom u 6 meseci</string>
     <string name="menuSpeedoScale">Skala</string>
     <string name="menuSpeedoAppearance">Izgled</string>
-    <string name="ultimateLicenseFeatures">🔹 Sve mape
-\n🔹 Sve funkcije
-\n🔹 Nema oglasa</string>
+    <string name="ultimateLicenseFeatures">✔ Све премиум мапе
+\n✔ Навигација
+\n✔ Основна линија надморске висине на мрежи
+\n✔ Без реклама
+\n✔ Све бесплатне функције и мапе</string>
     <string name="rewardedAdPriceFree">BESPLATNO (važi za ovu sesiju)</string>
     <string name="menuSpeedoValue">Vrednost</string>
     <string name="subscriptionPer3m">%1$s naplaćeno jednom u 3 mjeseca</string>
     <string name="loading">Učitavanje…</string>
-    <string name="menuControlPanel">Kontrolna tabla</string>
+    <string name="menuControlPanel">Брза подешавања</string>
     <string name="subscriptionPerMonth">%1$s /mesečno</string>
     <string name="manageSubscriptions">Upravljanje pretplatama</string>
     <string name="rewardedAdLoading">Učitavanje oglasa…</string>
@@ -608,7 +630,7 @@
     <string name="dialogMapsWeatherRadar">Радар за падавине</string>
     <string name="dialogReviewNudgeMessage">Да ли уживате у Урбан Бикеру\?</string>
     <string name="timePeriod_per6Months">на 6 месеци</string>
-    <string name="pref_categoryTrackingButtonTitle">Дугме за праћење</string>
+    <string name="pref_categoryTrackingButtonTitle">Дугме за снимање</string>
     <string name="sensorProperitesIsAutoStrideLenInfo">Ово ће извршити аутоматска мерења дужине корака током трчања или брзог ходања.</string>
     <string name="trackUploadActivityTypes_4">Пливај</string>
     <string name="infoMeterModeAltitudeMsg">Висина изнад средњег нивоа мора (геоид).</string>
@@ -671,13 +693,13 @@
     <string name="toastTrackingPaused">Паузирано</string>
     <string name="prefMapDiskCacheAgeEntries_5">45 дана</string>
     <string name="mapLayerStreet">Улица</string>
-    <string name="prefSteadyScreenNote2">Молим те, не очекуј чуда. Ако вам ова функција не ради добро, једноставно је онемогућите.</string>
+    <string name="prefSteadyScreenNote2">Ово најбоље функционише за спорије покрете, као што је љуљање телефона у руци током ходања, али и на управљачу током вожње или у аутомобилу током вожње.</string>
     <string name="summaryRollResistCoef">Коеф отпора на котрљање.</string>
     <string name="dialogScreenOrientationReverseLandscape">Пејзаж (обрнуто)</string>
     <string name="pref_screenWaveDim_summary">Екран ће такође бити затамњен, ради уштеде батерије</string>
     <string name="prefScreenPocketModeDelayEntries_4">0,40 секунди</string>
     <string name="navigationAvoidFerries">Избегавајте трајекте</string>
-    <string name="toastSteadyScreenModeActive">СтеадиСцреен активан</string>
+    <string name="toastSteadyScreenModeActive">Стабилизација екрана је омогућена</string>
     <string name="summaryStoppedTimeInfo">Време проведено у паузирању, било ручно или док се користи аутоматска пауза.</string>
     <string name="dialogLayoutChooseTitle">Лаиоут</string>
     <string name="menuSpeedoPaceIndicator">Индикатор темпа</string>
@@ -708,14 +730,14 @@
 \nИндикатор застоја показује када вредност брзине није ажурирана неко време и када јој се не може веровати.
 \n
 \nИндикатор темпа су мале стрелице близу вредности брзине које показују када је тренутна брзина изнад или испод просечне брзине.</string>
-    <string name="toastSteadyScreenModeIntelligentActive">СтеадиСцреен интелигентни активан</string>
+    <string name="toastSteadyScreenModeIntelligentActive">Омогућена је интелигентна стабилизација екрана</string>
     <string name="dialogResetMessage">Да сачувате ову нумеру и припремите се за нову\?</string>
     <string name="prefAppVisualThemeEntries_1">Светлост</string>
     <string name="pref_screensaverTimeout_summary">Временски период без интеракције корисника док се скринсејвер не активира.</string>
     <string name="prefScreensaverTimeoutEntries_4">30 секунди</string>
     <string name="timePeriod_perWeek">недељно</string>
     <string name="dialogTrackUploadSending">Шаље се…</string>
-    <string name="menuInsertMeter">Уметните мерач</string>
+    <string name="menuInsertMeter">Метар</string>
     <string name="prefAutoTerrainNote2Summary">Ова функција не утиче на снаге добијене помоћу сензора снаге.</string>
     <string name="sensorPurposeHeartRate">Откуцаји срца</string>
     <string name="dialogGpsSettingsPromptTitle">Локација је искључена</string>
@@ -730,7 +752,7 @@
 \nПроцена у великој мери зависи од врсте и трајања ове активности.</string>
     <string name="licenseItemAlreadyOwned">Ставка лиценце је већ у власништву</string>
     <string name="menuEdit">Уредити</string>
-    <string name="prefSteadyScreenModeOnInfo">Нека функција СтеадиСцреен буде увек активна током праћења. Ово може да троши више батерије.</string>
+    <string name="prefSteadyScreenModeOnInfo">Нека функција стабилизације екрана буде увек активна током праћења. Ово може да троши више батерије док је екран укључен.</string>
     <string name="pref_category_tracking_title">Праћење</string>
     <string name="dialogScreenOrientationReversePortrait">Портрет (обрнуто)</string>
     <string name="unitIn">ин</string>
@@ -765,9 +787,9 @@
     <string name="dialogTrackUploadStravaIsCommute">Путујте на посао</string>
     <string name="pref_powermeter_display_mode_entries_0">Укупна снага</string>
     <string name="summaryTotalWeight">Укупна маса</string>
-    <string name="dialogTracksDeleteMessage">Упозорење: Ова радња се не може опозвати.
+    <string name="dialogTracksDeleteMessage">Упозорење: Ова радња се не може опозвати. Избрисати изабране нумере\?
 \n
-\nИзбрисати изабране нумере\?</string>
+\nДа бисте потврдили брисање, унесите следећи код да бисте наставили.</string>
     <string name="dialogScreenshotPreparing">Припрема снимка екрана…</string>
     <string name="speechTrackingStop">Зауставити</string>
     <string name="sensorPurposeHumidity">Влажност</string>
@@ -806,6 +828,7 @@
     <string name="summaryBasalMetabolicRate">Базална метаболизам</string>
     <string name="freeLicenseFeatures">❌ Премиум мапе
 \n❌ Навигација
+\n❌ Основна линија надморске висине на мрежи
 \n❌ Нема огласа
 \n✔ Све бесплатне функције и мапе</string>
     <string name="pref_mapsFollowMode_summary">Држите мапу у центру ваше тренутне локације</string>
@@ -844,19 +867,19 @@
     <string name="pref_soundeffects_autopause_summary">Звук при аутоматској паузи и детекцији настављања</string>
     <string name="prefScreenPocketModeDelayEntries_0">Без кашњења (подразумевано)</string>
     <string name="batteryOptimizationToast">Изаберите Урбан Бикер са листе</string>
-    <string name="infoMeterModeRadiusMsg">Беелине удаљеност од почетне позиције стазе, односно померања.</string>
-    <string name="prefSteadyScreenModeAuto">Интелигентно активно (подразумевано)</string>
+    <string name="infoMeterModeRadiusMsg">Праволинијско растојање до почетне локације, односно померање.</string>
+    <string name="prefSteadyScreenModeAuto">Интелигентно омогућено (подразумевано)</string>
     <string name="prefBackKeyModeEntries_0">Нормално</string>
     <string name="mapMarkerClickInfo">Кликните за опције</string>
     <string name="dialogWaitTitle">Сачекајте</string>
     <string name="controlPanelUnitsButtonTitle">Мерних јединица</string>
     <string name="pref_roarConstantModeButton_summary">Укључите константни режим кликом на дугме док је АВАС укључен</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">Изаберите шта да радите када се притисне дугме за слој</string>
-    <string name="infoMeterModeKineticEnergyMsg">Висина изнад нивоа земље на којој би ваша потенцијална енергија била једнака вашој тренутној кинетичкој енергији.
+    <string name="infoMeterModeKineticEnergyMsg">Висина коју бисте достигли „пуштањем“ уз дугачку стрмину без кочења.
 \n
-\nДругим речима, ваша брзина је једнака брзини коју бисте имали након пада са ове висине (не узимајући у обзир отпор ваздуха).
+\nИли, ако бисте ударили у зид, сила удара би била иста као при паду са ове висине.
 \n
-\nИсто тако, то је висина коју бисте постигли ако идете право горе користећи само садржај ваше кинетичке енергије.</string>
+\nОвај број се повећава као брзина на квадрат и користан је из безбедносних разлога.</string>
     <string name="cloudAccountsPowerUploadPolicyTitle">Смернице за отпремање података о снази</string>
     <string name="pref_gps_update_freq_entries_13">1 минут</string>
     <string name="sensorAddedMsg">Сензор је додат у профил</string>
@@ -869,7 +892,7 @@
     <string name="summaryClimbingEnergyInfo">Проценат енергије који је коришћен за савладавање гравитације.</string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Заборављена пауза</string>
     <string name="sensorProperitesNoAlarm">Немојте алармирати</string>
-    <string name="prefGnssActivityRecognitionSummary">Препознајте мировање у односу на кретање за ГПС. Може довести до кашњења и неке изгубљене удаљености након паузе, али ће спречити већину ГПС буке.</string>
+    <string name="prefGnssActivityRecognitionSummary">Препознајте мировање у односу на кретање за ГПС. Ово може довести до кашњења и неке изгубљене удаљености или висине након паузе, али ће спречити већину ГПС буке.</string>
     <string name="pref_maps_fences_draw_summary">Прикажи ФенцеГуард заштићене регионе преко мапе</string>
     <string name="sensorMenuAddToProfile">Додај на профил</string>
     <string name="summaryHeartBeats">Откуцаји срца</string>
@@ -908,7 +931,7 @@
     <string name="meterModeAltitudeSlopeShort">слоп</string>
     <string name="meterModeClockShort">цлк</string>
     <string name="prefScreensaverDimBrightnessEntries_4">Оставите како јесте</string>
-    <string name="sensorsMenuScan">Сцан</string>
+    <string name="sensorsMenuScan">Скенирај</string>
     <string name="infoMeterModePowerMsg">Снага која се примењује током активности, услед силе отпора, промене висине итд.
 \n
 \nНегативно значи повећање снаге, нпр. при спуштању низбрдо или кочењу.
@@ -930,8 +953,8 @@
     <string name="menuChooseFolder">Фолдер</string>
     <string name="menuNarrow">Узак</string>
     <string name="speechTrackingPause">Пауза</string>
-    <string name="toastSteadyScreenModeOff">СтеадиСцреен је онемогућен</string>
-    <string name="prefTemperatureSensorDerivedSummary">Овај уређај нема сензор амбијенталне температуре, али грубе вредности се могу извести помоћу других унутрашњих сензора (као што је температура процесора).</string>
+    <string name="toastSteadyScreenModeOff">Стабилизација екрана је онемогућена</string>
+    <string name="prefTemperatureSensorDerivedSummary">Овај уређај нема сензор температуре околине, али грубе вредности се могу извести помоћу других унутрашњих сензора (као што је температура процесора).</string>
     <string name="dialogLicenseUpgradeButton2">Погледајте промо видео</string>
     <string name="meterModes_7">Енергија</string>
     <string name="pref_screenAutoPocketMode_summary">(Сви профили) Користите сензор близине да бисте искључили екран док вам није потребан</string>
@@ -954,7 +977,7 @@
     <string name="ongoingNotificationChannelDescription">Пружање контроле над услугом у првом плану и лак приступ апликацији</string>
     <string name="tracksHistoryListEmpty">Нема трагова овде. Изађите и снимите активност!</string>
     <string name="pref_speechToasts_summary">Изговарајте разне кратке информативне белешке</string>
-    <string name="prefSteadyScreenModeAutoInfo">Активирајте функцију СтеадиСцреен само на неравном терену током праћења. Ово је добар баланс удобности и употребе батерије.</string>
+    <string name="prefSteadyScreenModeAutoInfo">Активирајте функцију стабилизације екрана само на неравном терену током праћења. Ово је добар баланс удобности и употребе батерије.</string>
     <string name="sensorProperitesUseForDuration">Користите током трајања</string>
     <string name="menuNavigation">Навигација</string>
     <string name="menuCustomTracksFolder">Прилагођени фолдер са нумерама</string>
@@ -964,7 +987,7 @@
     <string name="speechNavigationWrongWay">Погрешан начин</string>
     <string name="dialogGpsIntervalNote">Задржите ову вредност испод 3 секунде да бисте добили најтачнија очитавања и доследно понашање!</string>
     <string name="dialogLayoutsInfoTitle">Распореди</string>
-    <string name="prefTrackingButtonModeSummary">Кликните или дуго кликните за Пауза, одвојено дугме за Стоп.</string>
+    <string name="prefTrackingButtonModeSummary">(Сви профили) Кликните или дуго кликните за Пауза, одвојено дугме за Стоп.</string>
     <string name="sensorProperitesWheelPerimeter">Обим точка</string>
     <string name="prefMapDiskCacheSizeEntries_9">3 ГБ</string>
     <string name="controlPanelScreenshotButtonTitle">Снимак екрана</string>
@@ -978,7 +1001,7 @@
     <string name="prefMapDiskCacheAgeEntries_6">60 дана</string>
     <string name="prefMapDiskCacheSizeEntries_10">4ГБ</string>
     <string name="sensorFilterInterval_3">10 секунди</string>
-    <string name="infoDigitalFilterNotice">Имајте на уму: ово може бити одложено од реалног времена за минут или тако нешто, због неизбежних кашњења дигиталног филтрирања.</string>
+    <string name="infoDigitalFilterNotice">Имајте на уму: ово понекад може значајно да заостаје за реалним временом, због неизбежних кашњења дигиталног филтрирања потребних за прецизност.</string>
     <string name="speechUnitOneMinute">Минута</string>
     <string name="menuClear">Јасно</string>
     <string name="prefAllProfilesInfoSummary">Подешавања овде се примењују на све профиле.</string>
@@ -1004,7 +1027,7 @@
     <string name="speechNavigationDestinationReached">Стигли сте до одредишта</string>
     <string name="menuSendDebugFeedback">Пријавите проблем</string>
     <string name="toastTrackingStopped">Заустављено</string>
-    <string name="prefSteadyScreenModeOffInfo">Никада не активирајте функцију СтеадиСцреен</string>
+    <string name="prefSteadyScreenModeOffInfo">Никада не активирајте функцију стабилизације екрана</string>
     <string name="pref_gps_update_freq_entries_9">15 сец</string>
     <string name="pref_category_mapsQuickZoom">КуицкЗоом</string>
     <string name="sensorsSectionSupported">Подржан</string>
@@ -1072,7 +1095,7 @@
     <string name="pref_maps_fences_draw_title">Ограде</string>
     <string name="pref_category_gps_interval_title">Интервал ажурирања ГПС-а</string>
     <string name="meterModeCadence">каденца</string>
-    <string name="menuInsertSpeedo">Уметните брзиномјер</string>
+    <string name="menuInsertSpeedo">Спеедометер</string>
     <string name="summaryDeviceAutoPauseCount">Број аутоматских пауза</string>
     <string name="unitFeetsAboveGroundLevel">фт агл</string>
     <string name="pref_screensaverEnable_title">Сцреенсавер</string>
@@ -1140,7 +1163,7 @@
     <string name="meterModes_4">Успон</string>
     <string name="trackUploadActivityTypes_7">Скејтборд</string>
     <string name="sensorMenuDelete">Заборави</string>
-    <string name="prefSteadyScreenNote1">Ова функција вам помаже да видите екран мало јасније док возите по неравном терену. Слика на екрану се стабилизује применом брзих малих покрета који покушавају да се супротставе спољашњем подрхтавању.</string>
+    <string name="prefSteadyScreenNote1">Ова функција вам помаже да видите екран мало јасније док сте у покрету. Слика на екрану се стабилизује применом брзих малих покрета који покушавају да се супротставе спољашњем подрхтавању.</string>
     <string name="powerSourceWeight_0">Укупно</string>
     <string name="pref_flashlightBlinkMode_title">Режим</string>
     <string name="pref_speechTrackingStatus_title">Праћење</string>
@@ -1184,16 +1207,14 @@
     <string name="aboutScreenTranslationsText">Помозите да преведете ову апликацију и добијте бесплатну лиценцу! Више информација:</string>
     <string name="infoMeterModeVibrationsMsg">Вибрације мерене са уређајем. Корисно када се уређај држи причвршћен за возило (нпр. на управљачу бицикла), а не у руци или џепу.</string>
     <string name="prefScreensaverTimeoutEntries_1">10 секунди</string>
-    <string name="dialogCustomTracksFolderInfoMessage">Ова функција омогућава апликацији да чита нумере из фасцикле по вашем избору, поред подразумеване фасцикле са нумерама — чија се локација недавно променила.
+    <string name="dialogCustomTracksFolderInfoMessage">Ова функција омогућава апликацији да чита нумере из фасцикле по вашем избору, поред главне фасцикле са нумерама — чија се локација недавно променила.
 \n
-\nТакве нумере су само за читање: могу се прегледати и делити, али не могу да се уређују, настављају или бришу.
-\n
-\nАко нисте сигурни, покушајте да пронађете фасциклу „Доцументс-УрбанБикер-трацкс“ на следећем екрану.</string>
+\nТакве нумере су само за читање: могу се прегледати и делити, али не могу да се уређују, настављају или бришу.</string>
     <string name="pref_roarConstantModeButton_title">Дугме за пребацивање</string>
     <string name="prefScreensaverDimBrightnessEntries_0">Минимум</string>
     <string name="pref_units_power_dialog_title">Укупне јединице снаге</string>
     <string name="meterModes_5">Десцент</string>
-    <string name="menuReset">Ресетовање</string>
+    <string name="menuReset">Ресетовати</string>
     <string name="prefGnssAutomaticSleepTitle">ГПС аутоматско спавање</string>
     <string name="toastScreensaverModeActive">Активан је режим чувара екрана</string>
     <string name="meterModes_28">Каденца корака</string>
@@ -1246,7 +1267,7 @@
     <string name="pref_roar_threshold_speed_title">Праг брзине</string>
     <string name="speechUnitManyMiles">Милес</string>
     <string name="pref_track_charts_title">Типови графикона…</string>
-    <string name="pref_locationProvider_modes_1">Гоогле Плаи услуге (подразумевано)</string>
+    <string name="pref_locationProvider_modes_1">Гоогле Плаи услуге</string>
     <string name="meterModes_26">Кинетичке енергије</string>
     <string name="dialog_volume_alarms_text">Аларми</string>
     <string name="menuRemove">Уклони</string>
@@ -1314,7 +1335,7 @@
     <string name="toastUpdatingSuccess">Успешно ажурирано</string>
     <string name="meterModes_6">Нагиб</string>
     <string name="sensorRemovedMsg">Сензор је уклоњен из профила</string>
-    <string name="prefSteadyScreenModeOn">Ацтиве</string>
+    <string name="prefSteadyScreenModeOn">Омогућено</string>
     <string name="prefMapDiskCacheSizeEntries_7">1 ГБ</string>
     <string name="sensorPurposeDuration">Трајање</string>
     <string name="prefAutoTerrainSummary">Осетите храпавост терена мерењем вибрација и прилагодите коефицијент отпора котрљања (Цᵣᵣ) у складу са тим када рачунате снагу.</string>
@@ -1501,9 +1522,9 @@
     <string name="dialogLocationPermissionRequest">Апликација треба да приступи вашој локацији да би забележила ваше активности на отвореном.</string>
     <string name="mapMarkerFinish">Заврши</string>
     <string name="sensorProperitesCadenceTriggers">Окидачи каденце</string>
-    <string name="dialog_defaultConfirmation">Да ли сте сигурни\?</string>
+    <string name="dialog_defaultConfirmation">Јеси ли сигуран\?</string>
     <string name="dialogOpenRainviewerText">Отворите веб страницу ввв.раинвиевер.цом сада\?</string>
-    <string name="pref_locationProvider_modes_0">ГПС подсистем</string>
+    <string name="pref_locationProvider_modes_0">ГПС подсистем (подразумевано)</string>
     <string name="sensorProperitesFilterIntervalInfo">Интервал филтера, односно јачина филтера. Веће вредности ће више филтрирати, али ће такође увести више кашњења.</string>
     <string name="toastTrackingRecordingPassive">Пасивно снимање</string>
     <string name="speechSteps">Кораци: %1$s</string>
@@ -1535,4 +1556,109 @@
     <string name="toastCancelled">Отказано</string>
     <string name="ongoingNotificationChannelName">Текуће обавештење</string>
     <string name="pref_soundeffects_screenOff_summary">Звук и вибрација када је екран затамњен или привремено искључен</string>
+    <string name="dataStorageChooseButton">Изаберите локацију за складиштење података</string>
+    <string name="prefSteadyScreenImplementationNote">(Сви профили) Спољна имплементација захтева инсталирање посебне апликације. Кликните овде да бисте отворили Плаи продавницу.</string>
+    <string name="prefSteadyScreenImplementationTitle">Имплементација</string>
+    <string name="speechUnitThreeFeets">Стопала</string>
+    <string name="dialogMapsMapCountThreeMaps">%1$s мапе</string>
+    <string name="dialogRecButtonInsertMessage">Ово ће уметнути дугме Рец овде и уклонити га са траке са дугмадима. Настави\?</string>
+    <string name="speechUnitFourFeets">Стопала</string>
+    <string name="dataStorageStatsTitle">Стораге статс</string>
+    <string name="speechUnitThreeMinutes">Минута</string>
+    <string name="speechUnitFourMinutes">Минута</string>
+    <string name="pref_mapsLayerHeatmap_info">Ово вам може помоћи да откријете нова места за активност, посебно у удаљеним регионима.</string>
+    <string name="dataStorageTransferInfoCount">Премештене ставке: %1$s од %2$s</string>
+    <string name="menuRemoveRecButton">Уклони дугме за снимање</string>
+    <string name="pref_category_storage_title">Складиште</string>
+    <string name="dataStorageTransferInfoStatus">Статус: %1$s</string>
+    <string name="licenseItemOwned">Тренутно у власништву</string>
+    <string name="dialogRecButtonRemoveMessage">Ово ће вратити дугме Рец на траку са дугмадима. Настави\?</string>
+    <string name="inProgress">У току</string>
+    <string name="speechUnitThreeMiles">Милес</string>
+    <string name="dialogLayoutRemoveEntryMessage">Желите ли да уклоните ово поље\?</string>
+    <string name="dataStorageTransferInfoSpeed">Брзина: %1$s МБ/с (%2$s ставки/с)</string>
+    <string name="prefGpsIntervalAdaptiveSummary">Аутоматски подесите интервал ажурирања ГПС-а између 1 и 5 секунди, у зависности од брзине.</string>
+    <string name="speechUnitFourMeters">Метерс</string>
+    <string name="dataStorageInfo1">Препоручује се да користите прилагођену локацију за складиштење за своје стазе и податке да бисте спречили случајни губитак података ако се апликација деинсталира и да бисте олакшали прављење резервних копија.</string>
+    <string name="dialogEnterCodeMessage">Унесите код</string>
+    <string name="dataStorageTitle">Складиште</string>
+    <string name="pref_category_mapsRenderer">Рендерер</string>
+    <string name="pref_category_onlineElevation_title">Онлине елеватион</string>
+    <string name="prefOnlineElevationNoteSummary1">Да бисте уштедели батерију и податке, само једна тачка надморске висине ће бити добијена са Интернета када почнете да пратите нову стазу. Ово је довољно да остатак стазе има тачнију основну висину.</string>
+    <string name="prefGpsIntervalAdaptiveTitle">Адаптиве</string>
+    <string name="success">Успех</string>
+    <string name="prefOnlineElevationNoteSummary2">Ако интернет или лиценца нису доступни, апликација ће наставити да ради без корекције надморске висине.</string>
+    <string name="dataStorageStatsMessage">%1$s МБ
+\n%2$s предмета</string>
+    <string name="prefOnlineElevationTitle">Онлине елеватион</string>
+    <string name="prefGoogleMapsRenderer_0">Уобичајено</string>
+    <string name="infoMeterModePowerBalanceTitle">Баланс снаге Л/Р</string>
+    <string name="speechUnitFourMiles">Милес</string>
+    <string name="meterModeBatteryShort">батт</string>
+    <string name="prefSteadyScreenImplementationInternal">Интерно (подразумевано)</string>
+    <string name="dialogMapsMapCountManyMaps">%1$s мапе</string>
+    <string name="dialogNotificationPermissionRequestTitle">Дозвола за обавештења</string>
+    <string name="pref_mapsOfflineFileSummary">Датотеке мапе морају да се копирају у фасциклу мапа специфичну за апликацију да би се користиле</string>
+    <string name="prefBatteryOptimizationTitle">Оптимизација батерије</string>
+    <string name="dialogNotificationPermissionRequest">Дозвола је потребна да би апликација могла да приказује текуће обавештење док је праћење активно.</string>
+    <string name="prefGoogleMapsRendererSummary">Тренутно: %1$s</string>
+    <string name="dialogRecButtonInsertTitle">Дугме Инсерт Рец</string>
+    <string name="speechUnitFourHours">Сати</string>
+    <string name="prefOnlineElevationNoteSummary3">Ово функционише само ако је доступна лиценца за претплату (Ултимате лиценца или једна од лиценци за мапе).</string>
+    <string name="prefSteadyScreenImplementationInternalInfo">Користите нашу сопствену имплементацију стабилизације екрана. Лакши за употребу, није подесив.</string>
+    <string name="prefMapShowBuildingsSummary">Прикажите слој 3Д зграда за Гоогле мапе. Онемогућите да бисте побољшали перформансе мапе и смањили коришћење ресурса.</string>
+    <string name="prefBatteryOptimizationMessage">Урбан Бикер може бити изузет од оптимизације системске батерије, како би био сигурнији да ће наставити да ради исправно када се екран искључи на старијим верзијама Андроид-а. Кликните овде да бисте сада отворили подешавања.</string>
+    <string name="prefGoogleMapsRenderer_2">Најновије</string>
+    <string name="meterModes_10">Равнотежа моћи</string>
+    <string name="prefTrackingButtonFreePlacementTitle">Бесплатно постављање дугмета за снимање</string>
+    <string name="speechUnitFourKilometers">Километри</string>
+    <string name="computing">Рад на рачунару…</string>
+    <string name="prefMapsFolderExploreSummary">Управљајте садржајем фасцикле мапа специфичне за апликацију помоћу апликације за истраживање датотека</string>
+    <string name="dialogMapsAutoZoomSensitivity">Осетљивост аутоматског зумирања</string>
+    <string name="menuInsertRecButton">Дугме за снимање</string>
+    <string name="dataStorageInfo2">Када промените локацију за складиштење података, претходни подаци апликације ће се аутоматски пренети на нову локацију. Ово се дешава у позадини и може потрајати.
+\n
+\nОпозив приступа оставља податке нетакнутим.</string>
+    <string name="prefGoogleMapsRendererInfo">Одређује који тип рендерера желите да користите за приказ мапа. Застарели рендерер може да користи мање ресурса, док најновији обично има више функција или бољи дизајн.</string>
+    <string name="dataStorageTransferInfoDuration">Трајање: %1$s</string>
+    <string name="speechUnitThreeMeters">Метерс</string>
+    <string name="toastGpsIntervalAdaptiveActive">Интервал адаптивног ажурирања је активан</string>
+    <string name="dialogMapsShowHeatmap">Топлотна мапа</string>
+    <string name="buttonProceed">Настави</string>
+    <string name="prefMapsFolderExploreTitle">Истражите фасциклу мапа</string>
+    <string name="prefSteadyScreenImplementationExternalInfo">Да би ово функционисало, мора бити инсталирана посебна апликација. Подесиво.</string>
+    <string name="speechUnitThreeKilometers">Километри</string>
+    <string name="prefGpsIntervalAdaptiveNote">Прилагодљиви интервали ажурирања могу помоћи у смањењу потрошње батерије када се крећете споро или правите честе паузе.</string>
+    <string name="speechUnitFourLitersOfGasoline">Литара бензина</string>
+    <string name="prefOnlineElevationSummary">Користите податке о надморској висини са Интернета да бисте повећали тачност основне линије надморске висине. Омогућено подразумевано.</string>
+    <string name="pref_mapsFollowAutoZoomSensitivity_info">Осетљивост аутоматског зумирања можете подесити у ходу тако што ћете зумирати или умањити приказ током праћења</string>
+    <string name="pref_mapsLayerHeatmap_summary">Прикажи збирне јавне активности током прошле године (са Страве)</string>
+    <string name="dataStorageNotSetMessage">Локација за складиштење података није подешена, користите дугме изнад.
+\n
+\nАпликација тренутно користи подразумевани фолдер за нумере и податке.</string>
+    <string name="tracksHistoryDataStorageLink">Упозорење: Апликација користи подразумевани фолдер за нумере и податке. Кликните овде да промените.</string>
+    <string name="menuMeterResume">Резиме</string>
+    <string name="menuDataStorage">Локација за складиштење података</string>
+    <string name="meterModeBattery">батерија</string>
+    <string name="navigationRerouteCmd">Кликните да бисте преусмерили</string>
+    <string name="infoMeterModeBatteryTitle">Батерија</string>
+    <string name="infoMeterModeBatteryMsg">Ниво батерије овог Андроид уређаја.</string>
+    <string name="speechUnitThreeLitersOfGasoline">Литара бензина</string>
+    <string name="toastAutoBellButtonClickInfo">Дуго кликните да бисте укључили звук аутоматског звона</string>
+    <string name="dataStorageTransferRetrying">Неуспешно — ускоро ће поново покушати</string>
+    <string name="prefTrackingButtonFreePlacementSummary">(Сви профили) Омогућава да се дугме Рец постави било где у распореду. Када је онемогућено, дугме Рец ће бити фиксирано на траци са дугмадима.</string>
+    <string name="prefGoogleMapsRenderer_1">наслеђе</string>
+    <string name="prefMapShowBuildingsTitle">Прикажи зграде</string>
+    <string name="meterModes_33">Батерија</string>
+    <string name="prefSteadyScreenImplementationExternal">Екстерни</string>
+    <string name="dialogMapsMapCountTwoMaps">%1$s мапе</string>
+    <string name="infoMeterModePowerBalanceMsg">Баланс снаге, представљен као делић левог и десног доприноса укупној излазној снази.</string>
+    <string name="controlPanelFlashlight">Батеријска лампа</string>
+    <string name="speechUnitThreeHours">Сати</string>
+    <string name="dialogRecButtonRemoveTitle">Уклони дугме за снимање</string>
+    <string name="pref_mapsLayerHeatmap_title">Топлотна мапа</string>
+    <string name="otherLicenses">Остало</string>
+    <string name="dataStorageTransferInfoTitle">Последња промена</string>
+    <string name="recommendedLicense">Препоручено</string>
+    <string name="dialogMapsMapCountFourMaps">%1$s мапе</string>
 </resources>
