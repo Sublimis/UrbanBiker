@@ -20,7 +20,7 @@
     <string name="cancel">İptal</string>
     <string name="buttonUnderstand">Anladım</string>
     <string name="buttonResumeTrack">Devam</string>
-    <string name="menuControlPanel">Kontrol Paneli</string>
+    <string name="menuControlPanel">Hızlı Ayarlar</string>
     <string name="menuSettings">Ayarlar</string>
     <string name="menuSummary">Genel Bakış</string>
     <string name="menuTracksHistory">Geçmiş</string>
@@ -566,9 +566,9 @@
 \n
 \nProfili sil %1$s\?</string>
     <string name="dialogProfileAddInfo">Yeni profil ayarları kullanımdaki profil ayarlarından kopyalanacak</string>
-    <string name="dialogTracksDeleteMessage">Uyarı: Bu eylem geri alınamaz.
+    <string name="dialogTracksDeleteMessage">Uyarı: Bu işlem geri alınamaz. Seçilen parçalar silinsin mi\?
 \n
-\nSeçili rotaları silmek istediğinizden emin misiniz\?</string>
+\nSilme işlemini onaylamak için devam etmek üzere aşağıdaki kodu girin.</string>
     <string name="dialogTracksShareCountExceeded">Bir defada 100 rotadan fazlası paylaşılamaz.</string>
     <string name="dialogGpsSettingsPromptTitle">Konum kapalı</string>
     <string name="dialogGpsSettingsPromptMessage">Konum kapalıyken uygulamanın birçok özelliğini kullanamayacaksınız.
@@ -1079,11 +1079,11 @@
     <string name="unitMetersAboveGroundLevel">m rkm</string>
     <string name="unitFeetsAboveGroundLevel">f rkm</string>
     <string name="meterModeKineticEnergyShort">Kin En</string>
-    <string name="infoMeterModeKineticEnergyMsg">Potansiyel enerjinizin, mevcut kinetik enerjinize eşit olacağı yer seviyesinin üzerindeki yükseklik.
+    <string name="infoMeterModeKineticEnergyMsg">Uzun bir yokuşu frenlemeden \"bırakarak\" ulaşacağınız yükseklik.
 \n
-\nBaşka bir deyişle, hızınız, bu yükseklikten düşmüş olsaydınız kazanacağınız hıza eşittir (hava direnci göz ardı edildiğinde).
+\nVeya bir duvara çarptığınızda çarpma kuvveti bu yükseklikten düşmeyle aynı olacaktır.
 \n
-\nAynı şekilde, yalnızca kinetik enerji içeriğinizi kullanarak doğrudan yukarı çıkarak elde edeceğiniz yüksekliktir.</string>
+\nBu sayı hızın karesi olarak artar ve güvenlik açısından faydalıdır.</string>
     <string name="mapMarkerStart">Başlangıç</string>
     <string name="mapMarkerFinish">Bitiş</string>
     <string name="defaultProfileNameScooter">Scooter</string>
@@ -1312,7 +1312,7 @@
     <string name="prefMapDiskCacheAgeTitle">Harita önbelleği yaş sınırı</string>
     <string name="pref_mapsShowAttribution_summary">Google dışındaki çevrimiçi haritalar için ilişkilendirme metnini göster. Bir bağlantıya yanlışlıkla tıklamayı önlemek için devre dışı bırakın.</string>
     <string name="prefActivityRecognitionNoteSummary">Bu seçenekler, Android\'in fiziksel aktivite tanıma özelliğine dayanır. Doğru olmayabilir ve gecikmeli olabilir, yalnızca bu durum sizin için sorun değilse kullanın. Mesafe ve süre için bir hız sensörü kullanıldığında en iyi sonucu verir.</string>
-    <string name="prefGnssActivityRecognitionSummary">GPS için hareketsiz durmayı ve hareketli olmayı ayırt edin. Bir aradan sonra gecikmelere ve bir miktar mesafe kaybına neden olabilir, ancak çoğu GPS gürültüsünü önleyecektir.</string>
+    <string name="prefGnssActivityRecognitionSummary">GPS için hareketsiz durmayı ve hareket etmeyi tanıyın. Bu, aradan sonra gecikmeye ve mesafe veya irtifa kaybına neden olabilir, ancak çoğu GPS gürültüsünü önleyecektir.</string>
     <string name="prefMapDiskCacheAgeEntries_6">60 gün</string>
     <string name="prefMapDiskCacheAgeEntries_0">1 gün</string>
     <string name="prefMapDiskCacheAgeEntries_2">10 gün (varsayılan)</string>
@@ -1383,11 +1383,9 @@
     <string name="pref_category_mainScreenVisualTheme">Ana ekran</string>
     <string name="prefScreensaverTimeoutEntries_8">5 dakika</string>
     <string name="prefScreensaverTimeoutEntries_1">10 saniye</string>
-    <string name="dialogCustomTracksFolderInfoMessage">Bu özellik, uygulamanın, yakınlarda yeri değiştirilmiş varsayılan kayıt dosyasına ek olarak seçtiğin başka bir klasörden rotaları okuyabilmesine izin verir.
+    <string name="dialogCustomTracksFolderInfoMessage">Bu özellik, uygulamanın konumu yakın zamanda değişen ana parçalar klasörüne ek olarak seçtiğiniz bir klasördeki parçaları da okumasına olanak tanır.
 \n
-\nBu okunabilir rota dosyaları görüntülenebilir ve paylaşılabilir ama düzenlenemez, devam ettirilemez ve silinemez.
-\n
-\nEğer emin değilseniz sonraki ekranda \"Documents-UrbanBiker-tracks\" klasörünü bulmayı deneyin.</string>
+\nBu tür parçalar salt okunurdur: Görüntülenebilir ve paylaşılabilir ancak düzenlenemez, devam ettirilemez veya silinemez.</string>
     <string name="prefScreensaverDimBrightnessEntries_0">En düşük</string>
     <string name="menuReset">Sıfırla</string>
     <string name="toastScreensaverModeActive">Tasarruf modu aktif</string>
@@ -1461,50 +1459,50 @@
 \nHiç konum güncellemesi almayan alanlar (örn: iç mekanlar) bu sayıyı etkilemez.</string>
     <string name="sensorProperitesNoAlarmInfo">Sensör müsait olduğunda kullan ama müsait olmadığında uyarma. Aktivite için gerekli olmayan sensörlerde kullanışlı bir seçenektir. Varsayılan olarak kapalı.</string>
     <string name="navigationStopPrompt">Durdur</string>
-    <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ %0 ile %10 arasında değişir, varsayılan değer %1\'dir. AutoTerrain özelliğini kullanıyorsanız, uygulama genellikle daha engebeli arazide katsayıyı artıracağından, düz arazi için bir temel değer (alt sınır) varsayın.</string>
+    <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ %0 ile %10 arasında değişir, varsayılan %1\'dir. AutoTerrain özelliğini kullanıyorsanız, uygulama genellikle engebeli arazide katsayıyı artıracağından, düzgün arazi için bir temel değer (alt sınır) varsayın.</string>
     <string name="navigationAvoidIndoor">İç mekandan kaçın</string>
     <string name="pref_soundeffects_navigation_summary">Navigasyon olaylarında ses çıkar</string>
     <string name="pref_speechNavigation_title">Navigasyon</string>
-    <string name="prefBarometricAltitudeDisableAlert">Barometrik yükseklik devre dışı bırakılsın mı\?</string>
+    <string name="prefBarometricAltitudeDisableAlert">Barometrik rakım devre dışı bırakılsın mı\?</string>
     <string name="meterVerticalWeight">Dikey ağırlık</string>
     <string name="speechUnitManyLitersOfGasoline">Litre benzin</string>
     <string name="prefSteadyScreenNote2">Bu özellik, yürürken elinizde telefonun sallanması gibi yavaş hareketlerde daha iyi sonuç verir. Ayrıca sürüş esnasında bisiklete ya da arabaya sabitlenerek de kullanılabilir.</string>
     <string name="navigationAvoidFerries">Feribotlardan kaçın</string>
-    <string name="toastSteadyScreenModeActive">Ekran sabitleme aktif</string>
+    <string name="toastSteadyScreenModeActive">Ekran sabitleme etkin</string>
     <string name="meterHorizontalWeight">Yatay ağırlık</string>
     <string name="prefSteadyScreenModeOff">Kapalı</string>
-    <string name="toastSteadyScreenModeIntelligentActive">Ekran Sabitleme akıllı aktif</string>
+    <string name="toastSteadyScreenModeIntelligentActive">Ekran sabitleme akıllı etkin</string>
     <string name="prefAutoTerrainNote2Summary">Güç sensörü kullanılarak elde edilen güç değeri bu özellikten etkilenmez.</string>
     <string name="speechUnitOneLiterOfGasoline">Litre benzin</string>
-    <string name="prefSteadyScreenModeOnInfo">İzleme sırasında Ekran Sabitleme özelliğini her zaman aktif tutun. Bu ekran açıkken daha fazla pil tüketebilir.</string>
+    <string name="prefSteadyScreenModeOnInfo">Takip sırasında ekran sabitleme özelliğini her zaman aktif tutun. Bu, ekran açıkken daha fazla pil tüketebilir.</string>
     <string name="unitNewtonPerKg">N/kg</string>
     <string name="pref_speechNavigation_summary">Navigasyonu seslendir</string>
     <string name="navigationLoadingData">Yol tarifi yükleniyor…</string>
     <string name="pref_soundeffects_tally_energy_title">Enerji</string>
     <string name="speechEnergy">Enerji: %1$s</string>
     <string name="pref_mapsFollowMode_summary">Konumunuzu haritanın merkezinde tutar</string>
-    <string name="prefSteadyScreenModeAuto">Akıllı aktif (varsayılan)</string>
+    <string name="prefSteadyScreenModeAuto">Akıllı etkin (varsayılan)</string>
     <string name="mapMarkerClickInfo">Seçenekler için tıklayın</string>
     <string name="sensorProperitesNoAlarm">Alarm verme</string>
     <string name="prefTrackingButtonModeTitle">Alternatif davranış</string>
     <string name="navigationContinue">Devam et</string>
-    <string name="summaryRollResistCoefAverageInfo">Aktivite sırasında katsayı değişiyorsa, ortalama yuvarlanma direnci katsayısı.</string>
+    <string name="summaryRollResistCoefAverageInfo">Etkinlik sırasında katsayı değişiyorsa ortalama yuvarlanma direnci katsayısı.</string>
     <string name="navigationAvoidTolls">Geçiş ücretlerinden kaçın</string>
     <string name="menuNarrow">Daralt</string>
-    <string name="toastSteadyScreenModeOff">Ekran Sabitleme devre dışı</string>
+    <string name="toastSteadyScreenModeOff">Ekran sabitleme devre dışı bırakıldı</string>
     <string name="dialogLicenseUpgradeButton2">Reklam videosunu izleyin</string>
     <string name="prefSteadyScreenTitle">Ekran sabitleme</string>
     <string name="navigationLoadFromFilePrompt">İnternetten yeni yol tarifi yüklenirken bir hata oluştu.
 \n
 \nDaha önce kullanılan yol tariflerini bir dosyadan yüklemek istiyor musunuz\?</string>
-    <string name="prefSteadyScreenModeAutoInfo">Kayıt sırasında Ekran Sabitleme özelliğini yalnızca engebeli arazide etkinleştirin. Bu, konfor ve pil kullanımının iyi bir dengesidir.</string>
+    <string name="prefSteadyScreenModeAutoInfo">Takip sırasında ekran sabitleme özelliğini yalnızca engebeli arazilerde etkinleştirin. Bu, konfor ve pil kullanımı arasında iyi bir dengedir.</string>
     <string name="menuNavigation">Gezin</string>
     <string name="menuCustomTracksFolder">Özel kayıt klasörü</string>
     <string name="speechNavigationWrongWay">Yanlış yol</string>
-    <string name="prefTrackingButtonModeSummary">Duraklat için tıklayın veya uzun tıklayın, Durdur için ayrı düğme.</string>
+    <string name="prefTrackingButtonModeSummary">(Tüm profiller) Duraklat için tıklayın veya uzun tıklayın, Durdurmak için ayrı bir düğme.</string>
     <string name="pref_mapsWeatherCoverage_summary">Yağış radarı kapsaması olmayan yerleri gölgelendirir</string>
     <string name="speechNavigationDestinationReached">Hedefe ulaştınız</string>
-    <string name="prefSteadyScreenModeOffInfo">Ekran Sabitleme özelliğini asla etkinleştirme</string>
+    <string name="prefSteadyScreenModeOffInfo">Ekran sabitleme özelliğini asla etkinleştirmeyin</string>
     <string name="prefAutoTerrainTitle">Otomatik Arazi</string>
     <string name="pref_soundeffects_tally_energy_dialog_title">Enerji çetelesi</string>
     <string name="prefGpsBoostNoteSummary">Konum güncellemeleri, navigasyon sırasında her zaman en yüksek frekansa zorlanacaktır</string>
@@ -1526,17 +1524,17 @@
 \n
 \nBunu şimdi yap\?</string>
     <string name="navigationRouteTooLong">Üzgünüm, bu hedef çok uzak</string>
-    <string name="unitKmhPerSec">kph/s</string>
+    <string name="unitKmhPerSec">km/s</string>
     <string name="summaryRollResistCoefAverage">Yuvarlanma direnci katsayısı. ortalama</string>
     <string name="pref_mapsFollowAutoZoomMode_summary">Mevcut hıza göre harita yakınlaştırma seviyesini ayarlayın</string>
     <string name="pref_mapsLayerTraffic_summary">Gerçek zamanlı trafik bilgilerini göster</string>
     <string name="menuShowTotals">Toplamları göster</string>
     <string name="prefNoSoundInsideFenceTitle">Koruma alanı içinde ses yok</string>
     <string name="mapPlaceSearch">Nereye\?</string>
-    <string name="prefSteadyScreenModeOn">Aktif</string>
+    <string name="prefSteadyScreenModeOn">Etkinleştirilmiş</string>
     <string name="prefAutoTerrainSummary">Titreşimleri ölçerek arazi pürüzlülüğünü algılar ve gücü hesaplarken yuvarlanma direnci katsayısını (Cᵣᵣ) buna göre ayarlar.</string>
     <string name="pref_soundeffects_navigation_title">Navigasyon</string>
-    <string name="toastLocationUnavailable">Konumunuz hala mevcut değil</string>
+    <string name="toastLocationUnavailable">Konumunuz hâlâ kullanılamıyor</string>
     <string name="navigationHidePrompt">Gizle</string>
     <string name="speechUnitTwoLitersOfGasoline">Litre benzin</string>
     <string name="navigationWrongWay">Yanlış yol</string>
@@ -1546,7 +1544,7 @@
     <string name="navigationStepsInfo">Siz hareket ettikçe navigasyon talimatları burada görünecektir. Bu paneli istediğiniz gibi gizleyin veya kaydırın.</string>
     <string name="licenseUpgradeTitle">Lisansını yükselt</string>
     <string name="navigationRouteNotFound">Üzgünüz, o hedefe giden rota bulunamadı</string>
-    <string name="unitGAccel">g</string>
+    <string name="unitGAccel">G</string>
     <string name="dialogLicenseUpgradeMessage">Bu özellik, abonelik lisansı gerektirir.
 \n
 \nAlternatif olarak ücretsiz kredi almak için kısa bir reklam videosu izleyebilirsiniz.</string>
@@ -1601,4 +1599,60 @@
     <string name="dialogNotificationPermissionRequestTitle">Bildirim izni</string>
     <string name="dialogEnterCodeMessage">Kodu gir</string>
     <string name="dialogNotificationPermissionRequest">Kayıt esnasında sürekli bir bildirimin gösterilmesi için bu izin gereklidir.</string>
+    <string name="dataStorageChooseButton">Veri depolama konumunu seçin</string>
+    <string name="prefSteadyScreenImplementationNote">(Tüm profiller) Harici uygulama, ayrı bir uygulamanın yüklenmesini gerektirir. Play Store\'u açmak için buraya tıklayın.</string>
+    <string name="prefSteadyScreenImplementationTitle">Uygulama</string>
+    <string name="speechUnitThreeFeets">Ayak</string>
+    <string name="dialogMapsMapCountThreeMaps">%1$s haritalar</string>
+    <string name="speechUnitFourFeets">Ayak</string>
+    <string name="dataStorageStatsTitle">Depolama istatistikleri</string>
+    <string name="speechUnitThreeMinutes">dakika</string>
+    <string name="speechUnitFourMinutes">dakika</string>
+    <string name="dataStorageTransferInfoCount">Taşınan öğeler: %1$s / %2$s</string>
+    <string name="pref_category_storage_title">Depolamak</string>
+    <string name="dataStorageTransferInfoStatus">Durum: %1$s</string>
+    <string name="inProgress">Devam etmekte</string>
+    <string name="speechUnitThreeMiles">Mil</string>
+    <string name="dialogLayoutRemoveEntryMessage">Bu alan kaldırılsın mı\?</string>
+    <string name="dataStorageTransferInfoSpeed">Hız: %1$s MB/sn (%2$s öğe/sn)</string>
+    <string name="speechUnitFourMeters">Metre</string>
+    <string name="dataStorageInfo1">Uygulamanın kaldırılması durumunda kazara veri kaybını önlemek ve yedeklemeleri kolaylaştırmak amacıyla parçalarınız ve verileriniz için özel bir depolama konumu kullanmanız önerilir.</string>
+    <string name="dataStorageTitle">Depolamak</string>
+    <string name="success">Başarı</string>
+    <string name="dataStorageStatsMessage">%1$s MB
+\n%2$s öğe</string>
+    <string name="speechUnitFourMiles">Mil</string>
+    <string name="prefSteadyScreenImplementationInternal">Dahili (varsayılan)</string>
+    <string name="dialogMapsMapCountManyMaps">%1$s haritalar</string>
+    <string name="prefBatteryOptimizationTitle">Pil optimizasyonları</string>
+    <string name="speechUnitFourHours">Saat</string>
+    <string name="prefSteadyScreenImplementationInternalInfo">Kendi ekran sabitleme uygulamamızı kullanın. Kullanımı daha kolaydır, ayarlanamaz.</string>
+    <string name="prefMapShowBuildingsSummary">Google haritaları için 3B binalar katmanını gösterin. Harita performansını iyileştirmek ve kaynak kullanımını azaltmak için devre dışı bırakın.</string>
+    <string name="prefBatteryOptimizationMessage">Urban Biker, Android\'in eski sürümlerinde ekran kapatıldığında düzgün çalışmaya devam edeceğinden daha emin olmak için sistem pil optimizasyonlarından muaf tutulabilir. Ayarları şimdi açmak için buraya tıklayın.</string>
+    <string name="speechUnitFourKilometers">Kilometre</string>
+    <string name="computing">Bilgi işlem…</string>
+    <string name="prefMapsFolderExploreSummary">Uygulamaya özel haritalar klasörünün içeriğini bir dosya gezgini uygulamasıyla yönetin</string>
+    <string name="dataStorageInfo2">Veri depolama konumunu değiştirdiğinizde önceki uygulama verileri otomatik olarak yeni konuma aktarılacaktır. Bu arka planda gerçekleşir ve biraz zaman alabilir.
+\n
+\nErişimin iptal edilmesi verilerde bozulmadan kalır.</string>
+    <string name="dataStorageTransferInfoDuration">Süre: %1$s</string>
+    <string name="speechUnitThreeMeters">Metre</string>
+    <string name="buttonProceed">İlerlemek</string>
+    <string name="prefMapsFolderExploreTitle">Haritalar klasörünü keşfedin</string>
+    <string name="prefSteadyScreenImplementationExternalInfo">Bunun çalışması için ayrı bir uygulamanın yüklenmesi gerekir. Ayarlanabilir.</string>
+    <string name="speechUnitThreeKilometers">Kilometre</string>
+    <string name="speechUnitFourLitersOfGasoline">Litre benzin</string>
+    <string name="dataStorageNotSetMessage">Veri depolama konumu ayarlanmadı, lütfen yukarıdaki düğmeyi kullanın.
+\n
+\nUygulama şu anda parçalar ve veriler için varsayılan klasörü kullanıyor.</string>
+    <string name="tracksHistoryDataStorageLink">Uyarı: Uygulama, parçalar ve veriler için varsayılan klasörü kullanıyor. Değiştirmek için burayı tıklayın.</string>
+    <string name="menuDataStorage">Veri depolama konumu</string>
+    <string name="speechUnitThreeLitersOfGasoline">Litre benzin</string>
+    <string name="dataStorageTransferRetrying">Başarısız - kısa süre sonra tekrar deneyecek</string>
+    <string name="prefMapShowBuildingsTitle">Binaları göster</string>
+    <string name="prefSteadyScreenImplementationExternal">Harici</string>
+    <string name="dialogMapsMapCountTwoMaps">%1$s haritalar</string>
+    <string name="speechUnitThreeHours">Saat</string>
+    <string name="dataStorageTransferInfoTitle">Son değişiklik</string>
+    <string name="dialogMapsMapCountFourMaps">%1$s haritalar</string>
 </resources>
