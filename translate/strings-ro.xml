@@ -21,14 +21,14 @@
     <string name="buttonUnderstand">Am înțeles</string>
     <string name="buttonResumeTrack">Continuă</string>
     <string name="buttonNewTrack">Finalizare</string>
-    <string name="menuControlPanel">Panou de control</string>
+    <string name="menuControlPanel">Setări rapide</string>
     <string name="menuSettings">Setări</string>
-    <string name="menuSummary">Sumar</string>
+    <string name="menuSummary">Prezentare generală</string>
     <string name="menuTracksHistory">Istoric</string>
     <string name="menuTracksHistoryResume">Continuă</string>
     <string name="menuMeterLock">Blocare</string>
     <string name="menuMeterLockAll">Blocare Toate</string>
-    <string name="menuMeterMode">Mod Măsurare...</string>
+    <string name="menuMeterMode">Modul contor</string>
     <string name="menuMeterChooseModes">Selectare Mod...</string>
     <string name="menuMeterResetMinMax">Resetare Min/Max</string>
     <string name="menuMeterReset">Finalizare</string>
@@ -101,7 +101,7 @@
     <string name="toastProfileButtonClickInfo">Apasă lung pentru schimbarea profilului</string>
     <string name="toastContrastButtonClickInfo">Temă vizuală automată activată</string>
     <string name="toastFlashlightButtonClickInfo">Apăsați prelung pentru blitz</string>
-    <string name="toastRoarButtonClickInfo">Apasă lung pentru claxon.</string>
+    <string name="toastRoarButtonClickInfo">Faceți clic lung pentru a comuta sunetul AVAS</string>
     <string name="toastMapButtonClickInfo">Apasă lung pentru a afişa harta.</string>
     <string name="toastMapFollowingOn">Urmărire</string>
     <string name="toastMapFollowingAutorotate">Rotire ecran activată</string>
@@ -132,7 +132,7 @@
     <string name="dialog_default_color_text">Culorile implicite vor fi reîncărcate. Sunteți sigur\?</string>
     <string name="dialog_defaultConfirmation">Eşti sigur\?</string>
     <string name="dialog_volume_bell_text">Clopoțel</string>
-    <string name="dialog_volume_roaring_text">Muget</string>
+    <string name="dialog_volume_roaring_text">AVAS</string>
     <string name="dialog_volume_effects_text">Efecte</string>
     <string name="dialog_volume_tallies_text">Numere</string>
     <string name="dialog_volume_alarms_text">Alarme</string>
@@ -167,9 +167,9 @@
     <string name="dialogProfileSwitchTitle">Schimbă profilul</string>
     <string name="dialogProfileSwitchMessage">Înregistrarea este activă. Eşti sigur că vrei să schimbi profilul %1$s\?</string>
     <string name="dialogTracksDeleteTitle">Şterge traseele</string>
-    <string name="dialogTracksDeleteMessage">Atenţie: Această acţiune nu mai poate fi inversată.
+    <string name="dialogTracksDeleteMessage">Avertisment: această acțiune nu poate fi anulată. Ștergeți melodiile selectate\?
 \n
-\nŞtergi traseele selectate\?</string>
+\nPentru a confirma ștergerea, introduceți următorul cod pentru a continua.</string>
     <string name="dialogTrackDeleteMessage">Atenţie: Această acţiune nu mai poate fi inversată.
 \n
 \nŞtergi traseul %1$s\?</string>
@@ -206,10 +206,10 @@
     <string name="dialogResetMessage">Salvează această cursă și pregătește una nouă\?</string>
     <string name="dialogResetNoTrackMessage">Nu s-a salvat nicio cursă. Resetezi măsurătorile acum\?</string>
     <string name="dialogScreenHudMode">Mod HUD în oglindă</string>
-    <string name="dialogScreenOrientationAuto">Auto orientare</string>
+    <string name="dialogScreenOrientationAuto">Automat</string>
     <string name="dialogScreenOrientationPortrait">Portret</string>
     <string name="dialogScreenOrientationLandscape">Peisaj</string>
-    <string name="dialogScreenBrightnessOverride">Suprascrie luminozitatea</string>
+    <string name="dialogScreenBrightnessOverride">Luminozitate</string>
     <string name="dialogScreenAutoTheme">Temă automată</string>
     <string name="dialogMapsOffline">Hărţi offline</string>
     <string name="dialogMapsLayerTraffic">Trafic</string>
@@ -217,7 +217,7 @@
     <string name="dialogMapsShowRoutes">Indicaţii navigare</string>
     <string name="dialogMapsFollowMode">Urmăreşte</string>
     <string name="dialogMapsAutoRotate">Auto rotire</string>
-    <string name="dialogMapsHighResolution">Hartă rezoluție mare</string>
+    <string name="dialogMapsHighResolution">Hartă de înaltă rezoluție</string>
     <string name="dialogMapsRenderTerrain">Rendează terenul</string>
     <string name="dialogMapsTrackColor">Culoare traseu</string>
     <string name="dialogFencesAdd">Adaugă protecţie aici</string>
@@ -234,7 +234,7 @@
     <string name="dialogPowerWeightsWeightWheels">Roţi</string>
     <string name="dialogPowerParamsTitle">Coeficienţi pierderi de putere</string>
     <string name="dialogPowerParamsDragArea">Rezistenţa de frecare cu aerul (Cd·A)</string>
-    <string name="dialogPowerParamsRollResist">Coeficient de frecare la rulare (Crr)</string>
+    <string name="dialogPowerParamsRollResist">Coef rezistență la rulare. (Cᵣᵣ)</string>
     <string name="dialogEnergyParamsTitle">Parametri energetici</string>
     <string name="dialogEnergyParamsEfficiency">Randament termic global (η)</string>
     <string name="dialogEnergyParamsBmr">Rata metabolică de bază</string>
@@ -253,16 +253,16 @@
     <string name="dialogTrackUploadPlatform">Serviciu online</string>
     <string name="dialogTrackUploadStravaIsCommute">Navetă</string>
     <string name="dialogGpsIntervalTitle">Interval actualizare GPS</string>
-    <string name="dialogGpsIntervalNote">Notă: Păstrează această valoare sub 3sec. pentru a obține date precise și un comportament consecvent!</string>
+    <string name="dialogGpsIntervalNote">Păstrați această valoare sub 3 secunde pentru a obține cele mai precise citiri și un comportament consistent!</string>
     <string name="dialogGpsIntervalLabelMore">
         ◀
 \nMai multă acuratețe folosește mai multă baterie</string>
     <string name="dialogLocationPermissionRequestTitle">Permiterea localizării</string>
     <string name="dialogLocationPermissionRequest">Aplicația necesită acces la localizare pentru a înregistra actiivitățile tale in aer liber.</string>
     <string name="dialogStoragePermissionRequestTitle">Permiterea stocării</string>
-    <string name="dialogStoragePermissionRequest">Aplicația necesită acces la stocare pentru a salva sau restaura traseele sau setările tale.
+    <string name="dialogStoragePermissionRequest">Aplicația trebuie să acceseze spațiul de stocare pentru a vă putea salva sau restabili piesele și setările.
 \n
-\nFără această permisiune nu vei putea să vezi istoricul traseelor sau să impătășești trasee, și poți pierde datele tale.</string>
+\nFără să acordați permisiunea, este posibil să nu vă puteți vedea istoricul traseelor și vă puteți pierde datele.</string>
     <string name="dialogCameraPermissionRequestTitle">Permiterea fotografierii</string>
     <string name="dialogCameraPermissionRequest">Permisiunea este necesară pentru a putea activa lanterna.</string>
     <string name="dialogPermissionProblemMessage">Această permisiune este necesară pentru ca aplicația să funcționeze corect. Poate fi acordată in pagina de Permisiuni pentru aplicații.
@@ -378,7 +378,7 @@
     <string name="meterTextAvg">med</string>
     <string name="meterTextTotal">tot</string>
     <string name="controlPanelSoundAutoBell">Claxon automat</string>
-    <string name="controlPanelSoundRoar">Răget</string>
+    <string name="controlPanelSoundRoar">AVAS</string>
     <string name="controlPanelSoundEffects">Efecte</string>
     <string name="controlPanelSoundAlarms">Alarme</string>
     <string name="controlPanelSoundTallies">Numărătoare</string>
@@ -411,7 +411,7 @@
     <string name="summaryStartedDatetime">Pornit</string>
     <string name="summaryEndedDatetime">Terminat</string>
     <string name="summaryTotalTime">Timp total</string>
-    <string name="summaryHeartBeats">Bătăi inimă</string>
+    <string name="summaryHeartBeats">Batai de inima</string>
     <string name="summaryCadenceStrokes">Miscările pedalelor</string>
     <string name="sensorsTitle">Senzori</string>
     <string name="sensorsTabUsed">Folosit</string>
@@ -477,7 +477,7 @@
     <string name="pref_category_tracking_title">Urmărire</string>
     <string name="pref_category_tracking_gps_title">Urmărire/GPS</string>
     <string name="pref_category_bell_title">Clopoțel</string>
-    <string name="pref_category_roaring_title">Claxon</string>
+    <string name="pref_category_roaring_title">AVAS</string>
     <string name="pref_category_roaringConstantMode_title">Mod constant</string>
     <string name="pref_category_effects_title">Efecte</string>
     <string name="pref_category_alarms_title">Alarme</string>
@@ -505,7 +505,7 @@
     <string name="pref_category_locationProvider_title">Furnizor GPS</string>
     <string name="pref_category_altitude_adjustments_title">Altitudini</string>
     <string name="pref_category_temperature_title">Temperatură</string>
-    <string name="pref_category_pressure_title">Presiune</string>
+    <string name="pref_category_pressure_title">Senzor de presiune incorporat</string>
     <string name="pref_category_sensors_title">Senzori</string>
     <string name="pref_category_mapsQuickZoom">ZoomRapid</string>
     <string name="prefAllProfilesInfoSummary">Preferințele de aici se aplică tuturor profilelor.</string>
@@ -542,10 +542,8 @@
     <string name="pref_bell_shake_summary">Scutură aparatul pentru a suna clopoțelul</string>
     <string name="pref_bell_shake_sensitivity_title">Sensibilitatea scuturării</string>
     <string name="pref_roaring_type_title">Tip</string>
-    <string name="pref_roaring_type_dialog_title">Tip claxon</string>
-    <string name="pref_volume_summary_text">Clopoțel: %1$s, Claxon: %2$s
-\nNumărătoare: %3$s, Efecte: %4$s, Alarme: %5$s
-    </string>
+    <string name="pref_roaring_type_dialog_title">tip AVAS</string>
+    <string name="pref_volume_summary_text">Sonerie: %1$s, AVAS: %2$s, Sume: %3$s, Efecte: %4$s, Alarme: %5$s, Discurs: %6$s</string>
     <string name="pref_bg_color_title">Culoare fundal</string>
     <string name="pref_bg_color_summary">Alege culoare dorită pentru fundalul aplicației</string>
     <string name="pref_fg_color_title">Culoare text</string>
@@ -565,31 +563,31 @@
     <string name="pref_obey_audio_focus_disable_summary">Continuați să produceți sunete chiar dacă focalizarea audio este pierdută (prin notificare de sistem sau prin altă aplicație)</string>
     <string name="pref_audio_force_loudspeaker_title">Forțați difuzor</string>
     <string name="pref_audio_force_loudspeaker_summary">Avertisment: Experimental, poate să nu funcționeze. Încearcă să redirecționeze toate sunetele prin difuzor atunci când sunt conectate căștile, cu excepția apelurilor vocale.</string>
-    <string name="pref_duck_roaring_on_bell_title">Sunet vâjâitor de rață când sună clopoțelul</string>
-    <string name="pref_duck_roaring_on_bell_summary">Coboară volumul sunetelor vâjâitoare cât timp sună clopoțelul</string>
+    <string name="pref_duck_roaring_on_bell_title">Duck AVAS pe sonerie</string>
+    <string name="pref_duck_roaring_on_bell_summary">Reduceți volumul sunetelor AVAS când sună soneria</string>
     <string name="pref_relaunchAfterReboot_title">Relansează după restart</string>
     <string name="pref_resetPrompt_title">Mesaj reset</string>
-    <string name="pref_resetPrompt_summary">Solicitați să începeți o pistă nouă dacă cea activă a fost cu mai mult de 4 ore în urmă sau într-o locație îndepărtată</string>
+    <string name="pref_resetPrompt_summary">Solicitați începerea unei piese noi dacă ultima activitate a avut loc acum mai mult de 4 ore sau într-o locație îndepărtată (recomandat)</string>
     <string name="pref_auto_launch_on_gps_title">Pornește automat la GPS</string>
     <string name="pref_auto_launch_on_gps_summary">Lansează aplicația (în mod Pasiv) când se detectează activitate GPS</string>
     <string name="pref_passive_gps_button_title">Buton mod GPS pasiv</string>
     <string name="pref_passive_gps_button_summary">Activează mod Pasiv GPS când se dă click pe butonul de GPS</string>
     <string name="pref_digital_font_title">Font digital</string>
     <string name="pref_digital_font_summary">(Toate profilele) Utilizați font digital LCD segmentat pentru afișarea datelor de pe ciclometru</string>
-    <string name="pref_roaring_state_title">Sunet de răget</string>
-    <string name="pref_roaring_state_summary">Fă sunete de alertă cât ești în mișcare</string>
+    <string name="pref_roaring_state_title">AVAS</string>
+    <string name="pref_roaring_state_summary">Produceți sunete pentru sistemul acustic de alertă a vehiculelor (AVAS) în timp ce vă deplasați</string>
     <string name="pref_roaring_mode_title">Mod</string>
-    <string name="pref_roaring_mode_dialog_title">Sunet de răget</string>
+    <string name="pref_roaring_mode_dialog_title">modul AVAS</string>
     <string name="pref_roaring_constant_mode_title">Mod constant</string>
-    <string name="pref_roaring_constant_mode_summary">Produceți sunete constante de răget în orice moment, indiferent de mișcarea sau starea GPS</string>
+    <string name="pref_roaring_constant_mode_summary">Produceți sunete AVAS constante în orice moment, indiferent de mișcarea sau starea GPS-ului</string>
     <string name="pref_roar_threshold_speed_title">Viteză prag</string>
     <string name="pref_roarConstantModeButton_title">Buton de comutare</string>
-    <string name="pref_roarConstantModeButton_summary">Comută mod constant cu un click buton cât timp răget este pornit</string>
+    <string name="pref_roarConstantModeButton_summary">Comutați modul constant cu un clic pe buton în timp ce AVAS este pornit</string>
     <string name="pref_fenceguard_title">FenceGuard</string>
     <string name="pref_fenceguard_summary">Protejați locația casei dumneavoastră, sau alte locuri importante pentru a nu fi expuse in curse înregistrate</string>
     <string name="pref_autopause_mode_dialog_title">Pauză automată</string>
     <string name="pref_speed_calculate_mode_title">Recalculați viteza</string>
-    <string name="pref_speed_calculate_mode_summary">(Toate profilele) Recalculează viteza din dinstanță, nu folosi valorile GPS direct. Acest lucru poate oferi citiri mai stabile ale vitezei peste valorile GPS (Doppler).</string>
+    <string name="pref_speed_calculate_mode_summary">(Toate profilurile) Recalculați viteza din distanțe, nu utilizați direct valoarea GPS. Acest lucru poate oferi citiri de viteză mai stabile față de valorile GPS (Doppler). Implicit este OFF.</string>
     <string name="pref_soundeffects_title">Pornește</string>
     <string name="pref_soundeffects_fence_enterleave_title">Protectie</string>
     <string name="pref_soundeffects_fence_enterleave_summary">Producere sunet când intrați sau ieșiti din zona protejată</string>
@@ -620,28 +618,28 @@
     <string name="pref_maps_fences_draw_title">Protecţii</string>
     <string name="pref_maps_fences_draw_summary">Afișează regiuni protejate FenceGuard peste hartă</string>
     <string name="pref_maps_animate_title">Animație</string>
-    <string name="pref_maps_animate_summary">(Toate profilele) Dezactivați să reduceți folosirea bateriei, mai ales dacă mod Urmărire este activat</string>
+    <string name="pref_maps_animate_summary">Opriți pentru a reduce utilizarea bateriei, mai ales când modul Urmărire este activat</string>
     <string name="pref_maps_online_mode_dialog_title">Sursă hărți</string>
     <string name="pref_maps_offline_file_title">Alege fișier sau dosar</string>
     <string name="pref_maps_offline_file_noFolderSelected">Nici un dosar selectat.</string>
     <string name="pref_maps_offline_info_title">Descarcă acum</string>
-    <string name="pref_maps_offline_info_summary">Hărți tip Mapsforge vector (.map) și Rmaps raster (.sqlitedb). Puteți descărca la adresa download.mapsforge.org</string>
+    <string name="pref_maps_offline_info_summary">Hărțile vectoriale Mapsforge (.map) și Rmaps raster (.sqlitedb) sunt acceptate. Disponibil la download.mapsforge.org.</string>
     <string name="pref_maps_offline_warning_summary">Avertisment: Unele date online pot fi preluate chiar și în modul offline. Dezactivați Internetul mobil înainte de a utiliza hărțile, dacă este cazul.</string>
     <string name="pref_maps_routes_draw_title">Indicaţii navigare</string>
-    <string name="pref_maps_routes_info_summary">Nu vor fi date alte indicații vizuale sau sonore care să faciliteze navigarea în traseu</string>
+    <string name="pref_maps_routes_info_summary">Traseul ghid este pur și simplu o linie trasată peste hartă pe care o puteți urmări. Pentru indicații pas cu pas, utilizați funcția Navigare.</string>
     <string name="pref_maps_routes_files_title">Alege fișier sau dosar</string>
     <string name="pref_maps_routes_files_dialog_title">Alegeți fișier sau dosar rută</string>
     <string name="pref_maps_routes_files_noFolderSelected">Nici un dosar selectat.</string>
     <string name="pref_maps_quickZoom_title">Butoane ZoomRapid</string>
-    <string name="pref_maps_quickZoom_summary">(Toate profilurile) Activați butoanele de QuickZoom rapid invizibile în partea de jos a hărții, îmbunătățește orientarea</string>
+    <string name="pref_maps_quickZoom_summary">Activați butoanele invizibile de zoom rapid în partea de jos a hărții</string>
     <string name="pref_maps_quickZoomInvert_title">Inversat</string>
     <string name="pref_maps_quickZoomInvert_summary">Schimbă poziția butoanelor pentru zoom in/out</string>
     <string name="pref_maps_offline_terrain_title">Rendează terenul</string>
-    <string name="pref_maps_offline_terrain_summary">(Toate profilele) Rendează umbrele de elevare a terenului. Harta va arăta mai realistic, dar probabil mai lent. Are nevoie de fișiere DEM (.hft) să fie în folderul hărți.</string>
+    <string name="pref_maps_offline_terrain_summary">Redați nuanțe de elevație a terenului. Harta va arăta mai realistă, dar probabil mai lentă. Necesită fișiere DEM (.hgt) prezente în folderul hărții.</string>
     <string name="pref_maps_offline_terrain_info_title">Descarcă acum</string>
-    <string name="pref_maps_offline_terrain_info_summary">Deschide pagina de descărcare la viewfinderpanoramas.org</string>
+    <string name="pref_maps_offline_terrain_info_summary">Deschideți pagina de descărcare la viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Acțiunea butonului strat</string>
-    <string name="pref_mapsOfflineLayerButtonActionSummary">(Toate profilele) Alege ce să facă atunci când butonul de strat este apăsat</string>
+    <string name="pref_mapsOfflineLayerButtonActionSummary">Alegeți ce să faceți când butonul de strat este apăsat</string>
     <string name="pref_button_profile_show_title">Profil</string>
     <string name="pref_button_profile_show_summary">Afișează butonul de Profil</string>
     <string name="pref_button_map_show_title">Hartă</string>
@@ -650,8 +648,8 @@
     <string name="pref_button_flashlight_show_summary">Afișează butonul Lanternă (daca este disponibilă lanterna)</string>
     <string name="pref_button_contrast_show_title">Strat Contrast/Hartă</string>
     <string name="pref_button_contrast_show_summary">Afișează comutatorul de strat Contrast/Hartă</string>
-    <string name="pref_button_roar_show_title">Răget</string>
-    <string name="pref_button_roar_show_summary">Afișează butonul de Răget</string>
+    <string name="pref_button_roar_show_title">AVAS</string>
+    <string name="pref_button_roar_show_summary">Afișați butonul AVAS</string>
     <string name="pref_button_menu_show_title">Meniu</string>
     <string name="pref_button_menu_show_summary">Afișează butonul de Meniu</string>
     <string name="pref_meter_lock_title">Mod blocare</string>
@@ -681,14 +679,14 @@
     <string name="pref_haptic_feedback_intensity_title">Intensitate vibrație</string>
     <string name="pref_soundsMasterSwitch_title">Toate sunetele</string>
     <string name="prefBarometricAltitudeTitle">Altitudine barometrică</string>
-    <string name="prefBarometricAltitudeSummary">Folosește barometrul intern pentru a mări acuratețea altitudinii</string>
+    <string name="prefBarometricAltitudeSummary">Utilizați datele senzorului de presiune pentru a îmbunătăți acuratețea altitudinii, dacă sunt disponibile</string>
     <string name="prefBaroAltitudeUsesTemperatureTitle">Barometru termic</string>
-    <string name="prefBaroAltitudeUsesTemperatureSummary">Folosește senzorul de temperatură pentru a mări acuratețea altitudinii barometrice</string>
+    <string name="prefBaroAltitudeUsesTemperatureSummary">Utilizați datele senzorului de temperatură pentru altitudini barometrice mai precise, dacă sunt disponibile</string>
     <string name="prefBarometricAltitudeNoteSummary">Folosește doar în atmosfera deschisă! Te rog dezactivează când e presurizat, închis sau în vehicule cu aer condiționat precum mașini sau avioane!</string>
     <string name="prefTemperatureSensorDerivedTitle">Folosește senzor derivat</string>
-    <string name="prefTemperatureSensorDerivedSummary">Acest dispozitiv nu are senzor de temperatură ambientală, dar poate fi derivată folosind alți senzori. Citiți mai mult în secțiunea Ajutor.</string>
-    <string name="prefPressureSensorOffsetTitle">Compensație barometru</string>
-    <string name="prefPressureSensorOffsetInfo">Această constanță se adaugă la valorile barometrice și poate fi utilizată pentru a atenua părtinirea barometrului, dacă este prezentă</string>
+    <string name="prefTemperatureSensorDerivedSummary">Acest dispozitiv nu are un senzor de temperatură ambientală, dar valorile aproximative pot fi derivate folosind alți senzori interni (cum ar fi temperatura procesorului).</string>
+    <string name="prefPressureSensorOffsetTitle">Compensarea presiunii</string>
+    <string name="prefPressureSensorOffsetInfo">Această constantă este adăugată la citirile de presiune și poate fi utilizată pentru a atenua polarizarea senzorului, dacă este prezent.</string>
     <string name="prefNotificationAlwaysTitle">Notificare persistentă</string>
     <string name="prefNotificationAlwaysSummary">Afișează iconița aplicației în bara de status system tot timpul, nu doar când urmărirea este activă.</string>
     <string name="infoMeterModeDistanceTitle">Distanța</string>
@@ -698,7 +696,7 @@
     <string name="infoMeterModeDurationTitle">Durată</string>
     <string name="infoMeterModeDurationMsg">Durata călătoriei, posibil excluzând pauze sau opriri.</string>
     <string name="infoMeterModeElapsedTitle">Timp scurs</string>
-    <string name="infoMeterModeElapsedMsg">Timp scurs, inclusiv toate pauzele dar excluzând opririle.</string>
+    <string name="infoMeterModeElapsedMsg">Durata călătoriei, inclusiv toate pauzele, dar excluzând opririle.</string>
     <string name="infoMeterModeEnergyTitle">Energie</string>
     <string name="infoMeterModeEnergyMsg">Energie consumată în călătorie, luând în calcul eficiența si BMR.</string>
     <string name="infoMeterModeEfficacyTitle">Eficiența (cumulativă)</string>
@@ -711,14 +709,14 @@
     <string name="infoMeterModeAltitudeTitle">Altitudine</string>
     <string name="infoMeterModeSlopeTitle">Pantă</string>
     <string name="infoMeterModeSpeedTitle">Viteză</string>
-    <string name="infoMeterModeSpeedMsg">Viteză - Curentă, Maximă și Medie.</string>
+    <string name="infoMeterModeSpeedMsg">Distanța instantanee parcursă pe unitatea de timp.</string>
     <string name="infoMeterModeVerticalSpeedTitle">Viteză Verticală</string>
     <string name="infoMeterModePaceTitle">Ritm</string>
-    <string name="infoMeterModePaceMsg">Viteză inversată - Curentă, Maximă si Medie.</string>
+    <string name="infoMeterModePaceMsg">Viteza inversă, adică timpul scurs pe unitatea de distanță.</string>
     <string name="infoMeterModeAccelerationTitle">Accelerație</string>
-    <string name="infoMeterModeAccelerationMsg">Rata de schimbare a vitezei - Curentă, Maximă și Minimă.
+    <string name="infoMeterModeAccelerationMsg">Rata de schimbare a vitezei în timp.
 \n
-\n Negativ înseamnă decelerare.</string>
+\nNegativ înseamnă decelerare.</string>
     <string name="infoMeterModePowerTitle">Putere</string>
     <string name="infoMeterModeVerticalPowerTitle">Putere verticală</string>
     <string name="infoMeterModeTemperatureTitle">Temperatură</string>
@@ -739,8 +737,8 @@
     <string name="defaultProfileNamePlane">Avion 🛩️</string>
     <string name="defaultProfileNameOther">Alta</string>
     <string name="svgCopyright">Creat cu Urban Biker</string>
-    <string name="menuLicense">Cumpără licența</string>
-    <string name="toastMapClickInfo">Apasă lung pentru setările hărții</string>
+    <string name="menuLicense">Actualizare</string>
+    <string name="toastMapClickInfo">Atingeți lung pentru opțiunile hărții</string>
     <string name="dialogGpsIntervalLabelLess">
         ▶
 \nMai puțin precisă, utilizează mai puțină baterie</string>
@@ -754,7 +752,7 @@
     <string name="dialogTracksShareChoices_1">Numai GPX</string>
     <!-- pref_gps_update_freq_entries -->
     <string name="pref_gps_update_freq_entries_0">Cel mai rapid</string>
-    <string name="pref_gps_update_freq_entries_2">Implicit</string>
+    <string name="pref_gps_update_freq_entries_2">Mod implicit</string>
     <string name="pref_gps_update_freq_entries_3">1 sec</string>
     <string name="pref_gps_update_freq_entries_4">2 sec</string>
     <string name="pref_gps_update_freq_entries_5">3 sec</string>
@@ -793,7 +791,7 @@
     <string name="pref_locationProvider_modes_1">Servicii Google Play</string>
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Toate profilurile) Utilizați direct subsistemul GPS. Model stabil, mai puțin complex, fără intermediar. Poate, de asemenea, să utilizeze mai puține resurse decât celălalt furnizor.</string>
-    <string name="pref_locationProvider_modes_explanation_1">(Toate profilurile) Utilizați furnizorul \"Fused\" din serviciile Google Play, dacă este disponibil. În teorie, acest lucru poate oferi uneori locații mai rapide și mai precise. Încearcă să vezi dacă te ajută.</string>
+    <string name="pref_locationProvider_modes_explanation_1">(Toate profilurile) Folosiți furnizorul „Fused” de la serviciile Google Play, dacă este disponibil. În teorie, aceasta poate oferi locații mai rapide și mai precise uneori.</string>
     <!-- pref_flashlightBlinkModes -->
     <string name="pref_flashlightBlinkModes_0">Încet (implicit)</string>
     <string name="pref_flashlightBlinkModes_1">Repede</string>
@@ -817,7 +815,7 @@
     <string name="prefUnitsEnergyEntries_0">[kcal]</string>
     <string name="prefUnitsEnergyEntries_1">[kJ]</string>
     <string name="prefUnitsEnergyEntries_2">[kWh]</string>
-    <string name="prefUnitsEnergyEntries_3">[Litrii benzină]</string>
+    <string name="prefUnitsEnergyEntries_3">[litri de benzină]</string>
     <!-- prefUnitsPowerEntries -->
     <string name="prefUnitsPowerEntries_0">[W]</string>
     <string name="prefUnitsPowerEntries_1">[HP]</string>
@@ -876,15 +874,21 @@
     <string name="prefAdModes_1">Google</string>
     <string name="prefAdModes_3">Nici unu</string>
     <string name="licenseDialogMapsTab">Hărțo</string>
-    <string name="ultimateLicenseDescription">Cea mai puternică licență pentru o experiență extraordinară.</string>
+    <string name="ultimateLicenseDescription">Cea mai puternică licență pentru o experiență supremă</string>
     <string name="ultimateLicenseFeatures">✔️ Toate hărțile premium
 \n✔️ Navigație
+\n✔️ Linia de bază de altitudine online
 \n✔️ Fără reclame
 \n✔️ Toate funcțiile și hărțile gratuite</string>
-    <string name="proPlusLicenseFeatures">Fară reclame
-\nDonație adițională</string>
+    <string name="proPlusLicenseFeatures">❌ Hărți premium
+\n❌ Navigare
+\n❌ Linia de bază de altitudine online
+\n✔️ Fără reclame
+\n✔️ Toate funcțiile și hărțile gratuite
+\n➕ Donație suplimentară</string>
     <string name="proLicenseFeatures">❌ Hărți premium
 \n❌ Navigare
+\n❌ Linia de bază de altitudine online
 \n✔️ Fără reclame
 \n✔️ Toate funcțiile și hărțile gratuite</string>
     <string name="priceFree">GRATUIT</string>
@@ -892,6 +896,7 @@
     <string name="rewardedAdPriceFree">GRATUIT (valid în această sesiune)</string>
     <string name="freeLicenseFeatures">❌ Hărți premium
 \n❌ Navigare
+\n❌ Linia de bază de altitudine online
 \n❌ Fără reclame
 \n✔️ Toate funcțiile și hărțile gratuite</string>
     <string name="meterModeKineticEnergy">energie kinetică</string>
@@ -919,8 +924,8 @@
     <string name="dialogMapsWeatherRadar">Radar de precipitații</string>
     <string name="dialogReviewNudgeMessage">Îți place Urban Biker\?</string>
     <string name="timePeriod_per6Months">la 6 luni</string>
-    <string name="pref_categoryTrackingButtonTitle">Buton de urmărire</string>
-    <string name="sensorProperitesIsAutoStrideLenInfo">Acest lucru va efectua măsurători automate ale lungimii pasului în timpul alergării sau al mersului rapid.</string>
+    <string name="pref_categoryTrackingButtonTitle">butonul Rec</string>
+    <string name="sensorProperitesIsAutoStrideLenInfo">Aceasta va efectua măsurători automate ale lungimii pasului în timpul alergării sau al mersului rapid.</string>
     <string name="trackUploadActivityTypes_4">Înot</string>
     <string name="infoMeterModeAltitudeMsg">Înălțimea deasupra nivelului mediu al mării (geoid).</string>
     <string name="meterModeStepCount">trepte</string>
@@ -950,6 +955,7 @@
     <string name="prefBarometricAltitudeDisableAlert">Dezactivați altitudinea barometrică\?</string>
     <string name="mapboxMapsFeatures">✔️ Hărți premium Mapbox
 \n✔️ Navigație
+\n✔️ Linia de bază de altitudine online
 \n✔️ Fără reclame
 \n✔️ Toate funcțiile și hărțile gratuite</string>
     <string name="menuScreenshot">Captură de ecran</string>
@@ -963,12 +969,12 @@
     <string name="speechTrackingGpsOk">GPS OK</string>
     <string name="trackUploadActivityTypes_3">Merge pe jos</string>
     <string name="prefMapDiskCacheAgeEntries_5">45 de zile</string>
-    <string name="prefSteadyScreenNote2">Vă rog să nu vă așteptați la miracole. Dacă această caracteristică nu funcționează bine pentru dvs., pur și simplu dezactivați-o.</string>
+    <string name="prefSteadyScreenNote2">Acest lucru funcționează cel mai bine pentru mișcările mai lente, cum ar fi balansarea telefonului în mână în timp ce mergeți, dar și pe ghidon în timp ce conduceți sau într-o mașină în timp ce conduceți.</string>
     <string name="dialogScreenOrientationReverseLandscape">Peisaj (invers)</string>
     <string name="pref_screenWaveDim_summary">Display-ul va fi, de asemenea, estompat, pentru a economisi bateria</string>
     <string name="prefScreenPocketModeDelayEntries_4">0,40 secunde</string>
     <string name="navigationAvoidFerries">Evitați feriboturile</string>
-    <string name="toastSteadyScreenModeActive">SteadyScreen activ</string>
+    <string name="toastSteadyScreenModeActive">Stabilizarea ecranului este activată</string>
     <string name="summaryStoppedTimeInfo">Timpul petrecut în pauză, fie manual, fie în timpul utilizării pauzei automate.</string>
     <string name="dialogLayoutChooseTitle">Aspect</string>
     <string name="menuSpeedoPaceIndicator">Indicator de ritm</string>
@@ -991,12 +997,12 @@
 \nIndicatorul de blocare indică când valoarea vitezei nu a fost actualizată de ceva timp și nu poate fi de încredere.
 \n
 \nIndicatorul de ritm sunt săgeți mici în apropierea valorii vitezei care arată când viteza actuală este peste sau sub viteza medie.</string>
-    <string name="toastSteadyScreenModeIntelligentActive">SteadyScreen inteligent activ</string>
+    <string name="toastSteadyScreenModeIntelligentActive">Stabilizarea ecranului inteligent activată</string>
     <string name="prefAppVisualThemeEntries_1">Ușoară</string>
     <string name="pref_screensaverTimeout_summary">Perioada de timp fără interacțiunea utilizatorului până la activarea screensaver-ului.</string>
     <string name="prefScreensaverTimeoutEntries_4">30 de secunde</string>
     <string name="timePeriod_perWeek">pe saptamana</string>
-    <string name="menuInsertMeter">Introduceți contorul</string>
+    <string name="menuInsertMeter">Metru</string>
     <string name="prefAutoTerrainNote2Summary">Puterile obținute folosind un senzor de putere nu sunt afectate de această caracteristică.</string>
     <string name="menuMeterShowValue">Valoare</string>
     <string name="pref_autopause_modes_explanation_2">Păstrați toate pauzele (cu excepția cazului în care sunt întrerupte manual)</string>
@@ -1009,7 +1015,7 @@
 \nEstimarea depinde foarte mult de tipul și durata acestei activități.</string>
     <string name="subscriptionPer1m">%1$s facturat o dată pe lună</string>
     <string name="licenseItemAlreadyOwned">Articolul cu licență este deja deținut</string>
-    <string name="prefSteadyScreenModeOnInfo">Păstrați funcția SteadyScreen mereu activă în timpul urmăririi. Acest lucru poate consuma mai multă baterie.</string>
+    <string name="prefSteadyScreenModeOnInfo">Păstrați funcția de stabilizare a ecranului mereu activă în timpul urmăririi. Acest lucru poate consuma mai multă baterie în timp ce ecranul este pornit.</string>
     <string name="dialogScreenOrientationReversePortrait">Portret (revers)</string>
     <string name="summaryVibrations">Vibrații</string>
     <string name="summaryVehicleWeightInfo">Greutatea vehiculului folosit la înregistrarea acestei piese.</string>
@@ -1075,6 +1081,7 @@
     <string name="aboutScreenTranslationsTitle">Traduceri</string>
     <string name="hereMapsFeatures">✔️ AICI hărți premium
 \n✔️ Navigație
+\n✔️ Linia de bază de altitudine online
 \n✔️ Fără reclame
 \n✔️ Toate funcțiile și hărțile gratuite</string>
     <string name="prefActivityRecognitionNoteSummary">Aceste opțiuni se bazează pe caracteristica Android de recunoaștere a activității fizice. S-ar putea să nu fie precis și poate fi întârziat, utilizați-l numai dacă sunteți de acord cu asta. Va funcționa cel mai bine atunci când se folosește un senzor de viteză pentru distanță și durată.</string>
@@ -1084,28 +1091,29 @@
     <string name="pref_soundeffects_autopause_summary">Sunete în pauză automată și reluați detectarea</string>
     <string name="prefScreenPocketModeDelayEntries_0">Fără întârziere (implicit)</string>
     <string name="batteryOptimizationToast">Selectați Urban Biker din listă</string>
-    <string name="infoMeterModeRadiusMsg">Distanța directă față de poziția inițială a pistei, adică deplasarea.</string>
-    <string name="prefSteadyScreenModeAuto">Inteligent activ (implicit)</string>
+    <string name="infoMeterModeRadiusMsg">Distanța în linie dreaptă până la locul de plecare, adică deplasarea.</string>
+    <string name="prefSteadyScreenModeAuto">Inteligent activat (implicit)</string>
     <string name="mapMarkerClickInfo">Faceți clic pentru opțiuni</string>
     <string name="dialogWaitTitle">Va rugam asteptati</string>
     <string name="controlPanelUnitsButtonTitle">Unitati de masura</string>
-    <string name="infoMeterModeKineticEnergyMsg">Înălțimea deasupra nivelului solului, unde energia dumneavoastră potențială ar fi egală cu energia cinetică actuală.
+    <string name="infoMeterModeKineticEnergyMsg">Înălțimea pe care ai atinge-o „lăsând” pe o pantă lungă fără frânare.
 \n
-\nCu alte cuvinte, viteza ta este egală cu viteza pe care ai avea-o după ce ai căzut de la această înălțime (nând cont de rezistența aerului).
+\nSau, dacă ar fi să loviți un perete, forța de impact ar fi aceeași cu cea a căderii de la această înălțime.
 \n
-\nDe asemenea, este înălțimea pe care ai atinge-o dacă mergi direct în sus folosind doar conținutul tău de energie cinetică.</string>
+\nAcest număr crește ca viteză la pătrat și este util din motive de siguranță.</string>
     <string name="cloudAccountsPowerUploadPolicyTitle">Politica de încărcare a datelor de putere</string>
     <string name="dialogBluetoothPermissionRequest">Este necesară permisiunea pentru ca aplicația să găsească și să se conecteze cu senzori wireless.</string>
     <string name="pref_speechCountdown_summary">Vorbește numărătoarea inversă</string>
     <string name="thunderforestMapsFeatures">✔️ Hărți premium Thunderforest
 \n✔️ Navigație
+\n✔️ Linia de bază de altitudine online
 \n✔️ Fără reclame
 \n✔️ Toate funcțiile și hărțile gratuite</string>
     <string name="prefAppVisualThemeEntries_0">Defectiune de sistem</string>
     <string name="sensorProperitesUseForSteps">Utilizați pentru numărarea pașilor și cadența</string>
     <string name="summaryClimbingEnergyInfo">Procentul de energie care a fost folosit pentru a depăși gravitația.</string>
     <string name="sensorProperitesNoAlarm">Nu alarma</string>
-    <string name="prefGnssActivityRecognitionSummary">Recunoașteți starea nemișcată vs. mișcare pentru GPS. Poate introduce întârzieri și unele distanțe pierdute după o pauză, dar va preveni majoritatea zgomotului GPS.</string>
+    <string name="prefGnssActivityRecognitionSummary">Recunoașteți starea nemișcată vs. mișcare pentru GPS. Acest lucru poate introduce întârziere și o anumită distanță sau altitudine pierdută după o pauză, dar va preveni majoritatea zgomotului GPS.</string>
     <string name="prefTrackingButtonModeTitle">Comportament alternativ</string>
     <string name="meterModes_19">Ritm cardiac</string>
     <string name="dialogLayoutChoosePrompt">Aspectul curent va fi suprascris.
@@ -1115,6 +1123,7 @@
     <string name="pref_speechAutoPause_summary">Vorbiți în pauză automată și reluați detectarea</string>
     <string name="maptilerMapsFeatures">✔️ Hărți premium MapTiler
 \n✔️ Navigație
+\n✔️ Linia de bază de altitudine online
 \n✔️ Fără reclame
 \n✔️ Toate funcțiile și hărțile gratuite</string>
     <string name="dialogWeatherInfoMessage">Datele radar sunt actualizate la fiecare 10 minute. Pictograma plină indică date noi, pictograma goală înseamnă că o actualizare este aproape.
@@ -1124,7 +1133,7 @@
 \nDatele radar din ultima oră pot fi animate pentru a dezvălui tendințele precipitațiilor.</string>
     <string name="unitTimeSecond">s</string>
     <string name="dialogLoginUsernameHint">Nume de utilizator</string>
-    <string name="dialogCopyingMessage">Se copiează…</string>
+    <string name="dialogCopyingMessage">Se copiază…</string>
     <string name="navigationContinue">Continua</string>
     <string name="summaryRollResistCoefAverageInfo">Coeficientul mediu de rezistență la rulare, dacă coeficientul s-a modificat în timpul activității.</string>
     <string name="dialogOfflineMapsChooseMessage">Fișierul hartă nu a fost găsit sau nu este accesibil. Alegeți un alt fișier/dosar cu hărți acum\?</string>
@@ -1145,7 +1154,7 @@
     <string name="menuChooseFolder">Pliant</string>
     <string name="menuNarrow">Îngust</string>
     <string name="speechTrackingPause">Pauză</string>
-    <string name="toastSteadyScreenModeOff">SteadyScreen dezactivat</string>
+    <string name="toastSteadyScreenModeOff">Stabilizarea ecranului este dezactivată</string>
     <string name="dialogLicenseUpgradeButton2">Urmărește videoclipul promoțional</string>
     <string name="meterModes_7">Energie</string>
     <string name="speechTrackingResume">Merge</string>
@@ -1159,15 +1168,15 @@
     <string name="summaryBasalMetabolicRateInfo">Rata metabolică bazală (BMR).</string>
     <string name="trackUploadActivityTypes_2">Mers pe jos</string>
     <string name="pref_speechToasts_summary">Rostiți diverse scurte note informative</string>
-    <string name="prefSteadyScreenModeAutoInfo">Activați funcția SteadyScreen numai pe teren accidentat în timpul urmăririi. Acesta este un echilibru bun între confort și utilizarea bateriei.</string>
+    <string name="prefSteadyScreenModeAutoInfo">Activați funcția de stabilizare a ecranului numai pe teren accidentat în timpul urmăririi. Acesta este un echilibru bun între confort și utilizarea bateriei.</string>
     <string name="sensorProperitesUseForDuration">Utilizați pe durată</string>
     <string name="menuNavigation">Navigați</string>
     <string name="menuCustomTracksFolder">Dosar cu piese personalizate</string>
     <string name="buttonLater">Mai tarziu</string>
     <string name="pref_category_map_colors_title">Culorile hărții</string>
-    <string name="speechNavigationWrongWay">Drum greșit</string>
+    <string name="speechNavigationWrongWay">Direcţia greşită</string>
     <string name="dialogLayoutsInfoTitle">Aspecte</string>
-    <string name="prefTrackingButtonModeSummary">Faceți clic sau faceți clic lung pentru Pauză, buton separat pentru Stop.</string>
+    <string name="prefTrackingButtonModeSummary">(Toate profilurile) Faceți clic sau faceți clic lung pentru Pauză, buton separat pentru Stop.</string>
     <string name="prefMapDiskCacheSizeEntries_9">3 GB</string>
     <string name="controlPanelScreenshotButtonTitle">Captură de ecran</string>
     <string name="prefAppVisualThemeEntries_2">Întuneric</string>
@@ -1178,7 +1187,7 @@
     <string name="prefMapDiskCacheAgeEntries_6">60 de zile</string>
     <string name="prefMapDiskCacheSizeEntries_10">4GB</string>
     <string name="sensorFilterInterval_3">10 secunde</string>
-    <string name="infoDigitalFilterNotice">Vă rugăm să rețineți: acest lucru poate fi întârziat de la timpul real cu aproximativ un minut, din cauza întârzierilor inevitabile de filtrare digitală.</string>
+    <string name="infoDigitalFilterNotice">Vă rugăm să rețineți: uneori, acest lucru poate rămâne semnificativ în urmă în timp real, din cauza întârzierilor inevitabile de filtrare digitală necesare pentru precizie.</string>
     <string name="speechUnitOneMinute">Minut</string>
     <string name="menuMeter">Metru</string>
     <string name="meterModes_29">putere FT</string>
@@ -1197,7 +1206,7 @@
     <string name="summaryRollingEnergyInfo">Procentul de energie care a fost folosit pentru a depăși rezistența la rulare.</string>
     <string name="speechNavigationDestinationReached">Ați ajuns la destinație</string>
     <string name="menuSendDebugFeedback">Raportează o problemă</string>
-    <string name="prefSteadyScreenModeOffInfo">Nu activați niciodată caracteristica SteadyScreen</string>
+    <string name="prefSteadyScreenModeOffInfo">Nu activați niciodată funcția de stabilizare a ecranului</string>
     <string name="pref_soundeffects_tally_clock_title">Ceas</string>
     <string name="pref_soundeffects_tally_altitude_dialog_title">Numărul de altitudini</string>
     <string name="sensorPurposePressure">Presiune</string>
@@ -1238,7 +1247,7 @@
     <string name="summarySpecific">Specific</string>
     <string name="pref_speechCountdown_title">Numărătoare inversă</string>
     <string name="prefAutoTerrainNote1Summary">Dispozitivul trebuie ținut fix de vehicul (de exemplu, pe ghidonul unei biciclete), și nu într-o mână sau într-un buzunar în timpul utilizării acestuia.</string>
-    <string name="menuInsertSpeedo">Introduceți vitezometrul</string>
+    <string name="menuInsertSpeedo">Vitezometru</string>
     <string name="summaryDeviceAutoPauseCount">Număr de pauze automate</string>
     <string name="unitFeetsAboveGroundLevel">ft agl</string>
     <string name="pref_screensaverEnable_title">Screen saver</string>
@@ -1258,7 +1267,7 @@
     <string name="pref_mapsWeatherAnimate_title">Anima</string>
     <string name="speechNavigationGotOffRoute">Ai plecat de pe traseu</string>
     <string name="menuSpeedoBellButton">Butonul soneriei</string>
-    <string name="menuMove">Mutare</string>
+    <string name="menuMove">Mișcare</string>
     <string name="pref_autopause_modes_explanation_0">Eliminați toate pauzele mai lungi de câteva secunde</string>
     <string name="sensorProperitesStrideLen">Lungimea pasului</string>
     <string name="infoMeterModeAvgActivePowerTitle">Putere activă medie</string>
@@ -1282,7 +1291,7 @@
     <string name="pref_mapsWeatherAnimate_summary">Animați ultima oră de date radar, pentru a vă ajuta să vizualizați tendința precipitațiilor</string>
     <string name="meterModes_4">Ascensiune</string>
     <string name="trackUploadActivityTypes_7">Skateboard</string>
-    <string name="prefSteadyScreenNote1">Această caracteristică vă ajută să vedeți ecranul puțin mai clar în timp ce conduceți pe teren accidentat. Imaginea de pe ecran este stabilizată prin aplicarea unor mișcări rapide mici care încearcă să contracareze tremurul extern.</string>
+    <string name="prefSteadyScreenNote1">Această caracteristică vă ajută să vedeți ecranul puțin clar în timp ce sunteți în deplasare. Imaginea de pe ecran este stabilizată prin aplicarea unor mișcări rapide mici care încearcă să contracareze tremurul extern.</string>
     <string name="powerSourceWeight_0">Total</string>
     <string name="menuMeterShowIcon">Pictogramă</string>
     <string name="pref_speechTrackingStatus_title">Urmărire</string>
@@ -1313,11 +1322,9 @@
     <string name="aboutScreenTranslationsText">Ajutați la traducerea acestei aplicații și obțineți o licență gratuită! Mai multe informatii:</string>
     <string name="infoMeterModeVibrationsMsg">Vibrații măsurate cu dispozitivul. Util atunci când dispozitivul este ținut fix de un vehicul (de exemplu, pe ghidonul unei biciclete), și nu într-o mână sau într-un buzunar.</string>
     <string name="prefScreensaverTimeoutEntries_1">10 secunde</string>
-    <string name="dialogCustomTracksFolderInfoMessage">Această caracteristică permite aplicației să citească melodii dintr-un folder la alegere, în plus față de folderul implicit melodii - a cărui locație s-a schimbat recent.
+    <string name="dialogCustomTracksFolderInfoMessage">Această caracteristică permite aplicației să citească piese dintr-un dosar la alegere, în plus față de folderul principal de piese - a cărui locație s-a schimbat recent.
 \n
-\nAstfel de piese sunt doar pentru citire: pot fi vizualizate și partajate, dar nu pot fi editate, reluate sau șterse.
-\n
-\nDacă nu sunteți sigur, încercați să găsiți folderul „Documente-UrbanBiker-tracks” pe ecranul următor.</string>
+\nAstfel de piese sunt doar pentru citire: pot fi vizualizate și partajate, dar nu pot fi editate, reluate sau șterse.</string>
     <string name="prefScreensaverDimBrightnessEntries_0">Minim</string>
     <string name="buttonShow">Spectacol</string>
     <string name="meterModes_5">Coborâre</string>
@@ -1408,7 +1415,7 @@
     <string name="mapPlaceSearch">Unde sa\?</string>
     <string name="summaryDragAreaInfo">Zona de tragere a aerului (Cd·A).</string>
     <string name="meterModes_6">Pantă</string>
-    <string name="prefSteadyScreenModeOn">Activ</string>
+    <string name="prefSteadyScreenModeOn">Activat</string>
     <string name="prefMapDiskCacheSizeEntries_7">1 GB</string>
     <string name="sensorPurposeDuration">Durată</string>
     <string name="prefAutoTerrainSummary">Sentiți rugozitatea terenului prin măsurarea vibrațiilor și ajustați coeficientul de rezistență la rulare (Cᵣᵣ) în consecință atunci când calculați puterea.</string>
@@ -1454,7 +1461,7 @@
     <string name="speechUnitTwoLitersOfGasoline">Litri de benzină</string>
     <string name="pref_group_activityRecognition_title">Recunoașterea activității</string>
     <string name="toastScreenWavingModeActive">Modul agitare activ</string>
-    <string name="pref_mapsWeatherPrecipitationRadar_info">Datele radar sunt descărcate de pe Internet, chiar și atunci când sunt utilizate hărți offline. Este reîmprospătat automat la fiecare 10 minute, câtă vreme harta este vizibilă. Sursa datelor este RainViewer.com.</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_info">Datele radar sunt descărcate de pe Internet, chiar și atunci când sunt utilizate hărți offline. Se reîmprospătează automat la fiecare 10 minute în timp ce harta este vizibilă. Sursa datelor este RainViewer.com.</string>
     <string name="trackUploadActivityTypes_6">Naviga</string>
     <string name="pref_category_speech_title">Vorbire</string>
     <string name="controlPanelMapShowButtonTitle">Arată harta</string>
@@ -1484,7 +1491,7 @@
     <string name="controlPanelMapSettingsButtonSubtitle">Faceți clic pentru opțiuni de hartă</string>
     <string name="prefScreenPocketModeDelayEntries_6">0,75 secunde</string>
     <string name="summaryDraggingEnergyInfo">Procentul de energie care a fost folosit pentru a depăși rezistența la forța aerului.</string>
-    <string name="navigationWrongWay">Drum greșit</string>
+    <string name="navigationWrongWay">Direcţia greşită</string>
     <string name="menuHideTotals">Ascunde totalurile</string>
     <string name="generalError">A apărut o eroare. Vă rugăm să încercați din nou.</string>
     <string name="dialogActivityRecognitionPermissionRequestTitle">Permisiune de activitate fizică</string>
@@ -1532,7 +1539,7 @@
     <string name="dialogLicenseUpgradeMessage">Această funcție necesită o licență de abonament.
 \n
 \nAlternativ, puteți viziona un scurt videoclip promoțional pentru a obține credit gratuit.</string>
-    <string name="cloudAccountsPowerUploadPolicy_1">Încărcați date de putere numai când a fost folosit contorul de putere</string>
+    <string name="cloudAccountsPowerUploadPolicy_1">Încărcați datele de putere numai când a fost folosit contorul de putere</string>
     <string name="summaryMechWorkInfo">Lucrări pur mecanice efectuate pentru această activitate (fără seama de eficiența termică și BMR).</string>
     <string name="defaultProfileNameIndoor">În interior 🏠</string>
     <string name="prefOnlineMapsProviderTitle">Furnizor de hărți online</string>
@@ -1563,4 +1570,109 @@
 \nNotă: Puterea verticală este întotdeauna calculată folosind Greutatea totală.</string>
     <string name="sensorWheelCircNotSetWarning">Circumferința roții nu a fost setată</string>
     <string name="pref_soundeffects_screenOff_summary">Sună și vibrează când ecranul este estompat sau oprit temporar</string>
+    <string name="dataStorageChooseButton">Alegeți locația de stocare a datelor</string>
+    <string name="prefSteadyScreenImplementationNote">(Toate profilurile) Implementarea externă necesită instalarea unei aplicații separate. Faceți clic aici pentru a deschide Magazinul Play.</string>
+    <string name="prefSteadyScreenImplementationTitle">Implementarea</string>
+    <string name="speechUnitThreeFeets">Picioarele</string>
+    <string name="dialogMapsMapCountThreeMaps">%1$s hărți</string>
+    <string name="dialogRecButtonInsertMessage">Acest lucru va introduce butonul Rec aici și îl va elimina din bara de butoane. Continua\?</string>
+    <string name="speechUnitFourFeets">Picioarele</string>
+    <string name="dataStorageStatsTitle">Statistici de stocare</string>
+    <string name="speechUnitThreeMinutes">Minute</string>
+    <string name="speechUnitFourMinutes">Minute</string>
+    <string name="pref_mapsLayerHeatmap_info">Acest lucru vă poate ajuta să descoperiți locuri noi pentru a fi activ, în special în regiunile îndepărtate.</string>
+    <string name="dataStorageTransferInfoCount">Articole mutate: %1$s din %2$s</string>
+    <string name="menuRemoveRecButton">Butonul Eliminare Rec</string>
+    <string name="pref_category_storage_title">Depozitare</string>
+    <string name="dataStorageTransferInfoStatus">Stare: %1$s</string>
+    <string name="licenseItemOwned">Deținut în prezent</string>
+    <string name="dialogRecButtonRemoveMessage">Acest lucru va pune butonul Rec înapoi în bara de butoane. Continua\?</string>
+    <string name="inProgress">În curs</string>
+    <string name="speechUnitThreeMiles">Miles</string>
+    <string name="dialogLayoutRemoveEntryMessage">Eliminați acest câmp\?</string>
+    <string name="dataStorageTransferInfoSpeed">Viteză: %1$s MB/s (%2$s elemente/s)</string>
+    <string name="prefGpsIntervalAdaptiveSummary">Reglați automat intervalul de actualizare GPS între 1 și 5 secunde, în funcție de viteză.</string>
+    <string name="speechUnitFourMeters">Contoare</string>
+    <string name="dataStorageInfo1">Este recomandat să utilizați o locație de stocare personalizată pentru piesele și datele dvs. pentru a preveni pierderea accidentală a datelor dacă aplicația este dezinstalată și pentru a face backup-urile mai ușoare.</string>
+    <string name="dialogEnterCodeMessage">Introdu codul</string>
+    <string name="dataStorageTitle">Depozitare</string>
+    <string name="pref_category_mapsRenderer">Renderer</string>
+    <string name="pref_category_onlineElevation_title">Elevație online</string>
+    <string name="prefOnlineElevationNoteSummary1">Pentru a economisi bateria și datele, doar un singur punct de cotă va fi achiziționat de pe Internet atunci când începeți să urmăriți un traseu nou. Acest lucru este suficient pentru ca restul pistei să aibă o linie de bază de altitudine mai precisă.</string>
+    <string name="prefGpsIntervalAdaptiveTitle">Adaptiv</string>
+    <string name="success">Succes</string>
+    <string name="prefOnlineElevationNoteSummary2">Dacă internetul sau licența nu sunt disponibile, aplicația va continua să funcționeze fără a corecta altitudinea.</string>
+    <string name="dataStorageStatsMessage">%1$s MB
+\n%2$s articole</string>
+    <string name="prefOnlineElevationTitle">Elevație online</string>
+    <string name="prefGoogleMapsRenderer_0">Mod implicit</string>
+    <string name="infoMeterModePowerBalanceTitle">Balanța puterii L/R</string>
+    <string name="speechUnitFourMiles">Miles</string>
+    <string name="meterModeBatteryShort">batt</string>
+    <string name="prefSteadyScreenImplementationInternal">Intern (implicit)</string>
+    <string name="dialogMapsMapCountManyMaps">%1$s hărți</string>
+    <string name="dialogNotificationPermissionRequestTitle">Permisiune de notificare</string>
+    <string name="pref_mapsOfflineFileSummary">Fișierele hărților trebuie copiate în folderul hărți specific aplicației pentru a fi utilizate</string>
+    <string name="prefBatteryOptimizationTitle">Optimizări ale bateriei</string>
+    <string name="dialogNotificationPermissionRequest">Este necesară permisiune pentru ca aplicația să poată afișa o notificare în curs de desfășurare în timp ce urmărirea este activă.</string>
+    <string name="prefGoogleMapsRendererSummary">Curent: %1$s</string>
+    <string name="dialogRecButtonInsertTitle">Inserați butonul Rec</string>
+    <string name="speechUnitFourHours">Ore</string>
+    <string name="prefOnlineElevationNoteSummary3">Acest lucru funcționează numai dacă este disponibilă o licență de abonament (licență finală sau una dintre licențele pentru hărți).</string>
+    <string name="prefSteadyScreenImplementationInternalInfo">Utilizați propria noastră implementare de stabilizare a ecranului. Mai usor de folosit, nereglabil.</string>
+    <string name="prefMapShowBuildingsSummary">Afișați stratul clădirilor 3D pentru hărți Google. Dezactivați pentru a îmbunătăți performanța hărții și a reduce utilizarea resurselor.</string>
+    <string name="prefBatteryOptimizationMessage">Urban Biker poate fi scutit de optimizările bateriei sistemului, pentru a fi mai sigur că va continua să funcționeze corect atunci când ecranul este oprit pe versiunile mai vechi de Android. Faceți clic aici pentru a deschide setările acum.</string>
+    <string name="prefGoogleMapsRenderer_2">Cele mai recente</string>
+    <string name="meterModes_10">Balanța puterii</string>
+    <string name="prefTrackingButtonFreePlacementTitle">Plasarea gratuită a butonului Rec</string>
+    <string name="speechUnitFourKilometers">Kilometri</string>
+    <string name="computing">Tehnica de calcul…</string>
+    <string name="prefMapsFolderExploreSummary">Gestionați conținutul folderului de hărți specific aplicației cu o aplicație de explorare a fișierelor</string>
+    <string name="dialogMapsAutoZoomSensitivity">Sensibilitate automată la zoom</string>
+    <string name="menuInsertRecButton">butonul Rec</string>
+    <string name="dataStorageInfo2">Când schimbați locația de stocare a datelor, datele anterioare ale aplicației vor fi transferate automat în noua locație. Acest lucru se întâmplă în fundal și poate dura ceva timp.
+\n
+\nRevocarea accesului lasă datele intacte.</string>
+    <string name="prefGoogleMapsRendererInfo">Specifică ce tip de redare preferați să utilizați pentru a afișa hărțile. Redarea moștenită poate folosi mai puține resurse, în timp ce cea mai recentă are de obicei mai multe caracteristici sau un design mai bun.</string>
+    <string name="dataStorageTransferInfoDuration">Durata: %1$s</string>
+    <string name="speechUnitThreeMeters">Contoare</string>
+    <string name="toastGpsIntervalAdaptiveActive">Intervalul de actualizare adaptiv este activ</string>
+    <string name="dialogMapsShowHeatmap">Harta termografica</string>
+    <string name="buttonProceed">Continua</string>
+    <string name="prefMapsFolderExploreTitle">Explorați folderul hărți</string>
+    <string name="prefSteadyScreenImplementationExternalInfo">Pentru ca aceasta să funcționeze, trebuie instalată o aplicație separată. Reglabil.</string>
+    <string name="speechUnitThreeKilometers">Kilometri</string>
+    <string name="prefGpsIntervalAdaptiveNote">Intervalele adaptive de actualizare pot ajuta la reducerea consumului de baterie atunci când vă deplasați încet sau luați pauze frecvente.</string>
+    <string name="speechUnitFourLitersOfGasoline">Litri de benzină</string>
+    <string name="prefOnlineElevationSummary">Utilizați datele de altitudine de pe Internet pentru a crește precizia liniei de bază a altitudinii. Activat implicit.</string>
+    <string name="pref_mapsFollowAutoZoomSensitivity_info">Puteți regla sensibilitatea de zoom automat din mers, mărind sau micșorând în timpul urmăririi</string>
+    <string name="pref_mapsLayerHeatmap_summary">Afișați activitățile publice agregate din ultimul an (de la Strava)</string>
+    <string name="dataStorageNotSetMessage">Locația de stocare a datelor nu este setată, vă rugăm să utilizați butonul de mai sus.
+\n
+\nÎn prezent, aplicația folosește folderul implicit pentru piese și date.</string>
+    <string name="tracksHistoryDataStorageLink">Avertisment: aplicația folosește folderul implicit pentru trasee și date. Click aici pentru a schimba.</string>
+    <string name="menuMeterResume">Relua</string>
+    <string name="menuDataStorage">Locația de stocare a datelor</string>
+    <string name="meterModeBattery">baterie</string>
+    <string name="navigationRerouteCmd">Faceți clic pentru a redirecționa</string>
+    <string name="infoMeterModeBatteryTitle">Baterie</string>
+    <string name="infoMeterModeBatteryMsg">Nivelul bateriei acestui dispozitiv Android.</string>
+    <string name="speechUnitThreeLitersOfGasoline">Litri de benzină</string>
+    <string name="toastAutoBellButtonClickInfo">Faceți clic lung pentru a comuta sunetul soneriei automate</string>
+    <string name="dataStorageTransferRetrying">Eșuare — se va reîncerca în scurt timp</string>
+    <string name="prefTrackingButtonFreePlacementSummary">(Toate profilurile) Permite ca butonul Rec să fie plasat oriunde în aspect. Când este dezactivat, butonul Rec va fi fixat pe bara de butoane.</string>
+    <string name="prefGoogleMapsRenderer_1">Moştenire</string>
+    <string name="prefMapShowBuildingsTitle">Arată clădiri</string>
+    <string name="meterModes_33">Baterie</string>
+    <string name="prefSteadyScreenImplementationExternal">Extern</string>
+    <string name="dialogMapsMapCountTwoMaps">%1$s hărți</string>
+    <string name="infoMeterModePowerBalanceMsg">Balanța puterii, prezentată ca o fracțiune din contribuțiile din stânga și din dreapta la puterea totală.</string>
+    <string name="controlPanelFlashlight">Lanternă</string>
+    <string name="speechUnitThreeHours">Ore</string>
+    <string name="dialogRecButtonRemoveTitle">Butonul Eliminare Rec</string>
+    <string name="pref_mapsLayerHeatmap_title">Harta termografica</string>
+    <string name="otherLicenses">Alte</string>
+    <string name="dataStorageTransferInfoTitle">Ultima schimbare</string>
+    <string name="recommendedLicense">Recomandat</string>
+    <string name="dialogMapsMapCountFourMaps">%1$s hărți</string>
 </resources>
