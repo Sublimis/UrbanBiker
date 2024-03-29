@@ -166,9 +166,9 @@
     <string name="dialogProfileSwitchTitle">Profil wechseln</string>
     <string name="dialogProfileSwitchMessage">Aufzeichnung ist aktiv. Wirklich zu Profil %1$s wechseln\?</string>
     <string name="dialogTracksDeleteTitle">Strecken löschen</string>
-    <string name="dialogTracksDeleteMessage">Achtung: Diese Aktion kann nicht rückgängig gemacht werden. 
-\n 
-\nDie ausgewählten Strecken löschen\?</string>
+    <string name="dialogTracksDeleteMessage">Warnung: Diese Aktion kann nicht rückgängig gemacht werden. Ausgewählte Titel löschen\?
+\n
+\nUm den Löschvorgang zu bestätigen, geben Sie den folgenden Code ein, um fortzufahren.</string>
     <string name="dialogTrackDeleteMessage">Achtung: Diese Aktion kann nicht rückgängig gemacht werden. 
 \n 
 \nStrecke %1$s löschen\?</string>
@@ -746,8 +746,8 @@
     <string name="pref_wakelock_modes_explanation_2">Erlaubt der CPU zwischen den Standortaktualisierungen in den Schlafmodus zu wechseln. Weniger Akkuverbrauch möglich, regelmäßige Standortaktualisierung könnte ausbleiben.</string>
     <string name="pref_wakelock_modes_explanation_3">Verhalten vom System und/oder anderen Apps abhängig machen. Warnung: Könnte unkorrekte oder sogar fehlende Standortaktualisierungen verursachen. Nicht empfohlen.</string>
     <!-- pref_locationProvider_modes -->
-    <string name="pref_locationProvider_modes_0">GPS-Subsystem</string>
-    <string name="pref_locationProvider_modes_1">Google Play-Dienste (Standard)</string>
+    <string name="pref_locationProvider_modes_0">GPS-Subsystem (Standard)</string>
+    <string name="pref_locationProvider_modes_1">Google Play-Dienste</string>
     <!-- pref_locationProvider_modes_explanation -->
     <string name="pref_locationProvider_modes_explanation_0">(Alle Profile) GPS-Subsystem direkt verwenden. Stabil, weniger komplexes Modell, keine Zwischenschicht. Könnte auch weniger Ressourcen als andere Provider benötigen.</string>
     <string name="pref_locationProvider_modes_explanation_1">(Alle Profile) \"Fused\"-Provider der Google Play-Dienste verwenden, wenn verfügbar. Theoretisch bietet dies manchmal schnellere und genauere Standortbestimmung.</string>
@@ -865,23 +865,28 @@
     <string name="ultimateLicenseDescription">Umfangreichste Lizenz für das ultimative Erlebnis</string>
     <string name="ultimateLicenseFeatures">✔️ Alle Premium-Karten
 \n✔️ Navigation
+\n✔️ Online-Höhenbasislinie
 \n✔️ Keine Werbung
 \n✔️ Alle kostenlosen Funktionen und Karten</string>
     <string name="proPlusLicenseFeatures">❌ Premium-Karten
 \n❌ Navigation
+\n❌ Online-Höhenbasislinie
 \n✔️ Keine Werbung
 \n✔️ Alle kostenlosen Funktionen und Karten
 \n➕ Zusätzliche Spende</string>
     <string name="proLicenseFeatures">❌ Premium-Karten
-\n❌Navigation
+\n❌ Navigation
+\n❌ Online-Höhenbasislinie
 \n✔️ Keine Werbung
 \n✔️ Alle kostenlosen Funktionen und Karten</string>
-    <string name="thunderforestMapsFeatures">✔️ Thunderforest-Karten
+    <string name="thunderforestMapsFeatures">✔️ Thunderforest Premium-Karten
 \n✔️ Navigation
+\n✔️ Online-Höhenbasislinie
 \n✔️ Keine Werbung
 \n✔️ Alle kostenlosen Funktionen und Karten</string>
-    <string name="mapboxMapsFeatures">✔️ Mapbox-Karten
+    <string name="mapboxMapsFeatures">✔️ Mapbox Premium-Karten
 \n✔️ Navigation
+\n✔️ Online-Höhenbasislinie
 \n✔️ Keine Werbung
 \n✔️ Alle kostenlosen Funktionen und Karten</string>
     <string name="priceFree">kostenlos</string>
@@ -1057,11 +1062,11 @@
 \nEs ist nicht möglich, die Sensoren manuell zu verbinden.</string>
     <string name="sensorWheelCircNotSetWarning">Radumfang wurde noch nicht eingestellt</string>
     <string name="infoMeterModeKineticEnergyTitle">Kinetische Energie</string>
-    <string name="infoMeterModeKineticEnergyMsg">Höhe über dem Meeresspiegel, bei der deine potenzielle Energie deiner momentanen kinetischen Energie entspricht.
+    <string name="infoMeterModeKineticEnergyMsg">Die Höhe, die Sie erreichen würden, wenn Sie eine lange Steigung „loslassen“, ohne zu bremsen.
 \n
-\nIn anderen Worten ist deine momentane Geschwindigkeit genau so groß wie die Geschwindigkeit, die du hättest, nachdem du aus genau dieser Höhe gefallen wärst (unter Vernachlässigung des Luftwiderstandes).
+\nOder wenn Sie gegen eine Wand prallen würden, wäre die Aufprallkraft die gleiche wie bei einem Sturz aus dieser Höhe.
 \n
-\nEbenfalls ist es die Höhe, die du erreichen würdest, wenn du unter Verwendung deiner kinetischen Energie geradewegs aufwärts gehen würdest.</string>
+\nDiese Zahl steigt mit der Geschwindigkeit im Quadrat und ist aus Sicherheitsgründen nützlich.</string>
     <string name="meterModes_26">Kinetische Energie</string>
     <string name="mapMarkerStart">Start</string>
     <string name="mapMarkerFinish">Ziel</string>
@@ -1230,12 +1235,14 @@
     <string name="cloudAccountsPowerUploadPolicyTitle">Leistungsdaten-Upload</string>
     <string name="cloudAccountsPowerUploadPolicy_0">Immer (Standard)</string>
     <string name="cloudAccountsPowerUploadPolicy_1">Nur bei Verwendung eines Leistungsmeßgerätes</string>
-    <string name="hereMapsFeatures">✔️ HERE-Karten
+    <string name="hereMapsFeatures">✔️ HIER Premium-Karten
 \n✔️ Navigation
+\n✔️ Online-Höhenbasislinie
 \n✔️ Keine Werbung
 \n✔️ Alle kostenlosen Funktionen und Karten</string>
-    <string name="maptilerMapsFeatures">✔️ MapTiler-Karten
+    <string name="maptilerMapsFeatures">✔️ MapTiler Premium-Karten
 \n✔️ Navigation
+\n✔️ Online-Höhenbasislinie
 \n✔️ Keine Werbung
 \n✔️ Alle kostenlosen Funktionen und Karten</string>
     <string name="dialogMapsChooseTitle">Karte wählen</string>
@@ -1340,7 +1347,7 @@
     <string name="prefActivityRecognitionNoteSummary">Diese Funktionen verwenden die in Android eingebaute Aktivitätserkennung. Diese kann ungenau oder verzögert sein, also verwende diese Funktionen nur, wenn du damit leben kannst. Am besten funktioniert es, wenn ein Geschwindigkeitssensor für Entfernung und Dauer verwendet wird.</string>
     <string name="dialogBluetoothPermissionRequest">Diese Berechtigung wird benötigt, um kabellose Sensoren zu finden und zu verbinden.</string>
     <string name="sensorProperitesNoAlarm">Nicht alarmieren</string>
-    <string name="prefGnssActivityRecognitionSummary">Stillstand und Bewegung in GPS-Positionen erkennen. Dies verhindert Sprünge in der GPS-Position durch Messungenauigkeiten, kann allerdings Verzögerungen verursachen und dazu führen, dass Streckenabschnitte nach einer Pause nicht aufgezeichnet werden.</string>
+    <string name="prefGnssActivityRecognitionSummary">Erkennen Sie Stillstand und Bewegung für GPS. Dies kann nach einer Pause zu Verzögerungen und einem gewissen Distanz- oder Höhenverlust führen, verhindert aber die meisten GPS-Störungen.</string>
     <string name="dialogCopyingMessage">Kopiere…</string>
     <string name="summaryRollResistCoefAverageInfo">Durchschnittlicher Rollwiderstandskoeffizient, falls sich der Koeffizient während der Aktivität verändert hat.</string>
     <string name="dialogOfflineMapsChooseMessage">Die Karten-Datei wurde nicht gefunden oder kann nicht geöffnet werden. Möchtest du eine andere Karten-Datei oder -Ordner auswählen\?</string>
@@ -1370,11 +1377,9 @@
     <string name="summaryInaccurateLocationZoneCountInfo">Häufigkeit von Positionsaktualisierungen, die von der App wegen zu großer Ungenauigkeit verworfen wurden.
 \n
 \nHinweis: Orte, an denen gar keine Positionsaktualisierungen vorkommen (z.B. Innenräume), beeinflussen diese Zahl nicht.</string>
-    <string name="dialogCustomTracksFolderInfoMessage">Diese Funktion erlaubt der App - zusätzlich zum Standardordner, dessen Speicherort sich vor kurzem geändert hat - auf Streckendateien in einem Ordner deiner Wahl zuzugreifen.
+    <string name="dialogCustomTracksFolderInfoMessage">Mit dieser Funktion kann die App zusätzlich zum Hauptordner mit den Titeln, dessen Speicherort kürzlich geändert wurde, Titel aus einem Ordner Ihrer Wahl lesen.
 \n
-\nDiese Streckendateien werden nur zum Lesen geöffnet: sie können angesehen und geteilt, aber nicht bearbeitet, fortgesetzt oder gelöscht werden.
-\n
-\nWenn du unsicher bist, versuche in der nächsten Ansicht den Ordner \"Documents-UrbanBiker-tracks\" zu finden.</string>
+\nSolche Titel sind schreibgeschützt: Sie können angezeigt und freigegeben, aber nicht bearbeitet, fortgesetzt oder gelöscht werden.</string>
     <string name="prefGnssAutomaticSleepTitle">GPS automatisch abschalten</string>
     <string name="toastScreensaverModeActive">Bildschirmschoner aktiv</string>
     <string name="dialogOfflineMapsFolderCopyMessage">Die ausgewählten Inhalte müssen in den App-spezifischen Kartenordner kopiert werden, bevor sie verwendet werden können.
@@ -1452,12 +1457,13 @@
     <string name="prefScreenPocketModeDelayEntries_6">750 Millisekunden</string>
     <string name="freeLicenseFeatures">❌ Premium-Karten
 \n❌ Navigation
+\n❌ Online-Höhenbasislinie
 \n❌ Keine Werbung
 \n✔️ Alle kostenlosen Funktionen und Karten</string>
     <string name="dialogLayoutEmptyInfoMessage">Es sollte mindestens ein Zähler im Layout vorhanden sein.</string>
     <string name="navigationStopPrompt">Halt</string>
     <string name="navigationAvoidIndoor">Innenräume vermeiden</string>
-    <string name="pref_categoryTrackingButtonTitle">Tracking-Schaltfläche</string>
+    <string name="pref_categoryTrackingButtonTitle">Rec-Taste</string>
     <string name="pref_soundeffects_navigation_summary">Ton bei Navigationsereignissen</string>
     <string name="menuInsertAbove">Oberhalb</string>
     <string name="pref_speechNavigation_title">Navigation</string>
@@ -1466,15 +1472,15 @@
     <string name="speechUnitManyLitersOfGasoline">Liter Kraftstoff</string>
     <string name="prefSteadyScreenNote2">Am besten funktioniert es bei langsamer Bewegung, zum Beispiel wenn das Telefon beim Laufen in der Hand schwingt, aber auch am Lenker beim Radfahren oder während einer Autofahrt.</string>
     <string name="navigationAvoidFerries">Fähren vermeiden</string>
-    <string name="toastSteadyScreenModeActive">SteadyScreen aktiv</string>
+    <string name="toastSteadyScreenModeActive">Bildschirmstabilisierung aktiviert</string>
     <string name="dialogLayoutChooseTitle">Layout</string>
     <string name="meterHorizontalWeight">Horizontale Gewichtung</string>
     <string name="prefSteadyScreenModeOff">Aus</string>
-    <string name="toastSteadyScreenModeIntelligentActive">SteadyScreen intelligent aktiv</string>
-    <string name="menuInsertMeter">Zähler hinzufügen</string>
+    <string name="toastSteadyScreenModeIntelligentActive">Intelligente Bildschirmstabilisierung aktiviert</string>
+    <string name="menuInsertMeter">Meter</string>
     <string name="menuSpeedo">Tachometer</string>
     <string name="speechUnitOneLiterOfGasoline">Liter Kraftstoff</string>
-    <string name="prefSteadyScreenModeOnInfo">SteadyScreen-Funktion während der Aufzeichnung dauerhaft aktivieren. Dies kann bei eingeschaltetem Bildschirm erhöhten Akkuverbrauch verursachen.</string>
+    <string name="prefSteadyScreenModeOnInfo">Halten Sie die Bildschirmstabilisierungsfunktion während der Verfolgung immer aktiv. Dadurch wird möglicherweise mehr Akku verbraucht, während der Bildschirm eingeschaltet ist.</string>
     <string name="pref_speechNavigation_summary">Navigationshinweise ansagen</string>
     <string name="navigationLoadingData">Wegbeschreibung wird geladen…</string>
     <string name="pref_soundeffects_tally_energy_title">Energie</string>
@@ -1482,7 +1488,7 @@
     <string name="speechEnergy">Energie: %1$s</string>
     <string name="pref_mapsFollowMode_summary">Karte auf den aktuellen Standort zentriert halten</string>
     <string name="infoAppUpdateMessage">Das Update ist bereit.</string>
-    <string name="prefSteadyScreenModeAuto">Intelligent aktiv (Standard)</string>
+    <string name="prefSteadyScreenModeAuto">Intelligent aktiviert (Standard)</string>
     <string name="mapMarkerClickInfo">Für Optionen berühren</string>
     <string name="prefTrackingButtonModeTitle">Alternatives Verhalten</string>
     <string name="dialogLayoutChoosePrompt">Aktuelles Layout wird überschrieben.
@@ -1496,30 +1502,30 @@
     <string name="navigationContinue">Fortsetzen</string>
     <string name="navigationAvoidTolls">Mautgebühren vermeiden</string>
     <string name="menuNarrow">Verengen</string>
-    <string name="toastSteadyScreenModeOff">SteadyScreen deaktiviert</string>
+    <string name="toastSteadyScreenModeOff">Bildschirmstabilisierung deaktiviert</string>
     <string name="dialogLicenseUpgradeButton2">Werbevideo ansehen</string>
     <string name="prefSteadyScreenTitle">Bildschirmstabilisierung</string>
     <string name="navigationLoadFromFilePrompt">Beim Laden neuer Wegbeschreibungen aus dem Internet ist ein Fehler aufgetreten.
 \n
 \nMöchtest du zuvor verwendete Wegbeschreibungen aus einer Datei laden\?</string>
-    <string name="prefSteadyScreenModeAutoInfo">SteadyScreen nur während der Aufzeichnung in unebenem Gelände aktivieren. Dies ist eine gute Balance aus Komfort und Akkuverbrauch.</string>
+    <string name="prefSteadyScreenModeAutoInfo">Aktivieren Sie die Bildschirmstabilisierungsfunktion während der Verfolgung nur auf holprigem Gelände. Dies ist ein guter Kompromiss zwischen Komfort und Batterieverbrauch.</string>
     <string name="menuNavigation">Navigieren</string>
     <string name="speechNavigationWrongWay">Falscher Weg</string>
     <string name="dialogLayoutsInfoTitle">Layouts</string>
-    <string name="prefTrackingButtonModeSummary">Klicken oder langes Klicken für Pause, separate Schaltfläche für Stopp.</string>
+    <string name="prefTrackingButtonModeSummary">(Alle Profile) Klicken oder langes Klicken für Pause, separate Schaltfläche für Stopp.</string>
     <string name="menuInsertBelow">Unterhalb</string>
     <string name="menuMeter">Zähler</string>
     <string name="dialogLayoutEmptyInfoTitle">Layout</string>
     <string name="speechNavigationDestinationReached">Du hast das Ziel erreicht</string>
     <string name="menuSendDebugFeedback">Problem melden</string>
-    <string name="prefSteadyScreenModeOffInfo">SteadyScreen nie aktivieren</string>
+    <string name="prefSteadyScreenModeOffInfo">Aktivieren Sie niemals die Bildschirmstabilisierungsfunktion</string>
     <string name="pref_soundeffects_tally_energy_dialog_title">Energiebilanz</string>
     <string name="prefGpsBoostNoteSummary">Während der Navigation wird für Standortaktualisierungen immer die höchste Frequenz erzwungen</string>
     <string name="freeLicenseTitle">Kostenlose Lizenz</string>
     <string name="pref_mapsFollowAutorotateMode_summary">Karte so ausrichten, dass die Bewegungsrichtung nach oben zeigt</string>
     <string name="prefNoSoundInsideFenceSummary">Innerhalb von Schutzzone sämtliche Tonausgaben, mit Ausnahme der Alarme, deaktivieren.</string>
     <string name="navigationDestinationReached">Ziel</string>
-    <string name="menuInsertSpeedo">Tacho hinzufügen</string>
+    <string name="menuInsertSpeedo">Tachometer</string>
     <string name="infoAppUpdateAction">Neu starten</string>
     <string name="speechNavigationGotOffRoute">Du bist vom Weg abgekommen</string>
     <string name="menuMove">Verschieben</string>
@@ -1545,7 +1551,7 @@
     <string name="menuSpeedoScale">Skala</string>
     <string name="menuLayout">Layout</string>
     <string name="mapPlaceSearch">Wohin\?</string>
-    <string name="prefSteadyScreenModeOn">Aktiv</string>
+    <string name="prefSteadyScreenModeOn">Ermöglicht</string>
     <string name="pref_soundeffects_navigation_title">Navigation</string>
     <string name="dialogLayoutChooseSubtitle">Anzeigelayout auswählen</string>
     <string name="toastLocationUnavailable">Dein Standort ist immer noch nicht verfügbar</string>
@@ -1570,4 +1576,103 @@
     <string name="pref_mapsFollowAutoZoomSensitivity_info">Du kannst die Empfindlichkeit des automatischen Zooms auch durch Zoomen während der Aufzeichnung anpassen</string>
     <string name="pref_mapsLayerHeatmap_summary">Häufigkeit der öffentlichen Aktivitäten des letzten Jahres (aus Strava) anzeigen</string>
     <string name="pref_mapsLayerHeatmap_title">Heatmap</string>
+    <string name="dataStorageChooseButton">Wählen Sie den Speicherort für die Daten</string>
+    <string name="prefSteadyScreenImplementationNote">(Alle Profile) Für die externe Implementierung muss eine separate App installiert werden. Klicken Sie hier, um den Play Store zu öffnen.</string>
+    <string name="prefSteadyScreenImplementationTitle">Implementierung</string>
+    <string name="speechUnitThreeFeets">Füße</string>
+    <string name="dialogMapsMapCountThreeMaps">%1$s Karten</string>
+    <string name="dialogRecButtonInsertMessage">Dadurch wird die Schaltfläche „Rec“ hier eingefügt und aus der Schaltflächenleiste entfernt. Weitermachen\?</string>
+    <string name="speechUnitFourFeets">Füße</string>
+    <string name="dataStorageStatsTitle">Speicherstatistiken</string>
+    <string name="speechUnitThreeMinutes">Protokoll</string>
+    <string name="speechUnitFourMinutes">Protokoll</string>
+    <string name="dataStorageTransferInfoCount">Verschobene Elemente: %1$s von %2$s</string>
+    <string name="menuRemoveRecButton">Rec-Schaltfläche entfernen</string>
+    <string name="pref_category_storage_title">Lagerung</string>
+    <string name="dataStorageTransferInfoStatus">Status: %1$s</string>
+    <string name="licenseItemOwned">Derzeit im Besitz</string>
+    <string name="dialogRecButtonRemoveMessage">Dadurch wird die Rec-Schaltfläche wieder in die Schaltflächenleiste verschoben. Weitermachen\?</string>
+    <string name="inProgress">Im Gange</string>
+    <string name="speechUnitThreeMiles">Meilen</string>
+    <string name="dialogLayoutRemoveEntryMessage">Dieses Feld entfernen\?</string>
+    <string name="dataStorageTransferInfoSpeed">Geschwindigkeit: %1$s MB/s (%2$s Elemente/s)</string>
+    <string name="prefGpsIntervalAdaptiveSummary">Passen Sie das GPS-Aktualisierungsintervall je nach Geschwindigkeit automatisch zwischen 1 und 5 Sekunden an.</string>
+    <string name="speechUnitFourMeters">Messgeräte</string>
+    <string name="dataStorageInfo1">Es wird empfohlen, einen benutzerdefinierten Speicherort für Ihre Tracks und Daten zu verwenden, um versehentlichen Datenverlust bei der Deinstallation der App zu verhindern und Backups einfacher zu machen.</string>
+    <string name="dialogEnterCodeMessage">Code eingeben</string>
+    <string name="dataStorageTitle">Lagerung</string>
+    <string name="pref_category_mapsRenderer">Renderer</string>
+    <string name="pref_category_onlineElevation_title">Online-Erhöhung</string>
+    <string name="prefOnlineElevationNoteSummary1">Um Batterie und Daten zu sparen, wird beim Starten einer neuen Strecke nur ein Höhenpunkt aus dem Internet erfasst. Dies reicht aus, damit der Rest der Strecke eine genauere Höhenbasislinie erhält.</string>
+    <string name="prefGpsIntervalAdaptiveTitle">Anpassungsfähig</string>
+    <string name="success">Erfolg</string>
+    <string name="prefOnlineElevationNoteSummary2">Sollte das Internet oder die Lizenz nicht verfügbar sein, funktioniert die App ohne Höhenkorrektur weiter.</string>
+    <string name="dataStorageStatsMessage">%1$s MB
+\n%2$s Artikel</string>
+    <string name="prefOnlineElevationTitle">Online-Erhöhung</string>
+    <string name="prefGoogleMapsRenderer_0">Standard</string>
+    <string name="infoMeterModePowerBalanceTitle">Leistungsbalance L/R</string>
+    <string name="speechUnitFourMiles">Meilen</string>
+    <string name="meterModeBatteryShort">Batt</string>
+    <string name="prefSteadyScreenImplementationInternal">Intern (Standard)</string>
+    <string name="dialogMapsMapCountManyMaps">%1$s Karten</string>
+    <string name="dialogNotificationPermissionRequestTitle">Benachrichtigungsberechtigung</string>
+    <string name="pref_mapsOfflineFileSummary">Kartendateien müssen zur Verwendung in den App-spezifischen Kartenordner kopiert werden</string>
+    <string name="prefBatteryOptimizationTitle">Batterieoptimierungen</string>
+    <string name="dialogNotificationPermissionRequest">Damit die App eine fortlaufende Benachrichtigung anzeigen kann, während das Tracking aktiv ist, ist eine Genehmigung erforderlich.</string>
+    <string name="prefGoogleMapsRendererSummary">Aktuell: %1$s</string>
+    <string name="dialogRecButtonInsertTitle">Schaltfläche „Aufnahme einfügen“</string>
+    <string name="speechUnitFourHours">Std</string>
+    <string name="prefOnlineElevationNoteSummary3">Dies funktioniert nur, wenn eine Abonnementlizenz verfügbar ist (Ultimate-Lizenz oder eine der Kartenlizenzen).</string>
+    <string name="prefSteadyScreenImplementationInternalInfo">Nutzen Sie unsere eigene Bildschirmstabilisierungsimplementierung. Einfacher zu bedienen, nicht verstellbar.</string>
+    <string name="prefMapShowBuildingsSummary">Zeigen Sie die 3D-Gebäudeebene für Google Maps an. Deaktivieren Sie diese Option, um die Kartenleistung zu verbessern und den Ressourcenverbrauch zu reduzieren.</string>
+    <string name="prefBatteryOptimizationMessage">Urban Biker kann von der Systembatterieoptimierung ausgenommen werden, um sicherzustellen, dass es weiterhin ordnungsgemäß funktioniert, wenn der Bildschirm auf älteren Android-Versionen ausgeschaltet ist. Klicken Sie hier, um die Einstellungen jetzt zu öffnen.</string>
+    <string name="prefGoogleMapsRenderer_2">Neueste</string>
+    <string name="meterModes_10">Kräftegleichgewicht</string>
+    <string name="prefTrackingButtonFreePlacementTitle">Freie Platzierung der Rec-Tasten</string>
+    <string name="speechUnitFourKilometers">Kilometer</string>
+    <string name="computing">Computer…</string>
+    <string name="prefMapsFolderExploreSummary">Verwalten Sie den Inhalt des appspezifischen Kartenordners mit einer Datei-Explorer-App</string>
+    <string name="menuInsertRecButton">Rec-Taste</string>
+    <string name="dataStorageInfo2">Wenn Sie den Datenspeicherort ändern, werden die bisherigen App-Daten automatisch an den neuen Ort übertragen. Dies geschieht im Hintergrund und kann einige Zeit dauern.
+\n
+\nWenn Sie den Zugriff widerrufen, bleiben die Daten erhalten.</string>
+    <string name="prefGoogleMapsRendererInfo">Gibt an, welchen Renderertyp Sie zur Anzeige der Karten bevorzugen. Ältere Renderer verbrauchen möglicherweise weniger Ressourcen, während der neueste Renderer normalerweise über mehr Funktionen oder ein besseres Design verfügt.</string>
+    <string name="dataStorageTransferInfoDuration">Dauer: %1$s</string>
+    <string name="speechUnitThreeMeters">Messgeräte</string>
+    <string name="toastGpsIntervalAdaptiveActive">Das adaptive Aktualisierungsintervall ist aktiv</string>
+    <string name="buttonProceed">Fortfahren</string>
+    <string name="prefMapsFolderExploreTitle">Ordner „Karten erkunden“</string>
+    <string name="prefSteadyScreenImplementationExternalInfo">Damit dies funktioniert, muss eine separate App installiert werden. Einstellbar.</string>
+    <string name="speechUnitThreeKilometers">Kilometer</string>
+    <string name="prefGpsIntervalAdaptiveNote">Adaptive Aktualisierungsintervalle können dazu beitragen, den Batterieverbrauch bei langsamer Fortbewegung oder häufigen Pausen zu senken.</string>
+    <string name="speechUnitFourLitersOfGasoline">Liter Benzin</string>
+    <string name="prefOnlineElevationSummary">Nutzen Sie Höhendaten aus dem Internet, um die Genauigkeit der Höhenbasislinie zu erhöhen. Standardmäßig aktiviert.</string>
+    <string name="dataStorageNotSetMessage">Der Speicherort der Daten ist nicht festgelegt, bitte nutzen Sie die Schaltfläche oben.
+\n
+\nDie App verwendet derzeit den Standardordner für Tracks und Daten.</string>
+    <string name="tracksHistoryDataStorageLink">Warnung: Die App verwendet den Standardordner für Tracks und Daten. Klicken Sie hier, um zu ändern.</string>
+    <string name="menuMeterResume">Wieder aufnehmen</string>
+    <string name="menuDataStorage">Speicherort der Daten</string>
+    <string name="meterModeBattery">Batterie</string>
+    <string name="navigationRerouteCmd">Klicken Sie hier, um die Route umzuleiten</string>
+    <string name="infoMeterModeBatteryTitle">Batterie</string>
+    <string name="infoMeterModeBatteryMsg">Akkustand dieses Android-Geräts.</string>
+    <string name="speechUnitThreeLitersOfGasoline">Liter Benzin</string>
+    <string name="toastAutoBellButtonClickInfo">Klicken Sie lange, um den automatischen Klingelton umzuschalten</string>
+    <string name="dataStorageTransferRetrying">Fehlgeschlagen – wird in Kürze erneut versucht</string>
+    <string name="prefTrackingButtonFreePlacementSummary">(Alle Profile) Ermöglicht die Platzierung der Rec-Schaltfläche an einer beliebigen Stelle im Layout. Wenn die Schaltfläche „Rec“ deaktiviert ist, ist sie in der Schaltflächenleiste fixiert.</string>
+    <string name="prefGoogleMapsRenderer_1">Vermächtnis</string>
+    <string name="prefMapShowBuildingsTitle">Gebäude zeigen</string>
+    <string name="meterModes_33">Batterie</string>
+    <string name="prefSteadyScreenImplementationExternal">Extern</string>
+    <string name="dialogMapsMapCountTwoMaps">%1$s Karten</string>
+    <string name="infoMeterModePowerBalanceMsg">Leistungsbilanz, dargestellt als Bruchteil der linken und rechten Beiträge zur Gesamtleistungsabgabe.</string>
+    <string name="controlPanelFlashlight">Taschenlampe</string>
+    <string name="speechUnitThreeHours">Std</string>
+    <string name="dialogRecButtonRemoveTitle">Rec-Schaltfläche entfernen</string>
+    <string name="otherLicenses">Andere</string>
+    <string name="dataStorageTransferInfoTitle">Letzte Bearbeitung</string>
+    <string name="recommendedLicense">Empfohlen</string>
+    <string name="dialogMapsMapCountFourMaps">%1$s Karten</string>
 </resources>
