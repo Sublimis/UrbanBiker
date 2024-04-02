@@ -1,2 +1,1634 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="dialog_fenceguard_remove_title">باڑ کو ہٹا دیں۔</string>
+    <string name="pref_gps_boost_modes_0">نقشہ دکھایا گیا (پہلے سے طے شدہ)</string>
+    <string name="meterModeKineticEnergy">کائنےٹک توانائی</string>
+    <string name="speechRadius">رداس: %1$s</string>
+    <string name="pref_resetToDefault">دوبارہ پہلے جیسا کر دو</string>
+    <string name="dialogTrackResumeGeneralPromptMessage">ٹریک کو پروفائل میں دوبارہ شروع کیا جائے گا %1$s۔ جاری رہے؟</string>
+    <string name="farFromHere">یہاں سے دور</string>
+    <string name="unitMillimeter">ملی میٹر</string>
+    <string name="dataStorageChooseButton">ڈیٹا اسٹوریج کی جگہ کا انتخاب کریں۔</string>
+    <string name="pref_screenWaveDim_title">مدھم ڈسپلے</string>
+    <string name="pref_category_alarms_title">الارم</string>
+    <string name="pref_maps_routes_info_summary">گائیڈ روٹ صرف نقشے پر کھینچی گئی ایک لکیر ہے جس پر آپ عمل کر سکتے ہیں۔ قدم بہ قدم ہدایات کے لیے، نیویگیشن فیچر استعمال کریں۔</string>
+    <string name="dialogCloudAccountDisconnectMessage">اس اکاؤنٹ کو منقطع کریں؟</string>
+    <string name="prefProhibitLocationTitle">مقام استعمال نہ کریں۔</string>
+    <string name="infoMeterModeHumidityMsg">محیطی رشتہ دار نمی جیسا کہ آلہ یا بیرونی سینسر سے ماپا جاتا ہے۔</string>
+    <string name="pref_button_flashlight_show_summary">ٹارچ کا بٹن دکھائیں (اگر ٹارچ دستیاب ہو)</string>
+    <string name="dialogProfileDeleteMessage">انتباہ: اس سے پروفائل کی ترتیبات اور ٹوٹل ڈیٹا ہٹ جائے گا۔ محفوظ شدہ پٹریوں کو برقرار رکھا جائے گا۔
+\n
+\nپروفائل %1$s کو حذف کریں؟</string>
+    <string name="pref_category_mapsCache">کیشے</string>
+    <string name="sensorProperitesUseForTemperature">درجہ حرارت کے لیے استعمال کریں۔</string>
+    <string name="dialogProfileSwitchMessage">ٹریکنگ فعال ہے۔ کیا آپ کو پروفائل %1$s میں تبدیل کرنے کا یقین ہے؟</string>
+    <string name="prefSteadyScreenImplementationNote">(تمام پروفائلز) بیرونی نفاذ کے لیے ایک علیحدہ ایپ انسٹال کرنے کی ضرورت ہے۔ پلے اسٹور کھولنے کے لیے یہاں کلک کریں۔</string>
+    <string name="dialogLayoutEmptyInfoMessage">ترتیب میں کم از کم ایک میٹر موجود ہونا چاہیے۔</string>
+    <string name="pref_autopause_modes_1">پر سکون</string>
+    <string name="pref_button_flashlight_show_title">ٹارچ</string>
+    <string name="summaryStartedDatetime">شروع</string>
+    <string name="prefMapDiskCacheSizeTitle">نقشہ کیشے کے سائز کی حد</string>
+    <string name="pref_units_distance_dialog_title">فاصلاتی یونٹس</string>
+    <string name="pref_category_advanced_title">اعلی درجے کی</string>
+    <string name="pref_fg_color_title">متن کا رنگ</string>
+    <string name="prefSteadyScreenImplementationTitle">عمل درآمد</string>
+    <string name="app_description">بڑی درستگی کے ساتھ اپنی سواریوں کو ٹریک کریں اور پیمائش کریں۔ اپنی سائیکلنگ کی حفاظت اور کارکردگی میں اضافہ کریں۔</string>
+    <string name="navigationStopPrompt">رک جاؤ</string>
+    <string name="dialogGpsSettingsPromptMessage">آپ اس ایپ کی زیادہ تر خصوصیات کو لوکیشن کے بغیر استعمال نہیں کر پائیں گے۔
+\n
+\nبراہ کرم یقینی بنائیں کہ مقام فعال ہے اور \'اعلی درستگی\' موڈ پر سیٹ ہے۔
+\n
+\nابھی مقام کی ترتیبات کھولیں؟</string>
+    <string name="accountDisconnect">منقطع کرنا</string>
+    <string name="dialogTrackResumeTitle">ٹریک دوبارہ شروع کریں۔</string>
+    <string name="pref_category_maps_track_title">ٹریک لائن</string>
+    <string name="dialogMapsTrackColor">ٹریک رنگ:</string>
+    <string name="dialogProfileAddInfo">نئے پروفائل میں اس کی ترتیبات موجودہ فعال پروفائل سے کاپی کی جائیں گی۔</string>
+    <string name="unitFt">فٹ</string>
+    <string name="pref_digital_font_summary">(تمام پروفائلز) سائکلومیٹر ڈیٹا ڈسپلے کے لیے سیگمنٹڈ ڈیجیٹل LCD فونٹ استعمال کریں۔</string>
+    <string name="pref_categoryPrivacyTitle">رازداری</string>
+    <string name="meterModeGearRatio">گیئر تناسب</string>
+    <string name="toastMapButtonClickInfo">نقشے کو ٹوگل کرنے کے لیے دیر تک کلک کریں۔</string>
+    <string name="menuMeterParameters">پیرامیٹرز…</string>
+    <string name="infoSpeedometerTitle">سپیڈومیٹر</string>
+    <string name="meterModeFTPowerShort">ایف ٹی پی</string>
+    <string name="toastMapLayerTrafficOff">ٹریفک بند</string>
+    <string name="prefMapDiskCacheSizeEntries_5">400 MB</string>
+    <string name="pref_category_buttons_title">بٹن</string>
+    <string name="prefMapDiskCacheAgeEntries_7">90 دن</string>
+    <string name="pref_category_language_title">زبان</string>
+    <string name="menuDelete">حذف کریں۔</string>
+    <string name="prefMapDiskCacheSizeEntries_1">50 ایم بی</string>
+    <string name="controlPanelUnitsButtonSubtitle">اکائیوں کو تبدیل کرنے کے لیے کلک کریں۔</string>
+    <string name="speechUnitThreeFeets">پاؤں</string>
+    <string name="infoMeterModeElapsedTitle">گزرا وقت</string>
+    <string name="dialogScreenOrientationLandscape">زمین کی تزئین</string>
+    <string name="aboutScreenChangeLogLink">ورژن تبدیلی لاگ</string>
+    <string name="toastMapFollowingAutorotate">خودکار گھمائیں آن</string>
+    <string name="tracksHistoryListLoading">لوڈ ہو رہا ہے…</string>
+    <string name="pref_power_weights_title">وزن</string>
+    <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ 0 سے 10% تک ہے، ڈیفالٹ 1% ہے۔ اگر AutoTerrain کی خصوصیت استعمال کر رہے ہیں، تو ہموار خطوں کے لیے ایک بنیادی قدر فرض کریں (نچلی حد)، کیونکہ ایپ عام طور پر کھردرے خطوں پر گتانک کو بڑھا دے گی۔</string>
+    <string name="navigationAvoidIndoor">گھر کے اندر سے گریز کریں۔</string>
+    <string name="pref_maps_offline_terrain_info_summary">viewfinderpanoramas.org پر ڈاؤن لوڈ کا صفحہ کھولیں۔</string>
+    <string name="meterModeSpeedAverageShort">اے وی ایس پی ڈی</string>
+    <string name="toastProfilesListProfileUpdated">پروفائل اپ ڈیٹ ہو گیا۔</string>
+    <string name="dialogMapsMapCountThreeMaps">%1$s نقشے</string>
+    <string name="dialogMapsWeatherRadar">بارش کا ریڈار</string>
+    <string name="dialogReviewNudgeMessage">کیا آپ اربن بائیکر سے لطف اندوز ہو رہے ہیں؟</string>
+    <string name="tracksHistoryListButtonShare">بانٹیں</string>
+    <string name="timePeriod_per6Months">فی 6 ماہ</string>
+    <string name="pref_categoryTrackingButtonTitle">ریک بٹن</string>
+    <string name="sensorProperitesIsAutoStrideLenInfo">یہ دوڑنے یا تیز چلنے کے دوران خودکار قدم کی لمبائی کی پیمائش کرے گا۔</string>
+    <string name="pref_bell_automatic_summary">نمایاں سست روی پر گھنٹی بجائیں۔</string>
+    <string name="trackUploadActivityTypes_4">تیرنا</string>
+    <string name="pref_speedo_display_mode_dialog_title">سپیڈو کی ظاہری شکل</string>
+    <string name="infoMeterModeAltitudeMsg">سطح سمندر سے اوپر کی اونچائی (جیوائڈ)۔</string>
+    <string name="meterModeStepCount">قدم</string>
+    <string name="speechTrackingStart">شروع کریں۔</string>
+    <string name="pref_soundeffects_navigation_summary">نیویگیشن ایونٹس پر آواز</string>
+    <string name="unitMph">میل فی گھنٹہ</string>
+    <string name="menuInsertAbove">اوپر</string>
+    <string name="pref_gps_update_freq_entries_6">4 سیکنڈ</string>
+    <string name="sensorProperitesUseForHumidity">نمی کے لیے استعمال کریں۔</string>
+    <string name="prefScreensaverDimBrightnessEntries_2">موجودہ چمک کا ⅓ (پہلے سے طے شدہ)</string>
+    <string name="pref_button_roar_show_title">اے وی اے ایس</string>
+    <string name="pref_speechNavigation_title">سمت شناسی</string>
+    <string name="dialogPowerWeightsTitle">وزن</string>
+    <string name="infoMeterModeDistanceMsg">فاصلہ طے کیا۔</string>
+    <string name="dialogStoragePermissionRequestTitle">اسٹوریج کی اجازت</string>
+    <string name="menuProperties">پراپرٹیز…</string>
+    <string name="sensorFilterInterval_2">7 سیکنڈ</string>
+    <string name="toastProfileSavingError">پروفائل ڈیٹا محفوظ کرنے میں خرابی! دوبارہ کوشش کریں.</string>
+    <string name="prefMapTrackColorTitle">ٹریک رنگ</string>
+    <string name="meterModeSpeedVertical">عمودی رفتار</string>
+    <string name="infoMeterModeAccelerationTitle">سرعت</string>
+    <string name="dialogRecButtonInsertMessage">یہ یہاں Rec بٹن داخل کرے گا اور اسے بٹن بار سے ہٹا دے گا۔ جاری رہے؟</string>
+    <string name="widget_1_description">بائیکر: سائیکل کی گھنٹی</string>
+    <string name="pref_roaring_constant_mode_summary">آپ کی حرکت یا GPS کی حالت سے قطع نظر، ہر وقت مستقل AVAS آوازیں پیدا کریں۔</string>
+    <string name="pref_auto_launch_on_gps_title">GPS پر آٹو لانچ</string>
+    <string name="menuFenceguard">فینس گارڈ</string>
+    <string name="menuMeterPowerMode">پاور موڈ کو ٹوگل کریں۔</string>
+    <string name="sensorProperitesEnableFiltering">ڈیٹا فلٹرنگ</string>
+    <string name="pref_autopause_modes_explanation_1">صرف 5 منٹ سے زیادہ کے وقفوں کو ضائع کریں۔</string>
+    <string name="meterModeDistance">فاصلے</string>
+    <string name="speechUnitFourFeets">پاؤں</string>
+    <string name="proLicenseTitle">پرو لائسنس</string>
+    <string name="meterModeTemperatureShort">درجہ حرارت</string>
+    <string name="pref_category_maps_weather_title">موسم</string>
+    <string name="dataStorageStatsTitle">اسٹوریج کے اعدادوشمار</string>
+    <string name="sensorFilterInterval_1">5 سیکنڈ</string>
+    <string name="meterModeElapsedTimeShort">elap</string>
+    <string name="unitMilliseconds">MS</string>
+    <string name="profilesListButtonResetTotals">ٹوٹل ری سیٹ کریں۔</string>
+    <string name="unitMinPerMile">منٹ/میل</string>
+    <string name="speechUnitThreeMinutes">منٹس</string>
+    <string name="dialog_volume_tallies_text">ٹالیاں</string>
+    <string name="pref_categoryActivityRecognitionTitle">جسمانی سرگرمی کی شناخت</string>
+    <string name="dialogReviewNudgeMessage2">شکریہ! براہ کرم ایک اچھا جائزہ لکھیں یا ہمیں پلے اسٹور پر 5 ستاروں کی درجہ بندی کریں۔</string>
+    <string name="dialogTrackDeleteMessage">انتباہ: اس کارروائی کو کالعدم نہیں کیا جا سکتا۔
+\n
+\nٹریک کو حذف کریں %1$s؟</string>
+    <string name="toastMapFollowingOff">فالو آف کریں۔</string>
+    <string name="pref_passive_gps_button_summary">GPS بٹن پر کلک کرتے وقت غیر فعال GPS وضع کو فعال کریں۔</string>
+    <string name="timePeriod_per3Months">فی 3 ماہ</string>
+    <string name="unitPerHour">/h</string>
+    <string name="dialogScreenOrientationPortrait">پورٹریٹ</string>
+    <string name="dialogProfileTotalsResetMessage">پروفائل کے ٹوٹل کو صفر پر ری سیٹ کریں؟</string>
+    <string name="pref_power_weights_summary">ڈرائیور: %1$s، گاڑی: %2$s، کارگو: %3$s، مسافر: %4$s، پہیے: %5$s</string>
+    <string name="pref_screen_keep_on_title">اسکرین کو آن رکھیں</string>
+    <string name="dialog_volume_effects_text">اثرات</string>
+    <string name="proLicenseFeatures">❌ پریمیم نقشے۔
+\n❌ نیویگیشن
+\n❌ آن لائن اونچائی کی بنیادی لائن
+\n✔️ کوئی اشتہار نہیں۔
+\n✔️ تمام مفت خصوصیات اور نقشے</string>
+    <string name="infoMeterModeEfficacyTitle">افادیت (مجموعی)</string>
+    <string name="dialogLocationPermissionRequestForBt">بلوٹوتھ آلات تلاش کرنے کے لیے مقام کی اجازت درکار ہے۔
+\n
+\nاجازت مسترد ہونے پر کوئی بلوٹوتھ ڈیوائسز نہیں ملیں گی۔</string>
+    <string name="unitMiles">mi</string>
+    <string name="meterModeSpeedShort">ایس پی ڈی</string>
+    <string name="dialogMapsRenderTerrain">رینڈر خطہ</string>
+    <string name="pref_category_temperature_title">درجہ حرارت</string>
+    <string name="proPlusLicenseLabel">پرو+</string>
+    <string name="infoMeterModeVerticalSpeedMsg">اوپر (مثبت) یا نیچے (منفی) عمودی سمت میں رفتار۔</string>
+    <string name="menuHelp">مدد اور تعاون</string>
+    <string name="pref_roaring_state_title">اے وی اے ایس</string>
+    <string name="tracksHistoryListButtonDelete">حذف کریں۔</string>
+    <string name="meterModeKineticEnergyShort">رشتہ دار</string>
+    <string name="timePeriod_perYear">سالانہ</string>
+    <string name="menuMeterClockShowSeconds">سیکنڈ دکھائیں۔</string>
+    <string name="pref_obey_audio_focus_disable_summary">آوازیں بنانا جاری رکھیں چاہے آڈیو فوکس ختم ہو جائے (سسٹم نوٹیفکیشن یا کسی اور ایپ کے ذریعے)</string>
+    <string name="summaryEfficiency">کارکردگی</string>
+    <string name="speechUnitFourMinutes">منٹس</string>
+    <string name="prefBarometricAltitudeDisableAlert">بیرومیٹرک اونچائی کو غیر فعال کریں؟</string>
+    <string name="pref_category_autopause_title">آٹو توقف</string>
+    <string name="mapboxMapsFeatures">✔️ میپ باکس پریمیم نقشے۔
+\n✔️ نیویگیشن
+\n✔️ آن لائن اونچائی کی بنیادی لائن
+\n✔️ کوئی اشتہار نہیں۔
+\n✔️ تمام مفت خصوصیات اور نقشے</string>
+    <string name="pref_maps_online_mode_dialog_title">نقشے کا ماخذ</string>
+    <string name="toastErrorPowerParametersVoid">براہ کرم ترتیبات میں پاور پیرامیٹرز کو پُر کریں۔</string>
+    <string name="pref_gps_update_freq_entries_2">طے شدہ</string>
+    <string name="menuScreenshot">اسکرین شاٹ</string>
+    <string name="infoMeterModeAltitudeTitle">اونچائی</string>
+    <string name="menuMeterResetMinMax">کم سے کم/زیادہ سے زیادہ ری سیٹ کریں۔</string>
+    <string name="meterModeVerticalPowerShort">v pwr</string>
+    <string name="speechAscent">چڑھنا: %1$s</string>
+    <string name="pref_mapsLayerHeatmap_info">اس سے آپ کو فعال رہنے کے لیے نئی جگہیں دریافت کرنے میں مدد مل سکتی ہے، خاص طور پر دور دراز علاقوں میں۔</string>
+    <string name="pref_visualThemeAutoSummary">ماحول کی روشنی کی بنیاد پر ہلکی یا تاریک تھیم لگائیں۔</string>
+    <string name="pref_meter_lock_title">لاک موڈ</string>
+    <string name="infoMeterModeVerticalSpeedTitle">عمودی رفتار</string>
+    <string name="toastSoundsDisabled">آوازیں غیر فعال ہیں۔</string>
+    <string name="unitTimeHour">h</string>
+    <string name="sensorDeleteConfirmDialogMsg">اس سینسر کو بھول جائیں؟</string>
+    <string name="menuAutomaticBell">خودکار گھنٹی</string>
+    <string name="dialogScreenOrientationAuto">خودکار</string>
+    <string name="dialogTrackUploadShareButton">بانٹیں</string>
+    <string name="meterVerticalWeight">عمودی وزن</string>
+    <string name="pref_category_maps_offline_title">آف لائن نقشے۔</string>
+    <string name="dialogPowerParamsDragArea">ایئر ڈریگ ایریا (Cd·A)</string>
+    <string name="pref_ring_on_stop_title">سٹاپ پر بجنا</string>
+    <string name="pref_resetPrompt_summary">ایک نیا ٹریک شروع کرنے کا اشارہ کریں اگر آخری سرگرمی 4 گھنٹے سے زیادہ پہلے کی تھی یا کسی دور دراز مقام پر (تجویز کردہ)</string>
+    <string name="pref_soundeffects_tally_altitude_title">اونچائی</string>
+    <string name="dialogTrackUploadShareAgainButton">دوبارہ شیئر کریں۔</string>
+    <string name="pref_maps_quickZoomInvert_title">الٹا</string>
+    <string name="menuSwitchProfile">تبدیل کرنا</string>
+    <string name="speechUnitTwoFeets">پاؤں</string>
+    <string name="dialogTrackResumeGpsActiveMessage">ٹریکنگ فعال ہے۔ براہ کرم پہلے GPS کو بند یا موقوف کریں۔</string>
+    <string name="speechUnitManyLitersOfGasoline">لیٹر پٹرول</string>
+    <string name="speechTrackingGpsOk">GPS ٹھیک ہے۔</string>
+    <string name="trackUploadActivityTypes_3">ہائیک</string>
+    <string name="toastAutoThemeActivated">خودکار بصری تھیم کو چالو کر دیا گیا۔</string>
+    <string name="toastTrackingPaused">روک دیا گیا</string>
+    <string name="prefMapDiskCacheAgeEntries_5">45 دن</string>
+    <string name="pref_units_other_title">دیگر</string>
+    <string name="unitKjKg">kJ/kg</string>
+    <string name="mapLayerStreet">گلی</string>
+    <string name="prefSteadyScreenNote2">یہ سست حرکات کے لیے بہترین کام کرتا ہے، جیسے کہ چلتے وقت ہاتھ میں فون کا ہلنا، لیکن گاڑی چلاتے وقت یا گاڑی میں سوار ہوتے وقت ہینڈل بار پر بھی۔</string>
+    <string name="dialogEnergyParamsEfficiency">مجموعی طور پر تھرمل کارکردگی (η)</string>
+    <string name="summaryRollResistCoef">رول مزاحم coef.</string>
+    <string name="dialogScreenOrientationReverseLandscape">زمین کی تزئین (الٹ)</string>
+    <string name="pref_screenWaveDim_summary">بیٹری بچانے کے لیے ڈسپلے کو بھی مدھم کر دیا جائے گا۔</string>
+    <string name="prefScreenPocketModeDelayEntries_4">0.40 سیکنڈ</string>
+    <string name="navigationAvoidFerries">فیریوں سے گریز کریں۔</string>
+    <string name="unitMeterPerMin">منٹ/منٹ</string>
+    <string name="dataStorageTransferInfoCount">اشیاء کو منتقل کیا گیا: %2$s میں سے %1$s</string>
+    <string name="pref_button_roar_show_summary">AVAS بٹن دکھائیں۔</string>
+    <string name="toastSteadyScreenModeActive">اسکرین اسٹیبلائزیشن فعال ہے۔</string>
+    <string name="pref_maps_disable_title">Maps کو غیر فعال کریں۔</string>
+    <string name="summaryStoppedTimeInfo">توقف کرنے میں صرف کیا گیا وقت، یا تو دستی طور پر یا خودکار توقف کا استعمال کرتے ہوئے۔</string>
+    <string name="dialogLayoutChooseTitle">ترتیب</string>
+    <string name="menuSpeedoPaceIndicator">رفتار اشارے</string>
+    <string name="dialogFileChooseSelectFolder">اس فولڈر کو منتخب کریں۔</string>
+    <string name="controlPanelScreenOrientation">اسکرین کی سمت بندی</string>
+    <string name="dialogLocationPermissionRequestTitle">مقام کی اجازت</string>
+    <string name="pref_screensaverDimBrightnessDialogTitle">اسکرین سیور کی مدھم چمک</string>
+    <string name="meterModeEnergyShort">ene</string>
+    <string name="menuMeterChooseModes">موڈز منتخب کریں…</string>
+    <string name="pref_maps_routes_files_title">فائل یا فولڈر منتخب کریں۔</string>
+    <string name="menuRemoveRecButton">Rec بٹن کو ہٹا دیں۔</string>
+    <string name="pref_screenWaveOnOffMode_title">لہرانے کا موڈ</string>
+    <string name="toastScreenPocketModeActive">پاکٹ موڈ فعال ہے۔</string>
+    <string name="dialogActivityRecognitionPermissionRequest">اجازت درکار ہے تاکہ ایپ بلٹ ان سٹیپ ڈیٹیکٹر سینسر استعمال کر سکے، اور حرکت کا پتہ چلنے پر دیگر کارآمد کارروائیاں کر سکے۔</string>
+    <string name="toastProfilesListProfileCreated">پروفائل بنایا گیا ہے۔</string>
+    <string name="dialogResetNoTrackMessage">کوئی ٹریک ریکارڈ نہیں کیا گیا۔ اب میٹرز کو ری سیٹ کریں؟</string>
+    <string name="meterModeSpeed">رفتار</string>
+    <string name="pref_units_weight_title">وزن</string>
+    <string name="unitKmh">کلومیٹر فی گھنٹہ</string>
+    <string name="controlPanelSoundAutoBell">خودکار گھنٹی</string>
+    <string name="pref_meter_modes_select_title">دستیاب موڈز کا انتخاب کریں…</string>
+    <string name="meterHorizontalWeight">افقی وزن</string>
+    <string name="pref_category_storage_title">ذخیرہ</string>
+    <string name="dialogBaroAltitudePromptTitle">بیرومیٹرک اونچائی کا مسئلہ</string>
+    <string name="pref_soundeffects_tally_title">فعال</string>
+    <string name="pref_background_pattern_dialog_title">مینو پس منظر پیٹرن</string>
+    <string name="pref_category_appearance_title">ظہور</string>
+    <string name="summaryDragging">گھسیٹیں۔</string>
+    <string name="pref_audio_force_loudspeaker_summary">انتباہ: تجرباتی، کام نہیں کر سکتا۔ صوتی کالوں کے علاوہ ہیڈ فونز کے منسلک ہونے پر تمام آوازوں کو لاؤڈ اسپیکر کے ذریعے دوبارہ روٹ کرنے کی کوشش کریں۔</string>
+    <string name="sensorProperitesUseForPressure">دباؤ کے لیے استعمال کریں۔</string>
+    <string name="meterModes_18">کیڈینس</string>
+    <string name="dataStorageTransferInfoStatus">حیثیت: %1$s</string>
+    <string name="licenseItemOwned">فی الحال ملکیت ہے۔</string>
+    <string name="subscriptionPer1y">%1$s 12 مہینوں میں ایک بار بل کیا جاتا ہے۔</string>
+    <string name="prefSteadyScreenModeOff">بند</string>
+    <string name="pref_speedo_display_mode_entries_0">گرافک اور ڈیجیٹل</string>
+    <string name="pref_gps_update_freq_entries_3">1 سیکنڈ</string>
+    <string name="pref_roaring_constant_mode_title">مستقل موڈ</string>
+    <string name="meterModes_0">دورانیہ</string>
+    <string name="meterModeVerticalPower">عمودی طاقت</string>
+    <string name="meterModes_14">اوسط رفتار</string>
+    <string name="pref_maps_routes_draw_summary">نقشے پر منتخب GPX راستے کھینچیں۔</string>
+    <string name="infoSpeedometerMsg">آپ کی موجودہ، زیادہ سے زیادہ اور اوسط رفتار دکھاتا ہے۔
+\n
+\nاسٹال انڈیکیٹر بتاتا ہے کہ جب رفتار کی قدر تھوڑی دیر میں اپ ڈیٹ نہیں ہوئی اور اس پر بھروسہ نہیں کیا جا سکتا۔
+\n
+\nرفتار اشارے رفتار کی قدر کے قریب چھوٹے تیر ہیں جو ظاہر کرتے ہیں کہ موجودہ رفتار اوسط رفتار سے اوپر یا کم ہونے پر۔</string>
+    <string name="pref_autopause_modes_0">ریئل ٹائم (پہلے سے طے شدہ)</string>
+    <string name="toastSteadyScreenModeIntelligentActive">اسکرین اسٹیبلائزیشن ذہین فعال ہے۔</string>
+    <string name="dialogResetMessage">اس ٹریک کو محفوظ کریں اور ایک نئے کی تیاری کریں؟</string>
+    <string name="prefAppVisualThemeEntries_1">روشنی</string>
+    <string name="dialogPowerWeightsWeightPassengers">مسافروں</string>
+    <string name="pref_screensaverTimeout_summary">اسکرین سیور کے چالو ہونے تک صارف کے تعامل کے بغیر وقت کی مدت۔</string>
+    <string name="infoMeterModeAccelerationMsg">وقت میں رفتار کی تبدیلی کی شرح۔
+\n
+\nمنفی کا مطلب سستی ہے۔</string>
+    <string name="pref_screen_allow_off_inactive_summary">کئی منٹ کی غیرفعالیت کے بعد اسکرین کو آف ہونے دیں۔</string>
+    <string name="pref_soundeffects_tally_distance_title">فاصلے</string>
+    <string name="prefScreensaverTimeoutEntries_4">30 سیکنڈ</string>
+    <string name="timePeriod_perWeek">فی ہفتہ</string>
+    <string name="dialogTrackUploadSending">بھیج رہا ہے…</string>
+    <string name="unitMxM">m²</string>
+    <string name="menuInsertMeter">میٹر</string>
+    <string name="prefAutoTerrainNote2Summary">پاور سینسر کا استعمال کرتے ہوئے حاصل کردہ طاقتیں اس خصوصیت سے متاثر نہیں ہوتی ہیں۔</string>
+    <string name="sensorPurposeHeartRate">دل کی شرح</string>
+    <string name="infoMeterModePaceTitle">رفتار</string>
+    <string name="unitMinPerKmShort">/ کلومیٹر</string>
+    <string name="pref_category4_title">حجم (رشتہ دار)</string>
+    <string name="menuMeterShowValue">قدر</string>
+    <string name="pref_background_pattern_entries_6">بادل</string>
+    <string name="dialogGpsSettingsPromptTitle">مقام بند ہے۔</string>
+    <string name="meterModeSpeedVerticalShort">v spd</string>
+    <string name="pref_autopause_modes_explanation_2">تمام توقف رکھیں (جب تک کہ دستی طور پر توقف نہ کیا جائے)</string>
+    <string name="dialogRevokeAccessPromptMessage">رسائی کالعدم؟</string>
+    <string name="menuSpeedo">سپیڈومیٹر</string>
+    <string name="dialogRecButtonRemoveMessage">یہ Rec بٹن کو بٹن بار پر واپس کر دے گا۔ جاری رہے؟</string>
+    <string name="speechUnitOneLiterOfGasoline">پٹرول کا لیٹر</string>
+    <string name="pref_roaring_mode_entries_0">خودکار شرح اور حجم</string>
+    <string name="pref_units_altitude_entries_0">میٹرک [میٹرک]</string>
+    <string name="menuView">دیکھیں</string>
+    <string name="pref_obey_audio_focus_disable_title">آڈیو فوکس کو غیر فعال کریں۔</string>
+    <string name="inProgress">کام جاری ہے</string>
+    <string name="featureNotAvailable">معذرت، خصوصیت اس ڈیوائس پر دستیاب نہیں ہے۔</string>
+    <string name="pref_units_altitude_title">اونچائی</string>
+    <string name="pref_wakelock_modes_3">بند</string>
+    <string name="pref_speechProfileName_title">پروفائل کا نام</string>
+    <string name="infoMeterModeFuncThresholdPowerMsg">تخمینہ زیادہ سے زیادہ طاقت جو طویل عرصے تک برقرار رکھی جا سکتی ہے۔
+\n
+\nتخمینہ بہت حد تک اس سرگرمی کی قسم اور مدت پر منحصر ہے۔</string>
+    <string name="pref_powermeter_display_mode_dialog_title">پاور ڈسپلے موڈ</string>
+    <string name="speechUnitThreeMiles">میل</string>
+    <string name="dialogLayoutRemoveEntryMessage">اس فیلڈ کو ہٹائیں؟</string>
+    <string name="subscriptionPer1m">%1$s مہینے میں ایک بار بل کیا جاتا ہے۔</string>
+    <string name="licenseItemAlreadyOwned">لائسنس آئٹم پہلے سے ہی ملکیت ہے۔</string>
+    <string name="menuEdit">ترمیم</string>
+    <string name="prefSteadyScreenModeOnInfo">ٹریکنگ کے دوران اسکرین اسٹیبلائزیشن فیچر کو ہمیشہ فعال رکھیں۔ اسکرین آن ہونے پر یہ زیادہ بیٹری استعمال کر سکتا ہے۔</string>
+    <string name="pref_category_tracking_title">ٹریکنگ</string>
+    <string name="dialogScreenOrientationReversePortrait">پورٹریٹ (الٹا)</string>
+    <string name="unitIn">میں</string>
+    <string name="summaryVibrations">وائبریشنز</string>
+    <string name="summaryVehicleWeightInfo">اس ٹریک کو ریکارڈ کرنے کے دوران استعمال ہونے والی گاڑی کا وزن۔</string>
+    <string name="unitNewtonPerKg">N/kg</string>
+    <string name="disclaimerText1">یہ ایپ اسی طرح فراہم کی گئی ہے، اور آپ اسے اپنی ذمہ داری پر استعمال کرتے ہیں۔ ہم، پبلشر، سواری کے دوران ایپ کے استعمال سے پیدا ہونے والی کسی بھی حادثے، ملکیت کے کھو جانے، چوٹ یا اس سے بھی بدتر صورت حال کے لیے ذمہ دار نہیں ہوں گے۔</string>
+    <string name="meterModeOdo">اوڈومیٹر</string>
+    <string name="menuRevokeAccess">رسائی کالعدم</string>
+    <string name="dataStorageTransferInfoSpeed">رفتار: %1$s MB/s (%2$s آئٹمز/s)</string>
+    <string name="pref_flashlightBlinkModes_1">تیز</string>
+    <string name="prefGpsIntervalAdaptiveSummary">رفتار کے لحاظ سے GPS اپ ڈیٹ کا وقفہ 1 اور 5 سیکنڈ کے درمیان خودکار طور پر ایڈجسٹ کریں۔</string>
+    <string name="meterModes_11">ورٹ طاقت</string>
+    <string name="pref_speed_calculate_mode_title">رفتار کا دوبارہ حساب لگائیں۔</string>
+    <string name="timePeriod_perMonth">فی مہینہ</string>
+    <string name="dialog_fenceguard_update_title">باڑ کو اپ ڈیٹ کریں۔</string>
+    <string name="pref_bell_mode_title">قسم</string>
+    <string name="meterModes_16">گزرا وقت</string>
+    <string name="pref_speechNavigation_summary">نیویگیشن بولیں۔</string>
+    <string name="dialog_fenceguard_add_text2">آپ کے موجودہ مقام کے ارد گرد باڑ لگائی جائے گی تاکہ اسے ریکارڈ شدہ پٹریوں میں بے نقاب ہونے سے بچایا جا سکے۔</string>
+    <string name="menuSpeedoNeedle">سوئی</string>
+    <string name="pref_button_contrast_show_title">کنٹراسٹ/نقشہ کی پرت</string>
+    <string name="pref_category_tracking_gps_title">ٹریکنگ / GPS</string>
+    <string name="prefBaroAltitudeUsesTemperatureTitle">تھرمو بیرومیٹر</string>
+    <string name="toastTrackWritingError">ٹریک ڈیٹا کو اسٹوریج میں لکھنے میں خرابی! دوبارہ ترتیب دینے کی کوشش کریں۔</string>
+    <string name="pref_category_altitude_adjustments_title">اونچائی</string>
+    <string name="pref_speechGnssStatus_title">GPS</string>
+    <string name="sensorProperitesIsAutoPerimeterInfo">یہ سواری کے دوران خودکار فریم کی پیمائش کرے گا۔</string>
+    <string name="menuMeterShowChart">چارٹ</string>
+    <string name="pref_speechToasts_title">مختصر نوٹس</string>
+    <string name="speechUnitOneMile">میل</string>
+    <string name="sensorProperitesIsInvertedInfo">رفتار کی ریڈنگ حاصل کرنے کے لیے کیڈینس سینسر کا استعمال کریں، یا اس کے برعکس۔ عام طور پر معذور۔</string>
+    <string name="pref_gps_boost_modes_explanation_0">جب نقشہ نظر آتا ہے تو بار بار GPS اپ ڈیٹس پر مجبور کریں۔</string>
+    <string name="speechUnitFourMeters">میٹر</string>
+    <string name="sensorStatusDisconnected">منقطع</string>
+    <string name="prefMapDiskCacheSizeEntries_11">5 جی بی</string>
+    <string name="prefUnitsPowerEntries_1">[HP]</string>
+    <string name="dialogThermoBarometerNoticeTitle">نوٹس</string>
+    <string name="navigationLoadingData">ڈائریکشنز لوڈ ہو رہی ہیں…</string>
+    <string name="meterModeEfficacy">افادیت</string>
+    <string name="summaryVehicleWeight">گاڑی کا وزن</string>
+    <string name="unitKWH">kWh</string>
+    <string name="toastSensorEnabled">سینسر فعال ہے۔</string>
+    <string name="googleFitConnectButton">Google Fit کے ساتھ جڑیں۔</string>
+    <string name="pref_soundeffects_tally_energy_title">توانائی</string>
+    <string name="menuSpeedoStallIndicator">اسٹال اشارے</string>
+    <string name="unitKW">کلو واٹ</string>
+    <string name="toastFenceGuardFenceRemoved">FenceGuard: باڑ %1$s ہٹا دی گئی۔</string>
+    <string name="meterModePace">رفتار</string>
+    <string name="meterModeSpeedAverage">اوسط رفتار</string>
+    <string name="dialogTrackUploadStravaIsCommute">سفر</string>
+    <string name="pref_powermeter_display_mode_entries_0">کل طاقت</string>
+    <string name="prefUnitsPowerEntries_3">[kJ/h]</string>
+    <string name="unitPetrolLit">ایل گیس۔</string>
+    <string name="summaryTotalWeight">کل وزن</string>
+    <string name="dialogTracksDeleteMessage">انتباہ: اس کارروائی کو کالعدم نہیں کیا جا سکتا۔ منتخب ٹریکس کو حذف کریں؟
+\n
+\nحذف کرنے کی تصدیق کرنے کے لیے، جاری رکھنے کے لیے درج ذیل کوڈ درج کریں۔</string>
+    <string name="dataStorageInfo1">اگر ایپ ان انسٹال ہے تو حادثاتی ڈیٹا کے نقصان کو روکنے اور بیک اپ کو آسان بنانے کے لیے اپنے ٹریکس اور ڈیٹا کے لیے حسب ضرورت اسٹوریج لوکیشن استعمال کرنے کی سفارش کی جاتی ہے۔</string>
+    <string name="dialogFencesShowFences">باڑ دکھائیں۔</string>
+    <string name="dialogScreenshotPreparing">اسکرین شاٹ تیار ہو رہا ہے…</string>
+    <string name="pref_units_weight_entries_1">امپیریل</string>
+    <string name="speechTrackingStop">رک جاؤ</string>
+    <string name="sensorPurposeHumidity">نمی</string>
+    <string name="dialog_exit_msg">انتباہ: ٹریکنگ فعال ہے، اور روک دی جائے گی۔</string>
+    <string name="meterModes_13">سرعت</string>
+    <string name="dialogEnterCodeMessage">کوڈ درج کریں</string>
+    <string name="infoMeterModeFuncThresholdPowerTitle">فنکشنل تھریشولڈ پاور</string>
+    <string name="pref_bell_automatic_title">خودکار</string>
+    <string name="pref_background_pattern_entries_2">زیبرا</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">فعال پروفائل کو %1$s سے %2$s میں تبدیل کر دیا جائے گا۔ جاری رہے؟</string>
+    <string name="meterTextTotal">ٹوٹنا</string>
+    <string name="no">نہیں</string>
+    <string name="sensorProperitesUseForPower">طاقت کے لیے استعمال کریں۔</string>
+    <string name="dataStorageTitle">ذخیرہ</string>
+    <string name="pref_passive_gps_button_title">غیر فعال GPS بٹن موڈ</string>
+    <string name="meterModeAltitudeShort">alt</string>
+    <string name="speechPromptTrackingResume">دوبارہ شروع کریں یا ختم کریں؟</string>
+    <string name="controlPanelSoundVolume">جلدیں</string>
+    <string name="licenseSuccessDialogMessage">ایپ کو کامیابی کے ساتھ لائسنس دیا گیا تھا۔ آپ کی حمایت کا شکریہ!</string>
+    <string name="menuSettings">ترتیبات</string>
+    <string name="toastFenceGuardOutsideTheFence">FenceGuard: آپ فی الحال باڑ کے اندر نہیں ہیں۔</string>
+    <string name="menuMeterShowSubValues">ذیلی اقدار</string>
+    <string name="menuAbout">کے بارے میں</string>
+    <string name="menuSelectOther">دوسرے کو منتخب کریں۔</string>
+    <string name="pref_button_contrast_show_summary">کنٹراسٹ/میپ پرت ٹوگل بٹن دکھائیں۔</string>
+    <string name="dialogTracksShareChoices_1">صرف GPX</string>
+    <string name="pref_units_distance_entries_1">امپیریل [فٹ، میل]</string>
+    <string name="pref_above_lockscreen_summary">ڈیوائس کے لاک ہونے پر بھی ایپ نظر آتی رہے گی۔</string>
+    <string name="unitKcalKG">kcal/kg</string>
+    <string name="pref_mapsWeatherAnimate_info">ریڈار اینیمیشن ایک مستحکم ریڈار امیج سے 5x زیادہ انٹرنیٹ ڈیٹا استعمال کر سکتی ہے۔</string>
+    <string name="controlPanelMapHideButtonSubtitle">نقشہ چھپانے کے لیے کلک کریں۔</string>
+    <string name="summaryDriverWeight">ڈرائیور کا وزن</string>
+    <string name="pref_units_energy_title">توانائی</string>
+    <string name="pref_maps_routes_files_dialog_title">روٹس فولڈر یا فائل کا انتخاب کریں۔</string>
+    <string name="trackUploadActivityTypes_8">سکی</string>
+    <string name="pref_back_key_mode_dialog_title">بیک کلید موڈ</string>
+    <string name="prefUnitsSlopeEntries_2">فی میل [‰]</string>
+    <string name="sensorsSectionUsedInProfile">پروفائل میں استعمال کیا جاتا ہے۔</string>
+    <string name="paymentOnce">ایک بار ادائیگی</string>
+    <string name="infoMeterModeDescentMsg">مجموعی اونچائی میں کمی (ڈراپ)۔</string>
+    <string name="prefMapDiskCacheAgeTitle">نقشہ کیشے کی عمر کی حد</string>
+    <string name="summaryDeviceNameInfo">اس ٹریک کو ریکارڈ کرنے کے لیے استعمال ہونے والا آلہ۔</string>
+    <string name="defaultProfileNameOther">دیگر</string>
+    <string name="pref_locationProvider_modes_explanation_1">(تمام پروفائلز) اگر دستیاب ہو تو Google Play سروسز سے \"Fused\" فراہم کنندہ استعمال کریں۔ اصولی طور پر یہ کبھی کبھی تیز اور زیادہ درست مقامات فراہم کر سکتا ہے۔</string>
+    <string name="sensorPurposeTemperature">درجہ حرارت</string>
+    <string name="meterModeAltitudeDescentShort">ڈی ایس سی</string>
+    <string name="pref_background_pattern_entries_5">کوبل</string>
+    <string name="speechEnergy">توانائی: %1$s</string>
+    <string name="toastProfileChangeError">پروفائل کو تبدیل نہیں کیا جا سکا! دوبارہ کوشش کریں.</string>
+    <string name="pref_category_mapsRenderer">پیش کرنے والا</string>
+    <string name="pref_autopause_mode_dialog_title">آٹو موقوف</string>
+    <string name="pref_category_onlineElevation_title">آن لائن بلندی۔</string>
+    <string name="meterModes_20">گیئر کا تناسب</string>
+    <string name="prefBarometricAltitudeTitle">بیرومیٹرک اونچائی</string>
+    <string name="menuLicense">اپ گریڈ</string>
+    <string name="prefMapDiskCacheSizeEntries_3">200 MB</string>
+    <string name="toastSharingNoGpxError">خرابی، ٹریک میں کوئی GPX فائل نہیں ہے۔</string>
+    <string name="dialogGoogleMapTermsViolation">گوگل اپنے نقشوں کے مواد کو کیپچر کرنے کی اجازت نہیں دیتا، اس لیے نقشے کی قسم کو پہلے کسی دوسرے میں تبدیل کیا جانا چاہیے۔
+\n
+\nنقشے کی قسم اب تبدیل کریں؟</string>
+    <string name="summaryBasalMetabolicRate">بیسل میٹابولک ریٹ</string>
+    <string name="freeLicenseFeatures">❌ پریمیم نقشے۔
+\n❌ نیویگیشن
+\n❌ آن لائن اونچائی کی بنیادی لائن
+\n❌ کوئی اشتہار نہیں۔
+\n✔️ تمام مفت خصوصیات اور نقشے</string>
+    <string name="pref_roaring_state_summary">جب آپ حرکت کرتے ہیں تو ایکوسٹک وہیکل الرٹنگ سسٹم (AVAS) کی آوازیں تیار کریں۔</string>
+    <string name="pref_mapsFollowMode_summary">نقشے کو اپنے موجودہ مقام پر مرکوز رکھیں</string>
+    <string name="dialogMapsShowRoutes">گائیڈ راستوں</string>
+    <string name="unitWLb">W/lb</string>
+    <string name="profilesListTitleSelectProfile">پروفائل سوئچ کریں۔</string>
+    <string name="speechClock">گھڑی: %1$s</string>
+    <string name="controlPanelSoundTallies">ٹالیاں</string>
+    <string name="mapLayerSatellite">سیٹلائٹ</string>
+    <string name="openSourceLicensesTitle">اوپن سورس لائسنس</string>
+    <string name="dialogPowerWeightsWeightCargo">کارگو</string>
+    <string name="dialogProfileEditTitle">پروفائل میں ترمیم کریں</string>
+    <string name="sensorsTabUsed">استعمال کیا جاتا ہے</string>
+    <string name="prefUnitsSlopeEntries_0">فیصد [٪]</string>
+    <string name="defaultProfileNameRun">بھاگو 🏃</string>
+    <string name="proPlusLicenseTitle">پرو پلس لائسنس</string>
+    <string name="dialog_bell_shake_sensitivity_title">حساسیت ہلائیں۔</string>
+    <string name="sensorStepDetectorName">اسٹیپ ڈیٹیکٹر</string>
+    <string name="pref_maps_offline_file_title">فائل یا فولڈر منتخب کریں۔</string>
+    <string name="dialog_volume_message">نوٹ: آواز کے مجموعی حجم کو ایڈجسٹ کرنے کے لیے اپنے آلے پر والیوم بٹن استعمال کریں۔</string>
+    <string name="rewardedAdDescription">پہلے اشتہار دیکھنے کے لیے یہاں کلک کریں۔</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_title">بارش کا ریڈار</string>
+    <string name="sensorDeletedMsg">سینسر بھول گیا۔</string>
+    <string name="prefOnlineElevationNoteSummary1">بیٹری اور ڈیٹا کو بچانے کے لیے، جب آپ کسی نئے ٹریک کو ٹریک کرنا شروع کریں گے تو انٹرنیٹ سے صرف ایک ایلیویشن پوائنٹ حاصل کیا جائے گا۔ باقی ٹریک کے لیے زیادہ درست اونچائی کی بنیادی لائن کے لیے یہ کافی ہے۔</string>
+    <string name="pref_category_maps_offline_terrain_title">خطہ</string>
+    <string name="pref_mapsShowAttribution_summary">گوگل کے علاوہ آن لائن نقشوں کے لیے انتساب کا متن دکھائیں۔ کسی لنک پر حادثاتی کلک کو روکنے کے لیے غیر فعال کریں۔</string>
+    <string name="prefScreensaverDimBrightnessEntries_1">موجودہ چمک کا ⅕</string>
+    <string name="summaryAccelerating">تیز کرنا</string>
+    <string name="toastRoarButtonClickInfo">AVAS آواز کو ٹوگل کرنے کے لیے طویل کلک کریں۔</string>
+    <string name="prefGpsIntervalAdaptiveTitle">حسب منشا</string>
+    <string name="subscriptionPer1w">%1$s ہفتے میں ایک بار بل کیا جاتا ہے۔</string>
+    <string name="dialogTrackUploadDescriptionHint">اپنے خیالات کا اشتراک کریں…</string>
+    <string name="success">کامیابی</string>
+    <string name="summaryLocationIntervalInfo">اس ٹریک پر دو مقام کی تازہ کاریوں کے درمیان اوسط وقت کا وقفہ۔</string>
+    <string name="meterModes_22">رگڑنا</string>
+    <string name="infoMeterModeCadenceMsg">کرینک کے انقلابات کی تعداد فی منٹ، یعنی پیڈلنگ کی شرح۔</string>
+    <string name="infoAppUpdateMessage">اپ ڈیٹ تیار ہے۔</string>
+    <string name="pref_hud_axis_dialog_title">HUD آئینے کا محور</string>
+    <string name="meterModeGearRatioShort">جی چوہا</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_summary">ورن کی ریڈار پرت دکھائیں۔</string>
+    <string name="aboutScreenTranslationsTitle">ترجمے</string>
+    <string name="hereMapsFeatures">✔️ یہاں پریمیم نقشے ہیں۔
+\n✔️ نیویگیشن
+\n✔️ آن لائن اونچائی کی بنیادی لائن
+\n✔️ کوئی اشتہار نہیں۔
+\n✔️ تمام مفت خصوصیات اور نقشے</string>
+    <string name="prefActivityRecognitionNoteSummary">یہ اختیارات Android کی جسمانی سرگرمی کی شناخت کی خصوصیت پر انحصار کرتے ہیں۔ ہو سکتا ہے یہ درست نہ ہو اور سست ہو سکتا ہے، صرف اس صورت میں استعمال کریں جب آپ اس کے ساتھ ٹھیک ہوں۔ فاصلہ اور دورانیے کے لیے اسپیڈ سینسر استعمال کیے جانے پر بہترین کام کرے گا۔</string>
+    <string name="prefScreensaverDimBrightnessEntries_3">موجودہ چمک کا ½</string>
+    <string name="prefOnlineElevationNoteSummary2">اگر انٹرنیٹ یا لائسنس دستیاب نہیں ہے تو، ایپ اونچائی کو درست کیے بغیر کام کرتی رہے گی۔</string>
+    <string name="menuCollapseAll">سب کو سمیٹیں۔</string>
+    <string name="meterModePowerAverageShort">av pwr</string>
+    <string name="infoMeterModeElapsedMsg">سفر کا دورانیہ، بشمول تمام توقف لیکن اسٹاپس کو چھوڑ کر۔</string>
+    <string name="dialog_bell_automatic_sensitivity_title">خودکار گھنٹی کی حساسیت</string>
+    <string name="pref_gps_update_freq_entries_11">30 سیکنڈ</string>
+    <string name="infoMeterModePaceMsg">الٹی رفتار، یعنی وقت گزرا ہوا فی یونٹ فاصلہ۔</string>
+    <string name="meterModeFTPower">ft pwr</string>
+    <string name="unitJoulePerLb">J/lb</string>
+    <string name="pref_soundeffects_autopause_summary">خودکار توقف اور دوبارہ شروع کی شناخت پر آواز</string>
+    <string name="toastTrackSavingError">ٹریک محفوظ کرنے میں خرابی! دوبارہ ترتیب دینے کی کوشش کریں۔</string>
+    <string name="dataStorageStatsMessage">%1$s MB
+\n%2$s اشیاء</string>
+    <string name="meterModeAltitudeAscent">چڑھائی</string>
+    <string name="prefScreenPocketModeDelayEntries_0">کوئی تاخیر نہیں (پہلے سے طے شدہ)</string>
+    <string name="pref_wakelock_modes_explanation_0">GPS اپ ڈیٹ وقفہ اور دیگر عوامل کی بنیاد پر خود بخود فیصلہ کریں۔</string>
+    <string name="batteryOptimizationToast">فہرست سے اربن بائیکر کو منتخب کریں۔</string>
+    <string name="infoMeterModeRadiusMsg">ابتدائی مقام تک سیدھی لائن کا فاصلہ، یعنی نقل مکانی۔</string>
+    <string name="prefOnlineElevationTitle">آن لائن بلندی۔</string>
+    <string name="prefSteadyScreenModeAuto">ذہین فعال (پہلے سے طے شدہ)</string>
+    <string name="pref_maps_track_draw_title">ٹریک کھینچیں۔</string>
+    <string name="prefBackKeyModeEntries_0">نارمل</string>
+    <string name="unitFtxFt">ft²</string>
+    <string name="mapMarkerClickInfo">اختیارات کے لیے کلک کریں۔</string>
+    <string name="pref_category_app_features_title">ایپ کی خصوصیات</string>
+    <string name="dialogWaitTitle">برائے مہربانی انتظار کریں</string>
+    <string name="toastRestartRequired">اس کے اثر میں آنے کے لیے براہ کرم ایپ کو دوبارہ شروع کریں۔</string>
+    <string name="controlPanelUnitsButtonTitle">پیمائش کے یونٹ</string>
+    <string name="pref_category2_title">ڈسپلے</string>
+    <string name="pref_roarConstantModeButton_summary">AVAS کے آن ہونے پر ایک بٹن کلک کے ساتھ کنسٹنٹ موڈ کو ٹوگل کریں۔</string>
+    <string name="pref_units_altitude_entries_1">امپیریل [فٹ]</string>
+    <string name="pref_mapsOfflineLayerButtonActionSummary">منتخب کریں کہ جب پرت کا بٹن دبایا جائے تو کیا کرنا ہے۔</string>
+    <string name="infoMeterModeKineticEnergyMsg">جس اونچائی پر آپ بریک لگائے بغیر ایک لمبی ڈھلوان کو \"جانے دو\" کے ذریعے پہنچیں گے۔
+\n
+\nیا، اگر آپ کسی دیوار سے ٹکرائیں گے تو اثر قوت اتنی ہی ہوگی جو اس بلندی سے گر رہی ہے۔
+\n
+\nیہ تعداد رفتار کے مربع کے طور پر بڑھ جاتی ہے، اور حفاظتی تحفظات کے لیے مفید ہے۔</string>
+    <string name="cloudAccountsPowerUploadPolicyTitle">پاور ڈیٹا اپ لوڈ پالیسی</string>
+    <string name="prefGoogleMapsRenderer_0">طے شدہ</string>
+    <string name="pref_gps_update_freq_entries_13">1 منٹ</string>
+    <string name="toastTrackDeleteError">پٹریوں کو حذف کرنے میں خرابی۔</string>
+    <string name="sensorAddedMsg">سینسر پروفائل میں شامل کیا گیا۔</string>
+    <string name="dialogBluetoothPermissionRequest">اجازت درکار ہے تاکہ ایپ وائرلیس سینسرز کو تلاش کر سکے اور ان سے منسلک ہو سکے۔</string>
+    <string name="pref_speechCountdown_summary">الٹی گنتی بولیں۔</string>
+    <string name="thunderforestMapsFeatures">✔️ تھنڈر فاریسٹ پریمیم نقشے۔
+\n✔️ نیویگیشن
+\n✔️ آن لائن اونچائی کی بنیادی لائن
+\n✔️ کوئی اشتہار نہیں۔
+\n✔️ تمام مفت خصوصیات اور نقشے</string>
+    <string name="fence_name_default">میری جگہ</string>
+    <string name="summaryDragArea">علاقہ گھسیٹیں۔</string>
+    <string name="pref_gps_update_freq_entries_5">3 سیکنڈ</string>
+    <string name="dialog_default_color_light_title">ہلکے رنگ کی تھیم</string>
+    <string name="prefAppVisualThemeEntries_0">سسٹم ڈیفالٹ</string>
+    <string name="sensorProperitesUseForSteps">قدموں کی گنتی اور کیڈینس کے لیے استعمال کریں۔</string>
+    <string name="summaryClimbingEnergyInfo">اس توانائی کا فیصد جو کشش ثقل پر قابو پانے کے لیے استعمال کی گئی تھی۔</string>
+    <string name="proPlusLicenseFeatures">❌ پریمیم نقشے۔
+\n❌ نیویگیشن
+\n❌ آن لائن اونچائی کی بنیادی لائن
+\n✔️ کوئی اشتہار نہیں۔
+\n✔️ تمام مفت خصوصیات اور نقشے
+\n➕ اضافی عطیہ</string>
+    <string name="pref_units_speed_dialog_title">سپیڈ یونٹس</string>
+    <string name="pref_soundeffects_alarm_gpsPause_title">بھولا ہوا وقفہ</string>
+    <string name="sensorProperitesNoAlarm">الارم مت کرو</string>
+    <string name="prefGnssActivityRecognitionSummary">GPS کے لیے کھڑے بمقابلہ حرکت پذیری کو پہچانیں۔ یہ وقفے کے بعد وقفہ اور کچھ کھوئے ہوئے فاصلے یا اونچائی کو متعارف کرا سکتا ہے، لیکن زیادہ تر GPS شور کو روکے گا۔</string>
+    <string name="pref_category_resetPrompt_title">پرامپٹ کو دوبارہ ترتیب دیں۔</string>
+    <string name="pref_maps_fences_draw_summary">نقشے پر FenceGuard سے محفوظ علاقے دکھائیں۔</string>
+    <string name="sensorMenuAddToProfile">پروفائل میں شامل کریں۔</string>
+    <string name="summaryHeartBeats">دل کی دھڑکنیں</string>
+    <string name="infoMeterModeSpeedTitle">رفتار</string>
+    <string name="infoMeterModePowerBalanceTitle">پاور بیلنس L/R</string>
+    <string name="speechUnitFourMiles">میل</string>
+    <string name="dialogTrackResumeProfileMissingMessage">پروفائل %1$s جس نے اس ٹریک کو بنایا وہ اب موجود نہیں ہے۔ موجودہ پروفائل میں دوبارہ شروع کریں %2$s؟</string>
+    <string name="dialog_fenceguard_update_entries_0">باڑ کو اپ ڈیٹ کریں۔</string>
+    <string name="prefTrackingButtonModeTitle">متبادل رویہ</string>
+    <string name="toastActiveProfile">پروفائل: %1$s</string>
+    <string name="meterModes_19">دل کی شرح</string>
+    <string name="pref_soundeffects_countdown_title">الٹی گنتی</string>
+    <string name="sensorProperitesSpeedTriggers">رفتار کو متحرک کرتا ہے۔</string>
+    <string name="dialogScreenAutoTheme">آٹو تھیم</string>
+    <string name="pref_category_locationProvider_title">GPS فراہم کنندہ</string>
+    <string name="dialogLayoutChoosePrompt">موجودہ لے آؤٹ کو اوور رائٹ کر دیا جائے گا۔
+\n
+\nمنتخب کردہ ترتیب کو لاگو کریں؟</string>
+    <string name="trackUploadActivityTypes_1">رن</string>
+    <string name="menuRateAndComment">ہمیں درجہ دیں۔</string>
+    <string name="meterModeAltitude">اونچائی</string>
+    <string name="unitMiliW">mW</string>
+    <string name="pref_speed_calculate_mode_summary">(تمام پروفائلز) فاصلوں سے رفتار کا دوبارہ حساب لگائیں، براہ راست GPS ویلیو استعمال نہ کریں۔ یہ GPS (ڈوپلر) اقدار پر زیادہ مستحکم رفتار ریڈنگ فراہم کر سکتا ہے۔ ڈیفالٹ آف ہے۔</string>
+    <string name="meterModePower">طاقت</string>
+    <string name="pref_speechAutoPause_summary">خودکار توقف پر بولیں اور پتہ لگانے کو دوبارہ شروع کریں۔</string>
+    <string name="maptilerMapsFeatures">✔️ میپ ٹائلر پریمیم نقشے۔
+\n✔️ نیویگیشن
+\n✔️ آن لائن اونچائی کی بنیادی لائن
+\n✔️ کوئی اشتہار نہیں۔
+\n✔️ تمام مفت خصوصیات اور نقشے</string>
+    <string name="dialogWeatherInfoMessage">ریڈار ڈیٹا ہر 10 منٹ میں اپ ڈیٹ ہوتا ہے۔ بھرا ہوا آئیکن تازہ ڈیٹا کی نشاندہی کرتا ہے، خالی آئیکن کا مطلب ہے کہ اپ ڈیٹ قریب ہے۔
+\n
+\nپیلا اور سرخ رنگ زیادہ بارش کے علاقوں کو ظاہر کرتے ہیں۔
+\n
+\nریڈار کے آخری 1 گھنٹے کے ڈیٹا کو بارش کے رجحانات کو ظاہر کرنے کے لیے متحرک کیا جا سکتا ہے۔</string>
+    <string name="unitTimeSecond">s</string>
+    <string name="dialogGpsIntervalLabelLess">▶
+\nکم درستگی، کم بیٹری استعمال کرتا ہے۔</string>
+    <string name="unitDegree">°</string>
+    <string name="dialogLoginUsernameHint">صارف نام</string>
+    <string name="dialogCopyingMessage">کاپی ہو رہا ہے…</string>
+    <string name="navigationContinue">جاری رہے</string>
+    <string name="summaryRollResistCoefAverageInfo">اوسط رولنگ ریزسٹنس گتانک، اگر سرگرمی کے دوران گتانک تبدیل ہو رہا تھا۔</string>
+    <string name="dialogOfflineMapsChooseMessage">نقشہ کی فائل نہیں ملی یا قابل رسائی نہیں ہے۔ ابھی کچھ دیگر نقشوں کی فائل/فولڈر کا انتخاب کریں؟</string>
+    <string name="pref_category_select_title">منتخب کریں…</string>
+    <string name="disclaimerText3">اپنی نظریں ہمیشہ سڑک پر رکھیں۔</string>
+    <string name="meterModes_8">افادیت</string>
+    <string name="meterModeDurationShort">دوران</string>
+    <string name="pref_soundeffects_tally_distance_dialog_title">فاصلوں کی تعداد</string>
+    <string name="navigationAvoidTolls">ٹولز سے گریز کریں۔</string>
+    <string name="svgCopyright">اربن بائیکر کے ساتھ بنایا گیا۔</string>
+    <string name="pref_hud_axis_entries_0">ڈیفالٹ - اسٹیٹس بار اپنی فطری پوزیشن پر</string>
+    <string name="infoMeterModeDurationTitle">دورانیہ</string>
+    <string name="dialogBaroAltitudePromptMessage">بیرومیٹرک اونچائی کو GPS اونچائی کے ساتھ تضاد کی وجہ سے زبردستی بند کر دیا گیا ہے!
+\n
+\nبراہ کرم اسے بند یا ایئر کنڈیشنڈ جگہوں پر استعمال نہ کریں!</string>
+    <string name="meterModeAltitudeSlopeShort">ڈھلوان</string>
+    <string name="toastFenceGuardFenceAdded">FenceGuard: باڑ %1$s شامل کی گئی۔</string>
+    <string name="meterModeClockShort">clk</string>
+    <string name="meterModeBatteryShort">batt</string>
+    <string name="prefScreensaverDimBrightnessEntries_4">جیسے ہے چھوڑ دو</string>
+    <string name="pref_category_wakelock_title">CPU نیند کی پالیسی</string>
+    <string name="meterModeWriggle">ہلچل</string>
+    <string name="sensorsMenuScan">اسکین کریں۔</string>
+    <string name="pref_roaring_type_title">قسم</string>
+    <string name="dialogPowerWeightsWeightWheels">پہیے</string>
+    <string name="pref_wakelock_modes_explanation_1">ٹریکنگ کے دوران CPU کو بیدار رکھیں۔ زیادہ بیٹری استعمال کر سکتا ہے، لیکن اس بات کو یقینی بناتا ہے کہ مقام کا کوئی اپ ڈیٹ نہیں چھوڑا گیا ہے۔</string>
+    <string name="infoMeterModePowerMsg">سرگرمی کے دوران طاقت کا استعمال، ڈریگ فورسز، اونچائی میں تبدیلی وغیرہ کی وجہ سے۔
+\n
+\nمنفی کا مطلب ہے طاقت حاصل کرنا، جیسے جب نیچے کی طرف جاتے ہو یا بریک لگاتے ہو۔
+\n
+\nkcal/h یا kJ/h میں ہونے پر، یہ کارکردگی اور BMR کو بھی مدنظر رکھتا ہے۔</string>
+    <string name="pref_flashlightBlinkModes_0">سست (پہلے سے طے شدہ)</string>
+    <string name="summaryDeviceRestartsCount">زبردستی دوبارہ شروع ہوتا ہے۔</string>
+    <string name="sensorMenuProperties">پراپرٹیز</string>
+    <string name="prefAdModes_1">گوگل</string>
+    <string name="sensorStatusConnecting">منسلک ہو رہا ہے…</string>
+    <string name="toastSharingError">اشتراک کی کارروائیوں کے دوران خرابی۔</string>
+    <string name="pref_flashlightBlinkModeToggleEnable_summary">ٹارچ آن ہونے پر بٹن پر کلک کرکے ٹمٹماتے موڈ کو ٹوگل کریں۔</string>
+    <string name="prefSteadyScreenImplementationInternal">اندرونی (پہلے سے طے شدہ)</string>
+    <string name="prefScreensaverTimeoutEntries_0">5 سیکنڈ</string>
+    <string name="dialogMapsMapCountManyMaps">%1$s نقشے</string>
+    <string name="toastSoundsEnabled">آوازیں فعال ہیں۔</string>
+    <string name="summaryDeviceName">ڈیوائس</string>
+    <string name="powerSourceWeight_3">ڈرائیور + گاڑی</string>
+    <string name="pref_category_roaring_title">اے وی اے ایس</string>
+    <string name="dialogNotificationPermissionRequestTitle">اطلاع کی اجازت</string>
+    <string name="pref_mapsOfflineFileSummary">میپ فائلوں کو استعمال کرنے کے لیے ایپ کے لیے مخصوص نقشوں کے فولڈر میں کاپی کرنا ضروری ہے۔</string>
+    <string name="pref_gps_update_freq_entries_12">45 سیکنڈ</string>
+    <string name="yes">جی ہاں</string>
+    <string name="dialogLoginPasswordHint">پاس ورڈ</string>
+    <string name="pref_fenceguard_summary">اپنے گھر کے محل وقوع، یا دیگر اہم مقامات کو ریکارڈ شدہ پٹریوں میں بے نقاب ہونے سے بچائیں۔</string>
+    <string name="menuChooseFolder">فولڈر</string>
+    <string name="menuNarrow">تنگ</string>
+    <string name="infoMeterModeDistanceTitle">فاصلے</string>
+    <string name="dialogPowerWeightsWeightRider">ڈرائیور</string>
+    <string name="pref_digital_font_title">ڈیجیٹل فونٹ</string>
+    <string name="speechTrackingPause">توقف</string>
+    <string name="toastSteadyScreenModeOff">اسکرین اسٹیبلائزیشن غیر فعال ہے۔</string>
+    <string name="prefTemperatureSensorDerivedSummary">اس ڈیوائس میں محیط درجہ حرارت کا سینسر نہیں ہے، لیکن دیگر اندرونی سینسر (جیسے CPU درجہ حرارت) کا استعمال کرتے ہوئے کھردری قدریں حاصل کی جا سکتی ہیں۔</string>
+    <string name="dialogLicenseUpgradeButton2">پرومو ویڈیو دیکھیں</string>
+    <string name="meterModes_7">توانائی</string>
+    <string name="pref_screenAutoPocketMode_summary">(تمام پروفائلز) ضرورت نہ ہونے پر ڈسپلے کو بند رکھنے کے لیے قربت کے سینسر کا استعمال کریں۔</string>
+    <string name="speechTrackingResume">جاؤ</string>
+    <string name="meterModes_24">دباؤ</string>
+    <string name="sensorPurposeSpeed">رفتار</string>
+    <string name="infoMeterModeHeartRateTitle">دل کی شرح</string>
+    <string name="summaryDeviceRestartsCountInfo">اس سرگرمی کے دوران جتنی بار ایپ کو زبردستی بند کیا گیا یا ڈیوائس نے کام کرنا چھوڑ دیا۔</string>
+    <string name="pref_maps_offline_terrain_info_title">ڈاونلوڈ کرو ابھی</string>
+    <string name="unitMinPerMileShort">/mi</string>
+    <string name="pref_flashlightBlinkMode_dialogTitle">ٹارچ ٹمٹماہٹ</string>
+    <string name="speechUnitManyMeters">میٹر</string>
+    <string name="prefBarometricAltitudeNoteSummary">یہ صرف کھلی فضا میں استعمال کریں! براہ کرم دباؤ والی، بند یا ایئر کنڈیشنڈ گاڑیوں جیسے کاروں یا ہوائی جہازوں میں رہتے ہوئے غیر فعال کریں!</string>
+    <string name="pref_button_map_show_title">نقشہ</string>
+    <string name="prefSteadyScreenTitle">اسکرین اسٹیبلائزیشن</string>
+    <string name="navigationLoadFromFilePrompt">انٹرنیٹ سے نئی سمتیں لوڈ کرتے وقت ایک خرابی پیش آگئی۔
+\n
+\nکیا آپ فائل سے پہلے استعمال شدہ ڈائریکشنز لوڈ کرنا چاہتے ہیں؟</string>
+    <string name="summaryBasalMetabolicRateInfo">بیسل میٹابولک ریٹ (BMR)۔</string>
+    <string name="trackUploadActivityTypes_2">چلنا</string>
+    <string name="meterModeHeartRateShort">گھنٹہ</string>
+    <string name="ongoingNotificationChannelDescription">پیش منظر کی خدمت کا کنٹرول اور ایپ تک آسان رسائی فراہم کرنا</string>
+    <string name="pref_units_weight_entries_0">میٹرک [کلوگرام]</string>
+    <string name="pref_soundeffects_fence_enterleave_title">باڑ</string>
+    <string name="tracksHistoryListEmpty">یہاں کوئی ٹریک نہیں ہے۔ باہر جاؤ اور ایک سرگرمی ریکارڈ کرو!</string>
+    <string name="prefBatteryOptimizationTitle">بیٹری کی اصلاح</string>
+    <string name="pref_speechToasts_summary">مختلف مختصر معلوماتی نوٹ بولیں۔</string>
+    <string name="prefSteadyScreenModeAutoInfo">ٹریکنگ کے دوران اسکرین اسٹیبلائزیشن فیچر کو صرف گہرے خطوں پر فعال کریں۔ یہ آرام اور بیٹری کے استعمال کا ایک اچھا توازن ہے۔</string>
+    <string name="dialogNotificationPermissionRequest">اجازت کی ضرورت ہے تاکہ ایپ ٹریکنگ کے فعال ہونے کے دوران جاری نوٹیفکیشن دکھا سکے۔</string>
+    <string name="dialog_fenceguard_add_text">ایک نئی باڑ کا نام دیں:</string>
+    <string name="pref_roaring_type_entries_0">فری ہب</string>
+    <string name="sensorProperitesUseForDuration">مدت کے لیے استعمال کریں۔</string>
+    <string name="menuNavigation">نیویگیٹ کریں۔</string>
+    <string name="pref_category_back_key_title">بیک کلید موڈ</string>
+    <string name="menuCustomTracksFolder">کسٹم ٹریکس فولڈر</string>
+    <string name="profilesListAddProfile">نئ پروفائل</string>
+    <string name="pref_above_lockscreen_title">لاک اسکرین کے اوپر رکھیں</string>
+    <string name="dialog_default_color_dark_title">گہرے رنگ کی تھیم</string>
+    <string name="buttonLater">بعد میں</string>
+    <string name="toastProfilesListProfileDeleteError">پروفائل کو حذف کرنے میں خرابی</string>
+    <string name="toastSharingSuccess">کامیابی کے ساتھ پوسٹ کیا گیا۔</string>
+    <string name="dialogEnergyParamsBmr">بیسل میٹابولک ریٹ (BMR)</string>
+    <string name="pref_category_map_colors_title">نقشے کے رنگ</string>
+    <string name="speechNavigationWrongWay">غلط طریقہ</string>
+    <string name="dialogGpsIntervalNote">اس قدر کو 3 سیکنڈ سے کم رکھیں تاکہ سب سے زیادہ درست ریڈنگ اور مستقل رویہ حاصل کیا جا سکے!</string>
+    <string name="dialogLayoutsInfoTitle">لے آؤٹ</string>
+    <string name="pref_wakelock_modes_1">پوری طرح بیدار</string>
+    <string name="prefTrackingButtonModeSummary">(تمام پروفائلز) توقف کے لیے کلک یا لانگ کلک کریں، اسٹاپ کے لیے الگ بٹن۔</string>
+    <string name="pref_units_speed_title">رفتار</string>
+    <string name="sensorProperitesWheelPerimeter">پہیے کا طواف</string>
+    <string name="dialogFencesUpdate">باڑ کے مقام کو اپ ڈیٹ کریں۔</string>
+    <string name="meterModeClock">گھڑی</string>
+    <string name="infoMeterModeAscentTitle">چڑھائی</string>
+    <string name="profilesListRowTotalsSince">اس کے بعد سے کل: %1$s</string>
+    <string name="prefMapDiskCacheSizeEntries_9">3 جی بی</string>
+    <string name="controlPanelScreenshotButtonTitle">اسکرین شاٹ</string>
+    <string name="meterModeAcceleration">سرعت</string>
+    <string name="prefAppVisualThemeEntries_2">اندھیرا</string>
+    <string name="buttonNewTrack">ختم کرنا</string>
+    <string name="menuViewWith">کے ساتھ دیکھیں</string>
+    <string name="prefPressureSensorOffsetInfo">اس مستقل کو پریشر ریڈ آؤٹ میں شامل کیا جاتا ہے اور اگر موجود ہو تو سینسر کے تعصب کو کم کرنے کے لیے استعمال کیا جا سکتا ہے۔</string>
+    <string name="menuInsertBelow">نیچے</string>
+    <string name="sensorProperitesUseForDistance">فاصلے اور مدت کے لیے استعمال کریں۔</string>
+    <string name="prefGoogleMapsRendererSummary">موجودہ: %1$s</string>
+    <string name="dialogFencesAdd">یہاں باڑ لگائیں۔</string>
+    <string name="unitJoulePerKg">J/kg</string>
+    <string name="pref_flashlightAutoPocketMode_title">جیبی موڈ</string>
+    <string name="priceFree">مفت</string>
+    <string name="pref_screenWaveOnOffMode_summary">ایپ ڈسپلے کو اس کے سامنے دو بار لہرا کر لاک کریں۔ غیر مقفل کرنے کے لیے دوبارہ لہرائیں۔</string>
+    <string name="prefMapDiskCacheAgeEntries_6">60 دن</string>
+    <string name="prefMapDiskCacheSizeEntries_10">4 جی بی</string>
+    <string name="dialogRecButtonInsertTitle">Rec بٹن داخل کریں۔</string>
+    <string name="sensorFilterInterval_3">10 سیکنڈ</string>
+    <string name="dialogProfileEditTotals">کل:</string>
+    <string name="pref_category_gps_boost_title">GPS اپ ڈیٹس کو فروغ دینے کی پالیسی</string>
+    <string name="infoMeterModeSpeedMsg">فی یونٹ وقت کا فوری فاصلہ۔</string>
+    <string name="pref_category_maps_online_mode_title">نقشے کا ماخذ</string>
+    <string name="speechUnitFourHours">گھنٹے</string>
+    <string name="infoDigitalFilterNotice">براہ کرم نوٹ کریں: درستگی کے لیے درکار ڈیجیٹل فلٹرنگ میں ناگزیر تاخیر کی وجہ سے یہ بعض اوقات حقیقی وقت سے نمایاں طور پر پیچھے رہ سکتا ہے۔</string>
+    <string name="speechUnitOneMinute">منٹ</string>
+    <string name="menuClear">صاف</string>
+    <string name="menuMeter">میٹر</string>
+    <string name="defaultProfileNamePlane">طیارہ 🛩️</string>
+    <string name="prefAllProfilesInfoSummary">یہاں کی ترجیحات تمام پروفائلز پر لاگو ہوتی ہیں۔</string>
+    <string name="meterModes_29">ایف ٹی پاور</string>
+    <string name="profileNameDefault">نئ پروفائل</string>
+    <string name="pref_soundeffects_fence_enterleave_summary">باڑ میں داخل ہونے یا چھوڑتے وقت آواز کریں۔</string>
+    <string name="prefOnlineElevationNoteSummary3">یہ صرف اس صورت میں کام کرتا ہے جب سبسکرپشن لائسنس دستیاب ہو (الٹیمیٹ لائسنس، یا نقشوں کے لائسنسوں میں سے ایک)۔</string>
+    <string name="pref_maps_routes_files_noFolderSelected">کوئی فولڈر منتخب نہیں کیا گیا۔</string>
+    <string name="sensorProperitesActivityRecognition">جسمانی سرگرمی کی شناخت</string>
+    <string name="pref_fenceguard_title">فینس گارڈ</string>
+    <string name="menuMeterReset">ختم کرنا</string>
+    <string name="menuExit">باہر نکلیں</string>
+    <string name="pref_units_slope_dialog_title">ڈھلوان یونٹس</string>
+    <string name="pref_bell_mode_entries_3">یوہو</string>
+    <string name="prefMapDiskCacheAgeEntries_0">1 دن</string>
+    <string name="pref_text_automatic">خودکار</string>
+    <string name="pref_meter_lock_summary">کلک پر موڈ کی تبدیلی کو روکتا ہے۔</string>
+    <string name="unitFtSxS">ft/s²</string>
+    <string name="unitPercent">%</string>
+    <string name="prefSteadyScreenImplementationInternalInfo">ہماری اپنی اسکرین اسٹیبلائزیشن نفاذ کا استعمال کریں۔ استعمال میں آسان، غیر ایڈجسٹ۔</string>
+    <string name="pref_relaunchAfterReboot_title">ریبوٹ کے بعد دوبارہ لانچ کریں۔</string>
+    <string name="dialogScreenBrightnessOverride">چمک</string>
+    <string name="meterModeStepCadence">قدمی</string>
+    <string name="dialogLayoutEmptyInfoTitle">ترتیب</string>
+    <string name="pref_powermeter_parameters_info_summary">درست پاور اور انرجی ریڈنگ کے لیے، براہ کرم یقینی بنائیں کہ یہ پیرامیٹرز درست ہیں!</string>
+    <string name="dialogOfflineMapsChooseTitle">آف لائن نقشوں کا مسئلہ</string>
+    <string name="proLicenseLabel">پرو</string>
+    <string name="unitKjH">kJ/h</string>
+    <string name="unitKcalLb">kcal/lb</string>
+    <string name="pref_maps_offline_info_title">ڈاونلوڈ کرو ابھی</string>
+    <string name="pref_mapsWeatherCoverage_summary">سایہ دار علاقے جہاں بارش کا کوئی ریڈار کوریج نہیں ہے۔</string>
+    <string name="pref_text_min">کم از کم</string>
+    <string name="pref_screenAutoPocketModeDelay_summary">یہ قربت کے سینسر کے فعال ہونے کے بعد ڈسپلے کو آف کرنے میں تاخیر کرے گا۔</string>
+    <string name="pref_soundeffects_tally_ascent_dialog_title">چڑھائی کی تعداد</string>
+    <string name="sensorsEmptyList">خالی فہرست</string>
+    <string name="prefMapShowBuildingsSummary">Google Maps کے لیے 3D عمارتوں کی پرت دکھائیں۔ نقشہ کی کارکردگی کو بہتر بنانے اور وسائل کے استعمال کو کم کرنے کے لیے غیر فعال کریں۔</string>
+    <string name="infoMeterModeWriggleTitle">رگڑنا</string>
+    <string name="prefAppVisualThemeSummary">(تمام پروفائلز)</string>
+    <string name="toastGpsEnabled">GPS آن ہو گیا۔</string>
+    <string name="prefMapDiskCacheAgeEntries_2">10 دن (پہلے سے طے شدہ)</string>
+    <string name="meterModes_25">اوڈومیٹر</string>
+    <string name="menuExpandAll">سبھی کو پھیلائیں۔</string>
+    <string name="prefScreenPocketModeDelayEntries_3">0.30 سیکنڈ</string>
+    <string name="dialogTrackResumeGeneralErrorMessage">کچھ خرابی پیش آگئی۔ دوبارہ کوشش کریں.</string>
+    <string name="summaryRollingEnergyInfo">اس توانائی کا فیصد جو رولنگ مزاحمت پر قابو پانے کے لیے استعمال کی گئی تھی۔</string>
+    <string name="pref_roaring_mode_dialog_title">AVAS موڈ</string>
+    <string name="toastFenceGuardFenceUpdatingError">FenceGuard: باڑ کو اپ ڈیٹ کرنے میں خرابی۔</string>
+    <string name="ok">ٹھیک ہے</string>
+    <string name="speechNavigationDestinationReached">آپ منزل پر پہنچ چکے ہیں۔</string>
+    <string name="menuSendDebugFeedback">ایک مسئلہ کی اطلاع دیں</string>
+    <string name="toastTrackingStopped">رک گیا۔</string>
+    <string name="prefSteadyScreenModeOffInfo">کبھی بھی اسکرین اسٹیبلائزیشن فیچر کو فعال نہ کریں۔</string>
+    <string name="prefBatteryOptimizationMessage">اربن بائیکر کو سسٹم کی بیٹری آپٹیمائزیشن سے مستثنیٰ کیا جا سکتا ہے، اس بات کو مزید یقینی بنانے کے لیے کہ یہ Android کے پرانے ورژنز پر اسکرین آف ہونے پر ٹھیک سے کام کرتا رہے گا۔ ابھی ترتیبات کو کھولنے کے لیے یہاں کلک کریں۔</string>
+    <string name="pref_gps_update_freq_entries_9">15 سیکنڈ</string>
+    <string name="pref_text_medium">درمیانہ</string>
+    <string name="unitKm">کلومیٹر</string>
+    <string name="pref_category_mapsQuickZoom">کوئیک زوم</string>
+    <string name="sensorsSectionSupported">حمایت کی</string>
+    <string name="pref_soundeffects_tally_clock_title">گھڑی</string>
+    <string name="prefMapOnlineModeEntries_1">آف لائن</string>
+    <string name="pref_soundeffects_tally_altitude_dialog_title">اونچائی کا حساب</string>
+    <string name="pref_category_power_mode_title">پاور ڈسپلے موڈ</string>
+    <string name="toastFenceGuardFenceAddingError">FenceGuard: باڑ شامل کرنے میں خرابی۔</string>
+    <string name="sensorPurposePressure">دباؤ</string>
+    <string name="dialogPowerParamsTitle">بجلی کے نقصان کے گتانک</string>
+    <string name="pref_speechTallies_title">ٹالیاں</string>
+    <string name="dialogBaroAltitudeNoticeMessage">بیرومیٹرک اونچائی صرف باہر کام کرتی ہے۔
+\n
+\nبراہ کرم اسے بند یا ایئر کنڈیشنڈ جگہوں جیسے کچھ گاڑیوں اور ہوائی جہازوں میں استعمال نہ کریں۔</string>
+    <string name="prefMapOfflineLayerButtonActionEntries_1">فائل کو سوئچ کریں۔</string>
+    <string name="prefGoogleMapsRenderer_2">تازہ ترین</string>
+    <string name="sensorProperitesUseForHeartRate">دل کی دھڑکن کے لیے استعمال کریں۔</string>
+    <string name="dialog_fenceguard_remove_defaultText">کیا آپ باڑ کو ہٹانے کا یقین رکھتے ہیں؟</string>
+    <string name="dialog_fenceguard_update_text">باڑ کا نام:</string>
+    <string name="sensorProperitesUseForSpeed">رفتار کے لیے استعمال کریں۔</string>
+    <string name="toastPressAgainToExit">باہر نکلنے کے لیے دوبارہ دبائیں۔</string>
+    <string name="dialogMapsChooseTitle">نقشہ منتخب کریں۔</string>
+    <string name="prefAutoTerrainTitle">آٹو ٹیرین</string>
+    <string name="pref_category_tallies_title">ٹالیاں</string>
+    <string name="pref_soundeffects_tally_radius_dialog_title">رداس کی تعداد</string>
+    <string name="ultimateLicenseDescription">حتمی تجربے کے لیے سب سے طاقتور لائسنس</string>
+    <string name="pref_units_energy_dialog_title">توانائی کی اکائیاں</string>
+    <string name="speechUnitTwoMiles">میل</string>
+    <string name="tracksHistoryListButtonEdit">ترمیم</string>
+    <string name="meterModeDuration">مدت</string>
+    <string name="prefGnssActivityRecognitionTitle">GPS شور کو کم کریں۔</string>
+    <string name="infoMeterModeDurationMsg">سفر کا دورانیہ، ممکنہ طور پر کسی بھی وقفے یا اسٹاپس کو چھوڑ کر۔</string>
+    <string name="trackUploadActivityTypes_5">سرف</string>
+    <string name="meterModePowerShort">pwr</string>
+    <string name="prefBaroAltitudeUsesTemperatureSummary">اگر دستیاب ہو تو زیادہ درست بیرومیٹرک اونچائی کے لیے درجہ حرارت سینسر کا ڈیٹا استعمال کریں۔</string>
+    <string name="infoMeterModeDistanceOdoMsg">پروفائل کے پہلے استعمال کے بعد سے طے شدہ کل فاصلہ۔</string>
+    <string name="toastContrastButtonClickInfo">خودکار بصری تھیم فعال ہے۔</string>
+    <string name="dialogResetTitle">ختم کرنا</string>
+    <string name="prefGnssAutomaticSleepSummary">ساکن رہتے ہوئے مقام کو خود بخود آف کر دیں، اور حرکت شروع ہونے پر واپس آن کریں۔ یہ ٹریکنگ کو روکنے کی ضرورت کے بغیر، طویل وقفوں پر بیٹری کے استعمال کو کم کرتا ہے۔</string>
+    <string name="pref_screensaverEnable_summary">بیٹری بچانے کے لیے، ٹائم آؤٹ کے بعد ڈسپلے کو مدھم کریں۔ غیر مقفل کرنے کے لیے ڈسپلے کو ٹچ کریں۔</string>
+    <string name="dialog_fenceguard_update_text2">آپ کے مقام کے ارد گرد لگائی گئی باڑ اسے ریکارڈ شدہ پٹریوں میں بے نقاب ہونے سے بچاتی ہے۔</string>
+    <string name="meterModeRadiusShort">rad</string>
+    <string name="meterModes_10">طاقت کا توازن</string>
+    <string name="prefMapDiskCacheSizeEntries_0">10 ایم بی</string>
+    <string name="ultimateLicenseLabel">حتمی</string>
+    <string name="pref_soundeffects_tally_energy_dialog_title">توانائی کی تعداد</string>
+    <string name="prefMapDiskCacheAgeEntries_1">5 دن</string>
+    <string name="dialogCameraPermissionRequestTitle">کیمرے کی اجازت</string>
+    <string name="pref_duck_roaring_on_bell_title">گھنٹی بجنے پر بطخ AVAS</string>
+    <string name="defaultProfileNameBike1">بائیک 1 🚴</string>
+    <string name="dialogBluetoothPermissionRequestTitle">بلوٹوتھ کی اجازت</string>
+    <string name="prefGpsBoostNoteSummary">نیویگیشن کے دوران مقام کی تازہ کاریوں کو ہمیشہ سب سے زیادہ تعدد پر مجبور کیا جائے گا۔</string>
+    <string name="freeLicenseTitle">مفت لائسنس</string>
+    <string name="pref_button_profile_show_summary">پروفائل بٹن دکھائیں۔</string>
+    <string name="pref_energy_params_summary">کارکردگی: %1$s
+\nمیٹابولزم: %2$s</string>
+    <string name="pref_category_params_title">پیرامیٹرز</string>
+    <string name="prefUnitsSlopeEntries_1">ڈگری [°]</string>
+    <string name="prefMapDiskCacheAgeEntries_3">15 دن</string>
+    <string name="dialogTracksShareChoices_0">زپ (مکمل)</string>
+    <string name="pref_mapsFollowAutorotateMode_summary">سفر کی سمت اوپر کی طرف رکھیں</string>
+    <string name="buttonUnderstand">میں سمجھتا ہوں۔</string>
+    <string name="menuCollapse">گرنے</string>
+    <string name="meterModeAltitudeAscentShort">asc</string>
+    <string name="dialogMapsFollowMode">پیروی</string>
+    <string name="meterModeHeartRate">دل کی شرح</string>
+    <string name="prefNoSoundInsideFenceSummary">الارم کے علاوہ باڑ کے اندر آوازیں نہ نکالیں۔</string>
+    <string name="dialog_fenceguard_update_entries_1">باڑ کو ہٹا دیں۔</string>
+    <string name="meterModes_21">گھڑی</string>
+    <string name="summaryStoppedTime">وقت رک گیا۔</string>
+    <string name="dialogMeterModesTitle">دستیاب طریقوں کا انتخاب کریں۔</string>
+    <string name="prefTrackingButtonFreePlacementTitle">مفت ریک بٹن کی جگہ کا تعین</string>
+    <string name="meterModes_17">رفتار</string>
+    <string name="toastFenceGuardLocationUnavailable">FenceGuard: آپ کا مقام ابھی تک دستیاب نہیں ہے۔</string>
+    <string name="pref_units_other_dialog_title">دیگر مقداروں کے لیے اکائیاں</string>
+    <string name="speechUnitTwoMinutes">منٹس</string>
+    <string name="prefMeterSettingsNoteSummary">مزید ترتیبات ایک مینو کے ذریعے دستیاب ہیں جس تک میٹر فیلڈ پر طویل کلک کرکے رسائی حاصل کی جاتی ہے۔</string>
+    <string name="speechUnitFourKilometers">کلومیٹر</string>
+    <string name="speechDescent">ڈراپ: %1$s</string>
+    <string name="computing">کمپیوٹنگ…</string>
+    <string name="dialogScreenshotTitle">اسکرین شاٹ</string>
+    <string name="unitNewtonPerLb">N/lb</string>
+    <string name="pref_button_map_show_summary">نقشہ کا بٹن دکھائیں۔</string>
+    <string name="pref_speechMasterSwitch_title">فعال</string>
+    <string name="mapMarkerStart">شروع کریں۔</string>
+    <string name="navigationDestinationReached">منزل</string>
+    <string name="mapLayerTerrain">خطہ</string>
+    <string name="meterTextMin">منٹ</string>
+    <string name="summarySpecific">مخصوص</string>
+    <string name="dialogMapsLayerTraffic">ٹریفک</string>
+    <string name="pref_category_hud_title">HUD</string>
+    <string name="pref_speechCountdown_title">الٹی گنتی</string>
+    <string name="prefAutoTerrainNote1Summary">ڈیوائس کو گاڑی کے ساتھ لگانا چاہیے (مثلاً موٹر سائیکل کے ہینڈل بار پر)، اور اسے استعمال کرتے وقت ہاتھ یا جیب میں نہیں رکھنا چاہیے۔</string>
+    <string name="prefAdModes_0">کوئی بھی</string>
+    <string name="dialogTrackUploadPreparing">ٹریک ڈیٹا تیار ہو رہا ہے…</string>
+    <string name="pref_maps_offline_warning_summary">انتباہ: کچھ آن لائن ڈیٹا آف لائن موڈ میں بھی بازیافت کیا جا سکتا ہے۔ اگر آپ کا تعلق ہے تو براہ کرم نقشے استعمال کرنے سے پہلے موبائل انٹرنیٹ کو غیر فعال کر دیں۔</string>
+    <string name="infoMeterModeHeartRateMsg">دل کی دھڑکنوں کی تعداد فی منٹ۔</string>
+    <string name="summaryTotalTime">مکمل وقت</string>
+    <string name="prefUnitsEnergyEntries_0">[kcal]</string>
+    <string name="pref_maps_fences_draw_title">باڑ</string>
+    <string name="pref_category_gps_interval_title">GPS اپ ڈیٹ کا وقفہ</string>
+    <string name="dialogPowerParamsRollResist">رولنگ مزاحمتی کوف۔ (Cᵣᵣ)</string>
+    <string name="meterModeCadence">کیڈنس</string>
+    <string name="menuInsertSpeedo">سپیڈومیٹر</string>
+    <string name="summaryDeviceAutoPauseCount">خودکار توقف کی گنتی</string>
+    <string name="pref_category_effects_title">اثرات</string>
+    <string name="unitFeetsAboveGroundLevel">ft agl</string>
+    <string name="pref_screensaverEnable_title">اسکرین سیور</string>
+    <string name="profilesListProfileNotUsed">(غیر استعمال شدہ)</string>
+    <string name="speechUnitTwoKilometers">کلومیٹر</string>
+    <string name="pref_soundeffects_tally_value_summary">ہر %1$s %2$s</string>
+    <string name="menuChooseFile">فائل</string>
+    <string name="menuTracksHistoryResume">دوبارہ شروع کریں۔</string>
+    <string name="pref_units_altitude_dialog_title">اونچائی کی اکائیاں</string>
+    <string name="pref_mapsOfflineLayerButtonActionTitle">پرت کے بٹن کی کارروائی</string>
+    <string name="dialogProfileDeleteTitle">پروفائل حذف کریں۔</string>
+    <string name="pref_duck_roaring_on_bell_summary">گھنٹی بجنے پر AVAS آوازوں کا حجم کم کریں۔</string>
+    <string name="infoMeterModeGearRatioMsg">پہیے کی گردشوں کا تناسب بمقابلہ پیڈل موڑ فی ٹائم یونٹ، یعنی فرنٹ سپروکیٹ اور ریئر سپروکیٹ سائز کا تناسب۔ زیادہ نمبر کا مطلب ہے اعلی گیئر۔</string>
+    <string name="pref_haptic_feedback_title">رابطے پر ہلنا</string>
+    <string name="infoMeterModeEnergyTitle">توانائی</string>
+    <string name="meterModeCadenceShort">cad</string>
+    <string name="summaryWheelsWeightInfo">اس ٹریک پر استعمال ہونے والی گاڑی کے تمام پہیوں کے وزن کا مجموعہ۔</string>
+    <string name="summaryCadenceStrokesInfo">سرگرمی کے دوران پیڈل اسٹروک کی تعداد کا پتہ چلا۔</string>
+    <string name="pref_flashlightBlinkModeToggleEnable_title">بٹن ٹوگل</string>
+    <string name="widget_3_description">بائیکر: مکمل</string>
+    <string name="menuSpeedoIndicatorMax">اشارے زیادہ سے زیادہ</string>
+    <string name="powerSourceWeight_1">ڈرائیور</string>
+    <string name="infoAppUpdateAction">دوبارہ شروع کریں</string>
+    <string name="dialogTracksShareCountExceeded">ایک ساتھ 100 سے زیادہ ٹریکس کا اشتراک نہیں کیا جا سکتا۔</string>
+    <string name="infoMeterModeEnergyMsg">سفر کے لیے خرچ کی گئی توانائی، کارکردگی اور BMR کو مدنظر رکھتے ہوئے۔</string>
+    <string name="meterModes_23">درجہ حرارت</string>
+    <string name="speechTrackingGpsWeak">کوئی GPS نہیں ہے۔</string>
+    <string name="dialog_volume_speech_text">تقریر</string>
+    <string name="prefMapsFolderExploreSummary">فائل ایکسپلورر ایپ کے ساتھ ایپ کے لیے مخصوص نقشوں کے فولڈر کے مواد کا نظم کریں۔</string>
+    <string name="pref_soundeffects_title">فعال</string>
+    <string name="sensorMenuRemoveFromProfile">پروفائل سے ہٹا دیں۔</string>
+    <string name="menuTracksHistory">تاریخ</string>
+    <string name="pref_flashlightAutoPocketMode_summary">ضرورت نہ ہونے پر ٹارچ کو بند رکھنے کے لیے قربت کے سینسر کا استعمال کریں۔</string>
+    <string name="sensorPurposeNone">(کوئی مقصد نہیں)</string>
+    <string name="prefScreensaverTimeoutEntries_7">2 منٹ</string>
+    <string name="pref_maps_quickZoom_summary">نقشے کے نیچے والے حصے میں غیر مرئی فوری زوم بٹن کو فعال کریں۔</string>
+    <string name="pref_background_pattern_entries_3">چیتے</string>
+    <string name="pref_mapsWeatherAnimate_title">متحرک کرنا</string>
+    <string name="speechNavigationGotOffRoute">آپ راستے سے ہٹ گئے ہیں۔</string>
+    <string name="pref_app_language_summary">(تمام پروفائلز)</string>
+    <string name="toastMapClickInfo">نقشہ کے اختیارات کے لیے دیر تک تھپتھپائیں۔</string>
+    <string name="meterTextAvg">اوسط</string>
+    <string name="unitKmPerLit">کلومیٹر/L</string>
+    <string name="menuSpeedoBellButton">گھنٹی کا بٹن</string>
+    <string name="dialog_fenceguard_remove_formatText">کیا آپ باڑ کو ہٹانے کا یقین رکھتے ہیں %1$s؟</string>
+    <string name="menuMove">اقدام</string>
+    <string name="pref_autopause_modes_explanation_0">چند سیکنڈ سے زیادہ طویل تمام وقفوں کو رد کر دیں۔</string>
+    <string name="summaryWheelsWeight">پہیوں کا وزن</string>
+    <string name="infoMeterModeGearRatioTitle">گیئر کا تناسب</string>
+    <string name="sensorProperitesStrideLen">قدم کی لمبائی</string>
+    <string name="pref_app_language_translate_title">ترجمہ کرنے میں مدد کریں۔</string>
+    <string name="infoMeterModeAvgActivePowerTitle">اوسط فعال طاقت</string>
+    <string name="dialogTracksShareGeneralErrorMessage">کچھ خرابی پیش آگئی۔ دوبارہ کوشش کریں.</string>
+    <string name="pref_soundeffects_tally_ascent_title">چڑھائی</string>
+    <string name="unitW">ڈبلیو</string>
+    <string name="speechUnitOneHour">گھنٹہ</string>
+    <string name="meterModePressureShort">پریس</string>
+    <string name="prefScreenPocketModeDelayEntries_1">0.10 سیکنڈ</string>
+    <string name="dialogMapsAutoZoomSensitivity">آٹو زوم کی حساسیت</string>
+    <string name="menuInsertRecButton">ریک بٹن</string>
+    <string name="navigationAvoidMotorways">موٹر ویز سے گریز کریں۔</string>
+    <string name="menuWiden">چوڑا</string>
+    <string name="defaultProfileNameWalk">چہل قدمی 👣</string>
+    <string name="infoMeterModeDistanceOdoTitle">اوڈومیٹر</string>
+    <string name="unitMphPerSec">میل فی گھنٹہ</string>
+    <string name="pref_group_powermeter_title">طاقت اور توانائی</string>
+    <string name="unitKcal">kcal</string>
+    <string name="dataStorageInfo2">جب آپ ڈیٹا ذخیرہ کرنے کا مقام تبدیل کرتے ہیں، تو پچھلا ایپ ڈیٹا خود بخود نئے مقام پر منتقل ہو جائے گا۔ یہ پس منظر میں ہوتا ہے اور اس میں کچھ وقت لگ سکتا ہے۔
+\n
+\nرسائی کو منسوخ کرنے سے ڈیٹا برقرار رہتا ہے۔</string>
+    <string name="sensorProperitesIsInverted">رفتار اور کیڈینس کو تبدیل کریں۔</string>
+    <string name="controlPanelMapSettingsButtonTitle">نقشہ کے اختیارات</string>
+    <string name="disclaimerText2">براہ کرم اس ایپ کو سمجھداری سے استعمال کریں اور کار چلاتے وقت، موٹر سائیکل، سائیکل یا کوئی دوسری گاڑی چلاتے وقت اسے نہ چلائیں۔</string>
+    <string name="aboutScreenWarmWelcome">امید ہے کہ آپ اس ایپ سے لطف اندوز ہوں گے۔</string>
+    <string name="sensorProperitesEnableFilteringInfo">یہ سینسر ڈیٹا پر اضافی فلٹرنگ انجام دے گا، ممکنہ طور پر درستگی کو بہتر کرے گا، لیکن چند سیکنڈ کی تاخیر کا آغاز کرے گا۔ بطور ڈیفالٹ غیر فعال۔</string>
+    <string name="meterModeEfficacyShort">eff</string>
+    <string name="prefMapOfflineLayerButtonActionEntries_2">کوئی نہیں۔</string>
+    <string name="summaryLocationInterval">مقام کا وقفہ</string>
+    <string name="sensorMenuDisable">غیر فعال کریں۔</string>
+    <string name="speechIncreasing">بڑھتی ہوئی</string>
+    <string name="prefGoogleMapsRendererInfo">یہ بتاتا ہے کہ نقشے کو ظاہر کرنے کے لیے آپ کس پیش کنندہ کی قسم کو استعمال کرنا پسند کرتے ہیں۔ میراث پیش کرنے والا کم وسائل استعمال کر سکتا ہے، جبکہ تازہ ترین میں عام طور پر زیادہ خصوصیات یا بہتر ڈیزائن ہوتا ہے۔</string>
+    <string name="tracksHistoryListButtonResume">دوبارہ شروع کریں۔</string>
+    <string name="controlPanelScreenshotButtonSubtitle">اسکرین شاٹ شیئر کرنے کے لیے کلک کریں۔</string>
+    <string name="toastTrackMovingError">ٹریک کو USB اسٹوریج میں منتقل کرنے میں خرابی! دوبارہ ترتیب دینے کی کوشش کریں۔</string>
+    <string name="pref_mapsWeatherAnimateForecast_title">پیشن گوئی</string>
+    <string name="pref_gps_update_freq_entries_8">10 سیکنڈ</string>
+    <string name="dialogTracksShareTitle">پٹریوں کا اشتراک کریں۔</string>
+    <string name="valueTimesCount">×</string>
+    <string name="menuMore">مزید…</string>
+    <string name="prefProhibitLocationSummary">سرگرمی کے دوران GPS کو روکیں۔</string>
+    <string name="pref_volume_summary_text">بیل: %1$s، AVAS: %2$s، Tallies: %3$s، Effects: %4$s، Alarms: %5$s، Speech: %6$s</string>
+    <string name="prefUnitsEnergyEntries_1">[kJ]</string>
+    <string name="pref_bg_color_summary">ایپ کے پس منظر کے لیے مطلوبہ رنگ منتخب کریں۔</string>
+    <string name="infoMeterModeKineticEnergyTitle">کائنےٹک توانائی</string>
+    <string name="pref_soundeffects_tally_duration_title">دورانیہ</string>
+    <string name="menuInsertLeft">بائیں</string>
+    <string name="defaultProfileNameSki">سکی 🎿</string>
+    <string name="meterModePowerAverage">اوسط طاقت</string>
+    <string name="pref_mapsShowAttribution_title">انتساب</string>
+    <string name="dialogPowerWeightsWeightVehicle">گاڑی</string>
+    <string name="pref_ads_mode_dialog_title">اشتہارات کی قسم</string>
+    <string name="pref_category_haptic_title">ہیپٹک فیڈ بیک</string>
+    <string name="pref_units_slope_title">ڈھلوان</string>
+    <string name="pref_mapsWeatherAnimate_summary">ریڈار کے آخری 1 گھنٹے کے ڈیٹا کو متحرک کریں، تاکہ آپ کو بارش کے رجحان کو دیکھنے میں مدد ملے</string>
+    <string name="toastTrackDeleted">ٹریکس حذف کر دیے گئے۔</string>
+    <string name="meterModes_4">چڑھائی</string>
+    <string name="trackUploadActivityTypes_7">سکیٹ بورڈ</string>
+    <string name="sensorMenuDelete">بھول جاؤ</string>
+    <string name="prefSteadyScreenNote1">یہ فیچر آپ کو چلتے پھرتے اسکرین کو قدرے واضح طور پر دیکھنے میں مدد کرتا ہے۔ اسکرین پر موجود تصویر کو تیز رفتار چھوٹی حرکتیں لگا کر مستحکم کیا جاتا ہے جو بیرونی ہلنے کا مقابلہ کرنے کی کوشش کرتی ہیں۔</string>
+    <string name="powerSourceWeight_0">کل</string>
+    <string name="pref_fg_color_summary">متن اور شبیہیں کے لیے مطلوبہ رنگ منتخب کریں۔</string>
+    <string name="pref_autopause_modes_2">بند</string>
+    <string name="pref_flashlightBlinkMode_title">موڈ</string>
+    <string name="menuMeterShowIcon">آئیکن</string>
+    <string name="pref_speechTrackingStatus_title">ٹریکنگ</string>
+    <string name="pref_auto_launch_on_gps_summary">GPS سرگرمی کا پتہ چلنے پر ایپ (غیر فعال موڈ میں) لانچ کریں۔</string>
+    <string name="prefMapOfflineLayerButtonActionEntries_0">تھیم سوئچ کریں۔</string>
+    <string name="prefAdModes_3">کوئی نہیں۔</string>
+    <string name="infoMeterModeWriggleMsg">سیدھی لائن سے راستے کے انحراف کی پیمائش، یعنی یہ سیدھی لائن میں جانے کے بجائے اس علاقے کو کتنا بھرتا ہے۔ لوئر عام طور پر بہتر ہوتا ہے۔</string>
+    <string name="unitHP">HP</string>
+    <string name="pref_category_stationary_exercise_title">اسٹیشنری سرگرمی</string>
+    <string name="speechUnitTwoHours">گھنٹے</string>
+    <string name="speechAltitude">اونچائی: %1$s</string>
+    <string name="stravaTrackPrivacyInfo">ٹریک کو پہلے سے طے شدہ رازداری کا وارث ملے گا جو آپ نے Strava پر سیٹ کیا ہے۔</string>
+    <string name="pref_category_mainScreenVisualTheme">اصل پردہ</string>
+    <string name="speechUnitManyHours">گھنٹے</string>
+    <string name="unitSteps">قدم</string>
+    <string name="menuMeterMode">میٹر موڈ</string>
+    <string name="speechNavigationContinue">جاری رہے</string>
+    <string name="prefMapDiskCacheSizeEntries_4">300 MB</string>
+    <string name="dialog_track_save_text">فاصلہ %1$.3f %2$s
+\nدورانیہ %3$s
+\n( %4$s )
+\n
+\nٹریک بہت چھوٹا لگتا ہے۔ اس ٹریک کو محفوظ کریں؟</string>
+    <string name="pref_background_pattern_entries_4">اینٹ</string>
+    <string name="pref_bell_shake_title">بجنے کے لیے ہلائیں۔</string>
+    <string name="sensorPurposePower">طاقت</string>
+    <string name="pref_mapsWeatherCoverage_title">کوریج ماسک</string>
+    <string name="dataStorageTransferInfoDuration">دورانیہ: %1$s</string>
+    <string name="summaryInaccurateLocationZoneCountInfo">جتنی بار ایپ نے لوکیشن اپ ڈیٹس کو ان کی غلطی کی وجہ سے مسترد کرنا شروع کیا۔
+\n
+\nنوٹ کریں، وہ علاقے جہاں مقام کی کوئی تازہ کاری بالکل بھی نہیں ہے (مثلاً گھر کے اندر) اس نمبر کو متاثر نہیں کرتے ہیں۔</string>
+    <string name="sensorPurposeDistance">فاصلے</string>
+    <string name="unitPerMinute">/منٹ</string>
+    <string name="infoMeterModeVerticalPowerMsg">چڑھتے یا اترتے وقت طاقت کا نقصان یا فائدہ۔
+\n
+\nمنفی کا مطلب ہے طاقت حاصل کرنا (نزول)۔
+\n
+\nجب kcal/h یا kJ/h میں، یہ کارکردگی کو بھی مدنظر رکھتا ہے۔</string>
+    <string name="sensorRemoveConfirmDialogMsg">پروفائل سے ہٹائیں؟</string>
+    <string name="pref_category_maps_routes_title">گائیڈ راستوں</string>
+    <string name="prefNotificationAlwaysSummary">سسٹم اسٹیٹس بار میں ایپ نوٹیفکیشن آئیکن ہر وقت دکھائیں، نہ صرف اس وقت جب ٹریکنگ فعال ہو۔</string>
+    <string name="prefScreensaverTimeoutEntries_8">5 منٹ</string>
+    <string name="meterModes_27">قدم</string>
+    <string name="pref_flashlightBlinkModes_2">کوئی نہیں / مستحکم</string>
+    <string name="unitMegabyte">ایم بی</string>
+    <string name="infoMeterModeClockMsg">دن کا موجودہ وقت۔</string>
+    <string name="pref_screenAutoPocketMode_title">جیبی موڈ</string>
+    <string name="trackUploadActivityTypes_9">سنوبورڈ</string>
+    <string name="controlPanelSoundEffects">اثرات</string>
+    <string name="aboutScreenTranslationsText">اس ایپ کا ترجمہ کرنے اور مفت لائسنس حاصل کرنے میں مدد کریں! مزید معلومات:</string>
+    <string name="infoMeterModeVibrationsMsg">وائبریشنز جیسا کہ آلہ سے ماپا جاتا ہے۔ اس وقت کارآمد ہوتا ہے جب آلہ کسی گاڑی کے ساتھ لگا ہوا ہو (جیسے موٹر سائیکل کے ہینڈل بار پر)، نہ کہ ہاتھ میں یا جیب میں۔</string>
+    <string name="prefUnitsPowerEntries_2">[kcal/h]</string>
+    <string name="prefScreensaverTimeoutEntries_1">10 سیکنڈ</string>
+    <string name="dialogCustomTracksFolderInfoMessage">یہ فیچر ایپ کو مین ٹریکس فولڈر کے علاوہ آپ کی پسند کے فولڈر سے ٹریکس پڑھنے کی اجازت دیتا ہے — جس کا مقام حال ہی میں تبدیل ہوا ہے۔
+\n
+\nایسے ٹریکس صرف پڑھنے کے لیے ہیں: انہیں دیکھا اور شیئر کیا جا سکتا ہے، لیکن ان میں ترمیم، دوبارہ شروع یا حذف نہیں کیا جا سکتا ہے۔</string>
+    <string name="pref_roarConstantModeButton_title">بٹن ٹوگل</string>
+    <string name="prefScreensaverDimBrightnessEntries_0">کم از کم</string>
+    <string name="toastTrackResumed">ٹریک دوبارہ شروع ہوا۔</string>
+    <string name="infoMeterModeDescentTitle">نزول</string>
+    <string name="pref_units_power_dialog_title">کل پاور یونٹس</string>
+    <string name="buttonShow">دکھائیں۔</string>
+    <string name="meterModes_5">نزول</string>
+    <string name="pref_gps_boost_modes_1">اسکرین آن</string>
+    <string name="menuReset">دوبارہ ترتیب دیں۔</string>
+    <string name="menuMeterStart">شروع کریں۔</string>
+    <string name="prefGnssAutomaticSleepTitle">GPS آٹو نیند</string>
+    <string name="toastScreensaverModeActive">اسکرین سیور موڈ فعال ہے۔</string>
+    <string name="unitPerHundredKm">/100 کلومیٹر</string>
+    <string name="meterModes_28">سٹیپ کیڈنس</string>
+    <string name="infoMeterModePressureMsg">محیطی دباؤ جیسا کہ آلہ یا بیرونی سینسر سے ماپا جاتا ہے۔</string>
+    <string name="controlPanelMapHideButtonTitle">نقشہ چھپائیں۔</string>
+    <string name="prefMapGuideRouteColorTitle">گائیڈ روٹ کا رنگ</string>
+    <string name="dialogGpsIntervalLabelMore">◀
+\nزیادہ درستگی، زیادہ بیٹری استعمال کرتی ہے۔</string>
+    <string name="dialogTracksDeleteTitle">پٹریوں کو حذف کریں۔</string>
+    <string name="summaryRollResistCoefInfo">رولنگ ریزسٹنس گتانک۔</string>
+    <string name="pref_gps_update_freq_entries_0">تیز ترین</string>
+    <string name="menuExpand">پھیلائیں۔</string>
+    <string name="pref_roar_threshold_speed_info">AVAS صرف اس وقت آواز دے گا جب حد کی رفتار سے زیادہ تیز ہو گا۔ مفید مثلاً نیچے کی طرف</string>
+    <string name="pref_units_power_title">طاقت (کل)</string>
+    <string name="prefScreensaverTimeoutEntries_2">15 سیکنڈ</string>
+    <string name="roarModeConstant">const</string>
+    <string name="prefUnitsPowerEntries_0">[ڈبلیو]</string>
+    <string name="speechUnitManyFeets">پاؤں</string>
+    <string name="unitM">m</string>
+    <string name="sensorsSectionUnsupported">غیر تعاون یافتہ</string>
+    <string name="infoMeterModeVibrationsTitle">وائبریشنز</string>
+    <string name="dialogMapsHighResolution">ہیلو ریز نقشہ</string>
+    <string name="dialogOfflineMapsFolderCopyMessage">منتخب کردہ مواد کو استعمال کرنے کے لیے ایپ کے لیے مخصوص نقشوں کے فولڈر میں کاپی کرنا ضروری ہے۔
+\n
+\nاب یہ کرو؟</string>
+    <string name="pref_maps_offline_info_summary">Mapsforge vector (.map) اور Rmaps raster (.sqlitedb) نقشے تعاون یافتہ ہیں۔ download.mapsforge.org پر دستیاب ہے۔</string>
+    <string name="speechUnitOneMeter">میٹر</string>
+    <string name="pref_audio_force_loudspeaker_title">لاؤڈ اسپیکر پر زور دیں۔</string>
+    <string name="speechUnitThreeMeters">میٹر</string>
+    <string name="navigationRouteTooLong">معذرت، یہ منزل بہت دور ہے۔</string>
+    <string name="pref_soundeffects_alarm_gpsPause_summary">ٹریکنگ موقوف ہونے کے دوران اہم حرکت کا پتہ چلنے پر الارم بجتا ہے۔</string>
+    <string name="controlPanelLocationButton">مقام</string>
+    <string name="pref_group_flashlight_title">ٹارچ</string>
+    <string name="licenseDialogMapsTab">نقشے</string>
+    <string name="pref_screenAutoPocketModeDelay_title">تاخیر</string>
+    <string name="dialogTrackResumeWaitMessage">دوبارہ شروع ہو رہا ہے، براہ کرم انتظار کریں…</string>
+    <string name="unitKg">کلو</string>
+    <string name="dialogFencesEdit">باڑ میں ترمیم کریں۔</string>
+    <string name="controlPanelMapShowButtonSubtitle">نقشہ دکھانے کے لیے کلک کریں۔</string>
+    <string name="dialog_volume_bell_text">گھنٹی</string>
+    <string name="toastGpsIntervalAdaptiveActive">انکولی اپ ڈیٹ وقفہ فعال ہے۔</string>
+    <string name="unitKmhPerSec">کلومیٹر فی سیکنڈ</string>
+    <string name="summaryEndedDatetime">ختم ہوا۔</string>
+    <string name="pref_maps_animate_title">حرکت پذیری</string>
+    <string name="unitTimeHrMinSec">h:m:s</string>
+    <string name="sensorPurposeCadence">کیڈینس</string>
+    <string name="summaryRollResistCoefAverage">رول مزاحم coef. اوسط</string>
+    <string name="pref_mapsFollowAutoZoomMode_summary">موجودہ رفتار کی بنیاد پر نقشہ زوم کی سطح کو ایڈجسٹ کریں۔</string>
+    <string name="infoMeterModeSlopeTitle">ڈھلوان</string>
+    <string name="dialogLayoutsInfoMessage">پہلے سے طے شدہ ترتیب کے سیٹ سے ڈسپلے لے آؤٹ کو تیزی سے تبدیل کریں۔
+\n
+\nپھر پاپ اپ مینو کے ذریعے ڈسپلے کو مزید اپنی مرضی کے مطابق بنانے کے لیے کسی بھی فیلڈ پر طویل کلک کریں۔
+\n
+\nپورٹریٹ اور زمین کی تزئین کی سکرین کی واقفیت مکمل طور پر آزاد ترتیب رکھتی ہے۔</string>
+    <string name="pref_hud_axis_title">HUD آئینے کا محور</string>
+    <string name="notificationTitleAdvancedPaused">موقوف: %1$s</string>
+    <string name="pref_soundeffects_countdown_summary">ٹریک کو دوبارہ شروع کرنے سے پہلے الٹی گنتی پر آواز (…3, 2, 1, GO!)</string>
+    <string name="cancel">منسوخ کریں۔</string>
+    <string name="pref_speedo_display_mode_entries_2">ڈیجیٹل</string>
+    <string name="pref_group_maps_title">نقشے</string>
+    <string name="toastProfilesListProfileDeleted">پروفائل کو حذف کر دیا گیا ہے۔</string>
+    <string name="prefMapDiskCacheAgeEntries_4">30 دن</string>
+    <string name="prefScreenPocketModeDelayEntries_5">0.50 سیکنڈ</string>
+    <string name="sensorFilterInterval_0">3 سیکنڈ (پہلے سے طے شدہ)</string>
+    <string name="pref_maps_offline_terrain_title">رینڈر خطہ</string>
+    <string name="menuClose">بند کریں</string>
+    <string name="infoMeterModeVerticalPowerTitle">عمودی طاقت</string>
+    <string name="dialogMapsShowHeatmap">حرارت کا نقشہ</string>
+    <string name="infoMeterModeEfficacyMsg">خرچ کی جانے والی توانائی کا وہ حصہ جو اوسط رفتار کے برابر مستقل رفتار سے آگے بڑھ کر ایک ہی سفر کرنے کے لیے کافی ہوگا۔ زیادہ بہتر ہے۔</string>
+    <string name="meterModes_2">رفتار</string>
+    <string name="infoContentSize">مواد کا سائز: %1$d MB</string>
+    <string name="toastSharingPermissionsError">پوسٹ کرنے میں خرابی، براہ کرم اجازتیں چیک کریں۔</string>
+    <string name="pref_soundeffects_tally_duration_dialog_title">دورانیہ کی تعداد</string>
+    <string name="buttonProceed">آگے بڑھو</string>
+    <string name="pref_roar_threshold_speed_title">حد کی رفتار</string>
+    <string name="speechUnitManyMiles">میل</string>
+    <string name="meterTextMax">زیادہ سے زیادہ</string>
+    <string name="meterModeEnergy">توانائی</string>
+    <string name="pref_category_visualThemeAuto">خودکار تھیم</string>
+    <string name="pref_track_charts_title">چارٹ کی اقسام…</string>
+    <string name="pref_locationProvider_modes_1">گوگل پلے سروسز</string>
+    <string name="meterModes_26">کائنےٹک توانائی</string>
+    <string name="pref_soundeffects_gps_signal_title">GPS</string>
+    <string name="prefMapsFolderExploreTitle">نقشے کا فولڈر دریافت کریں۔</string>
+    <string name="dialog_volume_alarms_text">الارم</string>
+    <string name="pref_button_menu_show_title">مینو</string>
+    <string name="menuRemove">دور</string>
+    <string name="mapMarkerMyLocation">میرا مقام</string>
+    <string name="aboutScreenFacebookLink">فیس بک پر اربن بائیکر</string>
+    <string name="infoMeterModeTemperatureMsg">محیطی درجہ حرارت جیسا کہ آلہ یا بیرونی سینسر سے ماپا جاتا ہے۔</string>
+    <string name="infoMeterModePressureTitle">دباؤ</string>
+    <string name="share_title">کے ذریعے بھیجیں۔</string>
+    <string name="tracksHistoryListButtonUpload">اپ لوڈ کریں۔</string>
+    <string name="sensorsTitle">سینسر</string>
+    <string name="dialogProfileSwitchTitle">پروفائل سوئچ کریں۔</string>
+    <string name="ultimateLicenseTitle">الٹیمیٹ لائسنس</string>
+    <string name="dialogSliderMore">▶</string>
+    <string name="sensorStepLengthNotSetWarning">مرحلہ کی لمبائی مقرر نہیں کی گئی ہے۔</string>
+    <string name="unitLb">lb</string>
+    <string name="tracksHistoryListShareTrackDialogTitle">ٹریک کا اشتراک کریں…</string>
+    <string name="meterModes_31">نمی</string>
+    <string name="dialogTrackUploadUpdateButton">اپ ڈیٹ</string>
+    <string name="prefSteadyScreenImplementationExternalInfo">اس کے کام کرنے کے لیے ایک علیحدہ ایپ انسٹال کرنا ضروری ہے۔ سایڈست.</string>
+    <string name="pref_mapsLayerTraffic_summary">ریئل ٹائم ٹریفک کی معلومات دکھائیں۔</string>
+    <string name="meterModePaceShort">رفتار</string>
+    <string name="pref_bell_mode_entries_1">انگوٹھی</string>
+    <string name="pref_category_colors_dark_title">ڈارک تھیم</string>
+    <string name="pref_roaring_type_dialog_title">AVAS قسم</string>
+    <string name="pref_screen_keep_on_summary">ایپ کے استعمال کے دوران اسکرین آن رہے گی۔</string>
+    <string name="pref_speedo_display_mode_entries_1">گرافک</string>
+    <string name="pref_track_charts_summary">ہر ٹریک کے ساتھ چارٹ کے طور پر محفوظ کیے جانے کے لیے مختلف سرگرمی کے پیرامیٹرز کا انتخاب کریں۔ رفتار اور اونچائی کا ڈیٹا ہمیشہ محفوظ کیا جاتا ہے۔</string>
+    <string name="infoMeterModeStepCadenceMsg">فی منٹ قدموں کی تعداد۔</string>
+    <string name="toastMapLayerTrafficOn">ٹریفک آن</string>
+    <string name="speechUnitThreeKilometers">کلومیٹر</string>
+    <string name="menuShowTotals">ٹوٹل دکھائیں۔</string>
+    <string name="cloudAccountsTitle">اکاؤنٹس</string>
+    <string name="pref_maps_offline_terrain_usage_summary">استعمال: ڈاؤن لوڈ کردہ زپ (زپ) سے .hgt فائلیں نکالیں اور انہیں اسی فولڈر میں رکھیں جہاں آف لائن میپ فائل رہتی ہے (الگ سب فولڈر استعمال نہ کریں)۔</string>
+    <string name="toastTrackResumeGpsActiveError">براہ کرم پہلے GPS کو بند یا موقوف کریں۔</string>
+    <string name="prefGpsIntervalAdaptiveNote">موافقت پذیر اپ ڈیٹ وقفے آہستہ آہستہ حرکت کرنے یا بار بار وقفے لینے پر بیٹری کی کھپت کو کم کرنے میں مدد کر سکتے ہیں۔</string>
+    <string name="pref_wakelock_modes_0">خودکار (پہلے سے طے شدہ)</string>
+    <string name="prefScreensaverTimeoutEntries_6">1 منٹ</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">ٹارگٹ پروفائل %1$s خالی نہیں ہے۔ براہ کرم پہلے دوبارہ ترتیب دیں۔</string>
+    <string name="summaryDeviceAutoPauseCountInfo">اس سرگرمی کے دوران خودکار توقف کو چالو کرنے کی تعداد۔</string>
+    <string name="pref_relaunchAfterReboot_summary">(تمام پروفائلز) جبری ڈیوائس ریبوٹ کے بعد ٹریکنگ دوبارہ شروع کریں، اگر بیٹری 10% یا اس سے زیادہ ہو</string>
+    <string name="prefProhibitLocationAlertInfo">سرگرمی کے دوران مقام کو کبھی آن نہیں کیا جائے گا اور نہ ہی استعمال کیا جائے گا، لہذا نقشہ دستیاب نہیں ہوگا۔
+\n
+\nڈیٹا کو خصوصی طور پر دوسرے سینسر سے حاصل کیا جائے گا جہاں دستیاب ہوں (طاقت، رفتار، کیڈینس، دل کی شرح، قدم، ماحول)۔</string>
+    <string name="pref_soundeffects_alarm_title">فعال</string>
+    <string name="prefNoSoundInsideFenceTitle">باڑ کے اندر کوئی آواز نہیں ہے۔</string>
+    <string name="speechUnitFourLitersOfGasoline">لیٹر پٹرول</string>
+    <string name="prefMapOnlineModeEntries_0">آن لائن</string>
+    <string name="menuMeterStop">رک جاؤ</string>
+    <string name="pref_soundsMasterSwitch_title">تمام آوازیں۔</string>
+    <string name="meterModes_9">طاقت</string>
+    <string name="summaryCadenceStrokes">پیڈل اسٹروک</string>
+    <string name="prefUnitsEnergyEntries_3">پٹرول کا لیٹر</string>
+    <string name="pref_gps_update_freq_entries_7">5 سیکنڈ</string>
+    <string name="dialog_default_map_track_colors_title">نقشہ ٹریک رنگ</string>
+    <string name="prefMapDiskCacheSizeEntries_2">100 MB (پہلے سے طے شدہ)</string>
+    <string name="pref_gps_boost_modes_explanation_2">کبھی بھی بار بار GPS اپ ڈیٹس پر مجبور نہ کریں۔</string>
+    <string name="dialog_volume_roaring_text">اے وی اے ایس</string>
+    <string name="speechDecreasing">گرانا</string>
+    <string name="dialogGpsIntervalTitle">GPS اپ ڈیٹ کا وقفہ</string>
+    <string name="powerSourceWeightTitle">طاقت کا منبع وزن</string>
+    <string name="toastFenceGuardFenceRemovingError">FenceGuard: باڑ ہٹانے میں خرابی۔</string>
+    <string name="subscriptionPer6m">%1$s 6 ماہ میں ایک بار بل کیا جاتا ہے۔</string>
+    <string name="pref_soundeffects_autopause_title">آٹو توقف</string>
+    <string name="prefMapDiskCacheSizeEntries_6">500 MB</string>
+    <string name="pref_mapsWeatherAnimateForecast_summary">مختلف رنگوں میں 30 منٹ کی ریڈار پیشن گوئی کو بھی متحرک کریں۔</string>
+    <string name="menuBell">گھنٹی</string>
+    <string name="unitFeetPerMin">فٹ/منٹ</string>
+    <string name="pref_units_speed_entries_1">امپیریل [میل فی گھنٹہ]</string>
+    <string name="menuInsertRight">ٹھیک ہے۔</string>
+    <string name="dialogFencesRemove">باڑ کو ہٹا دیں۔</string>
+    <string name="pref_wakelock_modes_explanation_2">مقام کی تازہ کاریوں کے درمیان CPU کو سونے کی اجازت دیں۔ کم بیٹری استعمال کر سکتا ہے، لیکن غیر معمولی موقع پر اپ ڈیٹ کو چھوڑ سکتا ہے۔</string>
+    <string name="dialog_fenceguard_add_entries_0">باڑ شامل کریں۔</string>
+    <string name="unitJoulePerHour">J/h</string>
+    <string name="pref_energy_params_title">توانائی کے پیرامیٹرز</string>
+    <string name="prefOnlineElevationSummary">اونچائی کی بنیادی لائن کی درستگی کو بڑھانے کے لیے انٹرنیٹ سے بلندی کا ڈیٹا استعمال کریں۔ بطور ڈیفالٹ فعال۔</string>
+    <string name="pref_bell_mode_entries_0">ڈنگ</string>
+    <string name="dialogBaroAltitudeNoticeTitle">نوٹس</string>
+    <string name="menuSpeedoScale">پیمانہ</string>
+    <string name="infoMeterModeSlopeMsg">ڈھلوان (گریڈینٹ)، ایک عدد جو خطوں کے جھکاؤ کو بیان کرتا ہے جہاں صفر افقی ہوتا ہے۔ زیادہ نمبر کا مطلب ہے تیز چڑھائی، اور منفی نزول کے لیے ہے۔</string>
+    <string name="menuSelect">منتخب کریں۔</string>
+    <string name="dialogThermoBarometerNoticeMessage">تھرمو بیرومیٹر درستگی کے لیے بیرونی ہوا کے درجہ حرارت پر منحصر ہے۔
+\n
+\nبراہ کرم اسے بند یا ایئر کنڈیشنڈ جگہوں جیسے کچھ گاڑیوں اور ہوائی جہازوں میں استعمال نہ کریں۔</string>
+    <string name="menuLayout">ترتیب</string>
+    <string name="pref_category_tracking_charts_title">چارٹس</string>
+    <string name="sensorProperitesIsAutoPerimeter">خودکار</string>
+    <string name="dialogMapsAutoRotate">خود بخود گھومنا</string>
+    <string name="cloudAccountsInfo">کلاؤڈ سروس سے جڑنا آپ کے لیے اپنے ٹریک کو اپ لوڈ کرنا اور دوسروں کے ساتھ شیئر کرنا آسان بناتا ہے۔
+\n
+\nہم آپ کی اجازت کے بغیر کبھی بھی کچھ پوسٹ نہیں کریں گے۔</string>
+    <string name="trackUploadDescriptionDefault">اربن بائیکر موبائل ایپ کا استعمال کرتے ہوئے ٹریک کیا گیا۔</string>
+    <string name="pref_units_other_entries_0">میٹرک</string>
+    <string name="pref_roaring_mode_entries_1">آٹو ریٹ</string>
+    <string name="prefScreensaverTimeoutEntries_3">20 سیکنڈ (پہلے سے طے شدہ)</string>
+    <string name="pref_mapsFollowAutoZoomSensitivity_info">آپ ٹریکنگ کے دوران زوم ان یا آؤٹ کرکے پرواز پر آٹو زوم حساسیت کو ایڈجسٹ کرسکتے ہیں</string>
+    <string name="menuSpeedoAppearance">ظہور</string>
+    <string name="dialogChartDataTypesTitle">چارٹ کی اقسام</string>
+    <string name="toastProfilesListNonemptyDelete">حذف نہیں کیا جا سکتا — پروفائل میں کچھ غیر محفوظ کردہ ڈیٹا ہے! براہ کرم پہلے ختم کریں۔</string>
+    <string name="pref_category_flashlightBlinkMode_title">ٹمٹماہٹ</string>
+    <string name="pref_soundeffects_gps_signal_summary">GPS کی حیثیت کی تبدیلی پر آواز (اچھی، بری)</string>
+    <string name="meterModeHumidityShort">ہم</string>
+    <string name="mapPlaceSearch">کہاں؟</string>
+    <string name="summaryDragAreaInfo">ایئر ڈریگ ایریا (Cd·A)۔</string>
+    <string name="toastUpdatingSuccess">کامیابی کے ساتھ اپ ڈیٹ ہو گیا۔</string>
+    <string name="pref_hud_axis_entries_1">الٹا — زیادہ عملی ڈیوائس ہینڈلنگ</string>
+    <string name="meterModes_6">ڈھلوان</string>
+    <string name="ultimateLicenseFeatures">✔️ تمام پریمیم نقشے۔
+\n✔️ نیویگیشن
+\n✔️ آن لائن اونچائی کی بنیادی لائن
+\n✔️ کوئی اشتہار نہیں۔
+\n✔️ تمام مفت خصوصیات اور نقشے</string>
+    <string name="sensorRemovedMsg">پروفائل سے سینسر ہٹا دیا گیا۔</string>
+    <string name="prefSteadyScreenModeOn">فعال</string>
+    <string name="prefMapDiskCacheSizeEntries_7">1 جی بی</string>
+    <string name="sensorPurposeDuration">دورانیہ</string>
+    <string name="prefAutoTerrainSummary">کمپیوٹنگ کی پیمائش کرکے خطوں کی کھردری کا احساس کریں، اور پاور کمپیوٹنگ کرتے وقت اس کے مطابق رولنگ ریزسٹنس گتانک (Cᵣᵣ) کو ایڈجسٹ کریں۔</string>
+    <string name="meterModeStepCountShort">قدم</string>
+    <string name="menuSelectMode">منتخب کریں۔</string>
+    <string name="dialogMapsDownloadTitle">آف لائن نقشے ڈاؤن لوڈ کریں۔</string>
+    <string name="sensorProperitesIsAutoStrideLen">خودکار</string>
+    <string name="sensorPurposeSteps">قدم</string>
+    <string name="pref_bell_mode_dialog_title">گھنٹی کی قسم</string>
+    <string name="pref_maps_routes_draw_title">گائیڈ راستوں</string>
+    <string name="tracksHistoryListTitle">تاریخ کو ٹریک کرتا ہے۔</string>
+    <string name="pref_mapsLayerHeatmap_summary">گزشتہ سال کی مجموعی عوامی سرگرمیاں دکھائیں (اسٹروا سے)</string>
+    <string name="pref_category_general_title">جنرل</string>
+    <string name="speechUnitOneKilometer">کلومیٹر</string>
+    <string name="infoMeterModeStepCountTitle">قدم</string>
+    <string name="prefScreenPocketModeDelayEntries_7">1 سیکنڈ</string>
+    <string name="pref_speechProfileName_summary">(تمام پروفائلز) پروفائل سوئچ پر پروفائل کا نام بولیں۔</string>
+    <string name="dataStorageNotSetMessage">ڈیٹا اسٹوریج کا مقام سیٹ نہیں ہے، براہ کرم اوپر والا بٹن استعمال کریں۔
+\n
+\nایپ فی الحال ٹریکس اور ڈیٹا کے لیے ڈیفالٹ فولڈر استعمال کر رہی ہے۔</string>
+    <string name="tracksHistoryDataStorageLink">انتباہ: ایپ ٹریکس اور ڈیٹا کے لیے ڈیفالٹ فولڈر استعمال کر رہی ہے۔ تبدیل کرنے کے لیے یہاں کلک کریں۔</string>
+    <string name="summaryEfficiencyInfo">ٹریک کے پاور ہاؤس کی مجموعی تھرمل کارکردگی۔</string>
+    <string name="dialogMapsAutoZoom">آٹو زوم</string>
+    <string name="tracksHistoryListNoMap">نقشہ ریکارڈ نہیں کیا گیا۔</string>
+    <string name="pref_roaring_type_entries_3">الیکٹرک گاڑی</string>
+    <string name="pref_soundeffects_navigation_title">سمت شناسی</string>
+    <string name="menuMeterResume">دوبارہ شروع کریں۔</string>
+    <string name="dialogLayoutChooseSubtitle">ڈسپلے لے آؤٹ کا انتخاب کریں۔</string>
+    <string name="pref_gps_boost_modes_explanation_1">جب اسکرین آن ہو تو بار بار GPS اپ ڈیٹس پر مجبور کریں۔</string>
+    <string name="menuSelectAll">تمام منتخب کریں</string>
+    <string name="pref_category_units_common_title">پیمائش کی اکائیاں (تمام پروفائلز)</string>
+    <string name="unitTimeMinute">منٹ</string>
+    <string name="pref_ring_on_stop_summary">جب رفتار بھی صفر ہو جائے تو خودکار گھنٹی بجائیں۔</string>
+    <string name="controlPanelSoundSpeech">تقریر</string>
+    <string name="summaryBasalEnergyInfo">توانائی کا فیصد جو بیسل میٹابولزم کے لیے استعمال کیا گیا تھا۔</string>
+    <string name="toastLocationUnavailable">آپ کا مقام اب بھی دستیاب نہیں ہے۔</string>
+    <string name="menuDataStorage">ڈیٹا ذخیرہ کرنے کا مقام</string>
+    <string name="meterModeBattery">بیٹری</string>
+    <string name="unitWKg">W/kg</string>
+    <string name="navigationRerouteCmd">ری روٹ کرنے کے لیے کلک کریں۔</string>
+    <string name="toastFlashlightButtonClickInfo">ٹارچ کو ٹوگل کرنے کے لیے لانگ کلک کریں۔</string>
+    <string name="infoMeterModeBatteryTitle">بیٹری</string>
+    <string name="pref_bell_shake_summary">گھنٹی بجنے کے لیے آلے کو ہلائیں۔</string>
+    <string name="meterModeTemperature">درجہ حرارت</string>
+    <string name="meterModes_30">رداس</string>
+    <string name="tracksHistoryListButtonView">دیکھیں</string>
+    <string name="tracksHistoryChartEmptyInfo">دکھانے کے لیے کچھ نہیں۔</string>
+    <string name="dialogSliderLess">◀</string>
+    <string name="prefScreenPocketModeDelayEntries_2">0.20 سیکنڈ</string>
+    <string name="menuInsert">داخل کریں</string>
+    <string name="defaultProfileNameScooter">سکوٹر 🛴</string>
+    <string name="pref_soundeffects_tally_steps_dialog_title">قدموں کی تعداد</string>
+    <string name="pref_category_cloudAccounts_title">اکاؤنٹس</string>
+    <string name="sensorStatusConnected">جڑا ہوا</string>
+    <string name="cloudAccountsPowerUploadPolicy_0">ہمیشہ (پہلے سے طے شدہ)</string>
+    <string name="pref_speechTallies_summary">اونچی اونچی باتیں کریں۔</string>
+    <string name="dialogMapsShowFences">باڑ</string>
+    <string name="pref_app_language_dialog_title">زبان</string>
+    <string name="menuShare">بانٹیں</string>
+    <string name="infoMeterModeTemperatureTitle">درجہ حرارت</string>
+    <string name="pref_soundeffects_tally_radius_title">رداس</string>
+    <string name="infoMeterModeAscentMsg">مجموعی اونچائی میں اضافہ (چڑھنا)۔</string>
+    <string name="sensorMenuEnable">فعال</string>
+    <string name="rewardedAdPriceFree">مفت (اس سیشن کے لیے درست)</string>
+    <string name="infoMeterModeBatteryMsg">اس اینڈرائیڈ ڈیوائس کی بیٹری لیول۔</string>
+    <string name="infoAutopauseForcedRelaxed">نوٹ: آٹو توقف کو آرام کرنے پر مجبور کیا گیا۔</string>
+    <string name="menuMeterLockAll">سب کو لاک کریں۔</string>
+    <string name="speechUnitThreeLitersOfGasoline">لیٹر پٹرول</string>
+    <string name="unitKjLb">kJ/lb</string>
+    <string name="pref_ads_mode_title">اشتہارات دکھائیں۔</string>
+    <string name="pref_speechAutoPause_title">آٹو توقف</string>
+    <string name="pref_speechTrackingStatus_summary">ٹریکنگ شروع ہونے، رک جانے اور موقوف ہونے پر بولیں۔</string>
+    <string name="pref_category_meters_title">میٹر</string>
+    <string name="pref_category_colors_light_title">ہلکی تھیم</string>
+    <string name="summaryBasal">بیسال</string>
+    <string name="pref_screen_allow_off_inactive_title">غیر فعال ہونے پر اجازت دیں۔</string>
+    <string name="summaryActivePower">فعال طاقت</string>
+    <string name="cautionTitle">احتیاط</string>
+    <string name="speechUnitManyMinutes">منٹس</string>
+    <string name="menuSummary">جائزہ</string>
+    <string name="toastAutoBellButtonClickInfo">آٹو گھنٹی کی آواز کو ٹوگل کرنے کے لیے دیر تک کلک کریں۔</string>
+    <string name="pref_maps_track_draw_summary">نقشے پر اپنی نقل و حرکت کا خاکہ بنائیں</string>
+    <string name="pref_text_max">زیادہ سے زیادہ</string>
+    <string name="powerSourceWeight_2">گاڑی</string>
+    <string name="unitJoule">جے</string>
+    <string name="sensorProperitesStrideLenNotSet">سیٹ نہیں ہے</string>
+    <string name="pref_gps_update_freq_entries_4">2 سیکنڈ</string>
+    <string name="dialogTrackUploadWaitTitle">برائے مہربانی انتظار کریں</string>
+    <string name="settingsTitle">ترتیبات</string>
+    <string name="tracksHistoryListViewTrackDialogTitle">اس کے ساتھ ٹریک دیکھیں…</string>
+    <string name="navigationHidePrompt">چھپائیں</string>
+    <string name="dialogCameraPermissionRequest">اجازت درکار ہے تاکہ ایپ ٹارچ کو چالو کر سکے۔</string>
+    <string name="dataStorageTransferRetrying">ناکام — جلد ہی دوبارہ کوشش کریں گے۔</string>
+    <string name="speechUnitTwoLitersOfGasoline">لیٹر پٹرول</string>
+    <string name="pref_group_activityRecognition_title">سرگرمی کی شناخت</string>
+    <string name="pref_roaring_mode_entries_3">حرکت کرتے وقت مستقل</string>
+    <string name="toastScreenWavingModeActive">لہرانے کا موڈ فعال ہے۔</string>
+    <string name="toastSensorDisabled">سینسر غیر فعال ہے۔</string>
+    <string name="pref_mapsWeatherPrecipitationRadar_info">ریڈار ڈیٹا انٹرنیٹ سے ڈاؤن لوڈ کیا جاتا ہے، یہاں تک کہ جب آف لائن نقشے استعمال کیے جاتے ہیں۔ یہ ہر 10 منٹ بعد خود بخود تازہ ہوجاتا ہے جب کہ نقشہ نظر آتا ہے۔ ڈیٹا کا ذریعہ RainViewer.com ہے۔</string>
+    <string name="meterModeElapsedTime">گزر گیا</string>
+    <string name="trackUploadActivityTypes_6">بادبان</string>
+    <string name="locale">en</string>
+    <string name="pref_bell_mode_entries_2">ہارن</string>
+    <string name="pref_text_off">بند</string>
+    <string name="pref_category_speech_title">تقریر</string>
+    <string name="menuProfiles">پروفائلز</string>
+    <string name="controlPanelMapShowButtonTitle">نقشہ دکھائیں۔</string>
+    <string name="dialogMapsDownloadText">ڈاؤن لوڈز کا ویب صفحہ ابھی کھولیں؟</string>
+    <string name="menuSpeedoValue">قدر</string>
+    <string name="summaryMechWork">میچ کام</string>
+    <string name="meterModes_1">فاصلے</string>
+    <string name="dialogTrackEditTitleHint">عنوان</string>
+    <string name="menuRefresh">ریفریش کریں۔</string>
+    <string name="subscriptionPer3m">%1$s 3 ماہ میں ایک بار بل کیا جاتا ہے۔</string>
+    <string name="toastMapFollowingOn">پر عمل کریں</string>
+    <string name="summaryClimbing">چڑھنا</string>
+    <string name="menuAdvanced">اعلی درجے کی</string>
+    <string name="unitPerHundredMi">/100mi</string>
+    <string name="meterModeAltitudeDescent">نزول</string>
+    <string name="loading">لوڈ ہو رہا ہے…</string>
+    <string name="prefTrackingButtonFreePlacementSummary">(تمام پروفائلز) Rec بٹن کو لے آؤٹ میں کہیں بھی رکھنے کی اجازت دیتا ہے۔ غیر فعال ہونے پر، Rec بٹن بٹن بار پر ٹھیک ہو جائے گا۔</string>
+    <string name="dialogTrackEditNotesHint">نوٹس</string>
+    <string name="sensorProperitesWheelPerimeterNotSet">سیٹ نہیں ہے</string>
+    <string name="unitMinPerKm">منٹ/کلومیٹر</string>
+    <string name="meterModeAccelerationShort">acc</string>
+    <string name="pref_screensaverTimeout_title">وقت ختم</string>
+    <string name="prefScreensaverTimeoutEntries_5">45 سیکنڈ</string>
+    <string name="pref_maps_animate_summary">بیٹری کے استعمال کو کم کرنے کے لیے بند کریں، خاص طور پر جب فالو موڈ آن ہو۔</string>
+    <string name="toastTrackDiscarded">ٹریک مسترد کر دیا گیا۔</string>
+    <string name="sensorsInfo">ریکارڈنگ کے فعال ہونے پر سینسر خود بخود جڑ جاتے ہیں، اور جب آپ ریکارڈنگ بند کر دیتے ہیں تو منقطع ہو جاتے ہیں۔
+\n
+\nدستی طور پر سینسر کنکشن قائم کرنا ممکن نہیں ہے۔</string>
+    <string name="dialogEnergyParamsTitle">توانائی کے پیرامیٹرز</string>
+    <string name="pref_soundeffects_proximity_title">قربت سینسر</string>
+    <string name="pref_units_distance_entries_0">میٹرک [میٹر، کلومیٹر]</string>
+    <string name="meterModeWriggleShort">wrig</string>
+    <string name="menuControlPanel">فوری ترتیبات</string>
+    <string name="pref_units_distance_title">فاصلے</string>
+    <string name="subscriptionPerMonth">%1$s /مہینہ</string>
+    <string name="sensorProperitesUseForCadence">کیڈینس کے لیے استعمال کریں۔</string>
+    <string name="infoMeterModeStepCountMsg">اٹھائے گئے اقدامات کی تعداد۔</string>
+    <string name="dialogPermissionProblemMessage">ایپ کو صحیح طریقے سے کام کرنے کے لیے یہ اجازت درکار ہے۔ اسے ایپ کی اجازت کی ترتیبات کے صفحہ میں دیا جا سکتا ہے۔
+\n
+\nاب وہاں جائیں؟</string>
+    <string name="pref_background_pattern_entries_8">شہد کا چھلا</string>
+    <string name="toastTrackSaved">ٹریک محفوظ ہو گیا۔</string>
+    <string name="infoMeterModeRadiusTitle">رداس</string>
+    <string name="prefGoogleMapsRenderer_1">میراث</string>
+    <string name="proLicenseDescription">اشتہارات کو ہٹا دیں۔</string>
+    <string name="pref_maps_quickZoomInvert_summary">زوم ان/آؤٹ بٹن پوزیشنز کا تبادلہ کریں۔</string>
+    <string name="pref_bell_shake_sensitivity_title">حساسیت ہلائیں۔</string>
+    <string name="summaryInaccurateLocationZoneCount">غلط زونز</string>
+    <string name="trackUploadActivityTypes_10">دیگر</string>
+    <string name="pref_wakelock_modes_explanation_3">سسٹم اور/یا دیگر ایپس کے ذریعے عائد کردہ رویے کی اطاعت کریں۔ انتباہ: انتہائی فاسد مقام کی تازہ کاریوں کا سبب بن سکتا ہے یا ان سب کو مسترد کر سکتا ہے۔ تجویز کردہ نہیں</string>
+    <string name="unitMetersAboveGroundLevel">m agl</string>
+    <string name="menuCenterOnMap">مرکز</string>
+    <string name="summaryAcceleratingEnergyInfo">توانائی کا فیصد جو تیز کرنے کے لیے استعمال کیا گیا تھا۔</string>
+    <string name="pref_soundeffects_tally_steps_title">قدم</string>
+    <string name="controlPanelMapSettingsButtonSubtitle">نقشہ کے اختیارات کے لیے کلک کریں۔</string>
+    <string name="pref_group_advanced_title">اعلیٰ…</string>
+    <string name="prefScreenPocketModeDelayEntries_6">0.75 سیکنڈ</string>
+    <string name="summaryDraggingEnergyInfo">اس توانائی کا فیصد جو ہوا کے گھسیٹنے کی مزاحمت پر قابو پانے کے لیے استعمال کی گئی تھی۔</string>
+    <string name="pref_roaring_mode_title">موڈ</string>
+    <string name="prefMapShowBuildingsTitle">عمارتیں دکھائیں۔</string>
+    <string name="infoAutopauseForcedOff">نوٹ: آٹو توقف کو زبردستی آف کرنا پڑا</string>
+    <string name="sensorsTabFound">ملا</string>
+    <string name="navigationWrongWay">غلط طریقہ</string>
+    <string name="menuHideTotals">ٹوٹل چھپائیں۔</string>
+    <string name="generalError">کچھ خرابی پیش آگئی۔ دوبارہ کوشش کریں.</string>
+    <string name="unitDegF">°F</string>
+    <string name="dialogActivityRecognitionPermissionRequestTitle">جسمانی سرگرمی کی اجازت</string>
+    <string name="controlPanelSoundAlarms">الارم</string>
+    <string name="pref_soundeffects_proximity_summary">قربت کا سینسر ٹرپ ہونے پر آواز پر کلک کریں۔</string>
+    <string name="pref_soundeffects_tally_descent_dialog_title">نزول کی تعداد</string>
+    <string name="pref_button_profile_show_title">پروفائل</string>
+    <string name="speechUnitManyKilometers">کلومیٹر</string>
+    <string name="controlPanelEnergyParams">پاور/توانائی کے پیرامیٹرز</string>
+    <string name="pref_category_roaringConstantMode_title">مستقل موڈ</string>
+    <string name="pref_screensaverDimBrightness_title">مدھم چمک</string>
+    <string name="manageSubscriptions">سبسکرپشنز کا نظم کریں۔</string>
+    <string name="meterModes_12">ورٹ رفتار</string>
+    <string name="summaryProfileNameInfo">اس ٹریک کو ریکارڈ کرنے کے لیے پروفائل کا استعمال کیا گیا۔</string>
+    <string name="prefTemperatureSensorDerivedTitle">اخذ کردہ سینسر استعمال کریں۔</string>
+    <string name="unitKcalH">kcal/h</string>
+    <string name="menuUpload">اپ لوڈ کریں۔</string>
+    <string name="meterModes_33">بیٹری</string>
+    <string name="pref_maps_offline_usage_summary">استعمال: اوپر دیے گئے آپشن کے ساتھ ڈاؤن لوڈ کی گئی نقشہ فائل کو منتخب کریں۔</string>
+    <string name="toastTrackingRecording">ریکارڈنگ</string>
+    <string name="summaryTotalWeightInfo">اس ٹریک کو ریکارڈ کرنے کے دوران استعمال ہونے والے تمام وزنوں کا مجموعہ (سوار، گاڑی، کارگو، …)۔</string>
+    <string name="tracksHistoryGrantAccess">لاپتہ ٹریک؟
+\nحسب ضرورت ٹریکس فولڈر تک صرف پڑھنے کے لیے رسائی فراہم کرنے کے لیے یہاں کلک کریں…</string>
+    <string name="pref_speechGnssStatus_summary">GPS اسٹیٹس کی تبدیلی پر بات کریں (اچھا، برا)</string>
+    <string name="toastProfileButtonClickInfo">پروفائل کو تبدیل کرنے کے لیے طویل کلک کریں۔</string>
+    <string name="toastTrackZippingError">ٹریک زپ کرنے میں خرابی! دوبارہ ترتیب دینے کی کوشش کریں۔</string>
+    <string name="pref_maps_offline_terrain_summary">رینڈر ٹیرین ایلیویشن شیڈز۔ نقشہ زیادہ حقیقت پسندانہ، لیکن شاید آہستہ نظر آئے گا۔ نقشہ کے فولڈر میں موجود DEM (.hgt) فائلوں کی ضرورت ہے۔</string>
+    <string name="pref_category_flashlightAutoPocketMode_title">جیبی موڈ</string>
+    <string name="meterModeHumidity">نمی</string>
+    <string name="navigationStepsInfo">آپ کے منتقل ہوتے ہی نیویگیشن کی ہدایات یہاں ظاہر ہوں گی۔ اس پینل کو اپنی مرضی کے مطابق چھپائیں یا سلائیڈ کریں۔</string>
+    <string name="summaryRolling">رول</string>
+    <string name="speechUnitTwoMeters">میٹر</string>
+    <string name="app_name">شہری بائیکر</string>
+    <string name="summaryTotalTimeInfo">اس ٹریک کے آغاز کے وقت اور اختتامی وقت کے درمیان وقت کا وقفہ۔</string>
+    <string name="sensorProperitesProfileInfo">سینسر کی خصوصیات کا انتظام فی پروفائل کیا جاتا ہے۔ یہاں پراپرٹیز کا انتظام صرف فی الحال فعال پروفائل کے لیے کیا جاتا ہے (%1$s)۔</string>
+    <string name="prefSteadyScreenImplementationExternal">بیرونی</string>
+    <string name="pref_locationProvider_modes_explanation_0">(تمام پروفائلز) براہ راست GPS سب سسٹم استعمال کریں۔ مستحکم، کم پیچیدہ ماڈل، کوئی مڈل مین نہیں۔ دوسرے فراہم کنندہ کے مقابلے میں کم وسائل بھی استعمال کر سکتے ہیں۔</string>
+    <string name="sensorProperitesTriggersCountInfo">سینسر کے ذریعے استعمال کیے جانے والے محرکات (مثلاً میگنےٹ) کی تعداد۔ بیرونی محرکات والے سینسرز میں عام طور پر ایک ہی اندرونی محرک ہوتا ہے۔</string>
+    <string name="rewardedAdLoading">اشتہار لوڈ ہو رہا ہے…</string>
+    <string name="pref_resetPrompt_title">پرامپٹ کو دوبارہ ترتیب دیں۔</string>
+    <string name="dialogProfileAddTitle">نئ پروفائل</string>
+    <string name="pref_background_pattern_entries_7">دل</string>
+    <string name="dialogMapsMapCountTwoMaps">%1$s نقشے</string>
+    <string name="pref_maps_offline_file_noFolderSelected">کوئی فولڈر منتخب نہیں کیا گیا۔</string>
+    <string name="summaryProfileName">پروفائل</string>
+    <string name="meterModes_None">کوئی نہیں۔</string>
+    <string name="pref_category_other_title">دیگر</string>
+    <string name="rewardedLicenseSuccess">لائسنس کامیابی کے ساتھ دیا گیا۔</string>
+    <string name="toastFenceGuardFenceUpdated">FenceGuard: Fence %1$s کو اپ ڈیٹ کر دیا گیا۔</string>
+    <string name="prefMapDiskCacheSizeEntries_8">2 جی بی</string>
+    <string name="menuMeterLock">تالا</string>
+    <string name="licenseUpgradeTitle">اپنا لائسنس اپ گریڈ کریں۔</string>
+    <string name="pref_category1_title">آواز</string>
+    <string name="infoMeterModePowerBalanceMsg">پاور بیلنس، کل پاور آؤٹ پٹ میں بائیں اور دائیں شراکت کے ایک حصے کے طور پر پیش کیا جاتا ہے۔</string>
+    <string name="summaryDriverWeightInfo">اس ٹریک کو ریکارڈ کرنے کے دوران استعمال ہونے والے ڈرائیور (یا سوار) کا وزن۔</string>
+    <string name="controlPanelFlashlight">ٹارچ</string>
+    <string name="pref_group_units_title">یونٹس</string>
+    <string name="prefUnitsEnergyEntries_2">[kWh]</string>
+    <string name="pref_roaring_mode_entries_2">آٹو والیوم</string>
+    <string name="pref_roaring_type_entries_2">ہیلی کاپٹر</string>
+    <string name="freeLicenseLabel">مفت</string>
+    <string name="prefAppVisualThemeDialogTitle">ایپ بصری تھیم</string>
+    <string name="pref_bg_color_title">پس منظر کا رنگ</string>
+    <string name="dialogTrackUploadActivityType">سرگرمی کی قسم</string>
+    <string name="meterModes_15">اوسط طاقت</string>
+    <string name="pref_power_coefs_summary">ڈریگ ایریا: %1$s
+\nرول مزاحمت: %2$s</string>
+    <string name="speechUnitThreeHours">گھنٹے</string>
+    <string name="dialogRecButtonRemoveTitle">Rec بٹن کو ہٹا دیں۔</string>
+    <string name="tracksHistoryListTitleSelect">منتخب کریں۔</string>
+    <string name="meterModeAltitudeSlope">ڈھال</string>
+    <string name="pref_mapsLayerHeatmap_title">حرارت کا نقشہ</string>
+    <string name="pref_meterTitle">میٹر</string>
+    <string name="pref_powermeter_display_mode_entries_1">واٹس فی کلوگرام/lb</string>
+    <string name="pref_background_pattern_entries_0">کوئی نہیں۔</string>
+    <string name="dialogButtonRateOnPlayStore">پلے اسٹور پر ریٹ کریں۔</string>
+    <string name="pref_soundeffects_tally_descent_title">نزول</string>
+    <string name="dialogScreenHudMode">HUD آئینہ موڈ</string>
+    <string name="prefMapDiskCacheSizeSummary">آن لائن اور آف لائن نقشہ دیکھتے وقت، حصوں کو مقامی طور پر محفوظ کیا جا رہا ہے تاکہ بار بار ڈاؤن لوڈ یا تفریح کی ضرورت کو کم کیا جا سکے۔ یہ نقشہ لوڈنگ کو تیز کرتا ہے اور بیٹری کی بچت کرتا ہے۔</string>
+    <string name="speechCountdownGo">جاؤ!</string>
+    <string name="otherLicenses">دیگر</string>
+    <string name="prefPressureSensorOffsetTitle">پریشر آفسیٹ</string>
+    <string name="toastErrorAccessingExternalStorage">بیرونی اسٹوریج تک رسائی میں خرابی۔</string>
+    <string name="pref_units_speed_entries_0">میٹرک [کلومیٹر فی گھنٹہ]</string>
+    <string name="meterModeDistanceShort">ڈی ایس ٹی</string>
+    <string name="veloHeroConnectButton">Velo Hero کے ساتھ جڑیں۔</string>
+    <string name="trackUploadActivityTypes_0">موٹر سائیکل</string>
+    <string name="navigationRouteNotFound">معذرت، اس منزل تک کوئی راستہ نہیں ملا</string>
+    <string name="prefBarometricAltitudeSummary">اگر دستیاب ہو تو اونچائی کی درستگی کو بڑھانے کے لیے پریشر سینسر کا ڈیٹا استعمال کریں۔</string>
+    <string name="speechUnitOneFeet">پاؤں</string>
+    <string name="dialogTrackUploadPlatform">آن لائن سروس</string>
+    <string name="unitDegC">°C</string>
+    <string name="sensorProperitesActivityRecognitionInfo">سینسر صرف اس وقت ڈیٹا فراہم کرے گا جب آپ کی جسمانی سرگرمی کو سینسر کے مقصد سے ہم آہنگ تسلیم کیا جائے۔ مثال کے طور پر، سٹیپ سینسر چلنے یا دوڑتے وقت قدموں کو شمار کرے گا، موٹر سائیکل پر سوار ہونے کے دوران نہیں۔ نوٹ کریں، ہو سکتا ہے یہ درست نہ ہو اور اس میں تاخیر ہو سکتی ہے۔ گوگل پلے سروسز درکار ہیں۔</string>
+    <string name="prefNotificationAlwaysTitle">مستقل اطلاع</string>
+    <string name="chartsTitle">چارٹس</string>
+    <string name="infoMeterModeHumidityTitle">نمی</string>
+    <string name="pref_category_sensors_title">سینسر</string>
+    <string name="pref_category_bell_title">گھنٹی</string>
+    <string name="dialogStoragePermissionRequest">ایپ کو اسٹوریج تک رسائی کی ضرورت ہے تاکہ یہ آپ کے ٹریکس اور سیٹنگز کو محفوظ یا بحال کر سکے۔
+\n
+\nاجازت دیے بغیر ہو سکتا ہے آپ اپنے ٹریکس کی سرگزشت نہ دیکھ پائیں، اور آپ اپنا ڈیٹا کھو سکتے ہیں۔</string>
+    <string name="pref_power_coefs_title">گتانک</string>
+    <string name="pref_haptic_feedback_intensity_title">کمپن کی شدت</string>
+    <string name="pick_a_color">ایک رنگ چنیں۔</string>
+    <string name="pref_units_other_entries_1">امپیریل</string>
+    <string name="unitPerMille">‰</string>
+    <string name="summaryHeartBeatsInfo">سرگرمی کے دوران دل کی دھڑکنوں کی تعداد کا پتہ چلا۔</string>
+    <string name="infoMeterModeClockTitle">گھڑی</string>
+    <string name="defaultProfileNameCar">کار 🚘</string>
+    <string name="unitGAccel">جی</string>
+    <string name="dialogLicenseUpgradeMessage">اس خصوصیت کے لیے سبسکرپشن لائسنس درکار ہے۔
+\n
+\nمتبادل طور پر، آپ مفت کریڈٹ حاصل کرنے کے لیے ایک مختصر پرومو ویڈیو دیکھ سکتے ہیں۔</string>
+    <string name="cloudAccountsPowerUploadPolicy_1">بجلی کا ڈیٹا صرف اس وقت اپ لوڈ کریں جب پاور میٹر استعمال کیا گیا ہو۔</string>
+    <string name="pref_bell_automatic_sensitivity_title">خودکار گھنٹی کی حساسیت</string>
+    <string name="summaryMechWorkInfo">اس سرگرمی کے لیے خالصتاً مکینیکل کام خرچ کیا گیا (تھرمل کارکردگی اور BMR کو نظر انداز کرتے ہوئے)۔</string>
+    <string name="pref_group_meters_title">میٹر</string>
+    <string name="pref_units_weight_dialog_title">وزن کی اکائیاں</string>
+    <string name="unitHPa">ایچ پی اے</string>
+    <string name="defaultProfileNameIndoor">انڈور 🏠</string>
+    <string name="prefOnlineMapsProviderTitle">آن لائن نقشہ فراہم کنندہ</string>
+    <string name="dialog_default_color_text">یہ پہلے سے طے شدہ رنگوں کو لوڈ کرے گا۔ کیا تمہیں یقین ہے؟</string>
+    <string name="defaultProfileNameBike2">بائیک 2 🚵</string>
+    <string name="pref_app_language_translate_summary">اگر آپ اس ایپ کو دوسری زبان میں ترجمہ کرنے میں مدد کرنا چاہتے ہیں تو یہاں کلک کریں۔</string>
+    <string name="pref_category_fonts_title">فونٹ</string>
+    <string name="infoMeterModeStepCadenceTitle">سٹیپ کیڈنس</string>
+    <string name="widget_2_description">بائیکر: بیل + ٹارچ</string>
+    <string name="pref_category_pressure_title">ان بلٹ پریشر سینسر</string>
+    <string name="dataStorageTransferInfoTitle">آخری تبدیلی</string>
+    <string name="pref_category_units_per_profile_title">پیمائش کی اکائیاں (فی پروفائل)</string>
+    <string name="sensorProperitesNoAlarmInfo">اگر دستیاب ہو تو سینسر کا استعمال کریں، لیکن دستیاب نہ ہونے پر اطلاع یا الارم نہ دیں۔ غیر اہم سینسر کے لیے مفید ہے جو کسی سرگرمی کے لیے ضروری نہیں ہیں۔ بطور ڈیفالٹ غیر فعال۔</string>
+    <string name="pref_gps_update_freq_entries_10">20 سیکنڈ</string>
+    <string name="menuSpeedoDisplayMode">ڈسپلے موڈ</string>
+    <string name="pref_gps_boost_modes_2">معذور</string>
+    <string name="pref_soundeffects_screenOff_title">اسکرین مدھم/آف</string>
+    <string name="pref_soundeffects_tally_clock_dialog_title">گھڑی کا حساب</string>
+    <string name="meterModeStepCadenceShort">سٹیپ کیڈ</string>
+    <string name="dialogLocationPermissionRequest">آپ کی بیرونی سرگرمیوں کو ریکارڈ کرنے کے لیے ایپ کو آپ کے مقام تک رسائی کی ضرورت ہے۔</string>
+    <string name="mapMarkerFinish">ختم کرنا</string>
+    <string name="infoMeterModePowerTitle">طاقت</string>
+    <string name="proPlusLicenseDescription">اشتہارات کو ہٹا دیں اور ان تمام غیر سبسکرپشن خصوصیات کو غیر مقفل کریں جو ہم مستقبل میں شامل کر سکتے ہیں۔</string>
+    <string name="sensorProperitesCadenceTriggers">کیڈینس کو متحرک کرتا ہے۔</string>
+    <string name="dialog_defaultConfirmation">کیا تمہیں یقین ہے؟</string>
+    <string name="dialogOpenRainviewerText">www.rainviewer.com ویب صفحہ ابھی کھولیں؟</string>
+    <string name="pref_locationProvider_modes_0">GPS سب سسٹم (پہلے سے طے شدہ)</string>
+    <string name="pref_roaring_type_entries_1">بیپ</string>
+    <string name="unitKj">kJ</string>
+    <string name="toastErrorCreatingOfflineMap">آف لائن نقشہ بنانے میں خرابی۔</string>
+    <string name="sensorProperitesFilterIntervalInfo">فلٹر کا وقفہ، یعنی فلٹر کی طاقت۔ بڑی قدریں زیادہ فلٹر کریں گی، لیکن مزید تاخیر بھی متعارف کرائیں گی۔</string>
+    <string name="dialogMapsOffline">آف لائن نقشے۔</string>
+    <string name="toastTrackingRecordingPassive">غیر فعال ریکارڈنگ</string>
+    <string name="speechSteps">مراحل: %1$s</string>
+    <string name="menuSensors">سینسر</string>
+    <string name="buttonResumeTrack">دوبارہ شروع کریں۔</string>
+    <string name="controlPanelSensorsButtonSubtitle">سینسر کا نظم کرنے کے لیے کلک کریں۔</string>
+    <string name="pref_maps_quickZoom_title">QuickZoom بٹن</string>
+    <string name="dialogOfflineMapsFolderCopyTitle">نقشے کے فولڈر میں کاپی کریں۔</string>
+    <string name="dialogPowerWeightsRotInertiaTitle">گردشی جڑتا</string>
+    <string name="controlPanelSensorsButtonTitle">سینسر</string>
+    <string name="navigationGotOffRoute">آف روٹ</string>
+    <string name="infoMeterModeAvgActivePowerMsg">سرگرمی کے دوران استعمال کی گئی اوسط طاقت، وقت کے وقفوں کو شمار نہیں کرتے جہاں بجلی غائب تھی (نیچے کی طرف، بریک لگانا، کوسٹنگ)۔</string>
+    <string name="menuInfo">معلومات</string>
+    <string name="meterModePressure">دباؤ</string>
+    <string name="dialog_fenceguard_add_title">باڑ شامل کریں۔</string>
+    <string name="meterModes_3">اونچائی</string>
+    <string name="na">N / A</string>
+    <string name="disclaimerTitle">ڈس کلیمر</string>
+    <string name="infoMeterModeCadenceTitle">کیڈینس</string>
+    <string name="controlPanelSoundRoar">اے وی اے ایس</string>
+    <string name="dialogMapsTerrainDownloadTitle">خطہ ڈاؤن لوڈ</string>
+    <string name="meterModeRadius">رداس</string>
+    <string name="profilesListTitle">پروفائلز</string>
+    <string name="powerSourceWeightInfo">پاور (واٹ) کو مخصوص طاقت (واٹ فی یونٹ وزن) میں ترجمہ کرتے وقت، ایک وزن دینا ضروری ہے۔
+\n
+\nیہ عام طور پر اس ہستی کا وزن ہوتا ہے جو ایک محرک قوت فراہم کرتا ہے۔
+\n
+\nنوٹ: عمودی طاقت ہمیشہ کل وزن کا استعمال کرتے ہوئے شمار کی جاتی ہے۔</string>
+    <string name="prefBackKeyModeEntries_2">باہر نکلنے پر ڈبل کلک کریں۔</string>
+    <string name="sensorWheelCircNotSetWarning">پہیے کا فریم مقرر نہیں کیا گیا ہے۔</string>
+    <string name="unitMiPerGal">mpg</string>
+    <string name="prefBackKeyModeEntries_1">کوئی نہیں۔</string>
+    <string name="pref_button_menu_show_summary">مینو بٹن دکھائیں۔</string>
+    <string name="meterModeOdoShort">اوڈو</string>
+    <string name="unitMSxS">m/s²</string>
+    <string name="pref_roaring_mode_entries_4">حد سے اوپر کی رفتار سے فعال</string>
+    <string name="pref_wakelock_modes_2">جزوی</string>
+    <string name="recommendedLicense">تجویز کردہ</string>
+    <string name="toastCancelled">منسوخ</string>
+    <string name="ongoingNotificationChannelName">جاری نوٹیفکیشن</string>
+    <string name="dialogMapsMapCountFourMaps">%1$s نقشے</string>
+    <string name="pref_soundeffects_screenOff_summary">جب اسکرین مدھم ہو یا عارضی طور پر بند ہو تو آواز اور کمپن</string>
+</resources>
