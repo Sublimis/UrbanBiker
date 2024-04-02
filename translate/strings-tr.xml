@@ -1383,7 +1383,7 @@
     <string name="pref_category_mainScreenVisualTheme">Ana ekran</string>
     <string name="prefScreensaverTimeoutEntries_8">5 dakika</string>
     <string name="prefScreensaverTimeoutEntries_1">10 saniye</string>
-    <string name="dialogCustomTracksFolderInfoMessage">Bu özellik, uygulamanın konumu yakın zamanda değişen ana parçalar klasörüne ek olarak seçtiğiniz bir klasördeki parçaları da okumasına olanak tanır.
+    <string name="dialogCustomTracksFolderInfoMessage">Bu özellik, uygulamanın konumu yakın zamanda değişen ana kayıt klasörüne ek olarak seçtiğiniz başka bir klasördeki parçaları da okumasına olanak tanır.
 \n
 \nBu tür parçalar salt okunurdur: Görüntülenebilir ve paylaşılabilir ancak düzenlenemez, devam ettirilemez veya silinemez.</string>
     <string name="prefScreensaverDimBrightnessEntries_0">En düşük</string>
@@ -1474,7 +1474,7 @@
     <string name="toastSteadyScreenModeIntelligentActive">Ekran sabitleme akıllı etkin</string>
     <string name="prefAutoTerrainNote2Summary">Güç sensörü kullanılarak elde edilen güç değeri bu özellikten etkilenmez.</string>
     <string name="speechUnitOneLiterOfGasoline">Litre benzin</string>
-    <string name="prefSteadyScreenModeOnInfo">Takip sırasında ekran sabitleme özelliğini her zaman aktif tutun. Bu, ekran açıkken daha fazla pil tüketebilir.</string>
+    <string name="prefSteadyScreenModeOnInfo">Kayıt sırasında ekran sabitleme özelliğini her zaman aktif tutun. Bu, ekran açıkken daha fazla pil tüketebilir.</string>
     <string name="unitNewtonPerKg">N/kg</string>
     <string name="pref_speechNavigation_summary">Navigasyonu seslendir</string>
     <string name="navigationLoadingData">Yol tarifi yükleniyor…</string>
@@ -1495,7 +1495,7 @@
     <string name="navigationLoadFromFilePrompt">İnternetten yeni yol tarifi yüklenirken bir hata oluştu.
 \n
 \nDaha önce kullanılan yol tariflerini bir dosyadan yüklemek istiyor musunuz\?</string>
-    <string name="prefSteadyScreenModeAutoInfo">Takip sırasında ekran sabitleme özelliğini yalnızca engebeli arazilerde etkinleştirin. Bu, konfor ve pil kullanımı arasında iyi bir dengedir.</string>
+    <string name="prefSteadyScreenModeAutoInfo">Kayıt sırasında ekran sabitleme özelliğini yalnızca engebeli arazilerde etkinleştirin. Bu, konfor ve pil kullanımı arasında iyi bir dengedir.</string>
     <string name="menuNavigation">Gezin</string>
     <string name="menuCustomTracksFolder">Özel kayıt klasörü</string>
     <string name="speechNavigationWrongWay">Yanlış yol</string>
@@ -1531,7 +1531,7 @@
     <string name="menuShowTotals">Toplamları göster</string>
     <string name="prefNoSoundInsideFenceTitle">Koruma alanı içinde ses yok</string>
     <string name="mapPlaceSearch">Nereye\?</string>
-    <string name="prefSteadyScreenModeOn">Etkinleştirilmiş</string>
+    <string name="prefSteadyScreenModeOn">Etkinleştirildi</string>
     <string name="prefAutoTerrainSummary">Titreşimleri ölçerek arazi pürüzlülüğünü algılar ve gücü hesaplarken yuvarlanma direnci katsayısını (Cᵣᵣ) buna göre ayarlar.</string>
     <string name="pref_soundeffects_navigation_title">Navigasyon</string>
     <string name="toastLocationUnavailable">Konumunuz hâlâ kullanılamıyor</string>
@@ -1609,15 +1609,15 @@
     <string name="speechUnitThreeMinutes">dakika</string>
     <string name="speechUnitFourMinutes">dakika</string>
     <string name="dataStorageTransferInfoCount">Taşınan öğeler: %1$s / %2$s</string>
-    <string name="pref_category_storage_title">Depolamak</string>
+    <string name="pref_category_storage_title">Depolama</string>
     <string name="dataStorageTransferInfoStatus">Durum: %1$s</string>
     <string name="inProgress">Devam etmekte</string>
     <string name="speechUnitThreeMiles">Mil</string>
     <string name="dialogLayoutRemoveEntryMessage">Bu alan kaldırılsın mı\?</string>
     <string name="dataStorageTransferInfoSpeed">Hız: %1$s MB/sn (%2$s öğe/sn)</string>
     <string name="speechUnitFourMeters">Metre</string>
-    <string name="dataStorageInfo1">Uygulamanın kaldırılması durumunda kazara veri kaybını önlemek ve yedeklemeleri kolaylaştırmak amacıyla parçalarınız ve verileriniz için özel bir depolama konumu kullanmanız önerilir.</string>
-    <string name="dataStorageTitle">Depolamak</string>
+    <string name="dataStorageInfo1">Uygulamanın kaldırılması durumunda kazara veri kaybını önlemek ve yedeklemeleri kolaylaştırmak amacıyla rotalarınız ve verileriniz için özel bir depolama konumu kullanmanız önerilir.</string>
+    <string name="dataStorageTitle">Depolama</string>
     <string name="success">Başarı</string>
     <string name="dataStorageStatsMessage">%1$s MB
 \n%2$s öğe</string>
@@ -1644,9 +1644,9 @@
     <string name="speechUnitFourLitersOfGasoline">Litre benzin</string>
     <string name="dataStorageNotSetMessage">Veri depolama konumu ayarlanmadı, lütfen yukarıdaki düğmeyi kullanın.
 \n
-\nUygulama şu anda parçalar ve veriler için varsayılan klasörü kullanıyor.</string>
-    <string name="tracksHistoryDataStorageLink">Uyarı: Uygulama, parçalar ve veriler için varsayılan klasörü kullanıyor. Değiştirmek için burayı tıklayın.</string>
-    <string name="menuDataStorage">Veri depolama konumu</string>
+\nUygulama şu anda rota kayıtları ve veriler için varsayılan klasörü kullanıyor.</string>
+    <string name="tracksHistoryDataStorageLink">Uyarı: Uygulama, rota kayıtları ve veriler için varsayılan klasörü kullanıyor. Değiştirmek için burayı tıklayın.</string>
+    <string name="menuDataStorage">Veri depolama yeri</string>
     <string name="speechUnitThreeLitersOfGasoline">Litre benzin</string>
     <string name="dataStorageTransferRetrying">Başarısız - kısa süre sonra tekrar deneyecek</string>
     <string name="prefMapShowBuildingsTitle">Binaları göster</string>
@@ -1655,5 +1655,5 @@
     <string name="speechUnitThreeHours">Saat</string>
     <string name="dataStorageTransferInfoTitle">Son değişiklik</string>
     <string name="dialogMapsMapCountFourMaps">%1$s haritalar</string>
-    <string name="subscriptionCancelInfo">Google Play\'deki Abonelikler\'den istediğiniz zaman iptal edebilirsiniz.</string>
+    <string name="subscriptionCancelInfo">Google Play üzerindeki Abonelikler menüsünden istediğiniz zaman iptal edebilirsiniz.</string>
 </resources>
