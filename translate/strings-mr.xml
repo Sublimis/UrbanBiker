@@ -3,7 +3,7 @@
     <string name="dialog_fenceguard_remove_title">कुंपण काढा</string>
     <string name="pref_gps_boost_modes_0">नकाशा दर्शविला (डिफॉल्ट)</string>
     <string name="meterModeKineticEnergy">गतीज ऊर्जा</string>
-    <string name="speechRadius">त्रिज्या: [८]</string>
+    <string name="speechRadius">त्रिज्या: %1$s</string>
     <string name="pref_resetToDefault">मूळस्थिती कार्यान्वित करा</string>
     <string name="dialogTrackResumeGeneralPromptMessage">प्रोफाइलमध्ये ट्रॅक पुन्हा सुरू केला जाईल %1$s. सुरू\?</string>
     <string name="farFromHere">इथून लांब</string>
@@ -127,14 +127,14 @@
     <string name="dialogReviewNudgeMessage2">धन्यवाद! कृपया एक छान पुनरावलोकन लिहा किंवा आम्हाला Play Store वर 5 तारे रेट करा.</string>
     <string name="dialogTrackDeleteMessage">चेतावणी: ही क्रिया पूर्ववत केली जाऊ शकत नाही.
 \n
-\nट्रॅक [५७] हटवायचा\?</string>
+\nट्रॅक %1$s हटवायचा\?</string>
     <string name="toastMapFollowingOff">फॉलो ऑफ</string>
     <string name="pref_passive_gps_button_summary">GPS बटण क्लिक करताना निष्क्रिय GPS मोड सक्षम करा</string>
     <string name="timePeriod_per3Months">दर 3 महिन्यांनी</string>
     <string name="unitPerHour">/ता</string>
     <string name="dialogScreenOrientationPortrait">पोर्ट्रेट</string>
     <string name="dialogProfileTotalsResetMessage">प्रोफाइल बेरीज शून्यावर रीसेट करायचे\?</string>
-    <string name="pref_power_weights_summary">चालक: [८], वाहन: [२३], मालवाहू: [३६], प्रवासी: [५४], चाके: [६८]</string>
+    <string name="pref_power_weights_summary">चालक: %1$s, वाहन: %2$s, मालवाहू: %3$s, प्रवासी: %4$s, चाके: %5$s</string>
     <string name="pref_screen_keep_on_title">स्क्रीन चालू ठेवा</string>
     <string name="dialog_volume_effects_text">परिणाम</string>
     <string name="proLicenseFeatures">❌ प्रीमियम नकाशे
@@ -175,7 +175,7 @@
     <string name="infoMeterModeAltitudeTitle">समुद्रसपाटीपासूनची उंची</string>
     <string name="menuMeterResetMinMax">किमान/कमाल रीसेट करा</string>
     <string name="meterModeVerticalPowerShort">v pwr</string>
-    <string name="speechAscent">चढाई: [७]</string>
+    <string name="speechAscent">चढाई: %1$s</string>
     <string name="pref_mapsLayerHeatmap_info">हे तुम्हाला सक्रिय होण्यासाठी नवीन ठिकाणे शोधण्यात मदत करू शकते, विशेषतः दुर्गम प्रदेशांमध्ये.</string>
     <string name="pref_visualThemeAutoSummary">पर्यावरणाच्या प्रकाशावर आधारित हलकी किंवा गडद थीम लागू करा</string>
     <string name="pref_meter_lock_title">लॉक मोड</string>
@@ -214,7 +214,7 @@
     <string name="prefScreenPocketModeDelayEntries_4">0.40 सेकंद</string>
     <string name="navigationAvoidFerries">फेरी टाळा</string>
     <string name="unitMeterPerMin">मी/मिनिट</string>
-    <string name="dataStorageTransferInfoCount">आयटम हलवले: [२१] पैकी [१३]</string>
+    <string name="dataStorageTransferInfoCount">आयटम हलवले: %1$s पैकी %2$s</string>
     <string name="pref_button_roar_show_summary">AVAS बटण दाखवा</string>
     <string name="toastSteadyScreenModeActive">स्क्रीन स्थिरीकरण सक्षम केले</string>
     <string name="pref_maps_disable_title">नकाशे अक्षम करा</string>
@@ -249,7 +249,7 @@
     <string name="pref_audio_force_loudspeaker_summary">चेतावणी: प्रायोगिक, कार्य करू शकत नाही. व्हॉईस कॉल्स वगळता, हेडफोन कनेक्ट केलेले असताना सर्व ध्वनी लाऊडस्पीकरद्वारे परत करण्याचा प्रयत्न करा.</string>
     <string name="sensorProperitesUseForPressure">दबावासाठी वापरा</string>
     <string name="meterModes_18">ताल</string>
-    <string name="dataStorageTransferInfoStatus">स्थिती: [८]</string>
+    <string name="dataStorageTransferInfoStatus">स्थिती: %1$s</string>
     <string name="licenseItemOwned">सध्या मालकीचे आहे</string>
     <string name="subscriptionPer1y">%1$s 12 महिन्यांतून एकदा बिल केले जाते</string>
     <string name="prefSteadyScreenModeOff">बंद</string>
@@ -323,7 +323,7 @@
     <string name="disclaimerText1">हे ॲप जसे आहे तसे प्रदान केले आहे आणि तुम्ही ते तुमच्या स्वत:च्या जोखमीवर वापरता. आम्ही, प्रकाशक, राइड दरम्यान किंवा अन्यथा ॲप वापरामुळे उद्भवलेल्या कोणत्याही दुर्घटनेसाठी, ताबा गमावल्यास, दुखापत झाल्यास किंवा तुमचा किंवा तृतीय व्यक्तीचा समावेश असलेल्या वाईट गोष्टींसाठी जबाबदार राहणार नाही.</string>
     <string name="meterModeOdo">ओडोमीटर</string>
     <string name="menuRevokeAccess">प्रवेश रद्द करा</string>
-    <string name="dataStorageTransferInfoSpeed">गती: [७] MB/s ([१८] आयटम/से)</string>
+    <string name="dataStorageTransferInfoSpeed">गती: %1$s MB/s (%2$s आयटम/से)</string>
     <string name="pref_flashlightBlinkModes_1">जलद</string>
     <string name="prefGpsIntervalAdaptiveSummary">गतीनुसार, 1 ते 5 सेकंदांमध्ये GPS अपडेट अंतराल आपोआप समायोजित करा.</string>
     <string name="meterModes_11">Vert. शक्ती</string>
@@ -384,7 +384,7 @@
     <string name="infoMeterModeFuncThresholdPowerTitle">कार्यात्मक थ्रेशोल्ड पॉवर</string>
     <string name="pref_bell_automatic_title">स्वयंचलित</string>
     <string name="pref_background_pattern_entries_2">झेब्रा</string>
-    <string name="dialogTrackResumeProfileSwitchMessage">सक्रिय प्रोफाइल [३७] वरून [४५] वर स्विच केले जाईल. सुरू\?</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">सक्रिय प्रोफाइल %1$s वरून %2$s वर स्विच केले जाईल. सुरू\?</string>
     <string name="meterTextTotal">टोट</string>
     <string name="no">नाही</string>
     <string name="sensorProperitesUseForPower">शक्तीसाठी वापरा</string>
@@ -422,7 +422,7 @@
     <string name="sensorPurposeTemperature">तापमान</string>
     <string name="meterModeAltitudeDescentShort">dsc</string>
     <string name="pref_background_pattern_entries_5">कोबल</string>
-    <string name="speechEnergy">ऊर्जा: [८]</string>
+    <string name="speechEnergy">ऊर्जा: %1$s</string>
     <string name="toastProfileChangeError">प्रोफाइल स्विच करू शकलो नाही! कृपया पुन्हा प्रयत्न करा.</string>
     <string name="pref_category_mapsRenderer">प्रस्तुतकर्ता</string>
     <string name="pref_autopause_mode_dialog_title">स्वयं विराम देत आहे</string>
@@ -446,7 +446,7 @@
     <string name="dialogMapsShowRoutes">मार्गदर्शक मार्ग</string>
     <string name="unitWLb">W/lb</string>
     <string name="profilesListTitleSelectProfile">प्रोफाइल स्विच करा</string>
-    <string name="speechClock">घड्याळ: [७]</string>
+    <string name="speechClock">घड्याळ: %1$s</string>
     <string name="controlPanelSoundTallies">टॅलीज</string>
     <string name="mapLayerSatellite">उपग्रह</string>
     <string name="openSourceLicensesTitle">मुक्त स्रोत परवाने</string>
@@ -500,7 +500,7 @@
     <string name="pref_soundeffects_autopause_summary">स्वयंचलित विराम द्या आणि पुन्हा सुरू करा ओळख</string>
     <string name="toastTrackSavingError">ट्रॅक जतन करताना त्रुटी! पुन्हा रीसेट करण्याचा प्रयत्न करा.</string>
     <string name="dataStorageStatsMessage">%1$s MB
-\n[८] वस्तू</string>
+\n%2$s वस्तू</string>
     <string name="meterModeAltitudeAscent">आरोहण</string>
     <string name="prefScreenPocketModeDelayEntries_0">विलंब नाही (डीफॉल्ट)</string>
     <string name="pref_wakelock_modes_explanation_0">GPS अपडेट अंतराल आणि इतर घटकांवर आधारित आपोआप निर्णय घ्या</string>
@@ -708,7 +708,7 @@
     <string name="dialogFencesUpdate">कुंपण स्थान अद्यतनित करा</string>
     <string name="meterModeClock">घड्याळ</string>
     <string name="infoMeterModeAscentTitle">आरोहण</string>
-    <string name="profilesListRowTotalsSince">पासून एकूण: [१४]</string>
+    <string name="profilesListRowTotalsSince">पासून एकूण: %1$s</string>
     <string name="prefMapDiskCacheSizeEntries_9">3 जीबी</string>
     <string name="controlPanelScreenshotButtonTitle">स्क्रीनशॉट</string>
     <string name="meterModeAcceleration">प्रवेग</string>
@@ -845,8 +845,8 @@
     <string name="prefGpsBoostNoteSummary">नेव्हिगेशन दरम्यान स्थान अद्यतने नेहमी सर्वोच्च वारंवारतेवर सक्ती केली जातील</string>
     <string name="freeLicenseTitle">मोफत परवाना</string>
     <string name="pref_button_profile_show_summary">प्रोफाइल बटण दाखवा</string>
-    <string name="pref_energy_params_summary">कार्यक्षमता: [१२]
-\nचयापचय: [२९]</string>
+    <string name="pref_energy_params_summary">कार्यक्षमता: %1$s
+\nचयापचय: %2$s</string>
     <string name="pref_category_params_title">पॅरामीटर्स</string>
     <string name="prefUnitsSlopeEntries_1">पदवी [°]</string>
     <string name="prefMapDiskCacheAgeEntries_3">15 दिवस</string>
@@ -1018,7 +1018,7 @@
     <string name="unitHP">एचपी</string>
     <string name="pref_category_stationary_exercise_title">स्थिर क्रियाकलाप</string>
     <string name="speechUnitTwoHours">तास</string>
-    <string name="speechAltitude">उंची: [१०]</string>
+    <string name="speechAltitude">उंची: %1$s</string>
     <string name="stravaTrackPrivacyInfo">तुम्ही Strava वर सेट केलेली डीफॉल्ट गोपनीयता ट्रॅकला वारसा मिळेल</string>
     <string name="pref_category_mainScreenVisualTheme">मुख्य पडदा</string>
     <string name="speechUnitManyHours">तास</string>
@@ -1026,8 +1026,8 @@
     <string name="menuMeterMode">मीटर मोड</string>
     <string name="speechNavigationContinue">सुरू</string>
     <string name="prefMapDiskCacheSizeEntries_4">300 MB</string>
-    <string name="dialog_track_save_text">अंतर [९] [१६]
-\nकालावधी [३०]
+    <string name="dialog_track_save_text">अंतर %1$.3f %2$s
+\nकालावधी %3$s
 \n(%4$s)
 \n
 \nट्रॅक खूप लहान वाटतो. हा ट्रॅक सेव्ह करायचा\?</string>
@@ -1035,7 +1035,7 @@
     <string name="pref_bell_shake_title">रिंग करण्यासाठी हलवा</string>
     <string name="sensorPurposePower">शक्ती</string>
     <string name="pref_mapsWeatherCoverage_title">कव्हरेज मास्क</string>
-    <string name="dataStorageTransferInfoDuration">कालावधी: [१०]</string>
+    <string name="dataStorageTransferInfoDuration">कालावधी: %1$s</string>
     <string name="summaryInaccurateLocationZoneCountInfo">ॲपने स्थान अपडेट त्यांच्या अयोग्यतेमुळे किती वेळा नाकारणे सुरू केले.
 \n
 \nलक्षात ठेवा, ज्या भागात अजिबात स्थान अद्यतने नाहीत (उदा. घरामध्ये) या क्रमांकावर परिणाम होत नाही.</string>
@@ -1130,7 +1130,7 @@
 \n
 \nपोर्ट्रेट आणि लँडस्केप स्क्रीन अभिमुखता पूर्णपणे स्वतंत्र मांडणी आहेत.</string>
     <string name="pref_hud_axis_title">HUD मिरर अक्ष</string>
-    <string name="notificationTitleAdvancedPaused">विराम दिला: [८]</string>
+    <string name="notificationTitleAdvancedPaused">विराम दिला: %1$s</string>
     <string name="pref_soundeffects_countdown_summary">ट्रॅक पुन्हा सुरू करण्यापूर्वी काउंटडाउनवर आवाज (…3, 2, 1, GO!)</string>
     <string name="cancel">रद्द करा</string>
     <string name="pref_speedo_display_mode_entries_2">डिजिटल</string>
@@ -1145,7 +1145,7 @@
     <string name="dialogMapsShowHeatmap">हीटमॅप</string>
     <string name="infoMeterModeEfficacyMsg">खर्च केलेल्या ऊर्जेचा एक भाग जो सरासरी वेगाच्या बरोबरीने स्थिर वेगाने फिरून समान प्रवास करण्यासाठी पुरेसा असेल. उच्च चांगले आहे.</string>
     <string name="meterModes_2">गती</string>
-    <string name="infoContentSize">सामग्रीचा आकार: [१४] एमबी</string>
+    <string name="infoContentSize">सामग्रीचा आकार: %1$d एमबी</string>
     <string name="toastSharingPermissionsError">पोस्ट करताना त्रुटी, कृपया परवानग्या तपासा</string>
     <string name="pref_soundeffects_tally_duration_dialog_title">कालावधी टॅली</string>
     <string name="buttonProceed">पुढे जा</string>
@@ -1196,7 +1196,7 @@
     <string name="prefGpsIntervalAdaptiveNote">ॲडॉप्टिव्ह अपडेट इंटरव्हल्स हळूहळू हलवताना किंवा वारंवार ब्रेक घेत असताना बॅटरीचा वापर कमी करण्यात मदत करू शकतात.</string>
     <string name="pref_wakelock_modes_0">स्वयं (डीफॉल्ट)</string>
     <string name="prefScreensaverTimeoutEntries_6">1 मिनिट</string>
-    <string name="dialogTrackResumeProfileNotBlankMessage">लक्ष्य प्रोफाइल [१५] रिक्त नाही. कृपया प्रथम रीसेट करा.</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">लक्ष्य प्रोफाइल %1$s रिक्त नाही. कृपया प्रथम रीसेट करा.</string>
     <string name="summaryDeviceAutoPauseCountInfo">या क्रियाकलापादरम्यान किती वेळा स्वयं-विराम सक्रिय केला गेला.</string>
     <string name="pref_relaunchAfterReboot_summary">(सर्व प्रोफाइल) बॅटरी 10% किंवा त्याहून अधिक असल्यास, सक्तीने डिव्हाइस रीबूट केल्यानंतर ट्रॅकिंग पुन्हा सुरू करा</string>
     <string name="prefProhibitLocationAlertInfo">क्रियाकलापादरम्यान स्थान कधीही चालू किंवा वापरले जाणार नाही, त्यामुळे नकाशा उपलब्ध होणार नाही.
@@ -1505,8 +1505,8 @@
     <string name="pref_bg_color_title">पार्श्वभूमी रंग</string>
     <string name="dialogTrackUploadActivityType">क्रियाकलाप प्रकार</string>
     <string name="meterModes_15">सरासरी शक्ती</string>
-    <string name="pref_power_coefs_summary">ड्रॅग क्षेत्र: [११]
-\nरोल रेझिस्ट: [२९]</string>
+    <string name="pref_power_coefs_summary">ड्रॅग क्षेत्र: %1$s
+\nरोल रेझिस्ट: %2$s</string>
     <string name="speechUnitThreeHours">तास</string>
     <string name="dialogRecButtonRemoveTitle">Rec बटण काढा</string>
     <string name="tracksHistoryListTitleSelect">निवडा</string>
@@ -1591,7 +1591,7 @@
     <string name="sensorProperitesFilterIntervalInfo">फिल्टर अंतराल, म्हणजे फिल्टरची ताकद. मोठी मूल्ये अधिक फिल्टर करतील, परंतु अधिक विलंब देखील सादर करतील.</string>
     <string name="dialogMapsOffline">ऑफलाइन नकाशे</string>
     <string name="toastTrackingRecordingPassive">निष्क्रिय रेकॉर्डिंग</string>
-    <string name="speechSteps">पायऱ्या: [७]</string>
+    <string name="speechSteps">पायऱ्या: %1$s</string>
     <string name="menuSensors">सेन्सर्स</string>
     <string name="buttonResumeTrack">पुन्हा सुरू करा</string>
     <string name="controlPanelSensorsButtonSubtitle">सेन्सर व्यवस्थापित करण्यासाठी क्लिक करा</string>
