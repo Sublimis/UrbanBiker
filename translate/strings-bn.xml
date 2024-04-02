@@ -214,7 +214,7 @@
     <string name="prefScreenPocketModeDelayEntries_4">0.40 সেকেন্ড</string>
     <string name="navigationAvoidFerries">ফেরি এড়িয়ে চলুন</string>
     <string name="unitMeterPerMin">মি/মিনিট</string>
-    <string name="dataStorageTransferInfoCount">আইটেম সরানো হয়েছে: [২১] এর [১৩]</string>
+    <string name="dataStorageTransferInfoCount">আইটেম সরানো হয়েছে: %1$s এর %2$s</string>
     <string name="pref_button_roar_show_summary">AVAS বোতামটি দেখান</string>
     <string name="toastSteadyScreenModeActive">স্ক্রীন স্থিতিশীলতা সক্ষম করা হয়েছে</string>
     <string name="pref_maps_disable_title">মানচিত্র অক্ষম করুন</string>
@@ -384,7 +384,7 @@
     <string name="infoMeterModeFuncThresholdPowerTitle">কার্যকরী থ্রেশহোল্ড পাওয়ার</string>
     <string name="pref_bell_automatic_title">স্বয়ংক্রিয়</string>
     <string name="pref_background_pattern_entries_2">জেব্রা</string>
-    <string name="dialogTrackResumeProfileSwitchMessage">সক্রিয় প্রোফাইল [৩৭] থেকে [৪৫]-এ পরিবর্তন করা হবে। চালিয়ে যান\?</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">সক্রিয় প্রোফাইল %1$s থেকে %2$s-এ পরিবর্তন করা হবে। চালিয়ে যান\?</string>
     <string name="meterTextTotal">tot</string>
     <string name="no">না</string>
     <string name="sensorProperitesUseForPower">ক্ষমতার জন্য ব্যবহার করুন</string>
@@ -500,7 +500,7 @@
     <string name="pref_soundeffects_autopause_summary">স্বয়ংক্রিয় বিরতি এবং পুনরায় শুরু সনাক্তকরণের উপর শব্দ</string>
     <string name="toastTrackSavingError">ট্র্যাক সংরক্ষণে ত্রুটি! আবার রিসেট করার চেষ্টা করুন।</string>
     <string name="dataStorageStatsMessage">%1$s এমবি
-\n[৮] আইটেম</string>
+\n%2$s আইটেম</string>
     <string name="meterModeAltitudeAscent">আরোহণ</string>
     <string name="prefScreenPocketModeDelayEntries_0">কোন বিলম্ব নেই (ডিফল্ট)</string>
     <string name="pref_wakelock_modes_explanation_0">GPS আপডেট ব্যবধান এবং অন্যান্য কারণের উপর ভিত্তি করে স্বয়ংক্রিয়ভাবে সিদ্ধান্ত নিন</string>
@@ -1018,7 +1018,7 @@
     <string name="unitHP">এইচপি</string>
     <string name="pref_category_stationary_exercise_title">নিশ্চল কার্যকলাপ</string>
     <string name="speechUnitTwoHours">ঘন্টার</string>
-    <string name="speechAltitude">উচ্চতা: [১০]</string>
+    <string name="speechAltitude">উচ্চতা: %1$s</string>
     <string name="stravaTrackPrivacyInfo">ট্র্যাক আপনি Strava সেট ডিফল্ট গোপনীয়তা উত্তরাধিকারী হবে</string>
     <string name="pref_category_mainScreenVisualTheme">প্রধান পর্দা</string>
     <string name="speechUnitManyHours">ঘন্টার</string>
@@ -1026,8 +1026,8 @@
     <string name="menuMeterMode">মিটার মোড</string>
     <string name="speechNavigationContinue">চালিয়ে যান</string>
     <string name="prefMapDiskCacheSizeEntries_4">300 MB</string>
-    <string name="dialog_track_save_text">দূরত্ব [৯] [১৬]
-\nসময়কাল [৩০]
+    <string name="dialog_track_save_text">দূরত্ব %1$.3f %2$s
+\nসময়কাল %3$s
 \n(%4$s)
 \n
 \nট্র্যাক খুব ছোট মনে হচ্ছে. এই ট্র্যাক সংরক্ষণ করবেন\?</string>
@@ -1145,7 +1145,7 @@
     <string name="dialogMapsShowHeatmap">তাপ মানচিত্র</string>
     <string name="infoMeterModeEfficacyMsg">ব্যয় করা শক্তির একটি অংশ যা গড় গতির সমান স্থির গতিতে চলার মাধ্যমে একই ট্রিপ করার জন্য যথেষ্ট হবে। উঁচুই ভালো.</string>
     <string name="meterModes_2">গতি</string>
-    <string name="infoContentSize">বিষয়বস্তুর আকার: [১৪] এমবি</string>
+    <string name="infoContentSize">বিষয়বস্তুর আকার: %1$d এমবি</string>
     <string name="toastSharingPermissionsError">পোস্টিং ত্রুটি, অনুমতি চেক করুন</string>
     <string name="pref_soundeffects_tally_duration_dialog_title">সময়কালের হিসাব</string>
     <string name="buttonProceed">এগিয়ে যান</string>
@@ -1410,7 +1410,7 @@
     <string name="meterModeWriggleShort">wrig</string>
     <string name="menuControlPanel">দ্রুত সেটিংস</string>
     <string name="pref_units_distance_title">দূরত্ব</string>
-    <string name="subscriptionPerMonth">[০] /মাস</string>
+    <string name="subscriptionPerMonth">%1$s /মাস</string>
     <string name="sensorProperitesUseForCadence">ক্যাডেন্স জন্য ব্যবহার করুন</string>
     <string name="infoMeterModeStepCountMsg">গৃহীত পদক্ষেপের সংখ্যা।</string>
     <string name="dialogPermissionProblemMessage">অ্যাপটি সঠিকভাবে কাজ করার জন্য এই অনুমতির প্রয়োজন। এটি অ্যাপ অনুমতি সেটিংস পৃষ্ঠায় দেওয়া যেতে পারে।
@@ -1505,7 +1505,7 @@
     <string name="pref_bg_color_title">পেছনের রং</string>
     <string name="dialogTrackUploadActivityType">কার্যকলাপ টাইপ</string>
     <string name="meterModes_15">গড় ক্ষমতা</string>
-    <string name="pref_power_coefs_summary">এলাকা টানুন: [১১]
+    <string name="pref_power_coefs_summary">এলাকা টানুন: %1$s
 \nরোল প্রতিরোধ: %2$s</string>
     <string name="speechUnitThreeHours">ঘন্টার</string>
     <string name="dialogRecButtonRemoveTitle">Rec বোতাম সরান</string>
