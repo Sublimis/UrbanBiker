@@ -1,5 +1,9 @@
 ##  Legacy versions (not recommended!)
 
+ - #### v8.01 (dated 2024-04-04)
+
+The last version to support Android API levels 21-22 (5.0, and 5.1 Lollipop)
+
  - #### v5.20 (dated 2019-07-25)
 
 The last version to support Android API levels 17-20 (4.2, 4.3 Jelly Bean, and 4.4 KitKat)
