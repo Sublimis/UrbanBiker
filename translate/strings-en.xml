@@ -557,8 +557,8 @@
 
     <string name="meterModeSpeed">speed</string>
     <string name="meterModeSpeedShort">spd</string>
-    <string name="meterModeSpeedVertical">vertical speed</string>
-    <string name="meterModeSpeedVerticalShort">v spd</string>
+    <string name="meterModeSpeedVertical">climb speed</string>
+    <string name="meterModeSpeedVerticalShort">c spd</string>
     <string name="meterModeSpeedAverage">average speed</string>
     <string name="meterModeSpeedAverageShort">av spd</string>
     <string name="meterModePace">pace</string>
@@ -569,8 +569,8 @@
     <string name="meterModeElapsedTimeShort">elap</string>
     <string name="meterModeAltitude">altitude</string>
     <string name="meterModeAltitudeShort">alt</string>
-    <string name="meterModeVerticalPower">vertical power</string>
-    <string name="meterModeVerticalPowerShort">v pwr</string>
+    <string name="meterModeVerticalPower">climb power</string>
+    <string name="meterModeVerticalPowerShort">c pwr</string>
     <string name="meterModePower">power</string>
     <string name="meterModePowerShort">pwr</string>
     <string name="meterModePowerAverage">average power</string>
@@ -687,7 +687,7 @@
     <string name="tracksHistoryChartEmptyInfo">Nothing to show</string>
 
     <string name="powerSourceWeightTitle">Power source weight</string>
-    <string name="powerSourceWeightInfo">When translating power (watts) into specific power (watts per unit weight), a weight must be given.\n\nThis is usually the weight of the entity providing a driving force.\n\nNote: Vertical power is always computed using Total weight.</string>
+    <string name="powerSourceWeightInfo">When translating power (watts) into specific power (watts per unit weight), a weight must be given.\n\nThis is usually the weight of the entity providing a driving force.\n\nNote: Climb power is always computed using Total weight.</string>
     <string name="powerSourceWeight_0">Total</string>
     <string name="powerSourceWeight_1">Driver</string>
     <string name="powerSourceWeight_2">Vehicle</string>
@@ -1000,7 +1000,7 @@
     <string name="pref_passive_gps_button_title">Passive GPS button mode</string>
     <string name="pref_passive_gps_button_summary">Enable Passive GPS mode when clicking GPS button</string>
     <string name="pref_digital_font_title">Digital font</string>
-    <string name="pref_digital_font_summary">(All profiles) Use segmented digital LCD font for cyclometer data display</string>
+    <string name="pref_digital_font_summary">Use segmented digital LCD font for meter data display</string>
     <string name="pref_roaring_state_title">AVAS</string>
     <string name="pref_roaring_state_summary">Produce Acoustic Vehicle Alerting System (AVAS) sounds as you move</string>
     <string name="pref_roaring_mode_title">Mode</string>
@@ -1277,6 +1277,8 @@
     <string name="dataStorageTransferInfoCount">Items moved: %1$s of %2$s</string>
     <string name="dataStorageTransferInfoSpeed">Speed: %1$s MB/s (%2$s items/s)</string>
 
+    <string name="infoMeterModeNoneTitle">No meter mode</string>
+    <string name="infoMeterModeNoneMsg">This only shows empty space.</string>
     <string name="infoMeterModeDistanceTitle">Distance</string>
     <string name="infoMeterModeDistanceMsg">Distance traveled.</string>
     <string name="infoMeterModeDistanceOdoTitle">Odometer</string>
@@ -1301,7 +1303,7 @@
     <string name="infoMeterModeSlopeMsg">Slope (gradient), a number describing terrain tilt where zero is horizontal. Higher number means steeper ascent, and negative is for descent.</string>
     <string name="infoMeterModeSpeedTitle">Speed</string>
     <string name="infoMeterModeSpeedMsg">Instantaneous distance covered per unit of time.</string>
-    <string name="infoMeterModeVerticalSpeedTitle">Vertical Speed</string>
+    <string name="infoMeterModeVerticalSpeedTitle">Climb Speed</string>
     <string name="infoMeterModeVerticalSpeedMsg">Speed in the up (positive) or down (negative) vertical direction.</string>
     <string name="infoMeterModePaceTitle">Pace</string>
     <string name="infoMeterModePaceMsg">Inverse speed, i.e. time elapsed per unit of distance.</string>
@@ -1315,7 +1317,7 @@
     <string name="infoMeterModeFuncThresholdPowerMsg">Estimated maximum power that can be maintained for longer time periods.\n\nThe estimate highly depends on type and duration of this activity.</string>
     <string name="infoMeterModeAvgActivePowerTitle">Average Active Power</string>
     <string name="infoMeterModeAvgActivePowerMsg">Average power exerted during activity, not counting time intervals where power was absent (downhill, braking, coasting).</string>
-    <string name="infoMeterModeVerticalPowerTitle">Vertical Power</string>
+    <string name="infoMeterModeVerticalPowerTitle">Climb Power</string>
     <string name="infoMeterModeVerticalPowerMsg">Power loss or gain while ascending or descending.\n\nNegative means power gain (descending).\n\nWhen in kcal/h or kJ/h, it also takes efficiency into account.</string>
     <string name="infoMeterModeTemperatureTitle">Temperature</string>
     <string name="infoMeterModeTemperatureMsg">Ambient temperature as measured with the device or an external sensor.</string>
@@ -1382,8 +1384,8 @@
     <string name="meterModes_9">Power</string>
     <string name="meterModes_10">Power balance</string>
     <string name="meterModes_29">FT power</string>
-    <string name="meterModes_11">Vert. power</string>
-    <string name="meterModes_12">Vert. speed</string>
+    <string name="meterModes_11">Climb power</string>
+    <string name="meterModes_12">Climb speed</string>
     <string name="meterModes_13">Acceleration</string>
     <string name="meterModes_14">Avg. speed</string>
     <string name="meterModes_15">Avg. power</string>
