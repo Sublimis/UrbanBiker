@@ -332,8 +332,8 @@
     <string name="valueTimesCount">×</string>
     <string name="meterModeSpeed">скорость</string>
     <string name="meterModeSpeedShort">скор</string>
-    <string name="meterModeSpeedVertical">вертикальная скорость</string>
-    <string name="meterModeSpeedVerticalShort">верт скор</string>
+    <string name="meterModeSpeedVertical">скорость подъёма</string>
+    <string name="meterModeSpeedVerticalShort">скор под</string>
     <string name="meterModeSpeedAverage">средняя скорость</string>
     <string name="meterModeSpeedAverageShort">ср скор</string>
     <string name="meterModePace">темп</string>
@@ -344,8 +344,8 @@
     <string name="meterModeElapsedTimeShort">прош</string>
     <string name="meterModeAltitude">высота</string>
     <string name="meterModeAltitudeShort">выс</string>
-    <string name="meterModeVerticalPower">вертикальная мощность</string>
-    <string name="meterModeVerticalPowerShort">верт мощ</string>
+    <string name="meterModeVerticalPower">мощность подъёма</string>
+    <string name="meterModeVerticalPowerShort">мощ под</string>
     <string name="meterModePower">мощность</string>
     <string name="meterModePowerShort">мощ</string>
     <string name="meterModePowerAverage">средняя мощность</string>
@@ -602,7 +602,7 @@
     <string name="pref_passive_gps_button_title">Пассивный режим GPS</string>
     <string name="pref_passive_gps_button_summary">Включить пассивный режим при нажатии кнопки GPS</string>
     <string name="pref_digital_font_title">Цифровой шрифт</string>
-    <string name="pref_digital_font_summary">Используйте сегментированный цифровой ЖК-шрифт для отображения данных счетчика.</string>
+    <string name="pref_digital_font_summary">Использовать сегментированный цифровой ЖК-шрифт для отображения данных счётчика</string>
     <string name="pref_roaring_state_title">AVAS</string>
     <string name="pref_roaring_state_summary">Воспроизводить звуки AVAS (акустической системы оповещения о дорожно-транспортных средствах) во время движения</string>
     <string name="pref_roaring_mode_title">Режим</string>
@@ -741,7 +741,7 @@
     <string name="infoMeterModeSlopeTitle">Уклон</string>
     <string name="infoMeterModeSpeedTitle">Скорость</string>
     <string name="infoMeterModeSpeedMsg">Мгновенное расстояние, пройденное за единицу времени.</string>
-    <string name="infoMeterModeVerticalSpeedTitle">Вертикальная скорость</string>
+    <string name="infoMeterModeVerticalSpeedTitle">Скорость подъёма</string>
     <string name="infoMeterModePaceTitle">Темп</string>
     <string name="infoMeterModePaceMsg">Обратная скорость, т. е. время, затраченное на единицу расстояния.</string>
     <string name="infoMeterModeAccelerationTitle">Ускорение</string>
@@ -751,7 +751,7 @@
     <string name="infoMeterModePowerTitle">Мощность</string>
     <string name="infoMeterModeAvgActivePowerTitle">Средняя активная мощность</string>
     <string name="infoMeterModeAvgActivePowerMsg">Средняя мощность, приложенная во время активности, без учёта периодов времени, когда мощность отсутствовала (спуск, торможение, выбег).</string>
-    <string name="infoMeterModeVerticalPowerTitle">Вертикальная мощность</string>
+    <string name="infoMeterModeVerticalPowerTitle">Мощность подъёма</string>
     <string name="infoMeterModeTemperatureTitle">Температура</string>
     <string name="infoMeterModePressureTitle">Давление</string>
     <string name="infoMeterModeClockTitle">Часы</string>
@@ -801,8 +801,8 @@
     <string name="meterModes_7">Энергия</string>
     <string name="meterModes_8">Эффективность</string>
     <string name="meterModes_9">Мощность</string>
-    <string name="meterModes_11">Вертикальная мощность</string>
-    <string name="meterModes_12">Вертикальная скорость</string>
+    <string name="meterModes_11">Мощность подъёма</string>
+    <string name="meterModes_12">Скорость подъёма</string>
     <string name="meterModes_13">Ускорение</string>
     <string name="meterModes_14">Средняя скорость</string>
     <string name="meterModes_15">Средняя мощность</string>
@@ -1306,7 +1306,7 @@
 \n
 \nОбычно это вес объекта, обеспечивающего движущую силу.
 \n
-\nПримечание: вертикальная мощность всегда рассчитывается с использованием общего веса.</string>
+\nПримечание: мощность подъёма всегда рассчитывается с использованием общего веса.</string>
     <string name="powerSourceWeight_0">Общий</string>
     <string name="powerSourceWeight_1">Водитель</string>
     <string name="powerSourceWeight_2">Транспорт</string>
@@ -1675,6 +1675,6 @@
     <string name="prefSteadyScreenImplementationExternal">Внешняя</string>
     <string name="dataStorageTransferInfoTitle">Последнее изменение</string>
     <string name="subscriptionCancelInfo">Подписку можно отменить в любое время в разделе «Подписки» в Google Play.</string>
-    <string name="infoMeterModeNoneTitle">Нет режима счетчика</string>
-    <string name="infoMeterModeNoneMsg">Это показывает только пустое пространство.</string>
+    <string name="infoMeterModeNoneTitle">Режим без счётчиков</string>
+    <string name="infoMeterModeNoneMsg">В этом режиме отображается пустое место.</string>
 </resources>
