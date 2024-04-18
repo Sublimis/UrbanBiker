@@ -326,7 +326,7 @@
     <string name="meterModeSpeed">rýchlosť</string>
     <string name="meterModeSpeedShort">rýchl.</string>
     <string name="meterModeSpeedVertical">vertikálna rýchlosť</string>
-    <string name="meterModeSpeedVerticalShort">vert. rýchl.</string>
+    <string name="meterModeSpeedVerticalShort">rýchl. stúp.</string>
     <string name="meterModeSpeedAverage">priemerná rýchlosť</string>
     <string name="meterModeSpeedAverageShort">priem. rýchl.</string>
     <string name="meterModePace">tempo</string>
@@ -337,8 +337,8 @@
     <string name="meterModeElapsedTimeShort">uplyn. čas</string>
     <string name="meterModeAltitude">nadm. výška</string>
     <string name="meterModeAltitudeShort">nadm. v.</string>
-    <string name="meterModeVerticalPower">vertikálny výkon</string>
-    <string name="meterModeVerticalPowerShort">vert. výkon</string>
+    <string name="meterModeVerticalPower">výkon stúpania</string>
+    <string name="meterModeVerticalPowerShort">výkon st.</string>
     <string name="meterModePower">výkon</string>
     <string name="meterModePowerShort">výkon</string>
     <string name="meterModePowerAverage">priemerný výkon</string>
@@ -595,7 +595,7 @@
     <string name="pref_passive_gps_button_title">Pasívny GPS-režim</string>
     <string name="pref_passive_gps_button_summary">Umožniť voľbu pasívneho GPS-režimu vrámci tlačidla GPS</string>
     <string name="pref_digital_font_title">Digitálne písmo</string>
-    <string name="pref_digital_font_summary">Na zobrazenie údajov merača použite segmentované digitálne písmo LCD</string>
+    <string name="pref_digital_font_summary">Používať digitálne písmo pre zobrazovanie údajov merania</string>
     <string name="pref_roaring_state_title">AVAS</string>
     <string name="pref_roaring_state_summary">Prehrávať výstražné zvuky počas pohybu (AVAS - Acoustic Vehicle Alerting System)</string>
     <string name="pref_roaring_mode_title">Spôsob</string>
@@ -736,7 +736,7 @@
     <string name="infoMeterModeSlopeTitle">Sklon</string>
     <string name="infoMeterModeSpeedTitle">Rýchlosť</string>
     <string name="infoMeterModeSpeedMsg">Aktuálna vdialenosť za jednotku času.</string>
-    <string name="infoMeterModeVerticalSpeedTitle">Vertikálna rýchlosť</string>
+    <string name="infoMeterModeVerticalSpeedTitle">Rýchlosť stúpania</string>
     <string name="infoMeterModePaceTitle">Tempo</string>
     <string name="infoMeterModePaceMsg">Čas uplynulý za jednotku dĺžky.</string>
     <string name="infoMeterModeAccelerationTitle">Zrýchlenie</string>
@@ -745,7 +745,7 @@
 \nNegatívna znamená spomalenie.</string>
     <string name="infoMeterModePowerTitle">Výkon</string>
     <string name="infoMeterModeAvgActivePowerTitle">Priemerný aktívny výkon</string>
-    <string name="infoMeterModeVerticalPowerTitle">Vertikálny výkon</string>
+    <string name="infoMeterModeVerticalPowerTitle">Výkon stúpania</string>
     <string name="infoMeterModeTemperatureTitle">Teplota</string>
     <string name="infoMeterModePressureTitle">Tlak vzduchu</string>
     <string name="infoMeterModeClockTitle">Hodiny</string>
@@ -1228,7 +1228,7 @@
 \n
 \nIde o hmotnosť subjektu, ktorý je zdrojom hnacej sily.
 \n
-\nPoznámka: Vertikálny výkon sa vždy počíta z Celkovej hmotnosti.</string>
+\nPoznámka: Výkon stúpania sa vždy počíta z Celkovej hmotnosti.</string>
     <string name="powerSourceWeight_0">Celková</string>
     <string name="powerSourceWeight_1">Vodič</string>
     <string name="powerSourceWeight_2">Vozidlo</string>
@@ -1253,8 +1253,8 @@
     <string name="meterModes_7">Energia</string>
     <string name="meterModes_8">Účinnosť</string>
     <string name="meterModes_9">Výkon</string>
-    <string name="meterModes_11">Vertikálny výkon</string>
-    <string name="meterModes_12">Vertikálna rýchlosť</string>
+    <string name="meterModes_11">Výkon stúpania</string>
+    <string name="meterModes_12">Rýchlosť stúpania</string>
     <string name="meterModes_13">Zrýchlenie</string>
     <string name="meterModes_14">Priemerná rýchlosť</string>
     <string name="meterModes_15">Priemerný výkon</string>
@@ -1680,6 +1680,6 @@
     <string name="prefSteadyScreenImplementationExternal">Externá</string>
     <string name="dataStorageTransferInfoTitle">Posledná zmena</string>
     <string name="subscriptionCancelInfo">Predplatné možno kedykoľvek zrušiť v Google Play.</string>
-    <string name="infoMeterModeNoneTitle">Žiadny režim merača</string>
-    <string name="infoMeterModeNoneMsg">Toto zobrazuje iba prázdne miesto.</string>
+    <string name="infoMeterModeNoneTitle">Žiadne meranie</string>
+    <string name="infoMeterModeNoneMsg">Zobrazuje len prázdne miesto.</string>
 </resources>
