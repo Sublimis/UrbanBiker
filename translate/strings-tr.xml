@@ -380,7 +380,7 @@
     <string name="pref_passive_gps_button_title">Pasif GPS modu</string>
     <string name="pref_passive_gps_button_summary">GPS butonuna tıkladığında GPS \'i pasif moda al</string>
     <string name="pref_digital_font_title">Dijital Yazı</string>
-    <string name="pref_digital_font_summary">Sayaç verilerinin görüntülenmesi için bölümlü dijital LCD yazı tipini kullanın</string>
+    <string name="pref_digital_font_summary">Sayaç verilerini görüntülerken dijital LCD yazı tipini kullanın</string>
     <string name="pref_roaring_mode_title">Mod</string>
     <string name="pref_roaring_mode_dialog_title">Sesli Uyarı modu</string>
     <string name="pref_fenceguard_title">Koruma Alanı</string>
@@ -876,7 +876,7 @@
     <string name="prefBaroAltitudeUsesTemperatureTitle">Termobarometre</string>
     <string name="prefBaroAltitudeUsesTemperatureSummary">Daha doğru barometrik yükseklik için (varsa) sıcaklık sensörü verilerini kullan</string>
     <string name="prefBarometricAltitudeNoteSummary">Bunları sadece açık havada kullanın! Araba ve uçak gibi basınçlı, kapalı veya klimalı araçlarda lütfen kapatın!</string>
-    <string name="prefTemperatureSensorDerivedTitle">Harici sensör kullan</string>
+    <string name="prefTemperatureSensorDerivedTitle">Türetilmiş sensör kullan</string>
     <string name="prefTemperatureSensorDerivedSummary">Bu cihazda ortam sıcaklığı sensörü yok fakat diğer dahili sensörler (örneğin CPU sıcaklığı) kullanılarak kaba değerler elde edilebilir.</string>
     <string name="prefPressureSensorOffsetTitle">Basınç dengesi</string>
     <string name="prefPressureSensorOffsetInfo">Bu sabit, basınç okumalarına eklenir ve varsa sensör yanlılığını azaltmak için kullanılabilir.</string>
@@ -1531,7 +1531,7 @@
     <string name="menuShowTotals">Toplamları göster</string>
     <string name="prefNoSoundInsideFenceTitle">Koruma alanı içinde ses yok</string>
     <string name="mapPlaceSearch">Nereye\?</string>
-    <string name="prefSteadyScreenModeOn">Etkinleştirildi</string>
+    <string name="prefSteadyScreenModeOn">Etkin</string>
     <string name="prefAutoTerrainSummary">Titreşimleri ölçerek arazi pürüzlülüğünü algılar ve gücü hesaplarken yuvarlanma direnci katsayısını (Cᵣᵣ) buna göre ayarlar.</string>
     <string name="pref_soundeffects_navigation_title">Navigasyon</string>
     <string name="toastLocationUnavailable">Konumunuz hâlâ kullanılamıyor</string>
@@ -1618,7 +1618,7 @@
     <string name="speechUnitFourMeters">Metre</string>
     <string name="dataStorageInfo1">Uygulamanın kaldırılması durumunda kazara veri kaybını önlemek ve yedeklemeleri kolaylaştırmak amacıyla rotalarınız ve verileriniz için özel bir depolama konumu kullanmanız önerilir.</string>
     <string name="dataStorageTitle">Depolama</string>
-    <string name="success">Başarı</string>
+    <string name="success">Başarılı</string>
     <string name="dataStorageStatsMessage">%1$s MB
 \n%2$s öğe</string>
     <string name="speechUnitFourMiles">Mil</string>
@@ -1657,5 +1657,5 @@
     <string name="dialogMapsMapCountFourMaps">%1$s haritalar</string>
     <string name="subscriptionCancelInfo">Google Play üzerindeki Abonelikler menüsünden istediğiniz zaman iptal edebilirsiniz.</string>
     <string name="infoMeterModeNoneTitle">Sayaç modu yok</string>
-    <string name="infoMeterModeNoneMsg">Bu yalnızca boş alanı gösterir.</string>
+    <string name="infoMeterModeNoneMsg">Bu sadece boş alan gösterir.</string>
 </resources>
