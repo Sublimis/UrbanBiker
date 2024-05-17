@@ -227,7 +227,7 @@
     <string name="unitDegree">°</string>
     <string name="valueTimesCount">x</string>
     <string name="meterModeSpeed">hız</string>
-    <string name="meterModeSpeedVertical">dikey hız</string>
+    <string name="meterModeSpeedVertical">tırmanma hızı</string>
     <string name="meterModeSpeedAverage">ortalama hız</string>
     <string name="meterModePace">Tempo</string>
     <string name="meterModePaceShort">Tempo</string>
@@ -404,7 +404,7 @@
     <string name="pref_soundeffects_tally_descent_title">İniş</string>
     <string name="pref_soundeffects_tally_descent_dialog_title">İniş çetelesi</string>
     <string name="pref_ads_mode_dialog_title">Reklam tipi</string>
-    <string name="pref_maps_disable_title">Haritayı Kapat</string>
+    <string name="pref_maps_disable_title">Haritayı kapat</string>
     <string name="pref_maps_track_draw_title">Rota Çiz</string>
     <string name="pref_maps_online_mode_dialog_title">Harita kaynağı</string>
     <string name="pref_maps_offline_file_noFolderSelected">Seçili dosya yok.</string>
@@ -445,7 +445,7 @@
     <string name="infoMeterModeSlopeTitle">Eğim</string>
     <string name="infoMeterModeSpeedTitle">Hız</string>
     <string name="infoMeterModeSpeedMsg">Birim zamanda katedilen anlık mesafe.</string>
-    <string name="infoMeterModeVerticalSpeedTitle">Dikey Hız</string>
+    <string name="infoMeterModeVerticalSpeedTitle">Tırmanma Hızı</string>
     <string name="infoMeterModePaceTitle">Tempo</string>
     <string name="infoMeterModeAccelerationTitle">Hızlanma</string>
     <string name="infoMeterModePowerTitle">Güç</string>
@@ -755,12 +755,12 @@
     <string name="unitMilliseconds">Ms</string>
     <string name="unitMegabyte">MB</string>
     <string name="meterModeSpeedShort">Hız</string>
-    <string name="meterModeSpeedVerticalShort">Dikey Hız</string>
+    <string name="meterModeSpeedVerticalShort">trnma hzı</string>
     <string name="meterModeSpeedAverageShort">Ort Hız</string>
     <string name="meterModeElapsedTime">Geçen zaman</string>
     <string name="meterModeElapsedTimeShort">Geçen Zmn</string>
-    <string name="meterModeVerticalPower">Dikey Güç</string>
-    <string name="meterModeVerticalPowerShort">D. Güç</string>
+    <string name="meterModeVerticalPower">tırmanma gücü</string>
+    <string name="meterModeVerticalPowerShort">Tırm güc</string>
     <string name="meterModePowerShort">güç</string>
     <string name="meterModePowerAverage">Ortalama Güç</string>
     <string name="meterModePowerAverageShort">Ort. Güç</string>
@@ -827,9 +827,9 @@
     <string name="pref_resetPrompt_summary">4 saatten daha uzun bir süre önce aktif olan son rotanız varsa veya uzak bir yerdeyseniz yeni bir rota başlatmanız istenir (önerilen)</string>
     <string name="pref_roaring_state_title">Sesli Uyarı</string>
     <string name="pref_roaring_state_summary">Siz hareket ederken uyarı sesleri çıkarır</string>
-    <string name="pref_roaring_constant_mode_title">Sabit Mod</string>
+    <string name="pref_roaring_constant_mode_title">Sabit mod</string>
     <string name="pref_roaring_constant_mode_summary">Hareketiniz veya GPS durumunuzdan bağımsız olarak sürekli uyarı sesleri üretir</string>
-    <string name="pref_roar_threshold_speed_title">Eşik Hızı</string>
+    <string name="pref_roar_threshold_speed_title">Eşik hızı</string>
     <string name="pref_roar_threshold_speed_info">Uyarı sesleri yalnızca eşik hızından daha hızlı giderken çalacaktır. Faydalı örn. Yokuş aşağı.</string>
     <string name="pref_roarConstantModeButton_title">Geçiş</string>
     <string name="pref_roarConstantModeButton_summary">Sesli Uyarı açıkken tıkladığınızda sabit moda geçer</string>
@@ -912,7 +912,7 @@
 \nKcal/h veya kJ/h , hesaplamalarında verimliliği ve BMH\'yi de dikkate alır.</string>
     <string name="infoMeterModeAvgActivePowerTitle">Ortalama Aktif Güç</string>
     <string name="infoMeterModeAvgActivePowerMsg">Aktivite sırasında harcanan ortalama güç, gücün olmadığı veya çok küçük olduğu zaman aralıklarını saymaz(yokuş aşağı, frenleme).</string>
-    <string name="infoMeterModeVerticalPowerTitle">Dikey Güç</string>
+    <string name="infoMeterModeVerticalPowerTitle">Tırmanma Gücü</string>
     <string name="infoMeterModeVerticalPowerMsg">Yükselirken ya da alçalırken oluşan gün kaybı/kazancı - 
 \n 
 \nNegatif olması güç kazancı anlamına gelir (alçalma). 
@@ -1065,8 +1065,8 @@
     <string name="pref_mapsWeatherAnimate_title">Animasyon</string>
     <string name="pref_mapsWeatherAnimate_summary">Yağış eğilimini yorumlamanıza yardımcı olmak için son 1 saatlik radar verilerini görselleştirir</string>
     <string name="pref_mapsWeatherAnimate_info">Radar animasyonları durgun radar görüntülerinden 5 kata kadar daha fazla internet verisi kullanabilir.</string>
-    <string name="meterModes_11">Yty güç</string>
-    <string name="meterModes_12">Yty hız</string>
+    <string name="meterModes_11">Tırm. güc</string>
+    <string name="meterModes_12">Tırm. hız</string>
     <string name="rewardedAdDescription">Reklamı izlemek için tıklayın</string>
     <string name="rewardedAdLoading">Reklam yükleniyor…</string>
     <string name="rewardedLicenseSuccess">Lisans başarıyla yüklendi</string>
@@ -1083,7 +1083,7 @@
 \n
 \nVeya bir duvara çarptığınızda çarpma kuvveti bu yükseklikten düşmeyle aynı olacaktır.
 \n
-\nBu sayı hızın karesi olarak artar ve güvenlik açısından faydalıdır.</string>
+\nBu sayı hızın karesiyle doğru orantılı artar ve güvenlik değerlendirmeleri açısından kullanışlıdır.</string>
     <string name="mapMarkerStart">Başlangıç</string>
     <string name="mapMarkerFinish">Bitiş</string>
     <string name="defaultProfileNameScooter">Scooter</string>
@@ -1147,8 +1147,8 @@
     <string name="dialog_volume_speech_text">Sesli Bildiri</string>
     <string name="controlPanelSoundSpeech">Sesli Bildiri</string>
     <string name="pref_category_speech_title">Sesli Bildiri</string>
-    <string name="pref_speechTrackingStatus_summary">Kayıt başladığında, durakladığında ve durduğunda sesli bildir</string>
-    <string name="pref_speechToasts_summary">Kısa bilgi notlarını sesli bildir</string>
+    <string name="pref_speechTrackingStatus_summary">Kayıt başladığında, durakladığında ve durduğunda seslendir</string>
+    <string name="pref_speechToasts_summary">Kısa bilgi notlarını seslendir</string>
     <string name="pref_speechCountdown_summary">Sesli geri sayım</string>
     <string name="pref_roaring_type_entries_3">Elektrikli araç</string>
     <string name="dialogMapsAutoZoom">Otomatik yakınlaştırma</string>
@@ -1293,7 +1293,7 @@
 \n
 \nBu genellikle bir itici güç sağlayan varlığın ağırlığıdır.
 \n
-\nNot: Dikey güç her zaman Toplam ağırlık kullanılarak hesaplanır.</string>
+\nNot: Tırmanma gücü her zaman Toplam ağırlık kullanılarak hesaplanır.</string>
     <string name="summaryDriverWeightInfo">Bu parkuru kaydederken kullanılan sürücünün ağırlığı.</string>
     <string name="summaryVehicleWeightInfo">Bu parkuru kaydederken kullanılan aracın ağırlığı.</string>
     <string name="pref_soundeffects_autopause_title">Otomatik duraklama</string>
@@ -1312,7 +1312,7 @@
     <string name="prefMapDiskCacheAgeTitle">Harita önbelleği yaş sınırı</string>
     <string name="pref_mapsShowAttribution_summary">Google dışındaki çevrimiçi haritalar için ilişkilendirme metnini göster. Bir bağlantıya yanlışlıkla tıklamayı önlemek için devre dışı bırakın.</string>
     <string name="prefActivityRecognitionNoteSummary">Bu seçenekler, Android\'in fiziksel aktivite tanıma özelliğine dayanır. Doğru olmayabilir ve gecikmeli olabilir, yalnızca bu durum sizin için sorun değilse kullanın. Mesafe ve süre için bir hız sensörü kullanıldığında en iyi sonucu verir.</string>
-    <string name="prefGnssActivityRecognitionSummary">GPS için hareketsiz durmayı ve hareket etmeyi tanıyın. Bu, aradan sonra gecikmeye ve mesafe veya irtifa kaybına neden olabilir, ancak çoğu GPS gürültüsünü önleyecektir.</string>
+    <string name="prefGnssActivityRecognitionSummary">GPS için hareketsiz durmayı ve hareket etmeyi tanıyın. Bu, aradan sonra gecikmeye ve mesafe veya irtifa kaybına neden olabilir ancak çoğu GPS gürültüsünü önleyecektir.</string>
     <string name="prefMapDiskCacheAgeEntries_6">60 gün</string>
     <string name="prefMapDiskCacheAgeEntries_0">1 gün</string>
     <string name="prefMapDiskCacheAgeEntries_2">10 gün (varsayılan)</string>
@@ -1524,7 +1524,7 @@
 \n
 \nBunu şimdi yap\?</string>
     <string name="navigationRouteTooLong">Üzgünüm, bu hedef çok uzak</string>
-    <string name="unitKmhPerSec">km/s</string>
+    <string name="unitKmhPerSec">kph/s</string>
     <string name="summaryRollResistCoefAverage">Yuvarlanma direnci katsayısı. ortalama</string>
     <string name="pref_mapsFollowAutoZoomMode_summary">Mevcut hıza göre harita yakınlaştırma seviyesini ayarlayın</string>
     <string name="pref_mapsLayerTraffic_summary">Gerçek zamanlı trafik bilgilerini göster</string>
