@@ -95,7 +95,7 @@
     <string name="toastTrackDeleted">Percursos apagados</string>
     <string name="toastTrackDeleteError">Erro ao apagar percursos</string>
     <string name="toastTrackResumed">Percurso retomado</string>
-    <string name="toastTrackResumeGpsActiveError">Por favor desligue ou pause o GPS, primeiro</string>
+    <string name="toastTrackResumeGpsActiveError">Por favor desligue ou pause o registo, primeiro</string>
     <string name="toastProfileButtonClickInfo">Clique longo para alternar perfil</string>
     <string name="toastContrastButtonClickInfo">Tema visual automático está ativo</string>
     <string name="toastFlashlightButtonClickInfo">Clique longo para alternar lanterna</string>
@@ -170,7 +170,7 @@
 \n
 \nApagar o percurso %1$s\?</string>
     <string name="dialogTrackResumeTitle">Continuar percurso</string>
-    <string name="dialogTrackResumeGpsActiveMessage">Está um percurso ativo. Por favor desligue ou pause primeiro o GPS.</string>
+    <string name="dialogTrackResumeGpsActiveMessage">Está um percurso ativo. Por favor desligue ou pause primeiro o registo.</string>
     <string name="dialogTrackResumeProfileNotBlankMessage">Perfil alvo %1$s não está em branco. Por favor reinicie primeiro.</string>
     <string name="dialogTrackResumeProfileSwitchMessage">O perfil ativo será mudado de %1$s para %2$s. Continuar\?</string>
     <string name="dialogTrackResumeProfileMissingMessage">Perfil %1$s que criou este percurso não existe mais. Retomar no perfil atual %2$s\?</string>
@@ -1671,16 +1671,16 @@
     <string name="pref_button_tracking_show_summary">Mostre o botão Rec. Se desativado, você precisará usar os comandos do menu principal para iniciar ou parar o rastreamento.</string>
     <string name="prefTrackingStartPromptTitle">Alerta de início de rastreamento</string>
     <string name="prefTrackingStopPromptTitle">Alerta de parada de rastreamento</string>
-    <string name="meterTextRelative">rel</string>
+    <string name="meterTextRelative">Relativ.</string>
     <string name="pref_button_tracking_show_title">Habilitar</string>
     <string name="menuPause">Pausa</string>
     <string name="dialogTrackingResumePromptTitle">Retomar\?</string>
     <string name="summaryBrakingInfo">Energia extraída pela travagem.
 \n
 \nPode ser considerado desgaste dos freios - um par de pastilhas de freio a disco de bicicleta padrão dura cerca de 50 MJ, para carros cerca de 5 GJ.</string>
-    <string name="menuCountdown">Contagem regressiva</string>
+    <string name="menuCountdown">Contagem decrescente</string>
     <string name="prefTrackingStopPromptSummary">Caixa de diálogo de confirmação antes de interromper o rastreamento</string>
     <string name="summaryBraking">Frenagem</string>
-    <string name="dialogTrackingStartPromptTitle">Começar\?</string>
+    <string name="dialogTrackingStartPromptTitle">Iniciar\?</string>
     <string name="prefTrackingStartPromptSummary">Caixa de diálogo de confirmação antes de iniciar o rastreamento</string>
 </resources>
