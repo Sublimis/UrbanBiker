@@ -107,6 +107,8 @@
     <string name="menuMeterStop">Stop</string>
     <string name="menuMeterReset">Finish</string>
     <string name="menuMeterResume">Resume</string>
+    <string name="menuPause">Pause</string>
+    <string name="menuCountdown">Countdown</string>
     <string name="menuMeterParameters">Parameters…</string>
     <string name="menuMeterPowerMode">Toggle power mode</string>
     <string name="menuMeterShowValue">Value</string>
@@ -198,7 +200,6 @@
     <string name="toastActiveProfile">Profile: %1$s</string>
     <string name="toastProfileSavingError">Error saving profile data! Please try again.</string>
     <string name="toastProfileChangeError">Could not switch the profile! Please try again.</string>
-    <string name="toastGpsEnabled">GPS turned on</string>
     <string name="toastTrackSaved">Track saved.</string>
     <string name="toastTrackDiscarded">Track discarded.</string>
     <string name="toastTrackSavingError">Error saving track! Try resetting again.</string>
@@ -227,7 +228,7 @@
     <string name="toastTrackDeleted">Tracks deleted</string>
     <string name="toastTrackDeleteError">Error deleting tracks</string>
     <string name="toastTrackResumed">Track resumed</string>
-    <string name="toastTrackResumeGpsActiveError">Please turn off or pause the GPS first</string>
+    <string name="toastTrackResumeGpsActiveError">Please turn off or pause the tracking first</string>
     <string name="toastProfileButtonClickInfo">Long-click to switch profile</string>
     <string name="toastContrastButtonClickInfo">Automatic visual theme is active</string>
     <string name="toastFlashlightButtonClickInfo">Long-click to toggle the flashlight</string>
@@ -314,7 +315,7 @@
     <string name="dialogTracksDeleteMessage">Warning: This action cannot be undone. Delete selected tracks?\n\nTo confirm deletion, enter the following code to continue.</string>
     <string name="dialogTrackDeleteMessage">Warning: This action cannot be undone.\n\nDelete the track %1$s?</string>
     <string name="dialogTrackResumeTitle">Resume track</string>
-    <string name="dialogTrackResumeGpsActiveMessage">Tracking is active. Please turn off or pause the GPS first.</string>
+    <string name="dialogTrackResumeGpsActiveMessage">Tracking is active. Please turn off or pause the tracking first.</string>
     <string name="dialogTrackResumeProfileNotBlankMessage">Target profile %1$s is not blank. Please reset first.</string>
     <string name="dialogTrackResumeProfileSwitchMessage">Active profile will be switched from %1$s to %2$s. Continue?</string>
     <string name="dialogTrackResumeProfileMissingMessage">Profile %1$s which created this track does not exist anymore. Resume in current profile %2$s?</string>
@@ -461,6 +462,9 @@
     <string name="dialogRecButtonRemoveMessage">This will put the Rec button back to the button bar. Continue?</string>
     <string name="dialogLayoutRemoveEntryMessage">Remove this field?</string>
     <string name="dialogEnterCodeMessage">Enter code</string>
+    <string name="dialogTrackingStartPromptTitle">Start?</string>
+    <string name="dialogTrackingResumePromptTitle">Resume?</string>
+    <string name="dialogTrackingStopPromptTitle">Stop?</string>
 
     <!-- dialog_fenceguard_add_entries -->
     <string name="dialog_fenceguard_add_entries_0">Add fence</string>
@@ -624,6 +628,7 @@
     <string name="meterTextMax">max</string>
     <string name="meterTextAvg">avg</string>
     <string name="meterTextTotal">tot</string>
+    <string name="meterTextRelative">rel</string>
 
     <string name="controlPanelSoundAutoBell">Automatic bell</string>
     <string name="controlPanelSoundRoar">AVAS</string>
@@ -643,8 +648,6 @@
     <string name="controlPanelMapShowButtonSubtitle">Click to show the map</string>
     <string name="controlPanelMapHideButtonTitle">Hide map</string>
     <string name="controlPanelMapHideButtonSubtitle">Click to hide the map</string>
-    <string name="controlPanelMapSettingsButtonTitle">Map options</string>
-    <string name="controlPanelMapSettingsButtonSubtitle">Click for map options</string>
     <string name="controlPanelScreenshotButtonTitle">Screenshot</string>
     <string name="controlPanelScreenshotButtonSubtitle">Click to share screenshot</string>
     <string name="controlPanelFlashlight">Flashlight</string>
@@ -736,7 +739,7 @@
     <string name="summaryCadenceStrokesInfo">Number of pedal strokes detected during activity.</string>
     <string name="summarySpecific">Specific</string>
     <string name="summaryMechWork">Mech. work</string>
-    <string name="summaryMechWorkInfo">Purely mechanical work spent for this activity (disregarding thermal efficiency and BMR).</string>
+    <string name="summaryMechWorkInfo">Pure mechanical work expended (disregarding thermal efficiency and BMR).\n\nFor bikes this can be regarded as a measure of chain wear - a standard bicycle chain will last about 100 MJ, for motorcycles about 1 GJ.</string>
     <string name="summaryActivePower">Active power</string>
     <string name="summaryClimbing">Climb</string>
     <string name="summaryClimbingEnergyInfo">Percentage of the energy that was used to overcome gravity.</string>
@@ -749,6 +752,8 @@
     <string name="summaryBasal">Basal</string>
     <string name="summaryBasalEnergyInfo">Percentage of the energy that was used for basal metabolism.</string>
     <string name="summaryVibrations">Vibrations</string>
+    <string name="summaryBraking">Braking</string>
+    <string name="summaryBrakingInfo">Energy extracted by braking.\n\nCan be regarded as brake wear - a pair of standard bicycle disc brake pads will last around 50 MJ, for cars around 5 GJ.</string>
 
     <string name="sensorsTitle">Sensors</string>
     <string name="sensorsTabUsed">Used</string>
@@ -997,8 +1002,8 @@
     <string name="pref_resetPrompt_summary">Prompt to start a new track if the last activity was more than 4 hours ago or in a distant location (recommended)</string>
     <string name="pref_auto_launch_on_gps_title">Auto launch on GPS</string>
     <string name="pref_auto_launch_on_gps_summary">Launch the App (in Passive mode) when GPS activity is detected</string>
-    <string name="pref_passive_gps_button_title">Passive GPS button mode</string>
-    <string name="pref_passive_gps_button_summary">Enable Passive GPS mode when clicking GPS button</string>
+    <string name="pref_passive_gps_button_title">Passive GPS mode</string>
+    <string name="pref_passive_gps_button_summary">Enable Passive GPS mode when clicking the tracking button</string>
     <string name="pref_digital_font_title">Digital font</string>
     <string name="pref_digital_font_summary">Use segmented digital LCD font for meter data display</string>
     <string name="pref_roaring_state_title">AVAS</string>
@@ -1007,7 +1012,7 @@
     <string name="pref_roaring_mode_dialog_title">AVAS mode</string>
     <string name="pref_roaring_mode_summary" translatable="false">@null</string>
     <string name="pref_roaring_constant_mode_title">Constant mode</string>
-    <string name="pref_roaring_constant_mode_summary">Produce constant AVAS sounds at all times, regardless of your movement or GPS state</string>
+    <string name="pref_roaring_constant_mode_summary">Produce constant AVAS sounds at all times, regardless of your movement</string>
     <string name="pref_roar_threshold_speed_title">Threshold speed</string>
     <string name="pref_roar_threshold_speed_info">AVAS will sound only when going faster than the threshold speed. Useful e.g. for downhills.</string>
     <string name="pref_roarConstantModeButton_title">Button toggle</string>
@@ -1142,18 +1147,14 @@
     <string name="pref_mapsFollowAutoZoomSensitivity_title" translatable="false">@string/dialogMapsAutoZoomSensitivity</string>
     <string name="pref_mapsFollowAutoZoomSensitivity_summary" translatable="false">@null</string>
     <string name="pref_mapsFollowAutoZoomSensitivity_info">You can adjust the auto zoom sensitivity on the fly by zooming in or out while tracking</string>
-    <string name="pref_button_profile_show_title">Profile</string>
-    <string name="pref_button_profile_show_summary">Show the Profile button</string>
     <string name="pref_button_map_show_title">Map</string>
     <string name="pref_button_map_show_summary">Show the Map button</string>
-    <string name="pref_button_flashlight_show_title">Flashlight</string>
-    <string name="pref_button_flashlight_show_summary">Show the Flashlight button (if flashlight available)</string>
     <string name="pref_button_contrast_show_title">Contrast/Map layer</string>
     <string name="pref_button_contrast_show_summary">Show the Contrast/Map layer toggle button</string>
-    <string name="pref_button_roar_show_title">AVAS</string>
-    <string name="pref_button_roar_show_summary">Show the AVAS button</string>
     <string name="pref_button_menu_show_title">Menu</string>
     <string name="pref_button_menu_show_summary">Show the Menu button</string>
+    <string name="pref_button_tracking_show_title">Enable</string>
+    <string name="pref_button_tracking_show_summary">Show the Rec button. If disabled, you will need to use the main menu commands to start or stop tracking.</string>
     <string name="pref_meter_lock_title">Lock mode</string>
     <string name="pref_meter_lock_summary">Prevents change of mode on click</string>
     <string name="pref_meter_modes_select_title">Choose available modes…</string>
@@ -1235,6 +1236,10 @@
     <string name="prefAutoTerrainNote1Summary">Device should be held fixed to a vehicle (e.g. on a bike handlebars), and not in a hand or in a pocket while using this.</string>
     <string name="prefAutoTerrainNote2Summary">Powers obtained using a power sensor are not affected by this feature.</string>
     <string name="prefMeterSettingsNoteSummary">More settings are available via a menu accessed by long-clicking on a meter field.</string>
+    <string name="prefTrackingStartPromptTitle">Tracking start prompt</string>
+    <string name="prefTrackingStartPromptSummary">Confirmation dialog before starting tracking</string>
+    <string name="prefTrackingStopPromptTitle">Tracking stop prompt</string>
+    <string name="prefTrackingStopPromptSummary">Confirmation dialog before stopping tracking</string>
     <string name="prefTrackingButtonModeTitle">Alternative behavior</string>
     <string name="prefTrackingButtonModeSummary">(All profiles) Click or long-click for Pause, separate button for Stop.</string>
     <string name="prefGpsBoostNoteSummary">Location updates will always be forced to the highest frequency during navigation</string>
@@ -1247,7 +1252,7 @@
     <string name="prefGpsIntervalAdaptiveSummary">Automatically adjust the GPS update interval between 1 and 5 seconds, depending on speed.</string>
     <string name="prefGpsIntervalAdaptiveNote">Adaptive update intervals can help reduce battery consumption when moving slowly or taking frequent breaks.</string>
     <string name="prefOnlineElevationTitle">Online elevation</string>
-    <string name="prefOnlineElevationSummary">Use elevation data from the Internet to increase altitude baseline accuracy. Enabled by default.</string>
+    <string name="prefOnlineElevationSummary">Use elevation data from the Internet to improve altitude baseline accuracy. Enabled by default.</string>
     <string name="prefOnlineElevationNoteSummary1">To save battery and data, only one elevation point will be acquired from the Internet when you start tracking a new track. This is enough for the rest of the track to have a more accurate altitude baseline.</string>
     <string name="prefOnlineElevationNoteSummary2">If the Internet or the license is not available, the app will continue to work without correcting the altitude.</string>
     <string name="prefOnlineElevationNoteSummary3">This only works if a subscription license is available (Ultimate license, or one of the maps licenses).</string>
@@ -1263,7 +1268,7 @@
     <string name="prefBatteryOptimizationMessage">Urban Biker can be exempted from system battery optimizations, to make it more certain it will continue to work properly when the screen is turned off on older versions of Android. Click here to open the settings now.</string>
 
     <string name="dataStorageTitle">Storage</string>
-    <string name="dataStorageInfo1">It is recommended to use a custom storage location for your tracks and data to prevent accidental data loss if the app is uninstalled, and to make backups easier.</string>
+    <string name="dataStorageInfo1">Custom data storage location is recommended and useful to prevent accidental data loss if the app is uninstalled, and to make backups easier.</string>
     <string name="dataStorageInfo2">When you change the data storage location, the previous app data will be automatically transferred to the new location. This happens in the background and may take some time.\n\nRevoking access leaves the data intact.</string>
     <string name="dataStorageChooseButton">Choose data storage location</string>
     <string name="dataStorageNotSetMessage">The data storage location is not set, please use the button above.\n\nThe app is currently using the default folder for tracks and data.</string>
@@ -1310,7 +1315,7 @@
     <string name="infoMeterModeAccelerationTitle">Acceleration</string>
     <string name="infoMeterModeAccelerationMsg">Rate of change of speed in time.\n\nNegative means deceleration.</string>
     <string name="infoMeterModePowerTitle">Power</string>
-    <string name="infoMeterModePowerMsg">Power exerted during activity, due to drag forces, altitude change, etc.\n\nNegative means power gain, e.g. when going downhill or braking.\n\nWhen in kcal/h or kJ/h, it also takes efficiency and BMR into account.</string>
+    <string name="infoMeterModePowerMsg">Power exerted during activity, due to drag forces, altitude change, etc.\n\nNegative means power gain, e.g. when braking.\n\nWhen in kcal/h or kJ/h, it also takes efficiency and BMR into account.</string>
     <string name="infoMeterModePowerBalanceTitle">Power balance L/R</string>
     <string name="infoMeterModePowerBalanceMsg">Power balance, presented as a fraction of left and right contributions to the total power output.</string>
     <string name="infoMeterModeFuncThresholdPowerTitle">Functional Threshold Power</string>
