@@ -68,7 +68,6 @@
     <string name="toastActiveProfile">Profil: %1$s</string>
     <string name="toastProfileSavingError">Greška pri spremanju podataka profila! Molim pokušajte ponovno.</string>
     <string name="toastProfileChangeError">Neuspješno prebacivanje profila! Molim pokušajte ponovno.</string>
-    <string name="toastGpsEnabled">GPS uključen</string>
     <string name="toastTrackSaved">Staza pohranjena.</string>
     <string name="toastTrackDiscarded">Staza odbačena.</string>
     <string name="toastTrackSavingError">Greška pri pohranjivanju staze! Pokušajte ponovno resetirati.</string>
@@ -96,7 +95,7 @@
     <string name="toastTrackDeleted">Staze obrisane</string>
     <string name="toastTrackDeleteError">Greška pri brisanju staza</string>
     <string name="toastTrackResumed">Staza nastavljena</string>
-    <string name="toastTrackResumeGpsActiveError">Molim najprije ugasite ili pauzirajte GPS</string>
+    <string name="toastTrackResumeGpsActiveError">Prvo isključite ili pauzirajte praćenje</string>
     <string name="toastProfileButtonClickInfo">Dugim klikom prebacite profil</string>
     <string name="toastContrastButtonClickInfo">Automatski vizualna tema je aktivna</string>
     <string name="toastFlashlightButtonClickInfo">Dugim klikom prebacite bljeskalicu</string>
@@ -171,7 +170,7 @@
 \n
 \nObrisati stazu %1$s\?</string>
     <string name="dialogTrackResumeTitle">Nastavi stazu</string>
-    <string name="dialogTrackResumeGpsActiveMessage">Praćenje je aktivno. Molimo prvo ugasite ili pauzirajte GPS.</string>
+    <string name="dialogTrackResumeGpsActiveMessage">Praćenje je aktivno. Prvo isključite ili pauzirajte praćenje.</string>
     <string name="dialogTrackResumeProfileNotBlankMessage">Ciljni profil %1$s nije prazan. Molimo prvo resetirajte.</string>
     <string name="dialogTrackResumeProfileSwitchMessage">Aktivni profil će biti prebačen s %1$s na %2$s. Nastaviti\?</string>
     <string name="dialogTrackResumeProfileMissingMessage">Profil %1$s kojim je kreirana ova staza više ne postoji. Nastaviti u trenutnom profilu %2$s\?</string>
@@ -604,8 +603,8 @@
     <string name="pref_resetPrompt_summary">Zatraži pokretanje nove staze ako je zadnja aktivnost bila prije više od 4 sata ili na udaljenoj lokaciji (preporučeno)</string>
     <string name="pref_auto_launch_on_gps_title">Pokreni kad je GPS aktivan</string>
     <string name="pref_auto_launch_on_gps_summary">Pokreni aplikaciju (u načinu Pasivno) kada se detektira GPS aktivnost</string>
-    <string name="pref_passive_gps_button_title">Pasivni način GPS tipke</string>
-    <string name="pref_passive_gps_button_summary">Omogući pasivni GPS način klikanjem GPS tipke</string>
+    <string name="pref_passive_gps_button_title">Pasivni GPS način</string>
+    <string name="pref_passive_gps_button_summary">Omogući pasivni GPS način kada kliknete gumb za praćenje</string>
     <string name="pref_digital_font_title">Digitalni font</string>
     <string name="pref_digital_font_summary">Koristi segmentirani digitalni LCD font za prikaz podataka mjerača</string>
     <string name="pref_roaring_state_title">AVAS</string>
@@ -613,7 +612,7 @@
     <string name="pref_roaring_mode_title">Način</string>
     <string name="pref_roaring_mode_dialog_title">AVAS način rada</string>
     <string name="pref_roaring_constant_mode_title">Postojani način</string>
-    <string name="pref_roaring_constant_mode_summary">Proizvodi stalne AVAS zvukove u svakom trenutku, bez obzira na vaše kretanje ili stanje GPS-a</string>
+    <string name="pref_roaring_constant_mode_summary">Proizvodi konstantne AVAS zvukove u svakom trenutku, bez obzira na vaše kretanje</string>
     <string name="pref_roar_threshold_speed_title">Prag brzine</string>
     <string name="pref_roar_threshold_speed_info">AVAS će se oglašavati samo dok je brzina veća od praga. Korisno npr. za downhill.</string>
     <string name="pref_roarConstantModeButton_title">Odabir gumbom</string>
@@ -675,15 +674,12 @@
     <string name="pref_maps_offline_terrain_info_summary">Otvoriti web stranicu za preuzimanje na viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Akcija gumba sloja</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">Odaberite što učiniti kada se pritisne gumb sloja</string>
-    <string name="pref_button_profile_show_title">Profil</string>
     <string name="pref_button_profile_show_summary">Prikaži tipku profila</string>
     <string name="pref_button_map_show_title">Mapa</string>
     <string name="pref_button_map_show_summary">Prikaži tipku mape</string>
-    <string name="pref_button_flashlight_show_title">Svjetiljka</string>
     <string name="pref_button_flashlight_show_summary">Prikaži tipku svjetiljke (ako je svjetiljka dostupna)</string>
     <string name="pref_button_contrast_show_title">Kontrast/Sloj mape</string>
     <string name="pref_button_contrast_show_summary">Prikaži tipku za prebacivanje kontrasta/sloja mape</string>
-    <string name="pref_button_roar_show_title">AVAS</string>
     <string name="pref_button_roar_show_summary">Pokaži tipku AVAS</string>
     <string name="pref_button_menu_show_title">Meni</string>
     <string name="pref_button_menu_show_summary">Prikaži tipku menija</string>
@@ -760,10 +756,10 @@
 \n 
 \nNegativno označava deceleraciju.</string>
     <string name="infoMeterModePowerTitle">Snaga</string>
-    <string name="infoMeterModePowerMsg">Snaga izdana zbog sila trenja, promjene visine, itd.
-\n 
-\nNegativno znači dobitak snage, npr. tijekom spusta ili kočenja. 
-\n 
+    <string name="infoMeterModePowerMsg">Snaga izdana zbog sila otpora, promjene nadmorske visine, itd.
+\n
+\nNegativno znači dobitak snage, npr. prilikom kočenja.
+\n
 \nKad su jedinice kcal/h ili kJ/h, također uzima u obzir efikasnost i BMR.</string>
     <string name="infoMeterModeAvgActivePowerTitle">Srednja aktivna snaga</string>
     <string name="infoMeterModeAvgActivePowerMsg">Srednja snaga tijekom aktivnosti, ne računajući vremenske intervale u kojima je snaga bila odsutna (nizbrdica, kočenje, klizanje).</string>
@@ -1214,7 +1210,9 @@
     <string name="summaryHeartBeatsInfo">Broj otkucaja srca tijekom aktivnosti.</string>
     <string name="summaryCadenceStrokesInfo">Broj okreta pedala tijekom aktivnosti.</string>
     <string name="summaryMechWork">Meh. rad</string>
-    <string name="summaryMechWorkInfo">Čisto mehanički rad utrošen na ovu aktivnost (zanemarujući toplinsku učinkovitost i BMR).</string>
+    <string name="summaryMechWorkInfo">Utrošeni čisti mehanički rad (zanemarujući toplinsku učinkovitost i BMR).
+\n
+\nZa bicikle to se može smatrati mjerom istrošenosti lanca - standardni lanac bicikla trajat će oko 100 MJ, za motocikle oko 1 GJ.</string>
     <string name="summaryActivePower">Aktivna snaga</string>
     <string name="infoMeterModeFuncThresholdPowerTitle">Funkcionalna snaga praga</string>
     <string name="infoMeterModeFuncThresholdPowerMsg">Procijenjena maksimalna snaga koja se može održavati u dužim vremenskim razdobljima.
@@ -1222,7 +1220,6 @@
 \nProcjena uvelike ovisi o vrsti i trajanju ove aktivnosti.</string>
     <string name="infoDigitalFilterNotice">Napomena: Ovo ponekad može primjetno kasniti za stvarnim vremenom, zbog neizbježnih odgoda digitalnog filtriranja potrebnih za točnost.</string>
     <string name="meterModes_29">FTP</string>
-    <string name="controlPanelMapSettingsButtonTitle">Opcije karte</string>
     <string name="controlPanelMapSettingsButtonSubtitle">Klik za opcije karte</string>
     <string name="pref_screenWaveDim_title">Zatamni zaslon</string>
     <string name="pref_screenWaveDim_summary">Zaslon će također biti zatamnjen, kako bi se uštedjela baterija</string>
@@ -1586,7 +1583,7 @@
     <string name="prefOnlineElevationNoteSummary2">Ako internet ili licenca nisu dostupni, aplikacija će nastaviti raditi bez ispravljanja nadmorske visine.</string>
     <string name="prefOnlineElevationTitle">Online elevacija</string>
     <string name="prefOnlineElevationNoteSummary3">Ovo funkcionira samo ako je dostupna licenca na pretplatu (Ultimate licenca ili jedna od licenci za karte).</string>
-    <string name="prefOnlineElevationSummary">Upotrijebite podatke o elevaciji s interneta kako biste povećali točnost osnovne linije nadmorske visine. Omogućeno prema zadanim postavkama.</string>
+    <string name="prefOnlineElevationSummary">Upotrijebite podatke o nadmorskoj visini s interneta kako biste poboljšali točnost osnovne visine. Omogućeno prema zadanim postavkama.</string>
     <string name="menuMeterResume">Nastavi</string>
     <string name="controlPanelFlashlight">Svjetiljka</string>
     <string name="menuInsertRecButton">Gumb za snimanje</string>
@@ -1644,7 +1641,7 @@
     <string name="dataStorageTransferInfoStatus">Status: %1$s</string>
     <string name="inProgress">U toku</string>
     <string name="dataStorageTransferInfoSpeed">Brzina: %1$s MB/s (%2$s stavki/s)</string>
-    <string name="dataStorageInfo1">Preporuča se korištenje prilagođene lokacije za pohranu vaših staza i podataka kako biste spriječili slučajni gubitak podataka ako se aplikacija deinstalira, te kako biste olakšali izradu sigurnosnih kopija.</string>
+    <string name="dataStorageInfo1">Prilagođena lokacija za pohranu podataka se preporuča i korisna je za sprječavanje slučajnog gubitka podataka ako se aplikacija deinstalira, te za lakše sigurnosno kopiranje.</string>
     <string name="dataStorageTitle">Pohrana</string>
     <string name="success">Uspjeh</string>
     <string name="dataStorageStatsMessage">%1$s MB
@@ -1672,4 +1669,20 @@
     <string name="subscriptionCancelInfo">Otkažite bilo kada u Pretplatama na Google Playu.</string>
     <string name="infoMeterModeNoneTitle">Bez mjerača</string>
     <string name="infoMeterModeNoneMsg">Ovo prikazuje samo prazan prostor.</string>
+    <string name="dialogTrackingStopPromptTitle">Stop\?</string>
+    <string name="pref_button_tracking_show_summary">Prikaži gumb Rec. Ako je onemogućeno, morat ćete koristiti naredbe glavnog izbornika za pokretanje ili zaustavljanje praćenja.</string>
+    <string name="prefTrackingStartPromptTitle">Upit za početak praćenja</string>
+    <string name="prefTrackingStopPromptTitle">Upit za zaustavljanje praćenja</string>
+    <string name="meterTextRelative">rel</string>
+    <string name="pref_button_tracking_show_title">Omogući</string>
+    <string name="menuPause">Pauza</string>
+    <string name="dialogTrackingResumePromptTitle">Nastaviti\?</string>
+    <string name="summaryBrakingInfo">Energija izvučena kočenjem.
+\n
+\nMože se smatrati trošenjem kočnica - par standardnih pločica za disk kočnice za bicikle trajat će oko 50 MJ, za automobile oko 5 GJ.</string>
+    <string name="menuCountdown">Odbrojavanje</string>
+    <string name="prefTrackingStopPromptSummary">Dijalog potvrde prije zaustavljanja praćenja</string>
+    <string name="summaryBraking">Kočenje</string>
+    <string name="dialogTrackingStartPromptTitle">Start\?</string>
+    <string name="prefTrackingStartPromptSummary">Dijalog potvrde prije početka praćenja</string>
 </resources>
