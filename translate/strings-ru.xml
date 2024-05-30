@@ -69,7 +69,6 @@
     </string>
     <string name="toastProfileSavingError">Ошибка сохранения данных профиля. Попробуйте ещё раз.</string>
     <string name="toastProfileChangeError">Невозможно переключить профиль! Попробуйте ещё раз.</string>
-    <string name="toastGpsEnabled">GPS включён</string>
     <string name="toastTrackSaved">Трек сохранён.</string>
     <string name="toastTrackDiscarded">Трек не сохранён.</string>
     <string name="toastTrackSavingError">Ошибка при сохранении трека! Попробуйте сбросить ещё раз.</string>
@@ -97,7 +96,7 @@
     <string name="toastTrackDeleted">Треки удалены</string>
     <string name="toastTrackDeleteError">Ошибка удаления треков</string>
     <string name="toastTrackResumed">Трек возобновлён</string>
-    <string name="toastTrackResumeGpsActiveError">Сначала отключите или приостановите GPS</string>
+    <string name="toastTrackResumeGpsActiveError">Сначала отключите или приостановите запись трека</string>
     <string name="toastProfileButtonClickInfo">Долгое нажатие переключает профиль</string>
     <string name="toastContrastButtonClickInfo">Автоматическая визуальная тема включена</string>
     <string name="toastFlashlightButtonClickInfo">Долгое нажатие включает фонарик</string>
@@ -172,7 +171,7 @@
 \n 
 \nУдалить трек «%1$s»\?</string>
     <string name="dialogTrackResumeTitle">Возобновить трек</string>
-    <string name="dialogTrackResumeGpsActiveMessage">Идёт запись трека. Сначала отключите или приостановите GPS.</string>
+    <string name="dialogTrackResumeGpsActiveMessage">Идёт запись трека. Сначала отключите или приостановите запись.</string>
     <string name="dialogTrackResumeProfileNotBlankMessage">Указанный профиль «%1$s» не пустой. Сначала сделайте сброс.</string>
     <string name="dialogTrackResumeProfileSwitchMessage">Активный профиль будет переключен с «%1$s» на «%2$s». Продолжить\?</string>
     <string name="dialogTrackResumeProfileMissingMessage">Профиль «%1$s», в котором создан этот трек, больше не существует. Продолжить в текущем профиле «%2$s»\?</string>
@@ -600,7 +599,7 @@
     <string name="pref_auto_launch_on_gps_title">Автозапуск при включении GPS</string>
     <string name="pref_auto_launch_on_gps_summary">Запускать приложение (в пассивном режиме) при включении GPS</string>
     <string name="pref_passive_gps_button_title">Пассивный режим GPS</string>
-    <string name="pref_passive_gps_button_summary">Включить пассивный режим при нажатии кнопки GPS</string>
+    <string name="pref_passive_gps_button_summary">Включить пассивный режим при нажатии кнопки записи трека</string>
     <string name="pref_digital_font_title">Цифровой шрифт</string>
     <string name="pref_digital_font_summary">Использовать сегментированный цифровой шрифт для отображения данных счётчиков</string>
     <string name="pref_roaring_state_title">AVAS</string>
@@ -608,7 +607,7 @@
     <string name="pref_roaring_mode_title">Режим</string>
     <string name="pref_roaring_mode_dialog_title">Режим AVAS</string>
     <string name="pref_roaring_constant_mode_title">Постоянный режим</string>
-    <string name="pref_roaring_constant_mode_summary">Звуки AVAS воспроизводятся непрерывно в независимости от движения или статуса GPS</string>
+    <string name="pref_roaring_constant_mode_summary">Звуки AVAS воспроизводятся непрерывно в независимости от движения</string>
     <string name="pref_roar_threshold_speed_title">Ограничение скорости</string>
     <string name="pref_roarConstantModeButton_title">Кнопка переключения</string>
     <string name="pref_roarConstantModeButton_summary">Переключает в постоянный режим по нажатию кнопки при включённой AVAS</string>
@@ -669,15 +668,12 @@
     <string name="pref_maps_offline_terrain_info_summary">Открыть страницу загрузки сайта viewfinderpanoramas.org.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Действие кнопки «Слои»</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">Выберите, что будет происходить при нажатии кнопки «Слои»</string>
-    <string name="pref_button_profile_show_title">Профиль</string>
     <string name="pref_button_profile_show_summary">Показывать кнопку «Профили»</string>
     <string name="pref_button_map_show_title">Карта</string>
     <string name="pref_button_map_show_summary">Показывать кнопку «Карта»</string>
-    <string name="pref_button_flashlight_show_title">Фонарик</string>
     <string name="pref_button_flashlight_show_summary">Показывать кнопку «Фонарик» (если доступна вспышка)</string>
     <string name="pref_button_contrast_show_title">Контраст/Слои карты</string>
     <string name="pref_button_contrast_show_summary">Показывать кнопку переключения «Контраст»/«Слои карты»</string>
-    <string name="pref_button_roar_show_title">AVAS</string>
     <string name="pref_button_roar_show_summary">Показывать кнопку «AVAS»</string>
     <string name="pref_button_menu_show_title">Меню</string>
     <string name="pref_button_menu_show_summary">Показывать кнопку «Меню»</string>
@@ -981,11 +977,11 @@
     <string name="infoMeterModeAltitudeMsg">Высота над средним уровнем моря (геоид).</string>
     <string name="infoMeterModeSlopeMsg">Уклон (постепенный) — число, описывающее характер рельефа местности, где ноль означает горизонтальную поверхность. Большие числа означают крутой подъём, а отрицательные — спуск.</string>
     <string name="infoMeterModeVerticalSpeedMsg">Скорость подъёма (положительная) или спуска (отрицательная) в вертикальном направлении.</string>
-    <string name="infoMeterModePowerMsg">Потеря или приобретение мощности во время активности из-за смены высоты, сил сопротивлений и т.д.
+    <string name="infoMeterModePowerMsg">Изменение мощности во время активности из-за смены высоты, сил сопротивлений и т.д.
 \n
-\nОтрицательная величина означает приобретение мощности (от гравитации, торможения…).
+\nОтрицательная величина означает приобретение мощности, например, при торможении.
 \n
-\nКогда учёт в ккал/ч или кДж/ч, также принимается в расчёт эффективность и BMR.</string>
+\nПри учёте в ккал/ч или кДж/ч также принимается в расчёт эффективность и BMR.</string>
     <string name="infoMeterModeVerticalPowerMsg">Потеря или приобретение мощности во время подъёма или спуска.
 \n
 \nОтрицательная величина означает потерю мощности (спуск).
@@ -1219,7 +1215,9 @@
     <string name="summaryHeartBeatsInfo">Количество ударов сердца, обнаруженное во время активности.</string>
     <string name="summaryCadenceStrokesInfo">Количество нажиманий педалей, обнаруженное во время активности..</string>
     <string name="summaryMechWork">Механическая работа</string>
-    <string name="summaryMechWorkInfo">Только механическая работа, затраченная на эту активность (без учёта тепловой эффективности и BMR).</string>
+    <string name="summaryMechWorkInfo">Только затраченная механическая работа (без учёта тепловой эффективности и BMR).
+\n
+\nДля мото- и велотранспорта можно расценивать как показатель степени износа цепи: срок службы стандартной цепи велосипедов составляет около 100 МДж, мотоциклов — около 1 ГДж.</string>
     <string name="summaryActivePower">Активная мощность</string>
     <string name="infoMeterModeFuncThresholdPowerTitle">Функциональная пороговая мощность</string>
     <string name="infoMeterModeFuncThresholdPowerMsg">Расчётная максимальная мощность, которая может поддерживаться в течение длительного периода времени.
@@ -1227,7 +1225,6 @@
 \nОценка сильно зависит от вида и продолжительности активности.</string>
     <string name="infoDigitalFilterNotice">Обратите внимание: возможно заметное отставание от реального значения из-за неизбежных задержек цифровой фильтрации, необходимых для обеспечения точности.</string>
     <string name="meterModes_29">Функциональная пороговая мощность</string>
-    <string name="controlPanelMapSettingsButtonTitle">Настройки карты</string>
     <string name="controlPanelMapSettingsButtonSubtitle">Нажмите, чтобы изменить настройки карты</string>
     <string name="pref_screenWaveDim_title">Затемнение экрана</string>
     <string name="pref_screenWaveDim_summary">Также экран будет затемнён для экономии заряда батареи</string>
@@ -1649,7 +1646,7 @@
     <string name="dataStorageTransferInfoStatus">Статус: %1$s</string>
     <string name="inProgress">Выполняется</string>
     <string name="dataStorageTransferInfoSpeed">Скорость: %1$s МБ/с (%2$s объектов/с)</string>
-    <string name="dataStorageInfo1">Рекомендуется выбрать своё место хранения треков и данных, чтобы предотвратить их случайную потерю при удалении приложения и упростить создание резервных копий.</string>
+    <string name="dataStorageInfo1">Рекомендуется использовать своё место хранения треков и данных, чтобы предотвратить их случайную потерю при удалении приложения и упростить создание резервных копий.</string>
     <string name="dataStorageTitle">Хранилище</string>
     <string name="success">Успешно</string>
     <string name="dataStorageStatsMessage">%1$s МБ
@@ -1677,4 +1674,20 @@
     <string name="subscriptionCancelInfo">Подписку можно отменить в любое время в разделе «Подписки» в Google Play.</string>
     <string name="infoMeterModeNoneTitle">Режим без счётчиков</string>
     <string name="infoMeterModeNoneMsg">В этом режиме отображается пустое место.</string>
+    <string name="dialogTrackingStopPromptTitle">Остановить\?</string>
+    <string name="pref_button_tracking_show_summary">Показывать кнопку «Запись». Если отключено, необходимо использовать команды главного меню, чтобы начать или остановить запись трека.</string>
+    <string name="prefTrackingStartPromptTitle">Подтверждение начала записи</string>
+    <string name="prefTrackingStopPromptTitle">Подтверждение остановки записи</string>
+    <string name="meterTextRelative">отн</string>
+    <string name="pref_button_tracking_show_title">Запись</string>
+    <string name="menuPause">Пауза</string>
+    <string name="dialogTrackingResumePromptTitle">Возобновить\?</string>
+    <string name="summaryBrakingInfo">Энергия, выделяемая при торможении.
+\n
+\nМожно расценивать как показатель степени износа тормозов: пара стандартных дисковых тормозных колодок велосипедов прослужит около 50 МДж, легковых автомобилей — около 5 ГДж.</string>
+    <string name="menuCountdown">Отсчёт</string>
+    <string name="prefTrackingStopPromptSummary">Диалоговое окно подтверждения перед остановкой записи трека</string>
+    <string name="summaryBraking">Торможение</string>
+    <string name="dialogTrackingStartPromptTitle">Начать\?</string>
+    <string name="prefTrackingStartPromptSummary">Диалоговое окно подтверждения перед началом записи трека</string>
 </resources>
