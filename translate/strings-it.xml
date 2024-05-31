@@ -95,7 +95,7 @@
     <string name="toastTrackDeleted">Percorsi eliminati</string>
     <string name="toastTrackDeleteError">Errore durante l\'eliminazione dei percorsi</string>
     <string name="toastTrackResumed">Percorso ripreso</string>
-    <string name="toastTrackResumeGpsActiveError">Spegni o metti in pausa prima il GPS</string>
+    <string name="toastTrackResumeGpsActiveError">Spegni o metti in pausa prima il tracciamento</string>
     <string name="toastProfileButtonClickInfo">Tieni premuto per cambiare profilo</string>
     <string name="toastContrastButtonClickInfo">È attivo il tema di visuale automatica</string>
     <string name="toastFlashlightButtonClickInfo">Tieni premuto per attivare/disattivare la luce</string>
@@ -150,7 +150,7 @@
 \n(%4$s) 
 \n 
 \nIl percorso sembra molto breve. Salvarlo\?</string>
-    <string name="dialog_exit_msg">Attenzione: la tracciatura è attiva e sarà fermata.</string>
+    <string name="dialog_exit_msg">Attenzione: il tracciamento è attivo e sarà fermato.</string>
     <string name="dialogProfileDeleteTitle">Elimina il profilo</string>
     <string name="dialogProfileDeleteMessage">Attenzione: questa azione rimuoverà le impostazioni del profilo e i dati dei totali. I percorsi salvati non verranno modificati. 
 \n 
@@ -161,7 +161,7 @@
     <string name="dialogProfileEditTotals">Totali:</string>
     <string name="dialogProfileTotalsResetMessage">Azzerare i totali del profilo\?</string>
     <string name="dialogProfileSwitchTitle">Cambia profilo</string>
-    <string name="dialogProfileSwitchMessage">La tracciatura è attiva. Vuoi davvero passare al profilo %1$s\?%1$s\?</string>
+    <string name="dialogProfileSwitchMessage">Il tracciamento è attivo. Vuoi davvero passare al profilo %1$s\?%1$s\?</string>
     <string name="dialogTracksDeleteTitle">Elimina percorsi</string>
     <string name="dialogTracksDeleteMessage">Attenzione: quest\'azione non può essere annullata. Eliminare i percorsi selezionati\?
 \n
@@ -170,7 +170,7 @@
 \n 
 \nEliminare il percorso %1$s\?</string>
     <string name="dialogTrackResumeTitle">Riprendi percorso</string>
-    <string name="dialogTrackResumeGpsActiveMessage">La tracciatura è attiva. Spegni o metti in pausa prima il GPS.</string>
+    <string name="dialogTrackResumeGpsActiveMessage">Il tracciamento è attivo. Spegni o metti in pausa prima il tracciamento.</string>
     <string name="dialogTrackResumeProfileNotBlankMessage">Il profilo di destinazione %1$s non è vuoto. Prima azzeralo.</string>
     <string name="dialogTrackResumeProfileSwitchMessage">Il profilo attivo passerà da %1$s a %2$s. Continuare\?</string>
     <string name="dialogTrackResumeProfileMissingMessage">Il profilo %1$s che ha creato questo percorso non esiste più. Riprendere nell\'attuale profilo %2$s\?</string>
@@ -504,8 +504,8 @@
     <string name="pref_category_stationary_exercise_title">Attività da fermo</string>
     <string name="pref_category_autopause_title">Pausa automatica</string>
     <string name="pref_category_resetPrompt_title">Azzera suggerimento</string>
-    <string name="pref_category_tracking_title">Registrazione</string>
-    <string name="pref_category_tracking_gps_title">Registrazione / GPS</string>
+    <string name="pref_category_tracking_title">Tracciamento</string>
+    <string name="pref_category_tracking_gps_title">Tracciamento / GPS</string>
     <string name="pref_category_bell_title">Campanello</string>
     <string name="pref_category_roaring_title">AVAS</string>
     <string name="pref_category_roaringConstantMode_title">Modalità costante</string>
@@ -598,13 +598,13 @@
     <string name="pref_duck_roaring_on_bell_title">Abbassa AVAS al suono del campanello</string>
     <string name="pref_duck_roaring_on_bell_summary">Abbassa il volume dei suoni AVAS quando suona il campanello</string>
     <string name="pref_relaunchAfterReboot_title">Riavvia dopo il riavvio</string>
-    <string name="pref_relaunchAfterReboot_summary">(Tutti i profili) Riprendi la registrazione dopo un riavvio forzato del dispositivo, se la batteria è non meno del 10%</string>
+    <string name="pref_relaunchAfterReboot_summary">(Tutti i profili) Riprendi il tracciamento dopo un riavvio forzato del dispositivo, se la batteria è non meno del 10%</string>
     <string name="pref_resetPrompt_title">Azzera suggerimento</string>
     <string name="pref_resetPrompt_summary">Suggerisce l\'inizio di un nuovo percorso se l\'ultima attività è stata più di quattro ore fa o in una posizione distante (raccomandato)</string>
     <string name="pref_auto_launch_on_gps_title">Avvio automatico con GPS</string>
     <string name="pref_auto_launch_on_gps_summary">Avvia l\'app (in modo passivo) quando viene rilevata attività GPS</string>
-    <string name="pref_passive_gps_button_title">Modo pulsante GPS passivo</string>
-    <string name="pref_passive_gps_button_summary">Attiva il modo GPS passivo quando premi il pulsante GPS</string>
+    <string name="pref_passive_gps_button_title">Modo GPS passivo</string>
+    <string name="pref_passive_gps_button_summary">Attiva il modo GPS passivo quando premi il pulsante per il tracciamento</string>
     <string name="pref_digital_font_title">Carattere digitale</string>
     <string name="pref_digital_font_summary">Usa il carattere LCD digitale segmentato per la visualizzazione dei dati del contatore</string>
     <string name="pref_roaring_state_title">Suono AVAS</string>
@@ -612,7 +612,7 @@
     <string name="pref_roaring_mode_title">Modo</string>
     <string name="pref_roaring_mode_dialog_title">Modalità AVAS</string>
     <string name="pref_roaring_constant_mode_title">Modalità costante</string>
-    <string name="pref_roaring_constant_mode_summary">Produce un suono AVAS costante sempre, a prescindere dal movimento o dallo stato del GPS</string>
+    <string name="pref_roaring_constant_mode_summary">Produce un suono AVAS costante sempre, a prescindere dal movimento</string>
     <string name="pref_roar_threshold_speed_title">Limite di velocità</string>
     <string name="pref_roar_threshold_speed_info">AVAS suonerà solo se oltrepassi il limite di velocità. Utile, per es., per le discese.</string>
     <string name="pref_roarConstantModeButton_title">Pulsante di attivazione</string>
@@ -758,7 +758,7 @@
     <string name="infoMeterModePowerTitle">Potenza</string>
     <string name="infoMeterModePowerMsg">Potenza esercitata durante l\'attività da forze aerodinamiche, cambio di altitudine, ecc.
 \n
-\nNegativa indica guadagno di potenza, per es. quando sei in discesa o in frenata.
+\nNegativa indica guadagno di potenza, per es. durante la frenata.
 \n
 \nSe in kcal/h o kJ/h, considera anche efficienza e MB.</string>
     <string name="infoMeterModeAvgActivePowerTitle">Potenza attiva media</string>
@@ -874,7 +874,7 @@
     <string name="pref_wakelock_modes_3">Spento</string>
     <!-- pref_wakelock_modes_explanation -->
     <string name="pref_wakelock_modes_explanation_0">Scelta automatica basata su intervallo di aggiornamento GPS e altri fattori</string>
-    <string name="pref_wakelock_modes_explanation_1">Mantieni la CPU attiva durante la tracciatura. Usa più batteria ma assicura l\'aggiornamento completo delle posizioni.</string>
+    <string name="pref_wakelock_modes_explanation_1">Mantieni la CPU attiva durante il tracciamento. Usa più batteria ma assicura l\'aggiornamento completo delle posizioni.</string>
     <string name="pref_wakelock_modes_explanation_2">Permetti alla CPU di disattivarsi tra un aggiornamento e l\'altro della posizione. Usa meno batteria ma rare volte non assicura l\'aggiornamento completo delle posizioni.</string>
     <string name="pref_wakelock_modes_explanation_3">Rispetta il comportamento imposto dal sistema e/o da altre applicazioni. Può causare frequenti aggiornamenti irregolari della posizione o anche rifiutarli tutti. Non consigliato.</string>
     <!-- pref_locationProvider_modes -->
@@ -1089,8 +1089,8 @@
     <string name="pref_soundeffects_tally_clock_dialog_title">Conteggio orologio</string>
     <string name="pref_speechProfileName_title">Nome profilo</string>
     <string name="pref_speechProfileName_summary">(Tutti i profili) Pronuncia il nome profilo al cambio di profilo</string>
-    <string name="pref_speechTrackingStatus_title">Registrazione</string>
-    <string name="pref_speechTrackingStatus_summary">Avviso vocale quando si avvia, si ferma e si mette in pausa la registrazione</string>
+    <string name="pref_speechTrackingStatus_title">Tracciamento</string>
+    <string name="pref_speechTrackingStatus_summary">Avviso vocale quando si avvia, si ferma e si mette in pausa il tracciamento</string>
     <string name="pref_speechTallies_title">Conteggi</string>
     <string name="pref_speechTallies_summary">Pronuncia i conteggi</string>
     <string name="pref_speechToasts_title">Note brevi</string>
@@ -1210,7 +1210,9 @@
     <string name="summaryHeartBeatsInfo">Numero di battiti cardiaci rilevati durante l\'attività.</string>
     <string name="summaryCadenceStrokesInfo">Numero di pedalate rilevate durante l\'attività.</string>
     <string name="summaryMechWork">Lavoro meccanico</string>
-    <string name="summaryMechWorkInfo">Lavoro meccanico puro speso per questa attività (non considerando l\'efficienza termica e il MB).</string>
+    <string name="summaryMechWorkInfo">Lavoro meccanico puro speso (non considerando l\'efficienza termica e il MB).
+\n
+\nPer le moto/biciclette può essere considerata come una misura dell\'usura della catena: una catena standard di bicicletta durerà circa 100 MJ, una di moto circa 1 GJ.</string>
     <string name="summaryActivePower">Potenza attiva</string>
     <string name="infoMeterModeFuncThresholdPowerTitle">Potenza alla soglia funzionale</string>
     <string name="infoMeterModeFuncThresholdPowerMsg">Potenza massima stimata percorribile per periodi più lunghi.
@@ -1326,7 +1328,7 @@
     <string name="prefMapDiskCacheAgeEntries_0">1 giorno</string>
     <string name="prefMapDiskCacheAgeEntries_2">10 giorni (predefinito)</string>
     <string name="prefGnssActivityRecognitionTitle">Riduci disturbo GPS</string>
-    <string name="prefGnssAutomaticSleepSummary">Disattiva automaticamente la posizione mentre si è fermi e la riattiva quando si riparte. Ciò riduce l\'uso della batteria durante le pause più lunghe, senza dover interrompere il percorso.</string>
+    <string name="prefGnssAutomaticSleepSummary">Disattiva automaticamente la posizione mentre si è fermi e la riattiva quando si riparte. Ciò riduce l\'uso della batteria durante le pause più lunghe, senza dover interrompere il tracciamento.</string>
     <string name="prefMapDiskCacheAgeEntries_1">5 giorni</string>
     <string name="prefMapDiskCacheAgeEntries_3">15 giorni</string>
     <string name="pref_mapsShowAttribution_title">Assegnazione</string>
@@ -1551,18 +1553,18 @@
     <string name="toastSteadyScreenModeActive">Stabilizzazione schermo attivata</string>
     <string name="prefSteadyScreenModeOff">Spento</string>
     <string name="toastSteadyScreenModeIntelligentActive">Stabilizzazione intelligente schermo attivata</string>
-    <string name="prefSteadyScreenModeOnInfo">Mantieni la funzionalità di stabilizzazione dello schermo sempre attiva durante il percorso. Il consumo della batteria è maggiore quando lo schermo è acceso.</string>
+    <string name="prefSteadyScreenModeOnInfo">Mantieni la funzionalità di stabilizzazione dello schermo sempre attiva durante il tracciamento. Il consumo della batteria è maggiore quando lo schermo è acceso.</string>
     <string name="prefSteadyScreenModeAuto">Intelligente attivato (predefinito)</string>
     <string name="toastSteadyScreenModeOff">Stabilizzazione schermo disattivata</string>
     <string name="prefSteadyScreenTitle">Stabilizzatore schermo</string>
-    <string name="prefSteadyScreenModeAutoInfo">Attiva la funzionalità di stabilizzazione dello schermo solo su terreni accidentati durante il percorso. È un buon compromesso tra comfort e uso della batteria.</string>
+    <string name="prefSteadyScreenModeAutoInfo">Attiva la funzionalità di stabilizzazione dello schermo solo su terreni accidentati durante il tracciamento. È un buon compromesso tra comfort e uso della batteria.</string>
     <string name="prefSteadyScreenModeOffInfo">Non attivare mai la funzionalità di stabilizzazione dello schermo</string>
     <string name="prefSteadyScreenNote1">Questa funzionalità aiuta a migliorare la visione dello schermo quando sei in movimento. L\'immagine sullo schermo viene stabilizzata mediante applicazione di piccoli e rapidi movimenti che tentano di controbilanciare le vibrazioni esterne.</string>
     <string name="prefSteadyScreenModeOn">Attivata</string>
     <string name="pref_mapsLayerHeatmap_info">Può aiutarti a scoprire nuovi luoghi di attività, soprattutto nelle regioni remote.</string>
     <string name="dialogMapsAutoZoomSensitivity">Sensibilità zoom automatico</string>
     <string name="dialogMapsShowHeatmap">Mappa di calore</string>
-    <string name="pref_mapsFollowAutoZoomSensitivity_info">Puoi regolare al volo la sensibilità dello zoom automatico ingrandendo o riducendo durante il tragitto</string>
+    <string name="pref_mapsFollowAutoZoomSensitivity_info">Puoi regolare al volo la sensibilità dello zoom automatico ingrandendo o riducendo durante il tracciamento</string>
     <string name="pref_mapsLayerHeatmap_summary">Mostra le attività pubbliche aggregate dell\'ultimo anno (da Strava)</string>
     <string name="pref_mapsLayerHeatmap_title">Mappa di calore</string>
     <string name="infoMeterModePowerBalanceTitle">Bilanciamento potenza S/D</string>
@@ -1639,7 +1641,7 @@
     <string name="dataStorageTransferInfoStatus">Stato: %1$s</string>
     <string name="inProgress">In elaborazione</string>
     <string name="dataStorageTransferInfoSpeed">Velocità: %1$s MB/s (%2$s elementi/s)</string>
-    <string name="dataStorageInfo1">Si consiglia di utilizzare una posizione di salvataggio personalizzata per i tuoi percorsi e i dati, al fine di evitare la loro perdita accidentale nel caso in cui l\'app venga disinstallata e per facilitare la creazione delle copie di sicurezza.</string>
+    <string name="dataStorageInfo1">Si consiglia di utilizzare una posizione di salvataggio personalizzata dei dati al fine di evitare la loro perdita accidentale nel caso in cui l\'app venga disinstallata e per facilitare la creazione delle copie di sicurezza.</string>
     <string name="dataStorageTitle">Salvataggio</string>
     <string name="success">Riuscito</string>
     <string name="dataStorageStatsMessage">%1$s MB
@@ -1668,19 +1670,19 @@
     <string name="infoMeterModeNoneTitle">Nessuna modalità contatore</string>
     <string name="infoMeterModeNoneMsg">Mostra solo lo spazio vuoto.</string>
     <string name="dialogTrackingStopPromptTitle">Fermare\?</string>
-    <string name="pref_button_tracking_show_summary">Mostra il pulsante Registra. Se disabilitato, dovrai utilizzare i comandi del menu principale per avviare o interrompere il monitoraggio.</string>
-    <string name="prefTrackingStartPromptTitle">Richiesta di avvio del monitoraggio</string>
-    <string name="prefTrackingStopPromptTitle">Richiesta di interruzione del monitoraggio</string>
+    <string name="pref_button_tracking_show_summary">Mostra il pulsante Registra. Se disabilitato, dovrai utilizzare i comandi del menu principale per avviare o interrompere il tracciamento.</string>
+    <string name="prefTrackingStartPromptTitle">Richiesta di avvio del tracciamento</string>
+    <string name="prefTrackingStopPromptTitle">Richiesta di interruzione del tracciamento</string>
     <string name="meterTextRelative">rel</string>
-    <string name="pref_button_tracking_show_title">Abilitare</string>
+    <string name="pref_button_tracking_show_title">Attiva</string>
     <string name="menuPause">Pausa</string>
     <string name="dialogTrackingResumePromptTitle">Riprendere\?</string>
     <string name="summaryBrakingInfo">Energia estratta dalla frenata.
 \n
-\nPuò essere considerata un\'usura dei freni: una coppia di pastiglie per freni a disco standard per biciclette durerà circa 50 MJ, per le auto circa 5 GJ.</string>
+\nPuò essere considerata un\'usura dei freni: una coppia di pastiglie per freni a disco standard per biciclette durerà circa 50 MJ, una di auto circa 5 GJ.</string>
     <string name="menuCountdown">Conto alla rovescia</string>
-    <string name="prefTrackingStopPromptSummary">Finestra di dialogo di conferma prima di interrompere il monitoraggio</string>
+    <string name="prefTrackingStopPromptSummary">Finestra di dialogo di conferma prima di interrompere il tracciamento</string>
     <string name="summaryBraking">Frenata</string>
     <string name="dialogTrackingStartPromptTitle">Inizio\?</string>
-    <string name="prefTrackingStartPromptSummary">Finestra di dialogo di conferma prima di iniziare il monitoraggio</string>
+    <string name="prefTrackingStartPromptSummary">Finestra di dialogo di conferma prima di iniziare il tracciamento</string>
 </resources>
