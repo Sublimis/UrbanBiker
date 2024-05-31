@@ -603,8 +603,8 @@
     <string name="pref_resetPrompt_summary">Avisar para iniciar um novo percurso, se a última atividade foi há mais de 4 horas ou em um local distante (recomendado)</string>
     <string name="pref_auto_launch_on_gps_title">Iniciação automática no GPS</string>
     <string name="pref_auto_launch_on_gps_summary">Iniciar a aplicação (no modo passivo) quando detectada atividade do GPS</string>
-    <string name="pref_passive_gps_button_title">Botão de GPS em modo passivo</string>
-    <string name="pref_passive_gps_button_summary">Ativar o modo passivo do GPS quando clicar no botão do GPS</string>
+    <string name="pref_passive_gps_button_title">GPS em modo passivo</string>
+    <string name="pref_passive_gps_button_summary">Ativar o modo passivo do GPS quando clicar no botão de iniciar</string>
     <string name="pref_digital_font_title">Fonte digital</string>
     <string name="pref_digital_font_summary">Usar a fonte digital segmentada do LCD para exibição de dados do mostrador</string>
     <string name="pref_roaring_state_title">SAAV</string>
@@ -612,7 +612,7 @@
     <string name="pref_roaring_mode_title">Modo</string>
     <string name="pref_roaring_mode_dialog_title">Modo de SAAV</string>
     <string name="pref_roaring_constant_mode_title">Modo constante</string>
-    <string name="pref_roaring_constant_mode_summary">Produzir sempre sons de SAAV constantes, independentemente do movimento ou do estado do GPS</string>
+    <string name="pref_roaring_constant_mode_summary">Produzir sempre sons de SAAV constantes, independentemente do movimento</string>
     <string name="pref_roar_threshold_speed_title">Velocidade limite</string>
     <string name="pref_roar_threshold_speed_info">O som de SAAV soará unicamente quando estiver a andar mais rápido que a velocidade limite. Útil por exemplo em descidas.</string>
     <string name="pref_roarConstantModeButton_title">Botão de alternância</string>
@@ -758,7 +758,7 @@
     <string name="infoMeterModePowerTitle">Potência</string>
     <string name="infoMeterModePowerMsg">Potência exercida durante a atividade, devido a forças de atrito, mudança de altitude, etc.
 \n
-\nNegativo significa ganho de Potência, por exemplo em descida ou ao travar.
+\nNegativo significa ganho de Potência, por exemplo ao travar.
 \n
 \nQuando em Kcal/h ou KJ/h, também tem em conta a Eficiência e a TMB.</string>
     <string name="infoMeterModeAvgActivePowerTitle">Potência Ativa Média</string>
@@ -1210,7 +1210,9 @@
     <string name="summaryHeartBeatsInfo">Número de batimentos cardíacos detetados durante a atividade.</string>
     <string name="summaryCadenceStrokesInfo">Número de pedaladas detetadas durante a atividade.</string>
     <string name="summaryMechWork">Trabalho Mecânico</string>
-    <string name="summaryMechWorkInfo">Trabalho puramente mecânico gasto para esta atividade (desconsiderando a eficiência térmica e a TMB).</string>
+    <string name="summaryMechWorkInfo">Trabalho puramente mecânico gasto (desconsiderando a eficiência térmica e a TMB).
+\n
+\nPara bicicletas isto pode ser considerado como uma medida do desgaste da corrente - uma corrente de bicicleta padrão dura cerca de 100 MJ, para motos cerca de 1 GJ.</string>
     <string name="summaryActivePower">Potência Ativa</string>
     <string name="infoMeterModeFuncThresholdPowerTitle">FTP - Limiar Funcional de Potência</string>
     <string name="infoMeterModeFuncThresholdPowerMsg">Potência máxima estimada que pode ser mantida por longos períodos de tempo. 
@@ -1581,7 +1583,7 @@
     <string name="prefOnlineElevationNoteSummary2">Se a Internet ou a licença não estiverem disponíveis, a aplicação continuará a funcionar sem corrigir a altitude.</string>
     <string name="prefOnlineElevationTitle">Elevação online</string>
     <string name="prefOnlineElevationNoteSummary3">Isto só funciona se uma licença de assinatura estiver disponível (licença Ultimate ou uma das licenças de mapas).</string>
-    <string name="prefOnlineElevationSummary">Usar dados de elevação da Internet para aumentar a precisão da linha de base da altitude. Ativado por padrão.</string>
+    <string name="prefOnlineElevationSummary">Usar dados de elevação da Internet para melhorar a precisão da linha de base da altitude. Ativado por padrão.</string>
     <string name="menuMeterResume">Retomar</string>
     <string name="controlPanelFlashlight">Lanterna</string>
     <string name="dialogRecButtonInsertMessage">Isto irá inserir o Botão de Gravação aqui e vai removê-lo da barra de botões. Continuar\?</string>
@@ -1639,7 +1641,7 @@
     <string name="dataStorageTransferInfoStatus">Estado: %1$s</string>
     <string name="inProgress">Em processamento</string>
     <string name="dataStorageTransferInfoSpeed">Velocidade: %1$s MB/s (%2$s itens/s)</string>
-    <string name="dataStorageInfo1">É recomendado usar um local de armazenamento personalizado para os seus percursos e dados para evitar perda acidental de dados se a aplicação for desinstalada e para facilitar os backups.</string>
+    <string name="dataStorageInfo1">Um local de armazenamento de dados personalizado é recomendado e útil para evitar perda acidental de dados se a aplicação for desinstalada e para facilitar os backups.</string>
     <string name="dataStorageTitle">Armazenamento</string>
     <string name="success">Sucesso</string>
     <string name="dataStorageStatsMessage">%1$s MB
@@ -1666,21 +1668,21 @@
     <string name="dataStorageTransferInfoTitle">Última alteração</string>
     <string name="subscriptionCancelInfo">Cancele a qualquer momento em Assinaturas no Google Play.</string>
     <string name="infoMeterModeNoneTitle">Sem modo medidor</string>
-    <string name="infoMeterModeNoneMsg">Isso mostra apenas o espaço vazio.</string>
+    <string name="infoMeterModeNoneMsg">Mostra apenas espaço vazio.</string>
     <string name="dialogTrackingStopPromptTitle">Parar\?</string>
-    <string name="pref_button_tracking_show_summary">Mostre o botão Rec. Se desativado, você precisará usar os comandos do menu principal para iniciar ou parar o rastreamento.</string>
-    <string name="prefTrackingStartPromptTitle">Alerta de início de rastreamento</string>
-    <string name="prefTrackingStopPromptTitle">Alerta de parada de rastreamento</string>
-    <string name="meterTextRelative">Relativ.</string>
+    <string name="pref_button_tracking_show_summary">Mostrar o botão Rec. Se desativado, você precisará usar os comandos do menu principal para iniciar ou parar o registo.</string>
+    <string name="prefTrackingStartPromptTitle">Alerta de início de registo</string>
+    <string name="prefTrackingStopPromptTitle">Alerta de paragem de registo</string>
+    <string name="meterTextRelative">Relativo</string>
     <string name="pref_button_tracking_show_title">Habilitar</string>
     <string name="menuPause">Pausa</string>
     <string name="dialogTrackingResumePromptTitle">Retomar\?</string>
     <string name="summaryBrakingInfo">Energia extraída pela travagem.
 \n
-\nPode ser considerado desgaste dos freios - um par de pastilhas de freio a disco de bicicleta padrão dura cerca de 50 MJ, para carros cerca de 5 GJ.</string>
-    <string name="menuCountdown">Contagem decrescente</string>
-    <string name="prefTrackingStopPromptSummary">Caixa de diálogo de confirmação antes de interromper o rastreamento</string>
-    <string name="summaryBraking">Frenagem</string>
+\nPode ser considerado desgaste dos travões - um par de pastilhas de travão a disco de bicicleta padrão dura cerca de 50 MJ, para carros cerca de 5 GJ.</string>
+    <string name="menuCountdown">Contagem Decrescente</string>
+    <string name="prefTrackingStopPromptSummary">Caixa de diálogo de confirmação antes de interromper o registo</string>
+    <string name="summaryBraking">Travagem</string>
     <string name="dialogTrackingStartPromptTitle">Iniciar\?</string>
-    <string name="prefTrackingStartPromptSummary">Caixa de diálogo de confirmação antes de iniciar o rastreamento</string>
+    <string name="prefTrackingStartPromptSummary">Caixa de diálogo de confirmação antes de iniciar o registo</string>
 </resources>
