@@ -85,7 +85,7 @@
     <string name="toastProfilesListProfileUpdated">Profil güncellendi</string>
     <string name="toastTrackDeleted">Kayıt silindi</string>
     <string name="toastTrackResumed">Kayıt devam ediyor</string>
-    <string name="toastTrackResumeGpsActiveError">Lütfen devam etmeden önce GPS\'i duraklatın veya durdurun</string>
+    <string name="toastTrackResumeGpsActiveError">Lütfen önce kaydı duraklatın veya durdurun</string>
     <string name="toastContrastButtonClickInfo">Otomatik görsel tema aktif</string>
     <string name="toastFlashlightButtonClickInfo">Işık için uzun tıkla</string>
     <string name="toastRoarButtonClickInfo">Sesli Uyarı\'yı açıp kapatmak için uzun tıklayın</string>
@@ -139,7 +139,7 @@
 \n
 \n%1$s\? isimli rotayı silmek istediğinizden emin misiniz\?</string>
     <string name="dialogTrackResumeTitle">Devam et</string>
-    <string name="dialogTrackResumeGpsActiveMessage">Rota kaydediliyor. Lütfen devam etmeden önce GPS\'i duraklatın veya durdurun.</string>
+    <string name="dialogTrackResumeGpsActiveMessage">Rota kaydediliyor. Lütfen devam etmeden önce kaydı duraklatın veya durdurun.</string>
     <string name="dialogTrackResumeGeneralErrorMessage">Hata. Lütfen tekrar deneyin.</string>
     <string name="dialogTrackResumeWaitMessage">Devam ediliyor, lütfen bekleyin…</string>
     <string name="dialogTracksShareTitle">Rotaları paylaş</string>
@@ -168,7 +168,7 @@
     <string name="dialogPowerParamsTitle">Güç kaybı katsayısı</string>
     <string name="dialogPowerParamsDragArea">Havayla sürtünme alanı (Cd·A)</string>
     <string name="dialogPowerParamsRollResist">Dönüş sürtünme katsayısı.(Cᵣᵣ)</string>
-    <string name="dialogEnergyParamsBmr">Bazal metabolizma oranı (BMR)</string>
+    <string name="dialogEnergyParamsBmr">Bazal metabolizma hızı (BMH)</string>
     <string name="dialogFileChooseSelectFolder">Bu dosyayı seç</string>
     <string name="dialogMapsDownloadTitle">Çevrimdışı harita indir</string>
     <string name="dialogMapsDownloadText">Harita indirme sayfasını şimdi aç\?</string>
@@ -377,7 +377,7 @@
     <string name="pref_auto_launch_on_gps_title">GPS ile başlat</string>
     <string name="pref_auto_launch_on_gps_summary">GPS açılınca uygulamayı da açar (pasif modda)</string>
     <string name="pref_passive_gps_button_title">Pasif GPS modu</string>
-    <string name="pref_passive_gps_button_summary">GPS butonuna tıkladığında GPS \'i pasif moda al</string>
+    <string name="pref_passive_gps_button_summary">Kayıt butonuna tıklandığında pasif GPS modunu aç</string>
     <string name="pref_digital_font_title">Dijital Yazı</string>
     <string name="pref_digital_font_summary">Sayaç verilerini görüntülerken dijital LCD yazı tipini kullanın</string>
     <string name="pref_roaring_mode_title">Mod</string>
@@ -824,7 +824,7 @@
     <string name="pref_roaring_state_title">Sesli Uyarı</string>
     <string name="pref_roaring_state_summary">Siz hareket ederken uyarı sesleri çıkarır</string>
     <string name="pref_roaring_constant_mode_title">Sabit mod</string>
-    <string name="pref_roaring_constant_mode_summary">Hareketiniz veya GPS durumunuzdan bağımsız olarak sürekli uyarı sesleri üretir</string>
+    <string name="pref_roaring_constant_mode_summary">Hareketinizden bağımsız olarak sürekli uyarı sesleri üretir</string>
     <string name="pref_roar_threshold_speed_title">Eşik hızı</string>
     <string name="pref_roar_threshold_speed_info">Uyarı sesleri yalnızca eşik hızından daha hızlı giderken çalacaktır. Faydalı örn. Yokuş aşağı.</string>
     <string name="pref_roarConstantModeButton_title">Geçiş</string>
@@ -889,7 +889,7 @@
     <string name="infoMeterModeDurationMsg">Yolculuk süresi (muhtemelen durma ve duraklamalar hariç).</string>
     <string name="infoMeterModeElapsedTitle">Geçen Süre</string>
     <string name="infoMeterModeElapsedMsg">Geçen süre, duraklamaları içerir fakat durdurmaları içermez.</string>
-    <string name="infoMeterModeEnergyMsg">Verimlilik ve BMR dikkate alınarak hesaplanan, rotada harcanan toplam enerji.</string>
+    <string name="infoMeterModeEnergyMsg">Verimlilik ve BMH dikkate alınarak hesaplanan rotada harcanmış toplam enerji.</string>
     <string name="infoMeterModeEfficacyMsg">Harcanan enerjinin bir kısmı, ortalama hıza yakın sabit bir hızda gidildiğinde aynı gezintiyi yapmak için yeterli olabilir. Ortalama hız ne kadar yüksekse o kadar iyidir.</string>
     <string name="infoMeterModeAscentMsg">Birikimli yükseklik kazancı (tırmanış).</string>
     <string name="infoMeterModeDescentMsg">Birikimli yükseklik kaybı(iniş).</string>
@@ -903,9 +903,9 @@
 \nNegatif olması yavaşlama anlamına gelir.</string>
     <string name="infoMeterModePowerMsg">Aktivite sırasında sarfedilen güç (sürükleme kuvveti, yükseklik değişikliği vs. nedeniyle)
 \n
-\nNegatif olması güç kazancı anlamına gelir örneğin yokuş aşağı ya da frenlemede.
+\nNegatif olması güç kazancı anlamına gelir örneğin frenlemede.
 \n
-\nKcal/h veya kJ/h , hesaplamalarında verimliliği ve BMH\'yi de dikkate alır.</string>
+\nKcal/h veya kJ/h hesaplamalarında verimliliği ve BMH\'nı da dikkate alır.</string>
     <string name="infoMeterModeAvgActivePowerTitle">Ortalama Aktif Güç</string>
     <string name="infoMeterModeAvgActivePowerMsg">Aktivite sırasında harcanan ortalama güç, gücün olmadığı veya çok küçük olduğu zaman aralıklarını saymaz(yokuş aşağı, frenleme).</string>
     <string name="infoMeterModeVerticalPowerTitle">Tırmanma Gücü</string>
@@ -1261,7 +1261,9 @@
     <string name="summaryEfficiencyInfo">Pistin güç merkezinin genel termal verimliliği.</string>
     <string name="summaryDragAreaInfo">Hava sürükleme alanı (Cd·A).</string>
     <string name="summaryMechWork">Mek. iş</string>
-    <string name="summaryMechWorkInfo">Bu aktivite için harcanan tamamen mekanik iş (termal verimlilik ve BMR göz ardı edilerek).</string>
+    <string name="summaryMechWorkInfo">Kullanılmış saf mekanik iş (termal verimlilik ve BMH göz ardı edilerek).
+\n
+\nBisiklet için bu zincir aşınması ölçütü olarak değerlendirilebilir - standart bir zincir 100 MJ kadar dayanabilir, motorlar için ise bu değer 1 GJ kadardır.</string>
     <string name="meterModes_29">FT gücü</string>
     <string name="cloudAccountsPowerUploadPolicyTitle">Güç verisi yükleme politikası</string>
     <string name="cloudAccountsPowerUploadPolicy_1">Güç verilerini yalnızca güç ölçer kullanıldığında karşıya yükleyin</string>
@@ -1481,7 +1483,7 @@
     <string name="sensorProperitesNoAlarm">Alarm verme</string>
     <string name="prefTrackingButtonModeTitle">Alternatif davranış</string>
     <string name="navigationContinue">Devam et</string>
-    <string name="summaryRollResistCoefAverageInfo">Etkinlik sırasında katsayı değişiyorsa ortalama yuvarlanma direnci katsayısı.</string>
+    <string name="summaryRollResistCoefAverageInfo">Ortalama yuvarlanma direnci katsayısı(katsayı etkinlik sırasında değişikliğe uğradığında).</string>
     <string name="navigationAvoidTolls">Geçiş ücretlerinden kaçın</string>
     <string name="menuNarrow">Daralt</string>
     <string name="toastSteadyScreenModeOff">Ekran sabitleme devre dışı bırakıldı</string>
@@ -1611,7 +1613,7 @@
     <string name="dialogLayoutRemoveEntryMessage">Bu alan kaldırılsın mı\?</string>
     <string name="dataStorageTransferInfoSpeed">Hız: %1$s MB/sn (%2$s öğe/sn)</string>
     <string name="speechUnitFourMeters">Metre</string>
-    <string name="dataStorageInfo1">Uygulamanın kaldırılması durumunda kazara veri kaybını önlemek ve yedeklemeleri kolaylaştırmak amacıyla rotalarınız ve verileriniz için özel bir depolama konumu kullanmanız önerilir.</string>
+    <string name="dataStorageInfo1">Uygulamanın kaldırılması durumunda kazara veri kaybını önlemek ve yedeklemeleri kolaylaştırmak için özel bir depolama konumu kullanmanız tavsiye edilir.</string>
     <string name="dataStorageTitle">Depolama</string>
     <string name="success">Başarılı</string>
     <string name="dataStorageStatsMessage">%1$s MB
@@ -1629,11 +1631,11 @@
     <string name="prefMapsFolderExploreSummary">Uygulamaya özel haritalar klasörünün içeriğini bir dosya gezgini uygulamasıyla yönetin</string>
     <string name="dataStorageInfo2">Veri depolama konumunu değiştirdiğinizde önceki uygulama verileri otomatik olarak yeni konuma aktarılacaktır. Bu arka planda gerçekleşir ve biraz zaman alabilir.
 \n
-\nErişimin iptal edilmesi verilerde bozulmadan kalır.</string>
+\nErişimin iptal edilmesi verileri olduğu gibi bırakır</string>
     <string name="dataStorageTransferInfoDuration">Süre: %1$s</string>
     <string name="speechUnitThreeMeters">Metre</string>
     <string name="buttonProceed">İlerle</string>
-    <string name="prefMapsFolderExploreTitle">Haritalar klasörünü keşfedin</string>
+    <string name="prefMapsFolderExploreTitle">Haritalar klasörüne gözat</string>
     <string name="prefSteadyScreenImplementationExternalInfo">Bunun çalışması için ayrı bir uygulamanın yüklenmesi gerekir. Ayarlanabilir.</string>
     <string name="speechUnitThreeKilometers">Kilometre</string>
     <string name="speechUnitFourLitersOfGasoline">Litre benzin</string>
@@ -1653,20 +1655,20 @@
     <string name="subscriptionCancelInfo">Google Play üzerindeki Abonelikler menüsünden istediğiniz zaman iptal edebilirsiniz.</string>
     <string name="infoMeterModeNoneTitle">Sayaç modu yok</string>
     <string name="infoMeterModeNoneMsg">Bu sadece boş alan gösterir.</string>
-    <string name="dialogTrackingStopPromptTitle">Durmak\?</string>
-    <string name="pref_button_tracking_show_summary">Kayıt düğmesini gösterin. Devre dışı bırakılırsa izlemeyi başlatmak veya durdurmak için ana menü komutlarını kullanmanız gerekecektir.</string>
-    <string name="prefTrackingStartPromptTitle">İzleme başlatma istemi</string>
-    <string name="prefTrackingStopPromptTitle">İzlemeyi durdurma istemi</string>
+    <string name="dialogTrackingStopPromptTitle">Durdur\?</string>
+    <string name="pref_button_tracking_show_summary">Kayıt butonunu göster. Devre dışı bırakılırsa kaydı başlatmak veya durdurmak için ana menü komutlarını kullanmanız gerekecektir.</string>
+    <string name="prefTrackingStartPromptTitle">Kayıt başlatma istemi</string>
+    <string name="prefTrackingStopPromptTitle">Kayıt durdurma istemi</string>
     <string name="meterTextRelative">göreceli</string>
-    <string name="pref_button_tracking_show_title">Olanak vermek</string>
+    <string name="pref_button_tracking_show_title">Etkin</string>
     <string name="menuPause">Duraklat</string>
-    <string name="dialogTrackingResumePromptTitle">Sürdürmek\?</string>
+    <string name="dialogTrackingResumePromptTitle">Devam\?</string>
     <string name="summaryBrakingInfo">Frenlemeyle elde edilen enerji.
 \n
-\nFren aşınması olarak kabul edilebilir - bir çift standart bisiklet disk fren balatası, 5 GJ civarındaki arabalar için yaklaşık 50 MJ dayanacaktır.</string>
-    <string name="menuCountdown">geri sayım</string>
-    <string name="prefTrackingStopPromptSummary">İzlemeyi durdurmadan önce onay iletişim kutusu</string>
+\nFren aşınması olarak kabul edilebilir - bir çift standart bisiklet disk fren balatası 50 MJ kadar dayanırken arabalar için bu değer 5 GJ kadardır.</string>
+    <string name="menuCountdown">Geri sayım</string>
+    <string name="prefTrackingStopPromptSummary">Kaydı durdurmadan önce onay komutu</string>
     <string name="summaryBraking">Frenleme</string>
-    <string name="dialogTrackingStartPromptTitle">Başlangıç\?</string>
-    <string name="prefTrackingStartPromptSummary">Takibe başlamadan önce onay iletişim kutusu</string>
+    <string name="dialogTrackingStartPromptTitle">Başla\?</string>
+    <string name="prefTrackingStartPromptSummary">Kayda başlamadan önceki onay komutu</string>
 </resources>
