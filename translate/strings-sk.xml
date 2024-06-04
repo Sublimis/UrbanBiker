@@ -96,7 +96,7 @@
     <string name="toastTrackDeleted">Trasy odstránené</string>
     <string name="toastTrackDeleteError">Chyba pri odstraňovaní trás</string>
     <string name="toastTrackResumed">Trasa obnovená</string>
-    <string name="toastTrackResumeGpsActiveError">Treba najskôr vypnúť alebo pozastaviť GPS</string>
+    <string name="toastTrackResumeGpsActiveError">Treba najskôr vypnúť alebo pozastaviť sledovanie polohy</string>
     <string name="toastProfileButtonClickInfo">Prepnúť profil podržaním tlačidla</string>
     <string name="toastContrastButtonClickInfo">Je aktívna automatická farebná kombinácia</string>
     <string name="toastFlashlightButtonClickInfo">Zapnúť svetlo podržaním tlačidla</string>
@@ -172,7 +172,7 @@
 \n
 \nOdstrániť trasu %1$s\?</string>
     <string name="dialogTrackResumeTitle">Obnoviť trasu</string>
-    <string name="dialogTrackResumeGpsActiveMessage">Sledovanie trasy je aktívne. Treba najskôr vypnúť alebo pozastaviť GPS.</string>
+    <string name="dialogTrackResumeGpsActiveMessage">Sledovanie polohy je aktívne. Treba ho najskôr vypnúť alebo pozastaviť.</string>
     <string name="dialogTrackResumeProfileNotBlankMessage">Vybratý profil %1$s treba najskôr vynulovať.</string>
     <string name="dialogTrackResumeProfileSwitchMessage">Aktuálny profil %1$s bude prepnutý na %2$s. Pokračovať\?</string>
     <string name="dialogTrackResumeProfileMissingMessage">Profil %1$s, v ktorom vznikla trasa, už neexistuje. Obnoviť v aktuálnom profile %2$s\?</string>
@@ -600,7 +600,7 @@
     <string name="pref_roaring_mode_title">Spôsob</string>
     <string name="pref_roaring_mode_dialog_title">Spôsob AVAS</string>
     <string name="pref_roaring_constant_mode_title">Konštantný mód</string>
-    <string name="pref_roaring_constant_mode_summary">Prehrávať sprievodné zvuky AVAS neustále, bez ohľadu na pohyb a stav GPS</string>
+    <string name="pref_roaring_constant_mode_summary">Prehrávať sprievodné zvuky AVAS neustále a bez ohľadu na pohyb</string>
     <string name="pref_roar_threshold_speed_title">Prahová rýchlosť</string>
     <string name="pref_roarConstantModeButton_title">Prepínač</string>
     <string name="pref_roarConstantModeButton_summary">Prepínať na konštantný mód jednoduchým ťuknutím, ak je aktívny AVAS</string>
@@ -1096,7 +1096,9 @@
     <string name="summaryHeartBeatsInfo">Srdcový tep zaznamenaný počas aktivity.</string>
     <string name="summaryCadenceStrokesInfo">Počet otáčok pedálov zaznamenaný počas aktivity.</string>
     <string name="summaryMechWork">Mechanická práca</string>
-    <string name="summaryMechWorkInfo">Čistá mechanická práca vyvinutá počas aktivity (nezávisle od teplotnej účinnosti a BMR).</string>
+    <string name="summaryMechWorkInfo">Čistá mechanická práca vyvinutá počas aktivity (nezávisle od teplotnej účinnosti a BMR).
+\n
+\nPri bicykloch a motorkách môže definovať mieru opotrebovania reťaze - bežná cyklistická reťaz vydrží približne 100 MJ, zatiaľ čo motocyklová reťaz asi 1 GJ.</string>
     <string name="summaryActivePower">Aktívny výkon</string>
     <string name="controlPanelMapSettingsButtonSubtitle">Možnosti</string>
     <string name="pref_screenWaveDim_title">Stmaviť obrazovku</string>
@@ -1171,7 +1173,7 @@
     <string name="infoMeterModeAltitudeMsg">Výška nad priemernou morskou hladinou (geoid).</string>
     <string name="infoMeterModeSlopeMsg">Sklon (gradient), kladná hodnota značí stúpanie, záporná klesanie.</string>
     <string name="infoMeterModeVerticalSpeedMsg">Rýchlosť vo zvislom smere, hore kladná, dole záporná.</string>
-    <string name="infoMeterModePowerMsg">Výkon počas aktivity, započítavajúc odpor, trenie, nadm. výšku...
+    <string name="infoMeterModePowerMsg">Výkon vyvinutý počas aktivity, vzhľadom na odpor, trenie, zmeny nadm. výšky atď.
 \n
 \nZáporná hodnota znamená naberanie energie, pri klesaní alebo brzdení.
 \n
@@ -1591,7 +1593,7 @@
     <string name="prefOnlineElevationNoteSummary2">Pri nedostupnom internete alebo neaktívnej licencii aplikácia funguje bez dodatočného spresňovania údajov nadmorskej výšky.</string>
     <string name="prefOnlineElevationTitle">Online nadmorská výška</string>
     <string name="prefOnlineElevationNoteSummary3">Funkcia funguje len pri aktívnej používateľskej licencii. (Platné pre Ultimate alebo niektorú licenciu s predplatenými mapami.)</string>
-    <string name="prefOnlineElevationSummary">Používať dáta z internetu pre presnejšie zobrazovanie nadmorskej výšky.</string>
+    <string name="prefOnlineElevationSummary">Používať dáta z internetu pre presnejšie určovanie a zobrazovanie nadmorskej výšky. Predvolene povolené.</string>
     <string name="menuMeterResume">Obnoviť</string>
     <string name="controlPanelFlashlight">Svetlo</string>
     <string name="dialogRecButtonInsertMessage">Voľba umiestni tlačidlo nahrávania na požadované miesto odtrániac ho z pôvodného umiestenia. Pokračovať\?</string>
@@ -1677,20 +1679,20 @@
     <string name="subscriptionCancelInfo">Predplatné možno kedykoľvek zrušiť v Google Play.</string>
     <string name="infoMeterModeNoneTitle">Žiadne meranie</string>
     <string name="infoMeterModeNoneMsg">Zobrazuje len prázdne miesto.</string>
-    <string name="dialogTrackingStopPromptTitle">zastaviť\?</string>
-    <string name="pref_button_tracking_show_summary">Ukážte tlačidlo Rec. Ak je zakázaná, na spustenie alebo zastavenie sledovania budete musieť použiť príkazy hlavnej ponuky.</string>
-    <string name="prefTrackingStartPromptTitle">Výzva na spustenie sledovania</string>
-    <string name="prefTrackingStopPromptTitle">Výzva na zastavenie sledovania</string>
+    <string name="dialogTrackingStopPromptTitle">Zastaviť\?</string>
+    <string name="pref_button_tracking_show_summary">Zobrazovať tlačidlo nahrávania. Pri nepovolení je možné používať príkazy spustenia a zastavenia v hlavnom menu.</string>
+    <string name="prefTrackingStartPromptTitle">Spustenie sledovania polohy</string>
+    <string name="prefTrackingStopPromptTitle">Zastavenie sledovania polohy</string>
     <string name="meterTextRelative">rel</string>
     <string name="pref_button_tracking_show_title">Povoliť</string>
-    <string name="menuPause">Pauza</string>
-    <string name="dialogTrackingResumePromptTitle">Pokračovať\?</string>
+    <string name="menuPause">Pozastaviť</string>
+    <string name="dialogTrackingResumePromptTitle">Obnoviť\?</string>
     <string name="summaryBrakingInfo">Energia získaná brzdením.
 \n
-\nDá sa to považovať za opotrebovanie bŕzd - pár štandardných kotúčových brzdových doštičiek na bicykel vydrží okolo 50 MJ, pre autá okolo 5 GJ.</string>
+\nDá sa definovať ako miera opotrebovania bŕzd - pár štandardných kotúčových brzdových doštičiek na bicykel vydrží okolo 50 MJ, automobilové platničky vydržia približne 5 GJ.</string>
     <string name="menuCountdown">Odpočítavanie</string>
-    <string name="prefTrackingStopPromptSummary">Potvrdzovacie dialógové okno pred zastavením sledovania</string>
+    <string name="prefTrackingStopPromptSummary">Zobrazovať výzvu na potvrdenie príkazu pred zastavením sledovania polohy</string>
     <string name="summaryBraking">Brzdenie</string>
-    <string name="dialogTrackingStartPromptTitle">začať\?</string>
-    <string name="prefTrackingStartPromptSummary">Potvrdzovacie dialógové okno pred spustením sledovania</string>
+    <string name="dialogTrackingStartPromptTitle">Spustiť\?</string>
+    <string name="prefTrackingStartPromptSummary">Zobrazovať výzvu na potvrdenie príkazu pred spustením sledovania polohy</string>
 </resources>
