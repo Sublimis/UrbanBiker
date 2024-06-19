@@ -80,6 +80,7 @@
     <string name="buttonLater">Later</string>
     <string name="buttonShow">Show</string>
     <string name="buttonProceed">Proceed</string>
+    <string name="actionDefault">Default</string>
 
     <string name="na">N/A</string>
     <string name="loading">Loading…</string>
@@ -1163,7 +1164,7 @@
     <string name="pref_powermeter_display_mode_summary" translatable="false">@null</string>
     <string name="pref_powermeter_display_mode_dialog_title">Power display mode</string>
     <string name="pref_powermeter_parameters_info_summary">For accurate power and energy readings, please make sure these parameters are correct!</string>
-    <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ ranges from 0 to 10%, default is 1%. If using the AutoTerrain feature, assume a baseline value for smooth terrain (lower limit), as the app will generally increase the coefficient on rougher terrain.</string>
+    <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ ranges from 0 to 10%, default is 0.7%. If using the AutoTerrain feature, assume a baseline value for smooth terrain (lower limit), as the app will generally increase the coefficient on rougher terrain.</string>
     <string name="pref_power_weights_title">Weights</string>
     <string name="pref_power_weights_summary">Driver: %1$s, Vehicle: %2$s, Cargo: %3$s, Passengers: %4$s, Wheels: %5$s</string>
     <string name="pref_power_coefs_title">Coefficients</string>
@@ -1266,6 +1267,8 @@
     <string name="prefMapShowBuildingsSummary">Show the 3D buildings layer for Google maps. Disable to improve map performance and reduce resource usage.</string>
     <string name="prefBatteryOptimizationTitle">Battery optimizations</string>
     <string name="prefBatteryOptimizationMessage">Urban Biker can be exempted from system battery optimizations, to make it more certain it will continue to work properly when the screen is turned off on older versions of Android. Click here to open the settings now.</string>
+    <string name="prefGnssAltitudeOffsetTitle">Altitude offset (GPS)</string>
+    <string name="prefGnssAltitudeOffsetInfo">(All profiles) This constant is added to the altitude values received from the GPS. The default is zero (0).</string>
 
     <string name="dataStorageTitle">Storage</string>
     <string name="dataStorageInfo1">Custom data storage location is recommended and useful to prevent accidental data loss if the app is uninstalled, and to make backups easier.</string>
@@ -1308,7 +1311,7 @@
     <string name="infoMeterModeSlopeMsg">Slope (gradient), a number describing terrain tilt where zero is horizontal. Higher number means steeper ascent, and negative is for descent.</string>
     <string name="infoMeterModeSpeedTitle">Speed</string>
     <string name="infoMeterModeSpeedMsg">Instantaneous distance covered per unit of time.</string>
-    <string name="infoMeterModeVerticalSpeedTitle">Climb Speed</string>
+    <string name="infoMeterModeVerticalSpeedTitle">Climb speed</string>
     <string name="infoMeterModeVerticalSpeedMsg">Speed in the up (positive) or down (negative) vertical direction.</string>
     <string name="infoMeterModePaceTitle">Pace</string>
     <string name="infoMeterModePaceMsg">Inverse speed, i.e. time elapsed per unit of distance.</string>
@@ -1318,11 +1321,11 @@
     <string name="infoMeterModePowerMsg">Power exerted during activity, due to drag forces, altitude change, etc.\n\nNegative means power gain, e.g. when braking.\n\nWhen in kcal/h or kJ/h, it also takes efficiency and BMR into account.</string>
     <string name="infoMeterModePowerBalanceTitle">Power balance L/R</string>
     <string name="infoMeterModePowerBalanceMsg">Power balance, presented as a fraction of left and right contributions to the total power output.</string>
-    <string name="infoMeterModeFuncThresholdPowerTitle">Functional Threshold Power</string>
+    <string name="infoMeterModeFuncThresholdPowerTitle">Functional threshold power</string>
     <string name="infoMeterModeFuncThresholdPowerMsg">Estimated maximum power that can be maintained for longer time periods.\n\nThe estimate highly depends on type and duration of this activity.</string>
-    <string name="infoMeterModeAvgActivePowerTitle">Average Active Power</string>
+    <string name="infoMeterModeAvgActivePowerTitle">Average active power</string>
     <string name="infoMeterModeAvgActivePowerMsg">Average power exerted during activity, not counting time intervals where power was absent (downhill, braking, coasting).</string>
-    <string name="infoMeterModeVerticalPowerTitle">Climb Power</string>
+    <string name="infoMeterModeVerticalPowerTitle">Climb power</string>
     <string name="infoMeterModeVerticalPowerMsg">Power loss or gain while ascending or descending.\n\nNegative means power gain (descending).\n\nWhen in kcal/h or kJ/h, it also takes efficiency into account.</string>
     <string name="infoMeterModeTemperatureTitle">Temperature</string>
     <string name="infoMeterModeTemperatureMsg">Ambient temperature as measured with the device or an external sensor.</string>
@@ -1350,6 +1353,9 @@
     <string name="infoMeterModeRadiusMsg">Straight-line distance to the starting location, i.e. displacement.</string>
     <string name="infoMeterModeVibrationsTitle">Vibrations</string>
     <string name="infoMeterModeVibrationsMsg">Vibrations as measured with the device. Useful when the device is held fixed to a vehicle (e.g. on a bike handlebars), and not in a hand or in a pocket.</string>
+    <string name="infoMeterModeMediaControlsTitle">Media controls</string>
+    <string name="infoMeterModeMediaControlsMsg">Shows currently playing media and provides basic controls.\n\nNote: Permission is required for this to work.</string>
+    <string name="infoMeterModeMediaPermissionMsg">Permission required, tap controls to open settings</string>
     <string name="infoSpeedometerTitle">Speedometer</string>
     <string name="infoSpeedometerMsg">Shows your current, maximum and average speed.\n\nStall indicator indicates when the speed value wasn\'t updated in a while and can\'t be trusted.\n\nPace indicator are small arrows near the speed value that show when the current speed is above or below the average speed.</string>
 
@@ -1410,6 +1416,7 @@
     <string name="meterModes_26">Kinetic energy</string>
     <string name="meterModes_27">Steps</string>
     <string name="meterModes_28">Step cadence</string>
+    <string name="meterModes_32">Media controls</string>
 
 
     <!-- pref_gps_update_freq_entries -->
