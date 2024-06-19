@@ -1360,7 +1360,7 @@
     <string name="toastScreensaverModeActive">Čuvara zaslona je aktivan</string>
     <string name="unitKmhPerSec">kph/s</string>
     <string name="unitGAccel">g</string>
-    <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ se kreće od 0 do 10%, zadana vrijednost je 1%. Ako koristite značajku AutoTerrain, pretpostavite osnovnu vrijednost za glatki teren (donja granica), jer će aplikacija općenito povećavati koeficijent na grubljem terenu.</string>
+    <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ se kreće od 0 do 10%, zadana vrijednost je 0.7%. Ako koristite značajku AutoTerrain, pretpostavite osnovnu vrijednost za glatki teren (donja granica), jer će aplikacija općenito povećavati koeficijent na grubljem terenu.</string>
     <string name="prefScreensaverDimBrightnessEntries_2">⅓ trenutne svjetline (zadano)</string>
     <string name="prefBarometricAltitudeDisableAlert">Onemogućiti barometarsku visinu\?</string>
     <string name="pref_screensaverDimBrightnessDialogTitle">Svjetlina zatamnjenja čuvara zaslona</string>
@@ -1681,4 +1681,13 @@
     <string name="summaryBraking">Kočenje</string>
     <string name="dialogTrackingStartPromptTitle">Start\?</string>
     <string name="prefTrackingStartPromptSummary">Dijalog potvrde prije početka praćenja</string>
+    <string name="infoMeterModeMediaControlsMsg">Prikazuje medije koji se trenutno reproduciraju i pruža osnovne kontrole.
+\n
+\nNapomena: Za ovo je potrebno dopuštenje.</string>
+    <string name="prefGnssAltitudeOffsetInfo">(Svi profili) Ova se konstanta dodaje vrijednostima nadmorske visine primljenim od GPS-a. Zadana vrijednost je nula (0).</string>
+    <string name="actionDefault">Zadano</string>
+    <string name="prefGnssAltitudeOffsetTitle">Visinski pomak (GPS)</string>
+    <string name="meterModes_32">Kontrole medija</string>
+    <string name="infoMeterModeMediaPermissionMsg">Potrebno je dopuštenje, dodirnite kontrole za otvaranje postavki</string>
+    <string name="infoMeterModeMediaControlsTitle">Kontrole medija</string>
 </resources>
