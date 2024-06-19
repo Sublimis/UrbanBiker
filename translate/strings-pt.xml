@@ -1358,7 +1358,7 @@
     <string name="pref_category_mainScreenVisualTheme">Ecrã principal</string>
     <string name="pref_mapsWeatherCoverage_title">Máscara de cobertura</string>
     <string name="prefAppVisualThemeDialogTitle">Tema visual da App</string>
-    <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ varia de 0 a 10%, o padrão é 1%. Se estiver a usar o recurso AutoTerrain, assuma um valor de linha de base para terreno plano (limite inferior), pois a aplicação geralmente aumentará o coeficiente em terreno irregular.</string>
+    <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ varia de 0 a 10%, o padrão é 0.7%. Se estiver a usar o recurso AutoTerrain, assuma um valor de linha de base para terreno plano (limite inferior), pois a aplicação geralmente aumentará o coeficiente em terreno irregular.</string>
     <string name="prefScreensaverDimBrightnessEntries_2">⅓ do brilho atual (padrão)</string>
     <string name="prefBarometricAltitudeDisableAlert">Desativar altitude barométrica\?</string>
     <string name="pref_screensaverDimBrightnessDialogTitle">Brilho escuro do protetor de ecrã</string>
@@ -1685,4 +1685,13 @@
     <string name="summaryBraking">Travagem</string>
     <string name="dialogTrackingStartPromptTitle">Iniciar\?</string>
     <string name="prefTrackingStartPromptSummary">Caixa de diálogo de confirmação antes de iniciar o registo</string>
+    <string name="infoMeterModeMediaControlsMsg">Mostra os conteúdos multimédia em reprodução no momento e fornece controlos básicos.
+\n
+\nNota: É necessária permissão para que isto funcione.</string>
+    <string name="prefGnssAltitudeOffsetInfo">(Todos os perfis) Esta constante é adicionada aos valores de altitude recebidos através do GPS. O padrão é zero (0).</string>
+    <string name="actionDefault">Padrão</string>
+    <string name="prefGnssAltitudeOffsetTitle">Compensação de altitude (GPS)</string>
+    <string name="meterModes_32">Controlos Multimédia</string>
+    <string name="infoMeterModeMediaPermissionMsg">É necessária permissão. Toque nos controlos para abrir as configurações.</string>
+    <string name="infoMeterModeMediaControlsTitle">Controlos Multimédia</string>
 </resources>
