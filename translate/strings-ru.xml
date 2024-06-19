@@ -1359,7 +1359,7 @@
     <string name="pref_category_mainScreenVisualTheme">Главный экран</string>
     <string name="pref_mapsWeatherCoverage_title">Маска покрытия</string>
     <string name="prefAppVisualThemeDialogTitle">Визуальная тема приложения</string>
-    <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ колеблется от 0 до 10%, по умолчанию 1%. При использовании функции автоповерхности используйте базовое значение для ровной местности (наименьшее значение), так как приложение, как правило, увеличивает коэффициент на пересечённой местности.</string>
+    <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ колеблется от 0 до 10%, по умолчанию 0.7%. При использовании функции автоповерхности используйте базовое значение для ровной местности (наименьшее значение), так как приложение, как правило, увеличивает коэффициент на пересечённой местности.</string>
     <string name="prefScreensaverDimBrightnessEntries_2">⅓ текущей яркости (по умолчанию)</string>
     <string name="prefBarometricAltitudeDisableAlert">Отключить барометрическую высоту\?</string>
     <string name="pref_screensaverDimBrightnessDialogTitle">Уменьшение яркости при заставке</string>
@@ -1686,4 +1686,13 @@
     <string name="summaryBraking">Торможение</string>
     <string name="dialogTrackingStartPromptTitle">Начать\?</string>
     <string name="prefTrackingStartPromptSummary">Диалоговое окно подтверждения перед началом записи трека</string>
+    <string name="infoMeterModeMediaControlsMsg">Показывает воспроизводимый в данный момент медиафайл и предоставляет основные элементы управления.
+\n
+\nПримечание: для функционирования требуется разрешение.</string>
+    <string name="prefGnssAltitudeOffsetInfo">(Все профили) Константа, добавляемая к значениям высоты, полученным от GPS. По умолчанию — ноль (0).</string>
+    <string name="actionDefault">По умолчанию</string>
+    <string name="prefGnssAltitudeOffsetTitle">Смещение высоты (GPS)</string>
+    <string name="meterModes_32">Управление медиа</string>
+    <string name="infoMeterModeMediaPermissionMsg">Требуется разрешение. Нажмите элементы управления, чтобы открыть настройки.</string>
+    <string name="infoMeterModeMediaControlsTitle">Управление мультимедиа</string>
 </resources>
