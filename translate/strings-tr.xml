@@ -438,7 +438,7 @@
     <string name="infoMeterModeSlopeTitle">Eğim</string>
     <string name="infoMeterModeSpeedTitle">Hız</string>
     <string name="infoMeterModeSpeedMsg">Birim zamanda katedilen anlık mesafe.</string>
-    <string name="infoMeterModeVerticalSpeedTitle">Tırmanma Hızı</string>
+    <string name="infoMeterModeVerticalSpeedTitle">Tırmanma hızı</string>
     <string name="infoMeterModePaceTitle">Tempo</string>
     <string name="infoMeterModeAccelerationTitle">Hızlanma</string>
     <string name="infoMeterModePowerTitle">Güç</string>
@@ -903,9 +903,9 @@
 \nNegatif olması güç kazancı anlamına gelir örneğin frenlemede.
 \n
 \nKcal/h veya kJ/h hesaplamalarında verimliliği ve BMH\'nı da dikkate alır.</string>
-    <string name="infoMeterModeAvgActivePowerTitle">Ortalama Aktif Güç</string>
+    <string name="infoMeterModeAvgActivePowerTitle">Ortalama aktif güç</string>
     <string name="infoMeterModeAvgActivePowerMsg">Aktivite sırasında harcanan ortalama güç, gücün olmadığı veya çok küçük olduğu zaman aralıklarını saymaz(yokuş aşağı, frenleme).</string>
-    <string name="infoMeterModeVerticalPowerTitle">Tırmanma Gücü</string>
+    <string name="infoMeterModeVerticalPowerTitle">Tırmanma gücü</string>
     <string name="infoMeterModeVerticalPowerMsg">Yükselirken ya da alçalırken oluşan gün kaybı/kazancı - 
 \n 
 \nNegatif olması güç kazancı anlamına gelir (alçalma). 
@@ -1171,10 +1171,10 @@
     <string name="summaryLocationIntervalInfo">Bu kayıttaki iki konum güncellemesi arasındaki ortalama zaman aralığı.</string>
     <string name="summaryDeviceRestartsCountInfo">Bu aktivite sırasında uygulamanın zorla kapatılma ya da cihazın çalışmayı durdurma sayısı.</string>
     <string name="summaryTotalTimeInfo">Bu kaydın başlangıç ve bitiş zamanı arasındaki zaman aralığı.</string>
-    <string name="summaryStoppedTimeInfo">Elle ya da otomatik yapılan duraklama sırasında geçen süre.</string>
+    <string name="summaryStoppedTimeInfo">Kaydın durdurulduğu, aktif olmadığı süre.</string>
     <string name="summaryHeartBeatsInfo">Aktivite sırasında kaydedilen kalp atışı sayısı.</string>
     <string name="summaryCadenceStrokesInfo">Aktivite sırasında kaydedilen pedal çevirme sayısı.</string>
-    <string name="infoMeterModeFuncThresholdPowerTitle">İşlevsel Eşik Gücü</string>
+    <string name="infoMeterModeFuncThresholdPowerTitle">İşlevsel eşik gücü</string>
     <string name="infoMeterModeFuncThresholdPowerMsg">Daha uzun süreler boyunca korunabilecek tahmini maksimum güç.
 \n
 \nTahmin, büyük ölçüde bu aktivitenin türüne ve süresine bağlıdır.</string>
@@ -1667,16 +1667,16 @@
     <string name="summaryBraking">Frenleme</string>
     <string name="dialogTrackingStartPromptTitle">Başla\?</string>
     <string name="prefTrackingStartPromptSummary">Kayda başlamadan önce onay iste</string>
-    <string name="infoMeterModeMediaControlsMsg">O anda oynatılan medyayı gösterir ve temel kontrolleri sağlar.
+    <string name="infoMeterModeMediaControlsMsg">Anlık oynatılan medyayı gösterir ve temel kontrolleri sağlar.
 \n
-\nNot: Bunun çalışması için izin gereklidir.</string>
+\nNot: Bu özelliğin çalışması için izin gereklidir.</string>
     <string name="prefGnssAltitudeOffsetInfo">(Tüm profiller) Bu sabit GPS\'ten alınan yükseklik değerlerine eklenir. Varsayılan sıfırdır (0).</string>
     <string name="actionDefault">Varsayılan</string>
     <string name="prefGnssAltitudeOffsetTitle">Yükseklik ofseti (GPS)</string>
     <string name="meterModes_32">Medya kontrolleri</string>
-    <string name="infoMeterModeMediaPermissionMsg">İzin gerekli, ayarları açmak için kontrollere dokunun</string>
+    <string name="infoMeterModeMediaPermissionMsg">İzin gereklidir, ayarları açmak için kontrollere tıklayın</string>
     <string name="infoMeterModeMediaControlsTitle">Medya kontrolleri</string>
-    <string name="summaryPausedTimeInfo">Manuel olarak veya otomatik duraklatmayı kullanırken duraklatmak için harcanan süre.</string>
+    <string name="summaryPausedTimeInfo">Elle ya da oto duraklamalarda geçen süre.</string>
     <string name="summaryPausedTime">Duraklatılan süre</string>
     <string name="menuMapOptions">Harita seçenekleri</string>
 </resources>
