@@ -175,6 +175,11 @@
     <string name="menuInsertSpeedo">Speedometer</string>
     <string name="menuInsertRecButton">Rec button</string>
     <string name="menuMove">Move</string>
+    <string name="menuMoveRow">Move row</string>
+    <string name="menuUp">Up</string>
+    <string name="menuDown">Down</string>
+    <string name="menuTop">Top</string>
+    <string name="menuBottom">Bottom</string>
     <string name="menuRemove">Remove</string>
     <string name="menuRemoveRecButton">Remove Rec button</string>
     <string name="menuReset">Reset</string>
@@ -375,6 +380,7 @@
     <string name="dialogMapsMapCountThreeMaps">%1$s maps</string>
     <string name="dialogMapsMapCountFourMaps">%1$s maps</string>
     <string name="dialogMapsMapCountManyMaps">%1$s maps</string>
+    <string name="dialogOfflineMapThemeChooseTitle">Choose theme</string>
     <string name="dialogFencesAdd">Add fence here</string>
     <string name="dialogFencesUpdate">Update fence location</string>
     <string name="dialogFencesEdit">Edit fence</string>
@@ -467,6 +473,8 @@
     <string name="dialogTrackingStartPromptTitle">Start?</string>
     <string name="dialogTrackingResumePromptTitle">Resume?</string>
     <string name="dialogTrackingStopPromptTitle">Stop?</string>
+    <string name="dialogNotificationListenerTitle">Permission is required</string>
+    <string name="dialogNotificationListenerMessage">This app can only control media playback of other apps, it is not a media player itself. For this to work, Android mandates holding the permission to access notifications.\n\nThe permission is only used to enable media controls. Notifications are not accessed in any way through this permission.</string>
 
     <!-- dialog_fenceguard_add_entries -->
     <string name="dialog_fenceguard_add_entries_0">Add fence</string>
@@ -744,6 +752,7 @@
     <string name="summarySpecific">Specific</string>
     <string name="summaryMechWork">Mech. work</string>
     <string name="summaryMechWorkInfo">Pure mechanical work expended (disregarding thermal efficiency and BMR).\n\nFor bikes this can be regarded as a measure of chain wear - a standard bicycle chain will last about 100 MJ, for motorcycles about 1 GJ.</string>
+    <string name="summaryChainWear">Chain wear</string>
     <string name="summaryActivePower">Active power</string>
     <string name="summaryClimbing">Climb</string>
     <string name="summaryClimbingEnergyInfo">Percentage of the energy that was used to overcome gravity.</string>
@@ -758,6 +767,7 @@
     <string name="summaryVibrations">Vibrations</string>
     <string name="summaryBraking">Braking</string>
     <string name="summaryBrakingInfo">Energy extracted by braking.\n\nCan be regarded as brake wear - a pair of standard bicycle disc brake pads will last around 50 MJ, for cars around 5 GJ.</string>
+    <string name="summaryBrakePadWear">Brake pad wear</string>
 
     <string name="sensorsTitle">Sensors</string>
     <string name="sensorsTabUsed">Used</string>
@@ -992,6 +1002,7 @@
     <string name="pref_screensaverDimBrightness_title">Dim brightness</string>
     <string name="pref_screensaverDimBrightness_summary" translatable="false">@null</string>
     <string name="pref_screensaverDimBrightnessDialogTitle">Screensaver dim brightness</string>
+    <string name="prefScreensaverTimeoutAdaptiveTitle" translatable="false">@string/prefGpsIntervalAdaptiveTitle</string>
     <string name="pref_ring_on_stop_title">Ring on stop</string>
     <string name="pref_ring_on_stop_summary">Ring the automatic bell when the speed drops to zero, too</string>
     <string name="pref_obey_audio_focus_disable_title">Disable audio focus</string>
@@ -1104,6 +1115,7 @@
     <string name="pref_maps_offline_file_noFolderSelected">No folder selected.</string>
     <string name="pref_maps_offline_info_title">Download now</string>
     <string name="pref_maps_offline_info_summary">Mapsforge vector (.map) and Rmaps raster (.sqlitedb) maps are supported. Available at download.mapsforge.org.</string>
+    <string name="pref_maps_offline_recommendation">We recommend using vector maps from OpenAndroMaps.org as they are the most complete and contain terrain contours. Click here to open the downloads page now.</string>
     <string name="pref_maps_offline_usage_summary">Usage: Select the downloaded map file with the option above.</string>
     <string name="pref_maps_offline_warning_summary">Warning: Some online data may be retrieved even in offline mode. Please disable mobile Internet before using maps, if concerned.</string>
     <string name="prefMapsFolderExploreTitle">Explore maps folder</string>
