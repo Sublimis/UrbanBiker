@@ -21,14 +21,14 @@
     <string name="buttonUnderstand">Megértem</string>
     <string name="buttonResumeTrack">Folytatás</string>
     <string name="buttonNewTrack">Befejez</string>
-    <string name="menuControlPanel">Gyorsbeállítások</string>
+    <string name="menuControlPanel">Gyors beállítások</string>
     <string name="menuSettings">Beállítások</string>
     <string name="menuSummary">Összegzés</string>
     <string name="menuTracksHistory">Előzmény</string>
     <string name="menuTracksHistoryResume">Folytatás</string>
     <string name="menuMeterLock">Lezárás</string>
     <string name="menuMeterLockAll">Minden lezárása</string>
-    <string name="menuMeterMode">Mérő üzemmód</string>
+    <string name="menuMeterMode">Mérés módja</string>
     <string name="menuMeterChooseModes">Módok kiválasztása…</string>
     <string name="menuMeterResetMinMax">Min/Max Visszaállítás</string>
     <string name="menuMeterReset">Befejez</string>
@@ -174,7 +174,7 @@
 \n
 \nTöröljük a kiválasztott útvonalat %1$s\?</string>
     <string name="dialogTrackResumeTitle">Útvonal rögzítés folytatása</string>
-    <string name="dialogTrackResumeGpsActiveMessage">Folyamatos rögzítés. Leállításhoz először kapcsolja ki a GPS-t.</string>
+    <string name="dialogTrackResumeGpsActiveMessage">Folyamatos a rögzítés. Leállításhoz először kapcsolja ki a GPS-t.</string>
     <string name="dialogTrackResumeProfileNotBlankMessage">A kiválasztott %1$s profil nem üres. Nullázza a profilt. </string>
     <string name="dialogTrackResumeProfileSwitchMessage">Az aktív profil át lesz kapcsolva erről: %1$s erre: %2$s. Folytassuk\?</string>
     <string name="dialogTrackResumeProfileMissingMessage">A %1$s profil, amely ezt az útvonalat létrehozta, már nem létezik. Folytassuk az aktuális profilban: %2$s\?</string>
@@ -258,7 +258,7 @@
     <string name="dialogLocationPermissionRequestTitle">Helyzetmeghatározás engedélyei</string>
     <string name="dialogLocationPermissionRequest">Az alkalmazásnak hozzá kell férnie a tartózkodási helyéhez az ön szabadtéri tevékenységeinek rögzítéséhez.</string>
     <string name="dialogStoragePermissionRequestTitle">Tárhely engedélyei</string>
-    <string name="dialogStoragePermissionRequest">Az alkalmazásnak hozzá kell férnie a tárhelyhez, hogy menthesse vagy visszaállíthassa a számokat és a beállításokat.
+    <string name="dialogStoragePermissionRequest">Az alkalmazásnak hozzá kell férnie a tárhelyhez, hogy menthesse vagy visszaállíthassa a rögzített útvonalakat és a beállításokat.
 \n
 \nAz engedély megadása nélkül előfordulhat, hogy nem láthatja a nyomvonalak előzményeit, és elveszítheti adatait.</string>
     <string name="dialogCameraPermissionRequestTitle">Kamera engedélyei</string>
@@ -338,7 +338,7 @@
     <string name="meterModeElapsedTimeShort">eltelt</string>
     <string name="meterModeAltitude">magasság</string>
     <string name="meterModeAltitudeShort">magasság</string>
-    <string name="meterModeVerticalPower">függöleges energia</string>
+    <string name="meterModeVerticalPower">függőleges energia</string>
     <string name="meterModeVerticalPowerShort">vsz erő</string>
     <string name="meterModePower">erő</string>
     <string name="meterModePowerShort">erő</string>
@@ -425,7 +425,7 @@
     <string name="summaryEndedDatetime">Befejeződött</string>
     <string name="summaryTotalTime">Összes idő</string>
     <string name="summaryStoppedTime">Állás idő</string>
-    <string name="summaryHeartBeats">Szívdobbanások</string>
+    <string name="summaryHeartBeats">Pulzus</string>
     <string name="summaryCadenceStrokes">Pedál fordulat</string>
     <string name="summarySpecific">Jellemző</string>
     <string name="sensorsTitle">Jeladók</string>
@@ -1000,32 +1000,32 @@
     <string name="disclaimerText2">Kérjük, felelősséggel használja ezt az alkalmazást, és NE működtesse azt autóvezetés, motorkerékpár, kerékpár vagy bármilyen más jármű vezetése közben.</string>
     <string name="disclaimerText3">Mindig legyen a szemed az úton.</string>
     <string name="ultimateLicenseDescription">Teljes körű licensz minden szolgáltatáshoz.</string>
-    <string name="ultimateLicenseFeatures">⭐ Minden prémium térkép
+    <string name="ultimateLicenseFeatures">⭐ Prémium térképek
 \n⭐ Navigáció
 \n⭐ Online magassági adatok
 \n⭐ Reklám mentes
-\n⭐ Minden szolgáltatás és térkép ingyen</string>
+\n⭐ Ingyenes szolgáltatások és térképek</string>
     <string name="proPlusLicenseFeatures">❌ Prémium térképek
 \n❌ Navigáció
-\n❌ Online magassági alapvonal
+\n❌ Online magassági adatok
 \n⭐ Nincsenek hirdetések
 \n⭐ Minden ingyenes szolgáltatás és térkép
 \n➕ Extra adomány</string>
     <string name="proLicenseFeatures">❌ Prémium térképek
 \n❌ Navigáció
-\n❌ Online altitude baseline
-\n⭐ Hirdetésmentes
-\n⭐ Minden szolgáltatás és térkép ingyen</string>
+\n❌ Online magassági adatok
+\n⭐ Hirdetés mentes
+\n⭐ Ingyenes szolgáltatások és térképek</string>
     <string name="thunderforestMapsFeatures">⭐ Thunderforest prémium térképek
 \n⭐ Navigáció
-\n⭐ Online magassági alapvonal
+\n⭐ Online magassági adatok
 \n⭐ Nincsenek hirdetések
-\n⭐ Minden ingyenes szolgáltatás és térkép</string>
+\n⭐ Ingyenes szolgáltatások és térképek</string>
     <string name="mapboxMapsFeatures">⭐ Mapbox prémium térképek
 \n⭐ Navigáció
-\n⭐ Online magassági alapvonal
+\n⭐ Online magassági adatok
 \n⭐ Nincsenek hirdetések
-\n⭐ Minden ingyenes szolgáltatás és térkép</string>
+\n⭐ Ingyenes szolgáltatások és térképek</string>
     <string name="priceFree">INGYENES</string>
     <string name="rewardedAdDescription">Kattints ide, de előbb reklám</string>
     <string name="rewardedLicenseSuccess">Licensz elfogadva</string>
@@ -1112,7 +1112,7 @@
     <string name="speechDecreasing">Esés</string>
     <string name="subscriptionPerMonth">%1$s /hónap</string>
     <string name="subscriptionPer1y">%1$s 12 havonta számlázunk</string>
-    <string name="subscriptionPer6m">%1$s 6 havonta számlázzák</string>
+    <string name="subscriptionPer6m">%1$s 6 havonta számlázunk</string>
     <string name="subscriptionPer3m">%1$s 3 havonta számlázunk</string>
     <string name="subscriptionPer1m">%1$s / minden hónapban</string>
     <string name="subscriptionPer1w">%1$s / minden héten</string>
@@ -1130,7 +1130,7 @@
     <string name="rewardedAdPriceFree">Ingyenes (egy alkalomra)</string>
     <string name="cautionTitle">Figyelem</string>
     <string name="dialogActivityRecognitionPermissionRequestTitle">Fizikális tevékenység engedélyezése</string>
-    <string name="dialogActivityRecognitionPermissionRequest">Engedélyre van szükség ahhoz, hogy az alkalmazás használja a beépített lépésérzékelőt, és egyéb hasznos műveleteket hajtson végre, ha mozgást észlel.</string>
+    <string name="dialogActivityRecognitionPermissionRequest">Engedélyre van szükség ahhoz, hogy az alkalmazás használja a beépített lépés érzékelőt, és egyéb műveleteket hajtson végre, ha mozgást észlel.</string>
     <string name="unitSteps">Lépések</string>
     <string name="meterModeStepCadence">Lépés ütem</string>
     <string name="meterModeStepCadenceShort">lépésszám</string>
@@ -1209,14 +1209,14 @@
     <string name="cloudAccountsPowerUploadPolicy_1">Csak akkor töltsön fel teljesítményadatokat, ha teljesítménymérőt használt</string>
     <string name="hereMapsFeatures">⭐ HERE prémium térképek
 \n⭐ Navigáció
-\n⭐ Online altitude baseline
-\n⭐ Hirdetésmentes
-\n⭐ Minden szolgáltatás és térkép ingyen</string>
+\n⭐ Online magassági adatok
+\n⭐ Hirdetés mentes
+\n⭐ Ingyenes szolgáltatások és térképek</string>
     <string name="maptilerMapsFeatures">⭐ MapTiler prémium térképek
 \n⭐ Navigáció
-\n⭐ Online altitude baseline
-\n⭐ Hirdetésmentes
-\n⭐ Minden szolgáltatás és térkép ingyen</string>
+\n⭐ Online magassági adatok 
+\n⭐ Hirdetés mentes
+\n⭐ Ingyenes szolgáltatások és térképek</string>
     <string name="dialogMapsChooseTitle">Válassz térképet</string>
     <string name="dialogChartDataTypesTitle">Diagramtípusok</string>
     <string name="dialogLoginUsernameHint">Felhasználónév</string>
@@ -1276,21 +1276,21 @@
     <string name="pref_screenWaveDim_summary">Az akkumulátor kímélése érdekében a kijelző is elhalványul</string>
     <string name="prefScreenPocketModeDelayEntries_4">0,40 másodperc</string>
     <string name="navigationAvoidFerries">Kerülje a kompokat</string>
-    <string name="toastSteadyScreenModeActive">Képernyőstabilizálás engedélyezve</string>
-    <string name="summaryStoppedTimeInfo">Szünettel töltött idő, akár manuálisan, akár az automatikus szüneteltetés használata közben.</string>
+    <string name="toastSteadyScreenModeActive">Képernyő stabilizálása engedélyezve</string>
+    <string name="summaryStoppedTimeInfo">Eltelt idő, mialatt a rögzítés állt.</string>
     <string name="dialogLayoutChooseTitle">Elrendezés</string>
     <string name="menuSpeedoPaceIndicator">Tempó kijelző</string>
     <string name="pref_screensaverDimBrightnessDialogTitle">Képernyővédő halvány fényereje</string>
     <string name="meterHorizontalWeight">Vízszintes súly</string>
     <string name="summaryDragging">Húzza</string>
-    <string name="sensorProperitesUseForPressure">Használja nyomásra</string>
+    <string name="sensorProperitesUseForPressure">Használja nyomáshoz</string>
     <string name="prefSteadyScreenModeOff">Ki</string>
     <string name="infoSpeedometerMsg">Megjeleníti az aktuális, maximális és átlagos sebességet.
 \n
 \nAz elakadásjelző azt jelzi, ha a sebességérték egy ideig nem frissült, és nem megbízható.
 \n
 \nA tempójelző kis nyilak a sebességérték közelében, amelyek azt mutatják, hogy az aktuális sebesség az átlagos sebesség felett vagy alatt van.</string>
-    <string name="toastSteadyScreenModeIntelligentActive">Képernyőstabilizáló intelligens engedélyezve</string>
+    <string name="toastSteadyScreenModeIntelligentActive">"Intelligens képernyő stabilizálás  engedélyezve"</string>
     <string name="prefAppVisualThemeEntries_1">Fény</string>
     <string name="pref_screensaverTimeout_summary">Felhasználói beavatkozás nélküli időtartam a képernyővédő aktiválásáig.</string>
     <string name="prefScreensaverTimeoutEntries_4">30 másodperc</string>
@@ -1316,7 +1316,7 @@
     <string name="summaryVehicleWeight">A jármű tömege</string>
     <string name="pref_soundeffects_tally_energy_title">Energia</string>
     <string name="menuSpeedoStallIndicator">Leállás jelző</string>
-    <string name="sensorPurposeHumidity">páratartalom</string>
+    <string name="sensorPurposeHumidity">Páratartalom</string>
     <string name="infoMeterModeFuncThresholdPowerTitle">Funkcionális küszöbteljesítmény</string>
     <string name="speechPromptTrackingResume">Folytatás vagy befejezés\?</string>
     <string name="menuMeterShowSubValues">Részértékek</string>
@@ -1329,8 +1329,8 @@
     <string name="pref_mapsFollowMode_summary">Tartsa a térképet aktuális tartózkodási helye középpontjában</string>
     <string name="pref_mapsShowAttribution_summary">A Google-tól eltérő online térképek hozzárendelési szövegének megjelenítése. Tiltsa le a hivatkozásra való véletlen kattintás elkerülése érdekében.</string>
     <string name="prefScreensaverDimBrightnessEntries_1">az aktuális fényerő ⅕-a</string>
-    <string name="summaryAccelerating">Gyorsítson</string>
-    <string name="summaryLocationIntervalInfo">Átlagos időintervallum két helyfrissítés között ezen a sávon.</string>
+    <string name="summaryAccelerating">Gyorsítás</string>
+    <string name="summaryLocationIntervalInfo">Átlagos időintervallum két GPS pozíció között ebben a munkamenetben.</string>
     <string name="infoAppUpdateMessage">A frissítés készen áll.</string>
     <string name="prefActivityRecognitionNoteSummary">Ezek a lehetőségek az Android fizikai aktivitás-felismerő funkcióján alapulnak. Lehet, hogy nem pontos, és késés is lehet, csak akkor használja, ha ez rendben van. Akkor működik a legjobban, ha sebességérzékelőt használnak a távolság és az időtartam mérésére.</string>
     <string name="prefScreensaverDimBrightnessEntries_3">a jelenlegi fényerő fele</string>
@@ -1365,7 +1365,7 @@
     <string name="powerSourceWeight_3">Sofőr + Jármű</string>
     <string name="menuChooseFolder">Mappa</string>
     <string name="menuNarrow">Keskenyítés</string>
-    <string name="toastSteadyScreenModeOff">Képernyőstabilizálás letiltva</string>
+    <string name="toastSteadyScreenModeOff">Képernyő stabilizálás letiltva</string>
     <string name="dialogLicenseUpgradeButton2">Nézze meg a promóciós videót</string>
     <string name="speechTrackingResume">Megy</string>
     <string name="summaryDeviceRestartsCountInfo">Azon alkalmak száma, amikor az alkalmazás kényszerített bezárásra került, vagy az eszköz leállt a tevékenység közben.</string>
@@ -1373,9 +1373,9 @@
     <string name="navigationLoadFromFilePrompt">Hiba történt az új útvonalak internetről történő betöltésekor.
 \n
 \nSzeretné betölteni a korábban használt útvonalakat egy fájlból\?</string>
-    <string name="summaryBasalMetabolicRateInfo">Alap anyagcsere sebesség (BMR).</string>
+    <string name="summaryBasalMetabolicRateInfo">Alapanyagcsere sebesség (BMR).</string>
     <string name="prefSteadyScreenModeAutoInfo">A képernyőstabilizáló funkciót csak göröngyös terepen kapcsolja be követés közben. Ez jó egyensúlyt biztosít a kényelem és az akkumulátorhasználat között.</string>
-    <string name="sensorProperitesUseForDuration">Használja időtartamra</string>
+    <string name="sensorProperitesUseForDuration">Használja időtartamhoz</string>
     <string name="menuNavigation">Irányítás</string>
     <string name="menuCustomTracksFolder">Egyéni trekk mappa</string>
     <string name="speechNavigationWrongWay">Rossz irány</string>
@@ -1422,11 +1422,11 @@
     <string name="navigationDestinationReached">Rendeltetési hely</string>
     <string name="prefAutoTerrainNote1Summary">A készüléket a járműhöz rögzítve kell tartani (például kerékpár kormányon), és nem a kézben vagy a zsebben, miközben használja.</string>
     <string name="menuInsertSpeedo">Sebességmérő</string>
-    <string name="summaryDeviceAutoPauseCount">Automatikus szüneteltetés</string>
+    <string name="summaryDeviceAutoPauseCount">Automatikus szüneteltetés száma</string>
     <string name="pref_screensaverEnable_title">Képernyőkímélő</string>
     <string name="menuChooseFile">Fájl</string>
-    <string name="summaryWheelsWeightInfo">Az ezen a pályán használt jármű összes kerekének súlyának összege.</string>
-    <string name="summaryCadenceStrokesInfo">A tevékenység során észlelt pedállökések száma.</string>
+    <string name="summaryWheelsWeightInfo">A rögzítéskor használt jármű összes kerék súlyainak összege.</string>
+    <string name="summaryCadenceStrokesInfo">A tevékenység során észlelt pedálozás száma.</string>
     <string name="menuSpeedoIndicatorMax">Kijelző max</string>
     <string name="powerSourceWeight_1">Sofőr</string>
     <string name="infoAppUpdateAction">Újrakezd</string>
@@ -1447,9 +1447,9 @@
     <string name="pref_category_mainScreenVisualTheme">Fő képernyő</string>
     <string name="speechNavigationContinue">Folytatni</string>
     <string name="pref_mapsWeatherCoverage_title">Fedő maszk</string>
-    <string name="summaryInaccurateLocationZoneCountInfo">Azon alkalmak száma, amikor az alkalmazás elkezdte elutasítani a helyfrissítéseket azok pontatlansága miatt.
+    <string name="summaryInaccurateLocationZoneCountInfo">"Azon alkalmak száma, amikor az alkalmazás elkezdte elutasítani a GPS pozícionálást  azok pontatlansága miatt.
 \n
-\nNe feledje, hogy azok a területek, ahol egyáltalán nincs helyfrissítés (például beltérben), nem befolyásolják ezt a számot.</string>
+\nNe feledje, hogy azok a területek, ahol egyáltalán nincs Gps pozició(például beltérben), nem befolyásolják ezt a számot."</string>
     <string name="prefScreensaverTimeoutEntries_8">5 perc</string>
     <string name="infoMeterModeVibrationsMsg">A készülékkel mért rezgések. Hasznos, ha az eszközt a járműhöz rögzítve tartják (például kerékpárkormányon), és nem a kézben vagy a zsebben.</string>
     <string name="prefScreensaverTimeoutEntries_1">10 másodperc</string>
@@ -1471,7 +1471,7 @@
     <string name="navigationRouteTooLong">Sajnáljuk, ez a cél túl messze van</string>
     <string name="pref_screenAutoPocketModeDelay_title">Késleltetés</string>
     <string name="unitKmhPerSec">kilométer óra /másodperc</string>
-    <string name="summaryRollResistCoefAverage">Gördülés-ellenállási együttható. átlagos</string>
+    <string name="summaryRollResistCoefAverage">Gördülés-ellenállási együttható. átlag</string>
     <string name="pref_mapsFollowAutoZoomMode_summary">Állítsa be a térkép nagyítási szintjét az aktuális sebesség alapján</string>
     <string name="dialogLayoutsInfoMessage">Gyorsan módosíthatja a kijelző elrendezését az előre meghatározott elrendezésekből.
 \n
@@ -1489,7 +1489,7 @@
     <string name="pref_track_charts_summary">Válasszon különböző tevékenységi paramétereket, amelyeket diagramként szeretne menteni minden pályán. A sebesség és magasság adatok mindig mentésre kerülnek.</string>
     <string name="menuShowTotals">Összesítések megjelenítése</string>
     <string name="prefScreensaverTimeoutEntries_6">1 perc</string>
-    <string name="summaryDeviceAutoPauseCountInfo">Az automatikus szünet aktiválásának száma a tevékenység során.</string>
+    <string name="summaryDeviceAutoPauseCountInfo">Az automatikus szünetek száma a tevékenység során.</string>
     <string name="prefNoSoundInsideFenceTitle">Nincs hang a kerítésen belül</string>
     <string name="powerSourceWeightTitle">Az áramforrás súlya</string>
     <string name="pref_soundeffects_autopause_title">Automatikus szünet</string>
@@ -1510,8 +1510,8 @@
     <string name="summaryEfficiencyInfo">A pálya erőművének általános termikus hatásfoka.</string>
     <string name="pref_soundeffects_navigation_title">Navigáció</string>
     <string name="dialogLayoutChooseSubtitle">Válassza ki a megjelenítési elrendezést</string>
-    <string name="pref_category_units_common_title">Mértékegységek (minden profil)</string>
-    <string name="summaryBasalEnergyInfo">Az alapanyagcseréhez felhasznált energia százalékos aránya.</string>
+    <string name="pref_category_units_common_title">Mértékegységek (minden profilban)</string>
+    <string name="summaryBasalEnergyInfo">Az alap anyagcseréhez felhasznált energia százalékos aránya.</string>
     <string name="toastLocationUnavailable">Az Ön tartózkodási helye továbbra sem érhető el</string>
     <string name="meterModes_30">Sugár</string>
     <string name="prefScreenPocketModeDelayEntries_2">0,20 másodperc</string>
@@ -1544,8 +1544,8 @@
 \nKattintson ide, hogy csak olvasási hozzáférést biztosítson egy egyéni útvonalak mappához…</string>
     <string name="pref_speechGnssStatus_summary">Beszéljen a GPS az állapotváltozásáról (jó, rossz)</string>
     <string name="navigationStepsInfo">Mozgás közben itt jelennek meg a navigációs utasítások. Tetszés szerint rejtse el vagy csúsztassa el ezt a panelt.</string>
-    <string name="summaryRolling">Tekercs</string>
-    <string name="summaryTotalTimeInfo">Időintervallum a műsorszám kezdési időpontja és befejezése között.</string>
+    <string name="summaryRolling">Teker</string>
+    <string name="summaryTotalTimeInfo">Időintervallum az útvonal kezdete és befejezése között.</string>
     <string name="meterModes_None">Egyik sem</string>
     <string name="licenseUpgradeTitle">Frissítse licencét</string>
     <string name="summaryDriverWeightInfo">Az útvonal rögzítésekor használt sofőr (vagy versenyző) súlya.</string>
@@ -1555,7 +1555,7 @@
     <string name="navigationRouteNotFound">Sajnáljuk, nem található útvonal ehhez a célhoz</string>
     <string name="sensorProperitesActivityRecognitionInfo">Az érzékelő csak akkor ad adatot, ha az Ön fizikai tevékenysége kompatibilis az érzékelő céljával. Például a lépésérzékelő séta vagy futás közben számolja a lépéseket, nem pedig kerékpározás közben. Vegye figyelembe, hogy ez nem biztos, hogy pontos, és késés is lehet. Google Play szolgáltatások szükségesek.</string>
     <string name="infoMeterModeHumidityTitle">páratartalom</string>
-    <string name="summaryHeartBeatsInfo">Az aktivitás során észlelt szívverések száma.</string>
+    <string name="summaryHeartBeatsInfo">Az aktivitás során észlelt pulzusszám.</string>
     <string name="unitGAccel">g</string>
     <string name="dialogLicenseUpgradeMessage">A funkció használatához előfizetési licenc szükséges.
 \n
@@ -1570,7 +1570,7 @@
     <string name="navigationGotOffRoute">Le az útvonalról</string>
     <string name="powerSourceWeightInfo">A teljesítmény (watt) fajlagos teljesítményre (watt / egységnyi tömeg) átszámításakor súlyt kell megadni.
 \n
-\nEz általában a hajtóerőt biztosító entitás súlya.
+\nEz általában a biciklis súlya.
 \n
 \nMegjegyzés: A függőleges teljesítményt mindig a teljes tömeg alapján számítjuk ki.</string>
     <string name="pref_mapsLayerHeatmap_info">Ez segíthet új aktív helyek felfedezésében, különösen a távoli régiókban.</string>
@@ -1645,14 +1645,14 @@
     <string name="prefSteadyScreenImplementationNote">(Minden profil) A külső megvalósításhoz külön alkalmazást kell telepíteni. Kattintson ide a Play Áruház megnyitásához.</string>
     <string name="prefSteadyScreenImplementationTitle">Végrehajtás</string>
     <string name="speechUnitThreeFeets">Lábak</string>
-    <string name="dialogMapsMapCountThreeMaps">%1$s térkép</string>
+    <string name="dialogMapsMapCountThreeMaps">%1$s térképek</string>
     <string name="speechUnitFourFeets">Lábak</string>
     <string name="dataStorageStatsTitle">Tárolási statisztikák</string>
     <string name="speechUnitThreeMinutes">Percek</string>
     <string name="speechUnitFourMinutes">Percek</string>
     <string name="dataStorageTransferInfoCount">Áthelyezett elemek: %1$s / %2$s</string>
     <string name="dataStorageTransferInfoStatus">Állapot: %1$s</string>
-    <string name="licenseItemOwned">Jelenlegi tulajdonban</string>
+    <string name="licenseItemOwned">Jelenlegi tulajdonos</string>
     <string name="speechUnitThreeMiles">Mérföld</string>
     <string name="dataStorageTransferInfoSpeed">Sebesség: %1$s MB/s (%2$s elem/s)</string>
     <string name="speechUnitFourMeters">Mérők</string>
@@ -1672,30 +1672,30 @@
     <string name="prefSteadyScreenImplementationExternalInfo">Ahhoz, hogy ez működjön, külön alkalmazást kell telepíteni. Állítható.</string>
     <string name="speechUnitThreeKilometers">Kilométer</string>
     <string name="speechUnitFourLitersOfGasoline">Liter benzin</string>
-    <string name="menuMeterResume">Önéletrajz</string>
+    <string name="menuMeterResume">Összefoglalás</string>
     <string name="navigationRerouteCmd">Kattintson az átirányításhoz</string>
     <string name="speechUnitThreeLitersOfGasoline">Liter benzin</string>
     <string name="prefGoogleMapsRenderer_1">Örökség</string>
     <string name="infoMeterModePowerBalanceMsg">Teljesítményegyensúly, a teljes kimeneti teljesítményhez való bal és jobb oldali hozzájárulás töredékeként.</string>
     <string name="speechUnitThreeHours">Órák</string>
-    <string name="subscriptionCancelInfo">Bármikor lemondhatja a Google Play előfizetései között.</string>
+    <string name="subscriptionCancelInfo">Bármikor lemondhatja a Google Play előfizetései közül.</string>
     <string name="infoMeterModeNoneTitle">Nincs mérő üzemmód</string>
     <string name="infoMeterModeNoneMsg">Ez csak üres helyet mutat.</string>
-    <string name="dialogTrackingStopPromptTitle">Állj meg\?</string>
+    <string name="dialogTrackingStopPromptTitle">Vége\?</string>
     <string name="pref_button_tracking_show_summary">Mutasd meg a Felvétel gombot. Ha le van tiltva, akkor a főmenü parancsait kell használnia a követés elindításához vagy leállításához.</string>
     <string name="prefTrackingStartPromptTitle">Nyomon követés indítási prompt</string>
     <string name="prefTrackingStopPromptTitle">Nyomon követés leállítási prompt</string>
     <string name="meterTextRelative">rel</string>
     <string name="pref_button_tracking_show_title">Engedélyezze</string>
     <string name="menuPause">Szünet</string>
-    <string name="dialogTrackingResumePromptTitle">Önéletrajz\?</string>
+    <string name="dialogTrackingResumePromptTitle">Összefoglalás\?</string>
     <string name="summaryBrakingInfo">Fékezéssel nyert energia.
 \n
 \nFékkopásnak tekinthető - egy pár normál kerékpár tárcsafékbetét 50 MJ körül bírja, autóknál 5 GJ körül.</string>
     <string name="menuCountdown">Visszaszámlálás</string>
     <string name="prefTrackingStopPromptSummary">Megerősítő párbeszédpanel a követés leállítása előtt</string>
     <string name="summaryBraking">Fékezés</string>
-    <string name="dialogTrackingStartPromptTitle">Rajt\?</string>
+    <string name="dialogTrackingStartPromptTitle">Kezdjük\?</string>
     <string name="prefTrackingStartPromptSummary">Megerősítő párbeszédpanel a követés megkezdése előtt</string>
     <string name="infoMeterModeMediaControlsMsg">Megjeleníti az aktuálisan lejátszott médiát, és alapvető vezérlőket biztosít.
 \n
@@ -1706,16 +1706,16 @@
     <string name="meterModes_32">Médiavezérlők</string>
     <string name="infoMeterModeMediaPermissionMsg">Engedély szükséges, érintse meg a vezérlőket a beállítások megnyitásához</string>
     <string name="infoMeterModeMediaControlsTitle">Médiavezérlők</string>
-    <string name="summaryPausedTimeInfo">Szünettel töltött idő, akár manuálisan, akár az automatikus szüneteltetés használata közben.</string>
-    <string name="summaryPausedTime">Szünetelt idő</string>
-    <string name="menuMapOptions">Térkép opciók</string>
+    <string name="summaryPausedTimeInfo">Szünetek hossza a manuális, és az automatikus szüneteltetés használata közben.</string>
+    <string name="summaryPausedTime">Szünetek hossza</string>
+    <string name="menuMapOptions">Térkép jellemzői</string>
     <string name="dialogNotificationListenerTitle">Engedély szükséges</string>
     <string name="menuDown">Le</string>
-    <string name="dialogNotificationListenerMessage">Ez az alkalmazás csak más alkalmazások médialejátszását tudja vezérelni, maga nem médialejátszó. Ahhoz, hogy ez működjön, az Android kötelezi az értesítésekhez való hozzáférési engedélyt.
+    <string name="dialogNotificationListenerMessage">Ez az alkalmazás csak más alkalmazások médialejátszását tudja vezérelni, maga nem médialejátszó. Ahhoz, hogy ez működjön, az Android kéri az értesítésekhez való hozzáférést.
 \n
 \nAz engedély csak a médiavezérlők engedélyezésére szolgál. Az értesítésekhez ezen engedélyen keresztül semmilyen módon nem lehet hozzáférni.</string>
     <string name="menuBottom">Alsó</string>
-    <string name="menuTop">Top</string>
+    <string name="menuTop">Teteje</string>
     <string name="menuMoveRow">Sor mozgatása</string>
     <string name="menuUp">Fel</string>
     <string name="summaryBrakePadWear">Fékbetét kopás</string>
