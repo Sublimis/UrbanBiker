@@ -1136,7 +1136,7 @@
     <string name="pref_maps_offline_terrain_summary">Render terrain elevation shades. Map will look more realistic, but probably slower. Requires DEM (.hgt) files present in the map folder.</string>
     <string name="pref_maps_offline_terrain_info_title">Download now</string>
     <string name="pref_maps_offline_terrain_info_summary">Open up download page at viewfinderpanoramas.org.</string>
-    <string name="pref_maps_offline_terrain_usage_summary">Usage: Extract .hgt files from the downloaded zip(s) and place them in the same folder where the offline map file resides (do not use separate subfolder).</string>
+    <string name="pref_maps_offline_terrain_usage_summary">Usage: Simply place the downloaded files to the same folder where the offline map file resides.</string>
     <string name="pref_mapsOfflineLayerButtonActionTitle">Layer button action</string>
     <string name="pref_mapsOfflineLayerButtonActionSummary">Choose what to do when the layer button is pressed</string>
     <string name="pref_mapsWeatherPrecipitationRadar_title">Precipitation radar</string>
@@ -1239,6 +1239,8 @@
     <string name="prefProhibitLocationAlertInfo">Location will never be turned on nor used during activity, so map will not be available.\n\nData will be acquired exclusively from other sensors where available (Power, Speed, Cadence, Heart rate, Steps, Environment).</string>
     <string name="prefMapTrackColorTitle">Track color</string>
     <string name="prefMapGuideRouteColorTitle">Guide route color</string>
+    <string name="prefMapHillShadingColorTitle">Terrain color</string>
+    <string name="prefMapHillShadingColorOverrideTitle">Customize terrain color</string>
     <string name="prefActivityRecognitionNoteSummary">These options rely on Android\'s physical activity recognition feature. It may not be accurate and can be laggy, use only if you are okay with that. Will work best when a speed sensor is used for distance and duration.</string>
     <string name="prefGnssActivityRecognitionTitle">Reduce GPS noise</string>
     <string name="prefGnssActivityRecognitionSummary">Recognize standing still vs. moving for GPS. This may introduce lag and some lost distance or altitude after a break, but will prevent most GPS noise.</string>
@@ -1592,7 +1594,7 @@
     <!-- prefMapOfflineLayerButtonActionEntries -->
     <string name="prefMapOfflineLayerButtonActionEntries_0">Switch theme</string>
     <string name="prefMapOfflineLayerButtonActionEntries_1">Switch file</string>
-    <string name="prefMapOfflineLayerButtonActionEntries_2">None</string>
+    <string name="prefMapOfflineLayerButtonActionEntries_2">None (default)</string>
 
     <!-- prefMapDiskCacheSizeEntries -->
     <string name="prefMapDiskCacheSizeEntries_0">10 MB</string>
