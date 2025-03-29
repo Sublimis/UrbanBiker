@@ -406,7 +406,7 @@
     <string name="googleFitConnectButton">Связать с Google Fit</string>
     <string name="stravaTrackPrivacyInfo">Трек унаследует настройки конфиденциальности, которые вы выставили в Strava</string>
     <string name="tracksHistoryListTitle">История треков</string>
-    <string name="tracksHistoryListTitleSelect">Выбрано</string>
+    <string name="tracksHistoryListTitleSelect">Выбор</string>
     <string name="tracksHistoryListEmpty">Нет треков. Выйдите на улицу и запишите любую активность!</string>
     <string name="tracksHistoryListLoading">Загрузка…</string>
     <string name="tracksHistoryListButtonView">Просмотреть</string>
@@ -599,7 +599,7 @@
     <string name="pref_auto_launch_on_gps_title">Автозапуск при включении GPS</string>
     <string name="pref_auto_launch_on_gps_summary">Запускать приложение (в пассивном режиме) при включении GPS</string>
     <string name="pref_passive_gps_button_title">Пассивный режим GPS</string>
-    <string name="pref_passive_gps_button_summary">Включить пассивный режим при нажатии кнопки записи трека</string>
+    <string name="pref_passive_gps_button_summary">Использовать пассивный режим при нажатии кнопки записи трека</string>
     <string name="pref_digital_font_title">Цифровой шрифт</string>
     <string name="pref_digital_font_summary">Использовать сегментированный цифровой шрифт для отображения данных счётчиков</string>
     <string name="pref_roaring_state_title">AVAS</string>
@@ -637,7 +637,7 @@
     <string name="pref_soundeffects_tally_descent_dialog_title">Учёт спуска</string>
     <string name="pref_soundeffects_alarm_title">Включить</string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Забытая пауза</string>
-    <string name="pref_soundeffects_alarm_gpsPause_summary">Сигнал при обнаружении значительного движения во время паузы записи трека</string>
+    <string name="pref_soundeffects_alarm_gpsPause_summary">Сигнал при обнаружении значительного движения во время приостановленной записи трека</string>
     <string name="pref_ads_mode_title">Показ рекламы</string>
     <string name="pref_ads_mode_dialog_title">Тип рекламы</string>
     <string name="pref_maps_disable_title">Отключить карты</string>
@@ -673,7 +673,7 @@
     <string name="pref_button_contrast_show_title">Контраст/Слои карты</string>
     <string name="pref_button_contrast_show_summary">Показывать кнопку переключения «Контраст»/«Слои карты»</string>
     <string name="pref_button_menu_show_title">Меню</string>
-    <string name="pref_button_menu_show_summary">Показывать кнопку «Меню»</string>
+    <string name="pref_button_menu_show_summary">Показывать кнопку вызова меню</string>
     <string name="pref_meter_lock_title">Блокировка режима</string>
     <string name="pref_meter_lock_summary">Не даёт сменять режим нажатием</string>
     <string name="pref_meter_modes_select_title">Выбор доступных режимов…</string>
@@ -1572,7 +1572,7 @@
     <string name="meterModes_10">Баланс мощности</string>
     <string name="infoMeterModePowerBalanceMsg">Баланс мощности, представленный в виде частей слева и справа, составляющих общую мощность.</string>
     <string name="prefGpsIntervalAdaptiveSummary">Автоматическое регулирование интервала обновления GPS в диапазоне от 1 до 5 секунд в зависимости от скорости.</string>
-    <string name="prefGpsIntervalAdaptiveTitle">Адаптивный</string>
+    <string name="prefGpsIntervalAdaptiveTitle">Адаптивно</string>
     <string name="meterModeBatteryShort">бат</string>
     <string name="prefGpsIntervalAdaptiveNote">Адаптивный интервал обновления позволяет снизить расход заряда батареи при медленном движении или частых остановках.</string>
     <string name="meterModeBattery">батарея</string>
