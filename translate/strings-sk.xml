@@ -1169,17 +1169,17 @@
     <string name="infoMeterModeAltitudeMsg">Výška nad priemernou morskou hladinou (geoid).</string>
     <string name="infoMeterModeSlopeMsg">Sklon (gradient), kladná hodnota značí stúpanie, záporná klesanie.</string>
     <string name="infoMeterModeVerticalSpeedMsg">Rýchlosť vo zvislom smere, hore kladná, dole záporná.</string>
-    <string name="infoMeterModePowerMsg">Výkon vyvinutý počas aktivity, vzhľadom na odpor, trenie, zmeny nadm. výšky atď.
+    <string name="infoMeterModePowerMsg">Výkon vyvinutý počas aktivity, vzhľadom na odpor, trenie, zmeny nadm. výšky atď..
 \n
-\nZáporná hodnota znamená naberanie energie, pri klesaní alebo brzdení.
+\nZáporná hodnota znamená rozptyl energie, pri vlečení alebo brzdení.
 \n
 \nPri kcal/h alebo kJ/h sa berú do úvahy účinnosť a BMR.</string>
     <string name="infoMeterModeAvgActivePowerMsg">Priemerný výkon počas aktivity, nepočítajúc prestávky alebo klesanie či brzdenie.</string>
-    <string name="infoMeterModeVerticalPowerMsg">Strata výkonu pri stúpaní alebo jeho naberanie pri klesaní.
+    <string name="infoMeterModeVerticalPowerMsg">Výkon vyvinutý pri prekonávaní gravitácie.
 \n
-\nZáporná hodnota znamená naberanie výkonu (klesanie).
+\nZáporná hodnota vychádza z klesania, znamená naberania energie z gravitácie.
 \n
-\nPri kcal/h alebo kJ/h sa berú do úvahy účinnosť a BMR.</string>
+\nPri kcal/h alebo kJ/h sa tiež berie do úvahy účinnosť.</string>
     <string name="infoMeterModeTemperatureMsg">Teplota vzduchu meraná vstavaným alebo iným snímačom.</string>
     <string name="infoMeterModePressureMsg">Tlak vzduchu meraný vstavaným alebo iným snímačom.</string>
     <string name="infoMeterModeCadenceMsg">Počet otáčok pedálov za minútu, tempo pedálovania.</string>
@@ -1722,11 +1722,11 @@
     <string name="pref_button_theme_show_title">Vzhľad</string>
     <string name="prefCompassTitle">Kompas</string>
     <string name="prefCompassEnableTitle">Zobrazovať kompas</string>
-    <string name="prefSlopeTitle">Svah</string>
-    <string name="prefSlopeInertialDisplayEnableSummary">Ak je to možné, povoľte používanie inerciálnych senzorov (ako je akcelerometer a gyroskop) na zlepšenie odozvy meraní sklonu terénu na obrazovke. Predvolene vypnuté.</string>
-    <string name="prefSlopeInertialDisplayEnableInfo2">Aplikácia automaticky rozhodne, kedy použiť sklonomer na základe orientácie a pohybu vášho zariadenia. Upozorní vás malá ikona senzora v rohu merača sklonu.</string>
-    <string name="prefCompassEnableSummary">Zobrazte alebo skryte malý kompas v stavovom riadku, ak ho zariadenie podporuje. Predvolene povolené.</string>
-    <string name="prefSlopeInertialDisplayEnableInfo1">To je užitočné iba vtedy, keď je telefón držaný v pevnej polohe vzhľadom na vozidlo, napríklad pripevnený k riadidlám alebo palubnej doske.</string>
+    <string name="prefSlopeTitle">Sklon</string>
+    <string name="prefSlopeInertialDisplayEnableSummary">Je vhodné povoliť používanie inerciálnych senzorov (ako akcelerometer a gyroskop) na zlepšenie odozvy pri vyhodnocovaní meraní sklonu terénu. Predvolene vypnuté.</string>
+    <string name="prefSlopeInertialDisplayEnableInfo2">Sklonomer je automaticky uvádzaný do činnosti vzhľadom na orientáciu a pohyby zariadenia. Aktivácia senzora je indikovaná na tlačidle merania sklonu.</string>
+    <string name="prefCompassEnableSummary">Zobrazovanie malého kompasu na stavovom paneli v závislosti od podpory funkcie zariadením. Predvolene povolené.</string>
+    <string name="prefSlopeInertialDisplayEnableInfo1">Funkcia je užitočná iba pri fixnom uchytení zariadenia na vozidle, napríklad na riadidlách alebo palubnej doske.</string>
     <string name="prefSlopeInertialDisplayEnableTitle">Povoliť sklonomer pre Sklon</string>
-    <string name="prefCompassEnableInfo">Kompas sa zobrazuje iba vtedy, keď je aktívne sledovanie.</string>
+    <string name="prefCompassEnableInfo">Kompas sa zobrazuje iba počas aktívneho sledovania trasy.</string>
 </resources>
