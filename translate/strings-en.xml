@@ -1284,6 +1284,15 @@
     <string name="prefBatteryOptimizationMessage">Urban Biker can be exempted from system battery optimizations, to make it more certain it will continue to work properly when the screen is turned off on older versions of Android. Click here to open the settings now.</string>
     <string name="prefGnssAltitudeOffsetTitle">Altitude offset (GPS)</string>
     <string name="prefGnssAltitudeOffsetInfo">(All profiles) This constant is added to the altitude values received from the GPS. The default is zero (0).</string>
+    <string name="prefCompassTitle">Compass</string>
+    <string name="prefCompassEnableTitle">Show compass</string>
+    <string name="prefCompassEnableSummary">Show or hide the small compass in the status bar, if supported by the device. Enabled by default.</string>
+    <string name="prefCompassEnableInfo">The compass is shown only while tracking is active.</string>
+    <string name="prefSlopeTitle">Slope</string>
+    <string name="prefSlopeInertialDisplayEnableTitle">Enable inclinometer for Slope</string>
+    <string name="prefSlopeInertialDisplayEnableSummary">Enable the use of inertial sensors (such as accelerometer and gyroscope) to improve the responsiveness of on-screen terrain slope measurements when possible. Disabled by default.</string>
+    <string name="prefSlopeInertialDisplayEnableInfo1">This is only useful when the phone is held in a fixed position relative to the vehicle, for example attached to handlebars or dashboard.</string>
+    <string name="prefSlopeInertialDisplayEnableInfo2">The app automatically decides when to use the inclinometer based on the orientation and movement of your device. You will be notified by a small "sensor" icon in the corner of the Slope meter.</string>
 
     <string name="dataStorageTitle">Storage</string>
     <string name="dataStorageInfo1">Custom data storage location is recommended and useful to prevent accidental data loss if the app is uninstalled, and to make backups easier.</string>
@@ -1333,7 +1342,7 @@
     <string name="infoMeterModeAccelerationTitle">Acceleration</string>
     <string name="infoMeterModeAccelerationMsg">Rate of change of speed in time.\n\nNegative means deceleration.</string>
     <string name="infoMeterModePowerTitle">Power</string>
-    <string name="infoMeterModePowerMsg">Power exerted during activity, due to drag forces, altitude change, etc.\n\nNegative means power gain, e.g. when braking.\n\nWhen in kcal/h or kJ/h, it also takes efficiency and BMR into account.</string>
+    <string name="infoMeterModePowerMsg">Power exerted during activity, due to drag forces, altitude change, etc.\n\nNegative means power dissipation (due to drag or braking).\n\nWhen in kcal/h or kJ/h, it also takes efficiency and BMR into account.</string>
     <string name="infoMeterModePowerBalanceTitle">Power balance L/R</string>
     <string name="infoMeterModePowerBalanceMsg">Power balance, presented as a fraction of left and right contributions to the total power output.</string>
     <string name="infoMeterModeFuncThresholdPowerTitle">Functional threshold power</string>
@@ -1341,7 +1350,7 @@
     <string name="infoMeterModeAvgActivePowerTitle">Average active power</string>
     <string name="infoMeterModeAvgActivePowerMsg">Average power exerted during activity, not counting time intervals where power was absent (downhill, braking, coasting).</string>
     <string name="infoMeterModeVerticalPowerTitle">Climb power</string>
-    <string name="infoMeterModeVerticalPowerMsg">Power loss or gain while ascending or descending.\n\nNegative means power gain (descending).\n\nWhen in kcal/h or kJ/h, it also takes efficiency into account.</string>
+    <string name="infoMeterModeVerticalPowerMsg">Power invested in overcoming gravity.\n\nNegative values mean descent, i.e. gravity does the work.\n\nWhen in kcal/h or kJ/h, it also takes efficiency into account.</string>
     <string name="infoMeterModeTemperatureTitle">Temperature</string>
     <string name="infoMeterModeTemperatureMsg">Ambient temperature as measured with the device or an external sensor.</string>
     <string name="infoMeterModePressureTitle">Pressure</string>
