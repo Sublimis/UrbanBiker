@@ -755,16 +755,16 @@
     <string name="infoMeterModePowerTitle">Snaga</string>
     <string name="infoMeterModePowerMsg">Snaga izdana zbog sila otpora, promjene nadmorske visine, itd.
 \n
-\nNegativno znači dobitak snage, npr. prilikom kočenja.
+\nNegativno znači rasipanje snage (zbog otpora ili kočenja).
 \n
 \nKad su jedinice kcal/h ili kJ/h, također uzima u obzir efikasnost i BMR.</string>
     <string name="infoMeterModeAvgActivePowerTitle">Srednja aktivna snaga</string>
     <string name="infoMeterModeAvgActivePowerMsg">Srednja snaga tijekom aktivnosti, ne računajući vremenske intervale u kojima je snaga bila odsutna (nizbrdica, kočenje, klizanje).</string>
     <string name="infoMeterModeVerticalPowerTitle">Snaga uspona</string>
-    <string name="infoMeterModeVerticalPowerMsg">Gubitak ili dobitak snage tijekom uspona ili spusta. 
-\n 
-\nNegativno označava dobitak snage (spuštanje). 
-\n 
+    <string name="infoMeterModeVerticalPowerMsg">Snaga uložena u svladavanje gravitacije.
+\n
+\nNegativne vrijednosti znače spuštanje, tj. gravitacija obavlja posao.
+\n
 \nKada su jedinice kcal/h ili kJ/h, također uzima u obzir efikasnost.</string>
     <string name="infoMeterModeTemperatureTitle">Temperatura</string>
     <string name="infoMeterModeTemperatureMsg">Temperatura okoline izmjerena uređajem ili vanjskim senzorom.</string>
@@ -1712,7 +1712,7 @@
     <string name="pref_button_theme_show_title">Tema</string>
     <string name="prefCompassTitle">Kompas</string>
     <string name="prefSlopeTitle">Nagib</string>
-    <string name="prefCompassEnableTitle">Pokaži kompas</string>
+    <string name="prefCompassEnableTitle">Prikaži kompas</string>
     <string name="prefSlopeInertialDisplayEnableSummary">Omogućite upotrebu inercijskih senzora (kao što su akcelerometar i žiroskop) za poboljšanje odziva mjerenja nagiba terena na zaslonu kada je to moguće. Onemogućeno prema zadanim postavkama.</string>
     <string name="prefSlopeInertialDisplayEnableInfo2">Aplikacija automatski odlučuje kada koristiti inklinometar na temelju orijentacije i kretanja vašeg uređaja. Bit ćete obaviješteni malom ikonom senzora u kutu mjerača nagiba.</string>
     <string name="prefCompassEnableSummary">Prikažite ili sakrijte mali kompas na statusnoj traci, ako to uređaj podržava. Omogućeno prema zadanim postavkama.</string>
