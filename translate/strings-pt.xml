@@ -755,15 +755,15 @@
     <string name="infoMeterModePowerTitle">Potência</string>
     <string name="infoMeterModePowerMsg">Potência exercida durante a atividade, devido a forças de atrito, mudança de altitude, etc.
 \n
-\nNegativo significa ganho de Potência, por exemplo ao travar.
+\nNegativo significa dissipação de potência (devido a forças de atrito ou travagem).
 \n
 \nQuando em Kcal/h ou KJ/h, também tem em conta a Eficiência e a TMB.</string>
     <string name="infoMeterModeAvgActivePowerTitle">Potência Ativa Média</string>
     <string name="infoMeterModeAvgActivePowerMsg">Potência média exercida durante a atividade, sem contar os intervalos de tempo em que a energia estava ausente (descida, travagem, inércia).</string>
     <string name="infoMeterModeVerticalPowerTitle">Potência de Subida</string>
-    <string name="infoMeterModeVerticalPowerMsg">Perda ou ganho de Potência ao subir ou descer.
+    <string name="infoMeterModeVerticalPowerMsg">Potência investida para superar a gravidade.
 \n
-\nNegativo significa ganho de Potência (Descida).
+\nValores negativos significam descida, ou seja, a gravidade faz o trabalho.
 \n
 \nQuando em Kcal/h ou KJ/h, também tem em conta a Eficiência.</string>
     <string name="infoMeterModeTemperatureTitle">Temperatura</string>
@@ -1711,12 +1711,12 @@
     <string name="pref_button_theme_show_summary">Mostrar o botão de alternância do Tema</string>
     <string name="pref_button_theme_show_title">Tema</string>
     <string name="prefCompassTitle">Bússola</string>
-    <string name="prefSlopeTitle">Declive</string>
+    <string name="prefSlopeTitle">Inclinação</string>
     <string name="prefCompassEnableTitle">Mostrar bússola</string>
-    <string name="prefSlopeInertialDisplayEnableSummary">Habilita o uso de sensores inerciais (como acelerômetro e giroscópio) para melhorar a capacidade de resposta das medições de declive do terreno na tela quando possível. Desabilitado por padrão.</string>
-    <string name="prefSlopeInertialDisplayEnableInfo2">O aplicativo decide automaticamente quando usar o inclinômetro com base na orientação e no movimento do seu dispositivo. Você será notificado por um pequeno ícone de sensor no canto do medidor de Slope.</string>
+    <string name="prefSlopeInertialDisplayEnableSummary">Ativa o uso de sensores de inércia (como o acelerómetro e giroscópio) para melhorar a capacidade de resposta (no ecrã) das medições de Inclinação do terreno, quando possível. Inativo por padrão.</string>
+    <string name="prefSlopeInertialDisplayEnableInfo2">A aplicação decide automaticamente quando usar o inclinómetro com base na orientação e no movimento do seu dispositivo. Será notificado através de um pequeno ícone de sensor no canto do medidor de Inclinação.</string>
     <string name="prefCompassEnableSummary">Exibe ou oculta a pequena bússola na barra de status, se suportado pelo dispositivo. Habilitado por padrão.</string>
-    <string name="prefSlopeInertialDisplayEnableInfo1">Isso só é útil quando o telefone é mantido em uma posição fixa em relação ao veículo, por exemplo, preso ao guidão ou ao painel.</string>
-    <string name="prefSlopeInertialDisplayEnableTitle">Habilitar inclinômetro para declive</string>
-    <string name="prefCompassEnableInfo">A bússola é exibida somente enquanto o rastreamento está ativo.</string>
+    <string name="prefSlopeInertialDisplayEnableInfo1">Isto só é útil quando o telefone é mantido numa posição fixa em relação ao veículo, por exemplo, preso ao guiador ou ao painel.</string>
+    <string name="prefSlopeInertialDisplayEnableTitle">Ativar inclinómetro para mostrar o Declive</string>
+    <string name="prefCompassEnableInfo">A bússola é exibida somente enquanto o registo estiver ativo.</string>
 </resources>
