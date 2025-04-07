@@ -976,12 +976,12 @@
     <string name="infoMeterModeVerticalSpeedMsg">Скорость подъёма (положительная) или спуска (отрицательная) в вертикальном направлении.</string>
     <string name="infoMeterModePowerMsg">Изменение мощности во время активности из-за смены высоты, сил сопротивлений и т.д.
 \n
-\nОтрицательная величина означает приобретение мощности, например, при торможении.
+\nОтрицательная величина означает потерю мощности (в результате трения или торможения).
 \n
 \nПри учёте в ккал/ч или кДж/ч также принимается в расчёт эффективность и BMR.</string>
-    <string name="infoMeterModeVerticalPowerMsg">Потеря или приобретение мощности во время подъёма или спуска.
+    <string name="infoMeterModeVerticalPowerMsg">Сила, вложенная в преодоление гравитации.
 \n
-\nОтрицательная величина означает потерю мощности (спуск).
+\nОтрицательная величина означает спуск, т.е. работу выполняет гравитация.
 \n
 \nКогда учёт в ккал/ч или кДж/ч, также принимается в расчёт эффективность.</string>
     <string name="infoMeterModeTemperatureMsg">Температура окружающей среды, полученная от встроенного или внешнего датчика.</string>
@@ -1716,12 +1716,12 @@
     <string name="pref_button_theme_show_summary">Показывать кнопку переключения тем</string>
     <string name="pref_button_theme_show_title">Тема</string>
     <string name="prefCompassTitle">Компас</string>
-    <string name="prefSlopeTitle">Склон</string>
-    <string name="prefCompassEnableTitle">Показать компас</string>
-    <string name="prefSlopeInertialDisplayEnableSummary">Включить использование инерционных датчиков (таких как акселерометр и гироскоп) для улучшения реагирования на измерения уклона местности на экране, когда это возможно. По умолчанию отключено.</string>
-    <string name="prefSlopeInertialDisplayEnableInfo2">Приложение автоматически решает, когда использовать инклинометр на основе ориентации и движения вашего устройства. Вы будете уведомлены небольшим значком датчика в углу измерителя уклона.</string>
+    <string name="prefSlopeTitle">Уклон</string>
+    <string name="prefCompassEnableTitle">Показывать компас</string>
+    <string name="prefSlopeInertialDisplayEnableSummary">Использовать инерционные датчики (такие как акселерометр и гироскоп) для улучшения реагирования на измерения уклона местности на экране, когда это возможно. По умолчанию отключено.</string>
+    <string name="prefSlopeInertialDisplayEnableInfo2">Приложение автоматически решает, когда использовать инклинометр, исходя из ориентации и перемещения вашего устройства. Вы будете уведомлены небольшим значком датчика в углу панели измерения уклона.</string>
     <string name="prefCompassEnableSummary">Показать или скрыть небольшой компас в строке состояния, если поддерживается устройством. Включено по умолчанию.</string>
-    <string name="prefSlopeInertialDisplayEnableInfo1">Это полезно только в том случае, если телефон зафиксирован относительно транспортного средства, например, прикреплен к рулю или приборной панели.</string>
-    <string name="prefSlopeInertialDisplayEnableTitle">Включить инклинометр для уклона</string>
+    <string name="prefSlopeInertialDisplayEnableInfo1">Это полезно только в том случае, если телефон зафиксирован относительно транспортного средства, например, прикреплён к рулю или приборной панели.</string>
+    <string name="prefSlopeInertialDisplayEnableTitle">Инклинометр для измерения уклона</string>
     <string name="prefCompassEnableInfo">Компас отображается только во время активного отслеживания.</string>
 </resources>
