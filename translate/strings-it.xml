@@ -755,17 +755,17 @@
     <string name="infoMeterModePowerTitle">Potenza</string>
     <string name="infoMeterModePowerMsg">Potenza esercitata durante l\'attività da forze aerodinamiche, cambio di altitudine, ecc.
 \n
-\nNegativa indica guadagno di potenza, per es. durante la frenata.
+\nNegativa indica dissipazione di potenza (dovuta ad attrito o frenata).
 \n
 \nSe in kcal/h o kJ/h, considera anche efficienza e MB.</string>
     <string name="infoMeterModeAvgActivePowerTitle">Potenza attiva media</string>
     <string name="infoMeterModeAvgActivePowerMsg">La potenza media esercitata durante l\'attività, non considerando gli intervalli di tempo dove la potenza era assente (downhill, frenate, coasting).</string>
     <string name="infoMeterModeVerticalPowerTitle">Potenza in salita</string>
-    <string name="infoMeterModeVerticalPowerMsg">Perdita o guadagno di potenza durante la salita o la discesa.
+    <string name="infoMeterModeVerticalPowerMsg">Potenza impegnata per superare la forza di gravità.
 \n
-\nNegativo significa guadagno di potenza (discesa).
+\nValori negativi indicano discesa, ossia è la forza di gravità a fare il lavoro.
 \n
-\nSe in kcal/h o kJ/h, considera anche l\'efficienza.</string>
+\nSe espresso in kcal/h o kJ/h, considera anche l\'efficienza.</string>
     <string name="infoMeterModeTemperatureTitle">Temperatura</string>
     <string name="infoMeterModeTemperatureMsg">Temperatura ambientale come misurata col dispositivo o con un sensore esterno.</string>
     <string name="infoMeterModePressureTitle">Pressione</string>
@@ -1712,11 +1712,11 @@
     <string name="pref_button_theme_show_title">Tema</string>
     <string name="prefCompassTitle">Bussola</string>
     <string name="prefSlopeTitle">Pendenza</string>
-    <string name="prefCompassEnableTitle">Mostra bussola</string>
+    <string name="prefCompassEnableTitle">Mostra la bussola</string>
     <string name="prefSlopeInertialDisplayEnableSummary">Abilita l\'uso di sensori inerziali (come accelerometro e giroscopio) per migliorare la reattività delle misurazioni della pendenza del terreno sullo schermo, quando possibile. Disabilitato per impostazione predefinita.</string>
     <string name="prefSlopeInertialDisplayEnableInfo2">L\'app decide automaticamente quando usare l\'inclinometro in base all\'orientamento e al movimento del tuo dispositivo. Sarai avvisato da una piccola icona del sensore nell\'angolo del misuratore di pendenza.</string>
     <string name="prefCompassEnableSummary">Mostra o nascondi la piccola bussola nella barra di stato, se supportata dal dispositivo. Abilitata per impostazione predefinita.</string>
     <string name="prefSlopeInertialDisplayEnableInfo1">Questa funzione è utile solo quando il telefono è tenuto in una posizione fissa rispetto al veicolo, ad esempio attaccato al manubrio o al cruscotto.</string>
-    <string name="prefSlopeInertialDisplayEnableTitle">Abilita inclinometro per pendenza</string>
+    <string name="prefSlopeInertialDisplayEnableTitle">Abilita inclinometro per la pendenza</string>
     <string name="prefCompassEnableInfo">La bussola viene visualizzata solo quando il tracciamento è attivo.</string>
 </resources>
