@@ -1,2 +1,305 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="dialog_fenceguard_remove_title">Odstranite ograjo</string>
+    <string name="farFromHere">Daleč od tu</string>
+    <string name="dialogProfileDeleteMessage">Opozorilo: s tem boste odstranili nastavitve profila in skupne podatke. Shranjene poti bodo ostale nedotaknjene.
+\n
+\nIzbrisati profil %1$s\?</string>
+    <string name="app_description">Sledite in merite svoje vožnje z veliko natančnostjo. Povečajte svojo kolesarsko varnost in učinkovitost.</string>
+    <string name="toastMapButtonClickInfo">Dolgo kliknite za preklop zemljevida</string>
+    <string name="menuMeterParameters">Parametri …</string>
+    <string name="toastMapLayerTrafficOff">Promet izklopljen</string>
+    <string name="menuDelete">Izbriši</string>
+    <string name="toastMapFollowingAutorotate">Samodejno vrtenje vklopljeno</string>
+    <string name="toastProfilesListProfileUpdated">Profil posodobljen</string>
+    <string name="menuInsertAbove">Zgoraj</string>
+    <string name="menuProperties">Lastnosti…</string>
+    <string name="toastProfileSavingError">Napaka pri shranjevanju podatkov profila! Prosim poskusite ponovno.</string>
+    <string name="widget_1_description">Biker: Zvonec</string>
+    <string name="menuFenceguard">FenceGuard</string>
+    <string name="menuMeterPowerMode">Preklop načina napajanja</string>
+    <string name="proLicenseTitle">Pro Licenca</string>
+    <string name="dialog_volume_tallies_text">Oznake</string>
+    <string name="toastMapFollowingOff">Sledite</string>
+    <string name="dialog_volume_effects_text">Učinki</string>
+    <string name="proLicenseFeatures">❌ Premium zemljevidi
+\n❌ Navigacija
+\n❌ Spletna osnovna višina
+\n⭐ Brez oglasov
+\n⭐ Vse brezplačne funkcije in zemljevidi</string>
+    <string name="proPlusLicenseLabel">Pro+</string>
+    <string name="menuHelp">Pomoč in podpora</string>
+    <string name="menuMeterClockShowSeconds">Prikaži sekunde</string>
+    <string name="mapboxMapsFeatures">⭐ Premium zemljevidi Mapbox
+\n⭐ Navigacija
+\n⭐ Spletna osnovna nadmorska višina
+\n⭐ Brez oglasov
+\n⭐ Vse brezplačne funkcije in zemljevidi</string>
+    <string name="toastErrorPowerParametersVoid">Izpolnite parametre napajanja v nastavitvah</string>
+    <string name="menuScreenshot">Posnetek zaslona</string>
+    <string name="menuMeterResetMinMax">Ponastavi min/maks</string>
+    <string name="toastSoundsDisabled">Zvoki onemogočeni</string>
+    <string name="menuAutomaticBell">Avtomatski zvonec</string>
+    <string name="meterVerticalWeight">Navpična teža</string>
+    <string name="menuSwitchProfile">Preklopi na</string>
+    <string name="toastAutoThemeActivated">Aktivirana samodejna vizualna tema</string>
+    <string name="toastTrackingPaused">Zaustavljeno</string>
+    <string name="toastSteadyScreenModeActive">Stabilizacija zaslona omogočena</string>
+    <string name="menuSpeedoPaceIndicator">Indikator tempa</string>
+    <string name="menuMeterChooseModes">Izberite načine…</string>
+    <string name="menuRemoveRecButton">Odstrani gumb Rec</string>
+    <string name="toastScreenPocketModeActive">Žepni način je aktiven</string>
+    <string name="toastProfilesListProfileCreated">Profil je ustvarjen</string>
+    <string name="meterHorizontalWeight">Horizontalna teža</string>
+    <string name="menuPause">Premor</string>
+    <string name="licenseItemOwned">Trenutno v lasti</string>
+    <string name="subscriptionPer1y">%1$s zaračunano vsakih 12 mesecev</string>
+    <string name="toastSteadyScreenModeIntelligentActive">Omogočena je inteligentna stabilizacija zaslona</string>
+    <string name="menuInsertMeter">Merilnik</string>
+    <string name="menuMeterShowValue">Vrednost</string>
+    <string name="menuSpeedo">Merilnik hitrosti</string>
+    <string name="menuView">Pogled</string>
+    <string name="inProgress">V teku</string>
+    <string name="featureNotAvailable">Oprostite, funkcija ni na voljo v tej napravi</string>
+    <string name="subscriptionPer1m">%1$s zaračunano enkrat mesečno</string>
+    <string name="menuEdit">Uredi</string>
+    <string name="menuRevokeAccess">Prekliči dostop</string>
+    <string name="dialog_fenceguard_update_title">Posodobite ograjo</string>
+    <string name="dialog_fenceguard_add_text2">Okoli vaše trenutne lokacije bo dvignjena ograja, ki jo bo zaščitila pred izpostavljenostjo v posnetih posnetkih.</string>
+    <string name="menuSpeedoNeedle">Kazalo</string>
+    <string name="toastTrackWritingError">Napaka pri zapisovanju podatkov o progi v shrambo! Poskusite znova ponastaviti.</string>
+    <string name="menuMeterShowChart">Graf</string>
+    <string name="toastSensorEnabled">Senzor omogočen</string>
+    <string name="menuSpeedoStallIndicator">Indikator zastoja</string>
+    <string name="toastFenceGuardFenceRemoved">FenceGuard: Ograja %1$s odstranjena</string>
+    <string name="dialog_exit_msg">Opozorilo: Sledenje je aktivno in bo ustavljeno.</string>
+    <string name="no">Ne</string>
+    <string name="licenseSuccessDialogMessage">Aplikacija je bila uspešno licencirana. Hvala za vašo podporo!</string>
+    <string name="menuSettings">nastavitve</string>
+    <string name="toastFenceGuardOutsideTheFence">FenceGuard: Trenutno niste znotraj ograje</string>
+    <string name="menuMeterShowSubValues">Podvrednosti</string>
+    <string name="menuAbout">O tem</string>
+    <string name="menuSelectOther">Izberite drugo</string>
+    <string name="paymentOnce">Enkratno plačilo</string>
+    <string name="toastProfileChangeError">Ni bilo mogoče zamenjati profila! Prosim poskusite ponovno.</string>
+    <string name="toastSharingNoGpxError">Napaka, ni GPX datoteke v progi</string>
+    <string name="freeLicenseFeatures">❌ Premium zemljevidi
+\n❌ Navigacija
+\n❌ Spletna osnovna višina
+\n❌ Brez oglasov
+\n⭐ Vse brezplačne funkcije in zemljevidi</string>
+    <string name="subscriptionCancelInfo">Prekličite kadar koli v Naročninah v Googlu Play.</string>
+    <string name="proPlusLicenseTitle">Pro Plus Licenca</string>
+    <string name="dialog_bell_shake_sensitivity_title">Občutljivost za tresenje</string>
+    <string name="dialog_volume_message">Opomba: Uporabite gumba za glasnost na napravi, da prilagodite splošno glasnost zvoka.</string>
+    <string name="rewardedAdDescription">Kliknite tukaj, če si želite najprej ogledati oglas</string>
+    <string name="toastRoarButtonClickInfo">Dolg klik za preklop zvoka AVAS</string>
+    <string name="subscriptionPer1w">%1$s zaračunano enkrat tedensko</string>
+    <string name="success">Uspeh</string>
+    <string name="hereMapsFeatures">⭐ HERE premium zemljevidi
+\n⭐ Navigacija
+\n⭐ Spletna osnovna nadmorska višina
+\n⭐ Brez oglasov
+\n⭐ Vse brezplačne funkcije in zemljevidi</string>
+    <string name="menuCollapseAll">Strni vse</string>
+    <string name="dialog_bell_automatic_sensitivity_title">Samodejna občutljivost zvonca</string>
+    <string name="toastTrackSavingError">Napaka pri shranjevanju poti! Poskusite znova ponastaviti.</string>
+    <string name="toastRestartRequired">Znova zaženite aplikacijo, da bo to začelo veljati</string>
+    <string name="toastTrackDeleteError">Napaka pri brisanju prog</string>
+    <string name="thunderforestMapsFeatures">⭐ Premium zemljevidi Thunderforest
+\n⭐ Navigacija
+\n⭐ Spletna osnovna nadmorska višina
+\n⭐ Brez oglasov
+\n⭐ Vse brezplačne funkcije in zemljevidi</string>
+    <string name="fence_name_default">Moje mesto</string>
+    <string name="dialog_default_color_light_title">Tema svetle barve</string>
+    <string name="proPlusLicenseFeatures">❌ Premium zemljevidi
+\n❌ Navigacija
+\n❌ Spletna osnovna višina
+\n⭐ Brez oglasov
+\n⭐ Vse brezplačne funkcije in zemljevidi
+\n➕ Dodatna donacija</string>
+    <string name="toastActiveProfile">Profil: %1$s</string>
+    <string name="menuRateAndComment">Ocenite nas</string>
+    <string name="maptilerMapsFeatures">⭐ Premium zemljevidi MapTiler
+\n⭐ Navigacija
+\n⭐ Spletna osnovna nadmorska višina
+\n⭐ Brez oglasov
+\n⭐ Vse brezplačne funkcije in zemljevidi</string>
+    <string name="toastFenceGuardFenceAdded">FenceGuard: dodana ograja %1$s</string>
+    <string name="menuDown">Dol</string>
+    <string name="toastSharingError">Napaka med dejanji skupne rabe</string>
+    <string name="toastSoundsEnabled">Zvoki omogočeni</string>
+    <string name="yes">Ja</string>
+    <string name="menuChooseFolder">Mapa</string>
+    <string name="menuNarrow">Ozko</string>
+    <string name="toastSteadyScreenModeOff">Stabilizacija zaslona onemogočena</string>
+    <string name="ongoingNotificationChannelDescription">Omogoča nadzor nad storitvijo v ospredju in enostaven dostop do aplikacije</string>
+    <string name="dialog_fenceguard_add_text">Poimenujte novo ograjo:</string>
+    <string name="menuNavigation">Navigacija</string>
+    <string name="menuCustomTracksFolder">Prilagojena mapa poti</string>
+    <string name="dialog_default_color_dark_title">Tema temne barve</string>
+    <string name="buttonLater">Kasneje</string>
+    <string name="toastProfilesListProfileDeleteError">Napaka pri brisanju profila</string>
+    <string name="toastSharingSuccess">Uspešno objavljeno</string>
+    <string name="buttonNewTrack">Končaj</string>
+    <string name="menuViewWith">Pogled z</string>
+    <string name="menuInsertBelow">Spodaj</string>
+    <string name="priceFree">BREZPLAČNO</string>
+    <string name="menuClear">Izbriši</string>
+    <string name="menuMeter">Merilnik</string>
+    <string name="profileNameDefault">Nov profil</string>
+    <string name="menuMeterReset">Končaj</string>
+    <string name="menuExit">Izhod</string>
+    <string name="proLicenseLabel">Pro</string>
+    <string name="actionDefault">Privzeto</string>
+    <string name="menuCountdown">Odštevanje</string>
+    <string name="menuExpandAll">Razširi vse</string>
+    <string name="toastFenceGuardFenceUpdatingError">FenceGuard: Napaka pri posodabljanju ograje</string>
+    <string name="ok">OK</string>
+    <string name="menuSendDebugFeedback">Prijavite težavo</string>
+    <string name="toastTrackingStopped">Ustavljeno</string>
+    <string name="toastFenceGuardFenceAddingError">FenceGuard: Napaka pri dodajanju ograje</string>
+    <string name="dialog_fenceguard_remove_defaultText">Ste prepričani, da boste odstranili ograjo\?</string>
+    <string name="dialog_fenceguard_update_text">Ime ograje:</string>
+    <string name="toastPressAgainToExit">Ponovno pritisnite za izhod</string>
+    <string name="ultimateLicenseDescription">Najboljša licenca za vrhunsko doživetje</string>
+    <string name="toastContrastButtonClickInfo">Samodejna vizualna tema je aktivna</string>
+    <string name="dialog_fenceguard_update_text2">Ograja, dvignjena okoli vaše lokacije, jo ščiti pred izpostavljenostjo v posnetih posnetkih.</string>
+    <string name="ultimateLicenseLabel">Ultimate</string>
+    <string name="freeLicenseTitle">Brezplačna licenca</string>
+    <string name="buttonUnderstand">razumem</string>
+    <string name="menuCollapse">Strni</string>
+    <string name="toastFenceGuardLocationUnavailable">FenceGuard: Vaša lokacija še vedno ni na voljo</string>
+    <string name="computing">Računam …</string>
+    <string name="menuInsertSpeedo">Merilnik hitrosti</string>
+    <string name="menuChooseFile">Datoteka</string>
+    <string name="menuTracksHistoryResume">Nadaljevanje</string>
+    <string name="dialogProfileDeleteTitle">Izbriši profil</string>
+    <string name="widget_3_description">Biker: Kompletno</string>
+    <string name="menuSpeedoIndicatorMax">Indikator max</string>
+    <string name="dialog_volume_speech_text">Govor</string>
+    <string name="menuTracksHistory">Zgodovina</string>
+    <string name="toastMapClickInfo">Dolg dotik za možnosti zemljevida</string>
+    <string name="menuSpeedoBellButton">Gumb za zvonec</string>
+    <string name="dialog_fenceguard_remove_formatText">Ali ste prepričani, da boste odstranili ograjo %1$s\?</string>
+    <string name="menuMove">Premakni</string>
+    <string name="menuInsertRecButton">Gumb za snemanje</string>
+    <string name="menuWiden">Razširi</string>
+    <string name="toastTrackMovingError">Napaka pri premikanju prog v pomnilnik USB! Poskusite znova ponastaviti.</string>
+    <string name="menuBottom">Spodaj</string>
+    <string name="menuMore">Več …</string>
+    <string name="menuInsertLeft">levo</string>
+    <string name="toastTrackDeleted">Proge izbrisane</string>
+    <string name="menuMeterShowIcon">Ikona</string>
+    <string name="menuMeterMode">Način števca</string>
+    <string name="dialog_track_save_text">Razdalja %1$.3f %2$s
+\nTrajanje %3$s
+\n(%4$s)
+\n
+\nProga se zdi zelo kratka. Shrani to progo\?</string>
+    <string name="toastTrackResumed">Proga se nadaljuje</string>
+    <string name="buttonShow">Prikaži</string>
+    <string name="menuReset">Ponastavi</string>
+    <string name="menuMeterStart">Start</string>
+    <string name="toastScreensaverModeActive">Način ohranjevalnika zaslona je aktiven</string>
+    <string name="menuExpand">Razširi</string>
+    <string name="menuMapOptions">Možnosti zemljevida</string>
+    <string name="licenseDialogMapsTab">Mape</string>
+    <string name="menuTop">Vrh</string>
+    <string name="dialog_volume_bell_text">Zvonec</string>
+    <string name="toastGpsIntervalAdaptiveActive">Prilagodljivi interval posodabljanja je aktiven</string>
+    <string name="notificationTitleAdvancedPaused">Pauza: %1$s</string>
+    <string name="cancel">Prekliči</string>
+    <string name="toastProfilesListProfileDeleted">Profil je bil izbrisan</string>
+    <string name="menuClose">Zapri</string>
+    <string name="toastSharingPermissionsError">Napaka pri objavi, preverite dovoljenja</string>
+    <string name="buttonProceed">Nadaljuj</string>
+    <string name="dialog_volume_alarms_text">Alarmi</string>
+    <string name="menuRemove">Odstrani</string>
+    <string name="share_title">Pošlji prek</string>
+    <string name="ultimateLicenseTitle">Ultimate Licenca</string>
+    <string name="toastMapLayerTrafficOn">Promet vklopljen</string>
+    <string name="menuShowTotals">Pokaži vsote</string>
+    <string name="toastTrackResumeGpsActiveError">Najprej izklopite ali začasno ustavite sledenje</string>
+    <string name="menuMeterStop">Stop</string>
+    <string name="dialog_default_map_track_colors_title">Barve sledi zemljevida</string>
+    <string name="menuMoveRow">Premakni vrstico</string>
+    <string name="dialog_volume_roaring_text">AVAS</string>
+    <string name="toastFenceGuardFenceRemovingError">FenceGuard: Napaka pri odstranjevanju ograje</string>
+    <string name="subscriptionPer6m">%1$s zaračunano vsakih 6 mesecev</string>
+    <string name="menuBell">Zvonec</string>
+    <string name="menuInsertRight">Desno</string>
+    <string name="menuSpeedoScale">Lestvica</string>
+    <string name="menuSelect">Izberite</string>
+    <string name="menuLayout">Postavitev</string>
+    <string name="menuSpeedoAppearance">Videz</string>
+    <string name="toastProfilesListNonemptyDelete">Ni mogoče izbrisati — Profil vsebuje nekaj neshranjenih podatkov! Najprej končaj.</string>
+    <string name="toastUpdatingSuccess">Uspešno posodobljeno</string>
+    <string name="ultimateLicenseFeatures">⭐ Vse premium karte
+\n⭐ Navigacija
+\n⭐ Online altitude baseline
+\n⭐ Brez reklam
+\n⭐ Vse brezplačno tudi karte</string>
+    <string name="menuSelectMode">Izberite</string>
+    <string name="menuMeterResume">Nadaljuj</string>
+    <string name="menuSelectAll">Izberite vse</string>
+    <string name="toastLocationUnavailable">Vaša lokacija še vedno ni na voljo</string>
+    <string name="menuDataStorage">Lokacija shranjevanja podatkov</string>
+    <string name="toastFlashlightButtonClickInfo">Dolgo kliknite, da preklopite svetilko</string>
+    <string name="menuInsert">Vstavi</string>
+    <string name="menuShare">Delite</string>
+    <string name="rewardedAdPriceFree">BREZPLAČNO (velja za to sejo)</string>
+    <string name="menuMeterLockAll">Zakleni vse</string>
+    <string name="cautionTitle">Previdno</string>
+    <string name="menuSummary">Pregled</string>
+    <string name="toastAutoBellButtonClickInfo">Dolg klik za preklop zvoka samodejnega zvonca</string>
+    <string name="toastScreenWavingModeActive">Način mahanja je aktiven</string>
+    <string name="toastSensorDisabled">Senzor onemogočen</string>
+    <string name="locale">sl</string>
+    <string name="menuProfiles">Profili</string>
+    <string name="menuSpeedoValue">Vrednost</string>
+    <string name="menuRefresh">Osveži</string>
+    <string name="subscriptionPer3m">%1$s zaračunano vsake 3 mesece</string>
+    <string name="toastMapFollowingOn">Sledite naprej</string>
+    <string name="menuAdvanced">Napredno</string>
+    <string name="loading">Nalaganje …</string>
+    <string name="menuUp">Gor</string>
+    <string name="toastTrackDiscarded">Proga je preklicana.</string>
+    <string name="menuControlPanel">Hitre nastavitve</string>
+    <string name="subscriptionPerMonth">%1$s / mesec</string>
+    <string name="toastTrackSaved">Proga je shranjena.</string>
+    <string name="proLicenseDescription">Odstranite oglase</string>
+    <string name="menuCenterOnMap">Center</string>
+    <string name="menuHideTotals">Skrij vsote</string>
+    <string name="manageSubscriptions">Upravljanje naročnin</string>
+    <string name="menuUpload">Naloži</string>
+    <string name="toastTrackingRecording">Snemanje</string>
+    <string name="toastProfileButtonClickInfo">Dolgo kliknite za zamenjavo profila</string>
+    <string name="toastTrackZippingError">Napaka pri stiskanju proge! Poskusite znova ponastaviti.</string>
+    <string name="app_name">Urban Biker</string>
+    <string name="rewardedAdLoading">Nalaganje oglasa …</string>
+    <string name="dialogProfileAddTitle">Nov profil</string>
+    <string name="rewardedLicenseSuccess">Licenca uspešno podeljena</string>
+    <string name="toastFenceGuardFenceUpdated">FenceGuard: posodobljena ograja %1$s</string>
+    <string name="menuMeterLock">Zaklepanje</string>
+    <string name="freeLicenseLabel">Zastonj</string>
+    <string name="otherLicenses">drugo</string>
+    <string name="toastErrorAccessingExternalStorage">Napaka pri dostopu do zunanjega pomnilnika</string>
+    <string name="pick_a_color">Izberite barvo</string>
+    <string name="dialog_default_color_text">To bo naložilo privzete barve. Ste prepričani\?</string>
+    <string name="widget_2_description">Biker: Zvonec + Luč</string>
+    <string name="menuSpeedoDisplayMode">Način prikaza</string>
+    <string name="proPlusLicenseDescription">Odstranite oglase in odklenite vse nenaročniške funkcije, ki jih bomo morda dodali v prihodnosti</string>
+    <string name="dialog_defaultConfirmation">Ste prepričani\?</string>
+    <string name="toastErrorCreatingOfflineMap">Napaka pri ustvarjanju zemljevida brez povezave</string>
+    <string name="toastTrackingRecordingPassive">Pasivno snemanje</string>
+    <string name="menuSensors">Senzorji</string>
+    <string name="buttonResumeTrack">Nadaljevanje</string>
+    <string name="menuInfo">Info</string>
+    <string name="dialog_fenceguard_add_title">Dodajte ograjo</string>
+    <string name="na">N/A</string>
+    <string name="recommendedLicense">Priporočeno</string>
+    <string name="toastCancelled">Preklicano</string>
+    <string name="ongoingNotificationChannelName">Obveščanje v teku</string>
+</resources>
