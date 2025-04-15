@@ -302,4 +302,566 @@
     <string name="recommendedLicense">Priporočeno</string>
     <string name="toastCancelled">Preklicano</string>
     <string name="ongoingNotificationChannelName">Obveščanje v teku</string>
+    <string name="pref_gps_boost_modes_0">Prikazan zemljevid (privzeto)</string>
+    <string name="meterModeKineticEnergy">kinetična energija</string>
+    <string name="dialogTrackingStopPromptTitle">Stop\?</string>
+    <string name="dialogTrackResumeGeneralPromptMessage">Proga se bo nadaljevala v profilu %1$s. Nadaljujem\?</string>
+    <string name="unitMillimeter">mm</string>
+    <string name="dialogCloudAccountDisconnectMessage">Prekiniti povezavo s tem računom\?</string>
+    <string name="sensorProperitesUseForTemperature">Uporabite za temperaturo</string>
+    <string name="dialogProfileSwitchMessage">Sledenje je aktivno. Ali ste prepričani, da želite preklopiti na profil %1$s\?</string>
+    <string name="dialogLayoutEmptyInfoMessage">V postavitvi mora biti prisoten vsaj en merilnik.</string>
+    <string name="summaryStartedDatetime">Začelo</string>
+    <string name="dialogGpsSettingsPromptMessage">Večine funkcij te aplikacije ne boste mogli uporabljati brez lokacije.
+\n
+\nPreverite, ali je lokacija omogočena in nastavljena na način »Visoka natančnost«.
+\n
+\nŽelite zdaj odpreti nastavitve lokacije\?</string>
+    <string name="accountDisconnect">Prekini povezavo</string>
+    <string name="dialogTrackResumeTitle">Nadaljuj progo</string>
+    <string name="dialogMapsTrackColor">Odtenek sledi:</string>
+    <string name="dialogProfileAddInfo">Nastavitve novega profila bodo kopirane iz trenutno aktivnega profila</string>
+    <string name="unitFt">ft</string>
+    <string name="meterModeGearRatio">prestavno razmerje</string>
+    <string name="meterModeFTPowerShort">ftp</string>
+    <string name="controlPanelUnitsButtonSubtitle">Kliknite za spremembo enot</string>
+    <string name="dialogScreenOrientationLandscape">Ležeče</string>
+    <string name="tracksHistoryListLoading">Nalaganje …</string>
+    <string name="meterModeSpeedAverageShort">av spd</string>
+    <string name="dialogMapsMapCountThreeMaps">%1$s zemljevidov</string>
+    <string name="dialogMapsWeatherRadar">Radar padavin</string>
+    <string name="meterTextRelative">rel</string>
+    <string name="tracksHistoryListButtonShare">Delite</string>
+    <string name="meterModeStepCount">koraki</string>
+    <string name="unitMph">mph</string>
+    <string name="pref_gps_update_freq_entries_6">4 sek</string>
+    <string name="sensorProperitesUseForHumidity">Uporabite za vlažnost</string>
+    <string name="dialogPowerWeightsTitle">Teža</string>
+    <string name="dialogStoragePermissionRequestTitle">Dovoljenje za shranjevanje</string>
+    <string name="meterModeSpeedVertical">hitrost vzpenjanja</string>
+    <string name="dialogRecButtonInsertMessage">S tem boste sem vstavili gumb Rec in ga odstranili iz vrstice z gumbi. Nadaljujem\?</string>
+    <string name="meterModeDistance">oddaljenost</string>
+    <string name="meterModeTemperatureShort">temp</string>
+    <string name="meterModeElapsedTimeShort">elap</string>
+    <string name="unitMilliseconds">ms</string>
+    <string name="profilesListButtonResetTotals">Ponastavi skupne vrednosti</string>
+    <string name="unitMinPerMile">min/mi</string>
+    <string name="dialogTrackDeleteMessage">Opozorilo: tega dejanja ni mogoče razveljaviti.
+\n
+\nŽelite izbrisati progo %1$s\?</string>
+    <string name="dialogScreenOrientationPortrait">Pokončno</string>
+    <string name="dialogProfileTotalsResetMessage">Ponastaviti skupne vrednosti profila na nič\?</string>
+    <string name="dialogLocationPermissionRequestForBt">Za iskanje naprav Bluetooth je potrebno dovoljenje za lokacijo.
+\n
+\nČe je dovoljenje zavrnjeno, naprava Bluetooth ne bo najdena.</string>
+    <string name="unitMiles">mi</string>
+    <string name="meterModeSpeedShort">hitrost</string>
+    <string name="dialogMapsRenderTerrain">Upodobitev terena</string>
+    <string name="tracksHistoryListButtonDelete">Izbriši</string>
+    <string name="meterModeKineticEnergyShort">kin en</string>
+    <string name="summaryEfficiency">Učinkovitost</string>
+    <string name="pref_gps_update_freq_entries_2">Privzeto</string>
+    <string name="meterModeVerticalPowerShort">c pwr</string>
+    <string name="unitTimeHour">h</string>
+    <string name="sensorDeleteConfirmDialogMsg">Pozabi ta senzor\?</string>
+    <string name="dialogScreenOrientationAuto">Samodejno</string>
+    <string name="dialogTrackUploadShareButton">Delite</string>
+    <string name="dialogPowerParamsDragArea">Površina zračnega upora (Cd·A)</string>
+    <string name="dialogTrackUploadShareAgainButton">Ponovno delite</string>
+    <string name="dialogTrackResumeGpsActiveMessage">Sledenje je aktivno. Najprej izklopite ali začasno ustavite sledenje.</string>
+    <string name="unitKjKg">kJ/kg</string>
+    <string name="mapLayerStreet">Ulica</string>
+    <string name="dialogEnergyParamsEfficiency">Skupna toplotna učinkovitost (η)</string>
+    <string name="summaryRollResistCoef">Koeficient odpornosti proti kotaljenju.</string>
+    <string name="dialogScreenOrientationReverseLandscape">Ležeče (obratno)</string>
+    <string name="unitMeterPerMin">m/min</string>
+    <string name="summaryStoppedTimeInfo">Čas, v katerem je bilo sledenje neaktivno.</string>
+    <string name="dialogLayoutChooseTitle">Izgled</string>
+    <string name="dialogFileChooseSelectFolder">Izberite to mapo</string>
+    <string name="controlPanelScreenOrientation">Orientacija zaslona</string>
+    <string name="dialogLocationPermissionRequestTitle">Dovoljenje za lokacijo</string>
+    <string name="meterModeEnergyShort">ene</string>
+    <string name="dialogActivityRecognitionPermissionRequest">Dovoljenje je potrebno, da lahko aplikacija uporablja vgrajen senzor Step Detector in izvaja druga uporabna dejanja, ko zazna gibanje.</string>
+    <string name="dialogResetNoTrackMessage">Posneta ni bila nobena proga. Ponastaviti števce zdaj\?</string>
+    <string name="meterModeSpeed">hitrost</string>
+    <string name="unitKmh">km/h</string>
+    <string name="controlPanelSoundAutoBell">Avtomatski zvonec</string>
+    <string name="dialogBaroAltitudePromptTitle">Problem barometrične višine</string>
+    <string name="dialogNotificationListenerTitle">Potrebno je dovoljenje</string>
+    <string name="summaryDragging">Otpor</string>
+    <string name="sensorProperitesUseForPressure">Uporabite za pritisk</string>
+    <string name="meterModes_18">kadenca</string>
+    <string name="pref_gps_update_freq_entries_3">1 sek</string>
+    <string name="meterModeVerticalPower">plezalna moč</string>
+    <string name="meterModes_14">Povpr. hitrost</string>
+    <string name="dialogResetMessage">Shraniti to progo in se pripraviti na novo\?</string>
+    <string name="dialogPowerWeightsWeightPassengers">Potniki</string>
+    <string name="dialogTrackUploadSending">Pošiljanje …</string>
+    <string name="unitMxM">m²</string>
+    <string name="sensorPurposeHeartRate">Srčni utrip</string>
+    <string name="unitMinPerKmShort">/km</string>
+    <string name="dialogGpsSettingsPromptTitle">Lokacija je izklopljena</string>
+    <string name="meterModeSpeedVerticalShort">c spd</string>
+    <string name="dialogRevokeAccessPromptMessage">Prekliči dostop\?</string>
+    <string name="dialogRecButtonRemoveMessage">S tem se gumb Rec vrne v vrstico z gumbi. Nadaljujem\?</string>
+    <string name="dialogLayoutRemoveEntryMessage">Odstraniti to polje\?</string>
+    <string name="dialogScreenOrientationReversePortrait">Pokončno (obratno)</string>
+    <string name="unitIn">in</string>
+    <string name="summaryVibrations">Vibracije</string>
+    <string name="summaryVehicleWeightInfo">Teža vozila, uporabljenega med snemanjem te poti.</string>
+    <string name="unitNewtonPerKg">N/kg</string>
+    <string name="meterModeOdo">števec kilometrov</string>
+    <string name="meterModes_11">Moč vzpona</string>
+    <string name="meterModes_16">Pretečeni čas</string>
+    <string name="dialogThermoBarometerNoticeTitle">Obvestilo</string>
+    <string name="meterModeEfficacy">učinkovitost</string>
+    <string name="summaryVehicleWeight">Teža vozila</string>
+    <string name="unitKWH">kWh</string>
+    <string name="googleFitConnectButton">Povežite se z Google Fit</string>
+    <string name="unitKW">kW</string>
+    <string name="meterModePace">tempo</string>
+    <string name="meterModeSpeedAverage">povprečna hitrost</string>
+    <string name="dialogTrackUploadStravaIsCommute">Commute</string>
+    <string name="unitPetrolLit">L gas.</string>
+    <string name="summaryTotalWeight">Skupna teža</string>
+    <string name="dialogTracksDeleteMessage">Opozorilo: tega dejanja ni mogoče razveljaviti. Želite izbrisati izbrane proge\?
+\n
+\nČe želite potrditi izbris, vnesite naslednjo kodo za nadaljevanje.</string>
+    <string name="dialogFencesShowFences">Pokažite ograje</string>
+    <string name="dialogScreenshotPreparing">Priprava posnetka zaslona …</string>
+    <string name="sensorPurposeHumidity">Vlažnost</string>
+    <string name="meterModes_13">Pospeševanje</string>
+    <string name="dialogEnterCodeMessage">Vnesite kodo</string>
+    <string name="dialogTrackResumeProfileSwitchMessage">Aktivni profil bo preklopljen iz %1$s v %2$s. Nadaljevati\?</string>
+    <string name="meterTextTotal">tot</string>
+    <string name="sensorProperitesUseForPower">Uporabite za moč</string>
+    <string name="meterModeAltitudeShort">viš</string>
+    <string name="controlPanelSoundVolume">Glasnost</string>
+    <string name="dialogTracksShareChoices_1">Samo GPX</string>
+    <string name="unitKcalKG">kcal/kg</string>
+    <string name="controlPanelMapHideButtonSubtitle">Kliknite, da skrijete zemljevid</string>
+    <string name="summaryDriverWeight">Teža voznika</string>
+    <string name="sensorsSectionUsedInProfile">Uporabljeno v profilu</string>
+    <string name="summaryDeviceNameInfo">Naprava, uporabljena za snemanje te poti.</string>
+    <string name="dialogTrackingResumePromptTitle">Nadaljuj\?</string>
+    <string name="sensorPurposeTemperature">Temperatura</string>
+    <string name="meterModeAltitudeDescentShort">dsc</string>
+    <string name="meterModes_20">Prestavno razmerje</string>
+    <string name="dialogGoogleMapTermsViolation">Google ne dovoljuje zajemanja vsebine svojih zemljevidov, zato je treba vrsto zemljevida najprej spremeniti v katero koli drugo.
+\n
+\nSpremeniti vrsto zemljevida zdaj\?</string>
+    <string name="summaryBasalMetabolicRate">Bazalni metabolizem</string>
+    <string name="dialogMapsShowRoutes">Vodniške poti</string>
+    <string name="unitWLb">W/lb</string>
+    <string name="profilesListTitleSelectProfile">Preklopi profil</string>
+    <string name="controlPanelSoundTallies">Oznake</string>
+    <string name="mapLayerSatellite">Satelit</string>
+    <string name="dialogPowerWeightsWeightCargo">Tovor</string>
+    <string name="dialogProfileEditTitle">Uredi profil</string>
+    <string name="sensorsTabUsed">Uporabljeno</string>
+    <string name="sensorStepDetectorName">Detektor korakov</string>
+    <string name="sensorDeletedMsg">Senzor pozabljen</string>
+    <string name="summaryAccelerating">Pospeši</string>
+    <string name="dialogTrackUploadDescriptionHint">Delite svoje misli …</string>
+    <string name="summaryLocationIntervalInfo">Povprečni časovni interval med dvema posodobitvama lokacije na tej poti.</string>
+    <string name="meterModes_22">Zavijanje</string>
+    <string name="meterModeGearRatioShort">g rat</string>
+    <string name="meterModePowerAverageShort">av pwr</string>
+    <string name="pref_gps_update_freq_entries_11">30 sek</string>
+    <string name="meterModeFTPower">ft pwr</string>
+    <string name="unitJoulePerLb">J/lb</string>
+    <string name="meterModeAltitudeAscent">vzpon</string>
+    <string name="unitFtxFt">ft²</string>
+    <string name="mapMarkerClickInfo">Kliknite za možnosti</string>
+    <string name="dialogWaitTitle">Počakajte prosim</string>
+    <string name="controlPanelUnitsButtonTitle">Merske enote</string>
+    <string name="cloudAccountsPowerUploadPolicyTitle">Politika nalaganja podatkov o moči</string>
+    <string name="pref_gps_update_freq_entries_13">1 min</string>
+    <string name="sensorAddedMsg">Senzor dodan v profil</string>
+    <string name="dialogBluetoothPermissionRequest">Dovoljenje je potrebno, da lahko aplikacija najde brezžične senzorje in se poveže z njimi.</string>
+    <string name="summaryDragArea">Površinska odpornost</string>
+    <string name="pref_gps_update_freq_entries_5">3 sek</string>
+    <string name="sensorProperitesUseForSteps">Uporabite za štetje korakov in kadenco</string>
+    <string name="summaryClimbingEnergyInfo">Odstotek energije, ki je bila porabljena za premagovanje gravitacije.</string>
+    <string name="sensorMenuAddToProfile">Dodaj v profil</string>
+    <string name="summaryHeartBeats">Srčni utrip</string>
+    <string name="dialogTrackResumeProfileMissingMessage">Profil %1$s, ki je ustvaril to progo, ne obstaja več. Nadaljujem v trenutnem profilu %2$s\?</string>
+    <string name="dialog_fenceguard_update_entries_0">Posodobite ograjo</string>
+    <string name="meterModes_19">srčni utrip</string>
+    <string name="dialogScreenAutoTheme">Avtomatska tema</string>
+    <string name="dialogLayoutChoosePrompt">Trenutna postavitev bo prepisana.
+\n
+\nUporabiti izbrano postavitev\?</string>
+    <string name="meterModeAltitude">nadmorska višina</string>
+    <string name="unitMiliW">mW</string>
+    <string name="meterModePower">moč</string>
+    <string name="dialogWeatherInfoMessage">Radarski podatki se posodabljajo vsakih 10 minut. Polna ikona označuje sveže podatke, prazna ikona pomeni, da je posodobitev blizu.
+\n
+\nRumena in rdeča barva prikazujeta območja z več padavinami.
+\n
+\nZadnjo 1 uro radarskih podatkov je mogoče animirati, da razkrijejo trende padavin.</string>
+    <string name="unitTimeSecond">s</string>
+    <string name="dialogGpsIntervalLabelLess">▶
+\nManjša natančnost, manjša poraba baterije</string>
+    <string name="unitDegree">°</string>
+    <string name="summaryBrakingInfo">Energija, pridobljena z zaviranjem.
+\n
+\nLahko se obravnava kot obraba zavor - par standardnih kolesnih kolutnih zavornih ploščic zdrži okoli 50 MJ, za avtomobile pa približno 5 GJ.</string>
+    <string name="dialogLoginUsernameHint">Uporabniško ime</string>
+    <string name="dialogCopyingMessage">Kopiranje …</string>
+    <string name="summaryRollResistCoefAverageInfo">Povprečni koeficient kotalnega upora, če se je koeficient med aktivnostjo spreminjal.</string>
+    <string name="dialogOfflineMapsChooseMessage">Datoteke zemljevida ni mogoče najti ali ni dostopna. Želite zdaj izbrati drugo datoteko/mapo zemljevidov\?</string>
+    <string name="meterModes_8">Učinkovitost</string>
+    <string name="meterModeDurationShort">tra</string>
+    <string name="dialogBaroAltitudePromptMessage">Barometrična višina je bila prisilno izklopljena zaradi neskladja z GPS višino!
+\n
+\nProsimo, ne uporabljajte ga v zaprtih ali klimatiziranih prostorih!</string>
+    <string name="meterModeAltitudeSlopeShort">slop</string>
+    <string name="meterModeClockShort">clk</string>
+    <string name="meterModeBatteryShort">batt</string>
+    <string name="meterModeWriggle">vijuganje</string>
+    <string name="sensorsMenuScan">Skeniraj</string>
+    <string name="dialogPowerWeightsWeightWheels">Kolesa</string>
+    <string name="summaryDeviceRestartsCount">Prisilni ponovni zagoni</string>
+    <string name="sensorMenuProperties">Lastnosti</string>
+    <string name="dialogMapsMapCountManyMaps">%1$s zemljevidov</string>
+    <string name="summaryDeviceName">Naprava</string>
+    <string name="powerSourceWeight_3">Voznik + Vozilo</string>
+    <string name="dialogNotificationPermissionRequestTitle">Dovoljenje za obvestila</string>
+    <string name="pref_gps_update_freq_entries_12">45 sek</string>
+    <string name="dialogLoginPasswordHint">Geslo</string>
+    <string name="dialogPowerWeightsWeightRider">Voznik</string>
+    <string name="meterModes_7">energija</string>
+    <string name="meterModes_24">Pritisk</string>
+    <string name="sensorPurposeSpeed">Hitrost</string>
+    <string name="summaryDeviceRestartsCountInfo">Kolikokrat je bila aplikacija med to dejavnostjo na silo zaprta ali je naprava prenehala delovati.</string>
+    <string name="unitMinPerMileShort">/mi</string>
+    <string name="summaryBasalMetabolicRateInfo">Bazalni metabolizem (BMR).</string>
+    <string name="meterModeHeartRateShort">hr</string>
+    <string name="tracksHistoryListEmpty">Tukaj ni sledi. Pojdite ven in posnemite dejavnost!</string>
+    <string name="dialogNotificationPermissionRequest">Dovoljenje je potrebno, da lahko aplikacija prikaže tekoče obvestilo, medtem ko je sledenje aktivno.</string>
+    <string name="sensorProperitesUseForDuration">Uporabi za trajanje</string>
+    <string name="profilesListAddProfile">Nov profil</string>
+    <string name="dialogEnergyParamsBmr">Bazalni metabolizem (BMR)</string>
+    <string name="dialogGpsIntervalNote">To vrednost naj bo pod 3 sekundami, da dobite najbolj natančne odčitke in dosledno obnašanje!</string>
+    <string name="dialogLayoutsInfoTitle">Izgledi</string>
+    <string name="dialogFencesUpdate">Posodobite lokacijo ograje</string>
+    <string name="meterModeClock">ura</string>
+    <string name="profilesListRowTotalsSince">Skupaj od: %1$s</string>
+    <string name="controlPanelScreenshotButtonTitle">Posnetek zaslona</string>
+    <string name="meterModeAcceleration">pospeševanje</string>
+    <string name="sensorProperitesUseForDistance">Uporabite za razdaljo in trajanje</string>
+    <string name="dialogFencesAdd">Tukaj dodajte ograjo</string>
+    <string name="unitJoulePerKg">J/kg</string>
+    <string name="dialogRecButtonInsertTitle">Vstavi gumb Rec</string>
+    <string name="dialogProfileEditTotals">Skupaj:</string>
+    <string name="meterModes_29">FT moč</string>
+    <string name="unitFtSxS">ft/s²</string>
+    <string name="unitPercent">%</string>
+    <string name="dialogScreenBrightnessOverride">Svetlost</string>
+    <string name="meterModeStepCadence">kadenca koraka</string>
+    <string name="dialogLayoutEmptyInfoTitle">Izgled</string>
+    <string name="dialogOfflineMapsChooseTitle">Težava z zemljevidi brez povezave</string>
+    <string name="unitKjH">kJ/h</string>
+    <string name="unitKcalLb">kcal/lb</string>
+    <string name="sensorsEmptyList">Prazen seznam</string>
+    <string name="meterModes_25">Odometer</string>
+    <string name="dialogTrackResumeGeneralErrorMessage">Prišlo je do napake. Prosim poskusite ponovno.</string>
+    <string name="summaryRollingEnergyInfo">Odstotek energije, ki je bila porabljena za premagovanje kotalnega upora.</string>
+    <string name="pref_gps_update_freq_entries_9">15 sek</string>
+    <string name="unitKm">km</string>
+    <string name="sensorsSectionSupported">Podprto</string>
+    <string name="sensorPurposePressure">Pritisk</string>
+    <string name="dialogPowerParamsTitle">Koeficienti izgube moči</string>
+    <string name="dialogBaroAltitudeNoticeMessage">Barometrična višina deluje samo na prostem.
+\n
+\nNe uporabljajte ga v zaprtih ali klimatiziranih prostorih, kot so nekatera vozila in letala.</string>
+    <string name="sensorProperitesUseForHeartRate">Uporabite za srčni utrip</string>
+    <string name="sensorProperitesUseForSpeed">Uporabite za hitrost</string>
+    <string name="dialogMapsChooseTitle">Izberite zemljevid</string>
+    <string name="tracksHistoryListButtonEdit">Uredi</string>
+    <string name="meterModeDuration">trajanje</string>
+    <string name="dialogNotificationListenerMessage">Ta aplikacija lahko nadzoruje samo predvajanje predstavnosti drugih aplikacij, sama pa ni večpredstavnostni predvajalnik. Da bi to delovalo, Android zahteva dovoljenje za dostop do obvestil.
+\n
+\nDovoljenje se uporablja samo za omogočanje nadzora medijev. S tem dovoljenjem se na noben način ne dostopa do obvestil.</string>
+    <string name="meterModePowerShort">moč</string>
+    <string name="dialogResetTitle">Končaj</string>
+    <string name="meterModeRadiusShort">rad</string>
+    <string name="meterModes_10">Bilanca moči</string>
+    <string name="dialogCameraPermissionRequestTitle">Dovoljenje za kamero</string>
+    <string name="dialogBluetoothPermissionRequestTitle">Bluetooth dovoljenje</string>
+    <string name="dialogTracksShareChoices_0">ZIP-i (dokončani)</string>
+    <string name="meterModeAltitudeAscentShort">asc</string>
+    <string name="dialogMapsFollowMode">Sledi</string>
+    <string name="meterModeHeartRate">srčni utrip</string>
+    <string name="dialog_fenceguard_update_entries_1">Odstranite ograjo</string>
+    <string name="meterModes_21">Ura</string>
+    <string name="summaryStoppedTime">Ustavljen čas</string>
+    <string name="dialogMeterModesTitle">Izberite razpoložljive načine</string>
+    <string name="meterModes_17">tempo</string>
+    <string name="dialogScreenshotTitle">Posnetek zaslona</string>
+    <string name="unitNewtonPerLb">N/lb</string>
+    <string name="mapMarkerStart">Start</string>
+    <string name="mapLayerTerrain">Teren</string>
+    <string name="meterTextMin">min</string>
+    <string name="summarySpecific">Specifično</string>
+    <string name="dialogMapsLayerTraffic">Promet</string>
+    <string name="dialogTrackUploadPreparing">Priprava podatkov o progi …</string>
+    <string name="summaryTotalTime">Skupni čas</string>
+    <string name="dialogPowerParamsRollResist">Kotalni upor koef. (Cᵣᵣ)</string>
+    <string name="meterModeCadence">kadenca</string>
+    <string name="summaryDeviceAutoPauseCount">Štetje samodejne pavze</string>
+    <string name="unitFeetsAboveGroundLevel">ft agl</string>
+    <string name="profilesListProfileNotUsed">(neuporabljen)</string>
+    <string name="meterModeCadenceShort">cad</string>
+    <string name="summaryWheelsWeightInfo">Vsota teže vseh koles na vozilu, ki se uporablja na tej progi.</string>
+    <string name="summaryCadenceStrokesInfo">Število udarcev pedala, zaznanih med aktivnostjo.</string>
+    <string name="powerSourceWeight_1">Voznik</string>
+    <string name="dialogTracksShareCountExceeded">Ne morete deliti več kot 100 prog hkrati.</string>
+    <string name="meterModes_23">Temperatura</string>
+    <string name="sensorMenuRemoveFromProfile">Odstrani iz profila</string>
+    <string name="sensorPurposeNone">(brez namena)</string>
+    <string name="meterTextAvg">avg</string>
+    <string name="unitKmPerLit">km/L</string>
+    <string name="summaryPausedTimeInfo">Čas, porabljen za premor, ročno ali med uporabo samodejnega premora.</string>
+    <string name="summaryWheelsWeight">Teža koles</string>
+    <string name="dialogTracksShareGeneralErrorMessage">Prišlo je do napake. Prosim poskusite ponovno.</string>
+    <string name="unitW">W</string>
+    <string name="summaryPausedTime">Čas premora</string>
+    <string name="meterModePressureShort">pres</string>
+    <string name="dialogMapsAutoZoomSensitivity">Samodejna občutljivost povečave</string>
+    <string name="unitMphPerSec">mph/s</string>
+    <string name="unitKcal">kcal</string>
+    <string name="sensorProperitesIsInverted">Zamenjaj hitrost in kadenco</string>
+    <string name="meterModes_32">Nadzor medijev</string>
+    <string name="meterModeEfficacyShort">eff</string>
+    <string name="summaryLocationInterval">Lokacijski interval</string>
+    <string name="sensorMenuDisable">Onemogoči</string>
+    <string name="tracksHistoryListButtonResume">Nadaljuj</string>
+    <string name="controlPanelScreenshotButtonSubtitle">Kliknite za skupno rabo posnetka zaslona</string>
+    <string name="pref_gps_update_freq_entries_8">10 sek</string>
+    <string name="dialogTracksShareTitle">Delite proge</string>
+    <string name="valueTimesCount">×</string>
+    <string name="meterModePowerAverage">povprečna moč</string>
+    <string name="dialogPowerWeightsWeightVehicle">Vozilo</string>
+    <string name="meterModes_4">Vzpon</string>
+    <string name="sensorMenuDelete">Pozabi</string>
+    <string name="powerSourceWeight_0">Skupaj</string>
+    <string name="unitHP">HP</string>
+    <string name="stravaTrackPrivacyInfo">Track bo podedoval privzeto zasebnost, ki ste jo nastavili v Stravi</string>
+    <string name="unitSteps">koraki</string>
+    <string name="sensorPurposePower">Moč</string>
+    <string name="summaryInaccurateLocationZoneCountInfo">Kolikokrat je aplikacija začela zavračati posodobitve lokacije zaradi njihove netočnosti.
+\n
+\nUpoštevajte, da območja, kjer sploh ni posodobitev lokacije (npr. v zaprtih prostorih), ne vplivajo na to število.</string>
+    <string name="sensorPurposeDistance">Razdalja</string>
+    <string name="unitPerMinute">/min</string>
+    <string name="sensorRemoveConfirmDialogMsg">Odstrani iz profila\?</string>
+    <string name="meterModes_27">Koraki</string>
+    <string name="unitMegabyte">MB</string>
+    <string name="controlPanelSoundEffects">Učinki</string>
+    <string name="dialogCustomTracksFolderInfoMessage">Ta funkcija omogoča aplikaciji, da bere poti iz mape po vaši izbiri poleg glavne mape poti — katere lokacija se je nedavno spremenila.
+\n
+\nTakšne poti so samo za branje: lahko si jih ogledujete in delite, vendar jih ni mogoče urejati, nadaljevati ali brisati.</string>
+    <string name="meterModes_5">Spust</string>
+    <string name="pref_gps_boost_modes_1">Zaslon vklopljen</string>
+    <string name="unitPerHundredKm">/100km</string>
+    <string name="meterModes_28">Kadenca koraka</string>
+    <string name="controlPanelMapHideButtonTitle">Skrij zemljevid</string>
+    <string name="dialogGpsIntervalLabelMore">◀
+\nVečja natančnost, porabi več baterije</string>
+    <string name="dialogTracksDeleteTitle">Izbriši proge</string>
+    <string name="summaryRollResistCoefInfo">Koeficient kotalnega upora.</string>
+    <string name="pref_gps_update_freq_entries_0">Najhitrejši</string>
+    <string name="roarModeConstant">konst</string>
+    <string name="unitM">m</string>
+    <string name="sensorsSectionUnsupported">Nepodprto</string>
+    <string name="dialogMapsHighResolution">Zemljevid visoke ločljivosti</string>
+    <string name="dialogOfflineMapsFolderCopyMessage">Izbrano vsebino je treba kopirati v mapo zemljevidov, specifično za aplikacijo, da jo lahko uporabite.
+\n
+\nNaredi to zdaj\?</string>
+    <string name="controlPanelLocationButton">Lokacija</string>
+    <string name="dialogTrackResumeWaitMessage">Nadaljevanje, počakajte …</string>
+    <string name="unitKg">kg</string>
+    <string name="dialogFencesEdit">Uredi ograjo</string>
+    <string name="controlPanelMapShowButtonSubtitle">Kliknite za prikaz zemljevida</string>
+    <string name="unitKmhPerSec">kph/s</string>
+    <string name="summaryEndedDatetime">Končano</string>
+    <string name="unitTimeHrMinSec">h:m:s</string>
+    <string name="sensorPurposeCadence">kadenca</string>
+    <string name="summaryRollResistCoefAverage">Koeficient odpornosti proti kotaljenju. povprečje</string>
+    <string name="dialogLayoutsInfoMessage">Hitro spremenite postavitev zaslona iz niza vnaprej določenih postavitev.
+\n
+\nNato dolgo kliknite katero koli polje, da dodatno prilagodite prikaz prek pojavnih menijev.
+\n
+\nPokončna in ležeča usmerjenost zaslona imata popolnoma neodvisni postavitvi.</string>
+    <string name="dialogMapsShowHeatmap">Heatmap</string>
+    <string name="meterTextMax">max</string>
+    <string name="meterModeEnergy">energije</string>
+    <string name="meterModes_26">kinetična energija</string>
+    <string name="mapMarkerMyLocation">Moja lokacija</string>
+    <string name="tracksHistoryListButtonUpload">Naloži</string>
+    <string name="sensorsTitle">Senzorji</string>
+    <string name="dialogProfileSwitchTitle">Preklopi profil</string>
+    <string name="dialogSliderMore">▶</string>
+    <string name="sensorStepLengthNotSetWarning">Dolžina koraka ni nastavljena</string>
+    <string name="unitLb">lb</string>
+    <string name="tracksHistoryListShareTrackDialogTitle">Delite pot z …</string>
+    <string name="meterModes_31">Vlažnost</string>
+    <string name="dialogTrackUploadUpdateButton">posodobitev</string>
+    <string name="meterModePaceShort">tempo</string>
+    <string name="cloudAccountsTitle">Računi</string>
+    <string name="dialogTrackResumeProfileNotBlankMessage">Ciljni profil %1$s ni prazen. Najprej ponastavite.</string>
+    <string name="summaryDeviceAutoPauseCountInfo">Kolikokrat je bil med to dejavnostjo aktiviran samodejni premor.</string>
+    <string name="meterModes_9">Moč</string>
+    <string name="summaryCadenceStrokes">Udarci pedala</string>
+    <string name="pref_gps_update_freq_entries_7">5 sek</string>
+    <string name="dialogGpsIntervalTitle">Interval posodobitve GPS</string>
+    <string name="powerSourceWeightTitle">Teža vira energije</string>
+    <string name="unitFeetPerMin">ft/min</string>
+    <string name="dialogFencesRemove">Odstranite ograjo</string>
+    <string name="dialog_fenceguard_add_entries_0">Dodajte ograjo</string>
+    <string name="unitJoulePerHour">J/h</string>
+    <string name="dialogBaroAltitudeNoticeTitle">Obvestilo</string>
+    <string name="dialogThermoBarometerNoticeMessage">Natančnost termobarometra je odvisna od zunanje temperature zraka.
+\n
+\nNe uporabljajte ga v zaprtih ali klimatiziranih prostorih, kot so nekatera vozila in letala.</string>
+    <string name="dialogMapsAutoRotate">Samodejno vrtenje</string>
+    <string name="cloudAccountsInfo">Povezava s storitvijo v oblaku vam olajša nalaganje in skupno rabo vaših skladb z drugimi.
+\n
+\nNikoli ne bomo ničesar objavili brez vašega dovoljenja.</string>
+    <string name="dialogChartDataTypesTitle">Vrste grafikonov</string>
+    <string name="meterModeHumidityShort">brenčanje</string>
+    <string name="mapPlaceSearch">Kam\?</string>
+    <string name="summaryDragAreaInfo">Površina zračnega upora (Cd·A).</string>
+    <string name="meterModes_6">naklon</string>
+    <string name="sensorRemovedMsg">Senzor odstranjen iz profila</string>
+    <string name="sensorPurposeDuration">Trajanje</string>
+    <string name="meterModeStepCountShort">koraki</string>
+    <string name="dialogMapsDownloadTitle">Prenos zemljevidov brez povezave</string>
+    <string name="sensorPurposeSteps">Koraki</string>
+    <string name="tracksHistoryListTitle">Sledi zgodovini</string>
+    <string name="tracksHistoryDataStorageLink">Opozorilo: Aplikacija uporablja privzeto mapo za poti in podatke. Kliknite tukaj za spremembo.</string>
+    <string name="summaryEfficiencyInfo">Celotna toplotna učinkovitost pogonske enote steze.</string>
+    <string name="dialogMapsAutoZoom">Samodejni zoom</string>
+    <string name="tracksHistoryListNoMap">Zemljevid ni bil posnet.</string>
+    <string name="dialogLayoutChooseSubtitle">Izberi izgled prikaza</string>
+    <string name="unitTimeMinute">min</string>
+    <string name="controlPanelSoundSpeech">Govor</string>
+    <string name="summaryBasalEnergyInfo">Odstotek energije, ki je bila porabljena za bazalni metabolizem.</string>
+    <string name="meterModeBattery">baterija</string>
+    <string name="unitWKg">W/kg</string>
+    <string name="meterModeTemperature">temperatura</string>
+    <string name="meterModes_30">Radij</string>
+    <string name="tracksHistoryListButtonView">Pogled</string>
+    <string name="tracksHistoryChartEmptyInfo">Nič za pokazati</string>
+    <string name="dialogSliderLess">◀</string>
+    <string name="cloudAccountsPowerUploadPolicy_0">Vedno (privzeto)</string>
+    <string name="dialogMapsShowFences">Ograje</string>
+    <string name="sensorMenuEnable">Omogoči</string>
+    <string name="unitKjLb">kJ/lb</string>
+    <string name="summaryBasal">Bazalno</string>
+    <string name="summaryActivePower">Aktivna moč</string>
+    <string name="powerSourceWeight_2">Vozilo</string>
+    <string name="unitJoule">J</string>
+    <string name="pref_gps_update_freq_entries_4">2 sek</string>
+    <string name="dialogTrackUploadWaitTitle">Počakajte prosim</string>
+    <string name="tracksHistoryListViewTrackDialogTitle">Oglejte si pot z …</string>
+    <string name="summaryBraking">Zaviranje</string>
+    <string name="dialogCameraPermissionRequest">Potrebno je dovoljenje, da lahko aplikacija aktivira svetilko.</string>
+    <string name="meterModeElapsedTime">potekel</string>
+    <string name="controlPanelMapShowButtonTitle">Pokaži zemljevid</string>
+    <string name="dialogMapsDownloadText">Odpreti spletno stran za prenose\?</string>
+    <string name="summaryMechWork">Meh. delo</string>
+    <string name="dialogTrackEditTitleHint">Naslov</string>
+    <string name="summaryClimbing">Vzpon</string>
+    <string name="unitPerHundredMi">/100mi</string>
+    <string name="meterModeAltitudeDescent">spust</string>
+    <string name="dialogTrackEditNotesHint">Opombe</string>
+    <string name="unitMinPerKm">min/km</string>
+    <string name="meterModeAccelerationShort">acc</string>
+    <string name="sensorsInfo">Senzorji se samodejno povežejo, ko je snemanje aktivno, in se prekinejo, ko prenehate s snemanjem.
+\n
+\nPovezave s senzorjem ni mogoče vzpostaviti ročno.</string>
+    <string name="dialogEnergyParamsTitle">Energetski parametri</string>
+    <string name="meterModeWriggleShort">wrig</string>
+    <string name="sensorProperitesUseForCadence">Uporabite za kadenco</string>
+    <string name="dialogPermissionProblemMessage">To dovoljenje je potrebno za pravilno delovanje aplikacije. Dodelite ga lahko na strani z nastavitvami dovoljenj aplikacije.
+\n
+\nGrem zdaj tja\?</string>
+    <string name="summaryInaccurateLocationZoneCount">Območja netočnosti</string>
+    <string name="summaryBrakePadWear">Obraba zavornih ploščic</string>
+    <string name="unitMetersAboveGroundLevel">m agl</string>
+    <string name="summaryAcceleratingEnergyInfo">Odstotek energije, ki je bila porabljena za pospeševanje.</string>
+    <string name="summaryDraggingEnergyInfo">Odstotek energije, ki je bila porabljena za premagovanje upora zračnega upora.</string>
+    <string name="sensorsTabFound">Najdeno</string>
+    <string name="unitDegF">°F</string>
+    <string name="dialogActivityRecognitionPermissionRequestTitle">Dovoljenje za telesno dejavnost</string>
+    <string name="controlPanelSoundAlarms">Alarmi</string>
+    <string name="controlPanelEnergyParams">Parametri moči/energije</string>
+    <string name="meterModes_12">Hitrost vzpenjanja</string>
+    <string name="summaryProfileNameInfo">Profil, uporabljen za snemanje te poti.</string>
+    <string name="unitKcalH">kcal/h</string>
+    <string name="meterModes_33">Baterija</string>
+    <string name="summaryTotalWeightInfo">Vsota vseh uteži, uporabljenih med snemanjem te poti (voznik, vozilo, tovor, …).</string>
+    <string name="tracksHistoryGrantAccess">Manjkajo poti\?
+\nKliknite tukaj, če želite omogočiti dostop samo za branje do mape skladb po meri …</string>
+    <string name="meterModeHumidity">vlažnost</string>
+    <string name="summaryRolling">Kotaljenje</string>
+    <string name="summaryTotalTimeInfo">Časovni interval med začetnim in končnim časom te poti.</string>
+    <string name="sensorProperitesProfileInfo">Lastnosti senzorjev se upravljajo na profil. Lastnosti tukaj se upravljajo samo za trenutno aktivni profil (%1$s).</string>
+    <string name="dialogMapsMapCountTwoMaps">%1$s zemljevidov</string>
+    <string name="summaryProfileName">Profil</string>
+    <string name="summaryDriverWeightInfo">Teža voznika (ali kolesarja), uporabljenega med snemanjem te proge.</string>
+    <string name="controlPanelFlashlight">Svetilka</string>
+    <string name="dialogTrackUploadActivityType">Vrsta dejavnosti</string>
+    <string name="meterModes_15">Povpr. moč</string>
+    <string name="tracksHistoryListTitleSelect">Izberite</string>
+    <string name="meterModeAltitudeSlope">pobočje</string>
+    <string name="dialogScreenHudMode">Zrcalni način HUD</string>
+    <string name="meterModeDistanceShort">dst</string>
+    <string name="veloHeroConnectButton">Povežite se z Velo Hero</string>
+    <string name="dialogTrackUploadPlatform">Spletna storitev</string>
+    <string name="unitDegC">°C</string>
+    <string name="chartsTitle">Grafikoni</string>
+    <string name="dialogStoragePermissionRequest">Aplikacija potrebuje dostop do pomnilnika, da lahko shrani ali obnovi vaše poti in nastavitve.
+\n
+\nBrez dovoljenja morda ne boste mogli videti zgodovine svojih poti in lahko izgubite podatke.</string>
+    <string name="unitPerMille">‰</string>
+    <string name="summaryChainWear">Obraba verige</string>
+    <string name="summaryHeartBeatsInfo">Število srčnih utripov, zaznanih med aktivnostjo.</string>
+    <string name="unitGAccel">g</string>
+    <string name="cloudAccountsPowerUploadPolicy_1">Podatke o moči naložite le, če je bil uporabljen merilnik moči</string>
+    <string name="summaryMechWorkInfo">Porabljeno čisto mehansko delo (brez upoštevanja toplotne učinkovitosti in BMR).
+\n
+\nZa kolesa se to lahko šteje za merilo obrabe verige - standardna kolesarska veriga zdrži približno 100 MJ, za motorna kolesa pa približno 1 GJ.</string>
+    <string name="unitHPa">hPa</string>
+    <string name="pref_gps_update_freq_entries_10">20 sek</string>
+    <string name="meterModeStepCadenceShort">step cad</string>
+    <string name="dialogLocationPermissionRequest">Aplikacija potrebuje dostop do vaše lokacije, da snema vaše dejavnosti na prostem.</string>
+    <string name="mapMarkerFinish">Konec</string>
+    <string name="dialogTrackingStartPromptTitle">Začetek\?</string>
+    <string name="dialogOpenRainviewerText">Želite zdaj odpreti spletno stran www.rainviewer.com\?</string>
+    <string name="unitKj">kJ</string>
+    <string name="dialogOfflineMapThemeChooseTitle">Izberite temo</string>
+    <string name="dialogMapsOffline">Zemljevidi brez povezave</string>
+    <string name="controlPanelSensorsButtonSubtitle">Kliknite za upravljanje senzorjev</string>
+    <string name="dialogOfflineMapsFolderCopyTitle">Kopiraj v mapo z zemljevidi</string>
+    <string name="dialogPowerWeightsRotInertiaTitle">Rotacijska vztrajnost</string>
+    <string name="controlPanelSensorsButtonTitle">Senzorji</string>
+    <string name="meterModePressure">pritisk</string>
+    <string name="controlPanelSoundRoar">AVAS</string>
+    <string name="dialogMapsTerrainDownloadTitle">Prenos terena</string>
+    <string name="meterModeRadius">polmer</string>
+    <string name="profilesListTitle">Profili</string>
+    <string name="powerSourceWeightInfo">Pri prevajanju moči (vatov) v specifično moč (vatov na enoto teže) je treba navesti težo.
+\n
+\nTo je običajno teža subjekta, ki zagotavlja gonilno silo.
+\n
+\nOpomba: moč vzpenjanja se vedno izračuna s skupno težo.</string>
+    <string name="sensorWheelCircNotSetWarning">Obseg kolesa ni bil nastavljen</string>
+    <string name="unitMiPerGal">mpg</string>
+    <string name="meterModeOdoShort">odo</string>
+    <string name="unitMSxS">m/s²</string>
+    <string name="dialogMapsMapCountFourMaps">%1$s zemljevidov</string>
 </resources>
