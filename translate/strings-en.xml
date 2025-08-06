@@ -924,7 +924,6 @@
     <string name="pref_category_mapsQuickZoom">QuickZoom</string>
     <string name="pref_category_mapsCache">Cache</string>
     <string name="pref_category_onlineElevation_title">Online elevation</string>
-    <string name="pref_category_mapsRenderer">Renderer</string>
     <string name="prefAllProfilesInfoSummary">Preferences here are applicable to all profiles.</string>
     <string name="prefOnlineMapsProviderTitle">Online map provider</string>
 
@@ -1274,10 +1273,6 @@
     <string name="prefOnlineElevationNoteSummary3">This only works if a subscription license is available (Ultimate license, or one of the maps licenses).</string>
     <string name="prefTrackingButtonFreePlacementTitle">Free Rec button placement</string>
     <string name="prefTrackingButtonFreePlacementSummary">(All profiles) Allows the Rec button to be placed anywhere in the layout. When disabled, the Rec button will be fixed on the button bar.</string>
-    <string name="prefGoogleMapsRendererDialogTitle" translatable="false">@string/pref_category_mapsRenderer</string>
-    <string name="prefGoogleMapsRendererTitle" translatable="false">@null</string>
-    <string name="prefGoogleMapsRendererSummary">Current: %1$s</string>
-    <string name="prefGoogleMapsRendererInfo">Specifies which renderer type you prefer to use to display the maps. Legacy renderer may use fewer resources, while the latest one usually has more features or a better design.</string>
     <string name="prefMapShowBuildingsTitle">Show buildings</string>
     <string name="prefMapShowBuildingsSummary">Show the 3D buildings layer for Google maps. Disable to improve map performance and reduce resource usage.</string>
     <string name="prefBatteryOptimizationTitle">Battery optimizations</string>
@@ -1286,8 +1281,9 @@
     <string name="prefGnssAltitudeOffsetInfo">(All profiles) This constant is added to the altitude values received from the GPS. The default is zero (0).</string>
     <string name="prefCompassTitle">Compass</string>
     <string name="prefCompassEnableTitle">Show compass</string>
-    <string name="prefCompassEnableSummary">Show or hide the small compass in the status bar, if supported by the device. Enabled by default.</string>
-    <string name="prefCompassEnableInfo">The compass is shown only while tracking is active.</string>
+    <string name="prefCompassEnableSummary">Show or hide the small compass in the status bar while tracking, if supported by the device. Enabled by default.</string>
+    <string name="prefCompassEnableInfo1">When stationary, the compass indicates the direction of north relative to the orientation of the device in 3D space.</string>
+    <string name="prefCompassEnableInfo2">When using GPS and moving faster than walking speed, north is determined by the direction of travel as on a map, regardless of device orientation.</string>
     <string name="prefSlopeTitle">Slope</string>
     <string name="prefSlopeInertialDisplayEnableTitle">Enable inclinometer for Slope</string>
     <string name="prefSlopeInertialDisplayEnableSummary">Enable the use of inertial sensors (such as accelerometer and gyroscope) to improve the responsiveness of on-screen terrain slope measurements when possible. Disabled by default.</string>
@@ -1697,11 +1693,6 @@
     <string name="sensorFilterInterval_1">5 seconds</string>
     <string name="sensorFilterInterval_2">7 seconds</string>
     <string name="sensorFilterInterval_3">10 seconds</string>
-
-    <!-- prefGoogleMapsRenderer -->
-    <string name="prefGoogleMapsRenderer_0">Default</string>
-    <string name="prefGoogleMapsRenderer_1">Legacy</string>
-    <string name="prefGoogleMapsRenderer_2">Latest</string>
 
     <!-- prefAdModes -->
     <string name="prefAdModes_0">Any</string>
