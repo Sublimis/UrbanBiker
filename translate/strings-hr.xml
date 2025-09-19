@@ -1576,7 +1576,7 @@
     <string name="meterModes_33">Baterija</string>
     <string name="pref_category_onlineElevation_title">Online elevacija</string>
     <string name="prefOnlineElevationNoteSummary1">Radi uštede baterije i podataka, samo će se jedna elevacijska točka preuzeti s interneta kada počnete snimati novu stazu. Ovo je dovoljno da ostatak staze ima točniju osnovnu liniju nadmorske visine.</string>
-    <string name="prefOnlineElevationNoteSummary2">Ako internet ili licenca nisu dostupni, aplikacija će nastaviti raditi bez ispravljanja nadmorske visine.</string>
+    <string name="prefOnlineElevationNoteSummary2">Ako internet ili licenca nisu dostupni, aplikacija će nastaviti raditi bez ispravljanja osnovne linije nadmorske visine.</string>
     <string name="prefOnlineElevationTitle">Online elevacija</string>
     <string name="prefOnlineElevationNoteSummary3">Ovo funkcionira samo ako je dostupna licenca na pretplatu (Ultimate licenca ili jedna od licenci za karte).</string>
     <string name="prefOnlineElevationSummary">Upotrijebite podatke o nadmorskoj visini s interneta kako biste poboljšali točnost osnovne visine. Omogućeno prema zadanim postavkama.</string>
@@ -1721,4 +1721,10 @@
     <string name="prefCompassEnableInfo">Kompas se prikazuje samo dok je praćenje aktivno.</string>
     <string name="prefCompassEnableInfo1">Kada ste nepomični, kompas pokazuje smjer sjevera u odnosu na orijentaciju uređaja u 3D prostoru.</string>
     <string name="prefCompassEnableInfo2">Pri korištenju GPS-a i kretanju brže od brzine hoda, sjever se određuje smjerom kretanja kao na karti, bez obzira na orijentaciju uređaja.</string>
+    <string name="prefOfflineElevationGnssFixSummary">Koristite podatke o nadmorskoj visini terena iz lokalnih HGT datoteka umjesto (obično puno nestabilnijih) GNSS nadmorskih visina. Onemogućeno prema zadanim postavkama.</string>
+    <string name="prefOfflineElevationNoteSummary1">Ako podaci o nadmorskoj visini HGT terena za lokaciju nisu dostupni, aplikacija će nastaviti raditi bez ispravljanja nadmorske visine.</string>
+    <string name="prefOfflineElevationGnssFixTitle">Koristi offline elevaciju za GNSS</string>
+    <string name="prefOfflineElevationSummary">Koristite podatke o nadmorskoj visini terena iz lokalnih HGT datoteka za poboljšanje točnosti nadmorske visine. Omogućeno prema zadanim postavkama.</string>
+    <string name="prefOfflineElevationTitle">Offline elevacija</string>
+    <string name="pref_category_offlineElevation_title">Offline elevacija</string>
 </resources>
