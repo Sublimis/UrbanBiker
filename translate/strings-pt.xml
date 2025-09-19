@@ -1576,7 +1576,7 @@
     <string name="meterModes_33">Bateria</string>
     <string name="pref_category_onlineElevation_title">Elevação Online</string>
     <string name="prefOnlineElevationNoteSummary1">Para economizar bateria e dados, apenas um ponto de elevação será adquirido da Internet quando iniciar o registo de um novo percurso. Isso é suficiente para que o resto do percurso tenha uma linha de base de altitude mais precisa.</string>
-    <string name="prefOnlineElevationNoteSummary2">Se a Internet ou a licença não estiverem disponíveis, a aplicação continuará a funcionar sem corrigir a altitude.</string>
+    <string name="prefOnlineElevationNoteSummary2">Se a Internet ou a licença não estiverem disponíveis, a aplicação continuará a funcionar sem corrigir a linha de base da altitude.</string>
     <string name="prefOnlineElevationTitle">Elevação Online</string>
     <string name="prefOnlineElevationNoteSummary3">Isto só funciona se uma licença de assinatura estiver disponível (licença Ultimate ou uma das licenças de mapas).</string>
     <string name="prefOnlineElevationSummary">Usar dados de elevação da Internet para melhorar a precisão da linha de base da altitude. Ativado por padrão.</string>
@@ -1721,4 +1721,10 @@
     <string name="prefCompassEnableInfo">A bússola é exibida somente enquanto o registo estiver ativo.</string>
     <string name="prefCompassEnableInfo1">Quando está parado, a bússola indica a direção Norte em relação à orientação do dispositivo em espaço 3D.</string>
     <string name="prefCompassEnableInfo2">Ao usar GPS e ao mover-se mais rápido do que a velocidade de caminhada, o Norte é determinado pela direção da viagem, como num mapa, independentemente da orientação do dispositivo.</string>
+    <string name="prefOfflineElevationGnssFixSummary">Usar dados de elevação do terreno de arquivos HGT locais em vez de altitudes GNSS (geralmente muito mais voláteis). Desativado por padrão.</string>
+    <string name="prefOfflineElevationNoteSummary1">Se os dados de elevação do terreno HGT para um determinado local não estiverem disponíveis, a aplicação continuará a operar sem corrigir a altitude.</string>
+    <string name="prefOfflineElevationGnssFixTitle">Usar elevação offline para GNSS</string>
+    <string name="prefOfflineElevationSummary">Utilize dados de elevação do terreno de ficheiros HGT locais para melhorar a precisão da altitude. Ativado por padrão.</string>
+    <string name="prefOfflineElevationTitle">Elevação offline</string>
+    <string name="pref_category_offlineElevation_title">Elevação Offline</string>
 </resources>
