@@ -864,8 +864,8 @@
     <string name="pref_group_units_title">Units</string>
     <string name="pref_category_units_common_title">Units of measure (all profiles)</string>
     <string name="pref_category_units_per_profile_title">Units of measure (per profile)</string>
-    <string name="pref_category_colors_light_title">Light theme</string>
-    <string name="pref_category_colors_dark_title">Dark theme</string>
+    <string name="pref_category_colors_light_title">Light theme (global)</string>
+    <string name="pref_category_colors_dark_title">Dark theme (global)</string>
     <string name="pref_category_map_colors_title">Map colors</string>
     <string name="pref_category_visualThemeAuto">Automatic theme</string>
     <string name="pref_category_mainScreenVisualTheme">Main screen</string>
@@ -1169,6 +1169,8 @@
     <string name="pref_button_menu_show_summary">Show the Menu button</string>
     <string name="pref_button_tracking_show_title">Enable</string>
     <string name="pref_button_tracking_show_summary">Show the Rec button. If disabled, you will need to use the main menu commands to start or stop tracking.</string>
+    <string name="pref_button_tracking_pause_title">Pause and countdown</string>
+    <string name="pref_button_tracking_pause_summary">Pause tracking, start a countdown or increase the countdown interval by pressing the Rec button (short or long click).</string>
     <string name="pref_meter_lock_title">Lock mode</string>
     <string name="pref_meter_lock_summary">Prevents change of mode on click</string>
     <string name="pref_meter_modes_select_title">Choose available modes…</string>
@@ -1247,6 +1249,9 @@
     <string name="prefAppVisualThemeSummary">(All profiles)</string>
     <string name="prefAppVisualThemeTitle" translatable="false">@null</string>
     <string name="prefAppVisualThemeDialogTitle">App visual theme</string>
+    <string name="prefMetersThemeModeSummary" translatable="false">@null</string>
+    <string name="prefMetersThemeModeTitle" translatable="false">@null</string>
+    <string name="prefMetersThemeModeDialogTitle">Meters visual theme mode</string>
     <string name="prefAutoTerrainTitle">AutoTerrain</string>
     <string name="prefAutoTerrainSummary">Sense terrain roughness by measuring vibrations, and adjust the rolling resistance coefficient (Cᵣᵣ) accordingly when computing power.</string>
     <string name="prefAutoTerrainNote1Summary">Device should be held fixed to a vehicle (e.g. on a bike handlebars), and not in a hand or in a pocket while using this.</string>
@@ -1270,13 +1275,14 @@
     <string name="prefOnlineElevationTitle">Online elevation</string>
     <string name="prefOnlineElevationSummary">Use elevation data from the Internet to improve altitude baseline accuracy. Enabled by default.</string>
     <string name="prefOnlineElevationNoteSummary1">To save battery and data, only one elevation point will be acquired from the Internet when you start tracking a new track. This is enough for the rest of the track to have a more accurate altitude baseline.</string>
-    <string name="prefOnlineElevationNoteSummary2">If the Internet or the license is not available, the app will continue to work without correcting the altitude baseline.</string>
     <string name="prefOnlineElevationNoteSummary3">This only works if a subscription license is available (Ultimate license, or one of the maps licenses).</string>
+    <string name="prefOnlineElevationNoteSummary4">Offline elevation takes precedence.</string>
     <string name="prefOfflineElevationTitle">Offline elevation</string>
-    <string name="prefOfflineElevationSummary">Use terrain elevation data from local HGT files to improve altitude accuracy. Enabled by default.</string>
-    <string name="prefOfflineElevationNoteSummary1">If HGT terrain elevation data for a given location is not available, the app will continue to operate without correcting the altitude.</string>
-    <string name="prefOfflineElevationGnssFixTitle">Use offline elevation for GNSS</string>
-    <string name="prefOfflineElevationGnssFixSummary">Use terrain elevation data from local HGT files instead of (usually much more volatile) GNSS altitudes. Disabled by default.</string>
+    <string name="prefOfflineElevationSummary">Use terrain elevation data from local HGT files to improve altitude baseline accuracy. Enabled by default.</string>
+    <string name="prefOfflineElevationNoteSummary1">Offline terrain elevation follows the curvature of the ground and generally will not work well when used on structures that rise above the terrain, such as bridges, viaducts, or overpasses.</string>
+    <string name="prefOfflineElevationNoteSummary2">If HGT terrain elevation data for a given location is not available, the app will continue to operate without correcting the altitude.</string>
+    <string name="prefOfflineElevationGnssFixTitle">Correct GPS altitude</string>
+    <string name="prefOfflineElevationGnssFixSummary">Also use terrain elevation data from local HGT files instead of (usually much more volatile) GPS altitudes. Note that barometric altitude is not affected by this. Disabled by default.</string>
     <string name="prefTrackingButtonFreePlacementTitle">Free Rec button placement</string>
     <string name="prefTrackingButtonFreePlacementSummary">(All profiles) Allows the Rec button to be placed anywhere in the layout. When disabled, the Rec button will be fixed on the button bar.</string>
     <string name="prefMapShowBuildingsTitle">Show buildings</string>
@@ -1661,6 +1667,19 @@
     <string name="prefAppVisualThemeEntries_0">System default</string>
     <string name="prefAppVisualThemeEntries_1">Light</string>
     <string name="prefAppVisualThemeEntries_2">Dark</string>
+
+    <!-- prefMetersThemeModeEntries -->
+    <string name="prefMetersThemeModeEntries_0">Custom colors (default)</string>
+    <string name="prefMetersThemeModeEntries_1">Preset colors</string>
+    <string name="prefMetersThemeModeEntries_2">Preset foreground colors</string>
+    <string name="prefMetersThemeModeEntries_3">Preset background colors</string>
+    <string name="prefMetersThemeModeEntries_4">Global colors</string>
+
+    <string name="prefMetersThemeModeInfo_0">Every meter can use its own custom colors, and by default the preset foreground colors are used. Custom colors cannot be used on the Overview screen, the preset colors will always be used.</string>
+    <string name="prefMetersThemeModeInfo_1">Use preset foreground and background colors in all meters.</string>
+    <string name="prefMetersThemeModeInfo_2">Use preset foreground colors and global background colors in all meters.</string>
+    <string name="prefMetersThemeModeInfo_3">Use preset background colors and global foreground colors in all meters.</string>
+    <string name="prefMetersThemeModeInfo_4">Use only global colors in all meters, for a monochromatic look.</string>
 
     <string name="prefSteadyScreenModeAuto">Intelligent enabled (default)</string>
     <string name="prefSteadyScreenModeAutoInfo">Activate screen stabilization feature only on bumpy terrain during tracking. This is a good balance of comfort and battery use.</string>
