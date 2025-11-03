@@ -674,7 +674,6 @@
     <string name="cloudAccountsInfo">Connecting to a cloud service makes it easier for you to upload and share your tracks with others.\n\nWe\'ll never post anything without your permission.</string>
     <string name="accountDisconnect">Disconnect</string>
     <string name="googleFitConnectButton">Connect with Google Fit</string>
-    <string name="veloHeroConnectButton">Connect with Velo Hero</string>
     <string name="stravaTrackPrivacyInfo">Track will inherit default privacy you set on Strava</string>
     <string name="cloudAccountsPowerUploadPolicyTitle">Power data upload policy</string>
     <string name="cloudAccountsPowerUploadPolicy_0">Always (default)</string>
@@ -864,11 +863,10 @@
     <string name="pref_group_units_title">Units</string>
     <string name="pref_category_units_common_title">Units of measure (all profiles)</string>
     <string name="pref_category_units_per_profile_title">Units of measure (per profile)</string>
-    <string name="pref_category_colors_light_title">Light theme (global)</string>
-    <string name="pref_category_colors_dark_title">Dark theme (global)</string>
+    <string name="pref_category_colors_light_title">Light theme</string>
+    <string name="pref_category_colors_dark_title">Dark theme</string>
     <string name="pref_category_map_colors_title">Map colors</string>
     <string name="pref_category_visualThemeAuto">Automatic theme</string>
-    <string name="pref_category_mainScreenVisualTheme">Main screen</string>
     <string name="pref_category_appVisualTheme" translatable="false">@string/prefAppVisualThemeDialogTitle</string>
     <string name="pref_category4_title">Volume (relative)</string>
     <string name="pref_category_advanced_title">Advanced</string>
@@ -1249,6 +1247,9 @@
     <string name="prefAppVisualThemeSummary">(All profiles)</string>
     <string name="prefAppVisualThemeTitle" translatable="false">@null</string>
     <string name="prefAppVisualThemeDialogTitle">App visual theme</string>
+    <string name="prefMainScreenThemeSummary">Visual theme of the main app screen and the Overview app screen.</string>
+    <string name="prefMainScreenThemeTitle" translatable="false">@null</string>
+    <string name="prefMainScreenThemeDialogTitle">Main screen visual theme</string>
     <string name="prefMetersThemeModeSummary" translatable="false">@null</string>
     <string name="prefMetersThemeModeTitle" translatable="false">@null</string>
     <string name="prefMetersThemeModeDialogTitle">Meters visual theme mode</string>
@@ -1301,6 +1302,7 @@
     <string name="prefSlopeInertialDisplayEnableSummary">Enable the use of inertial sensors (such as accelerometer and gyroscope) to improve the responsiveness of on-screen terrain slope measurements when possible. Disabled by default.</string>
     <string name="prefSlopeInertialDisplayEnableInfo1">This is only useful when the phone is held in a fixed position relative to the vehicle, for example attached to handlebars or dashboard.</string>
     <string name="prefSlopeInertialDisplayEnableInfo2">The app automatically decides when to use the inclinometer based on the orientation and movement of your device. You will be notified by a small "sensor" icon in the corner of the Slope meter.</string>
+    <string name="prefColorsTitle">Colors</string>
 
     <string name="dataStorageTitle">Storage</string>
     <string name="dataStorageInfo1">Custom data storage location is recommended and useful to prevent accidental data loss if the app is uninstalled, and to make backups easier.</string>
@@ -1668,18 +1670,22 @@
     <string name="prefAppVisualThemeEntries_1">Light</string>
     <string name="prefAppVisualThemeEntries_2">Dark</string>
 
+    <!-- prefMainScreenThemeEntries -->
+    <string name="prefMainScreenThemeEntries_1">Light</string>
+    <string name="prefMainScreenThemeEntries_2">Dark</string>
+
     <!-- prefMetersThemeModeEntries -->
     <string name="prefMetersThemeModeEntries_0">Custom colors (default)</string>
     <string name="prefMetersThemeModeEntries_1">Preset colors</string>
     <string name="prefMetersThemeModeEntries_2">Preset foreground colors</string>
     <string name="prefMetersThemeModeEntries_3">Preset background colors</string>
-    <string name="prefMetersThemeModeEntries_4">Global colors</string>
+    <string name="prefMetersThemeModeEntries_4">Main colors</string>
 
     <string name="prefMetersThemeModeInfo_0">Every meter can use its own custom colors, and by default the preset foreground colors are used. Custom colors cannot be used on the Overview screen, the preset colors will always be used.</string>
     <string name="prefMetersThemeModeInfo_1">Use preset foreground and background colors in all meters.</string>
-    <string name="prefMetersThemeModeInfo_2">Use preset foreground colors and global background colors in all meters.</string>
-    <string name="prefMetersThemeModeInfo_3">Use preset background colors and global foreground colors in all meters.</string>
-    <string name="prefMetersThemeModeInfo_4">Use only global colors in all meters, for a monochromatic look.</string>
+    <string name="prefMetersThemeModeInfo_2">Use preset foreground colors and main background colors in all meters.</string>
+    <string name="prefMetersThemeModeInfo_3">Use preset background colors and main foreground colors in all meters.</string>
+    <string name="prefMetersThemeModeInfo_4">Use only main colors in all meters, for a monochromatic look.</string>
 
     <string name="prefSteadyScreenModeAuto">Intelligent enabled (default)</string>
     <string name="prefSteadyScreenModeAutoInfo">Activate screen stabilization feature only on bumpy terrain during tracking. This is a good balance of comfort and battery use.</string>
@@ -1694,6 +1700,9 @@
     <string name="prefSteadyScreenImplementationInternalInfo">Use our own screen stabilization implementation. Easier to use, non-adjustable.</string>
     <string name="prefSteadyScreenImplementationExternal">External</string>
     <string name="prefSteadyScreenImplementationExternalInfo">A separate app must be installed for this to work. Adjustable.</string>
+
+    <string name="prefMetersFontAppDefault">App default</string>
+    <string name="prefMetersFontSystemDefault">System default</string>
 
     <string name="svgCopyright">Created with Urban Biker</string>
 
