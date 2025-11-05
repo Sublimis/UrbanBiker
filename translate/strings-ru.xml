@@ -98,7 +98,7 @@
     <string name="toastTrackResumed">Трек возобновлён</string>
     <string name="toastTrackResumeGpsActiveError">Сначала отключите или приостановите запись трека</string>
     <string name="toastProfileButtonClickInfo">Долгое нажатие переключает профиль</string>
-    <string name="toastContrastButtonClickInfo">Автоматическая визуальная тема включена</string>
+    <string name="toastContrastButtonClickInfo">Автоматическая тема оформления включена</string>
     <string name="toastFlashlightButtonClickInfo">Долгое нажатие включает фонарик</string>
     <string name="toastRoarButtonClickInfo">Долгое нажатие включает/отключает звуки AVAS</string>
     <string name="toastMapButtonClickInfo">Долгое нажатие переключает режим карты</string>
@@ -118,7 +118,7 @@
     <string name="toastSoundsDisabled">Звук отключён</string>
     <string name="toastSensorEnabled">Датчик включён</string>
     <string name="toastSensorDisabled">Датчик отключён</string>
-    <string name="toastAutoThemeActivated">Включена автоматическая визуальная тема</string>
+    <string name="toastAutoThemeActivated">Включена автоматическая тема оформления</string>
     <string name="toastCancelled">Отменено</string>
     <string name="notificationTitleAdvancedPaused">Пауза: %1$s
     </string>
@@ -1358,7 +1358,7 @@
     <string name="prefAppVisualThemeSummary">(Все профили)</string>
     <string name="pref_category_mainScreenVisualTheme">Главный экран</string>
     <string name="pref_mapsWeatherCoverage_title">Маска покрытия</string>
-    <string name="prefAppVisualThemeDialogTitle">Визуальная тема приложения</string>
+    <string name="prefAppVisualThemeDialogTitle">Тема оформления приложения</string>
     <string name="pref_powermeter_roll_resist_info_summary">Cᵣᵣ колеблется от 0 до 10%, по умолчанию 0.7%. При использовании функции авторельефа используйте базовое значение для ровной местности (наименьшее значение), так как приложение, как правило, увеличивает коэффициент на пересечённой местности.</string>
     <string name="prefScreensaverDimBrightnessEntries_2">⅓ текущей яркости (по умолчанию)</string>
     <string name="prefBarometricAltitudeDisableAlert">Отключить барометрическую высоту\?</string>
@@ -1548,7 +1548,7 @@
     <string name="dialogLicenseUpgradeMessage">Для доступа к этой функции требуется подписка на лицензию.
 \n
 \nИли вы можете посмотреть короткое рекламное видео, чтобы получить бесплатный доступ.</string>
-    <string name="prefOnlineMapsProviderTitle">Поставщик онлайн-карт</string>
+    <string name="prefOnlineMapsProviderTitle">Поставщик карт из сети</string>
     <string name="navigationGotOffRoute">Вне маршрута</string>
     <string name="prefSteadyScreenNote2">Лучше всего функция работает при медленных перемещениях, таких как покачивание телефона в руке во время ходьбы, а также на руле во время езды или в автомобиле во время вождения.</string>
     <string name="toastSteadyScreenModeActive">Стабилизация экрана включена</string>
@@ -1579,10 +1579,10 @@
     <string name="infoMeterModeBatteryTitle">Батарея</string>
     <string name="infoMeterModeBatteryMsg">Уровень заряда батареи данного Android-устройства.</string>
     <string name="meterModes_33">Батарея</string>
-    <string name="pref_category_onlineElevation_title">Высота из интернета</string>
+    <string name="pref_category_onlineElevation_title">Высота из сети</string>
     <string name="prefOnlineElevationNoteSummary1">Для экономии заряда батареи и передачи данных при начале отслеживания нового трека из интернета будет получена высота только одной точки. Этого достаточно для того, чтобы остальная часть трассы имела более точную высотную привязку.</string>
     <string name="prefOnlineElevationNoteSummary2">Если интернет или лицензия недоступны, приложение продолжит работу без коррекции высоты.</string>
-    <string name="prefOnlineElevationTitle">Высота из интернета</string>
+    <string name="prefOnlineElevationTitle">Высота из сети</string>
     <string name="prefOnlineElevationNoteSummary3">Работает только при наличии лицензии на основе подписки (лицензия Ultimate или одна из лицензий на карты).</string>
     <string name="prefOnlineElevationSummary">Для повышения точности определения высоты над уровнем моря использовать данные о рельефе из интернета. По умолчанию включено.</string>
     <string name="menuMeterResume">Возобновить</string>
@@ -1726,4 +1726,32 @@
     <string name="prefCompassEnableInfo">Компас отображается только во время активного отслеживания.</string>
     <string name="prefCompassEnableInfo1">В неподвижном состоянии компас указывает направление на север относительно ориентации устройства в трёхмерном пространстве.</string>
     <string name="prefCompassEnableInfo2">При использовании GPS и движении быстрее, чем при ходьбе, компас указывает направление на север относительно направления движения, независимо от ориентации устройства.</string>
+    <string name="prefMetersThemeModeInfo_1">Использовать наборы цветов текста и фона на всех счётчиках.</string>
+    <string name="prefMetersThemeModeEntries_4">Основные цвета</string>
+    <string name="prefOfflineElevationGnssFixSummary">Использовать также данные о высоте рельефа из локальных файлов HGT вместо (обычно гораздо более нестабильных) высот GPS. Обратите внимание, что на барометрическую высоту это не влияет. По умолчанию отключено.</string>
+    <string name="prefMetersThemeModeEntries_0">Свои цвета (по умолчанию)</string>
+    <string name="prefMetersThemeModeEntries_3">Набор цветов фона</string>
+    <string name="prefOfflineElevationNoteSummary1">Автономные данные высоты повторяют кривизну рельефа и, как правило, не подходят для использования на сооружениях, возвышающихся над поверхностью, таких как мосты, виадуки или эстакады.</string>
+    <string name="prefOfflineElevationNoteSummary2">Если HGT-данные о высоте рельефа для данного местоположения недоступны, приложение будет работать без корректировки высоты.</string>
+    <string name="prefMetersThemeModeInfo_2">Использовать набор цветов текста и основные цвета фона на всех счётчиках.</string>
+    <string name="pref_button_tracking_pause_title">Пауза и отсчёт</string>
+    <string name="prefMetersThemeModeInfo_4">Использовать только основные цвета на всех счётчиках для монохромного отображения.</string>
+    <string name="prefMetersFontAppDefault">Приложения по умолчанию</string>
+    <string name="prefMainScreenThemeSummary">Цвета темы оформления главного экрана приложения и раздела «Сводка»</string>
+    <string name="prefMetersThemeModeInfo_3">Использовать набор цветов фона и основные цвета текста на всех счётчиках.</string>
+    <string name="prefMainScreenThemeEntries_2">Тёмные</string>
+    <string name="prefMetersThemeModeEntries_1">Наборы цветов</string>
+    <string name="prefMetersThemeModeDialogTitle">Оформление счётчиков</string>
+    <string name="prefMainScreenThemeEntries_1">Светлые</string>
+    <string name="prefOfflineElevationGnssFixTitle">Коррекция высоты GPS</string>
+    <string name="prefMainScreenThemeDialogTitle">Цвета оформления главного экрана</string>
+    <string name="prefOfflineElevationSummary">Использовать данные о высоте рельефа из локальных файлов HGT для повышения точности определения высот. По умолчанию включено.</string>
+    <string name="prefOfflineElevationTitle">Автономная высота</string>
+    <string name="pref_button_tracking_pause_summary">Приостановка отслеживания, запуск обратного отсчёта или увеличение его интервала (коротким или долгим нажатием кнопки «Запись»).</string>
+    <string name="prefMetersThemeModeInfo_0">Каждый счётчик может использовать свои собственные цвета по выбору пользователя. По умолчанию используются предустановленные из набора цветов текста. Пользовательские цвета не могут использоваться на экране сводки, там всегда будут использоваться предустановленные цвета.</string>
+    <string name="pref_category_offlineElevation_title">Автономная высота</string>
+    <string name="prefMetersThemeModeEntries_2">Набор цветов текста</string>
+    <string name="prefMetersFontSystemDefault">Системный по умолчанию</string>
+    <string name="prefColorsTitle">Цвета</string>
+    <string name="prefOnlineElevationNoteSummary4">Автономные значения высот имеют приоритет.</string>
 </resources>
