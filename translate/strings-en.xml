@@ -91,6 +91,9 @@
     <string name="buttonResumeTrack">Resume</string>
     <string name="buttonNewTrack">Finish</string>
 
+    <string name="foregroundProperty">Foreground</string>
+    <string name="backgroundProperty">Background</string>
+
     <string name="menuControlPanel">Quick Settings</string>
     <string name="menuSettings">Settings</string>
     <string name="menuMapOptions">Map options</string>
@@ -1609,8 +1612,8 @@
     <string name="mapLayerTypes_2" translatable="false">@string/mapLayerSatellite</string>
 
     <!-- prefMapOfflineLayerButtonActionEntries -->
+    <string name="prefMapOfflineLayerButtonActionEntries_3">Toggle terrain</string>
     <string name="prefMapOfflineLayerButtonActionEntries_0">Switch theme</string>
-    <string name="prefMapOfflineLayerButtonActionEntries_1">Switch file</string>
     <string name="prefMapOfflineLayerButtonActionEntries_2">None (default)</string>
 
     <!-- prefMapDiskCacheSizeEntries -->
@@ -1674,7 +1677,6 @@
     <string name="prefMainScreenThemeEntries_1">Light</string>
     <string name="prefMainScreenThemeEntries_2">Dark</string>
 
-    <!-- prefMetersThemeModeEntries -->
     <string name="prefMetersThemeModeEntries_0">Custom colors (default)</string>
     <string name="prefMetersThemeModeEntries_1">Preset colors</string>
     <string name="prefMetersThemeModeEntries_2">Preset foreground colors</string>
@@ -1686,6 +1688,14 @@
     <string name="prefMetersThemeModeInfo_2">Use preset foreground colors and main background colors in all meters.</string>
     <string name="prefMetersThemeModeInfo_3">Use preset background colors and main foreground colors in all meters.</string>
     <string name="prefMetersThemeModeInfo_4">Use only main colors in all meters, for a monochromatic look.</string>
+
+    <string name="customColor">Custom color</string>
+    <string name="presetColor">Preset color</string>
+    <string name="presetColorDefault">Preset color (default)</string>
+    <string name="mainColor">Main color</string>
+    <string name="mainColorDefault">Main color (default)</string>
+
+    <string name="meterThemeModeOverrideInfo">Appearance set here is currently overridden in Settings and will not show. Click here to go there.</string>
 
     <string name="prefSteadyScreenModeAuto">Intelligent enabled (default)</string>
     <string name="prefSteadyScreenModeAutoInfo">Activate screen stabilization feature only on bumpy terrain during tracking. This is a good balance of comfort and battery use.</string>
@@ -1736,7 +1746,7 @@
 
 
     <string name="menuLicense">Upgrade</string>
-    <string name="licenseUpgradeTitle">Upgrade your license</string>
+    <string name="licenseUpgradeTitle">Manage your license</string>
 
     <string name="dialogReviewNudgeMessage">Are you enjoying Urban Biker?</string>
     <string name="dialogReviewNudgeMessage2">Thanks! Please write a nice review or rate us 5 stars on the Play Store.</string>
@@ -1757,7 +1767,8 @@
 
     <string name="aboutScreenWarmWelcome">Hope you enjoy this app 😊</string>
     <string name="aboutScreenChangeLogLink">Version change log</string>
-    <string name="aboutScreenFacebookLink">Urban Biker on Facebook</string>
+    <string name="aboutScreenSupportLink">Support</string>
+    <string name="aboutScreenAllAppsLink">All apps</string>
 
     <string name="aboutScreenTranslationsTitle">Translations</string>
     <string name="aboutScreenTranslationsText">Help translate this app and get a free license! More info: </string>
