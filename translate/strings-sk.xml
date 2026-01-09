@@ -930,28 +930,23 @@
     <string name="ultimateLicenseDescription">Plná licencia so všetkými funkciami</string>
     <string name="ultimateLicenseFeatures">⭐ Všetky platené mapy
 \n⭐ Navigácia
-\n⭐ Online korekcia merania nadm. výšky
 \n⭐ Žiadna reklama
 \n⭐ Všetky bezplatné funkcie a mapy</string>
     <string name="proPlusLicenseFeatures">❌ Platené mapy
 \n❌ Navigácia
-\n❌ Online korekcia merania nadm. výšky
 \n⭐ Žiadna reklama
 \n⭐ Všetky bezplatné funkcie a mapy
 \n➕ Extra príspevok</string>
     <string name="proLicenseFeatures">❌ Platené mapy
 \n❌ Navigácia
-\n❌ Online korekcia merania nadm. výšky
 \n⭐ Žiadna reklama
 \n⭐ Všetky bezplatné funkcie a mapy</string>
     <string name="thunderforestMapsFeatures">⭐ Mapy Thunderforest
 \n⭐ Navigácia
-\n⭐ Online korekcia merania nadm. výšky
 \n⭐ Žiadna reklama
 \n⭐ Všetky bezplatné funkcie a mapy</string>
     <string name="mapboxMapsFeatures">⭐ Mapy Mapbox
 \n⭐ Navigácia
-\n⭐ Online korekcia merania nadm. výšky
 \n⭐ Žiadna reklama
 \n⭐ Všetky bezplatné funkcie a mapy</string>
     <string name="priceFree">ZADARMO</string>
@@ -1104,12 +1099,10 @@
     <string name="cloudAccountsPowerUploadPolicy_1">Načítavať dáta len pri meraní</string>
     <string name="hereMapsFeatures">⭐ Mapy HERE
 \n⭐ Navigácia
-\n⭐ Online korekcia merania nadm. výšky
 \n⭐ Žiadna reklama
 \n⭐ Všetky bezplatné funkcie a mapy</string>
     <string name="maptilerMapsFeatures">⭐ Mapy MapTiler
 \n⭐ Navigácia
-\n⭐ Online korekcia merania nadm. výšky
 \n⭐ Žiadna reklama
 \n⭐ Všetky bezplatné funkcie a mapy</string>
     <string name="dialogMapsChooseTitle">Vybrať mapu</string>
@@ -1497,7 +1490,6 @@
 \nZvislé a vodorovné zobrazenie majú navzájom nezávislé rozloženia.</string>
     <string name="freeLicenseFeatures">❌ Platené mapy
 \n❌ Navigácia
-\n❌ Online korekcia merania nadm. výšky
 \n❌ Žiadna reklama
 \n⭐ Všetky bezplatné funkcie a mapy</string>
     <string name="freeLicenseTitle">Bezplatná licencia</string>
@@ -1550,9 +1542,7 @@
     <string name="navigationStepsInfo">Pokyny navigácie sa zobrazujú na tomto mieste počas pohybu. Panel navigácie možno posúvať alebo skryť.</string>
     <string name="licenseUpgradeTitle">Spravovať licenciu</string>
     <string name="navigationRouteNotFound">Nebola nájdená žiadna trasa do zadaného cieľa</string>
-    <string name="dialogLicenseUpgradeMessage">Táto funkcia je dostupná len v predplatenej licencii.
-\n
-\nPrípadne možno prejsť cez reklamné video a získať jednorazový prístup.</string>
+    <string name="dialogLicenseUpgradeMessage">Táto funkcia je dostupná len v predplatenej licencii.</string>
     <string name="prefOnlineMapsProviderTitle">Poskytovateľ online-máp</string>
     <string name="navigationGotOffRoute">Mimo trasy</string>
     <string name="prefSteadyScreenNote2">Funkcia sa spoľahlivejšie uplatňuje hlavne pri pomalších pohyboch s mobilom počas chôdze alebo jazdy.</string>
@@ -1615,7 +1605,7 @@
     <string name="otherLicenses">Iné</string>
     <string name="recommendedLicense">Doporučovaná</string>
     <string name="pref_mapsOfflineFileSummary">Umiestniť mapové súbory do určeného priečinka pre mapy vrámci aplikácie</string>
-    <string name="prefMapsFolderExploreSummary">Spravovať mapový priečinok aplikácie pomocou prehľadávača súborov</string>
+    <string name="prefMapsFolderExploreSummary">Spravovať obsah priečinka aplikácie pomocou prehľadávača súborov</string>
     <string name="prefMapsFolderExploreTitle">Priečinok máp</string>
     <string name="dialogNotificationPermissionRequestTitle">Povolenie upozornení</string>
     <string name="dialogNotificationPermissionRequest">Povolenie je potrebné pre zobrazovanie upozornení počas sledovania trasy.</string>
@@ -1650,8 +1640,7 @@
     <string name="dataStorageInfo1">Doporučuje sa vytvorenie vlastného pamäťového umiestnenia trás a dát kvôli väčšej bezpečnosti ich uchovania po odinštalovaní aplikácie a pre jednoduchšie zálohovanie.</string>
     <string name="dataStorageTitle">Pamäťové úložisko</string>
     <string name="success">Hotovo</string>
-    <string name="dataStorageStatsMessage">%1$s MB
-\n%2$s položiek</string>
+    <string name="dataStorageStatsMessage">%1$s MB, %2$s položiek</string>
     <string name="prefSteadyScreenImplementationInternal">Vnútorná (predvolené)</string>
     <string name="prefBatteryOptimizationTitle">Optimalizácia spotreby energie</string>
     <string name="prefSteadyScreenImplementationInternalInfo">Používať implementáciu stabilizácie obrazovky od vývojára, jednoduchú na používanie a bez ďalších nastavení.</string>
@@ -1771,4 +1760,7 @@
     <string name="presetColorDefault">Prednastavená farba (predvolené)</string>
     <string name="customColor">Vlastná farba</string>
     <string name="alsoFromUs">Iné veci od nás</string>
+    <string name="dataStorageExploreButton">Prehľadávať dátové úložisko</string>
+    <string name="prefMapsFolderExploreInfo">Toto je osobitný priečinok aplikácie, ktorý by mal byť viditeľný.</string>
+    <string name="rootStorageExploreButton">Prehľadávať úložisko zariadenia root</string>
 </resources>
