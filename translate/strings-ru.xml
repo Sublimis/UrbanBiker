@@ -1004,28 +1004,23 @@
     <string name="ultimateLicenseDescription">Самая полная лицензия для всех возможностей</string>
     <string name="ultimateLicenseFeatures">⭐ Все премиальные карты
 \n⭐ Навигация
-\n⭐ Базовая высота по сети
 \n⭐ Нет рекламы
 \n⭐ Все бесплатные возможности и карты</string>
     <string name="proPlusLicenseFeatures">❌ Премиальные карты
 \n❌ Навигация
-\n❌ Базовая высота по сети
 \n⭐ Нет рекламы
 \n⭐ Все бесплатные возможности и карты
 \n➕ Дополнительное пожертвование</string>
     <string name="proLicenseFeatures">❌ Премиальные карты
 \n❌ Навигация
-\n❌ Базовая высота по сети
 \n⭐ Нет рекламы
 \n⭐ Все бесплатные возможности и карты</string>
     <string name="thunderforestMapsFeatures">⭐ Премиальные карты Thunderforest
 \n⭐ Навигация
-\n⭐ Базовая высота по сети
 \n⭐ Нет рекламы
 \n⭐ Все бесплатные возможности и карты</string>
     <string name="mapboxMapsFeatures">⭐ Премиальные карты Mapbox
 \n⭐ Навигация
-\n⭐ Базовая высота по сети
 \n⭐ Нет рекламы
 \n⭐ Все бесплатные возможности и карты</string>
     <string name="priceFree">БЕСПЛАТНО</string>
@@ -1229,12 +1224,10 @@
     <string name="cloudAccountsPowerUploadPolicy_1">Только при измерении мощности</string>
     <string name="hereMapsFeatures">⭐ Премиальные карты HERE
 \n⭐ Навигация
-\n⭐ Базовая высота по сети
 \n⭐ Нет рекламы
 \n⭐ Все бесплатные возможности и карты</string>
     <string name="maptilerMapsFeatures">⭐ Премиальные карты MapTiler
 \n⭐ Навигация
-\n⭐ Базовая высота по сети
 \n⭐ Нет рекламы
 \n⭐ Все бесплатные возможности и карты</string>
     <string name="dialogMapsChooseTitle">Выбор карты</string>
@@ -1492,7 +1485,6 @@
     <string name="dialogLayoutChooseSubtitle">Компоновка экрана</string>
     <string name="freeLicenseFeatures">❌ Премиальные карты
 \n❌ Навигация
-\n❌ Базовая высота по сети
 \n❌ Нет рекламы
 \n⭐ Все бесплатные возможности и карты</string>
     <string name="freeLicenseTitle">Бесплатная лицензия</string>
@@ -1545,9 +1537,7 @@
     <string name="navigationStepsInfo">Навигационные инструкции будут появляться здесь по мере движения. Панель по желанию можно скрыть или переместить.</string>
     <string name="licenseUpgradeTitle">Управление лицензией</string>
     <string name="navigationRouteNotFound">Извините, маршрут до места назначения не найден</string>
-    <string name="dialogLicenseUpgradeMessage">Для доступа к этой функции требуется подписка на лицензию.
-\n
-\nИли вы можете посмотреть короткое рекламное видео, чтобы получить бесплатный доступ.</string>
+    <string name="dialogLicenseUpgradeMessage">Для доступа к этой функции требуется подписка на лицензию.</string>
     <string name="prefOnlineMapsProviderTitle">Поставщик карт из сети</string>
     <string name="navigationGotOffRoute">Вне маршрута</string>
     <string name="prefSteadyScreenNote2">Лучше всего функция работает при медленных перемещениях, таких как покачивание телефона в руке во время ходьбы, а также на руле во время езды или в автомобиле во время вождения.</string>
@@ -1608,7 +1598,7 @@
     <string name="buttonProceed">Продолжить</string>
     <string name="licenseItemOwned">Текущая</string>
     <string name="pref_mapsOfflineFileSummary">Для использования файлы карт необходимо скопировать в соответствующую папку конкретного приложения</string>
-    <string name="prefMapsFolderExploreSummary">Управление содержимым папки карт конкретного приложения с помощью системного приложения проводника</string>
+    <string name="prefMapsFolderExploreSummary">Управление содержимым папки, связанной с приложением, с помощью системного приложения проводника</string>
     <string name="prefMapsFolderExploreTitle">Обзор папки карт</string>
     <string name="otherLicenses">Другие</string>
     <string name="recommendedLicense">Рекомендуется</string>
@@ -1645,8 +1635,7 @@
     <string name="dataStorageInfo1">Рекомендуется использовать своё место хранения треков и данных, чтобы предотвратить их случайную потерю при удалении приложения и упростить создание резервных копий.</string>
     <string name="dataStorageTitle">Хранилище</string>
     <string name="success">Успешно</string>
-    <string name="dataStorageStatsMessage">%1$s МБ
-\n%2$s объектов</string>
+    <string name="dataStorageStatsMessage">%1$s МБ, %2$s объектов</string>
     <string name="prefSteadyScreenImplementationInternal">Встроенная (по умолчанию)</string>
     <string name="prefBatteryOptimizationTitle">Оптимизация батареи</string>
     <string name="prefSteadyScreenImplementationInternalInfo">Используется собственная реализация стабилизации экрана. Проще в использовании, настройки отсутствуют.</string>
@@ -1766,4 +1755,7 @@
     <string name="foregroundProperty">Передний план</string>
     <string name="presetColorDefault">Цвет из набора (по умолчанию)</string>
     <string name="customColor">Свой цвет</string>
+    <string name="dataStorageExploreButton">Обзор хранилища</string>
+    <string name="prefMapsFolderExploreInfo">Это связанная с приложением папка, которую необходимо найти.</string>
+    <string name="rootStorageExploreButton">Обзор root-хранилища</string>
 </resources>
