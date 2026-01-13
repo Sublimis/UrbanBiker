@@ -8,7 +8,7 @@
     <string name="widget_3_description">Cyklista: Kompletní</string>
     <string name="proLicenseLabel">Pro</string>
     <string name="proPlusLicenseLabel">Pro+</string>
-    <string name="ultimateLicenseLabel">Ultimate</string>
+    <string name="ultimateLicenseLabel">Ultimatní</string>
     <string name="proLicenseTitle">Licence Pro</string>
     <string name="proLicenseDescription">Odstranit reklamy</string>
     <string name="proPlusLicenseTitle">Licence Pro+</string>
@@ -308,7 +308,7 @@
     <string name="unitHPa">hPa</string>
     <string name="unitPetrolLit">L pal.</string>
     <string name="unitKmPerLit">km/L</string>
-    <string name="unitMiPerGal">mpg</string>
+    <string name="unitMiPerGal">m/g</string>
     <string name="unitPerHundredKm">/100km</string>
     <string name="unitPerHundredMi">/100mi</string>
     <string name="unitPerMinute">/min</string>
@@ -346,7 +346,7 @@
     <string name="meterModeOdo">odometr</string>
     <string name="meterModeOdoShort">odo</string>
     <string name="meterModeEnergy">energie</string>
-    <string name="meterModeEnergyShort">ene</string>
+    <string name="meterModeEnergyShort">energ</string>
     <string name="meterModeEfficacy">účinnost</string>
     <string name="meterModeEfficacyShort">účin</string>
     <string name="meterModeTemperature">teplota</string>
@@ -410,7 +410,7 @@
     <string name="summaryWheelsWeight">Váha kol</string>
     <string name="summaryEfficiency">Účinnost</string>
     <string name="summaryDragArea">Označit oblast</string>
-    <string name="summaryRollResistCoef">Koef. součinitele valivého odporu</string>
+    <string name="summaryRollResistCoef">Koef. součinitele valivého odporu.</string>
     <string name="summaryBasalMetabolicRate">Bazální metabolismus (BMR)</string>
     <string name="summaryLocationInterval">Doba zaměření</string>
     <string name="summaryDeviceRestartsCount">Nucený restart</string>
@@ -879,11 +879,11 @@
     <string name="pref_bell_mode_entries_0">Cink</string>
     <string name="pref_bell_mode_entries_1">Crrrrr-crrrrr</string>
     <string name="pref_bell_mode_entries_2">Trumpeta</string>
-    <string name="pref_bell_mode_entries_3">Yoo-hoo</string>
+    <string name="pref_bell_mode_entries_3">Jú-hú</string>
     <!-- pref_roaring_type_entries -->
-    <string name="pref_roaring_type_entries_0">Freehub</string>
+    <string name="pref_roaring_type_entries_0">Cvrček</string>
     <string name="pref_roaring_type_entries_1">Pípnutí</string>
-    <string name="pref_roaring_type_entries_2">Chopper</string>
+    <string name="pref_roaring_type_entries_2">Motorka</string>
     <!-- pref_roaring_mode_entries -->
     <string name="pref_roaring_mode_entries_0">Automatická rychlost a hlasitost</string>
     <string name="pref_roaring_mode_entries_1">Automatická rychlost</string>
@@ -999,28 +999,23 @@
     <string name="ultimateLicenseDescription">Nejvyšší licence pro maximální zážitek</string>
     <string name="ultimateLicenseFeatures">⭐ Všechny prémiové mapy
 \n⭐ Navigace
-\n⭐ Online základní nadmořská výška
 \n⭐ Žádné reklamy
 \n⭐ Všechny bezplatné funkce a mapy</string>
     <string name="proPlusLicenseFeatures">❌ Prémiové mapy
 \n❌ Navigace
-\n❌ Online základna nadmořské výšky
 \n⭐ Žádné reklamy
 \n⭐ Všechny bezplatné funkce a mapy
 \n➕ Extra dar</string>
     <string name="proLicenseFeatures">❌ Prémiové mapy
 \n❌ Navigace
-\n❌ Online základna nadmořské výšky
 \n⭐ Žádné reklamy
 \n⭐ Všechny bezplatné funkce a mapy</string>
     <string name="thunderforestMapsFeatures">⭐ Prémiové mapy Thunderforest
 \n⭐ Navigace
-\n⭐ Online základní nadmořská výška
 \n⭐ Žádné reklamy
 \n⭐ Všechny bezplatné funkce a mapy</string>
     <string name="mapboxMapsFeatures">⭐ Prémiové mapy Mapbox
 \n⭐ Navigace
-\n⭐ Online základní nadmořská výška
 \n⭐ Žádné reklamy
 \n⭐ Všechny bezplatné funkce a mapy</string>
     <string name="priceFree">ZDARMA</string>
@@ -1200,12 +1195,10 @@
     <string name="summaryTotalWeightInfo">Součet všech hmotností použitých při zápisu této trati (jezdec, stroj, náklad,...).</string>
     <string name="hereMapsFeatures">⭐ HERE prémiové mapy
 \n⭐ Navigace
-\n⭐ Online základní nadmořská výška
 \n⭐ Žádné reklamy
 \n⭐ Všechny bezplatné funkce a mapy</string>
     <string name="maptilerMapsFeatures">⭐ Prémiové mapy MapTiler
 \n⭐ Navigace
-\n⭐ Online základní nadmořská výška
 \n⭐ Žádné reklamy
 \n⭐ Všechny bezplatné funkce a mapy</string>
     <string name="dialogMapsChooseTitle">Vyber mapu</string>
@@ -1267,7 +1260,9 @@
     <string name="summaryAcceleratingEnergyInfo">Procento energie, která byla použita k urychlení.</string>
     <string name="summaryDraggingEnergyInfo">Procento energie použité pro překonání odporu vzduchu.</string>
     <string name="summaryRolling">Válec</string>
-    <string name="summaryMechWorkInfo">Čistě mechanický výkon vyvinutý při této aktivitě (zanedbaná tepelná účinnost a BMR).</string>
+    <string name="summaryMechWorkInfo">Čistě mechanický výkon vyvinutý při této aktivitě (zanedbaná tepelná účinnost a BMR).
+\n
+\nU kol a motorek může odkazovat na opotřebení řetězu - standardní cyklořetěz vydrží přibližně 100 MJ, u motorek asi 1 GJ.</string>
     <string name="speechRadius">Průměr: %1$s</string>
     <string name="prefMapDiskCacheAgeEntries_7">90 dnů</string>
     <string name="speechTrackingStart">Start</string>
@@ -1470,7 +1465,6 @@
     <string name="freeLicenseLabel">Zdarma</string>
     <string name="freeLicenseFeatures">❌ Prémiové mapy
 \n❌ Navigace
-\n❌ Online základna nadmořské výšky
 \n❌ Žádné reklamy
 \n⭐ Všechny bezplatné funkce a mapy</string>
     <string name="navigationStopPrompt">Stop</string>
@@ -1550,9 +1544,7 @@
     <string name="navigationStepsInfo">Při pohybu se zde budou zobrazovat navigační pokyny. Skryjte nebo posuňte tento panel podle potřeby.</string>
     <string name="licenseUpgradeTitle">Upgradujte svou licenci</string>
     <string name="navigationRouteNotFound">Litujeme, do tohoto cíle nebyla nalezena žádná trasa</string>
-    <string name="dialogLicenseUpgradeMessage">Tato funkce vyžaduje předplatitelskou licenci.
-\n
-\nPřípadně se můžete podívat na krátké promo video a získat kredit zdarma.</string>
+    <string name="dialogLicenseUpgradeMessage">Tato funkce vyžaduje předplatitelskou licenci.</string>
     <string name="prefOnlineMapsProviderTitle">Poskytovatel online map</string>
     <string name="navigationGotOffRoute">Mimo trasu</string>
     <string name="dataStorageChooseButton">Vyberte umístění úložiště dat</string>
@@ -1573,7 +1565,7 @@
     <string name="licenseItemOwned">V současné době ve vlastnictví</string>
     <string name="dialogRecButtonRemoveMessage">Tím se tlačítko Rec vrátí zpět na lištu tlačítek. Pokračovat\?</string>
     <string name="inProgress">Probíhá</string>
-    <string name="speechUnitThreeMiles">Miles</string>
+    <string name="speechUnitThreeMiles">Míle</string>
     <string name="dialogLayoutRemoveEntryMessage">Odebrat toto pole\?</string>
     <string name="dataStorageTransferInfoSpeed">Rychlost: %1$s MB/s (%2$s položek/s)</string>
     <string name="prefGpsIntervalAdaptiveSummary">Automaticky upravte interval aktualizace GPS mezi 1 a 5 sekundami, v závislosti na rychlosti.</string>
@@ -1587,13 +1579,12 @@
     <string name="prefGpsIntervalAdaptiveTitle">Adaptivní</string>
     <string name="success">Úspěch</string>
     <string name="prefOnlineElevationNoteSummary2">Pokud není k dispozici internet nebo licence, aplikace bude nadále fungovat bez opravy nadmořské výšky.</string>
-    <string name="dataStorageStatsMessage">%1$s MB
-\n%2$s položek</string>
+    <string name="dataStorageStatsMessage">%1$s MB, %2$s položek</string>
     <string name="prefOnlineElevationTitle">Online výška</string>
     <string name="prefGoogleMapsRenderer_0">Výchozí</string>
     <string name="infoMeterModePowerBalanceTitle">Vyvážení výkonu L/R</string>
-    <string name="speechUnitFourMiles">Miles</string>
-    <string name="meterModeBatteryShort">batt</string>
+    <string name="speechUnitFourMiles">Míle</string>
+    <string name="meterModeBatteryShort">bat</string>
     <string name="prefSteadyScreenImplementationInternal">Interní (výchozí)</string>
     <string name="dialogMapsMapCountManyMaps">%1$s mapy</string>
     <string name="dialogNotificationPermissionRequestTitle">Oprávnění k oznámení</string>
@@ -1612,7 +1603,7 @@
     <string name="prefTrackingButtonFreePlacementTitle">Volné umístění tlačítka Rec</string>
     <string name="speechUnitFourKilometers">Kilometry</string>
     <string name="computing">Výpočetní…</string>
-    <string name="prefMapsFolderExploreSummary">Spravujte obsah složky map specifické pro aplikaci pomocí aplikace Průzkumník souborů</string>
+    <string name="prefMapsFolderExploreSummary">Správa obsahu složky specifické pro aplikaci pomocí aplikace Průzkumník souborů</string>
     <string name="dialogMapsAutoZoomSensitivity">Citlivost automatického zoomu</string>
     <string name="menuInsertRecButton">Tlačítko Rec</string>
     <string name="dataStorageInfo2">Když změníte umístění úložiště dat, data předchozí aplikace se automaticky přenesou do nového umístění. To se děje na pozadí a může to chvíli trvat.
@@ -1717,4 +1708,49 @@
     <string name="pref_button_theme_show_summary">Zobrazit přepínací tlačítko motivu</string>
     <string name="pref_button_theme_show_title">Téma</string>
     <string name="prefCompassEnableInfo">Kompas se zobrazuje pouze při aktivním sledování.</string>
+    <string name="prefMetersThemeModeInfo_1">Používat přednastavené barvy popředí a pozadí pro všechny ukazatele.</string>
+    <string name="prefMetersThemeModeEntries_4">Hlavní barvy</string>
+    <string name="prefCompassEnableInfo1">Bez pohybu kompas ukazuje na sever vzhledem na orientaci zarizeni ve 3D prostoru.</string>
+    <string name="aboutScreenAllAppsLink">Všechny aplikace</string>
+    <string name="prefOfflineElevationGnssFixSummary">Také používat data pro nadmořskou výška z HGT souborů místo (více nepřesných) GPS hodnot. Barometrická výška neni tímto ovlivněna. Vypnuté ve výchozím stavu.</string>
+    <string name="aboutScreenSupportLink">Podpora</string>
+    <string name="prefMetersThemeModeEntries_0">Vlastní barvy (výchozí)</string>
+    <string name="prefMetersThemeModeEntries_3">Přednastavené barvy pozadí</string>
+    <string name="prefOfflineElevationNoteSummary1">Offline nadmořská výška sleduje zakřivení povrchu a obecně nefunguje dobře na objektech nad terénem, jako jsou mosty, viaducty nebo nadjezdy.</string>
+    <string name="mainColor">Hlavní barva</string>
+    <string name="prefOfflineElevationNoteSummary2">Pokud nejsou dostupná HGT data pro terénní výšku, aplikace nebude opravovat nadmořskou výšku.</string>
+    <string name="prefMetersThemeModeInfo_2">Používat přednastavené barvy popředí a hlavní barvy pozadí pro všechny ukazatele.</string>
+    <string name="pref_button_tracking_pause_title">Pozastavit a odpočítávat</string>
+    <string name="meterThemeModeOverrideInfo">Nastavený vzhled je aktuálně v Nastavení přepsán a nezobrazí se. Kliknutím sem se tam dostanete.</string>
+    <string name="prefMetersThemeModeInfo_4">Používat pouze hlavní barvy pro všechny ukazatele pro monochromatický vzhled.</string>
+    <string name="prefMetersFontAppDefault">Výchozí v aplikaci</string>
+    <string name="mainColorDefault">Hlavní barva (výchozí)</string>
+    <string name="prefMainScreenThemeSummary">Vzhled hlavní obrazovky a Přehledu.</string>
+    <string name="prefMetersThemeModeInfo_3">Používat přednastavené barvy popředí a hlavní barvy popředí pro všechny ukazatele.</string>
+    <string name="prefCompassEnableInfo2">Při používání GPS a pohybu rychlejším než je rychlost chůze je sever určen jako směr pohybu na mapě, bez ohledu na orientaci zařízení.</string>
+    <string name="dataStorageExploreButton">Otevřít datové úložiště</string>
+    <string name="prefMapOfflineLayerButtonActionEntries_3">Přepnout terén</string>
+    <string name="prefMainScreenThemeEntries_2">Tmavý režim</string>
+    <string name="prefMetersThemeModeEntries_1">Přednastavené barvy</string>
+    <string name="prefMetersThemeModeDialogTitle">Vzhled Měření</string>
+    <string name="alsoFromUs">Další věci od nás</string>
+    <string name="prefMainScreenThemeEntries_1">Světlý režim</string>
+    <string name="prefOfflineElevationGnssFixTitle">Opravovat GPS nadmořskou výšku</string>
+    <string name="prefMainScreenThemeDialogTitle">Vzhled hlavní obrazovky</string>
+    <string name="prefMapsFolderExploreInfo">Toto je složka pro aplikaci, kterou je třeba nalézt.</string>
+    <string name="prefOfflineElevationSummary">Používat data nadmořské výšky z místních HGT souborů pro zpřesnění měření. Zapnuto ve výchozím stavu.</string>
+    <string name="prefOfflineElevationTitle">Offline nadmořská výška</string>
+    <string name="pref_button_tracking_pause_summary">Pozastavit sledování trasy, začít odpočítávání nebo změnit časový interval odpočítávání pomocí tlačítka Rec (krátce nebo podržet).</string>
+    <string name="backgroundProperty">Pozadí</string>
+    <string name="prefMetersThemeModeInfo_0">Každý ukazatel může používat své vlastní barvy a ve výchozím nastavení se používají přednastavené barvy popředí. Vlastní barvy nelze použít na obrazovce Přehled, vždy se použijí přednastavené barvy.</string>
+    <string name="presetColor">Přednastavená barva</string>
+    <string name="foregroundProperty">Popředí</string>
+    <string name="pref_category_offlineElevation_title">Offline nadmořská výška</string>
+    <string name="prefMetersThemeModeEntries_2">Přednastavené barvy popředí</string>
+    <string name="rootStorageExploreButton">Otevřít kořenové datové úložiště</string>
+    <string name="prefMetersFontSystemDefault">Výchozí v systému</string>
+    <string name="prefColorsTitle">Barvy</string>
+    <string name="presetColorDefault">Přednastavená barva (výchozí)</string>
+    <string name="customColor">Vlastní barva</string>
+    <string name="prefOnlineElevationNoteSummary4">Upřednostněna je offline nadmořská výška.</string>
 </resources>
