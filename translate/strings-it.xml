@@ -999,28 +999,23 @@
     <string name="ultimateLicenseDescription">La licenza più completa per un\'esperienza superiore</string>
     <string name="ultimateLicenseFeatures">⭐ Tutte le mappe premium
 \n⭐ Navigazione
-\n⭐ Riferimento di altitudine in linea
 \n⭐ Nessuna pubblicità
 \n⭐ Tutte le funzionalità e le mappe gratuite</string>
     <string name="proPlusLicenseFeatures">❌ Mappe premium
 \n❌ Navigazione
-\n❌ Riferimento di altitudine in linea
 \n⭐ Nessuna pubblicità
 \n⭐ Tutte le funzionalità e le mappe gratuite
 \n➕ Donazione aggiuntiva</string>
     <string name="proLicenseFeatures">❌ Mappe premium
 \n❌ Navigazione
-\n❌ Riferimento di altitudine in linea
 \n⭐ Nessuna pubblicità
 \n⭐ Tutte le funzionalità e le mappe gratuite</string>
     <string name="thunderforestMapsFeatures">⭐ Mappe premium Thunderforest
 \n⭐ Navigazione
-\n⭐ Riferimento di altitudine in linea
 \n⭐ Nessuna pubblicità
 \n⭐ Tutte le funzionalità e le mappe gratuite</string>
     <string name="mapboxMapsFeatures">⭐ Mappe premium Mapbox
 \n⭐ Navigazione
-\n⭐ Riferimento di altitudine in linea
 \n⭐ Nessuna pubblicità
 \n⭐ Tutte le funzionalità e le mappe gratuite</string>
     <string name="priceFree">GRATUITO</string>
@@ -1224,12 +1219,10 @@
     <string name="cloudAccountsPowerUploadPolicy_1">Carica i dati della potenza solo quando è stato utilizzato il contatore della potenza</string>
     <string name="hereMapsFeatures">⭐ Mappe premium HERE
 \n⭐ Navigazione
-\n⭐ Riferimento di altitudine in linea
 \n⭐ Nessuna pubblicità
 \n⭐ Tutte le funzionalità e le mappe gratuite</string>
     <string name="maptilerMapsFeatures">⭐ Mappe premium MapTiler
 \n⭐ Navigazione
-\n⭐ Riferimento di altitudine in linea
 \n⭐ Nessuna pubblicità
 \n⭐ Tutte le funzionalità e le mappe gratuite</string>
     <string name="dialogMapsChooseTitle">Scegli la mappa</string>
@@ -1487,7 +1480,6 @@
     <string name="dialogLayoutChooseSubtitle">Scegli layout schermo</string>
     <string name="freeLicenseFeatures">❌ Mappe premium
 \n❌ Navigazione
-\n❌ Riferimento di altitudine in linea
 \n❌ Nessuna pubblicità
 \n⭐ Tutte le funzionalità e le mappe gratuite</string>
     <string name="freeLicenseTitle">Licenza gratuita</string>
@@ -1540,9 +1532,7 @@
     <string name="navigationStepsInfo">Le istruzioni di navigazione appariranno qui non appena ti muovi. Nascondi o scorri questo pannello a tuo piacimento.</string>
     <string name="licenseUpgradeTitle">Aggiorna la tua licenza</string>
     <string name="navigationRouteNotFound">Spiacente, non è stato trovato alcun percorso per quella destinazione</string>
-    <string name="dialogLicenseUpgradeMessage">Questa funzionalità richiede un abbonamento.
-\n
-\nIn alternativa puoi guardare un breve video promozionale per ottenere gratuitamente del credito.</string>
+    <string name="dialogLicenseUpgradeMessage">Questa funzionalità richiede un abbonamento.</string>
     <string name="prefOnlineMapsProviderTitle">Fornitore mappe in linea</string>
     <string name="navigationGotOffRoute">Fuori percorso</string>
     <string name="prefSteadyScreenNote2">Funziona al meglio per i movimenti più lenti, per esempio quando il telefono oscilla in mano durante una camminata, ma funziona anche quando è agganciato al manubrio mentre pedali o mentre guidi l\'auto.</string>
@@ -1603,7 +1593,7 @@
     <string name="buttonProceed">Prosegui</string>
     <string name="licenseItemOwned">Attualmente posseduta</string>
     <string name="pref_mapsOfflineFileSummary">Per essere utilizzati, i file delle mappe devono essere copiati nella cartella delle mappe specifica dell\'app</string>
-    <string name="prefMapsFolderExploreSummary">Gestisci il contenuto della cartella delle mappe specifica dell\'app con un gestore di file</string>
+    <string name="prefMapsFolderExploreSummary">Gestisci il contenuto della cartella specifica dell\'app con un gestore di file</string>
     <string name="prefMapsFolderExploreTitle">Esplora la cartella delle mappe</string>
     <string name="otherLicenses">Altro</string>
     <string name="recommendedLicense">Consigliata</string>
@@ -1640,8 +1630,7 @@
     <string name="dataStorageInfo1">Si consiglia di utilizzare una posizione di salvataggio personalizzata dei dati al fine di evitare la loro perdita accidentale nel caso in cui l\'app venga disinstallata e per facilitare la creazione delle copie di sicurezza.</string>
     <string name="dataStorageTitle">Salvataggio</string>
     <string name="success">Riuscito</string>
-    <string name="dataStorageStatsMessage">%1$s MB
-\n%2$s elementi</string>
+    <string name="dataStorageStatsMessage">%1$s MB, %2$s elementi</string>
     <string name="prefSteadyScreenImplementationInternal">Interna (predefinito)</string>
     <string name="prefBatteryOptimizationTitle">Ottimizzazioni batteria</string>
     <string name="prefSteadyScreenImplementationInternalInfo">Usa la nostra implementazione di stabilizzazione dello schermo. Più facile da usare, non regolabile.</string>
@@ -1721,4 +1710,51 @@
     <string name="prefCompassEnableInfo">La bussola viene visualizzata solo quando il tracciamento è attivo.</string>
     <string name="prefCompassEnableInfo1">Quando si è fermi, la bussola indica la direzione del Nord relativa all\'orientazione del dispositivo nello spazio 3D.</string>
     <string name="prefCompassEnableInfo2">Mentre si usa il GPS e ci si sposta più velocemente di una camminata, il Nord è determinato dalla direzione del tragitto come su una mappa, a prescindere dall\'orientazione del dispositivo.</string>
+    <string name="prefMetersThemeModeInfo_1">Usa colori di primo piano e di sfondo preimpostati in tutti i contatori.</string>
+    <string name="prefMetersThemeModeEntries_4">Colori principali</string>
+    <string name="aboutScreenAllAppsLink">Tutte le app</string>
+    <string name="prefOfflineElevationGnssFixSummary">Usa anche i dati di altitudine del terreno dai file HGT locali anziché le altitudini GPS (solitamente molto più volatili). Nota che l\'altitudine barometrica non è influenzata da questa impostazione. Disattivata per impostazione predefinita.</string>
+    <string name="aboutScreenSupportLink">Assistenza</string>
+    <string name="prefMetersThemeModeEntries_0">Colori personalizzati (predefiniti)</string>
+    <string name="prefMetersThemeModeEntries_3">Colori preimpostati di sfondo</string>
+    <string name="prefOfflineElevationNoteSummary1">L\'altitudine del terreno fuori linea segue la curvatura del terreno e in genere non funziona bene se utilizzata su strutture che si elevano rispetto al terreno, come ponti, viadotti o cavalcavia.</string>
+    <string name="mainColor">Colore principale</string>
+    <string name="prefOfflineElevationNoteSummary2">Se i dati di altitudine del terreno HGT per una determinata posizione non sono disponibili, l\'app continuerà a funzionare senza correggere l\'altitudine.</string>
+    <string name="prefMetersThemeModeInfo_2">Usa i colori di primo piano preimpostati e i colori di sfondo principali in tutti i contatori.</string>
+    <string name="infoMeterModeAscentDistanceMsg">Distanza percorsa in salita.</string>
+    <string name="pref_button_tracking_pause_title">Pausa e conto alla rovescia</string>
+    <string name="meterThemeModeOverrideInfo">L\'aspetto impostato qui è attualmente ignorato nelle Impostazioni e non verrà visualizzato. Fai clic qui per accedervi.</string>
+    <string name="prefMetersThemeModeInfo_4">Per un aspetto monocromatico, usa solo i colori principali in tutti i contatori.</string>
+    <string name="prefMetersFontAppDefault">Predifinito dell\'app</string>
+    <string name="mainColorDefault">Colore principale (predefinito)</string>
+    <string name="prefMainScreenThemeSummary">Tema visivo della schermata principale dell\'app e della schermata Panoramica dell\'app.</string>
+    <string name="infoMeterModeDescentDistanceTitle">Distanza di discesa</string>
+    <string name="prefMetersThemeModeInfo_3">Usa i colori di sfondo preimpostati e i colori di primo piano principali in tutti i contatori.</string>
+    <string name="dataStorageExploreButton">Esplora l\'archiviazione dei dati</string>
+    <string name="prefMapOfflineLayerButtonActionEntries_3">Attiva/disattiva terreno</string>
+    <string name="prefMainScreenThemeEntries_2">Scuro</string>
+    <string name="prefMetersThemeModeEntries_1">Colori preimpostati</string>
+    <string name="prefMetersThemeModeDialogTitle">Modalità tema visivo dei contatori</string>
+    <string name="alsoFromUs">Anche da noi</string>
+    <string name="prefMainScreenThemeEntries_1">Chiaro</string>
+    <string name="prefOfflineElevationGnssFixTitle">Altitudine GPS corretta</string>
+    <string name="prefMainScreenThemeDialogTitle">Tema visivo della schermata principale</string>
+    <string name="prefMapsFolderExploreInfo">Questa è la cartella specifica dell\'app che dovresti trovare.</string>
+    <string name="prefOfflineElevationSummary">Usa i dati di altitudine del terreno dai file HGT locali per migliorare la precisione della linea di base dell\'altitudine. Abilitato per impostazione predefinita.</string>
+    <string name="prefOfflineElevationTitle">Altitudine fuori linea</string>
+    <string name="pref_button_tracking_pause_summary">Metti in pausa il tracciamento, avvia un conto alla rovescia o aumentane l\'intervallo premendo il pulsante Rec (clic breve o lungo).</string>
+    <string name="backgroundProperty">Sfondo</string>
+    <string name="infoMeterModeAscentDistanceTitle">Distanza di salita</string>
+    <string name="prefMetersThemeModeInfo_0">Ogni contatore può utilizzare i propri colori personalizzati e, per impostazione predefinita, vengono utilizzati i colori di primo piano preimpostati. I colori personalizzati non possono essere utilizzati nella schermata Panoramica, in cui saranno utilizzati sempre i colori preimpostati.</string>
+    <string name="presetColor">Colore preimpostato</string>
+    <string name="foregroundProperty">Primo piano</string>
+    <string name="infoMeterModeDescentDistanceMsg">Distanza percorsa in discesa.</string>
+    <string name="pref_category_offlineElevation_title">Altitudine fuori linea</string>
+    <string name="prefMetersThemeModeEntries_2">Colori preimpostati di primo piano</string>
+    <string name="rootStorageExploreButton">Esplora la radice di archiviazione del dispositivo</string>
+    <string name="prefMetersFontSystemDefault">Predefinito del sistema</string>
+    <string name="prefColorsTitle">Colori</string>
+    <string name="presetColorDefault">Colore preimpostato (predefinito)</string>
+    <string name="customColor">Colore personalizzato</string>
+    <string name="prefOnlineElevationNoteSummary4">L\'altitudine fuori linea ha la precedenza.</string>
 </resources>
