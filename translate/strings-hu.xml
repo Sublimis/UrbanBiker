@@ -7,7 +7,7 @@
     <string name="widget_2_description">Kerékpáros: Csengő+Villogó</string>
     <string name="widget_3_description">Kerékpáros: Kész</string>
     <string name="proLicenseLabel">Teljes</string>
-    <string name="proPlusLicenseLabel">Pro+</string>
+    <string name="proPlusLicenseLabel">Profi+</string>
     <string name="ultimateLicenseLabel">Teljes</string>
     <string name="proLicenseTitle">Profi licensz</string>
     <string name="proLicenseDescription">Reklámok tiltása</string>
@@ -32,7 +32,7 @@
     <string name="menuMeterChooseModes">Módok kiválasztása…</string>
     <string name="menuMeterResetMinMax">Min/Max Visszaállítás</string>
     <string name="menuMeterReset">Befejez</string>
-    <string name="menuMeterParameters">Paraméterek</string>
+    <string name="menuMeterParameters">Paraméterek…</string>
     <string name="menuMeterPowerMode">Power Mode bakapcsolás</string>
     <string name="menuFenceguard">Lopás védelem</string>
     <string name="menuExit">Kilépés</string>
@@ -154,9 +154,9 @@
 \nAz útvonal túlságosan rövidnek tűnik. Mentsük\?</string>
     <string name="dialog_exit_msg">Az útvonalrögzítés aktív és le fog állni.</string>
     <string name="dialogProfileDeleteTitle">Profil törlése</string>
-    <string name="dialogProfileDeleteMessage">"Figyelmeztetés: Ez a művelet törli a profil beállításait és annak minden adatát. A mentett útvonalak megmaradnak.   
-\n   
-\nProfil törlése %1$s\?"</string>
+    <string name="dialogProfileDeleteMessage">Figyelmeztetés: Ez a művelet törli a profil beállításait és annak minden adatát. A mentett útvonalak megmaradnak.
+\n
+\nProfil törlése %1$s\?</string>
     <string name="dialogProfileAddTitle">Új Profil</string>
     <string name="dialogProfileAddInfo">Az új profil beállításai át lesznek másolva a jelenleg aktív profilból</string>
     <string name="dialogProfileEditTitle">Profil szerkesztése</string>
@@ -165,9 +165,7 @@
     <string name="dialogProfileSwitchTitle">Profil váltás</string>
     <string name="dialogProfileSwitchMessage">Az útvonal rögzítése folyamatban. Biztosan profilt akar váltani\? %1$s\?</string>
     <string name="dialogTracksDeleteTitle">Útvonal törlése</string>
-    <string name="dialogTracksDeleteMessage">Figyelmeztetés: ez a művelet nem vonható vissza.
-\n
-\nTöröljük a kiválasztott útvonalat\?
+    <string name="dialogTracksDeleteMessage">Figyelmeztetés: ez a művelet nem vonható vissza. Töröljük a kiválasztott útvonalat\?
 \n
 \nA törlés megerősítéséhez adja meg a következő kódot.</string>
     <string name="dialogTrackDeleteMessage">Figyelmeztetés: ez a művelet nem vonható vissza.
@@ -186,17 +184,17 @@
     <string name="dialogTracksShareCountExceeded">Egyszerre max. 100 track osztható.</string>
     <string name="dialogGpsSettingsPromptTitle">Hely adatok kikapcsolva</string>
     <string name="dialogBaroAltitudePromptTitle">Barométeres magasság megállapítási hiba</string>
-    <string name="dialogBaroAltitudePromptMessage">"A barometrikus magasság megállapítás a GPS-magasságtól való eltérés miatt kikapcsolásra került!   
-\n   
-\nKérjük ne használja zárt vagy légkondicionált helyiségekben!"</string>
+    <string name="dialogBaroAltitudePromptMessage">A barometrikus magasság megállapítás a GPS-magasságtól való eltérés miatt kikapcsolásra került! 
+\n
+\nKérjük ne használja zárt vagy légkondicionált helyiségekben!</string>
     <string name="dialogBaroAltitudeNoticeTitle">Értesítés</string>
-    <string name="dialogBaroAltitudeNoticeMessage">"A barometrikus magasság meghatározás csak a szabadban működik.   
-\n   
-\nKérjük ne használja zárt vagy légkondicionált helyiségekben, mint például járműveken és repülőgépen!"</string>
+    <string name="dialogBaroAltitudeNoticeMessage">A barometrikus magasság meghatározás csak a szabadban működik.
+\n
+\nKérjük ne használja zárt vagy légkondicionált helyiségekben, mint például járműveken és repülőgépen.</string>
     <string name="dialogThermoBarometerNoticeTitle">Értesítés</string>
     <string name="dialogThermoBarometerNoticeMessage">A hőmérő pontossága a külső levegő hőmérsékletétől függ.
 \n
-\nKérjük ne használja zárt vagy légkondicionált helyiségekben, mint például járműveken és repülőgépen!</string>
+\nKérjük ne használja zárt vagy légkondicionált helyiségekben, mint például járműveken és repülőgépen.</string>
     <string name="dialogResetTitle">Befejez</string>
     <string name="dialogResetMessage">Mentsük az útvonalat és kezdjünk egy újat\?</string>
     <string name="dialogResetNoTrackMessage">Nem került útvonal rögzítésre. Lenullázuk a mutatókat\?</string>
@@ -290,13 +288,13 @@
     <string name="unitMxM">m²</string>
     <string name="unitIn">in</string>
     <string name="unitFt">ft</string>
-    <string name="unitFtxFt">ft²</string>
+    <string name="unitFtxFt">láb²</string>
     <string name="unitKg">kg</string>
     <string name="unitLb">lb</string>
     <string name="unitW">W</string>
     <string name="unitKW">kW</string>
     <string name="unitHP">LE</string>
-    <string name="unitKWH">kWh</string>
+    <string name="unitKWH">KWh</string>
     <string name="unitMiliW">mW</string>
     <string name="unitWKg">W/kg</string>
     <string name="unitWLb">W/lb</string>
@@ -304,16 +302,16 @@
     <string name="unitKjH">kJ/h</string>
     <string name="unitKjKg">kJ/kg</string>
     <string name="unitKjLb">kJ/lb</string>
-    <string name="unitKcal">kcal</string>
-    <string name="unitKcalH">kcal/h</string>
-    <string name="unitKcalKG">kcal/kg</string>
-    <string name="unitKcalLb">kcal/lb</string>
+    <string name="unitKcal">Kcal</string>
+    <string name="unitKcalH">Kcal/h</string>
+    <string name="unitKcalKG">Kcal/kg</string>
+    <string name="unitKcalLb">Kcal/lb</string>
     <string name="unitDegC">°C</string>
     <string name="unitDegF">°F</string>
     <string name="unitHPa">hPa</string>
     <string name="unitPetrolLit">L üzemanyag.</string>
     <string name="unitKmPerLit">km/L</string>
-    <string name="unitMiPerGal">mpg</string>
+    <string name="unitMiPerGal">Mpg</string>
     <string name="unitPerHundredKm">/100km</string>
     <string name="unitPerHundredMi">/100mi</string>
     <string name="unitPerMinute">/perc</string>
@@ -329,7 +327,7 @@
     <string name="meterModeSpeedVertical">függőleges sebesség</string>
     <string name="meterModeSpeedVerticalShort">vsz seb</string>
     <string name="meterModeSpeedAverage">átlag sebesség</string>
-    <string name="meterModeSpeedAverageShort">átl.seb.</string>
+    <string name="meterModeSpeedAverageShort">átl.seb</string>
     <string name="meterModePace">Tempó</string>
     <string name="meterModePaceShort">Tempó</string>
     <string name="meterModeDuration">időtartam</string>
@@ -353,7 +351,7 @@
     <string name="meterModeEnergy">Erő</string>
     <string name="meterModeEnergyShort">telj</string>
     <string name="meterModeEfficacy">hatásfok</string>
-    <string name="meterModeEfficacyShort">eff</string>
+    <string name="meterModeEfficacyShort">Eff</string>
     <string name="meterModeTemperature">hőmérséklet</string>
     <string name="meterModeTemperatureShort">hőmérséklet</string>
     <string name="meterModePressure">nyomás</string>
@@ -647,7 +645,7 @@
     <string name="pref_maps_offline_file_title">Fájl, vagy könyvtár választása</string>
     <string name="pref_maps_offline_file_noFolderSelected">Nincs kiválasztva könyvtár.</string>
     <string name="pref_maps_offline_info_title">Letöltés</string>
-    <string name="pref_maps_offline_info_summary">"Mapsforge vector (.map) and Rmaps raster (.sqlitedb) térképek támogatva. Letölthetőek a  download.mapsforge.org címen."</string>
+    <string name="pref_maps_offline_info_summary">Mapsforge vector (.map) and Rmaps raster (.sqlitedb) térképek támogatva. Letölthetőek a download.mapsforge.org címen.</string>
     <string name="pref_maps_offline_warning_summary">Figyelem: Néhány internetes adat offline üzemmódban is elérhető. A térképek használata előtt tiltsd le a mobil internetet, ha nem szükséges.</string>
     <string name="pref_maps_routes_draw_title">Útikalauzok</string>
     <string name="pref_maps_routes_draw_summary">Rajzolja a kiválasztott GPX útvonalakat a térképre</string>
@@ -709,7 +707,7 @@
     <string name="prefNotificationAlwaysTitle">Állandó megjelenítés az állapotsorban</string>
     <string name="prefNotificationAlwaysSummary">Az alkalmazás értesítési ikonja folyamatosan látható a status bar-on, nem csak útvonal rögzítés esetén.</string>
     <string name="prefMapDiskCacheSizeTitle">Térkép gyorsítótár mérete</string>
-    <string name="prefMapDiskCacheSizeSummary">Térképek böngészése alatt a térképrészleteket a készüléken tárolja, hogy ne kelljen újra letölteni. Ez gyorsítja a térképek betöltését és kíméli az akkumulátort. (Minden profilnál)</string>
+    <string name="prefMapDiskCacheSizeSummary">Térképek böngészése alatt a térképrészleteket a készüléken tárolja, hogy ne kelljen újra letölteni. Ez gyorsítja a térképek betöltését és kíméli az akkumulátort. (Minden profilnál).</string>
     <string name="prefProhibitLocationTitle">Hely adatok használata nélkül</string>
     <string name="prefProhibitLocationSummary">GPS tiltása</string>
     <string name="prefMapTrackColorTitle">Nyomvonal színe</string>
@@ -848,7 +846,7 @@
     <string name="pref_units_other_entries_0">Metrikus</string>
     <string name="pref_units_other_entries_1">Angolszász</string>
     <!-- prefUnitsEnergyEntries -->
-    <string name="prefUnitsEnergyEntries_0">[kcal]</string>
+    <string name="prefUnitsEnergyEntries_0">[Kcal]</string>
     <string name="prefUnitsEnergyEntries_1">[kJ]</string>
     <string name="prefUnitsEnergyEntries_2">[kWó]</string>
     <string name="prefUnitsEnergyEntries_3">[Benzin literje]</string>
@@ -881,7 +879,7 @@
     <string name="pref_roaring_mode_entries_4">Sebesség küszöb felett aktív</string>
     <!-- pref_background_pattern_entries -->
     <string name="pref_background_pattern_entries_0">Nincs</string>
-    <string name="pref_background_pattern_entries_2">Zebra</string>
+    <string name="pref_background_pattern_entries_2">zebra</string>
     <string name="pref_background_pattern_entries_3">Leopárd</string>
     <string name="pref_background_pattern_entries_4">Tégla</string>
     <string name="pref_background_pattern_entries_5">Folyami kavics</string>
@@ -948,16 +946,12 @@
     <string name="pref_roar_threshold_speed_info">Riasztás, mikor nagyobb a sebesdég a beállítottnál. Használd lejtőn és hegyről le.</string>
     <string name="pref_background_pattern_dialog_title">Menü háttér mintája</string>
     <string name="infoMeterModeWriggleMsg">Mérje meg az útvonal légvonalától való eltérést, azaz mennyivel nőtt a távolság, mert nem egyenesen halad. Minnél kisebb, annál jobb.</string>
-    <string name="infoMeterModeAltitudeMsg">Átlagos tengerszint feletti magasság (geoid) - Jelenlegi, Maximális és Minimális.
-\n
-\nMegjegyzés: Nem pont valós időben mutatja az elkerülhetetlen digitális szűrési késések miatt.</string>
-    <string name="infoMeterModeSlopeMsg">Lejtés (gradiens), a terep dőlését leíró szám, ahol a nulla vízszintes. A nagyobb szám a meredekebb emelkedést, a negatív pedig az ereszkedést jelenti.
-\n
-\nMegjegyzés: Ez a valós időtől kb. egy perccel késik, az elkerülhetetlen digitális szűrési késések miatt.</string>
+    <string name="infoMeterModeAltitudeMsg">Átlagos tengerszint feletti magasság (geoid) - Jelenlegi, Maximális és Minimális.</string>
+    <string name="infoMeterModeSlopeMsg">Lejtés (gradiens), a terep dőlését leíró szám, ahol a nulla vízszintes. A nagyobb szám a meredekebb emelkedést, a negatív pedig az ereszkedést jelenti.</string>
     <string name="infoMeterModeTemperatureMsg">A készülékkel vagy külső érzékelővel mért környezeti hőmérséklet.</string>
     <string name="infoMeterModePressureMsg">A készülékkel vagy külső érzékelővel mért környezeti nyomás.</string>
     <string name="infoMeterModeCadenceMsg">A hajtómű tengely percenkénti fordulata, azaz a pedál sebessége.</string>
-    <string name="infoMeterModeGearRatioMsg">"A kerék fordulatszáma és a pedál fordulása  időegységenként, azaz az első lánckerék és a hátsó lánckerék méretaránya. A nagyobb szám magasabb sebességet jelent."</string>
+    <string name="infoMeterModeGearRatioMsg">A kerék fordulatszáma és a pedál fordulása időegységenként, azaz az első lánckerék és a hátsó lánckerék méretaránya. A nagyobb szám magasabb sebességet jelent.</string>
     <string name="dialogReviewNudgeMessage">Tetszik az Urban Biker\?</string>
     <string name="batteryOptimizationToast">Válassza az Urban Biker-t a listából</string>
     <string name="dialogReviewNudgeMessage2">Köszönöm! Kérjük, írjon egy jó értékelést, vagy értékeljen minket 5 csillaggal a Play Áruházban.</string>
@@ -973,10 +967,10 @@
     <string name="meterModes_8">Hatékonyság</string>
     <string name="meterModes_9">Teljesítmény</string>
     <string name="meterModes_11">Emelkedőn. telj</string>
-    <string name="meterModes_12">Emelkedőn. seb.</string>
+    <string name="meterModes_12">Emelkedőn. seb</string>
     <string name="meterModes_13">Gyorsulás</string>
-    <string name="meterModes_14">Átl. seb.</string>
-    <string name="meterModes_15">Átl. telj.</string>
+    <string name="meterModes_14">Átl. seb</string>
+    <string name="meterModes_15">Átl. telj</string>
     <string name="meterModes_16">Eltelt idő</string>
     <string name="meterModes_17">Iram</string>
     <string name="meterModes_18">Ütem</string>
@@ -999,31 +993,26 @@
     <string name="disclaimerText1">Ez az alkalmazás a jelenlegi állapotban van, és a saját felelősségére használja. A kiadó, nem vállal felelősséget az Ön vagy harmadik személy esetleges hibáiról, tulajdonvesztéséről, sérüléseiről vagy még rosszabb eseményeiről, amelyek az alkalmazás használatából származnak egy út során vagy más módon.</string>
     <string name="disclaimerText2">Kérjük, felelősséggel használja ezt az alkalmazást, és NE működtesse azt autóvezetés, motorkerékpár, kerékpár vagy bármilyen más jármű vezetése közben.</string>
     <string name="disclaimerText3">Mindig legyen a szemed az úton.</string>
-    <string name="ultimateLicenseDescription">Teljes körű licensz minden szolgáltatáshoz.</string>
+    <string name="ultimateLicenseDescription">Teljes körű licensz minden szolgáltatáshoz</string>
     <string name="ultimateLicenseFeatures">⭐ Prémium térképek
 \n⭐ Navigáció
-\n⭐ Online magassági adatok
 \n⭐ Reklám mentes
 \n⭐ Ingyenes szolgáltatások és térképek</string>
     <string name="proPlusLicenseFeatures">❌ Prémium térképek
 \n❌ Navigáció
-\n❌ Online magassági adatok
 \n⭐ Nincsenek hirdetések
 \n⭐ Minden ingyenes szolgáltatás és térkép
 \n➕ Extra adomány</string>
     <string name="proLicenseFeatures">❌ Prémium térképek
 \n❌ Navigáció
-\n❌ Online magassági adatok
 \n⭐ Hirdetés mentes
 \n⭐ Ingyenes szolgáltatások és térképek</string>
     <string name="thunderforestMapsFeatures">⭐ Thunderforest prémium térképek
 \n⭐ Navigáció
-\n⭐ Online magassági adatok
 \n⭐ Nincsenek hirdetések
 \n⭐ Ingyenes szolgáltatások és térképek</string>
     <string name="mapboxMapsFeatures">⭐ Mapbox prémium térképek
 \n⭐ Navigáció
-\n⭐ Online magassági adatok
 \n⭐ Nincsenek hirdetések
 \n⭐ Ingyenes szolgáltatások és térképek</string>
     <string name="priceFree">INGYENES</string>
@@ -1125,7 +1114,7 @@
     <string name="trackUploadActivityTypes_6">Vitorlázás</string>
     <string name="trackUploadActivityTypes_7">Gördeszka</string>
     <string name="trackUploadActivityTypes_8">Sí</string>
-    <string name="trackUploadActivityTypes_9">Snowboard</string>
+    <string name="trackUploadActivityTypes_9">snowboard</string>
     <string name="trackUploadActivityTypes_10">Egyéb</string>
     <string name="rewardedAdPriceFree">Ingyenes (egy alkalomra)</string>
     <string name="cautionTitle">Figyelem</string>
@@ -1195,9 +1184,7 @@
 \n
 \nNegativ teljesítmény érték (lejtőn).
 \n
-\nHa kcal/ó vagy kJ/ó, a hatékonyságot is figyelembe veszi.
-\n
-\nMegjegyzés: A valós időhöz képest kb. egy perccel késik, a digitális szűrési késések miatt.</string>
+\nHa kcal/ó vagy kJ/ó, a hatékonyságot is figyelembe veszi.</string>
     <string name="pref_soundeffects_tally_clock_dialog_title">Egyező óra</string>
     <string name="pref_speechTallies_title">Megfelel</string>
     <string name="pref_speechTallies_summary">Megfelelő felolvasás</string>
@@ -1209,12 +1196,10 @@
     <string name="cloudAccountsPowerUploadPolicy_1">Csak akkor töltsön fel teljesítményadatokat, ha teljesítménymérőt használt</string>
     <string name="hereMapsFeatures">⭐ HERE prémium térképek
 \n⭐ Navigáció
-\n⭐ Online magassági adatok
 \n⭐ Hirdetés mentes
 \n⭐ Ingyenes szolgáltatások és térképek</string>
     <string name="maptilerMapsFeatures">⭐ MapTiler prémium térképek
 \n⭐ Navigáció
-\n⭐ Online magassági adatok 
 \n⭐ Hirdetés mentes
 \n⭐ Ingyenes szolgáltatások és térképek</string>
     <string name="dialogMapsChooseTitle">Válassz térképet</string>
@@ -1241,7 +1226,6 @@
     <string name="controlPanelScreenshotButtonSubtitle">Kattintson a képernyőkép megosztásához</string>
     <string name="freeLicenseFeatures">❌ Prémium térképek
 \n❌ Navigáció
-\n❌ Online magassági adatok
 \n❌ Hirdetésmentes
 \n⭐ Ingyenes szolgáltatások és térképek</string>
     <string name="speechRadius">Sugár: %1$s</string>
@@ -1280,7 +1264,7 @@
     <string name="summaryStoppedTimeInfo">Eltelt idő, mialatt a rögzítés állt.</string>
     <string name="dialogLayoutChooseTitle">Elrendezés</string>
     <string name="menuSpeedoPaceIndicator">Tempó kijelző</string>
-    <string name="pref_screensaverDimBrightnessDialogTitle">"Képernyővédő  fényereje"</string>
+    <string name="pref_screensaverDimBrightnessDialogTitle">Képernyővédő fényereje</string>
     <string name="meterHorizontalWeight">Vízszintes súly</string>
     <string name="summaryDragging">Ellenállás</string>
     <string name="sensorProperitesUseForPressure">Használja nyomáshoz</string>
@@ -1290,7 +1274,7 @@
 \nAz elakadásjelző azt jelzi, ha a sebességérték egy ideig nem frissült, és nem megbízható.
 \n
 \nA tempójelző kis nyilak a sebességérték közelében, amelyek azt mutatják, hogy az aktuális sebesség az átlagos sebesség felett vagy alatt van.</string>
-    <string name="toastSteadyScreenModeIntelligentActive">"Intelligens képernyő stabilizálás  engedélyezve"</string>
+    <string name="toastSteadyScreenModeIntelligentActive">Intelligens képernyő stabilizálás engedélyezve</string>
     <string name="prefAppVisualThemeEntries_1">Fény</string>
     <string name="pref_screensaverTimeout_summary">Felhasználói beavatkozás nélküli időtartam a képernyővédő aktiválásáig.</string>
     <string name="prefScreensaverTimeoutEntries_4">30 másodperc</string>
@@ -1334,7 +1318,7 @@
     <string name="infoAppUpdateMessage">A frissítés készen van.</string>
     <string name="prefActivityRecognitionNoteSummary">Ezek a lehetőségek az Android fizikai aktivitás-felismerő funkcióján alapulnak. Lehet, hogy nem pontos, és késés is lehet, csak akkor használja, ha ez rendben van. Akkor működik a legjobban, ha sebességérzékelőt használnak a távolság és az időtartam mérésére.</string>
     <string name="prefScreensaverDimBrightnessEntries_3">a jelenlegi fényerő fele</string>
-    <string name="meterModeFTPower">ft pwr</string>
+    <string name="meterModeFTPower">ft erő</string>
     <string name="pref_soundeffects_autopause_summary">Hang, automatikus szünet be-és kikapcsolásakor</string>
     <string name="prefScreenPocketModeDelayEntries_0">Nincs késés (alapértelmezett)</string>
     <string name="infoMeterModeRadiusMsg">Egyenes távolság a kiindulási helytől, azaz elmozdulás.</string>
@@ -1403,7 +1387,7 @@
     <string name="menuSendDebugFeedback">Probléma bejelentése</string>
     <string name="prefSteadyScreenModeOffInfo">Soha ne kapcsolja be a képernyőstabilizáló funkciót</string>
     <string name="sensorPurposePressure">Nyomás</string>
-    <string name="prefAutoTerrainTitle">AutoTerrain</string>
+    <string name="prefAutoTerrainTitle">Automatikus terep nézet</string>
     <string name="pref_soundeffects_tally_radius_dialog_title">Sugárérték</string>
     <string name="prefGnssActivityRecognitionTitle">Csökkentse a GPS zavarást</string>
     <string name="prefGnssAutomaticSleepSummary">A helymeghatározás automatikus kikapcsolása mozdulatlanság közben és visszakapcsolás ha mozgás kezdődik. Ez csökkenti az akkumulátorhasználatot hosszabb szünetekben, anélkül hogy le kellene állítania a követést.</string>
@@ -1447,17 +1431,15 @@
     <string name="pref_category_mainScreenVisualTheme">Fő képernyő</string>
     <string name="speechNavigationContinue">Folytat</string>
     <string name="pref_mapsWeatherCoverage_title">Fedő maszk</string>
-    <string name="summaryInaccurateLocationZoneCountInfo">"Azon alkalmak száma, amikor az alkalmazás elkezdte elutasítani a GPS pozícionálást  azok pontatlansága miatt.
+    <string name="summaryInaccurateLocationZoneCountInfo">Azon alkalmak száma, amikor az alkalmazás elkezdte elutasítani a GPS pozícionálást azok pontatlansága miatt.
 \n
-\nNe feledje, hogy azok a területek, ahol egyáltalán nincs Gps pozició(például beltérben), nem befolyásolják ezt a számot."</string>
+\nNe feledje, hogy azok a területek, ahol egyáltalán nincs Gps pozició(például beltérben), nem befolyásolják ezt a számot.</string>
     <string name="prefScreensaverTimeoutEntries_8">5 perc</string>
     <string name="infoMeterModeVibrationsMsg">A készülékkel mért rezgések. Hasznos, ha az eszközt a járműhöz rögzítve tartják (például kerékpárkormányon), és nem a kézben vagy a zsebben.</string>
     <string name="prefScreensaverTimeoutEntries_1">10 másodperc</string>
     <string name="dialogCustomTracksFolderInfoMessage">Ez a funkció lehetővé teszi az alkalmazás számára, hogy az alapértelmezett útvonalak mappa mellett – amelynek helye nemrég megváltozott – egy tetszőleges mappából is beolvasson útvonalakat.
 \n
-\nEzek az útvonalak csak olvashatók: megtekinthetők és megoszthatók, de nem szerkeszthetőek, folytathatóak vagy törölhetőek.
-\n
-\nHa nem biztos benne, keresse meg a „Documents-UrbanBiker-tracks” mappát a következő képernyőn.</string>
+\nEzek az útvonalak csak olvashatók: megtekinthetők és megoszthatók, de nem szerkeszthetőek, folytathatóak vagy törölhetőek.</string>
     <string name="prefScreensaverDimBrightnessEntries_0">Minimális</string>
     <string name="menuReset">Visszaállítás</string>
     <string name="prefGnssAutomaticSleepTitle">GPS automatikus altatása</string>
@@ -1557,10 +1539,10 @@
     <string name="infoMeterModeHumidityTitle">Páratartalom</string>
     <string name="summaryHeartBeatsInfo">Az aktivitás során észlelt pulzusszám.</string>
     <string name="unitGAccel">g</string>
-    <string name="dialogLicenseUpgradeMessage">A funkció használatához előfizetési licenc szükséges.
+    <string name="dialogLicenseUpgradeMessage">A funkció használatához előfizetési licenc szükséges.</string>
+    <string name="summaryMechWorkInfo">Tisztán mechanikai munka erre a tevékenységre fordított (a hőhatékonyságot és a BMR-t figyelmen kívül hagyva).
 \n
-\nVagy megtekinthet egy rövid promóciós videót, hogy ingyenesen kipróbálhassa.</string>
-    <string name="summaryMechWorkInfo">Tisztán mechanikai munka erre a tevékenységre fordított (a hőhatékonyságot és a BMR-t figyelmen kívül hagyva).</string>
+\nKerékpárok esetében ez a lánc kopásának mértéke – egy átlagos kerékpárlánc körülbelül 100 MJ-ig, egy motorkerékpárlánc pedig körülbelül 1 GJ-ig bírja.</string>
     <string name="prefOnlineMapsProviderTitle">Online térképszolgáltató</string>
     <string name="pref_category_units_per_profile_title">Mértékegységek (profilonként)</string>
     <string name="sensorProperitesNoAlarmInfo">Használja az érzékelőt, ha rendelkezésre áll, de ne értesítsen és ne riasszon, ha nem elérhető. Hasznos olyan érzékelők esetén, amelyek nem nélkülözhetetlenek az adott tevékenységhez. Alapértelmezés szerint letiltva.</string>
@@ -1610,7 +1592,7 @@
     <string name="prefBatteryOptimizationMessage">Akkumulátor-optimalizálás kikapcsolása, hogyha a képernyő ki van kapcsolva az Android régebbi verzióin, az alkalmazás továbbra is megfelelően működjön. Kattintson ide a beállítások megnyitásához most.</string>
     <string name="prefTrackingButtonFreePlacementTitle">Szabad gomb helye</string>
     <string name="computing">Számitás…</string>
-    <string name="prefMapsFolderExploreSummary">Az alkalmazásspecifikus térképek mappa tartalmának kezelése fájlkereső alkalmazással</string>
+    <string name="prefMapsFolderExploreSummary">Az alkalmazáshoz tartozó mappa tartalmát fájlkezelő alkalmazással kezelje</string>
     <string name="menuInsertRecButton">Rögzítés inditó gomb</string>
     <string name="dataStorageInfo2">Ha megváltoztatja az adattárolási helyet, az előző alkalmazás adatai automatikusan átkerülnek az új helyre. Ez a háttérben történik, és eltarthat egy ideig.
 \n
@@ -1656,10 +1638,9 @@
     <string name="speechUnitThreeMiles">Mérföld</string>
     <string name="dataStorageTransferInfoSpeed">Sebesség: %1$s MB/s (%2$s elem/s)</string>
     <string name="speechUnitFourMeters">Mérők</string>
-    <string name="pref_category_onlineElevation_title">"Online  magasság"</string>
-    <string name="dataStorageStatsMessage">%1$s MB
-\n%2$s tétel</string>
-    <string name="prefOnlineElevationTitle">"Online  magassági adatok"</string>
+    <string name="pref_category_onlineElevation_title">Online magasság</string>
+    <string name="dataStorageStatsMessage">%1$s MB, %2$s tétel</string>
+    <string name="prefOnlineElevationTitle">Online magassági adatok</string>
     <string name="infoMeterModePowerBalanceTitle">Teljesítmény egyensúly bal/jobbra</string>
     <string name="speechUnitFourMiles">Mérföld</string>
     <string name="speechUnitFourHours">Órák</string>
@@ -1685,7 +1666,7 @@
     <string name="pref_button_tracking_show_summary">Mutasd meg a Rögzítés indítása gombot. Ha le van tiltva, akkor a főmenü parancsait kell használnia a rögzítés indításához vagy leállításához.</string>
     <string name="prefTrackingStartPromptTitle">Útvonal rögzítés gyors indítása</string>
     <string name="prefTrackingStopPromptTitle">Rögzítés azonnali leállítása</string>
-    <string name="meterTextRelative">rel</string>
+    <string name="meterTextRelative">viszonylagos</string>
     <string name="pref_button_tracking_show_title">Engedélyez</string>
     <string name="menuPause">Szünet</string>
     <string name="dialogTrackingResumePromptTitle">Összefoglalás\?</string>
@@ -1735,4 +1716,53 @@
     <string name="pref_button_theme_show_summary">A Téma váltógomb megjelenítése</string>
     <string name="pref_button_theme_show_title">Téma</string>
     <string name="prefCompassEnableInfo">Az iránytű csak akkor látható, ha a követés aktív.</string>
+    <string name="prefMetersThemeModeInfo_1">Minden érzékelőben az előre beállított előtér- és háttérszíneket használja.</string>
+    <string name="prefMetersThemeModeEntries_4">Fő színek</string>
+    <string name="prefCompassEnableInfo1">Álló helyzetben az iránytű a készülék 3D-térben való elhelyezkedéséhez viszonyítva jelzi az észak irányát.</string>
+    <string name="aboutScreenAllAppsLink">Minden alkalmazás</string>
+    <string name="prefOfflineElevationGnssFixSummary">Használja a helyi HGT-fájlokból származó terepmagassági adatokat a (általában sokkal ingadozóbb) GPS-magasságok helyett. Ne feledje, hogy ez nem befolyásolja a barometrikus magasságot. Alapértelmezés szerint ki van kapcsolva.</string>
+    <string name="aboutScreenSupportLink">Támogatás</string>
+    <string name="prefMetersThemeModeEntries_0">Egyéni színek (alapértelmezett)</string>
+    <string name="prefMetersThemeModeEntries_3">Előre beállított háttérszínek</string>
+    <string name="prefOfflineElevationNoteSummary1">Az offline terepmagasság a talaj görbületét követi, és általában nem működik megfelelően olyan építmények esetében, amelyek a terep fölé emelkednek, például hidak, viaduktok vagy felüljárók.</string>
+    <string name="mainColor">Fő színek</string>
+    <string name="prefOfflineElevationNoteSummary2">Ha egy adott helyre vonatkozó HGT-magassági adatok nem állnak rendelkezésre, az alkalmazás a tengerszint feletti magasság korrekciója nélkül is tovább működik.</string>
+    <string name="prefMetersThemeModeInfo_2">Minden érzékelőn az előre beállított előtér- és fő háttérszíneket használja.</string>
+    <string name="infoMeterModeAscentDistanceMsg">Felfelé megtett távolság.</string>
+    <string name="pref_button_tracking_pause_title">Szünet és visszaszámlálás</string>
+    <string name="meterThemeModeOverrideInfo">Az itt beállított megjelenés jelenleg a Beállítások menüben felül van írva, ezért nem jelenik meg. Kattintson ide, hogy oda lépjen.</string>
+    <string name="prefMetersThemeModeInfo_4">Az egyszínű megjelenés érdekében minden érzékelőn csak a fő színeket használja.</string>
+    <string name="prefMetersFontAppDefault">Alapértelmezett beállítás</string>
+    <string name="mainColorDefault">Fő színek (ajánlott)</string>
+    <string name="prefMainScreenThemeSummary">Az alkalmazás főképernyőjének és az Áttekintés képernyőjének vizuális megjelenése.</string>
+    <string name="infoMeterModeDescentDistanceTitle">Leereszkedési távolság</string>
+    <string name="prefMetersThemeModeInfo_3">Minden érzékelőn használja az előre beállított háttér- és fő előtérszíneket.</string>
+    <string name="prefCompassEnableInfo2">GPS használata esetén, ha a gyaloglási sebességnél gyorsabban haladunk, az észak irányát – akárcsak a térképen – az útirány határozza meg, függetlenül a készülék tájolásától.</string>
+    <string name="dataStorageExploreButton">Fedezze fel az adattárolási lehetőségeket</string>
+    <string name="prefMapOfflineLayerButtonActionEntries_3">Terep megjelenítése/elrejtése</string>
+    <string name="prefMainScreenThemeEntries_2">Sötét</string>
+    <string name="prefMetersThemeModeEntries_1">Előre beállított színek</string>
+    <string name="prefMetersThemeModeDialogTitle">Érzékelők megjelenítése</string>
+    <string name="alsoFromUs">Tőlünk is</string>
+    <string name="prefMainScreenThemeEntries_1">Világos</string>
+    <string name="prefOfflineElevationGnssFixTitle">A GPS-magasság helyes értéke</string>
+    <string name="prefMainScreenThemeDialogTitle">A főképernyő vizuális témája</string>
+    <string name="prefMapsFolderExploreInfo">Ez az alkalmazás-specifikus mappa, amelyet meg kell találnia.</string>
+    <string name="prefOfflineElevationSummary">A helyi HGT-fájlokból származó terepmagassági adatok felhasználása a magassági alapvonal pontosságának javítása érdekében. Alapértelmezés szerint engedélyezve.</string>
+    <string name="prefOfflineElevationTitle">Hálózat nélküli magasság</string>
+    <string name="pref_button_tracking_pause_summary">A felvétel gomb megnyomásával (rövid vagy hosszú nyomással) szüneteltetheti a felvételt, elindíthatja a visszaszámlálást, vagy növelheti a visszaszámlálás időközét.</string>
+    <string name="backgroundProperty">Háttér</string>
+    <string name="infoMeterModeAscentDistanceTitle">Emelkedési távolság</string>
+    <string name="prefMetersThemeModeInfo_0">Minden mérőműszerhez saját egyéni színek rendelhetők, alapértelmezés szerint azonban az előre beállított színek kerülnek használatra. Az Áttekintés képernyőn nem lehet egyéni színeket használni, ott mindig az előre beállított színek jelennek meg.</string>
+    <string name="presetColor">Alap színek</string>
+    <string name="foregroundProperty">Elsődleges</string>
+    <string name="infoMeterModeDescentDistanceMsg">Lefelé megtett távolság.</string>
+    <string name="pref_category_offlineElevation_title">Hálózat nélküli magasságmérés</string>
+    <string name="prefMetersThemeModeEntries_2">Előre beállított színek</string>
+    <string name="rootStorageExploreButton">Keresse fel az eszköz gyökérkönyvtárát</string>
+    <string name="prefMetersFontSystemDefault">Ajánlott rendszer beállítás</string>
+    <string name="prefColorsTitle">Színek</string>
+    <string name="presetColorDefault">Alap színek (ajánlott)</string>
+    <string name="customColor">Módosítható színek</string>
+    <string name="prefOnlineElevationNoteSummary4">Az offline magassági adatok élveznek elsőbbséget.</string>
 </resources>
