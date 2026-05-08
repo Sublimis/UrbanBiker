@@ -1,5 +1,13 @@
 ##  Legacy versions (not recommended!)
 
+https://urban-bike-computer.com/apk/legacy/
+
+ - #### v8.44 (dated 2025-06-25)
+
+The last version to support Android 6 and 7 (API levels 23-25)
+
+### Older:
+
  - #### v8.01 (dated 2024-04-04)
 
 The last version to support Android API levels 21-22 (5.0, and 5.1 Lollipop)
