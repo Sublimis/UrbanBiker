@@ -1195,9 +1195,9 @@
     <string name="summaryDragAreaInfo">Površina otporu zraka (Cd·A).</string>
     <string name="summaryRollResistCoefInfo">Koeficijent otpora kotrljanja.</string>
     <string name="summaryBasalMetabolicRateInfo">Stopa bazalnog metabolizma (BMR).</string>
-    <string name="summaryLocationIntervalInfo">Prosječni vremenski interval između dva ažuriranja lokacije na ovoj stazi.</string>
-    <string name="summaryDeviceRestartsCountInfo">Koliko puta je aplikacija bila prisilno zatvorena ili je uređaj prestao raditi tijekom ove aktivnosti.</string>
-    <string name="summaryTotalTimeInfo">Vremenski interval između početnog i završnog vremena ove staze.</string>
+    <string name="summaryLocationIntervalInfo">Prosječni vremenski interval između ažuriranja lokacije.</string>
+    <string name="summaryDeviceRestartsCountInfo">Koliko puta je aplikacija prisilno zatvorena ili je uređaj prestao raditi tijekom aktivnosti.</string>
+    <string name="summaryTotalTimeInfo">Vremenski interval između vremena početka i vremena završetka</string>
     <string name="summaryStoppedTimeInfo">Vrijeme tijekom kojeg je praćenje bilo neaktivno.</string>
     <string name="summaryHeartBeatsInfo">Broj otkucaja srca tijekom aktivnosti.</string>
     <string name="summaryCadenceStrokesInfo">Broj okreta pedala tijekom aktivnosti.</string>
@@ -1207,9 +1207,9 @@
 \nZa bicikle to se može smatrati mjerom istrošenosti lanca - standardni lanac bicikla trajat će oko 100 MJ, za motocikle oko 1 GJ.</string>
     <string name="summaryActivePower">Aktivna snaga</string>
     <string name="infoMeterModeFuncThresholdPowerTitle">Funkcionalna snaga praga</string>
-    <string name="infoMeterModeFuncThresholdPowerMsg">Procijenjena maksimalna snaga koja se može održavati u dužim vremenskim razdobljima.
+    <string name="infoMeterModeFuncThresholdPowerMsg">Procijenjena maksimalna snaga koja se može održavati dulje vrijeme.
 \n
-\nProcjena uvelike ovisi o vrsti i trajanju ove aktivnosti.</string>
+\nProcjena uvelike ovisi o vrsti i trajanju aktivnosti.</string>
     <string name="infoDigitalFilterNotice">Napomena: Ovo ponekad može primjetno kasniti za stvarnim vremenom, zbog neizbježnih odgoda digitalnog filtriranja potrebnih za točnost.</string>
     <string name="meterModes_29">FTP</string>
     <string name="pref_screenWaveDim_title">Zatamni zaslon</string>
@@ -1333,7 +1333,7 @@
     <string name="pref_mapsWeatherAnimateForecast_title">Prognoza</string>
     <string name="pref_screenAutoPocketModeDelay_title">Odgoda</string>
     <string name="prefScreenPocketModeDelayEntries_5">0.50 sekundi</string>
-    <string name="summaryDeviceAutoPauseCountInfo">Broj aktiviranja automatske pauze tijekom ove aktivnosti.</string>
+    <string name="summaryDeviceAutoPauseCountInfo">Broj aktiviranja automatske pauze.</string>
     <string name="pref_mapsWeatherAnimateForecast_summary">Također animirajte 30-minutnu radarsku prognozu u različitim bojama</string>
     <string name="prefScreenPocketModeDelayEntries_7">1 sekunda</string>
     <string name="prefScreenPocketModeDelayEntries_2">0.20 sekundi</string>
@@ -1386,7 +1386,7 @@
     <string name="prefScreensaverTimeoutEntries_8">5 minuta</string>
     <string name="infoMeterModeVibrationsMsg">Vibracije mjerene uređajem. Korisno kada se uređaj drži pričvršćen za vozilo (npr. na upravljaču bicikla), a ne u ruci ili džepu.</string>
     <string name="prefScreensaverTimeoutEntries_1">10 sekundi</string>
-    <string name="dialogCustomTracksFolderInfoMessage">Ova značajka omogućuje aplikaciji čitanje staza iz mape po vašem izboru, povrh glavne mape staza — čija se lokacija nedavno promijenila.
+    <string name="dialogCustomTracksFolderInfoMessage">Ova značajka omogućuje aplikaciji čitanje staza iz foldera po vašem izboru, povrh glavnog foldera za pohranu.
 \n
 \nTakve staze su samo za čitanje: mogu se pregledavati i dijeliti, ali se ne mogu uređivati, nastaviti niti brisati.</string>
     <string name="prefScreensaverDimBrightnessEntries_0">Minimum</string>
@@ -1627,10 +1627,10 @@
     <string name="dataStorageTransferInfoStatus">Status: %1$s</string>
     <string name="inProgress">U toku</string>
     <string name="dataStorageTransferInfoSpeed">Brzina: %1$s MB/s (%2$s stavki/s)</string>
-    <string name="dataStorageInfo1">Prilagođena lokacija za pohranu podataka se preporuča i korisna je za sprječavanje slučajnog gubitka podataka ako se aplikacija deinstalira, te za lakše sigurnosno kopiranje.</string>
+    <string name="dataStorageInfo1">Postavljanje lokacije za pohranu podataka preporučuje se i korisno je kako bi se spriječio slučajan gubitak podataka ako se aplikacija deinstalira i kako bi se olakšalo sigurnosno kopiranje.</string>
     <string name="dataStorageTitle">Pohrana</string>
     <string name="success">Uspjeh</string>
-    <string name="dataStorageStatsMessage">%1$s MB, %2$s stavki</string>
+    <string name="dataStorageStatsMessage">%1$s MB (%2$s stavki)</string>
     <string name="prefSteadyScreenImplementationInternal">Interno (zadano)</string>
     <string name="prefBatteryOptimizationTitle">Optimizacija baterije</string>
     <string name="prefSteadyScreenImplementationInternalInfo">Koristiti našu vlastitu implementaciju stabilizacije zaslona. Jednostavnije za korištenje, nije podesivo.</string>
@@ -1642,9 +1642,9 @@
 \nOpozivom pristupa podaci ostaju netaknuti.</string>
     <string name="dataStorageTransferInfoDuration">Trajanje: %1$s</string>
     <string name="prefSteadyScreenImplementationExternalInfo">Morate instalirati zasebnu aplikaciju da bi ovo radilo. Podesivo.</string>
-    <string name="dataStorageNotSetMessage">Mjesto pohrane podataka nije postavljeno, molim koristite gornji gumb.
+    <string name="dataStorageNotSetMessage">Lokacija pohrane podataka nije postavljena, upotrijebite gornji gumb.
 \n
-\nAplikacija trenutno koristi zadanu mapu za staze i podatke.</string>
+\nAplikacija trenutno koristi zadani folder za staze i podatke.</string>
     <string name="tracksHistoryDataStorageLink">Upozorenje: Aplikacija koristi zadanu mapu za staze i podatke. Kliknite ovdje za promjenu.</string>
     <string name="menuDataStorage">Mjesto pohrane podataka</string>
     <string name="dataStorageTransferRetrying">Neuspješno — uskoro ćemo pokušati ponovno</string>
@@ -1757,4 +1757,26 @@
     <string name="infoMeterModeDescentDistanceTitle">Duljina spuštanja</string>
     <string name="infoMeterModeAscentDistanceTitle">Duljina uspona</string>
     <string name="infoMeterModeDescentDistanceMsg">Udaljenost prijeđena nizbrdo.</string>
+    <string name="dateRangeLast365Days">Posljednjih 365 dana</string>
+    <string name="toastGpsFusedProviderFailedError">Pogreška: Fused GPS nije uspio, provjerite dopuštenje za lokaciju</string>
+    <string name="dateRangeToDate">Do</string>
+    <string name="menuSearch">Pretraživanje</string>
+    <string name="dialogTrackEditReadOnlyInfo">Ova se staza ne može mijenjati; dio je prilagođenog foldera staza koji je samo za čitanje.</string>
+    <string name="menuSelectProfile">Odaberi profil</string>
+    <string name="menuTimeRange">Vremenski raspon</string>
+    <string name="unitManyTracks">staza</string>
+    <string name="dateRangeLast28Days">Posljednjih 28 dana</string>
+    <string name="dateRangeFromDate">Od</string>
+    <string name="dateRangeCustomDates">Prilagođeni datumi</string>
+    <string name="unitFourTracks">staze</string>
+    <string name="menuSelectDates">Odaberi datume</string>
+    <string name="dateRangeLast7Days">Posljednjih 7 dana</string>
+    <string name="unitTwoTracks">staze</string>
+    <string name="summaryTracksCount">Broj staza</string>
+    <string name="menuStatistics">Statistika</string>
+    <string name="unitZeroTracks">staza</string>
+    <string name="unitThreeTracks">staze</string>
+    <string name="dateRangeAllTime">Sve vrijeme</string>
+    <string name="unitOneTrack">staza</string>
+    <string name="summaryTracksCountInfo">Broj snimljenih staza tijekom razdoblja.</string>
 </resources>
