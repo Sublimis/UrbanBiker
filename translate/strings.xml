@@ -85,6 +85,7 @@
     <string name="menuSummary">Overview</string>
     <string name="menuTracksHistory">History</string>
     <string name="menuTracksHistoryResume">Resume</string>
+    <string name="menuStatistics">Statistics</string>
     <string name="menuNavigation">Navigate</string>
     <string name="menuMeter">Meter</string>
     <string name="menuMeterLock">Lock</string>
@@ -176,6 +177,10 @@
     <string name="menuHideTotals">Hide totals</string>
     <string name="menuWiden">Widen</string>
     <string name="menuNarrow">Narrow</string>
+    <string name="menuSearch">Search</string>
+    <string name="menuTimeRange">Time range</string>
+    <string name="menuSelectDates">Select dates</string>
+    <string name="menuSelectProfile">Select profile</string>
 
     <string name="share_title">Send via</string>
 
@@ -256,8 +261,7 @@
     <string name="toastSteadyScreenModeIntelligentActive">Screen stabilization intelligent enabled</string>
     <string name="toastSteadyScreenModeOff">Screen stabilization disabled</string>
     <string name="toastGpsIntervalAdaptiveActive">Adaptive update interval is active</string>
-
-    <string name="notificationTitleAdvancedPaused">Paused: %1$s</string>
+    <string name="toastGpsFusedProviderFailedError">Error: Fused GPS failed, please check location permission</string>
 
     <string name="licenseSuccessDialogMessage">The app was licensed successfully. Thank you for your support!</string>
 
@@ -379,6 +383,7 @@
     <string name="dialogOpenRainviewerText">Open www.rainviewer.com web page now?</string>
     <string name="dialogTrackEditTitleHint">Title</string>
     <string name="dialogTrackEditNotesHint">Notes</string>
+    <string name="dialogTrackEditReadOnlyInfo">This track cannot be modified; it is part of a read-only custom tracks folder.</string>
     <string name="dialogTrackUploadWaitTitle">Please wait</string>
     <string name="dialogTrackUploadPreparing">Preparing track data…</string>
     <string name="dialogTrackUploadSending">Sending…</string>
@@ -423,7 +428,7 @@
     <string name="dialogOfflineMapsFolderCopyMessage">Selected content must be copied to the app-specific maps folder in order to be used.\n\nDo this now?</string>
     <string name="dialogCopyingMessage">Copying…</string>
     <string name="dialogRevokeAccessPromptMessage">Revoke access?</string>
-    <string name="dialogCustomTracksFolderInfoMessage">This feature allows the app to read tracks from a folder of your choice, in addition to the main tracks folder — whose location has recently changed.\n\nSuch tracks are read-only: They can be viewed and shared, but cannot be edited, resumed nor deleted.</string>
+    <string name="dialogCustomTracksFolderInfoMessage">This feature allows the app to read tracks from a folder of your choice, in addition to the main storage folder.\n\nSuch tracks are read-only: They can be viewed and shared, but cannot be edited, resumed nor deleted.</string>
     <string name="dialogMeterModesTitle">Choose available modes</string>
     <string name="dialogLayoutChooseTitle">Layout</string>
     <string name="dialogLayoutChooseSubtitle">Choose display layout</string>
@@ -664,6 +669,14 @@
     <string name="tracksHistoryListViewTrackDialogTitle">View track with…</string>
     <string name="tracksHistoryChartEmptyInfo">Nothing to show</string>
 
+    <string name="dateRangeLast7Days">Last 7 days</string>
+    <string name="dateRangeLast28Days">Last 28 days</string>
+    <string name="dateRangeLast365Days">Last 365 days</string>
+    <string name="dateRangeAllTime">All time</string>
+    <string name="dateRangeCustomDates">Custom dates</string>
+    <string name="dateRangeFromDate">From</string>
+    <string name="dateRangeToDate">To</string>
+
     <string name="powerSourceWeightTitle">Power source weight</string>
     <string name="powerSourceWeightInfo">When translating power (watts) into specific power (watts per unit weight), a weight must be given.\n\nThis is usually the weight of the entity providing a driving force.\n\nNote: Climb power is always computed using Total weight.</string>
     <string name="powerSourceWeight_0">Total</string>
@@ -694,17 +707,17 @@
     <string name="summaryBasalMetabolicRate">Basal metabolic rate</string>
     <string name="summaryBasalMetabolicRateInfo">Basal metabolic rate (BMR).</string>
     <string name="summaryLocationInterval">Location interval</string>
-    <string name="summaryLocationIntervalInfo">Average time interval between two location updates on this track.</string>
+    <string name="summaryLocationIntervalInfo">Average time interval between location updates.</string>
     <string name="summaryDeviceRestartsCount">Forced restarts</string>
-    <string name="summaryDeviceRestartsCountInfo">Number of times the app was force-closed or the device stopped working during this activity.</string>
+    <string name="summaryDeviceRestartsCountInfo">Number of times the app was force-closed or the device stopped working during the activity.</string>
     <string name="summaryDeviceAutoPauseCount">Auto-pause count</string>
-    <string name="summaryDeviceAutoPauseCountInfo">Number of times auto-pause was activated during this activity.</string>
+    <string name="summaryDeviceAutoPauseCountInfo">Number of times auto-pause was activated.</string>
     <string name="summaryInaccurateLocationZoneCount">Inaccuracy zones</string>
     <string name="summaryInaccurateLocationZoneCountInfo">Number of times the app started rejecting location updates due to their inaccuracy.\n\nNote, areas where there are no location updates at all (e.g. indoors) do not affect this number.</string>
     <string name="summaryStartedDatetime">Started</string>
     <string name="summaryEndedDatetime">Ended</string>
     <string name="summaryTotalTime">Total time</string>
-    <string name="summaryTotalTimeInfo">Time interval between the start time and the end time of this track.</string>
+    <string name="summaryTotalTimeInfo">Time interval between the start time and the end time</string>
     <string name="summaryPausedTime">Paused time</string>
     <string name="summaryPausedTimeInfo">Time spent pausing, either manually or while using the auto-pause.</string>
     <string name="summaryStoppedTime">Stopped time</string>
@@ -732,6 +745,16 @@
     <string name="summaryBraking">Braking</string>
     <string name="summaryBrakingInfo">Energy extracted by braking.\n\nCan be regarded as brake wear - a pair of standard bicycle disc brake pads will last around 50 MJ, for cars around 5 GJ.</string>
     <string name="summaryBrakePadWear">Brake pad wear</string>
+
+    <string name="summaryTracksCount">Tracks count</string>
+    <string name="summaryTracksCountInfo">Number of tracks recorded during the period.</string>
+
+    <string name="unitZeroTracks">tracks</string>
+    <string name="unitOneTrack">track</string>
+    <string name="unitTwoTracks">tracks</string>
+    <string name="unitThreeTracks">tracks</string>
+    <string name="unitFourTracks">tracks</string>
+    <string name="unitManyTracks">tracks</string>
 
     <string name="sensorsTitle">Sensors</string>
     <string name="sensorsTabUsed">Used</string>
@@ -950,8 +973,6 @@
     <string name="pref_screensaverDimBrightnessDialogTitle">Screensaver dim brightness</string>
     <string name="pref_ring_on_stop_title">Ring on stop</string>
     <string name="pref_ring_on_stop_summary">Ring the automatic bell when the speed drops to zero, too</string>
-    <string name="pref_obey_audio_focus_disable_title">Disable audio focus</string>
-    <string name="pref_obey_audio_focus_disable_summary">Continue producing sounds even if audio focus is lost (by system notification or another app)</string>
     <string name="pref_audio_force_loudspeaker_title">Force loudspeaker</string>
     <string name="pref_audio_force_loudspeaker_summary">Warning: Experimental, may not work. Try to reroute all sounds through the loudspeaker when headphones are connected, except the voice calls.</string>
     <string name="pref_duck_roaring_on_bell_title">Duck AVAS on bell ring</string>
@@ -1212,14 +1233,14 @@
     <string name="prefColorsTitle">Colors</string>
 
     <string name="dataStorageTitle">Storage</string>
-    <string name="dataStorageInfo1">Custom data storage location is recommended and useful to prevent accidental data loss if the app is uninstalled, and to make backups easier.</string>
+    <string name="dataStorageInfo1">Setting data storage location is recommended and useful to prevent accidental data loss if the app is uninstalled, and to make backups easier.</string>
     <string name="dataStorageInfo2">When you change the data storage location, the previous app data will be automatically transferred to the new location. This happens in the background and may take some time.\n\nRevoking access leaves the data intact.</string>
     <string name="dataStorageChooseButton">Choose data storage location</string>
     <string name="dataStorageExploreButton">Explore data storage</string>
     <string name="rootStorageExploreButton">Explore device storage root</string>
-    <string name="dataStorageNotSetMessage">The data storage location is not set, please use the button above.\n\nThe app is currently using the default folder for tracks and data.</string>
+    <string name="dataStorageNotSetMessage">Data storage location is not set, please use the button above.\n\nThe app is currently using the default folder for tracks and data.</string>
     <string name="dataStorageStatsTitle">Storage stats</string>
-    <string name="dataStorageStatsMessage">%1$s MB, %2$s items</string>
+    <string name="dataStorageStatsMessage">%1$s MB (%2$s items)</string>
     <string name="dataStorageTransferRetrying">Fail — will retry shortly</string>
     <string name="dataStorageTransferInfoTitle">Last change</string>
     <string name="dataStorageTransferInfoStatus">Status: %1$s</string>
@@ -1268,7 +1289,7 @@
     <string name="infoMeterModePowerBalanceTitle">Power balance L/R</string>
     <string name="infoMeterModePowerBalanceMsg">Power balance, presented as a fraction of left and right contributions to the total power output.</string>
     <string name="infoMeterModeFuncThresholdPowerTitle">Functional threshold power</string>
-    <string name="infoMeterModeFuncThresholdPowerMsg">Estimated maximum power that can be maintained for longer time periods.\n\nThe estimate highly depends on type and duration of this activity.</string>
+    <string name="infoMeterModeFuncThresholdPowerMsg">Estimated maximum power that can be maintained for longer time periods.\n\nThe estimate highly depends on type and duration of the activity.</string>
     <string name="infoMeterModeAvgActivePowerTitle">Average active power</string>
     <string name="infoMeterModeAvgActivePowerMsg">Average power exerted during activity, not counting time intervals where power was absent (downhill, braking, coasting).</string>
     <string name="infoMeterModeVerticalPowerTitle">Climb power</string>
@@ -1284,7 +1305,7 @@
     <string name="infoMeterModeBatteryTitle">Battery</string>
     <string name="infoMeterModeBatteryMsg">Battery level of this Android device.</string>
     <string name="infoMeterModeCadenceTitle">Cadence</string>
-    <string name="infoMeterModeCadenceMsg">Number of revolutions of the crank per minute, i.e. pedalling rate.</string>
+    <string name="infoMeterModeCadenceMsg">Number of revolutions of the crank per minute, i.e. pedaling rate.</string>
     <string name="infoMeterModeHeartRateTitle">Heart rate</string>
     <string name="infoMeterModeHeartRateMsg">Number of heartbeats per minute.</string>
     <string name="infoMeterModeGearRatioTitle">Gear ratio</string>
