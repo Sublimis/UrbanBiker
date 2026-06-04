@@ -71,7 +71,7 @@
     <string name="toastTrackSaved">Percorso salvato.</string>
     <string name="toastTrackDiscarded">Percorso scartato.</string>
     <string name="toastTrackSavingError">Errore durante il salvataggio del percorso! Riprova.</string>
-    <string name="toastTrackWritingError">Errore durante la memorizzazione dei dati del percorso! Riprova.</string>
+    <string name="toastTrackWritingError">Errore durante l\'archiviazione dei dati del percorso! Riprova.</string>
     <string name="toastTrackZippingError">Errore durante la compressione percorso! Riprova.</string>
     <string name="toastTrackMovingError">Errore durante lo spostamento del percorso sull\'unità USB! Riprova.</string>
     <string name="toastPressAgainToExit">Premi di nuovo per uscire</string>
@@ -629,7 +629,7 @@
     <string name="pref_soundeffects_gps_signal_title">GPS</string>
     <string name="pref_soundeffects_gps_signal_summary">Suono al cambio di stato GPS (buono, cattivo)</string>
     <string name="pref_soundeffects_countdown_title">Conto alla rovescia</string>
-    <string name="pref_soundeffects_countdown_summary">Suono al conto alla rovescia prima di riprendere il tragitto (…3, 2, 1, VIA!)</string>
+    <string name="pref_soundeffects_countdown_summary">Suono del conto alla rovescia prima di riprendere il tragitto (…3, 2, 1, VIA!)</string>
     <string name="pref_soundeffects_tally_title">Attiva</string>
     <string name="pref_soundeffects_tally_value_summary">Ogni %1$s %2$s</string>
     <string name="pref_soundeffects_tally_distance_title">Distanza</string>
@@ -646,7 +646,7 @@
     <string name="pref_ads_mode_title">Mostra avvisi</string>
     <string name="pref_ads_mode_dialog_title">Tipo di avviso</string>
     <string name="pref_maps_disable_title">Disattiva mappe</string>
-    <string name="pref_maps_track_draw_title">Disegna il percorso</string>
+    <string name="pref_maps_track_draw_title">Traccia il percorso</string>
     <string name="pref_maps_track_draw_summary">Traccia i tuoi spostamenti sulla mappa</string>
     <string name="pref_maps_fences_draw_title">Barriere</string>
     <string name="pref_maps_fences_draw_summary">Mostra sulla mappa le regioni protette dalla Barriera difensiva</string>
@@ -773,7 +773,7 @@
     <string name="infoMeterModeClockTitle">Orologio</string>
     <string name="infoMeterModeClockMsg">Ora attuale del giorno.</string>
     <string name="infoMeterModeCadenceTitle">Cadenza</string>
-    <string name="infoMeterModeCadenceMsg">Numero di rotazioni della corona per minuto, ossia la velocità di pedalata.</string>
+    <string name="infoMeterModeCadenceMsg">Numero di giri della pedivella al minuto, ossia la frequenza di pedalata.</string>
     <string name="infoMeterModeHeartRateTitle">Battito cardiaco</string>
     <string name="infoMeterModeHeartRateMsg">Numero di battiti cardiaci per minuto.</string>
     <string name="infoMeterModeGearRatioTitle">Rapporto cambio</string>
@@ -1191,13 +1191,13 @@
     <string name="summaryDeviceNameInfo">Dispositivo utilizzato per registrare questo percorso.</string>
     <string name="summaryTotalWeightInfo">Somma di tutti i pesi utilizzati durante la registrazione di questo percorso (persona, veicolo, carico, …).</string>
     <string name="summaryWheelsWeightInfo">Somma dei pesi di tutte le ruote del veicolo utilizzato in questo percorso.</string>
-    <string name="summaryEfficiencyInfo">Efficienza termina complessiva della potenza del percorso.</string>
+    <string name="summaryEfficiencyInfo">Efficienza termica complessiva della potenza del percorso.</string>
     <string name="summaryDragAreaInfo">Area di resistenza dell\'aria (Cd·A).</string>
     <string name="summaryRollResistCoefInfo">Coefficiente di resistenza del rotolamento.</string>
     <string name="summaryBasalMetabolicRateInfo">Metabolismo basale (MB).</string>
     <string name="summaryLocationIntervalInfo">Intervallo di tempo medio tra gli aggiornamenti della posizione.</string>
     <string name="summaryDeviceRestartsCountInfo">Numero di volte in cui l\'app è stata chiusa forzatamente o il dispositivo ha smesso di funzionare durante l\'attività.</string>
-    <string name="summaryTotalTimeInfo">Intervallo di tempo tra l\'inizio e la fine di questo percorso.</string>
+    <string name="summaryTotalTimeInfo">Intervallo di tempo tra l\'ora di inizio e l\'ora di fine</string>
     <string name="summaryStoppedTimeInfo">Tempo durante il quale il percorso era inattivo.</string>
     <string name="summaryHeartBeatsInfo">Numero di battiti cardiaci rilevati durante l\'attività.</string>
     <string name="summaryCadenceStrokesInfo">Numero di pedalate rilevate durante l\'attività.</string>
@@ -1207,9 +1207,9 @@
 \nPer le moto/biciclette può essere considerata come una misura dell\'usura della catena: una catena standard di bicicletta durerà circa 100 MJ, una di moto circa 1 GJ.</string>
     <string name="summaryActivePower">Potenza attiva</string>
     <string name="infoMeterModeFuncThresholdPowerTitle">Potenza di soglia funzionale</string>
-    <string name="infoMeterModeFuncThresholdPowerMsg">Potenza massima stimata percorribile per periodi più lunghi.
+    <string name="infoMeterModeFuncThresholdPowerMsg">Potenza massima stimata percorribile per periodi prolungati.
 \n
-\nLa stima dipende soprattutto dal tipo e la durata di questa attività.</string>
+\nLa stima dipende soprattutto dal tipo e dalla durata dell\'attività.</string>
     <string name="infoDigitalFilterNotice">Nota: talvolta può ritardare notevolmente a causa dei ritardi inevitabili dei filtri digitali necessari per la precisione.</string>
     <string name="meterModes_29">Potenza FT</string>
     <string name="pref_screenWaveDim_title">Scurisci schermo</string>
@@ -1627,10 +1627,10 @@
     <string name="dataStorageTransferInfoStatus">Stato: %1$s</string>
     <string name="inProgress">In elaborazione</string>
     <string name="dataStorageTransferInfoSpeed">Velocità: %1$s MB/s (%2$s elementi/s)</string>
-    <string name="dataStorageInfo1">Si consiglia di utilizzare una posizione di salvataggio personalizzata dei dati al fine di evitare la loro perdita accidentale nel caso in cui l\'app venga disinstallata e per facilitare la creazione delle copie di sicurezza.</string>
+    <string name="dataStorageInfo1">Impostare la posizione di archiviazione dei dati è consigliato e utile per evitare la loro perdita accidentale in caso di disinstallazione dell\'app e per semplificare la creazione di copie di sicurezza.</string>
     <string name="dataStorageTitle">Salvataggio</string>
     <string name="success">Riuscito</string>
-    <string name="dataStorageStatsMessage">%1$s MB, %2$s elementi</string>
+    <string name="dataStorageStatsMessage">%1$s MB (%2$s elementi)</string>
     <string name="prefSteadyScreenImplementationInternal">Interna (predefinito)</string>
     <string name="prefBatteryOptimizationTitle">Ottimizzazioni batteria</string>
     <string name="prefSteadyScreenImplementationInternalInfo">Usa la nostra implementazione di stabilizzazione dello schermo. Più facile da usare, non regolabile.</string>
@@ -1642,7 +1642,7 @@
 \nRifiutare l\'accesso lascia intatti i dati.</string>
     <string name="dataStorageTransferInfoDuration">Durata: %1$s</string>
     <string name="prefSteadyScreenImplementationExternalInfo">Affinché funzioni, deve essere installata un\'app separata. Regolabile.</string>
-    <string name="dataStorageNotSetMessage">La posizione di salvataggio non è impostata, usa il pulsante sopra.
+    <string name="dataStorageNotSetMessage">La posizione di archiviazione non è impostata, usa il pulsante sopra.
 \n
 \nL\'app sta attualmente utilizzando la cartella predefinita per i percorsi e i dati.</string>
     <string name="tracksHistoryDataStorageLink">Attenzione: l\'app, per i percorsi e i dati, sta utilizzando la cartella predefinita. Fai clic qui per modificarla.</string>
@@ -1758,10 +1758,10 @@
     <string name="customColor">Colore personalizzato</string>
     <string name="prefOnlineElevationNoteSummary4">L\'altitudine fuori linea ha la precedenza.</string>
     <string name="dateRangeLast365Days">Ultimi 365 giorni</string>
-    <string name="toastGpsFusedProviderFailedError">Errore: Fused GPS non riuscito, verificare le autorizzazioni di localizzazione.</string>
+    <string name="toastGpsFusedProviderFailedError">Errore: Fused GPS non riuscito, verificare le autorizzazioni di localizzazione</string>
     <string name="dateRangeToDate">A</string>
     <string name="menuSearch">Ricerca</string>
-    <string name="dialogTrackEditReadOnlyInfo">Questa traccia non può essere modificata; fa parte di una cartella di tracce personalizzate di sola lettura.</string>
+    <string name="dialogTrackEditReadOnlyInfo">Questo percorso non può essere modificato; fa parte di una cartella di percorsi personalizzati di sola lettura.</string>
     <string name="menuSelectProfile">Seleziona il profilo</string>
     <string name="menuTimeRange">Intervallo di tempo</string>
     <string name="dateRangeLast28Days">Ultimi 28 giorni</string>
@@ -1770,5 +1770,13 @@
     <string name="menuSelectDates">Seleziona le date</string>
     <string name="dateRangeLast7Days">Ultimi 7 giorni</string>
     <string name="menuStatistics">Statistiche</string>
-    <string name="dateRangeAllTime">Di tutti i tempi</string>
+    <string name="dateRangeAllTime">Qualsiasi</string>
+    <string name="unitManyTracks">percorsi</string>
+    <string name="unitFourTracks">percorsi</string>
+    <string name="unitTwoTracks">percorsi</string>
+    <string name="summaryTracksCount">Conteggio dei percorsi</string>
+    <string name="unitZeroTracks">percorsi</string>
+    <string name="unitThreeTracks">percorsi</string>
+    <string name="unitOneTrack">percorso</string>
+    <string name="summaryTracksCountInfo">Numero di percorsi registrati durante il periodo.</string>
 </resources>
