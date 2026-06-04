@@ -1195,9 +1195,9 @@
     <string name="summaryDragAreaInfo">Área de Resistência Aerodinâmica (Cd·A).</string>
     <string name="summaryRollResistCoefInfo">Coeficiente de Resistência ao Rolamento.</string>
     <string name="summaryBasalMetabolicRateInfo">Taxa Metabólica Basal (TMB).</string>
-    <string name="summaryLocationIntervalInfo">Intervalo médio de tempo entre duas atualizações de local neste percurso.</string>
-    <string name="summaryDeviceRestartsCountInfo">Número de vezes que a aplicação foi forçada a fechar ou o dispositivo parou de funcionar durante esta atividade.</string>
-    <string name="summaryTotalTimeInfo">Intervalo de tempo entre a hora de início e a hora de término deste percurso.</string>
+    <string name="summaryLocationIntervalInfo">Intervalo médio de tempo entre atualizações de localização.</string>
+    <string name="summaryDeviceRestartsCountInfo">Número de vezes que a aplicação foi forçada a fechar ou o dispositivo parou de funcionar durante a atividade.</string>
+    <string name="summaryTotalTimeInfo">Intervalo de tempo entre a hora de início e a hora de término</string>
     <string name="summaryStoppedTimeInfo">Tempo durante o qual o registo esteve inativo.</string>
     <string name="summaryHeartBeatsInfo">Número de batimentos cardíacos detetados durante a atividade.</string>
     <string name="summaryCadenceStrokesInfo">Número de pedaladas detetadas durante a atividade.</string>
@@ -1207,8 +1207,8 @@
 \nPara bicicletas isto pode ser considerado como uma medida do desgaste da corrente - uma corrente de bicicleta padrão dura cerca de 100 MJ (25 Mcal), para motos cerca de 1 GJ (250 Mcal).</string>
     <string name="summaryActivePower">Potência Ativa</string>
     <string name="infoMeterModeFuncThresholdPowerTitle">FTP - Limiar Funcional de Potência</string>
-    <string name="infoMeterModeFuncThresholdPowerMsg">Potência máxima estimada que pode ser mantida por longos períodos de tempo. 
-\n 
+    <string name="infoMeterModeFuncThresholdPowerMsg">Potência máxima estimada que pode ser mantida por longos períodos de tempo.
+\n
 \nA estimativa depende muito do tipo e duração da atividade.</string>
     <string name="infoDigitalFilterNotice">Observação: às vezes, pode ficar visivelmente atrasado em relação ao tempo real, devido aos inevitáveis atrasos de filtragem digital necessários para a precisão.</string>
     <string name="meterModes_29">FTP - Limiar Funcional de Potência</string>
@@ -1333,7 +1333,7 @@
     <string name="pref_mapsWeatherAnimateForecast_title">Previsão</string>
     <string name="pref_screenAutoPocketModeDelay_title">Atraso</string>
     <string name="prefScreenPocketModeDelayEntries_5">0.50 segundos</string>
-    <string name="summaryDeviceAutoPauseCountInfo">Número de vezes que a Pausa Automática foi ativada durante esta atividade.</string>
+    <string name="summaryDeviceAutoPauseCountInfo">Número de vezes que a Pausa Automática foi ativada.</string>
     <string name="pref_mapsWeatherAnimateForecast_summary">Também anima 30 minutos de previsão de radar em cores diferentes</string>
     <string name="prefScreenPocketModeDelayEntries_7">1 segundo</string>
     <string name="prefScreenPocketModeDelayEntries_2">0.20 segundos</string>
@@ -1407,7 +1407,7 @@
 \nClique aqui para conceder acesso de \"somente leitura\" a uma pasta de percursos personalizada …</string>
     <string name="pref_category_units_per_profile_title">Unidades de medida (Por perfil)</string>
     <string name="dialogOfflineMapsFolderCopyTitle">Copiar para a pasta de mapas</string>
-    <string name="dialogCustomTracksFolderInfoMessage">Este recurso permite que a aplicação leia os percursos de uma pasta à sua escolha, além da pasta de percursos padrão — cuja localização foi alterada recentemente.
+    <string name="dialogCustomTracksFolderInfoMessage">Este recurso permite que a aplicação leia os percursos de uma pasta à sua escolha, além da pasta de percursos padrão.
 \n
 \nEsses percursos são só de leitura: eles podem ser visualizados e compartilhados, mas não podem ser editados, retomados ou excluídos.</string>
     <string name="infoSpeedometerTitle">Velocímetro</string>
@@ -1627,10 +1627,10 @@
     <string name="dataStorageTransferInfoStatus">Estado: %1$s</string>
     <string name="inProgress">Em processamento</string>
     <string name="dataStorageTransferInfoSpeed">Velocidade: %1$s MB/s (%2$s itens/s)</string>
-    <string name="dataStorageInfo1">Um local de armazenamento de dados personalizado é recomendado e útil para evitar perda acidental de dados se a aplicação for desinstalada e para facilitar os backups.</string>
+    <string name="dataStorageInfo1">Definir um local de armazenamento de dados é recomendado e útil para evitar perda acidental de dados se a aplicação for desinstalada e para facilitar os backups.</string>
     <string name="dataStorageTitle">Armazenamento</string>
     <string name="success">Sucesso</string>
-    <string name="dataStorageStatsMessage">%1$s MB, %2$s itens</string>
+    <string name="dataStorageStatsMessage">%1$s MB (%2$s itens)</string>
     <string name="prefSteadyScreenImplementationInternal">Interno (padrão)</string>
     <string name="prefBatteryOptimizationTitle">Otimizações de bateria</string>
     <string name="prefSteadyScreenImplementationInternalInfo">Use nossa própria implementação de estabilização de ecrã. Mais fácil de usar, não ajustável.</string>
@@ -1642,7 +1642,7 @@
 \nA revogação do acesso deixa os dados intactos.</string>
     <string name="dataStorageTransferInfoDuration">Duração: %1$s</string>
     <string name="prefSteadyScreenImplementationExternalInfo">Uma aplicação em separado deve ser instalada para que isto funcione. Ajustável.</string>
-    <string name="dataStorageNotSetMessage">O local de armazenamento de dados não está definido, use o botão acima.
+    <string name="dataStorageNotSetMessage">Local de armazenamento de dados não está definido, use o botão acima.
 \n
 \nA aplicação está atualmente a usar a pasta padrão para percursos e dados.</string>
     <string name="tracksHistoryDataStorageLink">Aviso: a aplicação está a usar a pasta padrão para percursos e dados. Clique aqui para alterar.</string>
@@ -1757,4 +1757,26 @@
     <string name="infoMeterModeDescentDistanceTitle">Distância de Descida</string>
     <string name="infoMeterModeAscentDistanceTitle">Distância de Subida</string>
     <string name="infoMeterModeDescentDistanceMsg">Distância percorrida em descida.</string>
+    <string name="dateRangeLast365Days">Últimos 365 dias</string>
+    <string name="toastGpsFusedProviderFailedError">Erro: A fusão de GPS falhou. Verifique as permissões de localização</string>
+    <string name="dateRangeToDate">a</string>
+    <string name="menuSearch">Procurar</string>
+    <string name="dialogTrackEditReadOnlyInfo">Este percurso não pode ser modificado; ele faz parte de uma pasta personalizada de percursos só de leitura.</string>
+    <string name="menuSelectProfile">Selecionar Perfil</string>
+    <string name="menuTimeRange">Intervalo de tempo</string>
+    <string name="unitManyTracks">percursos</string>
+    <string name="dateRangeLast28Days">Últimos 28 dias</string>
+    <string name="dateRangeFromDate">De</string>
+    <string name="dateRangeCustomDates">Datas personalizadas</string>
+    <string name="unitFourTracks">percursos</string>
+    <string name="menuSelectDates">Selecionar datas</string>
+    <string name="dateRangeLast7Days">Últimos 7 dias</string>
+    <string name="unitTwoTracks">Percursos</string>
+    <string name="summaryTracksCount">Contagem de percursos</string>
+    <string name="menuStatistics">Estatísticas</string>
+    <string name="unitZeroTracks">percursos</string>
+    <string name="unitThreeTracks">percursos</string>
+    <string name="dateRangeAllTime">Todo o tempo</string>
+    <string name="unitOneTrack">percurso</string>
+    <string name="summaryTracksCountInfo">Número de percursos gravados durante o período.</string>
 </resources>
