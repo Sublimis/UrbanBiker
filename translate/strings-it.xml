@@ -1195,8 +1195,8 @@
     <string name="summaryDragAreaInfo">Area di resistenza dell\'aria (Cd·A).</string>
     <string name="summaryRollResistCoefInfo">Coefficiente di resistenza del rotolamento.</string>
     <string name="summaryBasalMetabolicRateInfo">Metabolismo basale (MB).</string>
-    <string name="summaryLocationIntervalInfo">Intervallo di tempo medio tra gli aggiornamenti di due posizioni in questo percorso.</string>
-    <string name="summaryDeviceRestartsCountInfo">Numero di volte in cui è stata forzata la chiusura dell\'app o fermato il dispositivo durante questa attività.</string>
+    <string name="summaryLocationIntervalInfo">Intervallo di tempo medio tra gli aggiornamenti della posizione.</string>
+    <string name="summaryDeviceRestartsCountInfo">Numero di volte in cui l\'app è stata chiusa forzatamente o il dispositivo ha smesso di funzionare durante l\'attività.</string>
     <string name="summaryTotalTimeInfo">Intervallo di tempo tra l\'inizio e la fine di questo percorso.</string>
     <string name="summaryStoppedTimeInfo">Tempo durante il quale il percorso era inattivo.</string>
     <string name="summaryHeartBeatsInfo">Numero di battiti cardiaci rilevati durante l\'attività.</string>
@@ -1333,7 +1333,7 @@
     <string name="pref_mapsWeatherAnimateForecast_title">Previsioni</string>
     <string name="pref_screenAutoPocketModeDelay_title">Ritardo</string>
     <string name="prefScreenPocketModeDelayEntries_5">0.50 secondi</string>
-    <string name="summaryDeviceAutoPauseCountInfo">Numero di volte in cui è stata attivata la pausa automatica durante questa attività.</string>
+    <string name="summaryDeviceAutoPauseCountInfo">Numero di volte in cui è stata attivata la pausa automatica.</string>
     <string name="pref_mapsWeatherAnimateForecast_summary">Anima anche in diversi colori 30 minuti delle previsioni del radar meteorologico</string>
     <string name="prefScreenPocketModeDelayEntries_7">1 secondi</string>
     <string name="prefScreenPocketModeDelayEntries_2">0.20 secondi</string>
@@ -1402,7 +1402,7 @@
 \nEseguire adesso\?</string>
     <string name="menuSelect">Seleziona</string>
     <string name="dialogOfflineMapsFolderCopyTitle">Copia nella cartella delle mappe</string>
-    <string name="dialogCustomTracksFolderInfoMessage">In aggiunta alla cartella principale dei percorsi, questa funzionalità permette all\'app di leggere i percorsi da una cartella a tua scelta (la cui posizione è stata cambiata di recente).
+    <string name="dialogCustomTracksFolderInfoMessage">Oltre alla cartella principale di archiviazione, questa funzionalità permette all\'app di leggere i percorsi da una cartella a tua scelta.
 \n
 \nQuesti percorsi sono di sola lettura: puoi visualizzarli e condividerli, ma non puoi modificarli, riprenderli o eliminarli.</string>
     <string name="infoContentSize">Dimensione del contenuto: %1$d MB</string>
@@ -1757,4 +1757,18 @@
     <string name="presetColorDefault">Colore preimpostato (predefinito)</string>
     <string name="customColor">Colore personalizzato</string>
     <string name="prefOnlineElevationNoteSummary4">L\'altitudine fuori linea ha la precedenza.</string>
+    <string name="dateRangeLast365Days">Ultimi 365 giorni</string>
+    <string name="toastGpsFusedProviderFailedError">Errore: Fused GPS non riuscito, verificare le autorizzazioni di localizzazione.</string>
+    <string name="dateRangeToDate">A</string>
+    <string name="menuSearch">Ricerca</string>
+    <string name="dialogTrackEditReadOnlyInfo">Questa traccia non può essere modificata; fa parte di una cartella di tracce personalizzate di sola lettura.</string>
+    <string name="menuSelectProfile">Seleziona il profilo</string>
+    <string name="menuTimeRange">Intervallo di tempo</string>
+    <string name="dateRangeLast28Days">Ultimi 28 giorni</string>
+    <string name="dateRangeFromDate">Da</string>
+    <string name="dateRangeCustomDates">Date personalizzate</string>
+    <string name="menuSelectDates">Seleziona le date</string>
+    <string name="dateRangeLast7Days">Ultimi 7 giorni</string>
+    <string name="menuStatistics">Statistiche</string>
+    <string name="dateRangeAllTime">Di tutti i tempi</string>
 </resources>
