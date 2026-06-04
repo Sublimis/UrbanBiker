@@ -1081,9 +1081,9 @@
     <string name="summaryDragAreaInfo">Súčiniteľ odporu vzduchu (Cd·A).</string>
     <string name="summaryRollResistCoefInfo">Súčiniteľ valivého trenia.</string>
     <string name="summaryBasalMetabolicRateInfo">Hodnota bazálneho metabolizmu (BMR).</string>
-    <string name="summaryLocationIntervalInfo">Priemerný interval aktualizácie polohy na trase.</string>
+    <string name="summaryLocationIntervalInfo">Priemerný interval aktualizácie polohy.</string>
     <string name="summaryDeviceRestartsCountInfo">Počet vynútených vypnutí aplikácie počas aktivity.</string>
-    <string name="summaryTotalTimeInfo">Čas medzi začiatkom a koncom trasy.</string>
+    <string name="summaryTotalTimeInfo">Interval medzi časom začiatku a ukončenia.</string>
     <string name="summaryStoppedTimeInfo">Čas, pri ktorom nebolo sledovanie trasy aktívne.</string>
     <string name="summaryHeartBeatsInfo">Srdcový tep zaznamenaný počas aktivity.</string>
     <string name="summaryCadenceStrokesInfo">Počet otáčok pedálov zaznamenaný počas aktivity.</string>
@@ -1197,9 +1197,9 @@
     <string name="infoMeterModeStepCountTitle">Kroky</string>
     <string name="infoMeterModeStepCountMsg">Počet vykonaných krokov.</string>
     <string name="infoMeterModeFuncThresholdPowerTitle">Funkčný prah výkonu</string>
-    <string name="infoMeterModeFuncThresholdPowerMsg">Predpokladaný výkon udržateľný pri dlhšej záťaži.
+    <string name="infoMeterModeFuncThresholdPowerMsg">Odhadovaný maximálny výkon udržateľný pri dlhšej záťaži.
 \n
-\nZávisí od druhu a času záťaže.</string>
+\nOdhad závisí od druhu a času aktivity.</string>
     <string name="pref_track_charts_title">Druhy grafov…</string>
     <string name="pref_track_charts_summary">Vybrať parametre do grafov pre každú trasu. Rýchlosť a nadmorská výška sú vždy zahrnuté.</string>
     <string name="infoMeterModeHumidityTitle">Vlhkosť</string>
@@ -1343,7 +1343,7 @@
     <string name="pref_mapsWeatherAnimateForecast_title">Predpoveď počasia</string>
     <string name="pref_screenAutoPocketModeDelay_title">Oneskorenie</string>
     <string name="prefScreenPocketModeDelayEntries_5">0,5 s</string>
-    <string name="summaryDeviceAutoPauseCountInfo">Množstvo automatických prestávok aktivovaných počas aktivity.</string>
+    <string name="summaryDeviceAutoPauseCountInfo">Počet automaticky aktivovaných prestávok.</string>
     <string name="pref_mapsWeatherAnimateForecast_summary">Farebne vyobrazovať 30 minút radarovej predpovede</string>
     <string name="prefScreenPocketModeDelayEntries_7">1 s</string>
     <string name="prefScreenPocketModeDelayEntries_2">0,2 s</string>
@@ -1407,7 +1407,7 @@
     <string name="dialogOfflineMapsChooseTitle">Chyba offline-mapy</string>
     <string name="dialogBluetoothPermissionRequestTitle">Povoliť Bluetooth</string>
     <string name="menuChooseFile">Súbor</string>
-    <string name="dialogCustomTracksFolderInfoMessage">Funkcia umožňuje čítať súbory trás z iného priečinka, ako je predvolený priečinok trás v novom umiestnení.
+    <string name="dialogCustomTracksFolderInfoMessage">Funkcia umožňuje čítať súbory trás z iného priečinka, ako je predvolený hlavný priečinok trás.
 \n
 \nTaké súbory sú však len na čítanie a zdieľanie, nemôžu byť upravované , obnovované alebo vymazané v aplikácii.</string>
     <string name="dialogOfflineMapsFolderCopyMessage">Súbory treba skopírovať do priečinka s mapami, aby bol ich obsah použiteľný v aplikácii.
@@ -1637,10 +1637,10 @@
     <string name="dataStorageTransferInfoStatus">Stav: %1$s</string>
     <string name="inProgress">Prebieha</string>
     <string name="dataStorageTransferInfoSpeed">Rýchlosť: %1$s MB/s (%2$s položiek/s)</string>
-    <string name="dataStorageInfo1">Doporučuje sa vytvorenie vlastného pamäťového umiestnenia trás a dát kvôli väčšej bezpečnosti ich uchovania po odinštalovaní aplikácie a pre jednoduchšie zálohovanie.</string>
+    <string name="dataStorageInfo1">Doporučuje sa vytvorenie vlastného pamäťového umiestnenia dát kvôli väčšej bezpečnosti ich uchovania po odinštalovaní aplikácie a pre jednoduchšie zálohovanie.</string>
     <string name="dataStorageTitle">Pamäťové úložisko</string>
     <string name="success">Hotovo</string>
-    <string name="dataStorageStatsMessage">%1$s MB, %2$s položiek</string>
+    <string name="dataStorageStatsMessage">%1$s MB (%2$s položiek)</string>
     <string name="prefSteadyScreenImplementationInternal">Vnútorná (predvolené)</string>
     <string name="prefBatteryOptimizationTitle">Optimalizácia spotreby energie</string>
     <string name="prefSteadyScreenImplementationInternalInfo">Používať implementáciu stabilizácie obrazovky od vývojára, jednoduchú na používanie a bez ďalších nastavení.</string>
@@ -1767,4 +1767,26 @@
     <string name="infoMeterModeDescentDistanceTitle">Vzdialenosť klesania</string>
     <string name="infoMeterModeAscentDistanceTitle">Vzdialenosť stúpania</string>
     <string name="infoMeterModeDescentDistanceMsg">Prejdená vzdialenosť z kopca.</string>
+    <string name="dateRangeLast365Days">Posledných 365 dní</string>
+    <string name="toastGpsFusedProviderFailedError">Chyba zlúčeného GPS, možné chýbajúce povolenie sledovať polohu.</string>
+    <string name="dateRangeToDate">Do</string>
+    <string name="menuSearch">Hľadať</string>
+    <string name="dialogTrackEditReadOnlyInfo">Trasu nemožno zmeniť, je len na čítanie.</string>
+    <string name="menuSelectProfile">Vybrať profil</string>
+    <string name="menuTimeRange">Časový rozsah</string>
+    <string name="unitManyTracks">trás</string>
+    <string name="dateRangeLast28Days">Posledných 28 dní</string>
+    <string name="dateRangeFromDate">Od</string>
+    <string name="dateRangeCustomDates">Vlastné dátumy</string>
+    <string name="unitFourTracks">trasy</string>
+    <string name="menuSelectDates">Vybrať dátumy</string>
+    <string name="dateRangeLast7Days">Posledných 7 dní</string>
+    <string name="unitTwoTracks">trasy</string>
+    <string name="summaryTracksCount">Počet trás</string>
+    <string name="menuStatistics">Štatistika</string>
+    <string name="unitZeroTracks">trasy</string>
+    <string name="unitThreeTracks">trasy</string>
+    <string name="dateRangeAllTime">Celá história</string>
+    <string name="unitOneTrack">trasa</string>
+    <string name="summaryTracksCountInfo">Množstvo trás nahratých v danom období.</string>
 </resources>
