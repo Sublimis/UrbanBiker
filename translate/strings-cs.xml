@@ -980,7 +980,7 @@
 \nPokud je v kcal / h nebo kJ / h bere v úvahu také účinnost.</string>
     <string name="infoMeterModeTemperatureMsg">Okolní teplota změřená zařízenímnebo externím senzorem.</string>
     <string name="infoMeterModePressureMsg">Okolní tlak změřený zařízením nebo externím senzorem.</string>
-    <string name="infoMeterModeCadenceMsg">Počet otáček kliky za minutu, tj. rychlost šlapání.</string>
+    <string name="infoMeterModeCadenceMsg">Počet otáček kliky za minutu, tj. frekvence šlapání.</string>
     <string name="infoMeterModeGearRatioMsg">Poměr otáček kol oproti otáčkám pedálů za jednotku času, tj. poměr velikostí předního a zadního ozubeného kola. Vyšší číslo znamená vyšší rychlostní stupeň.</string>
     <string name="dialogReviewNudgeMessage">Líbí se vám aplikace Urban Biker\?</string>
     <string name="batteryOptimizationToast">Zvolte aplikaci Urban Biker ze seznamu</string>
@@ -1185,7 +1185,7 @@
     <string name="pref_text_automatic">Automaticky</string>
     <string name="sensorProperitesActivityRecognition">Rozpoznání fyzické aktivity</string>
     <string name="sensorProperitesActivityRecognitionInfo">Senzor dá nějaká data pouze když rozpozná aktivitu kompatibilní se senzorem. Např. čítač kroků bude počítat kroky pouze když běžíte nebo jdete, ale ne když jedete na kole. Nemusí to však být přesné a může se zpožďovat. Vyžaduje služby Google Play.</string>
-    <string name="summaryTotalTimeInfo">Časový interval mezi počátečním a konečným časem této trasy.</string>
+    <string name="summaryTotalTimeInfo">Časový interval mezi počátečním a konečným časem</string>
     <string name="summaryHeartBeatsInfo">Počet srdečních tepů zjištěných během aktivity.</string>
     <string name="summaryCadenceStrokesInfo">Počet záběrů pedálů zjištěných během aktivity.</string>
     <string name="summaryMechWork">Mech. práce</string>
@@ -1250,8 +1250,8 @@
 \n
 \nPoznámka: Vertikální výkon se počítá z celkové hmotnosti.</string>
     <string name="summaryStoppedTimeInfo">Čas strávený stáním, ať manuálním nebo během automatického zastavení.</string>
-    <string name="summaryLocationIntervalInfo">Průměrný časový interval mezi dvěma body polohy na této trati.</string>
-    <string name="summaryDeviceRestartsCountInfo">Kolikrát byla aplikace nuceně ukončena nebo zařízení přestalo odpovídat během této aktivity.</string>
+    <string name="summaryLocationIntervalInfo">Průměrný časový interval mezi aktualizací polohy.</string>
+    <string name="summaryDeviceRestartsCountInfo">Kolikrát byla aplikace nuceně ukončena nebo zařízení přestalo odpovídat během aktivity.</string>
     <string name="summaryBasalMetabolicRateInfo">Hodnota bazálního metabolismu (BMR).</string>
     <string name="summaryDragging">Táhnout</string>
     <string name="summaryAccelerating">Urychlit</string>
@@ -1292,7 +1292,7 @@
     <string name="sensorProperitesUseForPressure">Použít pro tlak</string>
     <string name="infoMeterModeFuncThresholdPowerMsg">Odhadovaný udržitelný maximální výkon pro delší časové období.
 \n
-\nOdhad velmi záleží na typu a době trvání této aktivity.</string>
+\nOdhad velmi záleží na typu a době trvání aktivity.</string>
     <string name="pref_speechGnssStatus_title">GPS</string>
     <string name="sensorPurposeHumidity">Vlhkost</string>
     <string name="infoMeterModeFuncThresholdPowerTitle">Funkční prah výkonu</string>
@@ -1329,7 +1329,7 @@
     <string name="pref_mapsWeatherAnimateForecast_title">Předpověď počasí</string>
     <string name="pref_category_mainScreenVisualTheme">Hlavní obrazovka</string>
     <string name="pref_screenAutoPocketModeDelay_title">Prodleva</string>
-    <string name="summaryDeviceAutoPauseCountInfo">Počet automatických přestávek během aktivity.</string>
+    <string name="summaryDeviceAutoPauseCountInfo">Počet automatických přestávek.</string>
     <string name="sensorProperitesNoAlarmInfo">Využít senzor pokud to lze, ale neupozorňovat pokud není dostupný. Užitečné pro nedůležité senzory zbytné pro aktivitu. Ve vychozím stavu vypnuto.</string>
     <string name="prefScreenPocketModeDelayEntries_4">0,4 s</string>
     <string name="prefAppVisualThemeEntries_1">Světlé</string>
@@ -1412,7 +1412,7 @@
 \n
 \nVšimněte si, že oblasti, kde se aktualizace polohy vůbec neprovádějí (např. v interiéru), toto číslo neovlivňují.</string>
     <string name="infoMeterModeVibrationsMsg">Vibrace naměřené přístrojem. Užitečné, pokud je zařízení pevně na vozidle (např. na řídítkách kola), a nikoli v ruce nebo v kapse.</string>
-    <string name="dialogCustomTracksFolderInfoMessage">Tato funkce umožňuje aplikaci číst skladby ze složky dle vašeho výběru, kromě hlavní složky skladeb – jejíž umístění se nedávno změnilo.
+    <string name="dialogCustomTracksFolderInfoMessage">Tato funkce umožňuje aplikaci číst skladby ze složky dle vašeho výběru a to kromě hlavní složky úložiště.
 \n
 \nTyto stopy jsou pouze pro čtení: Lze je prohlížet a sdílet, ale nelze je upravovat, obnovovat ani mazat.</string>
     <string name="menuReset">Přenastavit</string>
@@ -1570,7 +1570,7 @@
     <string name="dataStorageTransferInfoSpeed">Rychlost: %1$s MB/s (%2$s položek/s)</string>
     <string name="prefGpsIntervalAdaptiveSummary">Automaticky upravte interval aktualizace GPS mezi 1 a 5 sekundami, v závislosti na rychlosti.</string>
     <string name="speechUnitFourMeters">metrů</string>
-    <string name="dataStorageInfo1">Doporučuje se použít vlastní úložiště pro vaše trasy a data, abyste zabránili náhodné ztrátě dat v případě odinstalace aplikace a usnadnili zálohování.</string>
+    <string name="dataStorageInfo1">Nastavení umístění úložiště dat se doporučuje a je užitečné pro zabránění náhodné ztrátě dat v případě odinstalace aplikace a aby se usnadnilo zálohování.</string>
     <string name="dialogEnterCodeMessage">Zadejte kód</string>
     <string name="dataStorageTitle">Úložný prostor</string>
     <string name="pref_category_mapsRenderer">Renderer</string>
@@ -1579,7 +1579,7 @@
     <string name="prefGpsIntervalAdaptiveTitle">Adaptivní</string>
     <string name="success">Úspěch</string>
     <string name="prefOnlineElevationNoteSummary2">Pokud není k dispozici internet nebo licence, aplikace bude nadále fungovat bez opravy nadmořské výšky.</string>
-    <string name="dataStorageStatsMessage">%1$s MB, %2$s položek</string>
+    <string name="dataStorageStatsMessage">%1$s MB (%2$s položek)</string>
     <string name="prefOnlineElevationTitle">Online výška</string>
     <string name="prefGoogleMapsRenderer_0">Výchozí</string>
     <string name="infoMeterModePowerBalanceTitle">Vyvážení výkonu L/R</string>
@@ -1753,4 +1753,30 @@
     <string name="presetColorDefault">Přednastavená barva (výchozí)</string>
     <string name="customColor">Vlastní barva</string>
     <string name="prefOnlineElevationNoteSummary4">Upřednostněna je offline nadmořská výška.</string>
+    <string name="dateRangeLast365Days">Posledních 365 dní</string>
+    <string name="toastGpsFusedProviderFailedError">Chyba sloučeného GPS, zkontrolujte oprávnění sledovat polohu</string>
+    <string name="dateRangeToDate">Do</string>
+    <string name="menuSearch">Hledat</string>
+    <string name="dialogTrackEditReadOnlyInfo">Tuto trasu nelze změnit; je ve složce poze pro čtení.</string>
+    <string name="infoMeterModeAscentDistanceMsg">Ujetá vzdálenost do kopce.</string>
+    <string name="menuSelectProfile">Vybrat profil</string>
+    <string name="menuTimeRange">Časový rozsah</string>
+    <string name="unitManyTracks">tras</string>
+    <string name="dateRangeLast28Days">Posledních 28 dní</string>
+    <string name="dateRangeFromDate">Od</string>
+    <string name="infoMeterModeDescentDistanceTitle">Délka klesání</string>
+    <string name="dateRangeCustomDates">Vlastní data</string>
+    <string name="unitFourTracks">trasy</string>
+    <string name="menuSelectDates">Vybrat data</string>
+    <string name="infoMeterModeAscentDistanceTitle">Délka stoupání</string>
+    <string name="dateRangeLast7Days">Posledních 7 dní</string>
+    <string name="unitTwoTracks">trasy</string>
+    <string name="summaryTracksCount">Počet tras</string>
+    <string name="menuStatistics">Statistika</string>
+    <string name="unitZeroTracks">trasy</string>
+    <string name="infoMeterModeDescentDistanceMsg">Ujetá vzdálenost z kopce.</string>
+    <string name="unitThreeTracks">trasy</string>
+    <string name="dateRangeAllTime">Celá historie</string>
+    <string name="unitOneTrack">trasa</string>
+    <string name="summaryTracksCountInfo">Počet tras zaznamenaných v daném období.</string>
 </resources>
