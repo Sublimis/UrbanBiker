@@ -1036,6 +1036,8 @@
     <string name="pref_soundeffects_tally_radius_dialog_title">Radius tally</string>
     <string name="pref_soundeffects_tally_energy_title">Energy</string>
     <string name="pref_soundeffects_tally_energy_dialog_title">Energy tally</string>
+    <string name="pref_soundeffects_tally_gears_title">Gears</string>
+    <string name="pref_soundeffects_tally_gears_dialog_title">Gears tally</string>
     <string name="pref_soundeffects_alarm_title">Enable</string>
     <string name="pref_soundeffects_alarm_gpsPause_title">Forgotten pause</string>
     <string name="pref_soundeffects_alarm_gpsPause_summary">Alarm will sound when significant movement is detected while tracking is paused</string>
@@ -1143,6 +1145,7 @@
     <string name="pref_speechGnssStatus_summary">Speak on GPS status change (good, bad)</string>
     <string name="pref_speechTallies_title">Tallies</string>
     <string name="pref_speechTallies_summary">Speak tallies</string>
+    <string name="pref_speechTallies_note">Tallies are customized in the separate Tallies section. Click here to go there now.</string>
     <string name="pref_speechToasts_title">Short notes</string>
     <string name="pref_speechToasts_summary">Speak various short info notes</string>
     <string name="pref_speechCountdown_title">Countdown</string>
@@ -1231,6 +1234,8 @@
     <string name="prefSlopeInertialDisplayEnableInfo1">This is only useful when the phone is held in a fixed position relative to the vehicle, for example attached to handlebars or dashboard.</string>
     <string name="prefSlopeInertialDisplayEnableInfo2">The app automatically decides when to use the inclinometer based on the orientation and movement of your device. You will be notified by a small "sensor" icon in the corner of the Slope meter.</string>
     <string name="prefColorsTitle">Colors</string>
+    <string name="prefMapSnapZoomLevelsTitle">Snap zoom levels</string>
+    <string name="prefMapSnapZoomLevelsSummary">The map will snap to discrete half-step zoom levels when enabled (default). Disable for continuous zoom.</string>
 
     <string name="dataStorageTitle">Storage</string>
     <string name="dataStorageInfo1">Setting data storage location is recommended and useful to prevent accidental data loss if the app is uninstalled, and to make backups easier.</string>
@@ -1657,10 +1662,9 @@
     <string name="trackUploadActivityTypes_10">Other</string>
 
     <!-- sensorFilterInterval -->
-    <string name="sensorFilterInterval_0">3 seconds (default)</string>
-    <string name="sensorFilterInterval_1">5 seconds</string>
-    <string name="sensorFilterInterval_2">7 seconds</string>
-    <string name="sensorFilterInterval_3">10 seconds</string>
+    <string name="sensorFilterInterval_0">Low (default)</string>
+    <string name="sensorFilterInterval_1">Medium</string>
+    <string name="sensorFilterInterval_2">High</string>
 
     <!-- prefAdModes -->
     <string name="prefAdModes_0">Any</string>
@@ -1747,6 +1751,7 @@
     <string name="speechSteps">Steps: %1$s</string>
     <string name="speechRadius">Radius: %1$s</string>
     <string name="speechEnergy">Energy: %1$s</string>
+    <string name="speechGear">Gear: %1$s</string>
 
     <string name="speechCountdownGo">Go!</string>
     <string name="speechIncreasing">Rising</string>
