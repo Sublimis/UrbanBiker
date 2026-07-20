@@ -1163,16 +1163,16 @@
     <string name="summaryTotalWeightInfo">Bu rotayı kaydederken kullanılan tüm ağırlıkların toplamı (sürücü, araç, yük,…).</string>
     <string name="summaryRollResistCoefInfo">Yuvarlanma direnci katsayısı.</string>
     <string name="summaryBasalMetabolicRateInfo">Bazal metobalizma hızı(BMH).</string>
-    <string name="summaryLocationIntervalInfo">Bu kayıtta iki konum güncellemesi arasındaki ortalama zaman aralığı.</string>
-    <string name="summaryDeviceRestartsCountInfo">Bu aktivite sırasında uygulamanın zorla kapatılma ya da cihazın çalışmayı durdurma sayısı.</string>
-    <string name="summaryTotalTimeInfo">Bu kaydın başlangıç ve bitiş zamanı arasındaki zaman aralığı.</string>
+    <string name="summaryLocationIntervalInfo">Konum güncellemeleri arasındaki ortalama zaman aralığı.</string>
+    <string name="summaryDeviceRestartsCountInfo">Aktivite sırasında uygulamanın zorla kapatılma ya da cihazın çalışmayı durdurma sayısı.</string>
+    <string name="summaryTotalTimeInfo">Başlangıç ve bitiş zamanı arasındaki zaman aralığı.</string>
     <string name="summaryStoppedTimeInfo">Kaydın durdurulduğu, aktif olmadığı süre.</string>
     <string name="summaryHeartBeatsInfo">Aktivite sırasında kaydedilen kalp atışı sayısı.</string>
     <string name="summaryCadenceStrokesInfo">Aktivite sırasında kaydedilen pedal çevirme sayısı.</string>
     <string name="infoMeterModeFuncThresholdPowerTitle">İşlevsel eşik gücü</string>
     <string name="infoMeterModeFuncThresholdPowerMsg">Daha uzun süreler boyunca korunabilecek tahmini maksimum güç.
 \n
-\nTahmin, büyük ölçüde bu aktivitenin türüne ve süresine bağlıdır.</string>
+\nTahmin, büyük ölçüde aktivitenin türüne ve süresine bağlıdır.</string>
     <string name="infoDigitalFilterNotice">Lütfen dikkat: Bu, doğruluk için gereken kaçınılmaz dijital filtreleme gecikmeleri nedeniyle bazen gerçek zamandan fark edilir derecede gecikebilir.</string>
     <string name="pref_screenWaveDim_title">Ekranı karart</string>
     <string name="pref_screenWaveDim_summary">Pil tasarrufu için ekran da karartılır</string>
@@ -1188,9 +1188,9 @@
     <string name="dialogMapsChooseTitle">Harita seç</string>
     <string name="meterModes_30">Yarıçap</string>
     <string name="sensorProperitesFilterIntervalInfo">Filtre aralığı, yani filtrenin gücü. Daha büyük değerler, daha fazla filtre uygular ancak daha fazla gecikmeye neden olur.</string>
-    <string name="sensorFilterInterval_0">3 saniye (varsayılan)</string>
-    <string name="sensorFilterInterval_1">5 saniye</string>
-    <string name="sensorFilterInterval_2">7 saniye</string>
+    <string name="sensorFilterInterval_0">Düşük (varsayılan)</string>
+    <string name="sensorFilterInterval_1">Orta</string>
+    <string name="sensorFilterInterval_2">Yüksek</string>
     <string name="sensorFilterInterval_3">10 saniye</string>
     <string name="infoAutopauseForcedRelaxed">Not: Otomatik zorlanma durdurulmaya zorlandı</string>
     <string name="speechUnitManyMeters">Metre</string>
@@ -1382,7 +1382,7 @@
     <string name="infoContentSize">İçerik boyutu%1$d MB</string>
     <string name="menuRemove">Kaldır</string>
     <string name="prefScreensaverTimeoutEntries_6">1 dakika</string>
-    <string name="summaryDeviceAutoPauseCountInfo">Etkinlik süresince kaç defa oto-pause olduğunu gösterir.</string>
+    <string name="summaryDeviceAutoPauseCountInfo">Oto duraklama sayısı.</string>
     <string name="menuBell">Zil</string>
     <string name="menuInsertRight">Sağ</string>
     <string name="menuSelect">Seç</string>
@@ -1602,7 +1602,7 @@
     <string name="dataStorageInfo1">Uygulamanın kaldırılması durumunda kazara veri kaybını önlemek ve yedeklemeleri kolaylaştırmak için özel bir depolama konumu kullanmanız tavsiye edilir.</string>
     <string name="dataStorageTitle">Depolama</string>
     <string name="success">Başarılı</string>
-    <string name="dataStorageStatsMessage">%1$s MB, %2$s öğe</string>
+    <string name="dataStorageStatsMessage">%1$s MB (%2$s öğe)</string>
     <string name="speechUnitFourMiles">Mil</string>
     <string name="prefSteadyScreenImplementationInternal">Dahili (varsayılan)</string>
     <string name="dialogMapsMapCountManyMaps">%1$s haritalar</string>
@@ -1740,4 +1740,18 @@
     <string name="presetColorDefault">Hazır renk (varsayılan)</string>
     <string name="customColor">Kişiselleştirilmiş renk</string>
     <string name="prefOnlineElevationNoteSummary4">Çevrimdışı yükselti önceliklidir.</string>
+    <string name="dateRangeLast365Days">Son 365 gün</string>
+    <string name="dateRangeToDate">Şu tarihe kadar</string>
+    <string name="menuSelectProfile">Profil seç</string>
+    <string name="menuTimeRange">Zaman aralığı</string>
+    <string name="dateRangeLast28Days">Son 28 gün</string>
+    <string name="dateRangeFromDate">Şu tarihten</string>
+    <string name="dateRangeCustomDates">Seçili tarihler arası</string>
+    <string name="pref_speechTallies_note">Çeteleler, ayrılmış Çeteleler menüsünde kişiselleştirilebilir. Menüye gitmek için tıklayın.</string>
+    <string name="menuSelectDates">Tarih seç</string>
+    <string name="dateRangeLast7Days">Son 7 gün</string>
+    <string name="summaryTracksCount">Kayıt sayısı</string>
+    <string name="menuStatistics">İstatistikler</string>
+    <string name="dateRangeAllTime">Tüm zamanlar</string>
+    <string name="summaryTracksCountInfo">Seçili zaman aralığında kaydedilen rota sayısı.</string>
 </resources>
