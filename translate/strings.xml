@@ -347,7 +347,7 @@
     <string name="dialogMapsFollowMode">Follow</string>
     <string name="dialogMapsAutoRotate">Auto rotate</string>
     <string name="dialogMapsAutoZoom">Auto zoom</string>
-    <string name="dialogMapsAutoZoomSensitivity">Auto zoom sensitivity</string>
+    <string name="dialogMapsAutoTilt">Tilt</string>
     <string name="dialogMapsHighResolution">Hi-res map</string>
     <string name="dialogMapsRenderTerrain">Render terrain</string>
     <string name="dialogMapsWeatherRadar">Precipitation radar</string>
@@ -546,7 +546,7 @@
     <string name="meterModeSpeedVertical">climb speed</string>
     <string name="meterModeSpeedVerticalShort">c spd</string>
     <string name="meterModeSpeedAverage">average speed</string>
-    <string name="meterModeSpeedAverageShort">av spd</string>
+    <string name="meterModeSpeedAverageShort">avg spd</string>
     <string name="meterModePace">pace</string>
     <string name="meterModePaceShort">pace</string>
     <string name="meterModeDuration">duration</string>
@@ -560,7 +560,7 @@
     <string name="meterModePower">power</string>
     <string name="meterModePowerShort">pwr</string>
     <string name="meterModePowerAverage">average power</string>
-    <string name="meterModePowerAverageShort">av pwr</string>
+    <string name="meterModePowerAverageShort">avg pwr</string>
     <string name="meterModeFTPower">ft pwr</string>
     <string name="meterModeFTPowerShort">ftp</string>
     <string name="meterModeAcceleration">acceleration</string>
@@ -593,8 +593,12 @@
     <string name="meterModeAltitudeSlopeShort">slop</string>
     <string name="meterModeCadence">cadence</string>
     <string name="meterModeCadenceShort">cad</string>
+    <string name="meterModeCadenceAverage">average cadence</string>
+    <string name="meterModeCadenceAverageShort">avg cad</string>
     <string name="meterModeHeartRate">heart rate</string>
     <string name="meterModeHeartRateShort">hr</string>
+    <string name="meterModeHeartRateAverage">average heart rate</string>
+    <string name="meterModeHeartRateAverageShort">avg hr</string>
     <string name="meterModeGearRatio">gear ratio</string>
     <string name="meterModeGearRatioShort">g rat</string>
     <string name="meterModeKineticEnergy">kinetic energy</string>
@@ -1100,6 +1104,7 @@
     <string name="pref_mapsFollowAutorotateMode_summary">Keep the direction of travel pointing upwards</string>
     <string name="pref_mapsFollowAutoZoomMode_summary">Adjust map zoom level based on current speed</string>
     <string name="pref_mapsFollowAutoZoomSensitivity_info">You can adjust the auto zoom sensitivity on the fly by zooming in or out while tracking</string>
+    <string name="pref_mapsAutoTiltMode_summary">Keep the map tilted</string>
     <string name="pref_button_map_show_title">Map</string>
     <string name="pref_button_map_show_summary">Show the Map button</string>
     <string name="pref_button_theme_show_title">Theme</string>
@@ -1372,6 +1377,8 @@
     <string name="meterModes_13">Acceleration</string>
     <string name="meterModes_14">Avg. speed</string>
     <string name="meterModes_15">Avg. power</string>
+    <string name="meterModes_34">Avg. cadence</string>
+    <string name="meterModes_35">Avg. heart rate</string>
     <string name="meterModes_16">Elapsed time</string>
     <string name="meterModes_17">Pace</string>
     <string name="meterModes_18">Cadence</string>
@@ -1424,7 +1431,7 @@
 
     <!-- pref_autopause_modes_explanation -->
     <string name="pref_autopause_modes_explanation_0">Discard all pauses longer than few seconds</string>
-    <string name="pref_autopause_modes_explanation_1">Discard only pauses longer than 5 minutes</string>
+    <string name="pref_autopause_modes_explanation_1">Discard only somewhat longer pauses</string>
     <string name="pref_autopause_modes_explanation_2">Keep all pauses (unless paused manually)</string>
 
     <!-- pref_wakelock_modes -->
